@@ -1,0 +1,18 @@
+# Configuration file for training model.
+
+# data path
+task_name: immunology 
+corpus_dir: data/Mesh
+corpus_file: desc2023.xml
+
+dict_dir: data/Mesh/dict
+processed_dict_dir: data/Mesh/processed_dict
+cytokine_dict_file: cytokine.dict
+tf_dict_file: tf.dict
+t-lymphocyte_dict_file: t-lymphocyte.dict 
+protein_dict_file: protein.dict 
+
+
+document_root_dir: data/Mesh/pubmed/extract
+corpus_dir: data/Corpus
+brat_dataset_dir: data/Corpus/Brat
