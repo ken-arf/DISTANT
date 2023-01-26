@@ -8,7 +8,6 @@ from utils import utils
 
 from train import PUTrain 
 
-
 nlp = spacy.load("en_core_sci_sm")
 nlp.add_pipe("sentencizer")
 seed=68
