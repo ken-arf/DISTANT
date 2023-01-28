@@ -89,7 +89,6 @@ def train(df_train_pos, df_train_neg, parameters):
     patient_count = 0
     steps = 0
     for epoch in range(num_train_epochs):
-        break
 
         # Training
         pu_model.train()
@@ -149,7 +148,6 @@ def train(df_train_pos, df_train_neg, parameters):
 
 
     print("best_acc: {:.2f}".format(best_acc))
-
 
     # testing
     progress_bar_test = tqdm(range(len(test_dataloader)))
