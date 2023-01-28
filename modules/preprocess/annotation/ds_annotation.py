@@ -81,7 +81,10 @@ def entity_extract(sent, pmid,k):
 #   
 #       if re.match(r'-?\d+', ent.text):
 #           continue
-           
+
+       if len(get_synonyms(ent.text)) != 0:
+            continue
+
        entities.append(ent.text)
        start_tokens.append(int(ent.start))
        end_tokens.append(int(ent.end))
