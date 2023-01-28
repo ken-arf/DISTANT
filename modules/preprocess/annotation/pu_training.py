@@ -4,6 +4,7 @@ import scispacy
 import os
 import time
 import pickle
+import numpy as np
 import logging
 
 import torch
@@ -88,6 +89,7 @@ def train(df_train_pos, df_train_neg, parameters):
     patient_count = 0
     steps = 0
     for epoch in range(num_train_epochs):
+        break
 
         # Training
         pu_model.train()
@@ -162,7 +164,7 @@ def train(df_train_pos, df_train_neg, parameters):
         progress_bar_test.set_description("acc:{:.2f}".format(batch_acc))
         probs_list.append(probs)
 
-    neg_probs = np.stack(probs_list,axis=0)
+    neg_probs = np.vstack(probs_list)
 
     return neg_probs
 
@@ -237,7 +239,7 @@ def main():
     df_train_pos, df_train_neg = setup_dataset(step, parameters)
     neg_probs = train(df_train_pos, df_train_neg, parameters)
 
-    model_dir = prameters["model_dir"]
+    model_dir = parameters["model_dir"]
     df_train_pos.to_csv(os.path.join(model_dir, "train_pos.csv"))
     df_train_neg.to_csv(os.path.join(model_dir, "train_neg.csv"))
 
@@ -247,7 +249,6 @@ def main():
     print('Done!')
     t_end = time.time()                                                                                                  
     print('Took {0:.2f} seconds'.format(t_end - t_start))
-
 
 
 if __name__ == '__main__':                                                                                                                        
