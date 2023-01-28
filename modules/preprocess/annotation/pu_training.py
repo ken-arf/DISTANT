@@ -171,6 +171,7 @@ def train(df_train_pos, df_train_neg, parameters):
 
 def setup_dataset(step, parameters):
 
+    frac_spy = 0.05
     corpus_dir = parameters["corpus_dir"]
 
     seed = parameters["seed"]
@@ -189,23 +190,23 @@ def setup_dataset(step, parameters):
     df_train_2 =  df_train_raw[df_train_raw["label"]==2]
 
 
-    df_train_0_sample = df_train_0.sample(frac=0.1, random_state=seed)
-    df_train_1_sample = df_train_1.sample(frac=0.1, random_state=seed)
-    df_train_2_sample = df_train_2.sample(frac=0.1, random_state=seed)
+    df_train_0_spy = df_train_0.sample(frac=frac_spy, random_state=seed)
+    df_train_1_spy = df_train_1.sample(frac=frac_spy, random_state=seed)
+    df_train_2_spy = df_train_2.sample(frac=frac_spy, random_state=seed)
 
 
 
-    indexes = [k for k in df_train_0.index.tolist() if k not in df_train_0_sample.index.tolist()]
+    indexes = [k for k in df_train_0.index.tolist() if k not in df_train_0_spy.index.tolist()]
     df_train_0_diff = df_train_0.loc[indexes]
 
-    indexes = [k for k in df_train_1.index.tolist() if k not in df_train_1_sample.index.tolist()]
+    indexes = [k for k in df_train_1.index.tolist() if k not in df_train_1_spy.index.tolist()]
     df_train_1_diff = df_train_1.loc[indexes]
 
-    indexes = [k for k in df_train_2.index.tolist() if k not in df_train_2_sample.index.tolist()]
+    indexes = [k for k in df_train_2.index.tolist() if k not in df_train_2_spy.index.tolist()]
     df_train_2_diff = df_train_2.loc[indexes]
 
     df_train_pos_step = pd.concat([df_train_0_diff, df_train_1_diff, df_train_2_diff])
-    df_train_neg_step = pd.concat([df_unknown, df_train_0_sample, df_train_1_sample, df_train_2_sample])
+    df_train_neg_step = pd.concat([df_unknown, df_train_0_spy, df_train_1_spy, df_train_2_spy])
 
 
     print("df_train_raw", df_train_raw.shape)
@@ -213,7 +214,7 @@ def setup_dataset(step, parameters):
     print("df_train_neg_step", df_train_neg_step.shape)
 
     df_train_neg_step.rename(columns={"label": "olabel"}, inplace=True)
-    labels = [3] * df_train_neg_step.shape[0]
+    labels = [-1] * df_train_neg_step.shape[0]
     df_train_neg_step["label"] = labels
 
     df_train_pos_step["olabel"] = df_train_pos_step.loc[:,"label"]

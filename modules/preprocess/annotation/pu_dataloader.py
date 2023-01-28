@@ -57,8 +57,9 @@ class PU_Dataloader:
     def load_data(self):
 
         # shuffle dataset
-        df_train = pd.concat([self.df_train_pos, self.df_train_neg], axis=0)
 
+        #df_train = pd.concat([self.df_train_pos, self.df_train_neg], axis=0)
+        df_train = self.df_train_pos
         df_train = df_train.sample(frac=1, replace=False, random_state=self.myseed)
 
         n = len(df_train)
@@ -77,7 +78,6 @@ class PU_Dataloader:
             "test": test_dataset,
             })
 
-        
         tokenized_datasets = self.datasets.map(
                 self.tokenized_and_align_labels,
                 batched = True,
