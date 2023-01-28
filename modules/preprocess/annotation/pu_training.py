@@ -89,7 +89,6 @@ def train(df_train_pos, df_train_neg, parameters):
     patient_count = 0
     steps = 0
     for epoch in range(num_train_epochs):
-        break
 
         # Training
         pu_model.train()
@@ -149,7 +148,6 @@ def train(df_train_pos, df_train_neg, parameters):
 
     print("best_acc: {:.2f}".format(best_acc))
 
-
     # load best model
     pu_model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
 
@@ -184,6 +182,8 @@ def setup_dataset(step, parameters):
     df_train_raw = df_train_raw.dropna()
 
     df_train_raw.reset_index(drop=True, inplace=True)
+
+    df_train_raw["orig_index"] = df_train_raw.index
 
 
     df_unknown = df_train_raw[df_train_raw["label"]==-1]
@@ -235,19 +235,24 @@ def main():
     utils._print_config(parameters, config_path)
 
 
-    step = 1
     # check running time
     t_start = time.time()                                                                                                  
 
-    df_train_pos, df_train_neg = setup_dataset(step, parameters)
-    neg_probs = train(df_train_pos, df_train_neg, parameters)
 
-    model_dir = parameters["model_dir"]
-    df_train_pos.to_csv(os.path.join(model_dir, "train_pos.csv"))
-    df_train_neg.to_csv(os.path.join(model_dir, "train_neg.csv"))
+    for step in range(3):
 
-    with open(os.path.join(model_dir, "neg_prob.pkl"), 'bw') as fp:
-        pickle.dump(neg_probs, fp)
+        parameters["seed"] = step
+        df_train_pos, df_train_neg = setup_dataset(step, parameters)
+        neg_probs = train(df_train_pos, df_train_neg, parameters)
+
+        df_train_neg["prob_0"] = neg_probs[:,0]
+        df_train_neg["prob_1"] = neg_probs[:,1]
+        df_train_neg["prob_2"] = neg_probs[:,2]
+
+        model_dir = parameters["model_dir"]
+        df_train_pos.to_csv(os.path.join(model_dir, f"train_pos_{step}.csv"))
+        df_train_neg.to_csv(os.path.join(model_dir, f"train_neg_{step}.csv"))
+
 
     print('Done!')
     t_end = time.time()                                                                                                  
