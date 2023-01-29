@@ -10,6 +10,7 @@ Long
 nltk_data
 test
 KB
+TCRE
 
 # C extensions
 *.so

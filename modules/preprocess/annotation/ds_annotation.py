@@ -257,8 +257,8 @@ def main():
         path = os.path.join(Mesh_dict_dir, fname)
         with open(path) as fp:
             lines = [l.strip() for l in fp.readlines()]
-            dist_dict[fname] = lines
-
+            lines_lower = [l.strip().lower() for l in fp.readlines()]
+            dist_dict[fname] = lines + lines_lower 
 
     lfs = [lf_cytokine_distsv,lf_tf_distsv, lf_t_lymphocyte_distsv]
 
