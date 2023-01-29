@@ -9,6 +9,7 @@ data
 Long
 nltk_data
 test
+KB
 
 # C extensions
 *.so
