@@ -22,6 +22,7 @@ from utils import utils
 
 from pu_dataloader import PU_Dataloader 
 from pu_model import PU_Model 
+from pu_neg_samples import extract_neg_index
 
 from measure import performance
 import pdb
@@ -169,7 +170,7 @@ def train(df_train_pos, df_train_neg, parameters):
     return neg_probs
 
 
-def setup_dataset(step, parameters):
+def setup_pu_dataset(step, parameters):
 
     frac_spy = 0.05
     corpus_dir = parameters["corpus_dir"]
@@ -197,7 +198,6 @@ def setup_dataset(step, parameters):
     df_train_2_spy = df_train_2.sample(frac=frac_spy, random_state=seed)
 
 
-
     indexes = [k for k in df_train_0.index.tolist() if k not in df_train_0_spy.index.tolist()]
     df_train_0_diff = df_train_0.loc[indexes]
 
@@ -223,6 +223,68 @@ def setup_dataset(step, parameters):
 
     return df_train_pos_step, df_train_neg_step
 
+def setup_final_dataset(neg_index, parameters):
+
+    corpus_dir = parameters["corpus_dir"]
+    df_train_raw = pd.read_csv(os.path.join(corpus_dir,"df_train_raw.csv"), index_col=0)
+    df_train_raw = df_train_raw.dropna()
+    df_train_raw.reset_index(drop=True, inplace=True)
+    df_train_raw["orig_index"] = df_train_raw.index
+    df_train_raw["olabel"] = df_train_raw.loc[:,"label"]
+
+    df_neg = df_train_raw.iloc[neg_index]
+    df_neg.loc[:, "label"] = 3
+
+    df_unknown = df_train_raw[df_train_raw["label"]==-1]
+    df_train_0 =  df_train_raw[df_train_raw["label"]==0]
+    df_train_1 =  df_train_raw[df_train_raw["label"]==1]
+    df_train_2 =  df_train_raw[df_train_raw["label"]==2]
+
+    test_index = df_unknown.index.difference(df_neg.index)
+
+    df_test = df_train_raw.iloc[test_index]
+    
+    df_pos = pd.concat([df_train_0, df_train_1, df_train_2])
+    df_train = pd.concat([df_pos, df_neg])
+
+    return df_train, df_test
+
+
+def extract_negative_samples(parameters):
+
+    parameters["class_num"] = 3
+    for step in range(3):
+
+        parameters["seed"] = step
+        df_train_pos, df_train_neg = setup_pu_dataset(step, parameters)
+        neg_probs = train(df_train_pos, df_train_neg, parameters)
+
+        df_train_neg["prob_0"] = neg_probs[:,0]
+        df_train_neg["prob_1"] = neg_probs[:,1]
+        df_train_neg["prob_2"] = neg_probs[:,2]
+
+        model_dir = parameters["model_dir"]
+        df_train_pos.to_csv(os.path.join(model_dir, f"train_pos_{step}.csv"))
+        df_train_neg.to_csv(os.path.join(model_dir, f"train_neg_{step}.csv"))
+
+    return true_neg_indexes
+
+def classify_unknown_samples(neg_index, parameters):
+
+    parameters["class_num"] = 4
+    df_train_pos, df_train_neg = setup_final_dataset(neg_index, parameters)
+    neg_probs = train(df_train_pos, df_train_neg, parameters)
+
+    df_train_neg["prob_0"] = neg_probs[:,0]
+    df_train_neg["prob_1"] = neg_probs[:,1]
+    df_train_neg["prob_2"] = neg_probs[:,2]
+    df_train_neg["prob_3"] = neg_probs[:,3]
+
+    model_dir = parameters["model_dir"]
+    df_train_pos.to_csv(os.path.join(model_dir, f"train_final_pos.csv"))
+    df_train_neg.to_csv(os.path.join(model_dir, f"train_final_neg.csv"))
+
+
 def main():
 
     # set config path by command line
@@ -234,25 +296,15 @@ def main():
     # print config
     utils._print_config(parameters, config_path)
 
-
     # check running time
     t_start = time.time()                                                                                                  
 
-
-    for step in range(3):
-
-        parameters["seed"] = step
-        df_train_pos, df_train_neg = setup_dataset(step, parameters)
-        neg_probs = train(df_train_pos, df_train_neg, parameters)
-
-        df_train_neg["prob_0"] = neg_probs[:,0]
-        df_train_neg["prob_1"] = neg_probs[:,1]
-        df_train_neg["prob_2"] = neg_probs[:,2]
-
-        model_dir = parameters["model_dir"]
-        df_train_pos.to_csv(os.path.join(model_dir, f"train_pos_{step}.csv"))
-        df_train_neg.to_csv(os.path.join(model_dir, f"train_neg_{step}.csv"))
-
+    #extract_negative_samples(parameters)
+    model_dir = parameters["model_dir"]
+    true_neg_index = extract_neg_index(model_dir)
+    
+    # classify unknown samples
+    classify_unknown_samples(true_neg_index, parameters)
 
     print('Done!')
     t_end = time.time()                                                                                                  

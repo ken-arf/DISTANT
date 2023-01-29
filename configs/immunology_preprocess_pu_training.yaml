@@ -25,7 +25,6 @@ model_checkpoint: allenai/scibert_scivocab_cased
 # nn model
 dropout_rate: 0.3
 embedding_dim: 768
-class_num: 3
 
 # gpu
 gpu: -1
