@@ -269,7 +269,7 @@ def extract_negative_samples(parameters):
         df_train_pos.to_csv(os.path.join(model_dir, f"train_pos_{step}.csv"))
         df_train_neg.to_csv(os.path.join(model_dir, f"train_neg_{step}.csv"))
 
-    return true_neg_indexes
+    return
 
 def classify_unknown_samples(neg_index, parameters):
 
