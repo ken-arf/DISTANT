@@ -15,4 +15,6 @@ protein_dict_file: protein.dict
 
 document_root_dir: data/Mesh/pubmed/extract
 corpus_dir: data/Corpus
+#train_csv_name: df_pu_train.csv
+train_csv_name: df_train.csv
 brat_dataset_dir: data/Corpus/Brat

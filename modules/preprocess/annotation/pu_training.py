@@ -21,8 +21,10 @@ from tqdm.auto import tqdm
 from utils import utils
 
 from pu_dataloader import PU_Dataloader 
-from pu_model import PU_Model 
-from pu_neg_samples import extract_neg_index
+#from pu_model import PU_Model 
+from pu_model2 import PU_Model 
+from pu_samples import extract_neg_index
+from pu_samples import generate_final_pos_samples
 
 from measure import performance
 import pdb
@@ -299,12 +301,26 @@ def main():
     # check running time
     t_start = time.time()                                                                                                  
 
-    #extract_negative_samples(parameters)
+
+    # step-1.
+    # skip negative sample
+    extract_negative_samples(parameters)
     model_dir = parameters["model_dir"]
     true_neg_index = extract_neg_index(model_dir)
     
+    # step-2.
+    # skip pu sample generation
     # classify unknown samples
     classify_unknown_samples(true_neg_index, parameters)
+
+    # generate final PU training dataset
+    df_pu_train = generate_final_pos_samples(parameters)
+
+    # step-3.
+    # save pu training dataset
+    fname = os.path.join(parameters["corpus_dir"], "df_pu_train.csv")
+    df_pu_train.to_csv(fname)
+
 
     print('Done!')
     t_end = time.time()                                                                                                  

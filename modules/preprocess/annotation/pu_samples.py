@@ -44,5 +44,44 @@ def extract_neg_index(model_dir):
     return true_neg_indexes
 
 
+def generate_final_pos_samples(parameters):
+    
+    model_dir = parameters["model_dir"]
+    
+    # load pu training dataset
+    df_pos = pd.read_csv(os.path.join(model_dir, "train_final_pos.csv"))
+    # load pu testing dataset
+    df_neg = pd.read_csv(os.path.join(model_dir, "train_final_neg.csv"))
+    
+    # extract prob information
+    prob=df_neg[["prob_0","prob_1","prob_2","prob_3"]].values
+    predict=np.argmax(prob, axis=1).tolist()
+    df_neg["predict"]=predict
+    
+    #  take only positive results
+    df_pos_inf=df_neg[df_neg["predict"]!=3]
+    
+    # aling colums names
+    df_pos_inf.loc[:,"label"]=df_pos_inf.loc[:,"predict"]
+    df_pos_inf = df_pos_inf.drop(["prob_0","prob_1","prob_2","prob_3", "predict"], axis=1)
+    
+    # remove true negative samples from training data
+    df_pos = df_pos[df_pos["label"]!=3]
+    
+    # concat pos training and pos samples from inferences
+    df_pu_train = pd.concat([df_pos, df_pos_inf], axis=0)
+    
+    columns = ["entities","start_chars","end_chars","text","pmid","label"]
+    df_pu_train = df_pu_train[columns]
+    
+    df_pu_train = df_pu_train.sort_values(by=['pmid'])
+    
+    df_pu_train['start_chars'] = df_pu_train['start_chars'].apply(np.int64)
+    df_pu_train['end_chars'] = df_pu_train['end_chars'].apply(np.int64)
+    
+    return df_pu_train
+
+
+
 
 

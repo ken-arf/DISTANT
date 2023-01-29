@@ -3,6 +3,7 @@ import pandas as pd
 import json
 import os
 import time
+import shutil
 from tqdm import tqdm
 
 from utils import utils
@@ -10,6 +11,22 @@ from utils import utils
 CYTOKINE=0
 TRANSCRIPTION_FACTOR=1
 T_LYMPHOCYTE=2
+
+def apply_group(df):
+
+    df['start_chars'] = df['start_chars'].apply(str)
+    df['end_chars'] = df['end_chars'].apply(str)
+    df['label'] = df['label'].apply(str)
+    df_entities = df.groupby(['text', 'pmid'], as_index=False).agg({'entities': ','.join})
+    df_start_chars = df.groupby(['text', 'pmid'], as_index=False).agg({'start_chars': ','.join})
+    df_end_chars = df.groupby(['text', 'pmid'], as_index=False).agg({'end_chars': ','.join})
+    df_label = df.groupby(['text', 'pmid'], as_index=False).agg({'label': ','.join})
+    
+    df_entities["start_chars"] = df_start_chars["start_chars"]
+    df_entities["end_chars"] = df_end_chars["end_chars"]
+    df_entities["label"] = df_label["label"]
+    
+    return df_entities
 
 def main():
 
@@ -26,32 +43,25 @@ def main():
     # print config                                                                                                         
     utils._print_config(parameters, config_path)
 
-    train_csv = os.path.join(parameters["corpus_dir"], "df_train.csv")
+    train_csv = os.path.join(parameters["corpus_dir"], parameters["train_csv_name"])
 
     df_train=pd.read_csv(train_csv, index_col=0)
     df_train=df_train[["entities","start_chars", "end_chars","text","pmid","label"]]
     df_train.reset_index(drop=True, inplace=True)
 
     df_train=df_train.sort_values(["pmid"])
-    df_group=df_train.groupby(["pmid"])
 
-    #print(df_train)
-
-    df_train["entities"]=df_group["entities"].transform(lambda labels: ','.join(str(label) for label in labels))
-    df_train["label"]=df_group["label"].transform(lambda labels: ','.join(str(label) for label in labels))
-    df_train["start_chars"]=df_group["start_chars"].transform(lambda labels: ','.join(str(label) for label in labels))
-    df_train["end_chars"]=df_group["end_chars"].transform(lambda labels: ','.join(str(label) for label in labels))
-
-    #print(df_train.head)
-
-
-    df_train_clean=df_train.drop_duplicates()
+    df_train_clean = apply_group(df_train)
     df_train_clean.reset_index(drop=True, inplace=True)
 
 
-    df_train_clean.to_csv(os.path.join(parameters["corpus_dir"], "df_train_clean.csv"))
+    basename, ext = os.path.splitext(parameters["train_csv_name"])
+    df_train_clean.to_csv(os.path.join(parameters["corpus_dir"], f"{basename}_clean.csv"))
 
     data_dir = parameters["brat_dataset_dir"]
+    if os.path.exist(data_dir):
+        shutil.rmtree(data_dir)
+
     utils.makedir(data_dir)
 
     entity_types = {}
