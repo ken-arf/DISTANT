@@ -60,6 +60,49 @@ nlp.add_pipe("abbreviation_detector")
 nlp.add_pipe("sentencizer")
 
 
+lemmatizer = WordNetLemmatizer()
+
+greek_name = ['alpha','beta','gamma','delta','epsilon','zeta','eta','theta','iota','kappa', 'lambda','mu','nu','xi','omicron',
+              'pi','pho','sigma','tau','upsilon','phi','chi','psi','omega']
+greek_letter = list('αβγδεζηθικλμνξοπρστυφχψω')
+    
+greek_translate = {l:w for l, w in zip(greek_letter, greek_name)}
+    
+synonym_table = {        
+        'lymphocyte': 'cell',
+        'lymphocyte': 'lymph cell',
+        'cell': 'lymphocyte',
+        'cell': 'lymph cell'
+        '+':'positive',
+        '-':'negative',    
+}
+
+
+synonym_table.update(greek_translate)
+
+def min_edit_distance(ref, src):
+
+    lemmatizer = WordNetLemmatizer()
+    ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
+    src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
+    
+    min_l = ed.eval(ref, src)
+ 
+    # synonym word exchange
+    for k, v in synonym_table.items():
+        src2 = src.replace(k, v)
+        l = ed.eval(ref, src2)
+        if l < min_l:
+                min_l = l
+                src = src2
+                
+        
+    src = re.sub(r'\W', '',src)
+    ref = re.sub(r'\W', '',ref)
+    min_l = ed.eval(ref, src)
+    return min_l
+ 
+
 def get_synonyms(word):
     """Get the synonyms of word from Wordnet."""
     lemmas = set().union(*[s.lemmas() for s in wn.synsets(word)])
@@ -112,7 +155,8 @@ def lf_cytokine_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
     ent = x.entities.lower()
     for phrase in dist_dict['cytokine.dict']:
-        if ed.eval(ent,phrase.lower()) <= max_dist:
+        #if ed.eval(ent,phrase.lower()) <= max_dist:
+        if min_edit_distance(phrase, ent) <= max_dist:
             return CYTOKINE
     return ABSTAIN
 
@@ -123,7 +167,8 @@ def lf_tf_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
     ent = x.entities.lower()
     for phrase in dist_dict['tf.dict']:
-        if ed.eval(ent,phrase.lower()) <= max_dist:
+        #if ed.eval(ent,phrase.lower()) <= max_dist:
+        if min_edit_distance(phrase, ent) <= max_dist:
             return TRANSCRIPTION_FACTOR
     return ABSTAIN
 
@@ -134,7 +179,8 @@ def lf_t_lymphocyte_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
     ent = x.entities.lower()
     for phrase in dist_dict['t-lymphocyte.dict']:
-        if ed.eval(ent,phrase.lower()) <= max_dist:
+        #if ed.eval(ent,phrase.lower()) <= max_dist:
+        if min_edit_distance(phrase, ent) <= max_dist:
             return T_LYMPHOCYTE
     return ABSTAIN
 
@@ -145,7 +191,8 @@ def lf_protein_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
     ent = x.entities.lower()
     for phrase in dist_dict['protein.dict'].split():
-        if ed.eval(ent,phrase.lower()) <= max_dist:
+        #if ed.eval(ent,phrase.lower()) <= max_dist:
+        if min_edit_distance(phrase, ent) <= max_dist:
             return PROTEIN
     return ABSTAIN
 
@@ -161,7 +208,6 @@ def tf_replace_word_with_synonym(x):
     if len(synonyms) > 0:
         x.text = " ".join(words[:idx] + [synonyms[0]] + words[idx + 1 :])
         return x
-
 
 
 

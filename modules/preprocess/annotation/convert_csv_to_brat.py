@@ -59,7 +59,7 @@ def main():
     df_train_clean.to_csv(os.path.join(parameters["corpus_dir"], f"{basename}_clean.csv"))
 
     data_dir = parameters["brat_dataset_dir"]
-    if os.path.exist(data_dir):
+    if os.path.exists(data_dir):
         shutil.rmtree(data_dir)
 
     utils.makedir(data_dir)

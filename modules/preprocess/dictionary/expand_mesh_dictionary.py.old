@@ -22,6 +22,74 @@ import xmltodict
 import pdb
 
 
+def min_edit_distance(ref, src):
+    
+    synonym_table = {        
+        'lymphocyte': 'cell',
+        'cell': 'lymphocyte',
+    }
+        
+    translate_table = [
+        {'_': ''},
+        {'-': ''},
+        {'(':'',')':''},
+        {'+':'positive'},
+        {'-': 'negative'},
+        {'+':' positive'},
+        {'-': ' negative'},
+        {'α': 'alpha', 'β': 'beta', 'γ': 'gamma'},
+        {'α': ' alpha', 'β': ' beta', 'γ': ' gamma'},
+    ]
+    
+    lemmatizer = WordNetLemmatizer()
+    ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
+    src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
+    
+    min_l = ed.eval(ref, src)
+ 
+    # random word replace
+    for k, v in synonym_table.items():
+        src2 = src.replace(k, v)
+        l = ed.eval(ref, src2)
+        if l < min_l:
+                min_l = l
+                src = src2
+                
+
+    # random char replace
+    index = np.arange(len(translate_table))
+    for i in range(20):
+        ref = ref.lower()
+        src = src.lower()
+        
+        random.shuffle(index)
+        for i in index:
+            tr_table = translate_table[i]
+            src2 = src.translate(str.maketrans(tr_table))
+
+            l = ed.eval(ref, src2)
+            if l < min_l:
+                min_l = l
+                src = src2
+
+    # random space removal
+    for i in range(20):
+        src_list = list(src)
+        space_index = [i for i,val in enumerate(src_list) if val==' ']
+        k = random.randint(0,len(space_index)-1)
+        del src_list[k]
+        
+        src2 = ''.join(src_list)
+        l = ed.eval(ref, src2)
+        if l < min_l:
+            min_l = l
+            src = src2
+        
+    src = re.sub(r'\W', '',src)
+    ref = re.sub(r'\W', '',ref)
+    min_l = ed.eval(ref, src)
+    return min_l
+ 
 
 def get_synonyms(word):
     """Get the synonyms of word from Wordnet."""
