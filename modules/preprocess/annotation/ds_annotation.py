@@ -72,7 +72,7 @@ synonym_table = {
         'lymphocyte': 'cell',
         'lymphocyte': 'lymph cell',
         'cell': 'lymphocyte',
-        'cell': 'lymph cell'
+        'cell': 'lymph cell',
         '+':'positive',
         '-':'negative',    
 }
