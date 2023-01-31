@@ -200,7 +200,10 @@ def main():
                     'tf_dict_file',
                     't-lymphocyte_dict_file',
                     'protein_dict_file',
-                    'cell_dict_file']
+                    'cell_dict_file',
+                    'cell-line_dict_file',
+                    'DNA_dict_file',
+                    'RNA_dict_file']
 
     dict_paths = [os.path.join(parameters['dict_dir'],parameters[etype]) for etype in entity_types]
 

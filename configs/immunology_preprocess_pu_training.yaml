@@ -13,11 +13,11 @@ t-lymphocyte_dict_file: t-lymphocyte.dict
 protein_dict_file: protein.dict 
 
 document_root_dir: data/Mesh/pubmed/extract
-corpus_dir: data/Corpus
+corpus_dir: data/Corpus/Immunology
 
 
 # model save dir
-model_dir: experiments/models
+model_dir: experiments/Immunology/models
 
 # bert model
 seed: 22
