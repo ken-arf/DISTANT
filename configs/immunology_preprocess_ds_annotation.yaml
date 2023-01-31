@@ -14,4 +14,4 @@ protein_dict_file: protein.dict
 
 
 document_root_dir: data/Mesh/pubmed/extract
-corpus_dir: data/Corpus
+corpus_dir: data/Corpus/Immunology
