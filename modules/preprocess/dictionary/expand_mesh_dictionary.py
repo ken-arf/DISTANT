@@ -25,6 +25,10 @@ import pdb
 
 def get_synonyms(word):
     """Get the synonyms of word from Wordnet."""
+
+    if not re.fullmatch(r'\w+', word.lower()):
+        return [] 
+
     lemmas = set().union(*[s.lemmas() for s in wn.synsets(word)])
     return list(set(l.name().lower().replace("_", " ") for l in lemmas) - {word})
 
@@ -105,7 +109,6 @@ def expand_dict(dict_path, parameters):
     # remove term if it has any synonyms, which indicate the term is a word. 
     new_terms = [term for term in terms_ if len(get_synonyms(term)) == 0]
 
-
     newdir = parameters['processed_dict_dir']
     utils.makedir(newdir)
     _, fname = os.path.split(dict_path)
@@ -136,6 +139,11 @@ def disambiguate_dict(dicts):
         print(key, len(terms))
 
     for etype in entity_types:
+
+        # skip the disambiguation process for cell
+        if etype == "cell_dict_file":
+            continue
+
         terms = dicts[etype]
         new_terms = set(terms).difference(set(tcell_terms))
         dicts[etype] = sorted(new_terms)
@@ -191,7 +199,8 @@ def main():
     entity_types = ['cytokine_dict_file',
                     'tf_dict_file',
                     't-lymphocyte_dict_file',
-                    'protein_dict_file']
+                    'protein_dict_file',
+                    'cell_dict_file']
 
     dict_paths = [os.path.join(parameters['dict_dir'],parameters[etype]) for etype in entity_types]
 

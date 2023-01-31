@@ -3368,6 +3368,7 @@ HSV 1
 HSV 1 Protein
 HSV 1 Protein VP 16
 HSV 1 Protein VP16
+HSV-1
 HSV-1 Protein
 HSV-1 Protein VP-16
 HSV-1 Protein VP16
@@ -6036,6 +6037,7 @@ Proto Oncogene Proteins jun
 Proto Oncogene Proteins myb
 Proto Oncogene Proteins myc
 Proto Oncogene Proteins rel
+Proto-Oncogene
 Proto-Oncogene Product
 Proto-Oncogene Product p39
 Proto-Oncogene Product p62
@@ -11771,6 +11773,7 @@ hrx
 hsv
 hsv 1
 hsv 1 protein
+hsv-1
 hsv-1 alpha-tif
 hsv-1 protein
 hsv-1 protein vp-16

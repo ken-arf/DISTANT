@@ -102,8 +102,8 @@ def main():
     # check running time                                                                                                   
     t_start = time.time()                                                                                                  
 
-    filenames = ["tf.dict", "cytokine.dict", "tcell.dict", "t-lymphocyte.dict", "protein.dict"]
-    mesh_terms = ["Transcription Factors", "Cytokines","Genes, T-Cell Receptor","T-Lymphocytes", "Proteins"]  
+    filenames = ["tf.dict", "cytokine.dict", "tcell.dict", "t-lymphocyte.dict", "protein.dict", "cell.dict"]
+    mesh_terms = ["Transcription Factors", "Cytokines","Genes, T-Cell Receptor","T-Lymphocytes", "Proteins", "Cells"]  
     #filenames = ["proteins.dict"]
     #mesh_terms = ["Proteins"]
     # check running time                                                                                                   
