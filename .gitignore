@@ -5,12 +5,14 @@ __pycache__/
 .DS_Store
 *.pth
 *.pkl
-data
 Long
 nltk_data
 test
 KB
 TCRE
+Brat*
+pubmed
+*xml
 
 # C extensions
 *.so
