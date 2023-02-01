@@ -104,8 +104,7 @@ def min_edit_distance(ref, src):
 
 def get_synonyms(word):
     """Get the synonyms of word from Wordnet."""
-    lemmas = set().union(*[s.lemmas() for s in wn.synsets(word)])
-    return list(set(l.name().lower().replace("_", " ") for l in lemmas) - {word})
+    return wn.synsets(word.lower())
 
 def entity_extract(sent, pmid,k):
        
@@ -276,7 +275,7 @@ def main():
         _, fname = os.path.split(document_path)
         pmid, _ = os.path.splitext(fname)
         with open(document_path) as fp:
-            text = fp.read()
+            text = fp.read().strip()
             doc = nlp(text)
             for k, sent in enumerate(doc.sents):
                 df=entity_extract(nlp(sent.text), pmid,k)

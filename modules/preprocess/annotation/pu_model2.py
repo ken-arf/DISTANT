@@ -43,10 +43,9 @@ import pdb
 
 class PU_Model(nn.Module):
 
-    def __init__(self, dataloader, params, logger):
+    def __init__(self, params, logger):
         super(PU_Model, self).__init__()
 
-        self.dataloader = dataloader
         self.params = params
         self.logger = logger
         self.myseed = self.params["seed"] 
@@ -127,7 +126,7 @@ class PU_Model(nn.Module):
         attention_mask = kargs["attention_mask"]
         start_pos = kargs["start_positions"]
         end_pos = kargs["end_positions"]
-        labels = kargs["labels"]
+        #labels = kargs["labels"]
 
         #Extract outputs from the body
         bert_outputs = self.bert_model(input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)

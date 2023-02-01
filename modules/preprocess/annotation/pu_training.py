@@ -56,7 +56,7 @@ def train(df_train_pos, df_train_neg, parameters):
     else:
         device = "cpu"
 
-    pu_model = PU_Model(pu_dataloader, parameters, logger)
+    pu_model = PU_Model(parameters, logger)
 
     if parameters['restore_model'] == True:
         pu_model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
@@ -301,16 +301,19 @@ def main():
     # check running time
     t_start = time.time()                                                                                                  
 
-
     # step-1.
-    # skip negative sample
+    # extract (true) negative samples
+    # use PU-algorithm to extract possibly true negative samples from unknown samples
+    # by using spy positive samples. We iterate this process three timees, then extract
+    # negative samples by the common sample set from the three sets of negative samples
     extract_negative_samples(parameters)
     model_dir = parameters["model_dir"]
     true_neg_index = extract_neg_index(model_dir)
     
     # step-2.
-    # skip pu sample generation
     # classify unknown samples
+    # By using the positive and the negative samples extractd in step 1, we train a NN classifier
+    # to classify each sample whether it is one of the possitive classes or negative class
     classify_unknown_samples(true_neg_index, parameters)
 
     # generate final PU training dataset

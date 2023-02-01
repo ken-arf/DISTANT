@@ -8,6 +8,9 @@ from tqdm import tqdm
 
 from utils import utils
 
+from nltk.corpus import wordnet as wn
+from nltk.stem import PorterStemmer, WordNetLemmatizer, LancasterStemmer
+
 CYTOKINE=0
 TRANSCRIPTION_FACTOR=1
 T_LYMPHOCYTE=2
@@ -27,6 +30,11 @@ def apply_group(df):
     df_entities["label"] = df_label["label"]
     
     return df_entities
+
+def get_synonyms(word):
+    """Get the synonyms of word from Wordnet."""
+    return wn.synsets(word.lower())
+
 
 def main():
 
@@ -87,13 +95,23 @@ def main():
         ann_file = os.path.join(data_dir, f"PMID_{pmid}.ann")
         
         with open(txt_file, 'w') as txt_fp:
-            txt_fp.write("{}\n".format(row["text"]))
+            txt_fp.write("{}\n".format(row["text"].strip()))
+            doc_len = len(row["text"].strip())
+        
         
         with open(ann_file, 'w') as ann_fp:
             for k, (entity, label, char_offset) in  enumerate(zip(entities, labels, char_offsets)):
-                
+
+                if len(get_synonyms(entity)) != 0:
+                    continue
+                    
+                start_char = char_offset[0]
+                end_char = char_offset[1]
+                if end_char > doc_len:
+                    end_char = doc_len
+
                 entity_type = entity_types[int(label)]
-                ann_fp.write(f"T{k+1}\t{entity_type} {char_offset[0]} {char_offset[1]}\t{entity}\n")
+                ann_fp.write(f"T{k+1}\t{entity_type} {start_char} {end_char}\t{entity}\n")
 
     print('Done!')
     t_end = time.time()                                                                                                  
