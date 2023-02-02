@@ -64,7 +64,7 @@ def main():
 
 
     basename, ext = os.path.splitext(parameters["train_csv_name"])
-    df_train_clean.to_csv(os.path.join(parameters["corpus_dir"], f"{basename}_clean.csv"))
+    df_train_clean.to_csv(os.path.join(parameters["corpus_dir"], f"{basename}_group_clean.csv"))
 
     data_dir = parameters["brat_dataset_dir"]
     if os.path.exists(data_dir):

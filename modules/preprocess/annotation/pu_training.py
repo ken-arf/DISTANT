@@ -179,8 +179,8 @@ def setup_pu_dataset(step, parameters):
 
     seed = parameters["seed"]
 
-    print("load dataset", os.path.join(corpus_dir,"df_train_raw.csv"))
-    df_train_raw = pd.read_csv(os.path.join(corpus_dir,"df_train_raw.csv"), index_col=0)
+    print("load dataset", os.path.join(corpus_dir,"df_train_pos_neg.csv"))
+    df_train_raw = pd.read_csv(os.path.join(corpus_dir,"df_train_pos_neg.csv"), index_col=0)
 
     df_train_raw = df_train_raw.dropna()
 
@@ -228,7 +228,7 @@ def setup_pu_dataset(step, parameters):
 def setup_final_dataset(neg_index, parameters):
 
     corpus_dir = parameters["corpus_dir"]
-    df_train_raw = pd.read_csv(os.path.join(corpus_dir,"df_train_raw.csv"), index_col=0)
+    df_train_raw = pd.read_csv(os.path.join(corpus_dir,"df_train_pos_neg.csv"), index_col=0)
     df_train_raw = df_train_raw.dropna()
     df_train_raw.reset_index(drop=True, inplace=True)
     df_train_raw["orig_index"] = df_train_raw.index
@@ -274,17 +274,17 @@ def extract_negative_samples(parameters):
 def classify_unknown_samples(neg_index, parameters):
 
     parameters["class_num"] = 4
-    df_train_pos, df_train_neg = setup_final_dataset(neg_index, parameters)
-    neg_probs = train(df_train_pos, df_train_neg, parameters)
+    df_train, df_test = setup_final_dataset(neg_index, parameters)
+    probs = train(df_train_pos, df_train_neg, parameters)
 
-    df_train_neg["prob_0"] = neg_probs[:,0]
-    df_train_neg["prob_1"] = neg_probs[:,1]
-    df_train_neg["prob_2"] = neg_probs[:,2]
-    df_train_neg["prob_3"] = neg_probs[:,3]
+    df_test["prob_0"] = probs[:,0]
+    df_test["prob_1"] = probs[:,1]
+    df_test["prob_2"] = probs[:,2]
+    df_test["prob_3"] = probs[:,3]
 
     model_dir = parameters["model_dir"]
-    df_train_pos.to_csv(os.path.join(model_dir, f"train_final_pos.csv"))
-    df_train_neg.to_csv(os.path.join(model_dir, f"train_final_neg.csv"))
+    df_train.to_csv(os.path.join(model_dir, "train_final.csv"))
+    df_test.to_csv(os.path.join(model_dir, "test_final.csv"))
 
 
 def main():
@@ -320,7 +320,7 @@ def main():
     df_pu_train = generate_final_pos_samples(parameters)
 
     # step-3.
-    # save pu training dataset
+    # save pu training dataset (containly only samples with labels)
     fname = os.path.join(parameters["corpus_dir"], "df_pu_train.csv")
     df_pu_train.to_csv(fname)
 

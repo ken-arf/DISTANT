@@ -1,0 +1,36 @@
+# Configuration file for training model.
+
+# data path
+task_name: immunology 
+corpus_dir: data/Mesh
+corpus_file: desc2023.xml
+
+dict_dir: data/Mesh/dict
+processed_dict_dir: data/Mesh/processed_dict
+cytokine_dict_file: cytokine.dict
+tf_dict_file: tf.dict
+t-lymphocyte_dict_file: t-lymphocyte.dict 
+protein_dict_file: protein.dict 
+
+document_root_dir: data/Mesh/PubMed/Immunology/extract
+annotation_root_dir: data/Mesh/PubMed/Immunology/annotate
+
+corpus_dir: data/Corpus/Immunology
+
+# model save dir
+model_dir: experiments/immunology/models
+
+# bert model
+seed: 22
+model_checkpoint: allenai/scibert_scivocab_cased
+# nn model
+dropout_rate: 0.3
+embedding_dim: 768
+class_num: 4
+
+# gpu
+gpu: -1
+
+# restore model
+restore_model_path: experiments/immunology/models/model_best_0131.pth
+
