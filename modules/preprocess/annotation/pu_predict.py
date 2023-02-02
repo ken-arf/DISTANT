@@ -69,13 +69,13 @@ class Entity_extractor:
         self.tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
 
         if torch.cuda.is_available() and self.params['gpu'] >= 0:
-            device = "cuda"
+            self.device = "cuda"
         else:
-            device = "cpu"
+            self.device = "cpu"
 
         self.pu_model = PU_Model(self.params, self.logger)
 
-        self.pu_model.load_state_dict(torch.load(self.params['restore_model_path'], map_location=torch.device(device)))
+        self.pu_model.load_state_dict(torch.load(self.params['restore_model_path'], map_location=torch.device(self.device)))
 
     def data_collator(self, features):
 
@@ -88,7 +88,7 @@ class Entity_extractor:
             return_tensors= None,
         )
 
-        batch = {k: torch.tensor(v, dtype=torch.int64) for k, v in batch.items()}
+        batch = {k: torch.tensor(v, dtype=torch.int64).to(self.device) for k, v in batch.items()}
         return batch
 
     def tokenized_and_align_labels(self, example):

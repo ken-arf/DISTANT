@@ -29,8 +29,8 @@ embedding_dim: 768
 class_num: 4
 
 # gpu
-gpu: -1
+gpu: 0 
 
 # restore model
-restore_model_path: experiments/immunology/models/model_best_0131.pth
+restore_model_path: experiments/immunology/models/model_best_0202.pth
 
