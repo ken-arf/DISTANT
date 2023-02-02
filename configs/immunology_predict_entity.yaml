@@ -32,5 +32,5 @@ class_num: 4
 gpu: -1
 
 # restore model
-restore_model_path: experiments/immunology/models/model_best_0131.pth
+restore_model_path: experiments/immunology/models/model_best_0202.pth
 
