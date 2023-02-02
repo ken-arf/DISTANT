@@ -13,5 +13,5 @@ t-lymphocyte_dict_file: t-lymphocyte.dict
 protein_dict_file: protein.dict 
 
 
-document_root_dir: data/Mesh/pubmed/extract
+document_root_dir: data/Mesh/PubMed/Immunology/extract
 corpus_dir: data/Corpus/Immunology

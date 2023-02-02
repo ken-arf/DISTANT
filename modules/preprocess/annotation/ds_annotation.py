@@ -42,6 +42,8 @@ from sklearn.linear_model import LogisticRegression
 
 from utils import utils
 
+import itertools
+
 
 CYTOKINE=0
 TRANSCRIPTION_FACTOR=1
@@ -58,7 +60,6 @@ nlp = spacy.load("en_core_sci_sm")
 
 nlp.add_pipe("abbreviation_detector")
 nlp.add_pipe("sentencizer")
-
 
 lemmatizer = WordNetLemmatizer()
 
@@ -89,18 +90,27 @@ def min_edit_distance(ref, src):
  
     # synonym word exchange
     for k, v in synonym_table.items():
+        if not k in src:
+            continue
+       
         src2 = src.replace(k, v)
         l = ed.eval(ref, src2)
         if l < min_l:
                 min_l = l
                 src = src2
-                
-        
-    src = re.sub(r'\W', '',src)
-    ref = re.sub(r'\W', '',ref)
-    min_l = ed.eval(ref, src)
+
+    if min_l > 0:
+        ref = re.sub(r'\W', '',ref)
+        #src = re.sub(r'\W', '',src)
+        src_words = re.sub(r'\W', ' ',src).split()
+        for perm_src_words in itertools.permutations(src_words):
+            src = ''.join(perm_src_words)
+            if src == ref:
+                min_l = 0
+                break
+
     return min_l
- 
+
 
 def get_synonyms(word):
     """Get the synonyms of word from Wordnet."""
@@ -141,7 +151,6 @@ def entity_extract(sent, pmid,k):
                              'pmid': [f"{pmid}_{k}"] * len(entities)})
    return df
    
-
 
 def edit_distance(word1, word2):
     return ed.eval(word1, word2)
@@ -195,8 +204,6 @@ def lf_protein_distsv(x):
     return ABSTAIN
 
 
-
-
 @transformation_function()
 def tf_replace_word_with_synonym(x):
     """Try to replace a random word with a synonym."""
@@ -206,7 +213,6 @@ def tf_replace_word_with_synonym(x):
     if len(synonyms) > 0:
         x.text = " ".join(words[:idx] + [synonyms[0]] + words[idx + 1 :])
         return x
-
 
 
 @transformation_function()
@@ -267,7 +273,6 @@ def main():
     # print config                                                                                                         
     utils._print_config(parameters, config_path)
 
-
     documents = glob(parameters["document_root_dir"] + "/*.txt")
 
     dfs = []
@@ -313,7 +318,6 @@ def main():
 
     LFAnalysis(L=L_train, lfs=lfs).lf_summary()
 
-
     df_train['lf_cytokine_distsv'] = L_train[:,0]
     df_train['lf_tf_distsv'] = L_train[:,1]
     df_train['lf_t_lymphocyte_distsv'] = L_train[:,2]
@@ -326,23 +330,28 @@ def main():
     label_model = MajorityLabelVoter(cardinality=3)
     df_train["label"] = label_model.predict(L=L_train)
 
-
-    df_train_raw = df_train.copy()
-    df_train = df_train[df_train.label != ABSTAIN]
-
     df_train['start_tokens'] = df_train['start_tokens'].astype(np.int64)
     df_train['end_tokens'] = df_train['end_tokens'].astype(np.int64)
     df_train['start_chars'] = df_train['start_chars'].astype(np.int64)
     df_train['end_chars'] = df_train['end_chars'].astype(np.int64)
 
+    df_train_raw = df_train.copy()
+
+    # filter negative samples
+    df_train = df_train[df_train.label != ABSTAIN]
+
+    #df_train['start_tokens'] = df_train['start_tokens'].astype(np.int64)
+    #df_train['end_tokens'] = df_train['end_tokens'].astype(np.int64)
+    #df_train['start_chars'] = df_train['start_chars'].astype(np.int64)
+    #df_train['end_chars'] = df_train['end_chars'].astype(np.int64)
     
     corpus_dir = parameters["corpus_dir"]
     utils.makedir(corpus_dir)
 
-    df_train_raw.to_csv(os.path.join(corpus_dir, "df_train_raw.csv"))
-    df_train.to_csv(os.path.join(corpus_dir, "df_train.csv"))
+    df_train_raw.to_csv(os.path.join(corpus_dir, "df_train_pos_neg.csv"))
+    df_train.to_csv(os.path.join(corpus_dir, "df_train_pos.csv"))
     df_train_core=df_train[["entities","text","pmid","label"]]
-    df_train_core.to_csv(os.path.join(corpus_dir, "df_train_core.csv"))
+    df_train_core.to_csv(os.path.join(corpus_dir, "df_train_pos_clean.csv"))
 
     print('Done!')
     t_end = time.time()                                                                                                  

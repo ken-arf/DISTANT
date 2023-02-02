@@ -12,12 +12,12 @@ tf_dict_file: tf.dict
 t-lymphocyte_dict_file: t-lymphocyte.dict 
 protein_dict_file: protein.dict 
 
-document_root_dir: data/Mesh/pubmed/extract
+document_root_dir: data/Mesh/PubMed/Immunology/extract
 corpus_dir: data/Corpus/Immunology
 
 
 # model save dir
-model_dir: experiments/Immunology/models
+model_dir: experiments/immunology/models
 
 # bert model
 seed: 22
@@ -45,5 +45,5 @@ max_patient_count: 3
 
 # restore model
 restore_model: False
-restore_model_path: experiments/models/model_best.pth
+restore_model_path: experiments/immunology/models/model_best.pth
 

@@ -12,13 +12,13 @@ tf_dict_file: tf.dict
 t-lymphocyte_dict_file: t-lymphocyte.dict 
 protein_dict_file: protein.dict 
 
-document_root_dir: data/Mesh/pubmed/extract
-annotation_root_dir: data/Mesh/pubmed/annotate
+document_root_dir: data/Mesh/PubMed/Immunology/extract
+annotation_root_dir: data/Mesh/PubMed/Immunology/annotate
 
 corpus_dir: data/Corpus/Immunology
 
 # model save dir
-model_dir: experiments/Immunology/models
+model_dir: experiments/immunology/models
 
 # bert model
 seed: 22
@@ -34,5 +34,3 @@ gpu: -1
 # restore model
 restore_model_path: experiments/immunology/models/model_best_0131.pth
 
-# test file path
-test_file_path: /Users/kenyano/WORK/AIST/Immunology/data/Mesh/pubmed/extract/9780146.txt 
