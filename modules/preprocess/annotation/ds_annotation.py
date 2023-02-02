@@ -100,14 +100,10 @@ def min_edit_distance(ref, src):
                 src = src2
 
     if min_l > 0:
-        ref = re.sub(r'\W', '',ref)
-        #src = re.sub(r'\W', '',src)
-        src_words = re.sub(r'\W', ' ',src).split()
-        for perm_src_words in itertools.permutations(src_words):
-            src = ''.join(perm_src_words)
-            if src == ref:
-                min_l = 0
-                break
+        ref = re.sub(r'\W', '', ref)
+        src = re.sub(r'\W', '', src)
+        if src == ref:
+            min_l = 0
 
     return min_l
 
