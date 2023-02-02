@@ -1,0 +1,11 @@
+# Configuration file for training model.
+
+# data path
+task_name: JNLPBA 
+corpus_dir: data/Mesh
+corpus_file: desc2023.xml
+
+dict_dir: data/Mesh/dict
+pubmed_pmid_dir: data/Mesh/PubMed/JNLPBA
+pubmed_extract_dir: data/Mesh/PubMed/JNLPBA/extract
+

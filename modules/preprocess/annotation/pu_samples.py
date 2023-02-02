@@ -49,9 +49,9 @@ def generate_final_pos_samples(parameters):
     model_dir = parameters["model_dir"]
     
     # load pu training dataset
-    df_pos = pd.read_csv(os.path.join(model_dir, "train_final_pos.csv"))
+    df_pos = pd.read_csv(os.path.join(model_dir, "train_final.csv"))
     # load pu testing dataset
-    df_neg = pd.read_csv(os.path.join(model_dir, "train_final_neg.csv"))
+    df_neg = pd.read_csv(os.path.join(model_dir, "test_final.csv"))
     
     # extract prob information
     prob=df_neg[["prob_0","prob_1","prob_2","prob_3"]].values
