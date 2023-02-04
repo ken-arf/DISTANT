@@ -1,0 +1,26 @@
+# Configuration file for training model.
+
+# data path
+task_name: jnlpba 
+corpus_dir: data/Mesh
+corpus_file: desc2023.xml
+
+dict_dir: data/Mesh/dict
+processed_dict_dir: data/Mesh/processed_dict
+
+dict_files: 
+        - protein.dict
+        - cell_line.dict
+        - cell.dict 
+        - dna.dict 
+        - rna.dict 
+
+entity_names:
+        - Protein 
+        - Cell_line
+        - Cell
+        - DNA
+        - RNA
+
+document_root_dir: data/Mesh/PubMed/JNLPBA/extract
+corpus_dir: data/Corpus/JNLPBA

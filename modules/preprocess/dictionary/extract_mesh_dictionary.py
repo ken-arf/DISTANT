@@ -69,6 +69,7 @@ def extract_nrw_term(root_tree_number, doc):
 def extract_term(term, doc, dict_path):
     print(term)
     print(doc.keys())
+    print(dict_path)
 
     all_terms = [[term]]
 
@@ -89,6 +90,9 @@ def extract_term(term, doc, dict_path):
     if type(treenumberlist) != list:
         treenumberlist = [treenumberlist]
 
+    print('debug')
+    print(dict_path)
+
     with open(dict_path, 'w') as fp:
         for treenumber in treenumberlist:
             for terms in extract_nrw_term(treenumber, doc):
@@ -102,10 +106,25 @@ def main():
     # check running time                                                                                                   
     t_start = time.time()                                                                                                  
 
-    filenames = ["tf.dict", "cytokine.dict", "t-lymphocyte.dict", "protein.dict", "cell.dict", "cell-line.dict", "DNA.dict", "RNA.dict"]
-    mesh_terms = ["Transcription Factors", "Cytokines","T-Lymphocytes", "Proteins", "Cells", "Cell Line", "DNA", "RNA"]  
-    #filenames = ["proteins.dict"]
-    #mesh_terms = ["Proteins"]
+    filenames = ["transcription_factor.dict", 
+                "cytokine.dict", 
+                "t_lymphocyte.dict", 
+                "protein.dict", 
+                "cell.dict", 
+                "cell_line.dict", 
+                "dna.dict", 
+                "rna.dict"]
+
+    mesh_terms = ["Transcription Factors", 
+                "Cytokines",
+                "T-Lymphocytes", 
+                "Proteins", 
+                "Cells", 
+                "Cell Line", 
+                "DNA", 
+                "RNA"]  
+
+
     # check running time                                                                                                   
     t_start = time.time()                                                                                                  
 
@@ -140,6 +159,8 @@ def main():
     for term, fname in zip(mesh_terms, filenames):
         utils.makedir(parameters['dict_dir'])
         dict_path = os.path.join(parameters['dict_dir'], fname)
+
+        print(dict_path)
         extract_term(term, mesh_doc, dict_path)
         print('-' * 20)
 

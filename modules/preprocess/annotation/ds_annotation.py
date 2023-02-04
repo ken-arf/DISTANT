@@ -44,12 +44,23 @@ from utils import utils
 
 import itertools
 
+import pdb
 
+
+ABSTAIN = -1
+
+# cancer immunology
 CYTOKINE=0
 TRANSCRIPTION_FACTOR=1
 T_LYMPHOCYTE=2
-PROTEIN=3
-ABSTAIN  = -1
+
+# jnlpba
+PROTEIN=0
+CELL_LINE=1
+CELL=2  
+DNA=3
+RNA=4
+
 
 # threshold for edit distance
 max_dist=0
@@ -76,7 +87,6 @@ synonym_table = {
         '+':'positive',
         '-':'negative',    
 }
-
 
 synonym_table.update(greek_translate)
 
@@ -122,13 +132,6 @@ def entity_extract(sent, pmid,k):
 
    for ent in sent.ents:
 
-#       if re.match(r'[a-z]+', ent.text):
-#
-#           continue
-#   
-#       if re.match(r'-?\d+', ent.text):
-#           continue
-
        if len(get_synonyms(ent.text)) != 0:
             continue
 
@@ -148,9 +151,6 @@ def entity_extract(sent, pmid,k):
    return df
    
 
-def edit_distance(word1, word2):
-    return ed.eval(word1, word2)
-
 
 # snorkel Labeling functions
 @labeling_function()
@@ -164,29 +164,26 @@ def lf_cytokine_distsv(x):
     return ABSTAIN
 
 
-
 @labeling_function()
-def lf_tf_distsv(x):
+def lf_transcription_factor_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
     ent = x.entities.lower()
-    for phrase in dist_dict['tf.dict']:
+    for phrase in dist_dict['transcription_factor.dict']:
         #if ed.eval(ent,phrase.lower()) <= max_dist:
         if min_edit_distance(phrase, ent) <= max_dist:
             return TRANSCRIPTION_FACTOR
     return ABSTAIN
 
 
-
 @labeling_function()
 def lf_t_lymphocyte_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
     ent = x.entities.lower()
-    for phrase in dist_dict['t-lymphocyte.dict']:
+    for phrase in dist_dict['t_lymphocyte.dict']:
         #if ed.eval(ent,phrase.lower()) <= max_dist:
         if min_edit_distance(phrase, ent) <= max_dist:
             return T_LYMPHOCYTE
     return ABSTAIN
-
 
 
 @labeling_function()
@@ -200,60 +197,48 @@ def lf_protein_distsv(x):
     return ABSTAIN
 
 
-@transformation_function()
-def tf_replace_word_with_synonym(x):
-    """Try to replace a random word with a synonym."""
-    words = x.text.lower().split()
-    idx = random.choice(range(len(words)))
-    synonyms = get_synonyms(words[idx])
-    if len(synonyms) > 0:
-        x.text = " ".join(words[:idx] + [synonyms[0]] + words[idx + 1 :])
-        return x
+@labeling_function()
+def lf_cell_line_distsv(x):
+    # Returns a label of rating if pattern of digit star's found in the phrase
+    ent = x.entities.lower()
+    for phrase in dist_dict['cell_line.dict'].split():
+        #if ed.eval(ent,phrase.lower()) <= max_dist:
+        if min_edit_distance(phrase, ent) <= max_dist:
+            return CELL_LINE 
+    return ABSTAIN
 
 
-@transformation_function()
-def tf_replace_word_with_synonym_new(x):
-    """Try to replace a random word with a synonym."""
-    
-    orig_entity = x.text[x.start_chars:x.end_chars]        
-    #words = x.text.lower().split()
-    words = [token.text.lower() for token in nlp(x.text)]
-    
-    while True:
-        idx = random.choice(range(len(words)))
-        if idx in range(x.start_tokens, x.end_tokens):
-            continue
-        else:
-            break
+@labeling_function()
+def lf_cell_distsv(x):
+    # Returns a label of rating if pattern of digit star's found in the phrase
+    ent = x.entities.lower()
+    for phrase in dist_dict['cell.dict'].split():
+        #if ed.eval(ent,phrase.lower()) <= max_dist:
+        if min_edit_distance(phrase, ent) <= max_dist:
+            return CELL 
+    return ABSTAIN
 
-    synonyms = get_synonyms(words[idx])
-    if len(synonyms) > 0:
-        x.text = " ".join(words[:idx] + [synonyms[0]] + words[idx + 1 :])
-   
-        try:
-            x.start_chars = x.text.index(orig_entity.lower())
-        except:
-            print("not found")
-            print(orig_entity.lower())
-            print(x.text)
-            
-        # fix char position for entity
-        x.end_chars = x.start_chars + len(orig_entity)
-        x.entities = x.text[x.start_chars:x.end_chars]
-        
-        # fix token position for entity
-        sym_len = len(synonyms[0].split())
-        if x.end_tokens < idx:
-            pass
-        elif idx < x.start_tokens:
-            x.start_tokens += sym_len - 1
-            x.end_tokens += sym_len - 1
-        
-        x.pmid = x.pmid + ":aug"
-        
-        new_entity = x.text[x.start_chars:x.end_chars]    
-        #print(orig_entity, new_entity)
-        return x
+
+@labeling_function()
+def lf_dna_distsv(x):
+    # Returns a label of rating if pattern of digit star's found in the phrase
+    ent = x.entities.lower()
+    for phrase in dist_dict['dna.dict'].split():
+        #if ed.eval(ent,phrase.lower()) <= max_dist:
+        if min_edit_distance(phrase, ent) <= max_dist:
+            return DNA 
+    return ABSTAIN
+
+
+@labeling_function()
+def lf_rna_distsv(x):
+    # Returns a label of rating if pattern of digit star's found in the phrase
+    ent = x.entities.lower()
+    for phrase in dist_dict['rna.dict'].split():
+        #if ed.eval(ent,phrase.lower()) <= max_dist:
+        if min_edit_distance(phrase, ent) <= max_dist:
+            return RNA 
+    return ABSTAIN
 
 
 def main():
@@ -269,6 +254,8 @@ def main():
     # print config                                                                                                         
     utils._print_config(parameters, config_path)
 
+
+    # extract all entities by using spacy
     documents = glob(parameters["document_root_dir"] + "/*.txt")
 
     dfs = []
@@ -286,14 +273,17 @@ def main():
     df_train = pd.concat(dfs, ignore_index=True)
     #df_train.head(100)
 
+
+    # construction of the distant supervision dictionaries 
     Mesh_dict_dir= parameters["processed_dict_dir"]
 
-    dictionary_files = [ \
-                parameters["cytokine_dict_file"], \
-                parameters["tf_dict_file"], \
-                parameters["t-lymphocyte_dict_file"], \
-                parameters["protein_dict_file"], \
-                ]
+    #dictionary_files = [ \
+    #            parameters["cytokine_dict_file"], \
+    #            parameters["transcription-factor_dict_file"], \
+    #            parameters["t-lymphocyte_dict_file"], \
+    #            parameters["protein_dict_file"], \
+    #            ]
+    dictionary_files = parameters["dict_files"]
 
 
     global dist_dict
@@ -305,7 +295,16 @@ def main():
             lines_lower = [l.strip().lower() for l in fp.readlines()]
             dist_dict[fname] = lines + lines_lower 
 
-    lfs = [lf_cytokine_distsv,lf_tf_distsv, lf_t_lymphocyte_distsv]
+
+    # snorkel labeling functions
+    lfs = []
+    for fname in dictionary_files:
+        basename, _ = os.path.splitext(fname)
+        lf_func = f"lf_{basename}_distsv"
+        print(lf_func)
+        lfs.append(eval(lf_func))
+
+    #lfs = [lf_cytokine_distsv,lf_tf_distsv, lf_t_lymphocyte_distsv]
 
 
     applier = PandasLFApplier(lfs=lfs)
@@ -314,16 +313,16 @@ def main():
 
     LFAnalysis(L=L_train, lfs=lfs).lf_summary()
 
-    df_train['lf_cytokine_distsv'] = L_train[:,0]
-    df_train['lf_tf_distsv'] = L_train[:,1]
-    df_train['lf_t_lymphocyte_distsv'] = L_train[:,2]
-    #df_train['lf_protein_distsv'] = L_train[:,5]
+    # load snorkel labeling results
+    for i in range(len(lfs)):
+        df_train[lfs[i].name] = l_train[:, i]
 
-#    label_model = LabelModel(cardinality=3, verbose=True)
-#    label_model.fit(L_train, n_epochs=500, log_freq=50, seed=123)
-#    df_train["label"] = label_model.predict(L=L_train, tie_break_policy="abstain")
+    #df_train['lf_cytokine_distsv'] = L_train[:,0]
+    #df_train['lf_tf_distsv'] = L_train[:,1]
+    #df_train['lf_t_lymphocyte_distsv'] = L_train[:,2]
 
-    label_model = MajorityLabelVoter(cardinality=3)
+
+    label_model = MajorityLabelVoter(cardinality=len(lfs))
     df_train["label"] = label_model.predict(L=L_train)
 
     df_train['start_tokens'] = df_train['start_tokens'].astype(np.int64)
@@ -336,10 +335,6 @@ def main():
     # filter negative samples
     df_train = df_train[df_train.label != ABSTAIN]
 
-    #df_train['start_tokens'] = df_train['start_tokens'].astype(np.int64)
-    #df_train['end_tokens'] = df_train['end_tokens'].astype(np.int64)
-    #df_train['start_chars'] = df_train['start_chars'].astype(np.int64)
-    #df_train['end_chars'] = df_train['end_chars'].astype(np.int64)
     
     corpus_dir = parameters["corpus_dir"]
     utils.makedir(corpus_dir)
@@ -353,46 +348,6 @@ def main():
     t_end = time.time()                                                                                                  
     print('Took {0:.2f} seconds'.format(t_end - t_start))
 
-def data_augumentation(df_train):
-
-    tf_policy = ApplyOnePolicy(n_per_original=2, keep_original=True)
-    tf_applier = PandasTFApplier([tf_replace_word_with_synonym_new], tf_policy)
-    df_train_augmented = tf_applier.apply(df_train)
-
-
-    train_text = df_train_augmented.text.tolist()
-    X_train = CountVectorizer(ngram_range=(1, 2)).fit_transform(train_text)
-
-    clf = LogisticRegression(solver="lbfgs")
-    clf.fit(X=X_train, y=df_train_augmented.label.values)
-
-
-    df_train_augmented.to_csv("df_train_augmented.txt")
-
-
-    for index, row in df_train_augmented.iterrows():
-        text=row['text']
-        st = row['start_chars']
-        ed = row['end_chars']
-        assert(text[st:ed] == row['entities'])
-        
-
-    for index, row in df_train_augmented.iterrows():
-        print(row)
-        text=row['text']
-        st = row['start_chars']
-        ed = row['end_chars']
-        assert(text[st:ed] == row['entities'])
-        s = row["start_tokens"]
-        e = row["end_tokens"]
-        print("text", text)
-        words =  [token.text for token in nlp(text)]
-        print("words", words)
-        tokens = " ".join(words[s:e])
-        print("1", text[st:ed], st, ed)
-        print("2", tokens, s, e)
-        #assert(tokens == text[st:ed])
-        
 
 if __name__ == '__main__':                                                                                                                        
     main()

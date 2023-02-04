@@ -6,9 +6,9 @@ set -u
 HOME=$PWD
 export PYTHONPATH="$HOME:$HOME/modules"
 
-TASK="immunology"
+TASK="jnlpba"
 SUBTASK="preprocess"
-MODULE="expand_dictionary"
+MODULE="ds_annotation"
 
 CONFIG_DIR="configs"
 YAML_FILE="${TASK}_${SUBTASK}_${MODULE}.yaml"
@@ -20,8 +20,8 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
-#nohup python modules/preprocess/dictionary/expand_mesh_dictionary.py --yaml $YAML_PATH > $LOG_PATH &
-python modules/preprocess/dictionary/expand_mesh_dictionary.py --yaml $YAML_PATH 
+#nohup python modules/preprocess/annotation/ds_annotation.py --yaml $YAML_PATH > $LOG_PATH &
+python modules/preprocess/annotation/ds_annotation.py --yaml $YAML_PATH 
 
 sleep 5
 tail -f $LOG_PATH

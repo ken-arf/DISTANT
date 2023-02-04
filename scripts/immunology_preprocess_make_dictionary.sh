@@ -23,8 +23,8 @@ fi
 #nohop python modules/preprocess/dictionary/extract_mesh_dictionary.py --yaml $YAML_PATH  > $LOG_PATH &
 python modules/preprocess/dictionary/extract_mesh_dictionary.py --yaml $YAML_PATH 
 
-sleep 5
-tail -f $LOG_PATH
+#sleep 5
+#tail -f $LOG_PATH
 
 # postprocess
 # delete duplicated items

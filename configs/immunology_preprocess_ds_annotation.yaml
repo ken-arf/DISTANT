@@ -7,11 +7,16 @@ corpus_file: desc2023.xml
 
 dict_dir: data/Mesh/dict
 processed_dict_dir: data/Mesh/processed_dict
-cytokine_dict_file: cytokine.dict
-tf_dict_file: tf.dict
-t-lymphocyte_dict_file: t-lymphocyte.dict 
-protein_dict_file: protein.dict 
 
+dict_files: 
+        - cytokine.dict
+        - transcription_factor.dict
+        - t_lymphocyte.dict 
+
+entity_names:
+        - Cytokine 
+        - Transcription_Factor
+        - T_Cell
 
 document_root_dir: data/Mesh/PubMed/Immunology/extract
 corpus_dir: data/Corpus/Immunology
