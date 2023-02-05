@@ -17,21 +17,40 @@ def extract_true_neg_candidate(csv):
     
     thres_percentile = 5
     df_train_neg = pd.read_csv(csv)
-    df_0 = df_train_neg[df_train_neg["olabel"]==0]
-    df_1 = df_train_neg[df_train_neg["olabel"]==1]
-    df_2 = df_train_neg[df_train_neg["olabel"]==2]
     df_neg = df_train_neg[df_train_neg["olabel"]==-1]
+
+    pos_label_num = len(df_train_neg["olabel"].unique()) - 1
+
+    dfs = {}
+    for k in range(pos_label_num):
+        dfs[k] = df_train_neg[df_train_neg["olabel"]==k]
     
-    p1=percentile(df_0["prob_0"], thres_percentile)
-    p2=percentile(df_1["prob_1"], thres_percentile)
-    p3=percentile(df_2["prob_2"], thres_percentile)
-    th = np.min([p1,p2,p3])
+    #df_0 = df_train_neg[df_train_neg["olabel"]==0]
+    #df_1 = df_train_neg[df_train_neg["olabel"]==1]
+    #df_2 = df_train_neg[df_train_neg["olabel"]==2]
     
-    df_neg_true = df_neg[np.max(df_neg[["prob_0","prob_1","prob_2"]], axis=1) < th]
+    probs = []
+    for k in dfs.keys():
+        p=percentile(dfs[k][f"prob_{k}"], thres_percentile)
+        probs.append(p)
+
+    #p1=percentile(df_0["prob_0"], thres_percentile)
+    #p2=percentile(df_1["prob_1"], thres_percentile)
+    #p3=percentile(df_2["prob_2"], thres_percentile)
+
+    th = np.min(probs)
+
+    prob_col_names = [ f"prob_{k}" for k in dfs.keys() ]
+    
+    df_neg_true = df_neg[np.max(df_neg[prob_col_names], axis=1) < th]
+    #df_neg_true = df_neg[np.max(df_neg[["prob_0","prob_1","prob_2"]], axis=1) < th]
+
     return df_neg_true
 
 
 def extract_neg_index(model_dir):
+
+    # neg_sample result for 3 steps
     df_neg_true_0= extract_true_neg_candidate(os.path.join(model_dir, "train_neg_0.csv"))
     df_neg_true_1= extract_true_neg_candidate(os.path.join(model_dir, "train_neg_1.csv"))
     df_neg_true_2= extract_true_neg_candidate(os.path.join(model_dir, "train_neg_2.csv"))
@@ -54,19 +73,27 @@ def generate_final_pos_samples(parameters):
     df_neg = pd.read_csv(os.path.join(model_dir, "test_final.csv"))
     
     # extract prob information
-    prob=df_neg[["prob_0","prob_1","prob_2","prob_3"]].values
+
+    prob_cols = [ col for col in list(df_neg.columns) if "prob_" in col]
+
+    prob=df_neg[prob_cols].values
+    #prob=df_neg[["prob_0","prob_1","prob_2","prob_3"]].values
+
     predict=np.argmax(prob, axis=1).tolist()
     df_neg["predict"]=predict
     
     #  take only positive results
-    df_pos_inf=df_neg[df_neg["predict"]!=3]
+    df_pos_inf=df_neg[df_neg["predict"] != len(prob_cols) -1]
+    #df_pos_inf=df_neg[df_neg["predict"] != 3]
     
     # aling colums names
     df_pos_inf.loc[:,"label"]=df_pos_inf.loc[:,"predict"]
-    df_pos_inf = df_pos_inf.drop(["prob_0","prob_1","prob_2","prob_3", "predict"], axis=1)
+    df_pos_inf = df_pos_inf.drop(prob_cols + ["predict"], axis=1)
+    #df_pos_inf = df_pos_inf.drop(["prob_0","prob_1","prob_2","prob_3", "predict"], axis=1)
     
     # remove true negative samples from training data
-    df_pos = df_pos[df_pos["label"]!=3]
+    df_pos = df_pos[df_pos["label"]!= len(prob_cols)-1]
+    #df_pos = df_pos[df_pos["label"]!=3]
     
     # concat pos training and pos samples from inferences
     df_pu_train = pd.concat([df_pos, df_pos_inf], axis=0)
@@ -80,8 +107,6 @@ def generate_final_pos_samples(parameters):
     df_pu_train['end_chars'] = df_pu_train['end_chars'].apply(np.int64)
     
     return df_pu_train
-
-
 
 
 

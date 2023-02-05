@@ -182,35 +182,57 @@ def setup_pu_dataset(step, parameters):
     print("load dataset", os.path.join(corpus_dir,"df_train_pos_neg.csv"))
     df_train_raw = pd.read_csv(os.path.join(corpus_dir,"df_train_pos_neg.csv"), index_col=0)
 
+    ## for debug ####
+    df_train_raw = df_train_raw.iloc[:200]
+    #################
+
+
     df_train_raw = df_train_raw.dropna()
-
     df_train_raw.reset_index(drop=True, inplace=True)
-
     df_train_raw["orig_index"] = df_train_raw.index
 
+    label_types = list(df_train_raw["label"].unique())
 
     df_unknown = df_train_raw[df_train_raw["label"]==-1]
-    df_train_0 =  df_train_raw[df_train_raw["label"]==0]
-    df_train_1 =  df_train_raw[df_train_raw["label"]==1]
-    df_train_2 =  df_train_raw[df_train_raw["label"]==2]
 
+    # ignore label == -1
+    num_pos_labels = len(label_types) - 1
+    df_trains = {}
+    for k in range(num_pos_labels):
+        df_trains[k] = df_train_raw[df_train_raw["label"] == k]
 
-    df_train_0_spy = df_train_0.sample(frac=frac_spy, random_state=seed)
-    df_train_1_spy = df_train_1.sample(frac=frac_spy, random_state=seed)
-    df_train_2_spy = df_train_2.sample(frac=frac_spy, random_state=seed)
+    #df_train_0 =  df_train_raw[df_train_raw["label"]==0]
+    #df_train_1 =  df_train_raw[df_train_raw["label"]==1]
+    #df_train_2 =  df_train_raw[df_train_raw["label"]==2]
 
+    df_train_spys = {}
+    for k in range(num_pos_labels):
+        df_train_spys[k] = df_trains[k].sample(frac=frac_spy, random_state=seed)
 
-    indexes = [k for k in df_train_0.index.tolist() if k not in df_train_0_spy.index.tolist()]
-    df_train_0_diff = df_train_0.loc[indexes]
+    #df_train_0_spy = df_train_0.sample(frac=frac_spy, random_state=seed)
+    #df_train_1_spy = df_train_1.sample(frac=frac_spy, random_state=seed)
+    #df_train_2_spy = df_train_2.sample(frac=frac_spy, random_state=seed)
 
-    indexes = [k for k in df_train_1.index.tolist() if k not in df_train_1_spy.index.tolist()]
-    df_train_1_diff = df_train_1.loc[indexes]
+    df_train_diffs = {}
+    for k in range(num_pos_labels):
+        indexes = [i for i in df_trains[k].index.tolist() if i not in df_train_spys[k].index.tolist()]
+        df_train_diffs[k] = df_trains[k].loc[indexes]
 
-    indexes = [k for k in df_train_2.index.tolist() if k not in df_train_2_spy.index.tolist()]
-    df_train_2_diff = df_train_2.loc[indexes]
+    #indexes = [k for k in df_train_0.index.tolist() if k not in df_train_0_spy.index.tolist()]
+    #df_train_0_diff = df_train_0.loc[indexes]
 
-    df_train_pos_step = pd.concat([df_train_0_diff, df_train_1_diff, df_train_2_diff])
-    df_train_neg_step = pd.concat([df_unknown, df_train_0_spy, df_train_1_spy, df_train_2_spy])
+    #indexes = [k for k in df_train_1.index.tolist() if k not in df_train_1_spy.index.tolist()]
+    #df_train_1_diff = df_train_1.loc[indexes]
+
+    #indexes = [k for k in df_train_2.index.tolist() if k not in df_train_2_spy.index.tolist()]
+    #df_train_2_diff = df_train_2.loc[indexes]
+
+    
+    df_train_pos_step = pd.concat(list(df_train_diffs.values()))
+    df_train_neg_step = pd.concat([df_unknown] + list(df_train_spys.values()))
+
+    #df_train_pos_step = pd.concat([df_train_0_diff, df_train_1_diff, df_train_2_diff])
+    #df_train_neg_step = pd.concat([df_unknown, df_train_0_spy, df_train_1_spy, df_train_2_spy])
 
 
     print("df_train_raw", df_train_raw.shape)
@@ -229,24 +251,40 @@ def setup_final_dataset(neg_index, parameters):
 
     corpus_dir = parameters["corpus_dir"]
     df_train_raw = pd.read_csv(os.path.join(corpus_dir,"df_train_pos_neg.csv"), index_col=0)
+
+    ## for debug ####
+    df_train_raw = df_train_raw.iloc[:200]
+    #################
+
     df_train_raw = df_train_raw.dropna()
     df_train_raw.reset_index(drop=True, inplace=True)
     df_train_raw["orig_index"] = df_train_raw.index
     df_train_raw["olabel"] = df_train_raw.loc[:,"label"]
 
+
+    label_types = list(df_train_raw["label"].unique())
+    num_pos_labels = len(label_types) - 1
+
     df_neg = df_train_raw.iloc[neg_index]
-    df_neg.loc[:, "label"] = 3
+    df_neg.loc[:, "label"] = num_pos_labels
+
+    df_trains = {}
+    for k in range(num_pos_labels):
+        df_trains[k] = df_train_raw[df_train_raw["label"] == k]
 
     df_unknown = df_train_raw[df_train_raw["label"]==-1]
-    df_train_0 =  df_train_raw[df_train_raw["label"]==0]
-    df_train_1 =  df_train_raw[df_train_raw["label"]==1]
-    df_train_2 =  df_train_raw[df_train_raw["label"]==2]
+
+    #df_unknown = df_train_raw[df_train_raw["label"]==-1]
+    #df_train_0 =  df_train_raw[df_train_raw["label"]==0]
+    #df_train_1 =  df_train_raw[df_train_raw["label"]==1]
+    #df_train_2 =  df_train_raw[df_train_raw["label"]==2]
 
     test_index = df_unknown.index.difference(df_neg.index)
 
     df_test = df_train_raw.iloc[test_index]
     
-    df_pos = pd.concat([df_train_0, df_train_1, df_train_2])
+    df_pos = pd.concat(list(df_trains.values()))
+    #df_pos = pd.concat([df_train_0, df_train_1, df_train_2])
     df_train = pd.concat([df_pos, df_neg])
 
     return df_train, df_test
@@ -254,16 +292,22 @@ def setup_final_dataset(neg_index, parameters):
 
 def extract_negative_samples(parameters):
 
-    parameters["class_num"] = 3
+    #parameters["class_num"] = 3
+
+    pos_label_num = parameters["class_num"]
+
     for step in range(3):
 
         parameters["seed"] = step
         df_train_pos, df_train_neg = setup_pu_dataset(step, parameters)
         neg_probs = train(df_train_pos, df_train_neg, parameters)
 
-        df_train_neg["prob_0"] = neg_probs[:,0]
-        df_train_neg["prob_1"] = neg_probs[:,1]
-        df_train_neg["prob_2"] = neg_probs[:,2]
+        for k in range(pos_label_num):
+            df_train_neg[f"prob_{k}"] = neg_probs[:, k]
+
+        #df_train_neg["prob_0"] = neg_probs[:,0]
+        #df_train_neg["prob_1"] = neg_probs[:,1]
+        #df_train_neg["prob_2"] = neg_probs[:,2]
 
         model_dir = parameters["model_dir"]
         df_train_pos.to_csv(os.path.join(model_dir, f"train_pos_{step}.csv"))
@@ -273,14 +317,18 @@ def extract_negative_samples(parameters):
 
 def classify_unknown_samples(neg_index, parameters):
 
-    parameters["class_num"] = 4
+    parameters["class_num"] += 1
     df_train, df_test = setup_final_dataset(neg_index, parameters)
-    probs = train(df_train_pos, df_train_neg, parameters)
+    #probs = train(df_train_pos, df_train_neg, parameters)
+    probs = train(df_train, df_test, parameters)
 
-    df_test["prob_0"] = probs[:,0]
-    df_test["prob_1"] = probs[:,1]
-    df_test["prob_2"] = probs[:,2]
-    df_test["prob_3"] = probs[:,3]
+    for k in range(parameters["class_num"]):
+        df_test[f"prob_{k}"] = probs[:, k]
+
+    #df_test["prob_0"] = probs[:,0]
+    #df_test["prob_1"] = probs[:,1]
+    #df_test["prob_2"] = probs[:,2]
+    #df_test["prob_3"] = probs[:,3]
 
     model_dir = parameters["model_dir"]
     df_train.to_csv(os.path.join(model_dir, "train_final.csv"))
@@ -313,14 +361,14 @@ def main():
     # step-2.
     # classify unknown samples
     # By using the positive and the negative samples extractd in step 1, we train a NN classifier
-    # to classify each sample whether it is one of the possitive classes or negative class
+    # to classify each unknown sample whether it is one of the possitive classes or negative class
     classify_unknown_samples(true_neg_index, parameters)
 
-    # generate final PU training dataset
+    # generate final PU training result dataset
     df_pu_train = generate_final_pos_samples(parameters)
 
     # step-3.
-    # save pu training dataset (containly only samples with labels)
+    # save pu training result dataset (containly only samples with positive labels)
     fname = os.path.join(parameters["corpus_dir"], "df_pu_train.csv")
     df_pu_train.to_csv(fname)
 

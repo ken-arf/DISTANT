@@ -15,7 +15,6 @@ protein_dict_file: protein.dict
 document_root_dir: data/Mesh/PubMed/Immunology/extract
 corpus_dir: data/Corpus/Immunology
 
-
 # model save dir
 model_dir: experiments/immunology/models
 
@@ -26,15 +25,18 @@ model_checkpoint: allenai/scibert_scivocab_cased
 dropout_rate: 0.3
 embedding_dim: 768
 
+# positive label num
+class_num: 3
+
 # gpu
 gpu: -1
-
 
 # training
 train_epochs: 50
 train_batch_size: 32 
 valid_batch_size: 32 
 test_batch_size: 8 
+
 
 # training lr
 train_lr: 1e-4
