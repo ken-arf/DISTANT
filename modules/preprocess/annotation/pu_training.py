@@ -183,7 +183,7 @@ def setup_pu_dataset(step, parameters):
     df_train_raw = pd.read_csv(os.path.join(corpus_dir,"df_train_pos_neg.csv"), index_col=0)
 
     ## for debug ####
-    df_train_raw = df_train_raw.iloc[:200]
+    #df_train_raw = df_train_raw.iloc[:200]
     #################
 
 
@@ -253,7 +253,7 @@ def setup_final_dataset(neg_index, parameters):
     df_train_raw = pd.read_csv(os.path.join(corpus_dir,"df_train_pos_neg.csv"), index_col=0)
 
     ## for debug ####
-    df_train_raw = df_train_raw.iloc[:200]
+    #df_train_raw = df_train_raw.iloc[:200]
     #################
 
     df_train_raw = df_train_raw.dropna()

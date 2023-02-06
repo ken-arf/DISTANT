@@ -23,6 +23,6 @@ fi
 #nohup python modules/preprocess/annotation/ds_annotation.py --yaml $YAML_PATH > $LOG_PATH &
 python modules/preprocess/annotation/pu_predict.py --yaml $YAML_PATH 
 
-sleep 5
-tail -f $LOG_PATH
+#sleep 5
+#tail -f $LOG_PATH
 

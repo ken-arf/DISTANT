@@ -29,7 +29,7 @@ embedding_dim: 768
 class_num: 3
 
 # gpu
-gpu: -1
+gpu: 0 
 
 # training
 train_epochs: 50
