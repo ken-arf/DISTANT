@@ -38,17 +38,15 @@ def get_synonyms(word):
 
 def main():
 
-    # check running time                                                                                                   
+    # check running time
     t_start = time.time()                                                                                                  
-                                                                                                                           
-    # set config path by command line                                                                                      
+    # set config path by command line
     inp_args = utils._parsing()                                                                                            
     config_path = getattr(inp_args, 'yaml')                                                                                
-                                                                                                                           
     with open(config_path, 'r') as stream:                                                                                 
         parameters = utils._ordered_load(stream)
 
-    # print config                                                                                                         
+    # print config
     utils._print_config(parameters, config_path)
 
     train_csv = os.path.join(parameters["corpus_dir"], parameters["train_csv_name"])
@@ -72,10 +70,16 @@ def main():
 
     utils.makedir(data_dir)
 
-    entity_types = {}
-    entity_types[CYTOKINE] = "Cytokine" 
-    entity_types[TRANSCRIPTION_FACTOR] = "Transcription_Factor"
-    entity_types[T_LYMPHOCYTE] =  "T_Cell"
+    entity_types = parameters["entity_types"]
+    print(entity_types)
+    id2entity = {i:name for name, i in entity_types.items()}
+    print(id2entity)
+
+    
+    #entity_types = {}
+    #entity_types[CYTOKINE] = "Cytokine" 
+    #entity_types[TRANSCRIPTION_FACTOR] = "Transcription_Factor"
+    #entity_types[T_LYMPHOCYTE] =  "T_Cell"
 
     rows = df_train_clean.shape[0]
 
@@ -110,7 +114,7 @@ def main():
                 if end_char > doc_len:
                     end_char = doc_len
 
-                entity_type = entity_types[int(label)]
+                entity_type = id2entity[int(label)]
                 ann_fp.write(f"T{k+1}\t{entity_type} {start_char} {end_char}\t{entity}\n")
 
     print('Done!')
