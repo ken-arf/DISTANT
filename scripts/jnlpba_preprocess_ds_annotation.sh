@@ -21,7 +21,8 @@ if [ ! -d $LOG_DIR ]; then
 fi
 
 #nohup python modules/preprocess/annotation/ds_annotation.py --yaml $YAML_PATH > $LOG_PATH &
-python modules/preprocess/annotation/ds_annotation.py --yaml $YAML_PATH 
+#python modules/preprocess/annotation/ds_annotation.py --yaml $YAML_PATH 
+spark-submit modules/preprocess/annotation/ds_annotation_spark.py --yaml $YAML_PATH 
 
 sleep 5
 tail -f $LOG_PATH
