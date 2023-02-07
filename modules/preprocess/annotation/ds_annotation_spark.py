@@ -28,9 +28,9 @@ import scispacy
 from spacy.lang.en import English
 
 import nltk
-nltk.download("wordnet", quiet=True)
+#nltk.download("wordnet", quiet=True)
 from nltk import word_tokenize
-nltk.download('punkt')
+#nltk.download('punkt')
 from nltk.corpus import wordnet as wn
 from nltk.stem import PorterStemmer, WordNetLemmatizer, LancasterStemmer
 
@@ -103,8 +103,8 @@ lemmatizer = WordNetLemmatizer()
 
 def min_edit_distance_test(ref, src):
 
-    #ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
-    #src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
+    ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
+    src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
 
     #ref = [token.lemma_ for token in nlp(ref)]
     #src = [token.lemma_ for token in nlp(src)]
