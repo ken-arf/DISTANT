@@ -125,7 +125,24 @@ def expand_dict(dict_path, parameters):
 #            fp.write('{}\n'.format(term))
 #                
 
-def disambiguate_dict(dicts):
+def disambiguate_dict(dicts, parameters):
+
+    ent_dep = parameters["entity_dependency"]
+
+    for par_ent, cld_ents in ent_dep.items():
+
+        par_terms = dicts[par_ent]
+        cld_terms = []
+        for cld_ent in cld_ents:
+            cld_terms += dicts[cld_ent]
+        
+        new_terms = set(par_terms).difference(set(cld_terms))
+        dicts[par_ent] = sorted(new_terms)
+
+    return
+
+
+def disambiguate_dict_old(dicts, parameters):
     
     tcell_key = 't-lymphocyte_dict_file'
 
@@ -161,7 +178,7 @@ def save_dict(dicts, parameters):
 
     for key, terms in dicts.items():
 
-        fname = parameters[key]
+        fname = f'{key}.dict'
         new_dict_path = os.path.join(newdir, fname)
 
         with open(new_dict_path, 'w') as fp:
@@ -196,23 +213,25 @@ def main():
     # print config 
     utils._print_config(parameters, config_path)
 
-    entity_types = ['cytokine_dict_file',
-                    'tf_dict_file',
-                    't-lymphocyte_dict_file',
-                    'protein_dict_file',
-                    'cell_dict_file',
-                    'cell-line_dict_file',
-                    'DNA_dict_file',
-                    'RNA_dict_file']
+    entity_types = parameters["entity_types"]
 
-    dict_paths = [os.path.join(parameters['dict_dir'],parameters[etype]) for etype in entity_types]
+    #entity_types = ['cytokine_dict_file',
+    #                'tf_dict_file',
+    #                't_lymphocyte_dict_file',
+    #                'protein_dict_file',
+    #                'cell_dict_file',
+    #                'cell_line_dict_file',
+    #                'dna_dict_file',
+    #                'rna_dict_file']
+
+    dict_paths = [os.path.join(parameters['dict_dir'],f'{etype}.dict') for etype in entity_types]
 
     new_dict = {}
     for etype, dict_path in zip(entity_types, dict_paths):
         new_terms = expand_dict(dict_path, parameters)
         new_dict[etype] = new_terms
 
-    disambiguate_dict(new_dict)
+    disambiguate_dict(new_dict, parameters)
 
     save_dict(new_dict, parameters)
 

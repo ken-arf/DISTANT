@@ -7,31 +7,21 @@
 (+)-strand
 (+)-strand rna
 (+)-strand rna virus
-(Cell
-(Cell Line)
 (Chromosome)
 (Chromosomes)
 (Eosinophil
 (Eosinophil Extracellular
 (Eosinophil Extracellular DNA
-(Human
-(Human Prostatic
-(Human Prostatic Carcinoma)
 (Intestine)
 (Neutrophil
 (Neutrophil Extracellular
 (Neutrophil Extracellular Traps)
 (Retina)
-(cell
-(cell line)
 (chromosome)
 (chromosomes)
 (eosinophil
 (eosinophil extracellular
 (eosinophil extracellular dna
-(human
-(human prostatic
-(human prostatic carcinoma)
 (intestine)
 (neutrophil
 (neutrophil extracellular
@@ -42,12 +32,6 @@ A Cells
 A Chromosome
 A Chromosomes
 A Fibers
-A31
-A549
-A549 Cell
-A549 Cell Line
-A549 Cell Lines
-A549 Cells
 ACTH Producing
 ACTH Producing Cells
 ACTH Secreting
@@ -220,10 +204,6 @@ Adrenocorticotropin-Secreting Cells, Pituitary
 Adult Germline
 Adult Germline Stem
 Adult Germline Stem Cells
-Adult Low
-Adult Low Calcium
-Adult Low-Calcium
-Adult Low-Calcium High-Temperature
 Adult Somatic
 Adult Somatic Stem
 Adult Somatic Stem Cells
@@ -554,22 +534,6 @@ BAC
 BAC (Chromosome)
 BACs
 BACs (Chromosomes)
-BALB
-BALB 3T3
-BALB 3T3 Cell
-BALB 3T3 Cells
-BALB 3T3 clone
-BALB 3T3 clone A31
-BALB c
-BALB c 3T3
-BALB c 3T3 Cells
-BALB-3T3
-BALB-3T3 Cell
-BALB-3T3 Cells
-BALB-c
-BALB-c 3T3
-BALB-c 3T3 Cell
-BALB-c 3T3 Cells
 BALT
 BALT M
 BALT M Cell
@@ -830,10 +794,6 @@ Bouton, Synaptic
 Boutons
 Boutons Synaptic
 Boutons, Synaptic
-Breast Cancer
-Breast Cancer Cells
-Breast Carcinoma
-Breast Carcinoma Cells
 Breg
 Breg Cell
 Breg Cells
@@ -935,9 +895,6 @@ CFU-E
 CFU-Es
 CFU-GEMM
 CFU-GM
-CHO
-CHO Cell
-CHO Cells
 CIK
 CIK Cell
 CIK Cells
@@ -958,25 +915,7 @@ COPII Coated Vesicles
 COPII-Coated
 COPII-Coated Vesicle
 COPII-Coated Vesicles
-COS 1
-COS 1 Cells
-COS 7
-COS 7 Cells
-COS Cell
-COS Cells
-COS-1
-COS-1 Cell
-COS-1 Cells
-COS-7
-COS-7 Cell
-COS-7 Cells
 CST Complex
-Caco
-Caco 2
-Caco 2 Cells
-Caco-2
-Caco-2 Cell
-Caco-2 Cells
 Cajal
 Cajal Accessory
 Cajal Accessory Bodies
@@ -994,22 +933,15 @@ Cajal-Like Cell, Interstitial
 Cajal-Like Cells
 Cajal-Like Cells Interstitial
 Cajal-Like Cells, Interstitial
-Calcium High
-Calcium High Temperature
 Cancer Associated
 Cancer Associated Fibroblast
 Cancer Associated Fibroblasts
-Cancer Cells
-Cancer Foundation
-Cancer Foundation 7
 Cancer Stem
 Cancer Stem Cell
 Cancer Stem Cells
 Cancer-Associated
 Cancer-Associated Fibroblast
 Cancer-Associated Fibroblasts
-Canine Kidney
-Canine Kidney Cells
 Cannot
 Cannot Rule
 Cannot Rule Out
@@ -1020,18 +952,12 @@ Capillary Endothelial Cells
 Capping Complex
 Capping Complex Telomeric
 Capping Complex, Telomeric
-Carcinoma Cell
 Carcinoma Cell Embryonal
-Carcinoma Cell Line
 Carcinoma Cell, Embryonal
-Carcinoma Cells
 Carcinoma Cells Embryonal
 Carcinoma Cells, Embryonal
 Carcinoma Stem
 Carcinoma Stem Cells
-Carcinoma)
-Carcinoma) Cell
-Carcinoma) Cell Line
 Cardiac Muscle
 Cardiac Muscle Cell
 Cardiac Muscle Cells
@@ -1054,14 +980,8 @@ Carrier Vesicles
 Caveola
 Caveolae
 Caveolas
-Cell (Cell
-Cell (Cell Line)
 Cell (Intestine)
-Cell 293T
-Cell 3T3
-Cell 3T3-L1
 Cell 5-HT-Containing
-Cell A549
 Cell APUD
 Cell Acinar
 Cell Acini
@@ -1091,11 +1011,6 @@ Cell Auditory Outer
 Cell B-1
 Cell B-Lymphoid
 Cell B-Lymphoid Precursor
-Cell BALB
-Cell BALB 3T3
-Cell BALB-3T3
-Cell BALB-c
-Cell BALB-c 3T3
 Cell BALT
 Cell BALT M
 Cell Be1
@@ -1118,11 +1033,6 @@ Cell Bronchiolar
 Cell Bronchiolar M
 Cell Brown
 Cell Brown Fat
-Cell CHO
-Cell COS
-Cell COS-1
-Cell COS-7
-Cell Caco-2
 Cell Cancer
 Cell Cancer Stem
 Cell Capillary
@@ -1247,19 +1157,7 @@ Cell Granulosa
 Cell Granulosa-Luteal
 Cell Granulosa-Lutein
 Cell Grid
-Cell HCT
-Cell HCT 116
-Cell HCT-116
-Cell HCT116
-Cell HEK
-Cell HEK 293
-Cell HEK293
-Cell HL60
-Cell HT-29
-Cell HT29
 Cell HUVEC
-Cell HeLa
-Cell HeLa-KB
 Cell Heart
 Cell Heart Muscle
 Cell Heart μscle
@@ -1311,17 +1209,11 @@ Cell Invertebrate Photoreceptor
 Cell Invertebrate ρtoreceptor
 Cell Junction
 Cell Junctions
-Cell Jurkat
-Cell KB
 Cell Kidney
 Cell Kidney Mesangial
 Cell Kupffer
-Cell L
-Cell L (Cell
-Cell L929
 Cell LAK
 Cell LE
-Cell LLC-PK1
 Cell Labyrinth
 Cell Labyrinth Supporting
 Cell Lacis
@@ -1336,49 +1228,10 @@ Cell Layers Feeder
 Cell Layers, Feeder
 Cell Leydig
 Cell Limbal
-Cell Line
-Cell Line 293
-Cell Line A549
 Cell Line Hep
 Cell Line Hepatoblastoma
-Cell Line L
-Cell Line L-Cell
-Cell Line L-Cells
-Cell Line L929
-Cell Line MDA-MB-231
-Cell Line PC-3
-Cell Line PC3
-Cell Line Pheochromocytoma
-Cell Line THP-1
-Cell Line Transformed
-Cell Line Tumor
-Cell Line, A549
 Cell Line, Hep G2
 Cell Line, Hepatoblastoma G2
-Cell Line, L
-Cell Line, L929
-Cell Line, MDA-MB-231
-Cell Line, PC-3
-Cell Line, PC3
-Cell Line, Pheochromocytoma
-Cell Line, THP-1
-Cell Line, Transformed
-Cell Line, Tumor
-Cell Lines
-Cell Lines A549
-Cell Lines L
-Cell Lines MDA-MB-231
-Cell Lines Pheochromocytoma
-Cell Lines THP-1
-Cell Lines Transformed
-Cell Lines Tumor
-Cell Lines, A549
-Cell Lines, L
-Cell Lines, MDA-MB-231
-Cell Lines, Pheochromocytoma
-Cell Lines, THP-1
-Cell Lines, Transformed
-Cell Lines, Tumor
 Cell Luteal
 Cell Lutein
 Cell Lymphatic
@@ -1394,10 +1247,6 @@ Cell M
 Cell MAIT
 Cell MALT
 Cell MALT M
-Cell MCF-7
-Cell MCF7
-Cell MDA-MB-231
-Cell MDCK
 Cell Mast
 Cell Matrix
 Cell Matrix Adherens
@@ -1455,9 +1304,6 @@ Cell Myogenic Satellite
 Cell Myosatellite
 Cell NALT
 Cell NALT M
-Cell NIH
-Cell NIH 3T3
-Cell NIH-3T3
 Cell NK
 Cell Natural
 Cell Natural Killer
@@ -1523,8 +1369,6 @@ Cell Prokaryotic
 Cell Purkinje
 Cell Purkyne
 Cell Pyramidal
-Cell RAW
-Cell RAW 264.7
 Cell RNP
 Cell RNP Granules
 Cell Radial
@@ -1561,8 +1405,6 @@ Cell Schwann
 Cell Sensory
 Cell Serotonin-Containing
 Cell Sertoli
-Cell Sf21
-Cell Sf9
 Cell Side-Population
 Cell Skin
 Cell Skin Dendritic
@@ -1577,8 +1419,6 @@ Cell Spongy Mesophyll
 Cell Squamous
 Cell Squamous Epithelial
 Cell Stem
-Cell Strain
-Cell Strain L
 Cell Stromal
 Cell Subset
 Cell Subsets
@@ -1601,7 +1441,6 @@ Cell TC2
 Cell TH-1
 Cell TH-17
 Cell TH-2
-Cell THP-1
 Cell TSH
 Cell Teratocarcinoma
 Cell Teratocarcinoma Stem
@@ -1629,13 +1468,11 @@ Cell Tumor Initiating
 Cell Tumor Stem
 Cell Tumor-Derived
 Cell Tumor-Infiltrating
-Cell U937
 Cell Vascular
 Cell Vascular Endothelial
 Cell Veiled
 Cell Ventral
 Cell Ventral Horn
-Cell Vero
 Cell Vertebrate
 Cell Vertebrate Photoreceptor
 Cell Vertebrate ρtoreceptor
@@ -1665,10 +1502,6 @@ Cell νcleus Structures
 Cell νll
 Cell πtuitary
 Cell ρtoreceptor
-Cell, 293T
-Cell, 3T3
-Cell, 3T3-L1
-Cell, A549
 Cell, APUD
 Cell, Acinar
 Cell, Acini
@@ -1690,9 +1523,6 @@ Cell, Astroglial
 Cell, Atypical Squamous
 Cell, B-1
 Cell, B-Lymphoid Precursor
-Cell, BALB 3T3
-Cell, BALB-3T3
-Cell, BALB-c 3T3
 Cell, BALT M
 Cell, Be1
 Cell, Be2
@@ -1706,11 +1536,6 @@ Cell, Breg
 Cell, Brite Fat
 Cell, Bronchiolar M
 Cell, Brown Fat
-Cell, CHO
-Cell, COS
-Cell, COS-1
-Cell, COS-7
-Cell, Caco-2
 Cell, Cancer Stem
 Cell, Capillary Endothelial
 Cell, Cardiac Muscle
@@ -1785,17 +1610,7 @@ Cell, Granulosa
 Cell, Granulosa-Luteal
 Cell, Granulosa-Lutein
 Cell, Grid
-Cell, HCT 116
-Cell, HCT-116
-Cell, HCT116
-Cell, HEK 293
-Cell, HEK293
-Cell, HL60
-Cell, HT-29
-Cell, HT29
 Cell, HUVEC
-Cell, HeLa
-Cell, HeLa-KB
 Cell, Heart Muscle
 Cell, Helper T
 Cell, Hematopoietic Progenitor
@@ -1823,16 +1638,10 @@ Cell, Interstitial Cajal-Like
 Cell, Interstitial Dendritic
 Cell, Intestinal M
 Cell, Invertebrate Photoreceptor
-Cell, Jurkat
-Cell, KB
 Cell, Kidney Mesangial
 Cell, Kupffer
-Cell, L
-Cell, L (Cell Line)
-Cell, L929
 Cell, LAK
 Cell, LE
-Cell, LLC-PK1
 Cell, Labyrinth Supporting
 Cell, Lacis
 Cell, Langerhans
@@ -1849,10 +1658,6 @@ Cell, Lymphokine-Activated Killer
 Cell, M
 Cell, MAIT
 Cell, MALT M
-Cell, MCF-7
-Cell, MCF7
-Cell, MDA-MB-231
-Cell, MDCK
 Cell, Mast
 Cell, Mechanoreceptor
 Cell, Megakaryocyte Progenitor
@@ -1875,8 +1680,6 @@ Cell, Myeloid-Derived Suppressor
 Cell, Myogenic Satellite
 Cell, Myosatellite
 Cell, NALT M
-Cell, NIH 3T3
-Cell, NIH-3T3
 Cell, NK
 Cell, Natural Killer
 Cell, Neoplasm Circulating
@@ -1915,7 +1718,6 @@ Cell, Prokaryotic
 Cell, Purkinje
 Cell, Purkyne
 Cell, Pyramidal
-Cell, RAW 264.7
 Cell, Radial Glial
 Cell, Regulatory B
 Cell, Regulatory T
@@ -1934,8 +1736,6 @@ Cell, Satellite Glia
 Cell, Satellite Glial
 Cell, Schwann
 Cell, Sertoli
-Cell, Sf21
-Cell, Sf9
 Cell, Side-Population
 Cell, Skin Dendritic
 Cell, Small Luteal
@@ -1944,7 +1744,6 @@ Cell, Spongy Mesophyll
 Cell, Squamous
 Cell, Squamous Epithelial
 Cell, Stem
-Cell, Strain L
 Cell, Stromal
 Cell, T
 Cell, T Helper2
@@ -1955,7 +1754,6 @@ Cell, TC2
 Cell, TH-1
 Cell, TH-17
 Cell, TH-2
-Cell, THP-1
 Cell, TSH
 Cell, Teratocarcinoma Stem
 Cell, Testicular Interstitial
@@ -1974,11 +1772,9 @@ Cell, Transitional Epithelial
 Cell, Treg
 Cell, Tumor Initiating
 Cell, Tumor Stem
-Cell, U937
 Cell, Vascular Endothelial
 Cell, Veiled
 Cell, Ventral Horn
-Cell, Vero
 Cell, Vertebrate Photoreceptor
 Cell, White Fat
 Cell, iNKT
@@ -2012,14 +1808,8 @@ Cell-Membrane Coated πts
 Cellfree
 Cellfree System
 Cellfree Systems
-Cells (Cell
-Cells (Cell Line)
 Cells (Intestine)
-Cells 293T
-Cells 3T3
-Cells 3T3-L1
 Cells 5-HT-Containing
-Cells A549
 Cells APUD
 Cells Acinar
 Cells Acini
@@ -2053,11 +1843,6 @@ Cells B
 Cells B Lymphoid
 Cells B-Lymphoid
 Cells B-Lymphoid Precursor
-Cells BALB
-Cells BALB 3T3
-Cells BALB-3T3
-Cells BALB-c
-Cells BALB-c 3T3
 Cells BALT
 Cells BALT M
 Cells Beige
@@ -2075,11 +1860,6 @@ Cells Brown
 Cells Brown Fat
 Cells CD8
 Cells CD8 Positive
-Cells CHO
-Cells COS
-Cells COS-1
-Cells COS-7
-Cells Caco-2
 Cells Cancer
 Cells Cancer Stem
 Cells Cannot
@@ -2089,8 +1869,6 @@ Cells Capillary Endothelial
 Cells Cardiac
 Cells Cardiac Muscle
 Cells Cardiac μscle
-Cells Cell
-Cells Cell Line
 Cells Cell-Mediated
 Cells Cerebellar
 Cells Chemoreceptive
@@ -2193,19 +1971,7 @@ Cells Granulosa
 Cells Granulosa-Luteal
 Cells Granulosa-Lutein
 Cells Grid
-Cells HCT
-Cells HCT 116
-Cells HCT-116
-Cells HCT116
-Cells HEK
-Cells HEK 293
-Cells HEK293
-Cells HL60
-Cells HT-29
-Cells HT29
 Cells HUVEC
-Cells HeLa
-Cells HeLa-KB
 Cells Heart
 Cells Heart Muscle
 Cells Heart μscle
@@ -2254,17 +2020,10 @@ Cells Invertebrate
 Cells Invertebrate Photoreceptor
 Cells Invertebrate ρtoreceptor
 Cells Ito
-Cells Jurkat
-Cells K562
-Cells KB
 Cells Kidney
 Cells Kidney Mesangial
 Cells Kupffer
-Cells L
-Cells L (Cell
-Cells L929
 Cells LAK
-Cells LLC-PK1
 Cells Labyrinth
 Cells Labyrinth Supporting
 Cells Lacis
@@ -2295,10 +2054,6 @@ Cells M
 Cells MAIT
 Cells MALT
 Cells MALT M
-Cells MCF-7
-Cells MCF7
-Cells MDA-MB-231
-Cells MDCK
 Cells Mast
 Cells Mature
 Cells Mechanoreceptor
@@ -2332,9 +2087,6 @@ Cells Myeloid-Derived Suppressor
 Cells Myogenic
 Cells NALT
 Cells NALT M
-Cells NIH
-Cells NIH 3T3
-Cells NIH-3T3
 Cells NK
 Cells Natural
 Cells Natural Killer
@@ -2362,8 +2114,6 @@ Cells Ovarian
 Cells Ovarian Interstitial
 Cells Oxyntic
 Cells Oxyphil
-Cells PC-3
-Cells PC3
 Cells Palisade
 Cells Palisade Parenchyma
 Cells Pancreatic
@@ -2397,8 +2147,6 @@ Cells Prokaryotic
 Cells Purkinje
 Cells Purkyne
 Cells Pyramidal
-Cells RAW
-Cells RAW 264.7
 Cells Radial
 Cells Radial Glial
 Cells Red
@@ -2430,8 +2178,6 @@ Cells Schwann
 Cells Sensory
 Cells Serotonin-Containing
 Cells Sertoli
-Cells Sf21
-Cells Sf9
 Cells Side-Population
 Cells Skeletal
 Cells Skeletal Muscle
@@ -2451,11 +2197,7 @@ Cells Squamous
 Cells Squamous Epithelial
 Cells Stem
 Cells Sternberg-Reed
-Cells Strain
-Cells Strain L
 Cells Stromal
-Cells Swiss
-Cells Swiss 3T3
 Cells T
 Cells T Helper2
 Cells T Lymphoid
@@ -2465,7 +2207,6 @@ Cells T8
 Cells TH-1
 Cells TH-17
 Cells TH-2
-Cells THP-1
 Cells Teratocarcinoma
 Cells Teratocarcinoma Stem
 Cells Testicular
@@ -2491,13 +2232,11 @@ Cells Tumor
 Cells Tumor Initiating
 Cells Tumor Stem
 Cells Tumor-Derived
-Cells U937
 Cells Vascular
 Cells Vascular Endothelial
 Cells Veiled
 Cells Ventral
 Cells Ventral Horn
-Cells Vero
 Cells Vertebrate
 Cells Vertebrate Photoreceptor
 Cells Vertebrate ρtoreceptor
@@ -2521,10 +2260,6 @@ Cells νll
 Cells πtuitary
 Cells πtuitary Adrenocorticotropin-Secreting
 Cells ρtoreceptor
-Cells, 293T
-Cells, 3T3
-Cells, 3T3-L1
-Cells, A549
 Cells, APUD
 Cells, Acinar
 Cells, Acini
@@ -2544,9 +2279,6 @@ Cells, Antigen-Presenting
 Cells, Askenazy
 Cells, Atypical Squamous
 Cells, B-Lymphoid Precursor
-Cells, BALB 3T3
-Cells, BALB-3T3
-Cells, BALB-c 3T3
 Cells, BALT M
 Cells, Beige Brite
 Cells, Beige Fat
@@ -2556,11 +2288,6 @@ Cells, Breg
 Cells, Brite Fat
 Cells, Bronchiolar M
 Cells, Brown Fat
-Cells, CHO
-Cells, COS
-Cells, COS-1
-Cells, COS-7
-Cells, Caco-2
 Cells, Cancer Stem
 Cells, Capillary Endothelial
 Cells, Cardiac Muscle
@@ -2631,17 +2358,7 @@ Cells, Granulosa
 Cells, Granulosa-Luteal
 Cells, Granulosa-Lutein
 Cells, Grid
-Cells, HCT 116
-Cells, HCT-116
-Cells, HCT116
-Cells, HEK 293
-Cells, HEK293
-Cells, HL60
-Cells, HT-29
-Cells, HT29
 Cells, HUVEC
-Cells, HeLa
-Cells, HeLa-KB
 Cells, Heart Muscle
 Cells, Helper T
 Cells, Hematopoietic Progenitor
@@ -2671,16 +2388,9 @@ Cells, Interstitial Dendritic
 Cells, Intestinal M
 Cells, Invertebrate Photoreceptor
 Cells, Ito
-Cells, Jurkat
-Cells, K562
-Cells, KB
 Cells, Kidney Mesangial
 Cells, Kupffer
-Cells, L
-Cells, L (Cell Line)
-Cells, L929
 Cells, LAK
-Cells, LLC-PK1
 Cells, Labyrinth Supporting
 Cells, Lacis
 Cells, Langerhans
@@ -2699,10 +2409,6 @@ Cells, Lymphokine-Activated Killer
 Cells, M
 Cells, MAIT
 Cells, MALT M
-Cells, MCF-7
-Cells, MCF7
-Cells, MDA-MB-231
-Cells, MDCK
 Cells, Mast
 Cells, Mechanoreceptor
 Cells, Megakaryocyte Progenitor
@@ -2724,8 +2430,6 @@ Cells, Myeloid Progenitor
 Cells, Myeloid Stem
 Cells, Myeloid-Derived Suppressor
 Cells, NALT M
-Cells, NIH 3T3
-Cells, NIH-3T3
 Cells, NK
 Cells, Natural Killer
 Cells, Neoplasm Circulating
@@ -2742,8 +2446,6 @@ Cells, Oligodendrocyte Progenitor
 Cells, Ovarian Interstitial
 Cells, Oxyntic
 Cells, Oxyphil
-Cells, PC-3
-Cells, PC3
 Cells, Palisade Parenchyma
 Cells, Pancreatic Polypeptide-Secreting
 Cells, Pancreatic Stellate
@@ -2767,7 +2469,6 @@ Cells, Prokaryotic
 Cells, Purkinje
 Cells, Purkyne
 Cells, Pyramidal
-Cells, RAW 264.7
 Cells, Radial Glial
 Cells, Reed-Sternberg
 Cells, Regulatory B
@@ -2786,8 +2487,6 @@ Cells, Rod Photoreceptor
 Cells, Rouget
 Cells, Schwann
 Cells, Sertoli
-Cells, Sf21
-Cells, Sf9
 Cells, Side-Population
 Cells, Skin Dendritic
 Cells, Small Luteal
@@ -2797,9 +2496,7 @@ Cells, Squamous
 Cells, Squamous Epithelial
 Cells, Stem
 Cells, Sternberg-Reed
-Cells, Strain L
 Cells, Stromal
-Cells, Swiss 3T3
 Cells, T
 Cells, T Helper2
 Cells, T-Lymphoid Precursor
@@ -2807,7 +2504,6 @@ Cells, T8
 Cells, TH-1
 Cells, TH-17
 Cells, TH-2
-Cells, THP-1
 Cells, Teratocarcinoma Stem
 Cells, Testicular Interstitial
 Cells, Th1
@@ -2825,11 +2521,9 @@ Cells, Transitional Epithelial
 Cells, Treg
 Cells, Tumor Initiating
 Cells, Tumor Stem
-Cells, U937
 Cells, Vascular Endothelial
 Cells, Veiled
 Cells, Ventral Horn
-Cells, Vero
 Cells, Vertebrate Photoreceptor
 Cells, White Fat
 Cells, iNKT
@@ -3186,9 +2880,6 @@ Clathrin-Coated Vesicle
 Clathrin-Coated Vesicles
 Cleavage Bodies
 Cleavage Body
-Clone 929
-Clone 929 Cells
-Clone 929 of
 Clone Cell
 Clone Cells
 Cluster Interchromatin
@@ -3555,9 +3246,6 @@ DNA Traps
 DNA Traps Extracellular
 DNA Traps)
 DNA Traps, Extracellular
-Darby
-Darby Canine
-Darby Canine Kidney
 Decarboxylation Cells
 Decellularized
 Decellularized ECM
@@ -3717,10 +3405,6 @@ EEDTs (Eosinophil Extracellular DNA Traps)
 EG
 EG Cell
 EG Cells
-Earle's
-Earle's Strain
-Earle's Strain L
-Earle's Strain L Cells
 Ectosome
 Ectosomes
 Effector 1
@@ -3768,8 +3452,6 @@ Embryonal Carcinoma Stem Cells
 Embryonic Germ
 Embryonic Germ Cell
 Embryonic Germ Cells
-Embryonic Kidney
-Embryonic Kidney Cell
 Embryonic Muscle
 Embryonic Muscle Cell
 Embryonic Muscle Cells
@@ -4347,8 +4029,6 @@ Forming Units Erythroid
 Forming Units Granulocyte
 Forming Units Hematopoietic
 Forming Units Neoplastic
-Foundation 7
-Foundation 7 Cells
 Fraction Stromal
 Fraction Stromal Vascular
 Fraction Subcellular
@@ -4804,50 +4484,11 @@ HAC
 HAC (Chromosome)
 HACs
 HACs (Chromosomes)
-HCT
-HCT 116
-HCT 116 Cell
-HCT 116 Cells
-HCT-116
-HCT-116 Cell
-HCT-116 Cells
-HCT116
-HCT116 Cell
-HCT116 Cells
-HEK
-HEK 293
-HEK 293 Cell
-HEK 293 Cell Line
-HEK 293 Cells
-HEK293
-HEK293 Cell
-HEK293 Cells
-HL 60
-HL 60 Cells
-HL-60
-HL-60 Cell
-HL-60 Cells
-HL60
-HL60 Cell
-HL60 Cells
-HT
-HT 29
-HT 29 Cells
 HT Containing
 HT Containing Enterochromaffin
-HT-29
-HT-29 Cell
-HT-29 Cells
-HT29
-HT29 Cell
-HT29 Cells
 HUVEC
 HUVEC Cell
 HUVEC Cells
-HaCaT
-HaCaT Cell
-HaCaT Cell Line
-HaCaT Cells
 Hair Cell
 Hair Cell Auditory
 Hair Cell Cochlear
@@ -4874,13 +4515,6 @@ Hair Cells, Cochlear
 Hair Cells, Inner
 Hair Cells, Outer
 Hair Cells, Vestibular
-HeLa Cell
-HeLa Cells
-HeLa KB
-HeLa KB Cells
-HeLa-KB
-HeLa-KB Cell
-HeLa-KB Cells
 Head Sperm
 Head, Sperm
 Heads Sperm
@@ -4965,14 +4599,10 @@ Heterochromatin
 Heterochromatins
 High Grade
 High Grade Squamous
-High Temperature
-High Temperature Keratinocytes
 High-Grade
 High-Grade Squamous
 High-Grade Squamous Intra-Epithelial
 High-Grade Squamous Intra-epithelial
-High-Temperature
-High-Temperature Keratinocytes
 Hippocampal
 Hippocampal Mossy
 Hippocampal Mossy Fiber
@@ -5017,19 +4647,11 @@ Human 21-22 and
 Human 4-5
 Human 6-12
 Human 6-12 and
-Human Adult
-Human Adult Low
-Human Adult Low Calcium High Temperature Keratinocytes
-Human Adult Low-Calcium
-Human Adult Low-Calcium High-Temperature Keratinocytes
 Human Artificial
 Human Artificial Chromosome
 Human Artificial Chromosomes
 Human Chromosome
 Human Chromosomes
-Human Embryonic
-Human Embryonic Kidney
-Human Embryonic Kidney Cell Line 293
 Human Embryonic Stem
 Human Embryonic Stem Cell
 Human Embryonic Stem Cells
@@ -5037,9 +4659,6 @@ Human Induced
 Human Induced Pluripotent
 Human Induced Pluripotent Stem Cell
 Human Induced Pluripotent Stem Cells
-Human Kidney
-Human Kidney Cell
-Human Kidney Cell Line 293
 Human Mononuclear
 Human Mononuclear Cells
 Human Pair
@@ -5065,9 +4684,6 @@ Human Pair 6
 Human Pair 7
 Human Pair 8
 Human Pair 9
-Human Prostatic
-Human Prostatic Carcinoma
-Human Prostatic Carcinoma Cell Line PC3
 Human Umbilical
 Human Umbilical Vein
 Human Umbilical Vein Endothelial Cell
@@ -5445,26 +5061,15 @@ Junctions, Neuromuscular
 Junctions, Neuronal Gap
 Junctions, Occluding
 Junctions, Tight
-Jurkat
-Jurkat Cell
-Jurkat Cells
-K562
-K562 Cells
-KB Cell
-KB Cells
 KDa
 KDa Bodies
 Keratinocyte
-Keratinocytes
 Keratocyte
 Keratocyte Corneal
 Keratocyte, Corneal
 Keratocytes
 Keratocytes Corneal
 Keratocytes, Corneal
-Kidney Cell
-Kidney Cell Line
-Kidney Cells
 Kidney Mesangial
 Kidney Mesangial Cell
 Kidney Mesangial Cells
@@ -5520,48 +5125,16 @@ Krauses End Bulbs
 Kupffer
 Kupffer Cell
 Kupffer Cells
-L (Cell
-L (Cell Line)
-L Cell
-L Cell (Cell
-L Cell (Cell Line)
 L Cell (Intestine)
 L Cell Intestinal
-L Cell Line
-L Cell Lines
-L Cell Strain
 L Cell, Intestinal
-L Cell, Strain
-L Cells
-L Cells (Cell
-L Cells (Cell Line)
 L Cells (Intestine)
-L Cells Cell
 L Cells Intestinal
-L Cells Strain
-L Cells, Cell Line
 L Cells, Intestinal
-L Cells, Strain
-L-Cell
-L-Cell Cell
-L-Cell Cell Line
-L-Cell Line
-L-Cell Lines
-L-Cell, Cell Line
-L-Cells
-L-Cells Cell
-L-Cells Cell Line
-L-Cells, Cell Line
-L1
-L1 Cells
 L10
 L10 Ribosomal
 L10 Ribosomal Protein
 L10, Ribosomal Protein
-L929
-L929 Cell
-L929 Cell Line
-L929 Cells
 LAK
 LAK Cell
 LAK Cells
@@ -5580,12 +5153,6 @@ LH-Producing Cells
 LH-Secreting
 LH-Secreting Cell
 LH-Secreting Cells
-LLC
-LLC PK1
-LLC PK1 Cells
-LLC-PK1
-LLC-PK1 Cell
-LLC-PK1 Cells
 Labyrinth Supporting
 Labyrinth Supporting Cell
 Labyrinth Supporting Cells
@@ -5706,46 +5273,15 @@ Limbal Epithelial Stem Cells of the Cornea
 Limbal Stem
 Limbal Stem Cell
 Limbal Stem Cells
-Line 293
-Line A549
 Line Cell
 Line Cells
 Line Hep
 Line Hep G2
 Line Hepatoblastoma
 Line Hepatoblastoma G2
-Line L
-Line L-Cell
-Line L-Cells
-Line L929
-Line MDA-MB-231
-Line MDA-MB-231 Cell
-Line PC-3
-Line PC-3 Cell
-Line PC3
-Line Pheochromocytoma
-Line THP-1
-Line Transformed
-Line Tumor
-Line Tumor Cell
-Line)
 Line, Cell
-Line, MDA-MB-231 Cell
-Line, PC-3 Cell
-Line, Tumor Cell
-Lines A549
 Lines Cell
-Lines L
-Lines MDA-MB-231
-Lines MDA-MB-231 Cell
-Lines Pheochromocytoma
-Lines THP-1
-Lines Transformed
-Lines Tumor
-Lines Tumor Cell
 Lines, Cell
-Lines, MDA-MB-231 Cell
-Lines, Tumor Cell
 Lipid Bodies
 Lipid Body
 Lipid Droplet
@@ -5765,11 +5301,6 @@ Liver Mitochondrion
 Lobopodia
 Locus Bodies
 Locus Body
-Low Calcium
-Low Calcium High
-Low-Calcium
-Low-Calcium High-Temperature
-Low-Calcium High-Temperature Keratinocytes
 Lung Stretch
 Lung Stretch Receptor
 Lung Stretch Receptors
@@ -5966,42 +5497,6 @@ MAIT Cells
 MALT M
 MALT M Cell
 MALT M Cells
-MB 134
-MB 134 Breast
-MB 231
-MB 231 Cell
-MB 231 Cells
-MCF
-MCF 7
-MCF 7 Cells
-MCF-7
-MCF-7 Cell
-MCF-7 Cells
-MCF7
-MCF7 Cell
-MCF7 Cells
-MDA
-MDA MB
-MDA MB 134
-MDA MB 134 Breast Cancer Cells
-MDA MB 134 Breast Carcinoma Cells
-MDA MB 231
-MDA MB 231 Cell Line
-MDA MB 231 Cells
-MDA-MB-134
-MDA-MB-134 Breast
-MDA-MB-134 Breast Cancer
-MDA-MB-134 Breast Cancer Cells
-MDA-MB-134 Breast Carcinoma
-MDA-MB-134 Breast Carcinoma Cells
-MDA-MB-231
-MDA-MB-231 Cell
-MDA-MB-231 Cell Line
-MDA-MB-231 Cell Lines
-MDA-MB-231 Cells
-MDCK
-MDCK Cell
-MDCK Cells
 MDSC
 MDSCs
 MSH Producing
@@ -6053,10 +5548,6 @@ Macrophages, Monocyte Derived
 Macrophages, Monocyte-Derived
 Macrophages, Peritoneal
 Macrophages, Pulmonary
-Madin
-Madin Darby
-Madin Darby Canine
-Madin Darby Canine Kidney Cells
 Magnetosome
 Magnetosomes
 Mallory
@@ -6353,9 +5844,6 @@ Mesophyll Cells Spongy
 Mesophyll Cells, Spongy
 Metamyelocyte
 Metamyelocytes
-Michigan Cancer
-Michigan Cancer Foundation
-Michigan Cancer Foundation 7 Cells
 Microbodies
 Microbody
 Microdomain
@@ -6800,23 +6288,12 @@ NALT
 NALT M
 NALT M Cell
 NALT M Cells
-NCTC
-NCTC Clone
-NCTC Clone 929
-NCTC Clone 929 Cells
-NCTC Clone 929 of Strain L Cells
 NET (Neutrophil
 NET (Neutrophil Extracellular
 NET (Neutrophil Extracellular Traps)
 NETs (Neutrophil
 NETs (Neutrophil Extracellular
 NETs (Neutrophil Extracellular Traps)
-NIH 3T3
-NIH 3T3 Cell
-NIH 3T3 Cells
-NIH-3T3
-NIH-3T3 Cell
-NIH-3T3 Cells
 NK
 NK Cell
 NK Cells
@@ -7387,29 +6864,9 @@ PBMC
 PBMC Peripheral
 PBMC Peripheral Blood
 PBMC Peripheral Blood Mononuclear Cells
-PC 3
-PC 3 Cell
-PC 3 Cell Line
-PC 3 Cells
-PC-3
-PC-3 (Human
-PC-3 (Human Prostatic
-PC-3 (Human Prostatic Carcinoma) Cell Line
-PC-3 Cell
-PC-3 Cell Line
-PC-3 Cells
-PC12
-PC12 Cell
-PC12 Cells
-PC3
-PC3 Cell
-PC3 Cell Line
-PC3 Cells
 PIN2
 PIN2 Protein
 PIN2 Proteins
-PK1
-PK1 Cells
 PML
 PML Bodies
 PML Body
@@ -7604,9 +7061,6 @@ Phagophore
 Phagophores
 Phagosome
 Phagosomes
-Pheochromocytoma Cell
-Pheochromocytoma Cell Line
-Pheochromocytoma Cell Lines
 Philadelphia Chromosome
 Photoreceptor
 Photoreceptor Cell
@@ -8203,10 +7657,6 @@ Promyelocytic Leukemia Protein Body
 Promyelocytic Leukemia νclear
 Pronormoblast
 Pronormoblasts
-Prostatic Carcinoma
-Prostatic Carcinoma Cell
-Prostatic Carcinoma)
-Prostatic Carcinoma) Cell
 Protein 1
 Protein 2
 Protein Bodies
@@ -8296,10 +7746,6 @@ QMs
 QMs Tumor
 QMs Tumor Suppressor
 QMs, Tumor Suppressor
-RAW 264.7
-RAW 264.7 Cell
-RAW 264.7 Cell Line
-RAW 264.7 Cells
 RNA Granule
 RNA Granule Cytoplasmic
 RNA Granule, Cytoplasmic
@@ -8904,12 +8350,6 @@ Sex Pili
 Sex Pilus
 Sex πli
 Sex πlus
-Sf21
-Sf21 Cell
-Sf21 Cells
-Sf9
-Sf9 Cell
-Sf9 Cells
 Sheath Myelin
 Sheath Schwann
 Sheath, Myelin
@@ -9156,13 +8596,6 @@ Spliceosome
 Spliceosomes
 Splicing Speckle
 Splicing Speckles
-Spodoptera frugiperda
-Spodoptera frugiperda 21
-Spodoptera frugiperda 21 Cell
-Spodoptera frugiperda 21 Cells
-Spodoptera frugiperda 9
-Spodoptera frugiperda 9 Cell
-Spodoptera frugiperda 9 Cells
 Sponge Bodies
 Sponge Body
 Spongy Mesophyll
@@ -9327,9 +8760,6 @@ Storage Bodies, Lipid
 Storage Body
 Storage Body Lipid
 Storage Body, Lipid
-Strain L
-Strain L Cell
-Strain L Cells
 Strand RNA
 Strand RNA Virus
 Stress Fiber
@@ -9594,9 +9024,6 @@ Surface Protrusion, Cell
 Surface Protrusions
 Surface Protrusions Cell
 Surface Protrusions, Cell
-Swiss 3T3
-Swiss 3T3 Cells
-Swiss Albino
 Sympathetic Fiber
 Sympathetic Fiber Postganglionic
 Sympathetic Fiber, Postganglionic
@@ -9842,16 +9269,6 @@ TH-17 Cells
 TH-2
 TH-2 Cell
 TH-2 Cells
-THP
-THP 1
-THP 1 Cell
-THP 1 Cell Line
-THP 1 Cells
-THP-1
-THP-1 Cell
-THP-1 Cell Line
-THP-1 Cell Lines
-THP-1 Cells
 TPP1
 TPP1 Complex
 TPP1 Shelterin
@@ -9931,7 +9348,6 @@ Telopode
 Telopodes
 Telosome
 Telosomes
-Temperature Keratinocytes
 Ten1
 Ten1 Capping
 Ten1 Capping Complex
@@ -10049,9 +9465,6 @@ Transcriptional Condensate
 Transcriptional Condensates
 Transcriptional Droplet
 Transcriptional Droplets
-Transformed Cell
-Transformed Cell Line
-Transformed Cell Lines
 Transitional B
 Transitional B Cell
 Transitional B Cells
@@ -10106,12 +9519,9 @@ Tumor Associated
 Tumor Associated Fibroblasts
 Tumor Associated Macrophage
 Tumor Associated Macrophages
-Tumor Cell
 Tumor Cell Circulating
 Tumor Cell Cultured
 Tumor Cell Embolic
-Tumor Cell Line
-Tumor Cell Lines
 Tumor Cell, Circulating
 Tumor Cell, Cultured
 Tumor Cell, Embolic
@@ -10195,9 +9605,6 @@ Type-I Pneumocytes
 Type-II
 Type-II Pneumocyte
 Type-II Pneumocytes
-U937
-U937 Cell
-U937 Cells
 Umbilical Vein
 Umbilical Vein Endothelial
 Undetermined Significance
@@ -10272,9 +9679,6 @@ Ventral Horn Cells
 Ventral Horn Interneuron
 Ventral Horn Neuron
 Ventral Horn Neurons
-Vero
-Vero Cell
-Vero Cells
 Vertebrate Photoreceptor
 Vertebrate Photoreceptor Cell
 Vertebrate Photoreceptor Cells
@@ -10503,12 +9907,6 @@ a cells
 a chromosome
 a chromosomes
 a fibers
-a31
-a549
-a549 cell
-a549 cell line
-a549 cell lines
-a549 cells
 abnormal erythrocyte
 abnormal erythrocytes
 acanthocyte
@@ -10621,10 +10019,6 @@ adrenocorticotropin-secreting cells
 adrenocorticotropin-secreting cells pituitary
 adult germline
 adult germline stem
-adult low
-adult low calcium
-adult low-calcium
-adult low-calcium high-temperature
 adult somatic
 adult somatic stem
 adult stem
@@ -10638,7 +10032,6 @@ agranular endoplasmic reticulum
 airway m
 airway m cell
 airway m cells
-albino
 allocell
 allocells
 allogeneic
@@ -10957,20 +10350,6 @@ bacteriophage artificial
 bacteriophage artificial chromosomes
 bacteriophage p1
 bacteriophage p1 artificial
-balb
-balb 3t3
-balb 3t3 cell
-balb 3t3 cells
-balb 3t3 clone
-balb c
-balb c 3t3
-balb-3t3
-balb-3t3 cell
-balb-3t3 cells
-balb-c
-balb-c 3t3
-balb-c 3t3 cell
-balb-c 3t3 cells
 balbiani
 balbiani ring
 balbiani rings
@@ -11151,10 +10530,6 @@ bouton
 bouton synaptic
 boutons
 boutons synaptic
-breast cancer
-breast cancer cells
-breast carcinoma
-breast carcinoma cells
 breg
 breg cell
 breg cells
@@ -11210,20 +10585,10 @@ burst-forming unit
 burst-forming unit erythroid
 burst-forming units
 burst-forming units erythroid
-c 3T3
-c 3T3 Cells
-c 3t3
-c 3t3 cells
 c chromosome
 c chromosomes
 c fiber
 c fibers
-caco
-caco 2
-caco 2 cells
-caco-2
-caco-2 cell
-caco-2 cells
 cajal
 cajal accessory
 cajal accessory bodies
@@ -11239,22 +10604,15 @@ cajal-like cell
 cajal-like cell interstitial
 cajal-like cells
 cajal-like cells interstitial
-calcium high
-calcium high temperature
 cancer associated
 cancer associated fibroblast
 cancer associated fibroblasts
-cancer cells
-cancer foundation
-cancer foundation 7
 cancer stem
 cancer stem cell
 cancer stem cells
 cancer-associated
 cancer-associated fibroblast
 cancer-associated fibroblasts
-canine kidney
-canine kidney cells
 cannot
 cannot rule
 cannot rule out
@@ -11264,17 +10622,10 @@ capillary endothelial cell
 capillary endothelial cells
 capping complex
 capping complex telomeric
-carcinoma
-carcinoma cell
 carcinoma cell embryonal
-carcinoma cell line
-carcinoma cells
 carcinoma cells embryonal
 carcinoma stem
 carcinoma stem cells
-carcinoma)
-carcinoma) cell
-carcinoma) cell line
 cardiac
 cardiac muscle
 cardiac muscle cell
@@ -11315,15 +10666,9 @@ cd8-(+) suppressor t-lymphocyte
 cd8-(+) suppressor t-lymphocytes
 cd8-(+) t-lymphocyte
 cd8-(+) t-lymphocytes
-cell (cell
-cell (cell line)
 cell (intestine)
-cell 293t
-cell 3t3
-cell 3t3-l1
 cell 5-ht-containing
 cell Theca-Luteal
-cell a549
 cell acinar
 cell acini
 cell acinic
@@ -11353,11 +10698,6 @@ cell auditory outer
 cell b-1
 cell b-lymphoid
 cell b-lymphoid precursor
-cell balb
-cell balb 3t3
-cell balb-3t3
-cell balb-c
-cell balb-c 3t3
 cell balt
 cell balt m
 cell be1
@@ -11380,7 +10720,6 @@ cell bronchiolar
 cell bronchiolar m
 cell brown
 cell brown fat
-cell caco-2
 cell cancer
 cell cancer stem
 cell capillary
@@ -11392,7 +10731,6 @@ cell cell-mediated lympholytic
 cell cerebellar
 cell chemoreceptive
 cell chemoreceptor
-cell cho
 cell chromaffin
 cell ciliary
 cell ciliary photoreceptor
@@ -11414,9 +10752,6 @@ cell connecting
 cell connecting cilium
 cell connective
 cell connective tissue
-cell cos
-cell cos-1
-cell cos-7
 cell cultured
 cell cultured neoplastic
 cell cultured tumor
@@ -11506,17 +10841,8 @@ cell granulosa
 cell granulosa-luteal
 cell granulosa-lutein
 cell grid
-cell hct
-cell hct 116
-cell hct-116
-cell hct116
 cell heart
 cell heart muscle
-cell hek
-cell hek 293
-cell hek293
-cell hela
-cell hela-kb
 cell helper
 cell helper t
 cell hematopoietic
@@ -11531,10 +10857,7 @@ cell hepatic stellate
 cell hepg2
 cell hippocampal
 cell hippocampal place
-cell hl60
 cell homologous
-cell ht-29
-cell ht29
 cell hurthle
 cell huvec
 cell hybrid
@@ -11567,14 +10890,9 @@ cell invertebrate photoreceptor
 cell ips
 cell junction
 cell junctions
-cell jurkat
-cell kb
 cell kidney
 cell kidney mesangial
 cell kupffer
-cell l
-cell l (cell
-cell l929
 cell labyrinth
 cell labyrinth supporting
 cell lacis
@@ -11589,31 +10907,8 @@ cell layers feeder
 cell le
 cell leydig
 cell limbal
-cell line
-cell line 293
-cell line a549
 cell line hep
 cell line hepatoblastoma
-cell line l
-cell line l-cell
-cell line l-cells
-cell line l929
-cell line mda-mb-231
-cell line pc-3
-cell line pc3
-cell line pheochromocytoma
-cell line thp-1
-cell line transformed
-cell line tumor
-cell lines
-cell lines a549
-cell lines l
-cell lines mda-mb-231
-cell lines pheochromocytoma
-cell lines thp-1
-cell lines transformed
-cell lines tumor
-cell llc-pk1
 cell luteal
 cell lutein
 cell lymphatic
@@ -11635,10 +10930,6 @@ cell matrix adherens
 cell matrix adhesions
 cell matrix junctions
 cell mature
-cell mcf-7
-cell mcf7
-cell mda-mb-231
-cell mdck
 cell mechanoreceptor
 cell mediated
 cell mediated lympholytic
@@ -11700,9 +10991,6 @@ cell neuroendocrine
 cell neuroepithelial
 cell neuroglial
 cell neutrophil
-cell nih
-cell nih 3t3
-cell nih-3t3
 cell nk
 cell nuclei
 cell nucleoli
@@ -11760,8 +11048,6 @@ cell purkyne
 cell pyramidal
 cell radial
 cell radial glial
-cell raw
-cell raw 264.7
 cell red
 cell regulatory
 cell regulatory b
@@ -11792,8 +11078,6 @@ cell schwann
 cell sensory
 cell serotonin-containing
 cell sertoli
-cell sf21
-cell sf9
 cell side-population
 cell skin
 cell skin dendritic
@@ -11807,8 +11091,6 @@ cell spongy mesophyll
 cell squamous
 cell squamous epithelial
 cell stem
-cell strain
-cell strain l
 cell stromal
 cell subset
 cell subsets
@@ -11842,7 +11124,6 @@ cell th3
 cell theca
 cell theca-luteal
 cell theca-lutein
-cell thp-1
 cell thyroid
 cell thyroid epithelial
 cell thyroid follicular
@@ -11860,13 +11141,11 @@ cell tumor initiating
 cell tumor stem
 cell tumor-derived
 cell tumor-infiltrating
-cell u937
 cell vascular
 cell vascular endothelial
 cell veiled
 cell ventral
 cell ventral horn
-cell vero
 cell vertebrate
 cell vertebrate photoreceptor
 cell vestibular
@@ -11902,15 +11181,9 @@ cell-membrane coated pits
 cellfree
 cellfree system
 cellfree systems
-cells (cell
-cells (cell line)
 cells (intestine)
-cells 293t
-cells 3t3
-cells 3t3-l1
 cells 5-ht-containing
 cells Theca-Luteal
-cells a549
 cells acinar
 cells acini
 cells acinic
@@ -11944,11 +11217,6 @@ cells b
 cells b lymphoid
 cells b-lymphoid
 cells b-lymphoid precursor
-cells balb
-cells balb 3t3
-cells balb-3t3
-cells balb-c
-cells balb-c 3t3
 cells balt
 cells balt m
 cells beige
@@ -11964,7 +11232,6 @@ cells bronchiolar
 cells bronchiolar m
 cells brown
 cells brown fat
-cells caco-2
 cells cancer
 cells cancer stem
 cells cannot
@@ -11975,13 +11242,10 @@ cells cardiac
 cells cardiac muscle
 cells cd8
 cells cd8 (+)
-cells cell
-cells cell line
 cells cell-mediated
 cells cerebellar
 cells chemoreceptive
 cells chemoreceptor
-cells cho
 cells chromaffin
 cells ciliary
 cells ciliary photoreceptor
@@ -11997,9 +11261,6 @@ cells cone
 cells cone photoreceptor
 cells connective
 cells connective tissue
-cells cos
-cells cos-1
-cells cos-7
 cells cultured
 cells cultured neoplastic
 cells cultured tumor
@@ -12081,17 +11342,8 @@ cells granulosa
 cells granulosa-luteal
 cells granulosa-lutein
 cells grid
-cells hct
-cells hct 116
-cells hct-116
-cells hct116
 cells heart
 cells heart muscle
-cells hek
-cells hek 293
-cells hek293
-cells hela
-cells hela-kb
 cells helper
 cells helper inducer
 cells helper t
@@ -12107,10 +11359,7 @@ cells hepatic stellate
 cells hepg2
 cells hippocampal
 cells hippocampal place
-cells hl60
 cells homologous
-cells ht-29
-cells ht29
 cells human
 cells human embryonic
 cells human umbilical
@@ -12141,15 +11390,9 @@ cells invertebrate
 cells invertebrate photoreceptor
 cells ips
 cells ito
-cells jurkat
-cells k562
-cells kb
 cells kidney
 cells kidney mesangial
 cells kupffer
-cells l
-cells l (cell
-cells l929
 cells labyrinth
 cells labyrinth supporting
 cells lacis
@@ -12163,7 +11406,6 @@ cells large
 cells large luteal
 cells leydig
 cells limbal
-cells llc-pk1
 cells luteal
 cells lutein
 cells lymphatic
@@ -12184,10 +11426,6 @@ cells malt
 cells malt m
 cells mast
 cells mature
-cells mcf-7
-cells mcf7
-cells mda-mb-231
-cells mdck
 cells mechanoreceptor
 cells megakaryocyte
 cells megakaryocyte progenitor
@@ -12232,9 +11470,6 @@ cells neural
 cells neural stem
 cells neuroendocrine
 cells neuroepithelial
-cells nih
-cells nih 3t3
-cells nih-3t3
 cells nk
 cells null
 cells of
@@ -12260,8 +11495,6 @@ cells pancreatic
 cells pancreatic polypeptide-secreting
 cells pancreatic stellate
 cells paneth
-cells pc-3
-cells pc3
 cells perineuronal
 cells perineuronal oligodendroglia
 cells perineuronal satellite
@@ -12291,8 +11524,6 @@ cells purkyne
 cells pyramidal
 cells radial
 cells radial glial
-cells raw
-cells raw 264.7
 cells red
 cells reed-sternberg
 cells regulatory
@@ -12318,8 +11549,6 @@ cells schwann
 cells sensory
 cells serotonin-containing
 cells sertoli
-cells sf21
-cells sf9
 cells side-population
 cells skeletal
 cells skeletal muscle
@@ -12337,11 +11566,7 @@ cells squamous
 cells squamous epithelial
 cells stem
 cells sternberg-reed
-cells strain
-cells strain l
 cells stromal
-cells swiss
-cells swiss 3t3
 cells t
 cells t helper2
 cells t lymphoid
@@ -12362,7 +11587,6 @@ cells th3
 cells theca
 cells theca-luteal
 cells theca-lutein
-cells thp-1
 cells thyroid
 cells thyroid epithelial
 cells thyroid follicular
@@ -12378,13 +11602,11 @@ cells tumor
 cells tumor initiating
 cells tumor stem
 cells tumor-derived
-cells u937
 cells vascular
 cells vascular endothelial
 cells veiled
 cells ventral
 cells ventral horn
-cells vero
 cells vertebrate
 cells vertebrate photoreceptor
 cells vestibular
@@ -12439,9 +11661,6 @@ chief cell gastric
 chief cells
 chief cells gastric
 chloroplast
-cho
-cho cell
-cho cells
 cholesterol rafts
 cholinergic
 cholinergic fiber
@@ -12642,11 +11861,6 @@ clathrin-coated vesicle
 clathrin-coated vesicles
 cleavage bodies
 cleavage body
-clone 929
-clone 929 cells
-clone 929 of
-clone A31
-clone a31
 clone cell
 clone cells
 cluster interchromatin
@@ -12850,18 +12064,6 @@ corpuscles white
 corpuscles white blood
 corticotroph
 corticotrophs
-cos 1
-cos 1 cells
-cos 7
-cos 7 cells
-cos cell
-cos cells
-cos-1
-cos-1 cell
-cos-1 cells
-cos-7
-cos-7 cell
-cos-7 cells
 costamere
 costameres
 cs filamin
@@ -12941,9 +12143,6 @@ d cells gastric
 d cells pancreatic
 d chromosome
 d chromosomes
-darby
-darby canine
-darby canine kidney
 decarboxylation
 decarboxylation cells
 decellularized
@@ -13079,9 +12278,6 @@ droplets lipid
 e chromosome
 e chromosomes
 e chromosomes group
-earle's
-earle's strain
-earle's strain l
 ecl
 ecl cell
 ecl cells
@@ -13135,8 +12331,6 @@ embryonal carcinoma stem
 embryonic germ
 embryonic germ cell
 embryonic germ cells
-embryonic kidney
-embryonic kidney cell
 embryonic muscle
 embryonic muscle cell
 embryonic muscle cells
@@ -13544,24 +12738,11 @@ forming units erythroid
 forming units granulocyte
 forming units hematopoietic
 forming units neoplastic
-foundation 7
-foundation 7 cells
 fraction stromal
 fraction stromal vascular
 fraction subcellular
 fractions subcellular
 free system
-frugiperda
-frugiperda 21
-frugiperda 21 Cell
-frugiperda 21 Cells
-frugiperda 21 cell
-frugiperda 21 cells
-frugiperda 9
-frugiperda 9 Cell
-frugiperda 9 Cells
-frugiperda 9 cell
-frugiperda 9 cells
 fsh cell
 fsh cells
 fsh producing
@@ -13938,10 +13119,6 @@ hESC
 hESCs
 hac
 hac (chromosome)
-hacat
-hacat cell
-hacat cell line
-hacat cells
 hacs
 hacs (chromosomes)
 hair cell
@@ -13956,16 +13133,6 @@ hair cells cochlear
 hair cells inner
 hair cells outer
 hair cells vestibular
-hct
-hct 116
-hct 116 cell
-hct 116 cells
-hct-116
-hct-116 cell
-hct-116 cells
-hct116
-hct116 cell
-hct116 cells
 head sperm
 heads sperm
 heart mitochondria
@@ -13974,20 +13141,6 @@ heart muscle
 heart muscle cell
 heart muscle cells
 heinz bodies
-hek
-hek 293
-hek 293 cell
-hek 293 cells
-hek293
-hek293 cell
-hek293 cells
-hela cell
-hela cells
-hela kb
-hela kb cells
-hela-kb
-hela-kb cell
-hela-kb cells
 helper 1
 helper 1 cells
 helper 17
@@ -14059,13 +13212,9 @@ heterochromatins
 hiPSC
 high grade
 high grade squamous
-high temperature
-high temperature keratinocytes
 high-grade
 high-grade squamous
 high-grade squamous intra-epithelial
-high-temperature
-high-temperature keratinocytes
 hippocampal
 hippocampal mossy
 hippocampal mossy fiber
@@ -14079,14 +13228,6 @@ histone
 histone locus
 histone locus bodies
 histone locus body
-hl 60
-hl 60 cells
-hl-60
-hl-60 cell
-hl-60 cells
-hl60
-hl60 cell
-hl60 cells
 homologous
 homologous cell
 homologous cells
@@ -14110,17 +13251,8 @@ howell jolly
 howell jolly bodies
 howell-jolly
 howell-jolly bodies
-ht
-ht 29
-ht 29 cells
 ht containing
 ht containing enterochromaffin
-ht-29
-ht-29 cell
-ht-29 cells
-ht29
-ht29 cell
-ht29 cells
 human 1-3
 human 13-15
 human 16-18
@@ -14132,21 +13264,14 @@ human 21-22 and
 human 4-5
 human 6-12
 human 6-12 and
-human adult
-human adult low
-human adult low-calcium
 human artificial
 human artificial chromosome
 human artificial chromosomes
 human chromosome
 human chromosomes
-human embryonic
-human embryonic kidney
 human embryonic stem
 human induced
 human induced pluripotent
-human kidney
-human kidney cell
 human mononuclear
 human mononuclear cells
 human pair
@@ -14172,8 +13297,6 @@ human pair 6
 human pair 7
 human pair 8
 human pair 9
-human prostatic
-human prostatic carcinoma
 human umbilical
 human umbilical vein
 human x
@@ -14466,18 +13589,11 @@ junctions neuronal
 junctions neuronal gap
 junctions occluding
 junctions tight
-jurkat
-jurkat cell
-jurkat cells
-k562
-k562 cells
 kDa
 kDa Actin
 kDa Actin Binding
 kDa Actin-Binding
 kDa Actin-Binding Protein
-kb cell
-kb cells
 kda
 kda actin
 kda actin binding
@@ -14485,15 +13601,10 @@ kda actin-binding
 kda actin-binding protein
 kda bodies
 keratinocyte
-keratinocytes
 keratocyte
 keratocyte corneal
 keratocytes
 keratocytes corneal
-kidney
-kidney cell
-kidney cell line
-kidney cells
 kidney mesangial
 kidney mesangial cell
 kidney mesangial cells
@@ -14536,38 +13647,13 @@ krauses end bulbs
 kupffer
 kupffer cell
 kupffer cells
-l (cell
-l (cell line)
-l cell
-l cell (cell
 l cell (intestine)
 l cell intestinal
-l cell line
-l cell lines
-l cell strain
-l cells
-l cells (cell
 l cells (intestine)
-l cells cell
 l cells intestinal
-l cells strain
-l-cell
-l-cell cell
-l-cell cell line
-l-cell line
-l-cell lines
-l-cells
-l-cells cell
-l-cells cell line
-l1
-l1 cells
 l10
 l10 ribosomal
 l10 ribosomal protein
-l929
-l929 cell
-l929 cell line
-l929 cells
 labyrinth supporting
 labyrinth supporting cell
 labyrinth supporting cells
@@ -14681,39 +13767,13 @@ limbal epithelial stem
 limbal stem
 limbal stem cell
 limbal stem cells
-line 293
-line a549
 line cell
 line cells
 line hep
 line hep g2
 line hepatoblastoma
 line hepatoblastoma g2
-line l
-line l-cell
-line l-cells
-line l929
-line mda-mb-231
-line mda-mb-231 cell
-line pc-3
-line pc-3 cell
-line pc3
-line pheochromocytoma
-line thp-1
-line transformed
-line tumor
-line tumor cell
-line)
-lines a549
 lines cell
-lines l
-lines mda-mb-231
-lines mda-mb-231 cell
-lines pheochromocytoma
-lines thp-1
-lines transformed
-lines tumor
-lines tumor cell
 lipid bodies
 lipid body
 lipid droplet
@@ -14729,20 +13789,9 @@ liver microsome
 liver microsomes
 liver mitochondria
 liver mitochondrion
-llc
-llc pk1
-llc pk1 cells
-llc-pk1
-llc-pk1 cell
-llc-pk1 cells
 lobopodia
 locus bodies
 locus body
-low calcium
-low calcium high
-low-calcium
-low-calcium high-temperature
-low-calcium high-temperature keratinocytes
 lung
 lung stretch
 lung stretch receptor
@@ -14902,9 +13951,6 @@ macrophages monocyte-derived
 macrophages peritoneal
 macrophages pulmonary
 macs (chromosomes)
-madin
-madin darby
-madin darby canine
 magnetosome
 magnetosomes
 mait
@@ -14953,36 +13999,6 @@ mature muscle cell
 mature muscle cells
 mazzoni
 mazzoni corpuscles
-mb 134
-mb 134 breast
-mb 231
-mb 231 cell
-mb 231 cells
-mcf
-mcf 7
-mcf 7 cells
-mcf-7
-mcf-7 cell
-mcf-7 cells
-mcf7
-mcf7 cell
-mcf7 cells
-mda
-mda mb
-mda mb 134
-mda mb 231
-mda-mb-134
-mda-mb-134 breast
-mda-mb-134 breast cancer
-mda-mb-134 breast carcinoma
-mda-mb-231
-mda-mb-231 cell
-mda-mb-231 cell line
-mda-mb-231 cell lines
-mda-mb-231 cells
-mdck
-mdck cell
-mdck cells
 mdsc
 mdscs
 mechanoreceptor
@@ -15174,8 +14190,6 @@ mesophyll cells
 mesophyll cells spongy
 metamyelocyte
 metamyelocytes
-michigan cancer
-michigan cancer foundation
 microbodies
 microbody
 microdomain
@@ -15528,9 +14542,6 @@ naturally-occurring suppressor t-cell
 naturally-occurring suppressor t-cells
 naturally-occurring suppressor t-lymphocyte
 naturally-occurring suppressor t-lymphocytes
-nctc
-nctc clone
-nctc clone 929
 negri
 negri bodies
 negri body
@@ -15719,12 +14730,6 @@ neutrophil extracellular
 neutrophil extracellular trap
 neutrophil extracellular traps
 neutrophil polymorphonuclear
-nih 3t3
-nih 3t3 cell
-nih 3t3 cells
-nih-3t3
-nih-3t3 cell
-nih-3t3 cells
 nissl
 nissl bodies
 nissl granule
@@ -15831,7 +14836,6 @@ odontoblast
 odontoblasts
 odontoclast
 odontoclasts
-of
 of 182
 of 182 KDa
 of 182 kda
@@ -15847,8 +14851,6 @@ of Photoreceptor
 of Photoreceptor Cell
 of Ranvier
 of Rolando
-of Strain
-of Strain L
 of Undetermined
 of Undetermined Significance
 of cajal
@@ -15863,8 +14865,6 @@ of photoreceptor
 of photoreceptor cell
 of ranvier
 of rolando
-of strain
-of strain l
 of the
 of the Cerebellum
 of the Cervix
@@ -16093,22 +15093,6 @@ patch m cells
 pbmc
 pbmc peripheral
 pbmc peripheral blood
-pc 3
-pc 3 cell
-pc 3 cells
-pc-3
-pc-3 (human
-pc-3 (human prostatic
-pc-3 cell
-pc-3 cell line
-pc-3 cells
-pc12
-pc12 cell
-pc12 cells
-pc3
-pc3 cell
-pc3 cell line
-pc3 cells
 pellucida
 pericentriolar
 pericentriolar region
@@ -16160,9 +15144,6 @@ phagophore
 phagophores
 phagosome
 phagosomes
-pheochromocytoma cell
-pheochromocytoma cell line
-pheochromocytoma cell lines
 philadelphia chromosome
 photoreceptor
 photoreceptor cell
@@ -16280,8 +15261,6 @@ pituitary tsh-producing cells
 pituitary tsh-secreting
 pituitary tsh-secreting cell
 pituitary tsh-secreting cells
-pk1
-pk1 cells
 place cell
 place cell hippocampal
 place cells
@@ -16610,10 +15589,6 @@ promyelocytic leukemia nuclear
 promyelocytic leukemia protein
 pronormoblast
 pronormoblasts
-prostatic carcinoma
-prostatic carcinoma cell
-prostatic carcinoma)
-prostatic carcinoma) cell
 protein
 protein 1
 protein 2
@@ -16694,9 +15669,6 @@ ranvier's
 ranvier's nodes
 ranviers
 ranviers nodes
-raw 264.7
-raw 264.7 cell
-raw 264.7 cells
 receptor arterial
 receptor arterial stretch
 receptor cell
@@ -17103,12 +16075,6 @@ sex chromosome
 sex chromosomes
 sex pili
 sex pilus
-sf21
-sf21 cell
-sf21 cells
-sf9
-sf9 cell
-sf9 cells
 sheath myelin
 sheath schwann
 sheaths myelin
@@ -17280,9 +16246,6 @@ spliceosome
 spliceosomes
 splicing speckle
 splicing speckles
-spodoptera frugiperda
-spodoptera frugiperda 21
-spodoptera frugiperda 9
 sponge bodies
 sponge body
 spongy mesophyll
@@ -17387,9 +16350,6 @@ storage bodies
 storage bodies lipid
 storage body
 storage body lipid
-strain l
-strain l cell
-strain l cells
 strand rna
 strand rna virus
 stress fiber
@@ -17571,9 +16531,6 @@ svf autologous
 svf autologous adipose
 svfs
 svfs adipose
-swiss 3t3
-swiss 3t3 cells
-swiss albino
 sympathetic fiber
 sympathetic fiber postganglionic
 sympathetic fibers
@@ -17757,8 +16714,6 @@ telopode
 telopodes
 telosome
 telosomes
-temperature
-temperature keratinocytes
 ten1
 ten1 capping
 ten1 capping complex
@@ -17843,15 +16798,6 @@ theca-lutein
 theca-lutein cell
 theca-lutein cells
 thermoreceptor
-thp
-thp 1
-thp 1 cell
-thp 1 cells
-thp-1
-thp-1 cell
-thp-1 cell line
-thp-1 cell lines
-thp-1 cells
 thylakoid
 thylakoid membrane
 thylakoid membranes
@@ -17928,9 +16874,6 @@ transcriptional condensate
 transcriptional condensates
 transcriptional droplet
 transcriptional droplets
-transformed cell
-transformed cell line
-transformed cell lines
 transitional
 transitional b
 transitional b cell
@@ -18006,12 +16949,9 @@ tumor associated
 tumor associated fibroblasts
 tumor associated macrophage
 tumor associated macrophages
-tumor cell
 tumor cell circulating
 tumor cell cultured
 tumor cell embolic
-tumor cell line
-tumor cell lines
 tumor cells
 tumor cells circulating
 tumor cells cultured
@@ -18077,9 +17017,6 @@ type-i pneumocytes
 type-ii
 type-ii pneumocyte
 type-ii pneumocytes
-u937
-u937 cell
-u937 cells
 umbilical vein
 umbilical vein endothelial
 undetermined significance
@@ -18144,9 +17081,6 @@ ventral horn cells
 ventral horn interneuron
 ventral horn neuron
 ventral horn neurons
-vero
-vero cell
-vero cells
 vertebrate photoreceptor
 vertebrate photoreceptor cell
 vertebrate photoreceptor cells

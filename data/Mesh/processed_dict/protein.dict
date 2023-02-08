@@ -4,6 +4,7 @@
  alpha isoform
  α
  α Isoform
+(+)
 (+) regulatory
 (+) regulatory domain
 (+) transcription
@@ -19691,6 +19692,8 @@ Cytotoxic Lymphocyte
 Cytotoxic Lymphocyte Maturation
 Cytotoxic Lymphocyte Maturation Factor
 Cytotoxic Proteins
+Cytotoxic T
+Cytotoxic T Lymphocyte
 Cytotoxic T Lymphocyte Antigen 4
 Cytotoxic T Lymphocyte Associated Antigen 4
 Cytotoxic T Lymphocyte Associated Antigen 4 Immunoglobulin
@@ -19700,6 +19703,7 @@ Cytotoxic T lymphocyte
 Cytotoxic T lymphocyte Associated Antigen 8
 Cytotoxic T lymphocyte-Associated
 Cytotoxic T lymphocyte-Associated Antigen 8
+Cytotoxic T-Lymphocyte
 Cytotoxic T-Lymphocyte Antigen
 Cytotoxic T-Lymphocyte Antigen 4
 Cytotoxic T-Lymphocyte-Associated
@@ -48163,6 +48167,7 @@ Natural Cytotoxicity Triggering Receptor 1
 Natural Cytotoxicity Triggering Receptor 2
 Natural Cytotoxicity Triggering Receptor 3
 Natural Cytotoxicity Triggering Receptors
+Natural Killer
 Natural Killer Associated
 Natural Killer Associated Transcript 1
 Natural Killer Associated Transcript 10 Protein
@@ -55591,6 +55596,7 @@ Precolicin E1
 Precursor Amyloid
 Precursor C3
 Precursor C5
+Precursor Cell
 Precursor Cell Expressed
 Precursor Cell-Expressed
 Precursor Cell-Expressed Developmentally
@@ -74167,8 +74173,10 @@ Suppressor Protein p73
 Suppressor Protein, Metastasis
 Suppressor Protein, Tumor
 Suppressor Proteins
+Suppressor T
 Suppressor T Cell
 Suppressor T Cell Factors
+Suppressor T-Cell
 Suppressor T-Cell Factors
 Suppressor in
 Suppressor in Lung
@@ -74695,6 +74703,7 @@ T Antigens, Viral
 T Box
 T Box Domain
 T Box Domain Proteins
+T Cell
 T Cell Activation
 T Cell Activation 3 Protein
 T Cell Activation Antigen
@@ -74775,6 +74784,7 @@ T Cell γ
 T Cell-Specific
 T Cell-Specific Transcription
 T Cell-Specific Transcription Factor 1-alpha
+T Cells
 T Cells 1
 T Cells 5
 T Cells Cytoplasmic
@@ -74782,8 +74792,10 @@ T Complex
 T Complex Polypeptide
 T Cyclin
 T Cyclins
+T Helper
 T Helper Factor
 T Kininogen
+T Lymphocyte
 T Lymphocyte Antigen
 T Lymphocyte Associated
 T Lymphocyte Maturation
@@ -74833,6 +74845,7 @@ T-B Cell Activating Molecule
 T-Box
 T-Box Domain
 T-Box Domain Proteins
+T-Cell
 T-Cell Activation
 T-Cell Activation Antigen
 T-Cell Activation Inhibitor
@@ -74967,6 +74980,7 @@ T-Cell-Specific Surface Glycoprotein CD28
 T-Cell-Specific Transcription
 T-Cell-Specific Transcription Factor
 T-Cell-Specific Transcription Factor 4
+T-Cells
 T-Cells 1
 T-Cells 5
 T-Cells 5 Protein
@@ -74980,6 +74994,7 @@ T-Complex Polypeptide
 T-Complex Polypeptide 1
 T-Dynamin
 T-Kininogen
+T-Lymphocyte
 T-Lymphocyte Antigen
 T-Lymphocyte Antigen 4
 T-Lymphocyte Maturation
@@ -75035,6 +75050,7 @@ T3 Receptor associating Factor
 T3 Receptor-associating
 T3 Receptor-associating Factor
 T3 Receptors
+T4
 T4 Antigens
 T4 Antigens T
 T4 Antigens T-Cell
@@ -76516,6 +76532,7 @@ Thymalfasin
 Thymic
 Thymic Stromal
 Thymic Stromal Lymphopoietin
+Thymocyte
 Thymocyte Activating
 Thymocyte Activating Factor
 Thymocyte Globulin
@@ -79008,6 +79025,7 @@ Twist-Related
 Twist-Related Protein
 Twist-Related Protein 1
 Twist-Related Protein 2
+Type 1
 Type 1 Collagen
 Type 1 Cystatins
 Type 1 Gene
@@ -79075,6 +79093,7 @@ Type 1β
 Type 1β Regulatory
 Type 1γ
 Type 1δ
+Type 2
 Type 2 Cystatins
 Type 2 E3
 Type 2 E3-19K
@@ -101262,10 +101281,14 @@ cytosolic-specific
 cytostatic
 cytostatic factor
 cytotactin
+cytotoxic
 cytotoxic lymphocyte
 cytotoxic lymphocyte maturation
 cytotoxic proteins
+cytotoxic t
+cytotoxic t lymphocyte
 cytotoxic t lymphocyte-associated
+cytotoxic t-lymphocyte
 cytotoxic t-lymphocyte antigen
 cytotoxic t-lymphocyte-associated
 cytotoxic t-lymphocyte-associated antigen
@@ -101801,6 +101824,7 @@ deleted in
 deleted in azoospermia
 deleted in colorectal
 deleted in velocardiofacial
+delta
 delta 1
 delta 2
 delta Adaptin
@@ -101947,6 +101971,7 @@ deltaretrovirus antigens
 demethylase
 demethylase caffeine
 demethylases
+dendritic
 dendritic cell
 dendritic cell derived
 dendritic cell-derived
@@ -104737,6 +104762,7 @@ epiligrin receptor alpha3beta1
 epinephrine receptors
 epiregulin
 episialin
+epithelial
 epithelial amiloride
 epithelial amiloride sensitive
 epithelial amiloride-sensitive
@@ -107946,6 +107972,7 @@ follicle-stimulating
 follicle-stimulating hormone
 follicle-stimulating hormone receptor
 follicle-stimulating hormone receptors
+follicular
 follicular dendritic
 follicular dendritic cell
 follicular dendritic cell-derived
@@ -108971,6 +108998,7 @@ gamma cobra
 gamma crystallin
 gamma crystallins
 gamma d
+gamma delta
 gamma dna
 gamma endorphin
 gamma fc
@@ -120797,6 +120825,7 @@ lymphocytic leukemia protein
 lymphocytotoxic
 lymphocytotoxic antibodies
 lymphocytotoxic antibody
+lymphoid
 lymphoid enhancer
 lymphoid enhancer binding
 lymphoid enhancer factor
@@ -124661,6 +124690,7 @@ natriuretic peptides receptor
 natriuretic peptides receptors
 natural cytotoxicity
 natural cytotoxicity triggering
+natural killer
 natural killer associated
 natural killer cell
 natural killer-associated
@@ -132456,6 +132486,7 @@ precolicin e1
 precursor amyloid
 precursor c3
 precursor c5
+precursor cell
 precursor cell expressed
 precursor cell-expressed
 precursor cell-expressed developmentally
@@ -146137,7 +146168,9 @@ suppressor protein p53
 suppressor protein p73
 suppressor protein tumor
 suppressor proteins
+suppressor t
 suppressor t cell
+suppressor t-cell
 suppressor t-cell factors
 suppressor-1
 suppressors of
@@ -146582,6 +146615,7 @@ t antigens sv40
 t antigens viral
 t box
 t box domain
+t cell
 t cell activation
 t cell acute
 t cell alpha
@@ -146610,6 +146644,7 @@ t cell surface
 t cell transcription
 t cell-specific
 t cell-specific transcription
+t cells
 t cells 1
 t cells 5
 t cells cytoplasmic
@@ -146618,8 +146653,10 @@ t complex polypeptide
 t complex protein
 t cyclin
 t cyclins
+t helper
 t helper factor
 t kininogen
+t lymphocyte
 t lymphocyte antigen
 t lymphocyte associated
 t lymphocyte maturation
@@ -146658,6 +146695,7 @@ t-b cell activating
 t-box
 t-box domain
 t-box domain proteins
+t-cell
 t-cell activation
 t-cell activation antigen
 t-cell activation inhibitor
@@ -146744,6 +146782,7 @@ t-cell-specific surface
 t-cell-specific surface glycoprotein
 t-cell-specific transcription
 t-cell-specific transcription factor
+t-cells
 t-cells 1
 t-cells 5
 t-cells 5 protein
@@ -146759,6 +146798,7 @@ t-complex protein
 t-complex protein 1
 t-dynamin
 t-kininogen
+t-lymphocyte
 t-lymphocyte antigen
 t-lymphocyte antigen 4
 t-lymphocyte maturation
@@ -146803,6 +146843,7 @@ t3 receptor associating
 t3 receptor-associating
 t3 receptor-associating factor
 t3 receptors
+t4
 t4 antigens
 t4 antigens t
 t4 antigens t-cell
@@ -147667,6 +147708,7 @@ thymalfasin
 thymic
 thymic stromal
 thymic stromal lymphopoietin
+thymocyte
 thymocyte activating
 thymocyte activating factor
 thymocyte globulin
@@ -149797,6 +149839,7 @@ txa2-pgh2
 txa2-pgh2 receptors
 tyk2
 tyk2 kinase
+type 1
 type 1 alpha
 type 1 beta
 type 1 collagen
@@ -149842,6 +149885,7 @@ type 1dbeta
 type 1delta
 type 1g
 type 1gamma
+type 2
 type 2 alpha
 type 2 beta
 type 2 cystatins
@@ -154121,6 +154165,7 @@ zyxin protein
 βferon
 βseron
 βtrophin
+γ
 γ 1
 γ 1 Immunoglobulin
 γ 2
@@ -154214,6 +154259,7 @@ zyxin protein
 γ Transducin
 γ Tropomyosin
 γ Tubulin
+γ δ
 γ-1
 γ-1-Immunoglobulin
 γ-1-Immunoglobulin Heavy
@@ -154308,6 +154354,7 @@ zyxin protein
 γIP-10 Protein
 γT
 γgard
+δ
 δ 1
 δ 2
 δ Adaptin

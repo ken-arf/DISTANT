@@ -9,14 +9,12 @@ dict_dir: data/Mesh/dict
 processed_dict_dir: data/Mesh/processed_dict
 
 entity_types:
-    - cytokine
-    - t_lymphocyte
-    - transcription_factor
+    - protein
+    - cell
+    - cell_line
+    - dna
+    - rna
 
 entity_dependency:
-    cytokine:
-        - t_lymphocyte
-    transcription_factor:
-        - t_lymphocyte
-        
-
+    cell:
+        - cell_line 

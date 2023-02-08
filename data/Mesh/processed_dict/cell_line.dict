@@ -100,6 +100,7 @@ Cell HT-29
 Cell HT29
 Cell HeLa
 Cell HeLa-KB
+Cell Jurkat
 Cell KB
 Cell L
 Cell L (Cell
@@ -182,6 +183,7 @@ Cell, HT-29
 Cell, HT29
 Cell, HeLa
 Cell, HeLa-KB
+Cell, Jurkat
 Cell, KB
 Cell, L
 Cell, L (Cell Line)
@@ -230,6 +232,7 @@ Cells HT-29
 Cells HT29
 Cells HeLa
 Cells HeLa-KB
+Cells Jurkat
 Cells K562
 Cells KB
 Cells L
@@ -278,6 +281,7 @@ Cells, HT-29
 Cells, HT29
 Cells, HeLa
 Cells, HeLa-KB
+Cells, Jurkat
 Cells, K562
 Cells, KB
 Cells, L
@@ -378,6 +382,9 @@ Human Kidney Cell Line 293
 Human Prostatic
 Human Prostatic Carcinoma
 Human Prostatic Carcinoma Cell Line PC3
+Jurkat
+Jurkat Cell
+Jurkat Cells
 K562
 K562 Cells
 KB Cell
@@ -668,6 +675,7 @@ cell hela-kb
 cell hl60
 cell ht-29
 cell ht29
+cell jurkat
 cell kb
 cell l
 cell l (cell
@@ -741,6 +749,7 @@ cells hela-kb
 cells hl60
 cells ht-29
 cells ht29
+cells jurkat
 cells k562
 cells kb
 cells l
@@ -866,6 +875,9 @@ human kidney
 human kidney cell
 human prostatic
 human prostatic carcinoma
+jurkat
+jurkat cell
+jurkat cells
 k562
 k562 cells
 kb cell
