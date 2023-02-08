@@ -1,7 +1,7 @@
 # Configuration file for training model.
 
 # data path
-task_name: immunology 
+task_name: jnlpba 
 corpus_dir: data/Mesh
 corpus_file: desc2023.xml
 
@@ -12,13 +12,13 @@ corpus_file: desc2023.xml
 #t-lymphocyte_dict_file: t-lymphocyte.dict 
 #protein_dict_file: protein.dict 
 
-document_root_dir: data/Mesh/PubMed/Immunology/extract
-annotation_root_dir: data/Mesh/PubMed/Immunology/annotate
+document_root_dir: data/Mesh/PubMed/JNLPBA/extract
+annotation_root_dir: data/Mesh/PubMed/JNLPBA/annotate
 
-corpus_dir: data/Corpus/Immunology
+corpus_dir: data/Corpus/JNLPBA
 
 # model save dir
-model_dir: experiments/immunology/models
+model_dir: experiments/jnlpba/models
 
 # bert model
 seed: 22
@@ -28,14 +28,17 @@ dropout_rate: 0.3
 embedding_dim: 768
 
 # positive entities + unknown
-class_num: 4
+class_num: 6
 entity_names:
-        - Cytokine 
-        - Transcription_Factor
-        - T_Cell
+        - Protein 
+        - Cell_line
+        - Cell
+        - DNA
+        - RNA
+
 # gpu
 gpu: 0 
 
 # restore model
-restore_model_path: experiments/immunology/models/model_best.pth
+restore_model_path: experiments/jnlpba/models/model_best.pth
 

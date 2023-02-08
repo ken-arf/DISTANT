@@ -262,16 +262,17 @@ def get_synonyms(word):
     """Get the synonyms of word from Wordnet."""
     return wn.synsets(word.lower())
 
-def output_annotation_file(doc_file, df_result, annotation_root_dir):
+def output_annotation_file(doc_file, df_result, annotation_root_dir, entity_names):
 
-    CYTOKINE=0
-    TRANSCRIPTION_FACTOR=1
-    T_LYMPHOCYTE=2
+    entity_types = {k:name for k, name in enumerate(entity_names)}
 
-    entity_types = {}
-    entity_types[CYTOKINE] = "Cytokine" 
-    entity_types[TRANSCRIPTION_FACTOR] = "Transcription_Factor"
-    entity_types[T_LYMPHOCYTE] =  "T_Cell"
+    #CYTOKINE=0
+    #TRANSCRIPTION_FACTOR=1
+    #T_LYMPHOCYTE=2
+    #entity_types = {}
+    #entity_types[CYTOKINE] = "Cytokine" 
+    #entity_types[TRANSCRIPTION_FACTOR] = "Transcription_Factor"
+    #entity_types[T_LYMPHOCYTE] =  "T_Cell"
 
     _, fname = os.path.split(doc_file)
     basename, ext  = os.path.splitext(fname)
@@ -323,12 +324,14 @@ def main():
 
     utils.makedir(annotation_root_dir)
 
+    entity_names = params['entity_names']
+
     files = sorted(glob(f"{document_root_dir}/*.txt"))
 
     for file in files:
         print(file)
         df_result = entity_extractor.predict(file)
-        output_annotation_file(file, df_result, annotation_root_dir)
+        output_annotation_file(file, df_result, annotation_root_dir, entity_names)
 
     # check running time
     t_start = time.time()                                                                                                  
