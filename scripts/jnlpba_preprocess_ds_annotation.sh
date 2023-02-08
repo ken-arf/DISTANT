@@ -24,6 +24,6 @@ fi
 #python modules/preprocess/annotation/ds_annotation.py --yaml $YAML_PATH 
 spark-submit modules/preprocess/annotation/ds_annotation_spark.py --yaml $YAML_PATH 
 
-sleep 5
-tail -f $LOG_PATH
+#sleep 5
+#tail -f $LOG_PATH
 
