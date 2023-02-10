@@ -8,7 +8,7 @@ export PYTHONPATH="$HOME:$HOME/modules"
 
 TASK="immunology"
 SUBTASK="preprocess"
-MODULE="expand_dictionary"
+MODULE="expand_dictionary_mesh"
 
 CONFIG_DIR="configs"
 YAML_FILE="${TASK}_${SUBTASK}_${MODULE}.yaml"

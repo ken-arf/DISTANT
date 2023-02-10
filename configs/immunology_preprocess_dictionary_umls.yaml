@@ -1,0 +1,8 @@
+# Configuration file for training model.
+
+# data path
+task_name: immunology 
+corpus_dir: data/UMLS
+
+dict_dir: data/UMLS/dict
+
