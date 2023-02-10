@@ -53,7 +53,7 @@ def get_root_concept_atoms(cui):
     return atom_names, urls
 
 
-def get_source_decendents(url):
+def get_source_descendants(url):
 
     query={"apiKey": apiKey}
     content_endpoint = "/descendants"
@@ -84,20 +84,61 @@ def get_source_atoms(source_url):
     return names
     
 
+def get_descend(url, all_names, url_descends_next):
+    url = url.replace("/descendants","")
+    
+    jsonData = get_source_descendants(url)
+    time.sleep(1.0)
+    if jsonData == None:
+        return
+        
+    for jdata in jsonData:
+        atoms_url = jdata["atoms"]
+        if jdata["descendants"] and jdata["descendants"] != "NONE":
+            url_descends_next.append( jdata["descendants"])
+        names = get_source_atoms(atoms_url)
+        if names == None:
+            continue
+            
+        time.sleep(1.0)
+        print(names)
+        all_names.append(names)
+
+
+def get_recursive_descendants(all_names, url_descends):
+
+    loop_cnt = 0
+    while True:
+        loop_cnt += 1
+        print("get_recursive_descendants, loop", loop_cnt)
+        url_descends_next = []
+        for url in url_descends:
+            print(url)
+            get_descend(url, all_names, url_descends_next)
+        
+        if len(url_descends_next) == 0:
+            break
+        url_descends = url_descends_next.copy()
+
+
 def generate_umls_dict(cui, dict_path):
 
     concept_atoms, urls = get_root_concept_atoms(cui)
 
     # step.1 get initial atoms for the concept
     all_names = []
+    url_descends = []
     for url in urls:
-        jsonData = get_source_decendents(url)
+        jsonData = get_source_descendants(url)
         time.sleep(1.0)
         if jsonData == None:
             continue
             
         for jdata in jsonData:
             atoms_url = jdata["atoms"]
+            if jdata["descendants"] and jdata["descendants"] != "NONE":
+                url_descends.append( jdata["descendants"])
+
             names = get_source_atoms(atoms_url)
             if names == None:
                 continue
@@ -106,6 +147,8 @@ def generate_umls_dict(cui, dict_path):
             print(names)
             all_names.append(names)
 
+    # step2. recursively extract descendants atoms
+    get_recursive_descendants(all_names, url_descends)
 
 
     # insert root concept atoms at position 0
@@ -116,7 +159,7 @@ def generate_umls_dict(cui, dict_path):
     # flatten atoms names
     all_names_unfiltered = list(set([name for names in all_names_clean for name in names]))
 
-    # step2. post-process atoms, which contain "," in the definition by splitting it into independent words 
+    # step3. post-process atoms, which contain "," in the definition by splitting it into independent words 
     all_names_clean2 = []
     for names in all_names_clean:
         names_new = []
@@ -136,7 +179,7 @@ def generate_umls_dict(cui, dict_path):
                     
 
 
-    # step3. post-process the atoms generated at step.2 by deleting newly generated atoms which consists of alphabet and are not
+    # step4. post-process the atoms generated at step.2 by deleting newly generated atoms which consists of alphabet and are not
     # the member of the atoms generated at step.1
     prog = re.compile(r'^[A-Za-z]+$')
     all_names_clean3 = []
@@ -160,11 +203,11 @@ def main():
     # check running time                                                                                                   
     t_start = time.time()                                                                                                  
     UMLS_cui = {}
-    #UMLS_cui['cytokine'] = "C0079189"
-    #UMLS_cui['transcription_factor'] = "C0040648"
-    #UMLS_cui['t_lymphocyte'] = "C0039194"
-    #UMLS_cui['immune_checkpoint_inhibitors'] = "C4684977"
-    #UMLS_cui['protein'] = "C0033684"
+    UMLS_cui['cytokine'] = "C0079189"
+    UMLS_cui['transcription_factor'] = "C0040648"
+    UMLS_cui['t_lymphocyte'] = "C0039194"
+    UMLS_cui['immune_checkpoint_inhibitors'] = "C4684977"
+    UMLS_cui['protein'] = "C0033684"
     UMLS_cui['cell'] = "C0007634" 
     UMLS_cui['cell_line'] = "C0007600"
     UMLS_cui['rna'] = "C0035668"
