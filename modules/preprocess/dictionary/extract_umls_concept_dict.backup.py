@@ -95,7 +95,9 @@ def get_descend(url, all_names, url_descends_next):
     for jdata in jsonData:
         atoms_url = jdata["atoms"]
         if jdata["descendants"] and jdata["descendants"] != "NONE":
-            url_descends_next.append(jdata["descendants"])
+
+            if "MSH" in jdata["descendants"]:
+                url_descends_next.append(jdata["descendants"])
         names = get_source_atoms(atoms_url)
         if names == None:
             continue
@@ -137,7 +139,9 @@ def generate_umls_dict(cui, dict_path):
         for jdata in jsonData:
             atoms_url = jdata["atoms"]
             if jdata["descendants"] and jdata["descendants"] != "NONE":
-                url_descends.append(jdata["descendants"])
+                if "MSH" in jdata["descendants"]:
+                    url_descends.append(jdata["descendants"])
+
             names = get_source_atoms(atoms_url)
             if names == None:
                 continue
