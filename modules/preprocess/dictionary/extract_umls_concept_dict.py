@@ -160,11 +160,11 @@ def main():
     # check running time                                                                                                   
     t_start = time.time()                                                                                                  
     UMLS_cui = {}
-    #UMLS_cui['cytokine'] = "C0079189"
-    #UMLS_cui['transcription_factor'] = "C0040648"
-    #UMLS_cui['t_lymphocyte'] = "C0039194"
-    #UMLS_cui['immune_checkpoint_inhibitors'] = "C4684977"
-    #UMLS_cui['protein'] = "C0033684"
+    UMLS_cui['cytokine'] = "C0079189"
+    UMLS_cui['transcription_factor'] = "C0040648"
+    UMLS_cui['t_lymphocyte'] = "C0039194"
+    UMLS_cui['immune_checkpoint_inhibitors'] = "C4684977"
+    UMLS_cui['protein'] = "C0033684"
     UMLS_cui['cell'] = "C0007634" 
     UMLS_cui['cell_line'] = "C0007600"
     UMLS_cui['rna'] = "C0035668"
