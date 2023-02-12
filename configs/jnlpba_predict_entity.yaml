@@ -30,9 +30,9 @@ embedding_dim: 768
 # positive entities + unknown
 #class_num: 6
 entity_names:
-        - Protein 
-        - Cell_line
-        - Cell
+        - protein 
+        - cell_line
+        - cell_type
         - DNA
         - RNA
 

@@ -18,9 +18,9 @@ dict_files:
         - rna.dict 
 
 entity_names:
-        - Protein 
-        - Cell_line
-        - Cell
+        - protein 
+        - cell_line
+        - cell_type
         - DNA
         - RNA
 
