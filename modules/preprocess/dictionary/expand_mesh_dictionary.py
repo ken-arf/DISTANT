@@ -8,6 +8,8 @@ import logging
 import numpy as np
 import math
 import time
+from tqdm import tqdm
+
 from nltk.util import ngrams
 
 from utils import utils
@@ -22,15 +24,9 @@ import xmltodict
 import pdb
 
 
-
 def get_synonyms(word):
     """Get the synonyms of word from Wordnet."""
-
-    if not re.fullmatch(r'\w+', word.lower()):
-        return [] 
-
-    lemmas = set().union(*[s.lemmas() for s in wn.synsets(word)])
-    return list(set(l.name().lower().replace("_", " ") for l in lemmas) - {word})
+    return wn.synsets(word.lower())
 
 
 def replace_greek_char(term):
@@ -79,51 +75,49 @@ def expand_dict(dict_path, parameters):
     print(dict_path)
 
     with open(dict_path) as fp:
-        terms = [l.strip() for l in fp.readlines() if len(l) > 0]
+        org_terms = [l.strip() for l in fp.readlines() if len(l) > 0]
 
-    new_terms = terms.copy()
-    for term in terms:
-        subterms = re.split(r',? ', term)
-        ngram_subterms = make_ngram(subterms, 4)
+    new_terms = []
+    for term in tqdm(org_terms):
 
-        # greek character replacement
-        term_greek = replace_greek_char(term)
-        if term_greek != term:
-            subterms = re.split(r',? ', term_greek)
-            ngram_subterms += make_ngram(subterms, 4)
+        expanded_terms = []
+        if ',' in term:
+            parts = re.split(',', term)
+            parts = [part.strip() for part in parts if len(get_synonyms(part.strip())) == 0]
+            expanded_terms += parts
+            expanded_terms.append(' '.join(parts))
+            expanded_terms.append(' '.join(parts[::-1]))
+        else:
+            expanded_terms.append(term.strip())
+            
 
-        # positive negative replacement
-        term_posneg = replace_positive_negative(term)
-        if term_posneg != term:
-            subterms = re.split(r',? ', term_posneg)
-            ngram_subterms += make_ngram(subterms, 4)
+        expanded_terms_copy = expanded_terms.copy()
+        for term in expanded_terms:
+            # greek character replacement
+            term_greek = replace_greek_char(term)
+            if term_greek != term:
+                expanded_terms_copy.append(term_greek)
+                
+            # positive negative replacement
+            term_posneg = replace_positive_negative(term)
+            if term_posneg != term:
+                expanded_terms_copy.append(term_posneg)
     
-        ngrams_subterms = list(set(ngram_subterms))
-
-        for ngram in ngrams_subterms:
-            new_terms.append(' '.join(ngram))
+        new_terms += expanded_terms_copy
 
     # remove term if it contains only numbers
-    terms_ = [term for term in new_terms if not re.match('\d+', term)]
+    new_terms = [term for term in new_terms if not re.match('\d+', term)]
 
-    # remove term if it has any synonyms, which indicate the term is a word. 
-    new_terms = [term for term in terms_ if len(get_synonyms(term)) == 0]
 
     newdir = parameters['processed_dict_dir']
     utils.makedir(newdir)
     _, fname = os.path.split(dict_path)
     new_dict_path = os.path.join(newdir, fname)
-    
 
     new_terms = sorted(list(set(new_terms)))
 
     return new_terms
 
-#    print(new_terms)
-#    with open(new_dict_path, 'w') as fp:
-#        for term in new_terms:
-#            fp.write('{}\n'.format(term))
-#                
 
 def disambiguate_dict(dicts, parameters):
 
@@ -231,7 +225,7 @@ def main():
         new_terms = expand_dict(dict_path, parameters)
         new_dict[etype] = new_terms
 
-    disambiguate_dict(new_dict, parameters)
+    #disambiguate_dict(new_dict, parameters)
 
     save_dict(new_dict, parameters)
 

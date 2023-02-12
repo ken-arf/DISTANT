@@ -11,6 +11,11 @@ from tqdm import tqdm
 
 from glob import glob
 
+from pyspark import SparkContext
+from pyspark.sql import SparkSession
+from pyspark.sql.types import StructType,StructField, StringType, IntegerType
+
+
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
 
@@ -23,11 +28,12 @@ import scispacy
 from spacy.lang.en import English
 
 import nltk
-nltk.download("wordnet", quiet=True)
+#nltk.download("wordnet", quiet=True)
 from nltk import word_tokenize
-nltk.download('punkt')
+#nltk.download('punkt')
 from nltk.corpus import wordnet as wn
 from nltk.stem import PorterStemmer, WordNetLemmatizer, LancasterStemmer
+
 
 
 from snorkel.augmentation import ApplyOnePolicy, PandasTFApplier
@@ -37,6 +43,9 @@ from snorkel.analysis import get_label_buckets
 from snorkel.labeling.model import LabelModel
 from snorkel.labeling.model import MajorityLabelVoter
 from snorkel.labeling.model import LabelModel
+
+from snorkel.labeling.apply.spark import SparkLFApplier
+
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 
@@ -69,7 +78,7 @@ max_dist=0
 #nlp = spacy.load("en_ner_jnlpba_md")
 nlp = spacy.load("en_core_sci_sm")
 
-nlp.add_pipe("abbreviation_detector")
+#nlp.add_pipe("abbreviation_detector")
 nlp.add_pipe("sentencizer")
 
 lemmatizer = WordNetLemmatizer()
@@ -90,11 +99,41 @@ synonym_table = {
 
 synonym_table.update(greek_translate)
 
-def min_edit_distance(ref, src):
+lemmatizer = WordNetLemmatizer()
 
-    lemmatizer = WordNetLemmatizer()
+def min_edit_distance_test(ref, src):
+
     ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
     src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
+
+    #ref = [token.lemma_ for token in nlp(ref)]
+    #src = [token.lemma_ for token in nlp(src)]
+
+    min_l = ed.eval(ref, src)
+
+    # synonym word exchange
+    for k, v in synonym_table.items():
+        if not k in src:
+            continue
+       
+        src2 = src.replace(k, v)
+        l = ed.eval(ref, src2)
+        if l < min_l:
+                min_l = l
+                src = src2
+
+    if min_l > 0:
+        ref = re.sub(r'\W', '', ref)
+        src = re.sub(r'\W', '', src)
+        if src == ref:
+            min_l = 0
+
+    return min_l
+ 
+def min_edit_distance(ref, src):
+
+    #ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
+    #src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
     
     min_l = ed.eval(ref, src)
  
@@ -118,37 +157,43 @@ def min_edit_distance(ref, src):
     return min_l
 
 
+
+
 def get_synonyms(word):
     """Get the synonyms of word from Wordnet."""
     return wn.synsets(word.lower())
 
 def entity_extract(sent, pmid,k):
        
-   entities = []
-   start_tokens = []
-   end_tokens = []
-   start_chars= []
-   end_chars = []
+    entities = []
+    start_tokens = []
+    end_tokens = []
+    start_chars= []
+    end_chars = []
 
-   for ent in sent.ents:
+    for ent in sent.ents:
 
-       if len(get_synonyms(ent.text)) != 0:
-            continue
+        if len(get_synonyms(ent.text)) != 0:
+             continue
 
-       entities.append(ent.text)
-       start_tokens.append(int(ent.start))
-       end_tokens.append(int(ent.end))
-       start_chars.append(int(ent.start_char))
-       end_chars.append(int(ent.end_char))
+        entities.append(ent.text)
+        start_tokens.append(int(ent.start))
+        end_tokens.append(int(ent.end))
+        start_chars.append(int(ent.start_char))
+        end_chars.append(int(ent.end_char))
 
-   df = pd.DataFrame({'entities': entities, 
-                              'start_tokens': start_tokens, 
-                              'end_tokens': end_tokens, 
-                              'start_chars': start_chars, 
-                              'end_chars': end_chars,
-                             'text': [sent.text] * len(entities),
-                             'pmid': [f"{pmid}_{k}"] * len(entities)})
-   return df
+    df = pd.DataFrame({'entities': entities, 
+                       'start_tokens': start_tokens, 
+                       'end_tokens': end_tokens, 
+                       'start_chars': start_chars, 
+                       'end_chars': end_chars,
+                       'text': [sent.text] * len(entities),
+                       'pmid': [f"{pmid}_{k}"] * len(entities)})
+
+    #df[['start_tokens', 'end_tokens', 'start_chars', 'end_chars']] = \
+    #        df[['start_tokens', 'end_tokens', 'start_chars', 'end_chars']].astype('int') 
+
+    return df
    
 
 
@@ -156,7 +201,7 @@ def entity_extract(sent, pmid,k):
 @labeling_function()
 def lf_cytokine_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
-    ent = x.entities.lower()
+    ent = x.lower()
     for phrase in dist_dict['cytokine.dict']:
         #if ed.eval(ent,phrase.lower()) <= max_dist:
         if min_edit_distance(phrase, ent) <= max_dist:
@@ -167,7 +212,7 @@ def lf_cytokine_distsv(x):
 @labeling_function()
 def lf_transcription_factor_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
-    ent = x.entities.lower()
+    ent = x.lower()
     for phrase in dist_dict['transcription_factor.dict']:
         #if ed.eval(ent,phrase.lower()) <= max_dist:
         if min_edit_distance(phrase, ent) <= max_dist:
@@ -178,7 +223,7 @@ def lf_transcription_factor_distsv(x):
 @labeling_function()
 def lf_t_lymphocyte_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
-    ent = x.entities.lower()
+    ent = x.lower()
     for phrase in dist_dict['t_lymphocyte.dict']:
         #if ed.eval(ent,phrase.lower()) <= max_dist:
         if min_edit_distance(phrase, ent) <= max_dist:
@@ -189,7 +234,7 @@ def lf_t_lymphocyte_distsv(x):
 @labeling_function()
 def lf_protein_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
-    ent = x.entities.lower()
+    ent = x.lower()
     for phrase in dist_dict['protein.dict']:
         #if ed.eval(ent,phrase.lower()) <= max_dist:
         if min_edit_distance(phrase, ent) <= max_dist:
@@ -200,7 +245,7 @@ def lf_protein_distsv(x):
 @labeling_function()
 def lf_cell_line_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
-    ent = x.entities.lower()
+    ent = x.lower()
     for phrase in dist_dict['cell_line.dict']:
         #if ed.eval(ent,phrase.lower()) <= max_dist:
         if min_edit_distance(phrase, ent) <= max_dist:
@@ -211,7 +256,7 @@ def lf_cell_line_distsv(x):
 @labeling_function()
 def lf_cell_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
-    ent = x.entities.lower()
+    ent = x.lower()
     for phrase in dist_dict['cell.dict']:
         #if ed.eval(ent,phrase.lower()) <= max_dist:
         if min_edit_distance(phrase, ent) <= max_dist:
@@ -222,7 +267,7 @@ def lf_cell_distsv(x):
 @labeling_function()
 def lf_dna_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
-    ent = x.entities.lower()
+    ent = x.lower()
     for phrase in dist_dict['dna.dict']:
         #if ed.eval(ent,phrase.lower()) <= max_dist:
         if min_edit_distance(phrase, ent) <= max_dist:
@@ -233,15 +278,44 @@ def lf_dna_distsv(x):
 @labeling_function()
 def lf_rna_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
-    ent = x.entities.lower()
+    ent = x.lower()
     for phrase in dist_dict['rna.dict']:
         #if ed.eval(ent,phrase.lower()) <= max_dist:
         if min_edit_distance(phrase, ent) <= max_dist:
             return RNA 
     return ABSTAIN
 
+@labeling_function()
+def lf_debug(x):
+    ent = x.lower()
+    for phrase in dist_dict['rna.dict']:
+        #if ed.eval(ent,phrase.lower()) <= max_dist:
+        if min_edit_distance(phrase, ent) <= max_dist:
+        #l = ed.eval(ent, phrase)
+        #if l == 0:
+            return RNA 
+            
+    return ABSTAIN
+
+global dist_dict
+
+
+def mySpark(parameters, df_train, lfs):
+
+    global dist_dict
+
+    sc = SparkContext()
+    rdd = sc.parallelize(df_train)
+    #lf_applier = SparkLFApplier(lfs=[lf_debug])
+    lf_applier = SparkLFApplier(lfs=lfs)
+    L_train = lf_applier.apply(rdd)
+
+    return L_train
+
 
 def main():
+
+    global dist_dict
 
     # check running time                                                                                                   
     t_start = time.time()                                                                                                  
@@ -253,7 +327,6 @@ def main():
 
     # print config                                                                                                         
     utils._print_config(parameters, config_path)
-
 
     # extract all entities by using spacy
     documents = glob(parameters["document_root_dir"] + "/*.txt")
@@ -270,23 +343,14 @@ def main():
                 dfs.append(df)
 
 
+
     df_train = pd.concat(dfs, ignore_index=True)
-    #df_train.head(100)
 
 
-    # construction of the distant supervision dictionaries 
+    # dictionary generation1
     Mesh_dict_dir= parameters["processed_dict_dir"]
-
-    #dictionary_files = [ \
-    #            parameters["cytokine_dict_file"], \
-    #            parameters["transcription-factor_dict_file"], \
-    #            parameters["t-lymphocyte_dict_file"], \
-    #            parameters["protein_dict_file"], \
-    #            ]
     dictionary_files = parameters["dict_files"]
 
-
-    global dist_dict
     dist_dict = {}
     for fname in dictionary_files:
         path = os.path.join(Mesh_dict_dir, fname)
@@ -297,29 +361,19 @@ def main():
 
 
     # snorkel labeling functions
+    dictionary_files = parameters["dict_files"]
     lfs = []
     for fname in dictionary_files:
         basename, _ = os.path.splitext(fname)
         lf_func = f"lf_{basename}_distsv"
-        print(lf_func)
         lfs.append(eval(lf_func))
 
-    #lfs = [lf_cytokine_distsv,lf_tf_distsv, lf_t_lymphocyte_distsv]
-
-
-    applier = PandasLFApplier(lfs=lfs)
-    L_train = applier.apply(df=df_train)
-
-
-    LFAnalysis(L=L_train, lfs=lfs).lf_summary()
+    L_train = mySpark(parameters, df_train["entities"], lfs)
 
     # load snorkel labeling results
     for i in range(len(lfs)):
         df_train[lfs[i].name] = L_train[:, i]
 
-    #df_train['lf_cytokine_distsv'] = L_train[:,0]
-    #df_train['lf_tf_distsv'] = L_train[:,1]
-    #df_train['lf_t_lymphocyte_distsv'] = L_train[:,2]
 
 
     label_model = MajorityLabelVoter(cardinality=len(lfs))

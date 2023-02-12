@@ -22,77 +22,13 @@ import xmltodict
 import pdb
 
 
-def min_edit_distance(ref, src):
-    
-    synonym_table = {        
-        'lymphocyte': 'cell',
-        'cell': 'lymphocyte',
-    }
-        
-    translate_table = [
-        {'_': ''},
-        {'-': ''},
-        {'(':'',')':''},
-        {'+':'positive'},
-        {'-': 'negative'},
-        {'+':' positive'},
-        {'-': ' negative'},
-        {'α': 'alpha', 'β': 'beta', 'γ': 'gamma'},
-        {'α': ' alpha', 'β': ' beta', 'γ': ' gamma'},
-    ]
-    
-    lemmatizer = WordNetLemmatizer()
-    ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
-    src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
-    
-    min_l = ed.eval(ref, src)
- 
-    # random word replace
-    for k, v in synonym_table.items():
-        src2 = src.replace(k, v)
-        l = ed.eval(ref, src2)
-        if l < min_l:
-                min_l = l
-                src = src2
-                
-
-    # random char replace
-    index = np.arange(len(translate_table))
-    for i in range(20):
-        ref = ref.lower()
-        src = src.lower()
-        
-        random.shuffle(index)
-        for i in index:
-            tr_table = translate_table[i]
-            src2 = src.translate(str.maketrans(tr_table))
-
-            l = ed.eval(ref, src2)
-            if l < min_l:
-                min_l = l
-                src = src2
-
-    # random space removal
-    for i in range(20):
-        src_list = list(src)
-        space_index = [i for i,val in enumerate(src_list) if val==' ']
-        k = random.randint(0,len(space_index)-1)
-        del src_list[k]
-        
-        src2 = ''.join(src_list)
-        l = ed.eval(ref, src2)
-        if l < min_l:
-            min_l = l
-            src = src2
-        
-    src = re.sub(r'\W', '',src)
-    ref = re.sub(r'\W', '',ref)
-    min_l = ed.eval(ref, src)
-    return min_l
- 
 
 def get_synonyms(word):
     """Get the synonyms of word from Wordnet."""
+
+    if not re.fullmatch(r'\w+', word.lower()):
+        return [] 
+
     lemmas = set().union(*[s.lemmas() for s in wn.synsets(word)])
     return list(set(l.name().lower().replace("_", " ") for l in lemmas) - {word})
 
@@ -173,7 +109,6 @@ def expand_dict(dict_path, parameters):
     # remove term if it has any synonyms, which indicate the term is a word. 
     new_terms = [term for term in terms_ if len(get_synonyms(term)) == 0]
 
-
     newdir = parameters['processed_dict_dir']
     utils.makedir(newdir)
     _, fname = os.path.split(dict_path)
@@ -190,7 +125,24 @@ def expand_dict(dict_path, parameters):
 #            fp.write('{}\n'.format(term))
 #                
 
-def disambiguate_dict(dicts):
+def disambiguate_dict(dicts, parameters):
+
+    ent_dep = parameters["entity_dependency"]
+
+    for par_ent, cld_ents in ent_dep.items():
+
+        par_terms = dicts[par_ent]
+        cld_terms = []
+        for cld_ent in cld_ents:
+            cld_terms += dicts[cld_ent]
+        
+        new_terms = set(par_terms).difference(set(cld_terms))
+        dicts[par_ent] = sorted(new_terms)
+
+    return
+
+
+def disambiguate_dict_old(dicts, parameters):
     
     tcell_key = 't-lymphocyte_dict_file'
 
@@ -204,6 +156,11 @@ def disambiguate_dict(dicts):
         print(key, len(terms))
 
     for etype in entity_types:
+
+        # skip the disambiguation process for cell
+        if etype == "cell_dict_file":
+            continue
+
         terms = dicts[etype]
         new_terms = set(terms).difference(set(tcell_terms))
         dicts[etype] = sorted(new_terms)
@@ -221,7 +178,7 @@ def save_dict(dicts, parameters):
 
     for key, terms in dicts.items():
 
-        fname = parameters[key]
+        fname = f'{key}.dict'
         new_dict_path = os.path.join(newdir, fname)
 
         with open(new_dict_path, 'w') as fp:
@@ -256,19 +213,25 @@ def main():
     # print config 
     utils._print_config(parameters, config_path)
 
-    entity_types = ['cytokine_dict_file',
-                    'tf_dict_file',
-                    't-lymphocyte_dict_file',
-                    'protein_dict_file']
+    entity_types = parameters["entity_types"]
 
-    dict_paths = [os.path.join(parameters['dict_dir'],parameters[etype]) for etype in entity_types]
+    #entity_types = ['cytokine_dict_file',
+    #                'tf_dict_file',
+    #                't_lymphocyte_dict_file',
+    #                'protein_dict_file',
+    #                'cell_dict_file',
+    #                'cell_line_dict_file',
+    #                'dna_dict_file',
+    #                'rna_dict_file']
+
+    dict_paths = [os.path.join(parameters['dict_dir'],f'{etype}.dict') for etype in entity_types]
 
     new_dict = {}
     for etype, dict_path in zip(entity_types, dict_paths):
         new_terms = expand_dict(dict_path, parameters)
         new_dict[etype] = new_terms
 
-    disambiguate_dict(new_dict)
+    disambiguate_dict(new_dict, parameters)
 
     save_dict(new_dict, parameters)
 

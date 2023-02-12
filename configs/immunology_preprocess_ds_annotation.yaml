@@ -7,8 +7,12 @@ corpus_file: desc2023.xml
 
 #dict_dir: data/Mesh/dict
 #processed_dict_dir: data/Mesh/processed_dict
-dict_dir: data/UMLS/dict
-processed_dict_dir: data/UMLS/processed_dict
+#dict_dir: data/UMLS/dict
+#processed_dict_dir: data/UMLS/processed_dict
+
+processed_dict_dirs:
+        - data/UMLS/processed_dict
+        - data/Mesh/processed_dict
 
 dict_files: 
         - cytokine.dict
