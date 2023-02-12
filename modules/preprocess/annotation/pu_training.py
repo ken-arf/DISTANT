@@ -292,8 +292,6 @@ def setup_final_dataset(neg_index, parameters):
 
 def extract_negative_samples(parameters):
 
-    #parameters["class_num"] = 3
-
     pos_label_num = parameters["class_num"]
 
     for step in range(3):

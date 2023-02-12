@@ -28,7 +28,7 @@ dropout_rate: 0.3
 embedding_dim: 768
 
 # positive entities + unknown
-class_num: 4
+#class_num: 4
 entity_names:
         - Cytokine 
         - Transcription_Factor

@@ -1,0 +1,16 @@
+# Configuration file for training model.
+
+# data path
+task_name: jblpba 
+corpus_dir: data/UMLS
+
+dict_dir: data/UMLS/dict
+processed_dict_dir: data/UMLS/processed_dict
+
+entity_types:
+    - protein
+    - cell
+    - cell_line
+    - dna
+    - rna
+

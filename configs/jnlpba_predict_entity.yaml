@@ -28,7 +28,7 @@ dropout_rate: 0.3
 embedding_dim: 768
 
 # positive entities + unknown
-class_num: 6
+#class_num: 6
 entity_names:
         - Protein 
         - Cell_line

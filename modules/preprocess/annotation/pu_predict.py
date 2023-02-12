@@ -73,6 +73,9 @@ class Entity_extractor:
         else:
             self.device = "cpu"
 
+        # number of entity classes + negative label
+        self.params["class_num"] = len(self.params["entity_names"]) + 1
+
         self.pu_model = PU_Model(self.params, self.logger)
 
         self.pu_model.load_state_dict(torch.load(self.params['restore_model_path'], map_location=torch.device(self.device)))
@@ -282,7 +285,9 @@ def output_annotation_file(doc_file, df_result, annotation_root_dir, entity_name
     doc_len = len(txt)
 
     ann_file_path = os.path.join(annotation_root_dir, f"{basename}.ann")
-    df_result = df_result[df_result["predict"] != 3]
+
+    non_entity_label = len(entity_types)
+    df_result = df_result[df_result["predict"] != non_entity_label]
 
     with open(ann_file_path, 'w') as fp:
         for k, (index, row) in enumerate(df_result.iterrows()):
