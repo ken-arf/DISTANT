@@ -95,7 +95,8 @@ def get_descend(url, all_names, url_descends_next):
     for jdata in jsonData:
         atoms_url = jdata["atoms"]
         if jdata["descendants"] and jdata["descendants"] != "NONE":
-            url_descends_next.append(jdata["descendants"])
+            if not "SNOMED" in url:
+                url_descends_next.append(jdata["descendants"])
         names = get_source_atoms(atoms_url)
         if names == None:
             continue
@@ -112,8 +113,10 @@ def get_recursive_descendants(all_names, url_descends):
         loop_cnt += 1
         print("get_recursive_descendants, loop", loop_cnt)
         url_descends_next = []
-        for url in url_descends:
-            print(url)
+
+        n = len(url_descends)
+        for k, url in enumerate(url_descends):
+            print(f"loop_cnt:{loop_cnt}, {k}/{n}:{url}")
             get_descend(url, all_names, url_descends_next)
         
         if len(url_descends_next) == 0:
@@ -137,7 +140,8 @@ def generate_umls_dict(cui, dict_path):
         for jdata in jsonData:
             atoms_url = jdata["atoms"]
             if jdata["descendants"] and jdata["descendants"] != "NONE":
-                url_descends.append(jdata["descendants"])
+                if not "SNOMED" in url:
+                    url_descends.append(jdata["descendants"])
             names = get_source_atoms(atoms_url)
             if names == None:
                 continue

@@ -74,6 +74,30 @@ def make_ngram(terms, ngram = 4):
 
     return ngram_terms
 
+def make_synonym_dict(umls_atoms):
+    
+    flatten_atom_names = umls_atoms["flatten_atom_names"]
+    atom_synonyms = umls_atoms["atom_synonyms"]
+    synonyms = list(set(tuple(l) for l in atom_synonyms))
+
+    atom_synonyms = []
+    for atoms in synonyms:
+        atoms = sorted(list(set([re.sub('\(.+\)','',atom).strip() for atom in atoms if not re.match('\d+',atom)]))) 
+        # synonyms for the atom
+        atom_synonyms.append(atoms)
+
+    # sorted all atoms
+    all_atoms = sorted(list(set([atom for syms in atom_synonyms for atom in syms])))
+
+    synonym_map = {}
+    for atom in all_atoms:
+        indexes = [k for k, syns in enumerate(atom_synonyms) if atom in syns]
+        # map atom to the index to synonym list
+        synonym_map[atom] = indexes
+
+    return all_atoms, synonym_map, atom_synonyms
+    
+
 def expand_dict(dict_path, parameters):
 
     print(dict_path)
@@ -81,55 +105,33 @@ def expand_dict(dict_path, parameters):
     with open(dict_path, 'rb') as fp:
         umls_atoms = pickle.load(fp)
 
-    flatten_atom_names = umls_atoms["flatten_atom_names"]
-    atom_synonyms = umls_atoms["atom_synonyms"]
-    
-    terms = sorted(list(set([re.sub('\(.+\)','',atom).strip() for atom in flatten_atom_names]))) 
+
+    terms, synonym_map, term_synonyms = make_synonym_dict(umls_atoms)
 
     new_terms = terms.copy()
     for term in terms:
-        #subterms = re.split(r',? ', term)
-        #ngram_subterms = make_ngram(subterms, 4)
 
         # greek character replacement
         term_greek = replace_greek_char(term)
         if term_greek != term:
-            #subterms = re.split(r',? ', term_greek)
-            #ngram_subterms += make_ngram(subterms, 4)
             new_terms.append(term_greek)
+            synonym_map[term_greek] = synonym_map[term]
 
         # positive negative replacement
         term_posneg = replace_positive_negative(term)
         if term_posneg != term:
-            #subterms = re.split(r',? ', term_posneg)
-            #ngram_subterms += make_ngram(subterms, 4)
             new_terms.append(term_posneg)
+            synonym_map[term_posneg] = synonym_map[term]
     
-        #ngrams_subterms = list(set(ngram_subterms))
-
-        #for ngram in ngrams_subterms:
-        #    new_terms.append(' '.join(ngram))
-
-    # remove term if it contains only numbers
-    new_terms = [term for term in new_terms if not re.match('\d+', term)]
-
-    # remove term if it has any synonyms, which indicate the term is a word. 
-    #new_terms = [term for term in terms_ if len(get_synonyms(term)) == 0]
-
-    #newdir = parameters['processed_dict_dir']
-    #utils.makedir(newdir)
-    #_, fname = os.path.split(dict_path)
-    #new_dict_path = os.path.join(newdir, fname)
-
     new_terms = sorted(list(set(new_terms)))
 
-    return new_terms
+    term_dict = {}
+    term_dict['terms'] = new_terms
+    term_dict['synonym_map'] = synonym_map
+    term_dict['term_synonyms'] = term_synonyms
+    
+    return term_dict
 
-#    print(new_terms)
-#    with open(new_dict_path, 'w') as fp:
-#        for term in new_terms:
-#            fp.write('{}\n'.format(term))
-#                
 
 def disambiguate_dict(dicts, parameters):
 
@@ -182,7 +184,11 @@ def save_dict(dicts, parameters):
     newdir = parameters['processed_dict_dir']
     utils.makedir(newdir)
 
-    for key, terms in dicts.items():
+    for key, items in dicts.items():
+
+        terms = items['terms']
+        synonym_map = items['synonym_map']
+        term_synonyms = items['term_synonyms']
 
         fname = f'{key}.dict'
         new_dict_path = os.path.join(newdir, fname)
@@ -191,6 +197,12 @@ def save_dict(dicts, parameters):
             for term in terms:
                 fp.write('{}\n'.format(term))
 
+        fname = f'{key}_synonyms.pkl'
+        new_dict_path = os.path.join(newdir, fname)
+
+        with open(new_dict_path, 'wb') as fp:
+            pickle.dump(items, fp)
+        
 
 def main():
 
@@ -225,8 +237,8 @@ def main():
 
     new_dict = {}
     for etype, dict_path in zip(entity_types, dict_paths):
-        new_terms = expand_dict(dict_path, parameters)
-        new_dict[etype] = new_terms
+        term_dict = expand_dict(dict_path, parameters)
+        new_dict[etype] = term_dict
 
     #disambiguate_dict(new_dict, parameters)
 
