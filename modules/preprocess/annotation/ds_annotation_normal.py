@@ -303,8 +303,6 @@ def main():
 
     applier = PandasLFApplier(lfs=lfs)
     L_train = applier.apply(df=df_train)
-
-
     LFAnalysis(L=L_train, lfs=lfs).lf_summary()
 
     # load snorkel labeling results
