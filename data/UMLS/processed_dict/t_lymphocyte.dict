@@ -1,13 +1,9 @@
-Activated Mature Cytotoxic T-Lymphocyte
-Activated Mature Gamma/Delta T-Lymphocyte with a Cytotoxic Phenotype
-Activated Mature γ/δ T-Lymphocyte with a Cytotoxic Phenotype
 CD1+ T lymphocyte
 CD103+ T lymphocyte
 CD13+ T lymphocyte
 CD16+CD56+ T lymphocyte
 CD16+CD57+T Lymphocyte
 CD16+CD57- T Lymphocyte
-CD25+ T lymphocyte
 CD28+ T lymphocyte
 CD3+CD4+ T Lymphocyte
 CD3+CD4+ T lymphocyte
@@ -30,13 +26,10 @@ CD4+ T lymphocyte
 CD4+ T-Lymphocyte
 CD4+/CD45RA+ T Cell
 CD4+/CD45RO+ T Cell
-CD4+2H4+ lymphocyte
 CD4+CD25+ T Lymphocyte
-CD4+CD25+ T lymphocyte
 CD4+CD29+ T Lymphocyte
 CD4+CD29+ T lymphocytes
 CD4+CD45RA+ T Lymphocyte
-CD4+CD69+ lymphocyte
 CD4+HLA-DR+ T Lymphocyte
 CD4-Positive
 CD4-Positive Lymphocyte
@@ -60,7 +53,6 @@ CD8+ T Lymphocytes
 CD8+ T-Lymphocyte
 CD8+CD11a+ T Lymphocyte
 CD8+CD11b+ T Lymphocyte
-CD8+CD25+ Lymphocyte
 CD8+CD38+ T lymphocyte
 CD8+HLA-DR+ T lymphocyte
 CD8-Positive
@@ -79,11 +71,7 @@ Cell-Mediated
 Cell-Mediated Lympholytic
 Cell-Mediated Lympholytic Cell
 Cell-Mediated Lympholytic Cells
-Central Memory T Cell
 Central Memory T Cells
-Central Memory T Lymphocyte
-Central Memory T-Cell
-Central Memory T-Lymphocyte
 Circulating Tumor Reactive T Cell
 Circulating Tumor Reactive T-Cell
 Circulating Tumor-Reactive CD8-Positive T-Cell
@@ -104,24 +92,7 @@ Delayed type hypersensitivity-related T cell
 Delayed type hypersensitivity-related T lymphocyte
 Dendritic Epithelial T Cell
 Dendritic Epithelial T Cells
-EBV-Specific Cytotoxic T-Lymphocyte
-EBV-specific CTL
-EBV-specific Cytotoxic T-lymphocytes
-Effector Memory T Cell
 Effector Memory T Cells
-Effector Memory T Lymphocyte
-Effector Memory T-Cell
-Effector Memory T-Lymphocyte
-Effector T Cell
-Effector T Cells
-Effector T Lymphocyte
-Effector T-Cell
-Effector T-Lymphocyte
-Epstein-Barr virus-specific cytotoxic T-lymphocytes
-Exhausted T Cell
-Exhausted T Lymphocyte
-Exhausted T-Cell
-Exhausted T-Lymphocyte
 Follicular B Helper T Cell
 Follicular B Helper T Cells
 Follicular Helper T Cell
@@ -130,12 +101,6 @@ Gamma Delta T Cell
 Gamma Delta T Cells
 Gamma Delta T Lymphocyte
 Gamma Delta T Lymphocytes
-Gamma Delta T-Cell
-Gamma Delta T-Lymphocyte
-Gamma/Delta T Cell
-Gamma/Delta T Lymphocyte
-Gamma/Delta T-Cell
-Gamma/Delta T-Lymphocyte
 Helper Cell
 Helper Cells
 Helper Inducer
@@ -183,7 +148,6 @@ Lympholytic Cell
 Lympholytic Cells
 MAIT Cell
 MAIT Cells
-Mature Cytotoxic T-Lymphocyte
 Mature T-Cell
 Mature T-Lymphocyte
 Memory T
@@ -191,8 +155,6 @@ Memory T Cell
 Memory T Cells
 Memory T Lymphocyte
 Memory T Lymphocytes
-Memory T-Cell
-Memory T-Lymphocyte
 Mucosal Associated Invariant T Cell
 Mucosal Associated Invariant T Cells
 Mucosal T Cell
@@ -234,17 +196,10 @@ Regulatory T-Cell
 Regulatory T-Cells
 Regulatory T-Lymphocyte
 Regulatory T-Lymphocytes
-Suppressor T Lymphocyte
 Suppressor T Lymphocytes
 Suppressor T-Lymphocyte
 Suppressor T-Lymphocytes
 Suppressor cell
-Suppressor effector T lymphocyte
-Suppressor enhancer T lymphocyte
-Suppressor inducer T lymphocyte
-Suppressor-Effector T-Cells
-Suppressor-Effector T-Lymphocyte
-Suppressor-Effector T-Lymphocytes
 Suppressor-Inducer T-Cell
 Suppressor-Inducer T-Cells
 Suppressor-Inducer T-Lymphocyte
@@ -271,7 +226,6 @@ T Lymphocytes
 T Lymphoid
 T Lymphoid Precursor Cells
 T Regulatory Cell 1
-T Suppressor Cell
 T cell
 T helper cell
 T helper subset 1 cell
@@ -291,7 +245,6 @@ T lymphocyte positive for both CD8 antigen and CD11a antigen
 T lymphocyte positive for both CD8 antigen and CD11b antigen
 T suppressor cell
 T-Cell
-T-Cell Large Granular Lymphocyte
 T-Cell Precursor
 T-Cell Precursors
 T-Cell Subset
@@ -409,15 +362,12 @@ Type-1 T Regulatory Cell
 Type-2 Helper T Cell
 Type-2 Helper T Cells
 Virtual Memory T Cells
-activated mature cytotoxic t-lymphocyte
-activated mature gamma/delta t-lymphocyte with a cytotoxic phenotype
 cd1+ t lymphocyte
 cd103+ t lymphocyte
 cd13+ t lymphocyte
 cd16+cd56+ t lymphocyte
 cd16+cd57+t lymphocyte
 cd16+cd57- t lymphocyte
-cd25+ t lymphocyte
 cd28+ t lymphocyte
 cd3+cd4+ t lymphocyte
 cd3+cd8+ lymphocyte
@@ -437,12 +387,10 @@ cd4+ t lymphocytes
 cd4+ t-lymphocyte
 cd4+/cd45ra+ t cell
 cd4+/cd45ro+ t cell
-cd4+2h4+ lymphocyte
 cd4+cd25+ t lymphocyte
 cd4+cd29+ t lymphocyte
 cd4+cd29+ t lymphocytes
 cd4+cd45ra+ t lymphocyte
-cd4+cd69+ lymphocyte
 cd4+hla-dr+ t lymphocyte
 cd4-(+)
 cd4-(+) lymphocyte
@@ -465,7 +413,6 @@ cd8+ t lymphocytes
 cd8+ t-lymphocyte
 cd8+cd11a+ t lymphocyte
 cd8+cd11b+ t lymphocyte
-cd8+cd25+ lymphocyte
 cd8+cd38+ t lymphocyte
 cd8+hla-dr+ t lymphocyte
 cd8-(+)
@@ -482,11 +429,7 @@ cell-mediated
 cell-mediated lympholytic
 cell-mediated lympholytic cell
 cell-mediated lympholytic cells
-central memory t cell
 central memory t cells
-central memory t lymphocyte
-central memory t-cell
-central memory t-lymphocyte
 circulating tumor reactive t cell
 circulating tumor reactive t-cell
 circulating tumor-reactive cd8-(+) t-cell
@@ -507,24 +450,7 @@ delayed type hypersensitivity-related t cell
 delayed type hypersensitivity-related t lymphocyte
 dendritic epithelial t cell
 dendritic epithelial t cells
-ebv-specific ctl
-ebv-specific cytotoxic t-lymphocyte
-ebv-specific cytotoxic t-lymphocytes
-effector memory t cell
 effector memory t cells
-effector memory t lymphocyte
-effector memory t-cell
-effector memory t-lymphocyte
-effector t cell
-effector t cells
-effector t lymphocyte
-effector t-cell
-effector t-lymphocyte
-epstein-barr virus-specific cytotoxic t-lymphocytes
-exhausted t cell
-exhausted t lymphocyte
-exhausted t-cell
-exhausted t-lymphocyte
 follicular b helper t cell
 follicular b helper t cells
 follicular helper t cell
@@ -533,12 +459,6 @@ gamma delta t cell
 gamma delta t cells
 gamma delta t lymphocyte
 gamma delta t lymphocytes
-gamma delta t-cell
-gamma delta t-lymphocyte
-gamma/delta t cell
-gamma/delta t lymphocyte
-gamma/delta t-cell
-gamma/delta t-lymphocyte
 helper T lymphocyte
 helper cell
 helper cells
@@ -589,7 +509,6 @@ lympholytic cell
 lympholytic cells
 mait cell
 mait cells
-mature cytotoxic t-lymphocyte
 mature t-cell
 mature t-lymphocyte
 memory t
@@ -597,8 +516,6 @@ memory t cell
 memory t cells
 memory t lymphocyte
 memory t lymphocytes
-memory t-cell
-memory t-lymphocyte
 mucosal associated invariant t cell
 mucosal associated invariant t cells
 mucosal t cell
@@ -640,16 +557,10 @@ rte
 rtes
 suppressor T lymphocyte
 suppressor cell
-suppressor effector t lymphocyte
-suppressor enhancer t lymphocyte
-suppressor inducer t lymphocyte
 suppressor t lymphocyte
 suppressor t lymphocytes
 suppressor t-lymphocyte
 suppressor t-lymphocytes
-suppressor-effector t-cells
-suppressor-effector t-lymphocyte
-suppressor-effector t-lymphocytes
 suppressor-inducer t-cell
 suppressor-inducer t-cells
 suppressor-inducer t-lymphocyte
@@ -693,7 +604,6 @@ t lymphoid precursor cells
 t regulatory cell 1
 t suppressor cell
 t-cell
-t-cell large granular lymphocyte
 t-cell precursor
 t-cell precursors
 t-cell subset
@@ -804,12 +714,6 @@ virtual memory t cells
 γ δ T Cells
 γ δ T Lymphocyte
 γ δ T Lymphocytes
-γ δ T-Cell
-γ δ T-Lymphocyte
-γ/δ T Cell
-γ/δ T Lymphocyte
-γ/δ T-Cell
-γ/δ T-Lymphocyte
 μcosal Associated Invariant T Cell
 μcosal Associated Invariant T Cells
 μcosal T Cell

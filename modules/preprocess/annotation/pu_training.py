@@ -32,7 +32,7 @@ import pdb
 pd.set_option('display.max_colwidth', None)
 
 
-def train(df_train_pos, df_train_neg, parameters):
+def train(df_train_pos, df_train_neg, parameters, name_prefix):
 
     # logging
     logger = logging.getLogger("logger")
@@ -144,15 +144,17 @@ def train(df_train_pos, df_train_neg, parameters):
         if not os.path.exists(OUTPUT_PATH):
             os.makedirs(OUTPUT_PATH)
 
-        torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_last.pth"))
+        torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_last_{name_prefix}.pth"))
 
         if best_update:
-            torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_best.pth"))
+            torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_best_{name_prefix}.pth"))
 
     print("best_acc: {:.2f}".format(best_acc))
 
     # load best model
-    pu_model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
+    best_model_path = os.path.join(OUTPUT_PATH, f"model_best_{name_prefix}.pth")
+    pu_model.load_state_dict(torch.load(best_model_path, map_location=torch.device(device)))
+    #pu_model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
 
     # testing
     progress_bar_test = tqdm(range(len(test_dataloader)))
@@ -298,14 +300,11 @@ def extract_negative_samples(parameters):
 
         parameters["seed"] = step
         df_train_pos, df_train_neg = setup_pu_dataset(step, parameters)
-        neg_probs = train(df_train_pos, df_train_neg, parameters)
+        neg_probs = train(df_train_pos, df_train_neg, parameters, name_prefix="pu")
 
         for k in range(pos_label_num):
             df_train_neg[f"prob_{k}"] = neg_probs[:, k]
 
-        #df_train_neg["prob_0"] = neg_probs[:,0]
-        #df_train_neg["prob_1"] = neg_probs[:,1]
-        #df_train_neg["prob_2"] = neg_probs[:,2]
 
         model_dir = parameters["model_dir"]
         df_train_pos.to_csv(os.path.join(model_dir, f"train_pos_{step}.csv"))
@@ -317,16 +316,15 @@ def classify_unknown_samples(neg_index, parameters):
 
     parameters["class_num"] += 1
     df_train, df_test = setup_final_dataset(neg_index, parameters)
-    #probs = train(df_train_pos, df_train_neg, parameters)
-    probs = train(df_train, df_test, parameters)
+
+    print("classify_unknown_samples")
+    print(parameters)
+
+    probs = train(df_train, df_test, parameters, name_prefix="final")
 
     for k in range(parameters["class_num"]):
         df_test[f"prob_{k}"] = probs[:, k]
 
-    #df_test["prob_0"] = probs[:,0]
-    #df_test["prob_1"] = probs[:,1]
-    #df_test["prob_2"] = probs[:,2]
-    #df_test["prob_3"] = probs[:,3]
 
     model_dir = parameters["model_dir"]
     df_train.to_csv(os.path.join(model_dir, "train_final.csv"))
@@ -352,6 +350,7 @@ def main():
     # use PU-algorithm to extract possibly true negative samples from unknown samples
     # by using spy positive samples. We iterate this process three timees, then extract
     # negative samples by the common sample set from the three sets of negative samples
+
     extract_negative_samples(parameters)
     model_dir = parameters["model_dir"]
     true_neg_index = extract_neg_index(model_dir)
@@ -369,6 +368,13 @@ def main():
     # save pu training result dataset (containly only samples with positive labels)
     fname = os.path.join(parameters["corpus_dir"], "df_pu_train.csv")
     df_pu_train.to_csv(fname)
+
+    N = df_pu_train.shape[0]
+    labels = sorted(list(df_pu_train["label"].unique()))
+    for l in labels:
+        n = df_pu_train[df_pu_train["label"] == l].shape[0]
+        ratio = float(n)/N
+        print(f"label: {l}: {n}/{N} ({ratio:.2f})")
 
 
     print('Done!')

@@ -40,5 +40,5 @@ entity_names:
 gpu: 0 
 
 # restore model
-restore_model_path: experiments/jnlpba/models/model_best.pth
+restore_model_path: experiments/jnlpba/models/model_best_final.pth
 

@@ -31,7 +31,13 @@ def extract_true_neg_candidate(csv):
     
     probs = []
     for k in dfs.keys():
+        print(dfs[k].shape)
+        print("sampling label", k)
+        if dfs[k].shape[0] == 0:
+            continue
+
         p=percentile(dfs[k][f"prob_{k}"], thres_percentile)
+        print(f"percentile at {thres_percentile} : {p}")
         probs.append(p)
 
     #p1=percentile(df_0["prob_0"], thres_percentile)

@@ -388,8 +388,7 @@ def main():
         L_train = snorkel(parameters, df_train["entities"], lfs)
 
     # snorkel result summary
-    LFAnalysis(L=L_train, lfs=lfs).lf_summary()
-
+    print(LFAnalysis(L=L_train, lfs=lfs).lf_summary())
 
     # load snorkel labeling results
     for i in range(len(lfs)):
@@ -410,7 +409,7 @@ def main():
     labels = sorted(list(df_train_raw["label"].unique()))
     for l in labels:
         n = df_train_raw[df_train_raw["label"] == l].shape[0]
-        print("label: {l}: {n}/{N}")
+        print(f"label: {l}: {n}/{N}")
 
 
     # filter negative samples
@@ -419,8 +418,9 @@ def main():
     N = df_train.shape[0]
     labels = sorted(list(df_train["label"].unique()))
     for l in labels:
-        n = df_train_raw[df_train["label"] == l].shape[0]
-        print("label: {l}: {n}/{N} ({float(n)}/{N})")
+        n = df_train[df_train["label"] == l].shape[0]
+        ratio = float(n)/N
+        print(f"label: {l}: {n}/{N} ({ratio:.2f})")
 
     
     corpus_dir = parameters["corpus_dir"]
