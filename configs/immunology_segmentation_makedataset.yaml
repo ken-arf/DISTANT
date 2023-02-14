@@ -1,0 +1,16 @@
+# Configuration file for training model.
+
+# data path
+task_name: immunology 
+
+dict_dir: 
+    - data/Mesh/processed_dict
+    - data/UMLS/processed_dict
+
+dict_files:
+    - cytokine.dict
+    - transcription_factor.dict
+    - t_lymphocyte.dict
+
+corpus_dir: data/Mesh/PubMed/Immunology/extract
+output_dir: data/Mesh/PubMed/Immunology/conll
