@@ -68,12 +68,16 @@ def match_entity(tokens, entity_dict, entity_type):
             tgt = tokens[i:i+len(entity)]
             if tuple(tgt) == tuple(entity):
                 #print('match at {}: {}'.format(i, '_'.join(entity)))
-                for j in range(i, i+len(entity)):
-                    if j == i:
-                        bio[j] = f'B_{entity_type}'
-                    else:
-                        bio[j] = f'I_{entity_type}'
-        
+
+                if len(entity) == 1:
+                    bio[i] = f'S_{entity_type}'
+                else: 
+                    for j in range(i, i+len(entity)):
+                        if j == i:
+                            bio[j] = f'B_{entity_type}'
+                        else:
+                            bio[j] = f'I_{entity_type}'
+            
     return bio
         
 

@@ -276,6 +276,10 @@ def setup_final_dataset(neg_index, parameters):
 
     df_unknown = df_train_raw[df_train_raw["label"]==-1]
 
+    #df_unknown = df_train_raw[df_train_raw["label"]==-1]
+    #df_train_0 =  df_train_raw[df_train_raw["label"]==0]
+    #df_train_1 =  df_train_raw[df_train_raw["label"]==1]
+    #df_train_2 =  df_train_raw[df_train_raw["label"]==2]
 
     test_index = df_unknown.index.difference(df_neg.index)
 

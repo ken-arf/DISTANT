@@ -1,0 +1,45 @@
+# Configuration file for training model.
+
+# data path
+task_name: immunology 
+
+entities:
+    - cytokine
+    - transcription_factor
+    - t_lymphocyte
+
+corpus_dir: data/Mesh/PubMed/Immunology/conll
+# model save dir
+model_dir: experiments/immunology/segmentation/models
+
+
+# bert model
+seed: 22
+model_checkpoint: allenai/scibert_scivocab_cased
+# nn model
+dropout_rate: 0.3
+embedding_dim: 768
+hidden_size: 100
+
+# label num
+class_num: 2
+
+# gpu
+gpu: -1 
+
+
+# training
+train_epochs: 50
+train_batch_size: 32 
+valid_batch_size: 32 
+
+# training lr
+train_lr: 1e-4
+train_scheduler: linear
+train_num_warmup_steps: 100 
+max_patient_count: 3 
+
+# restore model
+restore_model: False
+restore_model_path: 
+

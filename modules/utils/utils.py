@@ -9,6 +9,7 @@ from datetime import datetime
 from glob import glob  
 
 import torch
+import numpy
 
 def make_dirs(*paths):                                                                                                     
     os.makedirs(path(*paths), exist_ok=True)                                                                               
@@ -66,3 +67,18 @@ def _print_config(config, config_path):
                                                                                                                            
     return 
 
+
+def postprocess(predictions, labels, label_names):
+
+    if type(predictions) != numpy.ndarray:
+        predictions = predictions.detach().cpu().clone().numpy()
+    if type(labels) != numpy.ndarray:
+        labels = labels.detach().cpu().clone().numpy()
+
+    # Remove ignored index (special tokens) and convert to labels
+    true_labels = [[label_names[l] for l in label if l != -100] for label in labels]
+    true_predictions = [
+        [label_names[p] for (p, l) in zip(prediction, label) if l != -100]
+        for prediction, label in zip(predictions, labels)
+    ]
+    return true_labels, true_predictions
