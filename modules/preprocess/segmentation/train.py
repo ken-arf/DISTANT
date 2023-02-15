@@ -4,13 +4,24 @@ import os
 import sys
 import time
 import torch
+import logging
 import glob
 from tqdm import tqdm
 from collections import defaultdict
 
 from utils import utils
 
+import torch
+from torch.optim import AdamW
+
+from transformers import get_scheduler
+
+from accelerate import Accelerator
+import evaluate
+
 from dataloader import Dataloader
+from measure import performance
+from model import Model
 
 import pdb
 
@@ -80,7 +91,171 @@ def load_dataset(parameters):
     data = {'text': text_data, 'label': label_data}
 
     return data
-            
+
+def train(parameters, name_suffix):
+
+    # logging
+    logger = logging.getLogger("logger")
+    logger.setLevel(logging.ERROR)
+
+    handler1 = logging.StreamHandler()
+    handler1.setFormatter(logging.Formatter("%(asctime)s %(filename)s %(funcName)s %(lineno)d %(levelname)s %(message)s"))
+
+    #handler2 = logging.FileHandler(filename="test.log")
+    #handler2.setFormatter(logging.Formatter("%(asctime)s %(levelname)8s %(message)s"))
+
+    logger.addHandler(handler1)
+    #logger.addHandler(handler2)
+
+
+    # step 0) load dataset
+    data = load_dataset(parameters)
+    dataloader = Dataloader(data, parameters)
+    train_dataloader, valid_dataloader = dataloader.load_data()
+
+    metric = evaluate.load("seqeval")
+
+    if torch.cuda.is_available() and parameters['gpu'] >= 0:
+        device = "cuda"
+    else:
+        device = "cpu"
+
+    model = Model(parameters, logger)
+
+    if parameters['restore_model'] == True:
+        model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
+
+    optimizer = AdamW(model.parameters(), lr=float(parameters['train_lr']))
+    accelerator = Accelerator()
+    model, optimizer, train_dataloader, valid_dataloader = accelerator.prepare(
+        model, optimizer, train_dataloader, valid_dataloader
+    )
+
+
+    num_train_epochs = parameters['train_epochs']
+    num_update_steps_per_epoch = len(train_dataloader)
+    num_training_steps = num_train_epochs * num_update_steps_per_epoch
+
+    print("num_update_steps_per_epoch", num_update_steps_per_epoch)
+    print("num_train_epochs", num_train_epochs)
+    print("num_training_steps", num_training_steps)
+
+    lr_scheduler = get_scheduler(
+        parameters['train_scheduler'],
+        optimizer=optimizer,
+        num_warmup_steps=parameters['train_num_warmup_steps'],
+        num_training_steps=num_training_steps,
+    )
+
+    # training model
+
+    progress_bar = tqdm(range(num_training_steps))
+
+    OUTPUT_PATH = parameters['model_dir']
+    best_acc = 0
+    patient_count = 0
+    steps = 0
+    for epoch in range(num_train_epochs):
+
+        # Training
+        model.train()
+        for batch in train_dataloader:
+
+            loss = model(**batch)
+            accelerator.backward(loss)
+
+            optimizer.step()
+            lr_scheduler.step()
+            optimizer.zero_grad()
+            progress_bar.update(1)
+            progress_bar.set_description("loss:{:7.2f} epoch:{}".format(loss.item(),epoch))
+            steps += 1
+
+
+        # Evaluation
+        progress_bar_valid = tqdm(range(len(valid_dataloader)))
+        running_acc = 0
+        model.eval()
+        for batch_index, batch in tqdm(enumerate(valid_dataloader)):
+            with torch.no_grad():
+                predictions, probs = model.decode(**batch)
+            labels = batch["labels"].detach().cpu().numpy()
+
+
+            #predictions = accelerator.pad_across_processes(predictions, dim=2, pad_index=-100)
+            #labels = accelerator.pad_across_processes(labels, dim=2, pad_index=-100)
+
+            predictions = accelerator.gather(predictions)
+            labels = accelerator.gather(labels)
+
+            logger.debug("predictions")
+            logger.debug(predictions)
+            logger.debug("labels")
+            logger.debug(labels)
+
+            label_map = {0:0, 1:1}
+            true_predictions, true_labels = utils.postprocess(predictions, labels, label_map)
+
+            batch_acc = performance.performance_acc(true_predictions, true_labels, logger)
+            running_acc += (batch_acc - running_acc) / (batch_index + 1)
+            progress_bar_valid.update(1)
+            progress_bar_valid.set_description("running_acc:{:.2f} epoch:{}".format(running_acc, epoch))
+
+        print("running_acc: {:.2f}".format(running_acc))
+
+        best_update = False
+        if best_acc < running_acc:
+            best_acc = running_acc
+            # save model
+            patient_count = 0
+            best_update = True
+        else:
+            patient_count += 1
+
+        if patient_count > parameters["max_patient_count"]:
+            print("Exceed max patient count. Force to exit")
+            break
+
+        # prepare saving model
+        accelerator.wait_for_everyone()
+        unwrapped_model = accelerator.unwrap_model(model)
+
+        OUTPUT_PATH = parameters['model_dir']
+
+        if not os.path.exists(OUTPUT_PATH):
+            os.makedirs(OUTPUT_PATH)
+
+        torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_last_{name_suffix}.pth"))
+
+        if best_update:
+            torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_best_{name_suffix}.pth"))
+
+    print("best_acc: {:.2f}".format(best_acc))
+
+    return
+
+#    # load best model
+#    best_model_path = os.path.join(OUTPUT_PATH, f"model_best_{name_prefix}.pth")
+#    model.load_state_dict(torch.load(best_model_path, map_location=torch.device(device)))
+#
+#    # testing
+#    progress_bar_test = tqdm(range(len(test_dataloader)))
+#    probs_list = []
+#    model.eval()
+#    for batch_index, batch in tqdm(enumerate(test_dataloader)):
+#        with torch.no_grad():
+#            predictions, probs = model.decode(**batch)
+#        labels = batch["labels"].detach().cpu().numpy()
+#        batch_acc = performance.performance_acc(predictions, labels, logger)
+#        progress_bar_test.update(1)
+#        progress_bar_test.set_description("acc:{:.2f}".format(batch_acc))
+#        probs_list.append(probs)
+#
+#    neg_probs = np.vstack(probs_list)
+#
+#    return neg_probs
+
+
 
 def main():
 
@@ -96,16 +271,9 @@ def main():
     # check running time
     t_start = time.time()                                                                                                  
 
-    # step 0) load dataset
-    data = load_dataset(parameters)
-    dataloader = Dataloader(data, parameters)
-    train_dataloader, valid_dataloader = dataloader.load_data()
+    # train model
+    train(parameters, "seg")
 
-    for batch in train_dataloader:
-        print(batch)
-        break
-
-    # step 1) train model
 
     print('Done!')
     t_end = time.time()                                                                                                  

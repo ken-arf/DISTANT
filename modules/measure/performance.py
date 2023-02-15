@@ -15,7 +15,8 @@ def performance_acc(predictions, labels, logger):
     logger.debug(f"event y_true: {y_true}")
     logger.debug(f"event y_pred: {y_pred}")
 
-    acc = accuracy_score(y_true, y_pred)
+    acc = accuracy_score(sum(y_true,[]), sum(y_pred,[]))
+    #acc = accuracy_score(y_true, y_pred)
     logger.info(f"event acc: {acc}")
     return acc
 

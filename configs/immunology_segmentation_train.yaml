@@ -9,6 +9,8 @@ entities:
     - t_lymphocyte
 
 corpus_dir: data/Mesh/PubMed/Immunology/conll
+# model save dir
+model_dir: experiments/immunology/segmentation/models
 
 
 # bert model
@@ -17,9 +19,10 @@ model_checkpoint: allenai/scibert_scivocab_cased
 # nn model
 dropout_rate: 0.3
 embedding_dim: 768
+hidden_size: 100
 
-# positive label num
-class_num: 3
+# label num
+class_num: 2
 
 # gpu
 gpu: -1 
@@ -38,4 +41,5 @@ max_patient_count: 3
 
 # restore model
 restore_model: False
+restore_model_path: 
 
