@@ -107,7 +107,6 @@ def train(parameters, name_suffix):
     logger.addHandler(handler1)
     #logger.addHandler(handler2)
 
-
     # step 0) load dataset
     data = load_dataset(parameters)
     dataloader = Dataloader(data, parameters)
@@ -148,7 +147,6 @@ def train(parameters, name_suffix):
     )
 
     # training model
-
     progress_bar = tqdm(range(num_training_steps))
 
     OUTPUT_PATH = parameters['model_dir']
@@ -231,30 +229,7 @@ def train(parameters, name_suffix):
             torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_best_{name_suffix}.pth"))
 
     print("best_acc: {:.2f}".format(best_acc))
-
     return
-
-#    # load best model
-#    best_model_path = os.path.join(OUTPUT_PATH, f"model_best_{name_prefix}.pth")
-#    model.load_state_dict(torch.load(best_model_path, map_location=torch.device(device)))
-#
-#    # testing
-#    progress_bar_test = tqdm(range(len(test_dataloader)))
-#    probs_list = []
-#    model.eval()
-#    for batch_index, batch in tqdm(enumerate(test_dataloader)):
-#        with torch.no_grad():
-#            predictions, probs = model.decode(**batch)
-#        labels = batch["labels"].detach().cpu().numpy()
-#        batch_acc = performance.performance_acc(predictions, labels, logger)
-#        progress_bar_test.update(1)
-#        progress_bar_test.set_description("acc:{:.2f}".format(batch_acc))
-#        probs_list.append(probs)
-#
-#    neg_probs = np.vstack(probs_list)
-#
-#    return neg_probs
-
 
 
 def main():
@@ -273,7 +248,6 @@ def main():
 
     # train model
     train(parameters, "seg")
-
 
     print('Done!')
     t_end = time.time()                                                                                                  

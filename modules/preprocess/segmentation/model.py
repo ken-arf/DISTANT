@@ -95,7 +95,6 @@ class Model(nn.Module):
 
     def decode(self, **kargs):
 
-
         input_ids = kargs["input_ids"]
         token_type_ids = kargs["token_type_ids"]
         attention_mask = kargs["attention_mask"]
@@ -121,4 +120,28 @@ class Model(nn.Module):
 
         return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
 
+    def predict(self, **kargs):
+
+        input_ids = kargs["input_ids"]
+        token_type_ids = kargs["token_type_ids"]
+        attention_mask = kargs["attention_mask"]
+
+        #Extract outputs from the body
+        bert_outputs = self.bert_model(input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
+
+        #Add custom layers
+        last_hidden_output = bert_outputs['last_hidden_state']
+        bert_sequence_output = self.dropout(last_hidden_output) #outputs[0]=last hidden state
+
+
+        # logit
+        logit = self.linear(bert_sequence_output)
+
+        # probability
+        probs = F.softmax(logit, dim=2)
+    
+        # prediction
+        predicts = torch.argmax(logit, dim=2)
+
+        return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
 

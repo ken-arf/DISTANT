@@ -1,0 +1,84 @@
+# この viminfo ファイルは Vim 9.0 によって生成されました.
+# 変更する際には十分注意してください!
+
+# Viminfo version
+|1,4
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q
+|2,0,1676517648,,"q"
+:57
+|2,0,1676517642,,"57"
+:w
+|2,0,1676517610,,"w"
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# デバッグ行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+
+# ファイルマーク:
+'0  57  8  ~/modules/preprocess/segmentation/predict.py
+|4,48,57,8,1676517648,"~/modules/preprocess/segmentation/predict.py"
+'1  57  8  ~/modules/preprocess/segmentation/predict.py
+|4,49,57,8,1676517643,"~/modules/preprocess/segmentation/predict.py"
+'2  42  26  ~/modules/preprocess/segmentation/predict.py
+|4,50,42,26,1676517610,"~/modules/preprocess/segmentation/predict.py"
+'3  42  26  ~/modules/preprocess/segmentation/predict.py
+|4,51,42,26,1676517610,"~/modules/preprocess/segmentation/predict.py"
+'4  42  26  ~/modules/preprocess/segmentation/predict.py
+|4,52,42,26,1676517610,"~/modules/preprocess/segmentation/predict.py"
+'5  42  26  ~/modules/preprocess/segmentation/predict.py
+|4,53,42,26,1676517610,"~/modules/preprocess/segmentation/predict.py"
+'6  57  8  ~/modules/preprocess/segmentation/predict.py
+|4,54,57,8,1676517592,"~/modules/preprocess/segmentation/predict.py"
+'7  57  8  ~/modules/preprocess/segmentation/predict.py
+|4,55,57,8,1676517592,"~/modules/preprocess/segmentation/predict.py"
+'8  57  8  ~/modules/preprocess/segmentation/predict.py
+|4,56,57,8,1676517592,"~/modules/preprocess/segmentation/predict.py"
+'9  57  8  ~/modules/preprocess/segmentation/predict.py
+|4,57,57,8,1676517592,"~/modules/preprocess/segmentation/predict.py"
+
+# ジャンプリスト (新しいものが先):
+-'  57  8  ~/modules/preprocess/segmentation/predict.py
+|4,39,57,8,1676517648,"~/modules/preprocess/segmentation/predict.py"
+-'  57  8  ~/modules/preprocess/segmentation/predict.py
+|4,39,57,8,1676517643,"~/modules/preprocess/segmentation/predict.py"
+-'  42  26  ~/modules/preprocess/segmentation/predict.py
+|4,39,42,26,1676517639,"~/modules/preprocess/segmentation/predict.py"
+-'  42  26  ~/modules/preprocess/segmentation/predict.py
+|4,39,42,26,1676517639,"~/modules/preprocess/segmentation/predict.py"
+-'  42  26  ~/modules/preprocess/segmentation/predict.py
+|4,39,42,26,1676517610,"~/modules/preprocess/segmentation/predict.py"
+-'  57  8  ~/modules/preprocess/segmentation/predict.py
+|4,39,57,8,1676517597,"~/modules/preprocess/segmentation/predict.py"
+-'  57  8  ~/modules/preprocess/segmentation/predict.py
+|4,39,57,8,1676517592,"~/modules/preprocess/segmentation/predict.py"
+-'  1  0  ~/modules/preprocess/segmentation/predict.py
+|4,39,1,0,1676517589,"~/modules/preprocess/segmentation/predict.py"
+-'  1  0  ~/modules/preprocess/segmentation/predict.py
+|4,39,1,0,1676517589,"~/modules/preprocess/segmentation/predict.py"
+-'  1  0  ~/modules/preprocess/segmentation/predict.py
+|4,39,1,0,1676517589,"~/modules/preprocess/segmentation/predict.py"
+-'  1  0  ~/modules/preprocess/segmentation/predict.py
+|4,39,1,0,1676517589,"~/modules/preprocess/segmentation/predict.py"
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/modules/preprocess/segmentation/predict.py
+	*	1676517647	0
+	"	57	8
+	^	42	27
+	.	42	26
+	+	42	26

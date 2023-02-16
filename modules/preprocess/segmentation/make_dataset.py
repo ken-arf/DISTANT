@@ -21,7 +21,7 @@ nlp.add_pipe("sentencizer")
 
 mymoses = moses.MyMosesTokenizer()
 
-def sentence_split(doc, moses = False):
+def sentence_split(doc, offset = False, moses = False):
     
     if moses:
         sents = mymoses.split_sentence(doc.strip())
@@ -33,14 +33,20 @@ def sentence_split(doc, moses = False):
     return sents
     
 
-def tokenize(text, moses = False):
+def tokenize(text, offset = False, moses = False, ):
     
     if moses:
         tokens = mymoses.tokenize(text.strip())
         tokens = [token.text for token in tokens]
     else:
         doc = nlp(text)
-        tokens = [token.text for token in doc]
+
+
+        if offset == False:
+            tokens = [token.text for token in doc]
+        else:
+            tokens = [(token.text, token.idx) for token in doc]
+            
 
     return tokens 
     
@@ -55,7 +61,6 @@ def load_dict(path):
         items.append(doc)
     return items
     
-
 
 def match_entity(tokens, entity_dict, entity_type):
     #print(tokens)
