@@ -2,6 +2,7 @@
 import os
 import sys
 import re
+from collections import defaultdict
 import spacy
 import random
 import numpy as np
@@ -106,8 +107,6 @@ def min_edit_distance_test(ref, src):
     ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
     src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
 
-    #ref = [token.lemma_ for token in nlp(ref)]
-    #src = [token.lemma_ for token in nlp(src)]
 
     min_l = ed.eval(ref, src)
 
@@ -190,8 +189,6 @@ def entity_extract(sent, pmid,k):
                        'text': [sent.text] * len(entities),
                        'pmid': [f"{pmid}_{k}"] * len(entities)})
 
-    #df[['start_tokens', 'end_tokens', 'start_chars', 'end_chars']] = \
-    #        df[['start_tokens', 'end_tokens', 'start_chars', 'end_chars']].astype('int') 
 
     return df
    
@@ -299,14 +296,22 @@ def lf_debug(x):
 
 global dist_dict
 
+def snorkel(parameters, df_train, lfs):
 
-def mySpark(parameters, df_train, lfs):
+    global dist_dict
+
+    lf_applier = PandasLFApplier(lfs=lfs)
+    L_train = lf_applier.apply(df=df_train)
+
+    return L_train
+
+
+def snorkel_spark(parameters, df_train, lfs):
 
     global dist_dict
 
     sc = SparkContext()
     rdd = sc.parallelize(df_train)
-    #lf_applier = SparkLFApplier(lfs=[lf_debug])
     lf_applier = SparkLFApplier(lfs=lfs)
     L_train = lf_applier.apply(rdd)
 
@@ -343,21 +348,25 @@ def main():
                 dfs.append(df)
 
 
-
     df_train = pd.concat(dfs, ignore_index=True)
 
 
     # dictionary generation1
-    Mesh_dict_dir= parameters["processed_dict_dir"]
+    dict_dirs = parameters["processed_dict_dirs"]
     dictionary_files = parameters["dict_files"]
 
-    dist_dict = {}
+    dist_dict = defaultdict(list) 
     for fname in dictionary_files:
-        path = os.path.join(Mesh_dict_dir, fname)
-        with open(path) as fp:
-            lines = [l.strip() for l in fp.readlines()]
-            lines_lower = [l.strip().lower() for l in fp.readlines()]
-            dist_dict[fname] = lines + lines_lower 
+
+        terms = []
+        for dict_dir in dict_dirs:
+            path = os.path.join(dict_dir, fname)
+            with open(path) as fp:
+                lines = [l.strip() for l in fp.readlines()]
+                lines_lower = [l.strip().lower() for l in fp.readlines()]
+                terms += (lines + lines_lower) 
+
+        dist_dict[fname] = sorted(list(set(terms))) 
 
 
     # snorkel labeling functions
@@ -368,12 +377,17 @@ def main():
         lf_func = f"lf_{basename}_distsv"
         lfs.append(eval(lf_func))
 
-    L_train = mySpark(parameters, df_train["entities"], lfs)
+    if parameters["spark"]:
+        L_train = snorkel_spark(parameters, df_train["entities"], lfs)
+    else:
+        L_train = snorkel(parameters, df_train["entities"], lfs)
+
+    # snorkel result summary
+    print(LFAnalysis(L=L_train, lfs=lfs).lf_summary())
 
     # load snorkel labeling results
     for i in range(len(lfs)):
         df_train[lfs[i].name] = L_train[:, i]
-
 
 
     label_model = MajorityLabelVoter(cardinality=len(lfs))
@@ -386,8 +400,22 @@ def main():
 
     df_train_raw = df_train.copy()
 
+    N = df_train_raw.shape[0]
+    labels = sorted(list(df_train_raw["label"].unique()))
+    for l in labels:
+        n = df_train_raw[df_train_raw["label"] == l].shape[0]
+        print(f"label: {l}: {n}/{N}")
+
+
     # filter negative samples
     df_train = df_train[df_train.label != ABSTAIN]
+
+    N = df_train.shape[0]
+    labels = sorted(list(df_train["label"].unique()))
+    for l in labels:
+        n = df_train[df_train["label"] == l].shape[0]
+        ratio = float(n)/N
+        print(f"label: {l}: {n}/{N} ({ratio:.2f})")
 
     
     corpus_dir = parameters["corpus_dir"]

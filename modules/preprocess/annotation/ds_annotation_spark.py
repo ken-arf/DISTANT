@@ -51,6 +51,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 
 from utils import utils
+from entity_extract import ExtractEntityCandidate
 
 import itertools
 
@@ -107,8 +108,6 @@ def min_edit_distance_test(ref, src):
     ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
     src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
 
-    #ref = [token.lemma_ for token in nlp(ref)]
-    #src = [token.lemma_ for token in nlp(src)]
 
     min_l = ed.eval(ref, src)
 
@@ -158,13 +157,46 @@ def min_edit_distance(ref, src):
     return min_l
 
 
-
-
 def get_synonyms(word):
     """Get the synonyms of word from Wordnet."""
     return wn.synsets(word.lower())
 
-def entity_extract(sent, pmid,k):
+def entity_extract(entityExtraction, sent, pmid, k):
+
+    entities = []
+    start_tokens = []
+    end_tokens = []
+    start_chars= []
+    end_chars = []
+                
+    candidates = entityExtraction.extract_candiate(sent)
+    
+    for ent in candidates:
+
+        if len(get_synonyms(ent.text)) != 0:
+             continue
+    
+        entities.append(ent.text)
+        start_tokens.append(int(ent.start))
+        end_tokens.append(int(ent.end))
+        start_chars.append(int(ent.start_char))
+        end_chars.append(int(ent.end_char))
+    
+    df = pd.DataFrame({'entities': entities,
+                       'start_tokens': start_tokens,
+                       'end_tokens': end_tokens,
+                       'start_chars': start_chars,
+                       'end_chars': end_chars,
+                       'text': [sent] * len(entities),
+                       'pmid': [f"{pmid}_{k}"] * len(entities)})
+
+
+    return df
+
+
+
+
+def entity_extract_old(sent, pmid,k):
        
     entities = []
     start_tokens = []
@@ -191,8 +223,6 @@ def entity_extract(sent, pmid,k):
                        'text': [sent.text] * len(entities),
                        'pmid': [f"{pmid}_{k}"] * len(entities)})
 
-    #df[['start_tokens', 'end_tokens', 'start_chars', 'end_chars']] = \
-    #        df[['start_tokens', 'end_tokens', 'start_chars', 'end_chars']].astype('int') 
 
     return df
    
@@ -340,6 +370,8 @@ def main():
     # extract all entities by using spacy
     documents = glob(parameters["document_root_dir"] + "/*.txt")
 
+    entityExtraction  = ExtractEntityCandidate(parameters["segmentation_predict_config"])
+
     dfs = []
     for document_path in tqdm(sorted(documents)):
         _, fname = os.path.split(document_path)
@@ -348,9 +380,9 @@ def main():
             text = fp.read().strip()
             doc = nlp(text)
             for k, sent in enumerate(doc.sents):
-                df=entity_extract(nlp(sent.text), pmid,k)
+                #df=entity_extract(nlp(sent.text), pmid,k)
+                df=entity_extract(entityExtraction, sent.text, pmid,k)
                 dfs.append(df)
-
 
 
     df_train = pd.concat(dfs, ignore_index=True)

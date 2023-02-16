@@ -30,10 +30,10 @@ from tqdm.auto import tqdm
 
 from utils import utils
 
-from model import Model 
+from .model import Model 
 
-from make_dataset import tokenize
-from make_dataset import sentence_split
+from .make_dataset import tokenize
+from .make_dataset import sentence_split
 
 import dataclasses
 
@@ -181,37 +181,8 @@ class EntityExtraction:
         aux_data["offset_mapping"] = offset_mapping
         aux_data["word_ids"] = word_ids
 
-        
         return tensor_input, aux_data 
 
-
-
-    def _extract_entity_helper(self, sent, offset):
-
-       entities = []
-       start_tokens = []
-       end_tokens = []
-       start_chars= []
-       end_chars = []
-
-       for ent in sent.ents:
-
-           entities.append(ent.text)
-           start_tokens.append(int(ent.start))
-           end_tokens.append(int(ent.end))
-           start_chars.append(int(ent.start_char))
-           end_chars.append(int(ent.end_char))
-
-       df = pd.DataFrame({'entities': entities,
-                                    'start_tokens': start_tokens,
-                                    'end_tokens': end_tokens,
-                                    'start_chars': start_chars,
-                                    'end_chars': end_chars,
-                                    'text': [sent.text] * len(entities),
-                                    'sentence_offset': offset})
-
-
-       return df
 
 
 

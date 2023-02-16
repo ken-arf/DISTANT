@@ -28,3 +28,5 @@ entity_names:
 
 document_root_dir: data/Mesh/PubMed/Immunology/extract
 corpus_dir: data/Corpus/Immunology
+
+segmentation_predict_config: configs/immunology_segmentation_predict.yaml
