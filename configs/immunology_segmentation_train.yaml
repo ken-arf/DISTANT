@@ -25,7 +25,7 @@ hidden_size: 100
 class_num: 2
 
 # gpu
-gpu: -1 
+gpu: 0 
 
 
 # training
@@ -40,6 +40,6 @@ train_num_warmup_steps: 100
 max_patient_count: 3 
 
 # restore model
-restore_model: False
-restore_model_path: 
+restore_model: True
+restore_model_path: experiments/immunology/segmentation/models/model_best_seg.pth
 

@@ -12,5 +12,14 @@ dict_files:
     - transcription_factor.dict
     - t_lymphocyte.dict
 
+entity2integer:
+    cytokine: 0
+    transcription_factor: 1
+    t_lymphocyte: 2
+
+
 corpus_dir: data/Mesh/PubMed/Immunology/extract
 output_dir: data/Mesh/PubMed/Immunology/conll
+
+use_pu_data: True
+pu_data: data/Corpus/Immunology/df_pu_train.csv

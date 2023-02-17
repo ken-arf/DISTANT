@@ -8,6 +8,7 @@ import glob
 import spacy
 import scispacy
 import time
+import pandas as pd
 from collections import defaultdict
 from tqdm import tqdm
 
@@ -88,6 +89,11 @@ def match_entity(tokens, entity_dict, entity_type):
 
 def annotate(files, parameters):
 
+
+    ent2int = parameters["entity2integer"]
+    int2ent = {i:k for k,i in ent2int.items()}
+    
+
     outdir = parameters["output_dir"]
     dict_dirs = parameters["dict_dir"]
     dict_files= parameters["dict_files"]
@@ -102,6 +108,17 @@ def annotate(files, parameters):
         name, txt = os.path.splitext(fname)
         entity_dict[name] += load_dict(dict_path)
 
+    # append all entities extracted from pu_training
+
+    if parameters["use_pu_data"]:
+        pu_data_csv = parameters["pu_data"]
+        df_pu_data = pd.read_csv(pu_data_csv)
+        
+        for name in entity_dict.keys():
+            entid = ent2int[name]
+            entity_dict[name] += list(set(df_pu_data[df_pu_data.label == entid].entities.unique()))
+        
+        
 
     for key, items in entity_dict.items():
         entity_dict[key] = list(set([tuple(item) for item in items]))
