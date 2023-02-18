@@ -30,10 +30,10 @@ from tqdm.auto import tqdm
 
 from utils import utils
 
-from .model import Model 
+from model import Model 
 
-from .make_dataset import tokenize
-from .make_dataset import sentence_split
+from make_dataset import tokenize
+from make_dataset import sentence_split
 
 import dataclasses
 
@@ -188,16 +188,16 @@ class EntityExtraction:
 
 def main():
 
-    config_dir = "/Users/kenyano/WORK/AIST/Immunology/configs"
+    config_dir = "configs"
     config_file = "immunology_segmentation_predict.yaml" 
     entityExtraction  = EntityExtraction(os.path.join(config_dir, config_file))
 
  
-    text_dir="/Users/kenyano/WORK/AIST/Immunology/data/Mesh/PubMed/Immunology/extract"
+    text_dir="data/Mesh/PubMed/Immunology/extract"
     files = sorted(glob(f"{text_dir}/*.txt"))
     
-    #files = ["/Users/kenyano/WORK/AIST/Immunology/data/Mesh/PubMed/Immunology/extract/10450520.txt"]
-    files = ["/Users/kenyano/WORK/AIST/Immunology/data/Mesh/PubMed/Immunology/extract/34247018.txt"]
+    files = ["data/Mesh/PubMed/Immunology/extract/10450520.txt"]
+    #files = ["data/Mesh/PubMed/Immunology/extract/34247018.txt"]
 
     for file in files:
         with open(file) as fp:
