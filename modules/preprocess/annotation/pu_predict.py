@@ -25,6 +25,7 @@ from datasets.features.features import ClassLabel
 from nltk.corpus import wordnet as wn
 from nltk.stem import PorterStemmer, WordNetLemmatizer, LancasterStemmer
 
+from entity_extract import ExtractEntityCandidate
 
 from tqdm.auto import tqdm
 
@@ -79,6 +80,9 @@ class Entity_extractor:
         self.pu_model = PU_Model(self.params, self.logger)
 
         self.pu_model.load_state_dict(torch.load(self.params['restore_model_path'], map_location=torch.device(self.device)))
+
+        self.entityExtraction  = ExtractEntityCandidate(self.aprams["segmentation_predict_config"])
+
 
     def data_collator(self, features):
 
@@ -199,30 +203,32 @@ class Entity_extractor:
 
     def _extract_entity_helper(self, sent, offset):
 
-       entities = []
-       start_tokens = []
-       end_tokens = []
-       start_chars= []
-       end_chars = []
+        entities = []
+        start_tokens = []
+        end_tokens = []
+        start_chars= []
+        end_chars = []
 
-       for ent in sent.ents:
+        candidates = self.entityExtraction.extract_candiate(sent, custom_model =True, scipy_model = False)
+        
+        for ent in candidates:
 
-           entities.append(ent.text)
-           start_tokens.append(int(ent.start))
-           end_tokens.append(int(ent.end))
-           start_chars.append(int(ent.start_char))
-           end_chars.append(int(ent.end_char))
+            entities.append(ent.text)
+            start_tokens.append(int(ent.start))
+            end_tokens.append(int(ent.end))
+            start_chars.append(int(ent.start_char))
+            end_chars.append(int(ent.end_char))
 
-       df = pd.DataFrame({'entities': entities,
-                                    'start_tokens': start_tokens,
-                                    'end_tokens': end_tokens,
-                                    'start_chars': start_chars,
-                                    'end_chars': end_chars,
-                                    'text': [sent.text] * len(entities),
-                                    'sentence_offset': offset})
+        df = pd.DataFrame({'entities': entities,
+                           'start_tokens': start_tokens,
+                           'end_tokens': end_tokens,
+                           'start_chars': start_chars,
+                           'end_chars': end_chars,
+                           'text': [sent] * len(entities),
+                           'sentence_offset': offset})
 
 
-       return df
+        return df
 
 
     def extract_entity(self, document_path):
@@ -234,7 +240,7 @@ class Entity_extractor:
             doc = self.nlp(text)   
             for k, sent in enumerate(doc.sents):
 
-                df = self._extract_entity_helper(self.nlp(sent.text), sent.start_char)
+                df = self._extract_entity_helper(sent.text, sent.start_char)
                 dfs.append(df)
 
         df_doc = pd.concat(dfs, ignore_index=True)
@@ -330,6 +336,7 @@ def main():
     utils.makedir(annotation_root_dir)
 
     entity_names = params['entity_names']
+
 
     files = sorted(glob(f"{document_root_dir}/*.txt"))
 

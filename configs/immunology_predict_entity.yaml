@@ -39,3 +39,4 @@ gpu: 0
 # restore model
 restore_model_path: experiments/immunology/models/model_best_final.pth
 
+segmentation_predict_config: configs/immunology_segmentation_predict.yaml
