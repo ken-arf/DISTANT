@@ -25,7 +25,7 @@ hidden_size: 100
 class_num: 2
 
 # gpu
-gpu: -1 
+gpu: 0 
 
 # training
 #train_epochs: 50

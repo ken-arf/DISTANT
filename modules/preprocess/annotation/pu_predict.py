@@ -81,7 +81,7 @@ class Entity_extractor:
 
         self.pu_model.load_state_dict(torch.load(self.params['restore_model_path'], map_location=torch.device(self.device)))
 
-        self.entityExtraction  = ExtractEntityCandidate(self.aprams["segmentation_predict_config"])
+        self.entityExtraction  = ExtractEntityCandidate(self.params["segmentation_predict_config"])
 
 
     def data_collator(self, features):

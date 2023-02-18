@@ -37,7 +37,7 @@ valid_batch_size: 32
 train_lr: 1e-4
 train_scheduler: linear
 train_num_warmup_steps: 100 
-max_patient_count: 3 
+max_patient_count: 5 
 
 # restore model
 restore_model: True
