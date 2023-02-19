@@ -32,7 +32,7 @@ import pdb
 pd.set_option('display.max_colwidth', None)
 
 
-def train(df_train_pos, df_train_neg, parameters, name_prefix):
+def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
 
     # logging
     logger = logging.getLogger("logger")
@@ -59,6 +59,7 @@ def train(df_train_pos, df_train_neg, parameters, name_prefix):
     pu_model = PU_Model(parameters, logger)
 
     if parameters['restore_model'] == True:
+        model_path = parameters['restore_model_path'].replace("%suffix%", model_name_suffix)
         pu_model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
 
     optimizer = AdamW(pu_model.parameters(), lr=float(parameters['train_lr']))
@@ -66,7 +67,6 @@ def train(df_train_pos, df_train_neg, parameters, name_prefix):
     pu_model, optimizer, train_dataloader, valid_dataloader, test_dataloader = accelerator.prepare(
         pu_model, optimizer, train_dataloader, valid_dataloader, test_dataloader
     )
-
 
     num_train_epochs = parameters['train_epochs']
     num_update_steps_per_epoch = len(train_dataloader)
@@ -144,15 +144,15 @@ def train(df_train_pos, df_train_neg, parameters, name_prefix):
         if not os.path.exists(OUTPUT_PATH):
             os.makedirs(OUTPUT_PATH)
 
-        torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_last_{name_prefix}.pth"))
+        torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_last_{model_name_suffix}.pth"))
 
         if best_update:
-            torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_best_{name_prefix}.pth"))
+            torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_best_{model_name_suffix}.pth"))
 
     print("best_acc: {:.2f}".format(best_acc))
 
     # load best model
-    best_model_path = os.path.join(OUTPUT_PATH, f"model_best_{name_prefix}.pth")
+    best_model_path = os.path.join(OUTPUT_PATH, f"model_best_{model_name_suffix}.pth")
     pu_model.load_state_dict(torch.load(best_model_path, map_location=torch.device(device)))
     #pu_model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
 
@@ -296,7 +296,7 @@ def extract_negative_samples(parameters):
 
         parameters["seed"] = step
         df_train_pos, df_train_neg = setup_pu_dataset(step, parameters)
-        neg_probs = train(df_train_pos, df_train_neg, parameters, name_prefix="pu")
+        neg_probs = train(df_train_pos, df_train_neg, parameters, model_name_suffix="pu")
 
         for k in range(pos_label_num):
             df_train_neg[f"prob_{k}"] = neg_probs[:, k]
@@ -310,13 +310,14 @@ def extract_negative_samples(parameters):
 
 def classify_unknown_samples(neg_index, parameters):
 
+    # add negative label class 
     parameters["class_num"] += 1
     df_train, df_test = setup_final_dataset(neg_index, parameters)
 
     print("classify_unknown_samples")
     print(parameters)
 
-    probs = train(df_train, df_test, parameters, name_prefix="final")
+    probs = train(df_train, df_test, parameters, model_name_suffix="final")
 
     for k in range(parameters["class_num"]):
         df_test[f"prob_{k}"] = probs[:, k]
