@@ -60,7 +60,7 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
 
     if parameters['restore_model'] == True:
         model_path = parameters['restore_model_path'].replace("%suffix%", model_name_suffix)
-        pu_model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
+        pu_model.load_state_dict(torch.load(model_path, map_location=torch.device(device)))
 
     optimizer = AdamW(pu_model.parameters(), lr=float(parameters['train_lr']))
     accelerator = Accelerator()
