@@ -129,10 +129,11 @@ def annotate(files, parameters):
             entity_dict[name] += items
         
         
+    # convert dictionay item to list to tuple
     for key, items in entity_dict.items():
         entity_dict[key] = list(set([tuple(item) for item in items]))
 
-
+    # sort dictionary items in ascending order
     for key in entity_dict.keys():
         entity_dict[key] = sorted(entity_dict[key], key =lambda x: len(x))
 
