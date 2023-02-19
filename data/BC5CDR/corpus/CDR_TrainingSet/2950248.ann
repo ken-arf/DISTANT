@@ -1,0 +1,10 @@
+T1	Chemical 0 12	Dipyridamole
+T2	Disease 21 40	myocardial ischemia
+T3	Disease 41 47	Angina
+T4	Chemical 128 140	dipyridamole
+T5	Chemical 304 316	dipyridamole
+T6	Chemical 335 347	dipyridamole
+T7	Disease 356 375	myocardial ischemia
+T8	Disease 434 457	coronary artery disease
+T9	Chemical 596 608	dipyridamole
+T10	Disease 617 625	ischemia

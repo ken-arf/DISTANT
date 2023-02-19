@@ -1,0 +1,29 @@
+T1	Chemical 0 14	Antidepressant
+T2	Disease 23 28	mania
+T3	Disease 32 39	bipolar
+T4	Disease 139 144	mania
+T5	Chemical 161 176	antidepressants
+T6	Disease 259 277	bipolar depression
+T7	Disease 343 359	bipolar disorder
+T8	Disease 542 547	manic
+T9	Disease 551 560	hypomanic
+T10	Disease 657 673	DSM-IV bipolar I
+T11	Disease 678 688	bipolar II
+T12	Disease 710 715	manic
+T13	Chemical 734 748	antidepressant
+T14	Chemical 793 807	antidepressant
+T15	Chemical 848 877	serotonin reuptake inhibitors
+T16	Chemical 879 884	SSRIs
+T17	Chemical 922 929	lithium
+T18	Disease 1130 1139	hypomania
+T19	Disease 1143 1148	mania
+T20	Chemical 1243 1248	SSRIs
+T21	Disease 1282 1287	manic
+T22	Disease 1326 1335	hypomanic
+T23	Disease 1367 1376	bipolar I
+T24	Disease 1381 1391	bipolar II
+T25	Chemical 1662 1669	lithium
+T26	Chemical 1716 1723	lithium
+T27	Disease 1769 1774	manic
+T28	Chemical 2059 2073	antidepressant
+T29	Chemical 2100 2107	lithium

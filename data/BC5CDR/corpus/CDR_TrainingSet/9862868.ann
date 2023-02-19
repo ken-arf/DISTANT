@@ -1,0 +1,10 @@
+T1	Disease 87 128	intrahepatic and extrahepatic cholestasis
+T2	Disease offset[0] offset[1];offset[0] offset[1]	intrahepatic cholestasis
+T3	Disease 104 128	extrahepatic cholestasis
+T4	Disease 320 331	cholestasis
+T5	Disease 677 701	intrahepatic cholestasis
+T6	Chemical 705 722	ethinyl estradiol
+T7	Chemical 724 726	EE
+T8	Disease 742 766	extrahepatic cholestasis
+T9	Chemical 1355 1357	EE
+T10	Chemical 1681 1683	EE

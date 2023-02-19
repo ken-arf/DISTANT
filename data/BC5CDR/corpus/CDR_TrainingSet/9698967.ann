@@ -1,0 +1,16 @@
+T1	Chemical 47 58	mepivacaine
+T2	Chemical 64 74	adrenaline
+T3	Disease 78 104	increase in blood pressure
+T4	Disease 121 140	atrial fibrillation
+T5	Disease 142 151	agitation
+T6	Disease 153 176	incomprehensible shouts
+T7	Disease 181 202	loss of consciousness
+T8	Chemical 342 353	mepivacaine
+T9	Chemical 372 382	adrenaline
+T10	Disease 411 434	Dupuytren's contracture
+T11	Chemical 472 481	labetalol
+T12	Chemical 483 493	metoprolol
+T13	Chemical 498 507	midazolam
+T14	Disease 654 673	atrial fibrillation
+T15	Chemical 871 882	mepivacaine
+T16	Chemical 888 898	adrenaline

@@ -1,0 +1,13 @@
+T1	Disease 0 26	Bilateral optic neuropathy
+T2	Chemical 43 53	ethambutol
+T3	Chemical 58 67	isoniazid
+T4	Chemical 194 204	ethambutol
+T5	Chemical 209 218	isoniazid
+T6	Disease 234 266	bilateral retrobulbar neuropathy
+T7	Disease 313 320	scotoma
+T8	Chemical 332 342	Ethambutol
+T9	Chemical 413 422	Isoniazid
+T10	Disease 531 539	toxicity
+T11	Chemical 547 557	ethambutol
+T12	Chemical 617 627	ethambutol
+T13	Chemical 632 641	isoniazid

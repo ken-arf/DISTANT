@@ -1,0 +1,36 @@
+T1	Chemical 64 80	ammonium acetate
+T2	Chemical 82 87	NH4Ac
+T3	Chemical 137 145	morphine
+T4	Disease 218 232	incoordination
+T5	Chemical 236 244	diazepam
+T6	Chemical 250 255	NH4Ac
+T7	Disease 293 307	hyperammonemia
+T8	Disease 445 458	liver disease
+T9	Chemical 493 506	acetylcholine
+T10	Chemical 515 528	catecholamine
+T11	Chemical 603 608	NH4Ac
+T12	Chemical 613 616	KCl
+T13	Chemical 685 690	NH4Ac
+T14	Chemical 711 718	calcium
+T15	Disease 732 742	depression
+T16	Chemical 764 771	calcium
+T17	Chemical 784 797	catecholamine
+T18	Chemical 809 821	acetaldehyde
+T19	Chemical 841 846	NH4Ac
+T20	Chemical 877 884	ammonia
+T21	Chemical 892 899	calcium
+T22	Chemical 938 943	NH4Ac
+T23	Chemical 952 959	calcium
+T24	Chemical 976 985	verapamil
+T25	Chemical 1013 1022	verapamil
+T26	Chemical 1043 1048	NH4Ac
+T27	Chemical 1071 1079	morphine
+T28	Disease 1080 1089	analgesia
+T29	Chemical 1095 1103	diazepam
+T30	Disease 1121 1135	incoordination
+T31	Chemical 1152 1163	amphetamine
+T32	Chemical 1200 1209	verapamil
+T33	Chemical 1214 1219	NH4Ac
+T34	Chemical 1254 1262	metrazol
+T35	Disease 1286 1300	hyperammonemia
+T36	Chemical 1310 1317	calcium

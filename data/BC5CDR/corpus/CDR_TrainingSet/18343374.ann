@@ -1,0 +1,20 @@
+T1	Disease 8 30	retinal vein occlusion
+T2	Chemical 47 57	clomiphene
+T3	Disease 115 137	retinal vein occlusion
+T4	Chemical 154 172	clomiphene citrate
+T5	Chemical 174 176	CC
+T6	Disease 304 315	infertility
+T7	Disease 327 341	blurred vision
+T8	Chemical 389 391	CC
+T9	Disease 434 456	retinal vein occlusion
+T10	Chemical 488 490	CC
+T11	Disease 549 571	retinal vein occlusion
+T12	Chemical 595 597	CC
+T13	Disease 633 647	thromboembolic
+T14	Chemical 665 667	CC
+T15	Disease 736 754	visual disturbance
+T16	Chemical 761 763	CC
+T17	Disease 846 868	retinal vein occlusion
+T18	Chemical 890 892	CC
+T19	Disease 933 944	infertility
+T20	Chemical 959 961	CC

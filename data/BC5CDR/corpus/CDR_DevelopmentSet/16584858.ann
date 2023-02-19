@@ -1,0 +1,37 @@
+T1	Chemical 8 18	mangiferin
+T2	Chemical 72 85	isoproterenol
+T3	Disease 94 115	myocardial infarction
+T4	Chemical 176 186	mangiferin
+T5	Chemical 190 200	polyphenol
+T6	Chemical 249 262	isoproterenol
+T7	Chemical 264 268	ISPH
+T8	Disease 278 299	myocardial infarction
+T9	Disease 301 303	MI
+T10	Chemical 376 380	ISPH
+T11	Disease 458 475	myocardial damage
+T12	Chemical 546 553	lactate
+T13	Chemical 578 586	creatine
+T14	Chemical 631 640	uric acid
+T15	Chemical 666 670	iron
+T16	Chemical 712 722	mangiferin
+T17	Chemical 739 769	triphenyl tetrazolium chloride
+T18	Chemical 771 774	TTC
+T19	Disease 830 849	ischemic myocardium
+T20	Chemical 896 906	superoxide
+T21	Chemical 928 939	glutathione
+T22	Chemical 952 963	glutathione
+T23	Chemical 980 991	glutathione
+T24	Chemical 1063 1072	Vitamin C
+T25	Chemical 1074 1083	Vitamin E
+T26	Chemical 1088 1099	glutathione
+T27	Disease 1123 1125	MI
+T28	Chemical 1155 1165	mangiferin
+T29	Chemical 1210 1229	dimethyl sulphoxide
+T30	Disease 1270 1272	MI
+T31	Chemical 1465 1475	mangiferin
+T32	Chemical 1506 1510	ISPH
+T33	Disease 1519 1521	MI
+T34	Chemical 1572 1582	mangiferin
+T35	Chemical 1618 1622	ISPH
+T36	Disease 1631 1633	MI
+T37	Disease 1719 1733	cardiac damage

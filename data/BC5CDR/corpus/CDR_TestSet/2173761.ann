@@ -1,0 +1,26 @@
+T1	Chemical 11 21	cromakalim
+T2	Chemical 26 35	pinacidil
+T3	Chemical 146 156	cromakalim
+T4	Chemical 182 191	pinacidil
+T5	Chemical 386 399	nitroglycerin
+T6	Chemical 425 438	Nitroglycerin
+T7	Chemical 620 630	cromakalim
+T8	Chemical 635 644	pinacidil
+T9	Chemical 662 675	nitroglycerin
+T10	Chemical 866 876	Cromakalim
+T11	Chemical 927 936	pinacidil
+T12	Disease 1010 1021	hypotension
+T13	Chemical 1033 1043	cromakalim
+T14	Chemical 1048 1057	pinacidil
+T15	Chemical 1094 1143	beta adrenergic and muscarinic receptors blockade
+T16	Chemical offset[0] offset[1];offset[0] offset[1]	beta adrenergic receptors blockade
+T17	Chemical 1114 1143	muscarinic receptors blockade
+T18	Disease 1161 1172	tachycardia
+T19	Chemical 1280 1290	cromakalim
+T20	Chemical 1311 1320	pinacidil
+T21	Chemical 1344 1357	nitroglycerin
+T22	Chemical 1454 1467	nitroglycerin
+T23	Chemical 1539 1549	cromakalim
+T24	Chemical 1554 1563	pinacidil
+T25	Chemical 1825 1835	cromakalim
+T26	Chemical 1841 1850	pinacidil

@@ -1,0 +1,13 @@
+T1	Disease 0 19	Atrial fibrillation
+T2	Disease 79 95	gastric lymphoma
+T3	Disease 114 132	myotonic dystrophy
+T4	Disease 134 152	Steinert's disease
+T5	Disease 222 238	gastric lymphoma
+T6	Disease 243 261	myotonic dystrophy
+T7	Disease 293 311	muscular dystrophy
+T8	Disease 324 343	atrial fibrillation
+T9	Chemical 367 378	doxorubicin
+T10	Disease 419 438	Atrial fibrillation
+T11	Disease 448 467	cardiac arrhythmias
+T12	Disease 537 553	cardiac toxicity
+T13	Disease 667 677	arrhythmia

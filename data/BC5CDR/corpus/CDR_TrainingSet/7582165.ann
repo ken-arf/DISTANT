@@ -1,0 +1,14 @@
+T1	Disease 7 25	allergic reactions
+T2	Chemical 29 44	corticosteroids
+T3	Chemical 110 123	paramethasone
+T4	Chemical 138 151	dexamethasone
+T5	Disease 243 252	urticaria
+T6	Disease 276 290	conjunctivitis
+T7	Chemical 576 591	corticosteroids
+T8	Chemical 671 684	paramethasone
+T9	Chemical 972 987	corticosteroids
+T10	Chemical 1054 1067	paramethasone
+T11	Chemical 1148 1161	paramethasone
+T12	Disease 1176 1192	hypersensitivity
+T13	Disease 1386 1393	allergy
+T14	Chemical 1404 1417	paramethasone

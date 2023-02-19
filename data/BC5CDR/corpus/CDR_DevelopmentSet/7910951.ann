@@ -1,0 +1,19 @@
+T1	Disease 10 19	paralysis
+T2	Chemical 27 72	nondepolarizing neuromuscular blocking agents
+T3	Chemical 77 92	corticosteroids
+T4	Chemical 114 159	nondepolarizing neuromuscular blocking agents
+T5	Chemical 161 168	ND-NMBA
+T6	Disease 223 238	muscle weakness
+T7	Disease 370 395	respiratory insufficiency
+T8	Disease 420 428	weakness
+T9	Chemical 462 470	ND-NMBAs
+T10	Chemical 511 526	corticosteroids
+T11	Disease 617 625	acidosis
+T12	Chemical 840 850	vecuronium
+T13	Disease 978 1009	loss of thick, myosin filaments
+T14	Disease 1015 1023	weakness
+T15	Disease 1052 1096	pathology at both the neuromuscular junction
+T16	Chemical 1117 1124	ND-NMBA
+T17	Chemical 1157 1172	corticosteroids
+T18	Disease 1175 1194	Hepatic dysfunction
+T19	Disease 1199 1207	acidosis

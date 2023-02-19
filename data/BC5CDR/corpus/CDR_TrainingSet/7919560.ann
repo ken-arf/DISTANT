@@ -1,0 +1,23 @@
+T1	Disease 0 19	Erythema multiforme
+T2	Disease 24 52	hypersensitivity myocarditis
+T3	Chemical 63 73	ampicillin
+T4	Disease 105 124	erythema multiforme
+T5	Disease 129 157	hypersensitivity myocarditis
+T6	Chemical 168 178	ampicillin
+T7	Chemical 229 239	ampicillin
+T8	Chemical 244 254	gentamicin
+T9	Disease 276 286	septicemia
+T10	Disease 323 342	erythema multiforme
+T11	Disease 347 371	congestive heart failure
+T12	Disease 382 393	myocarditis
+T13	Chemical 433 451	methylprednisolone
+T14	Chemical 524 534	ampicillin
+T15	Disease 572 582	infections
+T16	Disease 591 610	erythema multiforme
+T17	Disease 615 626	myocarditis
+T18	Disease 645 675	drug-induced allergic reaction
+T19	Chemical 713 723	ampicillin
+T20	Chemical 777 787	ampicillin
+T21	Disease 802 830	Hypersensitivity myocarditis
+T22	Disease 872 879	allergy
+T23	Chemical 883 894	penicillins

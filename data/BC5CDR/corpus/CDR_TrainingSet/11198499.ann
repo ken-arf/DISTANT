@@ -1,0 +1,18 @@
+T1	Disease 0 11	Hypotension
+T2	Chemical 40 50	tizanidine
+T3	Chemical 80 91	angiotensin
+T4	Disease 132 144	hypertension
+T5	Disease 255 265	spasticity
+T6	Disease 277 316	disorders of the central nervous system
+T7	Disease 350 360	spasticity
+T8	Chemical 456 467	angiotensin
+T9	Disease 538 549	hypotension
+T10	Chemical 670 680	lisinopril
+T11	Chemical 685 696	angiotensin
+T12	Disease 737 749	hypertension
+T13	Disease 764 775	hypotension
+T14	Chemical 802 812	tizanidine
+T15	Disease 855 865	spasticity
+T16	Chemical 895 905	tizanidine
+T17	Disease 1004 1016	hypertension
+T18	Disease 1020 1030	spasticity

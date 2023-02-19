@@ -1,0 +1,29 @@
+T1	Chemical 0 9	Valsartan
+T2	Chemical 17 31	angiotensin II
+T3	Disease 74 86	hypertension
+T4	Chemical 143 153	amlodipine
+T5	Chemical 215 229	angiotensin II
+T6	Chemical 242 251	valsartan
+T7	Chemical 279 289	amlodipine
+T8	Disease 364 376	hypertension
+T9	Chemical 459 468	valsartan
+T10	Chemical 477 487	amlodipine
+T11	Chemical 589 599	amlodipine
+T12	Chemical 894 903	valsartan
+T13	Chemical 908 918	amlodipine
+T14	Chemical 1190 1199	valsartan
+T15	Chemical 1292 1301	valsartan
+T16	Chemical 1316 1326	amlodipine
+T17	Disease 1416 1421	edema
+T18	Chemical 1449 1459	amlodipine
+T19	Chemical 1523 1532	valsartan
+T20	Chemical 1548 1558	amlodipine
+T21	Chemical 1567 1576	valsartan
+T22	Chemical 1587 1597	amlodipine
+T23	Chemical 1615 1625	amlodipine
+T24	Chemical 1660 1669	valsartan
+T25	Chemical 1698 1708	amlodipine
+T26	Disease 1746 1758	hypertension
+T27	Chemical 1782 1791	valsartan
+T28	Chemical 1910 1925	dihydropyridine
+T29	Chemical 1926 1933	calcium

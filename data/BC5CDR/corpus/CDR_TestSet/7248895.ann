@@ -1,0 +1,25 @@
+T1	Disease 9 38	carcinoma of the renal pelvis
+T2	Chemical 49 65	cyclophosphamide
+T3	Disease 130 151	hydroureteronephrosis
+T4	Disease 205 214	hematuria
+T5	Chemical 255 271	cyclophosphamide
+T6	Disease 276 295	cerebral vasculitis
+T7	Disease 352 360	bleeding
+T8	Disease 422 451	carcinoma of the renal pelvis
+T9	Chemical 477 493	cyclophosphamide
+T10	Disease 503 523	hemorrhagic cystitis
+T11	Disease 503 514	hemorrhagic
+T12	Disease 515 523	cystitis
+T13	Disease 592 601	carcinoma
+T14	Disease 679 709	carcinoma of the urinary tract
+T15	Disease 718 751	carcinomas of the urinary bladder
+T16	Disease 760 785	carcinoma of the prostate
+T17	Disease 864 893	carcinoma of the renal pelvis
+T18	Chemical 923 939	cyclophosphamide
+T19	Disease 967 987	urinary tract cancer
+T20	Chemical 1017 1033	cyclophosphamide
+T21	Disease 1093 1098	tumor
+T22	Disease 1116 1137	hydroureteronephrosis
+T23	Chemical 1231 1247	cyclophosphamide
+T24	Chemical 1291 1307	cyclophosphamide
+T25	Disease 1352 1372	obstructive uropathy

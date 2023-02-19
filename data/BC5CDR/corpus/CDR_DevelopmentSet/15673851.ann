@@ -1,0 +1,26 @@
+T1	Chemical 25 45	N-methyl-D-aspartate
+T2	Chemical 132 140	morphine
+T3	Disease 174 194	spinal cord ischemia
+T4	Chemical 295 315	N-methyl-d-aspartate
+T5	Chemical 317 321	NMDA
+T6	Chemical 349 357	morphine
+T7	Disease 395 411	aortic occlusion
+T8	Disease 421 441	Spinal cord ischemia
+T9	Disease 457 473	aortic occlusion
+T10	Chemical 582 590	morphine
+T11	Chemical 674 682	morphine
+T12	Chemical 961 967	MK-801
+T13	Chemical 1033 1041	morphine
+T14	Disease 1050 1069	spastic paraparesis
+T15	Chemical 1080 1088	morphine
+T16	Chemical 1120 1129	glutamate
+T17	Chemical 1257 1263	MK-801
+T18	Chemical 1337 1345	morphine
+T19	Disease 1354 1373	spastic paraparesis
+T20	Chemical 1434 1442	morphine
+T21	Disease 1451 1470	spastic paraparesis
+T22	Chemical 1506 1515	glutamate
+T23	Chemical 1538 1542	NMDA
+T24	Disease 1595 1605	neurotoxic
+T25	Disease 1624 1644	spinal cord ischemia
+T26	Chemical 1649 1653	NMDA

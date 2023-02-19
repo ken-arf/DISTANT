@@ -1,0 +1,17 @@
+T1	Disease 21 25	pain
+T2	Chemical 38 47	capsaicin
+T3	Disease 140 148	migraine
+T4	Disease 220 228	headache
+T5	Disease 251 259	headache
+T6	Disease 343 351	migraine
+T7	Disease 396 404	migraine
+T8	Disease 470 474	pain
+T9	Disease 566 574	migraine
+T10	Chemical 603 612	capsaicin
+T11	Disease 686 693	painful
+T12	Disease 979 987	migraine
+T13	Disease 1042 1046	pain
+T14	Disease 1069 1073	pain
+T15	Disease 1244 1248	pain
+T16	Disease 1292 1300	headache
+T17	Disease 1322 1338	cluster headache

@@ -1,0 +1,31 @@
+T1	Chemical 0 12	Coenzyme Q10
+T2	Chemical 41 50	cisplatin
+T3	Disease 51 65	nephrotoxicity
+T4	Chemical 105 117	coenzyme Q10
+T5	Disease 148 166	acute renal injury
+T6	Chemical 205 214	cisplatin
+T7	Chemical 226 238	Coenzyme Q10
+T8	Chemical 328 337	cisplatin
+T9	Chemical 354 366	Coenzyme Q10
+T10	Chemical 389 408	blood urea nitrogen
+T11	Chemical 419 429	creatinine
+T12	Chemical 461 470	cisplatin
+T13	Chemical 472 484	Coenzyme Q10
+T14	Chemical 559 578	reduced glutathione
+T15	Chemical 589 599	superoxide
+T16	Disease 680 685	tumor
+T17	Disease 686 694	necrosis
+T18	Chemical 709 721	nitric oxide
+T19	Chemical 726 734	platinum
+T20	Chemical 787 795	selenium
+T21	Chemical 800 804	zinc
+T22	Chemical 840 849	cisplatin
+T23	Disease 890 909	renal tissue damage
+T24	Chemical 922 931	cisplatin
+T25	Chemical 951 963	coenzyme Q10
+T26	Chemical 1018 1030	coenzyme Q10
+T27	Chemical 1059 1068	cisplatin
+T28	Chemical 1105 1117	nitric oxide
+T29	Chemical 1208 1220	coenzyme Q10
+T30	Chemical 1288 1297	cisplatin
+T31	Disease 1298 1312	nephrotoxicity

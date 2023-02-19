@@ -1,0 +1,22 @@
+T1	Disease 6 27	cholestatic hepatitis
+T2	Disease 6 17	cholestatic
+T3	Disease 18 27	hepatitis
+T4	Chemical 46 56	isoflurane
+T5	Disease 94 115	cholestatic hepatitis
+T6	Disease 94 105	cholestatic
+T7	Disease 106 115	hepatitis
+T8	Chemical 166 176	isoflurane
+T9	Disease 246 267	cholestatic hepatitis
+T10	Disease 246 257	cholestatic
+T11	Disease 258 267	hepatitis
+T12	Disease 413 422	hepatitis
+T13	Chemical 470 478	dipyrone
+T14	Disease 483 492	analgesia
+T15	Chemical 498 505	alanine
+T16	Chemical 586 595	bilirubin
+T17	Chemical 708 716	dipyrone
+T18	Disease 804 823	halothane hepatitis
+T19	Chemical 878 888	Isoflurane
+T20	Disease 934 955	cholestatic hepatitis
+T21	Disease 934 945	cholestatic
+T22	Disease 946 955	hepatitis

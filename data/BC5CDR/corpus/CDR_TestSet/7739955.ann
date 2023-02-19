@@ -1,0 +1,13 @@
+T1	Disease 216 235	circulatory failure
+T2	Disease 241 263	myocardial dysfunction
+T3	Disease 296 307	myocarditis
+T4	Chemical 319 332	carbamazepine
+T5	Disease 347 371	eosinophilic myocarditis
+T6	Disease 347 359	eosinophilic
+T7	Disease 360 371	myocarditis
+T8	Disease 426 443	cardiogenic shock
+T9	Disease 735 747	dysrhythmias
+T10	Disease 821 832	hypotension
+T11	Disease 837 849	dysrhythmias
+T12	Disease 1209 1223	cardiac arrest
+T13	Disease 1532 1554	myocardial dysfunction

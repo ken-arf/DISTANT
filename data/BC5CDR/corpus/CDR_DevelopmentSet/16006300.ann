@@ -1,0 +1,28 @@
+T1	Chemical 0 17	Calcium carbonate
+T2	Disease 18 26	toxicity
+T3	Disease 40 60	milk-alkali syndrome
+T4	Chemical 148 165	calcium carbonate
+T5	Disease 174 187	hypercalcemia
+T6	Disease 243 263	milk-alkali syndrome
+T7	Disease 357 370	hypercalcemia
+T8	Chemical 388 395	calcium
+T9	Disease 452 472	milk-alkali syndrome
+T10	Disease 502 527	acute renal insufficiency
+T11	Disease 538 557	metabolic alkalosis
+T12	Chemical 619 642	1,25-dihydroxyvitamin D
+T13	Chemical 752 762	furosemide
+T14	Chemical 801 808	calcium
+T15	Chemical 833 844	pamidronate
+T16	Disease 909 921	hypocalcemia
+T17	Chemical 989 996	calcium
+T18	Chemical 1046 1063	calcium carbonate
+T19	Disease 1186 1206	milk-alkali syndrome
+T20	Disease 1286 1306	Milk-alkali syndrome
+T21	Disease 1344 1357	hypercalcemia
+T22	Chemical 1418 1435	calcium carbonate
+T23	Chemical 1486 1496	furosemide
+T24	Chemical 1525 1532	calcium
+T25	Chemical 1537 1546	vitamin D
+T26	Chemical 1567 1578	Pamidronate
+T27	Disease 1630 1642	hypocalcemia
+T28	Disease 1678 1691	hypercalcemia

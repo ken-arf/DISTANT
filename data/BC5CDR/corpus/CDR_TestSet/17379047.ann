@@ -1,0 +1,36 @@
+T1	Chemical 14 23	valsartan
+T2	Chemical 24 43	hydrochlorothiazide
+T3	Disease 195 207	hypertensive
+T4	Disease 261 273	hypertension
+T5	Disease 391 403	hypertension
+T6	Disease 509 521	hypertensive
+T7	Chemical 601 610	valsartan
+T8	Chemical 612 615	VAL
+T9	Chemical 620 639	hydrochlorothiazide
+T10	Chemical 641 645	HCTZ
+T11	Disease 705 727	essential hypertension
+T12	Disease 877 899	essential hypertension
+T13	Chemical 1011 1014	VAL
+T14	Chemical 1030 1034	HCTZ
+T15	Chemical 1050 1053	VAL
+T16	Chemical 1054 1058	HCTZ
+T17	Chemical 1214 1217	VAL
+T18	Chemical 1218 1222	HCTZ
+T19	Chemical 2016 2019	VAL
+T20	Chemical 2024 2028	HCTZ
+T21	Chemical 2232 2235	VAL
+T22	Chemical 2236 2240	HCTZ
+T23	Chemical 2368 2371	VAL
+T24	Chemical 2372 2376	HCTZ
+T25	Chemical 2401 2404	VAL
+T26	Chemical 2405 2409	HCTZ
+T27	Disease 2608 2619	hypokalemia
+T28	Chemical 2635 2638	VAL
+T29	Chemical 2639 2643	HCTZ
+T30	Chemical 2679 2683	HCTZ
+T31	Chemical 2829 2832	VAL
+T32	Chemical 2833 2837	HCTZ
+T33	Chemical 2970 2973	VAL
+T34	Chemical 2974 2978	HCTZ
+T35	Disease 3121 3132	hypokalemia
+T36	Chemical 3138 3142	HCTZ

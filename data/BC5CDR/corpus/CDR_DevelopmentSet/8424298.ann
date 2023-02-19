@@ -1,0 +1,17 @@
+T1	Disease 22 33	hypotension
+T2	Chemical 45 54	labetalol
+T3	Chemical 60 70	isoflurane
+T4	Disease 127 138	hypotension
+T5	Disease 307 318	hypotension
+T6	Chemical 330 339	labetalol
+T7	Chemical 345 355	isoflurane
+T8	Disease 357 368	hypotensive
+T9	Disease 404 415	hypotension
+T10	Disease 514 525	hypotension
+T11	Disease 569 580	hypotension
+T12	Disease 588 599	hypotensive
+T13	Disease 899 906	anxiety
+T14	Disease 929 939	depression
+T15	Disease 1263 1274	hypotension
+T16	Chemical 1286 1295	labetalol
+T17	Chemical 1301 1311	isoflurane

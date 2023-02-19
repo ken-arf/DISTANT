@@ -1,0 +1,14 @@
+T1	Chemical 16 24	tyrosine
+T2	Chemical 52 55	PAN
+T3	Disease 56 65	nephrosis
+T4	Chemical 182 190	tyrosine
+T5	Disease 450 467	glomerular injury
+T6	Chemical 645 670	Puromycin aminonucleoside
+T7	Disease 671 680	nephrosis
+T8	Chemical 732 757	puromycin aminonucleoside
+T9	Chemical 759 762	PAN
+T10	Chemical 848 851	PAN
+T11	Disease 903 914	proteinuria
+T12	Disease 992 1003	proteinuria
+T13	Disease 1020 1038	glomerulosclerosis
+T14	Chemical 1789 1792	PAN

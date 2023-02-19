@@ -1,0 +1,11 @@
+T1	Chemical 42 50	d-ribose
+T2	Chemical 54 64	adriamycin
+T3	Disease 72 86	cardiotoxicity
+T4	Chemical 112 120	d-ribose
+T5	Chemical 124 134	adriamycin
+T6	Disease 143 157	myocardiopathy
+T7	Chemical 179 189	Adriamycin
+T8	Disease 248 264	cardiac toxicity
+T9	Chemical 266 274	D-ribose
+T10	Chemical 328 331	ADR
+T11	Disease 332 346	cardiotoxicity

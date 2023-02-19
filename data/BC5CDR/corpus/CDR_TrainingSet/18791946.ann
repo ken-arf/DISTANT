@@ -1,0 +1,19 @@
+T1	Disease 7 23	thrombocytopenia
+T2	Disease 28 46	haemolytic anaemia
+T3	Chemical 63 76	ciprofloxacin
+T4	Chemical 205 218	ciprofloxacin
+T5	Disease 262 276	abdominal pain
+T6	Disease 281 289	jaundice
+T7	Chemical 325 338	ciprofloxacin
+T8	Disease 356 379	urinary tract infection
+T9	Disease 443 459	thrombocytopenia
+T10	Disease 464 474	haemolysis
+T11	Disease 512 521	petechiae
+T12	Disease 526 533	purpura
+T13	Disease 757 769	haemorrhages
+T14	Disease 783 805	bone marrow depression
+T15	Disease 821 828	thrombi
+T16	Disease 841 858	microangiopathies
+T17	Chemical 982 995	ciprofloxacin
+T18	Disease 1029 1045	thrombocytopenia
+T19	Disease 1050 1068	haemolytic anaemia

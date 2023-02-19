@@ -1,0 +1,17 @@
+T1	Chemical 20 31	neurotensin
+T2	Chemical 35 46	haloperidol
+T3	Disease 55 77	parkinsonian catalepsy
+T4	Chemical 347 358	neurotensin
+T5	Chemical 469 480	neurotensin
+T6	Chemical 484 495	haloperidol
+T7	Disease 504 525	parkinsonian symptoms
+T8	Chemical 664 675	neurotensin
+T9	Chemical 710 721	haloperidol
+T10	Disease 730 752	parkinsonian catalepsy
+T11	Chemical 824 835	neurotensin
+T12	Chemical 903 914	haloperidol
+T13	Chemical 935 973	neurotensin type-1 receptor antagonist
+T14	Chemical 974 981	SR48692
+T15	Chemical 1058 1069	neurotensin
+T16	Chemical 1106 1117	neurotensin
+T17	Chemical 1147 1158	neurotensin

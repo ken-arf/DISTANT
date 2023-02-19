@@ -1,0 +1,28 @@
+T1	Disease 93 108	Graves' disease
+T2	Chemical 131 147	propylthiouracil
+T3	Disease 297 307	vasculitis
+T4	Disease 343 358	Graves' disease
+T5	Chemical 381 397	propylthiouracil
+T6	Chemical 399 402	PTU
+T7	Chemical 481 484	PTU
+T8	Chemical 531 534	PTU
+T9	Disease 657 667	vasculitis
+T10	Chemical 675 678	PTU
+T11	Disease 733 748	Graves' disease
+T12	Disease 825 840	Graves' disease
+T13	Disease 896 911	hyperthyroidism
+T14	Disease 919 934	Graves' disease
+T15	Disease 989 999	vasculitis
+T16	Chemical 1015 1018	PTU
+T17	Chemical 1098 1101	PTU
+T18	Disease 1510 1525	Graves' disease
+T19	Chemical 1701 1704	PTU
+T20	Chemical 1827 1830	PTU
+T21	Disease 1847 1867	vasculitic disorders
+T22	Disease 1969 1974	fever
+T23	Disease 1976 1987	oral ulcers
+T24	Disease 1992 2006	polyarthralgia
+T25	Chemical 2057 2060	PTU
+T26	Chemical 2148 2151	PTU
+T27	Chemical 2166 2169	PTU
+T28	Disease 2278 2288	vasculitis

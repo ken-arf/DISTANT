@@ -1,0 +1,29 @@
+T1	Chemical 0 8	Levodopa
+T2	Disease 17 28	dyskinesias
+T3	Chemical 45 55	fluoxetine
+T4	Disease 85 101	motor disability
+T5	Disease 106 117	dyskinesias
+T6	Chemical 127 135	levodopa
+T7	Disease 161 180	Parkinson's disease
+T8	Chemical 221 229	dopamine
+T9	Chemical 239 250	apomorphine
+T10	Chemical 291 301	fluoxetine
+T11	Chemical 349 359	fluoxetine
+T12	Chemical 425 436	apomorphine
+T13	Disease 445 456	dyskinesias
+T14	Disease 481 493	parkinsonian
+T15	Disease 494 510	motor disability
+T16	Disease 516 527	dyskinesias
+T17	Disease 612 632	dystonic dyskinesias
+T18	Disease 612 620	dystonic
+T19	Disease 621 632	dyskinesias
+T20	Disease 657 668	dyskinesias
+T21	Disease 700 728	choreic mid-dose dyskinesias
+T22	Disease 700 707	choreic
+T23	Disease 708 728	mid-dose dyskinesias
+T24	Chemical 804 814	fluoxetine
+T25	Chemical 826 834	levodopa
+T26	Chemical 839 847	dopamine
+T27	Disease 864 875	dyskinesias
+T28	Disease 896 908	parkinsonian
+T29	Disease 909 925	motor disability

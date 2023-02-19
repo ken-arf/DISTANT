@@ -1,0 +1,10 @@
+T1	Disease 0 11	Bradycardia
+T2	Chemical 40 58	methylprednisolone
+T3	Disease 98 118	rheumatoid arthritis
+T4	Chemical 154 172	methylprednisolone
+T5	Chemical 174 176	MP
+T6	Disease 320 331	bradycardia
+T7	Disease 479 496	sinus bradycardia
+T8	Chemical 639 641	MP
+T9	Chemical 668 670	MP
+T10	Disease 717 730	heart disease

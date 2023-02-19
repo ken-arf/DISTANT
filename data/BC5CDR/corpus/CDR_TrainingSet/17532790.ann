@@ -1,0 +1,17 @@
+T1	Chemical 60 66	L-DOPA
+T2	Disease 75 85	dyskinesia
+T3	Chemical 86 92	L-DOPA
+T4	Disease 101 111	dyskinesia
+T5	Disease 113 116	LID
+T6	Disease 165 184	Parkinson's disease
+T7	Disease 186 188	PD
+T8	Chemical 232 238	L-DOPA
+T9	Disease 313 316	LID
+T10	Chemical 540 557	6-hydroxydopamine
+T11	Disease 578 580	PD
+T12	Chemical 602 608	L-DOPA
+T13	Chemical 612 625	bromocriptine
+T14	Chemical 725 731	L-DOPA
+T15	Disease 797 800	LID
+T16	Disease 1123 1126	LID
+T17	Disease 1561 1564	LID

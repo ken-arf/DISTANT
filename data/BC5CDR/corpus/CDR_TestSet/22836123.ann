@@ -1,0 +1,17 @@
+T1	Disease 11 35	scleroderma renal crisis
+T2	Chemical 47 57	tacrolimus
+T3	Chemical 62 74	prednisolone
+T4	Disease 90 114	Scleroderma renal crisis
+T5	Disease 116 119	SRC
+T6	Disease 147 165	systemic sclerosis
+T7	Disease 167 170	SSc
+T8	Chemical 280 294	corticosteroid
+T9	Disease 340 343	SRC
+T10	Disease 385 411	thrombotic microangiopathy
+T11	Chemical 428 440	cyclosporine
+T12	Disease 458 461	SSc
+T13	Disease 505 508	SRC
+T14	Chemical 520 530	tacrolimus
+T15	Chemical 535 550	corticosteroids
+T16	Chemical 609 619	tacrolimus
+T17	Disease 641 644	SSc

@@ -1,0 +1,31 @@
+T1	Chemical 32 40	ketamine
+T2	Disease 44 50	cancer
+T3	Chemical 63 71	morphine
+T4	Disease 150 154	Pain
+T5	Chemical 173 181	morphine
+T6	Chemical 252 272	N-methyl-D-aspartate
+T7	Chemical 274 278	NMDA
+T8	Chemical 301 309	ketamine
+T9	Disease 371 375	pain
+T10	Disease 395 411	neuropathic pain
+T11	Chemical 450 458	ketamine
+T12	Disease 502 508	cancer
+T13	Disease 524 528	pain
+T14	Chemical 547 555	morphine
+T15	Disease 617 621	Pain
+T16	Disease 662 668	nausea
+T17	Disease 673 681	vomiting
+T18	Disease 695 704	confusion
+T19	Disease 710 719	dry mouth
+T20	Chemical 990 998	Ketamine
+T21	Disease 1051 1055	pain
+T22	Disease 1177 1191	Hallucinations
+T23	Chemical 1344 1352	diazepam
+T24	Chemical 1448 1456	ketamine
+T25	Chemical 1498 1506	ketamine
+T26	Chemical 1611 1619	ketamine
+T27	Chemical 1621 1629	Ketamine
+T28	Chemical 1642 1650	morphine
+T29	Disease 1674 1678	pain
+T30	Disease 1698 1714	neuropathic pain
+T31	Chemical 1891 1899	ketamine

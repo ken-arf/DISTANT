@@ -1,0 +1,24 @@
+T1	Disease 44 52	glaucoma
+T2	Disease 86 94	glaucoma
+T3	Disease 137 156	ocular hypertension
+T4	Disease 228 236	glaucoma
+T5	Disease 252 279	primary open-angle glaucoma
+T6	Disease 281 285	POAG
+T7	Disease 339 347	glaucoma
+T8	Disease 485 493	glaucoma
+T9	Disease 508 516	glaucoma
+T10	Chemical 603 616	dexamethasone
+T11	Disease 699 715	retinal ganglion
+T12	Disease 727 746	axonal degeneration
+T13	Disease 782 790	glaucoma
+T14	Chemical 823 836	dexamethasone
+T15	Disease 845 864	ocular hypertension
+T16	Chemical 971 984	dexamethasone
+T17	Chemical 1052 1065	Dexamethasone
+T18	Chemical 1239 1252	dexamethasone
+T19	Disease 1261 1280	ocular hypertension
+T20	Chemical 1333 1356	sodium 4-phenylbutyrate
+T21	Chemical 1367 1380	dexamethasone
+T22	Disease 1389 1408	ocular hypertension
+T23	Disease 1492 1511	ocular hypertension
+T24	Disease 1624 1632	glaucoma

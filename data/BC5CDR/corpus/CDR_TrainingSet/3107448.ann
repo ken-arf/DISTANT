@@ -1,0 +1,15 @@
+T1	Chemical 0 9	Glyburide
+T2	Disease 18 27	hepatitis
+T3	Disease 41 55	hepatotoxicity
+T4	Chemical 115 128	sulfonylureas
+T5	Chemical 134 143	glyburide
+T6	Chemical 165 177	sulfonylurea
+T7	Disease 205 219	hepatotoxicity
+T8	Disease 245 270	type II diabetes mellitus
+T9	Disease 284 313	acute hepatitis-like syndrome
+T10	Chemical 339 348	glyburide
+T11	Disease 393 408	viral infection
+T12	Disease 480 502	drug-induced hepatitis
+T13	Chemical 551 560	glyburide
+T14	Chemical 626 635	Glyburide
+T15	Disease 651 679	acute hepatitis-like illness

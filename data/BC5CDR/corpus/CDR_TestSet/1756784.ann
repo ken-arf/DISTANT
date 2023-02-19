@@ -1,0 +1,20 @@
+T1	Disease 0 42	Damage of substantia nigra pars reticulata
+T2	Chemical 50 61	pilocarpine
+T3	Disease 70 88	status epilepticus
+T4	Disease 251 268	epileptic seizure
+T5	Disease 306 334	prolonged status epilepticus
+T6	Disease 442 463	metabolic derangement
+T7	Disease 532 550	status epilepticus
+T8	Chemical 588 599	pilocarpine
+T9	Disease 859 877	status epilepticus
+T10	Chemical 1020 1027	calcium
+T11	Disease 1075 1090	neuronal damage
+T12	Chemical 1225 1232	calcium
+T13	Disease 1457 1472	vasogenic edema
+T14	Disease 1582 1590	seizures
+T15	Disease 1818 1833	neuronal damage
+T16	Disease 2004 2019	vasogenic edema
+T17	Disease 2032 2044	lesioned SNR
+T18	Disease 2374 2387	damage of SNR
+T19	Disease 2732 2760	neurotransmitter dysfunction
+T20	Disease 2785 2803	status epilepticus

@@ -1,0 +1,22 @@
+T1	Chemical 0 11	Doxorubicin
+T2	Disease 12 26	cardiomyopathy
+T3	Disease 35 47	inflammation
+T4	Chemical 139 152	anthracycline
+T5	Chemical 153 164	doxorubicin
+T6	Chemical 166 169	DOX
+T7	Disease 189 200	cardiotoxic
+T8	Chemical 350 353	DOX
+T9	Disease 354 368	cardiomyopathy
+T10	Disease 435 447	inflammation
+T11	Chemical 481 484	DOX
+T12	Disease 493 507	cardiomyopathy
+T13	Chemical 509 512	DOX
+T14	Disease 533 552	cardiac dysfunction
+T15	Disease 724 741	cardiac apoptosis
+T16	Chemical 855 858	DOX
+T17	Disease 874 893	cardiac dysfunction
+T18	Chemical 919 922	DOX
+T19	Chemical 1102 1105	DOX
+T20	Disease 1106 1120	cardiomyopathy
+T21	Chemical 1296 1299	DOX
+T22	Disease 1300 1314	cardiomyopathy

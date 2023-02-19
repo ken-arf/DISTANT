@@ -1,0 +1,13 @@
+T1	Disease 131 152	REM sleep deprivation
+T2	Disease 154 158	REMD
+T3	Chemical 163 174	apomorphine
+T4	Disease 183 197	aggressiveness
+T5	Chemical 202 211	quipazine
+T6	Disease 220 233	head twitches
+T7	Disease 277 281	REMD
+T8	Chemical 292 303	apomorphine
+T9	Disease 312 326	aggressiveness
+T10	Disease 373 377	REMD
+T11	Disease 419 423	REMD
+T12	Chemical 425 434	quipazine
+T13	Disease 443 456	head twitches

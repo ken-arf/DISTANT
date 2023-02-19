@@ -1,0 +1,16 @@
+T1	Disease 0 24	Renal papillary necrosis
+T2	Chemical 32 40	naproxen
+T3	Disease 64 84	rheumatoid arthritis
+T4	Chemical 123 131	sulindac
+T5	Chemical 133 151	fenoprofen calcium
+T6	Chemical 163 174	salicylates
+T7	Chemical 179 183	gold
+T8	Disease 201 225	renal papillary necrosis
+T9	Disease 227 230	RPN
+T10	Chemical 262 270	naproxen
+T11	Disease 312 315	RPN
+T12	Chemical 337 345	Sulindac
+T13	Chemical 366 374	naproxen
+T14	Disease 481 484	RPN
+T15	Chemical 549 557	sulindac
+T16	Disease 591 605	renal toxicity

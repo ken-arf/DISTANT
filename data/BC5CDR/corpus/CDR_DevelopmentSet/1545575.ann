@@ -1,0 +1,22 @@
+T1	Disease 0 20	Hemorrhagic cystitis
+T2	Disease 0 11	Hemorrhagic
+T3	Disease 12 20	cystitis
+T4	Disease 62 82	Hemorrhagic cystitis
+T5	Disease 62 73	Hemorrhagic
+T6	Disease 74 82	cystitis
+T7	Chemical 134 150	cyclophosphamide
+T8	Chemical 509 514	mesna
+T9	Chemical 560 576	cyclophosphamide
+T10	Disease 589 609	hemorrhagic cystitis
+T11	Disease 589 600	hemorrhagic
+T12	Disease 601 609	cystitis
+T13	Disease 679 699	hemorrhagic cystitis
+T14	Disease 679 690	hemorrhagic
+T15	Disease 691 699	cystitis
+T16	Chemical 760 765	mesna
+T17	Disease 838 858	hemorrhagic cystitis
+T18	Disease 838 849	hemorrhagic
+T19	Disease 850 858	cystitis
+T20	Disease 1002 1022	hemorrhagic cystitis
+T21	Disease 1002 1013	hemorrhagic
+T22	Disease 1014 1022	cystitis

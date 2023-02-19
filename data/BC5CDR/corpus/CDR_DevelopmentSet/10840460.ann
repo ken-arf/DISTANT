@@ -1,0 +1,33 @@
+T1	Chemical 0 16	Cyclophosphamide
+T2	Disease 25 33	cystitis
+T3	Disease 105 118	visceral pain
+T4	Disease 150 163	visceral pain
+T5	Chemical 201 217	Cyclophosphamide
+T6	Chemical 219 221	CP
+T7	Chemical 330 338	acrolein
+T8	Disease 359 367	cystitis
+T9	Chemical 392 394	CP
+T10	Chemical 522 530	morphine
+T11	Chemical 558 560	CP
+T12	Chemical 635 643	naloxone
+T13	Chemical 692 694	CP
+T14	Chemical 748 756	morphine
+T15	Chemical 880 882	CP
+T16	Chemical 943 945	CP
+T17	Chemical 1020 1028	acrolein
+T18	Chemical 1106 1108	CP
+T19	Chemical 1260 1268	Morphine
+T20	Disease 1301 1321	behavioral disorders
+T21	Chemical 1415 1417	CP
+T22	Chemical 1488 1496	naloxone
+T23	Chemical 1531 1539	morphine
+T24	Disease 1624 1629	edema
+T25	Chemical 1662 1664	CP
+T26	Chemical 1815 1817	CP
+T27	Chemical 1866 1874	acrolein
+T28	Chemical 1959 1961	CP
+T29	Chemical 2022 2030	acrolein
+T30	Chemical 2170 2172	CP
+T31	Disease 2181 2189	cystitis
+T32	Disease 2249 2262	visceral pain
+T33	Disease 2305 2322	painful syndromes

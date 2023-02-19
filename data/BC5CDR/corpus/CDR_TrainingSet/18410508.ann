@@ -1,0 +1,26 @@
+T1	Chemical 0 15	Methamphetamine
+T2	Disease 24 37	neurotoxicity
+T3	Chemical 115 130	Methamphetamine
+T4	Chemical 132 136	METH
+T5	Chemical 146 154	dopamine
+T6	Chemical 156 158	DA
+T7	Chemical 465 469	MPTP
+T8	Disease 478 495	neurodegeneration
+T9	Chemical 499 501	DA
+T10	Disease 523 533	CNS damage
+T11	Chemical 544 548	METH
+T12	Chemical 553 557	MPTP
+T13	Chemical 586 588	DA
+T14	Disease 624 637	neurotoxicity
+T15	Chemical 687 691	METH
+T16	Disease 700 713	neurotoxicity
+T17	Chemical 882 886	METH
+T18	Disease 913 926	neurotoxicity
+T19	Chemical 928 932	METH
+T20	Chemical 942 944	DA
+T21	Chemical 1123 1127	METH
+T22	Chemical 1301 1305	METH
+T23	Chemical 1497 1501	METH
+T24	Chemical 1574 1578	METH
+T25	Disease 1579 1592	neurotoxicity
+T26	Chemical 1687 1691	METH

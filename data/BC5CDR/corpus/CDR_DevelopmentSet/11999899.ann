@@ -1,0 +1,45 @@
+T1	Chemical 22 28	MK-801
+T2	Chemical 32 41	reserpine
+T3	Chemical 70 81	dizocilpine
+T4	Chemical 83 89	MK-801
+T5	Chemical 109 129	N-methyl-D-aspartate
+T6	Chemical 131 135	NMDA
+T7	Chemical 174 182	dopamine
+T8	Chemical 212 221	reserpine
+T9	Disease 305 324	Parkinson's disease
+T10	Disease 329 347	tardive dyskinesia
+T11	Chemical 396 405	Reserpine
+T12	Disease 485 505	orofacial dyskinesia
+T13	Disease 584 602	tardive dyskinesia
+T14	Chemical 604 613	Reserpine
+T15	Disease 628 634	tremor
+T16	Disease 639 648	catalepsy
+T17	Disease 680 699	Parkinson's disease
+T18	Chemical 701 707	MK-801
+T19	Disease 834 843	catalepsy
+T20	Chemical 855 864	reserpine
+T21	Chemical 875 881	MK-801
+T22	Disease 927 933	tremor
+T23	Chemical 937 946	reserpine
+T24	Chemical 961 970	Reserpine
+T25	Chemical 1034 1044	apomophine
+T26	Disease 1106 1121	oral dyskinesia
+T27	Chemical 1150 1159	reserpine
+T28	Disease 1181 1187	tremor
+T29	Disease 1192 1201	catalepsy
+T30	Chemical 1228 1234	MK-801
+T31	Disease 1277 1286	catalepsy
+T32	Disease 1291 1297	tremor
+T33	Chemical 1309 1318	reserpine
+T34	Chemical 1338 1347	reserpine
+T35	Disease 1486 1492	tremor
+T36	Disease 1497 1506	catalepsy
+T37	Chemical 1516 1522	MK-801
+T38	Chemical 1592 1601	reserpine
+T39	Chemical 1627 1636	reserpine
+T40	Disease 1660 1678	abnormal movements
+T41	Disease 1753 1765	parkinsonian
+T42	Disease 1775 1793	tardive dsykinesia
+T43	Chemical 1840 1844	NMDA
+T44	Disease 1925 1934	catalepsy
+T45	Disease 1939 1945	tremor

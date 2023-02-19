@@ -1,0 +1,29 @@
+T1	Chemical 13 23	ifosfamide
+T2	Disease 32 51	urothelial toxicity
+T3	Chemical 78 112	sodium 2-mercaptoethane sulphonate
+T4	Chemical 114 119	MESNA
+T5	Disease 149 160	lung cancer
+T6	Chemical 213 218	thiol
+T7	Chemical 228 262	sodium 2-mercaptoethane sulphonate
+T8	Chemical 264 269	MESNA
+T9	Disease 279 298	urothelial toxicity
+T10	Chemical 310 320	ifosfamide
+T11	Chemical 322 324	IF
+T12	Disease 379 390	lung cancer
+T13	Chemical 412 414	IF
+T14	Chemical 506 511	MESNA
+T15	Chemical 559 561	IF
+T16	Chemical 629 631	IF
+T17	Disease 752 762	haematuria
+T18	Disease 788 798	haematuria
+T19	Chemical 851 856	MESNA
+T20	Chemical 987 989	IF
+T21	Disease 1205 1215	haematuria
+T22	Disease 1235 1253	bladder irritation
+T23	Disease 1255 1263	cystitis
+T24	Disease 1268 1280	pollakisuria
+T25	Chemical 1333 1338	MESNA
+T26	Disease 1436 1444	toxicity
+T27	Chemical 1508 1513	MESNA
+T28	Chemical 1591 1593	IF
+T29	Chemical 1701 1706	MESNA

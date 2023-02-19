@@ -1,0 +1,9 @@
+T1	Disease 0 17	Myasthenia gravis
+T2	Chemical 28 41	penicillamine
+T3	Chemical 46 57	chloroquine
+T4	Disease 70 90	rheumatoid arthritis
+T5	Disease 162 179	myasthenia gravis
+T6	Chemical 186 199	penicillamine
+T7	Chemical 204 215	chloroquine
+T8	Disease 228 248	rheumatoid arthritis
+T9	Chemical 259 272	acetylcholine

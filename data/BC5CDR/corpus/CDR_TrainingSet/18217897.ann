@@ -1,0 +1,21 @@
+T1	Chemical 0 11	Thalidomide
+T2	Disease 81 102	non-Hodgkin lymphomas
+T3	Disease 128 134	Cancer
+T4	Disease 139 147	Leukemia
+T5	Chemical 156 167	Thalidomide
+T6	Disease 227 243	multiple myeloma
+T7	Disease 245 265	mantle cell lymphoma
+T8	Disease 270 296	lymphoplasmacytic lymphoma
+T9	Disease 351 357	tumour
+T10	Disease 515 524	lymphomas
+T11	Chemical 534 545	thalidomide
+T12	Disease 970 986	myelosuppression
+T13	Disease 988 995	fatigue
+T14	Disease 997 1007	somnolence
+T15	Disease 1008 1022	depressed mood
+T16	Disease 1024 1034	neuropathy
+T17	Disease 1039 1046	dyspnea
+T18	Disease 1086 1100	thromboembolic
+T19	Chemical 1186 1197	thalidomide
+T20	Disease 1210 1219	lymphomas
+T21	Chemical 1324 1336	lenalidomide

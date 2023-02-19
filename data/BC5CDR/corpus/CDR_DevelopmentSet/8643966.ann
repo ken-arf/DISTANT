@@ -1,0 +1,31 @@
+T1	Disease 36 62	non-small cell lung cancer
+T2	Chemical 68 78	paclitaxel
+T3	Chemical 97 107	Paclitaxel
+T4	Chemical 109 114	Taxol
+T5	Disease 232 237	tumor
+T6	Disease 253 281	ovarian and breast carcinoma
+T7	Disease offset[0] offset[1];offset[0] offset[1]	ovarian carcinoma
+T8	Disease 265 281	breast carcinoma
+T9	Chemical 314 324	paclitaxel
+T10	Disease 388 414	non-small cell lung cancer
+T11	Disease 416 421	NSCLC
+T12	Disease 463 473	Leukopenia
+T13	Disease 542 552	leukopenia
+T14	Disease 587 595	toxicity
+T15	Chemical 608 618	paclitaxel
+T16	Disease 693 698	NSCLC
+T17	Disease 873 878	NSCLC
+T18	Chemical 880 890	Paclitaxel
+T19	Disease 1127 1137	toxicities
+T20	Disease 1194 1205	neutropenia
+T21	Disease 1248 1262	polyneuropathy
+T22	Disease 1327 1341	polyneuropathy
+T23	Disease 1367 1374	myalgia
+T24	Disease 1375 1385	arthralgia
+T25	Disease 1462 1468	Nausea
+T26	Disease 1473 1481	vomiting
+T27	Chemical 1585 1595	Paclitaxel
+T28	Disease 1802 1810	toxicity
+T29	Chemical 1842 1852	paclitaxel
+T30	Disease 1894 1899	NSCLC
+T31	Chemical 1947 1957	paclitaxel

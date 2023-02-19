@@ -1,0 +1,17 @@
+T1	Disease 0 14	Encephalopathy
+T2	Chemical 22 35	amitriptyline
+T3	Disease 49 79	neuroleptic malignant syndrome
+T4	Disease 84 102	serotonin syndrome
+T5	Disease 154 168	encephalopathy
+T6	Chemical 196 209	amitriptyline
+T7	Disease 241 260	unipolar depression
+T8	Disease 318 348	neuroleptic malignant syndrome
+T9	Disease 350 353	NMS
+T10	Disease 358 376	serotonin syndrome
+T11	Disease 378 380	SS
+T12	Chemical 435 443	dopamine
+T13	Chemical 444 453	serotonin
+T14	Disease 499 502	NMS
+T15	Disease 508 522	encephalopathy
+T16	Disease 599 602	NMS
+T17	Disease 607 609	SS

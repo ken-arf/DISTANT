@@ -1,0 +1,15 @@
+T1	Disease 40 53	Reye syndrome
+T2	Disease 264 277	Reye syndrome
+T3	Chemical 279 286	Aspirin
+T4	Chemical 290 300	salicylate
+T5	Chemical 362 373	paracetamol
+T6	Chemical 375 388	acetaminophen
+T7	Disease 488 501	Reye syndrome
+T8	Disease 557 570	Reye syndrome
+T9	Disease 846 859	Reye syndrome
+T10	Chemical 988 995	aspirin
+T11	Chemical 1089 1100	paracetamol
+T12	Chemical 1102 1115	acetaminophen
+T13	Disease 1176 1189	Reye syndrome
+T14	Chemical 1266 1277	salicylates
+T15	Chemical 1281 1288	aspirin

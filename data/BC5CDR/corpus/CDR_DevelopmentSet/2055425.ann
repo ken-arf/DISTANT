@@ -1,0 +1,14 @@
+T1	Chemical 105 119	streptozotocin
+T2	Disease 128 145	diabetes mellitus
+T3	Chemical 234 248	streptozotocin
+T4	Disease 249 257	diabetic
+T5	Disease 285 293	Diabetes
+T6	Disease 618 626	diabetic
+T7	Chemical 654 657	ATP
+T8	Chemical 663 674	bethanechol
+T9	Disease 679 687	Diabetes
+T10	Disease 1047 1055	diabetic
+T11	Chemical 1083 1086	ATP
+T12	Chemical 1092 1103	bethanechol
+T13	Chemical 1146 1160	streptozotocin
+T14	Disease 1169 1177	diabetes

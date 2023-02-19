@@ -1,0 +1,15 @@
+T1	Disease 0 11	Hypotension
+T2	Disease 34 48	cardiotoxicity
+T3	Chemical 77 86	cisplatin
+T4	Chemical 91 105	5-fluorouracil
+T5	Disease 134 145	hypotension
+T6	Disease 189 209	colorectal carcinoma
+T7	Chemical 235 244	cisplatin
+T8	Chemical 246 250	CDDP
+T9	Chemical 256 270	5-fluorouracil
+T10	Chemical 272 276	5-FU
+T11	Disease 296 307	hypotension
+T12	Disease 335 363	left ventricular dysfunction
+T13	Chemical 644 648	5-FU
+T14	Disease 649 663	cardiotoxicity
+T15	Chemical 690 694	CDDP

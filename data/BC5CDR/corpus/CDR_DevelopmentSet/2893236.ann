@@ -1,0 +1,28 @@
+T1	Chemical 0 4	GABA
+T2	Chemical 20 28	naloxone
+T3	Disease 49 70	respiratory paralysis
+T4	Chemical 83 93	thiopental
+T5	Disease 131 152	respiratory paralysis
+T6	Chemical 225 233	naloxone
+T7	Disease 243 264	respiratory paralysis
+T8	Chemical 276 286	thiopental
+T9	Chemical 311 321	thiopental
+T10	Chemical 387 391	GABA
+T11	Chemical 403 412	glutamate
+T12	Chemical 435 444	aspartate
+T13	Chemical 448 455	glycine
+T14	Chemical 540 557	thiosemicarbazide
+T15	Chemical 653 663	thiopental
+T16	Chemical 680 690	thiopental
+T17	Disease 700 718	respiratory arrest
+T18	Chemical 744 748	GABA
+T19	Chemical 765 774	glutamate
+T20	Chemical 835 846	amino acids
+T21	Chemical 885 893	Naloxone
+T22	Disease 921 942	respiratory paralysis
+T23	Chemical 944 953	glutamate
+T24	Chemical 958 962	GABA
+T25	Chemical 1074 1082	naloxone
+T26	Disease 1092 1113	respiratory paralysis
+T27	Chemical 1126 1136	thiopental
+T28	Chemical 1150 1154	GABA

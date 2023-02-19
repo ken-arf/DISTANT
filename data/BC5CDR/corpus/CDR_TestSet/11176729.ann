@@ -1,0 +1,23 @@
+T1	Chemical 28 68	angiotensin-converting enzyme inhibitors
+T2	Disease 94 107	heart failure
+T3	Chemical 172 182	Lisinopril
+T4	Chemical 223 269	angiotensin-converting enzyme (ACE) inhibitors
+T5	Disease 327 340	heart failure
+T6	Disease 342 345	CHF
+T7	Chemical 695 705	lisinopril
+T8	Disease 709 712	CHF
+T9	Chemical 741 751	Lisinopril
+T10	Chemical 864 877	ACE inhibitor
+T11	Chemical 926 936	lisinopril
+T12	Disease 1135 1138	CHF
+T13	Disease 1404 1415	hypotension
+T14	Disease 1420 1437	renal dysfunction
+T15	Chemical 1492 1505	ACE inhibitor
+T16	Disease 1635 1646	hypotension
+T17	Disease 1668 1685	renal dysfunction
+T18	Disease 1689 1701	hyperkalemia
+T19	Chemical 2045 2058	ACE inhibitor
+T20	Chemical 2100 2110	creatinine
+T21	Disease 2193 2201	diabetes
+T22	Chemical 2292 2305	ACE inhibitor
+T23	Disease 2336 2339	CHF

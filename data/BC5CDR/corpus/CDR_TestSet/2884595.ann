@@ -1,0 +1,10 @@
+T1	Chemical 20 37	pertussis vaccine
+T2	Chemical 52 61	histamine
+T3	Disease 104 113	pertussis
+T4	Disease 247 256	pertussis
+T5	Chemical 303 317	cyproheptadine
+T6	Chemical 324 333	mianserin
+T7	Chemical 343 359	chlorpheniramine
+T8	Chemical 456 465	histamine
+T9	Disease 503 512	pertussis
+T10	Disease 534 548	encephalopathy

@@ -1,0 +1,27 @@
+T1	Chemical 20 35	benzodiazepines
+T2	Chemical 40 48	baclofen
+T3	Chemical 55 63	muscimol
+T4	Disease 72 87	myoclonic jerks
+T5	Chemical 128 136	muscimol
+T6	Disease 146 161	myoclonic jerks
+T7	Chemical 332 341	serotonin
+T8	Chemical 374 393	5-hydroxytryptophan
+T9	Chemical 499 507	muscimol
+T10	Chemical 549 555	l-dopa
+T11	Chemical 619 628	serotonin
+T12	Chemical 646 652	MK-212
+T13	Chemical 705 713	muscimol
+T14	Chemical 722 737	benzodiazepines
+T15	Chemical 739 749	clonazepam
+T16	Chemical 812 820	diazepam
+T17	Disease 851 866	myoclonic jerks
+T18	Chemical 878 886	baclofen
+T19	Chemical 939 947	muscimol
+T20	Chemical 1025 1030	5-HTP
+T21	Chemical 1039 1054	benzodiazepines
+T22	Disease 1118 1127	myoclonus
+T23	Chemical 1133 1141	muscimol
+T24	Disease 1150 1159	myoclonus
+T25	Chemical 1335 1341	MK-212
+T26	Chemical 1350 1358	baclofen
+T27	Disease 1389 1398	myoclonus

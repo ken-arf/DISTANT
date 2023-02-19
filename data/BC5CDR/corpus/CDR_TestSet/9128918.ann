@@ -1,0 +1,27 @@
+T1	Disease 8 26	hyperprolactinemia
+T2	Chemical 42 50	dopamine
+T3	Disease 386 404	hyperprolactinemia
+T4	Disease 504 522	Hyperprolactinemia
+T5	Chemical 553 564	haloperidol
+T6	Chemical 568 576	dopamine
+T7	Disease 799 817	hyperprolactinemia
+T8	Chemical 819 827	dopamine
+T9	Chemical 829 831	DA
+T10	Disease 932 950	hyperprolactinemia
+T11	Chemical 978 980	DA
+T12	Chemical 1039 1041	DA
+T13	Chemical 1078 1089	haloperidol
+T14	Disease 1098 1116	hyperprolactinemia
+T15	Chemical 1297 1299	DA
+T16	Chemical 1301 1315	norepinephrine
+T17	Chemical 1317 1319	NE
+T18	Chemical 1322 1331	serotonin
+T19	Chemical 1333 1337	5-HT
+T20	Chemical 1511 1537	5-hydroxyindoleacetic acid
+T21	Chemical 1539 1545	5-HIAA
+T22	Disease 1575 1593	hyperprolactinemia
+T23	Chemical 1613 1615	DA
+T24	Disease 1659 1677	hyperprolactinemia
+T25	Disease 1710 1728	hyperprolactinemia
+T26	Disease 1830 1848	hyperprolactinemia
+T27	Chemical 1891 1899	dopamine

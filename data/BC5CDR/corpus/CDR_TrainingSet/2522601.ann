@@ -1,0 +1,14 @@
+T1	Disease 0 16	Hypersensitivity
+T2	Chemical 20 33	carbamazepine
+T3	Disease 52 70	leukemoid reaction
+T4	Disease 72 84	eosinophilia
+T5	Disease 86 98	erythroderma
+T6	Disease 104 117	renal failure
+T7	Disease 146 162	hypersensitivity
+T8	Chemical 166 179	carbamazepine
+T9	Disease 207 219	erythroderma
+T10	Disease 230 248	leukemoid reaction
+T11	Disease 250 262	eosinophilia
+T12	Disease 264 276	hyponatremia
+T13	Disease 282 295	renal failure
+T14	Chemical 353 366	carbamazepine

@@ -1,0 +1,24 @@
+T1	Disease 326 360	aneurysmal subarachnoid hemorrhage
+T2	Disease 362 365	SAH
+T3	Chemical 401 411	ketoprofen
+T4	Chemical 440 450	ketoprofen
+T5	Chemical 482 495	acetaminophen
+T6	Chemical 521 534	acetaminophen
+T7	Disease 593 603	aneurysmal
+T8	Disease 604 607	SAH
+T9	Disease 794 814	platelet aggregation
+T10	Chemical 838 859	adenosine diphosphate
+T11	Chemical 894 904	ketoprofen
+T12	Chemical 945 955	ketoprofen
+T13	Chemical 974 987	acetaminophen
+T14	Disease 1071 1091	platelet aggregation
+T15	Chemical 1109 1122	acetaminophen
+T16	Disease 1194 1214	platelet aggregation
+T17	Chemical 1253 1263	ketoprofen
+T18	Disease 1309 1317	hematoma
+T19	Chemical 1497 1507	Ketoprofen
+T20	Chemical 1516 1529	acetaminophen
+T21	Disease 1574 1577	SAH
+T22	Chemical 1582 1592	ketoprofen
+T23	Disease 1628 1644	artery aneurysms
+T24	Disease 1688 1698	hemorrhage

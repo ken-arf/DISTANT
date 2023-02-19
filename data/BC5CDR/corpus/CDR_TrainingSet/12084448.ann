@@ -1,0 +1,17 @@
+T1	Chemical 0 10	Ifosfamide
+T2	Disease 11 25	encephalopathy
+T3	Disease 42 51	asterixis
+T4	Chemical 98 108	ifosfamide
+T5	Chemical 110 113	IFX
+T6	Disease 279 288	myoclonus
+T7	Chemical 346 356	ifosfamide
+T8	Disease 361 373	plasmacytoma
+T9	Disease 561 592	structural lesions of the brain
+T10	Disease 597 620	metabolic abnormalities
+T11	Disease 756 770	encephalopathy
+T12	Chemical 794 804	ifosfamide
+T13	Disease 842 851	asterixis
+T14	Disease 915 924	asterixis
+T15	Chemical 944 954	ifosfamide
+T16	Disease 1098 1107	myoclonus
+T17	Chemical 1138 1141	IFX

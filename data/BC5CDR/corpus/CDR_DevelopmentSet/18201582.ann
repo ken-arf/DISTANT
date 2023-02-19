@@ -1,0 +1,15 @@
+T1	Chemical 172 183	telmisartan
+T2	Chemical 188 198	amlodipine
+T3	Chemical 206 216	amlodipine
+T4	Disease 260 272	hypertension
+T5	Chemical 393 404	telmisartan
+T6	Chemical 413 423	amlodipine
+T7	Chemical 449 459	amlodipine
+T8	Disease 520 532	hypertension
+T9	Disease 717 729	hypertension
+T10	Disease 1938 1943	edema
+T11	Disease 2048 2053	cough
+T12	Disease 2227 2235	headache
+T13	Disease 2237 2246	dizziness
+T14	Disease 2252 2260	diarrhea
+T15	Disease 2351 2363	hypertension

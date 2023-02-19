@@ -1,0 +1,14 @@
+T1	Disease 0 14	Cardiac arrest
+T2	Chemical 33 47	metoclopramide
+T3	Chemical 88 102	metoclopramide
+T4	Disease 128 142	cardiac arrest
+T5	Chemical 196 210	metoclopramide
+T6	Disease 239 247	asystole
+T7	Chemical 281 295	metoclopramide
+T8	Chemical 453 467	metoclopramide
+T9	Disease 507 515	asystole
+T10	Disease 521 529	asystole
+T11	Chemical 618 626	atropine
+T12	Disease 730 744	cardiac arrest
+T13	Chemical 755 769	metoclopramide
+T14	Chemical 852 860	dopamine

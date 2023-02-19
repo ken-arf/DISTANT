@@ -1,0 +1,14 @@
+T1	Disease 208 216	bleeding
+T2	Disease 422 433	hypotension
+T3	Chemical 456 464	propofol
+T4	Chemical 465 477	remifentanil
+T5	Disease 627 638	hypotension
+T6	Chemical 660 668	propofol
+T7	Chemical 669 681	remifentanil
+T8	Disease 758 768	Hemorrhage
+T9	Disease 890 901	hypotension
+T10	Chemical 981 993	remifentanil
+T11	Chemical 1027 1039	remifentanil
+T12	Disease 1139 1150	hypotension
+T13	Disease 1287 1298	hypotension
+T14	Chemical 1317 1329	remifentanil

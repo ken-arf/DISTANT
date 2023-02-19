@@ -1,0 +1,21 @@
+T1	Chemical 10 17	aspirin
+T2	Chemical 21 66	N-[4-(5-nitro-2-furyl)-2-thiazolyl]-formamide
+T3	Chemical 175 182	aspirin
+T4	Chemical 188 233	N-[4-(5-nitro-2-furyl)-2-thiazolyl]-formamide
+T5	Chemical 235 240	FANFT
+T6	Chemical 285 290	FANFT
+T7	Disease 299 317	bladder carcinomas
+T8	Disease 349 367	forestomach tumors
+T9	Chemical 448 453	FANFT
+T10	Chemical 480 487	aspirin
+T11	Chemical 533 540	aspirin
+T12	Chemical 588 593	FANFT
+T13	Chemical 626 631	FANFT
+T14	Chemical 706 713	aspirin
+T15	Chemical 813 820	aspirin
+T16	Chemical 840 845	FANFT
+T17	Chemical 1006 1011	FANFT
+T18	Disease 1012 1026	carcinogenesis
+T19	Chemical 1068 1075	aspirin
+T20	Chemical 1088 1093	FANFT
+T21	Chemical 1272 1279	aspirin

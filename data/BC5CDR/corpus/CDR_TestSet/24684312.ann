@@ -1,0 +1,30 @@
+T1	Chemical 12 21	glutamate
+T2	Chemical 26 35	capsaicin
+T3	Disease 99 111	hyperalgesia
+T4	Disease 116 125	allodynia
+T5	Chemical 152 161	glutamate
+T6	Chemical 166 175	capsaicin
+T7	Disease 220 224	pain
+T8	Disease 240 252	hyperalgesia
+T9	Disease 257 266	allodynia
+T10	Disease 302 316	pain disorders
+T11	Chemical 508 517	glutamate
+T12	Chemical 522 531	capsaicin
+T13	Disease 587 599	hyperalgesia
+T14	Disease 617 626	allodynia
+T15	Disease 728 750	secondary hyperalgesia
+T16	Disease 755 764	allodynia
+T17	Disease 1122 1134	hyperalgesia
+T18	Chemical 1263 1272	glutamate
+T19	Chemical 1288 1297	capsaicin
+T20	Disease 1318 1330	hyperalgesia
+T21	Chemical 1382 1391	Glutamate
+T22	Chemical 1493 1502	Capsaicin
+T23	Disease 1534 1556	secondary hyperalgesia
+T24	Disease 1574 1583	allodynia
+T25	Disease 1713 1735	secondary hyperalgesia
+T26	Disease 1740 1749	allodynia
+T27	Chemical 1766 1775	glutamate
+T28	Chemical 1780 1789	capsaicin
+T29	Disease 1809 1821	hyperalgesic
+T30	Disease 1826 1835	allodynic

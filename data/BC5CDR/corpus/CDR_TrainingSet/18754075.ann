@@ -1,0 +1,16 @@
+T1	Disease 8 19	proteinuria
+T2	Disease 24 43	acute renal failure
+T3	Chemical 55 69	bisphosphonate
+T4	Chemical 71 82	alendronate
+T5	Disease 117 151	focal segmental glomerulosclerosis
+T6	Disease 184 202	nephrotic syndrome
+T7	Disease 210 244	focal segmental glomerulosclerosis
+T8	Chemical 278 285	steroid
+T9	Chemical 388 402	bisphosphonate
+T10	Chemical 404 422	alendronate sodium
+T11	Disease 512 531	acute renal failure
+T12	Chemical 562 573	alendronate
+T13	Chemical 683 693	creatinine
+T14	Chemical 859 874	bisphosphonates
+T15	Disease 889 900	proteinuria
+T16	Disease 905 924	acute renal failure

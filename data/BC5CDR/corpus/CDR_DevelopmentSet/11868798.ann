@@ -1,0 +1,41 @@
+T1	Chemical 0 14	Spironolactone
+T2	Chemical 57 71	amphotericin B
+T3	Disease 80 91	hypokalemia
+T4	Disease 95 101	cancer
+T5	Disease 122 136	Nephrotoxicity
+T6	Chemical 168 182	amphotericin B
+T7	Chemical 184 187	AmB
+T8	Disease 272 280	toxicity
+T9	Chemical 322 331	potassium
+T10	Chemical 395 398	AmB
+T11	Chemical 400 409	Potassium
+T12	Disease 449 457	toxicity
+T13	Chemical 461 464	AmB
+T14	Chemical 515 529	spironolactone
+T15	Chemical 540 549	potassium
+T16	Disease 578 589	hypokalemia
+T17	Disease 593 604	neutropenic
+T18	Chemical 617 620	AmB
+T19	Disease 680 703	hematological disorders
+T20	Chemical 750 753	AmB
+T21	Chemical 763 766	AmB
+T22	Chemical 776 790	spironolactone
+T23	Disease 848 864	fungal infection
+T24	Chemical 906 909	AmB
+T25	Chemical 914 928	spironolactone
+T26	Chemical 961 970	potassium
+T27	Chemical 999 1002	AmB
+T28	Chemical 1048 1051	AmB
+T29	Chemical 1056 1070	spironolactone
+T30	Chemical 1099 1108	potassium
+T31	Chemical 1150 1159	potassium
+T32	Chemical 1215 1224	potassium
+T33	Chemical 1278 1281	AmB
+T34	Chemical 1286 1300	spironolactone
+T35	Chemical 1322 1325	AmB
+T36	Chemical 1380 1394	spironolactone
+T37	Chemical 1406 1415	potassium
+T38	Disease 1441 1452	hypokalemia
+T39	Chemical 1473 1482	potassium
+T40	Disease 1491 1502	neutropenic
+T41	Chemical 1515 1518	AmB

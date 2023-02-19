@@ -1,0 +1,28 @@
+T1	Chemical 0 8	Ketamine
+T2	Disease 50 59	fractures
+T3	Chemical 159 167	ketamine
+T4	Chemical 321 329	ketamine
+T5	Disease 374 383	fractures
+T6	Disease 577 585	fracture
+T7	Disease 589 600	dislocation
+T8	Disease 642 648	trauma
+T9	Chemical 686 708	Ketamine hydrochloride
+T10	Disease 1101 1105	pain
+T11	Disease 1241 1245	Pain
+T12	Chemical 1323 1331	ketamine
+T13	Disease 1355 1363	fracture
+T14	Disease 1367 1378	dislocation
+T15	Disease 1685 1689	Pain
+T16	Disease 1761 1765	pain
+T17	Disease 1773 1781	fracture
+T18	Disease 1802 1810	fracture
+T19	Disease 2203 2209	nausea
+T20	Disease 2231 2237	emesis
+T21	Disease 2275 2281	nausea
+T22	Disease 2284 2294	clumsiness
+T23	Disease 2307 2323	ataxic movements
+T24	Disease 2346 2364	dysphoric reaction
+T25	Disease 2434 2448	hallucinations
+T26	Chemical 2477 2485	Ketamine
+T27	Disease 2597 2606	fractures
+T28	Chemical 2655 2663	Ketamine

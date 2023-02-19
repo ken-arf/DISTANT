@@ -1,0 +1,20 @@
+T1	Disease 14 33	myocardial ischemia
+T2	Chemical 45 56	epinephrine
+T3	Disease 91 99	ischemia
+T4	Chemical 112 123	epinephrine
+T5	Disease 137 156	myocardial ischemia
+T6	Disease 187 210	coronary artery disease
+T7	Disease 231 239	ischemia
+T8	Chemical 274 280	oxygen
+T9	Chemical 314 325	epinephrine
+T10	Chemical 369 380	epinephrine
+T11	Disease 403 422	myocardial ischemia
+T12	Disease 450 460	depression
+T13	Disease 465 471	angina
+T14	Disease 500 519	myocardial ischemia
+T15	Chemical 531 542	epinephrine
+T16	Disease 613 632	myocardial ischemia
+T17	Chemical 765 776	epinephrine
+T18	Disease 785 793	ischemia
+T19	Disease 951 959	ischemia
+T20	Chemical 972 983	epinephrine

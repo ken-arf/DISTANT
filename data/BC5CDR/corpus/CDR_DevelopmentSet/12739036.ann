@@ -1,0 +1,25 @@
+T1	Chemical 37 45	creatine
+T2	Disease 63 91	systemic lupus erythematosus
+T3	Chemical 172 183	chloroquine
+T4	Disease 192 200	myopathy
+T5	Disease 242 270	systemic lupus erythematosus
+T6	Disease 272 275	SLE
+T7	Disease 282 299	renal involvement
+T8	Chemical 340 352	azathioprine
+T9	Chemical 357 373	cyclophosphamide
+T10	Chemical 399 410	chloroquine
+T11	Chemical 412 414	CQ
+T12	Disease 439 449	arthralgia
+T13	Chemical 488 496	creatine
+T14	Disease 528 536	Myositis
+T15	Chemical 585 593	steroids
+T16	Disease 661 678	muscular weakness
+T17	Disease 683 699	muscular atrophy
+T18	Disease 840 848	myositis
+T19	Disease 926 938	polymyositis
+T20	Disease 948 956	myopathy
+T21	Chemical 973 984	chloroquine
+T22	Disease 993 1001	myopathy
+T23	Disease 1058 1061	SLE
+T24	Disease 1070 1109	affection of the musculoskeletal system
+T25	Disease 1182 1185	SLE

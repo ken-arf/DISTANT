@@ -1,0 +1,14 @@
+T1	Chemical 25 38	penicillamine
+T2	Disease 67 87	rheumatoid arthritis
+T3	Disease 88 99	Skin rashes
+T4	Disease 101 112	proteinuria
+T5	Disease 114 142	systemic lupus erythematosus
+T6	Disease 144 156	polymyositis
+T7	Disease 161 178	myasthenia gravis
+T8	Chemical 222 235	penicillamine
+T9	Disease 261 281	rheumatoid arthritis
+T10	Disease 339 350	skin lesion
+T11	Disease 361 392	elastosis perforans serpiginosa
+T12	Disease 457 473	Wilson's disease
+T13	Disease 499 519	rheumatoid arthritis
+T14	Chemical 533 546	penicillamine

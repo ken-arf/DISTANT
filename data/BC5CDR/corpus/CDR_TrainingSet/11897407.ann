@@ -1,0 +1,16 @@
+T1	Chemical 0 15	99mTc-glucarate
+T2	Chemical 33 46	isoproterenol
+T3	Disease 55 76	myocardial infarction
+T4	Disease 85 92	Infarct
+T5	Disease 173 194	myocardial infarction
+T6	Disease 229 239	infarction
+T7	Chemical 315 328	isoproterenol
+T8	Disease 336 343	infarct
+T9	Chemical 378 391	glucaric acid
+T10	Chemical 451 466	99mTc-glucarate
+T11	Chemical 559 572	isoproterenol
+T12	Disease 587 608	myocardial infarction
+T13	Disease 671 678	infarct
+T14	Chemical 690 703	isoproterenol
+T15	Chemical 821 836	99mTc-glucarate
+T16	Disease 1195 1213	cardiac infarction

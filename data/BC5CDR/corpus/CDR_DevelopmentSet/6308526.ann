@@ -1,0 +1,16 @@
+T1	Chemical 0 10	Naloxazone
+T2	Chemical 91 99	morphine
+T3	Chemical 163 171	morphine
+T4	Chemical 221 231	naloxazone
+T5	Chemical 305 315	naloxazone
+T6	Chemical 338 346	morphine
+T7	Disease 347 356	analgesia
+T8	Disease 358 367	catalepsy
+T9	Disease 372 383	hypothermia
+T10	Chemical 474 484	naloxazone
+T11	Chemical 514 522	morphine
+T12	Disease 531 542	hypotension
+T13	Disease 547 569	respiratory depression
+T14	Chemical 579 587	morphine
+T15	Disease 596 607	bradycardia
+T16	Chemical 748 756	morphine

@@ -1,0 +1,31 @@
+T1	Disease 58 71	birth defects
+T2	Disease 82 95	Birth Defects
+T3	Disease 199 212	birth defects
+T4	Disease 371 384	birth defects
+T5	Disease 400 412	birth defect
+T6	Disease 771 784	birth defects
+T7	Chemical 925 937	Sulfonamides
+T8	Disease 959 970	anencephaly
+T9	Disease 1037 1068	hypoplastic left heart syndrome
+T10	Disease 1099 1123	coarctation of the aorta
+T11	Disease 1154 1169	choanal atresia
+T12	Disease 1201 1227	transverse limb deficiency
+T13	Disease 1262 1282	diaphragmatic hernia
+T14	Chemical 1313 1328	Nitrofurantoins
+T15	Disease 1350 1362	anophthalmia
+T16	Disease 1366 1380	microphthalmos
+T17	Disease 1412 1443	hypoplastic left heart syndrome
+T18	Disease 1474 1495	atrial septal defects
+T19	Disease 1530 1539	cleft lip
+T20	Disease 1545 1557	cleft palate
+T21	Chemical 1649 1662	erythromycins
+T22	Chemical 1676 1687	penicillins
+T23	Chemical 1700 1714	cephalosporins
+T24	Chemical 1731 1741	quinolones
+T25	Chemical 1781 1792	penicillins
+T26	Chemical 1794 1807	erythromycins
+T27	Chemical 1813 1827	cephalosporins
+T28	Disease 1901 1914	birth defects
+T29	Chemical 1916 1928	Sulfonamides
+T30	Chemical 1933 1948	nitrofurantoins
+T31	Disease 1978 1991	birth defects

@@ -1,0 +1,12 @@
+T1	Chemical 13 20	smoking
+T2	Chemical 49 56	smoking
+T3	Chemical 178 185	smoking
+T4	Chemical 241 248	smoking
+T5	Chemical 325 332	smoking
+T6	Disease 369 381	hearing loss
+T7	Chemical 462 469	smoking
+T8	Disease 611 629	hearing impairment
+T9	Chemical 702 709	smoking
+T10	Disease 1330 1360	decreases of TEOAEs amplitudes
+T11	Chemical 1550 1557	smoking
+T12	Chemical 1799 1806	smoking

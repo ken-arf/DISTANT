@@ -1,0 +1,15 @@
+T1	Chemical 39 50	pilocarpine
+T2	Disease 60 82	temporal lobe epilepsy
+T3	Disease 204 226	temporal lobe epilepsy
+T4	Disease 228 231	TLE
+T5	Disease 330 337	seizure
+T6	Chemical 414 425	pilocarpine
+T7	Chemical 427 431	PILO
+T8	Disease 442 450	epilepsy
+T9	Disease 490 508	status epilepticus
+T10	Disease 543 551	seizures
+T11	Disease 564 576	brain damage
+T12	Chemical 677 681	PILO
+T13	Chemical 992 996	PILO
+T14	Chemical 1283 1287	PILO
+T15	Disease 1297 1300	TLE

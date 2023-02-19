@@ -1,0 +1,15 @@
+T1	Chemical 0 9	Phenytoin
+T2	Disease 10 24	encephalopathy
+T3	Chemical 83 92	phenytoin
+T4	Chemical 94 97	DPH
+T5	Disease 99 113	encephalopathy
+T6	Disease 130 138	seizures
+T7	Chemical 212 215	DPH
+T8	Disease 287 301	encephalopathy
+T9	Chemical 402 405	DPH
+T10	Disease 464 468	rash
+T11	Chemical 476 479	DPH
+T12	Chemical 538 541	DPH
+T13	Chemical 621 624	DPH
+T14	Disease 661 669	seizures
+T15	Chemical 789 792	DPH

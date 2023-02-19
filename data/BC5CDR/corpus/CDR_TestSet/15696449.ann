@@ -1,0 +1,26 @@
+T1	Disease 0 25	Acute renal insufficiency
+T2	Chemical 42 51	melphalan
+T3	Disease 69 97	primary systemic amyloidosis
+T4	Disease 157 185	primary systemic amyloidosis
+T5	Disease 187 189	AL
+T6	Chemical 301 310	melphalan
+T7	Disease 490 515	acute renal insufficiency
+T8	Chemical 534 543	melphalan
+T9	Disease 681 683	AL
+T10	Disease 743 768	Acute renal insufficiency
+T11	Disease 770 773	ARI
+T12	Chemical 791 800	melphalan
+T13	Chemical 877 887	creatinine
+T14	Disease 1101 1104	ARI
+T15	Chemical 1156 1165	melphalan
+T16	Disease 1203 1218	hypoalbuminemia
+T17	Disease 1226 1237	proteinuria
+T18	Disease 1424 1427	ARI
+T19	Chemical 1444 1453	melphalan
+T20	Disease 1567 1579	renal injury
+T21	Chemical 1598 1607	melphalan
+T22	Disease 1640 1654	tubular injury
+T23	Disease 1681 1693	renal injury
+T24	Chemical 1697 1706	melphalan
+T25	Disease 1767 1770	ARI
+T26	Disease 1899 1901	AL

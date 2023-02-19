@@ -1,0 +1,19 @@
+T1	Chemical 0 7	Dextran
+T2	Chemical 8 16	etodolac
+T3	Chemical 72 80	Etodolac
+T4	Chemical 82 83	E
+T5	Chemical 165 172	dextran
+T6	Chemical 221 229	etodolac
+T7	Chemical 230 237	dextran
+T8	Chemical 356 371	N-acylimidazole
+T9	Chemical 386 394	etodolac
+T10	Chemical 396 399	EAI
+T11	Chemical 448 455	dextran
+T12	Chemical 595 603	Etodolac
+T13	Chemical 902 910	etodolac
+T14	Chemical 1164 1175	acetic acid
+T15	Disease 1184 1192	writhing
+T16	Chemical 1210 1221	carrageenan
+T17	Disease 1238 1243	edema
+T18	Chemical 1291 1292	E
+T19	Chemical 1578 1586	etodolac

@@ -1,0 +1,24 @@
+T1	Chemical 11 24	aminophylline
+T2	Disease 57 81	ventricular fibrillation
+T3	Disease 89 108	respiratory failure
+T4	Disease 109 128	Cardiac arrhythmias
+T5	Disease 179 198	respiratory failure
+T6	Disease 268 288	cardiac disturbances
+T7	Disease 306 325	respiratory failure
+T8	Chemical 376 389	aminophylline
+T9	Disease 397 421	ventricular fibrillation
+T10	Disease 478 497	respiratory failure
+T11	Disease 548 572	ventricular fibrillation
+T12	Chemical 760 773	aminophylline
+T13	Disease 779 803	ventricular fibrillation
+T14	Chemical 894 900	oxygen
+T15	Chemical 902 905	PO2
+T16	Chemical 911 925	carbon dioxide
+T17	Chemical 927 930	CO2
+T18	Disease 969 988	respiratory failure
+T19	Disease 1005 1020	hypoventilation
+T20	Chemical 1094 1107	aminophylline
+T21	Disease 1148 1172	ventricular fibrillation
+T22	Disease 1317 1340	ventricular arrhythmias
+T23	Disease 1344 1363	respiratory failure
+T24	Chemical 1400 1413	aminophylline

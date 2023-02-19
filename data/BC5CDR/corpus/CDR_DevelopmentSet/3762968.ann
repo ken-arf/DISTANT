@@ -1,0 +1,17 @@
+T1	Chemical 29 39	tolazamide
+T2	Disease 48 73	Wernicke's encephalopathy
+T3	Chemical 87 95	thiamine
+T4	Disease 151 159	diabetic
+T5	Disease 182 207	Wernicke's encephalopathy
+T6	Chemical 226 236	tolazamide
+T7	Chemical 324 346	thiamine pyrophosphate
+T8	Chemical 348 351	TPP
+T9	Disease 395 422	Wernicke-Korsakoff syndrome
+T10	Disease 492 500	diabetic
+T11	Disease 533 558	Wernicke's encephalopathy
+T12	Disease 647 655	diabetic
+T13	Disease 684 709	Wernicke's encephalopathy
+T14	Chemical 765 768	TPP
+T15	Disease 824 851	Wernicke-Korsakoff syndrome
+T16	Chemical 873 883	tolazamide
+T17	Disease 892 917	Wernicke's encephalopathy

@@ -1,0 +1,18 @@
+T1	Chemical 102 119	indocyanine green
+T2	Chemical 212 229	indocyanine green
+T3	Chemical 359 376	indocyanine green
+T4	Chemical 475 492	indocyanine green
+T5	Chemical 617 634	indocyanine green
+T6	Chemical 820 837	indocyanine green
+T7	Disease 1007 1013	nausea
+T8	Disease 1015 1024	exanthema
+T9	Disease 1026 1036	urtication
+T10	Disease 1038 1047	itchiness
+T11	Disease 1136 1140	pain
+T12	Disease 1197 1208	hypotension
+T13	Disease 1218 1229	hypotensive
+T14	Disease 1262 1267	shock
+T15	Chemical 1332 1349	indocyanine green
+T16	Chemical 1410 1428	fluorescein sodium
+T17	Chemical 1444 1461	indocyanine green
+T18	Chemical 1475 1486	fluorescein

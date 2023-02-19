@@ -1,0 +1,21 @@
+T1	Chemical 10 25	tranexamic Acid
+T2	Disease 66 74	seizures
+T3	Disease 204 214	convulsive
+T4	Disease 215 223	seizures
+T5	Chemical 380 395	tranexamic acid
+T6	Chemical 397 400	TXA
+T7	Chemical 584 587	TXA
+T8	Disease 598 606	seizures
+T9	Disease 726 734	seizures
+T10	Disease 956 980	cerebral ischemic injury
+T11	Disease 986 994	seizures
+T12	Disease 1014 1035	ischemic brain injury
+T13	Disease 1069 1077	seizures
+T14	Disease 1101 1127	neurological abnormalities
+T15	Disease 1150 1158	seizures
+T16	Chemical 1182 1185	TXA
+T17	Disease 1421 1435	brain ischemic
+T18	Disease 1451 1463	hyperthermia
+T19	Disease 1489 1497	seizures
+T20	Chemical 1566 1569	TXA
+T21	Disease 1692 1700	seizures

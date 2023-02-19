@@ -1,0 +1,17 @@
+T1	Disease 0 19	Acute renal failure
+T2	Disease 37 41	AIDS
+T3	Chemical 45 54	tenofovir
+T4	Chemical 81 91	vancomycin
+T5	Disease 103 116	osteomyelitis
+T6	Disease 117 130	Renal failure
+T7	Chemical 169 179	vancomycin
+T8	Chemical 221 250	tenofovir disoproxil fumarate
+T9	Chemical 289 298	Tenofovir
+T10	Disease 341 357	Fanconi syndrome
+T11	Disease 362 381	renal insufficiency
+T12	Chemical 435 445	Vancomycin
+T13	Disease 446 460	nephrotoxicity
+T14	Disease 519 530	nephrotoxic
+T15	Chemical 570 579	tenofovir
+T16	Disease 602 615	renal failure
+T17	Chemical 651 661	vancomycin

@@ -1,0 +1,28 @@
+T1	Disease 13 22	neoplasms
+T2	Disease 40 60	rheumatoid arthritis
+T3	Disease 202 222	rheumatoid arthritis
+T4	Chemical 252 268	cyclophosphamide
+T5	Chemical 273 285	chlorambucil
+T6	Chemical 287 304	alkylating agents
+T7	Chemical 307 319	azathioprine
+T8	Chemical 321 327	purine
+T9	Chemical 343 355	methotrexate
+T10	Chemical 357 367	folic acid
+T11	Disease 446 455	synovitis
+T12	Chemical 826 843	alkylating agents
+T13	Disease 885 914	acute nonlymphocytic leukemia
+T14	Chemical 925 942	alkylating agents
+T15	Chemical 947 959	azathioprine
+T16	Disease 999 1021	non-Hodgkin's lymphoma
+T17	Chemical 1023 1039	Cyclophosphamide
+T18	Disease 1070 1094	carcinoma of the bladder
+T19	Disease 1070 1094	carcinoma of the bladder
+T20	Disease 1070 1079	carcinoma
+T21	Disease 1155 1175	rheumatoid arthritis
+T22	Chemical 1189 1201	azathioprine
+T23	Chemical 1206 1222	cyclophosphamide
+T24	Disease 1263 1270	cancers
+T25	Disease 1328 1338	malignancy
+T26	Disease 1342 1362	rheumatoid arthritis
+T27	Chemical 1483 1500	alkylating agents
+T28	Disease 1522 1542	rheumatoid arthritis

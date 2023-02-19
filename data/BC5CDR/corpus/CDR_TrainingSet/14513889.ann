@@ -1,0 +1,9 @@
+T1	Chemical 0 12	Ketoconazole
+T2	Disease 21 40	neurologic sequelae
+T3	Disease 70 93	weakness of extremities
+T4	Disease 95 109	legs paralysis
+T5	Disease 111 121	dysarthria
+T6	Disease 126 132	tremor
+T7	Chemical 163 175	ketoconazole
+T8	Chemical 295 307	ketoconazole
+T9	Disease 539 561	adverse drug reactions

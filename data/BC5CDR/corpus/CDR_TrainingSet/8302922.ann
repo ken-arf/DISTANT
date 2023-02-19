@@ -1,0 +1,23 @@
+T1	Chemical 27 43	prostaglandin E1
+T2	Chemical 47 59	trimethaphan
+T3	Disease 68 79	hypotension
+T4	Chemical 106 122	prostaglandin E1
+T5	Chemical 124 128	PGE1
+T6	Chemical 133 145	trimethaphan
+T7	Chemical 147 150	TMP
+T8	Disease 160 171	hypotension
+T9	Chemical 341 351	isoflurane
+T10	Chemical 412 416	PGE1
+T11	Chemical 463 466	TMP
+T12	Disease 635 646	hypotensive
+T13	Chemical 730 734	PGE1
+T14	Chemical 738 741	TMP
+T15	Disease 866 877	hypotension
+T16	Chemical 885 889	PGE1
+T17	Chemical 1023 1027	PGE1
+T18	Chemical 1052 1055	TMP
+T19	Chemical 1127 1130	TMP
+T20	Chemical 1290 1294	PGE1
+T21	Chemical 1316 1319	TMP
+T22	Disease 1324 1335	hypotensive
+T23	Chemical 1374 1377	TMP

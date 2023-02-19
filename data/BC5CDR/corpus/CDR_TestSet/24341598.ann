@@ -1,0 +1,33 @@
+T1	Chemical 34 49	sodium chloride
+T2	Chemical 55 64	diltiazem
+T3	Chemical 82 90	contrast
+T4	Disease 99 110	nephropathy
+T5	Chemical 139 147	Contrast
+T6	Disease 156 167	nephropathy
+T7	Chemical 326 341	sodium chloride
+T8	Chemical 347 365	sodium bicarbonate
+T9	Chemical 388 403	sodium chloride
+T10	Chemical 418 427	diltiazem
+T11	Chemical 431 438	calcium
+T12	Chemical 570 578	contrast
+T13	Chemical 640 650	creatinine
+T14	Chemical 811 826	sodium chloride
+T15	Chemical 884 892	dextrose
+T16	Chemical 897 915	sodium bicarbonate
+T17	Chemical 965 980	sodium chloride
+T18	Chemical 1002 1010	contrast
+T19	Chemical 1074 1083	diltiazem
+T20	Chemical 1126 1134	contrast
+T21	Chemical 1174 1193	blood urea nitrogen
+T22	Chemical 1195 1198	BUN
+T23	Chemical 1204 1214	creatinine
+T24	Chemical 1306 1314	contrast
+T25	Chemical 1344 1354	creatinine
+T26	Disease 1482 1501	acute renal failure
+T27	Disease 1503 1506	ARF
+T28	Chemical 1532 1540	contrast
+T29	Disease 1609 1612	ARF
+T30	Chemical 1832 1847	sodium chloride
+T31	Chemical 1849 1867	sodium bicarbonate
+T32	Chemical 1881 1896	sodium chloride
+T33	Chemical 1902 1911	diltiazem

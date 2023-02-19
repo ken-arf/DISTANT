@@ -1,0 +1,13 @@
+T1	Disease 0 8	Delirium
+T2	Chemical 16 26	fluoxetine
+T3	Chemical 295 304	serotonin
+T4	Chemical 403 413	citalopram
+T5	Disease 484 494	somnolence
+T6	Disease 499 520	movement difficulties
+T7	Disease 533 552	cognitive disorders
+T8	Disease 562 570	delirium
+T9	Disease 686 698	hyperkinetic
+T10	Disease 699 707	delirium
+T11	Chemical 742 752	fluoxetine
+T12	Chemical 754 764	fluoxetine
+T13	Chemical 770 789	desmethylfluoxetine

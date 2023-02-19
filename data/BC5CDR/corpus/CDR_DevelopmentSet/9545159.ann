@@ -1,0 +1,19 @@
+T1	Disease 0 31	Prolongation of the QT interval
+T2	Chemical 43 52	cisapride
+T3	Chemical 53 62	diltiazem
+T4	Chemical 75 84	Cisapride
+T5	Disease 170 205	gastrointestinal motility disorders
+T6	Disease 207 234	Prolongation of QT interval
+T7	Disease 236 255	torsades de pointes
+T8	Disease 261 281	sudden cardiac death
+T9	Chemical 339 351	erythromycin
+T10	Chemical 355 360	azole
+T11	Chemical 493 502	cisapride
+T12	Disease 507 539	gastroesophageal reflux disorder
+T13	Chemical 544 553	diltiazem
+T14	Disease 606 618	hypertension
+T15	Disease 644 651	syncope
+T16	Disease 660 684	QT-interval prolongation
+T17	Chemical 706 715	cisapride
+T18	Chemical 818 827	cisapride
+T19	Chemical 889 898	diltiazem

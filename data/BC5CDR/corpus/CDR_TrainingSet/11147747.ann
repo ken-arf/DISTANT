@@ -1,0 +1,15 @@
+T1	Chemical 0 28	Serotonergic antidepressants
+T2	Disease 33 53	urinary incontinence
+T3	Chemical 63 91	serotonergic antidepressants
+T4	Disease 144 164	urinary incontinence
+T5	Disease 324 336	incontinence
+T6	Chemical 350 361	venlafaxine
+T7	Disease 437 449	incontinence
+T8	Chemical 477 486	serotonin
+T9	Chemical 507 517	paroxetine
+T10	Chemical 522 532	sertraline
+T11	Chemical 587 598	venlafaxine
+T12	Chemical 650 667	lithium carbonate
+T13	Disease 731 743	incontinence
+T14	Disease 773 785	incontinence
+T15	Chemical 799 827	serotonergic antidepressants

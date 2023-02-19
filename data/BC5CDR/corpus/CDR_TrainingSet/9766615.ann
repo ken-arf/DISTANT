@@ -1,0 +1,13 @@
+T1	Disease 567 590	extrapyramidal symptoms
+T2	Disease 592 595	EPS
+T3	Disease 598 616	tardive dyskinesia
+T4	Disease 708 731	orthostatic hypotension
+T5	Disease 780 798	sexual dysfunction
+T6	Disease 804 815	weight gain
+T7	Disease 864 867	EPS
+T8	Disease 971 982	weight gain
+T9	Disease 984 1002	sexual dysfunction
+T10	Disease 1029 1036	seizure
+T11	Chemical 1058 1067	clozapine
+T12	Disease 1074 1089	agranulocytosis
+T13	Chemical 1091 1100	clozapine

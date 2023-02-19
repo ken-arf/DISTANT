@@ -1,0 +1,21 @@
+T1	Chemical 22 32	nimodipine
+T2	Disease 69 81	acute stroke
+T3	Chemical 122 132	Nimodipine
+T4	Disease 147 153	Stroke
+T5	Chemical 197 207	nimodipine
+T6	Disease 216 243	reduction in blood pressure
+T7	Disease 279 291	acute stroke
+T8	Disease 450 462	BP reduction
+T9	Disease 511 526	ischemic stroke
+T10	Chemical 620 630	nimodipine
+T11	Chemical 662 672	nimodipine
+T12	Chemical 930 940	Nimodipine
+T13	Disease 991 1015	reduction in systolic BP
+T14	Disease 1168 1181	DBP reduction
+T15	Disease 1295 1308	DBP reduction
+T16	Disease 1421 1426	death
+T17	Disease 1511 1516	death
+T18	Chemical 1828 1838	nimodipine
+T19	Disease 1845 1857	acute stroke
+T20	Chemical 1872 1882	nimodipine
+T21	Chemical 1987 1997	nimodipine

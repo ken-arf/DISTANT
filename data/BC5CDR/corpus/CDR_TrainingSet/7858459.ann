@@ -1,0 +1,28 @@
+T1	Disease 6 15	confusion
+T2	Chemical 51 65	5-fluorouracil
+T3	Chemical 70 82	folinic acid
+T4	Chemical 157 168	cisplatinum
+T5	Chemical 170 179	etoposide
+T6	Chemical 191 205	5-fluorouracil
+T7	Chemical 233 245	folinic acid
+T8	Disease 264 286	gastric adenocarcinoma
+T9	Disease 337 346	confusion
+T10	Disease 348 362	disorientation
+T11	Disease 367 379	irritability
+T12	Disease 409 413	coma
+T13	Chemical 483 497	5-fluorouracil
+T14	Chemical 502 514	folinic acid
+T15	Chemical 590 604	5-fluorouracil
+T16	Chemical 609 621	folinic acid
+T17	Chemical 669 681	folinic acid
+T18	Disease 733 746	neurotoxicity
+T19	Chemical 764 778	5-fluorouracil
+T20	Chemical 821 835	5-fluorouracil
+T21	Disease 836 849	neurotoxicity
+T22	Chemical 890 903	fluoroacetate
+T23	Chemical 908 921	fluorocitrate
+T24	Chemical 923 931	thiamine
+T25	Chemical 947 960	dihydrouracil
+T26	Chemical 997 1011	5-fluorouracil
+T27	Chemical 1012 1024	folinic acid
+T28	Disease 1092 1099	cancers

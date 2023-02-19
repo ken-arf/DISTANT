@@ -1,0 +1,27 @@
+T1	Disease 15 34	gall bladder stones
+T2	Chemical 51 61	octreotide
+T3	Chemical 80 100	ursodeoxycholic acid
+T4	Chemical 101 111	Octreotide
+T5	Disease 140 150	acromegaly
+T6	Disease 160 179	gall bladder stones
+T7	Chemical 376 386	octreotide
+T8	Disease 395 406	acromegalic
+T9	Disease 421 432	gall stones
+T10	Disease 455 466	gall stones
+T11	Chemical 554 565	cholesterol
+T12	Chemical 772 783	cholesterol
+T13	Chemical 957 968	cholesterol
+T14	Chemical 1049 1060	cholesterol
+T15	Chemical 1150 1161	cholesterol
+T16	Chemical 1243 1263	ursodeoxycholic acid
+T17	Chemical 1265 1269	UDCA
+T18	Chemical 1336 1340	UDCA
+T19	Disease 1489 1499	gall stone
+T20	Chemical 1547 1558	cholesterol
+T21	Disease 1633 1643	gall stone
+T22	Chemical 1693 1703	octreotide
+T23	Disease 1712 1723	gall stones
+T24	Chemical 1759 1770	cholesterol
+T25	Disease 1813 1831	gall stone disease
+T26	Disease 1904 1915	gall stones
+T27	Chemical 1927 1934	calcium

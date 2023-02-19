@@ -1,0 +1,19 @@
+T1	Chemical 42 47	mesna
+T2	Chemical 59 69	ifosfamide
+T3	Disease 78 98	hemorrhagic cystitis
+T4	Disease 78 89	hemorrhagic
+T5	Disease 90 98	cystitis
+T6	Disease 99 119	Hemorrhagic cystitis
+T7	Disease 99 110	Hemorrhagic
+T8	Disease 111 119	cystitis
+T9	Disease 141 149	toxicity
+T10	Chemical 153 163	ifosfamide
+T11	Chemical 203 208	mesna
+T12	Chemical 241 246	Mesna
+T13	Chemical 411 416	mesna
+T14	Chemical 592 597	mesna
+T15	Chemical 647 652	mesna
+T16	Chemical 676 686	ifosfamide
+T17	Disease 695 701	emesis
+T18	Chemical 793 798	mesna
+T19	Chemical 898 908	ifosfamide

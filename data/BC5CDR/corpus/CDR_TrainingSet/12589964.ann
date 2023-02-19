@@ -1,0 +1,29 @@
+T1	Disease 60 77	myocardial damage
+T2	Chemical 81 92	doxorubicin
+T3	Disease 101 115	cardiomyopathy
+T4	Disease 309 331	myocardial cell injury
+T5	Disease 408 425	myocardial damage
+T6	Chemical 444 455	doxorubicin
+T7	Chemical 457 460	DOX
+T8	Disease 470 484	cardiomyopathy
+T9	Disease 572 589	cardiac disorders
+T10	Chemical 719 722	DOX
+T11	Chemical 1124 1127	DOX
+T12	Chemical 1226 1229	DOX
+T13	Chemical 1267 1270	DOX
+T14	Chemical 1322 1325	DOX
+T15	Disease 1359 1367	toxicity
+T16	Chemical 1525 1528	DOX
+T17	Chemical 1649 1652	DOX
+T18	Disease 1722 1730	fibrosis
+T19	Disease 1877 1885	fibrosis
+T20	Chemical 1927 1930	DOX
+T21	Chemical 2110 2113	DOX
+T22	Chemical 2184 2187	DOX
+T23	Chemical 2288 2291	DOX
+T24	Disease 2692 2707	ischemic injury
+T25	Chemical 2714 2717	DOX
+T26	Disease 2770 2787	myocardial damage
+T27	Chemical 2929 2932	DOX
+T28	Chemical 3063 3066	DOX
+T29	Disease 3220 3234	cardiotoxicity

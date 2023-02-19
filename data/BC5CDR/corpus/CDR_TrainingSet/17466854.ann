@@ -1,0 +1,16 @@
+T1	Chemical 48 66	methylprednisolone
+T2	Chemical 71 81	gentamicin
+T3	Chemical 217 235	methylprednisolone
+T4	Chemical 240 250	gentamicin
+T5	Disease 310 318	cataract
+T6	Chemical 560 570	lignocaine
+T7	Chemical 638 656	methylprednisolone
+T8	Chemical 677 687	gentamicin
+T9	Disease 886 902	nausea, vomiting
+T10	Disease 908 916	headache
+T11	Disease 1040 1069	postoperative emetic symptoms
+T12	Disease 1071 1079	headache
+T13	Chemical 1166 1184	methylprednisolone
+T14	Chemical 1189 1199	gentamicin
+T15	Disease 1293 1309	nausea, vomiting
+T16	Disease 1315 1323	headache
