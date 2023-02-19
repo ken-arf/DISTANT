@@ -65,6 +65,7 @@ def load_dict(path):
 
 def match_entity(tokens, entity_dict, entity_type):
     #print(tokens)
+    match_count = 0
     n = len(tokens)
     bio = ['O'] * n
     for i in range(len(tokens)):
@@ -74,6 +75,7 @@ def match_entity(tokens, entity_dict, entity_type):
             tgt = tokens[i:i+len(entity)]
             if tuple(tgt) == tuple(entity):
                 #print('match at {}: {}'.format(i, '_'.join(entity)))
+                match_count += 1
 
                 if len(entity) == 1:
                     bio[i] = f'S_{entity_type}'
@@ -84,7 +86,7 @@ def match_entity(tokens, entity_dict, entity_type):
                         else:
                             bio[j] = f'I_{entity_type}'
             
-    return bio
+    return bio, match_count
         
 
 def annotate(files, parameters):
@@ -110,16 +112,23 @@ def annotate(files, parameters):
 
     # append all entities extracted from pu_training
 
+    #pdb.set_trace()
     if parameters["use_pu_data"]:
         pu_data_csv = parameters["pu_data"]
         df_pu_data = pd.read_csv(pu_data_csv)
         
         for name in entity_dict.keys():
             entid = ent2int[name]
-            entity_dict[name] += list(set(df_pu_data[df_pu_data.label == entid].entities.unique()))
-        
-        
+            df_entities = list(set(df_pu_data[df_pu_data.label == entid].entities.unique()))
 
+            items = []
+            for ent in df_entities:
+                ent_tokens = tokenize(ent.lower())
+                items.append(ent_tokens)
+
+            entity_dict[name] += items
+        
+        
     for key, items in entity_dict.items():
         entity_dict[key] = list(set([tuple(item) for item in items]))
 
@@ -128,6 +137,7 @@ def annotate(files, parameters):
         entity_dict[key] = sorted(entity_dict[key], key =lambda x: len(x))
 
 
+    match_count = defaultdict(int)
     for file in tqdm(files):
         
         path, fname = os.path.split(file)
@@ -143,7 +153,8 @@ def annotate(files, parameters):
                 
                 bio_tag = {}
                 for entity_type in entity_dict.keys():
-                    bio_tag[entity_type] = match_entity(tokens_low, entity_dict, entity_type)
+                    bio_tag[entity_type], cnt = match_entity(tokens_low, entity_dict, entity_type)
+                    match_count[entity_type] += cnt
                     
                 #print(bio_tag)
                 labels = [tags for tags in zip(*bio_tag.values())]
@@ -157,6 +168,7 @@ def annotate(files, parameters):
                     fp.write("{}\n".format(buf))    
                 fp.write('\n')
                 
+    return match_count
 
     
 def main():
@@ -181,7 +193,12 @@ def main():
 
     files = glob.glob(f"{corpus_dir}/*")
 
-    annotate(files, parameters)
+    match_count = annotate(files, parameters)
+
+    print("match_count")
+    print(match_count)
+
+
 
     print('Done!')
     t_end = time.time()                                                                                                  
