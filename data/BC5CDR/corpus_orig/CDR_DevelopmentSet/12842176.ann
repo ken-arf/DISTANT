@@ -1,0 +1,23 @@
+T1	Chemical 10 17	lindane
+T2	Chemical 92 99	lindane
+T3	Disease 108 121	neurotoxicity
+T4	Chemical 145 152	lindane
+T5	Chemical 366 388	N-nitrosodimethylamine
+T6	Chemical 402 406	NDMA
+T7	Chemical 577 584	lindane
+T8	Chemical 1169 1173	NDMA
+T9	Chemical 1337 1357	3-methylcholanthrene
+T10	Chemical 1359 1361	MC
+T11	Chemical 1450 1457	lindane
+T12	Disease 1466 1477	convulsions
+T13	Chemical 1497 1510	phenobarbital
+T14	Chemical 1547 1554	ethanol
+T15	Chemical 1641 1648	lindane
+T16	Disease 1657 1668	convulsions
+T17	Chemical 1718 1725	lindane
+T18	Chemical 1741 1756	cobalt chloride
+T19	Disease 1770 1781	convulsions
+T20	Chemical 1820 1827	lindane
+T21	Chemical 1844 1851	lindane
+T22	Chemical 1894 1901	ethanol
+T23	Disease 1964 1972	toxicity

@@ -1,0 +1,19 @@
+T1	Chemical 13 21	Dexatrim
+T2	Chemical 23 42	Phenylpropanolamine
+T3	Disease 58 79	myocardial infarction
+T4	Chemical 80 99	Phenylpropanolamine
+T5	Chemical 101 104	PPA
+T6	Chemical 123 128	amine
+T7	Disease 244 256	hypertensive
+T8	Disease 270 289	hemorrhagic strokes
+T9	Disease 270 281	hemorrhagic
+T10	Disease 282 289	strokes
+T11	Chemical 349 352	PPA
+T12	Disease 358 375	myocardial injury
+T13	Disease 393 401	overdose
+T14	Chemical 448 456	Dexatrim
+T15	Chemical 458 461	PPA
+T16	Disease 471 488	myocardial injury
+T17	Chemical 608 611	PPA
+T18	Disease 620 637	myocardial injury
+T19	Chemical 767 770	PPA

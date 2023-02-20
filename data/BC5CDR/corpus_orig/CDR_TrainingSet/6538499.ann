@@ -1,0 +1,14 @@
+T1	Chemical 10 33	polyethylene glycol 400
+T2	Chemical 37 47	adriamycin
+T3	Disease 48 56	toxicity
+T4	Chemical 110 133	polyethylene glycol 400
+T5	Chemical 135 142	PEG 400
+T6	Chemical 203 213	adriamycin
+T7	Chemical 215 218	ADR
+T8	Chemical 243 250	PEG 400
+T9	Chemical 316 319	ADR
+T10	Chemical 409 412	ADR
+T11	Disease 421 454	cardiac morphological alterations
+T12	Chemical 492 495	ADR
+T13	Disease 518 532	L1210 leukemia
+T14	Disease 540 561	Ehrlich ascites tumor

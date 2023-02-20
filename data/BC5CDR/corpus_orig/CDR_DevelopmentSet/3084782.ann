@@ -1,0 +1,16 @@
+T1	Disease 0 8	Toxicity
+T2	Disease 44 64	rheumatoid arthritis
+T3	Disease 134 154	rheumatoid arthritis
+T4	Disease 156 158	RA
+T5	Disease 174 182	toxicity
+T6	Disease 236 244	toxicity
+T7	Disease 362 371	nephritis
+T8	Disease 376 386	dermatitis
+T9	Chemical 394 403	Tiopronin
+T10	Chemical 407 422	D-Penicillamine
+T11	Disease 480 490	dermatitis
+T12	Chemical 498 502	gold
+T13	Chemical 503 515	thiosulphate
+T14	Disease 606 608	RA
+T15	Chemical 624 633	Tiopronin
+T16	Disease 642 651	nephritis

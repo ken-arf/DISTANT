@@ -1,0 +1,17 @@
+T1	Chemical 0 14	Phenobarbitone
+T2	Disease 23 47	enlargement of the liver
+T3	Chemical 80 100	carbon tetrachloride
+T4	Disease 109 118	cirrhosis
+T5	Disease 139 161	cirrhosis of the liver
+T6	Disease 235 242	ascites
+T7	Disease 298 310	splenomegaly
+T8	Disease 344 351	atrophy
+T9	Chemical 404 424	carbon tetrachloride
+T10	Chemical 455 469	phenobarbitone
+T11	Chemical 555 575	carbon tetrachloride
+T12	Chemical 595 609	phenobarbitone
+T13	Disease 618 642	enlargement of the liver
+T14	Chemical 698 702	CCl4
+T15	Chemical 774 788	phenobarbitone
+T16	Chemical 984 1004	carbon tetrachloride
+T17	Chemical 1026 1040	phenobarbitone

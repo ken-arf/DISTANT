@@ -1,0 +1,25 @@
+T1	Chemical 74 90	cyclophosphamide
+T2	Disease 99 107	cystitis
+T3	Chemical 122 138	cyclophosphamide
+T4	Disease 147 155	cystitis
+T5	Disease 322 330	cystitis
+T6	Chemical 416 432	cyclophosphamide
+T7	Chemical 613 621	atropine
+T8	Chemical 829 875	alpha,beta-methylene adenosine-5'-triphosphate
+T9	Chemical 877 893	alpha,beta-meATP
+T10	Chemical 986 994	atropine
+T11	Chemical 996 1032	4-diphenylacetoxy-N-methylpiperidine
+T12	Chemical 1034 1040	4-DAMP
+T13	Chemical 1072 1085	methoctramine
+T14	Chemical 1109 1120	pirenzepine
+T15	Chemical 1277 1283	4-DAMP
+T16	Chemical 1348 1361	methoctramine
+T17	Chemical 1366 1377	pirenzepine
+T18	Chemical 1541 1552	pirenzepine
+T19	Chemical 1557 1563	4-DAMP
+T20	Chemical 1665 1678	methoctramine
+T21	Chemical 1779 1788	carbachol
+T22	Chemical 1793 1796	ATP
+T23	Chemical 1873 1882	potassium
+T24	Chemical 1893 1905	isoprenaline
+T25	Disease 1968 1976	cystitis

@@ -1,0 +1,20 @@
+T1	Disease 0 35	Withdrawal-emergent rabbit syndrome
+T2	Disease offset[0] offset[1];offset[0] offset[1]	Withdrawal syndrome
+T3	Disease 11 35	emergent rabbit syndrome
+T4	Chemical 61 72	risperidone
+T5	Disease 73 88	Rabbit syndrome
+T6	Disease 90 92	RS
+T7	Disease 201 223	withdrawal-emergent RS
+T8	Disease offset[0] offset[1];offset[0] offset[1]	withdrawal RS
+T9	Disease 212 223	emergent RS
+T10	Disease 294 296	RS
+T11	Chemical 322 333	risperidone
+T12	Chemical 377 392	trihexyphenidyl
+T13	Disease 446 468	withdrawal-emergent RS
+T14	Disease offset[0] offset[1];offset[0] offset[1]	withdrawal RS
+T15	Disease 457 468	emergent RS
+T16	Chemical 545 556	risperidone
+T17	Chemical 560 569	serotonin
+T18	Chemical 570 578	dopamine
+T19	Chemical 640 649	serotonin
+T20	Disease 679 681	RS

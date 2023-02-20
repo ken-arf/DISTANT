@@ -1,0 +1,11 @@
+T1	Chemical 0 9	Verapamil
+T2	Chemical 18 31	carbamazepine
+T3	Disease 32 45	neurotoxicity
+T4	Chemical 96 109	carbamazepine
+T5	Disease 110 123	neurotoxicity
+T6	Chemical 154 163	verapamil
+T7	Chemical 218 225	calcium
+T8	Chemical 248 257	verapamil
+T9	Chemical 278 291	carbamazepine
+T10	Chemical 371 384	carbamazepine
+T11	Chemical 416 429	carbamazepine

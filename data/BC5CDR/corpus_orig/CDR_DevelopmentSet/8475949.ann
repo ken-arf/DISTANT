@@ -1,0 +1,16 @@
+T1	Chemical 13 24	pentamidine
+T2	Disease 41 64	ventricular tachycardia
+T3	Chemical 75 98	Pentamidine isethionate
+T4	Disease 124 152	ventricular tachyarrhythmias
+T5	Disease 164 182	torsade de pointes
+T6	Chemical 276 287	Pentamidine
+T7	Disease 296 314	torsade de pointes
+T8	Chemical 339 348	magnesium
+T9	Disease 360 374	hypomagnesemia
+T10	Disease 411 429	Torsade de pointes
+T11	Chemical 485 496	pentamidine
+T12	Chemical 548 559	pentamidine
+T13	Disease 575 593	Torsade de pointes
+T14	Chemical 668 679	pentamidine
+T15	Disease 686 711	QTc interval prolongation
+T16	Chemical 731 740	magnesium

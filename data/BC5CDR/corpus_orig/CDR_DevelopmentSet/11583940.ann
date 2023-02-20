@@ -1,0 +1,12 @@
+T1	Chemical 0 9	Sirolimus
+T2	Chemical 14 35	mycophenolate mofetil
+T3	Chemical 138 150	cyclosporine
+T4	Chemical 155 165	tacrolimus
+T5	Disease 353 367	nephrotoxicity
+T6	Disease 375 389	nephrotoxicity
+T7	Disease 495 509	nephrotoxicity
+T8	Disease 565 579	nephrotoxicity
+T9	Chemical 715 736	mycophenolate mofetil
+T10	Chemical 741 750	sirolimus
+T11	Chemical 752 761	rapamycin
+T12	Disease 772 786	nephrotoxicity

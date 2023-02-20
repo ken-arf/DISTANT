@@ -1,0 +1,23 @@
+T1	Chemical 30 39	bupropion
+T2	Disease 48 66	sexual dysfunction
+T3	Chemical 80 118	selective serotonin reuptake inhibitor
+T4	Chemical 237 246	bupropion
+T5	Disease 278 296	sexual dysfunction
+T6	Disease 298 300	SD
+T7	Chemical 315 353	selective serotonin reuptake inhibitor
+T8	Chemical 355 359	SSRI
+T9	Disease 365 367	SD
+T10	Chemical 395 400	SSRIs
+T11	Chemical 568 572	SSRI
+T12	Chemical 608 617	bupropion
+T13	Disease 903 923	Erectile Dysfunction
+T14	Chemical 1179 1188	bupropion
+T15	Chemical 1275 1284	bupropion
+T16	Chemical 1490 1499	bupropion
+T17	Chemical 1596 1605	bupropion
+T18	Disease 1813 1815	SD
+T19	Chemical 1825 1829	SSRI
+T20	Chemical 1857 1866	Bupropion
+T21	Disease 1902 1904	SD
+T22	Chemical 1916 1921	SSRIs
+T23	Chemical 1997 2006	bupropion

@@ -1,0 +1,15 @@
+T1	Chemical 0 8	Levodopa
+T2	Disease 17 28	dyskinesias
+T3	Disease 46 65	Parkinson's disease
+T4	Chemical 100 108	Levodopa
+T5	Disease 157 176	Parkinson's disease
+T6	Chemical 213 221	dopamine
+T7	Disease 284 295	dyskinesias
+T8	Chemical 435 443	levodopa
+T9	Disease 452 463	dyskinesias
+T10	Disease 550 569	Parkinson's disease
+T11	Disease 720 740	dyskinetic movements
+T12	Chemical 890 898	dopamine
+T13	Chemical 946 955	glutamate
+T14	Chemical 1039 1047	levodopa
+T15	Disease 1056 1067	dyskinesias

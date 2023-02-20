@@ -1,0 +1,29 @@
+T1	Chemical 0 15	Ginsenoside Rg1
+T2	Disease 29 51	impairment of learning
+T3	Chemical 71 79	morphine
+T4	Chemical 103 106	Rg1
+T5	Chemical 113 124	ginsenoside
+T6	Disease 180 199	learning impairment
+T7	Chemical 241 244	Rg1
+T8	Chemical 328 336	morphine
+T9	Chemical 393 396	Rg1
+T10	Disease 400 419	learning impairment
+T11	Chemical 431 439	morphine
+T12	Chemical 546 554	morphine
+T13	Chemical 616 619	Rg1
+T14	Chemical 700 708	morphine
+T15	Chemical 840 848	Morphine
+T16	Chemical 849 852	Rg1
+T17	Chemical 1050 1053	Rg1
+T18	Chemical 1108 1116	morphine
+T19	Chemical 1219 1222	Rg1
+T20	Chemical 1277 1285	morphine
+T21	Chemical 1344 1352	morphine
+T22	Chemical 1353 1356	Rg1
+T23	Chemical 1410 1430	N-methyl-D-aspartate
+T24	Chemical 1432 1436	NMDA
+T25	Chemical 1458 1463	MK801
+T26	Chemical 1482 1485	Rg1
+T27	Chemical 1561 1569	morphine
+T28	Chemical 1601 1609	morphine
+T29	Chemical 1640 1644	NMDA

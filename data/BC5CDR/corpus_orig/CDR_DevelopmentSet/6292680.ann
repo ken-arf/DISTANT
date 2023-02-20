@@ -1,0 +1,13 @@
+T1	Chemical 0 11	Doxorubicin
+T2	Disease 12 26	cardiomyopathy
+T3	Disease 55 66	Wilms tumor
+T4	Disease 85 96	Wilms tumor
+T5	Chemical 135 148	anthracycline
+T6	Disease 149 163	cardiomyopathy
+T7	Disease 189 194	tumor
+T8	Chemical 226 237	doxorubicin
+T9	Disease 243 257	cardiomyopathy
+T10	Disease 318 329	Wilms tumor
+T11	Chemical 398 409	doxorubicin
+T12	Chemical 468 479	doxorubicin
+T13	Disease 526 537	Wilms tumor

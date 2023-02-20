@@ -1,0 +1,26 @@
+T1	Disease 40 51	hypotension
+T2	Chemical 65 75	fenoldopam
+T3	Disease 128 139	hypotension
+T4	Chemical 310 318	dopamine
+T5	Chemical 323 325	DA
+T6	Chemical 332 340	dopamine
+T7	Chemical 344 346	DA
+T8	Chemical 405 424	Fenoldopam mesylate
+T9	Chemical 526 536	fenoldopam
+T10	Disease 561 572	hypotension
+T11	Chemical 852 862	fenoldopam
+T12	Chemical 867 873	sodium
+T13	Chemical 874 887	nitroprusside
+T14	Chemical 906 915	halothane
+T15	Chemical 1022 1032	fenoldopam
+T16	Chemical 1108 1114	sodium
+T17	Chemical 1115 1128	nitroprusside
+T18	Chemical 1203 1213	fenoldopam
+T19	Disease 1222 1233	hypotension
+T20	Chemical 1291 1297	sodium
+T21	Chemical 1298 1311	nitroprusside
+T22	Disease 1320 1331	hypotension
+T23	Chemical 1359 1372	nitroprusside
+T24	Disease 1508 1519	hypotension
+T25	Chemical 1547 1555	dopamine
+T26	Disease 1712 1723	hypotension

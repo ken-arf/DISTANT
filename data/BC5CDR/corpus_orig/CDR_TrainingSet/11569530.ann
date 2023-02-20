@@ -1,0 +1,25 @@
+T1	Chemical 61 66	E4031
+T2	Chemical 68 77	cisapride
+T3	Chemical 79 90	terfenadine
+T4	Chemical 95 105	terodiline
+T5	Disease 156 175	Torsades de pointes
+T6	Disease 177 180	TDP
+T7	Disease 205 228	ventricular tachycardia
+T8	Disease 319 322	TDP
+T9	Chemical 406 417	terfenadine
+T10	Chemical 422 432	terodiline
+T11	Disease 474 477	TDP
+T12	Disease 591 594	TDP
+T13	Chemical 614 625	terfenadine
+T14	Chemical 627 637	terodiline
+T15	Chemical 639 648	cisapride
+T16	Chemical 653 658	E4031
+T17	Chemical 1141 1152	terfenadine
+T18	Chemical 1163 1173	terodiline
+T19	Chemical 1183 1192	cisapride
+T20	Chemical 1205 1210	E4031
+T21	Disease 1323 1326	TDP
+T22	Chemical 1342 1353	terfenadine
+T23	Chemical 1355 1365	terodiline
+T24	Chemical 1367 1376	cisapride
+T25	Disease 1618 1621	TDP

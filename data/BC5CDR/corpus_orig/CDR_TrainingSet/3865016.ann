@@ -1,0 +1,10 @@
+T1	Chemical 80 89	etoposide
+T2	Chemical 94 107	cyclosporin A
+T3	Disease 139 167	acute T-lymphocytic leukemia
+T4	Chemical 214 223	etoposide
+T5	Chemical 228 241	cyclosporin A
+T6	Disease 289 310	leukemic infiltration
+T7	Disease 366 375	confusion
+T8	Disease 392 410	hyperbilirubinemia
+T9	Disease 492 500	toxicity
+T10	Chemical 603 616	cyclosporin A

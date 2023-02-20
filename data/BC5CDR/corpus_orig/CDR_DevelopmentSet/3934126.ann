@@ -1,0 +1,16 @@
+T1	Chemical 131 141	vancomycin
+T2	Chemical 207 217	Vancomycin
+T3	Disease 265 274	infection
+T4	Chemical 358 368	vancomycin
+T5	Disease 421 437	thrombophlebitis
+T6	Disease 459 463	rash
+T7	Disease 475 489	nephrotoxicity
+T8	Disease 501 512	proteinuria
+T9	Disease 527 538	ototoxicity
+T10	Disease 580 596	Thrombophlebitis
+T11	Disease 654 668	nephrotoxicity
+T12	Disease 673 684	ototoxicity
+T13	Chemical 724 738	aminoglycoside
+T14	Chemical 744 754	vancomycin
+T15	Chemical 773 783	vancomycin
+T16	Disease 853 863	infections

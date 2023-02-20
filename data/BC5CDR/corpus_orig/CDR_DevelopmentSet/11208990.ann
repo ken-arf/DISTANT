@@ -1,0 +1,33 @@
+T1	Chemical 15 27	nitric oxide
+T2	Disease 80 91	nephropathy
+T3	Chemical 143 155	nitric oxide
+T4	Chemical 157 159	NO
+T5	Chemical 274 276	NO
+T6	Disease 340 358	nephrotic syndrome
+T7	Chemical 392 402	adriamycin
+T8	Chemical 404 407	ADR
+T9	Chemical 441 443	NO
+T10	Chemical 478 485	nitrite
+T11	Chemical 657 660	ADR
+T12	Disease 669 680	nephropathy
+T13	Chemical 796 810	aminoguanidine
+T14	Chemical 812 814	AG
+T15	Chemical 859 861	NO
+T16	Chemical 1030 1033	ADR
+T17	Disease 1058 1081	mesangial proliferation
+T18	Disease 1091 1122	tubulointerstitial inflammation
+T19	Disease 1169 1180	proteinuria
+T20	Chemical 1242 1249	nitrite
+T21	Chemical 1293 1296	ADR
+T22	Disease 1297 1308	nephropathy
+T23	Chemical 1339 1352	phenylephrine
+T24	Chemical 1357 1370	acetylcholine
+T25	Chemical 1424 1427	ADR
+T26	Disease 1428 1439	nephropathy
+T27	Chemical 1503 1506	ADR
+T28	Disease 1507 1518	nephropathy
+T29	Chemical 1732 1734	AG
+T30	Chemical 1815 1822	nitrite
+T31	Chemical 1912 1914	NO
+T32	Chemical 1970 1973	ADR
+T33	Disease 1982 1991	nephrosis

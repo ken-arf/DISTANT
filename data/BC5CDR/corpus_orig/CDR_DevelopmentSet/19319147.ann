@@ -1,0 +1,21 @@
+T1	Disease 42 52	hemorrhage
+T2	Chemical 80 88	warfarin
+T3	Disease 100 124	intracerebral hemorrhage
+T4	Chemical 125 133	Warfarin
+T5	Disease 145 169	intracerebral hemorrhage
+T6	Disease 173 176	ICH
+T7	Disease 198 204	stroke
+T8	Disease 259 262	ICH
+T9	Chemical 353 384	prothrombin complex concentrate
+T10	Chemical 386 389	PCC
+T11	Chemical 461 469	warfarin
+T12	Chemical 627 630	PCC
+T13	Disease 748 758	hemorrhage
+T14	Chemical 847 850	PCC
+T15	Disease 919 929	hemorrhage
+T16	Chemical 1068 1071	PCC
+T17	Disease 1221 1230	hematomas
+T18	Chemical 1311 1314	PCC
+T19	Chemical 1362 1365	PCC
+T20	Disease 1407 1410	ICH
+T21	Disease 1558 1561	ICH

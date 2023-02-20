@@ -1,0 +1,26 @@
+T1	Chemical 32 40	morphine
+T2	Disease 49 79	increase in locomotor activity
+T3	Chemical 128 136	morphine
+T4	Disease 145 175	increase in locomotor activity
+T5	Chemical 244 252	morphine
+T6	Disease 275 305	increase in locomotor activity
+T7	Chemical 319 327	morphine
+T8	Disease 336 349	hyperactivity
+T9	Chemical 369 380	scopolamine
+T10	Chemical 399 412	physostigmine
+T11	Chemical 432 447	methscopolamine
+T12	Chemical 452 463	neostigmine
+T13	Disease 534 547	hyperactivity
+T14	Chemical 560 568	morphine
+T15	Chemical 596 616	alpha-methyltyrosine
+T16	Chemical 660 668	tyrosine
+T17	Chemical 741 749	morphine
+T18	Chemical 788 809	p-chlorophenylalamine
+T19	Chemical 841 850	serotonin
+T20	Disease 897 910	hyperactivity
+T21	Chemical 971 979	morphine
+T22	Chemical 1011 1025	catecholamines
+T23	Chemical 1120 1128	morphine
+T24	Chemical 1162 1175	acetylcholine
+T25	Chemical 1299 1307	morphine
+T26	Chemical 1413 1421	morphine

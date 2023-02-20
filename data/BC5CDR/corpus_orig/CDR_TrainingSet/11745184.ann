@@ -1,0 +1,41 @@
+T1	Chemical 20 29	cisplatin
+T2	Chemical 35 42	WR-2721
+T3	Chemical 44 54	amifostine
+T4	Disease 71 87	breast carcinoma
+T5	Chemical 153 162	Cisplatin
+T6	Disease 253 269	breast carcinoma
+T7	Chemical 347 356	cisplatin
+T8	Chemical 445 454	cisplatin
+T9	Disease 474 484	toxicities
+T10	Chemical 501 510	cisplatin
+T11	Disease 518 532	nephrotoxicity
+T12	Disease 534 545	ototoxicity
+T13	Disease 551 564	neurotoxicity
+T14	Disease 606 622	breast carcinoma
+T15	Chemical 624 631	WR-2721
+T16	Chemical 635 645	amifostine
+T17	Chemical 729 739	Amifostine
+T18	Chemical 815 832	alkylating agents
+T19	Chemical 837 846	cisplatin
+T20	Chemical 924 933	cisplatin
+T21	Chemical 938 948	amifostine
+T22	Chemical 999 1008	cisplatin
+T23	Disease 1017 1031	nephrotoxicity
+T24	Disease 1033 1044	ototoxicity
+T25	Disease 1050 1060	neuropathy
+T26	Chemical 1123 1132	cisplatin
+T27	Chemical 1138 1148	amifostine
+T28	Disease 1203 1219	breast carcinoma
+T29	Chemical 1328 1338	amifostine
+T30	Chemical 1405 1415	amifostine
+T31	Chemical 1426 1435	cisplatin
+T32	Chemical 1506 1514	mannitol
+T33	Chemical 1549 1558	cisplatin
+T34	Disease 1939 1958	Neurologic toxicity
+T35	Disease 2025 2035	toxicities
+T36	Chemical 2121 2130	cisplatin
+T37	Chemical 2135 2145	amifostine
+T38	Disease 2215 2220	tumor
+T39	Disease 2251 2259	toxicity
+T40	Chemical 2312 2322	amifostine
+T41	Chemical 2326 2335	cisplatin

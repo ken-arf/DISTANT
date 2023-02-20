@@ -1,0 +1,22 @@
+T1	Chemical 0 12	Procainamide
+T2	Disease 34 57	ventricular tachycardia
+T3	Chemical 73 85	procainamide
+T4	Disease 107 130	ventricular tachycardia
+T5	Disease 177 200	ventricular tachycardia
+T6	Chemical 263 275	procainamide
+T7	Disease 307 330	ventricular tachycardia
+T8	Chemical 365 377	procainamide
+T9	Disease 427 461	premature ventricular contractions
+T10	Disease 465 479	atrial flutter
+T11	Disease 500 516	Q-T prolongation
+T12	Disease 531 538	syncope
+T13	Disease 559 582	ventricular tachycardia
+T14	Disease 606 616	arrhythmia
+T15	Disease 697 707	arrhythmia
+T16	Disease 730 740	arrhythmia
+T17	Disease 771 795	ventricular fibrillation
+T18	Chemical 920 932	procainamide
+T19	Disease 955 978	ventricular tachycardia
+T20	Chemical 1031 1043	procainamide
+T21	Disease 1068 1090	prolonged Q-T syndrome
+T22	Disease 1109 1132	ventricular tachycardia

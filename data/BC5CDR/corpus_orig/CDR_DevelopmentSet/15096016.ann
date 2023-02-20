@@ -1,0 +1,12 @@
+T1	Disease 106 125	Parkinson's disease
+T2	Disease 127 129	PD
+T3	Disease 270 272	PD
+T4	Disease 665 667	PD
+T5	Disease 677 688	dyskinesias
+T6	Disease 729 737	rigidity
+T7	Disease 739 751	bradykinesia
+T8	Disease 808 820	bradykinesia
+T9	Disease 825 833	rigidity
+T10	Chemical 900 908	levodopa
+T11	Disease 917 928	dyskinesias
+T12	Disease 979 999	hyper- or dyskinetic

@@ -1,0 +1,26 @@
+T1	Chemical 14 30	poly(ADP-ribose)
+T2	Chemical 72 83	doxorubicin
+T3	Disease 92 105	heart failure
+T4	Chemical 139 155	poly(ADP-ribose)
+T5	Disease 378 392	cardiotoxicity
+T6	Chemical 396 407	doxorubicin
+T7	Chemical 409 412	DOX
+T8	Chemical 439 452	anthracycline
+T9	Chemical 537 540	DOX
+T10	Disease 549 563	cardiotoxicity
+T11	Chemical 701 705	PJ34
+T12	Disease 765 784	cardiac dysfunction
+T13	Chemical 796 799	DOX
+T14	Chemical 861 864	DOX
+T15	Chemical 897 900	DOX
+T16	Chemical 1104 1108	PJ34
+T17	Chemical 1138 1142	PJ34
+T18	Disease 1166 1185	cardiac dysfunction
+T19	Chemical 1241 1245	PJ34
+T20	Chemical 1272 1275	DOX
+T21	Chemical 1306 1313	lactate
+T22	Chemical 1332 1340	creatine
+T23	Disease 1451 1465	cardiotoxicity
+T24	Chemical 1469 1472	DOX
+T25	Disease 1553 1574	cardiac complications
+T26	Chemical 1595 1598	DOX

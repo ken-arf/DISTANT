@@ -1,0 +1,23 @@
+T1	Chemical 38 45	lithium
+T2	Disease 54 62	polyuria
+T3	Chemical 124 131	lithium
+T4	Disease 140 148	polyuria
+T5	Chemical 199 212	prostaglandin
+T6	Chemical 214 216	PG
+T7	Chemical 295 302	lithium
+T8	Disease 311 319	polyuria
+T9	Chemical 352 367	prostaglandin E
+T10	Chemical 415 419	LiCl
+T11	Disease 483 491	polyuria
+T12	Chemical 602 608	PGE(2)
+T13	Chemical 676 683	lithium
+T14	Disease 692 700	polyuria
+T15	Chemical 789 795	PGE(2)
+T16	Chemical 1005 1012	lithium
+T17	Chemical 1233 1235	Na
+T18	Chemical 1236 1237	K
+T19	Chemical 1239 1241	Cl
+T20	Chemical 1346 1353	lithium
+T21	Chemical 1511 1517	PGE(2)
+T22	Chemical 1527 1534	lithium
+T23	Disease 1543 1551	polyuria

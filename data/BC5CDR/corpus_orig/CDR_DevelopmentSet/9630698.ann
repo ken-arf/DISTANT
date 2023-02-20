@@ -1,0 +1,15 @@
+T1	Chemical 20 27	glycine
+T2	Chemical 36 40	NMDA
+T3	Chemical 216 223	glycine
+T4	Chemical 232 236	NMDA
+T5	Disease 630 645	Muscle rigidity
+T6	Chemical 661 672	haloperidol
+T7	Chemical 691 717	5,7-dichlorokynurenic acid
+T8	Chemical 719 727	5,7-DCKA
+T9	Chemical 742 749	glycine
+T10	Chemical 891 902	haloperidol
+T11	Disease 911 926	muscle rigidity
+T12	Chemical 984 992	5,7-DCKA
+T13	Chemical 1129 1140	haloperidol
+T14	Chemical 1224 1231	glycine
+T15	Chemical 1240 1244	NMDA

@@ -1,0 +1,39 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+#dict_dir: data/Mesh/dict
+#processed_dict_dir: data/Mesh/processed_dict
+#cytokine_dict_file: cytokine.dict
+#tf_dict_file: tf.dict
+#t-lymphocyte_dict_file: t-lymphocyte.dict 
+#protein_dict_file: protein.dict 
+
+document_root_dir: data/BC5CDR/corpus
+annotation_root_dir: data/BC5CDR/corpus.annotate
+
+corpus_dir: data/Corpus/BC5CDR
+
+# model save dir
+model_dir: experiments/bc5cdr/models
+
+# bert model
+seed: 22
+model_checkpoint: allenai/scibert_scivocab_cased
+# nn model
+dropout_rate: 0.3
+embedding_dim: 768
+
+# positive entities + unknown
+
+entity_names:
+        - Chemical 
+        - Disease
+# gpu
+gpu: 0 
+
+# restore model
+restore_model_path: experiments/bc5cdr/models/model_best_final.pth
+
+segmentation_predict_config: configs/bc5cdr_segmentation_predict.yaml

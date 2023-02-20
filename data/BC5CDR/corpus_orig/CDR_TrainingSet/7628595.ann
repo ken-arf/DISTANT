@@ -1,0 +1,25 @@
+T1	Chemical 21 32	vitamin B12
+T2	Chemical 37 49	folinic acid
+T3	Disease 92 100	toxicity
+T4	Chemical 104 114	zidovudine
+T5	Chemical 185 196	vitamin B12
+T6	Chemical 201 213	folinic acid
+T7	Chemical 244 254	zidovudine
+T8	Chemical 256 259	ZDV
+T9	Disease 269 292	bone marrow suppression
+T10	Disease 307 350	human immunodeficiency virus (HIV)-infected
+T11	Chemical 426 429	ZDV
+T12	Chemical 492 504	folinic acid
+T13	Chemical 537 548	vitamin B12
+T14	Disease 664 669	death
+T15	Chemical 841 852	vitamin B12
+T16	Chemical 857 863	folate
+T17	Disease 1116 1124	toxicity
+T18	Chemical 1286 1297	vitamin B12
+T19	Chemical 1301 1307	folate
+T20	Disease 1334 1350	myelosuppression
+T21	Chemical 1352 1363	Vitamin B12
+T22	Chemical 1368 1380	folinic acid
+T23	Chemical 1400 1403	ZDV
+T24	Chemical 1459 1462	ZDV
+T25	Disease 1471 1484	myelotoxicity

@@ -192,7 +192,7 @@ def main():
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    files = glob.glob(f"{corpus_dir}/*")
+    files = glob.glob(f"{corpus_dir}/*.txt")
 
     match_count = annotate(files, parameters)
 

@@ -1,0 +1,22 @@
+T1	Chemical 11 18	ouabain
+T2	Chemical 33 39	oxygen
+T3	Disease 83 106	coronary artery disease
+T4	Disease 175 188	heart failure
+T5	Chemical 204 224	digitalis glycosides
+T6	Chemical 239 245	oxygen
+T7	Disease 322 345	coronary artery disease
+T8	Chemical 420 427	ouabain
+T9	Disease 542 565	coronary artery disease
+T10	Disease 583 607	congestive heart failure
+T11	Chemical 778 785	ouabain
+T12	Chemical 923 930	ouabain
+T13	Chemical 1214 1221	ouabain
+T14	Chemical 1549 1555	oxygen
+T15	Chemical 1583 1590	ouabain
+T16	Chemical 1685 1692	ouabain
+T17	Disease 1774 1797	coronary artery disease
+T18	Disease 1822 1846	congestive heart failure
+T19	Disease 1847 1890	left ventricular end-diastolic volume falls
+T20	Chemical 1897 1904	ouabain
+T21	Chemical 2054 2060	oxygen
+T22	Chemical 2152 2158	oxygen

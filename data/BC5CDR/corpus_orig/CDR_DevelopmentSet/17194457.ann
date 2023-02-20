@@ -1,0 +1,35 @@
+T1	Chemical 51 58	steroid
+T2	Chemical 90 99	serotonin
+T3	Chemical 192 199	steroid
+T4	Chemical 225 234	serotonin
+T5	Chemical 236 255	5-hydroxytryptamine
+T6	Chemical 257 261	5-HT
+T7	Chemical 308 317	Serotonin
+T8	Chemical 366 389	parachlorophenylalanine
+T9	Chemical 391 395	PCPA
+T10	Chemical 478 482	PCPA
+T11	Chemical 550 562	testosterone
+T12	Chemical 564 565	T
+T13	Disease 631 643	irritability
+T14	Disease 681 691	aggression
+T15	Disease 717 727	aggression
+T16	Chemical 826 830	5-HT
+T17	Chemical 851 877	5-hydroxyindoleacetic acid
+T18	Chemical 879 885	5-HIAA
+T19	Chemical 916 920	PCPA
+T20	Chemical 962 966	5-HT
+T21	Chemical 971 977	5-HIAA
+T22	Chemical 1017 1018	T
+T23	Chemical 1053 1057	5-HT
+T24	Chemical 1062 1068	5-HIAA
+T25	Chemical 1126 1130	PCPA
+T26	Chemical 1152 1156	PCPA
+T27	Disease 1220 1232	irritability
+T28	Disease 1294 1304	aggression
+T29	Chemical 1306 1307	T
+T30	Disease 1343 1355	irritability
+T31	Disease 1413 1423	aggression
+T32	Chemical 1463 1464	T
+T33	Chemical 1465 1469	PCPA
+T34	Chemical 1705 1709	5-HT
+T35	Disease 1745 1764	aggressive behavior

@@ -1,0 +1,14 @@
+T1	Disease 41 53	liver tumors
+T2	Chemical 70 89	oral contraceptives
+T3	Disease 137 149	liver tumors
+T4	Chemical 186 204	oral contraceptive
+T5	Chemical 205 213	steroids
+T6	Disease 232 244	Liver Tumors
+T7	Chemical 261 280	Oral Contraceptives
+T8	Disease 468 493	focal nodular hyperplasia
+T9	Disease 495 502	adenoma
+T10	Disease 504 513	hamartoma
+T11	Disease 519 527	hepatoma
+T12	Chemical 612 630	oral contraceptive
+T13	Chemical 631 639	steroids
+T14	Disease 664 671	rupture

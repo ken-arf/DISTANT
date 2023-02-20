@@ -1,0 +1,27 @@
+T1	Chemical 80 115	N10-propargyl-5,8-dideazafolic acid
+T2	Chemical 117 124	CB 3717
+T3	Chemical 126 133	CB 3717
+T4	Chemical 135 170	N10-propargyl-5,8-dideazafolic acid
+T5	Disease 236 248	cytotoxicity
+T6	Chemical 381 388	CB 3717
+T7	Chemical 466 473	CB 3717
+T8	Chemical 538 545	CB 3717
+T9	Chemical 773 780	CB 3717
+T10	Chemical 863 870	CB 3717
+T11	Disease 871 883	cytotoxicity
+T12	Chemical 916 923	CB 3717
+T13	Disease 951 964	breast cancer
+T14	Disease 966 980	ovarian cancer
+T15	Disease 982 990	hepatoma
+T16	Disease 996 1008	mesothelioma
+T17	Disease 1010 1020	Toxicities
+T18	Disease 1030 1044	hepatotoxicity
+T19	Disease 1046 1053	malaise
+T20	Disease 1073 1087	nephrotoxicity
+T21	Chemical 1213 1220	CB 3717
+T22	Chemical 1306 1313	CB 3717
+T23	Disease 1433 1447	nephrotoxicity
+T24	Disease 1495 1509	renal toxicity
+T25	Disease 1526 1540	Hepatotoxicity
+T26	Disease 1545 1552	malaise
+T27	Chemical 1735 1742	CB 3717

@@ -1,0 +1,18 @@
+T1	Chemical 13 25	cyclosporine
+T2	Disease 26 40	nephrotoxicity
+T3	Chemical 87 99	cyclosporine
+T4	Chemical 101 104	CSA
+T5	Disease 183 197	renal toxicity
+T6	Chemical 252 255	CSA
+T7	Chemical 380 383	CSA
+T8	Disease 426 437	nephrotoxic
+T9	Chemical 457 467	gentamicin
+T10	Chemical 492 507	amphothericin B
+T11	Chemical 512 524	ketoconazole
+T12	Chemical 604 607	CSA
+T13	Disease 616 624	toxicity
+T14	Chemical 643 653	Gentamicin
+T15	Chemical 689 692	CSA
+T16	Disease 693 707	nephrotoxicity
+T17	Disease 719 733	nephrotoxicity
+T18	Chemical 745 748	CSA

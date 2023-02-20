@@ -1,0 +1,21 @@
+T1	Disease 12 20	toxicity
+T2	Chemical 24 34	didanosine
+T3	Chemical 36 39	ddI
+T4	Disease 44 65	HIV antibody-positive
+T5	Chemical 92 102	zidovudine
+T6	Chemical 104 107	AZT
+T7	Chemical 157 167	zidovudine
+T8	Chemical 169 172	AZT
+T9	Chemical 183 193	didanosine
+T10	Chemical 195 198	ddI
+T11	Disease 393 417	opportunistic infections
+T12	Disease 456 460	AIDS
+T13	Disease 546 550	AIDS
+T14	Chemical 1021 1031	didanosine
+T15	Disease 1077 1086	diarrhoea
+T16	Disease 1146 1167	Peripheral neuropathy
+T17	Disease 1196 1208	pancreatitis
+T18	Disease 1276 1290	abdominal pain
+T19	Disease 1317 1341	glucose tolerance curves
+T20	Disease 1360 1368	diabetes
+T21	Chemical 1450 1460	didanosine

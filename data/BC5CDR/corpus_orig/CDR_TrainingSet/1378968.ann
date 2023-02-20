@@ -1,0 +1,26 @@
+T1	Chemical 54 61	lithium
+T2	Disease 70 91	chronic renal failure
+T3	Chemical 110 117	lithium
+T4	Disease 126 137	nephropathy
+T5	Disease 308 321	renal failure
+T6	Chemical 361 368	lithium
+T7	Chemical 519 526	lithium
+T8	Chemical 580 587	lithium
+T9	Chemical 607 614	lithium
+T10	Chemical 631 638	lithium
+T11	Chemical 819 826	lithium
+T12	Chemical 852 859	lithium
+T13	Chemical 940 942	Li
+T14	Chemical 954 961	Lithium
+T15	Disease 974 985	proteinuria
+T16	Disease 999 1011	hypertension
+T17	Disease 1026 1044	glomerulosclerosis
+T18	Disease 1086 1099	renal failure
+T19	Chemical 1155 1165	creatinine
+T20	Chemical 1176 1183	lithium
+T21	Chemical 1332 1334	Li
+T22	Chemical 1378 1380	Li
+T23	Disease 1389 1400	nephropathy
+T24	Disease 1465 1476	proteinuria
+T25	Disease 1499 1511	hypertension
+T26	Disease 1530 1551	chronic renal failure

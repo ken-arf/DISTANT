@@ -1,0 +1,29 @@
+T1	Disease 30 34	pain
+T2	Disease 45 49	CIPS
+T3	Disease 117 121	pain
+T4	Disease 271 275	pain
+T5	Disease 303 307	pain
+T6	Disease 490 508	bone marrow oedema
+T7	Disease 490 501	bone marrow
+T8	Disease 502 508	oedema
+T9	Disease 531 535	Pain
+T10	Disease 585 589	pain
+T11	Disease 596 624	reflex sympathetic dystrophy
+T12	Disease 626 640	polyneuropathy
+T13	Disease 642 660	Morton's neuralgia
+T14	Disease 662 666	gout
+T15	Disease 668 680	osteoporosis
+T16	Disease 682 700	avascular necrosis
+T17	Disease 702 727	intermittent claudication
+T18	Disease 741 757	foot deformities
+T19	Disease 759 775	stress fractures
+T20	Disease 781 800	hyperparathyroidism
+T21	Chemical 819 831	cyclosporine
+T22	Chemical 836 846	tacrolimus
+T23	Chemical 887 894	calcium
+T24	Disease 929 933	pain
+T25	Disease 969 973	Pain
+T26	Disease 984 988	CIPS
+T27	Chemical 1026 1038	cyclosporine
+T28	Chemical 1042 1052	tacrolimus
+T29	Disease 1269 1273	CIPS

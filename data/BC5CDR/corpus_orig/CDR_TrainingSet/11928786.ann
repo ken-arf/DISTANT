@@ -1,0 +1,25 @@
+T1	Chemical 0 9	Bupropion
+T2	Chemical 11 16	Zyban
+T3	Disease 18 26	toxicity
+T4	Chemical 27 36	Bupropion
+T5	Chemical 53 67	antidepressant
+T6	Chemical 92 103	amphetamine
+T7	Chemical 105 110	Zyban
+T8	Chemical 147 170	bupropion hydrochloride
+T9	Disease 286 294	overdose
+T10	Disease 397 405	toxicity
+T11	Disease 432 443	tachycardia
+T12	Disease 457 471	hallucinations
+T13	Disease 476 487	convulsions
+T14	Disease 519 538	cardiac arrhythmias
+T15	Disease 595 609	cardiac arrest
+T16	Chemical 817 826	bupropion
+T17	Disease 838 846	seizures
+T18	Chemical 865 873	diazepam
+T19	Disease 892 903	tachycardia
+T20	Chemical 934 943	adenosine
+T21	Chemical 945 950	Zyban
+T22	Disease 970 1010	neurological and cardiovascular toxicity
+T23	Disease offset[0] offset[1];offset[0] offset[1]	neurological toxicity
+T24	Disease 987 1010	cardiovascular toxicity
+T25	Disease 1014 1022	overdose

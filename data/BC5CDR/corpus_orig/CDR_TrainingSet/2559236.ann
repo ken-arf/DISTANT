@@ -1,0 +1,18 @@
+T1	Chemical 56 66	adriamycin
+T2	Disease 75 86	nephropathy
+T3	Chemical 139 148	enalapril
+T4	Chemical 201 211	adriamycin
+T5	Disease 212 221	nephrosis
+T6	Chemical 256 266	adriamycin
+T7	Disease 324 335	albuminuria
+T8	Chemical 451 460	enalapril
+T9	Chemical 561 570	enalapril
+T10	Disease 767 778	albuminuria
+T11	Chemical 941 950	enalapril
+T12	Disease 969 981	renal injury
+T13	Chemical 985 995	adriamycin
+T14	Disease 996 1005	nephrosis
+T15	Chemical 1015 1024	enalapril
+T16	Disease 1075 1086	albuminuria
+T17	Chemical 1233 1242	Enalapril
+T18	Disease 1470 1490	glomerular sclerosis

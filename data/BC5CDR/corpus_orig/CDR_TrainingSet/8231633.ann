@@ -1,0 +1,17 @@
+T1	Chemical 11 18	calcium
+T2	Chemical 39 50	bupivacaine
+T3	Disease 59 67	toxicity
+T4	Chemical 130 137	calcium
+T5	Chemical 158 169	bupivacaine
+T6	Disease 184 192	toxicity
+T7	Chemical 223 230	calcium
+T8	Chemical 249 258	diltiazem
+T9	Chemical 260 269	verapamil
+T10	Chemical 274 282	bepridil
+T11	Chemical 509 520	bupivacaine
+T12	Chemical 721 728	calcium
+T13	Chemical 774 785	bupivacaine
+T14	Chemical 821 828	calcium
+T15	Chemical 886 897	bupivacaine
+T16	Disease 906 917	convulsions
+T17	Chemical 956 964	bepridil

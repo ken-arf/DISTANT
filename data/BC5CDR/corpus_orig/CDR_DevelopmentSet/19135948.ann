@@ -1,0 +1,27 @@
+T1	Disease 0 25	Graft-versus-host disease
+T2	Chemical 43 53	everolimus
+T3	Chemical 58 68	tacrolimus
+T4	Disease 108 139	sinusoidal obstruction syndrome
+T5	Disease 144 159	microangiopathy
+T6	Chemical 226 238	methotrexate
+T7	Disease 271 296	graft-versus-host disease
+T8	Disease 298 302	GVHD
+T9	Chemical 369 379	Everolimus
+T10	Chemical 397 406	sirolimus
+T11	Chemical 477 487	everolimus
+T12	Chemical 492 502	tacrolimus
+T13	Disease 553 577	myelodysplastic syndrome
+T14	Disease 579 582	MDS
+T15	Disease 595 617	acute myeloid leukemia
+T16	Disease 619 622	AML
+T17	Disease 797 806	mucositis
+T18	Disease 856 860	GVHD
+T19	Disease 928 932	GVHD
+T20	Disease 934 976	Transplantation-associated microangiopathy
+T21	Disease 978 981	TMA
+T22	Disease 1029 1048	acute renal failure
+T23	Disease 1136 1167	sinusoidal obstruction syndrome
+T24	Disease 1169 1172	SOS
+T25	Disease 1373 1377	GVHD
+T26	Disease 1396 1399	TMA
+T27	Disease 1404 1407	SOS

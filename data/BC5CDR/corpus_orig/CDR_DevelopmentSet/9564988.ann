@@ -1,0 +1,10 @@
+T1	Chemical 25 37	levofloxacin
+T2	Disease 75 84	sinusitis
+T3	Chemical 143 155	levofloxacin
+T4	Disease 252 261	sinusitis
+T5	Chemical 1612 1624	levofloxacin
+T6	Disease 1724 1732	diarrhea
+T7	Disease 1734 1744	flatulence
+T8	Disease 1750 1756	nausea
+T9	Chemical 1865 1877	levofloxacin
+T10	Disease 1951 1960	sinusitis

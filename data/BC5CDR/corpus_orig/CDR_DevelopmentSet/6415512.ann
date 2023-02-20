@@ -1,0 +1,14 @@
+T1	Disease 0 39	Myoclonic, atonic, and absence seizures
+T2	Disease offset[0] offset[1];offset[0] offset[1]	Myoclonic seizures
+T3	Disease 23 39	absence seizures
+T4	Chemical 65 78	carbamazepine
+T5	Chemical 147 160	carbamazepine
+T6	Disease 165 173	epilepsy
+T7	Disease 236 300	myoclonic, atypical absence and/or atonic (minor motor) seizures
+T8	Disease offset[0] offset[1];offset[0] offset[1]	myoclonic seizures
+T9	Disease offset[0] offset[1];offset[0] offset[1]	atypical absence seizures
+T10	Chemical 329 342	carbamazepine
+T11	Disease 450 458	seizures
+T12	Disease 502 510	seizures
+T13	Disease 542 550	seizures
+T14	Disease 585 606	ceroid lipofuscinosis

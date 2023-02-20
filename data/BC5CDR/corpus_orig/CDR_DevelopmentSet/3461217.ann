@@ -1,0 +1,14 @@
+T1	Disease 28 43	prostate cancer
+T2	Chemical 85 107	N-nitroso-N-methylurea
+T3	Chemical 112 124	testosterone
+T4	Disease 200 224	prostate adenocarcinomas
+T5	Disease 226 229	PAs
+T6	Chemical 257 279	N-nitroso-N-methylurea
+T7	Chemical 300 323	testosterone propionate
+T8	Chemical 326 328	TP
+T9	Disease 361 366	tumor
+T10	Disease 523 525	PA
+T11	Chemical 549 551	TP
+T12	Chemical 566 568	TP
+T13	Disease 580 585	tumor
+T14	Disease 649 664	prostate cancer

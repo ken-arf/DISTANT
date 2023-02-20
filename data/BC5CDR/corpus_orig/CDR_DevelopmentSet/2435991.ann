@@ -1,0 +1,21 @@
+T1	Chemical 40 51	cibenzoline
+T2	Disease 62 85	ventricular arrhythmias
+T3	Chemical 122 131	digitalis
+T4	Chemical 138 148	adrenaline
+T5	Disease 164 187	ventricular arrhythmias
+T6	Chemical 215 226	cibenzoline
+T7	Disease 297 307	arrhythmia
+T8	Chemical 330 341	Cibenzoline
+T9	Disease 361 372	arrhythmias
+T10	Disease 426 437	arrhythmias
+T11	Chemical 497 506	digitalis
+T12	Chemical 512 522	adrenaline
+T13	Chemical 730 740	adrenaline
+T14	Disease 749 759	arrhythmia
+T15	Disease 819 830	arrhythmias
+T16	Chemical 884 894	mexiletine
+T17	Chemical 899 908	tocainide
+T18	Chemical 990 1001	cibenzoline
+T19	Disease 1016 1027	hypotensive
+T20	Disease 1043 1053	depressive
+T21	Disease 1128 1138	arrhythmia

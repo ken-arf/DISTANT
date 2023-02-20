@@ -1,0 +1,37 @@
+T1	Disease 0 11	Proteinuria
+T2	Chemical 32 41	sirolimus
+T3	Chemical 73 82	Sirolimus
+T4	Chemical 84 87	SRL
+T5	Disease 146 157	proteinuria
+T6	Chemical 196 205	sirolimus
+T7	Disease 370 381	proteinuria
+T8	Chemical 388 391	SRL
+T9	Chemical 459 462	SRL
+T10	Disease 493 522	chronic allograft nephropathy
+T11	Disease 524 527	CAN
+T12	Disease 538 547	neoplasia
+T13	Disease 557 573	Kaposi's sarcoma
+T14	Disease 580 592	skin cancers
+T15	Disease 598 615	intestinal tumors
+T16	Disease 621 640	renal cell carsinom
+T17	Disease 654 665	nephropathy
+T18	Chemical 675 678	SRL
+T19	Chemical 774 777	SRL
+T20	Disease 818 829	Proteinuria
+T21	Disease 980 991	proteinuria
+T22	Disease 1029 1040	proteinuria
+T23	Disease 1061 1072	proteinuria
+T24	Disease 1223 1234	proteinuria
+T25	Disease 1242 1251	nephrotic
+T26	Disease 1334 1370	membranoproliferative glomerulopathy
+T27	Disease 1375 1397	interstitial nephritis
+T28	Chemical 1461 1471	creatinine
+T29	Chemical 1535 1538	SRL
+T30	Disease 1684 1687	CAN
+T31	Disease 1692 1708	Kaposi's sarcoma
+T32	Chemical 1862 1872	creatinine
+T33	Disease 1956 1967	proteinuria
+T34	Chemical 1996 1999	SRL
+T35	Disease 2133 2136	CAN
+T36	Disease 2141 2152	proteinuria
+T37	Chemical 2208 2211	SRL

@@ -1,0 +1,23 @@
+T1	Chemical 44 57	anthracycline
+T2	Disease 66 80	cardiotoxicity
+T3	Chemical 81 95	Anthracyclines
+T4	Disease 171 185	cardiotoxicity
+T5	Disease 191 205	cardiotoxicity
+T6	Chemical 222 235	anthracycline
+T7	Disease 336 355	cardiac dysfunction
+T8	Chemical 494 507	anthracycline
+T9	Disease 516 530	cardiotoxicity
+T10	Disease 548 562	acute leukemia
+T11	Chemical 578 590	daunorubicin
+T12	Chemical 592 595	DNR
+T13	Disease 640 654	acute leukemia
+T14	Chemical 675 678	DNR
+T15	Disease 927 951	congestive heart failure
+T16	Disease 1041 1054	heart failure
+T17	Disease 1168 1181	heart failure
+T18	Disease 1274 1287	heart failure
+T19	Disease 1381 1394	heart failure
+T20	Chemical 1401 1404	DNR
+T21	Disease 1535 1548	heart failure
+T22	Chemical 1646 1659	anthracycline
+T23	Disease 1668 1682	cardiotoxicity

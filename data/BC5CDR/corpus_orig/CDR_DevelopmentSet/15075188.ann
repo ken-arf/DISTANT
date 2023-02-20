@@ -1,0 +1,32 @@
+T1	Chemical 68 93	puromycin aminonucleoside
+T2	Disease 102 120	nephrotic syndrome
+T3	Disease 129 147	Nephrotic syndrome
+T4	Chemical 172 178	sodium
+T5	Disease 205 210	edema
+T6	Chemical 265 271	sodium
+T7	Chemical 333 335	Na
+T8	Chemical 410 416	sodium
+T9	Chemical 475 500	puromycin aminonucleoside
+T10	Chemical 502 505	PAN
+T11	Chemical 585 588	PAN
+T12	Disease 619 630	proteinuria
+T13	Disease 632 647	hypoalbuminemia
+T14	Chemical 667 673	sodium
+T15	Disease 699 706	ascites
+T16	Chemical 1412 1415	PAN
+T17	Chemical 1530 1532	Na
+T18	Chemical 1536 1537	H
+T19	Chemical 1566 1568	Na
+T20	Chemical 1572 1573	K
+T21	Chemical 1578 1580	Cl
+T22	Chemical 1611 1619	thiazide
+T23	Chemical 1630 1632	Na
+T24	Chemical 1636 1638	Cl
+T25	Chemical 1733 1735	Na
+T26	Chemical 1736 1737	K
+T27	Chemical 2016 2022	sodium
+T28	Chemical 2049 2052	PAN
+T29	Disease 2061 2079	nephrotic syndrome
+T30	Chemical 2130 2132	Na
+T31	Chemical 2133 2134	K
+T32	Chemical 2182 2188	sodium

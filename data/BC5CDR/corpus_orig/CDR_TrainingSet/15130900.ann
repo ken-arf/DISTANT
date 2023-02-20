@@ -1,0 +1,25 @@
+T1	Disease 0 22	Urinary bladder cancer
+T2	Disease 26 50	Wegener's granulomatosis
+T3	Chemical 74 90	cyclophosphamide
+T4	Disease 141 155	bladder cancer
+T5	Chemical 177 193	cyclophosphamide
+T6	Disease 212 236	Wegener's granulomatosis
+T7	Disease 341 365	Wegener's granulomatosis
+T8	Disease 425 431	Cancer
+T9	Disease 485 499	bladder cancer
+T10	Chemical 622 638	cyclophosphamide
+T11	Disease 643 657	bladder cancer
+T12	Disease 737 751	bladder cancer
+T13	Disease 758 782	Wegener's granulomatosis
+T14	Disease 828 842	bladder cancer
+T15	Disease 871 895	Wegener's granulomatosis
+T16	Chemical 958 974	cyclophosphamide
+T17	Disease 1065 1079	bladder cancer
+T18	Chemical 1116 1132	cyclophosphamide
+T19	Disease 1324 1338	bladder cancer
+T20	Disease 1393 1417	Wegener's granulomatosis
+T21	Disease 1436 1450	bladder cancer
+T22	Disease 1531 1555	Wegener's granulomatosis
+T23	Chemical 1627 1643	cyclophosphamide
+T24	Disease 1660 1674	bladder cancer
+T25	Disease 1783 1807	Wegener's granulomatosis

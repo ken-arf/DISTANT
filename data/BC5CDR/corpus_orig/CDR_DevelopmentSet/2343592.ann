@@ -1,0 +1,14 @@
+T1	Disease 0 7	Seizure
+T2	Chemical 22 30	imipenem
+T3	Disease 113 139	cerebral vascular accident
+T4	Disease 141 144	CVA
+T5	Disease 149 160	head trauma
+T6	Disease 180 193	renal disease
+T7	Disease 204 212	seizures
+T8	Chemical 246 265	imipenem/cilastatin
+T9	Disease 305 313	seizures
+T10	Disease 317 324	seizure
+T11	Disease 384 392	seizures
+T12	Chemical 435 444	phenytoin
+T13	Chemical 496 507	beta-lactam
+T14	Disease 540 547	seizure

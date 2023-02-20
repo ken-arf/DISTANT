@@ -1,0 +1,33 @@
+T1	Disease 0 29	Transient neurologic symptoms
+T2	Chemical 78 88	prilocaine
+T3	Chemical 93 104	bupivacaine
+T4	Chemical 115 124	lidocaine
+T5	Disease 167 196	transient neurologic symptoms
+T6	Disease 198 202	TNSs
+T7	Chemical 222 231	lidocaine
+T8	Chemical 274 285	bupivacaine
+T9	Chemical 364 373	lidocaine
+T10	Chemical 431 441	Prilocaine
+T11	Chemical 516 525	lidocaine
+T12	Chemical 593 603	prilocaine
+T13	Chemical 609 618	lidocaine
+T14	Chemical 623 634	bupivacaine
+T15	Disease 691 695	TNSs
+T16	Chemical 919 928	lidocaine
+T17	Chemical 937 944	glucose
+T18	Chemical 949 959	prilocaine
+T19	Chemical 968 975	glucose
+T20	Chemical 985 996	bupivacaine
+T21	Chemical 1005 1012	glucose
+T22	Disease 1276 1280	TNSs
+T23	Chemical 1413 1422	lidocaine
+T24	Disease 1435 1439	TNSs
+T25	Chemical 1468 1478	prilocaine
+T26	Chemical 1534 1545	bupivacaine
+T27	Disease 1550 1554	TNSs
+T28	Chemical 1605 1614	lidocaine
+T29	Chemical 1619 1629	prilocaine
+T30	Chemical 1702 1713	bupivacaine
+T31	Chemical 1770 1780	Prilocaine
+T32	Chemical 1802 1811	lidocaine
+T33	Disease 1911 1915	TNSs

@@ -1,0 +1,40 @@
+T1	Chemical 0 9	Phlorizin
+T2	Disease 18 28	glycosuria
+T3	Chemical 46 56	gentamicin
+T4	Disease 57 71	nephrotoxicity
+T5	Chemical 98 112	streptozotocin
+T6	Disease 121 138	diabetes mellitus
+T7	Disease 140 142	DM
+T8	Disease 173 183	glycosuria
+T9	Chemical 283 293	gentamicin
+T10	Disease 302 321	acute renal failure
+T11	Disease 323 326	ARF
+T12	Chemical 349 359	gentamicin
+T13	Disease 360 374	nephrotoxicity
+T14	Disease 394 402	diabetic
+T15	Chemical 468 475	glucose
+T16	Chemical 494 503	phlorizin
+T17	Chemical 505 506	P
+T18	Disease 509 511	DM
+T19	Disease 527 537	glycosuria
+T20	Chemical 572 573	P
+T21	Chemical 721 722	P
+T22	Chemical 739 740	P
+T23	Chemical 777 778	P
+T24	Chemical 781 791	gentamicin
+T25	Chemical 805 815	gentamicin
+T26	Disease 842 844	DM
+T27	Chemical 847 857	gentamicin
+T28	Disease 860 871	Nephrotoxic
+T29	Chemical 904 914	gentamicin
+T30	Chemical 1011 1012	P
+T31	Disease 1043 1053	glycosuria
+T32	Disease 1124 1141	renal dysfunction
+T33	Disease 1213 1229	tubular necrosis
+T34	Chemical 1269 1270	P
+T35	Chemical 1287 1297	gentamicin
+T36	Disease 1298 1301	ARF
+T37	Chemical 1341 1342	P
+T38	Disease 1411 1427	tubular necrosis
+T39	Chemical 1535 1536	P
+T40	Disease 1597 1613	tubular necrosis

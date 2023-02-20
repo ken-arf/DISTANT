@@ -1,0 +1,25 @@
+T1	Chemical 0 10	Adriamycin
+T2	Disease 44 49	death
+T3	Disease 92 105	heart failure
+T4	Disease 144 157	heart failure
+T5	Chemical 169 179	adriamycin
+T6	Disease 314 327	heart failure
+T7	Chemical 339 349	adriamycin
+T8	Disease 405 418	heart failure
+T9	Chemical 429 444	3-methyladenine
+T10	Chemical 446 449	3MA
+T11	Disease 500 513	heart failure
+T12	Chemical 539 549	adriamycin
+T13	Chemical 659 669	adriamycin
+T14	Chemical 691 694	3MA
+T15	Chemical 700 710	adriamycin
+T16	Chemical 841 842	K
+T17	Chemical 1145 1148	3MA
+T18	Chemical 1236 1246	adriamycin
+T19	Chemical 1297 1300	3MA
+T20	Chemical 1354 1364	adriamycin
+T21	Disease 1476 1481	death
+T22	Disease 1529 1542	heart failure
+T23	Chemical 1562 1572	adriamycin
+T24	Disease 1633 1646	heart failure
+T25	Chemical 1657 1667	adriamycin

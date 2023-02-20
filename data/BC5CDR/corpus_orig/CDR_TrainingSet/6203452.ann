@@ -1,0 +1,22 @@
+T1	Disease 0 26	Thrombotic microangiopathy
+T2	Disease 31 44	renal failure
+T3	Disease 108 117	carcinoma
+T4	Disease 128 154	thrombotic microangiopathy
+T5	Disease 173 192	renal insufficiency
+T6	Disease 194 227	microangiopathic hemolytic anemia
+T7	Disease 241 257	thrombocytopenia
+T8	Chemical 280 289	cisplatin
+T9	Chemical 291 300	bleomycin
+T10	Chemical 308 322	vinca alkaloid
+T11	Disease 340 375	thrombotic thrombocytopenic purpura
+T12	Disease 387 412	hemolytic-uremic syndrome
+T13	Disease 536 561	intravascular coagulation
+T14	Disease 655 660	tumor
+T15	Disease 686 691	tumor
+T16	Disease 727 753	thrombotic microangiopathy
+T17	Disease 938 951	renal failure
+T18	Chemical 971 980	cisplatin
+T19	Disease 981 995	nephrotoxicity
+T20	Disease 1004 1010	anemia
+T21	Disease 1015 1031	thrombocytopenia
+T22	Disease 1048 1071	bone marrow suppression

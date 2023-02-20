@@ -1,0 +1,11 @@
+T1	Disease 0 14	Nephrotoxicity
+T2	Chemical 27 38	cephalothin
+T3	Chemical 39 49	gentamicin
+T4	Disease 81 103	acute tubular necrosis
+T5	Disease 139 161	oliguric renal failure
+T6	Disease 139 147	oliguric
+T7	Disease 148 161	renal failure
+T8	Chemical 206 224	cephalothin sodium
+T9	Chemical 229 247	gentamicin sulfate
+T10	Disease 351 365	nephrotoxicity
+T11	Disease 473 492	renal insufficiency

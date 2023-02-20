@@ -185,19 +185,24 @@ class EntityExtraction:
 
 
 
-
 def main():
 
-    config_dir = "configs"
-    config_file = "immunology_segmentation_predict.yaml" 
-    entityExtraction  = EntityExtraction(os.path.join(config_dir, config_file))
+    # set config path by command line
+    inp_args = utils._parsing()                                                                                            
+    config_path = getattr(inp_args, 'yaml')
+    with open(config_path, 'r') as stream:
+        parameters = utils._ordered_load(stream)
 
- 
-    text_dir="data/Mesh/PubMed/Immunology/extract"
+    # print config
+    utils._print_config(parameters, config_path)
+
+
+    entityExtraction  = EntityExtraction(config_path)
+
+    text_dir=parameters["test_dir"]
     files = sorted(glob(f"{text_dir}/*.txt"))
     
-    files = ["data/Mesh/PubMed/Immunology/extract/10450520.txt"]
-    #files = ["data/Mesh/PubMed/Immunology/extract/34247018.txt"]
+    pdb.set_trace()
 
     for file in files:
         with open(file) as fp:

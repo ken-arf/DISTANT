@@ -1,0 +1,19 @@
+T1	Disease 0 6	Tetany
+T2	Disease 11 25	rhabdomyolysis
+T3	Chemical 47 57	furosemide
+T4	Chemical 73 82	magnesium
+T5	Disease 120 131	hypokalemia
+T6	Disease 133 145	hypocalcemia
+T7	Disease 150 164	hypomagnesemia
+T8	Disease 179 190	hypokalemia
+T9	Disease 201 216	muscle weakness
+T10	Disease 225 239	hypomagnesemia
+T11	Disease 259 272	muscle spasms
+T12	Disease 277 283	tetany
+T13	Chemical 313 322	potassium
+T14	Chemical 327 334	calcium
+T15	Disease 465 470	obese
+T16	Disease 474 483	edematous
+T17	Disease 497 508	hypokalemia
+T18	Disease 566 578	hypocalcemia
+T19	Chemical 616 625	magnesium

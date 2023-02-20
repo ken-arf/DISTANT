@@ -1,0 +1,38 @@
+T1	Chemical 11 20	verapamil
+T2	Disease 24 43	atrial fibrillation
+T3	Disease 106 124	Atrial tachycardia
+T4	Disease 187 206	atrial fibrillation
+T5	Disease 208 210	AF
+T6	Chemical 233 235	Ca
+T7	Chemical 303 305	Ca
+T8	Disease 338 340	AF
+T9	Disease 361 363	AF
+T10	Chemical 384 386	Ca
+T11	Disease 460 462	AF
+T12	Chemical 476 478	Ca
+T13	Chemical 517 526	verapamil
+T14	Chemical 530 538	morphine
+T15	Chemical 539 549	chloralose
+T16	Chemical 569 578	Diltiazem
+T17	Chemical 637 645	atropine
+T18	Chemical 650 657	nadolol
+T19	Disease 780 782	AF
+T20	Chemical 793 802	Verapamil
+T21	Disease 810 812	AF
+T22	Disease 864 866	AF
+T23	Chemical 1204 1213	verapamil
+T24	Chemical 1237 1246	verapamil
+T25	Disease 1503 1505	AF
+T26	Chemical 1538 1547	Diltiazem
+T27	Disease 1568 1570	AF
+T28	Disease 1587 1589	AF
+T29	Chemical 1663 1672	verapamil
+T30	Chemical 1719 1728	verapamil
+T31	Disease 1747 1749	AF
+T32	Chemical 1813 1822	verapamil
+T33	Chemical 1827 1836	diltiazem
+T34	Chemical 1937 1946	verapamil
+T35	Disease 1956 1958	AF
+T36	Chemical 2083 2092	Verapamil
+T37	Disease 2102 2104	AF
+T38	Chemical 2222 2231	diltiazem

@@ -1,0 +1,47 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+entities:
+    - chemical.dict
+    - disease.dict
+
+corpus_dir: data/BC5CDR/conll
+# model save dir
+model_dir: experiments/bc5cdr/segmentation/models
+
+test_dir: data/BC5CDR/corpus_test
+
+
+# bert model
+seed: 22
+model_checkpoint: allenai/scibert_scivocab_cased
+# nn model
+dropout_rate: 0.3
+embedding_dim: 768
+hidden_size: 100
+
+# label num
+class_num: 2
+
+# gpu
+gpu: 0 
+
+# training
+#train_epochs: 50
+#train_batch_size: 32 
+#valid_batch_size: 32 
+
+# training lr
+#train_lr: 1e-4
+#train_scheduler: linear
+#train_num_warmup_steps: 100 
+#max_patient_count: 3 
+
+
+# restore model
+restore_model: True
+model_dir: experiments/bc5cdr/segmentation/models
+model_name: model_best_seg.pth 
+

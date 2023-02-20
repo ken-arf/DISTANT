@@ -1,0 +1,18 @@
+T1	Chemical 70 81	doxorubicin
+T2	Disease 82 91	nephrosis
+T3	Chemical 104 115	Doxorubicin
+T4	Disease 144 155	nephropathy
+T5	Disease 179 220	glomerular and late-onset tubular lesions
+T6	Disease 268 288	mitochondrial injury
+T7	Chemical 364 375	doxorubicin
+T8	Disease 633 662	Glomerular and tubular injury
+T9	Chemical 832 842	superoxide
+T10	Disease 949 979	glomerular and tubular lesions
+T11	Chemical 1083 1090	citrate
+T12	Disease 1253 1268	tubular lesions
+T13	Disease 1293 1311	glomerular lesions
+T14	Disease 1341 1370	glomerular and tubular injury
+T15	Chemical 1575 1585	superoxide
+T16	Chemical 2001 2011	superoxide
+T17	Chemical 2015 2026	doxorubicin
+T18	Disease 2035 2048	renal lesions

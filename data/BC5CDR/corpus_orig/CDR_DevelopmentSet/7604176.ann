@@ -1,0 +1,17 @@
+T1	Chemical 0 11	Pravastatin
+T2	Disease 23 31	myopathy
+T3	Disease 66 87	inflammatory myopathy
+T4	Chemical 115 126	pravastatin
+T5	Disease 265 304	non-insulin-dependent diabetes mellitus
+T6	Disease 309 321	hypertension
+T7	Chemical 334 345	pravastatin
+T8	Disease 369 389	hypercholesterolemia
+T9	Disease 418 426	myopathy
+T10	Chemical 481 492	pravastatin
+T11	Disease 531 545	hypothyroidism
+T12	Disease 571 593	autoimmune thyroiditis
+T13	Chemical 751 761	lovastatin
+T14	Chemical 766 777	simvastatin
+T15	Disease 810 818	myopathy
+T16	Chemical 820 831	pravastatin
+T17	Disease 843 851	myopathy

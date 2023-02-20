@@ -1,0 +1,9 @@
+T1	Chemical 131 137	sodium
+T2	Chemical 224 238	norepinephrine
+T3	Chemical 243 254	epinephrine
+T4	Disease 587 598	tachycardia
+T5	Chemical 626 640	norepinephrine
+T6	Disease 733 744	hypotension
+T7	Chemical 756 767	hydralazine
+T8	Chemical 771 784	nitroglycerin
+T9	Chemical 806 817	epinephrine

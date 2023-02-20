@@ -1,0 +1,16 @@
+T1	Chemical 112 123	pilocarpine
+T2	Disease 141 159	status epilepticus
+T3	Disease 161 163	SE
+T4	Disease 209 217	seizures
+T5	Chemical 478 489	pilocarpine
+T6	Chemical 521 523	Mg
+T7	Chemical 559 570	bicuculline
+T8	Chemical 745 756	pilocarpine
+T9	Disease 794 796	SE
+T10	Disease 801 803	SE
+T11	Chemical 1005 1014	glutamate
+T12	Chemical 1043 1052	glutamate
+T13	Disease 1207 1209	SE
+T14	Disease 1281 1283	SE
+T15	Disease 1374 1381	seizure
+T16	Disease 1450 1472	temporal lobe epilepsy

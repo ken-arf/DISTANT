@@ -1,0 +1,21 @@
+T1	Disease 0 20	Venous complications
+T2	Chemical 24 33	midazolam
+T3	Chemical 41 49	diazepam
+T4	Disease 93 113	venous complications
+T5	Chemical 134 143	midazolam
+T6	Chemical 154 162	diazepam
+T7	Disease 278 298	venous complications
+T8	Chemical 330 338	diazepam
+T9	Chemical 342 351	midazolam
+T10	Disease 444 464	venous complications
+T11	Chemical 489 497	diazepam
+T12	Chemical 528 537	midazolam
+T13	Chemical 642 650	diazepam
+T14	Chemical 701 710	midazolam
+T15	Disease 730 734	Pain
+T16	Chemical 803 811	diazepam
+T17	Chemical 861 870	midazolam
+T18	Disease 890 898	Swelling
+T19	Chemical 1092 1099	alcohol
+T20	Disease 1109 1113	pain
+T21	Disease 1169 1189	venous complications

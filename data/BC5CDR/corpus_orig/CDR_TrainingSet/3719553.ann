@@ -1,0 +1,12 @@
+T1	Disease 0 17	Allergic reaction
+T2	Chemical 21 35	5-fluorouracil
+T3	Disease 48 65	allergic reaction
+T4	Disease 80 99	angioneurotic edema
+T5	Chemical 133 147	5-fluorouracil
+T6	Disease 185 213	carcinoma of the oral cavity
+T7	Disease 215 224	cirrhosis
+T8	Chemical 230 239	cisplatin
+T9	Disease 248 271	impaired renal function
+T10	Chemical 366 381	diphenhydramine
+T11	Chemical 386 396	prednisone
+T12	Disease 450 467	allergic reaction

@@ -1,0 +1,27 @@
+T1	Chemical 0 9	Clonidine
+T2	Disease 14 54	attention-deficit/hyperactivity disorder
+T3	Chemical 153 162	clonidine
+T4	Chemical 182 197	methylphenidate
+T5	Disease 215 255	attention-deficit/hyperactivity disorder
+T6	Disease 257 261	ADHD
+T7	Disease 336 340	ADHD
+T8	Chemical 367 376	clonidine
+T9	Chemical 387 402	methylphenidate
+T10	Chemical 413 422	clonidine
+T11	Chemical 427 442	methylphenidate
+T12	Chemical 524 533	clonidine
+T13	Chemical 552 567	methylphenidate
+T14	Disease 756 767	bradycardia
+T15	Chemical 793 802	clonidine
+T16	Chemical 840 849	clonidine
+T17	Chemical 1035 1044	clonidine
+T18	Chemical 1049 1064	methylphenidate
+T19	Chemical 1166 1175	clonidine
+T20	Disease 1271 1281	Drowsiness
+T21	Chemical 1296 1305	clonidine
+T22	Chemical 1360 1369	Clonidine
+T23	Chemical 1390 1405	methylphenidate
+T24	Disease 1452 1456	ADHD
+T25	Chemical 1481 1490	clonidine
+T26	Disease 1510 1521	bradycardia
+T27	Disease 1579 1589	drowsiness

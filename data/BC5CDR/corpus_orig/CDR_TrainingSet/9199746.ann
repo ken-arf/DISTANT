@@ -1,0 +1,16 @@
+T1	Disease 7 15	toxicity
+T2	Chemical 35 43	amikacin
+T3	Chemical 78 93	aminoglycosides
+T4	Disease 142 157	endophthalmitis
+T5	Disease 167 177	infarction
+T6	Chemical 250 258	amikacin
+T7	Disease 259 275	retinal toxicity
+T8	Chemical 301 309	amikacin
+T9	Chemical 314 324	vancomycin
+T10	Disease 346 375	streptococcal endophthalmitis
+T11	Disease 386 401	Endophthalmitis
+T12	Chemical 477 488	fluorescein
+T13	Disease 541 555	telangiectasis
+T14	Disease 632 648	retinal toxicity
+T15	Disease 661 670	ischaemia
+T16	Disease 711 727	retinal toxicity

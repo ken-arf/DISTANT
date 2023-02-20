@@ -1,0 +1,27 @@
+T1	Chemical 29 37	dopamine
+T2	Disease 59 68	catalepsy
+T3	Disease 84 93	catalepsy
+T4	Chemical 105 113	dopamine
+T5	Chemical 159 167	dopamine
+T6	Disease 189 198	catalepsy
+T7	Chemical 218 226	Dopamine
+T8	Chemical 238 250	fluphenazine
+T9	Chemical 267 276	SCH 23390
+T10	Chemical 295 304	sulpiride
+T11	Disease 313 322	catalepsy
+T12	Chemical 338 350	fluphenazine
+T13	Chemical 355 364	sulpiride
+T14	Chemical 400 409	SCH 23390
+T15	Chemical 415 424	sulpiride
+T16	Disease 440 449	catalepsy
+T17	Chemical 479 488	SKF 38393
+T18	Chemical 504 514	quinpirole
+T19	Disease 529 538	catalepsy
+T20	Chemical 550 562	fluphenazine
+T21	Chemical 564 573	SCH 23390
+T22	Chemical 577 586	sulpiride
+T23	Chemical 606 615	SKF 38393
+T24	Chemical 621 631	quinpirole
+T25	Disease 679 688	catalepsy
+T26	Chemical 700 708	dopamine
+T27	Disease 798 807	catalepsy

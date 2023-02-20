@@ -1,0 +1,12 @@
+T1	Disease 0 28	Ventricular tachyarrhythmias
+T2	Chemical 59 68	ritodrine
+T3	Chemical 153 162	ritodrine
+T4	Disease 167 180	preterm labor
+T5	Chemical 247 256	ritodrine
+T6	Disease 353 381	cardiovascular complications
+T7	Chemical 421 430	ritodrine
+T8	Chemical 504 513	potassium
+T9	Chemical 661 670	ephedrine
+T10	Chemical 804 817	phenylephrine
+T11	Disease 827 838	hypotensive
+T12	Disease 853 864	tachycardia

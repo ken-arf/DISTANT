@@ -1,0 +1,43 @@
+T1	Chemical 0 25	Cholesteryl hemisuccinate
+T2	Chemical 79 92	acetaminophen
+T3	Chemical 94 104	adriamycin
+T4	Chemical 106 126	carbon tetrachloride
+T5	Chemical 128 138	chloroform
+T6	Chemical 143 156	galactosamine
+T7	Chemical 221 246	cholesteryl hemisuccinate
+T8	Chemical 248 257	tris salt
+T9	Chemical 259 261	CS
+T10	Disease 323 334	hepatotoxic
+T11	Chemical 346 366	carbon tetrachloride
+T12	Chemical 368 372	CCl4
+T13	Chemical 424 426	CS
+T14	Chemical 500 502	CS
+T15	Chemical 542 544	CS
+T16	Chemical 546 578	gamma-cholesteryloxybutyric acid
+T17	Chemical 580 589	tris salt
+T18	Chemical 591 594	CSE
+T19	Chemical 604 617	acetaminophen
+T20	Chemical 620 630	adriamycin
+T21	Chemical 633 653	carbon tetrachloride
+T22	Chemical 656 666	chloroform
+T23	Chemical 672 685	galactosamine
+T24	Disease 694 702	toxicity
+T25	Chemical 751 753	CS
+T26	Chemical 913 915	CS
+T27	Disease 981 992	hepatotoxic
+T28	Chemical 1004 1008	CCl4
+T29	Chemical 1010 1015	CHCl3
+T30	Chemical 1017 1030	acetaminophen
+T31	Chemical 1035 1048	galactosamine
+T32	Disease 1088 1099	cardiotoxic
+T33	Chemical 1111 1121	adriamycin
+T34	Chemical 1146 1148	CS
+T35	Chemical 1273 1275	CS
+T36	Chemical 1390 1392	CS
+T37	Chemical 1558 1571	galactosamine
+T38	Disease 1572 1586	hepatotoxicity
+T39	Chemical 1667 1669	CS
+T40	Chemical 1747 1749	CS
+T41	Chemical 1819 1821	CS
+T42	Chemical 1849 1852	CSE
+T43	Chemical 1874 1876	CS

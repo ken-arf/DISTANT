@@ -1,0 +1,16 @@
+T1	Disease 0 29	Tricuspid valve regurgitation
+T2	Chemical 34 51	lithium carbonate
+T3	Disease 52 60	toxicity
+T4	Disease 104 127	tricuspid regurgitation
+T5	Disease 129 143	atrial flutter
+T6	Disease 145 169	congestive heart failure
+T7	Chemical 188 195	lithium
+T8	Disease 264 287	tricuspid regurgitation
+T9	Disease 292 306	atrial flutter
+T10	Disease 344 359	cardiac disease
+T11	Chemical 385 392	lithium
+T12	Chemical 510 527	Lithium carbonate
+T13	Disease 575 599	congenital heart disease
+T14	Disease 650 671	neurologic depression
+T15	Disease 673 681	cyanosis
+T16	Disease 687 705	cardiac arrhythmia

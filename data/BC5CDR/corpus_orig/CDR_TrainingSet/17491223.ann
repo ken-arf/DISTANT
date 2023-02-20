@@ -1,0 +1,14 @@
+T1	Chemical 79 89	dobutamine
+T2	Disease 98 117	myocardial ischemia
+T3	Chemical 190 200	dobutamine
+T4	Disease 209 228	myocardial ischemia
+T5	Chemical 428 438	dobutamine
+T6	Disease 447 466	myocardial ischemia
+T7	Chemical 474 489	Tc99m-Sestamibi
+T8	Disease 605 613	ischemia
+T9	Chemical 673 682	Sestamibi
+T10	Chemical 689 699	dobutamine
+T11	Chemical 798 808	dobutamine
+T12	Disease 875 883	ischemia
+T13	Chemical 952 962	dobutamine
+T14	Disease 1561 1580	myocardial ischemia

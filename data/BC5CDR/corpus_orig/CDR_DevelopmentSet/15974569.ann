@@ -1,0 +1,10 @@
+T1	Chemical 43 50	kainate
+T2	Disease 106 110	pain
+T3	Chemical 175 177	KA
+T4	Chemical 250 259	glutamate
+T5	Disease 338 342	pain
+T6	Chemical 356 364	formalin
+T7	Chemical 386 397	carrageenan
+T8	Disease 406 426	thermal hyperalgesia
+T9	Chemical 432 441	capsaicin
+T10	Disease 450 473	mechanical hyperalgesia

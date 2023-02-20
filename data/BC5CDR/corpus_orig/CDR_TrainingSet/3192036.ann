@@ -1,0 +1,20 @@
+T1	Disease 0 5	Death
+T2	Disease 27 60	gestational trophoblastic disease
+T3	Disease 174 189	choriocarcinoma
+T4	Chemical 398 407	Etoposide
+T5	Chemical 416 428	Methotrexate
+T6	Chemical 430 446	Cyclophosphamide
+T7	Chemical 448 459	Actomycin-D
+T8	Chemical 465 474	Cisplatin
+T9	Chemical 533 545	Methotrexate
+T10	Chemical 547 556	Etoposide
+T11	Chemical 561 577	Cyclophosphamide
+T12	Disease 700 721	pulmonary obstruction
+T13	Disease 853 858	tumor
+T14	Disease 859 867	necrosis
+T15	Disease 960 965	tumor
+T16	Disease 1008 1013	tumor
+T17	Disease 1106 1111	tumor
+T18	Disease 1223 1231	embolism
+T19	Disease 1272 1280	necrosis
+T20	Disease 1334 1346	pelvic tumor

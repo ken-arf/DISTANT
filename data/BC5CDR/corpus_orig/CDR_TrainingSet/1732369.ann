@@ -1,0 +1,18 @@
+T1	Chemical 0 10	Dobutamine
+T2	Chemical 108 119	doxorubicin
+T3	Disease 161 167	cancer
+T4	Chemical 168 179	Doxorubicin
+T5	Disease 263 277	cardiomyopathy
+T6	Disease 344 358	cardiac damage
+T7	Chemical 366 377	doxorubicin
+T8	Chemical 414 424	dobutamine
+T9	Disease 497 503	cancer
+T10	Chemical 517 528	doxorubicin
+T11	Chemical 738 749	doxorubicin
+T12	Chemical 855 865	dobutamine
+T13	Chemical 1047 1057	Dobutamine
+T14	Chemical 1381 1392	doxorubicin
+T15	Chemical 1496 1506	dobutamine
+T16	Chemical 1595 1606	doxorubicin
+T17	Chemical 1789 1799	dobutamine
+T18	Chemical 1817 1828	doxorubicin

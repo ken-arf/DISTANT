@@ -1,0 +1,17 @@
+T1	Chemical 218 233	benzodiazepines
+T2	Chemical 252 256	BZDs
+T3	Chemical 582 586	BZDs
+T4	Chemical 906 910	BZDs
+T5	Chemical 1204 1212	oxazepam
+T6	Chemical 1214 1223	temazepam
+T7	Chemical 1228 1237	zopiclone
+T8	Chemical 1346 1350	BZDs
+T9	Disease 1567 1575	dementia
+T10	Chemical 1637 1641	BZDs
+T11	Chemical 1730 1734	BZDs
+T12	Disease 1759 1768	dizziness
+T13	Disease 1770 1788	inability to sleep
+T14	Disease 1816 1825	tiredness
+T15	Disease 1895 1914	depressive symptoms
+T16	Chemical 1970 1974	BZDs
+T17	Chemical 2140 2149	temazepam

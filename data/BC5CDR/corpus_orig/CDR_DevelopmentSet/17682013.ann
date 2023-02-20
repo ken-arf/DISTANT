@@ -1,0 +1,17 @@
+T1	Disease 8 27	leukoencephalopathy
+T2	Disease 33 39	stroke
+T3	Disease 109 128	leukoencephalopathy
+T4	Disease 139 163	cerebrovascular accident
+T5	Chemical 261 273	methotrexate
+T6	Disease 288 297	leukaemia
+T7	Disease 554 560	stroke
+T8	Disease 706 731	cerebrovascular accidents
+T9	Disease 790 809	leukoencephalopathy
+T10	Chemical 835 847	methotrexate
+T11	Chemical 873 887	5-fluorouracil
+T12	Chemical 907 915	carmofur
+T13	Chemical 921 933	capecitabine
+T14	Disease 1022 1065	lesions within the subcortical white matter
+T15	Disease 1509 1535	white matter abnormalities
+T16	Disease 1595 1614	leukoencephalopathy
+T17	Disease 1736 1781	cytotoxic oedema within cerebral white matter

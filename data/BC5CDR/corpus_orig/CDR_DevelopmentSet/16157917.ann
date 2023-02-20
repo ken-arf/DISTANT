@@ -1,0 +1,17 @@
+T1	Chemical 0 11	Lamotrigine
+T2	Disease 52 61	myoclonus
+T3	Disease 65 98	idiopathic generalized epilepsies
+T4	Disease 118 151	idiopathic generalized epilepsies
+T5	Disease 153 156	IGE
+T6	Chemical 171 182	lamotrigine
+T7	Chemical 184 187	LTG
+T8	Disease 239 254	myoclonic jerks
+T9	Disease 256 258	MJ
+T10	Chemical 280 283	LTG
+T11	Disease 296 298	MJ
+T12	Disease 367 369	MJ
+T13	Chemical 387 390	LTG
+T14	Chemical 441 444	LTG
+T15	Disease 457 459	MJ
+T16	Disease 502 518	myoclonic status
+T17	Chemical 542 545	LTG

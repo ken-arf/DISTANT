@@ -1,0 +1,13 @@
+T1	Chemical 0 12	Flurbiprofen
+T2	Disease 33 62	juvenile rheumatoid arthritis
+T3	Disease 89 118	juvenile rheumatoid arthritis
+T4	Chemical 142 154	flurbiprofen
+T5	Disease 248 257	arthritis
+T6	Disease 335 348	tender joints
+T7	Disease 366 374	swelling
+T8	Disease 379 389	tenderness
+T9	Disease 433 450	morning stiffness
+T10	Disease 536 554	fecal occult blood
+T11	Disease 614 644	gastrointestinal (GI) bleeding
+T12	Disease 731 739	headache
+T13	Disease 744 758	abdominal pain

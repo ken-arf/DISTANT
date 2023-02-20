@@ -1,0 +1,15 @@
+T1	Chemical 0 13	Penicillamine
+T2	Disease 42 60	glomerulonephritis
+T3	Disease 79 99	rheumatoid arthritis
+T4	Disease 125 145	rheumatoid arthritis
+T5	Disease 176 194	glomerulonephritis
+T6	Disease 196 200	RPGN
+T7	Chemical 220 235	D-penicillamine
+T8	Disease 297 315	glomerulonephritis
+T9	Chemical 571 578	steroid
+T10	Chemical 602 618	cyclophosphamide
+T11	Chemical 623 642	antiplatelet agents
+T12	Disease 728 732	RPGN
+T13	Chemical 750 765	D-penicillamine
+T14	Disease 877 888	proteinuria
+T15	Chemical 938 953	D-penicillamine

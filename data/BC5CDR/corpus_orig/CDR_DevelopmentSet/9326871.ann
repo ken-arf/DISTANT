@@ -1,0 +1,14 @@
+T1	Chemical 0 14	Clarithromycin
+T2	Disease 23 46	ventricular tachycardia
+T3	Chemical 47 61	Clarithromycin
+T4	Chemical 82 91	macrolide
+T5	Chemical 151 163	erythromycin
+T6	Chemical 261 273	erythromycin
+T7	Disease 300 315	gastroenteritis
+T8	Chemical 430 440	macrolides
+T9	Disease 466 480	Cardiotoxicity
+T10	Chemical 553 565	erythromycin
+T11	Chemical 609 619	macrolides
+T12	Disease 641 665	ventricular dysrhythmias
+T13	Chemical 711 725	clarithromycin
+T14	Disease 731 743	dysrhythmias

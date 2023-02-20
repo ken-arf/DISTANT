@@ -1,0 +1,23 @@
+T1	Chemical 49 56	Coniine
+T2	Disease 190 204	arthrogryposis
+T3	Chemical 262 269	coniine
+T4	Disease 292 306	arthrogryposis
+T5	Chemical 435 442	coniine
+T6	Chemical 447 455	nicotine
+T7	Chemical 499 506	coniine
+T8	Chemical 511 519	nicotine
+T9	Disease 644 656	deformations
+T10	Chemical 721 729	nicotine
+T11	Chemical 786 793	coniine
+T12	Disease 819 831	deformations
+T13	Chemical 847 854	coniine
+T14	Chemical 859 867	nicotine
+T15	Disease 881 931	excessive flexion or extension of one or more toes
+T16	Disease 1079 1097	cranial hemorrhage
+T17	Chemical 1114 1122	nicotine
+T18	Chemical 1225 1232	coniine
+T19	Chemical 1237 1245	nicotine
+T20	Chemical 1368 1375	coniine
+T21	Chemical 1468 1476	nicotine
+T22	Chemical 1590 1597	coniine
+T23	Disease 1606 1620	arthrogryposis

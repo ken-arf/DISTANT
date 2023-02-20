@@ -1,0 +1,16 @@
+T1	Disease 33 45	parkinsonian
+T2	Chemical 60 66	L-dopa
+T3	Disease 85 95	dyskinesia
+T4	Disease 291 303	parkinsonian
+T5	Chemical 316 322	L-dopa
+T6	Chemical 357 363	L-dopa
+T7	Disease 372 382	dyskinesia
+T8	Disease 430 440	dyskinesia
+T9	Disease 581 591	dyskinetic
+T10	Disease 592 604	parkinsonian
+T11	Disease 717 727	dyskinetic
+T12	Disease 728 740	parkinsonian
+T13	Disease 927 939	hyperkinetic
+T14	Disease 940 969	abnormal involuntary movement
+T15	Chemical 976 982	L-dopa
+T16	Disease 1001 1011	dyskinesia

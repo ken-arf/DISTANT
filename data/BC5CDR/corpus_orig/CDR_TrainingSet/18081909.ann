@@ -1,0 +1,15 @@
+T1	Disease 0 14	Encephalopathy
+T2	Chemical 26 39	levetiracetam
+T3	Chemical 49 58	valproate
+T4	Chemical 107 120	levetiracetam
+T5	Chemical 122 125	LEV
+T6	Disease 135 149	encephalopathy
+T7	Disease 194 213	idiopathic epilepsy
+T8	Disease 231 239	seizures
+T9	Chemical 257 260	LEV
+T10	Chemical 280 289	valproate
+T11	Chemical 291 294	VPA
+T12	Disease 332 353	tonic-clonic seizures
+T13	Disease 438 497	impaired word fluency, psychomotor speed and working memory
+T14	Chemical 692 695	LEV
+T15	Disease 746 753	seizure

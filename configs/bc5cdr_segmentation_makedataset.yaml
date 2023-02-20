@@ -1,0 +1,22 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+dict_dir: 
+    - data/BC5CDR/processed_dict
+
+dict_files:
+    - chemical.dict
+    - disease.dict
+
+entity2integer:
+    chemical: 0
+    diesease: 1
+
+
+corpus_dir: data/BC5CDR/corpus
+output_dir: data/BC5CDR/conll
+
+use_pu_data: False
+pu_data: data/Corpus/BC5CDR/df_pu_train.csv

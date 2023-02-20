@@ -1,0 +1,33 @@
+T1	Disease 7 34	ocular and orbital toxicity
+T2	Disease offset[0] offset[1];offset[0] offset[1]	ocular toxicity
+T3	Disease 18 34	orbital toxicity
+T4	Chemical 67 78	carboplatin
+T5	Disease 93 106	glioblastomas
+T6	Disease 119 131	Glioblastoma
+T7	Disease 137 152	malignant tumor
+T8	Disease 392 404	glioblastoma
+T9	Chemical 504 515	carboplatin
+T10	Chemical 557 566	cisplatin
+T11	Disease 574 601	ocular and orbital toxicity
+T12	Disease offset[0] offset[1];offset[0] offset[1]	ocular toxicity
+T13	Disease 585 601	orbital toxicity
+T14	Disease 659 686	ocular and orbital toxicity
+T15	Disease offset[0] offset[1];offset[0] offset[1]	ocular toxicity
+T16	Disease 670 686	orbital toxicity
+T17	Chemical 719 730	carboplatin
+T18	Chemical 826 837	carboplatin
+T19	Disease 852 865	glioblastomas
+T20	Disease 910 960	pain and visual disturbance in the ipsilateral eye
+T21	Disease offset[0] offset[1];offset[0] offset[1]	pain in the ipsilateral eye
+T22	Disease 919 960	visual disturbance in the ipsilateral eye
+T23	Chemical 1034 1045	carboplatin
+T24	Disease 1046 1054	toxicity
+T25	Chemical 1145 1153	glycerin
+T26	Disease 1270 1278	glaucoma
+T27	Disease 1293 1304	ocular pain
+T28	Disease 1328 1339	papilledema
+T29	Disease 1354 1372	retinal detachment
+T30	Disease 1428 1449	chorioretinal atrophy
+T31	Disease 1455 1468	optic atrophy
+T32	Chemical 1573 1584	carboplatin
+T33	Disease 1631 1646	ocular toxicity

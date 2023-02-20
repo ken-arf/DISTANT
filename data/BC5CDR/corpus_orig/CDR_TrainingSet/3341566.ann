@@ -1,0 +1,20 @@
+T1	Disease 46 56	hemorrhage
+T2	Chemical 69 89	sodium nitroprusside
+T3	Disease 98 109	hypotension
+T4	Disease 348 359	hypotension
+T5	Disease 435 445	hemorrhage
+T6	Disease 447 450	HEM
+T7	Chemical 488 508	sodium nitroprusside
+T8	Chemical 510 513	SNP
+T9	Disease 530 533	HEM
+T10	Disease 542 553	hypotension
+T11	Chemical 663 666	SNP
+T12	Disease 923 934	hypotension
+T13	Disease 965 968	HEM
+T14	Chemical 1015 1018	SNP
+T15	Disease 1175 1178	HEM
+T16	Chemical 1183 1186	SNP
+T17	Disease 1216 1227	hypotension
+T18	Disease 1333 1344	hypotensive
+T19	Disease 1438 1449	hypovolemia
+T20	Disease 1473 1484	hypotension

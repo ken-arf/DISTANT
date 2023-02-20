@@ -1,0 +1,26 @@
+T1	Chemical 13 22	glutamate
+T2	Disease 87 106	Parkinson's disease
+T3	Chemical 120 129	glutamate
+T4	Disease 281 300	Parkinson's disease
+T5	Disease 302 304	PD
+T6	Disease 470 472	PD
+T7	Chemical 502 553	N,N'-dibenzhydrylethane-1,2-diamine dihydrochloride
+T8	Chemical 555 561	AMN082
+T9	Disease 672 674	PD
+T10	Chemical 764 770	AMN082
+T11	Chemical 780 791	haloperidol
+T12	Disease 800 809	catalepsy
+T13	Chemical 819 825	AMN082
+T14	Chemical 852 863	apomorphine
+T15	Chemical 896 913	6-hydroxydopamine
+T16	Chemical 915 921	6-OHDA
+T17	Disease 993 1001	akinetic
+T18	Disease 1014 1016	PD
+T19	Chemical 1035 1041	AMN082
+T20	Chemical 1112 1118	6-OHDA
+T21	Chemical 1147 1153	AMN082
+T22	Chemical 1178 1189	haloperidol
+T23	Disease 1198 1207	catalepsy
+T24	Chemical 1312 1318	AMN082
+T25	Disease 1379 1381	PD
+T26	Chemical 1499 1507	dopamine

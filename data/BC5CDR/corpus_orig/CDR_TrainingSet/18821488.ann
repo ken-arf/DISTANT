@@ -1,0 +1,22 @@
+T1	Disease 0 8	Toxicity
+T2	Chemical 59 75	8-aminoquinoline
+T3	Chemical 76 152	8-[(4-amino-l-methylbutyl)amino]- 5-(l-hexyloxy)-6-methoxy-4-methylquinoline
+T4	Chemical 154 162	WR242511
+T5	Disease 257 265	toxicity
+T6	Disease 331 340	poisoning
+T7	Chemical 461 477	8-aminoquinoline
+T8	Chemical 478 486	WR242511
+T9	Chemical 663 671	WR242511
+T10	Chemical 808 816	WR242511
+T11	Chemical 938 946	WR242511
+T12	Disease 975 992	methemoglobinemia
+T13	Disease 1132 1146	hemoglobinuria
+T14	Chemical 1199 1207	WR242511
+T15	Disease 1305 1318	Myoglobinuria
+T16	Disease 1427 1452	liver and kidney toxicity
+T17	Disease offset[0] offset[1];offset[0] offset[1]	liver toxicity
+T18	Disease 1437 1452	kidney toxicity
+T19	Disease 1578 1586	toxicity
+T20	Chemical 1609 1617	WR242511
+T21	Disease 1665 1674	poisoning
+T22	Disease 1792 1800	toxicity

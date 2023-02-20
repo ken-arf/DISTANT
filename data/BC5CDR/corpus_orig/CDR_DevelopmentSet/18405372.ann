@@ -1,0 +1,17 @@
+T1	Disease 0 14	Hepatotoxicity
+T2	Chemical 31 44	sulfasalazine
+T3	Disease 61 70	arthritis
+T4	Disease 472 485	liver failure
+T5	Disease 648 662	hepatotoxicity
+T6	Chemical 666 679	sulfasalazine
+T7	Disease 892 906	hepatotoxicity
+T8	Chemical 912 925	sulfasalazine
+T9	Disease 1101 1116	hepatic failure
+T10	Disease 1231 1240	skin rash
+T11	Disease 1248 1260	eosinophilia
+T12	Disease 1269 1291	interstitial nephritis
+T13	Disease 1463 1477	hepatotoxicity
+T14	Disease 1564 1578	hepatotoxicity
+T15	Chemical 1584 1597	sulfasalazine
+T16	Disease 1661 1675	hepatotoxicity
+T17	Chemical 1692 1705	sulfasalazine

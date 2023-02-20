@@ -72,6 +72,10 @@ CELL=2
 DNA=3
 RNA=4
 
+# BC5CDR
+CHEMICAL=0
+DISEASE=1
+
 
 # threshold for edit distance
 max_dist=0
@@ -325,8 +329,30 @@ def lf_debug(x):
         #l = ed.eval(ent, phrase)
         #if l == 0:
             return RNA 
-            
     return ABSTAIN
+
+
+@labeling_function()
+def lf_chemical_distsv(x):
+    # Returns a label of rating if pattern of digit star's found in the phrase
+    ent = x.lower()
+    for phrase in dist_dict['chemical.dict']:
+        #if ed.eval(ent,phrase.lower()) <= max_dist:
+        if min_edit_distance(phrase, ent) <= max_dist:
+            return CHEMICAL 
+    return ABSTAIN
+
+@labeling_function()
+def lf_disease_distsv(x):
+    # Returns a label of rating if pattern of digit star's found in the phrase
+    ent = x.lower()
+    for phrase in dist_dict['disease.dict']:
+        #if ed.eval(ent,phrase.lower()) <= max_dist:
+        if min_edit_distance(phrase, ent) <= max_dist:
+            return DISEASE 
+    return ABSTAIN
+
+
 
 global dist_dict
 

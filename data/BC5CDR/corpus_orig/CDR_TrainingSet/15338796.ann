@@ -1,0 +1,20 @@
+T1	Disease 0 6	Tremor
+T2	Chemical 23 33	salbutamol
+T3	Disease 95 101	tremor
+T4	Chemical 118 128	salbutamol
+T5	Disease 405 411	Tremor
+T6	Disease 495 501	tremor
+T7	Disease 522 546	obstructive lung disease
+T8	Chemical 591 601	salbutamol
+T9	Disease 878 884	tremor
+T10	Disease 1007 1013	tremor
+T11	Disease 1071 1077	tremor
+T12	Disease 1127 1133	tremor
+T13	Disease 1269 1275	Tremor
+T14	Chemical 1343 1353	Salbutamol
+T15	Disease 1378 1384	tremor
+T16	Disease 1570 1576	tremor
+T17	Disease 1618 1624	tremor
+T18	Disease 1735 1741	tremor
+T19	Disease 1773 1779	tremor
+T20	Disease 1932 1938	tremor

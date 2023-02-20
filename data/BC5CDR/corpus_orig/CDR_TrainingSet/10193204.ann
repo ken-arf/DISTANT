@@ -1,0 +1,28 @@
+T1	Chemical 11 22	tetrandrine
+T2	Chemical 27 40	fangchinoline
+T3	Disease 57 67	thrombosis
+T4	Disease 86 106	platelet aggregation
+T5	Chemical 107 118	Tetrandrine
+T6	Chemical 120 123	TET
+T7	Chemical 129 142	fangchinoline
+T8	Chemical 144 147	FAN
+T9	Chemical 194 215	bisbenzylisoquinoline
+T10	Chemical 290 293	TET
+T11	Chemical 298 301	FAN
+T12	Disease 322 332	thrombosis
+T13	Chemical 358 369	epinephrine
+T14	Chemical 371 373	EP
+T15	Disease 388 408	platelet aggregation
+T16	Disease 413 430	blood coagulation
+T17	Chemical 502 505	TET
+T18	Chemical 510 513	FAN
+T19	Disease 547 557	thrombosis
+T20	Chemical 594 614	acetylsalicylic acid
+T21	Chemical 616 619	ASA
+T22	Disease 705 726	platelet aggregations
+T23	Chemical 766 769	TET
+T24	Chemical 774 777	FAN
+T25	Chemical 840 843	TET
+T26	Chemical 848 851	FAN
+T27	Chemical 1081 1084	TET
+T28	Chemical 1089 1092	FAN

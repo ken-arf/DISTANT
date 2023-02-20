@@ -1,0 +1,59 @@
+T1	Disease 27 50	extrapyramidal symptoms
+T2	Disease 52 55	EPS
+T3	Chemical 62 72	quetiapine
+T4	Disease 112 125	bipolar mania
+T5	Disease 150 173	extrapyramidal symptoms
+T6	Disease 175 178	EPS
+T7	Disease 191 200	akathisia
+T8	Chemical 207 217	quetiapine
+T9	Disease 235 248	bipolar mania
+T10	Chemical 379 389	quetiapine
+T11	Chemical 462 469	lithium
+T12	Chemical 473 484	haloperidol
+T13	Chemical 550 560	quetiapine
+T14	Chemical 619 626	lithium
+T15	Chemical 630 640	divalproex
+T16	Chemical 642 645	QTP
+T17	Chemical 648 650	Li
+T18	Chemical 651 654	DVP
+T19	Chemical 713 715	Li
+T20	Chemical 716 719	DVP
+T21	Disease 732 755	Extrapyramidal symptoms
+T22	Disease 930 933	EPS
+T23	Disease 968 977	akathisia
+T24	Chemical 1001 1011	quetiapine
+T25	Disease 1070 1073	EPS
+T26	Chemical 1102 1105	QTP
+T27	Chemical 1108 1110	Li
+T28	Chemical 1111 1114	DVP
+T29	Chemical 1157 1159	Li
+T30	Chemical 1160 1163	DVP
+T31	Disease 1199 1202	EPS
+T32	Chemical 1246 1257	haloperidol
+T33	Chemical 1319 1326	lithium
+T34	Disease 1386 1389	EPS
+T35	Disease 1408 1417	akathisia
+T36	Chemical 1443 1453	quetiapine
+T37	Chemical 1502 1505	QTP
+T38	Chemical 1508 1510	Li
+T39	Chemical 1511 1514	DVP
+T40	Chemical 1532 1534	Li
+T41	Chemical 1535 1538	DVP
+T42	Chemical 1547 1554	Lithium
+T43	Disease 1622 1628	tremor
+T44	Chemical 1642 1652	quetiapine
+T45	Disease 1672 1678	tremor
+T46	Chemical 1715 1722	lithium
+T47	Disease 1769 1775	tremor
+T48	Chemical 1798 1805	lithium
+T49	Chemical 1815 1826	Haloperidol
+T50	Disease 1883 1892	akathisia
+T51	Disease 1914 1920	tremor
+T52	Disease 1946 1969	extrapyramidal syndrome
+T53	Chemical 1995 2005	quetiapine
+T54	Chemical 2056 2066	quetiapine
+T55	Chemical 2148 2158	quetiapine
+T56	Disease 2187 2200	bipolar mania
+T57	Disease 2219 2222	EPS
+T58	Disease 2234 2243	akathisia
+T59	Chemical 2250 2260	quetiapine

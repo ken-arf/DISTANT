@@ -1,0 +1,15 @@
+T1	Chemical 0 7	Dup 753
+T2	Chemical 36 61	puromycin aminonucleoside
+T3	Disease 70 79	nephrosis
+T4	Disease 98 117	nephrotic syndromes
+T5	Disease 126 137	proteinuria
+T6	Disease 139 154	hypoalbuminemia
+T7	Disease 156 176	hypercholesterolemia
+T8	Chemical 193 212	blood nitrogen urea
+T9	Chemical 246 271	puromycin aminonucleoside
+T10	Chemical 321 328	Dup 753
+T11	Chemical 330 338	losartan
+T12	Chemical 349 363	angiotensin II
+T13	Chemical 476 487	angiotensin
+T14	Chemical 517 542	puromycin aminonucleoside
+T15	Disease 551 560	nephrosis
