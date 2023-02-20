@@ -1,4 +1,4 @@
-Toxic	toxic	O	O
+Toxic	toxic	O	B_disease
 hepatitis	hepatitis	O	S_disease
 induced	induced	O	O
 by	by	O	O
@@ -14,7 +14,7 @@ cross-reactivity	cross-reactivity	O	O
 between	between	O	O
 carbimazole	carbimazole	S_chemical	O
 and	and	O	O
-benzylthiouracil	benzylthiouracil	O	O
+benzylthiouracil	benzylthiouracil	S_chemical	O
 .	.	O	O
 
 OBJECTIVE	objective	O	O
@@ -29,8 +29,8 @@ the	the	O	O
 occurrence	occurrence	O	O
 of	of	O	O
 hepatic	hepatic	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 encountered	encountered	O	O
 with	with	O	O
 antithyroid	antithyroid	B_chemical	O
@@ -75,7 +75,7 @@ patients	patients	O	O
 were	were	O	O
 identified	identified	O	O
 with	with	O	O
-toxic	toxic	O	O
+toxic	toxic	O	B_disease
 hepatitis	hepatitis	O	S_disease
 which	which	O	O
 could	could	O	O
@@ -94,7 +94,7 @@ Two	two	O	O
 patients	patients	O	O
 had	had	O	O
 a	a	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 induced	induced	O	O
 by	by	O	O
@@ -112,7 +112,7 @@ had	had	O	O
 a	a	O	O
 mixed	mixed	O	O
 (	(	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 and	and	O	O
 cytolytic	cytolytic	O	O
 )	)	O	O
@@ -135,7 +135,7 @@ hepatitis	hepatitis	O	S_disease
 which	which	O	O
 appeared	appeared	O	O
 after	after	O	O
-Benzylthiouracil	benzylthiouracil	O	O
+Benzylthiouracil	benzylthiouracil	S_chemical	O
 (	(	O	O
 Basd	basd	O	O
  	 	O	O
@@ -189,7 +189,7 @@ neutropenia	neutropenia	O	S_disease
 
 CONCLUSION	conclusion	O	O
 :	:	O	O
-Toxic	toxic	O	O
+Toxic	toxic	O	B_disease
 hepatitis	hepatitis	O	S_disease
 is	is	O	O
 a	a	O	O

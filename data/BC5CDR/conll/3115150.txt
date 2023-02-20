@@ -1,4 +1,4 @@
-Ketanserin	ketanserin	O	O
+Ketanserin	ketanserin	S_chemical	O
 pretreatment	pretreatment	O	O
 reverses	reverses	O	O
 alfentanil-induced	alfentanil-induced	O	O
@@ -9,7 +9,7 @@ rigidity	rigidity	O	S_disease
 Systemic	systemic	O	O
 pretreatment	pretreatment	O	O
 with	with	O	O
-ketanserin	ketanserin	O	O
+ketanserin	ketanserin	S_chemical	O
 ,	,	O	O
 a	a	O	O
 relatively	relatively	O	O
@@ -60,7 +60,7 @@ activity	activity	O	O
 .	.	O	O
 
 Intraperitoneal	intraperitoneal	O	O
-ketanserin	ketanserin	O	O
+ketanserin	ketanserin	S_chemical	O
 administration	administration	O	O
 at	at	O	O
 doses	doses	O	O
@@ -111,7 +111,7 @@ rigidity	rigidity	O	S_disease
 animals	animals	O	O
 that	that	O	O
 received	received	O	O
-ketanserin	ketanserin	O	O
+ketanserin	ketanserin	S_chemical	O
 (	(	O	O
 greater	greater	O	O
 than	than	O	O
@@ -145,7 +145,7 @@ alone	alone	O	O
 Rats	rats	O	O
 that	that	O	O
 received	received	O	O
-ketanserin	ketanserin	O	O
+ketanserin	ketanserin	S_chemical	O
 and	and	O	O
 alfentanil	alfentanil	S_chemical	O
 exhibited	exhibited	O	O
@@ -167,7 +167,7 @@ did	did	O	O
 animals	animals	O	O
 that	that	O	O
 received	received	O	O
-ketanserin	ketanserin	O	O
+ketanserin	ketanserin	S_chemical	O
 alone	alone	O	O
 .	.	O	O
 
@@ -199,7 +199,7 @@ be	be	O	O
 partly	partly	O	O
 mediated	mediated	O	O
 via	via	O	O
-serotonergic	serotonergic	O	O
+serotonergic	serotonergic	S_chemical	O
 pathways	pathways	O	O
 .	.	O	O
 

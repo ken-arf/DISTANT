@@ -33,8 +33,8 @@ AF	af	O	O
 and	and	O	O
 maintenance	maintenance	O	O
 of	of	O	O
-sinus	sinus	O	O
-rhythm	rhythm	O	O
+sinus	sinus	O	B_disease
+rhythm	rhythm	O	I_disease
 .	.	O	O
 
 We	we	O	O

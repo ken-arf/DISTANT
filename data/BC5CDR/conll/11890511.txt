@@ -17,7 +17,7 @@ assessed	assessed	O	O
 6	6	O	O
 weeks	weeks	O	O
 following	following	O	O
-uni-	uni-	O	O
+uni-	uni-	S_chemical	O
 and	and	O	O
 bilateral	bilateral	O	O
 injections	injections	O	O
@@ -48,7 +48,7 @@ increased	increased	O	O
 3/8	3/8	O	O
 )	)	O	O
 in	in	O	O
-uni-	uni-	O	O
+uni-	uni-	S_chemical	O
 and	and	O	O
 bilateral	bilateral	O	O
 lesioned	lesioned	O	O
@@ -108,8 +108,8 @@ substantia	substantia	O	O
 nigra	nigra	O	O
 are	are	O	O
 therefore	therefore	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 erectile	erectile	O	B_disease
 dysfunction	dysfunction	O	I_disease
 in	in	O	O

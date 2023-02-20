@@ -1,8 +1,8 @@
 Cardiac	cardiac	O	O
 Angiography	angiography	O	O
 in	in	O	O
-Renally	renally	O	O
-Impaired	impaired	O	O
+Renally	renally	O	B_disease
+Impaired	impaired	O	I_disease
 Patients	patients	O	O
 (	(	O	O
 CARE	care	O	O
@@ -19,7 +19,7 @@ nephropathy	nephropathy	O	S_disease
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 kidney	kidney	O	B_disease
 disease	disease	O	I_disease
 .	.	O	O
@@ -75,7 +75,7 @@ iodixanol	iodixanol	S_chemical	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 kidney	kidney	O	B_disease
 disease	disease	O	I_disease
 (	(	O	O
@@ -102,7 +102,7 @@ interventions	interventions	O	O
 Serum	serum	O	O
 creatinine	creatinine	S_chemical	O
 (	(	O	O
-SCr	scr	O	O
+SCr	scr	S_chemical	O
 )	)	O	O
 levels	levels	O	O
 and	and	O	O
@@ -130,7 +130,7 @@ outcome	outcome	O	O
 was	was	O	O
 a	a	O	O
 postdose	postdose	O	O
-SCr	scr	O	O
+SCr	scr	S_chemical	O
 increase	increase	O	O
 >	>	O	O
 or	or	O	O
@@ -150,7 +150,7 @@ outcomes	outcomes	O	O
 were	were	O	O
 a	a	O	O
 postdose	postdose	O	O
-SCr	scr	O	O
+SCr	scr	S_chemical	O
 increase	increase	O	O
 >	>	O	O
 or	or	O	O
@@ -178,7 +178,7 @@ mean	mean	O	O
 peak	peak	O	O
 change	change	O	O
 in	in	O	O
-SCr	scr	O	O
+SCr	scr	S_chemical	O
 .	.	O	O
 
 In	in	O	O
@@ -195,11 +195,11 @@ mellitus	mellitus	O	I_disease
 ,	,	O	O
 use	use	O	O
 of	of	O	O
-N-acetylcysteine	n-acetylcysteine	O	O
+N-acetylcysteine	n-acetylcysteine	S_chemical	O
 ,	,	O	O
 mean	mean	O	O
 baseline	baseline	O	O
-SCr	scr	O	O
+SCr	scr	S_chemical	O
 ,	,	O	O
 and	and	O	O
 estimated	estimated	O	O
@@ -214,7 +214,7 @@ the	the	O	O
 groups	groups	O	O
 .	.	O	O
 
-SCr	scr	O	O
+SCr	scr	S_chemical	O
 increases	increases	O	O
 >	>	O	O
 or	or	O	O
@@ -251,7 +251,7 @@ P=0.39	p=0.39	O	O
 whereas	whereas	O	O
 rates	rates	O	O
 of	of	O	O
-SCr	scr	O	O
+SCr	scr	S_chemical	O
 increases	increases	O	O
 >	>	O	O
 or	or	O	O
@@ -276,7 +276,7 @@ patients	patients	O	O
 with	with	O	O
 diabetes	diabetes	O	S_disease
 ,	,	O	O
-SCr	scr	O	O
+SCr	scr	S_chemical	O
 increases	increases	O	O
 >	>	O	O
 or	or	O	O
@@ -310,7 +310,7 @@ P=0.11	p=0.11	O	O
 )	)	O	O
 ,	,	O	O
 whereas	whereas	O	O
-SCr	scr	O	O
+SCr	scr	S_chemical	O
 increases	increases	O	O
 >	>	O	O
 or	or	O	O
@@ -422,7 +422,7 @@ not	not	O	O
 likely	likely	O	O
 to	to	O	O
 be	be	O	O
-clinically	clinically	O	O
-significant	significant	O	O
+clinically	clinically	O	B_disease
+significant	significant	O	I_disease
 .	.	O	O
 

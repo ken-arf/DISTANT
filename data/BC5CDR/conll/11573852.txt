@@ -36,8 +36,8 @@ African-American	african-american	O	O
 man	man	O	O
 experienced	experienced	O	O
 recurrent	recurrent	O	O
-grand	grand	O	O
-mal	mal	O	O
+grand	grand	O	B_disease
+mal	mal	O	I_disease
 seizures	seizures	O	S_disease
 during	during	O	O
 intravenous	intravenous	O	O
@@ -47,7 +47,7 @@ amphotericin	amphotericin	B_chemical	O
 B	b	I_chemical	O
 ,	,	O	O
 then	then	O	O
-petit	petit	O	O
+petit	petit	S_chemical	O
 mal	mal	O	O
 seizures	seizures	O	S_disease
 as	as	O	O
@@ -104,7 +104,7 @@ DISCUSSION	discussion	O	O
 :	:	O	O
 AIDS	aids	O	S_disease
 and	and	O	O
-cryptococcal	cryptococcal	O	O
+cryptococcal	cryptococcal	O	B_disease
 meningitis	meningitis	O	S_disease
 ,	,	O	O
 both	both	O	O
@@ -208,8 +208,8 @@ three	three	O	O
 cases	cases	O	O
 of	of	O	O
 seizures	seizures	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 amphotericin	amphotericin	B_chemical	O
 B	b	I_chemical	O
 have	have	O	O

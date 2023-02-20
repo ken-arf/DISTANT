@@ -34,7 +34,7 @@ Glomerular	glomerular	O	O
 filtration	filtration	O	O
 rate	rate	O	O
 (	(	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 )	)	O	O
 and	and	O	O
 effective	effective	O	O
@@ -49,7 +49,7 @@ measured	measured	O	O
 by	by	O	O
 inulin	inulin	O	O
 and	and	O	O
-para-aminohippurate	para-aminohippurate	O	O
+para-aminohippurate	para-aminohippurate	S_chemical	O
 (	(	O	O
 PAH	pah	O	O
 )	)	O	O
@@ -102,7 +102,7 @@ of	of	O	O
 mmHg	mmhg	O	O
 .	.	O	O
 
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 and	and	O	O
 ERPF	erpf	O	O
 decreased	decreased	O	O
@@ -128,7 +128,7 @@ preoperative	preoperative	O	O
 values	values	O	O
 ,	,	O	O
 whereas	whereas	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 was	was	O	O
 higher	higher	O	O
 than	than	O	O
@@ -180,7 +180,7 @@ return	return	O	O
 to	to	O	O
 normal	normal	O	O
 when	when	O	O
-normotension	normotension	O	O
+normotension	normotension	S_chemical	O
 is	is	O	O
 resumed	resumed	O	O
 .	.	O	O

@@ -91,8 +91,8 @@ of	of	O	O
 symptom	symptom	O	O
 progression	progression	O	O
 ,	,	O	O
-symptom	symptom	O	O
-severity	severity	O	O
+symptom	symptom	O	B_disease
+severity	severity	O	I_disease
 ,	,	O	O
 and	and	O	O
 response	response	O	O

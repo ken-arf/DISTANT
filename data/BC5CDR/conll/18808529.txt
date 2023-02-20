@@ -3,7 +3,7 @@ induces	induces	O	O
 primary	primary	O	O
 loss	loss	O	O
 of	of	O	O
-dystrophin	dystrophin	O	O
+dystrophin	dystrophin	S_chemical	O
 in	in	O	O
 rat	rat	O	O
 hearts	hearts	O	O
@@ -32,10 +32,10 @@ supply	supply	O	O
 vs.	vs.	O	O
 demand	demand	O	O
 following	following	O	O
-coronary	coronary	O	O
+coronary	coronary	O	B_disease
 hypotension	hypotension	O	S_disease
 and	and	O	O
-myocardial	myocardial	O	O
+myocardial	myocardial	O	B_disease
 hyperactivity	hyperactivity	O	S_disease
 is	is	O	O
 the	the	O	O
@@ -59,7 +59,7 @@ of	of	O	O
 the	the	O	O
 sarcolemma	sarcolemma	O	O
 of	of	O	O
-cardiomyocytes	cardiomyocytes	O	O
+cardiomyocytes	cardiomyocytes	O	S_disease
 have	have	O	O
 been	been	O	O
 demonstrated	demonstrated	O	O
@@ -90,7 +90,7 @@ that	that	O	O
 connects	connects	O	O
 actin	actin	O	O
 and	and	O	O
-laminin	laminin	O	O
+laminin	laminin	S_chemical	O
 in	in	O	O
 contractile	contractile	O	O
 machinery	machinery	O	O
@@ -128,7 +128,7 @@ of	of	O	O
 the	the	O	O
 DGC	dgc	O	O
 and	and	O	O
-integrin	integrin	O	O
+integrin	integrin	S_chemical	O
 to	to	O	O
 isoproterenol	isoproterenol	S_chemical	O
 subcutaneous	subcutaneous	O	O
@@ -139,7 +139,7 @@ Immunofluorescent	immunofluorescent	O	O
 staining	staining	O	O
 revealed	revealed	O	O
 that	that	O	O
-dystrophin	dystrophin	O	O
+dystrophin	dystrophin	S_chemical	O
 is	is	O	O
 the	the	O	O
 most	most	O	O
@@ -171,7 +171,7 @@ reduction	reduction	O	O
 or	or	O	O
 loss	loss	O	O
 of	of	O	O
-dystrophin	dystrophin	O	O
+dystrophin	dystrophin	S_chemical	O
 .	.	O	O
 
 Subsequently	subsequently	O	O
@@ -183,12 +183,12 @@ myofilaments	myofilaments	O	O
 ,	,	O	O
 gamma-sarcoglycan	gamma-sarcoglycan	O	O
 ,	,	O	O
-beta-dystroglycan	beta-dystroglycan	O	O
+beta-dystroglycan	beta-dystroglycan	S_chemical	O
 ,	,	O	O
 beta1-integrin	beta1-integrin	O	O
 ,	,	O	O
 and	and	O	O
-laminin	laminin	O	O
+laminin	laminin	S_chemical	O
 alpha-2	alpha-2	O	O
 expressions	expressions	O	O
 were	were	O	O
@@ -219,7 +219,7 @@ in	in	O	O
 primary	primary	O	O
 loss	loss	O	O
 of	of	O	O
-dystrophin	dystrophin	O	O
+dystrophin	dystrophin	S_chemical	O
 ,	,	O	O
 the	the	O	O
 most	most	O	O
@@ -249,8 +249,8 @@ changes	changes	O	O
 ,	,	O	O
 related	related	O	O
 to	to	O	O
-ischaemic	ischaemic	O	O
-injury	injury	O	O
+ischaemic	ischaemic	O	B_disease
+injury	injury	O	I_disease
 ,	,	O	O
 explain	explain	O	O
 the	the	O	O
@@ -264,7 +264,7 @@ of	of	O	O
 the	the	O	O
 sarcolemma	sarcolemma	O	O
 of	of	O	O
-cardiomyocytes	cardiomyocytes	O	O
+cardiomyocytes	cardiomyocytes	O	S_disease
 and	and	O	O
 hence	hence	O	O
 severe	severe	O	O

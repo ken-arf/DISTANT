@@ -25,8 +25,8 @@ methylphenidate	methylphenidate	S_chemical	O
 .	.	O	O
 
 Significant	significant	O	O
-obsessive-compulsive	obsessive-compulsive	O	O
-behavior	behavior	O	O
+obsessive-compulsive	obsessive-compulsive	O	B_disease
+behavior	behavior	O	I_disease
 ensued	ensued	O	O
 but	but	O	O
 diminished	diminished	O	O
@@ -38,7 +38,7 @@ methylphenidate	methylphenidate	S_chemical	O
 was	was	O	O
 replaced	replaced	O	O
 by	by	O	O
-fluvoxamine	fluvoxamine	O	O
+fluvoxamine	fluvoxamine	S_chemical	O
 .	.	O	O
 
 The	the	O	O
@@ -55,8 +55,8 @@ had	had	O	O
 a	a	O	O
 sister	sister	O	O
 with	with	O	O
-obsessive-compulsive	obsessive-compulsive	O	O
-disorder	disorder	O	O
+obsessive-compulsive	obsessive-compulsive	O	B_disease
+disorder	disorder	O	I_disease
 .	.	O	O
 
 It	it	O	O

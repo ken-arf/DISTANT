@@ -241,8 +241,8 @@ milder	milder	O	O
 cases	cases	O	O
 and	and	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 increased	increased	O	O
 length-of-stay	length-of-stay	O	O
 and	and	O	O

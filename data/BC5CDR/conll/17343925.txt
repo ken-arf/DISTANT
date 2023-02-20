@@ -15,7 +15,7 @@ amplitudes	amplitudes	O	O
 of	of	O	O
 transient	transient	O	O
 evoked	evoked	O	O
-otoacoustic	otoacoustic	O	O
+otoacoustic	otoacoustic	O	S_disease
 emissions	emissions	O	O
 in	in	O	O
 newborns?OBJECTIVE	newborns?objective	O	O
@@ -51,8 +51,8 @@ smoking	smoking	S_chemical	O
 has	has	O	O
 been	been	O	O
 positively	positively	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 hearing	hearing	O	B_disease
 loss	loss	O	I_disease
 in	in	O	O
@@ -75,10 +75,10 @@ smoking	smoking	S_chemical	O
 on	on	O	O
 transient	transient	O	O
 evoked	evoked	O	O
-otoacoustic	otoacoustic	O	O
+otoacoustic	otoacoustic	O	S_disease
 emissions	emissions	O	O
 (	(	O	O
-TEOAEs	teoaes	O	O
+TEOAEs	teoaes	S_chemical	O
 )	)	O	O
 of	of	O	O
 healthy	healthy	O	O
@@ -189,7 +189,7 @@ In	in	O	O
 exposed	exposed	O	O
 neonates	neonates	O	O
 ,	,	O	O
-TEOAEs	teoaes	O	O
+TEOAEs	teoaes	S_chemical	O
 mean	mean	O	O
 response	response	O	O
 (	(	O	O
@@ -238,7 +238,7 @@ statistically	statistically	O	O
 significant	significant	O	O
 decreases	decreases	O	O
 of	of	O	O
-TEOAEs	teoaes	O	O
+TEOAEs	teoaes	S_chemical	O
 amplitudes	amplitudes	O	O
 at	at	O	O
 4000Hz	4000hz	O	O
@@ -249,7 +249,7 @@ groups	groups	O	O
 .	.	O	O
 
 Mean	mean	O	O
-TEOAEs	teoaes	O	O
+TEOAEs	teoaes	S_chemical	O
 responses	responses	O	O
 of	of	O	O
 highly	highly	O	O

@@ -7,7 +7,7 @@ with	with	O	O
 target-controlled	target-controlled	O	O
 propofol	propofol	S_chemical	O
 and	and	O	O
-remifentanil	remifentanil	O	O
+remifentanil	remifentanil	S_chemical	O
 .	.	O	O
 
 BACKGROUND	background	O	O
@@ -32,7 +32,7 @@ be	be	O	O
 prevented	prevented	O	O
 by	by	O	O
 infusing	infusing	O	O
-remifentanil	remifentanil	O	O
+remifentanil	remifentanil	S_chemical	O
 before	before	O	O
 starting	starting	O	O
 the	the	O	O
@@ -46,7 +46,7 @@ where	where	O	O
 target-controlled	target-controlled	O	O
 infusions	infusions	O	O
 (	(	O	O
-TCI	tci	O	O
+TCI	tci	S_chemical	O
 )	)	O	O
 of	of	O	O
 both	both	O	O
@@ -75,7 +75,7 @@ concentration	concentration	O	O
 Ce	ce	O	O
 )	)	O	O
 of	of	O	O
-remifentanil	remifentanil	O	O
+remifentanil	remifentanil	S_chemical	O
 to	to	O	O
 prevent	prevent	O	O
 the	the	O	O
@@ -106,7 +106,7 @@ saline	saline	O	O
 control	control	O	O
 )	)	O	O
 or	or	O	O
-remifentanil	remifentanil	O	O
+remifentanil	remifentanil	S_chemical	O
 to	to	O	O
 a	a	O	O
 target	target	O	O
@@ -138,7 +138,7 @@ R6	r6	O	O
 )	)	O	O
 administered	administered	O	O
 via	via	O	O
-TCI	tci	O	O
+TCI	tci	S_chemical	O
 .	.	O	O
 
 After	after	O	O
@@ -162,7 +162,7 @@ were	were	O	O
 assessed	assessed	O	O
 during	during	O	O
 the	the	O	O
-remifentanil	remifentanil	O	O
+remifentanil	remifentanil	S_chemical	O
 infusion	infusion	O	O
 ,	,	O	O
 and	and	O	O
@@ -274,11 +274,11 @@ induction	induction	O	O
 of	of	O	O
 anaesthesia	anaesthesia	O	O
 with	with	O	O
-TCI	tci	O	O
+TCI	tci	S_chemical	O
 of	of	O	O
 propofol	propofol	S_chemical	O
 and	and	O	O
-remifentanil	remifentanil	O	O
+remifentanil	remifentanil	S_chemical	O
 ,	,	O	O
 a	a	O	O
 significant	significant	O	O
@@ -296,7 +296,7 @@ by	by	O	O
 prior	prior	O	O
 administration	administration	O	O
 of	of	O	O
-remifentanil	remifentanil	O	O
+remifentanil	remifentanil	S_chemical	O
 at	at	O	O
 a	a	O	O
 target	target	O	O

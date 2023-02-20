@@ -69,9 +69,9 @@ coronary	coronary	O	B_disease
 aneurysm	aneurysm	O	S_disease
 in	in	O	O
 the	the	O	O
-right	right	O	O
-coronary	coronary	O	O
-artery	artery	O	O
+right	right	O	B_disease
+coronary	coronary	O	B_disease
+artery	artery	O	I_disease
 6	6	O	O
 months	months	O	O
 after	after	O	O

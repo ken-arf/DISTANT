@@ -1,0 +1,13 @@
+T1	Chemical 10 28	methylprednisolone
+T2	Disease 57 68	cord injury
+T3	Disease 93 117	Acute Spinal Cord Injury
+T4	Chemical 146 164	methylprednisolone
+T5	Disease 201 225	acute spinal cord injury
+T6	Disease 298 321	corticosteroid myopathy
+T7	Chemical 337 355	methylprednisolone
+T8	Chemical 381 399	methylprednisolone
+T10	Disease 588 606	spinal cord injury
+T13	Chemical 828 846	methylprednisolone
+T14	Chemical 965 983	methylprednisolone
+T15	Chemical 999 1005	NASCIS
+T16	Disease 1016 1045	acute corticosteroid myopathy

@@ -14,8 +14,8 @@ mouse	mouse	O	O
 The	the	O	O
 effects	effects	O	O
 of	of	O	O
-N-nitro-L-arginine-methyl	n-nitro-l-arginine-methyl	O	O
-ester	ester	O	O
+N-nitro-L-arginine-methyl	n-nitro-l-arginine-methyl	B_chemical	O
+ester	ester	I_chemical	O
 (	(	O	O
 L-NAME	l-name	O	O
 )	)	O	O
@@ -28,7 +28,7 @@ NO	no	O	O
 synthase	synthase	O	O
 inhibitor	inhibitor	O	O
 and	and	O	O
-L-arginine	l-arginine	O	O
+L-arginine	l-arginine	S_chemical	O
 ,	,	O	O
 a	a	O	O
 NO	no	O	O
@@ -58,7 +58,7 @@ saline	saline	O	O
 %	%	O	O
 )	)	O	O
 ,	,	O	O
-L-arginine	l-arginine	O	O
+L-arginine	l-arginine	S_chemical	O
 (	(	O	O
 300	300	O	O
 mg/kg	mg/kg	O	O
@@ -172,7 +172,7 @@ In	in	O	O
 contrast	contrast	O	O
 ,	,	O	O
 the	the	O	O
-L-arginine	l-arginine	O	O
+L-arginine	l-arginine	S_chemical	O
 treatment	treatment	O	O
 increased	increased	O	O
 the	the	O	O

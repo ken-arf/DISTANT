@@ -1,7 +1,7 @@
 Clonidine	clonidine	S_chemical	O
 for	for	O	O
-attention-deficit/hyperactivity	attention-deficit/hyperactivity	O	O
-disorder	disorder	O	O
+attention-deficit/hyperactivity	attention-deficit/hyperactivity	O	B_disease
+disorder	disorder	O	I_disease
 :	:	O	O
 II	ii	O	O
 .	.	O	O
@@ -9,8 +9,8 @@ II	ii	O	O
 ECG	ecg	O	O
 changes	changes	O	O
 and	and	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 analysis	analysis	O	O
 .	.	O	O
 
@@ -32,8 +32,8 @@ methylphenidate	methylphenidate	S_chemical	O
 in	in	O	O
 children	children	O	O
 with	with	O	O
-attention-deficit/hyperactivity	attention-deficit/hyperactivity	O	O
-disorder	disorder	O	O
+attention-deficit/hyperactivity	attention-deficit/hyperactivity	O	B_disease
+disorder	disorder	O	I_disease
 (	(	O	O
 ADHD	adhd	O	O
 )	)	O	O
@@ -116,8 +116,8 @@ Groups	groups	O	O
 were	were	O	O
 compared	compared	O	O
 regarding	regarding	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 and	and	O	O
 changes	changes	O	O
 from	from	O	O
@@ -174,8 +174,8 @@ regarding	regarding	O	O
 electrocardiogram	electrocardiogram	O	O
 and	and	O	O
 other	other	O	O
-cardiovascular	cardiovascular	O	O
-outcomes	outcomes	O	O
+cardiovascular	cardiovascular	O	B_disease
+outcomes	outcomes	O	I_disease
 .	.	O	O
 
 There	there	O	O
@@ -189,15 +189,15 @@ clonidine	clonidine	S_chemical	O
 and	and	O	O
 methylphenidate	methylphenidate	S_chemical	O
 regarding	regarding	O	O
-cardiovascular	cardiovascular	O	O
-outcomes	outcomes	O	O
+cardiovascular	cardiovascular	O	B_disease
+outcomes	outcomes	O	I_disease
 .	.	O	O
 
 Moderate	moderate	O	O
 or	or	O	O
 severe	severe	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 were	were	O	O
 more	more	O	O
 common	common	O	O
@@ -218,8 +218,8 @@ p	p	O	O
 )	)	O	O
 but	but	O	O
 not	not	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 higher	higher	O	O
 rates	rates	O	O
 of	of	O	O

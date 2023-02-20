@@ -6,9 +6,9 @@ for	for	O	O
 the	the	O	O
 treatment	treatment	O	O
 of	of	O	O
-acute	acute	O	O
-bacterial	bacterial	O	O
-sinusitis	sinusitis	O	O
+acute	acute	O	B_disease
+bacterial	bacterial	O	B_disease
+sinusitis	sinusitis	O	I_disease
 in	in	O	O
 adults	adults	O	O
 .	.	O	O
@@ -40,9 +40,9 @@ treating	treating	O	O
 adult	adult	O	O
 outpatients	outpatients	O	O
 with	with	O	O
-acute	acute	O	O
-bacterial	bacterial	O	O
-sinusitis	sinusitis	O	O
+acute	acute	O	B_disease
+bacterial	bacterial	O	B_disease
+sinusitis	sinusitis	O	I_disease
 .	.	O	O
 
 PATIENTS	patients	O	O
@@ -295,8 +295,8 @@ of	of	O	O
 symptoms	symptoms	O	O
 .	.	O	O
 
-Adverse	adverse	O	O
-events	events	O	O
+Adverse	adverse	O	B_disease
+events	events	O	I_disease
 considered	considered	O	O
 to	to	O	O
 be	be	O	O
@@ -319,8 +319,8 @@ The	the	O	O
 most	most	O	O
 common	common	O	O
 drug-related	drug-related	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 were	were	O	O
 diarrhea	diarrhea	O	S_disease
 ,	,	O	O
@@ -330,8 +330,8 @@ and	and	O	O
 nausea	nausea	O	S_disease
 ;	;	O	O
 most	most	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 were	were	O	O
 mild	mild	O	O
 to	to	O	O
@@ -349,8 +349,8 @@ this	this	O	O
 study	study	O	O
 indicate	indicate	O	O
 that	that	O	O
-levofloxacin	levofloxacin	S_chemical	O
-500	500	O	O
+levofloxacin	levofloxacin	B_chemical	O
+500	500	I_chemical	O
 mg	mg	O	O
 once	once	O	O
 daily	daily	O	O
@@ -361,8 +361,8 @@ and	and	O	O
 safe	safe	O	O
 treatment	treatment	O	O
 for	for	O	O
-acute	acute	O	O
-bacterial	bacterial	O	O
-sinusitis	sinusitis	O	O
+acute	acute	O	B_disease
+bacterial	bacterial	O	B_disease
+sinusitis	sinusitis	O	I_disease
 .	.	O	O
 

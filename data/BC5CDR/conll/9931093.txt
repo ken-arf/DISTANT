@@ -8,7 +8,7 @@ the	the	O	O
 rat.-Tacrolimus	rat.-tacrolimus	O	O
 (	(	O	O
 FK	fk	B_chemical	O
-506	506	I_chemical	O
+506	506	S_chemical	O
 )	)	O	O
 is	is	O	O
 a	a	O	O
@@ -24,7 +24,7 @@ clinical	clinical	O	O
 utility	utility	O	O
 of	of	O	O
 FK	fk	B_chemical	O
-506	506	I_chemical	O
+506	506	S_chemical	O
 is	is	O	O
 complicated	complicated	O	O
 by	by	O	O
@@ -50,7 +50,7 @@ chronic	chronic	O	O
 effects	effects	O	O
 of	of	O	O
 FK	fk	B_chemical	O
-506	506	I_chemical	O
+506	506	S_chemical	O
 on	on	O	O
 the	the	O	O
 synthesis	synthesis	O	O
@@ -79,7 +79,7 @@ nitric	nitric	B_chemical	O
 oxide	oxide	I_chemical	O
 synthase	synthase	I_chemical	O
 (	(	O	O
-eNOS	enos	O	O
+eNOS	enos	S_chemical	S_disease
 )	)	O	O
 activity	activity	O	O
 ,	,	O	O
@@ -89,7 +89,7 @@ expression	expression	O	O
 of	of	O	O
 mRNA	mrna	O	O
 of	of	O	O
-eNOS	enos	O	O
+eNOS	enos	S_chemical	S_disease
 and	and	O	O
 C-type	c-type	O	O
 natriuretic	natriuretic	O	O
@@ -129,7 +129,7 @@ studied	studied	O	O
 .	.	O	O
 
 FK	fk	B_chemical	O
-506	506	I_chemical	O
+506	506	S_chemical	O
 ,	,	O	O
 5	5	O	O
 mg	mg	O	O
@@ -196,15 +196,15 @@ mRNA	mrna	O	O
 .	.	O	O
 
 FK	fk	B_chemical	O
-506	506	I_chemical	O
+506	506	S_chemical	O
 decreased	decreased	O	O
-eNOS	enos	O	O
+eNOS	enos	S_chemical	S_disease
 activity	activity	O	O
 and	and	O	O
 the	the	O	O
 levels	levels	O	O
 of	of	O	O
-eNOS	enos	O	O
+eNOS	enos	S_chemical	S_disease
 mRNA	mrna	O	O
 in	in	O	O
 the	the	O	O
@@ -247,7 +247,7 @@ results	results	O	O
 indicate	indicate	O	O
 that	that	O	O
 FK	fk	B_chemical	O
-506	506	I_chemical	O
+506	506	S_chemical	O
 may	may	O	O
 increase	increase	O	O
 blood	blood	O	O

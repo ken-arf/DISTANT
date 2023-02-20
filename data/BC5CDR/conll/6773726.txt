@@ -1,6 +1,6 @@
 Provocation	provocation	O	O
 of	of	O	O
-postural	postural	O	O
+postural	postural	O	B_disease
 hypotension	hypotension	O	S_disease
 by	by	O	O
 nitroglycerin	nitroglycerin	S_chemical	O

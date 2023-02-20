@@ -12,7 +12,7 @@ sedation	sedation	O	O
 with	with	O	O
 diazepam	diazepam	S_chemical	O
 and	and	O	O
-opioids	opioids	O	O
+opioids	opioids	S_chemical	O
 :	:	O	O
 report	report	O	O
 of	of	O	O
@@ -91,7 +91,7 @@ in	in	O	O
 conjunction	conjunction	O	O
 with	with	O	O
 an	an	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 (	(	O	O
 fentanyl	fentanyl	S_chemical	O
 ,	,	O	O
@@ -239,8 +239,8 @@ tolerated	tolerated	O	O
 with	with	O	O
 no	no	O	O
 serious	serious	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 reported	reported	O	O
 .	.	O	O
 
@@ -275,11 +275,11 @@ experiences	experiences	O	O
 The	the	O	O
 most	most	O	O
 common	common	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 were	were	O	O
-nausea	nausea	O	S_disease
-and	and	O	O
+nausea	nausea	O	B_disease
+and	and	O	I_disease
 vomiting	vomiting	O	S_disease
 in	in	O	O
 the	the	O	O
@@ -310,6 +310,6 @@ in	in	O	O
 the	the	O	O
 presence	presence	O	O
 of	of	O	O
-opioids	opioids	O	O
+opioids	opioids	S_chemical	O
 .	.	O	O
 

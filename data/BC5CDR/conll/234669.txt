@@ -34,9 +34,9 @@ of	of	O	O
 pharmacologic	pharmacologic	O	O
 agents	agents	O	O
 in	in	O	O
-precipitating	precipitating	O	O
-cardiac	cardiac	O	O
-disturbances	disturbances	O	O
+precipitating	precipitating	O	B_disease
+cardiac	cardiac	O	I_disease
+disturbances	disturbances	O	I_disease
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
@@ -93,8 +93,8 @@ current	current	O	O
 pulses	pulses	O	O
 through	through	O	O
 the	the	O	O
-ventricular	ventricular	O	O
-myocardium	myocardium	O	O
+ventricular	ventricular	O	B_disease
+myocardium	myocardium	O	I_disease
 during	during	O	O
 the	the	O	O
 vulnerable	vulnerable	O	O
@@ -154,7 +154,7 @@ failure	failure	O	I_disease
 was	was	O	O
 produced	produced	O	O
 by	by	O	O
-hypoventilation	hypoventilation	O	O
+hypoventilation	hypoventilation	O	S_disease
 (	(	O	O
 pH	ph	O	O
 7.05	7.05	O	O

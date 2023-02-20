@@ -6,7 +6,7 @@ cardiac	cardiac	O	B_disease
 toxicity	toxicity	O	S_disease
 related	related	O	O
 to	to	O	O
-lopinavir/ritonavir	lopinavir/ritonavir	O	O
+lopinavir/ritonavir	lopinavir/ritonavir	S_chemical	O
 therapy	therapy	O	O
 .	.	O	O
 
@@ -46,7 +46,7 @@ dilated	dilated	O	B_disease
 cardiomyopathy	cardiomyopathy	O	S_disease
 related	related	O	O
 to	to	O	O
-lopinavir/ritonavir	lopinavir/ritonavir	O	O
+lopinavir/ritonavir	lopinavir/ritonavir	S_chemical	O
 therapy	therapy	O	O
 ,	,	O	O
 a	a	O	O
@@ -70,7 +70,7 @@ in	in	O	O
 the	the	O	O
 use	use	O	O
 of	of	O	O
-lopinavir/ritonavir	lopinavir/ritonavir	O	O
+lopinavir/ritonavir	lopinavir/ritonavir	S_chemical	O
 in	in	O	O
 the	the	O	O
 immediate	immediate	O	O

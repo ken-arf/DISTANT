@@ -14,9 +14,9 @@ dogs	dogs	O	O
 
 BACKGROUND	background	O	O
 :	:	O	O
-Atrial	atrial	O	O
-tachycardia-induced	tachycardia-induced	O	O
-remodeling	remodeling	O	O
+Atrial	atrial	O	B_disease
+tachycardia-induced	tachycardia-induced	O	I_disease
+remodeling	remodeling	O	I_disease
 promotes	promotes	O	O
 the	the	O	O
 occurrence	occurrence	O	O
@@ -89,7 +89,7 @@ we	we	O	O
 administered	administered	O	O
 verapamil	verapamil	S_chemical	O
 to	to	O	O
-morphine-chloralose	morphine-chloralose	O	O
+morphine-chloralose	morphine-chloralose	S_chemical	O
 anesthetized	anesthetized	O	O
 dogs	dogs	O	O
 .	.	O	O
@@ -385,8 +385,8 @@ effect	effect	O	O
 dependent	dependent	O	O
 on	on	O	O
 intact	intact	O	O
-autonomic	autonomic	O	O
-tone	tone	O	O
+autonomic	autonomic	O	B_disease
+tone	tone	O	I_disease
 and	and	O	O
 not	not	O	O
 shared	shared	O	O

@@ -30,7 +30,7 @@ then	then	O	O
 treated	treated	O	O
 chronically	chronically	O	O
 with	with	O	O
-L-DOPA/benserazide	l-dopa/benserazide	O	O
+L-DOPA/benserazide	l-dopa/benserazide	S_chemical	O
 50/12.5	50/12.5	O	O
 mg/kg	mg/kg	O	O
 given	given	O	O
@@ -78,7 +78,7 @@ to	to	O	O
 see	see	O	O
 if	if	O	O
 the	the	O	O
-dyskinetic	dyskinetic	O	O
+dyskinetic	dyskinetic	O	S_disease
 movements	movements	O	O
 would	would	O	O
 be	be	O	O
@@ -93,7 +93,7 @@ clonidine	clonidine	S_chemical	O
 ,	,	O	O
 physostigmine	physostigmine	O	O
 ,	,	O	O
-methysergide	methysergide	O	O
+methysergide	methysergide	S_chemical	O
 ,	,	O	O
 5-MDOT	5-mdot	O	O
 ,	,	O	O
@@ -105,7 +105,7 @@ MK-801	mk-801	S_chemical	O
 markedly	markedly	O	O
 reduced	reduced	O	O
 the	the	O	O
-dyskinetic	dyskinetic	O	O
+dyskinetic	dyskinetic	O	S_disease
 movements	movements	O	O
 but	but	O	O
 at	at	O	O
@@ -127,11 +127,11 @@ meperidine	meperidine	O	O
 reduced	reduced	O	O
 predominantly	predominantly	O	O
 the	the	O	O
-dyskinetic	dyskinetic	O	O
+dyskinetic	dyskinetic	O	S_disease
 movements	movements	O	O
 .	.	O	O
 
-Baclofen	baclofen	O	O
+Baclofen	baclofen	S_chemical	O
 was	was	O	O
 also	also	O	O
 useful	useful	O	O
@@ -141,8 +141,8 @@ monkey	monkey	O	O
 against	against	O	O
 a	a	O	O
 more	more	O	O
-dystonic	dystonic	O	O
-form	form	O	O
+dystonic	dystonic	O	B_disease
+form	form	O	I_disease
 of	of	O	O
 dyskinesia	dyskinesia	O	S_disease
 .	.	O	O
@@ -150,7 +150,7 @@ dyskinesia	dyskinesia	O	S_disease
 Atropine	atropine	S_chemical	O
 converted	converted	O	O
 the	the	O	O
-dystonic	dystonic	O	O
+dystonic	dystonic	O	S_disease
 movements	movements	O	O
 into	into	O	O
 chorea	chorea	O	O

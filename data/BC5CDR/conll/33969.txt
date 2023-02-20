@@ -1,6 +1,6 @@
-Ethopropazine	ethopropazine	O	O
+Ethopropazine	ethopropazine	S_chemical	O
 and	and	O	O
-benztropine	benztropine	O	O
+benztropine	benztropine	S_chemical	O
 in	in	O	O
 neuroleptic-induced	neuroleptic-induced	O	O
 parkinsonism	parkinsonism	O	S_disease
@@ -11,11 +11,11 @@ a	a	O	O
 12-week	12-week	O	O
 controlled	controlled	O	O
 study	study	O	O
-ethopropazine	ethopropazine	O	O
+ethopropazine	ethopropazine	S_chemical	O
 was	was	O	O
 compared	compared	O	O
 to	to	O	O
-benztropine	benztropine	O	O
+benztropine	benztropine	S_chemical	O
 in	in	O	O
 the	the	O	O
 treatment	treatment	O	O
@@ -24,16 +24,16 @@ parkinsonism	parkinsonism	O	S_disease
 induced	induced	O	O
 by	by	O	O
 fluphenazine	fluphenazine	B_chemical	O
-enanthate	enanthate	I_chemical	O
+enanthate	enanthate	S_chemical	O
 in	in	O	O
 60	60	O	O
 schizophrenic	schizophrenic	O	S_disease
 outpatients	outpatients	O	O
 .	.	O	O
 
-Ethopropazine	ethopropazine	O	O
+Ethopropazine	ethopropazine	S_chemical	O
 and	and	O	O
-benztropine	benztropine	O	O
+benztropine	benztropine	S_chemical	O
 were	were	O	O
 found	found	O	O
 to	to	O	O
@@ -59,7 +59,7 @@ drug	drug	O	O
 
 However	however	O	O
 ,	,	O	O
-benztropine	benztropine	O	O
+benztropine	benztropine	S_chemical	O
 treated	treated	O	O
 patients	patients	O	O
 had	had	O	O
@@ -74,7 +74,7 @@ to	to	O	O
 their	their	O	O
 condition	condition	O	O
 during	during	O	O
-procyclindine	procyclindine	O	O
+procyclindine	procyclindine	S_chemical	O
 treatment	treatment	O	O
 ,	,	O	O
 and	and	O	O
@@ -84,7 +84,7 @@ anxiety	anxiety	O	S_disease
 and	and	O	O
 depression	depression	O	S_disease
 than	than	O	O
-ethopropazine	ethopropazine	O	O
+ethopropazine	ethopropazine	S_chemical	O
 treated	treated	O	O
 patients	patients	O	O
 .	.	O	O
@@ -92,7 +92,7 @@ patients	patients	O	O
 This	this	O	O
 suggests	suggests	O	O
 that	that	O	O
-benztropine	benztropine	O	O
+benztropine	benztropine	S_chemical	O
 is	is	O	O
 not	not	O	O
 the	the	O	O

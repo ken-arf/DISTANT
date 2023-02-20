@@ -12,9 +12,9 @@ of	of	O	O
 two	two	O	O
 mothers	mothers	O	O
 with	with	O	O
-inflammatory	inflammatory	O	O
-bowel	bowel	O	O
-disease	disease	O	O
+inflammatory	inflammatory	O	B_disease
+bowel	bowel	O	I_disease
+disease	disease	O	I_disease
 who	who	O	O
 received	received	O	O
 treatment	treatment	O	O
@@ -28,8 +28,8 @@ found	found	O	O
 to	to	O	O
 have	have	O	O
 major	major	O	O
-congenital	congenital	O	O
-anomalies	anomalies	O	O
+congenital	congenital	O	B_disease
+anomalies	anomalies	O	I_disease
 .	.	O	O
 
 In	in	O	O
@@ -40,8 +40,8 @@ pregnancy	pregnancy	O	O
 the	the	O	O
 mother	mother	O	O
 had	had	O	O
-ulcerative	ulcerative	O	O
-colitis	colitis	O	O
+ulcerative	ulcerative	O	B_disease
+colitis	colitis	O	I_disease
 ,	,	O	O
 and	and	O	O
 the	the	O	O
@@ -57,9 +57,9 @@ the	the	O	O
 aorta	aorta	O	O
 and	and	O	O
 a	a	O	O
-ventricular	ventricular	O	O
-septal	septal	O	O
-defect	defect	O	O
+ventricular	ventricular	O	B_disease
+septal	septal	O	I_disease
+defect	defect	O	I_disease
 .	.	O	O
 
 In	in	O	O

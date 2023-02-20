@@ -2,7 +2,7 @@ Nicotine-induced	nicotine-induced	O	O
 nystagmus	nystagmus	O	O
 correlates	correlates	O	O
 with	with	O	O
-midpontine	midpontine	O	O
+midpontine	midpontine	S_chemical	O
 activation	activation	O	O
 .	.	O	O
 
@@ -12,7 +12,7 @@ of	of	O	O
 nicotine-induced	nicotine-induced	O	O
 nystagmus	nystagmus	O	O
 (	(	O	O
-NIN	nin	O	O
+NIN	nin	S_chemical	O
 )	)	O	O
 is	is	O	O
 unknown	unknown	O	O
@@ -32,7 +32,7 @@ that	that	O	O
 are	are	O	O
 involved	involved	O	O
 in	in	O	O
-NIN	nin	O	O
+NIN	nin	S_chemical	O
 generation	generation	O	O
 .	.	O	O
 
@@ -62,7 +62,7 @@ using	using	O	O
 video-oculography	video-oculography	O	O
 .	.	O	O
 
-NIN	nin	O	O
+NIN	nin	S_chemical	O
 correlated	correlated	O	O
 with	with	O	O
 blood	blood	O	O
@@ -75,7 +75,7 @@ activity	activity	O	O
 levels	levels	O	O
 in	in	O	O
 a	a	O	O
-midpontine	midpontine	O	O
+midpontine	midpontine	S_chemical	O
 site	site	O	O
 in	in	O	O
 the	the	O	O
@@ -85,7 +85,7 @@ pontis	pontis	O	O
 .	.	O	O
 
 NIN-induced	nin-induced	O	O
-midpontine	midpontine	O	O
+midpontine	midpontine	S_chemical	O
 activation	activation	O	O
 may	may	O	O
 correspond	correspond	O	O

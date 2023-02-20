@@ -1,0 +1,16 @@
+T2	Disease 37 54	renal dysfunction
+T3	Chemical 55 64	Sirolimus
+T4	Chemical 231 240	Sirolimus
+T5	Disease 301 332	acute renal allograft rejection
+T6	Disease 337 366	chronic allograft nephropathy
+T8	Disease 429 450	cystic renal diseases
+T10	Chemical 500 509	sirolimus
+T11	Chemical 713 722	sirolimus
+T12	Disease 758 781	acute renal dysfunction
+T13	Disease 843 863	chronic renal damage
+T14	Chemical 1074 1083	sirolimus
+T15	Disease 1110 1140	glomerular permeability/injury
+T16	Disease 1121 1140	permeability/injury
+T17	Chemical 1521 1530	sirolimus
+T18	Chemical 1557 1566	sirolimus
+T21	Chemical 1847 1856	sirolimus

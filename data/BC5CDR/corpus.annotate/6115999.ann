@@ -1,0 +1,16 @@
+T1	Disease 0 17	Adverse reactions
+T2	Chemical 21 35	bendrofluazide
+T3	Chemical 40 51	propranolol
+T6	Disease 239 256	mild hypertension
+T7	Chemical 313 327	bendrofluazide
+T8	Chemical 329 340	propranolol
+T9	Chemical 560 574	bendrofluazide
+T12	Chemical 663 674	propranolol
+T13	Disease 712 729	adverse reactions
+T15	Chemical 942 953	propranolol
+T16	Disease 958 973	corneal disease
+T17	Chemical 1007 1018	propranolol
+T19	Chemical 1072 1081	uric acid
+T20	Chemical 1119 1133	bendrofluazide
+T21	Chemical 1142 1153	propranolol
+T22	Chemical 1181 1190	uric acid

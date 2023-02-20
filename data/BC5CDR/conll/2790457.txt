@@ -54,7 +54,7 @@ the	the	O	O
 development	development	O	O
 of	of	O	O
 both	both	O	O
-lidocaine-	lidocaine-	O	O
+lidocaine-	lidocaine-	S_chemical	O
 and	and	O	O
 cocaine-induced	cocaine-induced	O	O
 seizures	seizures	O	S_disease
@@ -131,7 +131,7 @@ on	on	O	O
 the	the	O	O
 development	development	O	O
 of	of	O	O
-lidocaine-	lidocaine-	O	O
+lidocaine-	lidocaine-	S_chemical	O
 or	or	O	O
 cocaine-kindled	cocaine-kindled	O	O
 seizures	seizures	O	S_disease
@@ -200,8 +200,8 @@ the	the	O	O
 development	development	O	O
 of	of	O	O
 toxic	toxic	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 in	in	O	O
 human	human	O	O
 cocaine	cocaine	S_chemical	O

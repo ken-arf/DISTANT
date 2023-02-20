@@ -23,10 +23,10 @@ enzyme	enzyme	O	O
 gets	gets	O	O
 deactivated	deactivated	O	O
 by	by	O	O
-organophosphorus	organophosphorus	O	O
-(	(	O	O
-OP	op	O	O
-)	)	O	O
+organophosphorus	organophosphorus	B_chemical	O
+(	(	I_chemical	O
+OP	op	I_chemical	O
+)	)	I_chemical	O
 poisons	poisons	O	O
 .	.	O	O
 

@@ -4,8 +4,8 @@ myocardial	myocardial	O	B_disease
 infarction	infarction	O	S_disease
 due	due	O	O
 to	to	O	O
-coronary	coronary	O	O
-artery	artery	O	O
+coronary	coronary	O	B_disease
+artery	artery	O	I_disease
 spasm	spasm	O	S_disease
 .	.	O	O
 
@@ -72,14 +72,14 @@ was	was	O	O
 no	no	O	O
 stenosis	stenosis	O	O
 in	in	O	O
-coronary	coronary	O	O
-arteries	arteries	O	O
+coronary	coronary	O	B_disease
+arteries	arteries	O	I_disease
 on	on	O	O
 angiography	angiography	O	O
 .	.	O	O
 
-Coronary	coronary	O	O
-artery	artery	O	O
+Coronary	coronary	O	B_disease
+artery	artery	O	I_disease
 spasm	spasm	O	S_disease
 was	was	O	O
 induced	induced	O	O
@@ -115,14 +115,14 @@ sorafenib	sorafenib	S_chemical	O
 Addition	addition	O	O
 of	of	O	O
 oral	oral	O	O
-nicorandil	nicorandil	O	O
+nicorandil	nicorandil	S_chemical	O
 reduced	reduced	O	O
 his	his	O	O
 symptoms	symptoms	O	O
 and	and	O	O
 maintained	maintained	O	O
-stable	stable	O	O
-angina	angina	O	O
+stable	stable	O	B_disease
+angina	angina	O	I_disease
 status	status	O	O
 .	.	O	O
 
@@ -133,8 +133,8 @@ first	first	O	O
 case	case	O	O
 of	of	O	O
 sorafenib-induced	sorafenib-induced	O	O
-coronary	coronary	O	O
-artery	artery	O	O
+coronary	coronary	O	B_disease
+artery	artery	O	I_disease
 spasm	spasm	O	S_disease
 .	.	O	O
 
@@ -171,8 +171,8 @@ in	in	O	O
 the	the	O	O
 pathogenesis	pathogenesis	O	O
 of	of	O	O
-coronary	coronary	O	O
-artery	artery	O	O
+coronary	coronary	O	B_disease
+artery	artery	O	I_disease
 spasm	spasm	O	S_disease
 .	.	O	O
 

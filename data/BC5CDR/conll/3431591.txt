@@ -8,15 +8,15 @@ the	the	O	O
 thymidylate	thymidylate	B_chemical	O
 synthase	synthase	I_chemical	O
 inhibitor	inhibitor	O	O
-N10-propargyl-5,8-dideazafolic	n10-propargyl-5,8-dideazafolic	O	O
-acid	acid	O	O
+N10-propargyl-5,8-dideazafolic	n10-propargyl-5,8-dideazafolic	B_chemical	O
+acid	acid	I_chemical	O
 (	(	O	O
 CB	cb	O	O
 3717).CB	3717).cb	O	O
 3717	3717	O	O
 ,	,	O	O
-N10-propargyl-5,8-dideazafolic	n10-propargyl-5,8-dideazafolic	O	O
-acid	acid	O	O
+N10-propargyl-5,8-dideazafolic	n10-propargyl-5,8-dideazafolic	B_chemical	O
+acid	acid	I_chemical	O
 ,	,	O	O
 is	is	O	O
 a	a	O	O
@@ -53,7 +53,7 @@ formation	formation	O	O
 of	of	O	O
 CB	cb	B_chemical	O
 3717	3717	I_chemical	O
-polyglutamates	polyglutamates	O	O
+polyglutamates	polyglutamates	S_chemical	O
 .	.	O	O
 
 Following	following	O	O
@@ -84,7 +84,7 @@ CB	cb	B_chemical	O
 3717	3717	I_chemical	O
 tetra-	tetra-	O	O
 and	and	O	O
-pentaglutamate	pentaglutamate	O	O
+pentaglutamate	pentaglutamate	S_chemical	O
 ,	,	O	O
 as	as	O	O
 determined	determined	O	O
@@ -109,11 +109,11 @@ CB	cb	B_chemical	O
 3717	3717	I_chemical	O
 di-	di-	O	O
 ,	,	O	O
-tri-	tri-	O	O
+tri-	tri-	S_chemical	O
 ,	,	O	O
 tetra-	tetra-	O	O
 and	and	O	O
-pentaglutamate	pentaglutamate	O	O
+pentaglutamate	pentaglutamate	S_chemical	O
 are	are	O	O
 26-	26-	O	O
 ,	,	O	O
@@ -273,8 +273,8 @@ again	again	O	O
 the	the	O	O
 most	most	O	O
 frequent	frequent	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 
 Evidence	evidence	O	O

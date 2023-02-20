@@ -1,8 +1,8 @@
 Development	development	O	O
 of	of	O	O
-clear	clear	O	O
-cell	cell	O	O
-adenocarcinoma	adenocarcinoma	O	O
+clear	clear	O	B_disease
+cell	cell	O	I_disease
+adenocarcinoma	adenocarcinoma	O	I_disease
 in	in	O	O
 DES-exposed	des-exposed	O	O
 offspring	offspring	O	O
@@ -13,9 +13,9 @@ observation	observation	O	O
 Two	two	O	O
 cases	cases	O	O
 of	of	O	O
-clear	clear	O	O
-cell	cell	O	O
-adenocarcinoma	adenocarcinoma	O	O
+clear	clear	O	B_disease
+cell	cell	O	I_disease
+adenocarcinoma	adenocarcinoma	O	I_disease
 of	of	O	O
 the	the	O	O
 vagina	vagina	O	O
@@ -94,8 +94,8 @@ small	small	O	O
 nodule	nodule	O	O
 in	in	O	O
 the	the	O	O
-vaginal	vaginal	O	O
-fornix	fornix	O	O
+vaginal	vaginal	B_chemical	O
+fornix	fornix	I_chemical	O
 .	.	O	O
 
 Hysterosalpingography	hysterosalpingography	O	O

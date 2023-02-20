@@ -6,8 +6,8 @@ as	as	O	O
 seen	seen	O	O
 in	in	O	O
 the	the	O	O
-Nigerian	nigerian	O	O
-African	african	O	O
+Nigerian	nigerian	B_chemical	O
+African	african	I_chemical	O
 .	.	O	O
 
 The	the	O	O
@@ -16,16 +16,16 @@ and	and	O	O
 aetiological	aetiological	O	O
 diagnoses	diagnoses	O	O
 of	of	O	O
-peripheral	peripheral	O	O
-nerve	nerve	O	O
-disease	disease	O	O
+peripheral	peripheral	O	B_disease
+nerve	nerve	O	I_disease
+disease	disease	O	I_disease
 excluding	excluding	O	O
 its	its	O	O
 primary	primary	O	O
 benign	benign	O	O
 and	and	O	O
-malignant	malignant	O	O
-disorders	disorders	O	O
+malignant	malignant	O	B_disease
+disorders	disorders	O	I_disease
 ,	,	O	O
 as	as	O	O
 seen	seen	O	O
@@ -190,11 +190,11 @@ was	was	O	O
 undetermined	undetermined	O	O
 .	.	O	O
 
-Heredofamilial	heredofamilial	O	O
+Heredofamilial	heredofamilial	S_chemical	O
 and	and	O	O
-connective	connective	O	O
-tissue	tissue	O	O
-disorders	disorders	O	O
+connective	connective	O	B_disease
+tissue	tissue	O	I_disease
+disorders	disorders	O	I_disease
 were	were	O	O
 rare	rare	O	O
 .	.	O	O

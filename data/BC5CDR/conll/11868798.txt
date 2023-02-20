@@ -26,7 +26,7 @@ of	of	O	O
 amphotericin	amphotericin	B_chemical	O
 B	b	I_chemical	O
 (	(	O	O
-AmB	amb	S_chemical	O
+AmB	amb	S_chemical	S_disease
 )	)	O	O
 ,	,	O	O
 often	often	O	O
@@ -90,10 +90,10 @@ to	to	O	O
 prevent	prevent	O	O
 hypokalemia	hypokalemia	O	O
 in	in	O	O
-neutropenic	neutropenic	O	O
+neutropenic	neutropenic	O	S_disease
 patients	patients	O	O
 on	on	O	O
-AmB	amb	S_chemical	O
+AmB	amb	S_chemical	S_disease
 treatment	treatment	O	O
 .	.	O	O
 
@@ -106,18 +106,18 @@ study	study	O	O
 patients	patients	O	O
 with	with	O	O
 various	various	O	O
-hematological	hematological	O	O
-disorders	disorders	O	O
+hematological	hematological	O	B_disease
+disorders	disorders	O	I_disease
 were	were	O	O
 randomized	randomized	O	O
 to	to	O	O
 receive	receive	O	O
 either	either	O	O
 intravenous	intravenous	O	O
-AmB	amb	S_chemical	O
+AmB	amb	S_chemical	S_disease
 alone	alone	O	O
 or	or	O	O
-AmB	amb	S_chemical	O
+AmB	amb	S_chemical	S_disease
 and	and	O	O
 oral	oral	O	O
 spironolactone	spironolactone	S_chemical	O
@@ -131,7 +131,7 @@ a	a	O	O
 proven	proven	O	O
 or	or	O	O
 suspected	suspected	O	O
-fungal	fungal	O	O
+fungal	fungal	O	B_disease
 infection	infection	O	S_disease
 .	.	O	O
 
@@ -140,7 +140,7 @@ RESULTS	results	O	O
 Patients	patients	O	O
 receiving	receiving	O	O
 concomitant	concomitant	O	O
-AmB	amb	S_chemical	O
+AmB	amb	S_chemical	S_disease
 and	and	O	O
 spironolactone	spironolactone	S_chemical	O
 had	had	O	O
@@ -152,7 +152,7 @@ levels	levels	O	O
 than	than	O	O
 those	those	O	O
 receiving	receiving	O	O
-AmB	amb	S_chemical	O
+AmB	amb	S_chemical	S_disease
 alone	alone	O	O
 (	(	O	O
 P	p	O	O
@@ -164,7 +164,7 @@ P	p	O	O
 Those	those	O	O
 patients	patients	O	O
 receiving	receiving	O	O
-AmB	amb	S_chemical	O
+AmB	amb	S_chemical	S_disease
 and	and	O	O
 spironolactone	spironolactone	S_chemical	O
 required	required	O	O
@@ -199,13 +199,13 @@ less	less	O	O
 in	in	O	O
 patients	patients	O	O
 receiving	receiving	O	O
-AmB	amb	S_chemical	O
+AmB	amb	S_chemical	S_disease
 and	and	O	O
 spironolactone	spironolactone	S_chemical	O
 than	than	O	O
 those	those	O	O
 receiving	receiving	O	O
-AmB	amb	S_chemical	O
+AmB	amb	S_chemical	S_disease
 alone	alone	O	O
 (	(	O	O
 P	p	O	O
@@ -234,10 +234,10 @@ urinary	urinary	O	O
 potassium	potassium	S_chemical	O
 loss	loss	O	O
 in	in	O	O
-neutropenic	neutropenic	O	O
+neutropenic	neutropenic	O	S_disease
 patients	patients	O	O
 on	on	O	O
-AmB	amb	S_chemical	O
+AmB	amb	S_chemical	S_disease
 treatment	treatment	O	O
 .	.	O	O
 

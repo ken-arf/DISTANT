@@ -1,15 +1,15 @@
 Coexistence	coexistence	O	O
 of	of	O	O
 cerebral	cerebral	O	O
-venous	venous	O	O
-sinus	sinus	O	O
+venous	venous	O	B_disease
+sinus	sinus	O	I_disease
 and	and	O	O
 internal	internal	O	B_disease
 carotid	carotid	O	B_disease
 artery	artery	O	I_disease
 thrombosis	thrombosis	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 exogenous	exogenous	O	O
 sex	sex	O	O
 hormones	hormones	O	O
@@ -28,12 +28,12 @@ woman	woman	O	O
 developed	developed	O	O
 headache	headache	O	S_disease
 ,	,	O	O
-nausea	nausea	O	S_disease
-and	and	O	O
+nausea	nausea	O	B_disease
+and	and	O	I_disease
 vomiting	vomiting	O	S_disease
 ,	,	O	O
-left	left	O	O
-hemiparesis	hemiparesis	O	O
+left	left	O	B_disease
+hemiparesis	hemiparesis	O	S_disease
 and	and	O	O
 seizure	seizure	O	S_disease
 two	two	O	O
@@ -62,8 +62,8 @@ Computed	computed	O	O
 tomography	tomography	O	O
 showed	showed	O	O
 a	a	O	O
-hemorrhagic	hemorrhagic	O	S_disease
-infarct	infarct	O	O
+hemorrhagic	hemorrhagic	O	B_disease
+infarct	infarct	O	I_disease
 in	in	O	O
 the	the	O	O
 right	right	O	O
@@ -94,7 +94,7 @@ internal	internal	O	O
 carotid	carotid	O	O
 artery	artery	O	O
 (	(	O	O
-ICA	ica	O	O
+ICA	ica	O	S_disease
 )	)	O	O
 .	.	O	O
 
@@ -113,8 +113,8 @@ sinus	sinus	O	O
 ,	,	O	O
 suggestive	suggestive	O	O
 of	of	O	O
-venous	venous	O	O
-sinus	sinus	O	O
+venous	venous	O	B_disease
+sinus	sinus	O	I_disease
 thrombosis	thrombosis	O	S_disease
 .	.	O	O
 
@@ -125,8 +125,8 @@ cerebral	cerebral	O	O
 artery	artery	O	O
 and	and	O	O
 the	the	O	O
-venous	venous	O	O
-sinus	sinus	O	O
+venous	venous	O	B_disease
+sinus	sinus	O	I_disease
 occlusion	occlusion	O	O
 has	has	O	O
 been	been	O	O
@@ -153,8 +153,8 @@ the	the	O	O
 underlying	underlying	O	O
 DM	dm	O	S_disease
 increased	increased	O	O
-vascular	vascular	O	O
-thrombogenicity	thrombogenicity	O	O
+vascular	vascular	O	B_disease
+thrombogenicity	thrombogenicity	O	I_disease
 ,	,	O	O
 which	which	O	O
 provided	provided	O	O
@@ -166,10 +166,10 @@ thrombosis	thrombosis	O	S_disease
 of	of	O	O
 both	both	O	O
 the	the	O	O
-ICA	ica	O	O
+ICA	ica	O	S_disease
 and	and	O	O
 the	the	O	O
-venous	venous	O	O
-sinus	sinus	O	O
+venous	venous	O	B_disease
+sinus	sinus	O	I_disease
 .	.	O	O
 

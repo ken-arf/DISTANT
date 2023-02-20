@@ -56,7 +56,7 @@ suggest	suggest	O	O
 pulsatile	pulsatile	O	O
 stimulation	stimulation	O	O
 of	of	O	O
-striatal	striatal	O	O
+striatal	striatal	O	S_disease
 postsynaptic	postsynaptic	O	O
 receptors	receptors	O	O
 as	as	O	O
@@ -105,7 +105,7 @@ underlying	underlying	O	O
 the	the	O	O
 development	development	O	O
 of	of	O	O
-dyskinetic	dyskinetic	O	O
+dyskinetic	dyskinetic	O	S_disease
 movements	movements	O	O
 .	.	O	O
 

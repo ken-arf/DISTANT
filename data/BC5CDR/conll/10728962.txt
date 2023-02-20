@@ -18,7 +18,7 @@ phosphodiesterase	phosphodiesterase	B_chemical	O
 inhibitors	inhibitors	I_chemical	O
 such	such	O	O
 as	as	O	O
-milrinone	milrinone	O	O
+milrinone	milrinone	S_chemical	O
 in	in	O	O
 the	the	O	O
 treatment	treatment	O	O
@@ -40,7 +40,7 @@ hypotension	hypotension	O	S_disease
 In	in	O	O
 patients	patients	O	O
 with	with	O	O
-decompensated	decompensated	O	O
+decompensated	decompensated	O	S_disease
 heart	heart	O	B_disease
 failure	failure	O	I_disease
 with	with	O	O
@@ -48,7 +48,7 @@ hypotension	hypotension	O	S_disease
 after	after	O	O
 treatment	treatment	O	O
 with	with	O	O
-milrinone	milrinone	O	O
+milrinone	milrinone	S_chemical	O
 ,	,	O	O
 low	low	O	O
 doses	doses	O	O
@@ -63,6 +63,6 @@ the	the	O	O
 inotropic	inotropic	O	O
 effect	effect	O	O
 of	of	O	O
-milrinone	milrinone	O	O
+milrinone	milrinone	S_chemical	O
 .	.	O	O
 

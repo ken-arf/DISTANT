@@ -20,8 +20,8 @@ have	have	O	O
 suggested	suggested	O	O
 that	that	O	O
 pain	pain	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 injection	injection	O	O
 of	of	O	O

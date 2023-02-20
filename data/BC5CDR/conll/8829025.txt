@@ -118,8 +118,8 @@ on	on	O	O
 reducing	reducing	O	O
 the	the	O	O
 nephrotoxicity	nephrotoxicity	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 tacrolimus	tacrolimus	S_chemical	O
 in	in	O	O
 liver	liver	O	O

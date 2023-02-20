@@ -46,8 +46,8 @@ phospholipid	phospholipid	O	O
 and	and	O	O
 T	t	O	O
 cell-mediated	cell-mediated	O	O
-hypersensitivity	hypersensitivity	O	S_disease
-pneumonitis	pneumonitis	O	O
+hypersensitivity	hypersensitivity	O	B_disease
+pneumonitis	pneumonitis	O	I_disease
 .	.	O	O
 
 The	the	O	O

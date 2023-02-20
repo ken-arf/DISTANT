@@ -37,8 +37,8 @@ cyclooxygenase	cyclooxygenase	B_chemical	O
 inhibitors	inhibitors	I_chemical	O
 .	.	O	O
 
-Adverse	adverse	O	O
-cardiovascular	cardiovascular	O	O
+Adverse	adverse	O	B_disease
+cardiovascular	cardiovascular	O	I_disease
 effects	effects	O	O
 occurred	occurred	O	O
 mainly	mainly	O	O
@@ -80,9 +80,9 @@ retention	retention	O	O
 The	the	O	O
 incidence	incidence	O	O
 of	of	O	O
-cardiovascular	cardiovascular	O	O
-adverse	adverse	O	O
-events	events	O	O
+cardiovascular	cardiovascular	O	B_disease
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 tends	tends	O	O
 to	to	O	O
 increase	increase	O	O
@@ -135,9 +135,9 @@ such	such	O	O
 as	as	O	O
 N-terminal	n-terminal	O	O
 pro	pro	O	O
-brain	brain	O	O
-natriuretic	natriuretic	O	O
-peptide	peptide	O	O
+brain	brain	B_chemical	O
+natriuretic	natriuretic	I_chemical	O
+peptide	peptide	I_chemical	O
 (	(	O	O
 NT-proBNP	nt-probnp	O	O
 )	)	O	O
@@ -162,7 +162,7 @@ the	the	O	O
 occurrence	occurrence	O	O
 of	of	O	O
 serious	serious	O	O
-cardiovascular	cardiovascular	O	O
+cardiovascular	cardiovascular	O	B_disease
 toxicity	toxicity	O	S_disease
 .	.	O	O
 

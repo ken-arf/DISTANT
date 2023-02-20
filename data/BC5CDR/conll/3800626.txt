@@ -1,4 +1,4 @@
-Compression	compression	O	O
+Compression	compression	O	B_disease
 neuropathy	neuropathy	O	S_disease
 of	of	O	O
 the	the	O	O
@@ -28,12 +28,12 @@ injection	injection	O	O
 
 However	however	O	O
 ,	,	O	O
-compression	compression	O	O
+compression	compression	O	B_disease
 neuropathy	neuropathy	O	S_disease
 due	due	O	O
 to	to	O	O
-fibrotic	fibrotic	O	O
-muscle	muscle	O	O
+fibrotic	fibrotic	O	B_disease
+muscle	muscle	O	I_disease
 affected	affected	O	O
 by	by	O	O
 pentazocine-induced	pentazocine-induced	O	O

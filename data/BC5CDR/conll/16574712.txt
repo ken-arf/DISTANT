@@ -20,8 +20,8 @@ In	in	O	O
 recent	recent	O	O
 years	years	O	O
 working	working	O	O
-memory	memory	O	O
-deficits	deficits	O	O
+memory	memory	O	B_disease
+deficits	deficits	O	I_disease
 have	have	O	O
 been	been	O	O
 reported	reported	O	O

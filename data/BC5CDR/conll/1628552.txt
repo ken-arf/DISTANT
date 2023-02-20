@@ -29,14 +29,14 @@ of	of	O	O
 vision	vision	O	O
 ,	,	O	O
 easy	easy	O	O
-fatiguability	fatiguability	O	O
+fatiguability	fatiguability	O	S_disease
 ,	,	O	O
 dyspnoea	dyspnoea	O	O
 ,	,	O	O
 dizziness	dizziness	O	S_disease
 progressing	progressing	O	O
 to	to	O	O
-syncopal	syncopal	O	O
+syncopal	syncopal	O	S_disease
 attacks	attacks	O	O
 .	.	O	O
 
@@ -45,8 +45,8 @@ assessment	assessment	O	O
 revealed	revealed	O	O
 features	features	O	O
 of	of	O	O
-chloroquine	chloroquine	S_chemical	O
-retinopathy	retinopathy	O	O
+chloroquine	chloroquine	B_chemical	O
+retinopathy	retinopathy	I_chemical	O
 ,	,	O	O
 cardiac	cardiac	O	O
 assessment	assessment	O	O

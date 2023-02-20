@@ -2,8 +2,8 @@ Effects	effects	O	O
 of	of	O	O
 the	the	O	O
 novel	novel	O	O
-compound	compound	O	O
-aniracetam	aniracetam	O	O
+compound	compound	B_chemical	O
+aniracetam	aniracetam	S_chemical	O
 (	(	O	O
 Ro	ro	O	O
 13	13	O	O
@@ -22,14 +22,14 @@ rodents	rodents	O	O
 The	the	O	O
 effect	effect	O	O
 of	of	O	O
-aniracetam	aniracetam	O	O
+aniracetam	aniracetam	S_chemical	O
 (	(	O	O
 Ro	ro	O	O
 13	13	O	O
 -	-	O	O
 5057	5057	O	O
 ,	,	O	O
-1-anisoyl-2-pyrrolidinone	1-anisoyl-2-pyrrolidinone	O	O
+1-anisoyl-2-pyrrolidinone	1-anisoyl-2-pyrrolidinone	S_chemical	O
 )	)	O	O
 was	was	O	O
 studied	studied	O	O
@@ -39,8 +39,8 @@ forms	forms	O	O
 of	of	O	O
 experimentally	experimentally	O	O
 impaired	impaired	O	O
-cognitive	cognitive	O	O
-functions	functions	O	O
+cognitive	cognitive	O	B_disease
+functions	functions	O	I_disease
 (	(	O	O
 learning	learning	O	O
 and	and	O	O
@@ -73,7 +73,7 @@ in	in	O	O
 rats	rats	O	O
 exposed	exposed	O	O
 to	to	O	O
-sublethal	sublethal	O	O
+sublethal	sublethal	S_chemical	O
 hypercapnia	hypercapnia	O	O
 immediately	immediately	O	O
 before	before	O	O
@@ -236,13 +236,13 @@ or	or	O	O
 normalizations	normalizations	O	O
 of	of	O	O
 impaired	impaired	O	O
-cognitive	cognitive	O	O
-functions	functions	O	O
+cognitive	cognitive	O	B_disease
+functions	functions	O	I_disease
 were	were	O	O
 seen	seen	O	O
 at	at	O	O
-oral	oral	O	O
-aniracetam	aniracetam	O	O
+oral	oral	B_chemical	O
+aniracetam	aniracetam	S_chemical	O
 doses	doses	O	O
 of	of	O	O
 10	10	O	O
@@ -266,7 +266,7 @@ underlying	underlying	O	O
 the	the	O	O
 activity	activity	O	O
 of	of	O	O
-aniracetam	aniracetam	O	O
+aniracetam	aniracetam	S_chemical	O
 and	and	O	O
 its	its	O	O
 '	'	O	O
@@ -277,7 +277,7 @@ are	are	O	O
 unknown	unknown	O	O
 .	.	O	O
 
-Piracetam	piracetam	O	O
+Piracetam	piracetam	S_chemical	O
 ,	,	O	O
 another	another	O	O
 pyrrolidinone	pyrrolidinone	O	O
@@ -304,17 +304,17 @@ one-tenth	one-tenth	O	O
 the	the	O	O
 potency	potency	O	O
 of	of	O	O
-aniracetam	aniracetam	O	O
+aniracetam	aniracetam	S_chemical	O
 .	.	O	O
 
 The	the	O	O
 results	results	O	O
 indicate	indicate	O	O
 that	that	O	O
-aniracetam	aniracetam	O	O
+aniracetam	aniracetam	S_chemical	O
 improves	improves	O	O
-cognitive	cognitive	O	O
-functions	functions	O	O
+cognitive	cognitive	O	B_disease
+functions	functions	O	I_disease
 which	which	O	O
 are	are	O	O
 impaired	impaired	O	O

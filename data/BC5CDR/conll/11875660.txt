@@ -287,8 +287,8 @@ of	of	O	O
 vessels	vessels	O	O
 ,	,	O	O
 subsequent	subsequent	O	O
-peripheral	peripheral	O	O
-circulatory	circulatory	O	O
+peripheral	peripheral	O	B_disease
+circulatory	circulatory	O	I_disease
 failure	failure	O	O
 and/or	and/or	O	O
 hemorrhaging	hemorrhaging	O	O

@@ -7,14 +7,14 @@ symptoms	symptoms	O	I_disease
 EPS	eps	O	S_disease
 )	)	O	O
 with	with	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 in	in	O	O
 controlled	controlled	O	O
 studies	studies	O	O
 of	of	O	O
 patients	patients	O	O
 with	with	O	O
-bipolar	bipolar	O	S_disease
+bipolar	bipolar	O	B_disease
 mania	mania	O	S_disease
 .	.	O	O
 
@@ -32,11 +32,11 @@ including	including	O	O
 akathisia	akathisia	O	S_disease
 ,	,	O	O
 with	with	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-bipolar	bipolar	O	S_disease
+bipolar	bipolar	O	B_disease
 mania	mania	O	S_disease
 .	.	O	O
 
@@ -63,7 +63,7 @@ studies	studies	O	O
 Two	two	O	O
 studies	studies	O	O
 evaluated	evaluated	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 monotherapy	monotherapy	O	O
 (	(	O	O
 up	up	O	O
@@ -98,7 +98,7 @@ controls	controls	O	O
 Two	two	O	O
 studies	studies	O	O
 evaluated	evaluated	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 (	(	O	O
 up	up	O	O
 to	to	O	O
@@ -164,8 +164,8 @@ Scale	scale	O	O
 BARS	bars	O	O
 )	)	O	O
 ,	,	O	O
-adverse	adverse	O	O
-event	event	O	O
+adverse	adverse	O	B_disease
+event	event	O	I_disease
 reports	reports	O	O
 and	and	O	O
 anticholinergic	anticholinergic	O	O
@@ -179,8 +179,8 @@ The	the	O	O
 incidence	incidence	O	O
 of	of	O	O
 EPS-related	eps-related	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 ,	,	O	O
 including	including	O	O
 akathisia	akathisia	O	S_disease
@@ -189,7 +189,7 @@ was	was	O	O
 no	no	O	O
 different	different	O	O
 with	with	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 monotherapy	monotherapy	O	O
 (	(	O	O
 12.9	12.9	O	O
@@ -207,8 +207,8 @@ placebo	placebo	O	O
 Similarly	similarly	O	O
 ,	,	O	O
 EPS-related	eps-related	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 with	with	O	O
 QTP	qtp	O	O
 +	+	O	O
@@ -231,8 +231,8 @@ Li/DVP	li/dvp	O	O
 )	)	O	O
 .	.	O	O
 
-Adverse	adverse	O	O
-events	events	O	O
+Adverse	adverse	O	B_disease
+events	events	O	I_disease
 related	related	O	O
 to	to	O	O
 EPS	eps	O	S_disease
@@ -267,8 +267,8 @@ n	n	O	O
 )	)	O	O
 monotherapy	monotherapy	O	O
 experienced	experienced	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 related	related	O	O
 to	to	O	O
 EPS	eps	O	S_disease
@@ -283,7 +283,7 @@ low	low	O	O
 and	and	O	O
 similar	similar	O	O
 with	with	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 monotherapy	monotherapy	O	O
 (	(	O	O
 3.3	3.3	O	O
@@ -317,8 +317,8 @@ Li/DVP	li/dvp	O	O
 
 Lithium	lithium	S_chemical	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 significantly	significantly	O	O
 higher	higher	O	O
@@ -335,7 +335,7 @@ tremor	tremor	O	S_disease
 %	%	O	O
 )	)	O	O
 than	than	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 (	(	O	O
 5.6	5.6	O	O
 %	%	O	O
@@ -400,7 +400,7 @@ versus	versus	O	O
 )	)	O	O
 ,	,	O	O
 and	and	O	O
-extrapyramidal	extrapyramidal	O	O
+extrapyramidal	extrapyramidal	O	S_disease
 syndrome	syndrome	O	O
 (	(	O	O
 35.4	35.4	O	O
@@ -410,7 +410,7 @@ versus	versus	O	O
 %	%	O	O
 )	)	O	O
 than	than	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 .	.	O	O
 
 No	no	O	O
@@ -419,7 +419,7 @@ differences	differences	O	O
 were	were	O	O
 observed	observed	O	O
 between	between	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 and	and	O	O
 placebo	placebo	O	O
 on	on	O	O
@@ -436,7 +436,7 @@ low	low	O	O
 and	and	O	O
 similar	similar	O	O
 with	with	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 or	or	O	O
 placebo	placebo	O	O
 .	.	O	O
@@ -444,7 +444,7 @@ placebo	placebo	O	O
 CONCLUSIONS	conclusions	O	O
 :	:	O	O
 In	in	O	O
-bipolar	bipolar	O	S_disease
+bipolar	bipolar	O	B_disease
 mania	mania	O	S_disease
 ,	,	O	O
 the	the	O	O
@@ -456,7 +456,7 @@ including	including	O	O
 akathisia	akathisia	O	S_disease
 ,	,	O	O
 with	with	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 therapy	therapy	O	O
 is	is	O	O
 similar	similar	O	O

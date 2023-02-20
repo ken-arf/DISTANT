@@ -1,7 +1,7 @@
-Amisulpride	amisulpride	O	O
+Amisulpride	amisulpride	S_chemical	O
 related	related	O	O
-tic-like	tic-like	O	O
-symptoms	symptoms	O	O
+tic-like	tic-like	O	B_disease
+symptoms	symptoms	O	I_disease
 in	in	O	O
 an	an	O	O
 adolescent	adolescent	O	O
@@ -23,7 +23,7 @@ risperidone	risperidone	S_chemical	O
 ,	,	O	O
 olanzapine	olanzapine	S_chemical	O
 and	and	O	O
-ziprasidone	ziprasidone	O	O
+ziprasidone	ziprasidone	S_chemical	O
 .	.	O	O
 
 However	however	O	O
@@ -35,8 +35,8 @@ case	case	O	O
 reports	reports	O	O
 that	that	O	O
 show	show	O	O
-tic-like	tic-like	O	O
-symptoms	symptoms	O	O
+tic-like	tic-like	O	B_disease
+symptoms	symptoms	O	I_disease
 ,	,	O	O
 including	including	O	O
 motor	motor	O	O
@@ -48,7 +48,7 @@ occurring	occurring	O	O
 during	during	O	O
 treatment	treatment	O	O
 with	with	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 or	or	O	O
 clozapine	clozapine	S_chemical	O
 .	.	O	O
@@ -69,7 +69,7 @@ after	after	O	O
 5	5	O	O
 months	months	O	O
 of	of	O	O
-amisulpride	amisulpride	O	O
+amisulpride	amisulpride	S_chemical	O
 treatment	treatment	O	O
 (	(	O	O
 1000	1000	O	O
@@ -80,8 +80,8 @@ day	day	O	O
 .	.	O	O
 
 The	the	O	O
-tic-like	tic-like	O	O
-symptoms	symptoms	O	O
+tic-like	tic-like	O	B_disease
+symptoms	symptoms	O	I_disease
 resolved	resolved	O	O
 completely	completely	O	O
 after	after	O	O
@@ -90,7 +90,7 @@ reduced	reduced	O	O
 the	the	O	O
 dose	dose	O	O
 of	of	O	O
-amisulpride	amisulpride	O	O
+amisulpride	amisulpride	S_chemical	O
 down	down	O	O
 to	to	O	O
 800	800	O	O
@@ -122,7 +122,7 @@ mg	mg	O	O
 per	per	O	O
 day	day	O	O
 of	of	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 .	.	O	O
 
 She	she	O	O
@@ -150,12 +150,12 @@ function	function	O	O
 
 No	no	O	O
 more	more	O	O
-tic-like	tic-like	O	O
-symptoms	symptoms	O	O
+tic-like	tic-like	O	B_disease
+symptoms	symptoms	O	I_disease
 or	or	O	O
 other	other	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 have	have	O	O
 been	been	O	O
 reported	reported	O	O
@@ -171,8 +171,8 @@ our	our	O	O
 patient	patient	O	O
 suggests	suggests	O	O
 that	that	O	O
-tic-like	tic-like	O	O
-symptoms	symptoms	O	O
+tic-like	tic-like	O	B_disease
+symptoms	symptoms	O	I_disease
 might	might	O	O
 occur	occur	O	O
 in	in	O	O
@@ -186,11 +186,11 @@ atypical	atypical	O	O
 antipsychotics	antipsychotics	S_chemical	O
 such	such	O	O
 as	as	O	O
-quetiapine	quetiapine	O	O
+quetiapine	quetiapine	S_chemical	O
 ,	,	O	O
 clozapine	clozapine	S_chemical	O
 ,	,	O	O
 or	or	O	O
-amisulpride	amisulpride	O	O
+amisulpride	amisulpride	S_chemical	O
 .	.	O	O
 

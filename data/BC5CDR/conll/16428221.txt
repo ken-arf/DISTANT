@@ -1,4 +1,4 @@
-Cerebral	cerebral	O	O
+Cerebral	cerebral	O	B_disease
 vasculitis	vasculitis	O	S_disease
 following	following	O	O
 oral	oral	O	O
@@ -23,10 +23,10 @@ to	to	O	O
 amphetamine	amphetamine	S_chemical	O
 .	.	O	O
 
-Cerebral	cerebral	O	O
+Cerebral	cerebral	O	B_disease
 vasculitis	vasculitis	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 amphetamine	amphetamine	S_chemical	O
 abuse	abuse	O	O
 is	is	O	O
@@ -37,7 +37,7 @@ and	and	O	O
 in	in	O	O
 rare	rare	O	O
 cases	cases	O	O
-ischaemic	ischaemic	O	O
+ischaemic	ischaemic	O	B_disease
 stroke	stroke	O	S_disease
 has	has	O	O
 been	been	O	O
@@ -69,14 +69,14 @@ and	and	O	O
 suffered	suffered	O	O
 from	from	O	O
 multiple	multiple	O	O
-ischaemic	ischaemic	O	O
+ischaemic	ischaemic	O	B_disease
 strokes	strokes	O	S_disease
 .	.	O	O
 
 We	we	O	O
 consider	consider	O	O
 drug-induced	drug-induced	O	O
-cerebral	cerebral	O	O
+cerebral	cerebral	O	B_disease
 vasculitis	vasculitis	O	S_disease
 as	as	O	O
 the	the	O	O
@@ -85,7 +85,7 @@ likely	likely	O	O
 cause	cause	O	O
 of	of	O	O
 recurrent	recurrent	O	O
-ischaemic	ischaemic	O	O
+ischaemic	ischaemic	O	B_disease
 strokes	strokes	O	S_disease
 in	in	O	O
 the	the	O	O
@@ -112,8 +112,8 @@ considered	considered	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-neurological	neurological	O	O
-symptoms	symptoms	O	O
+neurological	neurological	O	B_disease
+symptoms	symptoms	O	I_disease
 and	and	O	O
 a	a	O	O
 history	history	O	O

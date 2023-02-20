@@ -5,11 +5,11 @@ lasting	lasting	O	O
 cholestasis	cholestasis	O	S_disease
 after	after	O	O
 high-dose	high-dose	O	O
-co-trimoxazole	co-trimoxazole	O	O
+co-trimoxazole	co-trimoxazole	S_chemical	O
 treatment	treatment	O	O
 for	for	O	O
-Pneumocystis	pneumocystis	O	O
-pneumonia	pneumonia	O	O
+Pneumocystis	pneumocystis	O	B_disease
+pneumonia	pneumonia	O	I_disease
 in	in	O	O
 HIV-infected	hiv-infected	O	O
 patients	patients	O	O
@@ -21,8 +21,8 @@ two	two	O	O
 cases	cases	O	O
 .	.	O	O
 
-Pneumocystis	pneumocystis	O	O
-pneumonia	pneumonia	O	O
+Pneumocystis	pneumocystis	O	B_disease
+pneumonia	pneumonia	O	I_disease
 (	(	O	O
 PCP	pcp	O	O
 )	)	O	O
@@ -42,7 +42,7 @@ with	with	O	O
 high	high	O	O
 doses	doses	O	O
 of	of	O	O
-co-trimoxazole	co-trimoxazole	O	O
+co-trimoxazole	co-trimoxazole	S_chemical	O
 .	.	O	O
 
 However	however	O	O
@@ -52,8 +52,8 @@ is	is	O	O
 often	often	O	O
 limited	limited	O	O
 by	by	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 
 Here	here	O	O
@@ -87,7 +87,7 @@ radiologic	radiologic	O	O
 exams	exams	O	O
 ,	,	O	O
 during	during	O	O
-co-trimoxazole	co-trimoxazole	O	O
+co-trimoxazole	co-trimoxazole	S_chemical	O
 treatment	treatment	O	O
 for	for	O	O
 PCP	pcp	O	O
@@ -111,7 +111,7 @@ resonance	resonance	O	O
 imaging	imaging	O	O
 under	under	O	O
 prolonged	prolonged	O	O
-co-trimoxazole	co-trimoxazole	O	O
+co-trimoxazole	co-trimoxazole	S_chemical	O
 treatment	treatment	O	O
 ,	,	O	O
 therapy	therapy	O	O

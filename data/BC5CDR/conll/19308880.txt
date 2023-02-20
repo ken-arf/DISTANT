@@ -3,9 +3,9 @@ Confusion	confusion	O	S_disease
 a	a	O	O
 rather	rather	O	O
 serious	serious	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reaction	reaction	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reaction	reaction	O	I_disease
 with	with	O	O
 valproic	valproic	B_chemical	O
 acid	acid	I_chemical	O
@@ -24,9 +24,9 @@ INTRODUCTION	introduction	O	O
 Confusion	confusion	O	S_disease
 is	is	O	O
 an	an	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reaction	reaction	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reaction	reaction	O	I_disease
 frequently	frequently	O	O
 observed	observed	O	O
 with	with	O	O
@@ -69,9 +69,9 @@ main	main	O	O
 characteristics	characteristics	O	O
 of	of	O	O
 this	this	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reaction	reaction	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reaction	reaction	O	I_disease
 .	.	O	O
 
 METHODS	methods	O	O
@@ -199,9 +199,9 @@ rather	rather	O	O
 frequent	frequent	O	O
 but	but	O	O
 reversible	reversible	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reaction	reaction	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reaction	reaction	O	I_disease
 .	.	O	O
 
 It	it	O	O

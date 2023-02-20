@@ -43,14 +43,14 @@ a	a	O	O
 randomised	randomised	O	O
 trial	trial	O	O
 of	of	O	O
-anastrozole	anastrozole	O	O
+anastrozole	anastrozole	S_chemical	O
 ,	,	O	O
 tamoxifen	tamoxifen	S_chemical	O
 alone	alone	O	O
 or	or	O	O
 combined	combined	O	O
 (	(	O	O
-ATAC	atac	O	O
+ATAC	atac	S_chemical	O
 )	)	O	O
 (	(	O	O
 n=94	n=94	O	O
@@ -131,8 +131,8 @@ treatment	treatment	O	O
 or	or	O	O
 measures	measures	O	O
 of	of	O	O
-psychological	psychological	O	O
-morbidity	morbidity	O	O
+psychological	psychological	O	B_disease
+morbidity	morbidity	O	I_disease
 .	.	O	O
 
 The	the	O	O
@@ -204,8 +204,8 @@ setting	setting	O	O
 their	their	O	O
 impact	impact	O	O
 on	on	O	O
-cognitive	cognitive	O	O
-functioning	functioning	O	O
+cognitive	cognitive	O	B_disease
+functioning	functioning	O	I_disease
 should	should	O	O
 be	be	O	O
 investigated	investigated	O	O

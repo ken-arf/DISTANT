@@ -68,8 +68,8 @@ doxorubicin	doxorubicin	S_chemical	O
 and	and	O	O
 irradiation	irradiation	O	O
 on	on	O	O
-cardiac	cardiac	O	O
-muscle	muscle	O	O
+cardiac	cardiac	O	B_disease
+muscle	muscle	O	I_disease
 .	.	O	O
 
 It	it	O	O

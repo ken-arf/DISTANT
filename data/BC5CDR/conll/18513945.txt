@@ -105,8 +105,8 @@ be	be	O	O
 incorrectly	incorrectly	O	O
 attributed	attributed	O	O
 to	to	O	O
-blood	blood	O	O
-loss	loss	O	O
+blood	blood	O	B_disease
+loss	loss	O	I_disease
 .	.	O	O
 
 Pulse	pulse	O	O
@@ -176,8 +176,8 @@ response	response	O	O
 to	to	O	O
 oxytocin	oxytocin	S_chemical	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 decrease	decrease	O	O
 in	in	O	O

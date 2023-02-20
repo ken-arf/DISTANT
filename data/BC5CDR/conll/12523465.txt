@@ -1,7 +1,7 @@
 Visual	visual	O	B_disease
 hallucinations	hallucinations	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 zonisamide	zonisamide	S_chemical	O
 .	.	O	O
 
@@ -46,8 +46,8 @@ visual	visual	O	B_disease
 hallucinations	hallucinations	O	S_disease
 and	and	O	O
 altered	altered	O	O
-mental	mental	O	O
-status	status	O	O
+mental	mental	O	B_disease
+status	status	O	I_disease
 after	after	O	O
 zonisamide	zonisamide	S_chemical	O
 treatment	treatment	O	O
@@ -175,8 +175,8 @@ of	of	O	O
 this	this	O	O
 possible	possible	O	O
 complication	complication	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 zonisamide	zonisamide	S_chemical	O
 .	.	O	O
 

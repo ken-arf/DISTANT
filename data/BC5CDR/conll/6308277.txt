@@ -18,8 +18,8 @@ an	an	O	O
 over-the-counter	over-the-counter	O	O
 analgesic	analgesic	O	O
 containing	containing	O	O
-sodium	sodium	S_chemical	O
-acetylsalicylate	acetylsalicylate	O	O
+sodium	sodium	B_chemical	O
+acetylsalicylate	acetylsalicylate	S_chemical	O
 ,	,	O	O
 caffeine	caffeine	S_chemical	O
 ,	,	O	O
@@ -116,8 +116,8 @@ IP	ip	O	O
 )	)	O	O
 and	and	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 fatal	fatal	O	O
 convulsions	convulsions	O	S_disease
 by	by	O	O

@@ -17,8 +17,8 @@ increased	increased	O	O
 aggressiveness	aggressiveness	O	S_disease
 .	.	O	O
 
-Aggressive	aggressive	O	O
-behaviors	behaviors	O	O
+Aggressive	aggressive	O	B_disease
+behaviors	behaviors	O	I_disease
 have	have	O	O
 been	been	O	O
 reported	reported	O	O
@@ -28,8 +28,8 @@ who	who	O	O
 suffer	suffer	O	O
 from	from	O	O
 some	some	O	O
-psychiatric	psychiatric	O	S_disease
-disorders	disorders	O	O
+psychiatric	psychiatric	O	B_disease
+disorders	disorders	O	I_disease
 ,	,	O	O
 and	and	O	O
 are	are	O	O
@@ -124,10 +124,10 @@ GSK3alpha	gsk3alpha	O	O
 3e	3e	O	O
 ,	,	O	O
 and	and	O	O
-MEK7	mek7	O	O
+MEK7	mek7	S_chemical	O
 in	in	O	O
 the	the	O	O
-striata	striata	O	O
+striata	striata	S_chemical	O
 of	of	O	O
 mice	mice	O	O
 after	after	O	O
@@ -208,8 +208,8 @@ in	in	O	O
 the	the	O	O
 manifestation	manifestation	O	O
 of	of	O	O
-aggressive	aggressive	O	O
-behaviors	behaviors	O	O
+aggressive	aggressive	O	B_disease
+behaviors	behaviors	O	I_disease
 in	in	O	O
 mice	mice	O	O
 .	.	O	O

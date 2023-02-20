@@ -1,7 +1,7 @@
 Angioedema	angioedema	O	S_disease
-associated	associated	O	O
-with	with	O	O
-droperidol	droperidol	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+droperidol	droperidol	S_chemical	O
 administration	administration	O	O
 .	.	O	O
 
@@ -10,7 +10,7 @@ Angioedema	angioedema	O	S_disease
 also	also	O	O
 known	known	O	O
 as	as	O	O
-angioneurotic	angioneurotic	O	O
+angioneurotic	angioneurotic	O	S_disease
 edema	edema	O	S_disease
 or	or	O	O
 Quincke	quincke	O	O
@@ -54,8 +54,8 @@ whom	whom	O	O
 angioedema	angioedema	O	S_disease
 with	with	O	O
 significant	significant	O	O
-tongue	tongue	O	O
-swelling	swelling	O	O
+tongue	tongue	O	B_disease
+swelling	swelling	O	I_disease
 and	and	O	O
 protrusion	protrusion	O	O
 developed	developed	O	O
@@ -71,6 +71,6 @@ single	single	O	O
 IV	iv	O	O
 dose	dose	O	O
 of	of	O	O
-droperidol	droperidol	O	O
+droperidol	droperidol	S_chemical	O
 .	.	O	O
 

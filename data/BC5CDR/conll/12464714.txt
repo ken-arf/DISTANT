@@ -9,7 +9,7 @@ rizatriptan	rizatriptan	S_chemical	O
 10	10	O	O
 mg	mg	O	O
 versus	versus	O	O
-ergotamine/caffeine	ergotamine/caffeine	O	O
+ergotamine/caffeine	ergotamine/caffeine	S_chemical	O
 in	in	O	O
 migraine	migraine	O	S_disease
 .	.	O	O
@@ -28,8 +28,8 @@ oral	oral	O	O
 absorption	absorption	O	O
 and	and	O	O
 early	early	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 action	action	O	O
 in	in	O	O
 the	the	O	O
@@ -94,7 +94,7 @@ many	many	O	O
 preferred	preferred	O	O
 rizatriptan	rizatriptan	S_chemical	O
 to	to	O	O
-ergotamine/caffeine	ergotamine/caffeine	O	O
+ergotamine/caffeine	ergotamine/caffeine	S_chemical	O
 (	(	O	O
 69.9	69.9	O	O
 vs.	vs.	O	O
@@ -136,7 +136,7 @@ of	of	O	O
 patients	patients	O	O
 who	who	O	O
 preferred	preferred	O	O
-ergotamine/caffeine	ergotamine/caffeine	O	O
+ergotamine/caffeine	ergotamine/caffeine	S_chemical	O
 .	.	O	O
 
 The	the	O	O
@@ -175,7 +175,7 @@ with	with	O	O
 %	%	O	O
 treated	treated	O	O
 with	with	O	O
-ergotamine/caffeine	ergotamine/caffeine	O	O
+ergotamine/caffeine	ergotamine/caffeine	S_chemical	O
 (	(	O	O
 p	p	O	O
 <	<	O	O
@@ -208,7 +208,7 @@ and	and	O	O
 47.3	47.3	O	O
 %	%	O	O
 for	for	O	O
-ergotamine/caffeine	ergotamine/caffeine	O	O
+ergotamine/caffeine	ergotamine/caffeine	S_chemical	O
 (	(	O	O
 p	p	O	O
 <	<	O	O
@@ -222,7 +222,7 @@ rizatriptan	rizatriptan	S_chemical	O
 being	being	O	O
 superior	superior	O	O
 to	to	O	O
-ergotamine/caffeine	ergotamine/caffeine	O	O
+ergotamine/caffeine	ergotamine/caffeine	S_chemical	O
 within	within	O	O
 30	30	O	O
 min	min	O	O
@@ -263,7 +263,7 @@ to	to	O	O
 of	of	O	O
 patients	patients	O	O
 on	on	O	O
-ergotamine/caffeine	ergotamine/caffeine	O	O
+ergotamine/caffeine	ergotamine/caffeine	S_chemical	O
 (	(	O	O
 p	p	O	O
 <	<	O	O
@@ -278,7 +278,7 @@ was	was	O	O
 also	also	O	O
 superior	superior	O	O
 to	to	O	O
-ergotamine/caffeine	ergotamine/caffeine	O	O
+ergotamine/caffeine	ergotamine/caffeine	S_chemical	O
 in	in	O	O
 the	the	O	O
 proportions	proportions	O	O
@@ -341,7 +341,7 @@ h	h	S_chemical	O
 after	after	O	O
 treatment	treatment	O	O
 with	with	O	O
-ergotamine/caffeine	ergotamine/caffeine	O	O
+ergotamine/caffeine	ergotamine/caffeine	S_chemical	O
 (	(	O	O
 38.6	38.6	O	O
 %	%	O	O
@@ -365,7 +365,7 @@ and	and	O	O
 15.3	15.3	O	O
 %	%	O	O
 with	with	O	O
-ergotamine/caffeine	ergotamine/caffeine	O	O
+ergotamine/caffeine	ergotamine/caffeine	S_chemical	O
 .	.	O	O
 
 Both	both	O	O
@@ -379,8 +379,8 @@ tolerated	tolerated	O	O
 The	the	O	O
 most	most	O	O
 common	common	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 (	(	O	O
 incidence	incidence	O	O
 >	>	O	O
@@ -395,7 +395,7 @@ group	group	O	O
 after	after	O	O
 rizatriptan	rizatriptan	S_chemical	O
 and	and	O	O
-ergotamine/caffeine	ergotamine/caffeine	O	O
+ergotamine/caffeine	ergotamine/caffeine	S_chemical	O
 ,	,	O	O
 respectively	respectively	O	O
 ,	,	O	O

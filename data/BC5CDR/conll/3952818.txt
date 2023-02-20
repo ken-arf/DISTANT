@@ -21,11 +21,11 @@ of	of	O	O
 a	a	O	O
 patient	patient	O	O
 with	with	O	O
-colon	colon	O	O
+colon	colon	O	B_disease
 carcinoma	carcinoma	O	S_disease
 and	and	O	O
-liver	liver	O	O
-metastasis	metastasis	O	O
+liver	liver	O	B_disease
+metastasis	metastasis	O	I_disease
 who	who	O	O
 presented	presented	O	O
 chest	chest	O	B_disease

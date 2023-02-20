@@ -25,7 +25,7 @@ vasospasm	vasospasm	O	S_disease
 together	together	O	O
 with	with	O	O
 striking	striking	O	O
-angiographic	angiographic	O	O
+angiographic	angiographic	O	S_disease
 findings	findings	O	O
 ,	,	O	O
 is	is	O	O
@@ -35,7 +35,7 @@ to	to	O	O
 the	the	O	O
 ingestion	ingestion	O	O
 of	of	O	O
-methysergide	methysergide	O	O
+methysergide	methysergide	S_chemical	O
 by	by	O	O
 a	a	O	O
 48-year-old	48-year-old	O	O
@@ -100,7 +100,7 @@ calcium	calcium	B_chemical	O
 channel	channel	I_chemical	O
 blockers	blockers	I_chemical	O
 and	and	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 antagonists	antagonists	O	O
 ,	,	O	O
 ergot	ergot	O	O

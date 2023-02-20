@@ -77,7 +77,7 @@ tubular	tubular	O	O
 glucose	glucose	S_chemical	O
 reabsorption	reabsorption	O	O
 with	with	O	O
-phlorizin	phlorizin	O	O
+phlorizin	phlorizin	S_chemical	O
 (	(	O	O
 P	p	O	O
 )	)	O	O

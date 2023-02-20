@@ -29,7 +29,7 @@ spontaneously	spontaneously	O	O
 hypertensive	hypertensive	O	S_disease
 rats	rats	O	O
 (	(	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 )	)	O	O
 ,	,	O	O
 the	the	O	O
@@ -52,7 +52,7 @@ supplementation	supplementation	O	O
 METHODS	methods	O	O
 :	:	O	O
 Male	male	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 (	(	O	O
 aged	aged	O	O
 6	6	O	O
@@ -155,9 +155,9 @@ groups	groups	O	O
 Infusion	infusion	O	O
 of	of	O	O
 the	the	O	O
-central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 alpha2-adrenergic	alpha2-adrenergic	O	O
 receptor	receptor	O	O
 agonist	agonist	O	O
@@ -174,7 +174,7 @@ in	in	O	O
 both	both	O	O
 groups	groups	O	O
 of	of	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 that	that	O	O
 were	were	O	O
 fed	fed	O	O
@@ -199,7 +199,7 @@ lifetime	lifetime	O	O
 captopril-treated	captopril-treated	O	O
 and	and	O	O
 control	control	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 ,	,	O	O
 the	the	O	O
 sympathetic	sympathetic	O	O

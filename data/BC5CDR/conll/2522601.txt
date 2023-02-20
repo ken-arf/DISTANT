@@ -27,8 +27,8 @@ to	to	O	O
 carbamazepine	carbamazepine	S_chemical	O
 presented	presented	O	O
 with	with	O	O
-generalized	generalized	O	O
-erythroderma	erythroderma	O	O
+generalized	generalized	O	B_disease
+erythroderma	erythroderma	O	I_disease
 ,	,	O	O
 a	a	O	O
 severe	severe	O	O

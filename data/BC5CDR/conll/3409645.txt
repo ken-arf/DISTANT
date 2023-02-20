@@ -24,7 +24,7 @@ arthritis	arthritis	O	S_disease
 ,	,	O	O
 osteoarthritis	osteoarthritis	O	O
 and	and	O	O
-spondyloarthropathy	spondyloarthropathy	O	O
+spondyloarthropathy	spondyloarthropathy	O	S_disease
 ,	,	O	O
 130	130	O	O
 of	of	O	O
@@ -50,7 +50,7 @@ the	the	O	O
 CES-D	ces-d	O	O
 and	and	O	O
 the	the	O	O
-Azrin	azrin	O	O
+Azrin	azrin	S_chemical	O
 Marital	marital	O	O
 Happiness	happiness	O	O
 Scale	scale	O	O
@@ -59,8 +59,8 @@ AMHS	amhs	O	O
 )	)	O	O
 .	.	O	O
 
-Sexual	sexual	O	O
-dysfunctions	dysfunctions	O	O
+Sexual	sexual	O	B_disease
+dysfunctions	dysfunctions	O	I_disease
 were	were	O	O
 found	found	O	O
 to	to	O	O
@@ -97,8 +97,8 @@ was	was	O	O
 found	found	O	O
 to	to	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 co-morbidity	co-morbidity	O	O
 and	and	O	O
 the	the	O	O
@@ -116,11 +116,11 @@ among	among	O	O
 patients	patients	O	O
 and	and	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 certain	certain	O	O
-sexual	sexual	O	O
-difficulties	difficulties	O	O
+sexual	sexual	O	B_disease
+difficulties	difficulties	O	I_disease
 ,	,	O	O
 but	but	O	O
 not	not	O	O
@@ -128,8 +128,8 @@ with	with	O	O
 impotence	impotence	O	S_disease
 .	.	O	O
 
-Marital	marital	O	O
-unhappiness	unhappiness	O	O
+Marital	marital	O	B_disease
+unhappiness	unhappiness	O	I_disease
 ,	,	O	O
 as	as	O	O
 indicated	indicated	O	O
@@ -139,18 +139,18 @@ scores	scores	O	O
 ,	,	O	O
 was	was	O	O
 not	not	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 arthritis	arthritis	O	S_disease
 but	but	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 sexual	sexual	O	B_disease
 dysfunction	dysfunction	O	I_disease
 ,	,	O	O
-sexual	sexual	O	O
-dissatisfaction	dissatisfaction	O	O
+sexual	sexual	O	B_disease
+dissatisfaction	dissatisfaction	O	I_disease
 and	and	O	O
 being	being	O	O
 female	female	O	O

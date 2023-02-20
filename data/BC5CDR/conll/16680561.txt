@@ -27,7 +27,7 @@ cytochrome	cytochrome	O	O
 P450	p450	O	O
 isoenzyme	isoenzyme	O	O
 (	(	O	O
-CYP	cyp	O	O
+CYP	cyp	S_chemical	O
 )	)	O	O
 2D6	2d6	O	O
 .	.	O	O
@@ -199,8 +199,8 @@ regimens	regimens	O	O
 Fewer	fewer	O	O
 subjects	subjects	O	O
 reported	reported	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 following	following	O	O
 treatment	treatment	O	O
 with	with	O	O

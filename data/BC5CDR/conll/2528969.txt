@@ -7,8 +7,8 @@ dose	dose	O	O
 dependence	dependence	O	O
 of	of	O	O
 zidovudine-related	zidovudine-related	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 :	:	O	O
 results	results	O	O
 from	from	O	O
@@ -30,8 +30,8 @@ dose	dose	O	O
 dependency	dependency	O	O
 of	of	O	O
 zidovudine-related	zidovudine-related	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 ,	,	O	O
 we	we	O	O
 undertook	undertook	O	O
@@ -147,8 +147,8 @@ within	within	O	O
 CDC	cdc	O	O
 groups	groups	O	O
 while	while	O	O
-taking	taking	O	O
-600	600	O	O
+taking	taking	B_chemical	O
+600	600	I_chemical	O
 and	and	O	O
 1200	1200	O	O
 mg/day	mg/day	O	O
@@ -166,8 +166,8 @@ intervals	intervals	O	O
 .	.	O	O
 
 Symptomatic	symptomatic	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 were	were	O	O
 present	present	O	O
 in	in	O	O
@@ -297,15 +297,15 @@ to	to	O	O
 mg/day	mg/day	O	O
 .	.	O	O
 
-Bone	bone	O	O
-marrow	marrow	O	O
-changes	changes	O	O
+Bone	bone	O	B_disease
+marrow	marrow	O	I_disease
+changes	changes	O	I_disease
 occurred	occurred	O	O
 rapidly	rapidly	O	O
 as	as	O	O
 demonstrated	demonstrated	O	O
 by	by	O	O
-megaloblastosis	megaloblastosis	O	O
+megaloblastosis	megaloblastosis	O	S_disease
 in	in	O	O
 95	95	O	O
 %	%	O	O

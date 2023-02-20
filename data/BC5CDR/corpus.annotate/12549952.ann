@@ -1,0 +1,21 @@
+T1	Disease 0 19	Acute liver failure
+T2	Chemical 36 45	bupropion
+T3	Chemical 50 61	carbimazole
+T4	Disease 107 120	liver failure
+T5	Chemical 164 173	bupropion
+T6	Chemical 178 189	carbimazole
+T8	Chemical 287 298	carbimazole
+T9	Chemical 303 314	propranolol
+T10	Chemical 368 377	bupropion
+T12	Disease 455 474	acute liver failure
+T13	Disease 576 594	acute liver injury
+T15	Disease 648 660	coagulopathy
+T17	Chemical 734 743	bupropion
+T18	Disease 752 766	hepatotoxicity
+T19	Disease 889 903	hepatotoxicity
+T20	Chemical 915 924	bupropion
+T21	Disease 991 1010	acute liver failure
+T22	Chemical 1034 1043	bupropion
+T23	Chemical 1080 1091	carbimazole
+T24	Disease 1161 1173	liver insult
+T25	Chemical 1185 1194	bupropion

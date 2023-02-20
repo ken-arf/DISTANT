@@ -1,13 +1,13 @@
 The	the	O	O
-renal	renal	O	O
-pathology	pathology	O	O
+renal	renal	O	B_disease
+pathology	pathology	O	I_disease
 in	in	O	O
 a	a	O	O
 case	case	O	O
 of	of	O	O
 lithium-induced	lithium-induced	O	O
 diabetes	diabetes	O	B_disease
-insipidus	insipidus	O	I_disease
+insipidus	insipidus	O	S_disease
 .	.	O	O
 
 A	a	O	O
@@ -15,7 +15,7 @@ case	case	O	O
 of	of	O	O
 lithium-induced	lithium-induced	O	O
 diabetes	diabetes	O	B_disease
-insipidus	insipidus	O	I_disease
+insipidus	insipidus	O	S_disease
 is	is	O	O
 reported	reported	O	O
 .	.	O	O

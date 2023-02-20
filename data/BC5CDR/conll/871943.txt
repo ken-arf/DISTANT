@@ -1,8 +1,8 @@
 The	the	O	O
 use	use	O	O
 of	of	O	O
-serum	serum	O	O
-cholinesterase	cholinesterase	O	O
+serum	serum	B_chemical	O
+cholinesterase	cholinesterase	I_chemical	O
 in	in	O	O
 succinylcholine	succinylcholine	S_chemical	O
 apnoea	apnoea	O	S_disease
@@ -28,8 +28,8 @@ new	new	O	O
 preparation	preparation	O	O
 of	of	O	O
 human	human	O	O
-serum	serum	O	O
-cholinesterase	cholinesterase	O	O
+serum	serum	B_chemical	O
+cholinesterase	cholinesterase	I_chemical	O
 .	.	O	O
 
 Adequate	adequate	O	O
@@ -61,8 +61,8 @@ presence	presence	O	O
 of	of	O	O
 an	an	O	O
 atypical	atypical	O	O
-serum	serum	O	O
-cholinesterase	cholinesterase	O	O
+serum	serum	B_chemical	O
+cholinesterase	cholinesterase	I_chemical	O
 .	.	O	O
 
 In	in	O	O
@@ -86,8 +86,8 @@ other	other	O	O
 unknown	unknown	O	O
 variants	variants	O	O
 of	of	O	O
-serum	serum	O	O
-cholinesterase	cholinesterase	O	O
+serum	serum	B_chemical	O
+cholinesterase	cholinesterase	I_chemical	O
 exist	exist	O	O
 which	which	O	O
 can	can	O	O
@@ -99,8 +99,8 @@ succinylcholine	succinylcholine	S_chemical	O
 The	the	O	O
 use	use	O	O
 of	of	O	O
-serum	serum	O	O
-cholinesterase	cholinesterase	O	O
+serum	serum	B_chemical	O
+cholinesterase	cholinesterase	I_chemical	O
 in	in	O	O
 succinylcholine	succinylcholine	S_chemical	O
 apnoea	apnoea	O	S_disease

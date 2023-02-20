@@ -14,7 +14,7 @@ simvastatin	simvastatin	S_chemical	O
 amiodarone	amiodarone	S_chemical	O
 ,	,	O	O
 and	and	O	O
-atazanavir	atazanavir	O	O
+atazanavir	atazanavir	S_chemical	O
 .	.	O	O
 
 OBJECTIVE	objective	O	O
@@ -33,7 +33,7 @@ simvastatin	simvastatin	S_chemical	O
 amiodarone	amiodarone	S_chemical	O
 ,	,	O	O
 and	and	O	O
-atazanavir	atazanavir	O	O
+atazanavir	atazanavir	S_chemical	O
 resulting	resulting	O	O
 in	in	O	O
 rhabdomyolysis	rhabdomyolysis	O	S_disease
@@ -122,7 +122,7 @@ earlier	earlier	O	O
 and	and	O	O
 400	400	O	O
 mg	mg	O	O
-atazanavir	atazanavir	O	O
+atazanavir	atazanavir	S_chemical	O
 daily	daily	O	O
 (	(	O	O
 initiated	initiated	O	O
@@ -145,7 +145,7 @@ kinase	kinase	I_chemical	O
 93	93	O	O
 mg/dL	mg/dl	O	O
 blood	blood	B_chemical	O
-urea	urea	S_chemical	O
+urea	urea	B_chemical	O
 nitrogen	nitrogen	I_chemical	O
 ,	,	O	O
 4.6	4.6	O	O
@@ -259,7 +259,7 @@ CYP3A4	cyp3a4	O	O
 
 Amiodarone	amiodarone	S_chemical	O
 and	and	O	O
-atazanavir	atazanavir	O	O
+atazanavir	atazanavir	S_chemical	O
 are	are	O	O
 recognized	recognized	O	O
 CYP3A4	cyp3a4	O	O

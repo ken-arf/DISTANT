@@ -7,19 +7,19 @@ Acute	acute	O	O
 confusion	confusion	O	S_disease
 induced	induced	O	O
 by	by	O	O
-acetazolamide	acetazolamide	O	O
+acetazolamide	acetazolamide	S_chemical	O
 is	is	O	O
 a	a	O	O
 well	well	O	O
 known	known	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reaction	reaction	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reaction	reaction	O	I_disease
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-renal	renal	O	O
-impairment	impairment	O	O
+renal	renal	O	B_disease
+impairment	impairment	O	I_disease
 .	.	O	O
 
 We	we	O	O

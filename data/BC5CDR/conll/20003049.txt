@@ -49,7 +49,7 @@ HIT	hit	O	S_disease
 with	with	O	O
 thrombosis	thrombosis	O	S_disease
 (	(	O	O
-HITT	hitt	O	S_disease
+HITT	hitt	S_chemical	S_disease
 )	)	O	O
 undergoing	undergoing	O	O
 cardiopulmonary	cardiopulmonary	O	O
@@ -66,15 +66,15 @@ report	report	O	O
 ,	,	O	O
 a	a	O	O
 65-year-old	65-year-old	O	O
-critically	critically	O	O
-ill	ill	O	O
+critically	critically	O	B_disease
+ill	ill	O	I_disease
 patient	patient	O	O
 with	with	O	O
 a	a	O	O
 suspected	suspected	O	O
 history	history	O	O
 of	of	O	O
-HITT	hitt	O	S_disease
+HITT	hitt	S_chemical	S_disease
 was	was	O	O
 administered	administered	O	O
 argatroban	argatroban	S_chemical	O
@@ -110,7 +110,7 @@ plasma	plasma	O	O
 40	40	O	O
 units	units	O	O
 of	of	O	O
-cryoprecipitate	cryoprecipitate	O	O
+cryoprecipitate	cryoprecipitate	S_chemical	O
 ,	,	O	O
 40	40	O	O
 units	units	O	O
@@ -154,7 +154,7 @@ concentration	concentration	O	O
 using	using	O	O
 a	a	O	O
 modified	modified	O	O
-ecarin	ecarin	O	O
+ecarin	ecarin	S_chemical	O
 clotting	clotting	O	O
 time	time	O	O
 (	(	O	O
@@ -217,8 +217,8 @@ or	or	O	O
 181	181	O	O
 minutes	minutes	O	O
 with	with	O	O
-hepatic	hepatic	O	O
-impairment	impairment	O	O
+hepatic	hepatic	O	B_disease
+impairment	impairment	O	I_disease
 ]	]	O	O
 )	)	O	O
 .	.	O	O

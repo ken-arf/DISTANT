@@ -31,12 +31,12 @@ frequently	frequently	O	O
 ,	,	O	O
 and	and	O	O
 among	among	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reactions	reactions	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reactions	reactions	O	I_disease
 ,	,	O	O
-idiosyncratic	idiosyncratic	O	O
-reactions	reactions	O	O
+idiosyncratic	idiosyncratic	O	B_disease
+reactions	reactions	O	I_disease
 are	are	O	O
 the	the	O	O
 most	most	O	O
@@ -156,7 +156,7 @@ U/L	u/l	O	O
 U/L	u/l	O	O
 )	)	O	O
 ;	;	O	O
-gamma-glutamyltransferase	gamma-glutamyltransferase	O	O
+gamma-glutamyltransferase	gamma-glutamyltransferase	S_chemical	O
 ,	,	O	O
 32	32	O	O
 U/L	u/l	O	O
@@ -266,7 +266,7 @@ the	the	O	O
 first	first	O	O
 of	of	O	O
 the	the	O	O
-ketolide	ketolide	O	O
+ketolide	ketolide	S_chemical	O
 antibacterials	antibacterials	O	O
 to	to	O	O
 receive	receive	O	O
@@ -284,15 +284,15 @@ use	use	O	O
 It	it	O	O
 has	has	O	O
 been	been	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 infrequent	infrequent	O	O
 and	and	O	O
 usually	usually	O	O
 reversible	reversible	O	O
 severe	severe	O	O
-hepatic	hepatic	O	O
-dysfunction	dysfunction	O	O
+hepatic	hepatic	O	B_disease
+dysfunction	dysfunction	O	I_disease
 .	.	O	O
 
 Based	based	O	O
@@ -304,9 +304,9 @@ of	of	O	O
 on	on	O	O
 the	the	O	O
 Naranjo	naranjo	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reaction	reaction	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reaction	reaction	O	I_disease
 probability	probability	O	O
 scale	scale	O	O
 ,	,	O	O
@@ -327,7 +327,7 @@ pathological	pathological	O	O
 findings	findings	O	O
 suggested	suggested	O	O
 drug-induced	drug-induced	O	O
-toxic	toxic	O	O
+toxic	toxic	O	B_disease
 hepatitis	hepatitis	O	S_disease
 .	.	O	O
 
@@ -369,8 +369,8 @@ of	of	O	O
 acute	acute	O	O
 hepatitis	hepatitis	O	S_disease
 probably	probably	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 administration	administration	O	O
 of	of	O	O

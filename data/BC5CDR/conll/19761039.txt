@@ -149,8 +149,8 @@ GSH	gsh	S_chemical	O
 an	an	O	O
 index	index	O	O
 of	of	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 process	process	O	O
 .	.	O	O
 
@@ -196,7 +196,7 @@ reserpine-induced	reserpine-induced	O	O
 orofacial	orofacial	O	O
 dyskinesia	dyskinesia	O	S_disease
 and	and	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 .	.	O	O
 

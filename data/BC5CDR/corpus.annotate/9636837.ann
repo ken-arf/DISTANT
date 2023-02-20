@@ -1,0 +1,5 @@
+T1	Chemical 0 11	Carboplatin
+T2	Chemical 141 150	cisplatin
+T5	Disease 580 593	Neurotoxicity
+T6	Disease 825 838	neurotoxicity
+T9	Disease 1460 1473	neurotoxicity

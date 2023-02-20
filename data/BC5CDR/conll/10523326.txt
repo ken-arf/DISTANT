@@ -36,7 +36,7 @@ increased	increased	O	O
 NO	no	O	O
 sequestration	sequestration	O	O
 as	as	O	O
-nitrotyrosine	nitrotyrosine	O	O
+nitrotyrosine	nitrotyrosine	S_chemical	O
 in	in	O	O
 various	various	O	O
 tissues	tissues	O	O
@@ -142,7 +142,7 @@ urinary	urinary	O	O
 NOx	nox	O	O
 excretion	excretion	O	O
 ,	,	O	O
-plasma	plasma	O	O
+plasma	plasma	B_chemical	O
 malondialdehyde	malondialdehyde	S_chemical	O
 (	(	O	O
 MDA	mda	O	O
@@ -154,9 +154,9 @@ and	and	O	O
 inducible	inducible	O	O
 NOS	nos	O	O
 (	(	O	O
-eNOS	enos	O	O
+eNOS	enos	S_chemical	S_disease
 and	and	O	O
-iNOS	inos	O	O
+iNOS	inos	S_chemical	S_disease
 )	)	O	O
 isotypes	isotypes	O	O
 in	in	O	O
@@ -196,11 +196,11 @@ rise	rise	O	O
 in	in	O	O
 vascular	vascular	O	O
 and	and	O	O
-renal	renal	O	O
-tissue	tissue	O	O
-eNOS	enos	O	O
+renal	renal	O	B_disease
+tissue	tissue	O	I_disease
+eNOS	enos	S_chemical	S_disease
 and	and	O	O
-iNOS	inos	O	O
+iNOS	inos	S_chemical	S_disease
 expression	expression	O	O
 .	.	O	O
 
@@ -230,9 +230,9 @@ not	not	O	O
 renal	renal	O	O
 ,	,	O	O
 tissue	tissue	O	O
-eNOS	enos	O	O
+eNOS	enos	S_chemical	S_disease
 and	and	O	O
-iNOS	inos	O	O
+iNOS	inos	S_chemical	S_disease
 expression	expression	O	O
 .	.	O	O
 
@@ -285,8 +285,8 @@ in	in	O	O
 this	this	O	O
 model	model	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 compensatory	compensatory	O	O
 upregulation	upregulation	O	O
@@ -294,9 +294,9 @@ of	of	O	O
 renal	renal	O	O
 and	and	O	O
 vascular	vascular	O	O
-eNOS	enos	O	O
+eNOS	enos	S_chemical	S_disease
 and	and	O	O
-iNOS	inos	O	O
+iNOS	inos	S_chemical	S_disease
 expression	expression	O	O
 .	.	O	O
 
@@ -326,8 +326,8 @@ of	of	O	O
 increased	increased	O	O
 shear	shear	O	O
 stress	stress	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 hypertension	hypertension	O	S_disease
 .	.	O	O
 

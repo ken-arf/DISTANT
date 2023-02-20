@@ -21,14 +21,14 @@ aplastic	aplastic	O	B_disease
 anemia	anemia	O	S_disease
 due	due	O	O
 to	to	O	O
-D-penicillamine	d-penicillamine	O	O
+D-penicillamine	d-penicillamine	S_chemical	O
 therapy	therapy	O	O
 is	is	O	O
 described	described	O	O
 .	.	O	O
 
-Bone	bone	O	O
-marrow	marrow	O	O
+Bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 recovery	recovery	O	O
 and	and	O	O
 peripheral	peripheral	O	O

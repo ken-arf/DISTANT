@@ -3,7 +3,7 @@ potential	potential	O	O
 of	of	O	O
 ciprofloxacin	ciprofloxacin	S_chemical	O
 and	and	O	O
-norfloxacin	norfloxacin	O	O
+norfloxacin	norfloxacin	S_chemical	O
 in	in	O	O
 rats	rats	O	O
 .	.	O	O
@@ -15,12 +15,12 @@ possible	possible	O	O
 anxiogenic	anxiogenic	O	O
 effects	effects	O	O
 of	of	O	O
-fluoroquinolones	fluoroquinolones	O	O
+fluoroquinolones	fluoroquinolones	S_chemical	O
 ,	,	O	O
 namely	namely	O	O
 ciprofloxacin	ciprofloxacin	S_chemical	O
 and	and	O	O
-norfloxacin	norfloxacin	O	O
+norfloxacin	norfloxacin	S_chemical	O
 ,	,	O	O
 were	were	O	O
 investigated	investigated	O	O
@@ -97,13 +97,13 @@ The	the	O	O
 results	results	O	O
 indicate	indicate	O	O
 that	that	O	O
-ciprofloxacin-	ciprofloxacin-	O	O
+ciprofloxacin-	ciprofloxacin-	S_chemical	O
 and	and	O	O
 norfloxacin-treated	norfloxacin-treated	O	O
 rats	rats	O	O
 showed	showed	O	O
-anxious	anxious	O	O
-behaviour	behaviour	O	O
+anxious	anxious	O	B_disease
+behaviour	behaviour	O	I_disease
 in	in	O	O
 comparison	comparison	O	O
 to	to	O	O
@@ -118,7 +118,7 @@ studied	studied	O	O
 
 However	however	O	O
 ,	,	O	O
-ciprofloxacin-	ciprofloxacin-	O	O
+ciprofloxacin-	ciprofloxacin-	S_chemical	O
 and	and	O	O
 norfloxacin-treated	norfloxacin-treated	O	O
 rats	rats	O	O
@@ -150,6 +150,6 @@ potential	potential	O	O
 of	of	O	O
 ciprofloxacin	ciprofloxacin	S_chemical	O
 and	and	O	O
-norfloxacin	norfloxacin	O	O
+norfloxacin	norfloxacin	S_chemical	O
 .	.	O	O
 

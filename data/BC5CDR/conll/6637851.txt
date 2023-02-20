@@ -150,9 +150,9 @@ drug	drug	O	O
 One	one	O	O
 or	or	O	O
 more	more	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reactions	reactions	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reactions	reactions	O	I_disease
 occurred	occurred	O	O
 in	in	O	O
 51	51	O	O
@@ -161,8 +161,8 @@ of	of	O	O
 patients	patients	O	O
 .	.	O	O
 
-Adverse	adverse	O	O
-effects	effects	O	O
+Adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 forced	forced	O	O
 a	a	O	O
 reduction	reduction	O	O
@@ -189,8 +189,8 @@ The	the	O	O
 most	most	O	O
 common	common	O	O
 symptomatic	symptomatic	O	O
-adverse	adverse	O	O
-reactions	reactions	O	O
+adverse	adverse	O	B_disease
+reactions	reactions	O	I_disease
 were	were	O	O
 tremor	tremor	O	S_disease
 or	or	O	O
@@ -208,8 +208,8 @@ anorexia	anorexia	O	O
 %	%	O	O
 )	)	O	O
 ,	,	O	O
-visual	visual	O	O
-halos	halos	O	O
+visual	visual	O	B_disease
+halos	halos	O	I_disease
 or	or	O	O
 blurring	blurring	O	O
 (	(	O	O
@@ -281,8 +281,8 @@ or	or	O	O
 the	the	O	O
 development	development	O	O
 of	of	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 ,	,	O	O
 75	75	O	O
 %	%	O	O

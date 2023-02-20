@@ -180,8 +180,8 @@ only	only	O	O
 while	while	O	O
 measures	measures	O	O
 of	of	O	O
-stereotypic	stereotypic	O	O
-behavior	behavior	O	O
+stereotypic	stereotypic	O	B_disease
+behavior	behavior	O	I_disease
 were	were	O	O
 similar	similar	O	O
 in	in	O	O
@@ -242,7 +242,7 @@ However	however	O	O
 apomorphine-induced	apomorphine-induced	O	O
 reductions	reductions	O	O
 in	in	O	O
-striatal	striatal	O	O
+striatal	striatal	O	S_disease
 dopamine	dopamine	S_chemical	O
 turnover	turnover	O	O
 were	were	O	O

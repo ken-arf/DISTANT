@@ -1,6 +1,6 @@
 Effects	effects	O	O
 of	of	O	O
-suprofen	suprofen	O	O
+suprofen	suprofen	S_chemical	O
 on	on	O	O
 the	the	O	O
 isolated	isolated	O	O
@@ -10,11 +10,11 @@ kidney	kidney	O	O
 .	.	O	O
 
 Although	although	O	O
-suprofen	suprofen	O	O
+suprofen	suprofen	S_chemical	O
 has	has	O	O
 been	been	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 development	development	O	O
 of	of	O	O
@@ -47,7 +47,7 @@ of	of	O	O
 15	15	O	O
 mg	mg	O	O
 of	of	O	O
-suprofen	suprofen	O	O
+suprofen	suprofen	S_chemical	O
 were	were	O	O
 compared	compared	O	O
 in	in	O	O
@@ -94,7 +94,7 @@ in	in	O	O
 kidneys	kidneys	O	O
 perfused	perfused	O	O
 with	with	O	O
-suprofen	suprofen	O	O
+suprofen	suprofen	S_chemical	O
 compared	compared	O	O
 with	with	O	O
 the	the	O	O
@@ -119,7 +119,7 @@ after	after	O	O
 the	the	O	O
 introduction	introduction	O	O
 of	of	O	O
-suprofen	suprofen	O	O
+suprofen	suprofen	S_chemical	O
 to	to	O	O
 the	the	O	O
 kidney	kidney	O	O
@@ -133,7 +133,7 @@ changes	changes	O	O
 were	were	O	O
 found	found	O	O
 with	with	O	O
-suprofen	suprofen	O	O
+suprofen	suprofen	S_chemical	O
 in	in	O	O
 the	the	O	O
 absence	absence	O	O
@@ -158,7 +158,7 @@ found	found	O	O
 in	in	O	O
 rats	rats	O	O
 given	given	O	O
-suprofen	suprofen	O	O
+suprofen	suprofen	S_chemical	O
 ,	,	O	O
 compared	compared	O	O
 with	with	O	O
@@ -188,7 +188,7 @@ period	period	O	O
 In	in	O	O
 summary	summary	O	O
 ,	,	O	O
-suprofen	suprofen	O	O
+suprofen	suprofen	S_chemical	O
 causes	causes	O	O
 acute	acute	O	O
 declines	declines	O	O

@@ -7,7 +7,7 @@ adolescent	adolescent	O	O
 receiving	receiving	O	O
 pethidine	pethidine	S_chemical	O
 for	for	O	O
-postoperative	postoperative	O	O
+postoperative	postoperative	O	B_disease
 pain	pain	O	S_disease
 control	control	O	O
 .	.	O	O
@@ -33,7 +33,7 @@ pump	pump	O	O
 for	for	O	O
 management	management	O	O
 of	of	O	O
-postoperative	postoperative	O	O
+postoperative	postoperative	O	B_disease
 pain	pain	O	S_disease
 control	control	O	O
 .	.	O	O
@@ -50,23 +50,23 @@ seizure	seizure	O	S_disease
 .	.	O	O
 
 Both	both	O	O
-plasma	plasma	O	O
+plasma	plasma	B_chemical	O
 pethidine	pethidine	S_chemical	O
 and	and	O	O
-norpethidine	norpethidine	O	O
+norpethidine	norpethidine	S_chemical	O
 were	were	O	O
 elevated	elevated	O	O
 in	in	O	O
 the	the	O	O
 range	range	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 clinical	clinical	O	O
 manifestations	manifestations	O	O
 of	of	O	O
-central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 excitation	excitation	O	O
 .	.	O	O
 
@@ -98,7 +98,7 @@ accumulation	accumulation	O	O
 of	of	O	O
 pethidine	pethidine	S_chemical	O
 and	and	O	O
-norpethidine	norpethidine	O	O
+norpethidine	norpethidine	S_chemical	O
 .	.	O	O
 
 The	the	O	O

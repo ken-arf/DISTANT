@@ -1,8 +1,8 @@
 Lithium-associated	lithium-associated	O	O
 cognitive	cognitive	O	O
 and	and	O	O
-functional	functional	O	O
-deficits	deficits	O	O
+functional	functional	O	B_disease
+deficits	deficits	O	I_disease
 reduced	reduced	O	O
 by	by	O	O
 a	a	O	O
@@ -46,8 +46,8 @@ of	of	O	O
 the	the	O	O
 more	more	O	O
 common	common	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 lithium	lithium	S_chemical	O
 ,	,	O	O
@@ -60,8 +60,8 @@ tremor	tremor	O	S_disease
 more	more	O	O
 subtle	subtle	O	O
 lithium	lithium	S_chemical	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 such	such	O	O
 as	as	O	O
 cognitive	cognitive	O	B_disease
@@ -72,8 +72,8 @@ of	of	O	O
 creativity	creativity	O	O
 ,	,	O	O
 and	and	O	O
-functional	functional	O	O
-impairments	impairments	O	O
+functional	functional	O	B_disease
+impairments	impairments	O	I_disease
 remain	remain	O	O
 understudied	understudied	O	O
 .	.	O	O
@@ -97,8 +97,8 @@ alleviate	alleviate	O	O
 such	such	O	O
 cognitive	cognitive	O	O
 and	and	O	O
-functional	functional	O	O
-impairments	impairments	O	O
+functional	functional	O	B_disease
+impairments	impairments	O	I_disease
 .	.	O	O
 
 METHOD	method	O	O
@@ -178,7 +178,7 @@ of	of	O	O
 creativity	creativity	O	O
 ,	,	O	O
 and	and	O	O
-functional	functional	O	O
-impairments	impairments	O	O
+functional	functional	O	B_disease
+impairments	impairments	O	I_disease
 .	.	O	O
 

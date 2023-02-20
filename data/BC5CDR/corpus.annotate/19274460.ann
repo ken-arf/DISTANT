@@ -1,0 +1,13 @@
+T1	Chemical 47 63	cyclophosphamide
+T2	Chemical 84 108	bortezomib/dexamethasone
+T3	Chemical 84 108	bortezomib/dexamethasone
+T5	Chemical 241 257	cyclophosphamide
+T6	Chemical 278 288	bortezomib
+T8	Disease 405 421	multiple myeloma
+T9	Chemical 485 495	bortezomib
+T11	Chemical 571 581	bortezomib
+T12	Chemical 615 631	cyclophosphamide
+T13	Chemical 704 720	cyclophosphamide
+T15	Disease 1015 1029	adverse events
+T18	Chemical 1129 1139	bortezomib
+T19	Chemical 1160 1176	cyclophosphamide

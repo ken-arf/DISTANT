@@ -7,16 +7,16 @@ Ptpro	ptpro	O	O
 )	)	O	O
 in	in	O	O
 rat	rat	O	O
-PAN	pan	S_chemical	O
+PAN	pan	S_chemical	B_disease
 nephrosis	nephrosis	O	S_disease
 .	.	O	O
 
 A	a	O	O
 marker	marker	O	O
 of	of	O	O
-acute	acute	O	O
-podocyte	podocyte	O	O
-injury	injury	O	O
+acute	acute	O	B_disease
+podocyte	podocyte	O	B_disease
+injury	injury	O	I_disease
 .	.	O	O
 
 Glomerular	glomerular	O	O
@@ -28,7 +28,7 @@ GLEPP1	glepp1	O	O
 )	)	O	O
 is	is	O	O
 a	a	O	O
-podocyte	podocyte	O	O
+podocyte	podocyte	O	S_disease
 receptor	receptor	O	O
 membrane	membrane	O	O
 protein	protein	O	O
@@ -62,7 +62,7 @@ structure	structure	O	O
 and	and	O	O
 function	function	O	O
 of	of	O	O
-podocyte	podocyte	O	O
+podocyte	podocyte	O	S_disease
 foot	foot	O	O
 process	process	O	O
 .	.	O	O
@@ -78,8 +78,8 @@ as	as	O	O
 a	a	O	O
 marker	marker	O	O
 of	of	O	O
-glomerular	glomerular	O	O
-injury	injury	O	O
+glomerular	glomerular	O	B_disease
+injury	injury	O	I_disease
 ,	,	O	O
 the	the	O	O
 amount	amount	O	O
@@ -105,8 +105,8 @@ in	in	O	O
 a	a	O	O
 model	model	O	O
 of	of	O	O
-podocyte	podocyte	O	O
-injury	injury	O	O
+podocyte	podocyte	O	B_disease
+injury	injury	O	I_disease
 in	in	O	O
 the	the	O	O
 rat	rat	O	O
@@ -163,12 +163,12 @@ to	to	O	O
 include	include	O	O
 both	both	O	O
 the	the	O	O
-acute	acute	O	O
-phase	phase	O	O
+acute	acute	O	B_disease
+phase	phase	O	I_disease
 of	of	O	O
 proteinuria	proteinuria	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 foot	foot	O	O
 process	process	O	O
 effacement	effacement	O	O
@@ -184,8 +184,8 @@ chronic	chronic	O	O
 phase	phase	O	O
 of	of	O	O
 proteinuria	proteinuria	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 glomerulosclerosis	glomerulosclerosis	O	S_disease
 (	(	O	O
 days	days	O	O
@@ -275,7 +275,7 @@ p	p	O	O
 In	in	O	O
 contrast	contrast	O	O
 ,	,	O	O
-podocalyxin	podocalyxin	O	O
+podocalyxin	podocalyxin	S_chemical	O
 did	did	O	O
 not	not	O	O
 change	change	O	O
@@ -320,7 +320,7 @@ GLEPP1	glepp1	O	O
 was	was	O	O
 absent	absent	O	O
 from	from	O	O
-glomerulosclerotic	glomerulosclerotic	O	O
+glomerulosclerotic	glomerulosclerotic	O	S_disease
 areas	areas	O	O
 although	although	O	O
 the	the	O	O
@@ -343,11 +343,11 @@ GLEPP1	glepp1	O	O
 expression	expression	O	O
 ,	,	O	O
 unlike	unlike	O	O
-podocalyxin	podocalyxin	O	O
+podocalyxin	podocalyxin	S_chemical	O
 ,	,	O	O
 reflects	reflects	O	O
-podocyte	podocyte	O	O
-injury	injury	O	O
+podocyte	podocyte	O	B_disease
+injury	injury	O	I_disease
 induced	induced	O	O
 by	by	O	O
 PAN	pan	S_chemical	O
@@ -361,7 +361,7 @@ a	a	O	O
 useful	useful	O	O
 marker	marker	O	O
 of	of	O	O
-podocyte	podocyte	O	O
-injury	injury	O	O
+podocyte	podocyte	O	B_disease
+injury	injury	O	I_disease
 .	.	O	O
 

@@ -7,7 +7,7 @@ synthetic	synthetic	O	O
 anthracycline	anthracycline	S_chemical	O
 derivative	derivative	O	O
 (	(	O	O
-SM-5887	sm-5887	O	O
+SM-5887	sm-5887	S_chemical	O
 )	)	O	O
 on	on	O	O
 normal	normal	O	O
@@ -31,14 +31,14 @@ chronic	chronic	O	O
 cardiotoxic	cardiotoxic	O	S_disease
 potential	potential	O	O
 of	of	O	O
-SM-5887	sm-5887	O	O
+SM-5887	sm-5887	S_chemical	O
 and	and	O	O
 a	a	O	O
 possible	possible	O	O
 deteriorating	deteriorating	O	O
 effect	effect	O	O
 of	of	O	O
-SM-5887	sm-5887	O	O
+SM-5887	sm-5887	S_chemical	O
 on	on	O	O
 low-grade	low-grade	O	O
 cardiotoxicity	cardiotoxicity	O	S_disease
@@ -70,7 +70,7 @@ weeks	weeks	O	O
 ,	,	O	O
 either	either	O	O
 a	a	O	O
-sublethal	sublethal	O	O
+sublethal	sublethal	S_chemical	O
 dose	dose	O	O
 of	of	O	O
 doxorubicin	doxorubicin	S_chemical	O
@@ -79,7 +79,7 @@ doxorubicin	doxorubicin	S_chemical	O
 mg/kg	mg/kg	O	O
 )	)	O	O
 or	or	O	O
-SM-5887	sm-5887	O	O
+SM-5887	sm-5887	S_chemical	O
 (	(	O	O
 2.5	2.5	O	O
 mg/kg	mg/kg	O	O
@@ -131,7 +131,7 @@ terminally	terminally	O	O
 sacrificed	sacrificed	O	O
 after	after	O	O
 the	the	O	O
-SM-5887	sm-5887	O	O
+SM-5887	sm-5887	S_chemical	O
 administration	administration	O	O
 did	did	O	O
 not	not	O	O
@@ -156,7 +156,7 @@ deteriorating	deteriorating	O	O
 cardiotoxic	cardiotoxic	O	S_disease
 effect	effect	O	O
 of	of	O	O
-SM-5887	sm-5887	O	O
+SM-5887	sm-5887	S_chemical	O
 ,	,	O	O
 low-grade	low-grade	O	O
 cardiomyopathy	cardiomyopathy	O	S_disease
@@ -193,7 +193,7 @@ doxorubicin	doxorubicin	S_chemical	O
 mg/kg	mg/kg	O	O
 )	)	O	O
 or	or	O	O
-SM-5887	sm-5887	O	O
+SM-5887	sm-5887	S_chemical	O
 (	(	O	O
 2.5	2.5	O	O
 mg/kg	mg/kg	O	O
@@ -222,7 +222,7 @@ the	the	O	O
 contrary	contrary	O	O
 ,	,	O	O
 the	the	O	O
-SM-5887	sm-5887	O	O
+SM-5887	sm-5887	S_chemical	O
 treatment	treatment	O	O
 did	did	O	O
 not	not	O	O
@@ -236,7 +236,7 @@ cardiomyopathy	cardiomyopathy	O	S_disease
 In	in	O	O
 conclusion	conclusion	O	O
 ,	,	O	O
-SM-5887	sm-5887	O	O
+SM-5887	sm-5887	S_chemical	O
 does	does	O	O
 not	not	O	O
 have	have	O	O

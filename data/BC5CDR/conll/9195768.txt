@@ -2,8 +2,8 @@ The	the	O	O
 site	site	O	O
 of	of	O	O
 common	common	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 sumatriptan	sumatriptan	S_chemical	O
 .	.	O	O
@@ -38,8 +38,8 @@ mistaken	mistaken	O	O
 for	for	O	O
 a	a	O	O
 serious	serious	O	O
-adverse	adverse	O	O
-event	event	O	O
+adverse	adverse	O	B_disease
+event	event	O	I_disease
 by	by	O	O
 the	the	O	O
 patient	patient	O	O
@@ -68,8 +68,8 @@ In	in	O	O
 these	these	O	O
 individuals	individuals	O	O
 ,	,	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 are	are	O	O
 most	most	O	O
 likely	likely	O	O

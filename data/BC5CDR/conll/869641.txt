@@ -60,7 +60,7 @@ enhanced	enhanced	O	O
 by	by	O	O
 L-dopa	l-dopa	O	O
 ,	,	O	O
-DL-Threo-dihydroxyphenylserine	dl-threo-dihydroxyphenylserine	O	O
+DL-Threo-dihydroxyphenylserine	dl-threo-dihydroxyphenylserine	S_chemical	O
 had	had	O	O
 no	no	O	O
 effect	effect	O	O

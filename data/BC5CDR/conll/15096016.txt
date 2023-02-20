@@ -27,12 +27,12 @@ of	of	O	O
 posteroventral	posteroventral	O	O
 pallidotomy	pallidotomy	O	O
 by	by	O	O
-Laitinen	laitinen	O	O
+Laitinen	laitinen	S_chemical	O
 in	in	O	O
 1985	1985	O	O
 .	.	O	O
 
-Laitinen	laitinen	O	O
+Laitinen	laitinen	S_chemical	O
 's	's	O	O
 procedure	procedure	O	O
 improved	improved	O	O
@@ -124,7 +124,7 @@ such	such	O	O
 as	as	O	O
 rigidity	rigidity	O	S_disease
 ,	,	O	O
-bradykinesia	bradykinesia	O	O
+bradykinesia	bradykinesia	O	S_disease
 ,	,	O	O
 and	and	O	O
 on-off	on-off	O	O
@@ -134,7 +134,7 @@ fluctuations	fluctuations	O	O
 Pallidal	pallidal	O	O
 stimulation	stimulation	O	O
 improves	improves	O	O
-bradykinesia	bradykinesia	O	O
+bradykinesia	bradykinesia	O	S_disease
 and	and	O	O
 rigidity	rigidity	O	S_disease
 to	to	O	O
@@ -164,7 +164,7 @@ in	in	O	O
 the	the	O	O
 hyper-	hyper-	O	O
 or	or	O	O
-dyskinetic	dyskinetic	O	O
+dyskinetic	dyskinetic	O	S_disease
 upper	upper	O	O
 limbs	limbs	O	O
 ,	,	O	O

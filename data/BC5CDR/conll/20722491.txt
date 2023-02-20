@@ -11,7 +11,7 @@ OF	of	O	O
 THE	the	O	O
 FIELD	field	O	O
 :	:	O	O
-Fluoropyrimidines	fluoropyrimidines	O	O
+Fluoropyrimidines	fluoropyrimidines	S_chemical	O
 ,	,	O	O
 in	in	O	O
 particular	particular	O	O
@@ -28,7 +28,7 @@ of	of	O	O
 treatment	treatment	O	O
 for	for	O	O
 several	several	O	O
-solid	solid	O	O
+solid	solid	O	B_disease
 tumors	tumors	O	S_disease
 ,	,	O	O
 including	including	O	O
@@ -38,7 +38,7 @@ breast	breast	O	O
 and	and	O	O
 head	head	O	O
 and	and	O	O
-neck	neck	O	O
+neck	neck	O	B_disease
 cancers	cancers	O	S_disease
 ,	,	O	O
 for	for	O	O
@@ -165,7 +165,7 @@ colorectal	colorectal	O	O
 ,	,	O	O
 breast	breast	O	O
 ,	,	O	O
-pancreaticobiliary	pancreaticobiliary	O	O
+pancreaticobiliary	pancreaticobiliary	O	S_disease
 ,	,	O	O
 gastric	gastric	O	O
 ,	,	O	O
@@ -174,7 +174,7 @@ cell	cell	O	O
 and	and	O	O
 head	head	O	O
 and	and	O	O
-neck	neck	O	O
+neck	neck	O	B_disease
 cancers	cancers	O	S_disease
 .	.	O	O
 
@@ -195,8 +195,8 @@ vomiting	vomiting	O	S_disease
 ,	,	O	O
 stomatitis	stomatitis	O	S_disease
 and	and	O	O
-hand-foot	hand-foot	O	O
-syndrome	syndrome	O	O
+hand-foot	hand-foot	O	B_disease
+syndrome	syndrome	O	I_disease
 .	.	O	O
 
 Capecitabine	capecitabine	S_chemical	O
@@ -218,7 +218,7 @@ age	age	O	O
 ,	,	O	O
 hepatic	hepatic	O	O
 and	and	O	O
-renal	renal	O	O
-dysfunctions	dysfunctions	O	O
+renal	renal	O	B_disease
+dysfunctions	dysfunctions	O	I_disease
 .	.	O	O
 

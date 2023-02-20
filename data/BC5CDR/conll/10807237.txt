@@ -1,4 +1,4 @@
-Intracranial	intracranial	O	O
+Intracranial	intracranial	O	B_disease
 aneurysms	aneurysms	O	S_disease
 and	and	O	O
 cocaine	cocaine	S_chemical	B_disease
@@ -17,8 +17,8 @@ outcome	outcome	O	O
 of	of	O	O
 subarachnoid	subarachnoid	O	B_disease
 hemorrhage	hemorrhage	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 cocaine	cocaine	S_chemical	B_disease
 abuse	abuse	O	I_disease
 is	is	O	O
@@ -80,7 +80,7 @@ of	of	O	O
 135	135	O	O
 patients	patients	O	O
 with	with	O	O
-ruptured	ruptured	O	O
+ruptured	ruptured	O	B_disease
 aneurysms	aneurysms	O	S_disease
 and	and	O	O
 no	no	O	O

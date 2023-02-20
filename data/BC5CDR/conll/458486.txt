@@ -1,15 +1,15 @@
-Tiapride	tiapride	O	O
+Tiapride	tiapride	S_chemical	O
 in	in	O	O
 levodopa-induced	levodopa-induced	O	O
 involuntary	involuntary	O	O
 movements	movements	O	O
 .	.	O	O
 
-Tiapride	tiapride	O	O
+Tiapride	tiapride	S_chemical	O
 ,	,	O	O
 a	a	O	O
-substituted	substituted	O	O
-benzamide	benzamide	O	O
+substituted	substituted	B_chemical	O
+benzamide	benzamide	I_chemical	O
 derivative	derivative	O	O
 closely	closely	O	O
 related	related	O	O
@@ -55,7 +55,7 @@ in	in	O	O
 patients	patients	O	O
 .	.	O	O
 
-Tiapride	tiapride	O	O
+Tiapride	tiapride	S_chemical	O
 had	had	O	O
 no	no	O	O
 effect	effect	O	O

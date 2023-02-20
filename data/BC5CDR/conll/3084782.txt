@@ -63,10 +63,10 @@ and	and	O	O
 dermatitis	dermatitis	O	S_disease
 due	due	O	O
 to	to	O	O
-Tiopronin	tiopronin	O	O
+Tiopronin	tiopronin	S_chemical	O
 (	(	O	O
 a	a	O	O
-D-Penicillamine	d-penicillamine	O	O
+D-Penicillamine	d-penicillamine	S_chemical	O
 like	like	O	O
 compound	compound	O	O
 )	)	O	O
@@ -81,8 +81,8 @@ between	between	O	O
 dermatitis	dermatitis	O	S_disease
 due	due	O	O
 to	to	O	O
-gold	gold	O	O
-thiosulphate	thiosulphate	O	O
+gold	gold	B_chemical	O
+thiosulphate	thiosulphate	I_chemical	O
 and	and	O	O
 B35	b35	O	O
 .	.	O	O
@@ -104,7 +104,7 @@ RA	ra	O	O
 except	except	O	O
 for	for	O	O
 the	the	O	O
-Tiopronin	tiopronin	O	O
+Tiopronin	tiopronin	S_chemical	O
 related	related	O	O
 nephritis	nephritis	O	O
 group	group	O	O

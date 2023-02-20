@@ -18,9 +18,9 @@ treatment	treatment	O	O
 modifications	modifications	O	O
 .	.	O	O
 
-Valvular	valvular	O	O
-heart	heart	O	O
-abnormalities	abnormalities	O	O
+Valvular	valvular	O	B_disease
+heart	heart	O	I_disease
+abnormalities	abnormalities	O	I_disease
 have	have	O	O
 been	been	O	O
 reported	reported	O	O
@@ -74,9 +74,9 @@ frequency	frequency	O	O
 and	and	O	O
 severity	severity	O	O
 of	of	O	O
-valvular	valvular	O	O
-heart	heart	O	O
-abnormality	abnormality	O	O
+valvular	valvular	O	B_disease
+heart	heart	O	I_disease
+abnormality	abnormality	O	I_disease
 and	and	O	O
 its	its	O	O
 possible	possible	O	O
@@ -164,8 +164,8 @@ Compared	compared	O	O
 to	to	O	O
 controls	controls	O	O
 ,	,	O	O
-aortic	aortic	O	O
-regurgitation	regurgitation	O	O
+aortic	aortic	O	B_disease
+regurgitation	regurgitation	O	I_disease
 (	(	O	O
 OR	or	O	O
 :	:	O	O
@@ -256,8 +256,8 @@ A	a	O	O
 restrictive	restrictive	O	O
 pattern	pattern	O	O
 of	of	O	O
-valvular	valvular	O	O
-regurgitation	regurgitation	O	O
+valvular	valvular	O	B_disease
+regurgitation	regurgitation	O	I_disease
 ,	,	O	O
 suggestive	suggestive	O	O
 of	of	O	O
@@ -329,9 +329,9 @@ the	the	O	O
 high	high	O	O
 frequency	frequency	O	O
 of	of	O	O
-restrictive	restrictive	O	O
-valve	valve	O	O
-regurgitation	regurgitation	O	O
+restrictive	restrictive	O	B_disease
+valve	valve	O	I_disease
+regurgitation	regurgitation	O	I_disease
 in	in	O	O
 PD	pd	O	S_disease
 patients	patients	O	O

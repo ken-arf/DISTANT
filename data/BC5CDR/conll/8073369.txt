@@ -13,8 +13,8 @@ Coniine	coniine	S_chemical	O
 an	an	O	O
 alkaloid	alkaloid	O	O
 from	from	O	O
-Conium	conium	O	O
-maculatum	maculatum	O	O
+Conium	conium	B_chemical	O
+maculatum	maculatum	I_chemical	O
 (	(	O	O
 poison	poison	O	O
 hemlock	hemlock	O	O
@@ -35,12 +35,12 @@ major	major	O	O
 teratogenic	teratogenic	O	O
 outcome	outcome	O	O
 is	is	O	O
-arthrogryposis	arthrogryposis	O	O
+arthrogryposis	arthrogryposis	O	S_disease
 ,	,	O	O
 presumably	presumably	O	O
 due	due	O	O
 to	to	O	O
-nicotinic	nicotinic	O	O
+nicotinic	nicotinic	S_chemical	O
 receptor	receptor	O	O
 blockade	blockade	O	O
 .	.	O	O
@@ -52,7 +52,7 @@ has	has	O	O
 failed	failed	O	O
 to	to	O	O
 produce	produce	O	O
-arthrogryposis	arthrogryposis	O	O
+arthrogryposis	arthrogryposis	O	S_disease
 in	in	O	O
 rats	rats	O	O
 or	or	O	O
@@ -92,8 +92,8 @@ Concentrations	concentrations	O	O
 of	of	O	O
 coniine	coniine	S_chemical	O
 and	and	O	O
-nicotine	nicotine	S_chemical	O
-sulfate	sulfate	O	O
+nicotine	nicotine	B_chemical	O
+sulfate	sulfate	I_chemical	O
 were	were	O	O
 0.015	0.015	O	O
 %	%	O	O
@@ -148,8 +148,8 @@ manner	manner	O	O
 All	all	O	O
 concentrations	concentrations	O	O
 of	of	O	O
-nicotine	nicotine	S_chemical	O
-sulfate	sulfate	O	O
+nicotine	nicotine	B_chemical	O
+sulfate	sulfate	I_chemical	O
 caused	caused	O	O
 some	some	O	O
 lethality	lethality	O	O
@@ -173,8 +173,8 @@ by	by	O	O
 both	both	O	O
 coniine	coniine	S_chemical	O
 and	and	O	O
-nicotine	nicotine	S_chemical	O
-sulfate	sulfate	O	O
+nicotine	nicotine	B_chemical	O
+sulfate	sulfate	I_chemical	O
 were	were	O	O
 excessive	excessive	O	O
 flexion	flexion	O	O
@@ -212,7 +212,7 @@ group	group	O	O
 however	however	O	O
 ,	,	O	O
 extensive	extensive	O	O
-cranial	cranial	O	O
+cranial	cranial	O	B_disease
 hemorrhage	hemorrhage	O	S_disease
 occurred	occurred	O	O
 in	in	O	O
@@ -240,8 +240,8 @@ movement	movement	O	O
 in	in	O	O
 coniine	coniine	S_chemical	O
 and	and	O	O
-nicotine	nicotine	S_chemical	O
-sulfate	sulfate	O	O
+nicotine	nicotine	B_chemical	O
+sulfate	sulfate	I_chemical	O
 treated	treated	O	O
 chicks	chicks	O	O
 as	as	O	O
@@ -283,8 +283,8 @@ movement	movement	O	O
 was	was	O	O
 observed	observed	O	O
 for	for	O	O
-nicotine	nicotine	S_chemical	O
-sulfate	sulfate	O	O
+nicotine	nicotine	B_chemical	O
+sulfate	sulfate	I_chemical	O
 treated	treated	O	O
 chicks	chicks	O	O
 .	.	O	O
@@ -305,7 +305,7 @@ animal	animal	O	O
 model	model	O	O
 of	of	O	O
 coniine-induced	coniine-induced	O	O
-arthrogryposis	arthrogryposis	O	O
+arthrogryposis	arthrogryposis	O	S_disease
 .	.	O	O
 
 Data	data	O	O
@@ -316,7 +316,7 @@ support	support	O	O
 a	a	O	O
 mechanism	mechanism	O	O
 involving	involving	O	O
-nicotinic	nicotinic	O	O
+nicotinic	nicotinic	S_chemical	O
 receptor	receptor	O	O
 blockade	blockade	O	O
 with	with	O	O

@@ -162,7 +162,7 @@ most	most	O	O
 of	of	O	O
 which	which	O	O
 were	were	O	O
-trabeculectomies	trabeculectomies	O	O
+trabeculectomies	trabeculectomies	S_chemical	O
 (	(	O	O
 76.2	76.2	O	O
 %	%	O	O
@@ -214,7 +214,7 @@ year	year	O	O
 The	the	O	O
 rate	rate	O	O
 of	of	O	O
-hypotony	hypotony	O	O
+hypotony	hypotony	S_chemical	O
 (	(	O	O
 IOP	iop	O	O
 <	<	O	O

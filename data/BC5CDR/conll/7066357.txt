@@ -145,7 +145,7 @@ of	of	O	O
 fatty	fatty	B_chemical	O
 acids	acids	I_chemical	O
 ,	,	O	O
-triacylglycerol	triacylglycerol	O	O
+triacylglycerol	triacylglycerol	S_chemical	O
 and	and	O	O
 VLDL	vldl	O	O
 decreased	decreased	O	O
@@ -154,8 +154,8 @@ that	that	O	O
 of	of	O	O
 phospholipid	phospholipid	O	O
 ,	,	O	O
-cholesteryl	cholesteryl	O	O
-esters	esters	O	O
+cholesteryl	cholesteryl	B_chemical	O
+esters	esters	I_chemical	O
 and	and	O	O
 HDL	hdl	O	O
 remained	remained	O	O

@@ -4,8 +4,8 @@ for	for	O	O
 the	the	O	O
 potential	potential	O	O
 of	of	O	O
-Daucus	daucus	O	O
-carota	carota	O	O
+Daucus	daucus	B_chemical	O
+carota	carota	I_chemical	O
 in	in	O	O
 the	the	O	O
 management	management	O	O
@@ -24,15 +24,15 @@ investigating	investigating	O	O
 the	the	O	O
 effects	effects	O	O
 of	of	O	O
-Daucus	daucus	O	O
-carota	carota	O	O
+Daucus	daucus	B_chemical	O
+carota	carota	I_chemical	O
 seeds	seeds	O	O
 on	on	O	O
-cognitive	cognitive	O	O
-functions	functions	O	O
+cognitive	cognitive	O	B_disease
+functions	functions	O	I_disease
 ,	,	O	O
 total	total	O	O
-serum	serum	O	O
+serum	serum	B_chemical	O
 cholesterol	cholesterol	S_chemical	O
 levels	levels	O	O
 and	and	O	O
@@ -47,8 +47,8 @@ The	the	O	O
 ethanolic	ethanolic	O	O
 extract	extract	O	O
 of	of	O	O
-Daucus	daucus	O	O
-carota	carota	O	O
+Daucus	daucus	B_chemical	O
+carota	carota	I_chemical	O
 seeds	seeds	O	O
 (	(	O	O
 DCE	dce	S_chemical	O
@@ -99,9 +99,9 @@ testing	testing	O	O
 memory	memory	O	O
 .	.	O	O
 
-Diazepam-	diazepam-	O	O
+Diazepam-	diazepam-	S_chemical	O
 ,	,	O	O
-scopolamine-	scopolamine-	O	O
+scopolamine-	scopolamine-	S_chemical	O
 and	and	O	O
 ageing-induced	ageing-induced	O	O
 amnesia	amnesia	O	S_disease
@@ -216,8 +216,8 @@ i.p	i.p	O	O
 )	)	O	O
 .	.	O	O
 
-Daucus	daucus	O	O
-carota	carota	O	O
+Daucus	daucus	B_chemical	O
+carota	carota	I_chemical	O
 extract	extract	O	O
 (	(	O	O
 200	200	O	O
@@ -232,7 +232,7 @@ reduced	reduced	O	O
 significantly	significantly	O	O
 the	the	O	O
 brain	brain	O	O
-acetylcholinesterase	acetylcholinesterase	O	O
+acetylcholinesterase	acetylcholinesterase	S_chemical	O
 activity	activity	O	O
 and	and	O	O
 cholesterol	cholesterol	S_chemical	O
@@ -280,7 +280,7 @@ a	a	O	O
 remarkable	remarkable	O	O
 reduction	reduction	O	O
 in	in	O	O
-total	total	O	O
+total	total	B_chemical	O
 cholesterol	cholesterol	S_chemical	O
 level	level	O	O
 as	as	O	O

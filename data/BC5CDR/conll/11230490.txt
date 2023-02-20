@@ -32,7 +32,7 @@ PURPOSE	purpose	O	O
 To	to	O	O
 determine	determine	O	O
 whether	whether	O	O
-Myocet	myocet	O	O
+Myocet	myocet	S_chemical	S_disease
 (	(	O	O
 liposome-encapsulated	liposome-encapsulated	O	O
 doxorubicin	doxorubicin	S_chemical	O
@@ -88,8 +88,8 @@ no	no	O	O
 prior	prior	O	O
 chemotherapy	chemotherapy	O	O
 for	for	O	O
-metastatic	metastatic	O	O
-disease	disease	O	O
+metastatic	metastatic	O	B_disease
+disease	disease	O	I_disease
 were	were	O	O
 randomized	randomized	O	O
 to	to	O	O
@@ -99,7 +99,7 @@ either	either	O	O
 mg/m(2	mg/m(2	O	O
 )	)	O	O
 of	of	O	O
-Myocet	myocet	O	O
+Myocet	myocet	S_chemical	S_disease
 (	(	O	O
 M	m	O	O
 )	)	O	O
@@ -308,7 +308,7 @@ months	months	O	O
 
 CONCLUSION	conclusion	O	O
 :	:	O	O
-Myocet	myocet	O	O
+Myocet	myocet	S_chemical	S_disease
 improves	improves	O	O
 the	the	O	O
 therapeutic	therapeutic	O	O

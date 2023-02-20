@@ -24,8 +24,8 @@ role	role	O	O
 of	of	O	O
 catecholamines	catecholamines	S_chemical	O
 and	and	O	O
-pineal	pineal	O	O
-idolamines	idolamines	O	O
+pineal	pineal	B_chemical	O
+idolamines	idolamines	I_chemical	O
 on	on	O	O
 ketamine-induced	ketamine-induced	O	O
 catatonia	catatonia	O	O
@@ -69,8 +69,8 @@ not	not	O	O
 .	.	O	O
 
 The	the	O	O
-pineal	pineal	O	O
-indolamines	indolamines	O	O
+pineal	pineal	B_chemical	O
+indolamines	indolamines	I_chemical	O
 exhibited	exhibited	O	O
 mixed	mixed	O	O
 actions	actions	O	O

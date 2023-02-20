@@ -52,7 +52,7 @@ was	was	O	O
 a	a	O	O
 history	history	O	O
 of	of	O	O
-ischemic	ischemic	O	O
+ischemic	ischemic	O	B_disease
 cardiac	cardiac	O	B_disease
 disease	disease	O	I_disease
 9	9	O	O
@@ -66,8 +66,8 @@ was	was	O	O
 admitted	admitted	O	O
 with	with	O	O
 a	a	O	O
-pulmonary-renal	pulmonary-renal	O	O
-syndrome	syndrome	O	O
+pulmonary-renal	pulmonary-renal	O	B_disease
+syndrome	syndrome	O	I_disease
 with	with	O	O
 hemoptysis	hemoptysis	O	O
 ,	,	O	O
@@ -77,7 +77,7 @@ renal	renal	O	B_disease
 failure	failure	O	I_disease
 ,	,	O	O
 and	and	O	O
-hypoxemia	hypoxemia	O	O
+hypoxemia	hypoxemia	O	S_disease
 that	that	O	O
 required	required	O	O
 mechanical	mechanical	O	O
@@ -98,18 +98,18 @@ resuscitation	resuscitation	O	O
 the	the	O	O
 patient	patient	O	O
 recovered	recovered	O	O
-cardiac	cardiac	O	O
-rhythm	rhythm	O	O
+cardiac	cardiac	O	B_disease
+rhythm	rhythm	O	I_disease
 .	.	O	O
 
 The	the	O	O
 ECG	ecg	O	O
 showed	showed	O	O
 a	a	O	O
-junctional	junctional	O	O
-rhythm	rhythm	O	O
+junctional	junctional	O	B_disease
+rhythm	rhythm	O	I_disease
 without	without	O	O
-ventricular	ventricular	O	O
+ventricular	ventricular	O	B_disease
 arrhythmia	arrhythmia	O	S_disease
 .	.	O	O
 
@@ -121,7 +121,7 @@ current	current	O	O
 proposed	proposed	O	O
 mechanisms	mechanisms	O	O
 of	of	O	O
-sudden	sudden	O	O
+sudden	sudden	O	B_disease
 death	death	O	S_disease
 after	after	O	O
 a	a	O	O
@@ -131,7 +131,7 @@ of	of	O	O
 intravenous	intravenous	O	O
 methylprednisolone	methylprednisolone	S_chemical	O
 (	(	O	O
-IVMP	ivmp	O	O
+IVMP	ivmp	S_chemical	O
 )	)	O	O
 .	.	O	O
 
@@ -180,7 +180,7 @@ and	and	O	O
 the	the	O	O
 authors	authors	O	O
 discount	discount	O	O
-ventricular	ventricular	O	O
+ventricular	ventricular	O	B_disease
 arrhythmia	arrhythmia	O	S_disease
 as	as	O	O
 the	the	O	O

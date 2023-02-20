@@ -28,7 +28,7 @@ addicts	addicts	O	O
 to	to	O	O
 decrease	decrease	O	O
 illicit	illicit	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 use	use	O	O
 .	.	O	O
 
@@ -43,9 +43,9 @@ ECG	ecg	O	O
 of	of	O	O
 patients	patients	O	O
 with	with	O	O
-torsade	torsade	O	B_disease
-de	de	O	I_disease
-pointes	pointes	O	I_disease
+torsade	torsade	B_chemical	B_disease
+de	de	I_chemical	I_disease
+pointes	pointes	I_chemical	I_disease
 (	(	O	O
 TdP	tdp	O	S_disease
 )	)	O	O
@@ -107,7 +107,7 @@ be	be	O	O
 caused	caused	O	O
 by	by	O	O
 the	the	O	O
-proarrhythmic	proarrhythmic	O	O
+proarrhythmic	proarrhythmic	O	S_disease
 effect	effect	O	O
 of	of	O	O
 methadone	methadone	S_chemical	O
@@ -138,7 +138,7 @@ treated	treated	O	O
 with	with	O	O
 methadone	methadone	S_chemical	O
 or	or	O	O
-buprenorphine	buprenorphine	O	O
+buprenorphine	buprenorphine	S_chemical	O
 on	on	O	O
 a	a	O	O
 daily	daily	O	O
@@ -194,7 +194,7 @@ syncope	syncope	O	S_disease
 The	the	O	O
 association	association	O	O
 between	between	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 dose	dose	O	O
 and	and	O	O
 QT	qt	O	O
@@ -224,8 +224,8 @@ RESULTS	results	O	O
 Methadone	methadone	S_chemical	O
 dose	dose	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 longer	longer	O	O
 QT	qt	O	O
 interval	interval	O	O
@@ -242,7 +242,7 @@ p	p	O	O
 No	no	O	O
 association	association	O	O
 between	between	O	O
-buprenorphine	buprenorphine	O	O
+buprenorphine	buprenorphine	S_chemical	O
 and	and	O	O
 QTc	qtc	O	O
 was	was	O	O
@@ -275,7 +275,7 @@ the	the	O	O
 subjects	subjects	O	O
 treated	treated	O	O
 with	with	O	O
-buprenorphine	buprenorphine	O	O
+buprenorphine	buprenorphine	S_chemical	O
 had	had	O	O
 QTc	qtc	O	O
 interval	interval	O	O
@@ -293,8 +293,8 @@ higher	higher	O	O
 methadone	methadone	S_chemical	O
 dose	dose	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 1.2	1.2	O	O
 (	(	O	O
@@ -316,8 +316,8 @@ CONCLUSIONS	conclusions	O	O
 :	:	O	O
 Methadone	methadone	S_chemical	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 QT	qt	O	O
 prolongation	prolongation	O	O
 and	and	O	O

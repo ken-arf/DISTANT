@@ -2,8 +2,8 @@ Central	central	O	O
 retinal	retinal	O	B_disease
 vein	vein	O	I_disease
 occlusion	occlusion	O	I_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 clomiphene-induced	clomiphene-induced	O	O
 ovulation	ovulation	O	O
 .	.	O	O
@@ -19,9 +19,9 @@ central	central	O	O
 retinal	retinal	O	B_disease
 vein	vein	O	I_disease
 occlusion	occlusion	O	I_disease
-associated	associated	O	O
-with	with	O	O
-clomiphene	clomiphene	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+clomiphene	clomiphene	B_chemical	O
 citrate	citrate	S_chemical	O
 (	(	O	O
 CC	cc	S_chemical	O
@@ -55,8 +55,8 @@ the	the	O	O
 infertility	infertility	O	O
 clinic	clinic	O	O
 for	for	O	O
-blurred	blurred	O	O
-vision	vision	O	O
+blurred	blurred	O	B_disease
+vision	vision	O	I_disease
 .	.	O	O
 
 INTERVENTION(S	intervention(s	O	O
@@ -117,13 +117,13 @@ not	not	O	O
 include	include	O	O
 this	this	O	O
 severe	severe	O	O
-ophthalmic	ophthalmic	O	O
-complication	complication	O	O
+ophthalmic	ophthalmic	O	B_disease
+complication	complication	O	I_disease
 ,	,	O	O
 although	although	O	O
 mild	mild	O	O
-visual	visual	O	O
-disturbance	disturbance	O	O
+visual	visual	O	B_disease
+disturbance	disturbance	O	I_disease
 after	after	O	O
 CC	cc	S_chemical	O
 intake	intake	O	O

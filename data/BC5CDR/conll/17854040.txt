@@ -1,6 +1,6 @@
 Mutations	mutations	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 lamivudine-resistance	lamivudine-resistance	O	O
 in	in	O	O
 therapy-na	therapy-na	O	O
@@ -225,7 +225,7 @@ in	in	O	O
 of	of	O	O
 15	15	O	O
 mono-infected	mono-infected	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 hepatitis	hepatitis	O	B_disease
 B	b	O	I_disease
 patients	patients	O	O

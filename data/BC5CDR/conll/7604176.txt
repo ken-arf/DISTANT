@@ -14,8 +14,8 @@ of	of	O	O
 acute	acute	O	O
 inflammatory	inflammatory	O	O
 myopathy	myopathy	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 use	use	O	O
 of	of	O	O
@@ -93,8 +93,8 @@ probably	probably	O	O
 due	due	O	O
 to	to	O	O
 chronic	chronic	O	O
-autoimmune	autoimmune	O	O
-thyroiditis	thyroiditis	O	O
+autoimmune	autoimmune	O	B_disease
+thyroiditis	thyroiditis	O	I_disease
 ,	,	O	O
 was	was	O	O
 evidenced	evidenced	O	O
@@ -108,7 +108,7 @@ gastrocnemius	gastrocnemius	O	O
 )	)	O	O
 revealed	revealed	O	O
 a	a	O	O
-perimysial	perimysial	O	O
+perimysial	perimysial	S_chemical	O
 and	and	O	O
 endomysial	endomysial	O	O
 inflammatory	inflammatory	O	O
@@ -128,8 +128,8 @@ and	and	O	O
 simvastatin	simvastatin	S_chemical	O
 have	have	O	O
 been	been	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 toxic	toxic	O	O
 myopathy	myopathy	O	S_disease
 ,	,	O	O

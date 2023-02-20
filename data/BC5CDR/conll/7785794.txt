@@ -1,5 +1,5 @@
 Refractory	refractory	O	O
-cardiogenic	cardiogenic	O	O
+cardiogenic	cardiogenic	O	B_disease
 shock	shock	O	S_disease
 and	and	O	O
 complete	complete	O	O
@@ -27,7 +27,7 @@ complete	complete	O	O
 heart	heart	O	B_disease
 block	block	O	I_disease
 and	and	O	O
-refractory	refractory	O	O
+refractory	refractory	O	B_disease
 hypotension	hypotension	O	S_disease
 two	two	O	O
 days	days	O	O
@@ -90,7 +90,7 @@ calcium	calcium	B_chemical	O
 chloride	chloride	I_chemical	O
 ,	,	O	O
 the	the	O	O
-refractory	refractory	O	O
+refractory	refractory	O	B_disease
 hypotension	hypotension	O	S_disease
 and	and	O	O
 complete	complete	O	O

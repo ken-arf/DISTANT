@@ -7,12 +7,12 @@ psychosis	psychosis	O	S_disease
 :	:	O	O
 relationship	relationship	O	O
 to	to	O	O
-symptom	symptom	O	O
-severity	severity	O	O
+symptom	symptom	O	B_disease
+severity	severity	O	I_disease
 ,	,	O	O
 catecholamines	catecholamines	S_chemical	O
 and	and	O	O
-hyperkinesia	hyperkinesia	O	O
+hyperkinesia	hyperkinesia	O	S_disease
 .	.	O	O
 
 To	to	O	O
@@ -42,7 +42,7 @@ with	with	O	O
 a	a	O	O
 diagnosis	diagnosis	O	O
 of	of	O	O
-amphetamine-	amphetamine-	O	O
+amphetamine-	amphetamine-	S_chemical	O
 or	or	O	O
 cocaine-induced	cocaine-induced	O	O
 psychosis	psychosis	O	S_disease
@@ -80,7 +80,7 @@ scores	scores	O	O
 and	and	O	O
 the	the	O	O
 global	global	O	O
-hyperkinesia	hyperkinesia	O	O
+hyperkinesia	hyperkinesia	O	S_disease
 rating	rating	O	O
 .	.	O	O
 
@@ -90,7 +90,7 @@ were	were	O	O
 related	related	O	O
 to	to	O	O
 global	global	O	O
-hyperkinesia	hyperkinesia	O	O
+hyperkinesia	hyperkinesia	O	S_disease
 but	but	O	O
 not	not	O	O
 to	to	O	O
@@ -116,7 +116,7 @@ stimulant-induced	stimulant-induced	O	O
 psychotic	psychotic	O	B_disease
 symptoms	symptoms	O	I_disease
 and	and	O	O
-stereotypies	stereotypies	O	O
+stereotypies	stereotypies	O	S_disease
 appears	appears	O	O
 to	to	O	O
 be	be	O	O

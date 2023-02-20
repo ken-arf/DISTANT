@@ -4,8 +4,8 @@ of	of	O	O
 primary	primary	O	B_disease
 pulmonary	pulmonary	O	B_disease
 hypertension	hypertension	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 appetite	appetite	B_chemical	O
 suppressants	suppressants	I_chemical	O
 in	in	O	O
@@ -21,19 +21,19 @@ rare	rare	O	O
 ,	,	O	O
 progressive	progressive	O	O
 and	and	O	O
-incurable	incurable	O	O
-disease	disease	O	O
+incurable	incurable	O	B_disease
+disease	disease	O	I_disease
 ,	,	O	O
 which	which	O	O
 has	has	O	O
 been	been	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 intake	intake	O	O
 of	of	O	O
-appetite	appetite	O	O
-suppressant	suppressant	O	O
+appetite	appetite	B_chemical	O
+suppressant	suppressant	I_chemical	O
 drugs	drugs	O	O
 .	.	O	O
 
@@ -87,7 +87,7 @@ Belgium	belgium	O	O
 
 Exposure	exposure	O	O
 to	to	O	O
-appetite-suppressants	appetite-suppressants	O	O
+appetite-suppressants	appetite-suppressants	S_chemical	O
 was	was	O	O
 assessed	assessed	O	O
 on	on	O	O
@@ -112,7 +112,7 @@ appetite	appetite	B_chemical	O
 suppressants	suppressants	I_chemical	O
 ,	,	O	O
 mainly	mainly	O	O
-fenfluramines	fenfluramines	O	O
+fenfluramines	fenfluramines	S_chemical	O
 ,	,	O	O
 as	as	O	O
 compared	compared	O	O
@@ -184,8 +184,8 @@ be	be	O	O
 on	on	O	O
 average	average	O	O
 more	more	O	O
-severely	severely	O	O
-ill	ill	O	O
+severely	severely	O	B_disease
+ill	ill	O	I_disease
 ,	,	O	O
 and	and	O	O
 to	to	O	O
@@ -195,8 +195,8 @@ shorter	shorter	O	O
 median	median	O	O
 delay	delay	O	O
 between	between	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 symptoms	symptoms	O	O
 and	and	O	O
 diagnosis	diagnosis	O	O

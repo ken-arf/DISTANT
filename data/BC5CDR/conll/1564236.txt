@@ -16,7 +16,7 @@ stenosis	stenosis	O	I_disease
 :	:	O	O
 correlation	correlation	O	O
 with	with	O	O
-thallium-201	thallium-201	O	O
+thallium-201	thallium-201	S_chemical	O
 single-photon	single-photon	O	O
 emission	emission	O	O
 tomography	tomography	O	O
@@ -118,12 +118,12 @@ dual-perfusion	dual-perfusion	O	O
 technique	technique	O	O
 and	and	O	O
 with	with	O	O
-thallium-201	thallium-201	O	O
+thallium-201	thallium-201	S_chemical	O
 single-photon	single-photon	O	O
 emission	emission	O	O
 tomography	tomography	O	O
 (	(	O	O
-SPECT	spect	O	O
+SPECT	spect	S_chemical	O
 )	)	O	O
 .	.	O	O
 
@@ -261,8 +261,8 @@ p	p	O	O
 )	)	O	O
 .	.	O	O
 
-Thallium-201	thallium-201	O	O
-SPECT	spect	O	O
+Thallium-201	thallium-201	S_chemical	O
+SPECT	spect	S_chemical	O
 demonstrated	demonstrated	O	O
 a	a	O	O
 perfusion	perfusion	O	O
@@ -334,8 +334,8 @@ quantitate	quantitate	O	O
 the	the	O	O
 amount	amount	O	O
 of	of	O	O
-jeopardized	jeopardized	O	O
-myocardium	myocardium	O	O
+jeopardized	jeopardized	O	B_disease
+myocardium	myocardium	O	I_disease
 during	during	O	O
 moderate	moderate	O	O
 to	to	O	O
@@ -363,7 +363,7 @@ to	to	O	O
 that	that	O	O
 obtained	obtained	O	O
 with	with	O	O
-thallium-201	thallium-201	O	O
-SPECT	spect	O	O
+thallium-201	thallium-201	S_chemical	O
+SPECT	spect	S_chemical	O
 .	.	O	O
 

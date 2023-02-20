@@ -245,8 +245,8 @@ the	the	O	O
 study	study	O	O
 because	because	O	O
 of	of	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 
 Ten	ten	O	O
@@ -255,8 +255,8 @@ in	in	O	O
 each	each	O	O
 group	group	O	O
 reported	reported	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 related	related	O	O
 to	to	O	O
 treatment	treatment	O	O

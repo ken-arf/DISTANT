@@ -12,7 +12,7 @@ a	a	O	O
 capsaicin	capsaicin	S_chemical	O
 model	model	O	O
 of	of	O	O
-persistent	persistent	O	O
+persistent	persistent	O	B_disease
 pain	pain	O	S_disease
 :	:	O	O
 comparisons	comparisons	O	O
@@ -29,7 +29,7 @@ acute	acute	O	B_disease
 pain	pain	O	S_disease
 models	models	O	O
 ,	,	O	O
-N-methyl-D-aspartate	n-methyl-d-aspartate	O	O
+N-methyl-D-aspartate	n-methyl-d-aspartate	S_chemical	O
 (	(	O	O
 NMDA	nmda	S_chemical	O
 )	)	O	O
@@ -62,7 +62,7 @@ these	these	O	O
 findings	findings	O	O
 to	to	O	O
 a	a	O	O
-persistent	persistent	O	O
+persistent	persistent	O	B_disease
 pain	pain	O	S_disease
 model	model	O	O
 which	which	O	O
@@ -161,7 +161,7 @@ the	the	O	O
 non-competitive	non-competitive	O	O
 NMDA	nmda	S_chemical	O
 antagonist	antagonist	O	O
-dextromethorphan	dextromethorphan	O	O
+dextromethorphan	dextromethorphan	S_chemical	O
 enhanced	enhanced	O	O
 the	the	O	O
 antihyperalgesic	antihyperalgesic	O	O
@@ -201,7 +201,7 @@ of	of	O	O
 morphine	morphine	S_chemical	O
 antinociception	antinociception	O	O
 by	by	O	O
-dextromethorphan	dextromethorphan	O	O
+dextromethorphan	dextromethorphan	S_chemical	O
 was	was	O	O
 seen	seen	O	O
 in	in	O	O
@@ -240,7 +240,7 @@ and	and	O	O
 morphine	morphine	S_chemical	O
 in	in	O	O
 a	a	O	O
-persistent	persistent	O	O
+persistent	persistent	O	B_disease
 pain	pain	O	S_disease
 model	model	O	O
 that	that	O	O

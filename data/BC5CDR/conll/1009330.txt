@@ -45,9 +45,9 @@ a	a	O	O
 significant	significant	O	O
 factor	factor	O	O
 in	in	O	O
-chlorhexidine-digluconate	chlorhexidine-digluconate	O	O
+chlorhexidine-digluconate	chlorhexidine-digluconate	S_chemical	O
 associated	associated	O	O
-erosive	erosive	O	O
+erosive	erosive	O	B_disease
 cystitis	cystitis	O	S_disease
 .	.	O	O
 
@@ -55,14 +55,14 @@ A	a	O	O
 high	high	O	O
 percentage	percentage	O	O
 of	of	O	O
-kanamycin-colistin	kanamycin-colistin	O	O
+kanamycin-colistin	kanamycin-colistin	S_chemical	O
 and	and	O	O
 povidone-iodine	povidone-iodine	O	O
 irrigations	irrigations	O	O
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
-erosive	erosive	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+erosive	erosive	O	B_disease
 cystitis	cystitis	O	S_disease
 and	and	O	O
 suggested	suggested	O	O
@@ -83,7 +83,7 @@ a	a	O	O
 lower	lower	O	O
 incidence	incidence	O	O
 of	of	O	O
-erosive	erosive	O	O
+erosive	erosive	O	B_disease
 cystitis	cystitis	O	S_disease
 but	but	O	O
 further	further	O	O

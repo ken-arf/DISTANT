@@ -1,7 +1,7 @@
 Differential	differential	O	O
 effects	effects	O	O
 of	of	O	O
-gamma-hexachlorocyclohexane	gamma-hexachlorocyclohexane	O	O
+gamma-hexachlorocyclohexane	gamma-hexachlorocyclohexane	S_chemical	O
 (	(	O	O
 lindane	lindane	S_chemical	O
 )	)	O	O
@@ -10,7 +10,7 @@ pharmacologically-induced	pharmacologically-induced	O	O
 seizures	seizures	O	S_disease
 .	.	O	O
 
-Gamma-hexachlorocyclohexane	gamma-hexachlorocyclohexane	O	O
+Gamma-hexachlorocyclohexane	gamma-hexachlorocyclohexane	S_chemical	O
 (	(	O	O
 gamma-HCH	gamma-hch	O	O
 )	)	O	O
@@ -31,7 +31,7 @@ decrease	decrease	O	O
 seizure	seizure	O	S_disease
 threshold	threshold	O	O
 to	to	O	O
-pentylenetrazol	pentylenetrazol	O	O
+pentylenetrazol	pentylenetrazol	S_chemical	O
 (	(	O	O
 PTZ	ptz	S_chemical	O
 )	)	O	O

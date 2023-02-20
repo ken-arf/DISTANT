@@ -136,7 +136,7 @@ receptor	receptor	O	O
 agonist	agonist	O	O
 m-chlorophenylpiperazine	m-chlorophenylpiperazine	O	O
 (	(	O	O
-mCPP	mcpp	O	O
+mCPP	mcpp	S_chemical	O
 ,	,	O	O
 0.5	0.5	O	O
 -	-	O	O
@@ -144,12 +144,12 @@ mCPP	mcpp	O	O
 )	)	O	O
 or	or	O	O
 the	the	O	O
-GABA(A	gaba(a	O	O
-)	)	O	O
-inverse	inverse	O	O
-receptor	receptor	O	O
-agonist	agonist	O	O
-pentylenetetrazole	pentylenetetrazole	O	O
+GABA(A	gaba(a	B_chemical	O
+)	)	I_chemical	O
+inverse	inverse	I_chemical	O
+receptor	receptor	I_chemical	O
+agonist	agonist	I_chemical	O
+pentylenetetrazole	pentylenetetrazole	I_chemical	O
 (	(	O	O
 PTZ	ptz	S_chemical	O
 ,	,	O	O
@@ -178,7 +178,7 @@ enhanced	enhanced	O	O
 LES	les	O	O
 ,	,	O	O
 whereas	whereas	O	O
-mCPP	mcpp	O	O
+mCPP	mcpp	S_chemical	O
 increased	increased	O	O
 percentage	percentage	O	O
 FPS	fps	O	O
@@ -202,7 +202,7 @@ the	the	O	O
 LES	les	O	O
 ,	,	O	O
 while	while	O	O
-mCPP	mcpp	O	O
+mCPP	mcpp	S_chemical	O
 suppressed	suppressed	O	O
 baseline	baseline	O	O
 startle	startle	O	O

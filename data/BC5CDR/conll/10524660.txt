@@ -1,5 +1,5 @@
-Glyceryl	glyceryl	O	O
-trinitrate	trinitrate	O	O
+Glyceryl	glyceryl	B_chemical	O
+trinitrate	trinitrate	S_chemical	O
 induces	induces	O	O
 attacks	attacks	O	O
 of	of	O	O
@@ -100,10 +100,10 @@ to	to	O	O
 intravenous	intravenous	O	O
 infusion	infusion	O	O
 of	of	O	O
-glyceryl	glyceryl	O	O
-trinitrate	trinitrate	O	O
-(	(	O	O
-GTN	gtn	O	O
+glyceryl	glyceryl	B_chemical	O
+trinitrate	trinitrate	S_chemical	O
+(	(	I_chemical	O
+GTN	gtn	S_chemical	O
 )	)	O	O
 (	(	O	O
 0.5	0.5	O	O
@@ -150,8 +150,8 @@ as	as	O	O
 controls	controls	O	O
 .	.	O	O
 
-Aura	aura	O	O
-symptoms	symptoms	O	O
+Aura	aura	O	B_disease
+symptoms	symptoms	O	I_disease
 were	were	O	O
 not	not	O	O
 elicited	elicited	O	O
@@ -174,7 +174,7 @@ during	during	O	O
 and	and	O	O
 immediately	immediately	O	O
 after	after	O	O
-GTN	gtn	O	O
+GTN	gtn	S_chemical	O
 infusion	infusion	O	O
 (	(	O	O
 p=0.037	p=0.037	O	O

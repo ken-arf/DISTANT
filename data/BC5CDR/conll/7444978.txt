@@ -10,8 +10,8 @@ of	of	O	O
 streptomycin	streptomycin	S_chemical	O
 .	.	O	O
 
-Streptomycin	streptomycin	S_chemical	O
-sulfate	sulfate	O	O
+Streptomycin	streptomycin	B_chemical	O
+sulfate	sulfate	I_chemical	O
 (	(	O	O
 300	300	O	O
 mg/kg	mg/kg	O	O

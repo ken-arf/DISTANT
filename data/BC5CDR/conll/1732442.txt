@@ -12,8 +12,8 @@ with	with	O	O
 iodine-125-metaiodobenzylguanidine	iodine-125-metaiodobenzylguanidine	O	O
 .	.	O	O
 
-Radiolabeled	radiolabeled	O	O
-metaiodobenzylguanidine	metaiodobenzylguanidine	O	O
+Radiolabeled	radiolabeled	B_chemical	O
+metaiodobenzylguanidine	metaiodobenzylguanidine	I_chemical	O
 (	(	O	O
 MIBG	mibg	O	O
 )	)	O	O
@@ -70,8 +70,8 @@ cardiomyopathy	cardiomyopathy	O	S_disease
 The	the	O	O
 degree	degree	O	O
 of	of	O	O
-vacuolar	vacuolar	O	O
-degeneration	degeneration	O	O
+vacuolar	vacuolar	O	B_disease
+degeneration	degeneration	O	I_disease
 of	of	O	O
 myocardial	myocardial	O	O
 cells	cells	O	O
@@ -132,8 +132,8 @@ group	group	O	O
 ,	,	O	O
 scattered	scattered	O	O
 or	or	O	O
-focal	focal	O	O
-degeneration	degeneration	O	O
+focal	focal	O	B_disease
+degeneration	degeneration	O	I_disease
 in	in	O	O
 the	the	O	O
 5-wk	5-wk	O	O
@@ -315,14 +315,14 @@ the	the	O	O
 presence	presence	O	O
 of	of	O	O
 slight	slight	O	O
-myocardial	myocardial	O	O
-impairment	impairment	O	O
+myocardial	myocardial	O	B_disease
+impairment	impairment	O	I_disease
 (	(	O	O
 scattered	scattered	O	O
 or	or	O	O
-focal	focal	O	O
-vacuolar	vacuolar	O	O
-degeneration	degeneration	O	O
+focal	focal	O	B_disease
+vacuolar	vacuolar	O	B_disease
+degeneration	degeneration	O	I_disease
 )	)	O	O
 indicates	indicates	O	O
 that	that	O	O

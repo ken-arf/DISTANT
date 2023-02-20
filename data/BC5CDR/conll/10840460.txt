@@ -48,8 +48,8 @@ toxic	toxic	O	O
 effects	effects	O	O
 on	on	O	O
 the	the	O	O
-bladder	bladder	O	O
-wall	wall	O	O
+bladder	bladder	O	B_disease
+wall	wall	O	I_disease
 through	through	O	O
 its	its	O	O
 main	main	O	O
@@ -255,8 +255,8 @@ Morphine	morphine	S_chemical	O
 dose-dependently	dose-dependently	O	O
 reversed	reversed	O	O
 these	these	O	O
-behavioral	behavioral	O	O
-disorders	disorders	O	O
+behavioral	behavioral	O	B_disease
+disorders	disorders	O	I_disease
 .	.	O	O
 
 A	a	O	O
@@ -306,8 +306,8 @@ histological	histological	O	O
 modifications	modifications	O	O
 of	of	O	O
 the	the	O	O
-bladder	bladder	O	O
-wall	wall	O	O
+bladder	bladder	O	B_disease
+wall	wall	O	I_disease
 ,	,	O	O
 such	such	O	O
 as	as	O	O

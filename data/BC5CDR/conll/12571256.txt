@@ -80,7 +80,7 @@ monomeric	monomeric	O	O
 contrast	contrast	O	O
 medium	medium	O	O
 ,	,	O	O
-iohexol	iohexol	O	O
+iohexol	iohexol	S_chemical	O
 .	.	O	O
 
 The	the	O	O
@@ -219,7 +219,7 @@ per	per	O	O
 deciliter	deciliter	O	O
 in	in	O	O
 the	the	O	O
-iohexol	iohexol	O	O
+iohexol	iohexol	S_chemical	O
 group	group	O	O
 (	(	O	O
 P=0.001	p=0.001	O	O
@@ -232,7 +232,7 @@ minus	minus	O	O
 the	the	O	O
 increase	increase	O	O
 with	with	O	O
-iohexol	iohexol	O	O
+iohexol	iohexol	S_chemical	O
 ,	,	O	O
 -0.42	-0.42	O	O
 mg	mg	O	O
@@ -289,7 +289,7 @@ the	the	O	O
 patients	patients	O	O
 in	in	O	O
 the	the	O	O
-iohexol	iohexol	O	O
+iohexol	iohexol	S_chemical	O
 group	group	O	O
 (	(	O	O
 26	26	O	O
@@ -343,7 +343,7 @@ but	but	O	O
 patients	patients	O	O
 in	in	O	O
 the	the	O	O
-iohexol	iohexol	O	O
+iohexol	iohexol	S_chemical	O
 group	group	O	O
 (	(	O	O
 15	15	O	O
@@ -381,7 +381,7 @@ per	per	O	O
 deciliter	deciliter	O	O
 in	in	O	O
 the	the	O	O
-iohexol	iohexol	O	O
+iohexol	iohexol	S_chemical	O
 group	group	O	O
 (	(	O	O
 P=0.003	p=0.003	O	O
@@ -396,7 +396,7 @@ the	the	O	O
 value	value	O	O
 in	in	O	O
 the	the	O	O
-iohexol	iohexol	O	O
+iohexol	iohexol	S_chemical	O
 group	group	O	O
 ,	,	O	O
 -0.17	-0.17	O	O

@@ -33,9 +33,9 @@ in	in	O	O
 multiple	multiple	O	B_disease
 myeloma	myeloma	O	I_disease
 ,	,	O	O
-mantle	mantle	O	O
-cell	cell	O	O
-lymphoma	lymphoma	O	O
+mantle	mantle	O	B_disease
+cell	cell	O	I_disease
+lymphoma	lymphoma	O	I_disease
 and	and	O	O
 lymphoplasmacytic	lymphoplasmacytic	O	O
 lymphoma	lymphoma	O	O
@@ -171,15 +171,15 @@ Grade	grade	O	O
 3	3	O	O
 -	-	O	O
 4	4	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 included	included	O	O
 myelosuppression	myelosuppression	O	S_disease
 ,	,	O	O
 fatigue	fatigue	O	S_disease
 ,	,	O	O
-somnolence/depressed	somnolence/depressed	O	O
-mood	mood	O	O
+somnolence/depressed	somnolence/depressed	O	B_disease
+mood	mood	O	I_disease
 ,	,	O	O
 neuropathy	neuropathy	O	S_disease
 and	and	O	O
@@ -193,8 +193,8 @@ the	the	O	O
 occurrence	occurrence	O	O
 of	of	O	O
 four	four	O	O
-thromboembolic	thromboembolic	O	S_disease
-events	events	O	O
+thromboembolic	thromboembolic	O	B_disease
+events	events	O	I_disease
 .	.	O	O
 
 Our	our	O	O
@@ -228,6 +228,6 @@ generation	generation	O	O
 immunomodulatory	immunomodulatory	O	O
 agent	agent	O	O
 ,	,	O	O
-lenalidomide	lenalidomide	O	O
+lenalidomide	lenalidomide	S_chemical	O
 .	.	O	O
 

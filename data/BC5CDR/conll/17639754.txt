@@ -14,8 +14,8 @@ the	the	O	O
 most	most	O	O
 widely	widely	O	O
 used	used	O	O
-oral	oral	O	O
-anticoagulant	anticoagulant	O	O
+oral	oral	B_chemical	O
+anticoagulant	anticoagulant	I_chemical	O
 and	and	O	O
 is	is	O	O
 indicated	indicated	O	O
@@ -28,7 +28,7 @@ conditions	conditions	O	O
 Levofloxacin	levofloxacin	S_chemical	O
 ,	,	O	O
 a	a	O	O
-fluoroquinolone	fluoroquinolone	O	O
+fluoroquinolone	fluoroquinolone	S_chemical	O
 ,	,	O	O
 is	is	O	O
 one	one	O	O

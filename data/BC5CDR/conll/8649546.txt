@@ -52,7 +52,7 @@ score	score	O	O
 without	without	O	O
 increase	increase	O	O
 of	of	O	O
-parkinsonian	parkinsonian	O	S_disease
+parkinsonian	parkinsonian	O	B_disease
 motor	motor	O	B_disease
 disability	disability	O	I_disease
 .	.	O	O

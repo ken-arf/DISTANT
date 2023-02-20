@@ -146,7 +146,7 @@ ng	ng	O	O
 but	but	O	O
 not	not	O	O
 by	by	O	O
-AH6809	ah6809	O	O
+AH6809	ah6809	S_chemical	O
 ,	,	O	O
 a	a	O	O
 prostanoid	prostanoid	O	O
@@ -162,7 +162,7 @@ hyperalgesia	hyperalgesia	O	S_disease
 was	was	O	O
 blocked	blocked	O	O
 by	by	O	O
-AH6809	ah6809	O	O
+AH6809	ah6809	S_chemical	O
 (	(	O	O
 greater	greater	O	O
 than	than	O	O

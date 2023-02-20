@@ -1,7 +1,7 @@
 Protective	protective	O	O
 effect	effect	O	O
 of	of	O	O
-misoprostol	misoprostol	O	O
+misoprostol	misoprostol	S_chemical	O
 on	on	O	O
 indomethacin	indomethacin	S_chemical	O
 induced	induced	O	O
@@ -21,7 +21,7 @@ possible	possible	O	O
 protective	protective	O	O
 effects	effects	O	O
 of	of	O	O
-misoprostol	misoprostol	O	O
+misoprostol	misoprostol	S_chemical	O
 on	on	O	O
 renal	renal	O	O
 function	function	O	O
@@ -76,7 +76,7 @@ indomethacin	indomethacin	S_chemical	O
 150	150	O	O
 mg/day	mg/day	O	O
 plus	plus	O	O
-misoprostol	misoprostol	O	O
+misoprostol	misoprostol	S_chemical	O
 at	at	O	O
 0.6	0.6	O	O
 mg/day	mg/day	O	O
@@ -96,7 +96,7 @@ serum	serum	O	O
 creatinine	creatinine	S_chemical	O
 ,	,	O	O
 blood	blood	B_chemical	O
-urea	urea	S_chemical	O
+urea	urea	B_chemical	O
 nitrogen	nitrogen	I_chemical	O
 (	(	O	O
 BUN	bun	O	O
@@ -302,12 +302,12 @@ dysfunction	dysfunction	O	I_disease
 
 Addition	addition	O	O
 of	of	O	O
-misoprostol	misoprostol	O	O
+misoprostol	misoprostol	S_chemical	O
 can	can	O	O
 minimize	minimize	O	O
 this	this	O	O
-renal	renal	O	O
-impairment	impairment	O	O
+renal	renal	O	B_disease
+impairment	impairment	O	I_disease
 without	without	O	O
 affecting	affecting	O	O
 pain	pain	O	S_disease

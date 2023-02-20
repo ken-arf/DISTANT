@@ -42,7 +42,7 @@ of	of	O	O
 antidiuretic	antidiuretic	O	O
 hormone	hormone	O	O
 (	(	O	O
-SIADH	siadh	O	O
+SIADH	siadh	S_chemical	O
 )	)	O	O
 .	.	O	O
 
@@ -86,7 +86,7 @@ consider	consider	O	O
 this	this	O	O
 episode	episode	O	O
 of	of	O	O
-SIADH	siadh	O	O
+SIADH	siadh	S_chemical	O
 to	to	O	O
 be	be	O	O
 the	the	O	O
@@ -101,9 +101,9 @@ a	a	O	O
 weakness	weakness	O	S_disease
 of	of	O	O
 the	the	O	O
-central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 and	and	O	O
 the	the	O	O
 long-term	long-term	O	O

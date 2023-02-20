@@ -2,15 +2,15 @@ Acute	acute	O	O
 bronchodilating	bronchodilating	O	O
 effects	effects	O	O
 of	of	O	O
-ipratropium	ipratropium	O	O
-bromide	bromide	O	O
+ipratropium	ipratropium	B_chemical	O
+bromide	bromide	I_chemical	O
 and	and	O	O
 theophylline	theophylline	S_chemical	O
 in	in	O	O
-chronic	chronic	O	O
-obstructive	obstructive	O	O
-pulmonary	pulmonary	O	O
-disease	disease	O	O
+chronic	chronic	O	B_disease
+obstructive	obstructive	O	I_disease
+pulmonary	pulmonary	O	I_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 The	the	O	O
@@ -21,8 +21,8 @@ a	a	O	O
 single	single	O	O
 dose	dose	O	O
 of	of	O	O
-ipratropium	ipratropium	O	O
-bromide	bromide	O	O
+ipratropium	ipratropium	B_chemical	O
+bromide	bromide	I_chemical	O
 aerosol	aerosol	O	O
 (	(	O	O
 36	36	O	O
@@ -60,10 +60,10 @@ patients	patients	O	O
 with	with	O	O
 stable	stable	O	O
 ,	,	O	O
-chronic	chronic	O	O
-obstructive	obstructive	O	O
-pulmonary	pulmonary	O	O
-disease	disease	O	O
+chronic	chronic	O	B_disease
+obstructive	obstructive	O	I_disease
+pulmonary	pulmonary	O	I_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 Mean	mean	O	O
@@ -108,7 +108,7 @@ and	and	O	O
 respectively	respectively	O	O
 ,	,	O	O
 for	for	O	O
-ipratropium	ipratropium	O	O
+ipratropium	ipratropium	S_chemical	O
 and	and	O	O
 17	17	O	O
 %	%	O	O
@@ -135,7 +135,7 @@ were	were	O	O
 18	18	O	O
 %	%	O	O
 for	for	O	O
-ipratropium	ipratropium	O	O
+ipratropium	ipratropium	S_chemical	O
 and	and	O	O
 8	8	O	O
 %	%	O	O
@@ -152,7 +152,7 @@ was	was	O	O
 3.8	3.8	O	O
 hours	hours	O	O
 with	with	O	O
-ipratropium	ipratropium	O	O
+ipratropium	ipratropium	S_chemical	O
 and	and	O	O
 2.4	2.4	O	O
 hours	hours	O	O
@@ -161,8 +161,8 @@ theophylline	theophylline	S_chemical	O
 .	.	O	O
 
 While	while	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 were	were	O	O
 rare	rare	O	O
 ,	,	O	O
@@ -184,7 +184,7 @@ These	these	O	O
 results	results	O	O
 show	show	O	O
 that	that	O	O
-ipratropium	ipratropium	O	O
+ipratropium	ipratropium	S_chemical	O
 is	is	O	O
 a	a	O	O
 more	more	O	O

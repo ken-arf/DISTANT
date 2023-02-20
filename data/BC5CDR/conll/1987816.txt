@@ -94,8 +94,8 @@ doses	doses	O	O
 of	of	O	O
 lithium	lithium	S_chemical	O
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 higher	higher	O	O
 urine	urine	O	O
 volumes	volumes	O	O

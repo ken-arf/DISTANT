@@ -2,7 +2,7 @@ Initial	initial	O	O
 potassium	potassium	S_chemical	O
 loss	loss	O	O
 and	and	O	O
-hypokalaemia	hypokalaemia	O	O
+hypokalaemia	hypokalaemia	O	S_disease
 during	during	O	O
 chlorthalidone	chlorthalidone	O	O
 administration	administration	O	O
@@ -29,14 +29,14 @@ loss	loss	O	O
 and	and	O	O
 development	development	O	O
 of	of	O	O
-hypokalaemia	hypokalaemia	O	O
+hypokalaemia	hypokalaemia	O	S_disease
 during	during	O	O
 the	the	O	O
 administration	administration	O	O
 of	of	O	O
 an	an	O	O
-oral	oral	O	O
-diuretic	diuretic	O	O
+oral	oral	B_chemical	O
+diuretic	diuretic	I_chemical	O
 ,	,	O	O
 metabolic	metabolic	O	O
 balance	balance	O	O
@@ -52,11 +52,11 @@ hypertension	hypertension	O	S_disease
 who	who	O	O
 had	had	O	O
 shown	shown	O	O
-hypokalaemia	hypokalaemia	O	O
+hypokalaemia	hypokalaemia	O	S_disease
 under	under	O	O
 prior	prior	O	O
-oral	oral	O	O
-diuretic	diuretic	O	O
+oral	oral	B_chemical	O
+diuretic	diuretic	I_chemical	O
 treatment	treatment	O	O
 .	.	O	O
 
@@ -245,8 +245,8 @@ delivery	delivery	O	O
 to	to	O	O
 the	the	O	O
 distal	distal	O	O
-renal	renal	O	O
-tubules	tubules	O	O
+renal	renal	O	B_disease
+tubules	tubules	O	I_disease
 remains	remains	O	O
 sufficiently	sufficiently	O	O
 high	high	O	O

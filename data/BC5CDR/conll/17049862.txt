@@ -10,12 +10,12 @@ male	male	O	O
 neonate	neonate	O	O
 with	with	O	O
 a	a	O	O
-Chiari	chiari	O	O
+Chiari	chiari	S_chemical	O
 malformation	malformation	O	O
 and	and	O	O
 a	a	O	O
 leaking	leaking	O	O
-myelomeningocoele	myelomeningocoele	O	O
+myelomeningocoele	myelomeningocoele	O	S_disease
 underwent	underwent	O	O
 ventriculoperitoneal	ventriculoperitoneal	O	O
 shunt	shunt	O	O
@@ -24,7 +24,7 @@ followed	followed	O	O
 by	by	O	O
 repair	repair	O	O
 of	of	O	O
-myelomeningocoele	myelomeningocoele	O	O
+myelomeningocoele	myelomeningocoele	O	S_disease
 .	.	O	O
 
 During	during	O	O
@@ -98,9 +98,9 @@ may	may	O	O
 lead	lead	O	O
 to	to	O	O
 an	an	O	O
-adverse	adverse	O	O
-cardiac	cardiac	O	O
-event	event	O	O
+adverse	adverse	O	B_disease
+cardiac	cardiac	O	I_disease
+event	event	O	I_disease
 in	in	O	O
 children	children	O	O
 .	.	O	O

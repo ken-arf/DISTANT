@@ -38,7 +38,7 @@ to	to	O	O
 attempt	attempt	O	O
 to	to	O	O
 titrate	titrate	O	O
-carbidopa-levodopa	carbidopa-levodopa	O	O
+carbidopa-levodopa	carbidopa-levodopa	S_chemical	O
 to	to	O	O
 the	the	O	O
 point	point	O	O
@@ -109,13 +109,13 @@ agonist	agonist	I_chemical	O
 
 Other	other	O	O
 possible	possible	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 --	--	O	O
 such	such	O	O
 as	as	O	O
-gastrointestinal	gastrointestinal	O	O
-disorders	disorders	O	O
+gastrointestinal	gastrointestinal	O	B_disease
+disorders	disorders	O	I_disease
 ,	,	O	O
 orthostatic	orthostatic	O	B_disease
 hypotension	hypotension	O	S_disease
@@ -123,10 +123,10 @@ hypotension	hypotension	O	S_disease
 levodopa-induced	levodopa-induced	O	O
 psychosis	psychosis	O	S_disease
 ,	,	O	O
-sleep	sleep	O	O
-disturbances	disturbances	O	O
+sleep	sleep	O	B_disease
+disturbances	disturbances	O	I_disease
 or	or	O	O
-parasomnias	parasomnias	O	O
+parasomnias	parasomnias	O	S_disease
 ,	,	O	O
 or	or	O	O
 drug	drug	O	O

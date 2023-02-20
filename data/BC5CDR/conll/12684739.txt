@@ -32,8 +32,8 @@ non-receptor	non-receptor	O	O
 mediated	mediated	O	O
 inhibition	inhibition	O	O
 requires	requires	O	O
-de	de	O	O
-novo	novo	O	O
+de	de	O	B_disease
+novo	novo	O	I_disease
 synthesis	synthesis	O	O
 for	for	O	O
 restoration	restoration	O	O
@@ -59,13 +59,13 @@ increased	increased	O	O
 risk	risk	O	O
 of	of	O	O
 visual	visual	O	B_disease
-field	field	O	I_disease
+field	field	O	B_disease
 defects	defects	O	I_disease
 (	(	O	O
 VFD	vfd	O	O
 )	)	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 cumulative	cumulative	O	O
 lifetime	lifetime	O	O
 exposure	exposure	O	O

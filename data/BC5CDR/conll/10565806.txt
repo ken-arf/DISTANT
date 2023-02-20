@@ -1,5 +1,5 @@
-Hypomania-like	hypomania-like	O	O
-syndrome	syndrome	O	O
+Hypomania-like	hypomania-like	O	B_disease
+syndrome	syndrome	O	I_disease
 induced	induced	O	O
 by	by	O	O
 olanzapine	olanzapine	S_chemical	O
@@ -25,7 +25,7 @@ DSM-IV	dsm-iv	O	O
 )	)	O	O
 who	who	O	O
 developed	developed	O	O
-hypomania	hypomania	O	O
+hypomania	hypomania	O	S_disease
 shortly	shortly	O	O
 after	after	O	O
 the	the	O	O

@@ -180,8 +180,8 @@ of	of	O	O
 life	life	O	O
 .	.	O	O
 
-Adverse	adverse	O	O
-reactions	reactions	O	O
+Adverse	adverse	O	B_disease
+reactions	reactions	O	I_disease
 possibly	possibly	O	O
 attributable	attributable	O	O
 to	to	O	O
@@ -225,8 +225,8 @@ patients	patients	O	O
 developed	developed	O	O
 a	a	O	O
 raised	raised	O	O
-serum	serum	O	O
-amylase	amylase	O	O
+serum	serum	B_chemical	O
+amylase	amylase	I_chemical	O
 without	without	O	O
 abdominal	abdominal	O	B_disease
 pain	pain	O	S_disease

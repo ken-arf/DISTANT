@@ -21,7 +21,7 @@ efficacy	efficacy	O	O
 and	and	O	O
 safety	safety	O	O
 against	against	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 .	.	O	O
 
 OBJECTIVE	objective	O	O
@@ -45,7 +45,7 @@ a	a	O	O
 reference	reference	O	O
 therapy	therapy	O	O
 ,	,	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 .	.	O	O
 
 METHODS	methods	O	O
@@ -77,7 +77,7 @@ valsartan	valsartan	O	O
 or	or	O	O
 5	5	O	O
 mg	mg	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 for	for	O	O
 12	12	O	O
 weeks	weeks	O	O
@@ -99,7 +99,7 @@ uncontrolled	uncontrolled	O	O
 ,	,	O	O
 5	5	O	O
 mg	mg	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 was	was	O	O
 added	added	O	O
 to	to	O	O
@@ -159,7 +159,7 @@ RESULTS	results	O	O
 Both	both	O	O
 valsartan	valsartan	O	O
 and	and	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 were	were	O	O
 effective	effective	O	O
 at	at	O	O
@@ -242,7 +242,7 @@ and	and	O	O
 60.2	60.2	O	O
 %	%	O	O
 for	for	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 (	(	O	O
 p	p	O	O
 =	=	O	O
@@ -268,7 +268,7 @@ somewhat	somewhat	O	O
 higher	higher	O	O
 in	in	O	O
 the	the	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 group	group	O	O
 ,	,	O	O
 particularly	particularly	O	O
@@ -293,7 +293,7 @@ valsartan	valsartan	O	O
 for	for	O	O
 5	5	O	O
 mg	mg	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 ;	;	O	O
 0	0	O	O
 %	%	O	O
@@ -302,14 +302,14 @@ valsartan	valsartan	O	O
 plus	plus	O	O
 5	5	O	O
 mg	mg	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 ;	;	O	O
 14.3	14.3	O	O
 %	%	O	O
 for	for	O	O
 10	10	O	O
 mg	mg	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 )	)	O	O
 .	.	O	O
 
@@ -326,7 +326,7 @@ least	least	O	O
 as	as	O	O
 effective	effective	O	O
 as	as	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 in	in	O	O
 the	the	O	O
 treatment	treatment	O	O
@@ -352,10 +352,10 @@ that	that	O	O
 it	it	O	O
 is	is	O	O
 not	not	O	O
-associated	associated	O	O
-with	with	O	O
-side	side	O	O
-effects	effects	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+side	side	O	B_disease
+effects	effects	O	I_disease
 characteristic	characteristic	O	O
 of	of	O	O
 this	this	O	O

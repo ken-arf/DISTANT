@@ -66,7 +66,7 @@ In	in	O	O
 contrast	contrast	O	O
 ,	,	O	O
 both	both	O	O
-methscopolamine	methscopolamine	O	O
+methscopolamine	methscopolamine	S_chemical	O
 and	and	O	O
 neostigmine	neostigmine	O	O
 ,	,	O	O
@@ -93,7 +93,7 @@ Pretreatment	pretreatment	O	O
 of	of	O	O
 mice	mice	O	O
 with	with	O	O
-alpha-methyltyrosine	alpha-methyltyrosine	O	O
+alpha-methyltyrosine	alpha-methyltyrosine	S_chemical	O
 (	(	O	O
 20	20	O	O
 mg/kg	mg/kg	O	O
@@ -126,7 +126,7 @@ hand	hand	O	O
 ,	,	O	O
 pretreatment	pretreatment	O	O
 with	with	O	O
-p-chlorophenylalamine	p-chlorophenylalamine	O	O
+p-chlorophenylalamine	p-chlorophenylalamine	S_chemical	O
 (	(	O	O
 3	3	O	O
 X	x	O	O

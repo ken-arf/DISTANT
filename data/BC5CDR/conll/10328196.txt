@@ -93,7 +93,7 @@ increase	increase	O	O
 in	in	O	O
 percentage	percentage	O	O
 of	of	O	O
-apoptotic	apoptotic	O	O
+apoptotic	apoptotic	O	S_disease
 cells	cells	O	O
 (	(	O	O
 to	to	O	O
@@ -148,8 +148,8 @@ sirolimus	sirolimus	S_chemical	O
 CONCLUSIONS	conclusions	O	O
 :	:	O	O
 Severe	severe	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 sirolimus	sirolimus	S_chemical	O
 include	include	O	O
@@ -210,8 +210,8 @@ advisable	advisable	O	O
 for	for	O	O
 patients	patients	O	O
 with	with	O	O
-inflammatory	inflammatory	O	O
-diseases	diseases	O	O
+inflammatory	inflammatory	O	B_disease
+diseases	diseases	O	I_disease
 who	who	O	O
 are	are	O	O
 treated	treated	O	O

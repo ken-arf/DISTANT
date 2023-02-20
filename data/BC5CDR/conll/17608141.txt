@@ -2,7 +2,7 @@ Attenuation	attenuation	O	O
 of	of	O	O
 methamphetamine-induced	methamphetamine-induced	O	O
 nigrostriatal	nigrostriatal	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 neurotoxicity	neurotoxicity	O	S_disease
 in	in	O	O
 mice	mice	O	O
@@ -22,7 +22,7 @@ a	a	O	O
 role	role	O	O
 in	in	O	O
 methamphetamine-induced	methamphetamine-induced	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 terminal	terminal	O	O
 damage	damage	O	O
 .	.	O	O
@@ -50,7 +50,7 @@ modulating	modulating	O	O
 the	the	O	O
 methamphetamine-induced	methamphetamine-induced	O	O
 nigrostriatal	nigrostriatal	O	O
-dopamine	dopamine	S_chemical	O
+dopamine	dopamine	S_chemical	B_disease
 neurotoxicity	neurotoxicity	O	S_disease
 .	.	O	O
 
@@ -77,7 +77,7 @@ lipopolysaccharide	lipopolysaccharide	S_chemical	O
 treatment	treatment	O	O
 mitigated	mitigated	O	O
 methamphetamine-induced	methamphetamine-induced	O	O
-striatal	striatal	O	O
+striatal	striatal	O	S_disease
 dopamine	dopamine	S_chemical	O
 and	and	O	O
 3,4-dihydroxyphenylacetic	3,4-dihydroxyphenylacetic	B_chemical	O
@@ -116,7 +116,7 @@ dosing	dosing	O	O
 regimen	regimen	O	O
 ,	,	O	O
 methamphetamine-induced	methamphetamine-induced	O	O
-striatal	striatal	O	O
+striatal	striatal	O	S_disease
 dopamine	dopamine	S_chemical	O
 and	and	O	O
 3,4-dihydroxyphenylacetic	3,4-dihydroxyphenylacetic	B_chemical	O
@@ -186,7 +186,7 @@ protection	protection	O	O
 against	against	O	O
 methamphetamine-induced	methamphetamine-induced	O	O
 nigrostriatal	nigrostriatal	O	O
-dopamine	dopamine	S_chemical	O
+dopamine	dopamine	S_chemical	B_disease
 neurotoxicity	neurotoxicity	O	S_disease
 .	.	O	O
 

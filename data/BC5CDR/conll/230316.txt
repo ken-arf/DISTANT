@@ -1,7 +1,7 @@
 Neurotoxicity	neurotoxicity	O	S_disease
 of	of	O	O
-halogenated	halogenated	O	O
-hydroxyquinolines	hydroxyquinolines	O	O
+halogenated	halogenated	B_chemical	O
+hydroxyquinolines	hydroxyquinolines	I_chemical	O
 :	:	O	O
 clinical	clinical	O	O
 analysis	analysis	O	O
@@ -24,8 +24,8 @@ possible	possible	O	O
 neurotoxic	neurotoxic	O	S_disease
 reactions	reactions	O	O
 to	to	O	O
-halogenated	halogenated	O	O
-hydroxyquinolines	hydroxyquinolines	O	O
+halogenated	halogenated	B_chemical	O
+hydroxyquinolines	hydroxyquinolines	I_chemical	O
 reported	reported	O	O
 from	from	O	O
 outside	outside	O	O
@@ -84,8 +84,8 @@ the	the	O	O
 probable	probable	O	O
 cases	cases	O	O
 the	the	O	O
-neurological	neurological	O	O
-disturbance	disturbance	O	O
+neurological	neurological	O	B_disease
+disturbance	disturbance	O	I_disease
 consisted	consisted	O	O
 of	of	O	O
 an	an	O	O
@@ -155,10 +155,10 @@ cases	cases	O	O
 a	a	O	O
 combination	combination	O	O
 of	of	O	O
-myelopathy	myelopathy	O	O
+myelopathy	myelopathy	O	S_disease
 ,	,	O	O
-visual	visual	O	O
-disturbance	disturbance	O	O
+visual	visual	O	B_disease
+disturbance	disturbance	O	I_disease
 ,	,	O	O
 and	and	O	O
 peripheral	peripheral	O	B_disease
@@ -171,7 +171,7 @@ manifestation	manifestation	O	O
 .	.	O	O
 
 Isolated	isolated	O	O
-myelopathy	myelopathy	O	O
+myelopathy	myelopathy	O	S_disease
 or	or	O	O
 peripheral	peripheral	O	B_disease
 neuropathy	neuropathy	O	S_disease
@@ -187,8 +187,8 @@ infrequent	infrequent	O	O
 .	.	O	O
 
 The	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 all	all	O	O
 manifestations	manifestations	O	O
 (	(	O	O
@@ -212,8 +212,8 @@ tended	tended	O	O
 to	to	O	O
 display	display	O	O
 more	more	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 
 The	the	O	O

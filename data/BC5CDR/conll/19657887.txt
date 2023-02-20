@@ -1,8 +1,8 @@
 Disulfiram-like	disulfiram-like	O	O
 syndrome	syndrome	O	O
 after	after	O	O
-hydrogen	hydrogen	O	O
-cyanamide	cyanamide	O	O
+hydrogen	hydrogen	B_chemical	O
+cyanamide	cyanamide	I_chemical	O
 professional	professional	O	O
 skin	skin	O	O
 exposure	exposure	O	O
@@ -14,8 +14,8 @@ in	in	O	O
 France	france	O	O
 .	.	O	O
 
-Hydrogen	hydrogen	O	O
-cyanamide	cyanamide	O	O
+Hydrogen	hydrogen	B_chemical	O
+cyanamide	cyanamide	I_chemical	O
 is	is	O	O
 a	a	O	O
 plant	plant	O	O
@@ -79,8 +79,8 @@ following	following	O	O
 occupational	occupational	O	O
 exposure	exposure	O	O
 to	to	O	O
-hydrogen	hydrogen	O	O
-cyanamide	cyanamide	O	O
+hydrogen	hydrogen	B_chemical	O
+cyanamide	cyanamide	I_chemical	O
 .	.	O	O
 
 The	the	O	O
@@ -92,12 +92,12 @@ a	a	O	O
 man	man	O	O
 who	who	O	O
 used	used	O	O
-Dormex	dormex	O	O
+Dormex	dormex	S_chemical	O
 ,	,	O	O
 which	which	O	O
 contains	contains	O	O
-hydrogen	hydrogen	O	O
-cyanamide	cyanamide	O	O
+hydrogen	hydrogen	B_chemical	O
+cyanamide	cyanamide	I_chemical	O
 ,	,	O	O
 without	without	O	O
 protection	protection	O	O
@@ -161,7 +161,7 @@ following	following	O	O
 cutaneous	cutaneous	O	O
 contact	contact	O	O
 with	with	O	O
-Dormex	dormex	O	O
+Dormex	dormex	S_chemical	O
 .	.	O	O
 
 Five	five	O	O
@@ -179,7 +179,7 @@ flushing	flushing	O	O
 tachycardia	tachycardia	O	S_disease
 ,	,	O	O
 and	and	O	O
-arterial	arterial	O	O
+arterial	arterial	O	B_disease
 hypotension	hypotension	O	S_disease
 after	after	O	O
 consuming	consuming	O	O
@@ -220,7 +220,7 @@ instructions	instructions	O	O
 for	for	O	O
 use	use	O	O
 of	of	O	O
-Dormex	dormex	O	O
+Dormex	dormex	S_chemical	O
 and	and	O	O
 of	of	O	O
 preventing	preventing	O	O

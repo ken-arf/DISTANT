@@ -8,13 +8,13 @@ the	the	O	O
 prevention	prevention	O	O
 of	of	O	O
 ifosfamide-induced	ifosfamide-induced	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 .	.	O	O
 
 AIM	aim	O	O
 :	:	O	O
-Hemorrhagic	hemorrhagic	O	S_disease
+Hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 (	(	O	O
 HC	hc	O	O
@@ -28,7 +28,7 @@ chemotherapy	chemotherapy	O	O
 with	with	O	O
 ifosfamide	ifosfamide	S_chemical	O
 (	(	O	O
-IFS	ifs	O	O
+IFS	ifs	S_chemical	O
 )	)	O	O
 .	.	O	O
 
@@ -97,7 +97,7 @@ v.o	v.o	O	O
 )	)	O	O
 administration	administration	O	O
 of	of	O	O
-IFS	ifs	O	O
+IFS	ifs	S_chemical	O
 .	.	O	O
 
 One	one	O	O
@@ -169,7 +169,7 @@ wet	wet	O	O
 weight	weight	O	O
 induced	induced	O	O
 by	by	O	O
-IFS	ifs	O	O
+IFS	ifs	S_chemical	O
 by	by	O	O
 84.79	84.79	O	O
 %	%	O	O
@@ -193,7 +193,7 @@ microscopic	microscopic	O	O
 alterations	alterations	O	O
 induced	induced	O	O
 by	by	O	O
-IFS	ifs	O	O
+IFS	ifs	S_chemical	O
 .	.	O	O
 
 Moreover	moreover	O	O

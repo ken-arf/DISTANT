@@ -142,8 +142,8 @@ Histology	histology	O	O
 and	and	O	O
 Embryology	embryology	O	O
 ,	,	O	O
-Zeynep	zeynep	O	O
-Kamil	kamil	O	O
+Zeynep	zeynep	B_chemical	O
+Kamil	kamil	I_chemical	O
 Women	women	O	O
 and	and	O	O
 Children	children	O	O
@@ -155,8 +155,8 @@ MAIN	main	O	O
 OUTCOME	outcome	O	O
 MEASURES	measures	O	O
 :	:	O	O
-Serum	serum	O	O
-prolactin	prolactin	O	O
+Serum	serum	B_chemical	O
+prolactin	prolactin	I_chemical	O
 levels	levels	O	O
 ,	,	O	O
 uterine	uterine	O	O
@@ -213,8 +213,8 @@ was	was	O	O
 suggested	suggested	O	O
 that	that	O	O
 high	high	O	O
-serum	serum	O	O
-prolactin	prolactin	O	O
+serum	serum	B_chemical	O
+prolactin	prolactin	I_chemical	O
 levels	levels	O	O
 cause	cause	O	O
 degeneration	degeneration	O	O

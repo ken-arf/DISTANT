@@ -16,8 +16,8 @@ A	a	O	O
 59-year-old	59-year-old	O	O
 woman	woman	O	O
 with	with	O	O
-ulcerative	ulcerative	O	O
-colitis	colitis	O	O
+ulcerative	ulcerative	O	B_disease
+colitis	colitis	O	I_disease
 developed	developed	O	O
 red	red	O	O
 eyes	eyes	O	O
@@ -27,8 +27,8 @@ effusion	effusion	O	I_disease
 ,	,	O	O
 eosinophilia	eosinophilia	O	S_disease
 and	and	O	O
-urinary	urinary	O	O
-abnormalities	abnormalities	O	O
+urinary	urinary	O	B_disease
+abnormalities	abnormalities	O	I_disease
 after	after	O	O
 restarting	restarting	O	O
 of	of	O	O

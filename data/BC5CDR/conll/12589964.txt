@@ -32,7 +32,7 @@ Cardiac	cardiac	O	O
 troponins	troponins	O	O
 I	i	O	O
 (	(	O	O
-cTnI	ctni	O	O
+cTnI	ctni	S_chemical	O
 )	)	O	O
 and	and	O	O
 T	t	O	O
@@ -50,9 +50,9 @@ and	and	O	O
 specific	specific	O	O
 markers	markers	O	O
 of	of	O	O
-myocardial	myocardial	O	O
-cell	cell	O	O
-injury	injury	O	O
+myocardial	myocardial	O	B_disease
+cell	cell	O	I_disease
+injury	injury	O	I_disease
 .	.	O	O
 
 We	we	O	O
@@ -61,7 +61,7 @@ the	the	O	O
 diagnostic	diagnostic	O	O
 value	value	O	O
 of	of	O	O
-cTnI	ctni	O	O
+cTnI	ctni	S_chemical	O
 and	and	O	O
 cTnT	ctnt	O	O
 for	for	O	O
@@ -86,15 +86,15 @@ the	the	O	O
 relationship	relationship	O	O
 between	between	O	O
 serial	serial	O	O
-cTnI	ctni	O	O
+cTnI	ctni	S_chemical	O
 and	and	O	O
 cTnT	ctnt	O	O
 with	with	O	O
 the	the	O	O
 development	development	O	O
 of	of	O	O
-cardiac	cardiac	O	O
-disorders	disorders	O	O
+cardiac	cardiac	O	B_disease
+disorders	disorders	O	I_disease
 monitored	monitored	O	O
 by	by	O	O
 echocardiography	echocardiography	O	O
@@ -147,7 +147,7 @@ control	control	O	O
 group	group	O	O
 .	.	O	O
 
-cTnI	ctni	O	O
+cTnI	ctni	S_chemical	O
 was	was	O	O
 measured	measured	O	O
 with	with	O	O
@@ -311,9 +311,9 @@ significant	significant	O	O
 slight	slight	O	O
 degrees	degrees	O	O
 of	of	O	O
-perivascular	perivascular	O	O
+perivascular	perivascular	O	S_disease
 and	and	O	O
-interstitial	interstitial	O	O
+interstitial	interstitial	O	B_disease
 fibrosis	fibrosis	O	S_disease
 .	.	O	O
 
@@ -342,7 +342,7 @@ evidence	evidence	O	O
 of	of	O	O
 very	very	O	O
 slight	slight	O	O
-perivascular	perivascular	O	O
+perivascular	perivascular	O	S_disease
 fibrosis	fibrosis	O	S_disease
 .	.	O	O
 
@@ -393,7 +393,7 @@ DOX	dox	S_chemical	O
 .	.	O	O
 
 Maximal	maximal	O	O
-cTnI	ctni	O	O
+cTnI	ctni	S_chemical	O
 (	(	O	O
 pg/ml	pg/ml	O	O
 )	)	O	O
@@ -416,7 +416,7 @@ p=0.006	p=0.006	O	O
 )	)	O	O
 .	.	O	O
 
-cTnI	ctni	O	O
+cTnI	ctni	S_chemical	O
 (	(	O	O
 ng/ml	ng/ml	O	O
 )	)	O	O
@@ -498,8 +498,8 @@ CONCLUSIONS	conclusions	O	O
 Among	among	O	O
 markers	markers	O	O
 of	of	O	O
-ischemic	ischemic	O	O
-injury	injury	O	O
+ischemic	ischemic	O	B_disease
+injury	injury	O	I_disease
 after	after	O	O
 DOX	dox	S_chemical	O
 in	in	O	O
@@ -532,7 +532,7 @@ between	between	O	O
 the	the	O	O
 amount	amount	O	O
 of	of	O	O
-cTnI	ctni	O	O
+cTnI	ctni	S_chemical	O
 and	and	O	O
 cTnT	ctnt	O	O
 after	after	O	O
@@ -548,7 +548,7 @@ of	of	O	O
 mAbs	mabs	O	O
 to	to	O	O
 various	various	O	O
-cTnI	ctni	O	O
+cTnI	ctni	S_chemical	O
 and	and	O	O
 cTnT	ctnt	O	O
 forms	forms	O	O
@@ -563,8 +563,8 @@ rats	rats	O	O
 after	after	O	O
 DOX	dox	S_chemical	O
 indicates	indicates	O	O
-cell	cell	O	O
-damage	damage	O	O
+cell	cell	O	B_disease
+damage	damage	O	I_disease
 determined	determined	O	O
 by	by	O	O
 the	the	O	O
@@ -590,7 +590,7 @@ cardiotoxicity	cardiotoxicity	O	S_disease
 and	and	O	O
 possibly	possibly	O	O
 for	for	O	O
-cardioprotective	cardioprotective	O	O
+cardioprotective	cardioprotective	O	S_disease
 experiments	experiments	O	O
 .	.	O	O
 

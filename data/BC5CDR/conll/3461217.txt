@@ -9,7 +9,7 @@ rats	rats	O	O
 by	by	O	O
 treatments	treatments	O	O
 with	with	O	O
-N-nitroso-N-methylurea	n-nitroso-n-methylurea	O	O
+N-nitroso-N-methylurea	n-nitroso-n-methylurea	S_chemical	O
 and	and	O	O
 testosterone	testosterone	S_chemical	O
 .	.	O	O
@@ -29,15 +29,15 @@ developed	developed	O	O
 large	large	O	O
 ,	,	O	O
 palpable	palpable	O	O
-prostate	prostate	O	O
-adenocarcinomas	adenocarcinomas	O	O
+prostate	prostate	O	B_disease
+adenocarcinomas	adenocarcinomas	O	I_disease
 (	(	O	O
 PAs	pas	O	O
 )	)	O	O
 following	following	O	O
 treatments	treatments	O	O
 with	with	O	O
-N-nitroso-N-methylurea	n-nitroso-n-methylurea	O	O
+N-nitroso-N-methylurea	n-nitroso-n-methylurea	S_chemical	O
 (	(	O	O
 CAS	cas	O	O
 :	:	O	O
@@ -70,8 +70,8 @@ the	the	O	O
 tumor-bearing	tumor-bearing	O	O
 rats	rats	O	O
 manifested	manifested	O	O
-metastatic	metastatic	O	O
-lesions	lesions	O	O
+metastatic	metastatic	O	B_disease
+lesions	lesions	O	I_disease
 .	.	O	O
 
 The	the	O	O

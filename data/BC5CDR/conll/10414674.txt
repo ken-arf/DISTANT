@@ -222,7 +222,7 @@ group	group	O	O
 developed	developed	O	O
 a	a	O	O
 postoperative	postoperative	O	O
-intracranial	intracranial	O	O
+intracranial	intracranial	O	B_disease
 hematoma	hematoma	O	S_disease
 .	.	O	O
 

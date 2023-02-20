@@ -1,0 +1,15 @@
+T1	Disease 0 16	Cardiac toxicity
+T2	Disease 107 120	breast cancer
+T3	Chemical 135 151	Cyclophosphamide
+T6	Chemical 342 352	paclitaxel
+T8	Chemical 378 394	cyclophosphamide
+T10	Chemical 410 421	carboplatin
+T11	Disease 492 505	breast cancer
+T12	Disease 582 595	breast cancer
+T13	Chemical 622 638	cyclophosphamide
+T14	Disease 745 769	congestive heart failure
+T17	Disease 926 943	diabetes mellitus
+T18	Chemical 958 972	anthracyclines
+T19	Chemical 1104 1120	cyclophosphamide
+T20	Disease 1228 1244	cardiac toxicity
+T21	Chemical 1682 1698	cyclophosphamide

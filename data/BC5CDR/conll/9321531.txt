@@ -230,7 +230,7 @@ off-period	off-period	O	O
 parkinsonism	parkinsonism	O	S_disease
 ,	,	O	O
 contralateral	contralateral	O	O
-bradykinesia	bradykinesia	O	O
+bradykinesia	bradykinesia	O	S_disease
 ,	,	O	O
 and	and	O	O
 rigidity	rigidity	O	S_disease
@@ -363,8 +363,8 @@ ipsilateral	ipsilateral	O	O
 side	side	O	O
 and	and	O	O
 in	in	O	O
-axial	axial	O	O
-symptoms	symptoms	O	O
+axial	axial	O	B_disease
+symptoms	symptoms	O	I_disease
 ,	,	O	O
 wane	wane	O	O
 within	within	O	O
@@ -380,7 +380,7 @@ that	that	O	O
 are	are	O	O
 resistant	resistant	O	O
 to	to	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 therapy	therapy	O	O
 do	do	O	O
 not	not	O	O

@@ -2,15 +2,15 @@ Phase	phase	O	O
 I	i	O	O
 trial	trial	O	O
 of	of	O	O
-13-cis-retinoic	13-cis-retinoic	O	O
-acid	acid	O	O
+13-cis-retinoic	13-cis-retinoic	B_chemical	O
+acid	acid	I_chemical	O
 in	in	O	O
 children	children	O	O
 with	with	O	O
 neuroblastoma	neuroblastoma	O	O
 following	following	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 transplantation	transplantation	O	O
 .	.	O	O
 
@@ -22,8 +22,8 @@ neuroblastoma	neuroblastoma	O	O
 cell	cell	O	O
 lines	lines	O	O
 with	with	O	O
-13-cis-retinoic	13-cis-retinoic	O	O
-acid	acid	O	O
+13-cis-retinoic	13-cis-retinoic	B_chemical	O
+acid	acid	I_chemical	O
 (	(	O	O
 cis-RA	cis-ra	O	O
 )	)	O	O
@@ -88,8 +88,8 @@ children	children	O	O
 with	with	O	O
 neuroblastoma	neuroblastoma	O	O
 following	following	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 transplantation	transplantation	O	O
 (	(	O	O
 BMT	bmt	O	O
@@ -206,7 +206,7 @@ n	n	O	O
 )	)	O	O
 ,	,	O	O
 and	and	O	O
-anemia/thrombocytopenia/emesis/rash	anemia/thrombocytopenia/emesis/rash	O	O
+anemia/thrombocytopenia/emesis/rash	anemia/thrombocytopenia/emesis/rash	O	S_disease
 (	(	O	O
 n	n	O	O
 =	=	O	O
@@ -229,8 +229,8 @@ responses	responses	O	O
 were	were	O	O
 observed	observed	O	O
 in	in	O	O
-marrow	marrow	O	O
-metastases	metastases	O	O
+marrow	marrow	O	B_disease
+metastases	metastases	O	I_disease
 .	.	O	O
 
 Serum	serum	O	O

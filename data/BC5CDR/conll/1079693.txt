@@ -50,7 +50,7 @@ years	years	O	O
 )	)	O	O
 with	with	O	O
 the	the	O	O
-monoarticular	monoarticular	O	O
+monoarticular	monoarticular	O	S_disease
 or	or	O	O
 pauciatricular	pauciatricular	O	O
 form	form	O	O
@@ -136,7 +136,7 @@ as	as	O	O
 red	red	O	O
 eye	eye	O	O
 ,	,	O	O
-ocular	ocular	O	O
+ocular	ocular	O	B_disease
 pain	pain	O	S_disease
 ,	,	O	O
 decreased	decreased	O	O
@@ -212,7 +212,7 @@ studies	studies	O	O
 Cataract	cataract	O	S_disease
 and	and	O	O
 band	band	O	O
-keratopathy	keratopathy	O	O
+keratopathy	keratopathy	O	S_disease
 occurred	occurred	O	O
 in	in	O	O
 only	only	O	O
@@ -265,8 +265,8 @@ a	a	O	O
 significant	significant	O	O
 number	number	O	O
 of	of	O	O
-posterior	posterior	O	O
-subcapsular	subcapsular	O	O
+posterior	posterior	O	B_disease
+subcapsular	subcapsular	O	I_disease
 cataracts	cataracts	O	S_disease
 was	was	O	O
 found	found	O	O
@@ -302,7 +302,7 @@ of	of	O	O
 cataracts	cataracts	O	S_disease
 ,	,	O	O
 band	band	O	O
-keratopathy	keratopathy	O	O
+keratopathy	keratopathy	O	S_disease
 ,	,	O	O
 and	and	O	O
 glaucoma	glaucoma	O	S_disease

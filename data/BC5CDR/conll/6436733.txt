@@ -6,8 +6,8 @@ ammonia	ammonia	O	O
 may	may	O	O
 predict	predict	O	O
 short-term	short-term	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 valproic	valproic	B_chemical	O
 acid	acid	I_chemical	O

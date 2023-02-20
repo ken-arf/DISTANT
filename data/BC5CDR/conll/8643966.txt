@@ -4,7 +4,7 @@ advanced	advanced	O	O
 inoperable	inoperable	O	O
 non-small	non-small	O	O
 cell	cell	O	O
-lung	lung	O	O
+lung	lung	O	B_disease
 cancer	cancer	O	S_disease
 with	with	O	O
 paclitaxel	paclitaxel	S_chemical	O
@@ -62,7 +62,7 @@ or	or	O	O
 IV	iv	O	O
 non-small	non-small	O	O
 cell	cell	O	O
-lung	lung	O	O
+lung	lung	O	B_disease
 cancer	cancer	O	S_disease
 (	(	O	O
 NSCLC	nsclc	O	S_disease
@@ -281,7 +281,7 @@ grade	grade	O	O
 1	1	O	O
 or	or	O	O
 2	2	O	O
-myalgia/arthralgia	myalgia/arthralgia	O	O
+myalgia/arthralgia	myalgia/arthralgia	O	S_disease
 was	was	O	O
 observed	observed	O	O
 in	in	O	O
@@ -301,8 +301,8 @@ or	or	O	O
 4	4	O	O
 .	.	O	O
 
-Nausea	nausea	O	S_disease
-and	and	O	O
+Nausea	nausea	O	B_disease
+and	and	O	I_disease
 vomiting	vomiting	O	S_disease
 were	were	O	O
 infrequent	infrequent	O	O

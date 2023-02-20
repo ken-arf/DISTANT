@@ -14,12 +14,12 @@ i.m	i.m	O	O
 
 administration	administration	O	O
 of	of	O	O
-flunitrazepam	flunitrazepam	O	O
+flunitrazepam	flunitrazepam	S_chemical	O
 in	in	O	O
 volunteers	volunteers	O	O
 .	.	O	O
 
-Flunitrazepam	flunitrazepam	O	O
+Flunitrazepam	flunitrazepam	S_chemical	O
 0.5	0.5	O	O
 ,	,	O	O
 1.0	1.0	O	O
@@ -135,7 +135,7 @@ i.m	i.m	O	O
 
 injection	injection	O	O
 of	of	O	O
-flunitrazepam	flunitrazepam	O	O
+flunitrazepam	flunitrazepam	S_chemical	O
 significantly	significantly	O	O
 more	more	O	O
 often	often	O	O

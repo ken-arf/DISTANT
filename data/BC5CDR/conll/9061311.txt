@@ -36,7 +36,7 @@ acute	acute	O	B_disease
 liver	liver	O	B_disease
 failure	failure	O	I_disease
 (	(	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 )	)	O	O
 .	.	O	O
 
@@ -51,7 +51,7 @@ production	production	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 due	due	O	O
 to	to	O	O
 paracetamol	paracetamol	S_chemical	O
@@ -68,7 +68,7 @@ volunteers	volunteers	O	O
 Neutrophils	neutrophils	O	O
 from	from	O	O
 14	14	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 patients	patients	O	O
 were	were	O	O
 stimulated	stimulated	O	O
@@ -77,10 +77,10 @@ the	the	O	O
 complement	complement	O	O
 receptors	receptors	O	O
 using	using	O	O
-zymosan	zymosan	O	O
+zymosan	zymosan	S_chemical	O
 opsonized	opsonized	O	O
 with	with	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 or	or	O	O
 control	control	O	O
 serum	serum	O	O
@@ -92,14 +92,14 @@ hydrogen	hydrogen	B_chemical	O
 peroxide	peroxide	I_chemical	O
 production	production	O	O
 by	by	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 neutrophils	neutrophils	O	O
 stimulated	stimulated	O	O
 with	with	O	O
-zymosan	zymosan	O	O
+zymosan	zymosan	S_chemical	O
 opsonized	opsonized	O	O
 with	with	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 serum	serum	O	O
 was	was	O	O
 significantly	significantly	O	O
@@ -120,7 +120,7 @@ This	this	O	O
 defect	defect	O	O
 persisted	persisted	O	O
 when	when	O	O
-zymosan	zymosan	O	O
+zymosan	zymosan	S_chemical	O
 opsonized	opsonized	O	O
 by	by	O	O
 control	control	O	O
@@ -143,7 +143,7 @@ in	in	O	O
 neutrophils	neutrophils	O	O
 stimulated	stimulated	O	O
 with	with	O	O
-formyl-methionyl-leucyl-phenylalanine	formyl-methionyl-leucyl-phenylalanine	O	O
+formyl-methionyl-leucyl-phenylalanine	formyl-methionyl-leucyl-phenylalanine	S_chemical	O
 (	(	O	O
 fMLP	fmlp	O	O
 )	)	O	O
@@ -151,7 +151,7 @@ from	from	O	O
 a	a	O	O
 further	further	O	O
 18	18	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 patients	patients	O	O
 was	was	O	O
 unaffected	unaffected	O	O
@@ -169,7 +169,7 @@ were	were	O	O
 significantly	significantly	O	O
 reduced	reduced	O	O
 in	in	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 patients	patients	O	O
 compared	compared	O	O
 with	with	O	O
@@ -189,7 +189,7 @@ a	a	O	O
 neutrophil	neutrophil	O	O
 defect	defect	O	O
 in	in	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 due	due	O	O
 to	to	O	O
 paracetamol	paracetamol	S_chemical	O

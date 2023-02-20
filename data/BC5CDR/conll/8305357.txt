@@ -2,9 +2,9 @@ Liposomal	liposomal	O	O
 daunorubicin	daunorubicin	S_chemical	O
 in	in	O	O
 advanced	advanced	O	O
-Kaposi	kaposi	O	B_disease
-'s	's	O	I_disease
-sarcoma	sarcoma	O	I_disease
+Kaposi	kaposi	B_chemical	B_disease
+'s	's	I_chemical	I_disease
+sarcoma	sarcoma	I_chemical	I_disease
 :	:	O	O
 a	a	O	O
 phase	phase	O	O
@@ -30,7 +30,7 @@ of	of	O	O
 liposomal	liposomal	O	O
 daunorubicin	daunorubicin	S_chemical	O
 (	(	O	O
-DaunoXome	daunoxome	O	O
+DaunoXome	daunoxome	S_chemical	O
 )	)	O	O
 in	in	O	O
 the	the	O	O
@@ -38,9 +38,9 @@ treatment	treatment	O	O
 of	of	O	O
 AIDS	aids	O	S_disease
 related	related	O	O
-Kaposi	kaposi	O	B_disease
-'s	's	O	I_disease
-sarcoma	sarcoma	O	I_disease
+Kaposi	kaposi	B_chemical	B_disease
+'s	's	I_chemical	I_disease
+sarcoma	sarcoma	I_chemical	I_disease
 .	.	O	O
 
 Eleven	eleven	O	O
@@ -48,9 +48,9 @@ homosexual	homosexual	O	O
 men	men	O	O
 with	with	O	O
 advanced	advanced	O	O
-Kaposi	kaposi	O	B_disease
-'s	's	O	I_disease
-sarcoma	sarcoma	O	I_disease
+Kaposi	kaposi	B_chemical	B_disease
+'s	's	I_chemical	I_disease
+sarcoma	sarcoma	I_chemical	I_disease
 were	were	O	O
 entered	entered	O	O
 in	in	O	O
@@ -109,9 +109,9 @@ relapsed	relapsed	O	O
 
 Stabilization	stabilization	O	O
 of	of	O	O
-Kaposi	kaposi	O	B_disease
-'s	's	O	I_disease
-sarcoma	sarcoma	O	I_disease
+Kaposi	kaposi	B_chemical	B_disease
+'s	's	I_chemical	I_disease
+sarcoma	sarcoma	I_chemical	I_disease
 occurred	occurred	O	O
 in	in	O	O
 the	the	O	O
@@ -196,8 +196,8 @@ in	in	O	O
 the	the	O	O
 treatment	treatment	O	O
 of	of	O	O
-Kaposi	kaposi	O	B_disease
-'s	's	O	I_disease
-sarcoma	sarcoma	O	I_disease
+Kaposi	kaposi	B_chemical	B_disease
+'s	's	I_chemical	I_disease
+sarcoma	sarcoma	I_chemical	I_disease
 .	.	O	O
 

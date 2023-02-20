@@ -1,5 +1,5 @@
-Urinary	urinary	O	O
-symptoms	symptoms	O	O
+Urinary	urinary	O	B_disease
+symptoms	symptoms	O	I_disease
 and	and	O	O
 quality	quality	O	O
 of	of	O	O
@@ -12,7 +12,7 @@ with	with	O	O
 overactive	overactive	O	O
 bladder	bladder	O	O
 after	after	O	O
-tolterodine	tolterodine	O	O
+tolterodine	tolterodine	S_chemical	O
 treatment	treatment	O	O
 .	.	O	O
 
@@ -21,8 +21,8 @@ OBJECTIVES	objectives	O	O
 To	to	O	O
 study	study	O	O
 the	the	O	O
-urinary	urinary	O	O
-symptoms	symptoms	O	O
+urinary	urinary	O	B_disease
+symptoms	symptoms	O	I_disease
 and	and	O	O
 quality	quality	O	O
 of	of	O	O
@@ -38,7 +38,7 @@ bladder	bladder	O	O
 OAB	oab	O	O
 )	)	O	O
 after	after	O	O
-tolterodine	tolterodine	O	O
+tolterodine	tolterodine	S_chemical	O
 treatment	treatment	O	O
 .	.	O	O
 
@@ -81,7 +81,7 @@ present	present	O	O
 study	study	O	O
 .	.	O	O
 
-Tolterodine	tolterodine	O	O
+Tolterodine	tolterodine	S_chemical	O
 2	2	O	O
 mg	mg	O	O
 ,	,	O	O
@@ -258,7 +258,7 @@ heath	heath	O	O
 
 CONCLUSION	conclusion	O	O
 :	:	O	O
-Tolterodine	tolterodine	O	O
+Tolterodine	tolterodine	S_chemical	O
 was	was	O	O
 well	well	O	O
 tolerated	tolerated	O	O

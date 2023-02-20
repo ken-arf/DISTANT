@@ -60,7 +60,7 @@ age	age	O	O
 years	years	O	O
 )	)	O	O
 with	with	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 respiratory	respiratory	O	B_disease
 insufficiency	insufficiency	O	I_disease
 who	who	O	O
@@ -87,8 +87,8 @@ function	function	O	O
 was	was	O	O
 normal	normal	O	O
 but	but	O	O
-hepatic	hepatic	O	O
-function	function	O	O
+hepatic	hepatic	O	B_disease
+function	function	O	I_disease
 was	was	O	O
 impaired	impaired	O	O
 in	in	O	O
@@ -199,8 +199,8 @@ corticosteroids	corticosteroids	S_chemical	O
 )	)	O	O
 .	.	O	O
 
-Hepatic	hepatic	O	O
-dysfunction	dysfunction	O	O
+Hepatic	hepatic	O	B_disease
+dysfunction	dysfunction	O	I_disease
 and	and	O	O
 acidosis	acidosis	O	S_disease
 are	are	O	O

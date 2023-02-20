@@ -24,7 +24,7 @@ mossy	mossy	O	O
 fibres	fibres	O	O
 of	of	O	O
 the	the	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 dentate	dentate	O	O
 gyrus	gyrus	O	O
 during	during	O	O
@@ -58,14 +58,14 @@ following	following	O	O
 high-frequency	high-frequency	O	O
 stimulation	stimulation	O	O
 in	in	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 slices	slices	O	O
 .	.	O	O
 
 The	the	O	O
 pilocarpine	pilocarpine	S_chemical	O
 (	(	O	O
-PILO	pilo	O	O
+PILO	pilo	S_chemical	S_disease
 )	)	O	O
 model	model	O	O
 of	of	O	O
@@ -74,15 +74,15 @@ is	is	O	O
 characterized	characterized	O	O
 by	by	O	O
 an	an	O	O
-acute	acute	O	O
-period	period	O	O
+acute	acute	O	B_disease
+period	period	O	I_disease
 of	of	O	O
 status	status	O	B_disease
 epilepticus	epilepticus	O	I_disease
 followed	followed	O	O
 by	by	O	O
-spontaneous	spontaneous	O	O
-recurrent	recurrent	O	O
+spontaneous	spontaneous	O	B_disease
+recurrent	recurrent	O	I_disease
 seizures	seizures	O	S_disease
 and	and	O	O
 related	related	O	O
@@ -159,7 +159,7 @@ areas	areas	O	O
 In	in	O	O
 addition	addition	O	O
 ,	,	O	O
-PILO	pilo	O	O
+PILO	pilo	S_chemical	S_disease
 injected	injected	O	O
 animals	animals	O	O
 exhibited	exhibited	O	O
@@ -206,7 +206,7 @@ are	are	O	O
 present	present	O	O
 in	in	O	O
 the	the	O	O
-PILO	pilo	O	O
+PILO	pilo	S_chemical	S_disease
 model	model	O	O
 of	of	O	O
 TLE	tle	O	O

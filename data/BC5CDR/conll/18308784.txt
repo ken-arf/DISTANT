@@ -18,17 +18,17 @@ Rg1	rg1	S_chemical	O
 ,	,	O	O
 as	as	O	O
 a	a	O	O
-ginsenoside	ginsenoside	O	O
+ginsenoside	ginsenoside	S_chemical	O
 extracted	extracted	O	O
 from	from	O	O
-Panax	panax	O	O
-ginseng	ginseng	O	O
+Panax	panax	B_chemical	O
+ginseng	ginseng	I_chemical	O
 ,	,	O	O
 could	could	O	O
 ameliorate	ameliorate	O	O
-spatial	spatial	O	O
-learning	learning	O	O
-impairment	impairment	O	O
+spatial	spatial	O	B_disease
+learning	learning	O	B_disease
+impairment	impairment	O	I_disease
 .	.	O	O
 
 Previous	previous	O	O
@@ -49,8 +49,8 @@ and	and	O	O
 treatment	treatment	O	O
 of	of	O	O
 the	the	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 morphine	morphine	S_chemical	O
 .	.	O	O
@@ -68,8 +68,8 @@ effect	effect	O	O
 of	of	O	O
 Rg1	rg1	S_chemical	O
 on	on	O	O
-learning	learning	O	O
-impairment	impairment	O	O
+learning	learning	O	B_disease
+impairment	impairment	O	I_disease
 by	by	O	O
 chronic	chronic	O	O
 morphine	morphine	S_chemical	O
@@ -240,7 +240,7 @@ could	could	O	O
 be	be	O	O
 inhibited	inhibited	O	O
 by	by	O	O
-N-methyl-D-aspartate	n-methyl-d-aspartate	O	O
+N-methyl-D-aspartate	n-methyl-d-aspartate	S_chemical	O
 (	(	O	O
 NMDA	nmda	S_chemical	O
 )	)	O	O

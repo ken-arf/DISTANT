@@ -102,7 +102,7 @@ contractant	contractant	O	O
 effect	effect	O	O
 on	on	O	O
 the	the	O	O
-detrusor	detrusor	O	O
+detrusor	detrusor	O	S_disease
 smooth	smooth	O	O
 muscle	muscle	O	O
 .	.	O	O
@@ -183,7 +183,7 @@ smooth	smooth	O	O
 muscle	muscle	O	O
 of	of	O	O
 the	the	O	O
-detrusor	detrusor	O	O
+detrusor	detrusor	O	S_disease
 .	.	O	O
 
 However	however	O	O
@@ -197,8 +197,8 @@ may	may	O	O
 stimulate	stimulate	O	O
 micturition	micturition	O	O
 by	by	O	O
-releasing	releasing	O	O
-tachykinins	tachykinins	O	O
+releasing	releasing	B_chemical	O
+tachykinins	tachykinins	S_chemical	O
 from	from	O	O
 nerves	nerves	O	O
 in	in	O	O
@@ -210,7 +210,7 @@ urothelium	urothelium	O	O
 .	.	O	O
 
 These	these	O	O
-tachykinins	tachykinins	O	O
+tachykinins	tachykinins	S_chemical	O
 ,	,	O	O
 in	in	O	O
 turn	turn	O	O
@@ -227,13 +227,13 @@ NK2	nk2	O	O
 receptors	receptors	O	O
 .	.	O	O
 
-Prostanoids	prostanoids	O	O
+Prostanoids	prostanoids	S_chemical	O
 may	may	O	O
 ,	,	O	O
 via	via	O	O
 release	release	O	O
 of	of	O	O
-tachykinins	tachykinins	O	O
+tachykinins	tachykinins	S_chemical	O
 ,	,	O	O
 contribute	contribute	O	O
 to	to	O	O

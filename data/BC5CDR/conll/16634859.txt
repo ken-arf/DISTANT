@@ -143,8 +143,8 @@ of	of	O	O
 alcohol	alcohol	S_chemical	O
 consumption	consumption	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 poorer	poorer	O	O
 fetal	fetal	O	O
 outcomes	outcomes	O	O

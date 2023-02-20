@@ -112,7 +112,7 @@ or	or	O	O
 
 Systemic	systemic	O	O
 plasma	plasma	O	O
-VEGF165	vegf165	O	O
+VEGF165	vegf165	S_chemical	O
 levels	levels	O	O
 were	were	O	O
 measured	measured	O	O
@@ -147,8 +147,8 @@ patient	patient	O	O
 with	with	O	O
 hepatic	hepatic	O	O
 and	and	O	O
-pulmonary	pulmonary	O	O
-metastases	metastases	O	O
+pulmonary	pulmonary	O	B_disease
+metastases	metastases	O	I_disease
 (	(	O	O
 4	4	O	O
 %	%	O	O
@@ -189,7 +189,7 @@ level	level	O	O
 
 Systemic	systemic	O	O
 plasma	plasma	O	O
-VEGF165	vegf165	O	O
+VEGF165	vegf165	S_chemical	O
 levels	levels	O	O
 did	did	O	O
 not	not	O	O

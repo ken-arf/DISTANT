@@ -37,8 +37,8 @@ decreased	decreased	O	O
 synthesis	synthesis	O	O
 of	of	O	O
 brain	brain	O	O
-gamma-aminobutyric	gamma-aminobutyric	O	O
-acid	acid	O	O
+gamma-aminobutyric	gamma-aminobutyric	B_chemical	O
+acid	acid	I_chemical	O
 (	(	O	O
 GABA	gaba	S_chemical	O
 )	)	O	O
@@ -66,7 +66,7 @@ in	in	O	O
 rats	rats	O	O
 anaesthetised	anaesthetised	O	O
 with	with	O	O
-chloralose-urethane	chloralose-urethane	O	O
+chloralose-urethane	chloralose-urethane	S_chemical	O
 .	.	O	O
 
 Isoniazid	isoniazid	S_chemical	O
@@ -104,7 +104,7 @@ in	in	O	O
 rats	rats	O	O
 pretreated	pretreated	O	O
 with	with	O	O
-methylatropine	methylatropine	O	O
+methylatropine	methylatropine	S_chemical	O
 or	or	O	O
 previously	previously	O	O
 vagotomised	vagotomised	O	O

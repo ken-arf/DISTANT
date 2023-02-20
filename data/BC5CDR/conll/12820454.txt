@@ -73,8 +73,8 @@ patients	patients	O	O
 received	received	O	O
 CAB	cab	O	O
 [	[	O	O
-leuprolide	leuprolide	O	O
-acetate	acetate	O	O
+leuprolide	leuprolide	B_chemical	O
+acetate	acetate	I_chemical	O
 (	(	O	O
 LHRH-A	lhrh-a	O	O
 )	)	O	O
@@ -89,7 +89,7 @@ days	days	O	O
 plus	plus	O	O
 250	250	O	O
 mg	mg	O	O
-flutamide	flutamide	O	O
+flutamide	flutamide	S_chemical	O
 ,	,	O	O
 tid	tid	O	O
 ,	,	O	O
@@ -225,8 +225,8 @@ respectively	respectively	O	O
 
 Severe	severe	O	O
 and	and	O	O
-clinically	clinically	O	O
-evident	evident	O	O
+clinically	clinically	O	B_disease
+evident	evident	O	I_disease
 anemia	anemia	O	S_disease
 of	of	O	O
 Hb	hb	O	O
@@ -234,8 +234,8 @@ Hb	hb	O	O
 11	11	O	O
 g/dl	g/dl	O	O
 with	with	O	O
-clinical	clinical	O	O
-symptoms	symptoms	O	O
+clinical	clinical	O	B_disease
+symptoms	symptoms	O	I_disease
 was	was	O	O
 detected	detected	O	O
 in	in	O	O
@@ -251,7 +251,7 @@ This	this	O	O
 CAB-induced	cab-induced	O	O
 anemia	anemia	O	S_disease
 was	was	O	O
-normochromic	normochromic	O	O
+normochromic	normochromic	O	S_disease
 and	and	O	O
 normocytic	normocytic	O	O
 .	.	O	O
@@ -401,8 +401,8 @@ D1	d1	O	O
 
 Severe	severe	O	O
 and	and	O	O
-clinically	clinically	O	O
-evident	evident	O	O
+clinically	clinically	O	B_disease
+evident	evident	O	I_disease
 anemia	anemia	O	S_disease
 was	was	O	O
 easily	easily	O	O
@@ -418,8 +418,8 @@ for	for	O	O
 month	month	O	O
 )	)	O	O
 of	of	O	O
-recombinant	recombinant	O	O
-erythropoietin	erythropoietin	O	O
+recombinant	recombinant	B_chemical	O
+erythropoietin	erythropoietin	I_chemical	O
 (	(	O	O
 rHuEPO-beta	rhuepo-beta	O	O
 )	)	O	O

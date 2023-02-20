@@ -3,10 +3,10 @@ safety	safety	O	O
 and	and	O	O
 efficacy	efficacy	O	O
 of	of	O	O
-combination	combination	O	O
-N-butyl-deoxynojirimycin	n-butyl-deoxynojirimycin	O	O
+combination	combination	B_chemical	O
+N-butyl-deoxynojirimycin	n-butyl-deoxynojirimycin	S_chemical	O
 (	(	O	O
-SC-48334	sc-48334	O	O
+SC-48334	sc-48334	S_chemical	O
 )	)	O	O
 and	and	O	O
 zidovudine	zidovudine	S_chemical	O
@@ -39,9 +39,9 @@ of	of	O	O
 combination	combination	O	O
 therapy	therapy	O	O
 with	with	O	O
-N-butyl-deoxynojirimycin	n-butyl-deoxynojirimycin	O	O
+N-butyl-deoxynojirimycin	n-butyl-deoxynojirimycin	S_chemical	O
 (	(	O	O
-SC-48334	sc-48334	O	O
+SC-48334	sc-48334	S_chemical	O
 )	)	O	O
 (	(	O	O
 an	an	O	O
@@ -75,7 +75,7 @@ prior	prior	O	O
 zidovudine	zidovudine	S_chemical	O
 therapy	therapy	O	O
 received	received	O	O
-SC-48334	sc-48334	O	O
+SC-48334	sc-48334	S_chemical	O
 (	(	O	O
 1000	1000	O	O
 mg	mg	O	O
@@ -144,7 +144,7 @@ p	p	O	O
 
 The	the	O	O
 mean	mean	O	O
-SC-48334	sc-48334	O	O
+SC-48334	sc-48334	S_chemical	O
 steady-state	steady-state	O	O
 trough	trough	O	O
 level	level	O	O

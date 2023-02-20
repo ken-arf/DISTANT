@@ -95,7 +95,7 @@ the	the	O	O
 BBB	bbb	O	O
 .	.	O	O
 
-Tacrine	tacrine	O	O
+Tacrine	tacrine	S_chemical	O
 ,	,	O	O
 administered	administered	O	O
 in	in	O	O
@@ -107,8 +107,8 @@ induces	induces	O	O
 electrocorticographic	electrocorticographic	O	O
 seizures	seizures	O	S_disease
 and	and	O	O
-delayed	delayed	O	O
-hippocampal	hippocampal	O	O
+delayed	delayed	O	B_disease
+hippocampal	hippocampal	O	S_disease
 damage	damage	O	O
 .	.	O	O
 
@@ -128,7 +128,7 @@ a	a	O	O
 saline	saline	B_chemical	O
 solution	solution	I_chemical	O
 of	of	O	O
-tacrine	tacrine	O	O
+tacrine	tacrine	S_chemical	O
 (	(	O	O
 5mg/kg	5mg/kg	O	O
 )	)	O	O
@@ -164,8 +164,8 @@ earlier	earlier	O	O
 outcome	outcome	O	O
 of	of	O	O
 CNS	cns	O	O
-adverse	adverse	O	O
-symptoms	symptoms	O	O
+adverse	adverse	O	B_disease
+symptoms	symptoms	O	I_disease
 ,	,	O	O
 i.e.	i.e.	O	O
 epileptic	epileptic	O	S_disease
@@ -218,7 +218,7 @@ the	the	O	O
 saline	saline	B_chemical	O
 solution	solution	I_chemical	O
 of	of	O	O
-tacrine	tacrine	O	O
+tacrine	tacrine	S_chemical	O
 only	only	O	O
 in	in	O	O
 60	60	O	O
@@ -255,8 +255,8 @@ and	and	O	O
 the	the	O	O
 severity	severity	O	O
 of	of	O	O
-neurodegenerative	neurodegenerative	O	O
-processes	processes	O	O
+neurodegenerative	neurodegenerative	O	B_disease
+processes	processes	O	I_disease
 induced	induced	O	O
 by	by	O	O
 the	the	O	O

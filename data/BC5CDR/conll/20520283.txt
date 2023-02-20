@@ -12,8 +12,8 @@ trial	trial	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-acute	acute	O	O
-exacerbation	exacerbation	O	O
+acute	acute	O	B_disease
+exacerbation	exacerbation	O	I_disease
 of	of	O	O
 schizophrenia	schizophrenia	O	S_disease
 .	.	O	O
@@ -40,8 +40,8 @@ manic	manic	O	S_disease
 or	or	O	O
 mixed	mixed	O	O
 episodes	episodes	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 bipolar	bipolar	O	S_disease
 I	i	O	O
 disorder	disorder	O	O
@@ -108,7 +108,7 @@ observations	observations	O	O
 carried	carried	O	O
 forward	forward	O	O
 (	(	O	O
-LOCF	locf	O	O
+LOCF	locf	S_chemical	O
 )	)	O	O
 ,	,	O	O
 mean	mean	O	O
@@ -218,7 +218,7 @@ superior	superior	O	O
 to	to	O	O
 placebo	placebo	O	O
 with	with	O	O
-LOCF	locf	O	O
+LOCF	locf	S_chemical	O
 and	and	O	O
 MMRM	mmrm	O	O
 ;	;	O	O
@@ -244,14 +244,14 @@ general	general	O	O
 psychopathology	psychopathology	O	O
 subscale	subscale	O	O
 with	with	O	O
-LOCF	locf	O	O
+LOCF	locf	S_chemical	O
 and	and	O	O
 MMRM	mmrm	O	O
 .	.	O	O
 
 Treatment-related	treatment-related	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 (	(	O	O
 AEs	aes	O	O
 )	)	O	O
@@ -338,8 +338,8 @@ than	than	O	O
 of	of	O	O
 patients	patients	O	O
 had	had	O	O
-clinically	clinically	O	O
-significant	significant	O	O
+clinically	clinically	O	B_disease
+significant	significant	O	I_disease
 weight	weight	O	O
 change	change	O	O
 .	.	O	O

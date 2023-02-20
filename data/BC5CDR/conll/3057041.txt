@@ -10,9 +10,9 @@ and	and	O	O
 safety	safety	O	O
 trial	trial	O	O
 of	of	O	O
-azelastine	azelastine	O	O
+azelastine	azelastine	S_chemical	O
 ,	,	O	O
-chlorpheniramine	chlorpheniramine	O	O
+chlorpheniramine	chlorpheniramine	S_chemical	O
 ,	,	O	O
 and	and	O	O
 placebo	placebo	O	O
@@ -21,11 +21,11 @@ the	the	O	O
 treatment	treatment	O	O
 of	of	O	O
 spring	spring	O	O
-allergic	allergic	O	O
-rhinitis	rhinitis	O	O
+allergic	allergic	O	B_disease
+rhinitis	rhinitis	O	I_disease
 .	.	O	O
 
-Azelastine	azelastine	O	O
+Azelastine	azelastine	S_chemical	O
 ,	,	O	O
 a	a	O	O
 novel	novel	O	O
@@ -35,8 +35,8 @@ medication	medication	O	O
 was	was	O	O
 compared	compared	O	O
 with	with	O	O
-chlorpheniramine	chlorpheniramine	O	O
-maleate	maleate	O	O
+chlorpheniramine	chlorpheniramine	B_chemical	O
+maleate	maleate	I_chemical	O
 and	and	O	O
 placebo	placebo	O	O
 for	for	O	O
@@ -48,8 +48,8 @@ the	the	O	O
 treatment	treatment	O	O
 of	of	O	O
 spring	spring	O	O
-allergic	allergic	O	O
-rhinitis	rhinitis	O	O
+allergic	allergic	O	B_disease
+rhinitis	rhinitis	O	I_disease
 in	in	O	O
 a	a	O	O
 multicenter	multicenter	O	O
@@ -89,8 +89,8 @@ a	a	O	O
 history	history	O	O
 of	of	O	O
 spring	spring	O	O
-allergic	allergic	O	O
-rhinitis	rhinitis	O	O
+allergic	allergic	O	B_disease
+rhinitis	rhinitis	O	I_disease
 ,	,	O	O
 confirmed	confirmed	O	O
 by	by	O	O
@@ -110,7 +110,7 @@ times	times	O	O
 daily	daily	O	O
 ;	;	O	O
 the	the	O	O
-azelastine	azelastine	O	O
+azelastine	azelastine	S_chemical	O
 groups	groups	O	O
 received	received	O	O
 0.5	0.5	O	O
@@ -131,11 +131,11 @@ in	in	O	O
 the	the	O	O
 early	early	O	O
 and	and	O	O
-late	late	O	O
-afternoon	afternoon	O	O
+late	late	B_chemical	O
+afternoon	afternoon	I_chemical	O
 ;	;	O	O
 the	the	O	O
-chlorpheniramine	chlorpheniramine	O	O
+chlorpheniramine	chlorpheniramine	S_chemical	O
 group	group	O	O
 received	received	O	O
 4.0	4.0	O	O
@@ -175,8 +175,8 @@ medications	medications	O	O
 Individual	individual	O	O
 symptoms	symptoms	O	O
 ,	,	O	O
-total	total	O	O
-symptoms	symptoms	O	O
+total	total	O	B_disease
+symptoms	symptoms	O	I_disease
 ,	,	O	O
 and	and	O	O
 major	major	O	O
@@ -250,7 +250,7 @@ the	the	O	O
 highest	highest	O	O
 concentration	concentration	O	O
 of	of	O	O
-azelastine	azelastine	O	O
+azelastine	azelastine	S_chemical	O
 (	(	O	O
 2.0	2.0	O	O
 mg	mg	O	O
@@ -276,7 +276,7 @@ study	study	O	O
 Lower	lower	O	O
 doses	doses	O	O
 of	of	O	O
-azelastine	azelastine	O	O
+azelastine	azelastine	S_chemical	O
 were	were	O	O
 statistically	statistically	O	O
 more	more	O	O
@@ -301,7 +301,7 @@ contrast	contrast	O	O
 ,	,	O	O
 although	although	O	O
 the	the	O	O
-chlorpheniramine	chlorpheniramine	O	O
+chlorpheniramine	chlorpheniramine	S_chemical	O
 group	group	O	O
 did	did	O	O
 have	have	O	O
@@ -333,8 +333,8 @@ There	there	O	O
 were	were	O	O
 no	no	O	O
 serious	serious	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 in	in	O	O
 any	any	O	O
 of	of	O	O
@@ -357,11 +357,11 @@ only	only	O	O
 in	in	O	O
 the	the	O	O
 high-dose	high-dose	O	O
-azelastine	azelastine	O	O
+azelastine	azelastine	S_chemical	O
 group	group	O	O
 .	.	O	O
 
-Azelastine	azelastine	O	O
+Azelastine	azelastine	S_chemical	O
 appears	appears	O	O
 to	to	O	O
 be	be	O	O
@@ -372,7 +372,7 @@ efficacious	efficacious	O	O
 medication	medication	O	O
 for	for	O	O
 seasonal	seasonal	O	O
-allergic	allergic	O	O
-rhinitis	rhinitis	O	O
+allergic	allergic	O	B_disease
+rhinitis	rhinitis	O	I_disease
 .	.	O	O
 

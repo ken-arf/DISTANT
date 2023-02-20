@@ -1,7 +1,7 @@
 Case	case	O	O
 report	report	O	O
 :	:	O	O
-pentamidine	pentamidine	O	O
+pentamidine	pentamidine	S_chemical	O
 and	and	O	O
 polymorphic	polymorphic	O	O
 ventricular	ventricular	O	B_disease
@@ -9,19 +9,19 @@ tachycardia	tachycardia	O	S_disease
 revisited	revisited	O	O
 .	.	O	O
 
-Pentamidine	pentamidine	O	O
-isethionate	isethionate	O	O
+Pentamidine	pentamidine	S_chemical	O
+isethionate	isethionate	S_chemical	O
 has	has	O	O
 been	been	O	O
-associated	associated	O	O
-with	with	O	O
-ventricular	ventricular	O	O
-tachyarrhythmias	tachyarrhythmias	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+ventricular	ventricular	O	B_disease
+tachyarrhythmias	tachyarrhythmias	O	S_disease
 ,	,	O	O
 including	including	O	O
-torsade	torsade	O	B_disease
-de	de	O	I_disease
-pointes	pointes	O	I_disease
+torsade	torsade	B_chemical	B_disease
+de	de	I_chemical	I_disease
+pointes	pointes	I_chemical	I_disease
 .	.	O	O
 
 This	this	O	O
@@ -42,9 +42,9 @@ date	date	O	O
 .	.	O	O
 
 Pentamidine-induced	pentamidine-induced	O	O
-torsade	torsade	O	B_disease
-de	de	O	I_disease
-pointes	pointes	O	I_disease
+torsade	torsade	B_chemical	B_disease
+de	de	I_chemical	I_disease
+pointes	pointes	I_chemical	I_disease
 may	may	O	O
 be	be	O	O
 related	related	O	O
@@ -53,16 +53,16 @@ serum	serum	O	O
 magnesium	magnesium	S_chemical	O
 levels	levels	O	O
 and	and	O	O
-hypomagnesemia	hypomagnesemia	O	O
+hypomagnesemia	hypomagnesemia	O	S_disease
 may	may	O	O
 synergistically	synergistically	O	O
 induce	induce	O	O
-torsade	torsade	O	O
+torsade	torsade	S_chemical	O
 .	.	O	O
 
-Torsade	torsade	O	B_disease
-de	de	O	I_disease
-pointes	pointes	O	I_disease
+Torsade	torsade	B_chemical	B_disease
+de	de	I_chemical	I_disease
+pointes	pointes	I_chemical	I_disease
 occurred	occurred	O	O
 after	after	O	O
 an	an	O	O
@@ -73,7 +73,7 @@ days	days	O	O
 of	of	O	O
 treatment	treatment	O	O
 with	with	O	O
-pentamidine	pentamidine	O	O
+pentamidine	pentamidine	S_chemical	O
 .	.	O	O
 
 In	in	O	O
@@ -83,17 +83,17 @@ patients	patients	O	O
 no	no	O	O
 other	other	O	O
 acute	acute	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
-pentamidine	pentamidine	O	O
+pentamidine	pentamidine	S_chemical	O
 were	were	O	O
 observed	observed	O	O
 .	.	O	O
 
-Torsade	torsade	O	B_disease
-de	de	O	I_disease
-pointes	pointes	O	I_disease
+Torsade	torsade	B_chemical	B_disease
+de	de	I_chemical	I_disease
+pointes	pointes	I_chemical	I_disease
 can	can	O	O
 be	be	O	O
 treated	treated	O	O
@@ -105,7 +105,7 @@ possibly	possibly	O	O
 without	without	O	O
 discontinuation	discontinuation	O	O
 of	of	O	O
-pentamidine	pentamidine	O	O
+pentamidine	pentamidine	S_chemical	O
 .	.	O	O
 
 When	when	O	O

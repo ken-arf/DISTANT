@@ -12,8 +12,8 @@ Rhabdomyolysis	rhabdomyolysis	O	S_disease
 is	is	O	O
 a	a	O	O
 potentially	potentially	O	O
-lethal	lethal	O	O
-syndrome	syndrome	O	O
+lethal	lethal	O	B_disease
+syndrome	syndrome	O	I_disease
 that	that	O	O
 psychiatric	psychiatric	O	S_disease
 patients	patients	O	O

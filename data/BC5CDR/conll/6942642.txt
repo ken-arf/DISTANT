@@ -49,7 +49,7 @@ renin	renin	O	O
 )	)	O	O
 with	with	O	O
 moderate	moderate	O	O
-diastolic	diastolic	O	O
+diastolic	diastolic	O	B_disease
 hypertension	hypertension	O	S_disease
 with	with	O	O
 hydrochlorothiazide	hydrochlorothiazide	O	O
@@ -116,7 +116,7 @@ on	on	O	O
 and	and	O	O
 200	200	O	O
 mg	mg	O	O
-HCTZ	hctz	O	O
+HCTZ	hctz	S_chemical	O
 daily	daily	O	O
 3.9	3.9	O	O
 +	+	O	O
@@ -188,7 +188,7 @@ observed	observed	O	O
 the	the	O	O
 effects	effects	O	O
 of	of	O	O
-HCTZ	hctz	O	O
+HCTZ	hctz	S_chemical	O
 therapy	therapy	O	O
 (	(	O	O
 100	100	O	O
@@ -248,7 +248,7 @@ respectively	respectively	O	O
 Corresponding	corresponding	O	O
 figures	figures	O	O
 during	during	O	O
-HCTZ	hctz	O	O
+HCTZ	hctz	S_chemical	O
 therapy	therapy	O	O
 100	100	O	O
 mg	mg	O	O

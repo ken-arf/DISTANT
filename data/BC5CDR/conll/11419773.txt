@@ -1,5 +1,5 @@
 Caffeine-induced	caffeine-induced	O	O
-cardiac	cardiac	O	O
+cardiac	cardiac	O	B_disease
 arrhythmia	arrhythmia	O	S_disease
 :	:	O	O
 an	an	O	O

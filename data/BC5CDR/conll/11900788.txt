@@ -54,7 +54,7 @@ atropine	atropine	S_chemical	O
 ,	,	O	O
 naloxone	naloxone	S_chemical	O
 ,	,	O	O
-mecamylamine	mecamylamine	O	O
+mecamylamine	mecamylamine	S_chemical	O
 ,	,	O	O
 and	and	O	O
 hexamethonium	hexamethonium	S_chemical	O
@@ -126,7 +126,7 @@ can	can	O	O
 be	be	O	O
 elicited	elicited	O	O
 by	by	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 and	and	O	O
 cholinergic	cholinergic	O	O
 receptors	receptors	O	O

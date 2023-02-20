@@ -19,17 +19,17 @@ potent	potent	O	O
 antagonist	antagonist	O	O
 of	of	O	O
 both	both	O	O
-serotonergic	serotonergic	O	O
+serotonergic	serotonergic	S_chemical	O
 (	(	O	O
 5HT2A	5ht2a	O	O
 )	)	O	O
 and	and	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 D2	d2	O	O
 receptors	receptors	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 hyperprolactinemia	hyperprolactinemia	O	S_disease
 in	in	O	O
 adults	adults	O	O
@@ -44,11 +44,11 @@ levels	levels	O	O
 in	in	O	O
 children	children	O	O
 with	with	O	O
-prolactinomas	prolactinomas	O	O
+prolactinomas	prolactinomas	O	S_disease
 may	may	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 arrested	arrested	O	O
 growth	growth	O	O
 and	and	O	O
@@ -91,7 +91,7 @@ of	of	O	O
 risperidone-induced	risperidone-induced	O	O
 hyperprolactinemia	hyperprolactinemia	O	S_disease
 with	with	O	O
-cabergoline	cabergoline	O	O
+cabergoline	cabergoline	S_chemical	O
 in	in	O	O
 youth	youth	O	O
 .	.	O	O
@@ -112,7 +112,7 @@ risperidone-induced	risperidone-induced	O	O
 hyperprolactinemia	hyperprolactinemia	O	S_disease
 treated	treated	O	O
 with	with	O	O
-cabergoline	cabergoline	O	O
+cabergoline	cabergoline	S_chemical	O
 .	.	O	O
 
 RESULTS	results	O	O
@@ -147,8 +147,8 @@ with	with	O	O
 risperidone-induced	risperidone-induced	O	O
 elevations	elevations	O	O
 in	in	O	O
-serum	serum	O	O
-prolactin	prolactin	O	O
+serum	serum	B_chemical	O
+prolactin	prolactin	I_chemical	O
 levels	levels	O	O
 (	(	O	O
 57.5	57.5	O	O
@@ -166,7 +166,7 @@ ng/mL	ng/ml	O	O
 were	were	O	O
 treated	treated	O	O
 with	with	O	O
-cabergoline	cabergoline	O	O
+cabergoline	cabergoline	S_chemical	O
 (	(	O	O
 mean	mean	O	O
 dose	dose	O	O
@@ -179,8 +179,8 @@ mg/week	mg/week	O	O
 .	.	O	O
 
 When	when	O	O
-serum	serum	O	O
-prolactin	prolactin	O	O
+serum	serum	B_chemical	O
+prolactin	prolactin	I_chemical	O
 levels	levels	O	O
 normalized	normalized	O	O
 in	in	O	O
@@ -197,7 +197,7 @@ ng/mL	ng/ml	O	O
 )	)	O	O
 ,	,	O	O
 the	the	O	O
-cabergoline	cabergoline	O	O
+cabergoline	cabergoline	S_chemical	O
 dose	dose	O	O
 was	was	O	O
 reduced	reduced	O	O
@@ -217,7 +217,7 @@ duration	duration	O	O
 of	of	O	O
 therapy	therapy	O	O
 with	with	O	O
-cabergoline	cabergoline	O	O
+cabergoline	cabergoline	S_chemical	O
 was	was	O	O
 523.5	523.5	O	O
 +	+	O	O
@@ -241,18 +241,18 @@ was	was	O	O
 days	days	O	O
 .	.	O	O
 
-Cabergoline	cabergoline	O	O
+Cabergoline	cabergoline	S_chemical	O
 was	was	O	O
 well	well	O	O
 tolerated	tolerated	O	O
 without	without	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 
 CONCLUSIONS	conclusions	O	O
 :	:	O	O
-Cabergoline	cabergoline	O	O
+Cabergoline	cabergoline	S_chemical	O
 may	may	O	O
 be	be	O	O
 useful	useful	O	O

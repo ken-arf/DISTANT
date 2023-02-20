@@ -1,4 +1,4 @@
-Urinary	urinary	O	O
+Urinary	urinary	O	B_disease
 bladder	bladder	O	B_disease
 cancer	cancer	O	S_disease
 in	in	O	O
@@ -229,8 +229,8 @@ than	than	O	O
 1	1	O	O
 year	year	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 an	an	O	O
 eightfold	eightfold	O	O
 increased	increased	O	O

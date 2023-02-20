@@ -2,7 +2,7 @@ Causes	causes	O	O
 of	of	O	O
 acute	acute	O	O
 thrombotic	thrombotic	O	B_disease
-microangiopathy	microangiopathy	O	I_disease
+microangiopathy	microangiopathy	O	S_disease
 in	in	O	O
 patients	patients	O	O
 receiving	receiving	O	O
@@ -13,7 +13,7 @@ transplantation	transplantation	O	O
 OBJECTIVES	objectives	O	O
 :	:	O	O
 Thrombotic	thrombotic	O	B_disease
-microangiopathy	microangiopathy	O	I_disease
+microangiopathy	microangiopathy	O	S_disease
 is	is	O	O
 a	a	O	O
 well-known	well-known	O	O
@@ -30,7 +30,7 @@ postrenal	postrenal	O	O
 transplantation	transplantation	O	O
 ,	,	O	O
 thrombotic	thrombotic	O	B_disease
-microangiopathy	microangiopathy	O	I_disease
+microangiopathy	microangiopathy	O	S_disease
 is	is	O	O
 often	often	O	O
 a	a	O	O
@@ -49,7 +49,7 @@ the	the	O	O
 causes	causes	O	O
 of	of	O	O
 thrombotic	thrombotic	O	B_disease
-microangiopathy	microangiopathy	O	I_disease
+microangiopathy	microangiopathy	O	S_disease
 in	in	O	O
 a	a	O	O
 population	population	O	O
@@ -73,7 +73,7 @@ the	the	O	O
 causes	causes	O	O
 of	of	O	O
 thrombotic	thrombotic	O	B_disease
-microangiopathy	microangiopathy	O	I_disease
+microangiopathy	microangiopathy	O	S_disease
 during	during	O	O
 a	a	O	O
 1-year	1-year	O	O
@@ -132,7 +132,7 @@ Five	five	O	O
 cases	cases	O	O
 of	of	O	O
 thrombotic	thrombotic	O	B_disease
-microangiopathy	microangiopathy	O	I_disease
+microangiopathy	microangiopathy	O	S_disease
 were	were	O	O
 found	found	O	O
 .	.	O	O
@@ -198,7 +198,7 @@ had	had	O	O
 features	features	O	O
 of	of	O	O
 thrombotic	thrombotic	O	B_disease
-microangiopathy	microangiopathy	O	I_disease
+microangiopathy	microangiopathy	O	S_disease
 related	related	O	O
 to	to	O	O
 an	an	O	O
@@ -209,8 +209,8 @@ a	a	O	O
 patient	patient	O	O
 with	with	O	O
 systemic	systemic	O	O
-lupus	lupus	O	O
-erythematosus	erythematosus	O	O
+lupus	lupus	O	B_disease
+erythematosus	erythematosus	O	I_disease
 .	.	O	O
 
 CONCLUSIONS	conclusions	O	O
@@ -267,7 +267,7 @@ most-frequent	most-frequent	O	O
 cause	cause	O	O
 of	of	O	O
 thrombotic	thrombotic	O	B_disease
-microangiopathy	microangiopathy	O	I_disease
+microangiopathy	microangiopathy	O	S_disease
 was	was	O	O
 drug	drug	O	O
 related	related	O	O
@@ -287,7 +287,7 @@ the	the	O	O
 frequency	frequency	O	O
 of	of	O	O
 thrombotic	thrombotic	O	B_disease
-microangiopathy	microangiopathy	O	I_disease
+microangiopathy	microangiopathy	O	S_disease
 was	was	O	O
 similar	similar	O	O
 to	to	O	O

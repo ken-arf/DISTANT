@@ -7,8 +7,8 @@ transplantation	transplantation	O	O
 .	.	O	O
 
 Abstract	abstract	O	O
-Serum	serum	O	O
-aminotransferase	aminotransferase	O	O
+Serum	serum	B_chemical	O
+aminotransferase	aminotransferase	I_chemical	O
 elevations	elevations	O	O
 are	are	O	O
 a	a	O	O
@@ -38,12 +38,12 @@ been	been	O	O
 widely	widely	O	O
 published	published	O	O
 with	with	O	O
-ezetimibe	ezetimibe	O	O
+ezetimibe	ezetimibe	S_chemical	O
 or	or	O	O
 the	the	O	O
 combination	combination	O	O
 agent	agent	O	O
-simvastatin-ezetimibe	simvastatin-ezetimibe	O	O
+simvastatin-ezetimibe	simvastatin-ezetimibe	S_chemical	O
 .	.	O	O
 
 We	we	O	O
@@ -108,14 +108,14 @@ after	after	O	O
 conversion	conversion	O	O
 revealed	revealed	O	O
 elevated	elevated	O	O
-serum	serum	O	O
-aminotransferase	aminotransferase	O	O
+serum	serum	B_chemical	O
+aminotransferase	aminotransferase	I_chemical	O
 levels	levels	O	O
 .	.	O	O
 
-Simvastatinezetimibe	simvastatinezetimibe	O	O
+Simvastatinezetimibe	simvastatinezetimibe	S_chemical	O
 and	and	O	O
-escitalopram	escitalopram	O	O
+escitalopram	escitalopram	S_chemical	O
 (	(	O	O
 which	which	O	O
 she	she	O	O
@@ -186,11 +186,11 @@ her	her	O	O
 follow-up	follow-up	O	O
 showed	showed	O	O
 no	no	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 .	.	O	O
 
-Ezetimibe	ezetimibe	O	O
+Ezetimibe	ezetimibe	S_chemical	O
 undergoes	undergoes	O	O
 extensive	extensive	O	O
 glucuronidation	glucuronidation	O	O
@@ -199,7 +199,7 @@ uridine	uridine	B_chemical	O
 diphosphate	diphosphate	I_chemical	O
 glucoronosyltransferases	glucoronosyltransferases	O	O
 (	(	O	O
-UGT	ugt	O	O
+UGT	ugt	S_chemical	O
 )	)	O	O
 in	in	O	O
 the	the	O	O
@@ -213,9 +213,9 @@ inhibited	inhibited	O	O
 the	the	O	O
 glucuronidation	glucuronidation	O	O
 of	of	O	O
-simvastatin	simvastatin	S_chemical	O
-hydroxy	hydroxy	O	O
-acid	acid	O	O
+simvastatin	simvastatin	B_chemical	O
+hydroxy	hydroxy	I_chemical	O
+acid	acid	I_chemical	O
 ,	,	O	O
 resulting	resulting	O	O
 in	in	O	O
@@ -263,10 +263,10 @@ increased	increased	O	O
 simvastatin	simvastatin	S_chemical	O
 exposure	exposure	O	O
 by	by	O	O
-ezetimibe	ezetimibe	O	O
+ezetimibe	ezetimibe	S_chemical	O
 inhibition	inhibition	O	O
 of	of	O	O
-UGT	ugt	O	O
+UGT	ugt	S_chemical	O
 enzymes	enzymes	O	O
 .	.	O	O
 
@@ -278,7 +278,7 @@ of	of	O	O
 potential	potential	O	O
 hepatotoxicity	hepatotoxicity	O	S_disease
 with	with	O	O
-simvastatin-ezetimibe	simvastatin-ezetimibe	O	O
+simvastatin-ezetimibe	simvastatin-ezetimibe	S_chemical	O
 especially	especially	O	O
 in	in	O	O
 elderly	elderly	O	O
@@ -287,8 +287,8 @@ and	and	O	O
 should	should	O	O
 carefully	carefully	O	O
 monitor	monitor	O	O
-serum	serum	O	O
-aminotransferase	aminotransferase	O	O
+serum	serum	B_chemical	O
+aminotransferase	aminotransferase	I_chemical	O
 levels	levels	O	O
 when	when	O	O
 starting	starting	O	O

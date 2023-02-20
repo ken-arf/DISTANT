@@ -128,8 +128,8 @@ the	the	O	O
 resulting	resulting	O	O
 inner	inner	O	O
 medullary	medullary	O	O
-structural	structural	O	O
-damage	damage	O	O
+structural	structural	O	B_disease
+damage	damage	O	I_disease
 .	.	O	O
 
 During	during	O	O
@@ -207,8 +207,8 @@ the	the	O	O
 early	early	O	O
 stages	stages	O	O
 of	of	O	O
-structural	structural	O	O
-damage	damage	O	O
+structural	structural	O	B_disease
+damage	damage	O	I_disease
 to	to	O	O
 the	the	O	O
 inner	inner	O	O

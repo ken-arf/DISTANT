@@ -17,7 +17,7 @@ MK-801	mk-801	S_chemical	O
 ,	,	O	O
 a	a	O	O
 noncompetitive	noncompetitive	O	O
-N-methyl-D-aspartate	n-methyl-d-aspartate	O	O
+N-methyl-D-aspartate	n-methyl-d-aspartate	S_chemical	O
 (	(	O	O
 NMDA	nmda	S_chemical	O
 )	)	O	O
@@ -39,8 +39,8 @@ This	this	O	O
 study	study	O	O
 focuses	focuses	O	O
 on	on	O	O
-behavioral	behavioral	O	O
-syndromes	syndromes	O	O
+behavioral	behavioral	O	B_disease
+syndromes	syndromes	O	I_disease
 that	that	O	O
 may	may	O	O
 used	used	O	O
@@ -84,8 +84,8 @@ in	in	O	O
 orofacial	orofacial	O	O
 dyskinesia	dyskinesia	O	S_disease
 ,	,	O	O
-tongue	tongue	O	O
-protrusion	protrusion	O	O
+tongue	tongue	O	B_disease
+protrusion	protrusion	O	I_disease
 and	and	O	O
 vacuous	vacuous	O	O
 chewing	chewing	O	O
@@ -177,7 +177,7 @@ test	test	O	O
 and	and	O	O
 followed	followed	O	O
 by	by	O	O
-apomophine	apomophine	O	O
+apomophine	apomophine	S_chemical	O
 injection	injection	O	O
 (	(	O	O
 0.1	0.1	O	O
@@ -252,8 +252,8 @@ vacuous	vacuous	O	O
 chewing	chewing	O	O
 movements	movements	O	O
 and	and	O	O
-tongue	tongue	O	O
-protrusion	protrusion	O	O
+tongue	tongue	O	B_disease
+protrusion	protrusion	O	I_disease
 ,	,	O	O
 as	as	O	O
 well	well	O	O

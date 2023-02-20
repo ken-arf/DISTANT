@@ -4,7 +4,7 @@ direct	direct	O	O
 intracoronary	intracoronary	O	O
 administration	administration	O	O
 of	of	O	O
-methylergonovine	methylergonovine	O	O
+methylergonovine	methylergonovine	S_chemical	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
@@ -20,7 +20,7 @@ of	of	O	O
 intracoronary	intracoronary	O	O
 administration	administration	O	O
 of	of	O	O
-methylergonovine	methylergonovine	O	O
+methylergonovine	methylergonovine	S_chemical	O
 were	were	O	O
 studied	studied	O	O
 in	in	O	O
@@ -48,7 +48,7 @@ group	group	O	O
 )	)	O	O
 .	.	O	O
 
-Methylergonovine	methylergonovine	O	O
+Methylergonovine	methylergonovine	S_chemical	O
 was	was	O	O
 administered	administered	O	O
 continuously	continuously	O	O
@@ -112,9 +112,9 @@ basal	basal	O	O
 tone	tone	O	O
 of	of	O	O
 the	the	O	O
-right	right	O	O
-coronary	coronary	O	O
-artery	artery	O	O
+right	right	O	B_disease
+coronary	coronary	O	B_disease
+artery	artery	O	I_disease
 was	was	O	O
 significantly	significantly	O	O
 lower	lower	O	O
@@ -123,8 +123,8 @@ that	that	O	O
 of	of	O	O
 the	the	O	O
 left	left	O	O
-coronary	coronary	O	O
-artery	artery	O	O
+coronary	coronary	O	B_disease
+artery	artery	O	I_disease
 .	.	O	O
 
 The	the	O	O
@@ -133,9 +133,9 @@ of	of	O	O
 vasoconstriction	vasoconstriction	O	O
 of	of	O	O
 the	the	O	O
-right	right	O	O
-coronary	coronary	O	O
-artery	artery	O	O
+right	right	O	B_disease
+coronary	coronary	O	B_disease
+artery	artery	O	I_disease
 was	was	O	O
 significantly	significantly	O	O
 higher	higher	O	O
@@ -144,8 +144,8 @@ that	that	O	O
 of	of	O	O
 the	the	O	O
 left	left	O	O
-coronary	coronary	O	O
-artery	artery	O	O
+coronary	coronary	O	B_disease
+artery	artery	O	I_disease
 .	.	O	O
 
 These	these	O	O
@@ -167,7 +167,7 @@ relatively	relatively	O	O
 low	low	O	O
 dose	dose	O	O
 of	of	O	O
-methylergonovine	methylergonovine	O	O
+methylergonovine	methylergonovine	S_chemical	O
 ,	,	O	O
 have	have	O	O
 a	a	O	O
@@ -178,12 +178,12 @@ variant	variant	O	B_disease
 angina	angina	O	I_disease
 and	and	O	O
 the	the	O	O
-vasoreactivity	vasoreactivity	O	O
+vasoreactivity	vasoreactivity	O	S_disease
 of	of	O	O
 the	the	O	O
-right	right	O	O
-coronary	coronary	O	O
-artery	artery	O	O
+right	right	O	B_disease
+coronary	coronary	O	B_disease
+artery	artery	O	I_disease
 may	may	O	O
 be	be	O	O
 greater	greater	O	O
@@ -192,7 +192,7 @@ that	that	O	O
 of	of	O	O
 the	the	O	O
 other	other	O	O
-coronary	coronary	O	O
-arteries	arteries	O	O
+coronary	coronary	O	B_disease
+arteries	arteries	O	I_disease
 .	.	O	O
 

@@ -98,7 +98,7 @@ efficacy	efficacy	O	O
 with	with	O	O
 reductions	reductions	O	O
 in	in	O	O
-total	total	O	O
+total	total	B_chemical	O
 cholesterol	cholesterol	S_chemical	O
 of	of	O	O
 over	over	O	O
@@ -106,7 +106,7 @@ over	over	O	O
 %	%	O	O
 and	and	O	O
 in	in	O	O
-LDL-cholesterol	ldl-cholesterol	O	O
+LDL-cholesterol	ldl-cholesterol	S_chemical	O
 of	of	O	O
 40	40	O	O
 %	%	O	O
@@ -182,7 +182,7 @@ to	to	O	O
 2	2	O	O
 years	years	O	O
 )	)	O	O
-cataractogenic	cataractogenic	O	O
+cataractogenic	cataractogenic	O	S_disease
 potential	potential	O	O
 .	.	O	O
 
@@ -268,7 +268,7 @@ patients	patients	O	O
 concomitantly	concomitantly	O	O
 treated	treated	O	O
 with	with	O	O
-cyclosporin	cyclosporin	O	O
+cyclosporin	cyclosporin	S_chemical	O
 ,	,	O	O
 gemfibrozil	gemfibrozil	O	O
 or	or	O	O
@@ -289,7 +289,7 @@ lowering	lowering	O	O
 elevated	elevated	O	O
 levels	levels	O	O
 of	of	O	O
-serum	serum	O	O
+serum	serum	B_chemical	O
 cholesterol	cholesterol	S_chemical	O
 .	.	O	O
 
@@ -311,7 +311,7 @@ the	the	O	O
 therapeutic	therapeutic	O	O
 approach	approach	O	O
 to	to	O	O
-hypercholesterolaemia	hypercholesterolaemia	O	O
+hypercholesterolaemia	hypercholesterolaemia	O	S_disease
 and	and	O	O
 its	its	O	O
 consequences	consequences	O	O

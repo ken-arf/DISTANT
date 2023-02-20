@@ -69,8 +69,8 @@ i.e.	i.e.	O	O
 ,	,	O	O
 myocardial	myocardial	O	O
 and	and	O	O
-kidney	kidney	O	O
-injury	injury	O	O
+kidney	kidney	O	B_disease
+injury	injury	O	I_disease
 )	)	O	O
 were	were	O	O
 evaluated	evaluated	O	O
@@ -101,8 +101,8 @@ antitumor	antitumor	O	O
 activity	activity	O	O
 and	and	O	O
 toxic	toxic	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 
 The	the	O	O
@@ -144,8 +144,8 @@ on	on	O	O
 morphological	morphological	O	O
 cardiac	cardiac	O	O
 and	and	O	O
-renal	renal	O	O
-lesions	lesions	O	O
+renal	renal	O	B_disease
+lesions	lesions	O	I_disease
 )	)	O	O
 varied	varied	O	O
 between	between	O	O

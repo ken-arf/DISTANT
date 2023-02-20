@@ -118,7 +118,7 @@ mg/m2/d	mg/m2/d	O	O
 three	three	O	O
 patients	patients	O	O
 experienced	experienced	O	O
-nonurologic	nonurologic	O	O
+nonurologic	nonurologic	O	S_disease
 toxicity	toxicity	O	S_disease
 ;	;	O	O
 confusion	confusion	O	S_disease

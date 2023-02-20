@@ -1,9 +1,9 @@
 Methimazole-induced	methimazole-induced	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 jaundice	jaundice	O	S_disease
 .	.	O	O
 
-Methimazole	methimazole	O	O
+Methimazole	methimazole	S_chemical	O
 is	is	O	O
 a	a	O	O
 widely	widely	O	O
@@ -27,7 +27,7 @@ itching	itching	O	O
 month	month	O	O
 after	after	O	O
 receiving	receiving	O	O
-methimazole	methimazole	O	O
+methimazole	methimazole	S_chemical	O
 (	(	O	O
 10	10	O	O
 mg	mg	O	O
@@ -126,7 +126,7 @@ after	after	O	O
 12	12	O	O
 weeks	weeks	O	O
 without	without	O	O
-methimazole	methimazole	O	O
+methimazole	methimazole	S_chemical	O
 .	.	O	O
 
 In	in	O	O
@@ -147,7 +147,7 @@ cause	cause	O	O
 severe	severe	O	O
 and	and	O	O
 reversible	reversible	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 jaundice	jaundice	O	S_disease
 .	.	O	O
 
@@ -170,7 +170,7 @@ occurrence	occurrence	O	O
 they	they	O	O
 can	can	O	O
 discontinue	discontinue	O	O
-methimazole	methimazole	O	O
+methimazole	methimazole	S_chemical	O
 therapy	therapy	O	O
 and	and	O	O
 avoid	avoid	O	O

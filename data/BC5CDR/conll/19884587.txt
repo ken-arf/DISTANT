@@ -160,8 +160,8 @@ month	month	O	O
 
 Sulfonamides	sulfonamides	O	O
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 anencephaly	anencephaly	O	S_disease
 (	(	O	O
 adjusted	adjusted	O	O
@@ -186,7 +186,7 @@ CI	ci	O	O
 )	)	O	O
 ,	,	O	O
 hypoplastic	hypoplastic	O	B_disease
-left	left	O	I_disease
+left	left	O	B_disease
 heart	heart	O	I_disease
 syndrome	syndrome	O	I_disease
 (	(	O	O
@@ -255,8 +255,8 @@ CI	ci	O	O
 )	)	O	O
 ,	,	O	O
 and	and	O	O
-diaphragmatic	diaphragmatic	O	O
-hernia	hernia	O	O
+diaphragmatic	diaphragmatic	O	B_disease
+hernia	hernia	O	I_disease
 (	(	O	O
 AOR	aor	O	O
 =	=	O	O
@@ -274,11 +274,11 @@ CI	ci	O	O
 
 Nitrofurantoins	nitrofurantoins	O	O
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
-anophthalmia	anophthalmia	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+anophthalmia	anophthalmia	O	S_disease
 or	or	O	O
-microphthalmos	microphthalmos	O	O
+microphthalmos	microphthalmos	O	S_disease
 (	(	O	O
 AOR	aor	O	O
 =	=	O	O
@@ -294,7 +294,7 @@ CI	ci	O	O
 )	)	O	O
 ,	,	O	O
 hypoplastic	hypoplastic	O	B_disease
-left	left	O	I_disease
+left	left	O	B_disease
 heart	heart	O	I_disease
 syndrome	syndrome	O	I_disease
 (	(	O	O
@@ -311,9 +311,9 @@ CI	ci	O	O
 9.1	9.1	O	O
 )	)	O	O
 ,	,	O	O
-atrial	atrial	O	O
-septal	septal	O	O
-defects	defects	O	O
+atrial	atrial	O	B_disease
+septal	septal	O	I_disease
+defects	defects	O	I_disease
 (	(	O	O
 AOR	aor	O	O
 =	=	O	O
@@ -375,7 +375,7 @@ defect	defect	O	O
 )	)	O	O
 ,	,	O	O
 and	and	O	O
-quinolones	quinolones	O	O
+quinolones	quinolones	S_chemical	O
 (	(	O	O
 1	1	O	O
 defect	defect	O	O
@@ -402,8 +402,8 @@ women	women	O	O
 ,	,	O	O
 were	were	O	O
 not	not	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 many	many	O	O
 birth	birth	O	B_disease
 defects	defects	O	I_disease
@@ -413,8 +413,8 @@ Sulfonamides	sulfonamides	O	O
 and	and	O	O
 nitrofurantoins	nitrofurantoins	O	O
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 several	several	O	O
 birth	birth	O	B_disease
 defects	defects	O	I_disease

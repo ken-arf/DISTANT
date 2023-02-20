@@ -1,0 +1,9 @@
+T1	Chemical 0 11	Gemcitabine
+T2	Chemical 17 28	vinorelbine
+T4	Chemical 123 132	cisplatin
+T7	Chemical 425 436	vinorelbine
+T8	Chemical 446 457	gemcitabine
+T13	Chemical 766 775	cisplatin
+T14	Chemical 962 971	cisplatin
+T19	Disease 1965 1978	neurotoxicity
+T23	Disease 2364 2380	myelosuppression

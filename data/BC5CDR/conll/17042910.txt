@@ -16,10 +16,10 @@ hypertension	hypertension	O	S_disease
 is	is	O	O
 characterized	characterized	O	O
 by	by	O	O
-endothelial	endothelial	O	O
-dysfunction	dysfunction	O	O
-associated	associated	O	O
-with	with	O	O
+endothelial	endothelial	O	B_disease
+dysfunction	dysfunction	O	I_disease
+associated	associated	O	B_disease
+with	with	O	I_disease
 nitric	nitric	B_chemical	O
 oxide	oxide	I_chemical	O
 (	(	O	O
@@ -89,7 +89,7 @@ endothelial	endothelial	O	O
 NO	no	O	O
 synthase	synthase	O	O
 (	(	O	O
-eNOS	enos	O	O
+eNOS	enos	S_chemical	S_disease
 )	)	O	O
 downregulation	downregulation	O	O
 and	and	O	O
@@ -205,7 +205,7 @@ segments	segments	O	O
 .	.	O	O
 
 Vascular	vascular	O	O
-eNOS	enos	O	O
+eNOS	enos	S_chemical	S_disease
 mRNA	mrna	O	O
 was	was	O	O
 assessed	assessed	O	O
@@ -313,7 +313,7 @@ P	p	O	O
 Endothelial-dependent	endothelial-dependent	O	O
 relaxation	relaxation	O	O
 and	and	O	O
-eNOS	enos	O	O
+eNOS	enos	S_chemical	S_disease
 mRNA	mrna	O	O
 expression	expression	O	O
 were	were	O	O

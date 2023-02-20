@@ -1,0 +1,29 @@
+T1	Disease 27 50	extrapyramidal symptoms
+T2	Chemical 62 72	quetiapine
+T3	Disease 112 125	bipolar mania
+T4	Disease 150 173	extrapyramidal symptoms
+T5	Disease 191 200	akathisia
+T6	Chemical 207 217	quetiapine
+T7	Disease 235 248	bipolar mania
+T8	Chemical 379 389	quetiapine
+T11	Chemical 550 560	quetiapine
+T13	Disease 732 746	Extrapyramidal
+T14	Disease 819 828	Akathisia
+T15	Disease 850 863	adverse event
+T16	Disease 942 956	adverse events
+T17	Disease 968 977	akathisia
+T18	Chemical 1001 1011	quetiapine
+T19	Disease 1173 1187	Adverse events
+T22	Disease 1360 1374	adverse events
+T23	Disease 1408 1417	akathisia
+T24	Chemical 1443 1453	quetiapine
+T27	Chemical 1642 1652	quetiapine
+T28	Disease 1661 1678	cerebellar tremor
+T33	Disease 1883 1892	akathisia
+T35	Disease 1946 1969	extrapyramidal syndrome
+T36	Chemical 1995 2005	quetiapine
+T37	Chemical 2056 2066	quetiapine
+T39	Chemical 2148 2158	quetiapine
+T40	Disease 2187 2200	bipolar mania
+T41	Disease 2234 2243	akathisia
+T42	Chemical 2250 2260	quetiapine

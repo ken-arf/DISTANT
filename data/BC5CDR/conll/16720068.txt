@@ -70,8 +70,8 @@ the	the	O	O
 patient	patient	O	O
 exhibited	exhibited	O	O
 marked	marked	O	O
-psychomotor	psychomotor	O	O
-retardation	retardation	O	O
+psychomotor	psychomotor	O	B_disease
+retardation	retardation	O	I_disease
 ,	,	O	O
 disorientation	disorientation	O	O
 ,	,	O	O
@@ -212,9 +212,9 @@ treatment	treatment	O	O
 .	.	O	O
 
 The	the	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reaction	reaction	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reaction	reaction	O	I_disease
 score	score	O	O
 obtained	obtained	O	O
 by	by	O	O
@@ -236,8 +236,8 @@ the	the	O	O
 patient	patient	O	O
 's	's	O	O
 NMS-like	nms-like	O	O
-adverse	adverse	O	O
-symptoms	symptoms	O	O
+adverse	adverse	O	B_disease
+symptoms	symptoms	O	I_disease
 and	and	O	O
 the	the	O	O
 combined	combined	O	O

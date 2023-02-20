@@ -2,7 +2,7 @@ Topiramate-induced	topiramate-induced	O	O
 nephrolithiasis	nephrolithiasis	O	S_disease
 .	.	O	O
 
-Topiramate	topiramate	O	O
+Topiramate	topiramate	S_chemical	O
 is	is	O	O
 a	a	O	O
 recently	recently	O	O
@@ -42,8 +42,8 @@ secondary	secondary	O	O
 to	to	O	O
 inhibition	inhibition	O	O
 of	of	O	O
-carbonic	carbonic	O	O
-anhydrase	anhydrase	O	O
+carbonic	carbonic	B_chemical	O
+anhydrase	anhydrase	I_chemical	O
 .	.	O	O
 
 In	in	O	O

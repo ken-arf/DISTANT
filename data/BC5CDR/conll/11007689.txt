@@ -2,19 +2,19 @@ Cyclosporine	cyclosporine	S_chemical	O
 and	and	O	O
 tacrolimus-associated	tacrolimus-associated	O	O
 thrombotic	thrombotic	O	B_disease
-microangiopathy	microangiopathy	O	I_disease
+microangiopathy	microangiopathy	O	S_disease
 .	.	O	O
 
 The	the	O	O
 development	development	O	O
 of	of	O	O
 thrombotic	thrombotic	O	B_disease
-microangiopathy	microangiopathy	O	I_disease
+microangiopathy	microangiopathy	O	S_disease
 (	(	O	O
 TMA	tma	O	S_disease
 )	)	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 use	use	O	O
 of	of	O	O

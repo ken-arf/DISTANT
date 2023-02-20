@@ -1,7 +1,7 @@
-Hypersensitivity	hypersensitivity	O	S_disease
+Hypersensitivity	hypersensitivity	O	B_disease
 myocarditis	myocarditis	O	S_disease
 complicating	complicating	O	O
-hypertrophic	hypertrophic	O	O
+hypertrophic	hypertrophic	O	B_disease
 cardiomyopathy	cardiomyopathy	O	S_disease
 heart	heart	O	O
 .	.	O	O
@@ -13,10 +13,10 @@ describes	describes	O	O
 a	a	O	O
 case	case	O	O
 of	of	O	O
-eosinophilic	eosinophilic	O	O
+eosinophilic	eosinophilic	O	B_disease
 myocarditis	myocarditis	O	S_disease
 complicating	complicating	O	O
-hypertrophic	hypertrophic	O	O
+hypertrophic	hypertrophic	O	B_disease
 cardiomyopathy	cardiomyopathy	O	S_disease
 .	.	O	O
 
@@ -28,14 +28,14 @@ patient	patient	O	O
 known	known	O	O
 to	to	O	O
 have	have	O	O
-hypertrophic	hypertrophic	O	O
+hypertrophic	hypertrophic	O	B_disease
 cardiomyopathy	cardiomyopathy	O	S_disease
 ,	,	O	O
 was	was	O	O
 admitted	admitted	O	O
 with	with	O	O
-biventricular	biventricular	O	O
-failure	failure	O	O
+biventricular	biventricular	O	B_disease
+failure	failure	O	I_disease
 and	and	O	O
 managed	managed	O	O
 aggressively	aggressively	O	O
@@ -60,7 +60,7 @@ echocardiogram	echocardiogram	O	O
 she	she	O	O
 had	had	O	O
 moderate	moderate	O	O
-left	left	O	O
+left	left	O	B_disease
 ventricular	ventricular	O	B_disease
 dysfunction	dysfunction	O	I_disease
 with	with	O	O
@@ -80,8 +80,8 @@ showed	showed	O	O
 the	the	O	O
 features	features	O	O
 of	of	O	O
-apical	apical	O	O
-hypertrophic	hypertrophic	O	O
+apical	apical	O	B_disease
+hypertrophic	hypertrophic	O	B_disease
 cardiomyopathy	cardiomyopathy	O	S_disease
 and	and	O	O
 myocarditis	myocarditis	O	S_disease
@@ -94,7 +94,7 @@ Myocarditis	myocarditis	O	S_disease
 is	is	O	O
 rare	rare	O	O
 and	and	O	O
-eosinophilic	eosinophilic	O	O
+eosinophilic	eosinophilic	O	B_disease
 myocarditis	myocarditis	O	S_disease
 is	is	O	O
 rarer	rarer	O	O
@@ -118,7 +118,7 @@ infusion	infusion	O	O
 therapy	therapy	O	O
 .	.	O	O
 
-Eosinophilic	eosinophilic	O	O
+Eosinophilic	eosinophilic	O	B_disease
 myocarditis	myocarditis	O	S_disease
 has	has	O	O
 been	been	O	O

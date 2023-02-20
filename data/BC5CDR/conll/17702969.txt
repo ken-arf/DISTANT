@@ -42,7 +42,7 @@ of	of	O	O
 persistent	persistent	O	O
 pulmonary	pulmonary	O	B_disease
 hypertension	hypertension	O	S_disease
-syndrome	syndrome	O	O
+syndrome	syndrome	O	I_disease
 of	of	O	O
 the	the	O	O
 newborn	newborn	O	O
@@ -92,8 +92,8 @@ muscle	muscle	O	O
 mechanical	mechanical	O	O
 properties	properties	O	O
 and	and	O	O
-cell	cell	O	O
-proliferation	proliferation	O	O
+cell	cell	O	B_disease
+proliferation	proliferation	O	I_disease
 rate	rate	O	O
 .	.	O	O
 
@@ -276,8 +276,8 @@ pulmonary	pulmonary	O	O
 arterial	arterial	O	O
 smooth	smooth	O	O
 muscle	muscle	O	O
-cell	cell	O	O
-proliferation	proliferation	O	O
+cell	cell	O	B_disease
+proliferation	proliferation	O	I_disease
 rate	rate	O	O
 was	was	O	O
 significantly	significantly	O	O
@@ -325,10 +325,10 @@ developmentally	developmentally	O	O
 regulated	regulated	O	O
 increase	increase	O	O
 in	in	O	O
-pulmonary	pulmonary	O	O
-vascular	vascular	O	O
-smooth	smooth	O	O
-muscle	muscle	O	O
-proliferation	proliferation	O	O
+pulmonary	pulmonary	O	B_disease
+vascular	vascular	O	I_disease
+smooth	smooth	O	I_disease
+muscle	muscle	O	I_disease
+proliferation	proliferation	O	I_disease
 .	.	O	O
 

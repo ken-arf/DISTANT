@@ -18,13 +18,13 @@ developed	developed	O	O
 tetany	tetany	O	S_disease
 with	with	O	O
 sudden	sudden	O	O
-respiratory	respiratory	O	O
-arrest	arrest	O	O
+respiratory	respiratory	O	B_disease
+arrest	arrest	O	I_disease
 after	after	O	O
 the	the	O	O
 infusion	infusion	O	O
 of	of	O	O
-intravenous	intravenous	O	O
+intravenous	intravenous	B_chemical	O
 diltiazem	diltiazem	S_chemical	O
 .	.	O	O
 
@@ -73,7 +73,7 @@ accompany	accompany	O	O
 the	the	O	O
 administration	administration	O	O
 of	of	O	O
-intravenous	intravenous	O	O
+intravenous	intravenous	B_chemical	O
 diltiazem	diltiazem	S_chemical	O
 and	and	O	O
 that	that	O	O

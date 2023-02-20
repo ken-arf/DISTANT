@@ -11,7 +11,7 @@ UM-272.UM-272	um-272.um-272	O	O
 (	(	O	O
 N	n	O	O
 ,	,	O	O
-N-dimethylpropranolol	n-dimethylpropranolol	O	O
+N-dimethylpropranolol	n-dimethylpropranolol	S_chemical	O
 )	)	O	O
 ,	,	O	O
 a	a	O	O
@@ -26,8 +26,8 @@ to	to	O	O
 dogs	dogs	O	O
 with	with	O	O
 ouabain-induced	ouabain-induced	O	O
-ventricular	ventricular	O	O
-tachycardias	tachycardias	O	O
+ventricular	ventricular	O	B_disease
+tachycardias	tachycardias	O	I_disease
 .	.	O	O
 
 Both	both	O	O
@@ -48,8 +48,8 @@ converted	converted	O	O
 ventricular	ventricular	O	B_disease
 tachycardia	tachycardia	O	S_disease
 to	to	O	O
-sinus	sinus	O	O
-rhythm	rhythm	O	O
+sinus	sinus	O	B_disease
+rhythm	rhythm	O	I_disease
 in	in	O	O
 all	all	O	O
 5	5	O	O

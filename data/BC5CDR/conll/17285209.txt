@@ -64,8 +64,8 @@ with	with	O	O
 abdominal	abdominal	O	B_disease
 pain	pain	O	S_disease
 ,	,	O	O
-nausea	nausea	O	S_disease
-and	and	O	O
+nausea	nausea	O	B_disease
+and	and	O	I_disease
 vomiting	vomiting	O	S_disease
 .	.	O	O
 
@@ -200,9 +200,9 @@ improvement	improvement	O	O
 in	in	O	O
 stomach	stomach	O	O
 and	and	O	O
-small	small	O	O
-bowel	bowel	O	O
-thickening	thickening	O	O
+small	small	O	B_disease
+bowel	bowel	O	I_disease
+thickening	thickening	O	I_disease
 and	and	O	O
 resolution	resolution	O	O
 of	of	O	O

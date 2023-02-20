@@ -1,5 +1,5 @@
 Ciprofloxacin-induced	ciprofloxacin-induced	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 interstitial	interstitial	O	B_disease
 nephritis	nephritis	O	I_disease
 and	and	O	O
@@ -11,11 +11,11 @@ anemia	anemia	O	S_disease
 Ciprofloxacin	ciprofloxacin	S_chemical	O
 has	has	O	O
 been	been	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 several	several	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 including	including	O	O
 interstitial	interstitial	O	B_disease
 nephritis	nephritis	O	I_disease
@@ -28,8 +28,8 @@ The	the	O	O
 combination	combination	O	O
 of	of	O	O
 both	both	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 is	is	O	O
 extremely	extremely	O	O
 rare	rare	O	O
@@ -69,7 +69,7 @@ therapy	therapy	O	O
 
 Unfortunately	unfortunately	O	O
 ,	,	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 interstitial	interstitial	O	B_disease
 nephritis	nephritis	O	I_disease
 was	was	O	O
@@ -78,8 +78,8 @@ and	and	O	O
 the	the	O	O
 patient	patient	O	O
 developed	developed	O	O
-end-stage	end-stage	O	O
-renal	renal	O	O
-disease	disease	O	O
+end-stage	end-stage	O	B_disease
+renal	renal	O	B_disease
+disease	disease	O	I_disease
 .	.	O	O
 

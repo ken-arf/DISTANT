@@ -20,8 +20,8 @@ determine	determine	O	O
 whether	whether	O	O
 penile	penile	O	B_disease
 pain	pain	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 intracorporeal	intracorporeal	O	O
 injections	injections	O	O
 could	could	O	O

@@ -8,8 +8,8 @@ kinase	kinase	I_chemical	O
 levels	levels	O	O
 in	in	O	O
 systemic	systemic	O	O
-lupus	lupus	O	O
-erythematosus	erythematosus	O	O
+lupus	lupus	O	B_disease
+erythematosus	erythematosus	O	I_disease
 .	.	O	O
 
 We	we	O	O
@@ -38,14 +38,14 @@ been	been	O	O
 suffering	suffering	O	O
 from	from	O	O
 systemic	systemic	O	O
-lupus	lupus	O	O
-erythematosus	erythematosus	O	O
+lupus	lupus	O	B_disease
+erythematosus	erythematosus	O	I_disease
 (	(	O	O
 SLE	sle	O	O
 )	)	O	O
 with	with	O	O
-renal	renal	O	O
-involvement	involvement	O	O
+renal	renal	O	B_disease
+involvement	involvement	O	I_disease
 and	and	O	O
 undergone	undergone	O	O
 periods	periods	O	O
@@ -185,8 +185,8 @@ musculoskeletal	musculoskeletal	O	O
 system	system	O	O
 and	and	O	O
 drug-induced	drug-induced	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 is	is	O	O
 important	important	O	O
 for	for	O	O

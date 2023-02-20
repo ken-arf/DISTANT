@@ -5,7 +5,7 @@ QT	qt	O	O
 interval	interval	O	O
 related	related	O	O
 to	to	O	O
-cisapride-diltiazem	cisapride-diltiazem	O	O
+cisapride-diltiazem	cisapride-diltiazem	S_chemical	O
 interaction	interaction	O	O
 .	.	O	O
 
@@ -27,9 +27,9 @@ for	for	O	O
 the	the	O	O
 treatment	treatment	O	O
 of	of	O	O
-gastrointestinal	gastrointestinal	O	O
-motility	motility	O	O
-disorders	disorders	O	O
+gastrointestinal	gastrointestinal	O	B_disease
+motility	motility	O	B_disease
+disorders	disorders	O	I_disease
 .	.	O	O
 
 Prolongation	prolongation	O	O
@@ -42,8 +42,8 @@ de	de	O	I_disease
 pointes	pointes	O	I_disease
 ,	,	O	O
 and	and	O	O
-sudden	sudden	O	O
-cardiac	cardiac	O	O
+sudden	sudden	O	B_disease
+cardiac	cardiac	O	I_disease
 death	death	O	S_disease
 have	have	O	O
 been	been	O	O
@@ -54,7 +54,7 @@ administration	administration	O	O
 with	with	O	O
 erythromycin	erythromycin	O	O
 or	or	O	O
-azole	azole	O	O
+azole	azole	S_chemical	O
 antifungal	antifungal	B_chemical	O
 agents	agents	I_chemical	O
 ,	,	O	O
@@ -82,7 +82,7 @@ cisapride	cisapride	S_chemical	O
 for	for	O	O
 gastroesophageal	gastroesophageal	O	B_disease
 reflux	reflux	O	I_disease
-disorder	disorder	O	O
+disorder	disorder	O	I_disease
 and	and	O	O
 diltiazem	diltiazem	S_chemical	O
 ,	,	O	O

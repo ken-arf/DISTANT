@@ -2,7 +2,7 @@ Comparison	comparison	O	O
 of	of	O	O
 aqueous	aqueous	O	O
 and	and	O	O
-gellan	gellan	O	O
+gellan	gellan	S_chemical	O
 ophthalmic	ophthalmic	O	O
 timolol	timolol	S_chemical	O
 with	with	O	O
@@ -97,7 +97,7 @@ the	the	O	O
 conjunctiva	conjunctiva	O	O
 (	(	O	O
 timolol	timolol	S_chemical	O
-gellan	gellan	O	O
+gellan	gellan	S_chemical	O
 )	)	O	O
 on	on	O	O
 the	the	O	O
@@ -186,7 +186,7 @@ eyes	eyes	O	O
 ,	,	O	O
 or	or	O	O
 timolol	timolol	S_chemical	O
-gellan	gellan	O	O
+gellan	gellan	S_chemical	O
 (	(	O	O
 morning	morning	O	O
 in	in	O	O
@@ -229,7 +229,7 @@ timolol	timolol	S_chemical	O
 solution	solution	O	O
 and	and	O	O
 timolol	timolol	S_chemical	O
-gellan	gellan	O	O
+gellan	gellan	S_chemical	O
 reduced	reduced	O	O
 the	the	O	O
 mean	mean	O	O
@@ -271,7 +271,7 @@ beats/min	beats/min	O	O
 .	.	O	O
 
 Timolol	timolol	S_chemical	O
-gellan	gellan	O	O
+gellan	gellan	S_chemical	O
 showed	showed	O	O
 a	a	O	O
 numerically	numerically	O	O
@@ -304,7 +304,7 @@ on	on	O	O
 placebo	placebo	O	O
 and	and	O	O
 timolol	timolol	S_chemical	O
-gellan	gellan	O	O
+gellan	gellan	S_chemical	O
 were	were	O	O
 both	both	O	O
 significantly	significantly	O	O
@@ -319,7 +319,7 @@ difference	difference	O	O
 between	between	O	O
 solution	solution	O	O
 and	and	O	O
-gellan	gellan	O	O
+gellan	gellan	S_chemical	O
 treatments	treatments	O	O
 was	was	O	O
 statistically	statistically	O	O
@@ -338,7 +338,7 @@ timolol	timolol	S_chemical	O
 solution	solution	O	O
 and	and	O	O
 timolol	timolol	S_chemical	O
-gellan	gellan	O	O
+gellan	gellan	S_chemical	O
 decrease	decrease	O	O
 the	the	O	O
 mean	mean	O	O
@@ -368,8 +368,8 @@ quantify	quantify	O	O
 the	the	O	O
 modest	modest	O	O
 bradycardia	bradycardia	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 ophthalmic	ophthalmic	O	O
 beta-blocker	beta-blocker	O	O
 therapy	therapy	O	O

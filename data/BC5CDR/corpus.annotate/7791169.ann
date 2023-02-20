@@ -1,0 +1,11 @@
+T1	Chemical 21 32	misoprostol
+T3	Disease 57 74	renal dysfunction
+T4	Chemical 153 164	misoprostol
+T8	Chemical 489 500	misoprostol
+T9	Chemical 572 582	creatinine
+T10	Chemical 584 603	blood urea nitrogen
+T12	Chemical 927 937	creatinine
+T13	Chemical 1238 1248	creatinine
+T15	Disease 1507 1524	renal dysfunction
+T16	Chemical 1538 1549	misoprostol
+T17	Disease 1568 1584	renal impairment

@@ -180,7 +180,7 @@ became	became	O	O
 mmHg	mmhg	O	O
 .	.	O	O
 
-Apamin	apamin	O	O
+Apamin	apamin	S_chemical	O
 ,	,	O	O
 a	a	O	O
 selective	selective	O	O
@@ -210,7 +210,7 @@ anticonvulsive	anticonvulsive	O	O
 effects	effects	O	O
 .	.	O	O
 
-Apamin	apamin	O	O
+Apamin	apamin	S_chemical	O
 (	(	O	O
 10	10	O	O
 ng	ng	O	O

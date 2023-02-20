@@ -25,7 +25,7 @@ methamphetamine	methamphetamine	S_chemical	O
 toxicity	toxicity	O	S_disease
 to	to	O	O
 brain	brain	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 neurons	neurons	O	O
 ,	,	O	O
 because	because	O	O
@@ -79,14 +79,14 @@ recently	recently	O	O
 reported	reported	O	O
 ability	ability	O	O
 of	of	O	O
-L-dihydroxyphenylalanine	l-dihydroxyphenylalanine	O	O
+L-dihydroxyphenylalanine	l-dihydroxyphenylalanine	S_chemical	O
 to	to	O	O
 reverse	reverse	O	O
 the	the	O	O
 protective	protective	O	O
 effect	effect	O	O
 of	of	O	O
-alpha-methyl-para-tyrosine	alpha-methyl-para-tyrosine	O	O
+alpha-methyl-para-tyrosine	alpha-methyl-para-tyrosine	S_chemical	O
 on	on	O	O
 METH-induced	meth-induced	O	O
 DA	da	S_chemical	O
@@ -149,7 +149,7 @@ DA	da	S_chemical	O
 deficits	deficits	O	O
 develop	develop	O	O
 METH-induced	meth-induced	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 deficits	deficits	O	O
 that	that	O	O
 are	are	O	O
@@ -180,7 +180,7 @@ the	the	O	O
 development	development	O	O
 of	of	O	O
 METH-induced	meth-induced	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 neurotoxicity	neurotoxicity	O	S_disease
 and	and	O	O
 suggest	suggest	O	O

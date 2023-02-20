@@ -166,15 +166,15 @@ blocked	blocked	O	O
 by	by	O	O
 the	the	O	O
 central	central	O	O
-nicotinic	nicotinic	O	O
+nicotinic	nicotinic	S_chemical	O
 antagonist	antagonist	O	O
-mecamylamine	mecamylamine	O	O
+mecamylamine	mecamylamine	S_chemical	O
 but	but	O	O
 not	not	O	O
 by	by	O	O
 the	the	O	O
 peripheral	peripheral	O	O
-nicotinic	nicotinic	O	O
+nicotinic	nicotinic	S_chemical	O
 blocker	blocker	O	O
 hexamethonium	hexamethonium	S_chemical	O
 ,	,	O	O
@@ -187,7 +187,7 @@ probably	probably	O	O
 mediated	mediated	O	O
 by	by	O	O
 central	central	O	O
-nicotinic	nicotinic	O	O
+nicotinic	nicotinic	S_chemical	O
 receptors	receptors	O	O
 .	.	O	O
 
@@ -207,7 +207,7 @@ the	the	O	O
 selective	selective	O	O
 D2	d2	O	O
 antagonist	antagonist	O	O
-raclopride	raclopride	O	O
+raclopride	raclopride	S_chemical	O
 and	and	O	O
 the	the	O	O
 D1/D2	d1/d2	O	O
@@ -270,7 +270,7 @@ receptors	receptors	O	O
 possibly	possibly	O	O
 located	located	O	O
 on	on	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 neurons	neurons	O	O
 ,	,	O	O
 and	and	O	O

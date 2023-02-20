@@ -21,7 +21,7 @@ the	the	O	O
 hypokalemia	hypokalemia	O	O
 of	of	O	O
 short-term	short-term	O	O
-bendrofluazide	bendrofluazide	O	O
+bendrofluazide	bendrofluazide	S_chemical	O
 treatment	treatment	O	O
 in	in	O	O
 6	6	O	O
@@ -45,14 +45,14 @@ reduced	reduced	O	O
 the	the	O	O
 rise	rise	O	O
 in	in	O	O
-plasma	plasma	O	O
+plasma	plasma	B_chemical	O
 aldosterone	aldosterone	S_chemical	O
 and	and	O	O
 urine	urine	O	O
 potassium	potassium	S_chemical	O
 excretion	excretion	O	O
 following	following	O	O
-bendrofluazide	bendrofluazide	O	O
+bendrofluazide	bendrofluazide	S_chemical	O
 and	and	O	O
 increased	increased	O	O
 the	the	O	O

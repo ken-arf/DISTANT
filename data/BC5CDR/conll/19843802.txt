@@ -21,7 +21,7 @@ transplantation	transplantation	O	O
 ,	,	O	O
 life-threatening	life-threatening	O	O
 acute	acute	O	O
-right	right	O	O
+right	right	O	B_disease
 heart	heart	O	B_disease
 failure	failure	O	I_disease
 was	was	O	O
@@ -46,8 +46,8 @@ catecholamines	catecholamines	S_chemical	O
 sedatives	sedatives	O	O
 ,	,	O	O
 and	and	O	O
-muscle	muscle	O	O
-relaxants	relaxants	O	O
+muscle	muscle	B_chemical	O
+relaxants	relaxants	I_chemical	O
 administered	administered	O	O
 through	through	O	O
 a	a	O	O

@@ -55,8 +55,8 @@ i.p	i.p	O	O
 
 injection	injection	O	O
 of	of	O	O
-methyl	methyl	O	O
-beta-carboline-3-carboxylate	beta-carboline-3-carboxylate	O	O
+methyl	methyl	B_chemical	O
+beta-carboline-3-carboxylate	beta-carboline-3-carboxylate	I_chemical	O
 (	(	O	O
 beta-CCM	beta-ccm	O	O
 )	)	O	O

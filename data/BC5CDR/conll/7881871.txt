@@ -4,7 +4,7 @@ of	of	O	O
 lipid	lipid	O	O
 peroxidation	peroxidation	O	O
 in	in	O	O
-puromycin	puromycin	O	O
+puromycin	puromycin	S_chemical	O
 aminonucleoside-induced	aminonucleoside-induced	O	O
 nephropathy	nephropathy	O	S_disease
 .	.	O	O
@@ -190,10 +190,10 @@ peroxidation	peroxidation	O	O
 in	in	O	O
 mediating	mediating	O	O
 the	the	O	O
-proteinuric	proteinuric	O	O
+proteinuric	proteinuric	O	S_disease
 injury	injury	O	O
 in	in	O	O
-PAN	pan	S_chemical	O
+PAN	pan	S_chemical	B_disease
 nephropathy	nephropathy	O	S_disease
 .	.	O	O
 

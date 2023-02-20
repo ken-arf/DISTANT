@@ -18,7 +18,7 @@ not	not	O	O
 known	known	O	O
 to	to	O	O
 be	be	O	O
-proarrhythmic	proarrhythmic	O	O
+proarrhythmic	proarrhythmic	O	S_disease
 without	without	O	O
 concomitant	concomitant	O	O
 use	use	O	O
@@ -56,7 +56,7 @@ ketoconazole	ketoconazole	S_chemical	O
 for	for	O	O
 treatment	treatment	O	O
 of	of	O	O
-fungal	fungal	O	O
+fungal	fungal	O	B_disease
 infection	infection	O	S_disease
 .	.	O	O
 

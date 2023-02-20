@@ -1,7 +1,7 @@
 Effects	effects	O	O
 of	of	O	O
 the	the	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 deep	deep	O	O
 brain	brain	O	O
 stimulation	stimulation	O	O
@@ -28,7 +28,7 @@ studies	studies	O	O
 have	have	O	O
 revealed	revealed	O	O
 that	that	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 DBS	dbs	O	O
 can	can	O	O
 control	control	O	O
@@ -62,7 +62,7 @@ effects	effects	O	O
 of	of	O	O
 high	high	O	O
 frequency	frequency	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 stimulation	stimulation	O	O
 on	on	O	O
 cortical	cortical	O	O
@@ -92,7 +92,7 @@ group-1	group-1	O	O
 (	(	O	O
 n=10	n=10	O	O
 )	)	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 DBS	dbs	O	O
 was	was	O	O
 off	off	O	O
@@ -103,7 +103,7 @@ group-2	group-2	O	O
 (	(	O	O
 n=10	n=10	O	O
 )	)	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 DBS	dbs	O	O
 was	was	O	O
 on	on	O	O
@@ -134,7 +134,7 @@ In	in	O	O
 the	the	O	O
 control	control	O	O
 group	group	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 DBS	dbs	O	O
 was	was	O	O
 on	on	O	O
@@ -184,7 +184,7 @@ RESULTS	results	O	O
 :	:	O	O
 High	high	O	O
 frequency	frequency	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 DBS	dbs	O	O
 suppressed	suppressed	O	O
 the	the	O	O
@@ -204,7 +204,7 @@ the	the	O	O
 control	control	O	O
 group	group	O	O
 ,	,	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 stimulation	stimulation	O	O
 alone	alone	O	O
 lead	lead	O	O
@@ -259,7 +259,7 @@ the	the	O	O
 optimal	optimal	O	O
 parameters	parameters	O	O
 of	of	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 DBS	dbs	O	O
 in	in	O	O
 patients	patients	O	O

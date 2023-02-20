@@ -3,7 +3,7 @@ of	of	O	O
 switching	switching	O	O
 carbamazepine	carbamazepine	S_chemical	O
 to	to	O	O
-oxcarbazepine	oxcarbazepine	O	O
+oxcarbazepine	oxcarbazepine	S_chemical	O
 on	on	O	O
 the	the	O	O
 plasma	plasma	O	O
@@ -24,7 +24,7 @@ to	to	O	O
 its	its	O	O
 10-keto	10-keto	O	O
 analogue	analogue	O	O
-oxcarbazepine	oxcarbazepine	O	O
+oxcarbazepine	oxcarbazepine	S_chemical	O
 among	among	O	O
 six	six	O	O
 difficult-to-treat	difficult-to-treat	O	O
@@ -102,8 +102,8 @@ that	that	O	O
 in	in	O	O
 contrast	contrast	O	O
 with	with	O	O
-carbamazepine	carbamazepine	S_chemical	O
-oxcarbazepine	oxcarbazepine	O	O
+carbamazepine	carbamazepine	B_chemical	O
+oxcarbazepine	oxcarbazepine	S_chemical	O
 does	does	O	O
 not	not	O	O
 induce	induce	O	O

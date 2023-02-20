@@ -51,8 +51,8 @@ cardiorespiratory	cardiorespiratory	O	O
 arrest	arrest	O	O
 and	and	O	O
 death	death	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 intramuscular	intramuscular	O	O
 administration	administration	O	O
 of	of	O	O

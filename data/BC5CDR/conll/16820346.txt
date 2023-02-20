@@ -17,7 +17,7 @@ effects	effects	O	O
 of	of	O	O
 atorvastatin	atorvastatin	O	O
 (	(	O	O
-atorva	atorva	O	O
+atorva	atorva	S_chemical	O
 )	)	O	O
 on	on	O	O
 dexamethasone	dexamethasone	S_chemical	O
@@ -31,7 +31,7 @@ rats	rats	O	O
 were	were	O	O
 treated	treated	O	O
 with	with	O	O
-atorva	atorva	O	O
+atorva	atorva	S_chemical	O
 30	30	O	O
 mg/kg/day	mg/kg/day	O	O
 or	or	O	O
@@ -92,8 +92,8 @@ study	study	O	O
 SBP	sbp	O	O
 in	in	O	O
 the	the	O	O
-atorva	atorva	O	O
-+	+	O	O
+atorva	atorva	B_chemical	O
++	+	I_chemical	O
 dex	dex	S_chemical	O
 group	group	O	O
 was	was	O	O
@@ -128,7 +128,7 @@ P	p	O	O
 )	)	O	O
 .	.	O	O
 
-Atorva	atorva	O	O
+Atorva	atorva	S_chemical	O
 reversed	reversed	O	O
 dex-induced	dex-induced	O	O
 hypertension	hypertension	O	S_disease
@@ -165,8 +165,8 @@ dex	dex	S_chemical	O
 +	+	O	O
 /-	/-	O	O
 441.2	441.2	O	O
-atorva	atorva	O	O
-+	+	O	O
+atorva	atorva	B_chemical	O
++	+	I_chemical	O
 dex	dex	S_chemical	O
 ,	,	O	O
 P	p	O	O
@@ -176,7 +176,7 @@ P	p	O	O
 .	.	O	O
 
 Plasma	plasma	O	O
-nitrate/nitrite	nitrate/nitrite	O	O
+nitrate/nitrite	nitrate/nitrite	S_chemical	O
 (	(	O	O
 NOx	nox	O	O
 )	)	O	O
@@ -210,7 +210,7 @@ P	p	O	O
 )	)	O	O
 .	.	O	O
 
-Atorva	atorva	O	O
+Atorva	atorva	S_chemical	O
 affected	affected	O	O
 neither	neither	O	O
 plasma	plasma	O	O

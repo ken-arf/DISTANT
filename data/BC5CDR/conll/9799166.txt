@@ -69,8 +69,8 @@ population	population	O	O
 comprising	comprising	O	O
 members	members	O	O
 of	of	O	O
-Kaiser	kaiser	O	O
-Permanente	permanente	O	O
+Kaiser	kaiser	B_chemical	O
+Permanente	permanente	I_chemical	O
 of	of	O	O
 Northern	northern	O	O
 and	and	O	O

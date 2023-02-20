@@ -102,7 +102,7 @@ the	the	O	O
 basis	basis	O	O
 of	of	O	O
 low	low	O	B_disease
-sexual	sexual	O	I_disease
+sexual	sexual	O	B_disease
 desire	desire	O	I_disease
 ,	,	O	O
 gynecomastia	gynecomastia	O	O
@@ -159,7 +159,7 @@ hormone	hormone	O	O
 determination	determination	O	O
 were	were	O	O
 low	low	O	B_disease
-sexual	sexual	O	I_disease
+sexual	sexual	O	B_disease
 desire	desire	O	I_disease
 ,	,	O	O
 small	small	O	O
@@ -173,7 +173,7 @@ therapy	therapy	O	O
 consisted	consisted	O	O
 of	of	O	O
 testosterone	testosterone	S_chemical	O
-heptylate	heptylate	O	O
+heptylate	heptylate	S_chemical	O
 or	or	O	O
 human	human	B_chemical	O
 chorionic	chorionic	B_chemical	O
@@ -236,7 +236,7 @@ older	older	O	O
 .	.	O	O
 
 Two	two	O	O
-pituitary	pituitary	O	O
+pituitary	pituitary	O	B_disease
 tumors	tumors	O	S_disease
 were	were	O	O
 discovered	discovered	O	O
@@ -256,9 +256,9 @@ seemed	seemed	O	O
 to	to	O	O
 result	result	O	O
 from	from	O	O
-nonorganic	nonorganic	O	O
-hypothalamic	hypothalamic	O	O
-dysfunction	dysfunction	O	O
+nonorganic	nonorganic	O	B_disease
+hypothalamic	hypothalamic	O	I_disease
+dysfunction	dysfunction	O	I_disease
 because	because	O	O
 of	of	O	O
 normal	normal	O	O
@@ -318,7 +318,7 @@ in	in	O	O
 cases	cases	O	O
 of	of	O	O
 low	low	O	B_disease
-sexual	sexual	O	I_disease
+sexual	sexual	O	B_disease
 desire	desire	O	I_disease
 or	or	O	O
 abnormal	abnormal	O	O
@@ -403,7 +403,7 @@ of	of	O	O
 1,821	1,821	O	O
 patients	patients	O	O
 ,	,	O	O
-prolactinomas	prolactinomas	O	O
+prolactinomas	prolactinomas	O	S_disease
 in	in	O	O
 7	7	O	O
 ,	,	O	O
@@ -510,7 +510,7 @@ endocrine	endocrine	O	O
 therapy	therapy	O	O
 and	and	O	O
 the	the	O	O
-pituitary	pituitary	O	O
+pituitary	pituitary	O	B_disease
 tumors	tumors	O	S_disease
 .	.	O	O
 
@@ -530,7 +530,7 @@ in	in	O	O
 cases	cases	O	O
 of	of	O	O
 low	low	O	B_disease
-sexual	sexual	O	I_disease
+sexual	sexual	O	B_disease
 desire	desire	O	I_disease
 and	and	O	O
 abnormal	abnormal	O	O
@@ -559,7 +559,7 @@ in	in	O	O
 cases	cases	O	O
 of	of	O	O
 low	low	O	B_disease
-sexual	sexual	O	I_disease
+sexual	sexual	O	B_disease
 desire	desire	O	I_disease
 ,	,	O	O
 gynecomastia	gynecomastia	O	O

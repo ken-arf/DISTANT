@@ -1,8 +1,8 @@
 Treatment	treatment	O	O
 of	of	O	O
 tacrolimus-related	tacrolimus-related	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 by	by	O	O
 conversion	conversion	O	O
 to	to	O	O
@@ -15,8 +15,8 @@ recipients	recipients	O	O
 
 When	when	O	O
 tacrolimus	tacrolimus	S_chemical	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 persist	persist	O	O
 despite	despite	O	O
 dose	dose	O	O
@@ -36,8 +36,8 @@ necessary	necessary	O	O
 We	we	O	O
 characterized	characterized	O	O
 tacrolimus	tacrolimus	S_chemical	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 that	that	O	O
 warranted	warranted	O	O
 discontinuation	discontinuation	O	O
@@ -248,8 +248,8 @@ in	in	O	O
 %	%	O	O
 )	)	O	O
 ,	,	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 persisted	persisted	O	O
 .	.	O	O
 
@@ -292,8 +292,8 @@ conversion	conversion	O	O
 
 When	when	O	O
 tacrolimus	tacrolimus	S_chemical	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 are	are	O	O
 unresponsive	unresponsive	O	O
 to	to	O	O

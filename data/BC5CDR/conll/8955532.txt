@@ -86,7 +86,7 @@ treated	treated	O	O
 with	with	O	O
 vehicle	vehicle	O	O
 and	and	O	O
-Hoe-140	hoe-140	O	O
+Hoe-140	hoe-140	S_chemical	O
 (	(	O	O
 0.1	0.1	O	O
 microM	microm	O	O

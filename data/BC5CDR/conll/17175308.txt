@@ -103,9 +103,9 @@ n	n	O	O
 =	=	O	O
 8)	8)	O	O
 ;	;	O	O
-Kaposi	kaposi	O	B_disease
-'s	's	O	I_disease
-sarcoma	sarcoma	O	I_disease
+Kaposi	kaposi	B_chemical	B_disease
+'s	's	I_chemical	I_disease
+sarcoma	sarcoma	I_chemical	I_disease
 ,	,	O	O
 Four	four	O	O
 skin	skin	O	O
@@ -116,9 +116,9 @@ intestinal	intestinal	O	O
 tumors	tumors	O	S_disease
 ,	,	O	O
 One	one	O	O
-renal	renal	O	O
-cell	cell	O	O
-carsinom	carsinom	O	O
+renal	renal	B_chemical	O
+cell	cell	I_chemical	O
+carsinom	carsinom	I_chemical	O
 )	)	O	O
 or	or	O	O
 BK	bk	O	O
@@ -275,7 +275,7 @@ changes	changes	O	O
 :	:	O	O
 One	one	O	O
 membranoproliferative	membranoproliferative	O	O
-glomerulopathy	glomerulopathy	O	O
+glomerulopathy	glomerulopathy	O	S_disease
 and	and	O	O
 interstitial	interstitial	O	B_disease
 nephritis	nephritis	O	I_disease
@@ -340,9 +340,9 @@ patients	patients	O	O
 displayed	displayed	O	O
 CAN	can	O	O
 and	and	O	O
-Kaposi	kaposi	O	B_disease
-'s	's	O	I_disease
-sarcoma	sarcoma	O	I_disease
+Kaposi	kaposi	B_chemical	B_disease
+'s	's	I_chemical	I_disease
+sarcoma	sarcoma	I_chemical	I_disease
 .	.	O	O
 
 Mean	mean	O	O
@@ -439,8 +439,8 @@ proteinuria	proteinuria	O	S_disease
 The	the	O	O
 possibility	possibility	O	O
 of	of	O	O
-de	de	O	O
-novo	novo	O	O
+de	de	O	B_disease
+novo	novo	O	I_disease
 glomerular	glomerular	O	O
 pathology	pathology	O	O
 under	under	O	O

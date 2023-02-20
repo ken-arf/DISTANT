@@ -4,7 +4,7 @@ mental	mental	O	B_disease
 disorders	disorders	O	I_disease
 .	.	O	O
 
-Organic	organic	O	O
+Organic	organic	O	B_disease
 mental	mental	O	B_disease
 disorder	disorder	O	I_disease
 was	was	O	O
@@ -19,8 +19,8 @@ prognostic	prognostic	O	O
 period	period	O	O
 after	after	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 carmofur-induced	carmofur-induced	O	O
 leukoencephalopathy	leukoencephalopathy	O	S_disease
 .	.	O	O
@@ -30,8 +30,8 @@ such	such	O	O
 as	as	O	O
 euphoria	euphoria	O	O
 ,	,	O	O
-emotional	emotional	O	O
-lability	lability	O	O
+emotional	emotional	O	B_disease
+lability	lability	O	I_disease
 and	and	O	O
 puerile	puerile	O	O
 attitude	attitude	O	O
@@ -42,9 +42,9 @@ patient	patient	O	O
 were	were	O	O
 diagnosed	diagnosed	O	O
 as	as	O	O
-organic	organic	O	O
-personality	personality	O	O
-syndrome	syndrome	O	O
+organic	organic	O	B_disease
+personality	personality	O	I_disease
+syndrome	syndrome	O	I_disease
 according	according	O	O
 to	to	O	O
 the	the	O	O
@@ -59,9 +59,9 @@ referred	referred	O	O
 to	to	O	O
 as	as	O	O
 a	a	O	O
-frontal	frontal	O	O
-lobe	lobe	O	O
-syndrome	syndrome	O	O
+frontal	frontal	O	B_disease
+lobe	lobe	O	I_disease
+syndrome	syndrome	O	I_disease
 .	.	O	O
 
 Brain	brain	O	O
@@ -100,9 +100,9 @@ may	may	O	O
 uncommonly	uncommonly	O	O
 result	result	O	O
 in	in	O	O
-organic	organic	O	O
-personality	personality	O	O
-syndrome	syndrome	O	O
+organic	organic	O	B_disease
+personality	personality	O	I_disease
+syndrome	syndrome	O	I_disease
 in	in	O	O
 the	the	O	O
 residual	residual	O	O
@@ -115,8 +115,8 @@ be	be	O	O
 attributed	attributed	O	O
 to	to	O	O
 the	the	O	O
-structural	structural	O	O
-damage	damage	O	O
+structural	structural	O	B_disease
+damage	damage	O	I_disease
 to	to	O	O
 the	the	O	O
 frontal	frontal	O	O

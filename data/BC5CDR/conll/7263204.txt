@@ -72,8 +72,8 @@ weeks	weeks	O	O
 prior	prior	O	O
 to	to	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 symptoms	symptoms	O	O
 .	.	O	O
 

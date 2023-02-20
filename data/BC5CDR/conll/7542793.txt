@@ -7,7 +7,7 @@ FK506	fk506	S_chemical	O
 :	:	O	O
 inhibition	inhibition	O	O
 of	of	O	O
-calcineurin	calcineurin	O	O
+calcineurin	calcineurin	S_chemical	O
 phosphatase	phosphatase	O	O
 .	.	O	O
 
@@ -20,7 +20,7 @@ CsA	csa	S_chemical	O
 mg/kg	mg/kg	O	O
 )	)	O	O
 and	and	O	O
-Fujimycine	fujimycine	O	O
+Fujimycine	fujimycine	S_chemical	O
 (	(	O	O
 FK506	fk506	S_chemical	O
 ;	;	O	O
@@ -32,7 +32,7 @@ but	but	O	O
 not	not	O	O
 the	the	O	O
 related	related	O	O
-macrolide	macrolide	O	O
+macrolide	macrolide	S_chemical	O
 immunosuppressant	immunosuppressant	O	O
 rapamycin	rapamycin	S_chemical	O
 (	(	O	O
@@ -105,8 +105,8 @@ were	were	O	O
 each	each	O	O
 detected	detected	O	O
 in	in	O	O
-renal	renal	O	O
-tissue	tissue	O	O
+renal	renal	O	B_disease
+tissue	tissue	O	I_disease
 extract	extract	O	O
 .	.	O	O
 
@@ -121,7 +121,7 @@ immunoreactive	immunoreactive	O	O
 and	and	O	O
 enzymatically	enzymatically	O	O
 active	active	O	O
-calcineurin	calcineurin	O	O
+calcineurin	calcineurin	S_chemical	O
 were	were	O	O
 found	found	O	O
 which	which	O	O
@@ -181,7 +181,7 @@ renal	renal	O	O
 immunophilin	immunophilin	O	O
 and	and	O	O
 inhibiting	inhibiting	O	O
-calcineurin	calcineurin	O	O
+calcineurin	calcineurin	S_chemical	O
 phosphatase	phosphatase	O	O
 .	.	O	O
 

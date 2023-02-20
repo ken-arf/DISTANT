@@ -8,7 +8,7 @@ studies	studies	O	O
 of	of	O	O
 estrogen-induced	estrogen-induced	O	O
 rat	rat	O	O
-prolactinomas	prolactinomas	O	O
+prolactinomas	prolactinomas	O	S_disease
 after	after	O	O
 bromocriptine	bromocriptine	S_chemical	O
 treatment	treatment	O	O
@@ -62,8 +62,8 @@ h	h	S_chemical	O
 after	after	O	O
 treatment	treatment	O	O
 ,	,	O	O
-serum	serum	O	O
-prolactin	prolactin	O	O
+serum	serum	B_chemical	O
+prolactin	prolactin	I_chemical	O
 levels	levels	O	O
 decreased	decreased	O	O
 markedly	markedly	O	O
@@ -120,8 +120,8 @@ findings	findings	O	O
 suggest	suggest	O	O
 that	that	O	O
 lowered	lowered	O	O
-serum	serum	O	O
-prolactin	prolactin	O	O
+serum	serum	B_chemical	O
+prolactin	prolactin	I_chemical	O
 levels	levels	O	O
 in	in	O	O
 the	the	O	O
@@ -153,8 +153,8 @@ h	h	S_chemical	O
 after	after	O	O
 injection	injection	O	O
 ,	,	O	O
-serum	serum	O	O
-prolactin	prolactin	O	O
+serum	serum	B_chemical	O
+prolactin	prolactin	I_chemical	O
 levels	levels	O	O
 were	were	O	O
 still	still	O	O

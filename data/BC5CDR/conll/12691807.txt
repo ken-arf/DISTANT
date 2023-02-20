@@ -3,8 +3,8 @@ oromandibular	oromandibular	O	O
 dystonia	dystonia	O	S_disease
 in	in	O	O
 progressive	progressive	O	O
-supranuclear	supranuclear	O	O
-palsy	palsy	O	O
+supranuclear	supranuclear	O	B_disease
+palsy	palsy	O	I_disease
 .	.	O	O
 
 Levodopa-induced	levodopa-induced	O	O
@@ -23,15 +23,15 @@ atrophy	atrophy	O	S_disease
 .	.	O	O
 
 Cranial	cranial	O	O
-dystonias	dystonias	O	O
+dystonias	dystonias	O	S_disease
 are	are	O	O
 rare	rare	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
 progressive	progressive	O	O
-supranuclear	supranuclear	O	O
-palsy	palsy	O	O
+supranuclear	supranuclear	O	B_disease
+palsy	palsy	O	I_disease
 (	(	O	O
 PSP	psp	O	O
 )	)	O	O

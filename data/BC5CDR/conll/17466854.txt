@@ -1,5 +1,5 @@
-Side	side	O	O
-effects	effects	O	O
+Side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 postoperative	postoperative	O	O
 administration	administration	O	O
@@ -24,8 +24,8 @@ incidence	incidence	O	O
 of	of	O	O
 postoperative	postoperative	O	O
 emetic	emetic	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 after	after	O	O
 the	the	O	O
 administration	administration	O	O
@@ -55,7 +55,7 @@ Luke	luke	O	O
 's	's	O	O
 Hospital	hospital	O	O
 ,	,	O	O
-Gwardamangia	gwardamangia	O	O
+Gwardamangia	gwardamangia	S_chemical	O
 ,	,	O	O
 Malta	malta	O	O
 .	.	O	O
@@ -182,8 +182,8 @@ Group	group	O	O
 A	a	O	O
 developed	developed	O	O
 postoperative	postoperative	O	O
-emetic	emetic	O	O
-symptoms	symptoms	O	O
+emetic	emetic	O	B_disease
+symptoms	symptoms	O	I_disease
 ,	,	O	O
 headache	headache	O	S_disease
 ,	,	O	O
@@ -220,8 +220,8 @@ a	a	O	O
 high	high	O	O
 incidence	incidence	O	O
 of	of	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 including	including	O	O
 nausea	nausea	O	S_disease
 ,	,	O	O
@@ -232,8 +232,8 @@ headache	headache	O	S_disease
 .	.	O	O
 
 All	all	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 were	were	O	O
 self-limiting	self-limiting	O	O
 .	.	O	O

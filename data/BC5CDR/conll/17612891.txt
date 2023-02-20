@@ -1,7 +1,7 @@
 Acute	acute	O	O
 myocarditis	myocarditis	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 clozapine	clozapine	S_chemical	O
 .	.	O	O
 
@@ -12,8 +12,8 @@ case	case	O	O
 of	of	O	O
 acute	acute	O	O
 myocarditis	myocarditis	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 commencement	commencement	O	O
 of	of	O	O
@@ -59,9 +59,9 @@ with	with	O	O
 schizophrenia	schizophrenia	O	S_disease
 developed	developed	O	O
 a	a	O	O
-sudden	sudden	O	O
-onset	onset	O	O
-of	of	O	O
+sudden	sudden	O	B_disease
+onset	onset	O	B_disease
+of	of	O	I_disease
 myocarditis	myocarditis	O	S_disease
 after	after	O	O
 commencement	commencement	O	O
@@ -116,8 +116,8 @@ an	an	O	O
 increasingly	increasingly	O	O
 recognized	recognized	O	O
 complication	complication	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 use	use	O	O
 of	of	O	O

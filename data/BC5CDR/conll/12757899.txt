@@ -1,8 +1,8 @@
 Estradiol	estradiol	S_chemical	O
 reduces	reduces	O	O
-seizure-induced	seizure-induced	O	O
-hippocampal	hippocampal	O	O
-injury	injury	O	O
+seizure-induced	seizure-induced	O	B_disease
+hippocampal	hippocampal	O	B_disease
+injury	injury	O	I_disease
 in	in	O	O
 ovariectomized	ovariectomized	O	O
 female	female	O	O
@@ -18,11 +18,11 @@ protect	protect	O	O
 ovariectomized	ovariectomized	O	O
 rats	rats	O	O
 from	from	O	O
-hippocampal	hippocampal	O	O
-injury	injury	O	O
+hippocampal	hippocampal	O	B_disease
+injury	injury	O	I_disease
 induced	induced	O	O
 by	by	O	O
-kainic	kainic	O	O
+kainic	kainic	S_chemical	O
 acid-induced	acid-induced	O	O
 status	status	O	B_disease
 epilepticus	epilepticus	O	I_disease
@@ -36,7 +36,7 @@ compared	compared	O	O
 the	the	O	O
 effects	effects	O	O
 of	of	O	O
-17beta-estradiol	17beta-estradiol	O	O
+17beta-estradiol	17beta-estradiol	S_chemical	O
 in	in	O	O
 adult	adult	O	O
 male	male	O	O
@@ -55,7 +55,7 @@ received	received	O	O
 subcutaneous	subcutaneous	O	O
 injections	injections	O	O
 of	of	O	O
-17beta-estradiol	17beta-estradiol	O	O
+17beta-estradiol	17beta-estradiol	S_chemical	O
 (	(	O	O
 2	2	O	O
 microg/rat	microg/rat	O	O
@@ -93,7 +93,7 @@ silver-stained	silver-stained	O	O
 CA3	ca3	O	O
 and	and	O	O
 CA1	ca1	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 neurons	neurons	O	O
 was	was	O	O
 evaluated	evaluated	O	O
@@ -103,13 +103,13 @@ after	after	O	O
 SE	se	O	S_disease
 .	.	O	O
 
-17beta-Estradiol	17beta-estradiol	O	O
+17beta-Estradiol	17beta-estradiol	S_chemical	O
 did	did	O	O
 not	not	O	O
 alter	alter	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 first	first	O	O
 clonus	clonus	O	O
 in	in	O	O
@@ -122,7 +122,7 @@ in	in	O	O
 males	males	O	O
 .	.	O	O
 
-17beta-Estradiol	17beta-estradiol	O	O
+17beta-Estradiol	17beta-estradiol	S_chemical	O
 reduced	reduced	O	O
 the	the	O	O
 argyrophilic	argyrophilic	O	O

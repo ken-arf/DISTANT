@@ -41,14 +41,14 @@ spontaneously	spontaneously	O	O
 hypertensive	hypertensive	O	S_disease
 rats	rats	O	O
 (	(	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 )	)	O	O
 .	.	O	O
 
 2	2	O	O
 .	.	O	O
 Conscious	conscious	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 (	(	O	O
 male	male	O	O
 300	300	O	O
@@ -79,7 +79,7 @@ i.p	i.p	O	O
 .	.	O	O
 )	)	O	O
 or	or	O	O
-rauwolscine	rauwolscine	O	O
+rauwolscine	rauwolscine	S_chemical	O
 (	(	O	O
 3	3	O	O
 mg	mg	O	O
@@ -120,7 +120,7 @@ basal	basal	O	O
 MAP	map	O	O
 of	of	O	O
 conscious	conscious	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 was	was	O	O
 reduced	reduced	O	O
 to	to	O	O
@@ -135,7 +135,7 @@ prazosin	prazosin	S_chemical	O
 MAP	map	O	O
 )	)	O	O
 and	and	O	O
-rauwolscine	rauwolscine	O	O
+rauwolscine	rauwolscine	S_chemical	O
 (	(	O	O
 -16%(-)-33	-16%(-)-33	O	O
 %	%	O	O
@@ -153,7 +153,7 @@ orthostatic	orthostatic	O	B_disease
 hypotension	hypotension	O	S_disease
 in	in	O	O
 the	the	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 treated	treated	O	O
 with	with	O	O
 prazosin	prazosin	S_chemical	O
@@ -171,10 +171,10 @@ but	but	O	O
 not	not	O	O
 in	in	O	O
 the	the	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 treated	treated	O	O
 with	with	O	O
-rauwolscine	rauwolscine	O	O
+rauwolscine	rauwolscine	S_chemical	O
 (	(	O	O
 less	less	O	O
 than	than	O	O
@@ -192,7 +192,7 @@ n	n	O	O
 3	3	O	O
 .	.	O	O
 Conscious	conscious	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 were	were	O	O
 treated	treated	O	O
 for	for	O	O
@@ -217,7 +217,7 @@ blockade	blockade	O	O
 MAP	map	O	O
 in	in	O	O
 conscious	conscious	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 after	after	O	O
 chronic	chronic	O	O
 prazosin	prazosin	S_chemical	O
@@ -230,7 +230,7 @@ than	than	O	O
 in	in	O	O
 the	the	O	O
 untreated	untreated	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 (	(	O	O
 n	n	O	O
 =	=	O	O
@@ -271,7 +271,7 @@ Conversely	conversely	O	O
 ,	,	O	O
 administration	administration	O	O
 of	of	O	O
-rauwolscine	rauwolscine	O	O
+rauwolscine	rauwolscine	S_chemical	O
 (	(	O	O
 3	3	O	O
 mg	mg	O	O
@@ -283,7 +283,7 @@ in	in	O	O
 chronic	chronic	O	O
 prazosin	prazosin	S_chemical	O
 treated	treated	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 decreased	decreased	O	O
 the	the	O	O
 basal	basal	O	O
@@ -326,9 +326,9 @@ and	and	O	O
 bradycardia	bradycardia	O	S_disease
 to	to	O	O
 the	the	O	O
-alpha	alpha	O	O
-1-agonist	1-agonist	O	O
-cirazoline	cirazoline	O	O
+alpha	alpha	B_chemical	O
+1-agonist	1-agonist	I_chemical	O
+cirazoline	cirazoline	S_chemical	O
 (	(	O	O
 0.6	0.6	O	O
 and	and	O	O
@@ -368,7 +368,7 @@ were	were	O	O
 determined	determined	O	O
 in	in	O	O
 conscious	conscious	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 with	with	O	O
 and	and	O	O
 without	without	O	O
@@ -384,14 +384,14 @@ and	and	O	O
 bradycardia	bradycardia	O	S_disease
 effects	effects	O	O
 of	of	O	O
-cirazoline	cirazoline	O	O
+cirazoline	cirazoline	S_chemical	O
 were	were	O	O
 abolished	abolished	O	O
 in	in	O	O
 chronic	chronic	O	O
 prazosin	prazosin	S_chemical	O
 treated	treated	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 (	(	O	O
 n	n	O	O
 =	=	O	O
@@ -402,7 +402,7 @@ compared	compared	O	O
 to	to	O	O
 the	the	O	O
 untreated	untreated	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 (	(	O	O
 n	n	O	O
 =	=	O	O
@@ -426,7 +426,7 @@ in	in	O	O
 both	both	O	O
 groups	groups	O	O
 of	of	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 ,	,	O	O
 but	but	O	O
 the	the	O	O
@@ -435,7 +435,7 @@ bradycardia	bradycardia	O	S_disease
 was	was	O	O
 greater	greater	O	O
 in	in	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 with	with	O	O
 chronic	chronic	O	O
 prazosin	prazosin	S_chemical	O
@@ -457,7 +457,7 @@ noradrenaline-induced	noradrenaline-induced	O	O
 pressor	pressor	O	O
 effect	effect	O	O
 in	in	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 was	was	O	O
 similar	similar	O	O
 with	with	O	O

@@ -2,7 +2,7 @@ The	the	O	O
 alpha3	alpha3	O	O
 and	and	O	O
 beta4	beta4	O	O
-nicotinic	nicotinic	O	O
+nicotinic	nicotinic	S_chemical	O
 acetylcholine	acetylcholine	S_chemical	O
 receptor	receptor	O	O
 subunits	subunits	O	O
@@ -12,7 +12,7 @@ for	for	O	O
 nicotine-induced	nicotine-induced	O	O
 seizures	seizures	O	S_disease
 and	and	O	O
-hypolocomotion	hypolocomotion	O	O
+hypolocomotion	hypolocomotion	O	S_disease
 in	in	O	O
 mice	mice	O	O
 .	.	O	O
@@ -21,7 +21,7 @@ Binding	binding	O	O
 of	of	O	O
 nicotine	nicotine	S_chemical	O
 to	to	O	O
-nicotinic	nicotinic	O	O
+nicotinic	nicotinic	S_chemical	O
 acetylcholine	acetylcholine	S_chemical	O
 receptors	receptors	O	O
 (	(	O	O
@@ -96,7 +96,7 @@ in	in	O	O
 nicotine-induced	nicotine-induced	O	O
 seizures	seizures	O	S_disease
 and	and	O	O
-hypolocomotion	hypolocomotion	O	O
+hypolocomotion	hypolocomotion	O	S_disease
 in	in	O	O
 beta4	beta4	O	O
 homozygous	homozygous	O	O
@@ -257,6 +257,6 @@ of	of	O	O
 nicotine-induced	nicotine-induced	O	O
 seizures	seizures	O	S_disease
 and	and	O	O
-hypolocomotion	hypolocomotion	O	O
+hypolocomotion	hypolocomotion	O	S_disease
 .	.	O	O
 

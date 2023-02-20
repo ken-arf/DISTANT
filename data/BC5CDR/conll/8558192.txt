@@ -18,9 +18,9 @@ Research	research	O	O
 and	and	O	O
 Treatment	treatment	O	O
 of	of	O	O
-Cancer	cancer	O	S_disease
-Gastrointestinal	gastrointestinal	O	O
-Treat	treat	O	O
+Cancer	cancer	O	B_disease
+Gastrointestinal	gastrointestinal	O	I_disease
+Treat	treat	O	I_disease
 Cancer	cancer	O	S_disease
 Cooperative	cooperative	O	O
 Group	group	O	O
@@ -303,8 +303,8 @@ occurred	occurred	O	O
 .	.	O	O
 
 Other	other	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 were	were	O	O
 rare	rare	O	O
 ,	,	O	O

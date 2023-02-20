@@ -39,7 +39,7 @@ after	after	O	O
 exposure	exposure	O	O
 to	to	O	O
 the	the	O	O
-antidepressant	antidepressant	S_chemical	O
+antidepressant	antidepressant	B_chemical	O
 fluoxetine	fluoxetine	S_chemical	O
 .	.	O	O
 

@@ -30,14 +30,14 @@ occurred	occurred	O	O
 after	after	O	O
 administration	administration	O	O
 of	of	O	O
-troleandomycin	troleandomycin	O	O
+troleandomycin	troleandomycin	S_chemical	O
 for	for	O	O
 7	7	O	O
 days	days	O	O
 and	and	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 hypereosinophilia	hypereosinophilia	O	O
 .	.	O	O
 
@@ -85,8 +85,8 @@ normal	normal	O	O
 months	months	O	O
 after	after	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 hepatitis	hepatitis	O	S_disease
 .	.	O	O
 

@@ -4,12 +4,12 @@ and	and	O	O
 encephalopathy	encephalopathy	O	S_disease
 in	in	O	O
 atypical	atypical	O	O
-nonketotic	nonketotic	O	O
-hyperglycinemia	hyperglycinemia	O	O
+nonketotic	nonketotic	O	S_disease
+hyperglycinemia	hyperglycinemia	O	S_disease
 .	.	O	O
 
-Nonketotic	nonketotic	O	O
-hyperglycinemia	hyperglycinemia	O	O
+Nonketotic	nonketotic	O	S_disease
+hyperglycinemia	hyperglycinemia	O	S_disease
 is	is	O	O
 a	a	O	O
 disorder	disorder	O	O
@@ -60,8 +60,8 @@ hypotonia	hypotonia	O	O
 followed	followed	O	O
 by	by	O	O
 significant	significant	O	O
-psychomotor	psychomotor	O	O
-retardation	retardation	O	O
+psychomotor	psychomotor	O	B_disease
+retardation	retardation	O	I_disease
 .	.	O	O
 
 An	an	O	O
@@ -70,8 +70,8 @@ subset	subset	O	O
 of	of	O	O
 children	children	O	O
 with	with	O	O
-nonketotic	nonketotic	O	O
-hyperglycinemia	hyperglycinemia	O	O
+nonketotic	nonketotic	O	S_disease
+hyperglycinemia	hyperglycinemia	O	S_disease
 are	are	O	O
 atypical	atypical	O	O
 variants	variants	O	O
@@ -89,8 +89,8 @@ describes	describes	O	O
 a	a	O	O
 patient	patient	O	O
 with	with	O	O
-mild	mild	O	O
-language	language	O	O
+mild	mild	O	B_disease
+language	language	O	I_disease
 delay	delay	O	O
 and	and	O	O
 mental	mental	O	O
@@ -101,8 +101,8 @@ was	was	O	O
 found	found	O	O
 to	to	O	O
 have	have	O	O
-nonketotic	nonketotic	O	O
-hyperglycinemia	hyperglycinemia	O	O
+nonketotic	nonketotic	O	S_disease
+hyperglycinemia	hyperglycinemia	O	S_disease
 following	following	O	O
 her	her	O	O
 presentation	presentation	O	O

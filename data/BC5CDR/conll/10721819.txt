@@ -144,7 +144,7 @@ by	by	O	O
 i.v	i.v	O	O
 .	.	O	O
 
-domperidone	domperidone	O	O
+domperidone	domperidone	S_chemical	O
 (	(	O	O
 0.5	0.5	O	O
 mg/kg	mg/kg	O	O
@@ -178,9 +178,9 @@ isoproterenol-induced	isoproterenol-induced	O	O
 maximal	maximal	O	O
 increase	increase	O	O
 in	in	O	O
-left	left	O	O
-ventricular	ventricular	O	O
-systolic	systolic	O	O
+left	left	O	B_disease
+ventricular	ventricular	O	I_disease
+systolic	systolic	O	I_disease
 pressure	pressure	O	O
 was	was	O	O
 significantly	significantly	O	O
@@ -198,9 +198,9 @@ the	the	O	O
 isoproterenol-induced	isoproterenol-induced	O	O
 increase	increase	O	O
 in	in	O	O
-left	left	O	O
-ventricular	ventricular	O	O
-systolic	systolic	O	O
+left	left	O	B_disease
+ventricular	ventricular	O	I_disease
+systolic	systolic	O	I_disease
 pressure	pressure	O	O
 was	was	O	O
 enhanced	enhanced	O	O

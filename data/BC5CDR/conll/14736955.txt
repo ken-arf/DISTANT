@@ -1,4 +1,4 @@
-Mitochondrial	mitochondrial	O	O
+Mitochondrial	mitochondrial	O	S_disease
 DNA	dna	O	O
 and	and	O	O
 its	its	O	O
@@ -25,8 +25,8 @@ early	early	O	O
 glomerular	glomerular	O	O
 and	and	O	O
 late-onset	late-onset	O	O
-tubular	tubular	O	O
-lesions	lesions	O	O
+tubular	tubular	O	B_disease
+lesions	lesions	O	I_disease
 in	in	O	O
 rats	rats	O	O
 .	.	O	O
@@ -37,12 +37,12 @@ the	the	O	O
 potential	potential	O	O
 role	role	O	O
 of	of	O	O
-mitochondrial	mitochondrial	O	O
-injury	injury	O	O
+mitochondrial	mitochondrial	O	B_disease
+injury	injury	O	I_disease
 in	in	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 these	these	O	O
 lesions	lesions	O	O
 .	.	O	O
@@ -121,8 +121,8 @@ age	age	O	O
 
 Glomerular	glomerular	O	O
 and	and	O	O
-tubular	tubular	O	O
-injury	injury	O	O
+tubular	tubular	O	B_disease
+injury	injury	O	I_disease
 was	was	O	O
 monitored	monitored	O	O
 and	and	O	O
@@ -145,7 +145,7 @@ quantified	quantified	O	O
 both	both	O	O
 nuclear	nuclear	O	O
 and	and	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 DNA	dna	O	O
 (	(	O	O
 mtDNA	mtdna	O	O
@@ -178,8 +178,8 @@ had	had	O	O
 significant	significant	O	O
 glomerular	glomerular	O	O
 and	and	O	O
-tubular	tubular	O	O
-lesions	lesions	O	O
+tubular	tubular	O	B_disease
+lesions	lesions	O	I_disease
 ,	,	O	O
 depressed	depressed	O	S_disease
 activities	activities	O	O
@@ -228,15 +228,15 @@ rats	rats	O	O
 there	there	O	O
 were	were	O	O
 fewer	fewer	O	O
-tubular	tubular	O	O
-lesions	lesions	O	O
+tubular	tubular	O	B_disease
+lesions	lesions	O	I_disease
 ,	,	O	O
 but	but	O	O
 similar	similar	O	O
 numbers	numbers	O	O
 of	of	O	O
-glomerular	glomerular	O	O
-lesions	lesions	O	O
+glomerular	glomerular	O	B_disease
+lesions	lesions	O	I_disease
 activity	activity	O	O
 .	.	O	O
 
@@ -246,8 +246,8 @@ animals	animals	O	O
 ,	,	O	O
 glomerular	glomerular	O	O
 and	and	O	O
-tubular	tubular	O	O
-injury	injury	O	O
+tubular	tubular	O	B_disease
+injury	injury	O	I_disease
 were	were	O	O
 inversely	inversely	O	O
 correlated	correlated	O	O
@@ -282,7 +282,7 @@ the	the	O	O
 activities	activities	O	O
 of	of	O	O
 nucleus-encoded	nucleus-encoded	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 or	or	O	O
 cytoplasmic	cytoplasmic	O	O
 enzymes	enzymes	O	O
@@ -344,7 +344,7 @@ of	of	O	O
 superoxide	superoxide	S_chemical	O
 in	in	O	O
 doxorubicin-induced	doxorubicin-induced	O	O
-renal	renal	O	O
-lesions	lesions	O	O
+renal	renal	O	B_disease
+lesions	lesions	O	I_disease
 .	.	O	O
 

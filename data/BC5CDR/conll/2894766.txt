@@ -1,6 +1,6 @@
 Sulfasalazine-induced	sulfasalazine-induced	O	O
-lupus	lupus	O	O
-erythematosus	erythematosus	O	O
+lupus	lupus	O	B_disease
+erythematosus	erythematosus	O	I_disease
 .	.	O	O
 
 Pneumonitis	pneumonitis	O	O
@@ -31,9 +31,9 @@ long-term	long-term	O	O
 sulfasalazine	sulfasalazine	S_chemical	O
 therapy	therapy	O	O
 for	for	O	O
-chronic	chronic	O	O
-ulcerative	ulcerative	O	O
-colitis	colitis	O	O
+chronic	chronic	O	B_disease
+ulcerative	ulcerative	O	B_disease
+colitis	colitis	O	I_disease
 .	.	O	O
 
 After	after	O	O
@@ -76,17 +76,17 @@ lupus	lupus	O	O
 which	which	O	O
 manifested	manifested	O	O
 with	with	O	O
-serositis	serositis	O	O
+serositis	serositis	O	S_disease
 and	and	O	O
-pulmonary	pulmonary	O	O
-parenchymal	parenchymal	O	O
+pulmonary	pulmonary	O	B_disease
+parenchymal	parenchymal	O	I_disease
 involvement	involvement	O	O
 in	in	O	O
 the	the	O	O
 absence	absence	O	O
 of	of	O	O
-joint	joint	O	O
-symptoms	symptoms	O	O
+joint	joint	O	B_disease
+symptoms	symptoms	O	I_disease
 .	.	O	O
 
 Physicians	physicians	O	O
@@ -97,9 +97,9 @@ to	to	O	O
 treat	treat	O	O
 patients	patients	O	O
 with	with	O	O
-inflammatory	inflammatory	O	O
-bowel	bowel	O	O
-disease	disease	O	O
+inflammatory	inflammatory	O	B_disease
+bowel	bowel	O	I_disease
+disease	disease	O	I_disease
 should	should	O	O
 be	be	O	O
 aware	aware	O	O
@@ -108,7 +108,7 @@ the	the	O	O
 signs	signs	O	O
 of	of	O	O
 sulfasalazine-induced	sulfasalazine-induced	O	O
-lupus	lupus	O	O
-syndrome	syndrome	O	O
+lupus	lupus	O	B_disease
+syndrome	syndrome	O	I_disease
 .	.	O	O
 

@@ -23,9 +23,9 @@ to	to	O	O
 be	be	O	O
 free	free	O	O
 of	of	O	O
-extrapyramidal	extrapyramidal	O	O
-side	side	O	O
-effects	effects	O	O
+extrapyramidal	extrapyramidal	O	S_disease
+side	side	O	B_disease
+effects	effects	O	I_disease
 ,	,	O	O
 sulpiride-induced	sulpiride-induced	O	O
 tardive	tardive	O	B_disease

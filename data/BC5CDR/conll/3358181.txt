@@ -1,10 +1,10 @@
-Ventricular	ventricular	O	O
-tachyarrhythmias	tachyarrhythmias	O	O
+Ventricular	ventricular	O	B_disease
+tachyarrhythmias	tachyarrhythmias	O	S_disease
 during	during	O	O
 cesarean	cesarean	O	O
 section	section	O	O
 after	after	O	O
-ritodrine	ritodrine	O	O
+ritodrine	ritodrine	S_chemical	O
 therapy	therapy	O	O
 :	:	O	O
 interaction	interaction	O	O
@@ -18,7 +18,7 @@ illustrates	illustrates	O	O
 that	that	O	O
 patients	patients	O	O
 receiving	receiving	O	O
-ritodrine	ritodrine	O	O
+ritodrine	ritodrine	S_chemical	O
 for	for	O	O
 preterm	preterm	O	O
 labor	labor	O	O
@@ -31,7 +31,7 @@ residual	residual	O	O
 betamimetic	betamimetic	O	O
 effects	effects	O	O
 of	of	O	O
-ritodrine	ritodrine	O	O
+ritodrine	ritodrine	S_chemical	O
 and	and	O	O
 the	the	O	O
 effects	effects	O	O
@@ -57,7 +57,7 @@ of	of	O	O
 an	an	O	O
 infusion	infusion	O	O
 of	of	O	O
-ritodrine	ritodrine	O	O
+ritodrine	ritodrine	S_chemical	O
 .	.	O	O
 
 Preoperative	preoperative	O	O

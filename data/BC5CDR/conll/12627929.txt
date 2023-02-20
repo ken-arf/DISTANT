@@ -30,7 +30,7 @@ of	of	O	O
 venous	venous	O	B_disease
 thromboembolism	thromboembolism	O	I_disease
 (	(	O	O
-VTE	vte	O	S_disease
+VTE	vte	S_chemical	S_disease
 )	)	O	O
 in	in	O	O
 patients	patients	O	O
@@ -163,7 +163,7 @@ received	received	O	O
 docetaxel	docetaxel	S_chemical	O
 alone	alone	O	O
 developed	developed	O	O
-VTE	vte	O	S_disease
+VTE	vte	S_chemical	S_disease
 ,	,	O	O
 whereas	whereas	O	O
 9	9	O	O
@@ -180,7 +180,7 @@ docetaxel	docetaxel	S_chemical	O
 plus	plus	O	O
 thalidomide	thalidomide	S_chemical	O
 developed	developed	O	O
-VTE	vte	O	S_disease
+VTE	vte	S_chemical	S_disease
 (	(	O	O
 p=0.025	p=0.025	O	O
 )	)	O	O
@@ -205,7 +205,7 @@ increases	increases	O	O
 the	the	O	O
 frequency	frequency	O	O
 of	of	O	O
-VTE	vte	O	S_disease
+VTE	vte	S_chemical	S_disease
 .	.	O	O
 
 Clinicians	clinicians	O	O

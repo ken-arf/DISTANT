@@ -78,8 +78,8 @@ this	this	O	O
 syndrome	syndrome	O	O
 ,	,	O	O
 with	with	O	O
-hyperdynamic	hyperdynamic	O	O
-apex	apex	O	O
+hyperdynamic	hyperdynamic	O	B_disease
+apex	apex	O	I_disease
 and	and	O	O
 complete	complete	O	O
 akinesia	akinesia	O	O

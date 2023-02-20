@@ -5,8 +5,8 @@ trial	trial	O	O
 of	of	O	O
 mazindol	mazindol	S_chemical	O
 in	in	O	O
-Duchenne	duchenne	O	O
-dystrophy	dystrophy	O	O
+Duchenne	duchenne	O	B_disease
+dystrophy	dystrophy	O	I_disease
 .	.	O	O
 
 There	there	O	O
@@ -24,8 +24,8 @@ progression	progression	O	O
 of	of	O	O
 weakness	weakness	O	S_disease
 in	in	O	O
-Duchenne	duchenne	O	O
-dystrophy	dystrophy	O	O
+Duchenne	duchenne	O	B_disease
+dystrophy	dystrophy	O	I_disease
 .	.	O	O
 
 We	we	O	O
@@ -48,8 +48,8 @@ in	in	O	O
 83	83	O	O
 boys	boys	O	O
 with	with	O	O
-Duchenne	duchenne	O	O
-dystrophy	dystrophy	O	O
+Duchenne	duchenne	O	B_disease
+dystrophy	dystrophy	O	I_disease
 .	.	O	O
 
 Muscle	muscle	O	O
@@ -131,14 +131,14 @@ the	the	O	O
 study	study	O	O
 .	.	O	O
 
-Side	side	O	O
-effects	effects	O	O
+Side	side	O	B_disease
+effects	effects	O	I_disease
 attributable	attributable	O	O
 to	to	O	O
 mazindol	mazindol	S_chemical	O
 included	included	O	O
-decreased	decreased	O	O
-appetite	appetite	O	O
+decreased	decreased	B_chemical	O
+appetite	appetite	I_chemical	O
 (	(	O	O
 36	36	O	O
 %	%	O	O
@@ -159,8 +159,8 @@ change	change	O	O
 )	)	O	O
 ,	,	O	O
 and	and	O	O
-gastrointestinal	gastrointestinal	O	O
-symptoms	symptoms	O	O
+gastrointestinal	gastrointestinal	O	B_disease
+symptoms	symptoms	O	I_disease
 (	(	O	O
 18	18	O	O
 %	%	O	O
@@ -247,7 +247,7 @@ progression	progression	O	O
 of	of	O	O
 weakness	weakness	O	S_disease
 in	in	O	O
-Duchenne	duchenne	O	O
-dystrophy	dystrophy	O	O
+Duchenne	duchenne	O	B_disease
+dystrophy	dystrophy	O	I_disease
 .	.	O	O
 

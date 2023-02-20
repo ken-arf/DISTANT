@@ -9,7 +9,7 @@ effect	effect	O	O
 of	of	O	O
 high	high	O	O
 dose	dose	O	O
-D-penicillamine	d-penicillamine	O	O
+D-penicillamine	d-penicillamine	S_chemical	O
 treatment	treatment	O	O
 on	on	O	O
 aortic	aortic	O	O
@@ -31,7 +31,7 @@ rats	rats	O	O
 were	were	O	O
 treated	treated	O	O
 with	with	O	O
-D-penicillamine	d-penicillamine	O	O
+D-penicillamine	d-penicillamine	S_chemical	O
 (	(	O	O
 D-pen	d-pen	O	O
 )	)	O	O
@@ -205,7 +205,7 @@ exclusion	exclusion	O	O
 effect	effect	O	O
 of	of	O	O
 abundant	abundant	O	O
-hyaluronate	hyaluronate	O	O
+hyaluronate	hyaluronate	S_chemical	O
 .	.	O	O
 
 The	the	O	O

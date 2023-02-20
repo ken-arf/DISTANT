@@ -4,7 +4,7 @@ of	of	O	O
 prepulse	prepulse	O	O
 inhibition	inhibition	O	O
 by	by	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 stimulation	stimulation	O	O
 after	after	O	O
 maternal	maternal	O	O
@@ -25,8 +25,8 @@ may	may	O	O
 include	include	O	O
 an	an	O	O
 early	early	O	O
-neurodevelopmental	neurodevelopmental	O	O
-stress	stress	O	O
+neurodevelopmental	neurodevelopmental	O	B_disease
+stress	stress	O	I_disease
 component	component	O	O
 which	which	O	O
 increases	increases	O	O
@@ -41,8 +41,8 @@ in	in	O	O
 combination	combination	O	O
 leading	leading	O	O
 to	to	O	O
-overt	overt	O	O
-disease	disease	O	O
+overt	overt	O	B_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 We	we	O	O
@@ -51,8 +51,8 @@ the	the	O	O
 effect	effect	O	O
 of	of	O	O
 an	an	O	O
-early	early	O	O
-stress	stress	O	O
+early	early	O	B_disease
+stress	stress	O	I_disease
 ,	,	O	O
 in	in	O	O
 the	the	O	O
@@ -179,8 +179,8 @@ an	an	O	O
 inhibitory	inhibitory	O	O
 interaction	interaction	O	O
 of	of	O	O
-early	early	O	O
-stress	stress	O	O
+early	early	O	B_disease
+stress	stress	O	I_disease
 ,	,	O	O
 caused	caused	O	O
 by	by	O	O
@@ -200,7 +200,7 @@ corticosterone	corticosterone	S_chemical	O
 treatment	treatment	O	O
 ,	,	O	O
 on	on	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 regulation	regulation	O	O
 of	of	O	O
 PPI	ppi	O	O

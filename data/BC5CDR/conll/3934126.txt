@@ -2,10 +2,10 @@ A	a	O	O
 prospective	prospective	O	O
 study	study	O	O
 of	of	O	O
-adverse	adverse	O	O
-reactions	reactions	O	O
-associated	associated	O	O
-with	with	O	O
+adverse	adverse	O	B_disease
+reactions	reactions	O	I_disease
+associated	associated	O	B_disease
+with	with	O	I_disease
 vancomycin	vancomycin	S_chemical	O
 therapy	therapy	O	O
 .	.	O	O
@@ -54,8 +54,8 @@ six	six	O	O
 patients	patients	O	O
 because	because	O	O
 of	of	O	O
-adverse	adverse	O	O
-reactions	reactions	O	O
+adverse	adverse	O	B_disease
+reactions	reactions	O	I_disease
 ;	;	O	O
 in	in	O	O
 three	three	O	O

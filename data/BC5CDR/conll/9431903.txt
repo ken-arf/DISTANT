@@ -1,7 +1,7 @@
 Effect	effect	O	O
 of	of	O	O
-glyceryl	glyceryl	O	O
-trinitrate	trinitrate	O	O
+glyceryl	glyceryl	B_chemical	O
+trinitrate	trinitrate	S_chemical	O
 on	on	O	O
 the	the	O	O
 sphincter	sphincter	O	O
@@ -22,8 +22,8 @@ study	study	O	O
 the	the	O	O
 effect	effect	O	O
 of	of	O	O
-glyceryl	glyceryl	O	O
-trinitrate	trinitrate	O	O
+glyceryl	glyceryl	B_chemical	O
+trinitrate	trinitrate	S_chemical	O
 on	on	O	O
 the	the	O	O
 prostigmine-morphine-induced	prostigmine-morphine-induced	O	O
@@ -58,7 +58,7 @@ administration	administration	O	O
 (	(	O	O
 0.5	0.5	O	O
 mg	mg	O	O
-prostigmine	prostigmine	O	O
+prostigmine	prostigmine	S_chemical	O
 intramuscularly	intramuscularly	O	O
 and	and	O	O
 10	10	O	O
@@ -80,8 +80,8 @@ procedure	procedure	O	O
 was	was	O	O
 repeated	repeated	O	O
 during	during	O	O
-glyceryl	glyceryl	O	O
-trinitrate	trinitrate	O	O
+glyceryl	glyceryl	B_chemical	O
+trinitrate	trinitrate	S_chemical	O
 infusion	infusion	O	O
 (	(	O	O
 Nitrolingual	nitrolingual	O	O
@@ -211,8 +211,8 @@ of	of	O	O
 Oddi	oddi	O	O
 .	.	O	O
 
-Glyceryl	glyceryl	O	O
-trinitrate	trinitrate	O	O
+Glyceryl	glyceryl	B_chemical	O
+trinitrate	trinitrate	S_chemical	O
 infusion	infusion	O	O
 completely	completely	O	O
 normalized	normalized	O	O
@@ -290,8 +290,8 @@ effective	effective	O	O
 sphincter-relaxing	sphincter-relaxing	O	O
 effect	effect	O	O
 of	of	O	O
-glyceryl	glyceryl	O	O
-trinitrate	trinitrate	O	O
+glyceryl	glyceryl	B_chemical	O
+trinitrate	trinitrate	S_chemical	O
 .	.	O	O
 
 CONCLUSION	conclusion	O	O
@@ -306,8 +306,8 @@ of	of	O	O
 the	the	O	O
 effectiveness	effectiveness	O	O
 of	of	O	O
-glyceryl	glyceryl	O	O
-trinitrate	trinitrate	O	O
+glyceryl	glyceryl	B_chemical	O
+trinitrate	trinitrate	S_chemical	O
 on	on	O	O
 the	the	O	O
 morphine-induced	morphine-induced	O	O
@@ -320,8 +320,8 @@ humans	humans	O	O
 .	.	O	O
 
 Since	since	O	O
-glyceryl	glyceryl	O	O
-trinitrate	trinitrate	O	O
+glyceryl	glyceryl	B_chemical	O
+trinitrate	trinitrate	S_chemical	O
 is	is	O	O
 able	able	O	O
 to	to	O	O

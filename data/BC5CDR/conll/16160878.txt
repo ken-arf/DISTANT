@@ -18,9 +18,9 @@ widely	widely	O	O
 distributed	distributed	O	O
 in	in	O	O
 the	the	O	O
-central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 .	.	O	O
 
 Intracerebroventricular	intracerebroventricular	O	O
@@ -274,7 +274,7 @@ of	of	O	O
 10,000	10,000	O	O
 ng/mouse	ng/mouse	O	O
 induces	induces	O	O
-anxiogenic-	anxiogenic-	O	O
+anxiogenic-	anxiogenic-	S_chemical	O
 and	and	O	O
 depressant-like	depressant-like	O	O
 effects	effects	O	O
@@ -294,7 +294,7 @@ in	in	O	O
 some	some	O	O
 aspects	aspects	O	O
 of	of	O	O
-psychiatric	psychiatric	O	S_disease
-disorders	disorders	O	O
+psychiatric	psychiatric	O	B_disease
+disorders	disorders	O	I_disease
 .	.	O	O
 

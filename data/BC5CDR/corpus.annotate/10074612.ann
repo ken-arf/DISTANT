@@ -1,0 +1,13 @@
+T4	Chemical 67 85	methylprednisolone
+T8	Chemical 214 232	methylprednisolone
+T9	Disease 357 381	ischemic cardiac disease
+T10	Disease 431 455	pulmonary-renal syndrome
+T12	Disease 493 506	renal failure
+T13	Disease 512 521	hypoxemia
+T14	Disease 612 641	cardiopulmonary resuscitation
+T15	Disease 665 679	cardiac rhythm
+T16	Disease 724 746	ventricular arrhythmia
+T17	Disease 802 814	sudden death
+T18	Chemical 848 866	methylprednisolone
+T19	Disease 1019 1045	underlying cardiac disease
+T20	Disease 1126 1148	ventricular arrhythmia

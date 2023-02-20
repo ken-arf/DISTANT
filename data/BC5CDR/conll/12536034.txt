@@ -1,8 +1,8 @@
 Anti-epileptic	anti-epileptic	O	O
 drugs-induced	drugs-induced	O	O
-de	de	O	O
-novo	novo	O	O
-absence	absence	O	O
+de	de	O	B_disease
+novo	novo	O	I_disease
+absence	absence	O	B_disease
 seizures	seizures	O	S_disease
 .	.	O	O
 
@@ -12,15 +12,15 @@ present	present	O	O
 three	three	O	O
 patients	patients	O	O
 with	with	O	O
-de	de	O	O
-novo	novo	O	O
-absence	absence	O	O
+de	de	O	B_disease
+novo	novo	O	I_disease
+absence	absence	O	B_disease
 epilepsy	epilepsy	O	S_disease
 after	after	O	O
 administration	administration	O	O
 of	of	O	O
-carbamazepine	carbamazepine	S_chemical	O
-and	and	O	O
+carbamazepine	carbamazepine	B_chemical	O
+and	and	I_chemical	O
 vigabatrin	vigabatrin	S_chemical	O
 .	.	O	O
 
@@ -33,8 +33,8 @@ the	the	O	O
 prognosis	prognosis	O	O
 for	for	O	O
 drug-induced	drug-induced	O	O
-de	de	O	O
-novo	novo	O	O
+de	de	O	B_disease
+novo	novo	O	I_disease
 absence	absence	O	O
 seizure	seizure	O	S_disease
 is	is	O	O
@@ -54,7 +54,7 @@ drugs	drugs	O	O
 .	.	O	O
 
 The	the	O	O
-gamma-aminobutyric	gamma-aminobutyric	O	O
+gamma-aminobutyric	gamma-aminobutyric	S_chemical	O
 acid-transmitted	acid-transmitted	O	O
 thalamocortical	thalamocortical	O	O
 circuitry	circuitry	O	O
@@ -69,14 +69,14 @@ underlying	underlying	O	O
 neurophysiology	neurophysiology	O	O
 of	of	O	O
 the	the	O	O
-absence	absence	O	O
+absence	absence	O	B_disease
 epilepsy	epilepsy	O	S_disease
 .	.	O	O
 
 Because	because	O	O
 drug-induced	drug-induced	O	O
-de	de	O	O
-novo	novo	O	O
+de	de	O	B_disease
+novo	novo	O	I_disease
 absence	absence	O	O
 seizure	seizure	O	S_disease
 is	is	O	O
@@ -112,8 +112,8 @@ required	required	O	O
 to	to	O	O
 trigger	trigger	O	O
 the	the	O	O
-de	de	O	O
-novo	novo	O	O
+de	de	O	B_disease
+novo	novo	O	I_disease
 absence	absence	O	O
 seizure	seizure	O	S_disease
 .	.	O	O
@@ -152,7 +152,7 @@ the	the	O	O
 underlying	underlying	O	O
 mechanism	mechanism	O	O
 of	of	O	O
-absence	absence	O	O
+absence	absence	O	B_disease
 epilepsy	epilepsy	O	S_disease
 ,	,	O	O
 we	we	O	O
@@ -170,7 +170,7 @@ epilepsy	epilepsy	O	S_disease
 and	and	O	O
 prevent	prevent	O	O
 drug-induced	drug-induced	O	O
-absence	absence	O	O
+absence	absence	O	B_disease
 seizures	seizures	O	S_disease
 .	.	O	O
 

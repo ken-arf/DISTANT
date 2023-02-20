@@ -2,15 +2,15 @@ The	the	O	O
 epidemiology	epidemiology	O	O
 of	of	O	O
 the	the	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 flank	flank	O	B_disease
-pain	pain	O	S_disease
-syndrome	syndrome	O	O
+pain	pain	O	B_disease
+syndrome	syndrome	O	I_disease
 from	from	O	O
-suprofen	suprofen	O	O
+suprofen	suprofen	S_chemical	O
 .	.	O	O
 
-Suprofen	suprofen	O	O
+Suprofen	suprofen	S_chemical	O
 ,	,	O	O
 a	a	O	O
 new	new	O	O
@@ -35,10 +35,10 @@ began	began	O	O
 reporting	reporting	O	O
 an	an	O	O
 unusual	unusual	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 flank	flank	O	B_disease
-pain	pain	O	S_disease
-syndrome	syndrome	O	O
+pain	pain	O	B_disease
+syndrome	syndrome	O	I_disease
 to	to	O	O
 the	the	O	O
 spontaneous	spontaneous	O	O
@@ -139,7 +139,7 @@ interval	interval	O	O
 ,	,	O	O
 suffer	suffer	O	O
 from	from	O	O
-hay	hay	O	O
+hay	hay	O	B_disease
 fever	fever	O	S_disease
 and	and	O	O
 asthma	asthma	O	O
@@ -233,14 +233,14 @@ ibuprofen	ibuprofen	S_chemical	O
 )	)	O	O
 ,	,	O	O
 preexisting	preexisting	O	O
-renal	renal	O	O
-disease	disease	O	O
+renal	renal	O	B_disease
+disease	disease	O	I_disease
 ,	,	O	O
 a	a	O	O
 history	history	O	O
 of	of	O	O
-kidney	kidney	O	O
-stones	stones	O	O
+kidney	kidney	O	B_disease
+stones	stones	O	I_disease
 ,	,	O	O
 a	a	O	O
 history	history	O	O
@@ -302,7 +302,7 @@ of	of	O	O
 uric	uric	B_chemical	O
 acid	acid	I_chemical	O
 in	in	O	O
-renal	renal	O	O
-tubules	tubules	O	O
+renal	renal	O	B_disease
+tubules	tubules	O	I_disease
 .	.	O	O
 

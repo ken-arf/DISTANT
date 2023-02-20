@@ -3,7 +3,7 @@ following	following	O	O
 the	the	O	O
 initiation	initiation	O	O
 of	of	O	O
-tizanidine	tizanidine	O	O
+tizanidine	tizanidine	S_chemical	O
 in	in	O	O
 a	a	O	O
 patient	patient	O	O
@@ -15,7 +15,7 @@ converting	converting	O	O
 enzyme	enzyme	O	O
 inhibitor	inhibitor	O	O
 for	for	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 hypertension	hypertension	O	S_disease
 .	.	O	O
 
@@ -41,9 +41,9 @@ to	to	O	O
 disorders	disorders	O	O
 of	of	O	O
 the	the	O	O
-central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 .	.	O	O
 
 In	in	O	O
@@ -116,7 +116,7 @@ following	following	O	O
 the	the	O	O
 addition	addition	O	O
 of	of	O	O
-tizanidine	tizanidine	O	O
+tizanidine	tizanidine	S_chemical	O
 ,	,	O	O
 an	an	O	O
 alpha-2	alpha-2	O	O
@@ -133,7 +133,7 @@ The	the	O	O
 possible	possible	O	O
 interaction	interaction	O	O
 of	of	O	O
-tizanidine	tizanidine	O	O
+tizanidine	tizanidine	S_chemical	O
 and	and	O	O
 other	other	O	O
 antihypertensive	antihypertensive	B_chemical	O

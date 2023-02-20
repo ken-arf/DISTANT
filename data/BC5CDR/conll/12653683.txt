@@ -2,7 +2,7 @@ Epithelial	epithelial	O	O
 sodium	sodium	S_chemical	O
 channel	channel	O	O
 (	(	O	O
-ENaC	enac	O	O
+ENaC	enac	S_chemical	S_disease
 )	)	O	O
 subunit	subunit	O	O
 mRNA	mrna	O	O
@@ -12,7 +12,7 @@ expression	expression	O	O
 in	in	O	O
 rats	rats	O	O
 with	with	O	O
-puromycin	puromycin	O	O
+puromycin	puromycin	S_chemical	O
 aminonucleoside-induced	aminonucleoside-induced	O	O
 nephrotic	nephrotic	O	B_disease
 syndrome	syndrome	O	I_disease
@@ -66,7 +66,7 @@ epithelial	epithelial	O	O
 sodium	sodium	S_chemical	O
 channel	channel	O	O
 (	(	O	O
-ENaC	enac	O	O
+ENaC	enac	S_chemical	S_disease
 )	)	O	O
 .	.	O	O
 
@@ -75,7 +75,7 @@ examined	examined	O	O
 the	the	O	O
 abundance	abundance	O	O
 of	of	O	O
-ENaC	enac	O	O
+ENaC	enac	S_chemical	S_disease
 subunit	subunit	O	O
 mRNAs	mrnas	O	O
 and	and	O	O
@@ -96,7 +96,7 @@ urinary	urinary	O	O
 sodium	sodium	S_chemical	O
 excretion	excretion	O	O
 ,	,	O	O
-plasma	plasma	O	O
+plasma	plasma	B_chemical	O
 aldosterone	aldosterone	S_chemical	O
 concentration	concentration	O	O
 and	and	O	O
@@ -123,11 +123,11 @@ The	the	O	O
 relative	relative	O	O
 amounts	amounts	O	O
 of	of	O	O
-alphaENaC	alphaenac	O	O
+alphaENaC	alphaenac	S_chemical	O
 ,	,	O	O
-betaENaC	betaenac	O	O
+betaENaC	betaenac	S_chemical	O
 and	and	O	O
-gammaENaC	gammaenac	O	O
+gammaENaC	gammaenac	S_chemical	O
 mRNAs	mrnas	O	O
 were	were	O	O
 determined	determined	O	O
@@ -190,9 +190,9 @@ A	a	O	O
 significant	significant	O	O
 up-regulation	up-regulation	O	O
 of	of	O	O
-alphaENaC	alphaenac	O	O
+alphaENaC	alphaenac	S_chemical	O
 and	and	O	O
-betaENaC	betaenac	O	O
+betaENaC	betaenac	S_chemical	O
 mRNA	mrna	O	O
 abundance	abundance	O	O
 on	on	O	O
@@ -214,11 +214,11 @@ Conversely	conversely	O	O
 ,	,	O	O
 down-regulation	down-regulation	O	O
 of	of	O	O
-alphaENaC	alphaenac	O	O
+alphaENaC	alphaenac	S_chemical	O
 ,	,	O	O
-betaENaC	betaenac	O	O
+betaENaC	betaenac	S_chemical	O
 and	and	O	O
-gammaENaC	gammaenac	O	O
+gammaENaC	gammaenac	S_chemical	O
 mRNA	mrna	O	O
 expression	expression	O	O
 on	on	O	O
@@ -250,11 +250,11 @@ values	values	O	O
 The	the	O	O
 amounts	amounts	O	O
 of	of	O	O
-alphaENaC	alphaenac	O	O
+alphaENaC	alphaenac	S_chemical	O
 ,	,	O	O
-betaENaC	betaenac	O	O
+betaENaC	betaenac	S_chemical	O
 and	and	O	O
-gammaENaC	gammaenac	O	O
+gammaENaC	gammaenac	S_chemical	O
 proteins	proteins	O	O
 were	were	O	O
 not	not	O	O
@@ -268,12 +268,12 @@ retention	retention	O	O
 In	in	O	O
 conclusion	conclusion	O	O
 ,	,	O	O
-ENaC	enac	O	O
+ENaC	enac	S_chemical	S_disease
 mRNA	mrna	O	O
 expression	expression	O	O
 ,	,	O	O
 especially	especially	O	O
-alphaENaC	alphaenac	O	O
+alphaENaC	alphaenac	S_chemical	O
 ,	,	O	O
 is	is	O	O
 increased	increased	O	O

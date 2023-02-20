@@ -5,23 +5,23 @@ after	after	O	O
 long-term	long-term	O	O
 intake	intake	O	O
 of	of	O	O
-tramadol	tramadol	O	O
+tramadol	tramadol	S_chemical	O
 combined	combined	O	O
 with	with	O	O
 antidepressants	antidepressants	S_chemical	O
 .	.	O	O
 
-Tramadol	tramadol	O	O
+Tramadol	tramadol	S_chemical	O
 is	is	O	O
 a	a	O	O
 weak	weak	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 with	with	O	O
 effects	effects	O	O
 on	on	O	O
 adrenergic	adrenergic	O	O
 and	and	O	O
-serotonergic	serotonergic	O	O
+serotonergic	serotonergic	S_chemical	O
 neurotransmission	neurotransmission	O	O
 that	that	O	O
 is	is	O	O
@@ -31,9 +31,9 @@ treat	treat	O	O
 cancer	cancer	O	B_disease
 pain	pain	O	S_disease
 and	and	O	O
-chronic	chronic	O	O
-non	non	O	O
-malignant	malignant	O	O
+chronic	chronic	O	B_disease
+non	non	O	I_disease
+malignant	malignant	O	I_disease
 pain	pain	O	S_disease
 .	.	O	O
 
@@ -46,8 +46,8 @@ association	association	O	O
 with	with	O	O
 paroxetine	paroxetine	S_chemical	O
 and	and	O	O
-dosulepine	dosulepine	O	O
-hydrochloride	hydrochloride	O	O
+dosulepine	dosulepine	B_chemical	O
+hydrochloride	hydrochloride	I_chemical	O
 in	in	O	O
 a	a	O	O
 tetraparetic	tetraparetic	O	O
@@ -78,7 +78,7 @@ of	of	O	O
 psycho-active	psycho-active	O	O
 drugs	drugs	O	O
 and	and	O	O
-tramadol	tramadol	O	O
+tramadol	tramadol	S_chemical	O
 .	.	O	O
 
 The	the	O	O
@@ -97,9 +97,9 @@ with	with	O	O
 psycho-active	psycho-active	O	O
 drugs	drugs	O	O
 in	in	O	O
-chronic	chronic	O	O
-non	non	O	O
-malignant	malignant	O	O
+chronic	chronic	O	B_disease
+non	non	O	I_disease
+malignant	malignant	O	I_disease
 pain	pain	O	S_disease
 ,	,	O	O
 especially	especially	O	O

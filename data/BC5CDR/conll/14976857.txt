@@ -3,7 +3,7 @@ platypnea-orthodeoxia-like	platypnea-orthodeoxia-like	O	O
 syndrome	syndrome	O	O
 induced	induced	O	O
 by	by	O	O
-propafenone	propafenone	O	O
+propafenone	propafenone	S_chemical	O
 overdose	overdose	O	S_disease
 in	in	O	O
 a	a	O	O
@@ -62,7 +62,7 @@ via	via	O	O
 a	a	O	O
 patent	patent	O	O
 foramen	foramen	O	O
-ovale	ovale	O	O
+ovale	ovale	S_chemical	O
 occurred	occurred	O	O
 in	in	O	O
 the	the	O	O
@@ -80,7 +80,7 @@ probably	probably	O	O
 precipitated	precipitated	O	O
 by	by	O	O
 a	a	O	O
-propafenone	propafenone	O	O
+propafenone	propafenone	S_chemical	O
 overdose	overdose	O	S_disease
 .	.	O	O
 
@@ -134,7 +134,7 @@ stretching	stretching	O	O
 of	of	O	O
 the	the	O	O
 foramen	foramen	O	O
-ovale	ovale	O	O
+ovale	ovale	S_chemical	O
 and	and	O	O
 the	the	O	O
 creation	creation	O	O

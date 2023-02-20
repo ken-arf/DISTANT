@@ -1,9 +1,9 @@
 Hypothalamic	hypothalamic	O	O
 prolactin	prolactin	O	O
 receptor	receptor	O	O
-messenger	messenger	O	O
-ribonucleic	ribonucleic	O	O
-acid	acid	O	O
+messenger	messenger	B_chemical	O
+ribonucleic	ribonucleic	I_chemical	O
+acid	acid	I_chemical	O
 levels	levels	O	O
 ,	,	O	O
 prolactin	prolactin	O	O
@@ -53,7 +53,7 @@ We	we	O	O
 first	first	O	O
 tested	tested	O	O
 whether	whether	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 hyperprolactinemia	hyperprolactinemia	O	S_disease
 inhibited	inhibited	O	O
 two	two	O	O
@@ -74,7 +74,7 @@ LH	lh	O	O
 surge	surge	O	O
 .	.	O	O
 
-Chronic	chronic	O	O
+Chronic	chronic	O	B_disease
 hyperprolactinemia	hyperprolactinemia	O	S_disease
 induced	induced	O	O
 by	by	O	O
@@ -289,7 +289,7 @@ frequency	frequency	O	O
 is	is	O	O
 inhibited	inhibited	O	O
 by	by	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 hyperprolactinemia	hyperprolactinemia	O	S_disease
 in	in	O	O
 a	a	O	O

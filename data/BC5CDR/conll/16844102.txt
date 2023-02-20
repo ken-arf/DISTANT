@@ -1,6 +1,6 @@
 Effect	effect	O	O
 of	of	O	O
-alpha-tocopherol	alpha-tocopherol	O	O
+alpha-tocopherol	alpha-tocopherol	S_chemical	O
 and	and	O	O
 deferoxamine	deferoxamine	S_chemical	O
 on	on	O	O
@@ -10,14 +10,14 @@ neurotoxicity	neurotoxicity	O	S_disease
 
 Methamphetamine	methamphetamine	S_chemical	O
 (MA)-induced	(ma)-induced	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 neurotoxicity	neurotoxicity	O	S_disease
 is	is	O	O
 believed	believed	O	O
 to	to	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 increased	increased	O	O
 formation	formation	O	O
@@ -32,7 +32,7 @@ examined	examined	O	O
 the	the	O	O
 effect	effect	O	O
 of	of	O	O
-alpha-tocopherol	alpha-tocopherol	O	O
+alpha-tocopherol	alpha-tocopherol	S_chemical	O
 (	(	O	O
 alpha-TC	alpha-tc	O	O
 )	)	O	O
@@ -169,7 +169,7 @@ was	was	O	O
 higher	higher	O	O
 and	and	O	O
 the	the	O	O
-reduced	reduced	O	O
+reduced	reduced	B_chemical	O
 glutathione	glutathione	S_chemical	O
 concentration	concentration	O	O
 was	was	O	O
@@ -207,7 +207,7 @@ decreasing	decreasing	O	O
 the	the	O	O
 level	level	O	O
 of	of	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 .	.	O	O
 

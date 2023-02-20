@@ -1,6 +1,6 @@
-Cauda	cauda	O	O
-equina	equina	O	O
-syndrome	syndrome	O	O
+Cauda	cauda	O	B_disease
+equina	equina	O	I_disease
+syndrome	syndrome	O	I_disease
 after	after	O	O
 epidural	epidural	O	O
 steroid	steroid	S_chemical	O
@@ -18,7 +18,7 @@ treatment	treatment	O	O
 methods	methods	O	O
 of	of	O	O
 lumbusacral	lumbusacral	O	O
-radiculopathy	radiculopathy	O	O
+radiculopathy	radiculopathy	O	S_disease
 are	are	O	O
 physical	physical	O	O
 therapy	therapy	O	O
@@ -36,9 +36,9 @@ manipulative	manipulative	O	O
 therapy	therapy	O	O
 .	.	O	O
 
-Cauda	cauda	O	O
-equina	equina	O	O
-syndrome	syndrome	O	O
+Cauda	cauda	O	B_disease
+equina	equina	O	I_disease
+syndrome	syndrome	O	I_disease
 is	is	O	O
 a	a	O	O
 rare	rare	O	O
@@ -55,9 +55,9 @@ is	is	O	O
 a	a	O	O
 report	report	O	O
 of	of	O	O
-cauda	cauda	O	O
-equina	equina	O	O
-syndrome	syndrome	O	O
+cauda	cauda	O	B_disease
+equina	equina	O	I_disease
+syndrome	syndrome	O	I_disease
 possibly	possibly	O	O
 caused	caused	O	O
 by	by	O	O
@@ -163,8 +163,8 @@ later	later	O	O
 she	she	O	O
 complained	complained	O	O
 of	of	O	O
-perineal	perineal	O	O
-numbness	numbness	O	O
+perineal	perineal	O	B_disease
+numbness	numbness	O	I_disease
 and	and	O	O
 lower	lower	O	O
 extremity	extremity	O	O
@@ -267,8 +267,8 @@ hours	hours	O	O
 CONCLUSION	conclusion	O	O
 :	:	O	O
 Complications	complications	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 epidural	epidural	O	O
 steroid	steroid	S_chemical	O
 injections	injections	O	O
@@ -282,8 +282,8 @@ and	and	O	O
 continued	continued	O	O
 vigilance	vigilance	O	O
 for	for	O	O
-neurologic	neurologic	O	O
-deterioration	deterioration	O	O
+neurologic	neurologic	O	B_disease
+deterioration	deterioration	O	I_disease
 after	after	O	O
 epidural	epidural	O	O
 steroid	steroid	S_chemical	O

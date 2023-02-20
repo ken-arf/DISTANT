@@ -111,8 +111,8 @@ respectively	respectively	O	O
 
 This	this	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 similar	similar	O	O
 loss	loss	O	O
@@ -281,7 +281,7 @@ steroid	steroid	S_chemical	O
 groups	groups	O	O
 and	and	O	O
 also	also	O	O
-diaphragmatic	diaphragmatic	O	O
+diaphragmatic	diaphragmatic	O	S_disease
 type	type	O	O
 IIa	iia	O	O
 atrophy	atrophy	O	S_disease
@@ -391,7 +391,7 @@ properties	properties	O	O
 neither	neither	O	O
 steroid	steroid	S_chemical	O
 caused	caused	O	O
-muscle	muscle	O	O
+muscle	muscle	O	B_disease
 necrosis	necrosis	O	S_disease
 ;	;	O	O
 (	(	O	O

@@ -15,7 +15,7 @@ interferon	interferon	O	O
 and	and	O	O
 ribavirin	ribavirin	S_chemical	O
 for	for	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 hepatitis	hepatitis	O	S_disease
 C.BACKGROUND	c.background	O	O
 :	:	O	O
@@ -26,8 +26,8 @@ one	one	O	O
 of	of	O	O
 the	the	O	O
 major	major	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 of	of	O	O
 the	the	O	O
 combination	combination	O	O
@@ -187,8 +187,8 @@ to	to	O	O
 or	or	O	O
 anemia-related	anemia-related	O	O
 severe	severe	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 occurred	occurred	O	O
 (	(	O	O
 group	group	O	O
@@ -343,7 +343,7 @@ terms	terms	O	O
 of	of	O	O
 efficacy	efficacy	O	O
 and	and	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 

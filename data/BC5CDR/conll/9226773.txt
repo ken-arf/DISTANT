@@ -1,7 +1,7 @@
 Persistent	persistent	O	O
-nephrogenic	nephrogenic	O	O
+nephrogenic	nephrogenic	O	B_disease
 diabetes	diabetes	O	B_disease
-insipidus	insipidus	O	I_disease
+insipidus	insipidus	O	S_disease
 following	following	O	O
 lithium	lithium	S_chemical	O
 therapy	therapy	O	O
@@ -17,12 +17,12 @@ patient	patient	O	O
 who	who	O	O
 developed	developed	O	O
 severe	severe	O	O
-hypernatraemic	hypernatraemic	O	O
+hypernatraemic	hypernatraemic	O	B_disease
 dehydration	dehydration	O	S_disease
 following	following	O	O
 a	a	O	O
-head	head	O	O
-injury	injury	O	O
+head	head	O	B_disease
+injury	injury	O	I_disease
 .	.	O	O
 
 Ten	ten	O	O
@@ -35,9 +35,9 @@ diagnosed	diagnosed	O	O
 to	to	O	O
 have	have	O	O
 lithium-induced	lithium-induced	O	O
-nephrogenic	nephrogenic	O	O
+nephrogenic	nephrogenic	O	B_disease
 diabetes	diabetes	O	B_disease
-insipidus	insipidus	O	I_disease
+insipidus	insipidus	O	S_disease
 ,	,	O	O
 and	and	O	O
 lithium	lithium	S_chemical	O
@@ -51,7 +51,7 @@ He	he	O	O
 remained	remained	O	O
 thirsty	thirsty	O	O
 and	and	O	O
-polyuric	polyuric	O	O
+polyuric	polyuric	O	S_disease
 despite	despite	O	O
 cessation	cessation	O	O
 of	of	O	O
@@ -75,16 +75,16 @@ with	with	O	O
 clear	clear	O	O
 evidence	evidence	O	O
 of	of	O	O
-nephrogenic	nephrogenic	O	O
+nephrogenic	nephrogenic	O	B_disease
 diabetes	diabetes	O	B_disease
-insipidus	insipidus	O	I_disease
+insipidus	insipidus	O	S_disease
 .	.	O	O
 
 Lithium	lithium	S_chemical	O
 induced	induced	O	O
-nephrogenic	nephrogenic	O	O
+nephrogenic	nephrogenic	O	B_disease
 diabetes	diabetes	O	B_disease
-insipidus	insipidus	O	I_disease
+insipidus	insipidus	O	S_disease
 is	is	O	O
 considered	considered	O	O
 to	to	O	O
@@ -124,8 +124,8 @@ of	of	O	O
 patients	patients	O	O
 with	with	O	O
 lithium-induced	lithium-induced	O	O
-nephrogenic	nephrogenic	O	O
+nephrogenic	nephrogenic	O	B_disease
 diabetes	diabetes	O	B_disease
-insipidus	insipidus	O	I_disease
+insipidus	insipidus	O	S_disease
 .	.	O	O
 

@@ -27,7 +27,7 @@ contrast	contrast	O	O
 media-induced	media-induced	O	O
 nephropathy	nephropathy	O	S_disease
 (	(	O	O
-CIN	cin	O	O
+CIN	cin	S_chemical	O
 )	)	O	O
 in	in	O	O
 hospitalized	hospitalized	O	O
@@ -69,7 +69,7 @@ determined	determined	O	O
 the	the	O	O
 incidence	incidence	O	O
 of	of	O	O
-CIN	cin	O	O
+CIN	cin	S_chemical	O
 for	for	O	O
 two	two	O	O
 nonionic	nonionic	O	O
@@ -79,9 +79,9 @@ media	media	I_chemical	O
 CM	cm	O	S_disease
 )	)	O	O
 ,	,	O	O
-iopromide	iopromide	O	O
+iopromide	iopromide	S_chemical	O
 and	and	O	O
-iohexol	iohexol	O	O
+iohexol	iohexol	S_chemical	O
 ,	,	O	O
 among	among	O	O
 80	80	O	O
@@ -122,7 +122,7 @@ study	study	O	O
 consecutively	consecutively	O	O
 received	received	O	O
 either	either	O	O
-iopromide	iopromide	O	O
+iopromide	iopromide	S_chemical	O
 (	(	O	O
 group	group	O	O
 A	a	O	O
@@ -132,7 +132,7 @@ n	n	O	O
 40	40	O	O
 )	)	O	O
 or	or	O	O
-iohexol	iohexol	O	O
+iohexol	iohexol	S_chemical	O
 (	(	O	O
 group	group	O	O
 B	b	O	O
@@ -221,7 +221,7 @@ kidney	kidney	O	O
 function	function	O	O
 ,	,	O	O
 and	and	O	O
-End-stage	end-stage	O	O
+End-stage	end-stage	O	B_disease
 renal	renal	O	B_disease
 damage	damage	O	I_disease
 (	(	O	O
@@ -232,7 +232,7 @@ were	were	O	O
 used	used	O	O
 to	to	O	O
 define	define	O	O
-CIN	cin	O	O
+CIN	cin	S_chemical	O
 and	and	O	O
 its	its	O	O
 incidence	incidence	O	O
@@ -247,7 +247,7 @@ Accordingly	accordingly	O	O
 among	among	O	O
 the	the	O	O
 15	15	O	O
-CIN	cin	O	O
+CIN	cin	S_chemical	O
 patients	patients	O	O
 (	(	O	O
 18.75	18.75	O	O
@@ -296,7 +296,7 @@ of	of	O	O
 the	the	O	O
 patients	patients	O	O
 with	with	O	O
-CIN	cin	O	O
+CIN	cin	S_chemical	O
 were	were	O	O
 among	among	O	O
 those	those	O	O
@@ -329,7 +329,7 @@ in	in	O	O
 the	the	O	O
 incidence	incidence	O	O
 of	of	O	O
-CIN	cin	O	O
+CIN	cin	S_chemical	O
 related	related	O	O
 to	to	O	O
 the	the	O	O
@@ -349,12 +349,12 @@ the	the	O	O
 15	15	O	O
 patients	patients	O	O
 with	with	O	O
-CIN	cin	O	O
+CIN	cin	S_chemical	O
 ,	,	O	O
 6	6	O	O
 had	had	O	O
-cyanotic	cyanotic	O	O
-congenital	congenital	O	O
+cyanotic	cyanotic	O	S_disease
+congenital	congenital	O	B_disease
 heart	heart	O	B_disease
 diseases	diseases	O	I_disease
 ,	,	O	O
@@ -382,7 +382,7 @@ Although	although	O	O
 clinically	clinically	O	O
 silent	silent	O	O
 ,	,	O	O
-CIN	cin	O	O
+CIN	cin	S_chemical	O
 is	is	O	O
 not	not	O	O
 rare	rare	O	O
@@ -414,7 +414,7 @@ cyanosis	cyanosis	O	O
 ,	,	O	O
 and	and	O	O
 although	although	O	O
-CIN	cin	O	O
+CIN	cin	S_chemical	O
 usually	usually	O	O
 is	is	O	O
 reversible	reversible	O	O

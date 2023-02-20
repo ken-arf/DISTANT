@@ -30,7 +30,7 @@ with	with	O	O
 amphotericin	amphotericin	B_chemical	O
 B	b	I_chemical	O
 (	(	O	O
-AmB	amb	S_chemical	O
+AmB	amb	S_chemical	S_disease
 )	)	O	O
 for	for	O	O
 disseminated	disseminated	O	O
@@ -45,7 +45,7 @@ heart	heart	O	B_disease
 failure	failure	O	I_disease
 resolved	resolved	O	O
 after	after	O	O
-posaconazole	posaconazole	O	O
+posaconazole	posaconazole	S_chemical	O
 was	was	O	O
 substituted	substituted	O	O
 for	for	O	O

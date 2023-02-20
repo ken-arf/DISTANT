@@ -1,7 +1,7 @@
 Antipsychotic-like	antipsychotic-like	O	O
 profile	profile	O	O
 of	of	O	O
-thioperamide	thioperamide	O	O
+thioperamide	thioperamide	S_chemical	O
 ,	,	O	O
 a	a	O	O
 selective	selective	O	O
@@ -99,7 +99,7 @@ activities	activities	O	O
 respectively	respectively	O	O
 .	.	O	O
 
-(R)-alpha-methylhistamine	(r)-alpha-methylhistamine	O	O
+(R)-alpha-methylhistamine	(r)-alpha-methylhistamine	S_chemical	O
 (	(	O	O
 RAMH	ramh	S_chemical	O
 )	)	O	O
@@ -110,7 +110,7 @@ i.c.v	i.c.v	O	O
 .	.	O	O
 )	)	O	O
 and	and	O	O
-thioperamide	thioperamide	O	O
+thioperamide	thioperamide	S_chemical	O
 (	(	O	O
 THP	thp	S_chemical	O
 )	)	O	O

@@ -39,7 +39,7 @@ received	received	O	O
 high	high	O	O
 doses	doses	O	O
 of	of	O	O
-chlormethiazole	chlormethiazole	O	O
+chlormethiazole	chlormethiazole	S_chemical	O
 for	for	O	O
 alcohol	alcohol	S_chemical	O
 withdrawal	withdrawal	O	O
@@ -65,7 +65,7 @@ two	two	O	O
 of	of	O	O
 those	those	O	O
 with	with	O	O
-chlormethiazole	chlormethiazole	O	O
+chlormethiazole	chlormethiazole	S_chemical	O
 intoxication	intoxication	O	O
 conformed	conformed	O	O
 to	to	O	O
@@ -97,7 +97,7 @@ who	who	O	O
 was	was	O	O
 unconscious	unconscious	O	O
 after	after	O	O
-chlormethiazole	chlormethiazole	O	O
+chlormethiazole	chlormethiazole	S_chemical	O
 administration	administration	O	O
 exhibite	exhibite	O	O
 generalized	generalized	O	O
@@ -115,8 +115,8 @@ four	four	O	O
 recovered	recovered	O	O
 completely	completely	O	O
 without	without	O	O
-neurological	neurological	O	O
-sequelae	sequelae	O	O
+neurological	neurological	O	B_disease
+sequelae	sequelae	O	I_disease
 following	following	O	O
 the	the	O	O
 withdrawal	withdrawal	O	O
@@ -188,7 +188,7 @@ the	the	O	O
 absence	absence	O	O
 of	of	O	O
 significant	significant	O	O
-hypoxaemia	hypoxaemia	O	O
+hypoxaemia	hypoxaemia	O	S_disease
 ,	,	O	O
 a	a	O	O
 favourable	favourable	O	O

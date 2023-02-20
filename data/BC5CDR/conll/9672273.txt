@@ -40,8 +40,8 @@ the	the	O	O
 drug	drug	O	O
 may	may	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 development	development	O	O
 of	of	O	O
@@ -335,10 +335,10 @@ significantly	significantly	O	O
 increased	increased	O	O
 risk	risk	O	O
 of	of	O	O
-vascular	vascular	O	O
-events	events	O	O
+vascular	vascular	O	B_disease
+events	events	O	I_disease
 and	and	O	O
-hypertriglyceridaemia	hypertriglyceridaemia	O	O
+hypertriglyceridaemia	hypertriglyceridaemia	O	S_disease
 among	among	O	O
 women	women	O	O
 on	on	O	O

@@ -5,8 +5,8 @@ vasculitis	vasculitis	O	S_disease
 
 Skin	skin	O	O
 reactions	reactions	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 oral	oral	O	O
 coumarin-derived	coumarin-derived	O	O
 anticoagulants	anticoagulants	O	O
@@ -55,8 +55,8 @@ All	all	O	O
 patients	patients	O	O
 presented	presented	O	O
 with	with	O	O
-skin	skin	O	O
-eruptions	eruptions	O	O
+skin	skin	O	B_disease
+eruptions	eruptions	O	I_disease
 that	that	O	O
 developed	developed	O	O
 after	after	O	O
@@ -81,8 +81,8 @@ patients	patients	O	O
 ,	,	O	O
 confirming	confirming	O	O
 LV	lv	O	O
-Cutaneous	cutaneous	O	O
-lesions	lesions	O	O
+Cutaneous	cutaneous	O	B_disease
+lesions	lesions	O	I_disease
 resolved	resolved	O	O
 in	in	O	O
 all	all	O	O
@@ -116,10 +116,10 @@ may	may	O	O
 be	be	O	O
 a	a	O	O
 late-onset	late-onset	O	O
-adverse	adverse	O	O
-reaction	reaction	O	O
-associated	associated	O	O
-with	with	O	O
+adverse	adverse	O	B_disease
+reaction	reaction	O	I_disease
+associated	associated	O	B_disease
+with	with	O	I_disease
 warfarin	warfarin	S_chemical	O
 therapy	therapy	O	O
 .	.	O	O

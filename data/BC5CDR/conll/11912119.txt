@@ -24,8 +24,8 @@ and	and	O	O
 its	its	O	O
 relationship	relationship	O	O
 to	to	O	O
-motor	motor	O	O
-complications	complications	O	O
+motor	motor	O	B_disease
+complications	complications	O	I_disease
 of	of	O	O
 levodopa	levodopa	S_chemical	O
 therapy	therapy	O	O
@@ -307,7 +307,7 @@ the	the	O	O
 daily	daily	O	O
 dose	dose	O	O
 of	of	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 medication	medication	O	O
 .	.	O	O
 

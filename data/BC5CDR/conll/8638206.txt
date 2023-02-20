@@ -4,7 +4,7 @@ after	after	O	O
 prolonged	prolonged	O	O
 use	use	O	O
 of	of	O	O
-atracurium	atracurium	O	O
+atracurium	atracurium	S_chemical	O
 in	in	O	O
 the	the	O	O
 absence	absence	O	O
@@ -16,7 +16,7 @@ Neuromuscular	neuromuscular	B_chemical	O
 blocking	blocking	I_chemical	O
 agents	agents	I_chemical	O
 (	(	O	O
-NMBAs	nmbas	O	O
+NMBAs	nmbas	S_chemical	O
 )	)	O	O
 are	are	O	O
 often	often	O	O
@@ -44,7 +44,7 @@ most	most	O	O
 often	often	O	O
 involved	involved	O	O
 aminosteroid-based	aminosteroid-based	O	O
-NMBAs	nmbas	O	O
+NMBAs	nmbas	S_chemical	O
 such	such	O	O
 as	as	O	O
 vecuronium	vecuronium	B_chemical	O
@@ -59,13 +59,13 @@ with	with	O	O
 corticosteroids	corticosteroids	S_chemical	O
 .	.	O	O
 
-Atracurium	atracurium	O	O
-besylate	besylate	O	O
+Atracurium	atracurium	B_chemical	O
+besylate	besylate	I_chemical	O
 ,	,	O	O
 a	a	O	O
 short-acting	short-acting	O	O
-benzylisoquinolinium	benzylisoquinolinium	O	O
-NMBA	nmba	O	O
+benzylisoquinolinium	benzylisoquinolinium	B_chemical	O
+NMBA	nmba	I_chemical	O
 that	that	O	O
 is	is	O	O
 eliminated	eliminated	O	O
@@ -73,14 +73,14 @@ independently	independently	O	O
 of	of	O	O
 renal	renal	O	O
 or	or	O	O
-hepatic	hepatic	O	O
-function	function	O	O
+hepatic	hepatic	O	B_disease
+function	function	O	I_disease
 ,	,	O	O
 has	has	O	O
 also	also	O	O
 been	been	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 persistent	persistent	O	O
 paralysis	paralysis	O	S_disease
 ,	,	O	O

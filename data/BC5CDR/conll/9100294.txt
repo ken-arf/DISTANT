@@ -37,7 +37,7 @@ to	to	O	O
 this	this	O	O
 agent	agent	O	O
 during	during	O	O
-organogenesis	organogenesis	O	O
+organogenesis	organogenesis	O	S_disease
 .	.	O	O
 
 The	the	O	O
@@ -56,8 +56,8 @@ blockers	blockers	I_chemical	O
 in	in	O	O
 general	general	O	O
 induce	induce	O	O
-cardiovascular	cardiovascular	O	O
-malformations	malformations	O	O
+cardiovascular	cardiovascular	O	B_disease
+malformations	malformations	O	I_disease
 indicating	indicating	O	O
 a	a	O	O
 pharmacologic	pharmacologic	O	O
@@ -103,8 +103,8 @@ during	during	O	O
 the	the	O	O
 period	period	O	O
 of	of	O	O
-cardiac	cardiac	O	O
-morphogenesis	morphogenesis	O	O
+cardiac	cardiac	O	B_disease
+morphogenesis	morphogenesis	O	I_disease
 and	and	O	O
 the	the	O	O
 offspring	offspring	O	O
@@ -115,16 +115,16 @@ day	day	O	O
 of	of	O	O
 gestation	gestation	O	O
 for	for	O	O
-cardiovascular	cardiovascular	O	O
-malformations	malformations	O	O
+cardiovascular	cardiovascular	O	B_disease
+malformations	malformations	O	I_disease
 .	.	O	O
 
 A	a	O	O
 low	low	O	O
 incidence	incidence	O	O
 of	of	O	O
-cardiovascular	cardiovascular	O	O
-malformations	malformations	O	O
+cardiovascular	cardiovascular	O	B_disease
+malformations	malformations	O	I_disease
 was	was	O	O
 observed	observed	O	O
 after	after	O	O
@@ -155,8 +155,8 @@ All	all	O	O
 four	four	O	O
 agents	agents	O	O
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 aortic	aortic	O	O
 arch	arch	O	O
 branching	branching	O	O

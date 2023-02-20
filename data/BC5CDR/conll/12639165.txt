@@ -1,5 +1,5 @@
 Ticlopidine-induced	ticlopidine-induced	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 .	.	O	O
 
@@ -11,7 +11,7 @@ report	report	O	O
 cases	cases	O	O
 of	of	O	O
 ticlopidine-induced	ticlopidine-induced	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 ,	,	O	O
 investigate	investigate	O	O
@@ -39,7 +39,7 @@ Two	two	O	O
 patients	patients	O	O
 developed	developed	O	O
 prolonged	prolonged	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 after	after	O	O
 receiving	receiving	O	O
@@ -82,7 +82,7 @@ controls	controls	O	O
 
 DISCUSSION	discussion	O	O
 :	:	O	O
-Cholestatic	cholestatic	O	O
+Cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 is	is	O	O
 a	a	O	O
@@ -123,7 +123,7 @@ and	and	O	O
 laboratory	laboratory	O	O
 characteristics	characteristics	O	O
 of	of	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 ,	,	O	O
 which	which	O	O
@@ -216,7 +216,7 @@ here	here	O	O
 
 CONCLUSIONS	conclusions	O	O
 :	:	O	O
-Cholestatic	cholestatic	O	O
+Cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 is	is	O	O
 a	a	O	O

@@ -15,7 +15,7 @@ metabolizer	metabolizer	O	O
 of	of	O	O
 metoprolol	metoprolol	S_chemical	O
 ,	,	O	O
-propafenone	propafenone	O	O
+propafenone	propafenone	S_chemical	O
 ,	,	O	O
 diltiazem	diltiazem	S_chemical	O
 ,	,	O	O
@@ -156,7 +156,7 @@ metoprolol	metoprolol	S_chemical	O
 ,	,	O	O
 diltiazem	diltiazem	S_chemical	O
 ,	,	O	O
-propafenone	propafenone	O	O
+propafenone	propafenone	S_chemical	O
 (	(	O	O
 since	since	O	O
 he	he	O	O
@@ -222,7 +222,7 @@ the	the	O	O
 poor-metabolizer	poor-metabolizer	O	O
 phenotype	phenotype	O	O
 of	of	O	O
-sparteine/debrisoquine	sparteine/debrisoquine	O	O
+sparteine/debrisoquine	sparteine/debrisoquine	S_chemical	O
 polymorphism	polymorphism	O	O
 in	in	O	O
 drug	drug	O	O
@@ -239,9 +239,9 @@ population	population	O	O
 ,	,	O	O
 may	may	O	O
 experience	experience	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reactions	reactions	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reactions	reactions	O	I_disease
 when	when	O	O
 treated	treated	O	O
 with	with	O	O

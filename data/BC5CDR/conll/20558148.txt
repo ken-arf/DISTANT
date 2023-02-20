@@ -144,7 +144,7 @@ prior	prior	O	O
 intracollicular	intracollicular	O	O
 microinjections	microinjections	O	O
 of	of	O	O
-glutamate	glutamate	S_chemical	O
+glutamate	glutamate	B_chemical	O
 NMDA	nmda	S_chemical	O
 receptor	receptor	O	O
 antagonists	antagonists	O	O
@@ -158,7 +158,7 @@ mmol/0.5	mmol/0.5	O	O
 microl	microl	O	O
 )	)	O	O
 and	and	O	O
-AP7	ap7	O	O
+AP7	ap7	S_chemical	S_disease
 (	(	O	O
 10	10	O	O
 or	or	O	O
@@ -173,7 +173,7 @@ the	the	O	O
 NMDA	nmda	S_chemical	O
 receptor	receptor	O	O
 agonist	agonist	O	O
-N-methyl-d-aspartate	n-methyl-d-aspartate	O	O
+N-methyl-d-aspartate	n-methyl-d-aspartate	S_chemical	O
 (	(	O	O
 NMDA	nmda	S_chemical	O
 ,	,	O	O
@@ -194,7 +194,7 @@ microinjection	microinjection	O	O
 of	of	O	O
 MK-801	mk-801	S_chemical	O
 and	and	O	O
-AP7	ap7	O	O
+AP7	ap7	S_chemical	S_disease
 previous	previous	O	O
 to	to	O	O
 systemic	systemic	O	O

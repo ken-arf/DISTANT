@@ -49,12 +49,12 @@ the	the	O	O
 features	features	O	O
 of	of	O	O
 severe	severe	O	O
-necrotising	necrotising	O	O
-lymphadenitis	lymphadenitis	O	O
+necrotising	necrotising	O	B_disease
+lymphadenitis	lymphadenitis	O	I_disease
 ,	,	O	O
-associated	associated	O	O
-with	with	O	O
-erythrophagocytosis	erythrophagocytosis	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+erythrophagocytosis	erythrophagocytosis	O	S_disease
 and	and	O	O
 prominent	prominent	O	O
 eosinophilic	eosinophilic	O	O
@@ -68,9 +68,9 @@ bodies	bodies	O	O
 suggestive	suggestive	O	O
 of	of	O	O
 an	an	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reaction	reaction	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reaction	reaction	O	I_disease
 .	.	O	O
 
 A	a	O	O
@@ -81,8 +81,8 @@ fulminant	fulminant	O	O
 drug-induced	drug-induced	O	O
 hepatitis	hepatitis	O	S_disease
 ,	,	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 presence	presence	O	O
 of	of	O	O
@@ -101,8 +101,8 @@ autoimmunity	autoimmunity	O	O
 and	and	O	O
 accompanied	accompanied	O	O
 by	by	O	O
-multi-organ	multi-organ	O	O
-failure	failure	O	O
+multi-organ	multi-organ	O	B_disease
+failure	failure	O	I_disease
 and	and	O	O
 sepsis	sepsis	O	S_disease
 ,	,	O	O
@@ -130,11 +130,11 @@ showed	showed	O	O
 evidence	evidence	O	O
 of	of	O	O
 massive	massive	O	O
-hepatocellular	hepatocellular	O	O
+hepatocellular	hepatocellular	O	B_disease
 necrosis	necrosis	O	S_disease
 ,	,	O	O
 acute	acute	O	O
-hypersensitivity	hypersensitivity	O	S_disease
+hypersensitivity	hypersensitivity	O	B_disease
 myocarditis	myocarditis	O	S_disease
 ,	,	O	O
 focal	focal	O	O
@@ -143,8 +143,8 @@ tubulo-interstitial	tubulo-interstitial	O	O
 nephritis	nephritis	O	O
 and	and	O	O
 extensive	extensive	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 necrosis	necrosis	O	S_disease
 ,	,	O	O
 with	with	O	O

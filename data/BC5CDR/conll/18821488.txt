@@ -15,7 +15,7 @@ Many	many	O	O
 substances	substances	O	O
 that	that	O	O
 form	form	O	O
-methemoglobin	methemoglobin	O	O
+methemoglobin	methemoglobin	S_chemical	O
 (	(	O	O
 MHb	mhb	O	O
 )	)	O	O

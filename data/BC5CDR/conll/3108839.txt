@@ -1,13 +1,13 @@
-Mitomycin	mitomycin	O	O
-C	c	O	O
+Mitomycin	mitomycin	B_chemical	O
+C	c	I_chemical	O
 associated	associated	O	O
 hemolytic	hemolytic	O	B_disease
 uremic	uremic	O	I_disease
 syndrome	syndrome	O	I_disease
 .	.	O	O
 
-Mitomycin	mitomycin	O	O
-C	c	O	O
+Mitomycin	mitomycin	B_chemical	O
+C	c	I_chemical	O
 associated	associated	O	O
 Hemolytic	hemolytic	O	B_disease
 Uremic	uremic	O	I_disease
@@ -33,7 +33,7 @@ recognised	recognised	O	O
 It	it	O	O
 consists	consists	O	O
 of	of	O	O
-microangiopathic	microangiopathic	O	O
+microangiopathic	microangiopathic	O	S_disease
 hemolytic	hemolytic	O	B_disease
 anemia	anemia	O	S_disease
 ,	,	O	O
@@ -42,10 +42,10 @@ and	and	O	O
 progressive	progressive	O	O
 renal	renal	O	B_disease
 failure	failure	O	I_disease
-associated	associated	O	O
-with	with	O	O
-mitomycin	mitomycin	O	O
-C	c	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+mitomycin	mitomycin	B_chemical	O
+C	c	I_chemical	O
 treatment	treatment	O	O
 and	and	O	O
 affects	affects	O	O
@@ -73,8 +73,8 @@ mth	mth	O	O
 after	after	O	O
 start	start	O	O
 of	of	O	O
-mitomycin	mitomycin	O	O
-C	c	O	O
+mitomycin	mitomycin	B_chemical	O
+C	c	I_chemical	O
 treatment	treatment	O	O
 and	and	O	O
 the	the	O	O
@@ -91,8 +91,8 @@ pulmonary	pulmonary	O	B_disease
 edema	edema	O	S_disease
 .	.	O	O
 
-Renal	renal	O	O
-lesions	lesions	O	O
+Renal	renal	O	B_disease
+lesions	lesions	O	I_disease
 are	are	O	O
 similar	similar	O	O
 to	to	O	O
@@ -135,8 +135,8 @@ as	as	O	O
 mitomycin	mitomycin	O	O
 C-induced	c-induced	O	O
 endothelial	endothelial	O	O
-cell	cell	O	O
-damage	damage	O	O
+cell	cell	O	B_disease
+damage	damage	O	I_disease
 .	.	O	O
 
 We	we	O	O
@@ -153,8 +153,8 @@ a	a	O	O
 yr-old	yr-old	O	O
 man	man	O	O
 with	with	O	O
-gastric	gastric	O	O
-adenocarcinoma	adenocarcinoma	O	O
+gastric	gastric	O	B_disease
+adenocarcinoma	adenocarcinoma	O	I_disease
 who	who	O	O
 developed	developed	O	O
 renal	renal	O	B_disease
@@ -165,8 +165,8 @@ while	while	O	O
 on	on	O	O
 treatment	treatment	O	O
 with	with	O	O
-mitomycin	mitomycin	O	O
-C	c	O	O
+mitomycin	mitomycin	B_chemical	O
+C	c	I_chemical	O
 and	and	O	O
 died	died	O	O
 in	in	O	O

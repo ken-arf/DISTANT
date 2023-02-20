@@ -21,7 +21,7 @@ with	with	O	O
 combination	combination	O	O
 chemotherapy	chemotherapy	O	O
 incorporating	incorporating	O	O
-cisplatinum	cisplatinum	O	O
+cisplatinum	cisplatinum	S_chemical	O
 ,	,	O	O
 etoposide	etoposide	S_chemical	O
 ,	,	O	O
@@ -38,15 +38,15 @@ acid	acid	I_chemical	O
 for	for	O	O
 an	an	O	O
 inoperable	inoperable	O	O
-gastric	gastric	O	O
-adenocarcinoma	adenocarcinoma	O	O
+gastric	gastric	O	B_disease
+adenocarcinoma	adenocarcinoma	O	I_disease
 .	.	O	O
 
 He	he	O	O
 developed	developed	O	O
-acute	acute	O	O
-neurologic	neurologic	O	O
-symptoms	symptoms	O	O
+acute	acute	O	B_disease
+neurologic	neurologic	O	B_disease
+symptoms	symptoms	O	I_disease
 of	of	O	O
 mental	mental	O	O
 confusion	confusion	O	S_disease
@@ -60,7 +60,7 @@ then	then	O	O
 lapsed	lapsed	O	O
 into	into	O	O
 a	a	O	O
-deep	deep	O	O
+deep	deep	O	B_disease
 coma	coma	O	S_disease
 ,	,	O	O
 lasting	lasting	O	O
@@ -116,8 +116,8 @@ was	was	O	O
 unlikely	unlikely	O	O
 to	to	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 this	this	O	O
 condition	condition	O	O
 ,	,	O	O
@@ -145,9 +145,9 @@ Krebs	krebs	O	O
 cycle	cycle	O	O
 blockade	blockade	O	O
 by	by	O	O
-fluoroacetate	fluoroacetate	O	O
+fluoroacetate	fluoroacetate	S_chemical	O
 and	and	O	O
-fluorocitrate	fluorocitrate	O	O
+fluorocitrate	fluorocitrate	S_chemical	O
 ,	,	O	O
 thiamine	thiamine	O	B_disease
 deficiency	deficiency	O	I_disease

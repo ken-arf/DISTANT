@@ -62,7 +62,7 @@ patients	patients	O	O
 with	with	O	O
 major	major	O	O
 and	and	O	O
-intracranial	intracranial	O	O
+intracranial	intracranial	O	B_disease
 bleeding	bleeding	O	S_disease
 increased	increased	O	O
 from	from	O	O

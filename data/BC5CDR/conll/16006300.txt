@@ -138,7 +138,7 @@ serum	serum	O	O
 calcium	calcium	S_chemical	O
 concentrations	concentrations	O	O
 received	received	O	O
-pamidronate	pamidronate	O	O
+pamidronate	pamidronate	S_chemical	O
 intravenously	intravenously	O	O
 (	(	O	O
 60	60	O	O
@@ -269,11 +269,11 @@ is	is	O	O
 adequate	adequate	O	O
 .	.	O	O
 
-Pamidronate	pamidronate	O	O
+Pamidronate	pamidronate	S_chemical	O
 treatment	treatment	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 considerable	considerable	O	O
 risk	risk	O	O
 for	for	O	O

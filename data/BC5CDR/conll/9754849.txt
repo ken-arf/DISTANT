@@ -1,7 +1,7 @@
-Choreoathetoid	choreoathetoid	O	O
+Choreoathetoid	choreoathetoid	S_chemical	O
 movements	movements	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 rapid	rapid	O	O
 adjustment	adjustment	O	O
 to	to	O	O
@@ -9,7 +9,7 @@ methadone	methadone	S_chemical	O
 .	.	O	O
 
 Choreatiform	choreatiform	O	O
-hyperkinesias	hyperkinesias	O	O
+hyperkinesias	hyperkinesias	O	S_disease
 are	are	O	O
 known	known	O	O
 to	to	O	O
@@ -34,7 +34,7 @@ report	report	O	O
 of	of	O	O
 euphoria	euphoria	O	O
 and	and	O	O
-choreoathetoid	choreoathetoid	O	O
+choreoathetoid	choreoathetoid	S_chemical	O
 movements	movements	O	O
 both	both	O	O
 transiently	transiently	O	O

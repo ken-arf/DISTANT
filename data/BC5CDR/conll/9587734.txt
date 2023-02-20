@@ -26,7 +26,7 @@ as	as	O	O
 a	a	O	O
 result	result	O	O
 of	of	O	O
-hyperkalaemia	hyperkalaemia	O	O
+hyperkalaemia	hyperkalaemia	O	S_disease
 following	following	O	O
 the	the	O	O
 use	use	O	O
@@ -43,8 +43,8 @@ Five	five	O	O
 days	days	O	O
 after	after	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 the	the	O	O
 symptoms	symptoms	O	O
 of	of	O	O
@@ -129,7 +129,7 @@ known	known	O	O
 predisposing	predisposing	O	O
 conditions	conditions	O	O
 for	for	O	O
-hyperkalaemia	hyperkalaemia	O	O
+hyperkalaemia	hyperkalaemia	O	S_disease
 following	following	O	O
 the	the	O	O
 administration	administration	O	O
@@ -150,8 +150,8 @@ hypersensitivity	hypersensitivity	O	S_disease
 to	to	O	O
 suxamethonium	suxamethonium	S_chemical	O
 ,	,	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 her	her	O	O
 5-day	5-day	O	O
 immobilization	immobilization	O	O

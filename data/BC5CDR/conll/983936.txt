@@ -33,7 +33,7 @@ developed	developed	O	O
 to	to	O	O
 study	study	O	O
 the	the	O	O
-cardioprotective	cardioprotective	O	O
+cardioprotective	cardioprotective	O	S_disease
 effects	effects	O	O
 of	of	O	O
 agents	agents	O	O
@@ -78,7 +78,7 @@ subcellular	subcellular	O	O
 components	components	O	O
 with	with	O	O
 the	the	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 fraction	fraction	O	O
 showing	showing	O	O
 the	the	O	O
@@ -153,11 +153,11 @@ calcium	calcium	S_chemical	O
 influx	influx	O	O
 into	into	O	O
 the	the	O	O
-myocardial	myocardial	O	O
-cell	cell	O	O
+myocardial	myocardial	O	B_disease
+cell	cell	O	I_disease
 .	.	O	O
 
-Mitochondrial	mitochondrial	O	O
+Mitochondrial	mitochondrial	O	S_disease
 radiocalcium	radiocalcium	O	O
 uptakes	uptakes	O	O
 were	were	O	O
@@ -242,8 +242,8 @@ two	two	O	O
 
 Evidence	evidence	O	O
 of	of	O	O
-microscopic	microscopic	O	O
-damage	damage	O	O
+microscopic	microscopic	O	B_disease
+damage	damage	O	I_disease
 was	was	O	O
 graded	graded	O	O
 as	as	O	O
@@ -267,7 +267,7 @@ all	all	O	O
 appear	appear	O	O
 to	to	O	O
 have	have	O	O
-cardioprotective	cardioprotective	O	O
+cardioprotective	cardioprotective	O	S_disease
 effects	effects	O	O
 when	when	O	O
 tested	tested	O	O

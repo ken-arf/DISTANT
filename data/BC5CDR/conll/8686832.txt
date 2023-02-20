@@ -7,8 +7,8 @@ spinal	spinal	O	O
 anaesthesia	anaesthesia	O	O
 involving	involving	O	O
 hyperbaric	hyperbaric	O	O
-5	5	O	O
-%	%	O	O
+5	5	B_chemical	O
+%	%	I_chemical	O
 lignocaine	lignocaine	S_chemical	O
 .	.	O	O
 
@@ -130,15 +130,15 @@ and/or	and/or	O	O
 back	back	O	B_disease
 pain	pain	O	S_disease
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 intrathecal	intrathecal	O	O
 use	use	O	O
 of	of	O	O
 hyperbaric	hyperbaric	O	O
-5	5	O	O
-%	%	O	O
+5	5	B_chemical	O
+%	%	I_chemical	O
 lignocaine	lignocaine	S_chemical	O
 .	.	O	O
 

@@ -16,8 +16,8 @@ renal	renal	O	B_disease
 insufficiency	insufficiency	O	I_disease
 due	due	O	O
 to	to	O	O
-intravascular	intravascular	O	O
-coagulation	coagulation	O	O
+intravascular	intravascular	O	B_disease
+coagulation	coagulation	O	I_disease
 in	in	O	O
 the	the	O	O
 rat	rat	O	O
@@ -25,8 +25,8 @@ rat	rat	O	O
 
 Induction	induction	O	O
 of	of	O	O
-intravascular	intravascular	O	O
-coagulation	coagulation	O	O
+intravascular	intravascular	O	B_disease
+coagulation	coagulation	O	I_disease
 and	and	O	O
 inhibition	inhibition	O	O
 of	of	O	O
@@ -201,13 +201,13 @@ the	the	O	O
 circulating	circulating	O	O
 level	level	O	O
 of	of	O	O
-Angiotension	angiotension	O	O
-II	ii	O	O
+Angiotension	angiotension	B_chemical	O
+II	ii	I_chemical	O
 and	and	O	O
 an	an	O	O
 increase	increase	O	O
 in	in	O	O
-prostacyclin	prostacyclin	O	O
+prostacyclin	prostacyclin	S_chemical	O
 (	(	O	O
 secondary	secondary	O	O
 to	to	O	O
@@ -266,8 +266,8 @@ deposited	deposited	O	O
 and	and	O	O
 thus	thus	O	O
 less	less	O	O
-kidney	kidney	O	O
-damage	damage	O	O
+kidney	kidney	O	B_disease
+damage	damage	O	I_disease
 will	will	O	O
 be	be	O	O
 produced	produced	O	O

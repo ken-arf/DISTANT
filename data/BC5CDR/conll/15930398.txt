@@ -104,8 +104,8 @@ patient	patient	O	O
 had	had	O	O
 regained	regained	O	O
 baseline	baseline	O	O
-mental	mental	O	O
-status	status	O	O
+mental	mental	O	B_disease
+status	status	O	I_disease
 .	.	O	O
 
 At	at	O	O
@@ -121,8 +121,8 @@ the	the	O	O
 patient	patient	O	O
 regained	regained	O	O
 baseline	baseline	O	O
-mental	mental	O	O
-status	status	O	O
+mental	mental	O	B_disease
+status	status	O	I_disease
 at	at	O	O
 the	the	O	O
 end	end	O	O
@@ -252,9 +252,9 @@ violation	violation	O	O
 .	.	O	O
 
 No	no	O	O
-serious	serious	O	O
-adverse	adverse	O	O
-events	events	O	O
+serious	serious	O	B_disease
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 were	were	O	O
 noted	noted	O	O
 during	during	O	O
@@ -553,8 +553,8 @@ sedation	sedation	O	O
 in	in	O	O
 BIS	bis	O	O
 ranges	ranges	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 recall	recall	O	O
 after	after	O	O
 procedural	procedural	O	O

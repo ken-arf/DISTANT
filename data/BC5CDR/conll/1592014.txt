@@ -2,8 +2,8 @@ Seizures	seizures	O	S_disease
 induced	induced	O	O
 by	by	O	O
 the	the	O	O
-cocaine	cocaine	S_chemical	O
-metabolite	metabolite	O	O
+cocaine	cocaine	B_chemical	O
+metabolite	metabolite	I_chemical	O
 benzoylecgonine	benzoylecgonine	S_chemical	O
 in	in	O	O
 rats	rats	O	O
@@ -232,7 +232,7 @@ seizures	seizures	O	S_disease
 The	the	O	O
 finding	finding	O	O
 that	that	O	O
-cocaine-	cocaine-	O	O
+cocaine-	cocaine-	S_chemical	O
 and	and	O	O
 BE-induced	be-induced	O	O
 seizures	seizures	O	S_disease
@@ -254,8 +254,8 @@ the	the	O	O
 importance	importance	O	O
 of	of	O	O
 a	a	O	O
-cocaine	cocaine	S_chemical	O
-metabolite	metabolite	O	O
+cocaine	cocaine	B_chemical	O
+metabolite	metabolite	I_chemical	O
 ,	,	O	O
 BE	be	O	O
 .	.	O	O

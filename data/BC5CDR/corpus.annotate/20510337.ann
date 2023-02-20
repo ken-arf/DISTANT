@@ -1,0 +1,11 @@
+T1	Disease 41 65	cisplatin nephrotoxicity
+T2	Disease 148 166	acute renal injury
+T3	Chemical 205 214	cisplatin
+T4	Chemical 328 337	cisplatin
+T5	Chemical 389 408	blood urea nitrogen
+T6	Chemical 419 429	creatinine
+T7	Chemical 461 470	cisplatin
+T8	Chemical 567 578	glutathione
+T13	Chemical 840 849	cisplatin
+T14	Chemical 922 931	cisplatin
+T15	Disease 1288 1312	cisplatin nephrotoxicity

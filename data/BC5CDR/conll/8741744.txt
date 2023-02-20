@@ -113,7 +113,7 @@ hydroxylase	hydroxylase	O	O
 in	in	O	O
 the	the	O	O
 surrounding	surrounding	O	O
-catecholaminergic	catecholaminergic	O	O
+catecholaminergic	catecholaminergic	S_chemical	O
 A10	a10	O	O
 region	region	O	O
 .	.	O	O
@@ -125,14 +125,14 @@ the	the	O	O
 interpeduncular	interpeduncular	O	O
 nucleus	nucleus	O	O
 mediates	mediates	O	O
-nicotinic	nicotinic	O	O
+nicotinic	nicotinic	S_chemical	O
 depression	depression	O	S_disease
 of	of	O	O
 locomotor	locomotor	O	O
 activity	activity	O	O
 and	and	O	O
 dampens	dampens	O	O
-nicotinic	nicotinic	O	O
+nicotinic	nicotinic	S_chemical	O
 arousal	arousal	O	O
 mechanisms	mechanisms	O	O
 located	located	O	O

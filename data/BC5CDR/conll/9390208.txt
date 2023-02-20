@@ -15,9 +15,9 @@ of	of	O	O
 high-dose	high-dose	O	O
 5-FU	5-fu	S_chemical	O
 and	and	O	O
-leucovorin	leucovorin	O	O
+leucovorin	leucovorin	S_chemical	O
 (	(	O	O
-MFL	mfl	O	O
+MFL	mfl	S_chemical	O
 ):	):	O	O
 low	low	O	O
 palliative	palliative	O	O
@@ -54,9 +54,9 @@ high-dose	high-dose	O	O
 5-FU	5-fu	S_chemical	O
 )	)	O	O
 and	and	O	O
-leucovorin	leucovorin	O	O
+leucovorin	leucovorin	S_chemical	O
 (	(	O	O
-MFL	mfl	O	O
+MFL	mfl	S_chemical	O
 regimen	regimen	O	O
 )	)	O	O
 had	had	O	O
@@ -108,7 +108,7 @@ mg/m2	mg/m2	O	O
 ,	,	O	O
 together	together	O	O
 with	with	O	O
-leucovorin	leucovorin	O	O
+leucovorin	leucovorin	S_chemical	O
 ,	,	O	O
 300	300	O	O
 mg/m2	mg/m2	O	O
@@ -146,8 +146,8 @@ metastatic	metastatic	O	O
 sites	sites	O	O
 ,	,	O	O
 with	with	O	O
-lung	lung	O	O
-metastasis	metastasis	O	O
+lung	lung	O	B_disease
+metastasis	metastasis	O	I_disease
 predominant	predominant	O	O
 .	.	O	O
 
@@ -179,7 +179,7 @@ number	number	O	O
 of	of	O	O
 courses	courses	O	O
 of	of	O	O
-MFL	mfl	O	O
+MFL	mfl	S_chemical	O
 regimen	regimen	O	O
 given	given	O	O
 was	was	O	O
@@ -214,8 +214,8 @@ response	response	O	O
 and	and	O	O
 five	five	O	O
 had	had	O	O
-progressive	progressive	O	O
-disease	disease	O	O
+progressive	progressive	O	B_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 The	the	O	O
@@ -291,7 +291,7 @@ toxicity	toxicity	O	S_disease
 .	.	O	O
 
 The	the	O	O
-MFL	mfl	O	O
+MFL	mfl	S_chemical	O
 regimen	regimen	O	O
 achieves	achieves	O	O
 little	little	O	O

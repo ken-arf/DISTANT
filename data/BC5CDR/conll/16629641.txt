@@ -46,7 +46,7 @@ is	is	O	O
 combination	combination	O	O
 therapy	therapy	O	O
 with	with	O	O
-pegylated	pegylated	O	O
+pegylated	pegylated	S_chemical	O
 interferon	interferon	O	O
 and	and	O	O
 ribavirin	ribavirin	S_chemical	O
@@ -72,8 +72,8 @@ patients	patients	O	O
 it	it	O	O
 can	can	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 potentially	potentially	O	O
 dose-limiting	dose-limiting	O	O
@@ -108,11 +108,11 @@ especially	especially	O	O
 those	those	O	O
 who	who	O	O
 have	have	O	O
-comorbid	comorbid	O	O
-renal	renal	O	O
+comorbid	comorbid	O	B_disease
+renal	renal	O	I_disease
 or	or	O	O
-cardiovascular	cardiovascular	O	O
-disorders	disorders	O	O
+cardiovascular	cardiovascular	O	B_disease
+disorders	disorders	O	I_disease
 .	.	O	O
 
 In	in	O	O
@@ -182,7 +182,7 @@ potential	potential	O	O
 disadvantages	disadvantages	O	O
 .	.	O	O
 
-Viramidine	viramidine	O	O
+Viramidine	viramidine	S_chemical	O
 ,	,	O	O
 a	a	O	O
 liver-targeting	liver-targeting	O	O
@@ -210,7 +210,7 @@ anemia	anemia	O	S_disease
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 hepatitis	hepatitis	O	S_disease
 C.	c.	O	O
 

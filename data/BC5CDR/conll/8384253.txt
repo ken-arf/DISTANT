@@ -13,8 +13,8 @@ Forty	forty	O	O
 patients	patients	O	O
 with	with	O	O
 Non-Hodgkin	non-hodgkin	O	O
-'s	's	O	O
-Lymphoma	lymphoma	O	O
+'s	's	O	B_disease
+Lymphoma	lymphoma	O	I_disease
 treated	treated	O	O
 with	with	O	O
 vincristine	vincristine	S_chemical	O
@@ -59,8 +59,8 @@ interviewed	interviewed	O	O
 with	with	O	O
 emphasis	emphasis	O	O
 on	on	O	O
-neuropathic	neuropathic	O	O
-symptoms	symptoms	O	O
+neuropathic	neuropathic	O	B_disease
+symptoms	symptoms	O	I_disease
 .	.	O	O
 
 Physical	physical	O	O
@@ -97,8 +97,8 @@ treatment	treatment	O	O
 Twenty-seven	twenty-seven	O	O
 patients	patients	O	O
 reported	reported	O	O
-neuropathic	neuropathic	O	O
-symptoms	symptoms	O	O
+neuropathic	neuropathic	O	B_disease
+symptoms	symptoms	O	I_disease
 .	.	O	O
 
 In	in	O	O
@@ -121,7 +121,7 @@ examination	examination	O	O
 In	in	O	O
 these	these	O	O
 patients	patients	O	O
-sensory	sensory	O	O
+sensory	sensory	O	B_disease
 signs	signs	O	B_disease
 and	and	O	I_disease
 symptoms	symptoms	O	I_disease
@@ -182,8 +182,8 @@ of	of	O	O
 patients	patients	O	O
 .	.	O	O
 
-Neuropathic	neuropathic	O	O
-complaints	complaints	O	O
+Neuropathic	neuropathic	O	B_disease
+complaints	complaints	O	I_disease
 were	were	O	O
 not	not	O	O
 very	very	O	O

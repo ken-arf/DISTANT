@@ -11,7 +11,7 @@ an	an	O	O
 unusual	unusual	O	O
 case	case	O	O
 of	of	O	O
-renovascular	renovascular	O	O
+renovascular	renovascular	O	B_disease
 hypertension	hypertension	O	S_disease
 .	.	O	O
 
@@ -25,8 +25,8 @@ hypertension	hypertension	O	S_disease
 with	with	O	O
 an	an	O	O
 occluded	occluded	O	O
-renal	renal	O	O
-artery	artery	O	O
+renal	renal	O	B_disease
+artery	artery	O	I_disease
 to	to	O	O
 a	a	O	O
 solitary	solitary	O	B_disease
@@ -34,8 +34,8 @@ kidney	kidney	O	I_disease
 ,	,	O	O
 who	who	O	O
 developed	developed	O	O
-sudden	sudden	O	O
-deterioration	deterioration	O	O
+sudden	sudden	O	B_disease
+deterioration	deterioration	O	I_disease
 of	of	O	O
 renal	renal	O	O
 function	function	O	O
@@ -92,8 +92,8 @@ organic	organic	O	O
 damage	damage	O	O
 occurs	occurs	O	O
 to	to	O	O
-glomerular	glomerular	O	O
-arterioles	arterioles	O	O
+glomerular	glomerular	O	B_disease
+arterioles	arterioles	O	I_disease
 following	following	O	O
 chronic	chronic	O	O
 ACE	ace	O	O

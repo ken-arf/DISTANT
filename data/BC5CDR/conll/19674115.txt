@@ -2,23 +2,23 @@ Recurrent	recurrent	O	O
 dysosmia	dysosmia	O	O
 induced	induced	O	O
 by	by	O	O
-pyrazinamide	pyrazinamide	O	O
+pyrazinamide	pyrazinamide	S_chemical	O
 .	.	O	O
 
-Pyrazinamide	pyrazinamide	O	O
+Pyrazinamide	pyrazinamide	S_chemical	O
 can	can	O	O
 have	have	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 such	such	O	O
 as	as	O	O
 hepatic	hepatic	O	O
 toxicity	toxicity	O	S_disease
 ,	,	O	O
-hyperuricemia	hyperuricemia	O	O
+hyperuricemia	hyperuricemia	O	S_disease
 or	or	O	O
-digestive	digestive	O	O
-disorders	disorders	O	O
+digestive	digestive	O	B_disease
+disorders	disorders	O	I_disease
 .	.	O	O
 
 In	in	O	O
@@ -35,7 +35,7 @@ have	have	O	O
 been	been	O	O
 reported	reported	O	O
 for	for	O	O
-pyrazinamide	pyrazinamide	O	O
+pyrazinamide	pyrazinamide	S_chemical	O
 when	when	O	O
 combined	combined	O	O
 with	with	O	O
@@ -49,11 +49,11 @@ a	a	O	O
 case	case	O	O
 of	of	O	O
 reversible	reversible	O	O
-olfactory	olfactory	O	O
-disorder	disorder	O	O
+olfactory	olfactory	O	B_disease
+disorder	disorder	O	I_disease
 related	related	O	O
 to	to	O	O
-pyrazinamide	pyrazinamide	O	O
+pyrazinamide	pyrazinamide	S_chemical	O
 in	in	O	O
 a	a	O	O
 woman	woman	O	O
@@ -86,7 +86,7 @@ Dysosmia	dysosmia	O	O
 disappeared	disappeared	O	O
 completely	completely	O	O
 after	after	O	O
-pyrazinamide	pyrazinamide	O	O
+pyrazinamide	pyrazinamide	S_chemical	O
 withdrawal	withdrawal	O	O
 and	and	O	O
 recurred	recurred	O	O

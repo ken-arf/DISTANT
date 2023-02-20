@@ -130,8 +130,8 @@ was	was	O	O
 abolished	abolished	O	O
 by	by	O	O
 the	the	O	O
-serotonin	serotonin	S_chemical	O
-neurotoxin	neurotoxin	O	O
+serotonin	serotonin	B_chemical	O
+neurotoxin	neurotoxin	I_chemical	O
 5,7-dihydroxytryptamine	5,7-dihydroxytryptamine	O	O
 (	(	O	O
 5,7-DHT	5,7-dht	O	O
@@ -202,12 +202,12 @@ fall	fall	O	O
 in	in	O	O
 blood	blood	O	O
 pressure	pressure	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 midline	midline	O	O
 B3	b3	O	O
-serotonin	serotonin	S_chemical	O
+serotonin	serotonin	B_chemical	O
 methyldopa	methyldopa	S_chemical	O
 injection	injection	O	O
 .	.	O	O

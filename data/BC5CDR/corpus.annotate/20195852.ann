@@ -1,0 +1,11 @@
+T3	Chemical 480 483	CIN
+T4	Chemical 522 531	iopromide
+T5	Chemical 536 543	iohexol
+T7	Chemical 760 769	iopromide
+T8	Chemical 791 798	iohexol
+T10	Chemical 856 866	creatinine
+T11	Disease 1073 1086	renal failure
+T13	Disease 1167 1189	End-stage renal damage
+T14	Disease 1388 1400	renal injury
+T15	Disease 1456 1468	renal injury
+T16	Disease 1781 1815	cyanotic congenital heart diseases

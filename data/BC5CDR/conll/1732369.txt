@@ -31,7 +31,7 @@ to	to	O	O
 cause	cause	O	O
 acute	acute	O	O
 and	and	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 cardiomyopathy	cardiomyopathy	O	S_disease
 .	.	O	O
 
@@ -44,8 +44,8 @@ echocardiographic	echocardiographic	O	O
 screening	screening	O	O
 test	test	O	O
 for	for	O	O
-cardiac	cardiac	O	O
-damage	damage	O	O
+cardiac	cardiac	O	B_disease
+damage	damage	O	I_disease
 due	due	O	O
 to	to	O	O
 doxorubicin	doxorubicin	S_chemical	O
@@ -186,8 +186,8 @@ a	a	O	O
 incidence	incidence	O	O
 rate	rate	O	O
 of	of	O	O
-adverse	adverse	O	O
-symptoms	symptoms	O	O
+adverse	adverse	O	B_disease
+symptoms	symptoms	O	I_disease
 .	.	O	O
 
 The	the	O	O

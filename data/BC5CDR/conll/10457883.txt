@@ -19,7 +19,7 @@ reported	reported	O	O
 
 Accumulation	accumulation	O	O
 of	of	O	O
-atracurium	atracurium	O	O
+atracurium	atracurium	S_chemical	O
 in	in	O	O
 the	the	O	O
 intravenous	intravenous	O	O
@@ -38,11 +38,11 @@ room	room	O	O
 .	.	O	O
 
 A	a	O	O
-respiratory	respiratory	O	O
-arrest	arrest	O	O
+respiratory	respiratory	O	B_disease
+arrest	arrest	O	I_disease
 with	with	O	O
 severe	severe	O	O
-desaturation	desaturation	O	O
+desaturation	desaturation	O	S_disease
 and	and	O	O
 bradycardia	bradycardia	O	S_disease
 occurred	occurred	O	O

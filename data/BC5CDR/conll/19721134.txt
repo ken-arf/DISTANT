@@ -67,8 +67,8 @@ that	that	O	O
 pilocarpine	pilocarpine	S_chemical	O
 significantly	significantly	O	O
 delayed	delayed	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 arrhythmias	arrhythmias	O	S_disease
 ,	,	O	O
 decreased	decreased	O	O
@@ -103,7 +103,7 @@ pigs	pigs	O	O
 overload	overload	O	O
 induced	induced	O	O
 by	by	O	O
-aconitine	aconitine	O	O
+aconitine	aconitine	S_chemical	O
 or	or	O	O
 ouabain	ouabain	S_chemical	O
 was	was	O	O
@@ -155,7 +155,7 @@ pig	pig	O	O
 models	models	O	O
 induced	induced	O	O
 by	by	O	O
-aconitine	aconitine	O	O
+aconitine	aconitine	S_chemical	O
 or	or	O	O
 ouabain	ouabain	S_chemical	O
 via	via	O	O

@@ -1,5 +1,5 @@
-Electrocardiographic	electrocardiographic	O	O
-changes	changes	O	O
+Electrocardiographic	electrocardiographic	O	B_disease
+changes	changes	O	I_disease
 and	and	O	O
 cardiac	cardiac	O	B_disease
 arrhythmias	arrhythmias	O	S_disease
@@ -13,8 +13,8 @@ drugs	drugs	I_chemical	O
 Eight	eight	O	O
 patients	patients	O	O
 had	had	O	O
-cardiac	cardiac	O	O
-manifestations	manifestations	O	O
+cardiac	cardiac	O	B_disease
+manifestations	manifestations	O	I_disease
 that	that	O	O
 were	were	O	O
 life-threatening	life-threatening	O	O
@@ -40,9 +40,9 @@ receiving	receiving	O	O
 several	several	O	O
 drugs	drugs	O	O
 ,	,	O	O
-Mellaril	mellaril	O	O
-(	(	O	O
-thioridazine	thioridazine	O	O
+Mellaril	mellaril	B_chemical	O
+(	(	I_chemical	O
+thioridazine	thioridazine	I_chemical	O
 )	)	O	O
 appeared	appeared	O	O
 to	to	O	O
@@ -81,7 +81,7 @@ chlorpromazine	chlorpromazine	S_chemical	O
 )	)	O	O
 .	.	O	O
 
-Aventyl	aventyl	O	O
+Aventyl	aventyl	S_chemical	O
 (	(	O	O
 nortriptyline	nortriptyline	O	O
 )	)	O	O
@@ -130,11 +130,11 @@ and	and	O	O
 to	to	O	O
 direct	direct	O	O
 current	current	O	O
-electric	electric	O	O
+electric	electric	O	B_disease
 shock	shock	O	S_disease
 ;	;	O	O
-ventricular	ventricular	O	O
-pacing	pacing	O	O
+ventricular	ventricular	O	B_disease
+pacing	pacing	O	I_disease
 was	was	O	O
 required	required	O	O
 in	in	O	O
@@ -147,14 +147,14 @@ of	of	O	O
 propranolol	propranolol	S_chemical	O
 combined	combined	O	O
 with	with	O	O
-ventricular	ventricular	O	O
-pacing	pacing	O	O
+ventricular	ventricular	O	B_disease
+pacing	pacing	O	I_disease
 in	in	O	O
 one	one	O	O
 .	.	O	O
 
 The	the	O	O
-tachyarrhythmias	tachyarrhythmias	O	O
+tachyarrhythmias	tachyarrhythmias	O	S_disease
 generally	generally	O	O
 subsided	subsided	O	O
 within	within	O	O
@@ -225,8 +225,8 @@ quantify	quantify	O	O
 the	the	O	O
 risk	risk	O	O
 of	of	O	O
-cardiac	cardiac	O	O
-complications	complications	O	O
+cardiac	cardiac	O	B_disease
+complications	complications	O	I_disease
 to	to	O	O
 patients	patients	O	O
 receiving	receiving	O	O

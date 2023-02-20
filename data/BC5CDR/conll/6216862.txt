@@ -1,6 +1,6 @@
 Multiple	multiple	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 penicillamine	penicillamine	S_chemical	O
 therapy	therapy	O	O
@@ -12,14 +12,14 @@ rheumatoid	rheumatoid	O	B_disease
 arthritis	arthritis	O	S_disease
 .	.	O	O
 
-Skin	skin	O	O
-rashes	rashes	O	O
+Skin	skin	O	B_disease
+rashes	rashes	O	I_disease
 ,	,	O	O
 proteinuria	proteinuria	O	S_disease
 ,	,	O	O
 systemic	systemic	O	O
-lupus	lupus	O	O
-erythematosus	erythematosus	O	O
+lupus	lupus	O	B_disease
+erythematosus	erythematosus	O	I_disease
 ,	,	O	O
 polymyositis	polymyositis	O	O
 and	and	O	O

@@ -147,8 +147,8 @@ occur	occur	O	O
 during	during	O	O
 states	states	O	O
 of	of	O	O
-emotional	emotional	O	O
-distress	distress	O	O
+emotional	emotional	O	B_disease
+distress	distress	O	I_disease
 ,	,	O	O
 has	has	O	O
 a	a	O	O

@@ -26,7 +26,7 @@ vs.	vs.	O	O
 twice-daily	twice-daily	O	O
 )	)	O	O
 of	of	O	O
-tobramicyn	tobramicyn	O	O
+tobramicyn	tobramicyn	S_chemical	O
 on	on	O	O
 steady-state	steady-state	O	O
 serum	serum	O	O
@@ -333,8 +333,8 @@ one	one	O	O
 presented	presented	O	O
 with	with	O	O
 an	an	O	O
-auditory	auditory	O	O
-loss	loss	O	O
+auditory	auditory	O	B_disease
+loss	loss	O	I_disease
 of	of	O	O
 -30	-30	O	O
 dB	db	O	O

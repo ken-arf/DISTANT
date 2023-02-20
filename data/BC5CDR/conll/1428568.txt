@@ -2,8 +2,8 @@ Changes	changes	O	O
 in	in	O	O
 depressive	depressive	O	S_disease
 status	status	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 topical	topical	O	O
 beta-blockers	beta-blockers	O	O
 .	.	O	O
@@ -16,8 +16,8 @@ have	have	O	O
 been	been	O	O
 related	related	O	O
 to	to	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 topical	topical	O	O
 beta-blockers	beta-blockers	O	O
@@ -47,12 +47,12 @@ a	a	O	O
 selective	selective	O	O
 beta-blocker	beta-blocker	O	O
 (	(	O	O
-betaxolol	betaxolol	O	O
+betaxolol	betaxolol	S_chemical	O
 )	)	O	O
 regarding	regarding	O	O
 CNS	cns	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 
 Eight	eight	O	O
@@ -139,7 +139,7 @@ These	these	O	O
 results	results	O	O
 suggest	suggest	O	O
 that	that	O	O
-betaxolol	betaxolol	O	O
+betaxolol	betaxolol	S_chemical	O
 could	could	O	O
 be	be	O	O
 less	less	O	O

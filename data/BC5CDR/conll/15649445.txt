@@ -17,7 +17,7 @@ in	in	O	O
 rats	rats	O	O
 .	.	O	O
 
-Reserpine-	reserpine-	O	O
+Reserpine-	reserpine-	S_chemical	O
 and	and	O	O
 haloperidol-induced	haloperidol-induced	O	O
 orofacial	orofacial	O	O
@@ -42,8 +42,8 @@ free	free	O	O
 radical	radical	O	O
 generation	generation	O	O
 and	and	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 .	.	O	O
 
 In	in	O	O
@@ -92,13 +92,13 @@ in	in	O	O
 vacuous	vacuous	O	O
 chewing	chewing	O	O
 ,	,	O	O
-tongue	tongue	O	O
-protrusion	protrusion	O	O
+tongue	tongue	O	B_disease
+protrusion	protrusion	O	I_disease
 and	and	O	O
 duration	duration	O	O
 of	of	O	O
-facial	facial	O	O
-twitching	twitching	O	O
+facial	facial	O	B_disease
+twitching	twitching	O	I_disease
 ,	,	O	O
 compared	compared	O	O
 to	to	O	O
@@ -130,13 +130,13 @@ in	in	O	O
 vacuous	vacuous	O	O
 chewing	chewing	O	O
 ,	,	O	O
-tongue	tongue	O	O
-protrusion	protrusion	O	O
+tongue	tongue	O	B_disease
+protrusion	protrusion	O	I_disease
 and	and	O	O
 duration	duration	O	O
 of	of	O	O
-facial	facial	O	O
-twitching	twitching	O	O
+facial	facial	O	B_disease
+twitching	twitching	O	I_disease
 observed	observed	O	O
 in	in	O	O
 four	four	O	O
@@ -203,7 +203,7 @@ the	the	O	O
 incidence	incidence	O	O
 of	of	O	O
 orofacial	orofacial	O	O
-diskinesia	diskinesia	O	O
+diskinesia	diskinesia	S_chemical	O
 .	.	O	O
 
 These	these	O	O

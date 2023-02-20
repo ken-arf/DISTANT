@@ -4,10 +4,10 @@ by	by	O	O
 phenobarbital	phenobarbital	S_chemical	O
 of	of	O	O
 the	the	O	O
-hepatocarcinogenicity	hepatocarcinogenicity	O	O
+hepatocarcinogenicity	hepatocarcinogenicity	O	S_disease
 of	of	O	O
 a	a	O	O
-choline-devoid	choline-devoid	O	O
+choline-devoid	choline-devoid	S_chemical	O
 diet	diet	O	O
 in	in	O	O
 the	the	O	O
@@ -26,12 +26,12 @@ of	of	O	O
 phenobarbital	phenobarbital	S_chemical	O
 in	in	O	O
 a	a	O	O
-choline-devoid	choline-devoid	O	O
+choline-devoid	choline-devoid	S_chemical	O
 diet	diet	O	O
 would	would	O	O
 increase	increase	O	O
 the	the	O	O
-hepatocarcinogenicity	hepatocarcinogenicity	O	O
+hepatocarcinogenicity	hepatocarcinogenicity	O	S_disease
 of	of	O	O
 the	the	O	O
 diet	diet	O	O
@@ -52,7 +52,7 @@ for	for	O	O
 25	25	O	O
 months	months	O	O
 semipurified	semipurified	O	O
-choline-devoid	choline-devoid	O	O
+choline-devoid	choline-devoid	S_chemical	O
 or	or	O	O
 choline-supplemented	choline-supplemented	O	O
 diets	diets	O	O
@@ -67,11 +67,11 @@ phenobarbital	phenobarbital	S_chemical	O
 
 No	no	O	O
 hepatic	hepatic	O	O
-preneoplastic	preneoplastic	O	O
+preneoplastic	preneoplastic	O	S_disease
 nodules	nodules	O	O
 or	or	O	O
-hepatocellular	hepatocellular	O	O
-carcinomas	carcinomas	O	O
+hepatocellular	hepatocellular	O	B_disease
+carcinomas	carcinomas	O	I_disease
 developed	developed	O	O
 in	in	O	O
 rats	rats	O	O
@@ -83,7 +83,7 @@ diet	diet	O	O
 ,	,	O	O
 while	while	O	O
 one	one	O	O
-preneoplastic	preneoplastic	O	O
+preneoplastic	preneoplastic	O	S_disease
 nodule	nodule	O	O
 and	and	O	O
 one	one	O	O
@@ -104,12 +104,12 @@ phenobarbital	phenobarbital	S_chemical	O
 The	the	O	O
 incidence	incidence	O	O
 of	of	O	O
-preneoplastic	preneoplastic	O	O
+preneoplastic	preneoplastic	O	S_disease
 nodules	nodules	O	O
 and	and	O	O
 of	of	O	O
-hepatocellular	hepatocellular	O	O
-carcinomas	carcinomas	O	O
+hepatocellular	hepatocellular	O	B_disease
+carcinomas	carcinomas	O	I_disease
 was	was	O	O
 10	10	O	O
 %	%	O	O
@@ -124,7 +124,7 @@ rats	rats	O	O
 fed	fed	O	O
 the	the	O	O
 plain	plain	O	O
-choline-devoid	choline-devoid	O	O
+choline-devoid	choline-devoid	S_chemical	O
 diet	diet	O	O
 ,	,	O	O
 and	and	O	O
@@ -139,7 +139,7 @@ rats	rats	O	O
 fed	fed	O	O
 the	the	O	O
 phenobarbital-containing	phenobarbital-containing	O	O
-choline-devoid	choline-devoid	O	O
+choline-devoid	choline-devoid	S_chemical	O
 diet	diet	O	O
 .	.	O	O
 
@@ -150,18 +150,18 @@ no	no	O	O
 enhancement	enhancement	O	O
 of	of	O	O
 the	the	O	O
-hepatocarcinogenicity	hepatocarcinogenicity	O	O
+hepatocarcinogenicity	hepatocarcinogenicity	O	S_disease
 of	of	O	O
 the	the	O	O
-choline-devoid	choline-devoid	O	O
+choline-devoid	choline-devoid	S_chemical	O
 diet	diet	O	O
 by	by	O	O
 phenobarbital	phenobarbital	S_chemical	O
 .	.	O	O
 
 Sporadic	sporadic	O	O
-neoplastic	neoplastic	O	O
-lesions	lesions	O	O
+neoplastic	neoplastic	O	B_disease
+lesions	lesions	O	I_disease
 were	were	O	O
 observed	observed	O	O
 in	in	O	O

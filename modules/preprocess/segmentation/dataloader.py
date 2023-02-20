@@ -68,12 +68,13 @@ class Dataloader:
 
         n = len(texts)
         val_size = int(n * 0.1)
+        train_size = n - val_size
 
-        train_stexts = stexts[:val_size]
-        valid_stexts = stexts[val_size:]
+        train_stexts = stexts[:train_size]
+        valid_stexts = stexts[train_size:]
 
-        train_slabels = slabels[:val_size]
-        valid_slabels = slabels[val_size:]
+        train_slabels = slabels[:train_size]
+        valid_slabels = slabels[train_size:]
 
         train_dataset = {'text': train_stexts, 'label': train_slabels}
         valid_dataset = {'text': valid_stexts, 'label': valid_slabels}

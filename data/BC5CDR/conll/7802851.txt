@@ -135,8 +135,8 @@ alprazolam	alprazolam	S_chemical	O
 patients	patients	O	O
 developed	developed	O	O
 more	more	O	O
-adverse	adverse	O	O
-reactions	reactions	O	O
+adverse	adverse	O	B_disease
+reactions	reactions	O	I_disease
 (	(	O	O
 21	21	O	O
 %	%	O	O
@@ -149,7 +149,7 @@ depression	depression	O	S_disease
 ,	,	O	O
 enuresis	enuresis	O	O
 ,	,	O	O
-disinhibition	disinhibition	O	O
+disinhibition	disinhibition	O	S_disease
 and	and	O	O
 aggression	aggression	O	S_disease
 ;	;	O	O
@@ -162,8 +162,8 @@ sedation	sedation	O	O
 ,	,	O	O
 irritability	irritability	O	S_disease
 ,	,	O	O
-impaired	impaired	O	O
-memory	memory	O	O
+impaired	impaired	O	B_disease
+memory	memory	O	I_disease
 ,	,	O	O
 weight	weight	O	B_disease
 loss	loss	O	I_disease
@@ -201,8 +201,8 @@ Alprazolam	alprazolam	S_chemical	O
 caused	caused	O	O
 side-effects	side-effects	O	O
 and	and	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 during	during	O	O
 treatment	treatment	O	O
 but	but	O	O

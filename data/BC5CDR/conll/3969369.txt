@@ -6,7 +6,7 @@ and	and	O	O
 dietary	dietary	O	O
 fat	fat	O	O
 on	on	O	O
-prostate	prostate	O	O
+prostate	prostate	O	B_disease
 carcinogenesis	carcinogenesis	O	S_disease
 in	in	O	O
 genetically	genetically	O	O
@@ -33,8 +33,8 @@ L-485	l-485	O	O
 ,	,	O	O
 have	have	O	O
 developed	developed	O	O
-prostate	prostate	O	O
-adenocarcinomas	adenocarcinomas	O	O
+prostate	prostate	O	B_disease
+adenocarcinomas	adenocarcinomas	O	I_disease
 spontaneously	spontaneously	O	O
 (	(	O	O
 10	10	O	O

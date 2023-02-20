@@ -1,9 +1,9 @@
-Serotonergic	serotonergic	O	O
+Serotonergic	serotonergic	S_chemical	O
 drugs	drugs	O	O
 ,	,	O	O
 benzodiazepines	benzodiazepines	S_chemical	O
 and	and	O	O
-baclofen	baclofen	O	O
+baclofen	baclofen	S_chemical	O
 block	block	O	O
 muscimol-induced	muscimol-induced	O	O
 myoclonic	myoclonic	O	B_disease
@@ -140,7 +140,7 @@ Of	of	O	O
 the	the	O	O
 benzodiazepines	benzodiazepines	S_chemical	O
 ,	,	O	O
-clonazepam	clonazepam	O	O
+clonazepam	clonazepam	S_chemical	O
 (	(	O	O
 0.1	0.1	O	O
 -	-	O	O
@@ -171,7 +171,7 @@ jerks	jerks	O	I_disease
 .	.	O	O
 
 While	while	O	O
-(-)-baclofen	(-)-baclofen	O	O
+(-)-baclofen	(-)-baclofen	S_chemical	O
 (	(	O	O
 1	1	O	O
 -	-	O	O
@@ -257,7 +257,7 @@ value	value	O	O
 of	of	O	O
 MK-212	mk-212	O	O
 and	and	O	O
-(-)-baclofen	(-)-baclofen	O	O
+(-)-baclofen	(-)-baclofen	S_chemical	O
 in	in	O	O
 the	the	O	O
 management	management	O	O

@@ -1,0 +1,18 @@
+T1	Chemical 0 12	Cyclosporine
+T2	Disease 39 65	thrombotic microangiopathy
+T3	Disease 85 111	thrombotic microangiopathy
+T4	Chemical 145 157	cyclosporine
+T5	Chemical 241 253	cyclosporine
+T6	Disease 509 524	acute rejection
+T7	Disease 529 539	graft loss
+T8	Chemical 583 593	tacrolimus
+T9	Chemical 688 700	cyclosporine
+T10	Chemical 728 738	tacrolimus
+T11	Chemical 875 885	tacrolimus
+T12	Chemical 1069 1081	cyclosporine
+T13	Chemical 1086 1096	tacrolimus
+T14	Chemical 1246 1258	cyclosporine
+T15	Chemical 1355 1365	tacrolimus
+T16	Chemical 1521 1533	cyclosporine
+T17	Chemical 1537 1547	tacrolimus
+T18	Disease 1598 1616	signs and symptoms

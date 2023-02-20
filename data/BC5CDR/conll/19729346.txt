@@ -2,8 +2,8 @@ Comparative	comparative	O	O
 cognitive	cognitive	O	O
 and	and	O	O
 subjective	subjective	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 immediate-release	immediate-release	O	O
 oxycodone	oxycodone	S_chemical	O
@@ -22,7 +22,7 @@ the	the	O	O
 objective	objective	O	O
 and	and	O	O
 subjective	subjective	O	O
-neurocognitive	neurocognitive	O	O
+neurocognitive	neurocognitive	O	S_disease
 effects	effects	O	O
 of	of	O	O
 a	a	O	O
@@ -213,7 +213,7 @@ from	from	O	O
 chronic	chronic	O	B_disease
 pain	pain	O	S_disease
 ,	,	O	O
-neurocognitive	neurocognitive	O	O
+neurocognitive	neurocognitive	O	S_disease
 and	and	O	O
 pharmacodynamic	pharmacodynamic	O	O
 changes	changes	O	O
@@ -245,13 +245,13 @@ that	that	O	O
 the	the	O	O
 metabolism	metabolism	O	O
 ,	,	O	O
-neurocognitive	neurocognitive	O	O
+neurocognitive	neurocognitive	O	S_disease
 effects	effects	O	O
 ,	,	O	O
 and	and	O	O
 physical	physical	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 oral	oral	O	O
 oxycodone	oxycodone	S_chemical	O
@@ -273,7 +273,7 @@ not	not	O	O
 avoid	avoid	O	O
 prescribing	prescribing	O	O
 oral	oral	O	O
-opioids	opioids	O	O
+opioids	opioids	S_chemical	O
 to	to	O	O
 older	older	O	O
 adults	adults	O	O
@@ -289,8 +289,8 @@ at	at	O	O
 higher	higher	O	O
 risk	risk	O	O
 for	for	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 than	than	O	O
 younger	younger	O	O
 adults	adults	O	O

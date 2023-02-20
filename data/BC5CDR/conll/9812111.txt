@@ -9,8 +9,8 @@ haloperidol	haloperidol	S_chemical	O
 for	for	O	O
 psychosis	psychosis	O	S_disease
 and	and	O	O
-disruptive	disruptive	O	O
-behaviors	behaviors	O	O
+disruptive	disruptive	O	B_disease
+behaviors	behaviors	O	I_disease
 in	in	O	O
 Alzheimer	alzheimer	O	B_disease
 's	's	O	I_disease
@@ -30,8 +30,8 @@ compare	compare	O	O
 the	the	O	O
 efficacy	efficacy	O	O
 and	and	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 two	two	O	O
 doses	doses	O	O
@@ -45,8 +45,8 @@ treatment	treatment	O	O
 of	of	O	O
 psychosis	psychosis	O	S_disease
 and	and	O	O
-disruptive	disruptive	O	O
-behaviors	behaviors	O	O
+disruptive	disruptive	O	B_disease
+behaviors	behaviors	O	I_disease
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
@@ -232,8 +232,8 @@ In	in	O	O
 phase	phase	O	O
 A	a	O	O
 ,	,	O	O
-extrapyramidal	extrapyramidal	O	O
-signs	signs	O	O
+extrapyramidal	extrapyramidal	O	B_disease
+signs	signs	O	I_disease
 tended	tended	O	O
 to	to	O	O
 be	be	O	O
@@ -279,8 +279,8 @@ measure	measure	O	O
 of	of	O	O
 efficacy	efficacy	O	O
 or	or	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 
 CONCLUSIONS	conclusions	O	O
@@ -309,8 +309,8 @@ developed	developed	O	O
 moderate	moderate	O	O
 to	to	O	O
 severe	severe	O	O
-extrapyramidal	extrapyramidal	O	O
-signs	signs	O	O
+extrapyramidal	extrapyramidal	O	B_disease
+signs	signs	O	I_disease
 .	.	O	O
 
 A	a	O	O
@@ -351,7 +351,7 @@ patients	patients	O	O
 with	with	O	O
 psychosis	psychosis	O	S_disease
 and	and	O	O
-disruptive	disruptive	O	O
-behaviors	behaviors	O	O
+disruptive	disruptive	O	B_disease
+behaviors	behaviors	O	I_disease
 .	.	O	O
 

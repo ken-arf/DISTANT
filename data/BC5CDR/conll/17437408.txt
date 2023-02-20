@@ -367,9 +367,9 @@ phenobarbital	phenobarbital	S_chemical	O
 and	and	O	O
 the	the	O	O
 selective	selective	O	O
-Pgp	pgp	O	O
-inhibitor	inhibitor	O	O
-tariquidar	tariquidar	O	O
+Pgp	pgp	B_chemical	O
+inhibitor	inhibitor	I_chemical	O
+tariquidar	tariquidar	I_chemical	O
 in	in	O	O
 TR(-	tr(-	O	O
 )	)	O	O

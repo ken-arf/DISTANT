@@ -10,13 +10,13 @@ in	in	O	O
 pregnancy	pregnancy	O	O
 .	.	O	O
 
-Eating	eating	O	O
-disorders	disorders	O	O
+Eating	eating	O	B_disease
+disorders	disorders	O	I_disease
 and	and	O	O
 the	the	O	O
 associated	associated	O	O
-behavioural	behavioural	O	O
-problems	problems	O	O
+behavioural	behavioural	O	B_disease
+problems	problems	O	I_disease
 and	and	O	O
 drug	drug	O	B_disease
 abuse	abuse	O	I_disease
@@ -67,8 +67,8 @@ encountered	encountered	O	O
 in	in	O	O
 women	women	O	O
 with	with	O	O
-eating	eating	O	O
-disorders	disorders	O	O
+eating	eating	O	B_disease
+disorders	disorders	O	I_disease
 in	in	O	O
 pregnancy	pregnancy	O	O
 ,	,	O	O
@@ -76,8 +76,8 @@ including	including	O	O
 prolonged	prolonged	O	O
 and	and	O	O
 recurrent	recurrent	O	O
-metabolic	metabolic	O	O
-disturbances	disturbances	O	O
+metabolic	metabolic	O	B_disease
+disturbances	disturbances	O	I_disease
 and	and	O	O
 diuretic	diuretic	O	O
 abuse	abuse	O	O
@@ -97,8 +97,8 @@ in	in	O	O
 pregnant	pregnant	O	O
 women	women	O	O
 with	with	O	O
-eating	eating	O	O
-disorders	disorders	O	O
+eating	eating	O	B_disease
+disorders	disorders	O	I_disease
 and	and	O	O
 reminds	reminds	O	O
 us	us	O	O

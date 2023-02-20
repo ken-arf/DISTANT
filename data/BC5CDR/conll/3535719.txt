@@ -3,7 +3,7 @@ efficacy	efficacy	O	O
 and	and	O	O
 toxicity	toxicity	O	S_disease
 of	of	O	O
-netilmicin	netilmicin	O	O
+netilmicin	netilmicin	S_chemical	O
 and	and	O	O
 tobramycin	tobramycin	S_chemical	O
 in	in	O	O
@@ -19,11 +19,11 @@ efficacy	efficacy	O	O
 and	and	O	O
 safety	safety	O	O
 of	of	O	O
-netilmicin	netilmicin	O	O
-sulfate	sulfate	O	O
+netilmicin	netilmicin	B_chemical	O
+sulfate	sulfate	I_chemical	O
 or	or	O	O
-tobramycin	tobramycin	S_chemical	O
-sulfate	sulfate	O	O
+tobramycin	tobramycin	B_chemical	O
+sulfate	sulfate	I_chemical	O
 in	in	O	O
 conjunction	conjunction	O	O
 with	with	O	O
@@ -58,7 +58,7 @@ in	in	O	O
 patients	patients	O	O
 treated	treated	O	O
 with	with	O	O
-netilmicin	netilmicin	O	O
+netilmicin	netilmicin	S_chemical	O
 and	and	O	O
 tobramycin	tobramycin	S_chemical	O
 (	(	O	O
@@ -80,7 +80,7 @@ four	four	O	O
 )	)	O	O
 of	of	O	O
 42	42	O	O
-netilmicin	netilmicin	O	O
+netilmicin	netilmicin	S_chemical	O
 and	and	O	O
 piperacillin	piperacillin	O	O
 and	and	O	O
@@ -108,7 +108,7 @@ audiograms	audiograms	O	O
 three	three	O	O
 of	of	O	O
 four	four	O	O
-netilmicin	netilmicin	O	O
+netilmicin	netilmicin	S_chemical	O
 and	and	O	O
 piperacillin-treated	piperacillin-treated	O	O
 patients	patients	O	O
@@ -163,7 +163,7 @@ was	was	O	O
 significantly	significantly	O	O
 lower	lower	O	O
 in	in	O	O
-netilmicin	netilmicin	O	O
+netilmicin	netilmicin	S_chemical	O
 and	and	O	O
 piperacillin-	piperacillin-	O	O
 vs	vs	O	O
@@ -195,7 +195,7 @@ more	more	O	O
 often	often	O	O
 reversible	reversible	O	O
 with	with	O	O
-netilmicin	netilmicin	O	O
+netilmicin	netilmicin	S_chemical	O
 than	than	O	O
 with	with	O	O
 tobramycin	tobramycin	S_chemical	O

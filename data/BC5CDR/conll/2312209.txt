@@ -12,7 +12,7 @@ A	a	O	O
 78-year-old	78-year-old	O	O
 with	with	O	O
 healed	healed	O	O
-septal	septal	O	O
+septal	septal	O	B_disease
 necrosis	necrosis	O	S_disease
 suffered	suffered	O	O
 a	a	O	O
@@ -21,8 +21,8 @@ myocardial	myocardial	O	B_disease
 infarction	infarction	O	S_disease
 of	of	O	O
 the	the	O	O
-anterior	anterior	O	O
-wall	wall	O	O
+anterior	anterior	O	B_disease
+wall	wall	O	I_disease
 following	following	O	O
 the	the	O	O
 administration	administration	O	O
@@ -57,15 +57,15 @@ occurring	occurring	O	O
 downstream	downstream	O	O
 to	to	O	O
 significant	significant	O	O
-coronary	coronary	O	O
-arterial	arterial	O	O
-stenosis	stenosis	O	O
+coronary	coronary	O	B_disease
+arterial	arterial	O	I_disease
+stenosis	stenosis	O	I_disease
 in	in	O	O
 the	the	O	O
 pathophysiology	pathophysiology	O	O
 of	of	O	O
-acute	acute	O	O
-coronary	coronary	O	O
-insufficiency	insufficiency	O	O
+acute	acute	O	B_disease
+coronary	coronary	O	I_disease
+insufficiency	insufficiency	O	I_disease
 .	.	O	O
 

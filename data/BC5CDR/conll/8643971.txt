@@ -12,7 +12,7 @@ therapy	therapy	O	O
 for	for	O	O
 head	head	O	O
 and	and	O	O
-neck	neck	O	O
+neck	neck	O	B_disease
 cancers	cancers	O	S_disease
 :	:	O	O
 preliminary	preliminary	O	O
@@ -77,7 +77,7 @@ cancer	cancer	O	S_disease
 ,	,	O	O
 and	and	O	O
 the	the	O	O
-paclitaxel/cisplatin	paclitaxel/cisplatin	O	O
+paclitaxel/cisplatin	paclitaxel/cisplatin	S_chemical	O
 combination	combination	O	O
 has	has	O	O
 been	been	O	O
@@ -208,9 +208,9 @@ III	iii	O	O
 and	and	O	O
 16	16	O	O
 had	had	O	O
-stage	stage	O	O
-IV	iv	O	O
-disease	disease	O	O
+stage	stage	O	B_disease
+IV	iv	O	I_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 Treatment	treatment	O	O
@@ -408,7 +408,7 @@ Alopecia	alopecia	O	O
 paresthesias	paresthesias	O	O
 ,	,	O	O
 and	and	O	O
-arthralgias/myalgias	arthralgias/myalgias	O	O
+arthralgias/myalgias	arthralgias/myalgias	O	S_disease
 have	have	O	O
 occurred	occurred	O	O
 frequently	frequently	O	O
@@ -441,7 +441,7 @@ been	been	O	O
 seen	seen	O	O
 .	.	O	O
 
-Paclitaxel/cisplatin	paclitaxel/cisplatin	O	O
+Paclitaxel/cisplatin	paclitaxel/cisplatin	S_chemical	O
 is	is	O	O
 an	an	O	O
 effective	effective	O	O
@@ -449,8 +449,8 @@ first-line	first-line	O	O
 regimen	regimen	O	O
 for	for	O	O
 locoregionally	locoregionally	O	O
-advanced	advanced	O	O
-head	head	O	O
+advanced	advanced	O	B_disease
+head	head	O	I_disease
 and	and	O	O
 neck	neck	O	O
 cancer	cancer	O	S_disease

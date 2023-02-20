@@ -1,5 +1,5 @@
-Pyrrolidine	pyrrolidine	O	O
-dithiocarbamate	dithiocarbamate	O	O
+Pyrrolidine	pyrrolidine	B_chemical	O
+dithiocarbamate	dithiocarbamate	I_chemical	O
 protects	protects	O	O
 the	the	O	O
 piriform	piriform	O	O
@@ -12,8 +12,8 @@ epilepticus	epilepticus	O	I_disease
 model	model	O	O
 .	.	O	O
 
-Pyrrolidine	pyrrolidine	O	O
-dithiocarbamate	dithiocarbamate	O	O
+Pyrrolidine	pyrrolidine	B_chemical	O
+dithiocarbamate	dithiocarbamate	I_chemical	O
 (	(	O	O
 PDTC	pdtc	S_chemical	O
 )	)	O	O
@@ -186,7 +186,7 @@ neuronal	neuronal	O	O
 density	density	O	O
 of	of	O	O
 the	the	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 hilar	hilar	O	O
 formation	formation	O	O
 was	was	O	O
@@ -221,8 +221,8 @@ did	did	O	O
 not	not	O	O
 affect	affect	O	O
 hilar	hilar	O	O
-neuronal	neuronal	O	O
-loss	loss	O	O
+neuronal	neuronal	O	B_disease
+loss	loss	O	I_disease
 .	.	O	O
 
 These	these	O	O
@@ -257,7 +257,7 @@ as	as	O	O
 compared	compared	O	O
 to	to	O	O
 the	the	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 hilus	hilus	O	O
 .	.	O	O
 

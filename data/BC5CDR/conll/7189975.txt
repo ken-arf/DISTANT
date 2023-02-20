@@ -69,7 +69,7 @@ and	and	O	O
 266.5	266.5	O	O
 mg/kg	mg/kg	O	O
 for	for	O	O
-chloroprocaine	chloroprocaine	O	O
+chloroprocaine	chloroprocaine	S_chemical	O
 .	.	O	O
 
 When	when	O	O
@@ -92,7 +92,7 @@ times	times	O	O
 as	as	O	O
 toxic	toxic	O	O
 as	as	O	O
-chloroprocaine	chloroprocaine	O	O
+chloroprocaine	chloroprocaine	S_chemical	O
 .	.	O	O
 
 Convulsions	convulsions	O	S_disease
@@ -103,8 +103,8 @@ death	death	O	S_disease
 except	except	O	O
 after	after	O	O
 precipitous	precipitous	O	O
-cardiopulmonary	cardiopulmonary	O	O
-arrest	arrest	O	O
+cardiopulmonary	cardiopulmonary	O	B_disease
+arrest	arrest	O	I_disease
 from	from	O	O
 extreme	extreme	O	O
 doses	doses	O	O
@@ -139,7 +139,7 @@ in	in	O	O
 %	%	O	O
 of	of	O	O
 the	the	O	O
-chloroprocaine	chloroprocaine	O	O
+chloroprocaine	chloroprocaine	S_chemical	O
 group	group	O	O
 ,	,	O	O
 and	and	O	O

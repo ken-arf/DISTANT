@@ -11,8 +11,8 @@ the	the	O	O
 detection	detection	O	O
 of	of	O	O
 oversulfated	oversulfated	O	O
-chondroitin	chondroitin	O	O
-sulfate	sulfate	O	O
+chondroitin	chondroitin	B_chemical	O
+sulfate	sulfate	I_chemical	O
 in	in	O	O
 heparin	heparin	S_chemical	O
 products	products	O	O
@@ -27,8 +27,8 @@ anticoagulant	anticoagulant	O	O
 used	used	O	O
 to	to	O	O
 treat	treat	O	O
-critically	critically	O	O
-ill	ill	O	O
+critically	critically	O	B_disease
+ill	ill	O	I_disease
 patients	patients	O	O
 .	.	O	O
 
@@ -50,10 +50,10 @@ contaminated	contaminated	O	O
 with	with	O	O
 an	an	O	O
 oversulfated	oversulfated	O	O
-chondroitin	chondroitin	O	O
-sulfate	sulfate	O	O
+chondroitin	chondroitin	B_chemical	O
+sulfate	sulfate	I_chemical	O
 (	(	O	O
-OSCS	oscs	O	O
+OSCS	oscs	S_chemical	O
 )	)	O	O
 derivative	derivative	O	O
 that	that	O	O
@@ -86,7 +86,7 @@ we	we	O	O
 showed	showed	O	O
 that	that	O	O
 the	the	O	O
-OSCS	oscs	O	O
+OSCS	oscs	S_chemical	O
 produces	produces	O	O
 dose-dependent	dose-dependent	O	O
 hypotension	hypotension	O	S_disease
@@ -126,7 +126,7 @@ We	we	O	O
 also	also	O	O
 demonstrated	demonstrated	O	O
 that	that	O	O
-OSCS	oscs	O	O
+OSCS	oscs	S_chemical	O
 can	can	O	O
 be	be	O	O
 identified	identified	O	O

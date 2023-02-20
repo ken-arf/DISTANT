@@ -1,6 +1,6 @@
-Torsade	torsade	O	B_disease
-de	de	O	I_disease
-pointes	pointes	O	I_disease
+Torsade	torsade	B_chemical	B_disease
+de	de	I_chemical	I_disease
+pointes	pointes	I_chemical	I_disease
 induced	induced	O	O
 by	by	O	O
 metoclopramide	metoclopramide	S_chemical	O
@@ -31,9 +31,9 @@ long	long	O	B_disease
 QT	qt	O	I_disease
 syndrome	syndrome	O	I_disease
 and	and	O	O
-torsade	torsade	O	B_disease
-de	de	O	I_disease
-pointes	pointes	O	I_disease
+torsade	torsade	B_chemical	B_disease
+de	de	I_chemical	I_disease
+pointes	pointes	I_chemical	I_disease
 .	.	O	O
 
 However	however	O	O
@@ -83,9 +83,9 @@ branch	branch	O	O
 block	block	O	O
 who	who	O	O
 developed	developed	O	O
-torsade	torsade	O	B_disease
-de	de	O	I_disease
-pointes	pointes	O	I_disease
+torsade	torsade	B_chemical	B_disease
+de	de	I_chemical	I_disease
+pointes	pointes	I_chemical	I_disease
 after	after	O	O
 intravenous	intravenous	O	O
 and	and	O	O
@@ -99,9 +99,9 @@ This	this	O	O
 patient	patient	O	O
 also	also	O	O
 developed	developed	O	O
-torsade	torsade	O	B_disease
-de	de	O	I_disease
-pointes	pointes	O	I_disease
+torsade	torsade	B_chemical	B_disease
+de	de	I_chemical	I_disease
+pointes	pointes	I_chemical	I_disease
 when	when	O	O
 cisapride	cisapride	S_chemical	O
 and	and	O	O
@@ -137,9 +137,9 @@ documentation	documentation	O	O
 that	that	O	O
 metoclopramide	metoclopramide	S_chemical	O
 provokes	provokes	O	O
-torsade	torsade	O	B_disease
-de	de	O	I_disease
-pointes	pointes	O	I_disease
+torsade	torsade	B_chemical	B_disease
+de	de	I_chemical	I_disease
+pointes	pointes	I_chemical	I_disease
 clinically	clinically	O	O
 .	.	O	O
 
@@ -154,8 +154,8 @@ with	with	O	O
 a	a	O	O
 risk	risk	O	O
 of	of	O	O
-torsade	torsade	O	B_disease
-de	de	O	I_disease
-pointes	pointes	O	I_disease
+torsade	torsade	B_chemical	B_disease
+de	de	I_chemical	I_disease
+pointes	pointes	I_chemical	I_disease
 .	.	O	O
 

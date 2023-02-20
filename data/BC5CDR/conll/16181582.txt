@@ -41,8 +41,8 @@ usually	usually	O	O
 but	but	O	O
 not	not	O	O
 necessarily	necessarily	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 hyperammonemia	hyperammonemia	O	S_disease
 .	.	O	O
 

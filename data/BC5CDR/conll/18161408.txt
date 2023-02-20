@@ -2,9 +2,9 @@ Myocardial	myocardial	O	B_disease
 infarction	infarction	O	S_disease
 in	in	O	O
 pregnancy	pregnancy	O	O
-associated	associated	O	O
-with	with	O	O
-clomiphene	clomiphene	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+clomiphene	clomiphene	B_chemical	O
 citrate	citrate	S_chemical	O
 for	for	O	O
 ovulation	ovulation	O	O
@@ -17,7 +17,7 @@ report	report	O	O
 
 BACKGROUND	background	O	O
 :	:	O	O
-Clomiphene	clomiphene	O	O
+Clomiphene	clomiphene	B_chemical	O
 citrate	citrate	S_chemical	O
 (	(	O	O
 CC	cc	S_chemical	O
@@ -37,8 +37,8 @@ safe	safe	O	O
 ,	,	O	O
 with	with	O	O
 minimal	minimal	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 
 Thromboembolism	thromboembolism	O	O
@@ -91,8 +91,8 @@ with	with	O	O
 a	a	O	O
 subsequently	subsequently	O	O
 normal	normal	O	O
-coronary	coronary	O	O
-angiogram	angiogram	O	O
+coronary	coronary	O	B_disease
+angiogram	angiogram	O	I_disease
 .	.	O	O
 
 CASE	case	O	O
@@ -164,16 +164,16 @@ at	at	O	O
 high	high	O	O
 risk	risk	O	O
 of	of	O	O
-radiation	radiation	O	O
-injury	injury	O	O
+radiation	radiation	O	B_disease
+injury	injury	O	I_disease
 to	to	O	O
 the	the	O	O
 fetus	fetus	O	O
 ,	,	O	O
 so	so	O	O
 a	a	O	O
-coronary	coronary	O	O
-angiogram	angiogram	O	O
+coronary	coronary	O	B_disease
+angiogram	angiogram	O	I_disease
 was	was	O	O
 postponed	postponed	O	O
 until	until	O	O

@@ -7,20 +7,20 @@ the	the	O	O
 protective	protective	O	O
 activity	activity	O	O
 of	of	O	O
-loreclezole	loreclezole	O	O
+loreclezole	loreclezole	S_chemical	O
 and	and	O	O
 its	its	O	O
 combinations	combinations	O	O
 with	with	O	O
 valproate	valproate	S_chemical	O
 or	or	O	O
-clonazepam	clonazepam	O	O
+clonazepam	clonazepam	S_chemical	O
 in	in	O	O
 amygdala-kindled	amygdala-kindled	O	O
 rats	rats	O	O
 .	.	O	O
 
-Loreclezole	loreclezole	O	O
+Loreclezole	loreclezole	S_chemical	O
 (	(	O	O
 5	5	O	O
 mg/kg	mg/kg	O	O
@@ -45,7 +45,7 @@ durations	durations	O	O
 The	the	O	O
 combinations	combinations	O	O
 of	of	O	O
-loreclezole	loreclezole	O	O
+loreclezole	loreclezole	S_chemical	O
 (	(	O	O
 2.5	2.5	O	O
 mg/kg	mg/kg	O	O
@@ -53,7 +53,7 @@ mg/kg	mg/kg	O	O
 with	with	O	O
 valproate	valproate	S_chemical	O
 ,	,	O	O
-clonazepam	clonazepam	O	O
+clonazepam	clonazepam	S_chemical	O
 ,	,	O	O
 or	or	O	O
 carbamazepine	carbamazepine	S_chemical	O
@@ -66,7 +66,7 @@ doses	doses	O	O
 )	)	O	O
 also	also	O	O
 exhibited	exhibited	O	O
-antiseizure	antiseizure	O	O
+antiseizure	antiseizure	S_chemical	O
 effect	effect	O	O
 in	in	O	O
 this	this	O	O
@@ -93,8 +93,8 @@ chemoconvulsants	chemoconvulsants	O	O
 ,	,	O	O
 bicuculline	bicuculline	S_chemical	O
 ,	,	O	O
-N-methyl-D-aspartic	n-methyl-d-aspartic	O	O
-acid	acid	O	O
+N-methyl-D-aspartic	n-methyl-d-aspartic	B_chemical	O
+acid	acid	I_chemical	O
 and	and	O	O
 BAY	bay	O	O
 k-8644	k-8644	O	O
@@ -111,7 +111,7 @@ the	the	O	O
 protective	protective	O	O
 activity	activity	O	O
 of	of	O	O
-loreclezole	loreclezole	O	O
+loreclezole	loreclezole	S_chemical	O
 alone	alone	O	O
 and	and	O	O
 its	its	O	O
@@ -136,10 +136,10 @@ the	the	O	O
 anticonvulsive	anticonvulsive	O	O
 action	action	O	O
 of	of	O	O
-loreclezole	loreclezole	O	O
+loreclezole	loreclezole	S_chemical	O
 combined	combined	O	O
 with	with	O	O
-clonazepam	clonazepam	O	O
+clonazepam	clonazepam	S_chemical	O
 .	.	O	O
 
 The	the	O	O
@@ -152,7 +152,7 @@ the	the	O	O
 protective	protective	O	O
 activity	activity	O	O
 of	of	O	O
-loreclezole	loreclezole	O	O
+loreclezole	loreclezole	S_chemical	O
 and	and	O	O
 its	its	O	O
 combinations	combinations	O	O

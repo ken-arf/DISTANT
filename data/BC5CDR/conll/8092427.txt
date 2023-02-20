@@ -76,12 +76,12 @@ tests	tests	O	O
 were	were	O	O
 performed	performed	O	O
 with	with	O	O
-benzylpenicilloyl-poly-L-lysine	benzylpenicilloyl-poly-l-lysine	O	O
-(	(	O	O
-BPO-PLL	bpo-pll	O	O
-)	)	O	O
+benzylpenicilloyl-poly-L-lysine	benzylpenicilloyl-poly-l-lysine	B_chemical	O
+(	(	I_chemical	O
+BPO-PLL	bpo-pll	I_chemical	O
+)	)	I_chemical	O
 ,	,	O	O
-benzylpenicilloate	benzylpenicilloate	O	O
+benzylpenicilloate	benzylpenicilloate	S_chemical	O
 ,	,	O	O
 benzylpenicillin	benzylpenicillin	S_chemical	O
 (	(	O	O

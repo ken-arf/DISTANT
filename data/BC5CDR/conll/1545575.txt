@@ -1,12 +1,12 @@
-Hemorrhagic	hemorrhagic	O	S_disease
+Hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 complicating	complicating	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 transplantation	transplantation	O	O
 .	.	O	O
 
-Hemorrhagic	hemorrhagic	O	S_disease
+Hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 is	is	O	O
 a	a	O	O
@@ -19,8 +19,8 @@ cyclophosphamide	cyclophosphamide	S_chemical	O
 therapy	therapy	O	O
 administered	administered	O	O
 before	before	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 transplantation	transplantation	O	O
 .	.	O	O
 
@@ -38,8 +38,8 @@ scheduled	scheduled	O	O
 to	to	O	O
 receive	receive	O	O
 a	a	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 transplant	transplant	O	O
 are	are	O	O
 treated	treated	O	O
@@ -82,7 +82,7 @@ of	of	O	O
 cyclophosphamide	cyclophosphamide	S_chemical	O
 that	that	O	O
 causes	causes	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 .	.	O	O
 
@@ -97,7 +97,7 @@ prophylaxis	prophylaxis	O	O
 4	4	O	O
 had	had	O	O
 symptomatic	symptomatic	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 .	.	O	O
 
@@ -115,12 +115,12 @@ mesna	mesna	S_chemical	O
 uroprophylaxis	uroprophylaxis	O	O
 before	before	O	O
 allogeneic	allogeneic	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 transplantation	transplantation	O	O
 had	had	O	O
 severe	severe	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 for	for	O	O
 at	at	O	O
@@ -150,7 +150,7 @@ minimize	minimize	O	O
 the	the	O	O
 risk	risk	O	O
 of	of	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 .	.	O	O
 

@@ -271,11 +271,11 @@ received	received	O	O
 tamoxifen	tamoxifen	S_chemical	O
 had	had	O	O
 more	more	O	O
-advanced	advanced	O	O
-disease	disease	O	O
+advanced	advanced	O	B_disease
+disease	disease	O	I_disease
 and	and	O	O
-poorer	poorer	O	O
-prognosis	prognosis	O	O
+poorer	poorer	O	B_disease
+prognosis	prognosis	O	I_disease
 than	than	O	O
 those	those	O	O
 with	with	O	O
@@ -328,7 +328,7 @@ breast	breast	O	B_disease
 cancer	cancer	O	S_disease
 .	.	O	O
 
-Endometrial	endometrial	O	O
+Endometrial	endometrial	O	B_disease
 cancers	cancers	O	S_disease
 diagnosed	diagnosed	O	O
 in	in	O	O
@@ -337,8 +337,8 @@ treated	treated	O	O
 with	with	O	O
 tamoxifen	tamoxifen	S_chemical	O
 have	have	O	O
-poorer	poorer	O	O
-prognosis	prognosis	O	O
+poorer	poorer	O	B_disease
+prognosis	prognosis	O	I_disease
 .	.	O	O
 
 Women	women	O	O

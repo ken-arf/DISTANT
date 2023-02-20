@@ -1,4 +1,4 @@
-Metamizol	metamizol	O	O
+Metamizol	metamizol	S_chemical	O
 potentiates	potentiates	O	O
 morphine	morphine	S_chemical	O
 antinociception	antinociception	O	O
@@ -34,7 +34,7 @@ mg/kg	mg/kg	O	O
 s.c	s.c	O	O
 .	.	O	O
 
-metamizol	metamizol	O	O
+metamizol	metamizol	S_chemical	O
 in	in	O	O
 acutely	acutely	O	O
 and	and	O	O
@@ -68,8 +68,8 @@ inflammatory	inflammatory	O	O
 nociception	nociception	O	O
 ,	,	O	O
 pain-induced	pain-induced	O	O
-functional	functional	O	O
-impairment	impairment	O	O
+functional	functional	O	B_disease
+impairment	impairment	O	I_disease
 model	model	O	O
 ,	,	O	O
 and	and	O	O
@@ -91,7 +91,7 @@ administration	administration	O	O
 of	of	O	O
 morphine	morphine	S_chemical	O
 with	with	O	O
-metamizol	metamizol	O	O
+metamizol	metamizol	S_chemical	O
 resulted	resulted	O	O
 in	in	O	O
 a	a	O	O
@@ -257,7 +257,7 @@ treatment	treatment	O	O
 ,	,	O	O
 suggesting	suggesting	O	O
 that	that	O	O
-metamizol	metamizol	O	O
+metamizol	metamizol	S_chemical	O
 did	did	O	O
 not	not	O	O
 potentiate	potentiate	O	O
@@ -274,7 +274,7 @@ interaction	interaction	O	O
 between	between	O	O
 morphine	morphine	S_chemical	O
 and	and	O	O
-metamizol	metamizol	O	O
+metamizol	metamizol	S_chemical	O
 in	in	O	O
 chronically	chronically	O	O
 treated	treated	O	O

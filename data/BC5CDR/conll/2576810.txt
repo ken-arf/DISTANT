@@ -5,7 +5,7 @@ of	of	O	O
 repeated	repeated	O	O
 treatment	treatment	O	O
 with	with	O	O
-fluvoxamine	fluvoxamine	O	O
+fluvoxamine	fluvoxamine	S_chemical	O
 .	.	O	O
 
 We	we	O	O
@@ -16,7 +16,7 @@ of	of	O	O
 repeated	repeated	O	O
 treatment	treatment	O	O
 with	with	O	O
-fluvoxamine	fluvoxamine	O	O
+fluvoxamine	fluvoxamine	S_chemical	O
 ,	,	O	O
 a	a	O	O
 selective	selective	O	O
@@ -28,9 +28,9 @@ on	on	O	O
 behavioral	behavioral	O	O
 effects	effects	O	O
 of	of	O	O
-dopaminomimetics	dopaminomimetics	O	O
+dopaminomimetics	dopaminomimetics	S_chemical	O
 and	and	O	O
-methoxamine	methoxamine	O	O
+methoxamine	methoxamine	S_chemical	O
 and	and	O	O
 on	on	O	O
 the	the	O	O
@@ -39,8 +39,8 @@ behavior	behavior	O	O
 in	in	O	O
 the	the	O	O
 "	"	O	O
-behavioral	behavioral	O	O
-despair	despair	O	O
+behavioral	behavioral	O	B_disease
+despair	despair	O	I_disease
 "	"	O	O
 test	test	O	O
 .	.	O	O
@@ -49,7 +49,7 @@ A	a	O	O
 repeated	repeated	O	O
 treatment	treatment	O	O
 with	with	O	O
-fluvoxamine	fluvoxamine	O	O
+fluvoxamine	fluvoxamine	S_chemical	O
 (	(	O	O
 twice	twice	O	O
 daily	daily	O	O
@@ -75,13 +75,13 @@ The	the	O	O
 hyperactivity	hyperactivity	O	S_disease
 induced	induced	O	O
 by	by	O	O
-nomifensine	nomifensine	O	O
+nomifensine	nomifensine	S_chemical	O
 in	in	O	O
 mice	mice	O	O
 remained	remained	O	O
 unaffected	unaffected	O	O
 by	by	O	O
-fluvoxamine	fluvoxamine	O	O
+fluvoxamine	fluvoxamine	S_chemical	O
 .	.	O	O
 
 The	the	O	O
@@ -92,7 +92,7 @@ activity	activity	O	O
 by	by	O	O
 intracerebroventricularly	intracerebroventricularly	O	O
 administered	administered	O	O
-methoxamine	methoxamine	O	O
+methoxamine	methoxamine	S_chemical	O
 was	was	O	O
 not	not	O	O
 affected	affected	O	O
@@ -100,13 +100,13 @@ by	by	O	O
 repeated	repeated	O	O
 treatment	treatment	O	O
 with	with	O	O
-fluvoxamine	fluvoxamine	O	O
+fluvoxamine	fluvoxamine	S_chemical	O
 .	.	O	O
 
 Given	given	O	O
 three	three	O	O
 times	times	O	O
-fluvoxamine	fluvoxamine	O	O
+fluvoxamine	fluvoxamine	S_chemical	O
 had	had	O	O
 no	no	O	O
 effect	effect	O	O
@@ -117,8 +117,8 @@ time	time	O	O
 in	in	O	O
 the	the	O	O
 "	"	O	O
-behavioral	behavioral	O	O
-despair	despair	O	O
+behavioral	behavioral	O	B_disease
+despair	despair	O	I_disease
 "	"	O	O
 test	test	O	O
 in	in	O	O
@@ -129,7 +129,7 @@ The	the	O	O
 results	results	O	O
 indicate	indicate	O	O
 that	that	O	O
-fluvoxamine	fluvoxamine	O	O
+fluvoxamine	fluvoxamine	S_chemical	O
 given	given	O	O
 repeatedly	repeatedly	O	O
 acts	acts	O	O

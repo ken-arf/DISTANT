@@ -21,7 +21,7 @@ choreic	choreic	O	O
 ,	,	O	O
 ballistic	ballistic	O	O
 or	or	O	O
-dystonic	dystonic	O	O
+dystonic	dystonic	O	S_disease
 in	in	O	O
 type	type	O	O
 ,	,	O	O

@@ -1,4 +1,4 @@
-Triamterene	triamterene	O	O
+Triamterene	triamterene	S_chemical	O
 nephrolithiasis	nephrolithiasis	O	S_disease
 complicating	complicating	O	O
 dyazide	dyazide	O	O
@@ -8,7 +8,7 @@ therapy	therapy	O	O
 A	a	O	O
 case	case	O	O
 of	of	O	O
-triamterene	triamterene	O	O
+triamterene	triamterene	S_chemical	O
 nephrolithiasis	nephrolithiasis	O	S_disease
 is	is	O	O
 reported	reported	O	O
@@ -35,7 +35,7 @@ found	found	O	O
 to	to	O	O
 contain	contain	O	O
 a	a	O	O
-triamterene	triamterene	O	O
+triamterene	triamterene	S_chemical	O
 metabolite	metabolite	O	O
 admixed	admixed	O	O
 with	with	O	O
@@ -46,7 +46,7 @@ salts	salts	O	O
 
 Factors	factors	O	O
 affecting	affecting	O	O
-triamterene	triamterene	O	O
+triamterene	triamterene	S_chemical	O
 nephrolithiasis	nephrolithiasis	O	S_disease
 are	are	O	O
 discussed	discussed	O	O

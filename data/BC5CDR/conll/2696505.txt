@@ -70,8 +70,8 @@ mmHg	mmhg	O	O
 Nitroprusside	nitroprusside	S_chemical	O
 infusion	infusion	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 significant	significant	O	O
 (	(	O	O
@@ -105,8 +105,8 @@ Labetalol	labetalol	S_chemical	O
 administration	administration	O	O
 was	was	O	O
 not	not	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 any	any	O	O
 of	of	O	O
 these	these	O	O

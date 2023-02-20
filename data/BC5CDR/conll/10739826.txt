@@ -23,10 +23,10 @@ of	of	O	O
 venous	venous	O	B_disease
 thromboembolism	thromboembolism	O	I_disease
 (	(	O	O
-VTE	vte	O	S_disease
+VTE	vte	S_chemical	S_disease
 )	)	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 newer	newer	O	O
 oral	oral	B_chemical	O
 contraceptives	contraceptives	I_chemical	O
@@ -64,7 +64,7 @@ assess	assess	O	O
 the	the	O	O
 risk	risk	O	O
 of	of	O	O
-VTE	vte	O	S_disease
+VTE	vte	S_chemical	S_disease
 for	for	O	O
 the	the	O	O
 latter	latter	O	O
@@ -90,7 +90,7 @@ period	period	O	O
 551	551	O	O
 cases	cases	O	O
 of	of	O	O
-VTE	vte	O	S_disease
+VTE	vte	S_chemical	S_disease
 were	were	O	O
 identified	identified	O	O
 in	in	O	O
@@ -132,7 +132,7 @@ adjusted	adjusted	O	O
 rate	rate	O	O
 ratio	ratio	O	O
 of	of	O	O
-VTE	vte	O	S_disease
+VTE	vte	S_chemical	S_disease
 for	for	O	O
 repeat	repeat	O	O
 users	users	O	O
@@ -197,12 +197,12 @@ third	third	O	O
 generation	generation	O	O
 agents	agents	O	O
 are	are	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 equivalent	equivalent	O	O
 risks	risks	O	O
 of	of	O	O
-VTE	vte	O	S_disease
+VTE	vte	S_chemical	S_disease
 when	when	O	O
 the	the	O	O
 same	same	O	O

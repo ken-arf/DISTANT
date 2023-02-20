@@ -70,8 +70,8 @@ for	for	O	O
 amphetamine	amphetamine	S_chemical	O
 and	and	O	O
 the	the	O	O
-cocaine	cocaine	S_chemical	O
-metabolite	metabolite	O	O
+cocaine	cocaine	B_chemical	O
+metabolite	metabolite	I_chemical	O
 benzoylecgonine	benzoylecgonine	S_chemical	O
 using	using	O	O
 enzyme-mediated	enzyme-mediated	O	O

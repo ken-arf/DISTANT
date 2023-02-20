@@ -1,5 +1,5 @@
-Transient	transient	O	O
-hemiparesis	hemiparesis	O	O
+Transient	transient	O	B_disease
+hemiparesis	hemiparesis	O	S_disease
 :	:	O	O
 a	a	O	O
 rare	rare	O	O
@@ -18,8 +18,8 @@ cases	cases	O	O
 Among	among	O	O
 the	the	O	O
 common	common	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 diphenylhydantoin	diphenylhydantoin	O	O
 (	(	O	O
@@ -31,13 +31,13 @@ the	the	O	O
 most	most	O	O
 frequently	frequently	O	O
 encountered	encountered	O	O
-neurological	neurological	O	O
-signs	signs	O	O
+neurological	neurological	O	B_disease
+signs	signs	O	I_disease
 are	are	O	O
 those	those	O	O
 of	of	O	O
-cerebellar	cerebellar	O	O
-dysfunction	dysfunction	O	O
+cerebellar	cerebellar	O	B_disease
+dysfunction	dysfunction	O	I_disease
 .	.	O	O
 
 Very	very	O	O
@@ -63,7 +63,7 @@ presented	presented	O	O
 who	who	O	O
 suffered	suffered	O	O
 progressive	progressive	O	O
-hemiparesis	hemiparesis	O	O
+hemiparesis	hemiparesis	O	S_disease
 due	due	O	O
 to	to	O	O
 DPH	dph	O	O
@@ -86,8 +86,8 @@ that	that	O	O
 patients	patients	O	O
 with	with	O	O
 some	some	O	O
-cerebral	cerebral	O	O
-damage	damage	O	O
+cerebral	cerebral	O	B_disease
+damage	damage	O	I_disease
 are	are	O	O
 liable	liable	O	O
 to	to	O	O
@@ -95,8 +95,8 @@ manifest	manifest	O	O
 DPH	dph	O	O
 toxicity	toxicity	O	S_disease
 as	as	O	O
-focal	focal	O	O
-neurological	neurological	O	O
-signs	signs	O	O
+focal	focal	O	B_disease
+neurological	neurological	O	B_disease
+signs	signs	O	I_disease
 .	.	O	O
 

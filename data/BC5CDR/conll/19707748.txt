@@ -1,6 +1,6 @@
 Seizures	seizures	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 levofloxacin	levofloxacin	S_chemical	O
 :	:	O	O
 case	case	O	O
@@ -43,7 +43,7 @@ of	of	O	O
 cytochrome	cytochrome	O	O
 P450	p450	O	O
 (	(	O	O
-CYP	cyp	O	O
+CYP	cyp	S_chemical	O
 )	)	O	O
 1A2	1a2	O	O
 in	in	O	O

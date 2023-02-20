@@ -68,8 +68,8 @@ effects	effects	O	O
 contributes	contributes	O	O
 to	to	O	O
 acute	acute	O	O
-cardiovascular	cardiovascular	O	O
-events	events	O	O
+cardiovascular	cardiovascular	O	B_disease
+events	events	O	I_disease
 ,	,	O	O
 although	although	O	O
 current	current	O	O
@@ -87,7 +87,7 @@ important	important	O	O
 than	than	O	O
 are	are	O	O
 the	the	O	O
-prothrombotic	prothrombotic	O	O
+prothrombotic	prothrombotic	O	S_disease
 effects	effects	O	O
 of	of	O	O
 cigarette	cigarette	O	O
@@ -136,8 +136,8 @@ important	important	O	O
 causes	causes	O	O
 of	of	O	O
 acute	acute	O	O
-cardiovascular	cardiovascular	O	O
-events	events	O	O
+cardiovascular	cardiovascular	O	B_disease
+events	events	O	I_disease
 .	.	O	O
 
 Finally	finally	O	O
@@ -146,8 +146,8 @@ the	the	O	O
 dose	dose	O	O
 response	response	O	O
 for	for	O	O
-cardiovascular	cardiovascular	O	O
-events	events	O	O
+cardiovascular	cardiovascular	O	B_disease
+events	events	O	I_disease
 of	of	O	O
 nicotine	nicotine	S_chemical	O
 appears	appears	O	O
@@ -162,8 +162,8 @@ nicotine	nicotine	S_chemical	O
 is	is	O	O
 involved	involved	O	O
 ,	,	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 might	might	O	O
 be	be	O	O
 seen	seen	O	O

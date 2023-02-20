@@ -97,7 +97,7 @@ lidocaine	lidocaine	S_chemical	O
 ,	,	O	O
 bupivacaine	bupivacaine	S_chemical	O
 or	or	O	O
-tricaine	tricaine	O	O
+tricaine	tricaine	S_chemical	O
 with	with	O	O
 desipramine	desipramine	S_chemical	O
 reversed	reversed	O	O
@@ -166,7 +166,7 @@ suggest	suggest	O	O
 that	that	O	O
 down-regulation	down-regulation	O	O
 of	of	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 NET	net	O	O
 induced	induced	O	O
 by	by	O	O
@@ -209,7 +209,7 @@ cocaine	cocaine	S_chemical	O
 induces	induces	O	O
 up-regulation	up-regulation	O	O
 of	of	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 NET	net	O	O
 function	function	O	O
 .	.	O	O

@@ -1,4 +1,4 @@
-Butyrylcholinesterase	butyrylcholinesterase	O	O
+Butyrylcholinesterase	butyrylcholinesterase	S_chemical	O
 gene	gene	O	O
 mutations	mutations	O	O
 in	in	O	O
@@ -47,10 +47,10 @@ genetic	genetic	O	O
 variants	variants	O	O
 of	of	O	O
 the	the	O	O
-butyrylcholinesterase	butyrylcholinesterase	O	O
+butyrylcholinesterase	butyrylcholinesterase	S_chemical	O
 enzyme	enzyme	O	O
 (	(	O	O
-BChE	bche	O	O
+BChE	bche	S_chemical	O
 )	)	O	O
 ,	,	O	O
 the	the	O	O
@@ -79,10 +79,10 @@ of	of	O	O
 genetic	genetic	O	O
 variants	variants	O	O
 in	in	O	O
-butyrylcholinesterase	butyrylcholinesterase	O	O
+butyrylcholinesterase	butyrylcholinesterase	S_chemical	O
 gene	gene	O	O
 (	(	O	O
-BCHE	bche	O	O
+BCHE	bche	S_chemical	O
 )	)	O	O
 in	in	O	O
 patients	patients	O	O
@@ -124,11 +124,11 @@ months	months	O	O
 We	we	O	O
 determined	determined	O	O
 the	the	O	O
-BChE	bche	O	O
+BChE	bche	S_chemical	O
 activity	activity	O	O
 and	and	O	O
 the	the	O	O
-BCHE	bche	O	O
+BCHE	bche	S_chemical	O
 genotype	genotype	O	O
 using	using	O	O
 molecular	molecular	O	O
@@ -178,7 +178,7 @@ were	were	O	O
 found	found	O	O
 in	in	O	O
 the	the	O	O
-BCHE	bche	O	O
+BCHE	bche	S_chemical	O
 gene	gene	O	O
 ,	,	O	O
 the	the	O	O
@@ -209,8 +209,8 @@ the	the	O	O
 literature	literature	O	O
 .	.	O	O
 
-Severe	severe	O	O
-distress	distress	O	O
+Severe	severe	O	B_disease
+distress	distress	O	I_disease
 was	was	O	O
 noted	noted	O	O
 in	in	O	O
@@ -248,7 +248,7 @@ succinylcholine	succinylcholine	S_chemical	O
 had	had	O	O
 mutations	mutations	O	O
 in	in	O	O
-BCHE	bche	O	O
+BCHE	bche	S_chemical	O
 ,	,	O	O
 indicating	indicating	O	O
 that	that	O	O

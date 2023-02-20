@@ -3,7 +3,7 @@ of	of	O	O
 calcitonin	calcitonin	S_chemical	O
 on	on	O	O
 rat	rat	O	O
-extrapyramidal	extrapyramidal	O	O
+extrapyramidal	extrapyramidal	O	S_disease
 motor	motor	O	O
 system	system	O	O
 :	:	O	O
@@ -33,7 +33,7 @@ parameters	parameters	O	O
 related	related	O	O
 to	to	O	O
 the	the	O	O
-extrapyramidal	extrapyramidal	O	O
+extrapyramidal	extrapyramidal	O	S_disease
 motor	motor	O	O
 system	system	O	O
 ,	,	O	O
@@ -76,7 +76,7 @@ but	but	O	O
 no	no	O	O
 change	change	O	O
 in	in	O	O
-striatal	striatal	O	O
+striatal	striatal	O	S_disease
 DA	da	S_chemical	O
 and	and	O	O
 DOPAC	dopac	S_chemical	O
@@ -100,7 +100,7 @@ of	of	O	O
 calcitonin	calcitonin	S_chemical	O
 on	on	O	O
 the	the	O	O
-striatonigral	striatonigral	O	O
+striatonigral	striatonigral	O	S_disease
 GABAergic	gabaergic	O	O
 pathway	pathway	O	O
 mediating	mediating	O	O
@@ -109,7 +109,7 @@ DA-related	da-related	O	O
 behavioral	behavioral	O	O
 messages	messages	O	O
 of	of	O	O
-striatal	striatal	O	O
+striatal	striatal	O	S_disease
 origin	origin	O	O
 .	.	O	O
 

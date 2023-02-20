@@ -11,8 +11,8 @@ dose-response	dose-response	O	O
 study	study	O	O
 .	.	O	O
 
-Suxamethonium	suxamethonium	S_chemical	O
-chloride	chloride	O	O
+Suxamethonium	suxamethonium	B_chemical	O
+chloride	chloride	I_chemical	O
 (	(	O	O
 Sch	sch	O	O
 )	)	O	O

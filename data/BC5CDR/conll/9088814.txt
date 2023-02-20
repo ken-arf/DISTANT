@@ -9,8 +9,8 @@ and	and	O	O
 haemodilution	haemodilution	O	S_disease
 on	on	O	O
 human	human	O	O
-hepatic	hepatic	O	O
-function	function	O	O
+hepatic	hepatic	O	B_disease
+function	function	O	I_disease
 .	.	O	O
 
 Combined	combined	O	O
@@ -24,8 +24,8 @@ hypotension	hypotension	O	S_disease
 and	and	O	O
 haemodilution	haemodilution	O	S_disease
 on	on	O	O
-hepatic	hepatic	O	O
-function	function	O	O
+hepatic	hepatic	O	B_disease
+function	function	O	I_disease
 were	were	O	O
 studied	studied	O	O
 in	in	O	O
@@ -164,20 +164,20 @@ ratio	ratio	O	O
 (	(	O	O
 AKBR	akbr	O	O
 ,	,	O	O
-aceto-acetate/3-hydroxybutyrate	aceto-acetate/3-hydroxybutyrate	O	O
+aceto-acetate/3-hydroxybutyrate	aceto-acetate/3-hydroxybutyrate	S_chemical	O
 )	)	O	O
 and	and	O	O
 clinical	clinical	O	O
-hepatic	hepatic	O	O
-function	function	O	O
+hepatic	hepatic	O	B_disease
+function	function	O	I_disease
 parameters	parameters	O	O
 .	.	O	O
 
 AKBR	akbr	O	O
 and	and	O	O
 biological	biological	O	O
-hepatic	hepatic	O	O
-function	function	O	O
+hepatic	hepatic	O	B_disease
+function	function	O	I_disease
 tests	tests	O	O
 showed	showed	O	O
 no	no	O	O
@@ -231,12 +231,12 @@ min	min	O	O
 after	after	O	O
 recovery	recovery	O	O
 of	of	O	O
-normotension	normotension	O	O
+normotension	normotension	S_chemical	O
 ,	,	O	O
 and	and	O	O
-SGOT	sgot	O	O
+SGOT	sgot	S_chemical	O
 ,	,	O	O
-SGPT	sgpt	O	O
+SGPT	sgpt	S_chemical	O
 ,	,	O	O
 LDH	ldh	O	O
 and	and	O	O
@@ -271,7 +271,7 @@ would	would	O	O
 cause	cause	O	O
 impairment	impairment	O	O
 of	of	O	O
-hepatic	hepatic	O	O
-function	function	O	O
+hepatic	hepatic	O	B_disease
+function	function	O	I_disease
 .	.	O	O
 

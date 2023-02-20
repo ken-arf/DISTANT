@@ -11,8 +11,8 @@ of	of	O	O
 abnormal	abnormal	O	O
 sensory/motor	sensory/motor	O	O
 behaviors	behaviors	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 electrical	electrical	O	O
 discharges	discharges	O	O
 recorded	recorded	O	O
@@ -150,8 +150,8 @@ abnormal	abnormal	O	O
 posturing	posturing	O	O
 ,	,	O	O
 and	and	O	O
-facial	facial	O	O
-twitching	twitching	O	O
+facial	facial	O	B_disease
+twitching	twitching	O	I_disease
 .	.	O	O
 
 Shifts	shifts	O	O
@@ -257,16 +257,16 @@ discharge	discharge	O	O
 propagates	propagates	O	O
 .	.	O	O
 
-Cognitive	cognitive	O	O
-functions	functions	O	O
+Cognitive	cognitive	O	B_disease
+functions	functions	O	I_disease
 may	may	O	O
 also	also	O	O
 be	be	O	O
 involved	involved	O	O
 since	since	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 and	and	O	O
-serotonergic	serotonergic	O	O
+serotonergic	serotonergic	S_chemical	O
 cellular	cellular	O	O
 elements	elements	O	O
 at	at	O	O

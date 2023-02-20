@@ -1,6 +1,6 @@
 Bupropion	bupropion	S_chemical	O
 (	(	O	O
-Zyban	zyban	O	O
+Zyban	zyban	S_chemical	O
 )	)	O	O
 toxicity	toxicity	O	S_disease
 .	.	O	O
@@ -16,7 +16,7 @@ to	to	O	O
 amphetamine	amphetamine	S_chemical	O
 .	.	O	O
 
-Zyban	zyban	O	O
+Zyban	zyban	S_chemical	O
 ,	,	O	O
 a	a	O	O
 sustained-release	sustained-release	O	O
@@ -158,12 +158,12 @@ with	with	O	O
 adenosine	adenosine	S_chemical	O
 .	.	O	O
 
-Zyban	zyban	O	O
+Zyban	zyban	S_chemical	O
 caused	caused	O	O
 significant	significant	O	O
 neurological	neurological	O	O
 and	and	O	O
-cardiovascular	cardiovascular	O	O
+cardiovascular	cardiovascular	O	B_disease
 toxicity	toxicity	O	S_disease
 in	in	O	O
 overdose	overdose	O	S_disease

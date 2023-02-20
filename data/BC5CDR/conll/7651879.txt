@@ -59,8 +59,8 @@ Little	little	O	O
 information	information	O	O
 exists	exists	O	O
 concerning	concerning	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 flumazenil	flumazenil	S_chemical	O
 in	in	O	O

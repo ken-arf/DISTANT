@@ -127,8 +127,8 @@ nephropathy	nephropathy	O	S_disease
 patients	patients	O	O
 were	were	O	O
 under	under	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 and	and	O	O
 had	had	O	O
 elevated	elevated	O	O
@@ -169,9 +169,9 @@ and	and	O	O
 suffering	suffering	O	O
 from	from	O	O
 greater	greater	O	O
-oxidative	oxidative	O	O
-DNA	dna	O	O
-damage	damage	O	O
+oxidative	oxidative	O	B_disease
+DNA	dna	O	I_disease
+damage	damage	O	I_disease
 and	and	O	O
 renal	renal	O	B_disease
 injury	injury	O	I_disease
@@ -268,7 +268,7 @@ knockdown	knockdown	O	O
 of	of	O	O
 Nrf2	nrf2	O	O
 by	by	O	O
-siRNA	sirna	O	O
+siRNA	sirna	S_chemical	O
 enhanced	enhanced	O	O
 TGF-beta1	tgf-beta1	O	O
 transcription	transcription	O	O

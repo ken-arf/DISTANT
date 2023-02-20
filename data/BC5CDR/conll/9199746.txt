@@ -13,12 +13,12 @@ aminoglycosides	aminoglycosides	S_chemical	O
 have	have	O	O
 substantially	substantially	O	O
 improved	improved	O	O
-visual	visual	O	O
-prognosis	prognosis	O	O
+visual	visual	O	B_disease
+prognosis	prognosis	O	I_disease
 in	in	O	O
-endophthalmitis	endophthalmitis	O	O
+endophthalmitis	endophthalmitis	O	S_disease
 ,	,	O	O
-macular	macular	O	O
+macular	macular	O	B_disease
 infarction	infarction	O	S_disease
 may	may	O	O
 impair	impair	O	O
@@ -36,7 +36,7 @@ case	case	O	O
 of	of	O	O
 presumed	presumed	O	O
 amikacin	amikacin	S_chemical	O
-retinal	retinal	O	O
+retinal	retinal	O	B_disease
 toxicity	toxicity	O	S_disease
 following	following	O	O
 treatment	treatment	O	O
@@ -47,12 +47,12 @@ vancomycin	vancomycin	S_chemical	O
 for	for	O	O
 alpha-haemolytic	alpha-haemolytic	O	O
 streptococcal	streptococcal	O	O
-endophthalmitis	endophthalmitis	O	O
+endophthalmitis	endophthalmitis	O	S_disease
 .	.	O	O
 
 RESULTS	results	O	O
 :	:	O	O
-Endophthalmitis	endophthalmitis	O	O
+Endophthalmitis	endophthalmitis	O	S_disease
 resolved	resolved	O	O
 with	with	O	O
 improvement	improvement	O	O
@@ -74,7 +74,7 @@ macular	macular	O	O
 capillary	capillary	O	O
 closure	closure	O	O
 and	and	O	O
-telangiectasis	telangiectasis	O	O
+telangiectasis	telangiectasis	O	S_disease
 .	.	O	O
 
 CONCLUSIONS	conclusions	O	O
@@ -86,11 +86,11 @@ antibiotic	antibiotic	O	O
 regimens	regimens	O	O
 may	may	O	O
 cause	cause	O	O
-retinal	retinal	O	O
+retinal	retinal	O	B_disease
 toxicity	toxicity	O	S_disease
 and	and	O	O
-macular	macular	O	O
-ischaemia	ischaemia	O	O
+macular	macular	O	B_disease
+ischaemia	ischaemia	O	I_disease
 .	.	O	O
 
 Treatment	treatment	O	O
@@ -98,7 +98,7 @@ strategies	strategies	O	O
 aimed	aimed	O	O
 at	at	O	O
 avoiding	avoiding	O	O
-retinal	retinal	O	O
+retinal	retinal	O	B_disease
 toxicity	toxicity	O	S_disease
 are	are	O	O
 discussed	discussed	O	O

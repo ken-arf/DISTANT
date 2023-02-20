@@ -10,7 +10,7 @@ produced	produced	O	O
 by	by	O	O
 carbachol	carbachol	S_chemical	O
 and	and	O	O
-eserine	eserine	O	O
+eserine	eserine	S_chemical	O
 in	in	O	O
 cats	cats	O	O
 .	.	O	O
@@ -66,7 +66,7 @@ produced	produced	O	O
 by	by	O	O
 carbachol	carbachol	S_chemical	O
 and	and	O	O
-eserine	eserine	O	O
+eserine	eserine	S_chemical	O
 injected	injected	O	O
 similarly	similarly	O	O
 was	was	O	O
@@ -88,7 +88,7 @@ due	due	O	O
 to	to	O	O
 carbachol	carbachol	S_chemical	O
 and	and	O	O
-eserine	eserine	O	O
+eserine	eserine	S_chemical	O
 .	.	O	O
 
 On	on	O	O
@@ -106,7 +106,7 @@ evoked	evoked	O	O
 by	by	O	O
 carbachol	carbachol	S_chemical	O
 and	and	O	O
-eserine	eserine	O	O
+eserine	eserine	S_chemical	O
 were	were	O	O
 not	not	O	O
 significantly	significantly	O	O
@@ -132,8 +132,8 @@ fighting	fighting	O	O
 from	from	O	O
 autonomic	autonomic	O	O
 and	and	O	O
-motor	motor	O	O
-phenomena	phenomena	O	O
+motor	motor	O	B_disease
+phenomena	phenomena	O	I_disease
 such	such	O	O
 as	as	O	O
 mydriasis	mydriasis	O	O
@@ -146,7 +146,7 @@ caused	caused	O	O
 by	by	O	O
 carbachol	carbachol	S_chemical	O
 and	and	O	O
-eserine	eserine	O	O
+eserine	eserine	S_chemical	O
 .	.	O	O
 
 Calcium	calcium	B_chemical	O
@@ -160,7 +160,7 @@ produced	produced	O	O
 by	by	O	O
 carbachol	carbachol	S_chemical	O
 and	and	O	O
-eserine	eserine	O	O
+eserine	eserine	S_chemical	O
 most	most	O	O
 probably	probably	O	O
 by	by	O	O
@@ -170,7 +170,7 @@ stabilizing	stabilizing	O	O
 action	action	O	O
 on	on	O	O
 central	central	O	O
-muscarinic	muscarinic	O	O
+muscarinic	muscarinic	S_chemical	O
 cholinoceptive	cholinoceptive	O	O
 sites	sites	O	O
 .	.	O	O
@@ -193,8 +193,8 @@ action	action	O	O
 also	also	O	O
 in	in	O	O
 the	the	O	O
-central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 .	.	O	O
 

@@ -2,7 +2,7 @@ Flestolol	flestolol	S_chemical	O
 :	:	O	O
 an	an	O	O
 ultra-short-acting	ultra-short-acting	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 blocking	blocking	O	O
 agent	agent	O	O
 .	.	O	O
@@ -18,7 +18,7 @@ nonselective	nonselective	O	O
 competitive	competitive	O	O
 ,	,	O	O
 ultra-short-acting	ultra-short-acting	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 blocking	blocking	O	O
 agent	agent	O	O
 ,	,	O	O
@@ -105,7 +105,7 @@ concentrations	concentrations	O	O
 of	of	O	O
 flestolol	flestolol	S_chemical	O
 and	and	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 blockade	blockade	O	O
 .	.	O	O
 
@@ -168,15 +168,15 @@ rate	rate	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-supraventricular	supraventricular	O	O
-tachyarrhythmia	tachyarrhythmia	O	O
+supraventricular	supraventricular	O	B_disease
+tachyarrhythmia	tachyarrhythmia	O	S_disease
 .	.	O	O
 
 In	in	O	O
 patients	patients	O	O
 with	with	O	O
-unstable	unstable	O	O
-angina	angina	O	O
+unstable	unstable	O	B_disease
+angina	angina	O	I_disease
 ,	,	O	O
 flestolol	flestolol	S_chemical	O
 infusion	infusion	O	O
@@ -205,7 +205,7 @@ potent	potent	O	O
 well-tolerated	well-tolerated	O	O
 ,	,	O	O
 ultra-short-acting	ultra-short-acting	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 blocking	blocking	O	O
 agent	agent	O	O
 .	.	O	O

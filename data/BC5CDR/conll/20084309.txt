@@ -49,7 +49,7 @@ to	to	O	O
 the	the	O	O
 use	use	O	O
 of	of	O	O
-Midazolan	midazolan	O	O
+Midazolan	midazolan	S_chemical	O
 (	(	O	O
 MZ	mz	S_chemical	O
 )	)	O	O
@@ -111,7 +111,7 @@ the	the	O	O
 procedure	procedure	O	O
 .	.	O	O
 
-Uni-	uni-	O	O
+Uni-	uni-	S_chemical	O
 and	and	O	O
 multivariate	multivariate	O	O
 analyses	analyses	O	O
@@ -237,7 +237,7 @@ transient	transient	O	O
 hypoxia	hypoxia	O	S_disease
 due	due	O	O
 to	to	O	O
-upper	upper	O	O
+upper	upper	O	B_disease
 airway	airway	O	B_disease
 obstruction	obstruction	O	I_disease
 by	by	O	O
@@ -297,8 +297,8 @@ MZ	mz	S_chemical	O
 mg	mg	O	O
 )	)	O	O
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 events	events	O	O
 (	(	O	O
 p<0.001	p<0.001	O	O
@@ -331,8 +331,8 @@ can	can	O	O
 be	be	O	O
 a	a	O	O
 factor	factor	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 clinical	clinical	O	O
 events	events	O	O
 in	in	O	O

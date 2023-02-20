@@ -69,8 +69,8 @@ bronchitis	bronchitis	O	O
 %	%	O	O
 )	)	O	O
 ,	,	O	O
-malignant	malignant	O	O
-neoplasms	neoplasms	O	O
+malignant	malignant	O	B_disease
+neoplasms	neoplasms	O	I_disease
 (	(	O	O
 11.6	11.6	O	O
 %	%	O	O

@@ -189,7 +189,7 @@ effects	effects	O	O
 observed	observed	O	O
 in	in	O	O
 some	some	O	O
-encephalopathic	encephalopathic	O	O
+encephalopathic	encephalopathic	O	S_disease
 patients	patients	O	O
 receiving	receiving	O	O
 L-dopa	l-dopa	O	O

@@ -47,7 +47,7 @@ in	in	O	O
 a	a	O	O
 model	model	O	O
 of	of	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 seizures	seizures	O	S_disease
 .	.	O	O
 
@@ -61,7 +61,7 @@ pilocarpine	pilocarpine	S_chemical	O
 ,	,	O	O
 and	and	O	O
 the	the	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 formation	formation	O	O
 was	was	O	O
 studied	studied	O	O
@@ -162,8 +162,8 @@ neurons	neurons	O	O
 was	was	O	O
 related	related	O	O
 to	to	O	O
-neuronal	neuronal	O	O
-loss	loss	O	O
+neuronal	neuronal	O	B_disease
+loss	loss	O	I_disease
 rather	rather	O	O
 than	than	O	O
 to	to	O	O

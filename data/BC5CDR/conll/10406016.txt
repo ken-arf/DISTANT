@@ -1,6 +1,6 @@
 Effect	effect	O	O
 of	of	O	O
-fucoidan	fucoidan	O	O
+fucoidan	fucoidan	S_chemical	O
 treatment	treatment	O	O
 on	on	O	O
 collagenase-induced	collagenase-induced	O	O
@@ -29,8 +29,8 @@ stroke	stroke	O	S_disease
 Intracerebral	intracerebral	O	B_disease
 hemorrhage	hemorrhage	O	S_disease
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 more	more	O	O
 inflammation	inflammation	O	S_disease
 than	than	O	O
@@ -43,7 +43,7 @@ tested	tested	O	O
 the	the	O	O
 sulfated	sulfated	O	O
 polysaccharide	polysaccharide	O	O
-fucoidan	fucoidan	O	O
+fucoidan	fucoidan	S_chemical	O
 ,	,	O	O
 which	which	O	O
 has	has	O	O
@@ -51,7 +51,7 @@ been	been	O	O
 reported	reported	O	O
 to	to	O	O
 reduce	reduce	O	O
-inflammatory	inflammatory	O	O
+inflammatory	inflammatory	O	B_disease
 brain	brain	O	B_disease
 damage	damage	O	I_disease
 ,	,	O	O
@@ -66,8 +66,8 @@ induced	induced	O	O
 by	by	O	O
 injection	injection	O	O
 of	of	O	O
-bacterial	bacterial	O	O
-collagenase	collagenase	O	O
+bacterial	bacterial	B_chemical	O
+collagenase	collagenase	I_chemical	O
 into	into	O	O
 the	the	O	O
 caudate	caudate	O	O
@@ -83,7 +83,7 @@ day	day	O	O
 intravenous	intravenous	O	O
 infusion	infusion	O	O
 of	of	O	O
-fucoidan	fucoidan	O	O
+fucoidan	fucoidan	S_chemical	O
 (	(	O	O
 30	30	O	O
 micrograms	micrograms	O	O
@@ -132,7 +132,7 @@ impaired	impaired	O	O
 blood	blood	O	O
 clotting	clotting	O	O
 and	and	O	O
-hemodilution	hemodilution	O	O
+hemodilution	hemodilution	O	S_disease
 ,	,	O	O
 had	had	O	O
 larger	larger	O	O
@@ -187,8 +187,8 @@ matter	matter	O	O
 edema	edema	O	S_disease
 and	and	O	O
 eventual	eventual	O	O
-neuronal	neuronal	O	O
-loss	loss	O	O
+neuronal	neuronal	O	B_disease
+loss	loss	O	I_disease
 in	in	O	O
 the	the	O	O
 striatum	striatum	O	O

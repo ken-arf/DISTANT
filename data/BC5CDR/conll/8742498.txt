@@ -16,12 +16,12 @@ Recently	recently	O	O
 we	we	O	O
 demonstrated	demonstrated	O	O
 the	the	O	O
-hepatoprotective	hepatoprotective	O	O
+hepatoprotective	hepatoprotective	O	S_disease
 effects	effects	O	O
 of	of	O	O
-nicotinic	nicotinic	O	O
-acid	acid	O	O
-amide	amide	O	O
+nicotinic	nicotinic	B_chemical	O
+acid	acid	I_chemical	O
+amide	amide	I_chemical	O
 ,	,	O	O
 a	a	O	O
 selective	selective	O	O
@@ -31,7 +31,7 @@ poly(ADP-ribose	poly(adp-ribose	O	O
 )	)	O	O
 polymerase	polymerase	O	O
 (	(	O	O
-PARP	parp	O	O
+PARP	parp	S_chemical	O
 ;	;	O	O
 EC	ec	O	O
 2.4.2.30	2.4.2.30	O	O
@@ -77,7 +77,7 @@ the	the	O	O
 substrate	substrate	O	O
 on	on	O	O
 which	which	O	O
-PARP	parp	O	O
+PARP	parp	S_chemical	O
 acts	acts	O	O
 ,	,	O	O
 in	in	O	O
@@ -100,8 +100,8 @@ these	these	O	O
 animals	animals	O	O
 .	.	O	O
 
-Liver	liver	O	O
-injuries	injuries	O	O
+Liver	liver	O	B_disease
+injuries	injuries	O	I_disease
 were	were	O	O
 quantified	quantified	O	O
 as	as	O	O
@@ -149,15 +149,15 @@ ethanol	ethanol	S_chemical	O
 and	and	O	O
 inhibited	inhibited	O	O
 by	by	O	O
-nicotinic	nicotinic	O	O
-acid	acid	O	O
-amide	amide	O	O
+nicotinic	nicotinic	B_chemical	O
+acid	acid	I_chemical	O
+amide	amide	I_chemical	O
 (	(	O	O
 NAA	naa	O	O
 )	)	O	O
 ,	,	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 were	were	O	O
 noted	noted	O	O
 in	in	O	O
@@ -256,7 +256,7 @@ by	by	O	O
 end-product	end-product	O	O
 inhibition	inhibition	O	O
 of	of	O	O
-PARP	parp	O	O
+PARP	parp	S_chemical	O
 by	by	O	O
 NAA	naa	O	O
 or	or	O	O

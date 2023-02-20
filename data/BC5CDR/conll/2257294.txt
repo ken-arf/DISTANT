@@ -1,4 +1,4 @@
-Benzylacyclouridine	benzylacyclouridine	O	O
+Benzylacyclouridine	benzylacyclouridine	S_chemical	O
 reverses	reverses	O	O
 azidothymidine-induced	azidothymidine-induced	O	O
 marrow	marrow	O	O
@@ -16,7 +16,7 @@ Increased	increased	O	O
 extracellular	extracellular	O	O
 concentrations	concentrations	O	O
 of	of	O	O
-uridine	uridine	O	O
+uridine	uridine	S_chemical	O
 (	(	O	O
 Urd	urd	O	O
 )	)	O	O
@@ -55,8 +55,8 @@ of	of	O	O
 the	the	O	O
 clinical	clinical	O	O
 toxicities	toxicities	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 chronic	chronic	O	O
 Urd	urd	O	O
 administration	administration	O	O
@@ -64,9 +64,9 @@ administration	administration	O	O
 the	the	O	O
 ability	ability	O	O
 of	of	O	O
-benzylacyclouridine	benzylacyclouridine	O	O
+benzylacyclouridine	benzylacyclouridine	S_chemical	O
 (	(	O	O
-BAU	bau	O	O
+BAU	bau	S_chemical	O
 )	)	O	O
 to	to	O	O
 effect	effect	O	O
@@ -113,7 +113,7 @@ mice	mice	O	O
 rendered	rendered	O	O
 anemic	anemic	O	O
 and	and	O	O
-leukopenic	leukopenic	O	O
+leukopenic	leukopenic	O	S_disease
 by	by	O	O
 the	the	O	O
 administration	administration	O	O
@@ -137,7 +137,7 @@ of	of	O	O
 AZT	azt	S_chemical	O
 plus	plus	O	O
 daily	daily	O	O
-BAU	bau	O	O
+BAU	bau	S_chemical	O
 (	(	O	O
 300	300	O	O
 mg/kg	mg/kg	O	O
@@ -158,8 +158,8 @@ than	than	O	O
 )	)	O	O
 ,	,	O	O
 increased	increased	O	O
-peripheral	peripheral	O	O
-reticulocytes	reticulocytes	O	O
+peripheral	peripheral	O	B_disease
+reticulocytes	reticulocytes	O	I_disease
 (	(	O	O
 to	to	O	O
 4.9	4.9	O	O
@@ -179,7 +179,7 @@ marrow	marrow	O	O
 ,	,	O	O
 and	and	O	O
 improved	improved	O	O
-megaloblastosis	megaloblastosis	O	O
+megaloblastosis	megaloblastosis	O	S_disease
 .	.	O	O
 
 When	when	O	O
@@ -188,12 +188,12 @@ with	with	O	O
 AZT	azt	S_chemical	O
 from	from	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 drug	drug	O	O
 administration	administration	O	O
 ,	,	O	O
-BAU	bau	O	O
+BAU	bau	S_chemical	O
 reduced	reduced	O	O
 AZT-induced	azt-induced	O	O
 marrow	marrow	O	O
@@ -210,7 +210,7 @@ of	of	O	O
 100	100	O	O
 mumol/L	mumol/l	O	O
 ,	,	O	O
-BAU	bau	O	O
+BAU	bau	S_chemical	O
 possesses	possesses	O	O
 minimal	minimal	O	O
 anti-HIV	anti-hiv	O	O

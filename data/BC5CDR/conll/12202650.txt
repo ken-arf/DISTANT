@@ -1,5 +1,5 @@
 Capsaicin-induced	capsaicin-induced	O	O
-muscle	muscle	O	O
+muscle	muscle	O	B_disease
 pain	pain	O	S_disease
 alters	alters	O	O
 the	the	O	O
@@ -15,8 +15,8 @@ The	the	O	O
 pathophysiology	pathophysiology	O	O
 of	of	O	O
 painful	painful	O	O
-temporomandibular	temporomandibular	O	O
-disorders	disorders	O	O
+temporomandibular	temporomandibular	O	B_disease
+disorders	disorders	O	I_disease
 is	is	O	O
 not	not	O	O
 fully	fully	O	O
@@ -26,7 +26,7 @@ but	but	O	O
 evidence	evidence	O	O
 suggests	suggests	O	O
 that	that	O	O
-muscle	muscle	O	O
+muscle	muscle	O	B_disease
 pain	pain	O	S_disease
 modulates	modulates	O	O
 motor	motor	O	O
@@ -183,7 +183,7 @@ fusimotor	fusimotor	O	O
 system	system	O	O
 during	during	O	O
 acute	acute	O	O
-muscle	muscle	O	O
+muscle	muscle	O	B_disease
 pain	pain	O	S_disease
 could	could	O	O
 be	be	O	O

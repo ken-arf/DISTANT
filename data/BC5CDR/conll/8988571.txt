@@ -31,7 +31,7 @@ delirium	delirium	O	S_disease
 EDDs	edds	O	O
 )	)	O	O
 in	in	O	O
-Dade	dade	O	O
+Dade	dade	S_chemical	O
 County	county	O	O
 ,	,	O	O
 Florida	florida	O	O
@@ -49,7 +49,7 @@ all	all	O	O
 cocaine-related	cocaine-related	O	O
 deaths	deaths	O	S_disease
 in	in	O	O
-Dade	dade	O	O
+Dade	dade	S_chemical	O
 County	county	O	O
 ,	,	O	O
 Florida	florida	O	O
@@ -177,7 +177,7 @@ chronic	chronic	O	O
 cocaine	cocaine	S_chemical	O
 use	use	O	O
 disrupts	disrupts	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 function	function	O	O
 and	and	O	O
 ,	,	O	O
@@ -200,7 +200,7 @@ thermoregulation	thermoregulation	O	O
 rhabdomyolysis	rhabdomyolysis	O	S_disease
 ,	,	O	O
 and	and	O	O
-sudden	sudden	O	O
+sudden	sudden	O	B_disease
 death	death	O	S_disease
 .	.	O	O
 

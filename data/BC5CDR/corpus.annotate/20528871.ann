@@ -1,0 +1,11 @@
+T1	Chemical 21 31	nelarabine
+T2	Chemical 33 42	etoposide
+T3	Chemical 48 64	cyclophosphamide
+T4	Disease 106 129	lymphoblastic leukaemia
+T6	Chemical 167 177	nelarabine
+T7	Chemical 197 206	etoposide
+T8	Chemical 216 232	cyclophosphamide
+T11	Disease 495 515	musculoskeletal pain
+T13	Chemical 926 935	etoposide
+T14	Chemical 940 956	cyclophosphamide
+T15	Disease 967 988	neurological toxicity

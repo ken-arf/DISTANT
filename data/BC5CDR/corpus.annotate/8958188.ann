@@ -1,0 +1,14 @@
+T1	Chemical 90 100	folic acid
+T2	Chemical 101 111	Lometrexol
+T4	Chemical 313 323	lometrexol
+T6	Chemical 457 467	lometrexol
+T9	Chemical 606 616	lometrexol
+T10	Chemical 646 656	folic acid
+T11	Chemical 794 804	lometrexol
+T12	Chemical 816 826	folic acid
+T14	Chemical 884 894	lometrexol
+T15	Chemical 922 932	folic acid
+T17	Disease 971 980	mucositis
+T21	Chemical 1146 1156	lometrexol
+T22	Chemical 1201 1211	folic acid
+T24	Chemical 1303 1313	lometrexol

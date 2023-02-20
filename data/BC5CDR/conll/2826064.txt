@@ -4,7 +4,7 @@ and	and	O	O
 its	its	O	O
 abolishment	abolishment	O	O
 by	by	O	O
-oxprenolol	oxprenolol	O	O
+oxprenolol	oxprenolol	S_chemical	O
 .	.	O	O
 
 The	the	O	O
@@ -31,7 +31,7 @@ investigated	investigated	O	O
 the	the	O	O
 efficacy	efficacy	O	O
 of	of	O	O
-oxprenolol	oxprenolol	O	O
+oxprenolol	oxprenolol	S_chemical	O
 in	in	O	O
 antagonizing	antagonizing	O	O
 such	such	O	O
@@ -77,7 +77,7 @@ hour	hour	O	O
 after	after	O	O
 80	80	O	O
 mg	mg	O	O
-oxprenolol	oxprenolol	O	O
+oxprenolol	oxprenolol	S_chemical	O
 orally	orally	O	O
 .	.	O	O
 
@@ -123,7 +123,7 @@ potassium	potassium	S_chemical	O
 effects	effects	O	O
 .	.	O	O
 
-Oxprenolol	oxprenolol	O	O
+Oxprenolol	oxprenolol	S_chemical	O
 caused	caused	O	O
 decreases	decreases	O	O
 of	of	O	O
@@ -160,7 +160,7 @@ higher	higher	O	O
 terbutaline	terbutaline	S_chemical	O
 concentrations	concentrations	O	O
 after	after	O	O
-oxprenolol	oxprenolol	O	O
+oxprenolol	oxprenolol	S_chemical	O
 pretreatment	pretreatment	O	O
 ,	,	O	O
 the	the	O	O

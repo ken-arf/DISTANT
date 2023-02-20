@@ -1,6 +1,6 @@
 Hyperkalemia	hyperkalemia	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 sulindac	sulindac	S_chemical	O
 therapy	therapy	O	O
 .	.	O	O
@@ -31,8 +31,8 @@ studies	studies	O	O
 have	have	O	O
 stressed	stressed	O	O
 the	the	O	O
-renal	renal	O	O
-sparing	sparing	O	O
+renal	renal	O	B_disease
+sparing	sparing	O	I_disease
 features	features	O	O
 of	of	O	O
 sulindac	sulindac	S_chemical	O
@@ -45,7 +45,7 @@ of	of	O	O
 interference	interference	O	O
 with	with	O	O
 renal	renal	O	O
-prostacyclin	prostacyclin	O	O
+prostacyclin	prostacyclin	S_chemical	O
 synthesis	synthesis	O	O
 .	.	O	O
 
@@ -133,12 +133,12 @@ sulindac	sulindac	S_chemical	O
 may	may	O	O
 not	not	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
-adverse	adverse	O	O
-renal	renal	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+renal	renal	O	I_disease
+effects	effects	O	I_disease
 of	of	O	O
 other	other	O	O
 NSAID	nsaid	O	O

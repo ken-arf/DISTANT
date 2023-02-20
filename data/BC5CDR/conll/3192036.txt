@@ -23,7 +23,7 @@ a	a	O	O
 high-risk	high-risk	O	O
 stage	stage	O	O
 of	of	O	O
-choriocarcinoma	choriocarcinoma	O	O
+choriocarcinoma	choriocarcinoma	S_chemical	O
 .	.	O	O
 
 Based	based	O	O
@@ -116,8 +116,8 @@ clinical	clinical	O	O
 picture	picture	O	O
 resembling	resembling	O	O
 massive	massive	O	O
-pulmonary	pulmonary	O	O
-obstruction	obstruction	O	O
+pulmonary	pulmonary	O	B_disease
+obstruction	obstruction	O	I_disease
 due	due	O	O
 to	to	O	O
 choriocarcinomic	choriocarcinomic	O	O
@@ -140,7 +140,7 @@ probably	probably	O	O
 due	due	O	O
 to	to	O	O
 extensive	extensive	O	O
-tumor	tumor	O	S_disease
+tumor	tumor	O	B_disease
 necrosis	necrosis	O	S_disease
 at	at	O	O
 the	the	O	O
@@ -202,11 +202,11 @@ of	of	O	O
 chemotherapy	chemotherapy	O	O
 and	and	O	O
 the	the	O	O
-acute	acute	O	O
-onset	onset	O	O
-of	of	O	O
-massive	massive	O	O
-embolism	embolism	O	O
+acute	acute	O	B_disease
+onset	onset	O	B_disease
+of	of	O	I_disease
+massive	massive	O	B_disease
+embolism	embolism	O	I_disease
 other	other	O	O
 explanations	explanations	O	O
 ,	,	O	O

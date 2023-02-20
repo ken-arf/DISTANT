@@ -3,8 +3,8 @@ Serotonin	serotonin	S_chemical	O
 receptor	receptor	O	O
 gene	gene	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 methamphetamine-induced	methamphetamine-induced	O	O
 psychosis	psychosis	O	S_disease
 in	in	O	O
@@ -16,7 +16,7 @@ population	population	O	O
 BACKGROUND	background	O	O
 :	:	O	O
 Altered	altered	O	O
-serotonergic	serotonergic	O	O
+serotonergic	serotonergic	S_chemical	O
 neural	neural	O	O
 transmission	transmission	O	O
 is	is	O	O
@@ -83,7 +83,7 @@ prepulse	prepulse	O	O
 inhibition	inhibition	O	O
 induced	induced	O	O
 by	by	O	O
-d-amphetamine	d-amphetamine	O	O
+d-amphetamine	d-amphetamine	S_chemical	O
 or	or	O	O
 phencyclidine	phencyclidine	O	O
 was	was	O	O
@@ -178,7 +178,7 @@ SNPs	snps	O	O
 (	(	O	O
 rs6693503	rs6693503	O	O
 ,	,	O	O
-rs1805054	rs1805054	O	O
+rs1805054	rs1805054	S_chemical	O
 ,	,	O	O
 rs4912138	rs4912138	O	O
 ,	,	O	O
@@ -235,8 +235,8 @@ RESULTS	results	O	O
 :	:	O	O
 rs6693503	rs6693503	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 METH-induced	meth-induced	O	O
 psychosis	psychosis	O	S_disease
 patients	patients	O	O
@@ -272,7 +272,7 @@ markers	markers	O	O
 (	(	O	O
 rs6693503	rs6693503	O	O
 and	and	O	O
-rs1805054	rs1805054	O	O
+rs1805054	rs1805054	S_chemical	O
 )	)	O	O
 and	and	O	O
 three	three	O	O
@@ -280,7 +280,7 @@ markers	markers	O	O
 (	(	O	O
 rs6693503	rs6693503	O	O
 ,	,	O	O
-rs1805054	rs1805054	O	O
+rs1805054	rs1805054	S_chemical	O
 and	and	O	O
 rs4912138	rs4912138	O	O
 )	)	O	O

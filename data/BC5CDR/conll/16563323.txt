@@ -1,9 +1,9 @@
-Remifentanil	remifentanil	O	O
+Remifentanil	remifentanil	S_chemical	O
 pretreatment	pretreatment	O	O
 reduces	reduces	O	O
 myoclonus	myoclonus	O	S_disease
 after	after	O	O
-etomidate	etomidate	O	O
+etomidate	etomidate	S_chemical	O
 .	.	O	O
 
 STUDY	study	O	O
@@ -22,7 +22,7 @@ effect	effect	O	O
 of	of	O	O
 pretreatment	pretreatment	O	O
 with	with	O	O
-remifentanil	remifentanil	O	O
+remifentanil	remifentanil	S_chemical	O
 1	1	O	O
 microg/kg	microg/kg	O	O
 and	and	O	O
@@ -39,7 +39,7 @@ after	after	O	O
 anesthesia	anesthesia	O	O
 induction	induction	O	O
 with	with	O	O
-etomidate	etomidate	O	O
+etomidate	etomidate	S_chemical	O
 .	.	O	O
 
 DESIGN	design	O	O
@@ -77,7 +77,7 @@ randomized	randomized	O	O
 double-blinded	double-blinded	O	O
 fashion	fashion	O	O
 with	with	O	O
-remifentanil	remifentanil	O	O
+remifentanil	remifentanil	S_chemical	O
 1	1	O	O
 microg/kg	microg/kg	O	O
 or	or	O	O
@@ -87,12 +87,12 @@ placebo	placebo	O	O
 Two	two	O	O
 minutes	minutes	O	O
 after	after	O	O
-remifentanil	remifentanil	O	O
+remifentanil	remifentanil	S_chemical	O
 or	or	O	O
 placebo	placebo	O	O
 injection	injection	O	O
 ,	,	O	O
-etomidate	etomidate	O	O
+etomidate	etomidate	S_chemical	O
 0.3	0.3	O	O
 mg/kg	mg/kg	O	O
 was	was	O	O
@@ -154,7 +154,7 @@ significantly	significantly	O	O
 lower	lower	O	O
 in	in	O	O
 the	the	O	O
-remifentanil	remifentanil	O	O
+remifentanil	remifentanil	S_chemical	O
 group	group	O	O
 (	(	O	O
 6.7	6.7	O	O
@@ -204,15 +204,15 @@ group	group	O	O
 male	male	O	O
 patients	patients	O	O
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 significantly	significantly	O	O
 increased	increased	O	O
 incidence	incidence	O	O
 of	of	O	O
 myoclonus	myoclonus	O	S_disease
 after	after	O	O
-etomidate	etomidate	O	O
+etomidate	etomidate	S_chemical	O
 administration	administration	O	O
 .	.	O	O
 
@@ -220,17 +220,17 @@ CONCLUSION	conclusion	O	O
 :	:	O	O
 Pretreatment	pretreatment	O	O
 with	with	O	O
-remifentanil	remifentanil	O	O
+remifentanil	remifentanil	S_chemical	O
 1	1	O	O
 microg/kg	microg/kg	O	O
 reduced	reduced	O	O
 myoclonus	myoclonus	O	S_disease
 after	after	O	O
-etomidate	etomidate	O	O
+etomidate	etomidate	S_chemical	O
 induction	induction	O	O
 without	without	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 such	such	O	O
 as	as	O	O
 sedation	sedation	O	O
@@ -252,7 +252,7 @@ myoclonus	myoclonus	O	S_disease
 than	than	O	O
 women	women	O	O
 after	after	O	O
-etomidate	etomidate	O	O
+etomidate	etomidate	S_chemical	O
 administration	administration	O	O
 .	.	O	O
 

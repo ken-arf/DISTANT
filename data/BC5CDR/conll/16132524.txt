@@ -121,8 +121,8 @@ a	a	O	O
 recurrence	recurrence	O	O
 of	of	O	O
 a	a	O	O
-glioblastoma	glioblastoma	O	S_disease
-multiforme	multiforme	O	O
+glioblastoma	glioblastoma	B_chemical	S_disease
+multiforme	multiforme	I_chemical	O
 underwent	underwent	O	O
 re-resection	re-resection	O	O
 and	and	O	O

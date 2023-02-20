@@ -1,10 +1,10 @@
 Peripheral	peripheral	O	O
-iron	iron	S_chemical	O
+iron	iron	B_chemical	O
 dextran	dextran	S_chemical	O
 induced	induced	O	O
 degeneration	degeneration	O	O
 of	of	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 neurons	neurons	O	O
 in	in	O	O
 rat	rat	O	O
@@ -37,7 +37,7 @@ peripheral	peripheral	O	O
 iron	iron	S_chemical	B_disease
 overload	overload	O	I_disease
 and	and	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 neuron	neuron	O	O
 loss	loss	O	O
 in	in	O	O
@@ -81,7 +81,7 @@ study	study	O	O
 the	the	O	O
 degeneration	degeneration	O	O
 of	of	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 neurons	neurons	O	O
 and	and	O	O
 increased	increased	O	O
@@ -91,7 +91,7 @@ in	in	O	O
 the	the	O	O
 SN	sn	O	O
 of	of	O	O
-iron	iron	S_chemical	O
+iron	iron	B_chemical	O
 dextran	dextran	S_chemical	O
 overloaded	overloaded	O	O
 animals	animals	O	O
@@ -102,7 +102,7 @@ findings	findings	O	O
 showed	showed	O	O
 that	that	O	O
 peripheral	peripheral	O	O
-iron	iron	S_chemical	O
+iron	iron	B_chemical	O
 dextran	dextran	S_chemical	O
 overload	overload	O	O
 increased	increased	O	O
@@ -162,7 +162,7 @@ results	results	O	O
 suggest	suggest	O	O
 that	that	O	O
 peripheral	peripheral	O	O
-iron	iron	S_chemical	O
+iron	iron	B_chemical	O
 dextran	dextran	S_chemical	O
 can	can	O	O
 increase	increase	O	O
@@ -180,7 +180,7 @@ causes	causes	O	O
 the	the	O	O
 degeneration	degeneration	O	O
 of	of	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 neurons	neurons	O	O
 .	.	O	O
 
@@ -193,7 +193,7 @@ be	be	O	O
 more	more	O	O
 destructive	destructive	O	O
 to	to	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 neurons	neurons	O	O
 than	than	O	O
 the	the	O	O

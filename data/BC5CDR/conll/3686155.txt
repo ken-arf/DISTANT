@@ -6,7 +6,7 @@ bromocriptine	bromocriptine	S_chemical	O
 .	.	O	O
 
 Two	two	O	O
-multigravida	multigravida	O	O
+multigravida	multigravida	S_chemical	O
 patients	patients	O	O
 with	with	O	O
 no	no	O	O
@@ -35,8 +35,8 @@ high	high	O	O
 doses	doses	O	O
 has	has	O	O
 been	been	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 psychosis	psychosis	O	S_disease
 in	in	O	O
 patients	patients	O	O

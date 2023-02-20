@@ -66,8 +66,8 @@ birth	birth	O	B_disease
 weight	weight	O	I_disease
 and	and	O	O
 for	for	O	O
-perinatal	perinatal	O	O
-complications	complications	O	O
+perinatal	perinatal	O	B_disease
+complications	complications	O	I_disease
 .	.	O	O
 
 Our	our	O	O
@@ -83,8 +83,8 @@ a	a	O	O
 higher	higher	O	O
 incidence	incidence	O	O
 of	of	O	O
-perinatal	perinatal	O	O
-complications	complications	O	O
+perinatal	perinatal	O	B_disease
+complications	complications	O	I_disease
 .	.	O	O
 
 Ototoxicity	ototoxicity	O	S_disease
@@ -122,9 +122,9 @@ perform	perform	O	O
 audiologic	audiologic	O	O
 assessment	assessment	O	O
 in	in	O	O
-sick	sick	O	O
-preterm	preterm	O	O
-children	children	O	O
+sick	sick	O	B_disease
+preterm	preterm	O	I_disease
+children	children	O	I_disease
 as	as	O	O
 hearing	hearing	O	B_disease
 loss	loss	O	I_disease

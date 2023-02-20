@@ -7,7 +7,7 @@ of	of	O	O
 deoxycholic	deoxycholic	B_chemical	O
 acid	acid	I_chemical	O
 in	in	O	O
-ethinyl	ethinyl	O	O
+ethinyl	ethinyl	S_chemical	O
 estradiol-induced	estradiol-induced	O	O
 cholestasis	cholestasis	O	S_disease
 in	in	O	O
@@ -28,7 +28,7 @@ compared	compared	O	O
 in	in	O	O
 control	control	O	O
 and	and	O	O
-ethinyl	ethinyl	O	O
+ethinyl	ethinyl	S_chemical	O
 estradiol-treated	estradiol-treated	O	O
 rats	rats	O	O
 .	.	O	O
@@ -63,13 +63,13 @@ treatment	treatment	O	O
 During	during	O	O
 [24	[24	O	O
 -	-	O	O
-14C]sodium	14c]sodium	O	O
+14C]sodium	14c]sodium	B_chemical	O
 deoxycholate	deoxycholate	S_chemical	O
 infusion	infusion	O	O
 ,	,	O	O
 [14C]biliary	[14c]biliary	O	O
-bile	bile	O	O
-acid	acid	O	O
+bile	bile	B_chemical	O
+acid	acid	I_chemical	O
 secretion	secretion	O	O
 increased	increased	O	O
 ,	,	O	O
@@ -84,12 +84,12 @@ in	in	O	O
 either	either	O	O
 control	control	O	O
 or	or	O	O
-ethinyl	ethinyl	O	O
+ethinyl	ethinyl	S_chemical	O
 estradiol-treated	estradiol-treated	O	O
 rats	rats	O	O
 .	.	O	O
 
-Ethinyl	ethinyl	O	O
+Ethinyl	ethinyl	S_chemical	O
 estradiol-treated	estradiol-treated	O	O
 animals	animals	O	O
 excreted	excreted	O	O
@@ -222,7 +222,7 @@ of	of	O	O
 this	this	O	O
 potentially	potentially	O	O
 harmful	harmful	O	O
-bile	bile	O	O
-acid	acid	O	O
+bile	bile	B_chemical	O
+acid	acid	I_chemical	O
 .	.	O	O
 

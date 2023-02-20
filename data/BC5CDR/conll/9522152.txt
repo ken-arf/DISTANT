@@ -1,7 +1,7 @@
 A	a	O	O
 transient	transient	O	O
-neurological	neurological	O	O
-deficit	deficit	O	O
+neurological	neurological	O	B_disease
+deficit	deficit	O	I_disease
 following	following	O	O
 intrathecal	intrathecal	O	O
 injection	injection	O	O
@@ -22,8 +22,8 @@ a	a	O	O
 case	case	O	O
 of	of	O	O
 transient	transient	O	O
-neurological	neurological	O	O
-deficit	deficit	O	O
+neurological	neurological	O	B_disease
+deficit	deficit	O	I_disease
 that	that	O	O
 occurred	occurred	O	O
 after	after	O	O
@@ -67,7 +67,7 @@ reported	reported	O	O
 an	an	O	O
 area	area	O	O
 of	of	O	O
-hypoaesthesia	hypoaesthesia	O	O
+hypoaesthesia	hypoaesthesia	O	S_disease
 over	over	O	O
 L3-L4	l3-l4	O	O
 dermatomes	dermatomes	O	O
@@ -186,7 +186,7 @@ lead	lead	O	O
 to	to	O	O
 a	a	O	O
 transient	transient	O	O
-neurological	neurological	O	O
-deficit	deficit	O	O
+neurological	neurological	O	B_disease
+deficit	deficit	O	I_disease
 .	.	O	O
 

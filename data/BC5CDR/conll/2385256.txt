@@ -17,12 +17,12 @@ no	no	O	O
 prior	prior	O	O
 history	history	O	O
 of	of	O	O
-neuromuscular	neuromuscular	O	O
-disease	disease	O	O
+neuromuscular	neuromuscular	O	B_disease
+disease	disease	O	I_disease
 who	who	O	O
 became	became	O	O
-virtually	virtually	O	O
-quadriplegic	quadriplegic	O	O
+virtually	virtually	O	B_disease
+quadriplegic	quadriplegic	O	I_disease
 after	after	O	O
 parenteral	parenteral	O	O
 magnesium	magnesium	S_chemical	O
@@ -170,7 +170,7 @@ an	an	O	O
 underlying	underlying	O	O
 disorder	disorder	O	O
 of	of	O	O
-neuromuscular	neuromuscular	O	O
-transmission	transmission	O	O
+neuromuscular	neuromuscular	O	B_disease
+transmission	transmission	O	I_disease
 .	.	O	O
 

@@ -13,7 +13,7 @@ fluency	fluency	O	O
 
 The	the	O	O
 glutamatergic	glutamatergic	O	O
-N-methyl-D-aspartate	n-methyl-d-aspartate	O	O
+N-methyl-D-aspartate	n-methyl-d-aspartate	S_chemical	O
 (	(	O	O
 NMDA	nmda	S_chemical	O
 )	)	O	O
@@ -63,8 +63,8 @@ schizophrenia	schizophrenia	O	S_disease
 ketamine	ketamine	S_chemical	O
 exacerbates	exacerbates	O	O
 the	the	O	O
-core	core	O	O
-symptoms	symptoms	O	O
+core	core	O	B_disease
+symptoms	symptoms	O	I_disease
 of	of	O	O
 illness	illness	O	O
 ,	,	O	O

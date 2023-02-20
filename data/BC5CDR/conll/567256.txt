@@ -2,8 +2,8 @@ Angiosarcoma	angiosarcoma	O	O
 of	of	O	O
 the	the	O	O
 liver	liver	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 diethylstilbestrol	diethylstilbestrol	S_chemical	O
 .	.	O	O
 

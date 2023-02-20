@@ -1,6 +1,6 @@
-Brain	brain	O	O
-natriuretic	natriuretic	O	O
-peptide	peptide	O	O
+Brain	brain	B_chemical	O
+natriuretic	natriuretic	I_chemical	O
+peptide	peptide	I_chemical	O
 is	is	O	O
 a	a	O	O
 predictor	predictor	O	O
@@ -9,7 +9,7 @@ anthracycline-induced	anthracycline-induced	O	O
 cardiotoxicity	cardiotoxicity	O	S_disease
 .	.	O	O
 
-Anthracyclines	anthracyclines	O	O
+Anthracyclines	anthracyclines	S_chemical	O
 are	are	O	O
 effective	effective	O	O
 antineoplastic	antineoplastic	B_chemical	O
@@ -54,9 +54,9 @@ the	the	O	O
 plasma	plasma	O	O
 level	level	O	O
 of	of	O	O
-brain	brain	O	O
-natriuretic	natriuretic	O	O
-peptide	peptide	O	O
+brain	brain	B_chemical	O
+natriuretic	natriuretic	I_chemical	O
+peptide	peptide	I_chemical	O
 (	(	O	O
 BNP	bnp	O	O
 )	)	O	O
@@ -77,8 +77,8 @@ cardiotoxicity	cardiotoxicity	O	S_disease
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-acute	acute	O	O
-leukemia	leukemia	O	O
+acute	acute	O	B_disease
+leukemia	leukemia	O	I_disease
 treated	treated	O	O
 with	with	O	O
 a	a	O	O
@@ -90,8 +90,8 @@ regimen	regimen	O	O
 Thirteen	thirteen	O	O
 patients	patients	O	O
 with	with	O	O
-acute	acute	O	O
-leukemia	leukemia	O	O
+acute	acute	O	B_disease
+leukemia	leukemia	O	I_disease
 were	were	O	O
 treated	treated	O	O
 with	with	O	O
@@ -115,9 +115,9 @@ The	the	O	O
 plasma	plasma	O	O
 levels	levels	O	O
 of	of	O	O
-atrial	atrial	O	O
-natriuretic	natriuretic	O	O
-peptide	peptide	O	O
+atrial	atrial	B_chemical	O
+natriuretic	natriuretic	I_chemical	O
+peptide	peptide	I_chemical	O
 (	(	O	O
 ANP	anp	S_chemical	O
 )	)	O	O

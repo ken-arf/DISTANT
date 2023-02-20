@@ -47,7 +47,7 @@ mechanically	mechanically	O	O
 ventilated	ventilated	O	O
 to	to	O	O
 achieve	achieve	O	O
-normocarbia	normocarbia	O	O
+normocarbia	normocarbia	S_chemical	O
 (	(	O	O
 PCO2	pco2	O	O
 =	=	O	O
@@ -130,7 +130,7 @@ rigidity	rigidity	O	S_disease
 was	was	O	O
 abolished	abolished	O	O
 with	with	O	O
-metocurine	metocurine	O	O
+metocurine	metocurine	S_chemical	O
 .	.	O	O
 
 In	in	O	O

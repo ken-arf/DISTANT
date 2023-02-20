@@ -16,9 +16,9 @@ mu	mu	O	O
 (	(	O	O
 morphine	morphine	S_chemical	O
 ,	,	O	O
-Tyr-D-Ala-Gly-NMe-Phe-Gly-ol	tyr-d-ala-gly-nme-phe-gly-ol	O	O
+Tyr-D-Ala-Gly-NMe-Phe-Gly-ol	tyr-d-ala-gly-nme-phe-gly-ol	S_chemical	O
 and	and	O	O
-morphiceptin	morphiceptin	O	O
+morphiceptin	morphiceptin	S_chemical	O
 )	)	O	O
 ,	,	O	O
 kappa	kappa	O	O
@@ -30,9 +30,9 @@ cyclohexyl]benzeneactemide	cyclohexyl]benzeneactemide	O	O
 and	and	O	O
 delta	delta	O	O
 (	(	O	O
-[D-Pen2.5]-enkephalin	[d-pen2.5]-enkephalin	O	O
+[D-Pen2.5]-enkephalin	[d-pen2.5]-enkephalin	S_chemical	O
 and	and	O	O
-[D-Ser2]-[Leu]enkephalin-Thr	[d-ser2]-[leu]enkephalin-thr	O	O
+[D-Ser2]-[Leu]enkephalin-Thr	[d-ser2]-[leu]enkephalin-thr	S_chemical	O
 )	)	O	O
 selective	selective	O	O
 opioid-agonists	opioid-agonists	O	O
@@ -112,7 +112,7 @@ hyperalgesia	hyperalgesia	O	S_disease
 induced	induced	O	O
 by	by	O	O
 8-bromo	8-bromo	B_chemical	O
-cyclic	cyclic	I_chemical	O
+cyclic	cyclic	B_chemical	O
 adenosine	adenosine	B_chemical	O
 monophosphate	monophosphate	I_chemical	O
 .	.	O	O
@@ -124,7 +124,7 @@ the	the	O	O
 analgesic	analgesic	O	O
 action	action	O	O
 of	of	O	O
-opioids	opioids	O	O
+opioids	opioids	S_chemical	O
 on	on	O	O
 the	the	O	O
 peripheral	peripheral	O	O
@@ -153,7 +153,7 @@ by	by	O	O
 inhibition	inhibition	O	O
 of	of	O	O
 the	the	O	O
-cyclic	cyclic	O	O
+cyclic	cyclic	B_chemical	O
 adenosine	adenosine	B_chemical	O
 monophosphate	monophosphate	I_chemical	O
 second	second	O	O

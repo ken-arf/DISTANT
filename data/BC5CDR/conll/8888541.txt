@@ -79,7 +79,7 @@ norepinephrine	norepinephrine	S_chemical	O
 We	we	O	O
 report	report	O	O
 a	a	O	O
-venlafaxine-MAOI	venlafaxine-maoi	O	O
+venlafaxine-MAOI	venlafaxine-maoi	S_chemical	O
 interaction	interaction	O	O
 that	that	O	O
 resulted	resulted	O	O
@@ -225,7 +225,7 @@ protection	protection	O	O
 and	and	O	O
 because	because	O	O
 of	of	O	O
-hypoventilation	hypoventilation	O	O
+hypoventilation	hypoventilation	O	S_disease
 ,	,	O	O
 and	and	O	O
 was	was	O	O
@@ -272,8 +272,8 @@ rhabdomyolysis	rhabdomyolysis	O	S_disease
 .	.	O	O
 
 His	his	O	O
-mental	mental	O	O
-status	status	O	O
+mental	mental	O	B_disease
+status	status	O	I_disease
 normalized	normalized	O	O
 and	and	O	O
 he	he	O	O

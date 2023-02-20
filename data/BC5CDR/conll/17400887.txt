@@ -1,7 +1,7 @@
-Neuroinflammation	neuroinflammation	O	O
+Neuroinflammation	neuroinflammation	O	S_disease
 and	and	O	O
-behavioral	behavioral	O	O
-abnormalities	abnormalities	O	O
+behavioral	behavioral	O	B_disease
+abnormalities	abnormalities	O	I_disease
 after	after	O	O
 neonatal	neonatal	O	O
 terbutaline	terbutaline	S_chemical	O
@@ -17,8 +17,8 @@ autism	autism	O	S_disease
 Autism	autism	O	S_disease
 is	is	O	O
 a	a	O	O
-neurodevelopmental	neurodevelopmental	O	O
-disorder	disorder	O	O
+neurodevelopmental	neurodevelopmental	O	B_disease
+disorder	disorder	O	I_disease
 presenting	presenting	O	O
 before	before	O	O
 3	3	O	O
@@ -33,8 +33,8 @@ and	and	O	O
 social	social	O	O
 skills	skills	O	O
 and	and	O	O
-repetitive	repetitive	O	O
-behaviors	behaviors	O	O
+repetitive	repetitive	O	B_disease
+behaviors	behaviors	O	I_disease
 .	.	O	O
 
 In	in	O	O
@@ -72,8 +72,8 @@ labor	labor	O	O
 ,	,	O	O
 has	has	O	O
 been	been	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 increased	increased	O	O
 concordance	concordance	O	O
 for	for	O	O
@@ -253,14 +253,14 @@ results	results	O	O
 in	in	O	O
 microglial	microglial	O	O
 activation	activation	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 innate	innate	O	O
 neuroinflammatory	neuroinflammatory	O	O
 pathways	pathways	O	O
 and	and	O	O
-behavioral	behavioral	O	O
-abnormalities	abnormalities	O	O
+behavioral	behavioral	O	B_disease
+abnormalities	abnormalities	O	I_disease
 ,	,	O	O
 similar	similar	O	O
 to	to	O	O
@@ -283,8 +283,8 @@ the	the	O	O
 neuropathological	neuropathological	O	O
 processes	processes	O	O
 underlying	underlying	O	O
-autism	autism	O	S_disease
-spectrum	spectrum	O	O
-disorders	disorders	O	O
+autism	autism	O	B_disease
+spectrum	spectrum	O	I_disease
+disorders	disorders	O	I_disease
 .	.	O	O
 

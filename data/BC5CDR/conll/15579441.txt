@@ -1,11 +1,11 @@
 Hypoxia	hypoxia	O	S_disease
 in	in	O	O
-renal	renal	O	O
-disease	disease	O	O
+renal	renal	O	B_disease
+disease	disease	O	I_disease
 with	with	O	O
 proteinuria	proteinuria	O	S_disease
 and/or	and/or	O	O
-glomerular	glomerular	O	O
+glomerular	glomerular	O	B_disease
 hypertension	hypertension	O	S_disease
 .	.	O	O
 
@@ -98,7 +98,7 @@ cortical	cortical	O	O
 hypoxia	hypoxia	O	S_disease
 in	in	O	O
 the	the	O	O
-puromycin	puromycin	O	O
+puromycin	puromycin	S_chemical	O
 aminonucleoside-induced	aminonucleoside-induced	O	O
 nephrotic	nephrotic	O	B_disease
 syndrome	syndrome	O	I_disease
@@ -229,7 +229,7 @@ tubulointerstitial	tubulointerstitial	O	O
 hypoxia	hypoxia	O	S_disease
 and	and	O	O
 progressive	progressive	O	O
-glomerular	glomerular	O	O
-diseases	diseases	O	O
+glomerular	glomerular	O	B_disease
+diseases	diseases	O	I_disease
 .	.	O	O
 

@@ -21,8 +21,8 @@ widely	widely	O	O
 used	used	O	O
 for	for	O	O
 controlling	controlling	O	O
-menopausal	menopausal	O	O
-symptoms	symptoms	O	O
+menopausal	menopausal	O	B_disease
+symptoms	symptoms	O	I_disease
 and	and	O	O
 has	has	O	O
 also	also	O	O
@@ -73,8 +73,8 @@ HT	ht	O	O
 on	on	O	O
 mortality	mortality	O	O
 ,	,	O	O
-cardiovascular	cardiovascular	O	O
-outcomes	outcomes	O	O
+cardiovascular	cardiovascular	O	B_disease
+outcomes	outcomes	O	I_disease
 ,	,	O	O
 cancer	cancer	O	S_disease
 ,	,	O	O
@@ -106,9 +106,9 @@ Trials	trials	O	O
 Register	register	O	O
 of	of	O	O
 the	the	O	O
-Cochrane	cochrane	O	O
-Menstrual	menstrual	O	O
-Disorders	disorders	O	O
+Cochrane	cochrane	O	B_disease
+Menstrual	menstrual	O	I_disease
+Disorders	disorders	O	I_disease
 and	and	O	O
 Subfertility	subfertility	O	O
 Group	group	O	O
@@ -122,7 +122,7 @@ Trials	trials	O	O
 ,	,	O	O
 MEDLINE	medline	O	O
 ,	,	O	O
-EMBASE	embase	O	O
+EMBASE	embase	S_chemical	O
 ,	,	O	O
 Biological	biological	O	O
 Abstracts	abstracts	O	O
@@ -222,11 +222,11 @@ increased	increased	O	O
 the	the	O	O
 risk	risk	O	O
 of	of	O	O
-venous	venous	O	O
-thrombo-embolism	thrombo-embolism	O	O
+venous	venous	O	B_disease
+thrombo-embolism	thrombo-embolism	O	I_disease
 or	or	O	O
-coronary	coronary	O	O
-event	event	O	O
+coronary	coronary	O	B_disease
+event	event	O	I_disease
 (	(	O	O
 after	after	O	O
 one	one	O	O
@@ -257,8 +257,8 @@ increased	increased	O	O
 the	the	O	O
 risk	risk	O	O
 of	of	O	O
-venous	venous	O	O
-thrombo-embolism	thrombo-embolism	O	O
+venous	venous	O	B_disease
+thrombo-embolism	thrombo-embolism	O	I_disease
 ,	,	O	O
 stroke	stroke	O	S_disease
 and	and	O	O
@@ -312,7 +312,7 @@ for	for	O	O
 combined	combined	O	O
 HT	ht	O	O
 )	)	O	O
-colon	colon	O	O
+colon	colon	O	B_disease
 cancer	cancer	O	S_disease
 ,	,	O	O
 with	with	O	O
@@ -335,8 +335,8 @@ generally	generally	O	O
 fit	fit	O	O
 ,	,	O	O
 without	without	O	O
-overt	overt	O	O
-disease	disease	O	O
+overt	overt	O	B_disease
+disease	disease	O	I_disease
 )	)	O	O
 and	and	O	O
 taking	taking	O	O
@@ -374,8 +374,8 @@ increased	increased	O	O
 the	the	O	O
 risk	risk	O	O
 of	of	O	O
-venous	venous	O	O
-thrombo-embolism	thrombo-embolism	O	O
+venous	venous	O	B_disease
+thrombo-embolism	thrombo-embolism	O	I_disease
 .	.	O	O
 
 One	one	O	O
@@ -416,8 +416,8 @@ risk	risk	O	O
 reported	reported	O	O
 was	was	O	O
 for	for	O	O
-venous	venous	O	O
-thrombo-embolism	thrombo-embolism	O	O
+venous	venous	O	B_disease
+thrombo-embolism	thrombo-embolism	O	I_disease
 in	in	O	O
 women	women	O	O
 taking	taking	O	O

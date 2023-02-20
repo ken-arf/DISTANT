@@ -27,7 +27,7 @@ evaluate	evaluate	O	O
 the	the	O	O
 effects	effects	O	O
 of	of	O	O
-RAPA	rapa	O	O
+RAPA	rapa	S_chemical	S_disease
 conversion	conversion	O	O
 in	in	O	O
 patients	patients	O	O
@@ -57,7 +57,7 @@ fixed	fixed	O	O
 dose	dose	O	O
 rapamycin	rapamycin	S_chemical	O
 (	(	O	O
-RAPA	rapa	O	O
+RAPA	rapa	S_chemical	S_disease
 )	)	O	O
 (	(	O	O
 5	5	O	O
@@ -105,8 +105,8 @@ toxicity	toxicity	O	S_disease
 )	)	O	O
 ,	,	O	O
 severe	severe	O	O
-facial	facial	O	O
-dysmorphism	dysmorphism	O	O
+facial	facial	O	B_disease
+dysmorphism	dysmorphism	O	I_disease
 (	(	O	O
 2	2	O	O
 )	)	O	O
@@ -170,8 +170,8 @@ months	months	O	O
 ]	]	O	O
 .	.	O	O
 
-Facial	facial	O	O
-dysmorphism	dysmorphism	O	O
+Facial	facial	O	B_disease
+dysmorphism	dysmorphism	O	I_disease
 improved	improved	O	O
 in	in	O	O
 two	two	O	O
@@ -192,9 +192,9 @@ developed	developed	O	O
 pneumonia	pneumonia	O	O
 (	(	O	O
 two	two	O	O
-Pneumocystis	pneumocystis	O	O
-carinii	carinii	O	O
-pneumonia	pneumonia	O	O
+Pneumocystis	pneumocystis	O	B_disease
+carinii	carinii	O	I_disease
+pneumonia	pneumonia	O	I_disease
 ,	,	O	O
 one	one	O	O
 infectious	infectious	O	B_disease
@@ -209,7 +209,7 @@ and	and	O	O
 two	two	O	O
 had	had	O	O
 bronchiolitis	bronchiolitis	O	B_disease
-obliterans	obliterans	O	I_disease
+obliterans	obliterans	S_chemical	I_disease
 .	.	O	O
 
 There	there	O	O
@@ -218,7 +218,7 @@ no	no	O	O
 deaths	deaths	O	S_disease
 .	.	O	O
 
-RAPA	rapa	O	O
+RAPA	rapa	S_chemical	S_disease
 was	was	O	O
 discontinued	discontinued	O	O
 in	in	O	O
@@ -243,7 +243,7 @@ in	in	O	O
 one	one	O	O
 .	.	O	O
 
-RAPA	rapa	O	O
+RAPA	rapa	S_chemical	S_disease
 levels	levels	O	O
 were	were	O	O
 high	high	O	O
@@ -265,7 +265,7 @@ patients	patients	O	O
 
 CONCLUSIONS	conclusions	O	O
 :	:	O	O
-RAPA	rapa	O	O
+RAPA	rapa	S_chemical	S_disease
 conversion	conversion	O	O
 provides	provides	O	O
 adequate	adequate	O	O
@@ -282,7 +282,7 @@ when	when	O	O
 converting	converting	O	O
 patients	patients	O	O
 to	to	O	O
-RAPA	rapa	O	O
+RAPA	rapa	S_chemical	S_disease
 drug	drug	O	O
 levels	levels	O	O
 should	should	O	O
@@ -295,9 +295,9 @@ and	and	O	O
 adequate	adequate	O	O
 antiviral	antiviral	O	O
 and	and	O	O
-Pneumocystis	pneumocystis	O	O
-carinii	carinii	O	O
-pneumonia	pneumonia	O	O
+Pneumocystis	pneumocystis	O	B_disease
+carinii	carinii	O	I_disease
+pneumonia	pneumonia	O	I_disease
 prophylaxis	prophylaxis	O	O
 should	should	O	O
 be	be	O	O

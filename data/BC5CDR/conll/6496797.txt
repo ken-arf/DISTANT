@@ -44,8 +44,8 @@ trazodone	trazodone	O	O
 's	's	O	O
 effect	effect	O	O
 on	on	O	O
-cardiac	cardiac	O	O
-conduction	conduction	O	O
+cardiac	cardiac	O	B_disease
+conduction	conduction	O	I_disease
 may	may	O	O
 be	be	O	O
 severe	severe	O	O
@@ -54,7 +54,7 @@ individuals	individuals	O	O
 at	at	O	O
 risk	risk	O	O
 for	for	O	O
-conduction	conduction	O	O
-delay	delay	O	O
+conduction	conduction	O	B_disease
+delay	delay	O	I_disease
 .	.	O	O
 

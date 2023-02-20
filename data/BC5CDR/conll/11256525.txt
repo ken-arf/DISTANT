@@ -27,7 +27,7 @@ a	a	O	O
 solitary	solitary	O	B_disease
 kidney	kidney	O	I_disease
 and	and	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 renal	renal	O	B_disease
 insufficiency	insufficiency	O	I_disease
 who	who	O	O
@@ -158,18 +158,18 @@ a	a	O	O
 -	-	O	O
 80	80	O	O
 %	%	O	O
-renal	renal	O	O
-artery	artery	O	O
-stenosis	stenosis	O	O
+renal	renal	O	B_disease
+artery	artery	O	I_disease
+stenosis	stenosis	O	I_disease
 .	.	O	O
 
 In	in	O	O
 this	this	O	O
 patient	patient	O	O
 ,	,	O	O
-renal	renal	O	O
-artery	artery	O	O
-stenosis	stenosis	O	O
+renal	renal	O	B_disease
+artery	artery	O	I_disease
+stenosis	stenosis	O	I_disease
 combined	combined	O	O
 with	with	O	O
 heart	heart	O	B_disease
@@ -234,8 +234,8 @@ complications	complications	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-renovascular	renovascular	O	O
-disease	disease	O	O
+renovascular	renovascular	O	B_disease
+disease	disease	O	I_disease
 and	and	O	O
 should	should	O	O
 be	be	O	O

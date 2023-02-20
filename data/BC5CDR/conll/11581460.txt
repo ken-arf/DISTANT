@@ -61,7 +61,7 @@ breaths	breaths	O	O
 Fentanyl	fentanyl	S_chemical	O
 ,	,	O	O
 an	an	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 analgesic	analgesic	O	O
 ,	,	O	O
 is	is	O	O
@@ -82,14 +82,14 @@ purposes	purposes	O	O
 
 Various	various	O	O
 reported	reported	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 fentanyl	fentanyl	S_chemical	O
 administration	administration	O	O
 include	include	O	O
-chest	chest	O	O
-wall	wall	O	O
+chest	chest	O	B_disease
+wall	wall	O	I_disease
 rigidity	rigidity	O	S_disease
 ,	,	O	O
 hypotension	hypotension	O	S_disease
@@ -106,8 +106,8 @@ Here	here	O	O
 2	2	O	O
 cases	cases	O	O
 of	of	O	O
-urinary	urinary	O	O
-bladder	bladder	O	O
+urinary	urinary	O	B_disease
+bladder	bladder	O	I_disease
 retention	retention	O	O
 leading	leading	O	O
 to	to	O	O

@@ -1,4 +1,4 @@
-Dexmedetomidine	dexmedetomidine	O	O
+Dexmedetomidine	dexmedetomidine	S_chemical	O
 ,	,	O	O
 acting	acting	O	O
 through	through	O	O
@@ -20,7 +20,7 @@ highly-selective	highly-selective	O	O
 alpha-2	alpha-2	O	O
 adrenergic	adrenergic	B_chemical	O
 agonist	agonist	I_chemical	O
-dexmedetomidine	dexmedetomidine	O	O
+dexmedetomidine	dexmedetomidine	S_chemical	O
 (	(	O	O
 D-MED	d-med	O	O
 )	)	O	O
@@ -129,7 +129,7 @@ the	the	O	O
 inactive	inactive	O	O
 L-isomer	l-isomer	O	O
 of	of	O	O
-medetomidine	medetomidine	O	O
+medetomidine	medetomidine	S_chemical	O
 )	)	O	O
 ,	,	O	O
 30	30	O	O
@@ -162,7 +162,7 @@ central-acting	central-acting	O	O
 alpha-2	alpha-2	O	O
 antagonist	antagonist	O	O
 ,	,	O	O
-idazoxan	idazoxan	O	O
+idazoxan	idazoxan	S_chemical	O
 [	[	O	O
 10	10	O	O
 mg/kg	mg/kg	O	O
@@ -217,7 +217,7 @@ injected	injected	O	O
 with	with	O	O
 alfentanil	alfentanil	S_chemical	O
 (	(	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 ,	,	O	O
 0.5	0.5	O	O
 mg/kg	mg/kg	O	O
@@ -225,7 +225,7 @@ sc	sc	O	O
 )	)	O	O
 .	.	O	O
 
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 injection	injection	O	O
 resulted	resulted	O	O
 in	in	O	O

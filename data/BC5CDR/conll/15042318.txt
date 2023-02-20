@@ -40,8 +40,8 @@ common	common	O	O
 form	form	O	O
 of	of	O	O
 adult	adult	O	O
-muscular	muscular	O	O
-dystrophy	dystrophy	O	O
+muscular	muscular	O	B_disease
+dystrophy	dystrophy	O	I_disease
 ,	,	O	O
 and	and	O	O
 sudden	sudden	O	O
@@ -79,8 +79,8 @@ The	the	O	O
 cardiac	cardiac	O	B_disease
 toxicity	toxicity	O	S_disease
 intrinsically	intrinsically	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 aggressive	aggressive	O	O
 chemotherapy	chemotherapy	O	O

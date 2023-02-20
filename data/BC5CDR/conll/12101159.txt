@@ -1,5 +1,5 @@
 Delayed	delayed	O	O
-asystolic	asystolic	O	O
+asystolic	asystolic	S_chemical	B_disease
 cardiac	cardiac	O	B_disease
 arrest	arrest	O	I_disease
 after	after	O	O
@@ -35,8 +35,8 @@ paracetamol	paracetamol	S_chemical	O
 ,	,	O	O
 aspirin	aspirin	S_chemical	O
 ,	,	O	O
-isosorbide	isosorbide	O	O
-nitrate	nitrate	O	O
+isosorbide	isosorbide	B_chemical	O
+nitrate	nitrate	I_chemical	O
 ,	,	O	O
 and	and	O	O
 alcohol	alcohol	S_chemical	O
@@ -57,8 +57,8 @@ and	and	O	O
 was	was	O	O
 treated	treated	O	O
 with	with	O	O
-activated	activated	O	O
-charcoal	charcoal	O	O
+activated	activated	B_chemical	O
+charcoal	charcoal	I_chemical	O
 and	and	O	O
 intravenous	intravenous	O	O
 fluids	fluids	O	O
@@ -92,7 +92,7 @@ pressure	pressure	O	O
 and	and	O	O
 then	then	O	O
 became	became	O	O
-asystolic	asystolic	O	O
+asystolic	asystolic	S_chemical	O
 .	.	O	O
 
 He	he	O	O
@@ -150,8 +150,8 @@ overdose	overdose	O	S_disease
 particularly	particularly	O	O
 with	with	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 asystole	asystole	O	S_disease
 .	.	O	O
 

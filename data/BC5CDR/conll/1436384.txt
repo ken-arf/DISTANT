@@ -3,7 +3,7 @@ against	against	O	O
 amphetamine-induced	amphetamine-induced	O	O
 neurotoxicity	neurotoxicity	O	S_disease
 toward	toward	O	O
-striatal	striatal	O	O
+striatal	striatal	O	S_disease
 dopamine	dopamine	S_chemical	O
 neurons	neurons	O	O
 in	in	O	O
@@ -34,7 +34,7 @@ potent	potent	O	O
 antagonist	antagonist	O	O
 of	of	O	O
 the	the	O	O
-N-methyl-D-aspartate	n-methyl-d-aspartate	O	O
+N-methyl-D-aspartate	n-methyl-d-aspartate	S_chemical	O
 (	(	O	O
 NMDA	nmda	S_chemical	O
 )	)	O	O
@@ -76,15 +76,15 @@ i.p	i.p	O	O
 )	)	O	O
 dose	dose	O	O
 of	of	O	O
-(+/-)-amphetamine	(+/-)-amphetamine	O	O
-hemisulfate	hemisulfate	O	O
+(+/-)-amphetamine	(+/-)-amphetamine	S_chemical	O
+hemisulfate	hemisulfate	S_chemical	O
 ,	,	O	O
 given	given	O	O
 to	to	O	O
 rats	rats	O	O
 pretreated	pretreated	O	O
 with	with	O	O
-iprindole	iprindole	O	O
+iprindole	iprindole	S_chemical	O
 ,	,	O	O
 resulted	resulted	O	O
 in	in	O	O

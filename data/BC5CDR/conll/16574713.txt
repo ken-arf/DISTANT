@@ -100,7 +100,7 @@ promoter	promoter	O	O
 gene	gene	O	O
 region	region	O	O
 (	(	O	O
-5-HTTLPR	5-httlpr	O	O
+5-HTTLPR	5-httlpr	S_chemical	O
 )	)	O	O
 when	when	O	O
 studying	studying	O	O
@@ -111,8 +111,8 @@ MDMA	mdma	S_chemical	O
 as	as	O	O
 well	well	O	O
 as	as	O	O
-cognitive	cognitive	O	O
-functioning	functioning	O	O
+cognitive	cognitive	O	B_disease
+functioning	functioning	O	I_disease
 .	.	O	O
 
 The	the	O	O
@@ -150,7 +150,7 @@ in	in	O	O
 subjects	subjects	O	O
 genotyped	genotyped	O	O
 for	for	O	O
-5-HTTLPR	5-httlpr	O	O
+5-HTTLPR	5-httlpr	S_chemical	O
 .	.	O	O
 
 A	a	O	O
@@ -227,7 +227,7 @@ cells	cells	O	O
 was	was	O	O
 genotyped	genotyped	O	O
 for	for	O	O
-5-HTTLPR	5-httlpr	O	O
+5-HTTLPR	5-httlpr	S_chemical	O
 using	using	O	O
 standard	standard	O	O
 polymerase	polymerase	O	O
@@ -306,7 +306,7 @@ No	no	O	O
 significant	significant	O	O
 effect	effect	O	O
 of	of	O	O
-5-HTTLPR	5-httlpr	O	O
+5-HTTLPR	5-httlpr	S_chemical	O
 or	or	O	O
 gender	gender	O	O
 was	was	O	O
@@ -329,11 +329,11 @@ moderate	moderate	O	O
 "	"	O	O
 is	is	O	O
 not	not	O	O
-associated	associated	O	O
-with	with	O	O
-impaired	impaired	O	O
-memory	memory	O	O
-functioning	functioning	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+impaired	impaired	O	B_disease
+memory	memory	O	B_disease
+functioning	functioning	O	I_disease
 ,	,	O	O
 heavy	heavy	O	O
 use	use	O	O
@@ -352,7 +352,7 @@ impairments	impairments	O	O
 No	no	O	O
 effect	effect	O	O
 of	of	O	O
-5-HTTLPR	5-httlpr	O	O
+5-HTTLPR	5-httlpr	S_chemical	O
 or	or	O	O
 gender	gender	O	O
 on	on	O	O

@@ -13,8 +13,8 @@ of	of	O	O
 the	the	O	O
 retina	retina	O	O
 and	and	O	O
-optic	optic	O	O
-nerve	nerve	O	O
+optic	optic	O	B_disease
+nerve	nerve	O	I_disease
 .	.	O	O
 
 PURPOSE	purpose	O	O
@@ -36,8 +36,8 @@ on	on	O	O
 the	the	O	O
 retina	retina	O	O
 and	and	O	O
-optic	optic	O	O
-nerve	nerve	O	O
+optic	optic	O	B_disease
+nerve	nerve	O	I_disease
 .	.	O	O
 
 SETTING	setting	O	O
@@ -203,7 +203,7 @@ not	not	O	O
 seem	seem	O	O
 to	to	O	O
 cause	cause	O	O
-functional	functional	O	O
-impairment	impairment	O	O
+functional	functional	O	B_disease
+impairment	impairment	O	I_disease
 .	.	O	O
 

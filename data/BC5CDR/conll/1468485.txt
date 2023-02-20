@@ -6,7 +6,7 @@ control	control	O	O
 of	of	O	O
 intractable	intractable	O	O
 cyclophosphamide-induced	cyclophosphamide-induced	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 .	.	O	O
 
@@ -16,7 +16,7 @@ a	a	O	O
 case	case	O	O
 of	of	O	O
 intractable	intractable	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 due	due	O	O
 to	to	O	O
@@ -122,7 +122,7 @@ the	the	O	O
 treatment	treatment	O	O
 of	of	O	O
 cyclophosphamide-induced	cyclophosphamide-induced	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 .	.	O	O
 

@@ -18,8 +18,8 @@ in	in	O	O
 the	the	O	O
 rat	rat	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 nitric	nitric	O	O
 oxide-redox	oxide-redox	O	O
 imbalance	imbalance	O	O
@@ -35,7 +35,7 @@ of	of	O	O
 xanthine	xanthine	B_chemical	O
 oxidase	oxidase	I_chemical	O
 (	(	O	O
-XO	xo	O	O
+XO	xo	S_chemical	O
 )	)	O	O
 ,	,	O	O
 which	which	O	O
@@ -78,13 +78,13 @@ dexamethasone	dexamethasone	S_chemical	O
 dex	dex	S_chemical	O
 )	)	O	O
 ,	,	O	O
-allopurinol	allopurinol	O	O
-plus	plus	O	O
+allopurinol	allopurinol	B_chemical	O
+plus	plus	I_chemical	O
 saline	saline	O	O
 ,	,	O	O
 and	and	O	O
-allopurinol	allopurinol	O	O
-plus	plus	O	O
+allopurinol	allopurinol	B_chemical	O
+plus	plus	I_chemical	O
 dex	dex	S_chemical	O
 .	.	O	O
 
@@ -121,7 +121,7 @@ serum	serum	O	O
 urate	urate	S_chemical	O
 to	to	O	O
 assess	assess	O	O
-XO	xo	O	O
+XO	xo	S_chemical	O
 inhibition	inhibition	O	O
 .	.	O	O
 
@@ -237,7 +237,7 @@ hypertension	hypertension	O	S_disease
 ,	,	O	O
 suggests	suggests	O	O
 that	that	O	O
-XO	xo	O	O
+XO	xo	S_chemical	O
 activity	activity	O	O
 is	is	O	O
 not	not	O	O

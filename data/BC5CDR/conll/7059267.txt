@@ -11,9 +11,9 @@ adult-onset	adult-onset	O	O
 diabetes	diabetes	O	S_disease
 treated	treated	O	O
 with	with	O	O
-chlorpropamide	chlorpropamide	O	O
+chlorpropamide	chlorpropamide	S_chemical	O
 (	(	O	O
-Diabenese	diabenese	O	O
+Diabenese	diabenese	S_chemical	O
 )	)	O	O
 had	had	O	O
 a	a	O	O
@@ -25,7 +25,7 @@ resolved	resolved	O	O
 with	with	O	O
 discontinuation	discontinuation	O	O
 of	of	O	O
-chlorpropamide	chlorpropamide	O	O
+chlorpropamide	chlorpropamide	S_chemical	O
 therapy	therapy	O	O
 .	.	O	O
 

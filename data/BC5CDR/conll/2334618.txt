@@ -22,7 +22,7 @@ The	the	O	O
 incidence	incidence	O	O
 of	of	O	O
 postoperative	postoperative	O	O
-respiratory	respiratory	O	O
+respiratory	respiratory	O	B_disease
 apnoea	apnoea	O	S_disease
 was	was	O	O
 compared	compared	O	O
@@ -81,8 +81,8 @@ carbon	carbon	B_chemical	O
 dioxide	dioxide	I_chemical	O
 analyser	analyser	O	O
 ,	,	O	O
-chest	chest	O	O
-wall	wall	O	O
+chest	chest	O	B_disease
+wall	wall	O	I_disease
 movement	movement	O	O
 detected	detected	O	O
 by	by	O	O
@@ -109,7 +109,7 @@ than	than	O	O
 0.05	0.05	O	O
 )	)	O	O
 and	and	O	O
-central	central	O	O
+central	central	O	B_disease
 apnoea	apnoea	O	S_disease
 (	(	O	O
 P	p	O	O
@@ -136,7 +136,7 @@ a	a	O	O
 higher	higher	O	O
 incidence	incidence	O	O
 of	of	O	O
-tachyarrhythmias	tachyarrhythmias	O	O
+tachyarrhythmias	tachyarrhythmias	O	S_disease
 (	(	O	O
 P	p	O	O
 less	less	O	O

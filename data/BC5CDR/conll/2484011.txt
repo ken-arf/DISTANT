@@ -14,8 +14,8 @@ amines	amines	I_chemical	O
 The	the	O	O
 effect	effect	O	O
 of	of	O	O
-amantadine	amantadine	S_chemical	O
-hydrochloride	hydrochloride	O	O
+amantadine	amantadine	B_chemical	O
+hydrochloride	hydrochloride	I_chemical	O
 ,	,	O	O
 injected	injected	O	O
 i.p	i.p	O	O
@@ -225,7 +225,7 @@ control	control	O	O
 Conversely	conversely	O	O
 ,	,	O	O
 brain	brain	O	O
-normetanephrine	normetanephrine	O	O
+normetanephrine	normetanephrine	S_chemical	O
 concentration	concentration	O	O
 was	was	O	O
 increased	increased	O	O
@@ -284,8 +284,8 @@ choice	choice	O	O
 for	for	O	O
 evaluating	evaluating	O	O
 the	the	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 amantadine	amantadine	S_chemical	O
 .	.	O	O

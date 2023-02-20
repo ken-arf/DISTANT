@@ -160,8 +160,8 @@ were	were	O	O
 13	13	O	O
 cases	cases	O	O
 of	of	O	O
-adverse	adverse	O	O
-reactions	reactions	O	O
+adverse	adverse	O	B_disease
+reactions	reactions	O	I_disease
 (	(	O	O
 0.34	0.34	O	O
 %	%	O	O
@@ -171,8 +171,8 @@ ten	ten	O	O
 of	of	O	O
 which	which	O	O
 were	were	O	O
-mild	mild	O	O
-reactions	reactions	O	O
+mild	mild	O	B_disease
+reactions	reactions	O	I_disease
 such	such	O	O
 as	as	O	O
 nausea	nausea	O	S_disease
@@ -234,8 +234,8 @@ comparison	comparison	O	O
 of	of	O	O
 frequency	frequency	O	O
 of	of	O	O
-adverse	adverse	O	O
-reactions	reactions	O	O
+adverse	adverse	O	B_disease
+reactions	reactions	O	I_disease
 to	to	O	O
 indocyanine	indocyanine	B_chemical	O
 green	green	I_chemical	O
@@ -248,7 +248,7 @@ of	of	O	O
 such	such	O	O
 reactions	reactions	O	O
 to	to	O	O
-fluorescein	fluorescein	S_chemical	O
+fluorescein	fluorescein	B_chemical	O
 sodium	sodium	S_chemical	O
 indicated	indicated	O	O
 that	that	O	O

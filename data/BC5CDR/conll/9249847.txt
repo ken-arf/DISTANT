@@ -1,8 +1,8 @@
 Iatrogenically	iatrogenically	O	O
 induced	induced	O	O
-intractable	intractable	O	O
-atrioventricular	atrioventricular	O	O
-reentrant	reentrant	O	O
+intractable	intractable	O	B_disease
+atrioventricular	atrioventricular	O	I_disease
+reentrant	reentrant	O	I_disease
 tachycardia	tachycardia	O	S_disease
 after	after	O	O
 verapamil	verapamil	S_chemical	O
@@ -16,7 +16,7 @@ with	with	O	O
 Wolff-Parkinson-White	wolff-parkinson-white	O	O
 syndrome	syndrome	O	O
 and	and	O	O
-idiopathic	idiopathic	O	O
+idiopathic	idiopathic	O	B_disease
 dilated	dilated	O	B_disease
 cardiomyopathy	cardiomyopathy	O	S_disease
 .	.	O	O
@@ -28,16 +28,16 @@ with	with	O	O
 WPW	wpw	O	O
 syndrome	syndrome	O	O
 and	and	O	O
-idiopathic	idiopathic	O	O
+idiopathic	idiopathic	O	B_disease
 dilated	dilated	O	B_disease
 cardiomyopathy	cardiomyopathy	O	S_disease
 ,	,	O	O
-intractable	intractable	O	O
-atrioventricular	atrioventricular	O	O
-reentrant	reentrant	O	O
+intractable	intractable	O	B_disease
+atrioventricular	atrioventricular	O	I_disease
+reentrant	reentrant	O	I_disease
 tachycardia	tachycardia	O	S_disease
 (	(	O	O
-AVRT	avrt	O	O
+AVRT	avrt	O	S_disease
 )	)	O	O
 was	was	O	O
 iatrogenically	iatrogenically	O	O
@@ -46,7 +46,7 @@ induced	induced	O	O
 
 QRS	qrs	O	O
 without	without	O	O
-preexcitation	preexcitation	O	O
+preexcitation	preexcitation	O	S_disease
 ,	,	O	O
 caused	caused	O	O
 by	by	O	O
@@ -68,7 +68,7 @@ ablation	ablation	O	O
 ,	,	O	O
 established	established	O	O
 frequent	frequent	O	O
-AVRT	avrt	O	O
+AVRT	avrt	O	S_disease
 attack	attack	O	O
 .	.	O	O
 

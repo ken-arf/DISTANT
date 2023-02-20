@@ -52,7 +52,7 @@ developed	developed	O	O
 universal	universal	O	O
 hyperalgesia	hyperalgesia	O	S_disease
 and	and	O	O
-hyperesthesia	hyperesthesia	O	O
+hyperesthesia	hyperesthesia	O	S_disease
 which	which	O	O
 in	in	O	O
 2	2	O	O
@@ -93,7 +93,7 @@ of	of	O	O
 the	the	O	O
 relationship	relationship	O	O
 between	between	O	O
-hyperalgesia/myoclonus	hyperalgesia/myoclonus	O	O
+hyperalgesia/myoclonus	hyperalgesia/myoclonus	O	S_disease
 and	and	O	O
 high	high	O	O
 doses	doses	O	O
@@ -122,8 +122,8 @@ role	role	O	O
 for	for	O	O
 the	the	O	O
 observed	observed	O	O
-behavioural	behavioural	O	O
-syndrome	syndrome	O	O
+behavioural	behavioural	O	B_disease
+syndrome	syndrome	O	I_disease
 .	.	O	O
 
 The	the	O	O
@@ -141,7 +141,7 @@ use	use	O	O
 of	of	O	O
 more	more	O	O
 efficacious	efficacious	O	O
-opioids	opioids	O	O
+opioids	opioids	S_chemical	O
 with	with	O	O
 less	less	O	O
 excitatory	excitatory	O	O

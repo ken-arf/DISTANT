@@ -66,8 +66,8 @@ changes	changes	O	O
 imply	imply	O	O
 mainly	mainly	O	O
 a	a	O	O
-demyelinating	demyelinating	O	O
-disorder	disorder	O	O
+demyelinating	demyelinating	O	B_disease
+disorder	disorder	O	I_disease
 .	.	O	O
 
 Improvement	improvement	O	O

@@ -17,8 +17,8 @@ effects	effects	O	O
 of	of	O	O
 PG-9	pg-9	S_chemical	O
 (	(	O	O
-3alpha-tropyl	3alpha-tropyl	O	O
-2-(p-bromophenyl)propionate	2-(p-bromophenyl)propionate	O	O
+3alpha-tropyl	3alpha-tropyl	S_chemical	O
+2-(p-bromophenyl)propionate	2-(p-bromophenyl)propionate	S_chemical	O
 )	)	O	O
 ,	,	O	O
 the	the	O	O
@@ -129,8 +129,8 @@ did	did	O	O
 not	not	O	O
 produce	produce	O	O
 any	any	O	O
-collateral	collateral	O	O
-symptoms	symptoms	O	O
+collateral	collateral	O	B_disease
+symptoms	symptoms	O	I_disease
 as	as	O	O
 revealed	revealed	O	O
 by	by	O	O

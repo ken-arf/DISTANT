@@ -86,8 +86,8 @@ of	of	O	O
 depressions	depressions	O	O
 occurring	occurring	O	O
 in	in	O	O
-methyl	methyl	O	O
-dopa	dopa	O	O
+methyl	methyl	B_chemical	O
+dopa	dopa	I_chemical	O
 treated	treated	O	O
 patients	patients	O	O
 with	with	O	O

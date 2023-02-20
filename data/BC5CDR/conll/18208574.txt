@@ -311,8 +311,8 @@ CONCLUSION	conclusion	O	O
 Higher	higher	O	O
 OD	od	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 significant	significant	O	O
 risk	risk	O	O
 of	of	O	O

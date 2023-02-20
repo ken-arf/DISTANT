@@ -306,7 +306,7 @@ cardiovascular	cardiovascular	O	B_disease
 disease	disease	O	I_disease
 in	in	O	O
 the	the	O	O
-nondiabetic	nondiabetic	O	O
+nondiabetic	nondiabetic	O	S_disease
 subjects	subjects	O	O
 at	at	O	O
 baseline	baseline	O	O
@@ -322,8 +322,8 @@ intake	intake	O	O
 from	from	O	O
 supplements	supplements	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 an	an	O	O
 increased	increased	O	O
 risk	risk	O	O

@@ -1,5 +1,5 @@
-Brainstem	brainstem	O	O
-dysgenesis	dysgenesis	O	O
+Brainstem	brainstem	O	B_disease
+dysgenesis	dysgenesis	O	I_disease
 in	in	O	O
 an	an	O	O
 infant	infant	O	O
@@ -40,8 +40,8 @@ a	a	O	O
 wide	wide	O	O
 range	range	O	O
 of	of	O	O
-fetal	fetal	O	O
-anomalies	anomalies	O	O
+fetal	fetal	O	B_disease
+anomalies	anomalies	O	I_disease
 .	.	O	O
 
 We	we	O	O
@@ -55,8 +55,8 @@ cranial-nerve	cranial-nerve	O	O
 involvement	involvement	O	O
 attributable	attributable	O	O
 to	to	O	O
-brainstem	brainstem	O	O
-dysgenesis	dysgenesis	O	O
+brainstem	brainstem	O	B_disease
+dysgenesis	dysgenesis	O	I_disease
 ,	,	O	O
 born	born	O	O
 to	to	O	O

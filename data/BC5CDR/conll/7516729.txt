@@ -233,7 +233,7 @@ in	in	O	O
 the	the	O	O
 values	values	O	O
 of	of	O	O
-[verapamil]o	[verapamil]o	O	O
+[verapamil]o	[verapamil]o	S_chemical	O
 needed	needed	O	O
 to	to	O	O
 reduce	reduce	O	O
@@ -268,7 +268,7 @@ LNa	lna	O	O
 .	.	O	O
 
 The	the	O	O
-[verapamil]o	[verapamil]o	O	O
+[verapamil]o	[verapamil]o	S_chemical	O
 that	that	O	O
 arrested	arrested	O	O
 atrial	atrial	O	O

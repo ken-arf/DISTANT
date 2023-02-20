@@ -95,8 +95,8 @@ Fundoscopy	fundoscopy	O	O
 revealed	revealed	O	O
 bilaterally	bilaterally	O	O
 swollen	swollen	O	O
-optic	optic	O	O
-nerve	nerve	O	O
+optic	optic	O	B_disease
+nerve	nerve	O	I_disease
 heads	heads	O	O
 .	.	O	O
 
@@ -146,8 +146,8 @@ be	be	O	O
 aware	aware	O	O
 of	of	O	O
 these	these	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 
 They	they	O	O
@@ -173,7 +173,7 @@ the	the	O	O
 reversibility	reversibility	O	O
 of	of	O	O
 these	these	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 

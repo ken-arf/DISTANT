@@ -158,8 +158,8 @@ mg/kg	mg/kg	O	O
 )	)	O	O
 ,	,	O	O
 a	a	O	O
-partial	partial	O	O
-reversion	reversion	O	O
+partial	partial	B_chemical	O
+reversion	reversion	I_chemical	O
 of	of	O	O
 the	the	O	O
 decrease	decrease	O	O
@@ -244,7 +244,7 @@ PAF	paf	O	O
 ,	,	O	O
 against	against	O	O
 bupivacaine-induced	bupivacaine-induced	O	O
-cardiovascular	cardiovascular	O	O
+cardiovascular	cardiovascular	O	B_disease
 toxicity	toxicity	O	S_disease
 .	.	O	O
 

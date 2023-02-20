@@ -6,17 +6,17 @@ everolimus	everolimus	S_chemical	O
 and	and	O	O
 tacrolimus	tacrolimus	S_chemical	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 high	high	O	O
 incidence	incidence	O	O
 of	of	O	O
-sinusoidal	sinusoidal	O	O
-obstruction	obstruction	O	O
-syndrome	syndrome	O	O
+sinusoidal	sinusoidal	O	B_disease
+obstruction	obstruction	O	I_disease
+syndrome	syndrome	O	I_disease
 and	and	O	O
-microangiopathy	microangiopathy	O	O
+microangiopathy	microangiopathy	O	S_disease
 :	:	O	O
 results	results	O	O
 of	of	O	O
@@ -26,7 +26,7 @@ trial	trial	O	O
 .	.	O	O
 
 A	a	O	O
-calcineurin	calcineurin	O	O
+calcineurin	calcineurin	S_chemical	O
 inhibitor	inhibitor	O	O
 combined	combined	O	O
 with	with	O	O
@@ -48,7 +48,7 @@ stem	stem	O	O
 cell	cell	O	O
 transplantation	transplantation	O	O
 (	(	O	O
-HSCT	hsct	O	O
+HSCT	hsct	S_chemical	O
 )	)	O	O
 .	.	O	O
 
@@ -87,8 +87,8 @@ years	years	O	O
 )	)	O	O
 with	with	O	O
 either	either	O	O
-myelodysplastic	myelodysplastic	O	O
-syndrome	syndrome	O	O
+myelodysplastic	myelodysplastic	O	B_disease
+syndrome	syndrome	O	I_disease
 (	(	O	O
 MDS	mds	O	O
 ;	;	O	O
@@ -97,9 +97,9 @@ n	n	O	O
 17	17	O	O
 )	)	O	O
 or	or	O	O
-acute	acute	O	O
-myeloid	myeloid	O	O
-leukemia	leukemia	O	O
+acute	acute	O	B_disease
+myeloid	myeloid	O	I_disease
+leukemia	leukemia	O	I_disease
 (	(	O	O
 AML	aml	O	O
 ;	;	O	O
@@ -112,7 +112,7 @@ intensive	intensive	O	O
 conditioning	conditioning	O	O
 followed	followed	O	O
 by	by	O	O
-HSCT	hsct	O	O
+HSCT	hsct	S_chemical	O
 from	from	O	O
 related	related	O	O
 (	(	O	O
@@ -173,7 +173,7 @@ GVHD	gvhd	O	O
 .	.	O	O
 
 Transplantation-associated	transplantation-associated	O	O
-microangiopathy	microangiopathy	O	O
+microangiopathy	microangiopathy	O	S_disease
 (	(	O	O
 TMA	tma	O	S_disease
 )	)	O	O
@@ -210,9 +210,9 @@ patients	patients	O	O
 %	%	O	O
 )	)	O	O
 developed	developed	O	O
-sinusoidal	sinusoidal	O	O
-obstruction	obstruction	O	O
-syndrome	syndrome	O	O
+sinusoidal	sinusoidal	O	B_disease
+obstruction	obstruction	O	I_disease
+syndrome	syndrome	O	I_disease
 (	(	O	O
 SOS	sos	O	O
 )	)	O	O

@@ -66,9 +66,9 @@ naproxen	naproxen	O	O
 and	and	O	O
 no	no	O	O
 further	further	O	O
-adverse	adverse	O	O
-renal	renal	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+renal	renal	O	I_disease
+effects	effects	O	I_disease
 occurred	occurred	O	O
 over	over	O	O
 the	the	O	O

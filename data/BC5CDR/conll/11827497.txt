@@ -21,8 +21,8 @@ or	or	O	O
 without	without	O	O
 arterial	arterial	O	O
 or	or	O	O
-venous	venous	O	O
-thromboemboli	thromboemboli	O	O
+venous	venous	O	B_disease
+thromboemboli	thromboemboli	O	S_disease
 .	.	O	O
 
 Delayed	delayed	O	O
@@ -113,8 +113,8 @@ MEASUREMENTS	measurements	O	O
 Platelet	platelet	O	O
 counts	counts	O	O
 ,	,	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 objectively	objectively	O	O
 determined	determined	O	O
 thromboembolism	thromboembolism	O	O
@@ -171,7 +171,7 @@ thromboembolic	thromboembolic	O	S_disease
 complications	complications	O	O
 .	.	O	O
 
-Thromboemboli	thromboemboli	O	O
+Thromboemboli	thromboemboli	O	S_disease
 were	were	O	O
 venous	venous	O	O
 (	(	O	O
@@ -180,8 +180,8 @@ patients	patients	O	O
 ,	,	O	O
 7	7	O	O
 with	with	O	O
-pulmonary	pulmonary	O	O
-emboli	emboli	O	O
+pulmonary	pulmonary	O	B_disease
+emboli	emboli	O	I_disease
 )	)	O	O
 or	or	O	O
 arterial	arterial	O	O
@@ -328,8 +328,8 @@ recognized	recognized	O	O
 
 To	to	O	O
 avoid	avoid	O	O
-disastrous	disastrous	O	O
-outcomes	outcomes	O	O
+disastrous	disastrous	O	B_disease
+outcomes	outcomes	O	I_disease
 ,	,	O	O
 physicians	physicians	O	O
 must	must	O	O

@@ -57,7 +57,7 @@ estrogen	estrogen	S_chemical	O
 involves	involves	O	O
 interaction	interaction	O	O
 with	with	O	O
-alpha2-	alpha2-	O	O
+alpha2-	alpha2-	S_chemical	O
 and/or	and/or	O	O
 I1-receptors	i1-receptors	O	O
 .	.	O	O
@@ -70,20 +70,20 @@ single	single	O	O
 intraperitoneal	intraperitoneal	O	O
 injection	injection	O	O
 of	of	O	O
-rilmenidine	rilmenidine	O	O
+rilmenidine	rilmenidine	S_chemical	O
 (	(	O	O
 600	600	O	O
 microg/kg	microg/kg	O	O
 )	)	O	O
 or	or	O	O
-alpha-methyldopa	alpha-methyldopa	O	O
+alpha-methyldopa	alpha-methyldopa	S_chemical	O
 (	(	O	O
 100	100	O	O
 mg/kg	mg/kg	O	O
 )	)	O	O
 ,	,	O	O
 selective	selective	O	O
-I1-	i1-	O	O
+I1-	i1-	S_chemical	O
 and	and	O	O
 alpha2-receptor	alpha2-receptor	O	O
 agonists	agonists	O	O
@@ -178,9 +178,9 @@ In	in	O	O
 sham-operated	sham-operated	O	O
 rats	rats	O	O
 ,	,	O	O
-rilmenidine	rilmenidine	O	O
+rilmenidine	rilmenidine	S_chemical	O
 or	or	O	O
-alpha-methyldopa	alpha-methyldopa	O	O
+alpha-methyldopa	alpha-methyldopa	S_chemical	O
 elicited	elicited	O	O
 similar	similar	O	O
 hypotension	hypotension	O	S_disease
@@ -192,8 +192,8 @@ least	least	O	O
 h	h	S_chemical	O
 and	and	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 reductions	reductions	O	O
 in	in	O	O
 standard	standard	O	O
@@ -209,7 +209,7 @@ was	was	O	O
 reduced	reduced	O	O
 only	only	O	O
 by	by	O	O
-alpha-methyldopa	alpha-methyldopa	O	O
+alpha-methyldopa	alpha-methyldopa	S_chemical	O
 .	.	O	O
 
 Ovx	ovx	O	O
@@ -219,7 +219,7 @@ the	the	O	O
 hypotensive	hypotensive	O	S_disease
 response	response	O	O
 to	to	O	O
-alpha-methyldopa	alpha-methyldopa	O	O
+alpha-methyldopa	alpha-methyldopa	S_chemical	O
 ,	,	O	O
 in	in	O	O
 contrast	contrast	O	O
@@ -227,13 +227,13 @@ to	to	O	O
 no	no	O	O
 effect	effect	O	O
 on	on	O	O
-rilmenidine	rilmenidine	O	O
+rilmenidine	rilmenidine	S_chemical	O
 hypotension	hypotension	O	S_disease
 .	.	O	O
 
 The	the	O	O
 enhanced	enhanced	O	O
-alpha-methyldopa	alpha-methyldopa	O	O
+alpha-methyldopa	alpha-methyldopa	S_chemical	O
 hypotension	hypotension	O	S_disease
 in	in	O	O
 Ovx	ovx	O	O
@@ -255,7 +255,7 @@ activity	activity	O	O
 Estrogen	estrogen	S_chemical	O
 replacement	replacement	O	O
 (	(	O	O
-17beta-estradiol	17beta-estradiol	O	O
+17beta-estradiol	17beta-estradiol	S_chemical	O
 subcutaneous	subcutaneous	O	O
 pellet	pellet	O	O
 ,	,	O	O
@@ -275,7 +275,7 @@ and	and	O	O
 locomotor	locomotor	O	O
 effects	effects	O	O
 of	of	O	O
-alpha-methyldopa	alpha-methyldopa	O	O
+alpha-methyldopa	alpha-methyldopa	S_chemical	O
 to	to	O	O
 sham-operated	sham-operated	O	O
 levels	levels	O	O
@@ -287,7 +287,7 @@ suggest	suggest	O	O
 that	that	O	O
 estrogen	estrogen	S_chemical	O
 downregulates	downregulates	O	O
-alpha2-	alpha2-	O	O
+alpha2-	alpha2-	S_chemical	O
 but	but	O	O
 not	not	O	O
 I1-receptor-mediated	i1-receptor-mediated	O	O

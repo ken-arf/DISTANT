@@ -1,12 +1,12 @@
-22-oxacalcitriol	22-oxacalcitriol	O	O
+22-oxacalcitriol	22-oxacalcitriol	S_chemical	O
 suppresses	suppresses	O	O
 secondary	secondary	O	O
 hyperparathyroidism	hyperparathyroidism	O	O
 without	without	O	O
 inducing	inducing	O	O
 low	low	O	O
-bone	bone	O	O
-turnover	turnover	O	O
+bone	bone	O	B_disease
+turnover	turnover	O	I_disease
 in	in	O	O
 dogs	dogs	O	O
 with	with	O	O
@@ -16,7 +16,7 @@ failure	failure	O	I_disease
 
 BACKGROUND	background	O	O
 :	:	O	O
-Calcitriol	calcitriol	O	O
+Calcitriol	calcitriol	S_chemical	O
 therapy	therapy	O	O
 suppresses	suppresses	O	O
 serum	serum	O	O
@@ -43,16 +43,16 @@ and/or	and/or	O	O
 marked	marked	O	O
 suppression	suppression	O	O
 of	of	O	O
-bone	bone	O	O
-turnover	turnover	O	O
+bone	bone	O	B_disease
+turnover	turnover	O	I_disease
 ,	,	O	O
 which	which	O	O
 may	may	O	O
 lead	lead	O	O
 to	to	O	O
-adynamic	adynamic	O	O
-bone	bone	O	O
-disease	disease	O	O
+adynamic	adynamic	O	B_disease
+bone	bone	O	I_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 A	a	O	O
@@ -61,7 +61,7 @@ vitamin	vitamin	B_chemical	O
 D	d	I_chemical	O
 analogue	analogue	O	O
 ,	,	O	O
-22-oxacalcitriol	22-oxacalcitriol	O	O
+22-oxacalcitriol	22-oxacalcitriol	S_chemical	O
 (	(	O	O
 OCT	oct	O	O
 )	)	O	O
@@ -90,8 +90,8 @@ serum	serum	O	O
 PTH	pth	O	O
 levels	levels	O	O
 and	and	O	O
-bone	bone	O	O
-turnover	turnover	O	O
+bone	bone	O	B_disease
+turnover	turnover	O	I_disease
 in	in	O	O
 states	states	O	O
 of	of	O	O
@@ -311,7 +311,7 @@ episodes	episodes	O	O
 of	of	O	O
 hypercalcemia	hypercalcemia	O	S_disease
 and	and	O	O
-hyperphosphatemia	hyperphosphatemia	O	O
+hyperphosphatemia	hyperphosphatemia	O	S_disease
 .	.	O	O
 
 In	in	O	O
@@ -361,7 +361,7 @@ formation	formation	O	O
 such	such	O	O
 as	as	O	O
 woven	woven	O	O
-osteoid	osteoid	O	O
+osteoid	osteoid	O	S_disease
 and	and	O	O
 fibrosis	fibrosis	O	S_disease
 ,	,	O	O
@@ -373,8 +373,8 @@ alter	alter	O	O
 the	the	O	O
 level	level	O	O
 of	of	O	O
-bone	bone	O	O
-turnover	turnover	O	O
+bone	bone	O	B_disease
+turnover	turnover	O	I_disease
 .	.	O	O
 
 In	in	O	O
@@ -394,7 +394,7 @@ the	the	O	O
 rate	rate	O	O
 at	at	O	O
 which	which	O	O
-osteoid	osteoid	O	O
+osteoid	osteoid	O	S_disease
 mineralizes	mineralizes	O	O
 )	)	O	O
 in	in	O	O
@@ -446,8 +446,8 @@ does	does	O	O
 not	not	O	O
 induce	induce	O	O
 low	low	O	O
-bone	bone	O	O
-turnover	turnover	O	O
+bone	bone	O	B_disease
+turnover	turnover	O	I_disease
 and	and	O	O
 ,	,	O	O
 therefore	therefore	O	O
@@ -458,8 +458,8 @@ increase	increase	O	O
 the	the	O	O
 risk	risk	O	O
 of	of	O	O
-adynamic	adynamic	O	O
-bone	bone	O	O
-disease	disease	O	O
+adynamic	adynamic	O	B_disease
+bone	bone	O	I_disease
+disease	disease	O	I_disease
 .	.	O	O
 

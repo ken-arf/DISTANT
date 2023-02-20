@@ -1,4 +1,4 @@
-Debrisoquine	debrisoquine	O	O
+Debrisoquine	debrisoquine	S_chemical	O
 phenotype	phenotype	O	O
 and	and	O	O
 the	the	O	O
@@ -217,7 +217,7 @@ S-isomer	s-isomer	O	O
 )	)	O	O
 ,	,	O	O
 and	and	O	O
-alpha-hydroxymetoprolol	alpha-hydroxymetoprolol	O	O
+alpha-hydroxymetoprolol	alpha-hydroxymetoprolol	S_chemical	O
 concentrations	concentrations	O	O
 were	were	O	O
 taken	taken	O	O
@@ -256,7 +256,7 @@ curve	curve	O	O
 .	.	O	O
 
 Higher	higher	O	O
-metoprolol/alpha-hydroxymetoprolol	metoprolol/alpha-hydroxymetoprolol	O	O
+metoprolol/alpha-hydroxymetoprolol	metoprolol/alpha-hydroxymetoprolol	S_chemical	O
 ratios	ratios	O	O
 in	in	O	O
 PMs	pms	O	O

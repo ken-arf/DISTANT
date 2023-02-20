@@ -20,7 +20,7 @@ gentamicin	gentamicin	S_chemical	O
 ,	,	O	O
 kanamycin	kanamycin	S_chemical	O
 and	and	O	O
-netilmicin	netilmicin	O	O
+netilmicin	netilmicin	S_chemical	O
 on	on	O	O
 renal	renal	O	O
 protein	protein	O	O
@@ -66,7 +66,7 @@ potassium	potassium	S_chemical	O
 endogenous	endogenous	O	O
 lysozyme	lysozyme	O	O
 ,	,	O	O
-N-acetyl-beta-D-glucosaminidase	n-acetyl-beta-d-glucosaminidase	O	O
+N-acetyl-beta-D-glucosaminidase	n-acetyl-beta-d-glucosaminidase	S_chemical	O
 (	(	O	O
 NAG	nag	O	O
 )	)	O	O
@@ -91,7 +91,7 @@ of	of	O	O
 inulin	inulin	O	O
 clearance	clearance	O	O
 (	(	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 )	)	O	O
 were	were	O	O
 done	done	O	O
@@ -116,7 +116,7 @@ fenestrae	fenestrae	O	O
 
 Kanamycin	kanamycin	S_chemical	O
 and	and	O	O
-netilmicin	netilmicin	O	O
+netilmicin	netilmicin	S_chemical	O
 appeared	appeared	O	O
 to	to	O	O
 have	have	O	O
@@ -132,7 +132,7 @@ All	all	O	O
 three	three	O	O
 aminoglycosides	aminoglycosides	S_chemical	O
 decreased	decreased	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 and	and	O	O
 increased	increased	O	O
 urinary	urinary	O	O
@@ -163,7 +163,7 @@ administration	administration	O	O
 of	of	O	O
 egg-white	egg-white	O	O
 lysozyme	lysozyme	O	O
-netilmicin	netilmicin	O	O
+netilmicin	netilmicin	S_chemical	O
 had	had	O	O
 no	no	O	O
 effect	effect	O	O

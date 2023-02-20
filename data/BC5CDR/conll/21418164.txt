@@ -1,4 +1,4 @@
-CCNU	ccnu	O	O
+CCNU	ccnu	S_chemical	O
 (	(	O	O
 lomustine	lomustine	O	O
 )	)	O	O
@@ -30,9 +30,9 @@ in	in	O	O
 tumour-bearing	tumour-bearing	O	O
 dogs	dogs	O	O
 receiving	receiving	O	O
-1-(2-chloroethyl)-3-cyclohexyl-1-nitrosourea	1-(2-chloroethyl)-3-cyclohexyl-1-nitrosourea	O	O
+1-(2-chloroethyl)-3-cyclohexyl-1-nitrosourea	1-(2-chloroethyl)-3-cyclohexyl-1-nitrosourea	S_chemical	O
 (	(	O	O
-CCNU	ccnu	O	O
+CCNU	ccnu	S_chemical	O
 )	)	O	O
 .	.	O	O
 
@@ -48,7 +48,7 @@ that	that	O	O
 were	were	O	O
 treated	treated	O	O
 with	with	O	O
-CCNU	ccnu	O	O
+CCNU	ccnu	S_chemical	O
 at	at	O	O
 the	the	O	O
 Melbourne	melbourne	O	O
@@ -74,7 +74,7 @@ the	the	O	O
 dogs	dogs	O	O
 treated	treated	O	O
 with	with	O	O
-CCNU	ccnu	O	O
+CCNU	ccnu	S_chemical	O
 ,	,	O	O
 185	185	O	O
 met	met	O	O
@@ -90,7 +90,7 @@ of	of	O	O
 toxicity	toxicity	O	S_disease
 .	.	O	O
 
-CCNU	ccnu	O	O
+CCNU	ccnu	S_chemical	O
 was	was	O	O
 used	used	O	O
 most	most	O	O
@@ -101,15 +101,15 @@ treatment	treatment	O	O
 of	of	O	O
 lymphoma	lymphoma	O	O
 ,	,	O	O
-mast	mast	O	O
-cell	cell	O	O
-tumour	tumour	O	O
+mast	mast	O	B_disease
+cell	cell	O	I_disease
+tumour	tumour	O	I_disease
 ,	,	O	O
-brain	brain	O	O
-tumour	tumour	O	O
+brain	brain	O	B_disease
+tumour	tumour	O	I_disease
 ,	,	O	O
-histiocytic	histiocytic	O	O
-tumours	tumours	O	O
+histiocytic	histiocytic	O	B_disease
+tumours	tumours	O	I_disease
 and	and	O	O
 epitheliotropic	epitheliotropic	O	O
 lymphoma	lymphoma	O	O
@@ -136,8 +136,8 @@ experienced	experienced	O	O
 thrombocytopenia	thrombocytopenia	O	S_disease
 .	.	O	O
 
-Gastrointestinal	gastrointestinal	O	O
-toxicosis	toxicosis	O	O
+Gastrointestinal	gastrointestinal	O	B_disease
+toxicosis	toxicosis	O	I_disease
 was	was	O	O
 detected	detected	O	O
 in	in	O	O
@@ -208,7 +208,7 @@ but	but	O	O
 is	is	O	O
 usually	usually	O	O
 not	not	O	O
-life	life	O	O
-threatening	threatening	O	O
+life	life	O	B_disease
+threatening	threatening	O	I_disease
 .	.	O	O
 

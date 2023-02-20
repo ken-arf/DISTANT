@@ -1,5 +1,5 @@
 The	the	O	O
-haemodynamic	haemodynamic	O	O
+haemodynamic	haemodynamic	O	S_disease
 effects	effects	O	O
 of	of	O	O
 propofol	propofol	S_chemical	O
@@ -56,7 +56,7 @@ response	response	O	O
 .	.	O	O
 
 The	the	O	O
-haemodynamic	haemodynamic	O	O
+haemodynamic	haemodynamic	O	S_disease
 effects	effects	O	O
 of	of	O	O
 adding	adding	O	O
@@ -123,8 +123,8 @@ However	however	O	O
 ,	,	O	O
 marked	marked	O	O
 tachycardia	tachycardia	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 use	use	O	O
 of	of	O	O

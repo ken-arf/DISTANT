@@ -27,8 +27,8 @@ the	the	O	O
 development	development	O	O
 of	of	O	O
 hepatotoxicity	hepatotoxicity	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 therapeutic	therapeutic	O	O
 doses	doses	O	O
 of	of	O	O

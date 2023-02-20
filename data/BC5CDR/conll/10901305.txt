@@ -381,8 +381,8 @@ stable	stable	O	O
 .	.	O	O
 
 Minor	minor	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 included	included	O	O
 nausea	nausea	O	S_disease
 (	(	O	O
@@ -405,16 +405,16 @@ clumsiness	clumsiness	O	O
 (	(	O	O
 evident	evident	O	O
 as	as	O	O
-ataxic	ataxic	O	O
-movements	movements	O	O
+ataxic	ataxic	O	B_disease
+movements	movements	O	I_disease
 in	in	O	O
 ten	ten	O	O
 patients	patients	O	O
 )	)	O	O
 ,	,	O	O
 and	and	O	O
-dysphoric	dysphoric	O	O
-reaction	reaction	O	O
+dysphoric	dysphoric	O	B_disease
+reaction	reaction	O	I_disease
 (	(	O	O
 one	one	O	O
 patient	patient	O	O

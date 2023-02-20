@@ -48,7 +48,7 @@ been	been	O	O
 delineated	delineated	O	O
 .	.	O	O
 
-Cardona	cardona	O	O
+Cardona	cardona	S_chemical	O
 et	et	O	O
 al.	al.	O	O
 [	[	O	O
@@ -144,7 +144,7 @@ green	green	O	O
 fluorescent	fluorescent	O	O
 protein	protein	O	O
 (	(	O	O
-eGFP	egfp	O	O
+eGFP	egfp	S_chemical	O
 )	)	O	O
 were	were	O	O
 treated	treated	O	O
@@ -153,7 +153,7 @@ METH	meth	S_chemical	O
 and	and	O	O
 examined	examined	O	O
 for	for	O	O
-striatal	striatal	O	O
+striatal	striatal	O	S_disease
 neurotoxicity	neurotoxicity	O	S_disease
 .	.	O	O
 
@@ -209,10 +209,10 @@ the	the	O	O
 striatum	striatum	O	O
 .	.	O	O
 
-Striatal	striatal	O	O
+Striatal	striatal	O	S_disease
 microglia	microglia	O	O
 expressing	expressing	O	O
-eGFP	egfp	O	O
+eGFP	egfp	S_chemical	O
 constitutively	constitutively	O	O
 show	show	O	O
 morphological	morphological	O	O

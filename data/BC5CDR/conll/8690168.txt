@@ -1,6 +1,6 @@
 Reduction	reduction	O	O
 of	of	O	O
-heparan	heparan	O	O
+heparan	heparan	S_chemical	O
 sulphate-associated	sulphate-associated	O	O
 anionic	anionic	O	O
 sites	sites	O	O
@@ -17,7 +17,7 @@ diabetic	diabetic	O	B_disease
 nephropathy	nephropathy	O	S_disease
 .	.	O	O
 
-Heparan	heparan	O	O
+Heparan	heparan	S_chemical	O
 sulphate-associated	sulphate-associated	O	O
 anionic	anionic	O	O
 sites	sites	O	O
@@ -50,8 +50,8 @@ employing	employing	O	O
 the	the	O	O
 cationic	cationic	O	O
 dye	dye	O	O
-cuprolinic	cuprolinic	O	O
-blue	blue	O	O
+cuprolinic	cuprolinic	B_chemical	O
+blue	blue	I_chemical	O
 .	.	O	O
 
 Morphometric	morphometric	O	O
@@ -70,13 +70,13 @@ processor	processor	O	O
 .	.	O	O
 
 The	the	O	O
-heparan	heparan	O	O
+heparan	heparan	S_chemical	O
 sulphate	sulphate	O	O
 specificity	specificity	O	O
 of	of	O	O
 the	the	O	O
-cuprolinic	cuprolinic	O	O
-blue	blue	O	O
+cuprolinic	cuprolinic	B_chemical	O
+blue	blue	I_chemical	O
 staining	staining	O	O
 was	was	O	O
 demonstrated	demonstrated	O	O
@@ -91,7 +91,7 @@ of	of	O	O
 the	the	O	O
 sections	sections	O	O
 with	with	O	O
-heparitinase	heparitinase	O	O
+heparitinase	heparitinase	S_chemical	O
 abolished	abolished	O	O
 all	all	O	O
 staining	staining	O	O
@@ -226,7 +226,7 @@ time	time	O	O
 the	the	O	O
 number	number	O	O
 of	of	O	O
-heparan	heparan	O	O
+heparan	heparan	S_chemical	O
 sulphate	sulphate	O	O
 anionic	anionic	O	O
 sites	sites	O	O
@@ -320,7 +320,7 @@ excretion	excretion	O	O
 ,	,	O	O
 a	a	O	O
 reduced	reduced	O	O
-heparan	heparan	O	O
+heparan	heparan	S_chemical	O
 sulphate	sulphate	O	O
 charge	charge	O	O
 barrier/density	barrier/density	O	O

@@ -59,9 +59,9 @@ glomerulonephritis	glomerulonephritis	O	S_disease
 ,	,	O	O
 autoimmunity	autoimmunity	O	O
 ,	,	O	O
-cystic	cystic	O	O
-renal	renal	O	O
-diseases	diseases	O	O
+cystic	cystic	O	B_disease
+renal	renal	O	I_disease
+diseases	diseases	O	I_disease
 and	and	O	O
 renal	renal	O	O
 cancer	cancer	O	S_disease
@@ -78,8 +78,8 @@ share	share	O	O
 the	the	O	O
 vasomotor	vasomotor	O	O
 renal	renal	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 exhibited	exhibited	O	O
 by	by	O	O
 calcineurin	calcineurin	B_chemical	O
@@ -109,11 +109,11 @@ circumstances	circumstances	O	O
 ,	,	O	O
 sirolimus	sirolimus	S_chemical	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 proteinuria	proteinuria	O	S_disease
 and	and	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 renal	renal	O	B_disease
 dysfunction	dysfunction	O	I_disease
 .	.	O	O
@@ -128,7 +128,7 @@ be	be	O	O
 presence	presence	O	O
 of	of	O	O
 pre-existing	pre-existing	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 renal	renal	O	B_disease
 damage	damage	O	I_disease
 .	.	O	O
@@ -152,7 +152,7 @@ glomerular	glomerular	O	O
 capillary	capillary	O	O
 pressure	pressure	O	O
 following	following	O	O
-calcineurin	calcineurin	O	O
+calcineurin	calcineurin	S_chemical	O
 inhibitor	inhibitor	O	O
 withdrawal	withdrawal	O	O
 .	.	O	O
@@ -167,8 +167,8 @@ sirolimus	sirolimus	S_chemical	O
 directly	directly	O	O
 causes	causes	O	O
 increased	increased	O	O
-glomerular	glomerular	O	O
-permeability/injury	permeability/injury	O	O
+glomerular	glomerular	O	B_disease
+permeability/injury	permeability/injury	O	I_disease
 ,	,	O	O
 but	but	O	O
 evidence	evidence	O	O
@@ -181,11 +181,11 @@ inconclusive	inconclusive	O	O
 .	.	O	O
 
 The	the	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 renal	renal	O	B_disease
 dysfunction	dysfunction	O	I_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 sirolimus	sirolimus	S_chemical	O
 (	(	O	O
 such	such	O	O
@@ -203,8 +203,8 @@ suppression	suppression	O	O
 of	of	O	O
 compensatory	compensatory	O	O
 renal	renal	O	O
-cell	cell	O	O
-proliferation	proliferation	O	O
+cell	cell	O	B_disease
+proliferation	proliferation	O	I_disease
 and	and	O	O
 survival/repair	survival/repair	O	O
 processes	processes	O	O
@@ -212,8 +212,8 @@ processes	processes	O	O
 
 Although	although	O	O
 these	these	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 occur	occur	O	O
 in	in	O	O
 some	some	O	O
@@ -282,8 +282,8 @@ studies	studies	O	O
 using	using	O	O
 sirolimus	sirolimus	S_chemical	O
 as	as	O	O
-de	de	O	O
-novo	novo	O	O
+de	de	O	B_disease
+novo	novo	O	I_disease
 immunosuppression	immunosuppression	O	O
 along	along	O	O
 with	with	O	O

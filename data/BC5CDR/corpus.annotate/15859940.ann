@@ -1,0 +1,20 @@
+T1	Disease 16 42	thrombotic microangiopathy
+T2	Disease 100 126	Thrombotic microangiopathy
+T3	Disease 226 252	thrombotic microangiopathy
+T4	Disease 278 303	hemolytic uremic syndrome
+T5	Disease 341 367	thrombotic microangiopathy
+T6	Disease 501 527	thrombotic microangiopathy
+T7	Disease 823 849	thrombotic microangiopathy
+T8	Chemical 1094 1106	cyclosporine
+T9	Chemical 1141 1153	cyclosporine
+T10	Chemical 1158 1168	tacrolimus
+T11	Disease 1201 1227	thrombotic microangiopathy
+T12	Disease 1242 1267	antiphospholipid syndrome
+T13	Disease 1286 1314	systemic lupus erythematosus
+T14	Disease 1375 1400	hemolytic uremic syndrome
+T15	Disease 1466 1491	hemolytic uremic syndrome
+T16	Chemical 1528 1540	cyclosporine
+T17	Chemical 1542 1552	tacrolimus
+T19	Disease 1659 1685	thrombotic microangiopathy
+T20	Chemical 1724 1736	cyclosporine
+T21	Disease 1777 1803	thrombotic microangiopathy

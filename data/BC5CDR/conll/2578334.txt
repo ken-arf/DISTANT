@@ -62,13 +62,13 @@ the	the	O	O
 three	three	O	O
 carcinogens	carcinogens	O	O
 ,	,	O	O
-benzo[a]-pyrene	benzo[a]-pyrene	O	O
+benzo[a]-pyrene	benzo[a]-pyrene	S_chemical	O
 (	(	O	O
 200	200	O	O
 mg/kg	mg/kg	O	O
 )	)	O	O
 ,	,	O	O
-N-methyl-N-nitrosourea	n-methyl-n-nitrosourea	O	O
+N-methyl-N-nitrosourea	n-methyl-n-nitrosourea	S_chemical	O
 (	(	O	O
 60	60	O	O
 mg/kg	mg/kg	O	O
@@ -94,7 +94,7 @@ were	were	O	O
 assayed	assayed	O	O
 as	as	O	O
 the	the	O	O
-gamma-glutamyltransferase	gamma-glutamyltransferase	O	O
+gamma-glutamyltransferase	gamma-glutamyltransferase	S_chemical	O
 (	(	O	O
 gamma-GT	gamma-gt	O	O
 )	)	O	O
@@ -118,7 +118,7 @@ a	a	O	O
 necrogenic	necrogenic	O	O
 dose	dose	O	O
 of	of	O	O
-CCl4	ccl4	O	O
+CCl4	ccl4	S_chemical	O
 .	.	O	O
 
 The	the	O	O
@@ -171,7 +171,7 @@ only	only	O	O
 
 Administration	administration	O	O
 of	of	O	O
-[3H]-5-azadeoxycytidine	[3h]-5-azadeoxycytidine	O	O
+[3H]-5-azadeoxycytidine	[3h]-5-azadeoxycytidine	S_chemical	O
 during	during	O	O
 the	the	O	O
 repair	repair	O	O

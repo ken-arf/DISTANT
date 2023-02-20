@@ -62,7 +62,7 @@ symptoms	symptoms	O	O
 
 Jaundice	jaundice	O	S_disease
 with	with	O	O
-tender	tender	O	O
+tender	tender	O	B_disease
 hepatomegaly	hepatomegaly	O	S_disease
 ,	,	O	O
 usually	usually	O	O
@@ -74,14 +74,14 @@ malaise	malaise	O	O
 ,	,	O	O
 anorexia	anorexia	O	O
 ,	,	O	O
-nausea	nausea	O	S_disease
-and	and	O	O
+nausea	nausea	O	B_disease
+and	and	O	I_disease
 vomiting	vomiting	O	S_disease
 ,	,	O	O
 and	and	O	O
-associated	associated	O	O
-with	with	O	O
-upper	upper	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+upper	upper	O	B_disease
 abdominal	abdominal	O	B_disease
 pain	pain	O	S_disease
 ,	,	O	O
@@ -99,7 +99,7 @@ liver	liver	O	O
 function	function	O	O
 tests	tests	O	O
 indicated	indicated	O	O
-hepatocellular	hepatocellular	O	O
+hepatocellular	hepatocellular	O	B_disease
 necrosis	necrosis	O	S_disease
 and	and	O	O
 correlated	correlated	O	O
@@ -120,11 +120,11 @@ fatty	fatty	O	O
 change	change	O	O
 and	and	O	O
 focal	focal	O	O
-hepatocellular	hepatocellular	O	O
+hepatocellular	hepatocellular	O	B_disease
 necrosis	necrosis	O	S_disease
 to	to	O	O
 massive	massive	O	B_disease
-hepatic	hepatic	O	I_disease
+hepatic	hepatic	O	B_disease
 necrosis	necrosis	O	S_disease
 .	.	O	O
 
@@ -137,8 +137,8 @@ severe	severe	O	O
 acute	acute	O	O
 hepatitis	hepatitis	O	S_disease
 or	or	O	O
-chronic	chronic	O	O
-active	active	O	O
+chronic	chronic	O	B_disease
+active	active	O	I_disease
 hepatitis	hepatitis	O	S_disease
 with	with	O	O
 associated	associated	O	O
@@ -208,7 +208,7 @@ in	in	O	O
 the	the	O	O
 series	series	O	O
 developed	developed	O	O
-fulminant	fulminant	O	O
+fulminant	fulminant	O	B_disease
 hepatitis	hepatitis	O	S_disease
 when	when	O	O
 the	the	O	O
@@ -243,8 +243,8 @@ relationship	relationship	O	O
 between	between	O	O
 methyldopa	methyldopa	S_chemical	O
 and	and	O	O
-hepatic	hepatic	O	O
-dysfunction	dysfunction	O	O
+hepatic	hepatic	O	B_disease
+dysfunction	dysfunction	O	I_disease
 was	was	O	O
 proved	proved	O	O
 with	with	O	O

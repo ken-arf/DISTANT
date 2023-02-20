@@ -216,9 +216,9 @@ vacuolization	vacuolization	O	O
 biopsies	biopsies	O	O
 )	)	O	O
 ,	,	O	O
-arteriolopathy	arteriolopathy	O	O
+arteriolopathy	arteriolopathy	O	S_disease
 (	(	O	O
-angiodegeneration	angiodegeneration	O	O
+angiodegeneration	angiodegeneration	O	S_disease
 of	of	O	O
 the	the	O	O
 arteriolar	arteriolar	O	O
@@ -240,7 +240,7 @@ the	the	O	O
 striped	striped	O	O
 form	form	O	O
 of	of	O	O
-interstitial	interstitial	O	O
+interstitial	interstitial	O	B_disease
 fibrosis	fibrosis	O	S_disease
 (	(	O	O
 11	11	O	O
@@ -298,11 +298,11 @@ nephropathy	nephropathy	O	S_disease
 consists	consists	O	O
 primarily	primarily	O	O
 of	of	O	O
-arteriolopathy	arteriolopathy	O	O
+arteriolopathy	arteriolopathy	O	S_disease
 manifesting	manifesting	O	O
 as	as	O	O
 insudative	insudative	O	O
-hyalinosis	hyalinosis	O	O
+hyalinosis	hyalinosis	O	S_disease
 of	of	O	O
 the	the	O	O
 arteriolar	arteriolar	O	O

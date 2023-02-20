@@ -21,9 +21,9 @@ somatosensory	somatosensory	O	O
 inputs	inputs	O	O
 in	in	O	O
 the	the	O	O
-central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 (	(	O	O
 central	central	O	O
 sensitization	sensitization	O	O
@@ -41,8 +41,8 @@ in	in	O	O
 the	the	O	O
 skin	skin	O	O
 surrounding	surrounding	O	O
-tissue	tissue	O	O
-injury	injury	O	O
+tissue	tissue	O	B_disease
+injury	injury	O	I_disease
 (	(	O	O
 secondary	secondary	O	B_disease
 hyperalgesia	hyperalgesia	O	S_disease

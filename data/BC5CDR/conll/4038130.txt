@@ -28,8 +28,8 @@ hydrochloride	hydrochloride	O	O
 ,	,	O	O
 2.0	2.0	O	O
 %	%	O	O
-mepivacaine	mepivacaine	O	O
-hydrochloride	hydrochloride	O	O
+mepivacaine	mepivacaine	B_chemical	O
+hydrochloride	hydrochloride	I_chemical	O
 ,	,	O	O
 and	and	O	O
 2.0	2.0	O	O
@@ -63,8 +63,8 @@ All	all	O	O
 three	three	O	O
 anesthetics	anesthetics	O	O
 produced	produced	O	O
-massive	massive	O	O
-degeneration	degeneration	O	O
+massive	massive	O	B_disease
+degeneration	degeneration	O	I_disease
 of	of	O	O
 the	the	O	O
 extraocular	extraocular	O	O
@@ -87,8 +87,8 @@ fibers	fibers	O	O
 In	in	O	O
 addition	addition	O	O
 to	to	O	O
-muscle	muscle	O	O
-damage	damage	O	O
+muscle	muscle	O	B_disease
+damage	damage	O	I_disease
 ,	,	O	O
 severe	severe	O	O
 damage	damage	O	O
@@ -103,7 +103,7 @@ especially	especially	O	O
 after	after	O	O
 exposure	exposure	O	O
 to	to	O	O
-mepivacaine	mepivacaine	O	O
+mepivacaine	mepivacaine	S_chemical	O
 and	and	O	O
 lidocaine	lidocaine	S_chemical	O
 plus	plus	O	O

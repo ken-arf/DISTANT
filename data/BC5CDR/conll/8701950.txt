@@ -1,4 +1,4 @@
-Microangiopathic	microangiopathic	O	O
+Microangiopathic	microangiopathic	O	S_disease
 hemolytic	hemolytic	O	B_disease
 anemia	anemia	O	S_disease
 complicating	complicating	O	O
@@ -14,7 +14,7 @@ describe	describe	O	O
 3	3	O	O
 episodes	episodes	O	O
 of	of	O	O
-microangiopathic	microangiopathic	O	O
+microangiopathic	microangiopathic	O	S_disease
 hemolytic	hemolytic	O	B_disease
 anemia	anemia	O	S_disease
 (	(	O	O

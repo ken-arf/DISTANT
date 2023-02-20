@@ -62,9 +62,9 @@ podocyte-associated	podocyte-associated	O	O
 molecules	molecules	O	O
 nephrin	nephrin	O	O
 ,	,	O	O
-a-actinin	a-actinin	O	O
+a-actinin	a-actinin	S_chemical	O
 ,	,	O	O
-dendrin	dendrin	O	O
+dendrin	dendrin	S_chemical	O
 ,	,	O	O
 and	and	O	O
 plekhh2	plekhh2	O	O
@@ -193,13 +193,13 @@ decreased	decreased	O	O
 further	further	O	O
 ,	,	O	O
 while	while	O	O
-dendrin	dendrin	O	O
+dendrin	dendrin	S_chemical	O
 and	and	O	O
 plekhh2	plekhh2	O	O
 also	also	O	O
 decreased	decreased	O	O
 but	but	O	O
-a-actinin	a-actinin	O	O
+a-actinin	a-actinin	S_chemical	O
 remained	remained	O	O
 unchanged	unchanged	O	O
 .	.	O	O
@@ -244,14 +244,14 @@ its	its	O	O
 pivotal	pivotal	O	O
 role	role	O	O
 in	in	O	O
-podocyte	podocyte	O	O
+podocyte	podocyte	O	S_disease
 morphology	morphology	O	O
 .	.	O	O
 
 The	the	O	O
 novel	novel	O	O
 proteins	proteins	O	O
-dendrin	dendrin	O	O
+dendrin	dendrin	S_chemical	O
 and	and	O	O
 plekhh2	plekhh2	O	O
 were	were	O	O
@@ -264,7 +264,7 @@ in	in	O	O
 PAN	pan	S_chemical	O
 ,	,	O	O
 whereas	whereas	O	O
-a-actinin	a-actinin	O	O
+a-actinin	a-actinin	S_chemical	O
 was	was	O	O
 unchanged	unchanged	O	O
 .	.	O	O

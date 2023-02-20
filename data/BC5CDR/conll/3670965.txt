@@ -159,8 +159,8 @@ per	per	O	O
 million	million	O	O
 children	children	O	O
 in	in	O	O
-Great	great	O	O
-Britain	britain	O	O
+Great	great	B_chemical	O
+Britain	britain	I_chemical	O
 .	.	O	O
 
 The	the	O	O

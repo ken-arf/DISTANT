@@ -5,8 +5,8 @@ of	of	O	O
 BD1008	bd1008	O	O
 and	and	O	O
 an	an	O	O
-antisense	antisense	O	O
-oligodeoxynucleotide	oligodeoxynucleotide	O	O
+antisense	antisense	B_chemical	O
+oligodeoxynucleotide	oligodeoxynucleotide	I_chemical	O
 targeting	targeting	O	O
 sigma1	sigma1	O	O
 receptors	receptors	O	O
@@ -65,7 +65,7 @@ BD1063	bd1063	O	O
 )	)	O	O
 ,	,	O	O
 and	and	O	O
-LR132	lr132	O	O
+LR132	lr132	S_chemical	O
 (	(	O	O
 1R,2S-(+)-cis-N-[2-(3,4-dichlorophenyl)ethyl]-2-(1-pyrrolidinyl)cyclohexylamine	1r,2s-(+)-cis-n-[2-(3,4-dichlorophenyl)ethyl]-2-(1-pyrrolidinyl)cyclohexylamine	O	O
 )	)	O	O
@@ -104,7 +104,7 @@ affinities	affinities	O	O
 for	for	O	O
 dopamine	dopamine	S_chemical	O
 ,	,	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 ,	,	O	O
 GABA(A	gaba(a	O	O
 )	)	O	O
@@ -126,7 +126,7 @@ BD1018	bd1018	O	O
 BD1063	bd1063	O	O
 ,	,	O	O
 or	or	O	O
-LR132	lr132	O	O
+LR132	lr132	S_chemical	O
 significantly	significantly	O	O
 attenuated	attenuated	O	O
 cocaine-induced	cocaine-induced	O	O
@@ -139,7 +139,7 @@ Moreover	moreover	O	O
 ,	,	O	O
 post-treatment	post-treatment	O	O
 with	with	O	O
-LR132	lr132	O	O
+LR132	lr132	S_chemical	O
 prevented	prevented	O	O
 cocaine-induced	cocaine-induced	O	O
 lethality	lethality	O	O
@@ -167,7 +167,7 @@ well-characterized	well-characterized	O	O
 sigma	sigma	O	O
 receptor	receptor	O	O
 agonist	agonist	O	O
-di-o-tolylguanidine	di-o-tolylguanidine	O	O
+di-o-tolylguanidine	di-o-tolylguanidine	S_chemical	O
 (	(	O	O
 DTG	dtg	O	O
 )	)	O	O
@@ -207,7 +207,7 @@ BD1018	bd1018	O	O
 ,	,	O	O
 BD1063	bd1063	O	O
 and	and	O	O
-LR132	lr132	O	O
+LR132	lr132	S_chemical	O
 significantly	significantly	O	O
 attenuated	attenuated	O	O
 the	the	O	O
@@ -238,8 +238,8 @@ sigma	sigma	O	O
 receptors	receptors	O	O
 ,	,	O	O
 an	an	O	O
-antisense	antisense	O	O
-oligodeoxynucleotide	oligodeoxynucleotide	O	O
+antisense	antisense	B_chemical	O
+oligodeoxynucleotide	oligodeoxynucleotide	I_chemical	O
 against	against	O	O
 sigma1	sigma1	O	O
 receptors	receptors	O	O

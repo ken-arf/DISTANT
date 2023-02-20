@@ -19,8 +19,8 @@ with	with	O	O
 special	special	O	O
 reference	reference	O	O
 to	to	O	O
-systemic	systemic	O	O
-sclerosis	sclerosis	O	O
+systemic	systemic	O	B_disease
+sclerosis	sclerosis	O	I_disease
 and	and	O	O
 multiple	multiple	O	B_disease
 sclerosis	sclerosis	O	I_disease
@@ -137,7 +137,7 @@ required	required	O	O
 when	when	O	O
 cyclophosphamide	cyclophosphamide	S_chemical	O
 or	or	O	O
-anthracyclines	anthracyclines	O	O
+anthracyclines	anthracyclines	S_chemical	O
 such	such	O	O
 as	as	O	O
 mitoxantrone	mitoxantrone	S_chemical	O
@@ -149,14 +149,14 @@ with	with	O	O
 a	a	O	O
 possible	possible	O	O
 underlying	underlying	O	O
-heart	heart	O	O
-damage	damage	O	O
+heart	heart	O	B_disease
+damage	damage	O	I_disease
 ,	,	O	O
 for	for	O	O
 example	example	O	O
 ,	,	O	O
-systemic	systemic	O	O
-sclerosis	sclerosis	O	O
+systemic	systemic	O	B_disease
+sclerosis	sclerosis	O	I_disease
 patients	patients	O	O
 .	.	O	O
 

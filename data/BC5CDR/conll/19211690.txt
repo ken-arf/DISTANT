@@ -4,7 +4,7 @@ and	and	O	O
 upregulation	upregulation	O	O
 of	of	O	O
 intrarenal	intrarenal	O	O
-angiotensinogen	angiotensinogen	O	O
+angiotensinogen	angiotensinogen	S_chemical	O
 in	in	O	O
 Dahl	dahl	O	O
 salt-sensitive	salt-sensitive	O	O
@@ -70,7 +70,7 @@ male	male	O	O
 DS	ds	O	O
 ,	,	O	O
 intrarenal	intrarenal	O	O
-angiotensinogen	angiotensinogen	O	O
+angiotensinogen	angiotensinogen	S_chemical	O
 expression	expression	O	O
 is	is	O	O
 increased	increased	O	O
@@ -98,14 +98,14 @@ that	that	O	O
 there	there	O	O
 is	is	O	O
 a	a	O	O
-sexual	sexual	O	O
-dimorphism	dimorphism	O	O
+sexual	sexual	O	B_disease
+dimorphism	dimorphism	O	I_disease
 in	in	O	O
 HS-induced	hs-induced	O	O
 upregulation	upregulation	O	O
 of	of	O	O
 intrarenal	intrarenal	O	O
-angiotensinogen	angiotensinogen	O	O
+angiotensinogen	angiotensinogen	S_chemical	O
 mediated	mediated	O	O
 by	by	O	O
 testosterone	testosterone	S_chemical	O
@@ -135,7 +135,7 @@ higher	higher	O	O
 levels	levels	O	O
 of	of	O	O
 intrarenal	intrarenal	O	O
-angiotensinogen	angiotensinogen	O	O
+angiotensinogen	angiotensinogen	S_chemical	O
 mRNA	mrna	O	O
 than	than	O	O
 females	females	O	O
@@ -149,7 +149,7 @@ wk	wk	O	O
 increased	increased	O	O
 renal	renal	O	O
 cortical	cortical	O	O
-angiotensinogen	angiotensinogen	O	O
+angiotensinogen	angiotensinogen	S_chemical	O
 mRNA	mrna	O	O
 and	and	O	O
 protein	protein	O	O
@@ -174,7 +174,7 @@ no	no	O	O
 effect	effect	O	O
 on	on	O	O
 intrarenal	intrarenal	O	O
-angiotensinogen	angiotensinogen	O	O
+angiotensinogen	angiotensinogen	S_chemical	O
 expression	expression	O	O
 on	on	O	O
 either	either	O	O
@@ -243,9 +243,9 @@ and	and	O	O
 upregulation	upregulation	O	O
 of	of	O	O
 renal	renal	O	O
-angiotensinogen	angiotensinogen	O	O
-associated	associated	O	O
-with	with	O	O
+angiotensinogen	angiotensinogen	S_chemical	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 HS	hs	O	O
 diet	diet	O	O
 .	.	O	O

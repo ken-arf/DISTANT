@@ -1,4 +1,4 @@
-Pseudoacromegaly	pseudoacromegaly	O	O
+Pseudoacromegaly	pseudoacromegaly	O	S_disease
 induced	induced	O	O
 by	by	O	O
 the	the	O	O
@@ -11,8 +11,8 @@ minoxidil	minoxidil	O	O
 Acromegaly	acromegaly	O	O
 is	is	O	O
 an	an	O	O
-endocrine	endocrine	O	O
-disorder	disorder	O	O
+endocrine	endocrine	O	B_disease
+disorder	disorder	O	I_disease
 caused	caused	O	O
 by	by	O	O
 chronic	chronic	O	O
@@ -40,8 +40,8 @@ bone	bone	O	O
 cartilage	cartilage	O	O
 ,	,	O	O
 and	and	O	O
-soft	soft	O	O
-tissue	tissue	O	O
+soft	soft	O	B_disease
+tissue	tissue	O	I_disease
 hypertrophy	hypertrophy	O	S_disease
 ,	,	O	O
 including	including	O	O
@@ -62,7 +62,7 @@ verticis	verticis	O	O
 gyrata	gyrata	O	O
 .	.	O	O
 
-Pseudoacromegaly	pseudoacromegaly	O	O
+Pseudoacromegaly	pseudoacromegaly	O	S_disease
 ,	,	O	O
 on	on	O	O
 the	the	O	O
@@ -74,8 +74,8 @@ the	the	O	O
 presence	presence	O	O
 of	of	O	O
 similar	similar	O	O
-acromegaloid	acromegaloid	O	O
-features	features	O	O
+acromegaloid	acromegaloid	O	B_disease
+features	features	O	I_disease
 in	in	O	O
 the	the	O	O
 absence	absence	O	O
@@ -95,7 +95,7 @@ present	present	O	O
 a	a	O	O
 patient	patient	O	O
 with	with	O	O
-pseudoacromegaly	pseudoacromegaly	O	O
+pseudoacromegaly	pseudoacromegaly	O	S_disease
 that	that	O	O
 resulted	resulted	O	O
 from	from	O	O
@@ -118,7 +118,7 @@ first	first	O	O
 case	case	O	O
 report	report	O	O
 of	of	O	O
-pseudoacromegaly	pseudoacromegaly	O	O
+pseudoacromegaly	pseudoacromegaly	O	S_disease
 as	as	O	O
 a	a	O	O
 side	side	O	O

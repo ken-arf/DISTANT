@@ -81,8 +81,8 @@ Graves	graves	O	B_disease
 disease	disease	O	I_disease
 had	had	O	O
 a	a	O	O
-febrile	febrile	O	O
-illness	illness	O	O
+febrile	febrile	O	B_disease
+illness	illness	O	I_disease
 and	and	O	O
 evidence	evidence	O	O
 of	of	O	O
@@ -109,7 +109,7 @@ autoantibodies	autoantibodies	O	O
 pANCA	panca	O	O
 )	)	O	O
 against	against	O	O
-myeloperoxidase	myeloperoxidase	O	O
+myeloperoxidase	myeloperoxidase	S_chemical	O
 (	(	O	O
 MPO	mpo	O	O
 )	)	O	O
@@ -150,8 +150,8 @@ in	in	O	O
 anti-MPO	anti-mpo	O	O
 pANCA-positive	panca-positive	O	O
 vasculitis	vasculitis	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 propylthio-	propylthio-	O	O
 uracil	uracil	O	O
 therapy	therapy	O	O

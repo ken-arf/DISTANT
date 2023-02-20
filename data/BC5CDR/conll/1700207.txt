@@ -4,7 +4,7 @@ of	of	O	O
 optical	optical	O	O
 isomers	isomers	O	O
 of	of	O	O
-cibenzoline	cibenzoline	O	O
+cibenzoline	cibenzoline	S_chemical	O
 on	on	O	O
 canine	canine	O	O
 ventricular	ventricular	O	B_disease
@@ -14,15 +14,15 @@ arrhythmias	arrhythmias	O	S_disease
 Antiarrhythmic	antiarrhythmic	O	O
 effects	effects	O	O
 of	of	O	O
-(+)-cibenzoline	(+)-cibenzoline	O	O
+(+)-cibenzoline	(+)-cibenzoline	S_chemical	O
 and	and	O	O
-(-)-cibenzoline	(-)-cibenzoline	O	O
+(-)-cibenzoline	(-)-cibenzoline	S_chemical	O
 were	were	O	O
 examined	examined	O	O
 using	using	O	O
 two	two	O	O
 canine	canine	O	O
-ventricular	ventricular	O	O
+ventricular	ventricular	O	B_disease
 arrhythmia	arrhythmia	O	S_disease
 models	models	O	O
 .	.	O	O
@@ -83,7 +83,7 @@ mg/kg	mg/kg	O	O
 i.v	i.v	O	O
 .	.	O	O
 
-(+)-cibenzoline	(+)-cibenzoline	O	O
+(+)-cibenzoline	(+)-cibenzoline	S_chemical	O
 suppressed	suppressed	O	O
 digitalis-	digitalis-	O	O
 and	and	O	O
@@ -99,7 +99,7 @@ effective	effective	O	O
 plasma	plasma	O	O
 concentrations	concentrations	O	O
 of	of	O	O
-(+)-cibenzoline	(+)-cibenzoline	O	O
+(+)-cibenzoline	(+)-cibenzoline	S_chemical	O
 for	for	O	O
 digitalis-	digitalis-	O	O
 and	and	O	O
@@ -139,7 +139,7 @@ mg/kg	mg/kg	O	O
 i.v	i.v	O	O
 .	.	O	O
 of	of	O	O
-(-)-cibenzoline	(-)-cibenzoline	O	O
+(-)-cibenzoline	(-)-cibenzoline	S_chemical	O
 suppressed	suppressed	O	O
 the	the	O	O
 digitalis-induced	digitalis-induced	O	O
@@ -164,7 +164,7 @@ effective	effective	O	O
 plasma	plasma	O	O
 concentrations	concentrations	O	O
 of	of	O	O
-(-)-cibenzoline	(-)-cibenzoline	O	O
+(-)-cibenzoline	(-)-cibenzoline	S_chemical	O
 for	for	O	O
 digitalis-	digitalis-	O	O
 and	and	O	O
@@ -200,7 +200,7 @@ stronger	stronger	O	O
 antiarrhythmic	antiarrhythmic	O	O
 effect	effect	O	O
 of	of	O	O
-(-)-cibenzoline	(-)-cibenzoline	O	O
+(-)-cibenzoline	(-)-cibenzoline	S_chemical	O
 indicates	indicates	O	O
 that	that	O	O
 (-)-isomer	(-)-isomer	O	O

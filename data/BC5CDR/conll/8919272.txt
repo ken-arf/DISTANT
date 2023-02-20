@@ -67,11 +67,11 @@ and	and	O	O
 12	12	O	O
 months	months	O	O
 revealed	revealed	O	O
-neurological	neurological	O	O
-disorders	disorders	O	O
+neurological	neurological	O	B_disease
+disorders	disorders	O	I_disease
 indicating	indicating	O	O
-cerebellum	cerebellum	O	O
-damage	damage	O	O
+cerebellum	cerebellum	O	B_disease
+damage	damage	O	I_disease
 (	(	O	O
 "	"	O	O
 valproate	valproate	S_chemical	O
@@ -211,7 +211,7 @@ was	was	O	O
 produced	produced	O	O
 by	by	O	O
 enlarged	enlarged	O	O
-perivascular	perivascular	O	O
+perivascular	perivascular	O	S_disease
 astrocytic	astrocytic	O	O
 processes	processes	O	O
 .	.	O	O
@@ -266,7 +266,7 @@ cells	cells	O	O
 ,	,	O	O
 mainly	mainly	O	O
 to	to	O	O
-perivascular	perivascular	O	O
+perivascular	perivascular	O	S_disease
 processes	processes	O	O
 of	of	O	O
 astrocytes	astrocytes	O	O

@@ -24,7 +24,7 @@ IV	iv	O	O
 bolus	bolus	O	O
 4'-0-tetrahydropyranyladriamycin	4'-0-tetrahydropyranyladriamycin	S_chemical	O
 (	(	O	O
-Pirarubicin	pirarubicin	O	O
+Pirarubicin	pirarubicin	S_chemical	O
 )	)	O	O
 was	was	O	O
 done	done	O	O
@@ -65,8 +65,8 @@ six	six	O	O
 had	had	O	O
 renal	renal	O	O
 and/or	and/or	O	O
-hepatic	hepatic	O	O
-dysfunction	dysfunction	O	O
+hepatic	hepatic	O	B_disease
+dysfunction	dysfunction	O	I_disease
 .	.	O	O
 
 A	a	O	O
@@ -155,8 +155,8 @@ more	more	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-hepatic	hepatic	O	O
-dysfunction	dysfunction	O	O
+hepatic	hepatic	O	B_disease
+dysfunction	dysfunction	O	I_disease
 .	.	O	O
 
 Pharmacokinetic	pharmacokinetic	O	O
@@ -165,7 +165,7 @@ in	in	O	O
 21	21	O	O
 patients	patients	O	O
 revealed	revealed	O	O
-Pirarubicin	pirarubicin	O	O
+Pirarubicin	pirarubicin	S_chemical	O
 plasma	plasma	O	O
 T	t	O	O
 1/2	1/2	O	O
@@ -243,14 +243,14 @@ was	was	O	O
 l/hour/m2	l/hour/m2	O	O
 .	.	O	O
 
-Adriamycinol	adriamycinol	O	O
+Adriamycinol	adriamycinol	S_chemical	O
 ,	,	O	O
 doxorubicin	doxorubicin	S_chemical	O
 ,	,	O	O
-adriamycinone	adriamycinone	O	O
+adriamycinone	adriamycinone	S_chemical	O
 ,	,	O	O
 and	and	O	O
-tetrahydropyranyladriamycinol	tetrahydropyranyladriamycinol	O	O
+tetrahydropyranyladriamycinol	tetrahydropyranyladriamycinol	S_chemical	O
 were	were	O	O
 the	the	O	O
 metabolites	metabolites	O	O
@@ -279,7 +279,7 @@ metabolites	metabolites	O	O
 Urinary	urinary	O	O
 excretion	excretion	O	O
 of	of	O	O
-Pirarubicin	pirarubicin	O	O
+Pirarubicin	pirarubicin	S_chemical	O
 in	in	O	O
 the	the	O	O
 first	first	O	O

@@ -30,8 +30,8 @@ suggest	suggest	O	O
 that	that	O	O
 situations	situations	O	O
 causing	causing	O	O
-gallbladder	gallbladder	O	O
-dysfunction	dysfunction	O	O
+gallbladder	gallbladder	O	B_disease
+dysfunction	dysfunction	O	I_disease
 ,	,	O	O
 such	such	O	O
 as	as	O	O
@@ -103,8 +103,8 @@ those	those	O	O
 %	%	O	O
 )	)	O	O
 developed	developed	O	O
-biliary	biliary	O	O
-pathology	pathology	O	O
+biliary	biliary	O	B_disease
+pathology	pathology	O	I_disease
 .	.	O	O
 
 Comparison	comparison	O	O

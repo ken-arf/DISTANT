@@ -5,7 +5,7 @@ alters	alters	O	O
 dopamine-mediated	dopamine-mediated	O	O
 behaviors	behaviors	O	O
 and	and	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 and	and	O	O
 glutamatergic	glutamatergic	O	O
 receptor	receptor	O	O

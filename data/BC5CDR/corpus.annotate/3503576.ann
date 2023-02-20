@@ -1,0 +1,15 @@
+T1	Disease 27 40	neurotoxicity
+T2	Chemical 63 75	deferoxamine
+T3	Disease 104 117	neurotoxicity
+T6	Chemical 265 277	deferoxamine
+T7	Chemical 479 491	deferoxamine
+T9	Chemical 870 882	deferoxamine
+T10	Disease 1047 1067	auditory abnormality
+T12	Disease 1143 1165	Auditory deterioration
+T13	Chemical 1256 1268	deferoxamine
+T14	Chemical 1353 1365	deferoxamine
+T15	Disease 1385 1396	ototoxicity
+T16	Chemical 1503 1515	deferoxamine
+T18	Chemical 1779 1791	deferoxamine
+T19	Disease 1864 1876	hearing loss
+T20	Disease 2194 2214	auditory dysfunction

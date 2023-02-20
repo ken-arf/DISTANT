@@ -19,7 +19,7 @@ hypokalemia	hypokalemia	O	O
 ,	,	O	O
 hypocalcemia	hypocalcemia	O	S_disease
 and	and	O	O
-hypomagnesemia	hypomagnesemia	O	O
+hypomagnesemia	hypomagnesemia	O	S_disease
 .	.	O	O
 
 While	while	O	O
@@ -31,12 +31,12 @@ muscle	muscle	O	B_disease
 weakness	weakness	O	S_disease
 ,	,	O	O
 severe	severe	O	O
-hypomagnesemia	hypomagnesemia	O	O
+hypomagnesemia	hypomagnesemia	O	S_disease
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
-muscle	muscle	O	O
-spasms	spasms	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+muscle	muscle	O	B_disease
+spasms	spasms	O	I_disease
 and	and	O	O
 tetany	tetany	O	S_disease
 which	which	O	O

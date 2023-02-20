@@ -167,8 +167,8 @@ UPDRS	updrs	O	O
 Hoehn_Yahr	hoehn_yahr	O	O
 score	score	O	O
 and	and	O	O
-Schwab	schwab	O	O
-England	england	O	O
+Schwab	schwab	B_chemical	O
+England	england	I_chemical	O
 activities	activities	O	O
 of	of	O	O
 daily	daily	O	O
@@ -235,8 +235,8 @@ Hoehn	hoehn	O	O
 _	_	O	O
 Yahr	yahr	O	O
 and	and	O	O
-Schwab	schwab	O	O
-England	england	O	O
+Schwab	schwab	B_chemical	O
+England	england	I_chemical	O
 ADL	adl	O	O
 scores	scores	O	O
 were	were	O	O
@@ -246,8 +246,8 @@ both	both	O	O
 groups	groups	O	O
 .	.	O	O
 
-Cognitive	cognitive	O	O
-functions	functions	O	O
+Cognitive	cognitive	O	B_disease
+functions	functions	O	I_disease
 were	were	O	O
 unchanged	unchanged	O	O
 in	in	O	O

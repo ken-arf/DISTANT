@@ -1,7 +1,7 @@
-Erythema	erythema	O	B_disease
-multiforme	multiforme	O	I_disease
+Erythema	erythema	B_chemical	B_disease
+multiforme	multiforme	I_chemical	I_disease
 and	and	O	O
-hypersensitivity	hypersensitivity	O	S_disease
+hypersensitivity	hypersensitivity	O	B_disease
 myocarditis	myocarditis	O	S_disease
 caused	caused	O	O
 by	by	O	O
@@ -15,10 +15,10 @@ report	report	O	O
 a	a	O	O
 case	case	O	O
 of	of	O	O
-erythema	erythema	O	B_disease
-multiforme	multiforme	O	I_disease
+erythema	erythema	B_chemical	B_disease
+multiforme	multiforme	I_chemical	I_disease
 and	and	O	O
-hypersensitivity	hypersensitivity	O	S_disease
+hypersensitivity	hypersensitivity	O	B_disease
 myocarditis	myocarditis	O	S_disease
 caused	caused	O	O
 by	by	O	O
@@ -47,8 +47,8 @@ Medications	medications	O	O
 were	were	O	O
 discontinued	discontinued	O	O
 when	when	O	O
-erythema	erythema	O	B_disease
-multiforme	multiforme	O	I_disease
+erythema	erythema	B_chemical	B_disease
+multiforme	multiforme	I_chemical	I_disease
 and	and	O	O
 congestive	congestive	O	B_disease
 heart	heart	O	B_disease
@@ -88,8 +88,8 @@ After	after	O	O
 most	most	O	O
 infections	infections	O	S_disease
 causing	causing	O	O
-erythema	erythema	O	B_disease
-multiforme	multiforme	O	I_disease
+erythema	erythema	B_chemical	B_disease
+multiforme	multiforme	I_chemical	I_disease
 and	and	O	O
 myocarditis	myocarditis	O	S_disease
 were	were	O	O
@@ -122,7 +122,7 @@ ampicillin	ampicillin	S_chemical	O
 
 CONCLUSIONS	conclusions	O	O
 :	:	O	O
-Hypersensitivity	hypersensitivity	O	S_disease
+Hypersensitivity	hypersensitivity	O	B_disease
 myocarditis	myocarditis	O	S_disease
 is	is	O	O
 a	a	O	O

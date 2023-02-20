@@ -13,8 +13,8 @@ in	in	O	O
 elderly	elderly	O	O
 patients	patients	O	O
 undergoing	undergoing	O	O
-hip	hip	O	O
-fracture	fracture	O	O
+hip	hip	O	B_disease
+fracture	fracture	O	I_disease
 repair	repair	O	O
 .	.	O	O
 
@@ -31,8 +31,8 @@ during	during	O	O
 spinal	spinal	O	O
 anesthesia	anesthesia	O	O
 for	for	O	O
-hip	hip	O	O
-fracture	fracture	O	O
+hip	hip	O	B_disease
+fracture	fracture	O	I_disease
 repair	repair	O	O
 in	in	O	O
 elderly	elderly	O	O
@@ -79,8 +79,8 @@ severe	severe	O	O
 dementia	dementia	O	S_disease
 who	who	O	O
 underwent	underwent	O	O
-hip	hip	O	O
-fracture	fracture	O	O
+hip	hip	O	B_disease
+fracture	fracture	O	I_disease
 repair	repair	O	O
 under	under	O	O
 spinal	spinal	O	O

@@ -24,8 +24,8 @@ host	host	O	O
 of	of	O	O
 neurological	neurological	O	O
 and	and	O	O
-psychiatric	psychiatric	O	S_disease
-disorders	disorders	O	O
+psychiatric	psychiatric	O	B_disease
+disorders	disorders	O	I_disease
 .	.	O	O
 
 They	they	O	O
@@ -70,8 +70,8 @@ that	that	O	O
 positively	positively	O	O
 modulate	modulate	O	O
 the	the	O	O
-gamma-aminobutyric	gamma-aminobutyric	O	O
-acid	acid	O	O
+gamma-aminobutyric	gamma-aminobutyric	B_chemical	O
+acid	acid	I_chemical	O
 (	(	O	O
 GABA(A	gaba(a	O	O
 )	)	O	O
@@ -99,23 +99,23 @@ kindling	kindling	O	O
 )	)	O	O
 .	.	O	O
 
-Allopregnanolone	allopregnanolone	O	O
+Allopregnanolone	allopregnanolone	S_chemical	O
 (	(	O	O
 3alpha-hydroxy-5alpha-pregnan-20-one	3alpha-hydroxy-5alpha-pregnan-20-one	O	O
 )	)	O	O
 ,	,	O	O
-pregnanolone	pregnanolone	O	O
+pregnanolone	pregnanolone	S_chemical	O
 (	(	O	O
 3alpha-hydroxy-5beta-pregnan-20-one	3alpha-hydroxy-5beta-pregnan-20-one	O	O
 )	)	O	O
 and	and	O	O
-ganaxolone	ganaxolone	O	O
+ganaxolone	ganaxolone	S_chemical	O
 (	(	O	O
 a	a	O	O
 synthetic	synthetic	O	O
 derivative	derivative	O	O
 of	of	O	O
-allopregnanolone	allopregnanolone	O	O
+allopregnanolone	allopregnanolone	S_chemical	O
 3alpha-hydroxy-3beta-methyl-5alpha-pregnan-20-one	3alpha-hydroxy-3beta-methyl-5alpha-pregnan-20-one	O	O
 )	)	O	O
 were	were	O	O
@@ -179,9 +179,9 @@ seizures	seizures	O	S_disease
 ,	,	O	O
 whereas	whereas	O	O
 only	only	O	O
-allopregnanolone	allopregnanolone	O	O
+allopregnanolone	allopregnanolone	S_chemical	O
 and	and	O	O
-ganaxolone	ganaxolone	O	O
+ganaxolone	ganaxolone	S_chemical	O
 inhibited	inhibited	O	O
 the	the	O	O
 development	development	O	O
@@ -189,20 +189,20 @@ of	of	O	O
 kindling	kindling	O	O
 .	.	O	O
 
-Allopregnanolone	allopregnanolone	O	O
+Allopregnanolone	allopregnanolone	S_chemical	O
 and	and	O	O
-pregnanolone	pregnanolone	O	O
+pregnanolone	pregnanolone	S_chemical	O
 ,	,	O	O
 but	but	O	O
 not	not	O	O
-ganaxolone	ganaxolone	O	O
+ganaxolone	ganaxolone	S_chemical	O
 ,	,	O	O
 also	also	O	O
 reduced	reduced	O	O
 cumulative	cumulative	O	O
 lethality	lethality	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 kindling	kindling	O	O
 .	.	O	O
 

@@ -5,22 +5,22 @@ do	do	O	O
 more	more	O	O
 harm	harm	O	O
 for	for	O	O
-spinal	spinal	O	O
-cord	cord	O	O
-injury	injury	O	O
+spinal	spinal	O	B_disease
+cord	cord	O	B_disease
+injury	injury	O	I_disease
 .	.	O	O
 
 Because	because	O	O
 of	of	O	O
 the	the	O	O
 National	national	O	O
-Acute	acute	O	O
-Spinal	spinal	O	O
-Cord	cord	O	O
-Injury	injury	O	O
+Acute	acute	O	B_disease
+Spinal	spinal	O	B_disease
+Cord	cord	O	B_disease
+Injury	injury	O	I_disease
 Studies	studies	O	O
 (	(	O	O
-NASCIS	nascis	O	O
+NASCIS	nascis	S_chemical	O
 )	)	O	O
 ,	,	O	O
 high-dose	high-dose	O	O
@@ -32,15 +32,15 @@ of	of	O	O
 care	care	O	O
 for	for	O	O
 the	the	O	O
-acute	acute	O	O
-spinal	spinal	O	O
-cord	cord	O	O
-injury	injury	O	O
+acute	acute	O	B_disease
+spinal	spinal	O	B_disease
+cord	cord	O	B_disease
+injury	injury	O	I_disease
 .	.	O	O
 
 In	in	O	O
 the	the	O	O
-NASCIS	nascis	O	O
+NASCIS	nascis	S_chemical	O
 ,	,	O	O
 there	there	O	O
 was	was	O	O
@@ -67,7 +67,7 @@ methylprednisolone	methylprednisolone	S_chemical	O
 recommended	recommended	O	O
 by	by	O	O
 the	the	O	O
-NASCIS	nascis	O	O
+NASCIS	nascis	S_chemical	O
 3	3	O	O
 is	is	O	O
 the	the	O	O
@@ -100,9 +100,9 @@ to	to	O	O
 the	the	O	O
 muscle	muscle	O	O
 of	of	O	O
-spinal	spinal	O	O
-cord	cord	O	O
-injury	injury	O	O
+spinal	spinal	O	B_disease
+cord	cord	O	B_disease
+injury	injury	O	I_disease
 patients	patients	O	O
 .	.	O	O
 
@@ -119,7 +119,7 @@ improvement	improvement	O	O
 shown	shown	O	O
 in	in	O	O
 the	the	O	O
-NASCIS	nascis	O	O
+NASCIS	nascis	S_chemical	O
 may	may	O	O
 be	be	O	O
 just	just	O	O
@@ -144,9 +144,9 @@ methylprednisolone	methylprednisolone	S_chemical	O
 offers	offers	O	O
 to	to	O	O
 the	the	O	O
-spinal	spinal	O	O
-cord	cord	O	O
-injury	injury	O	O
+spinal	spinal	O	B_disease
+cord	cord	O	B_disease
+injury	injury	O	I_disease
 .	.	O	O
 
 To	to	O	O
@@ -166,7 +166,7 @@ the	the	O	O
 methylprednisolone	methylprednisolone	S_chemical	O
 recommended	recommended	O	O
 by	by	O	O
-NASCIS	nascis	O	O
+NASCIS	nascis	S_chemical	O
 may	may	O	O
 cause	cause	O	O
 acute	acute	O	O

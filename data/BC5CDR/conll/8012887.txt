@@ -1,12 +1,12 @@
 Failure	failure	O	O
 of	of	O	O
-ancrod	ancrod	O	O
+ancrod	ancrod	S_chemical	O
 in	in	O	O
 the	the	O	O
 treatment	treatment	O	O
 of	of	O	O
 heparin-induced	heparin-induced	O	O
-arterial	arterial	O	O
+arterial	arterial	O	B_disease
 thrombosis	thrombosis	O	S_disease
 .	.	O	O
 
@@ -14,8 +14,8 @@ The	the	O	O
 morbidity	morbidity	O	O
 and	and	O	O
 mortality	mortality	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 heparin-induced	heparin-induced	O	O
 thrombosis	thrombosis	O	S_disease
 remain	remain	O	O
@@ -26,7 +26,7 @@ empirical	empirical	O	O
 therapies	therapies	O	O
 .	.	O	O
 
-Ancrod	ancrod	O	O
+Ancrod	ancrod	S_chemical	O
 has	has	O	O
 been	been	O	O
 used	used	O	O
@@ -60,8 +60,8 @@ who	who	O	O
 have	have	O	O
 developed	developed	O	O
 the	the	O	O
-thrombosis	thrombosis	O	S_disease
-syndrome	syndrome	O	O
+thrombosis	thrombosis	O	B_disease
+syndrome	syndrome	O	I_disease
 is	is	O	O
 not	not	O	O
 well	well	O	O
@@ -76,7 +76,7 @@ case	case	O	O
 of	of	O	O
 failure	failure	O	O
 of	of	O	O
-ancrod	ancrod	O	O
+ancrod	ancrod	S_chemical	O
 treatment	treatment	O	O
 in	in	O	O
 a	a	O	O

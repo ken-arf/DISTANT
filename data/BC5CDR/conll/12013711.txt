@@ -2,8 +2,8 @@ Risperidone-associated	risperidone-associated	O	O
 ,	,	O	O
 benign	benign	O	O
 transient	transient	O	O
-visual	visual	O	O
-disturbances	disturbances	O	O
+visual	visual	O	B_disease
+disturbances	disturbances	O	I_disease
 in	in	O	O
 schizophrenic	schizophrenic	O	S_disease
 patients	patients	O	O
@@ -52,8 +52,8 @@ short	short	O	O
 episodes	episodes	O	O
 of	of	O	O
 transient	transient	O	O
-visual	visual	O	O
-disturbances	disturbances	O	O
+visual	visual	O	B_disease
+disturbances	disturbances	O	I_disease
 ,	,	O	O
 which	which	O	O
 appeared	appeared	O	O
@@ -68,8 +68,8 @@ risperidone	risperidone	S_chemical	O
 This	this	O	O
 imagery	imagery	O	O
 resembled	resembled	O	O
-visual	visual	O	O
-disturbances	disturbances	O	O
+visual	visual	O	B_disease
+disturbances	disturbances	O	I_disease
 previously	previously	O	O
 experienced	experienced	O	O
 as	as	O	O
@@ -89,8 +89,8 @@ was	was	O	O
 continued	continued	O	O
 and	and	O	O
 the	the	O	O
-visual	visual	O	O
-disturbances	disturbances	O	O
+visual	visual	O	B_disease
+disturbances	disturbances	O	I_disease
 gradually	gradually	O	O
 wore	wore	O	O
 off	off	O	O
@@ -107,8 +107,8 @@ was	was	O	O
 no	no	O	O
 recurrence	recurrence	O	O
 of	of	O	O
-visual	visual	O	O
-disturbances	disturbances	O	O
+visual	visual	O	B_disease
+disturbances	disturbances	O	I_disease
 .	.	O	O
 
 This	this	O	O

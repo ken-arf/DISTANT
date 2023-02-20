@@ -33,8 +33,8 @@ patients	patients	O	O
 who	who	O	O
 had	had	O	O
 experienced	experienced	O	O
-clinical	clinical	O	O
-intoxication	intoxication	O	O
+clinical	clinical	O	B_disease
+intoxication	intoxication	O	I_disease
 .	.	O	O
 
 Five	five	O	O
@@ -249,7 +249,7 @@ into	into	O	O
 the	the	O	O
 pathogenesis	pathogenesis	O	O
 of	of	O	O
-cerebellar	cerebellar	O	O
-disorders	disorders	O	O
+cerebellar	cerebellar	O	B_disease
+disorders	disorders	O	I_disease
 .	.	O	O
 

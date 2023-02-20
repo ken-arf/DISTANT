@@ -74,10 +74,10 @@ of	of	O	O
 venous	venous	O	B_disease
 thromboembolism	thromboembolism	O	I_disease
 (	(	O	O
-VTE	vte	O	S_disease
+VTE	vte	S_chemical	S_disease
 )	)	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 CPA/EE	cpa/ee	O	O
 compared	compared	O	O
 with	with	O	O
@@ -86,7 +86,7 @@ combined	combined	O	O
 oral	oral	B_chemical	O
 contraceptives	contraceptives	I_chemical	O
 (	(	O	O
-COCs	cocs	O	O
+COCs	cocs	S_chemical	O
 )	)	O	O
 .	.	O	O
 
@@ -145,9 +145,9 @@ estimate	estimate	O	O
 the	the	O	O
 risk	risk	O	O
 of	of	O	O
-VTE	vte	O	S_disease
-associated	associated	O	O
-with	with	O	O
+VTE	vte	S_chemical	S_disease
+associated	associated	O	B_disease
+with	with	O	I_disease
 CPA/EE	cpa/ee	O	O
 .	.	O	O
 
@@ -162,7 +162,7 @@ for	for	O	O
 CPA/EE	cpa/ee	O	O
 versus	versus	O	O
 conventional	conventional	O	O
-COCs	cocs	O	O
+COCs	cocs	S_chemical	O
 was	was	O	O
 2.20	2.20	O	O
 [	[	O	O
@@ -197,8 +197,8 @@ no	no	O	O
 recent	recent	O	O
 pregnancy	pregnancy	O	O
 or	or	O	O
-menopausal	menopausal	O	O
-symptoms	symptoms	O	O
+menopausal	menopausal	O	B_disease
+symptoms	symptoms	O	I_disease
 ,	,	O	O
 the	the	O	O
 case-control	case-control	O	O
@@ -244,7 +244,7 @@ for	for	O	O
 use	use	O	O
 of	of	O	O
 conventional	conventional	O	O
-COCs	cocs	O	O
+COCs	cocs	S_chemical	O
 .	.	O	O
 
 CONCLUSIONS	conclusions	O	O
@@ -256,9 +256,9 @@ an	an	O	O
 increased	increased	O	O
 risk	risk	O	O
 of	of	O	O
-VTE	vte	O	S_disease
-associated	associated	O	O
-with	with	O	O
+VTE	vte	S_chemical	S_disease
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 use	use	O	O
 of	of	O	O

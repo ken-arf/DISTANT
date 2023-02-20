@@ -20,9 +20,9 @@ banned	banned	O	O
 its	its	O	O
 use	use	O	O
 for	for	O	O
-nocturnal	nocturnal	O	O
-leg	leg	O	O
-cramps	cramps	O	O
+nocturnal	nocturnal	O	B_disease
+leg	leg	O	I_disease
+cramps	cramps	O	I_disease
 due	due	O	O
 to	to	O	O
 lack	lack	O	O
@@ -41,8 +41,8 @@ including	including	O	O
 tonic	tonic	O	O
 water	water	O	O
 and	and	O	O
-bitter	bitter	O	O
-lemon	lemon	O	O
+bitter	bitter	B_chemical	O
+lemon	lemon	I_chemical	O
 .	.	O	O
 
 Numerous	numerous	O	O
@@ -55,15 +55,15 @@ containing	containing	O	O
 quinine	quinine	S_chemical	O
 may	may	O	O
 produce	produce	O	O
-neurological	neurological	O	O
-complications	complications	O	O
+neurological	neurological	O	B_disease
+complications	complications	O	I_disease
 ,	,	O	O
 including	including	O	O
 confusion	confusion	O	S_disease
 ,	,	O	O
 altered	altered	O	O
-mental	mental	O	O
-status	status	O	O
+mental	mental	O	B_disease
+status	status	O	I_disease
 ,	,	O	O
 seizures	seizures	O	S_disease
 ,	,	O	O

@@ -1,7 +1,7 @@
 Protective	protective	O	O
 effect	effect	O	O
 of	of	O	O
-edaravone	edaravone	O	O
+edaravone	edaravone	S_chemical	O
 against	against	O	O
 streptomycin-induced	streptomycin-induced	O	O
 vestibulotoxicity	vestibulotoxicity	O	O
@@ -19,13 +19,13 @@ of	of	O	O
 streptomycin-induced	streptomycin-induced	O	O
 vestibulotoxicity	vestibulotoxicity	O	O
 by	by	O	O
-edaravone	edaravone	O	O
+edaravone	edaravone	S_chemical	O
 in	in	O	O
 guinea	guinea	O	O
 pigs	pigs	O	O
 .	.	O	O
 
-Edaravone	edaravone	O	O
+Edaravone	edaravone	S_chemical	O
 ,	,	O	O
 a	a	O	O
 free	free	O	O
@@ -65,7 +65,7 @@ for	for	O	O
 h	h	S_chemical	O
 ,	,	O	O
 and	and	O	O
-edaravone	edaravone	O	O
+edaravone	edaravone	S_chemical	O
 (	(	O	O
 n=8	n=8	O	O
 )	)	O	O
@@ -111,14 +111,14 @@ than	than	O	O
 those	those	O	O
 injected	injected	O	O
 with	with	O	O
-edaravone	edaravone	O	O
+edaravone	edaravone	S_chemical	O
 .	.	O	O
 
 These	these	O	O
 results	results	O	O
 suggest	suggest	O	O
 that	that	O	O
-edaravone	edaravone	O	O
+edaravone	edaravone	S_chemical	O
 suppresses	suppresses	O	O
 streptomycin-induced	streptomycin-induced	O	O
 vestibulotoxicity	vestibulotoxicity	O	O

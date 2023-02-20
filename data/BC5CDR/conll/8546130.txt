@@ -47,10 +47,10 @@ association	association	O	O
 with	with	O	O
 the	the	O	O
 new	new	O	O
-macrolide	macrolide	O	O
+macrolide	macrolide	S_chemical	O
 antibiotic	antibiotic	O	O
 ,	,	O	O
-clarithromycin	clarithromycin	O	O
+clarithromycin	clarithromycin	S_chemical	O
 .	.	O	O
 
 We	we	O	O
@@ -62,9 +62,9 @@ in	in	O	O
 a	a	O	O
 patient	patient	O	O
 with	with	O	O
-end-stage	end-stage	O	O
-renal	renal	O	O
-disease	disease	O	O
+end-stage	end-stage	O	B_disease
+renal	renal	O	B_disease
+disease	disease	O	I_disease
 (	(	O	O
 ESRD	esrd	O	S_disease
 )	)	O	O
@@ -87,7 +87,7 @@ relatively	relatively	O	O
 high	high	O	O
 dose	dose	O	O
 of	of	O	O
-clarithromycin	clarithromycin	O	O
+clarithromycin	clarithromycin	S_chemical	O
 in	in	O	O
 face	face	O	O
 of	of	O	O

@@ -1,10 +1,10 @@
 Lone	lone	O	O
 atrial	atrial	O	B_disease
 fibrillation	fibrillation	O	I_disease
-associated	associated	O	O
-with	with	O	O
-creatine	creatine	S_chemical	O
-monohydrate	monohydrate	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+creatine	creatine	B_chemical	O
+monohydrate	monohydrate	I_chemical	O
 supplementation	supplementation	O	O
 .	.	O	O
 
@@ -14,7 +14,7 @@ in	in	O	O
 young	young	O	O
 patients	patients	O	O
 without	without	O	O
-structural	structural	O	O
+structural	structural	O	B_disease
 heart	heart	O	B_disease
 disease	disease	O	I_disease
 is	is	O	O
@@ -41,8 +41,8 @@ and	and	O	O
 resolved	resolved	O	O
 .	.	O	O
 
-Thyroid	thyroid	O	O
-disorders	disorders	O	O
+Thyroid	thyroid	O	B_disease
+disorders	disorders	O	I_disease
 ,	,	O	O
 illicit	illicit	O	O
 drug	drug	O	O
@@ -92,7 +92,7 @@ unremarkable	unremarkable	O	O
 ,	,	O	O
 except	except	O	O
 for	for	O	O
-minor	minor	O	O
+minor	minor	O	B_disease
 fractures	fractures	O	S_disease
 of	of	O	O
 the	the	O	O
@@ -145,8 +145,8 @@ supplements	supplements	O	O
 the	the	O	O
 use	use	O	O
 of	of	O	O
-creatine	creatine	S_chemical	O
-monohydrate	monohydrate	O	O
+creatine	creatine	B_chemical	O
+monohydrate	monohydrate	I_chemical	O
 was	was	O	O
 revealed	revealed	O	O
 .	.	O	O
@@ -166,7 +166,7 @@ heparin	heparin	S_chemical	O
 ,	,	O	O
 and	and	O	O
 given	given	O	O
-intravenous	intravenous	O	O
+intravenous	intravenous	B_chemical	O
 diltiazem	diltiazem	S_chemical	O
 for	for	O	O
 rate	rate	O	O
@@ -292,10 +292,10 @@ is	is	O	O
 important	important	O	O
 to	to	O	O
 report	report	O	O
-adverse	adverse	O	O
-effects	effects	O	O
-associated	associated	O	O
-with	with	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
+associated	associated	O	B_disease
+with	with	O	I_disease
 frequently	frequently	O	O
 consumed	consumed	O	O
 supplements	supplements	O	O

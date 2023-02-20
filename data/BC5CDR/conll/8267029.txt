@@ -27,7 +27,7 @@ after	after	O	O
 5	5	O	O
 months	months	O	O
 of	of	O	O
-D-penicillamine	d-penicillamine	O	O
+D-penicillamine	d-penicillamine	S_chemical	O
 (	(	O	O
 250	250	O	O
 mg/day	mg/day	O	O
@@ -78,7 +78,7 @@ the	the	O	O
 capillary	capillary	O	O
 walls	walls	O	O
 and	and	O	O
-mesangium	mesangium	O	O
+mesangium	mesangium	S_chemical	O
 .	.	O	O
 
 The	the	O	O
@@ -120,7 +120,7 @@ in	in	O	O
 the	the	O	O
 course	course	O	O
 of	of	O	O
-D-penicillamine	d-penicillamine	O	O
+D-penicillamine	d-penicillamine	S_chemical	O
 treatment	treatment	O	O
 emphasizes	emphasizes	O	O
 the	the	O	O
@@ -147,7 +147,7 @@ The	the	O	O
 prompt	prompt	O	O
 discontinuation	discontinuation	O	O
 of	of	O	O
-D-penicillamine	d-penicillamine	O	O
+D-penicillamine	d-penicillamine	S_chemical	O
 and	and	O	O
 vigorous	vigorous	O	O
 treatment	treatment	O	O

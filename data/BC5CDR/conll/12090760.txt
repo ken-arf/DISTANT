@@ -11,8 +11,8 @@ azidothymidine-induced	azidothymidine-induced	O	O
 anemia	anemia	O	S_disease
 and	and	O	O
 in	in	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 endothelial	endothelial	O	O
 cells	cells	O	O
 .	.	O	O
@@ -57,7 +57,7 @@ IL-3	il-3	O	O
 and	and	O	O
 erythropoietin	erythropoietin	O	O
 (	(	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 )	)	O	O
 are	are	O	O
 known	known	O	O
@@ -66,8 +66,8 @@ act	act	O	O
 synergistically	synergistically	O	O
 on	on	O	O
 hematopoietic	hematopoietic	O	O
-cell	cell	O	O
-proliferation	proliferation	O	O
+cell	cell	O	B_disease
+proliferation	proliferation	O	I_disease
 in	in	O	O
 vitro	vitro	O	O
 ,	,	O	O
@@ -75,7 +75,7 @@ injection	injection	O	O
 of	of	O	O
 IGF-IL-3	igf-il-3	O	O
 and	and	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 in	in	O	O
 AZT-treated	azt-treated	O	O
 mice	mice	O	O
@@ -91,7 +91,7 @@ an	an	O	O
 increase	increase	O	O
 of	of	O	O
 plasma	plasma	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 levels	levels	O	O
 as	as	O	O
 compared	compared	O	O
@@ -101,7 +101,7 @@ treated	treated	O	O
 with	with	O	O
 IGF-IL-3	igf-il-3	O	O
 or	or	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 alone	alone	O	O
 .	.	O	O
 
@@ -116,7 +116,7 @@ effect	effect	O	O
 of	of	O	O
 IL-3	il-3	O	O
 and	and	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 on	on	O	O
 erythroid	erythroid	O	O
 cells	cells	O	O
@@ -138,14 +138,14 @@ on	on	O	O
 monolayers	monolayers	O	O
 of	of	O	O
 human	human	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 endothelial	endothelial	O	O
 cells	cells	O	O
 previously	previously	O	O
 treated	treated	O	O
 with	with	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 and	and	O	O
 IGF-IL-3	igf-il-3	O	O
 .	.	O	O
@@ -170,7 +170,7 @@ pre-treated	pre-treated	O	O
 with	with	O	O
 IGF-IL-3	igf-il-3	O	O
 and	and	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 .	.	O	O
 
 Endothelial	endothelial	O	O
@@ -186,7 +186,7 @@ from	from	O	O
 cells	cells	O	O
 treated	treated	O	O
 with	with	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 and	and	O	O
 IL-3	il-3	O	O
 significantly	significantly	O	O
@@ -209,7 +209,7 @@ of	of	O	O
 cells	cells	O	O
 cultured	cultured	O	O
 with	with	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 alone	alone	O	O
 .	.	O	O
 
@@ -222,7 +222,7 @@ cells	cells	O	O
 treated	treated	O	O
 simultaneously	simultaneously	O	O
 with	with	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 and	and	O	O
 IL-3	il-3	O	O
 have	have	O	O

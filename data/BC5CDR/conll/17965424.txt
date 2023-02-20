@@ -1,7 +1,7 @@
 Gastrointestinal	gastrointestinal	O	O
 tolerability	tolerability	O	O
 of	of	O	O
-etoricoxib	etoricoxib	O	O
+etoricoxib	etoricoxib	S_chemical	O
 in	in	O	O
 rheumatoid	rheumatoid	O	B_disease
 arthritis	arthritis	O	S_disease
@@ -10,9 +10,9 @@ patients	patients	O	O
 results	results	O	O
 of	of	O	O
 the	the	O	O
-etoricoxib	etoricoxib	O	O
+etoricoxib	etoricoxib	S_chemical	O
 vs	vs	O	O
-diclofenac	diclofenac	S_chemical	O
+diclofenac	diclofenac	B_chemical	O
 sodium	sodium	S_chemical	O
 gastrointestinal	gastrointestinal	O	O
 tolerability	tolerability	O	O
@@ -39,7 +39,7 @@ safety	safety	O	O
 and	and	O	O
 efficacy	efficacy	O	O
 of	of	O	O
-etoricoxib	etoricoxib	O	O
+etoricoxib	etoricoxib	S_chemical	O
 and	and	O	O
 diclofenac	diclofenac	S_chemical	O
 in	in	O	O
@@ -74,7 +74,7 @@ were	were	O	O
 enrolled	enrolled	O	O
 and	and	O	O
 received	received	O	O
-etoricoxib	etoricoxib	O	O
+etoricoxib	etoricoxib	S_chemical	O
 90	90	O	O
 mg	mg	O	O
 daily	daily	O	O
@@ -142,8 +142,8 @@ assessed	assessed	O	O
 including	including	O	O
 adjudicated	adjudicated	O	O
 thrombotic	thrombotic	O	S_disease
-cardiovascular	cardiovascular	O	O
-event	event	O	O
+cardiovascular	cardiovascular	O	B_disease
+event	event	O	I_disease
 data	data	O	O
 .	.	O	O
 
@@ -197,7 +197,7 @@ and	and	O	O
 months	months	O	O
 in	in	O	O
 the	the	O	O
-etoricoxib	etoricoxib	O	O
+etoricoxib	etoricoxib	S_chemical	O
 and	and	O	O
 diclofenac	diclofenac	S_chemical	O
 groups	groups	O	O
@@ -217,7 +217,7 @@ was	was	O	O
 significantly	significantly	O	O
 lower	lower	O	O
 with	with	O	O
-etoricoxib	etoricoxib	O	O
+etoricoxib	etoricoxib	S_chemical	O
 than	than	O	O
 diclofenac	diclofenac	S_chemical	O
 (	(	O	O
@@ -263,7 +263,7 @@ were	were	O	O
 significantly	significantly	O	O
 higher	higher	O	O
 with	with	O	O
-etoricoxib	etoricoxib	O	O
+etoricoxib	etoricoxib	S_chemical	O
 (	(	O	O
 2.5	2.5	O	O
 %	%	O	O
@@ -293,7 +293,7 @@ oedema	oedema	O	O
 )	)	O	O
 .	.	O	O
 
-Etoricoxib	etoricoxib	O	O
+Etoricoxib	etoricoxib	S_chemical	O
 and	and	O	O
 diclofenac	diclofenac	S_chemical	O
 treatment	treatment	O	O
@@ -317,7 +317,7 @@ respectively	respectively	O	O
 
 CONCLUSIONS	conclusions	O	O
 :	:	O	O
-Etoricoxib	etoricoxib	O	O
+Etoricoxib	etoricoxib	S_chemical	O
 90	90	O	O
 mg	mg	O	O
 demonstrated	demonstrated	O	O
@@ -357,6 +357,6 @@ were	were	O	O
 significantly	significantly	O	O
 higher	higher	O	O
 with	with	O	O
-etoricoxib	etoricoxib	O	O
+etoricoxib	etoricoxib	S_chemical	O
 .	.	O	O
 

@@ -96,8 +96,8 @@ diagnosis	diagnosis	O	O
 consistent	consistent	O	O
 with	with	O	O
 a	a	O	O
-hematologic/oncologic	hematologic/oncologic	O	O
-disorder	disorder	O	O
+hematologic/oncologic	hematologic/oncologic	O	B_disease
+disorder	disorder	O	I_disease
 that	that	O	O
 required	required	O	O
 treatment	treatment	O	O

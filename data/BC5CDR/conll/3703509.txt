@@ -43,7 +43,7 @@ somnolence	somnolence	O	S_disease
 ,	,	O	O
 polydipsia	polydipsia	O	S_disease
 ,	,	O	O
-polyphagia	polyphagia	O	O
+polyphagia	polyphagia	O	S_disease
 ,	,	O	O
 and	and	O	O
 polyuria	polyuria	O	S_disease
@@ -68,8 +68,8 @@ and	and	O	O
 acidosis	acidosis	O	S_disease
 .	.	O	O
 
-Nonketotic	nonketotic	O	O
-lactic	lactic	O	O
+Nonketotic	nonketotic	O	S_disease
+lactic	lactic	O	B_disease
 acidosis	acidosis	O	S_disease
 was	was	O	O
 present	present	O	O
@@ -117,8 +117,8 @@ newly	newly	O	O
 described	described	O	O
 and	and	O	O
 catastrophic	catastrophic	O	O
-metabolic-endocrine	metabolic-endocrine	O	O
-failure	failure	O	O
+metabolic-endocrine	metabolic-endocrine	O	B_disease
+failure	failure	O	I_disease
 in	in	O	O
 the	the	O	O
 Kearns-Sayre	kearns-sayre	O	O

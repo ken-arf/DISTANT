@@ -143,9 +143,9 @@ complex	complex	O	O
 ventricular	ventricular	O	B_disease
 arrhythmias	arrhythmias	O	S_disease
 ,	,	O	O
-left	left	O	O
-ventricular	ventricular	O	O
-dilation	dilation	O	O
+left	left	O	B_disease
+ventricular	ventricular	O	I_disease
+dilation	dilation	O	I_disease
 ,	,	O	O
 decreased	decreased	O	O
 shortening	shortening	O	O
@@ -160,8 +160,8 @@ fraction	fraction	O	O
 The	the	O	O
 incidence	incidence	O	O
 of	of	O	O
-cardiac	cardiac	O	O
-abnormalities	abnormalities	O	O
+cardiac	cardiac	O	B_disease
+abnormalities	abnormalities	O	I_disease
 increased	increased	O	O
 with	with	O	O
 length	length	O	O

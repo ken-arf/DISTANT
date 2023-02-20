@@ -4,18 +4,18 @@ seizures	seizures	O	S_disease
 and	and	O	O
 reorganization	reorganization	O	O
 of	of	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 functions	functions	O	O
 by	by	O	O
 transplantation	transplantation	O	O
 of	of	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 cells	cells	O	O
 in	in	O	O
 the	the	O	O
-acute	acute	O	O
-phase	phase	O	O
+acute	acute	O	B_disease
+phase	phase	O	I_disease
 of	of	O	O
 experimental	experimental	O	O
 epilepsy	epilepsy	O	S_disease
@@ -31,8 +31,8 @@ the	the	O	O
 therapeutic	therapeutic	O	O
 potential	potential	O	O
 of	of	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 mononuclear	mononuclear	O	O
 cells	cells	O	O
 (	(	O	O
@@ -76,8 +76,8 @@ SE	se	O	S_disease
 )	)	O	O
 .	.	O	O
 
-Spontaneous	spontaneous	O	O
-recurrent	recurrent	O	O
+Spontaneous	spontaneous	O	B_disease
+recurrent	recurrent	O	I_disease
 seizures	seizures	O	S_disease
 (	(	O	O
 SRS	srs	O	O
@@ -172,7 +172,7 @@ group	group	O	O
 The	the	O	O
 density	density	O	O
 of	of	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 neurons	neurons	O	O
 in	in	O	O
 the	the	O	O
@@ -188,7 +188,7 @@ preserved	preserved	O	O
 .	.	O	O
 
 At	at	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 Schaeffer	schaeffer	O	O
 collateral-CA1	collateral-ca1	O	O
 synapses	synapses	O	O
@@ -234,12 +234,12 @@ prevent	prevent	O	O
 the	the	O	O
 development	development	O	O
 of	of	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 seizures	seizures	O	S_disease
 ,	,	O	O
 reduce	reduce	O	O
-neuronal	neuronal	O	O
-loss	loss	O	O
+neuronal	neuronal	O	B_disease
+loss	loss	O	I_disease
 ,	,	O	O
 and	and	O	O
 influence	influence	O	O
@@ -247,7 +247,7 @@ the	the	O	O
 reorganization	reorganization	O	O
 of	of	O	O
 the	the	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 neuronal	neuronal	O	O
 network	network	O	O
 .	.	O	O

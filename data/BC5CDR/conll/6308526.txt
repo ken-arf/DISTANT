@@ -1,4 +1,4 @@
-Naloxazone	naloxazone	O	O
+Naloxazone	naloxazone	S_chemical	O
 pretreatment	pretreatment	O	O
 modifies	modifies	O	O
 cardiorespiratory	cardiorespiratory	O	O
@@ -30,7 +30,7 @@ pretreated	pretreated	O	O
 with	with	O	O
 saline	saline	O	O
 or	or	O	O
-naloxazone	naloxazone	O	O
+naloxazone	naloxazone	S_chemical	O
 ,	,	O	O
 an	an	O	O
 antagonist	antagonist	O	O
@@ -38,13 +38,13 @@ of	of	O	O
 high-affinity	high-affinity	O	O
 mu	mu	O	O
 1	1	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 receptors	receptors	O	O
 .	.	O	O
 
 Pretreatment	pretreatment	O	O
 with	with	O	O
-naloxazone	naloxazone	O	O
+naloxazone	naloxazone	S_chemical	O
 significantly	significantly	O	O
 blocked	blocked	O	O
 morphine	morphine	S_chemical	O
@@ -68,7 +68,7 @@ membranes	membranes	O	O
 
 Moreover	moreover	O	O
 ,	,	O	O
-naloxazone	naloxazone	O	O
+naloxazone	naloxazone	S_chemical	O
 significantly	significantly	O	O
 attenuated	attenuated	O	O
 the	the	O	O

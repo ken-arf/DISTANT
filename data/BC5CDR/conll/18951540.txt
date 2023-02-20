@@ -207,12 +207,12 @@ Following	following	O	O
 rTMS	rtms	O	O
 ,	,	O	O
 no	no	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 and	and	O	O
 no	no	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 on	on	O	O
 motor	motor	O	O
 function	function	O	O

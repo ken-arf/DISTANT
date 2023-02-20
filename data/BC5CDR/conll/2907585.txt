@@ -32,7 +32,7 @@ of	of	O	O
 buspirone	buspirone	O	O
 and	and	O	O
 other	other	O	O
-5-hydroxytryptaminergic	5-hydroxytryptaminergic	O	O
+5-hydroxytryptaminergic	5-hydroxytryptaminergic	S_chemical	O
 agonists	agonists	O	O
 were	were	O	O
 tested	tested	O	O

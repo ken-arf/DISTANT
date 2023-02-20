@@ -114,8 +114,8 @@ chest	chest	O	O
 compressions	compressions	O	O
 ,	,	O	O
 before	before	O	O
-sinus	sinus	O	O
-rhythm	rhythm	O	O
+sinus	sinus	O	B_disease
+rhythm	rhythm	O	I_disease
 again	again	O	O
 took	took	O	O
 over	over	O	O
@@ -155,8 +155,8 @@ contributed	contributed	O	O
 in	in	O	O
 precipitating	precipitating	O	O
 the	the	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reaction	reaction	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reaction	reaction	O	I_disease
 .	.	O	O
 

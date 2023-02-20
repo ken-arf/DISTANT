@@ -6,7 +6,7 @@ patients	patients	O	O
 with	with	O	O
 AIDS	aids	O	S_disease
 on	on	O	O
-tenofovir	tenofovir	O	O
+tenofovir	tenofovir	S_chemical	O
 while	while	O	O
 receiving	receiving	O	O
 prolonged	prolonged	O	O
@@ -32,9 +32,9 @@ patients	patients	O	O
 who	who	O	O
 were	were	O	O
 receiving	receiving	O	O
-tenofovir	tenofovir	O	O
-disoproxil	disoproxil	O	O
-fumarate	fumarate	O	O
+tenofovir	tenofovir	S_chemical	O
+disoproxil	disoproxil	B_chemical	O
+fumarate	fumarate	I_chemical	O
 as	as	O	O
 part	part	O	O
 of	of	O	O
@@ -43,7 +43,7 @@ antiretroviral	antiretroviral	O	O
 regimen	regimen	O	O
 .	.	O	O
 
-Tenofovir	tenofovir	O	O
+Tenofovir	tenofovir	S_chemical	O
 has	has	O	O
 been	been	O	O
 implicated	implicated	O	O
@@ -51,7 +51,7 @@ in	in	O	O
 the	the	O	O
 development	development	O	O
 of	of	O	O
-Fanconi	fanconi	O	B_disease
+Fanconi	fanconi	S_chemical	B_disease
 syndrome	syndrome	O	I_disease
 and	and	O	O
 renal	renal	O	B_disease
@@ -87,7 +87,7 @@ should	should	O	O
 be	be	O	O
 aware	aware	O	O
 that	that	O	O
-tenofovir	tenofovir	O	O
+tenofovir	tenofovir	S_chemical	O
 may	may	O	O
 raise	raise	O	O
 the	the	O	O

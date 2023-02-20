@@ -7,8 +7,8 @@ chronic	chronic	O	O
 immunosuppressive	immunosuppressive	O	O
 therapy	therapy	O	O
 for	for	O	O
-rheumatologic	rheumatologic	O	O
-disorders	disorders	O	O
+rheumatologic	rheumatologic	O	B_disease
+disorders	disorders	O	I_disease
 .	.	O	O
 
 The	the	O	O
@@ -43,8 +43,8 @@ Ag	ag	O	O
 positive	positive	O	O
 patients	patients	O	O
 with	with	O	O
-rheumatologic	rheumatologic	O	O
-disease	disease	O	O
+rheumatologic	rheumatologic	O	B_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 From	from	O	O
@@ -60,8 +60,8 @@ Ag	ag	O	O
 positive	positive	O	O
 patients	patients	O	O
 with	with	O	O
-rheumatologic	rheumatologic	O	O
-diseases	diseases	O	O
+rheumatologic	rheumatologic	O	B_disease
+diseases	diseases	O	I_disease
 ,	,	O	O
 who	who	O	O
 were	were	O	O

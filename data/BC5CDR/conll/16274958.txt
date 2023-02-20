@@ -1,7 +1,7 @@
 Recurrent	recurrent	O	O
 dysphonia	dysphonia	O	O
 and	and	O	O
-acitretin	acitretin	O	O
+acitretin	acitretin	S_chemical	O
 .	.	O	O
 
 We	we	O	O
@@ -19,7 +19,7 @@ she	she	O	O
 was	was	O	O
 treated	treated	O	O
 by	by	O	O
-acitretin	acitretin	O	O
+acitretin	acitretin	S_chemical	O
 .	.	O	O
 
 Her	her	O	O
@@ -32,7 +32,7 @@ withdrawal	withdrawal	O	O
 and	and	O	O
 reappeared	reappeared	O	O
 when	when	O	O
-acitretin	acitretin	O	O
+acitretin	acitretin	S_chemical	O
 was	was	O	O
 reintroduced	reintroduced	O	O
 .	.	O	O

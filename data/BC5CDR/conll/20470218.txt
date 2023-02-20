@@ -1,6 +1,6 @@
-Central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+Central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 complications	complications	O	O
 during	during	O	O
 treatment	treatment	O	O
@@ -15,9 +15,9 @@ pediatric	pediatric	O	O
 institution	institution	O	O
 .	.	O	O
 
-Central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+Central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 (	(	O	O
 CNS	cns	O	O
 )	)	O	O
@@ -53,8 +53,8 @@ incidence	incidence	O	O
 and	and	O	O
 severity	severity	O	O
 of	of	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 .	.	O	O
 
 This	this	O	O
@@ -63,8 +63,8 @@ analyzed	analyzed	O	O
 the	the	O	O
 incidence	incidence	O	O
 of	of	O	O
-neurological	neurological	O	O
-complications	complications	O	O
+neurological	neurological	O	B_disease
+complications	complications	O	I_disease
 during	during	O	O
 ALL	all	O	O
 treatment	treatment	O	O
@@ -103,8 +103,8 @@ encephalopathy	encephalopathy	O	S_disease
 ,	,	O	O
 or	or	O	O
 long-term	long-term	O	O
-neurocognitive	neurocognitive	O	O
-defects	defects	O	O
+neurocognitive	neurocognitive	O	B_disease
+defects	defects	O	I_disease
 .	.	O	O
 
 During	during	O	O
@@ -116,8 +116,8 @@ we	we	O	O
 retrospectively	retrospectively	O	O
 collected	collected	O	O
 27	27	O	O
-neurological	neurological	O	O
-events	events	O	O
+neurological	neurological	O	B_disease
+events	events	O	I_disease
 (	(	O	O
 11	11	O	O
 %	%	O	O

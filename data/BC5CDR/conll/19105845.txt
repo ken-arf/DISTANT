@@ -270,8 +270,8 @@ HCl	hcl	O	O
 120	120	O	O
 mg/kg	mg/kg	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 91	91	O	O
 %	%	O	O

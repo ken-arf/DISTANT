@@ -28,8 +28,8 @@ cirrhosis	cirrhosis	O	S_disease
 ascites	ascites	O	S_disease
 ,	,	O	O
 and	and	O	O
-cor	cor	O	O
-pulmonale	pulmonale	O	O
+cor	cor	B_chemical	O
+pulmonale	pulmonale	I_chemical	O
 after	after	O	O
 indomethacin	indomethacin	S_chemical	O
 therapy	therapy	O	O
@@ -55,9 +55,9 @@ indomethacin	indomethacin	S_chemical	O
 caused	caused	O	O
 recurrence	recurrence	O	O
 of	of	O	O
-acute	acute	O	O
-reversible	reversible	O	O
-oliguria	oliguria	O	O
+acute	acute	O	B_disease
+reversible	reversible	O	I_disease
+oliguria	oliguria	O	I_disease
 .	.	O	O
 
 Our	our	O	O

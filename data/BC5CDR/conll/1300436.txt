@@ -204,8 +204,8 @@ mumol/l	mumol/l	O	O
 Renal	renal	O	B_disease
 failure	failure	O	I_disease
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 weight	weight	O	B_disease
 loss	loss	O	I_disease
 in	in	O	O

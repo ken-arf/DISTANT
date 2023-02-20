@@ -1,5 +1,5 @@
-Fatal	fatal	O	O
-haemopericardium	haemopericardium	O	O
+Fatal	fatal	O	B_disease
+haemopericardium	haemopericardium	O	I_disease
 and	and	O	O
 gastrointestinal	gastrointestinal	O	O
 haemorrhage	haemorrhage	O	O
@@ -20,8 +20,8 @@ a	a	O	O
 case	case	O	O
 of	of	O	O
 fatal	fatal	O	O
-internal	internal	O	O
-haemorrhage	haemorrhage	O	O
+internal	internal	O	B_disease
+haemorrhage	haemorrhage	O	I_disease
 in	in	O	O
 an	an	O	O
 elderly	elderly	O	O
@@ -93,8 +93,8 @@ considered	considered	O	O
 when	when	O	O
 patients	patients	O	O
 develop	develop	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reactions	reactions	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reactions	reactions	O	I_disease
 .	.	O	O
 

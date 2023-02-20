@@ -22,9 +22,9 @@ amoxicillin-clavulanic	amoxicillin-clavulanic	O	O
 acid-induced	acid-induced	O	O
 hepatitis	hepatitis	O	S_disease
 with	with	O	O
-histologic	histologic	O	O
-multiple	multiple	O	O
-granulomas	granulomas	O	O
+histologic	histologic	O	B_disease
+multiple	multiple	O	I_disease
+granulomas	granulomas	O	I_disease
 .	.	O	O
 
 This	this	O	O
@@ -47,9 +47,9 @@ mainly	mainly	O	O
 represented	represented	O	O
 by	by	O	O
 a	a	O	O
-benign	benign	O	O
-cholestatic	cholestatic	O	O
-syndrome	syndrome	O	O
+benign	benign	O	B_disease
+cholestatic	cholestatic	O	S_disease
+syndrome	syndrome	O	I_disease
 .	.	O	O
 
 The	the	O	O

@@ -2,7 +2,7 @@ Gemcitabine	gemcitabine	S_chemical	O
 plus	plus	O	O
 vinorelbine	vinorelbine	S_chemical	O
 in	in	O	O
-nonsmall	nonsmall	O	O
+nonsmall	nonsmall	S_chemical	O
 cell	cell	O	O
 lung	lung	O	O
 carcinoma	carcinoma	O	S_disease
@@ -32,7 +32,7 @@ Although	although	O	O
 the	the	O	O
 prevalence	prevalence	O	O
 of	of	O	O
-nonsmall	nonsmall	O	O
+nonsmall	nonsmall	S_chemical	O
 cell	cell	O	O
 lung	lung	O	O
 carcinoma	carcinoma	O	S_disease
@@ -225,8 +225,8 @@ of	of	O	O
 three	three	O	O
 courses	courses	O	O
 unless	unless	O	O
-progressive	progressive	O	O
-disease	disease	O	O
+progressive	progressive	O	B_disease
+disease	disease	O	I_disease
 was	was	O	O
 detected	detected	O	O
 .	.	O	O

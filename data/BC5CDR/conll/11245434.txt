@@ -29,7 +29,7 @@ recombinant	recombinant	O	O
 human	human	O	O
 erythropoietin	erythropoietin	O	O
 (	(	O	O
-rHuEPO	rhuepo	O	O
+rHuEPO	rhuepo	S_chemical	O
 )	)	O	O
 treatment	treatment	O	O
 on	on	O	O
@@ -85,7 +85,7 @@ anemia	anemia	O	S_disease
 was	was	O	O
 prevented	prevented	O	O
 by	by	O	O
-rHuEPO	rhuepo	O	O
+rHuEPO	rhuepo	S_chemical	O
 (	(	O	O
 1000	1000	O	O
 IU/kg	iu/kg	O	O
@@ -131,7 +131,7 @@ dorsum	dorsum	O	O
 Neither	neither	O	O
 carboplatin	carboplatin	S_chemical	O
 nor	nor	O	O
-rHuEPO	rhuepo	O	O
+rHuEPO	rhuepo	S_chemical	O
 treatment	treatment	O	O
 influenced	influenced	O	O
 tumor	tumor	O	S_disease
@@ -208,7 +208,7 @@ anemia	anemia	O	S_disease
 was	was	O	O
 prevented	prevented	O	O
 by	by	O	O
-rHuEPO	rhuepo	O	O
+rHuEPO	rhuepo	S_chemical	O
 treatment	treatment	O	O
 ,	,	O	O
 growth	growth	O	O
@@ -244,11 +244,11 @@ correction	correction	O	O
 of	of	O	O
 anemia	anemia	O	S_disease
 by	by	O	O
-rHuEPO	rhuepo	O	O
+rHuEPO	rhuepo	S_chemical	O
 treatment	treatment	O	O
 (	(	O	O
-epoetin	epoetin	O	O
-alpha	alpha	O	O
+epoetin	epoetin	B_chemical	O
+alpha	alpha	I_chemical	O
 )	)	O	O
 increases	increases	O	O
 the	the	O	O

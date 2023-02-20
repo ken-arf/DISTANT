@@ -10,7 +10,7 @@ Fischer	fischer	O	O
 rat	rat	O	O
 .	.	O	O
 
-Pituitary	pituitary	O	O
+Pituitary	pituitary	O	B_disease
 tumors	tumors	O	S_disease
 were	were	O	O
 induced	induced	O	O
@@ -120,7 +120,7 @@ cycle	cycle	O	O
 analysis	analysis	O	O
 ,	,	O	O
 after	after	O	O
-acriflavine	acriflavine	O	O
+acriflavine	acriflavine	S_chemical	O
 DNA	dna	O	O
 staining	staining	O	O
 ,	,	O	O

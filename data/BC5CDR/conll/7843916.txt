@@ -335,8 +335,8 @@ for	for	O	O
 corticosteroid	corticosteroid	O	O
 glaucoma	glaucoma	O	S_disease
 and	and	O	O
-open	open	O	O
-angle	angle	O	O
+open	open	O	B_disease
+angle	angle	O	I_disease
 glaucoma	glaucoma	O	S_disease
 .	.	O	O
 
@@ -360,8 +360,8 @@ steroid	steroid	S_chemical	O
 glaucoma	glaucoma	O	S_disease
 and	and	O	O
 primary	primary	O	O
-open	open	O	O
-angle	angle	O	O
+open	open	O	B_disease
+angle	angle	O	I_disease
 glaucoma	glaucoma	O	S_disease
 .	.	O	O
 

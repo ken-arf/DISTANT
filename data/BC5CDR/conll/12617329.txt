@@ -126,7 +126,7 @@ in	in	O	O
 the	the	O	O
 plasma	plasma	O	O
 and	and	O	O
-reduced	reduced	O	O
+reduced	reduced	B_chemical	O
 glutathione	glutathione	S_chemical	O
 (	(	O	O
 GSH	gsh	S_chemical	O
@@ -275,8 +275,8 @@ of	of	O	O
 the	the	O	O
 treatments	treatments	O	O
 on	on	O	O
-renal	renal	O	O
-functional	functional	O	O
+renal	renal	O	B_disease
+functional	functional	O	I_disease
 aspects	aspects	O	O
 in	in	O	O
 models	models	O	O

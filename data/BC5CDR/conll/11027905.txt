@@ -40,7 +40,7 @@ studies	studies	O	O
 have	have	O	O
 suggested	suggested	O	O
 that	that	O	O
-N-methyl-D-aspartate	n-methyl-d-aspartate	O	O
+N-methyl-D-aspartate	n-methyl-d-aspartate	S_chemical	O
 (	(	O	O
 NMDA	nmda	S_chemical	O
 )	)	O	O
@@ -55,7 +55,7 @@ be	be	O	O
 effective	effective	O	O
 in	in	O	O
 improving	improving	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 analgesia	analgesia	O	O
 in	in	O	O
 difficult	difficult	O	O
@@ -117,8 +117,8 @@ to	to	O	O
 numerical	numerical	O	O
 scale	scale	O	O
 ;	;	O	O
-nausea	nausea	O	S_disease
-and	and	O	O
+nausea	nausea	O	B_disease
+and	and	O	I_disease
 vomiting	vomiting	O	S_disease
 ,	,	O	O
 drowsiness	drowsiness	O	O
@@ -338,8 +338,8 @@ the	the	O	O
 occurrence	occurrence	O	O
 of	of	O	O
 central	central	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 should	should	O	O
 be	be	O	O
 taken	taken	O	O

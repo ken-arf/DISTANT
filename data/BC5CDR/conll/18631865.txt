@@ -62,8 +62,8 @@ studies	studies	O	O
 focused	focused	O	O
 on	on	O	O
 this	this	O	O
-adverse	adverse	O	O
-event	event	O	O
+adverse	adverse	O	B_disease
+event	event	O	I_disease
 during	during	O	O
 the	the	O	O
 past	past	O	O
@@ -105,12 +105,12 @@ patients	patients	O	O
 who	who	O	O
 received	received	O	O
 sirolimus	sirolimus	S_chemical	O
-de	de	O	O
-novo	novo	O	O
+de	de	O	B_disease
+novo	novo	O	I_disease
 .	.	O	O
 
-Podocyte	podocyte	O	O
-injury	injury	O	O
+Podocyte	podocyte	O	B_disease
+injury	injury	O	I_disease
 and	and	O	O
 focal	focal	O	O
 segmental	segmental	O	B_disease

@@ -20,8 +20,8 @@ fatal	fatal	O	O
 liver	liver	O	B_disease
 failure	failure	O	I_disease
 possibly	possibly	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 concurrent	concurrent	O	O
 use	use	O	O
 of	of	O	O
@@ -96,7 +96,7 @@ evidence	evidence	O	O
 of	of	O	O
 nonspecific	nonspecific	O	O
 drug-induced	drug-induced	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 liver	liver	O	B_disease
 injury	injury	O	I_disease
 .	.	O	O
@@ -118,8 +118,8 @@ resulted	resulted	O	O
 days	days	O	O
 after	after	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 symptoms	symptoms	O	O
 .	.	O	O
 
@@ -194,9 +194,9 @@ of	of	O	O
 the	the	O	O
 possibility	possibility	O	O
 of	of	O	O
-acute	acute	O	O
-liver	liver	O	O
-insult	insult	O	O
+acute	acute	O	B_disease
+liver	liver	O	I_disease
+insult	insult	O	I_disease
 induced	induced	O	O
 by	by	O	O
 bupropion	bupropion	S_chemical	O

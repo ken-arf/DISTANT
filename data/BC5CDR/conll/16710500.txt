@@ -5,7 +5,7 @@ neuropathy	neuropathy	O	S_disease
 
 INTRODUCTION	introduction	O	O
 :	:	O	O
-Ethambutol	ethambutol	O	O
+Ethambutol	ethambutol	S_chemical	O
 is	is	O	O
 used	used	O	O
 in	in	O	O
@@ -25,8 +25,8 @@ Asia	asia	O	O
 and	and	O	O
 can	can	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 permanent	permanent	O	O
 visual	visual	O	B_disease
 loss	loss	O	I_disease
@@ -90,15 +90,15 @@ suggesting	suggesting	O	O
 involvement	involvement	O	O
 of	of	O	O
 the	the	O	O
-optic	optic	O	O
-chiasm	chiasm	O	O
+optic	optic	O	B_disease
+chiasm	chiasm	O	I_disease
 .	.	O	O
 
 TREATMENT	treatment	O	O
 :	:	O	O
 Despite	despite	O	O
 stopping	stopping	O	O
-ethambutol	ethambutol	O	O
+ethambutol	ethambutol	S_chemical	O
 on	on	O	O
 diagnosis	diagnosis	O	O
 ,	,	O	O
@@ -157,11 +157,11 @@ function	function	O	O
 
 CONCLUSIONS	conclusions	O	O
 :	:	O	O
-Ethambutol	ethambutol	O	O
+Ethambutol	ethambutol	S_chemical	O
 usage	usage	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 permanent	permanent	O	O
 visual	visual	O	B_disease
 loss	loss	O	I_disease
@@ -188,11 +188,11 @@ that	that	O	O
 in	in	O	O
 cases	cases	O	O
 of	of	O	O
-ethambutol	ethambutol	O	O
+ethambutol	ethambutol	S_chemical	O
 associated	associated	O	O
-chiasmopathy	chiasmopathy	O	O
+chiasmopathy	chiasmopathy	O	S_disease
 ,	,	O	O
-ethambutol	ethambutol	O	O
+ethambutol	ethambutol	S_chemical	O
 may	may	O	O
 initially	initially	O	O
 affect	affect	O	O
@@ -205,7 +205,7 @@ progress	progress	O	O
 to	to	O	O
 involve	involve	O	O
 the	the	O	O
-optic	optic	O	O
-chiasm	chiasm	O	O
+optic	optic	O	B_disease
+chiasm	chiasm	O	I_disease
 .	.	O	O
 

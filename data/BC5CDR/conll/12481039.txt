@@ -72,7 +72,7 @@ vivo	vivo	O	O
 
 Measurements	measurements	O	O
 of	of	O	O
-[(3)H]saxitoxin	[(3)h]saxitoxin	O	O
+[(3)H]saxitoxin	[(3)h]saxitoxin	S_chemical	O
 (	(	O	O
 STX	stx	O	O
 )	)	O	O
@@ -121,7 +121,7 @@ density	density	O	O
 in	in	O	O
 acutely	acutely	O	O
 dissociated	dissociated	O	O
-hippocampal	hippocampal	O	O
+hippocampal	hippocampal	O	S_disease
 neurons	neurons	O	O
 .	.	O	O
 
@@ -133,8 +133,8 @@ compound	compound	O	O
 action	action	O	O
 potential	potential	O	O
 in	in	O	O
-optic	optic	O	O
-nerve	nerve	O	O
+optic	optic	O	B_disease
+nerve	nerve	O	I_disease
 was	was	O	O
 significantly	significantly	O	O
 reduced	reduced	O	O
@@ -178,8 +178,8 @@ of	of	O	O
 axons	axons	O	O
 in	in	O	O
 the	the	O	O
-optic	optic	O	O
-nerve	nerve	O	O
+optic	optic	O	B_disease
+nerve	nerve	O	I_disease
 ,	,	O	O
 and	and	O	O
 the	the	O	O

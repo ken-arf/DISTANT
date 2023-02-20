@@ -5,8 +5,8 @@ implications	implications	O	O
 for	for	O	O
 treatment	treatment	O	O
 of	of	O	O
-neuromuscular	neuromuscular	O	O
-disorders	disorders	O	O
+neuromuscular	neuromuscular	O	B_disease
+disorders	disorders	O	I_disease
 .	.	O	O
 
 Carbonic	carbonic	B_chemical	O
@@ -23,8 +23,8 @@ studied	studied	O	O
 patients	patients	O	O
 receiving	receiving	O	O
 long-term	long-term	O	O
-carbonic	carbonic	O	O
-anhydrase	anhydrase	O	O
+carbonic	carbonic	B_chemical	O
+anhydrase	anhydrase	I_chemical	O
 inhibitor	inhibitor	O	O
 treatment	treatment	O	O
 for	for	O	O
@@ -37,7 +37,7 @@ myotonia	myotonia	O	O
 Three	three	O	O
 patients	patients	O	O
 on	on	O	O
-acetazolamide	acetazolamide	O	O
+acetazolamide	acetazolamide	S_chemical	O
 (	(	O	O
 15	15	O	O
 %	%	O	O
@@ -85,7 +85,7 @@ is	is	O	O
 a	a	O	O
 complication	complication	O	O
 of	of	O	O
-acetazolamide	acetazolamide	O	O
+acetazolamide	acetazolamide	S_chemical	O
 but	but	O	O
 does	does	O	O
 not	not	O	O

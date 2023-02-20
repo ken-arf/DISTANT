@@ -46,7 +46,7 @@ dysfunction	dysfunction	O	I_disease
 
 To	to	O	O
 determine	determine	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 events	events	O	O
 from	from	O	O
 HAART	haart	O	O
@@ -59,10 +59,10 @@ transgenic	transgenic	O	O
 AIDS	aids	O	S_disease
 mice	mice	O	O
 (	(	O	O
-NL4	nl4	O	O
--	-	O	O
-3Delta	3delta	O	O
-gag/pol	gag/pol	O	O
+NL4	nl4	B_chemical	O
+-	-	I_chemical	O
+3Delta	3delta	I_chemical	O
+gag/pol	gag/pol	I_chemical	O
 ;	;	O	O
 TG	tg	O	S_disease
 )	)	O	O
@@ -211,8 +211,8 @@ changes	changes	O	O
 were	were	O	O
 found	found	O	O
 in	in	O	O
-cardiac	cardiac	O	O
-myocytes	myocytes	O	O
+cardiac	cardiac	O	B_disease
+myocytes	myocytes	O	I_disease
 ,	,	O	O
 indicating	indicating	O	O
 enlarged	enlarged	O	O
@@ -261,7 +261,7 @@ that	that	O	O
 cumulative	cumulative	O	O
 HAART	haart	O	O
 caused	caused	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 CM	cm	O	S_disease
 with	with	O	O
 elevated	elevated	O	O

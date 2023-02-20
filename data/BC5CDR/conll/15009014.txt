@@ -18,8 +18,8 @@ an	an	O	O
 experimental	experimental	O	O
 model	model	O	O
 for	for	O	O
-vascular	vascular	O	O
-dysfunctions	dysfunctions	O	O
+vascular	vascular	O	B_disease
+dysfunctions	dysfunctions	O	I_disease
 in	in	O	O
 cluster	cluster	O	B_disease
 headache	headache	O	S_disease
@@ -31,14 +31,14 @@ is	is	O	O
 characterized	characterized	O	O
 by	by	O	O
 typical	typical	O	O
-autonomic	autonomic	O	O
-dysfunctions	dysfunctions	O	O
+autonomic	autonomic	O	B_disease
+dysfunctions	dysfunctions	O	I_disease
 including	including	O	O
 facial	facial	O	O
 and	and	O	O
-intracranial	intracranial	O	O
-vascular	vascular	O	O
-disturbances	disturbances	O	O
+intracranial	intracranial	O	B_disease
+vascular	vascular	O	I_disease
+disturbances	disturbances	O	I_disease
 .	.	O	O
 
 Both	both	O	O
@@ -140,8 +140,8 @@ by	by	O	O
 systemic	systemic	O	O
 pre-administration	pre-administration	O	O
 of	of	O	O
-hexamethonium	hexamethonium	S_chemical	O
-chloride	chloride	O	O
+hexamethonium	hexamethonium	B_chemical	O
+chloride	chloride	I_chemical	O
 (	(	O	O
 20	20	O	O
 mg/kg	mg/kg	O	O
@@ -169,7 +169,7 @@ mm	mm	O	O
 )	)	O	O
 and	and	O	O
 [	[	O	O
-Lys1	lys1	O	O
+Lys1	lys1	S_chemical	O
 ,	,	O	O
 Pro2,5	pro2,5	O	O
 ,	,	O	O

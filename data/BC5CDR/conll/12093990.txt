@@ -125,7 +125,7 @@ with	with	O	O
 intravenous	intravenous	O	O
 ribavirin	ribavirin	S_chemical	O
 and	and	O	O
-cidofovir	cidofovir	O	O
+cidofovir	cidofovir	S_chemical	O
 .	.	O	O
 
 Ribavirin	ribavirin	S_chemical	O
@@ -189,7 +189,7 @@ choice	choice	O	O
 for	for	O	O
 infection	infection	O	S_disease
 with	with	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 fever	fever	O	S_disease
 viruses	viruses	O	O
 .	.	O	O
@@ -211,7 +211,7 @@ anemia	anemia	O	S_disease
 The	the	O	O
 use	use	O	O
 of	of	O	O
-cidofovir	cidofovir	O	O
+cidofovir	cidofovir	S_chemical	O
 in	in	O	O
 severe	severe	O	O
 adenovirus	adenovirus	O	O
@@ -220,8 +220,8 @@ has	has	O	O
 been	been	O	O
 limited	limited	O	O
 by	by	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 ,	,	O	O
 the	the	O	O
 most	most	O	O
@@ -284,31 +284,31 @@ Two	two	O	O
 patients	patients	O	O
 developed	developed	O	O
 adenovirus	adenovirus	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 after	after	O	O
 cardiac	cardiac	O	O
 and	and	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 transplants	transplants	O	O
 ,	,	O	O
 respectively	respectively	O	O
 .	.	O	O
 
 The	the	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 transplant	transplant	O	O
 patient	patient	O	O
 also	also	O	O
 received	received	O	O
 intravenous	intravenous	O	O
-cidofovir	cidofovir	O	O
+cidofovir	cidofovir	S_chemical	O
 for	for	O	O
 progressive	progressive	O	O
-disseminated	disseminated	O	O
-disease	disease	O	O
+disseminated	disseminated	O	B_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 An	an	O	O
@@ -375,7 +375,7 @@ transplant	transplant	O	O
 recipient	recipient	O	O
 with	with	O	O
 adenovirus	adenovirus	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 and	and	O	O
 the	the	O	O
@@ -406,13 +406,13 @@ tolerated	tolerated	O	O
 
 Use	use	O	O
 of	of	O	O
-cidofovir	cidofovir	O	O
+cidofovir	cidofovir	S_chemical	O
 in	in	O	O
 1	1	O	O
 child	child	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 progressive	progressive	O	O
 renal	renal	O	B_disease
 failure	failure	O	I_disease
@@ -445,8 +445,8 @@ disease	disease	O	O
 namely	namely	O	O
 solid-organ	solid-organ	O	O
 and	and	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 transplant	transplant	O	O
 recipients	recipients	O	O
 ,	,	O	O

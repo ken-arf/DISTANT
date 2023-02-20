@@ -7,8 +7,8 @@ short-term	short-term	O	O
 combination	combination	O	O
 therapy	therapy	O	O
 with	with	O	O
-cyclosporine	cyclosporine	S_chemical	O
-A	a	O	O
+cyclosporine	cyclosporine	B_chemical	O
+A	a	I_chemical	O
 ,	,	O	O
 tacrolimus	tacrolimus	S_chemical	O
 and	and	O	O
@@ -70,7 +70,7 @@ was	was	O	O
 combined	combined	O	O
 with	with	O	O
 a	a	O	O
-calcineurin	calcineurin	O	O
+calcineurin	calcineurin	S_chemical	O
 inhibitor	inhibitor	O	O
 indications	indications	O	O
 of	of	O	O
@@ -108,8 +108,8 @@ rats	rats	O	O
 treated	treated	O	O
 with	with	O	O
 either	either	O	O
-cyclosporine	cyclosporine	S_chemical	O
-A	a	O	O
+cyclosporine	cyclosporine	B_chemical	O
+A	a	I_chemical	O
 (	(	O	O
 CsA	csa	S_chemical	O
 )	)	O	O
@@ -197,7 +197,7 @@ glomerular	glomerular	O	O
 filtration	filtration	O	O
 rate	rate	O	O
 (	(	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 )	)	O	O
 was	was	O	O
 measured	measured	O	O
@@ -205,7 +205,7 @@ as	as	O	O
 the	the	O	O
 clearance	clearance	O	O
 of	of	O	O
-Cr(EDTA	cr(edta	O	O
+Cr(EDTA	cr(edta	S_chemical	O
 )	)	O	O
 .	.	O	O
 
@@ -252,8 +252,8 @@ the	the	O	O
 cortex	cortex	O	O
 stained	stained	O	O
 with	with	O	O
-Sirius	sirius	O	O
-Red	red	O	O
+Sirius	sirius	B_chemical	O
+Red	red	I_chemical	O
 .	.	O	O
 
 RESULTS	results	O	O
@@ -267,7 +267,7 @@ all	all	O	O
 significantly	significantly	O	O
 decreased	decreased	O	O
 the	the	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 .	.	O	O
 
 A	a	O	O
@@ -287,7 +287,7 @@ SRL	srl	S_chemical	O
 ,	,	O	O
 whereas	whereas	O	O
 the	the	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 remained	remained	O	O
 unchanged	unchanged	O	O
 in	in	O	O

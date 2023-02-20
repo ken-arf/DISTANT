@@ -160,7 +160,7 @@ vs.	vs.	O	O
 mg/day	mg/day	O	O
 )	)	O	O
 or	or	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 (	(	O	O
 1.03	1.03	O	O
 +	+	O	O
@@ -226,7 +226,7 @@ a	a	O	O
 progressive	progressive	O	O
 reduction	reduction	O	O
 in	in	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 (	(	O	O
 0.35	0.35	O	O
 +	+	O	O
@@ -257,7 +257,7 @@ not	not	O	O
 prevent	prevent	O	O
 reduction	reduction	O	O
 in	in	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 in	in	O	O
 group	group	O	O
 4	4	O	O
@@ -293,10 +293,10 @@ group	group	O	O
 
 Reduction	reduction	O	O
 in	in	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 development	development	O	O
 of	of	O	O

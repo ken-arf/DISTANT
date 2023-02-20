@@ -5,9 +5,9 @@ changes	changes	O	O
 behavioral	behavioral	O	O
 response	response	O	O
 to	to	O	O
-catecholaminergic	catecholaminergic	O	O
+catecholaminergic	catecholaminergic	S_chemical	O
 and	and	O	O
-serotonergic	serotonergic	O	O
+serotonergic	serotonergic	S_chemical	O
 receptor	receptor	O	O
 activation	activation	O	O
 in	in	O	O

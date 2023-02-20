@@ -58,9 +58,9 @@ rats	rats	O	O
 were	were	O	O
 anesthetized	anesthetized	O	O
 with	with	O	O
-i.p	i.p	O	O
-.	.	O	O
-urethane	urethane	O	O
+i.p	i.p	B_chemical	O
+.	.	I_chemical	O
+urethane	urethane	I_chemical	O
 and	and	O	O
 connected	connected	O	O
 to	to	O	O
@@ -252,7 +252,7 @@ or	or	O	O
 other	other	O	O
 types	types	O	O
 of	of	O	O
-experimental	experimental	O	O
-epilepsies	epilepsies	O	O
+experimental	experimental	O	B_disease
+epilepsies	epilepsies	O	I_disease
 .	.	O	O
 

@@ -139,7 +139,7 @@ mellitus	mellitus	O	I_disease
 prior	prior	O	O
 use	use	O	O
 of	of	O	O
-anthracyclines	anthracyclines	O	O
+anthracyclines	anthracyclines	S_chemical	O
 ,	,	O	O
 and	and	O	O
 left-sided	left-sided	O	O

@@ -95,8 +95,8 @@ It	it	O	O
 was	was	O	O
 shown	shown	O	O
 that	that	O	O
-memory	memory	O	O
-dissociation	dissociation	O	O
+memory	memory	O	B_disease
+dissociation	dissociation	O	I_disease
 occurred	occurred	O	O
 in	in	O	O
 both	both	O	O

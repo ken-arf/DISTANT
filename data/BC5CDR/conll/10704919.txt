@@ -74,7 +74,7 @@ of	of	O	O
 biomembranes	biomembranes	O	O
 in	in	O	O
 its	its	O	O
-cytostatic	cytostatic	O	O
+cytostatic	cytostatic	S_chemical	S_disease
 action	action	O	O
 mechanisms	mechanisms	O	O
 .	.	O	O
@@ -143,12 +143,12 @@ by	by	O	O
 low	low	O	O
 concentrations	concentrations	O	O
 of	of	O	O
-alpha-tocopherol	alpha-tocopherol	O	O
+alpha-tocopherol	alpha-tocopherol	S_chemical	O
 (	(	O	O
 alpha-T	alpha-t	O	O
 )	)	O	O
 and	and	O	O
-alpha-tocopherol	alpha-tocopherol	O	O
+alpha-tocopherol	alpha-tocopherol	S_chemical	O
 acetate	acetate	O	O
 (	(	O	O
 alpha-TAc	alpha-tac	O	O
@@ -166,9 +166,9 @@ is	is	O	O
 not	not	O	O
 related	related	O	O
 to	to	O	O
-oxidative	oxidative	O	O
-membrane	membrane	O	O
-damage	damage	O	O
+oxidative	oxidative	O	B_disease
+membrane	membrane	O	I_disease
+damage	damage	O	I_disease
 .	.	O	O
 
 This	this	O	O
@@ -207,15 +207,15 @@ human	human	O	O
 erythrocytes	erythrocytes	O	O
 induced	induced	O	O
 by	by	O	O
-AAPH	aaph	O	O
+AAPH	aaph	S_chemical	O
 ,	,	O	O
 thus	thus	O	O
 ruling	ruling	O	O
 out	out	O	O
 TAM-induced	tam-induced	O	O
 cell	cell	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 .	.	O	O
 
 Hemolysis	hemolysis	O	S_disease
@@ -312,8 +312,8 @@ condensed	condensed	O	O
 membranes	membranes	O	O
 and	and	O	O
 the	the	O	O
-structural	structural	O	O
-damage	damage	O	O
+structural	structural	O	B_disease
+damage	damage	O	I_disease
 of	of	O	O
 the	the	O	O
 erythrocyte	erythrocyte	O	O

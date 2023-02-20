@@ -1,0 +1,16 @@
+T1	Chemical 11 18	ouabain
+T2	Disease 75 106	chronic coronary artery disease
+T3	Disease 175 188	heart failure
+T4	Chemical 204 224	digitalis glycosides
+T5	Disease 310 345	obstructive coronary artery disease
+T6	Chemical 420 427	ouabain
+T7	Disease 534 565	chronic coronary artery disease
+T8	Disease 583 607	congestive heart failure
+T9	Chemical 778 785	ouabain
+T10	Chemical 923 930	ouabain
+T11	Chemical 1214 1221	ouabain
+T12	Chemical 1583 1590	ouabain
+T13	Chemical 1685 1692	ouabain
+T14	Disease 1766 1797	chronic coronary artery disease
+T15	Disease 1822 1846	congestive heart failure
+T16	Chemical 1897 1904	ouabain

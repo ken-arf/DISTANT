@@ -15,9 +15,9 @@ for	for	O	O
 the	the	O	O
 treatment	treatment	O	O
 of	of	O	O
-obsessive	obsessive	O	O
-compulsive	compulsive	O	O
-disorder	disorder	O	O
+obsessive	obsessive	O	B_disease
+compulsive	compulsive	O	I_disease
+disorder	disorder	O	I_disease
 or	or	O	O
 major	major	O	B_disease
 depression	depression	O	S_disease
@@ -98,7 +98,7 @@ to	to	O	O
 treatment	treatment	O	O
 with	with	O	O
 the	the	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 antagonist	antagonist	O	O
 propranolol	propranolol	S_chemical	O
 ,	,	O	O
@@ -123,7 +123,7 @@ serotonergically	serotonergically	O	O
 mediated	mediated	O	O
 inhibition	inhibition	O	O
 of	of	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 neurotransmission	neurotransmission	O	O
 and	and	O	O
 that	that	O	O

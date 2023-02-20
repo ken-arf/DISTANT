@@ -155,7 +155,7 @@ stage	stage	O	O
 days	days	O	O
 )	)	O	O
 of	of	O	O
-hypertrophic	hypertrophic	O	O
+hypertrophic	hypertrophic	O	S_disease
 growth	growth	O	O
 but	but	O	O
 increased	increased	O	O
@@ -229,7 +229,7 @@ ISO	iso	S_chemical	O
 shows	shows	O	O
 an	an	O	O
 early	early	O	O
-hypertrophic	hypertrophic	O	O
+hypertrophic	hypertrophic	O	S_disease
 phase	phase	O	O
 (	(	O	O
 1	1	O	O
@@ -275,7 +275,7 @@ complex	complex	O	O
 integration	integration	O	O
 of	of	O	O
 both	both	O	O
-cellular	cellular	O	O
+cellular	cellular	O	B_disease
 hypertrophy	hypertrophy	O	S_disease
 and	and	O	O
 hyperplasia	hyperplasia	O	O

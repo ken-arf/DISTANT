@@ -1,4 +1,4 @@
-Dexrazoxane	dexrazoxane	O	O
+Dexrazoxane	dexrazoxane	S_chemical	O
 protects	protects	O	O
 against	against	O	O
 myelosuppression	myelosuppression	O	S_disease
@@ -18,13 +18,13 @@ doxorubicin	doxorubicin	S_chemical	O
 PURPOSE	purpose	O	O
 :	:	O	O
 The	the	O	O
-anthracyclines	anthracyclines	O	O
+anthracyclines	anthracyclines	S_chemical	O
 daunorubicin	daunorubicin	S_chemical	O
 and	and	O	O
 doxorubicin	doxorubicin	S_chemical	O
 and	and	O	O
 the	the	O	O
-epipodophyllotoxin	epipodophyllotoxin	O	O
+epipodophyllotoxin	epipodophyllotoxin	B_chemical	O
 etoposide	etoposide	S_chemical	O
 are	are	O	O
 potent	potent	O	O
@@ -50,7 +50,7 @@ their	their	O	O
 use	use	O	O
 .	.	O	O
 
-Dexrazoxane	dexrazoxane	O	O
+Dexrazoxane	dexrazoxane	S_chemical	O
 (	(	O	O
 ICRF-187	icrf-187	O	O
 )	)	O	O
@@ -78,7 +78,7 @@ toxicity	toxicity	O	S_disease
 following	following	O	O
 coadministration	coadministration	O	O
 of	of	O	O
-dexrazoxane	dexrazoxane	O	O
+dexrazoxane	dexrazoxane	S_chemical	O
 and	and	O	O
 these	these	O	O
 three	three	O	O
@@ -106,8 +106,8 @@ daunorubicin	daunorubicin	S_chemical	O
 and	and	O	O
 doxorubicin	doxorubicin	S_chemical	O
 +	+	O	O
-/-	/-	O	O
-dexrazoxane	dexrazoxane	O	O
+/-	/-	B_chemical	O
+dexrazoxane	dexrazoxane	S_chemical	O
 was	was	O	O
 determined	determined	O	O
 in	in	O	O
@@ -137,7 +137,7 @@ doxorubicin	doxorubicin	S_chemical	O
 with	with	O	O
 or	or	O	O
 without	without	O	O
-dexrazoxane	dexrazoxane	O	O
+dexrazoxane	dexrazoxane	S_chemical	O
 over	over	O	O
 a	a	O	O
 wide	wide	O	O
@@ -160,7 +160,7 @@ RESULTS	results	O	O
 Nontoxic	nontoxic	O	O
 doses	doses	O	O
 of	of	O	O
-dexrazoxane	dexrazoxane	O	O
+dexrazoxane	dexrazoxane	S_chemical	O
 reduced	reduced	O	O
 myelosuppression	myelosuppression	O	S_disease
 and	and	O	O
@@ -184,7 +184,7 @@ assay	assay	O	O
 ;	;	O	O
 however	however	O	O
 ,	,	O	O
-dexrazoxane	dexrazoxane	O	O
+dexrazoxane	dexrazoxane	S_chemical	O
 neither	neither	O	O
 reduced	reduced	O	O
 myelosuppression	myelosuppression	O	S_disease
@@ -210,7 +210,7 @@ support	support	O	O
 the	the	O	O
 observation	observation	O	O
 that	that	O	O
-dexrazoxane	dexrazoxane	O	O
+dexrazoxane	dexrazoxane	S_chemical	O
 reduces	reduces	O	O
 neither	neither	O	O
 hematologic	hematologic	O	O
@@ -261,7 +261,7 @@ by	by	O	O
 the	the	O	O
 use	use	O	O
 of	of	O	O
-dexrazoxane	dexrazoxane	O	O
+dexrazoxane	dexrazoxane	S_chemical	O
 .	.	O	O
 
 Clinical	clinical	O	O
@@ -269,10 +269,10 @@ trials	trials	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-brain	brain	O	O
-metastases	metastases	O	O
+brain	brain	O	B_disease
+metastases	metastases	O	I_disease
 combining	combining	O	O
-dexrazoxane	dexrazoxane	O	O
+dexrazoxane	dexrazoxane	S_chemical	O
 and	and	O	O
 high	high	O	O
 doses	doses	O	O
@@ -304,8 +304,8 @@ for	for	O	O
 pharmacologic	pharmacologic	O	O
 regulation	regulation	O	O
 of	of	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 from	from	O	O
 cytotoxic	cytotoxic	O	O
 chemotherapy	chemotherapy	O	O

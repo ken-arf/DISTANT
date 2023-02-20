@@ -176,7 +176,7 @@ not	not	O	O
 reflected	reflected	O	O
 in	in	O	O
 prolonged	prolonged	O	O
-behavioral	behavioral	O	O
-impairment	impairment	O	O
+behavioral	behavioral	O	B_disease
+impairment	impairment	O	I_disease
 .	.	O	O
 

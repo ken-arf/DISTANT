@@ -17,7 +17,7 @@ patients	patients	O	O
 were	were	O	O
 trated	trated	O	O
 with	with	O	O
-bromperidol	bromperidol	O	O
+bromperidol	bromperidol	S_chemical	O
 first	first	O	O
 in	in	O	O
 open	open	O	O
@@ -133,14 +133,14 @@ exhibited	exhibited	O	O
 mild	mild	O	O
 to	to	O	O
 moderate	moderate	O	O
-extrapyramidal	extrapyramidal	O	O
+extrapyramidal	extrapyramidal	O	S_disease
 concomitant	concomitant	O	O
 symptoms	symptoms	O	O
 ;	;	O	O
 no	no	O	O
 other	other	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 were	were	O	O
 observed	observed	O	O
 .	.	O	O
@@ -188,8 +188,8 @@ in	in	O	O
 the	the	O	O
 treatment	treatment	O	O
 of	of	O	O
-psychotic	psychotic	O	O
-syndromes	syndromes	O	O
+psychotic	psychotic	O	B_disease
+syndromes	syndromes	O	I_disease
 belonging	belonging	O	O
 predominantly	predominantly	O	O
 to	to	O	O
@@ -203,8 +203,8 @@ clues	clues	O	O
 ,	,	O	O
 including	including	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 action	action	O	O
 ,	,	O	O
 seem	seem	O	O
@@ -215,7 +215,7 @@ of	of	O	O
 the	the	O	O
 superiority	superiority	O	O
 of	of	O	O
-bromperidol	bromperidol	O	O
+bromperidol	bromperidol	S_chemical	O
 .	.	O	O
 
 No	no	O	O
@@ -225,8 +225,8 @@ observed	observed	O	O
 with	with	O	O
 respect	respect	O	O
 to	to	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 and	and	O	O
 general	general	O	O
 tolerability	tolerability	O	O

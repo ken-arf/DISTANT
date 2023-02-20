@@ -55,10 +55,10 @@ orally	orally	O	O
 for	for	O	O
 treatment	treatment	O	O
 of	of	O	O
-chronic	chronic	O	O
-premature	premature	O	O
-ventricular	ventricular	O	O
-contractions	contractions	O	O
+chronic	chronic	O	B_disease
+premature	premature	O	B_disease
+ventricular	ventricular	O	I_disease
+contractions	contractions	O	I_disease
 or	or	O	O
 atrial	atrial	O	B_disease
 flutter	flutter	O	I_disease

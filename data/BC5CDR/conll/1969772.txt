@@ -7,7 +7,7 @@ during	during	O	O
 hypotension	hypotension	O	S_disease
 induced	induced	O	O
 with	with	O	O
-fenoldopam	fenoldopam	O	O
+fenoldopam	fenoldopam	S_chemical	O
 in	in	O	O
 dogs	dogs	O	O
 .	.	O	O
@@ -28,8 +28,8 @@ would	would	O	O
 be	be	O	O
 advantageous	advantageous	O	O
 because	because	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 unique	unique	O	O
 to	to	O	O
 a	a	O	O
@@ -64,8 +64,8 @@ clinical	clinical	O	O
 investigation	investigation	O	O
 .	.	O	O
 
-Fenoldopam	fenoldopam	O	O
-mesylate	mesylate	O	O
+Fenoldopam	fenoldopam	S_chemical	O
+mesylate	mesylate	S_chemical	O
 is	is	O	O
 a	a	O	O
 specific	specific	O	O
@@ -83,7 +83,7 @@ vasodilatation	vasodilatation	O	O
 The	the	O	O
 hypothesis	hypothesis	O	O
 that	that	O	O
-fenoldopam	fenoldopam	O	O
+fenoldopam	fenoldopam	S_chemical	O
 could	could	O	O
 be	be	O	O
 used	used	O	O
@@ -135,7 +135,7 @@ renal	renal	O	O
 vascular	vascular	O	O
 effects	effects	O	O
 of	of	O	O
-fenoldopam	fenoldopam	O	O
+fenoldopam	fenoldopam	S_chemical	O
 and	and	O	O
 sodium	sodium	B_chemical	O
 nitroprusside	nitroprusside	S_chemical	O
@@ -164,7 +164,7 @@ control	control	O	O
 with	with	O	O
 infusion	infusion	O	O
 of	of	O	O
-fenoldopam	fenoldopam	O	O
+fenoldopam	fenoldopam	S_chemical	O
 (	(	O	O
 3.4	3.4	O	O
 +	+	O	O
@@ -254,7 +254,7 @@ induced	induced	O	O
 hypotension	hypotension	O	S_disease
 .	.	O	O
 
-Fenoldopam	fenoldopam	O	O
+Fenoldopam	fenoldopam	S_chemical	O
 is	is	O	O
 a	a	O	O
 selective	selective	O	O

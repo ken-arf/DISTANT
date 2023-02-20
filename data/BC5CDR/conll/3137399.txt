@@ -12,8 +12,8 @@ by	by	O	O
 mitomycin	mitomycin	O	O
 C.Since	c.since	O	O
 1975	1975	O	O
-mitomycin	mitomycin	O	O
-C	c	O	O
+mitomycin	mitomycin	B_chemical	O
+C	c	I_chemical	O
 (	(	O	O
 MMC	mmc	O	O
 )	)	O	O

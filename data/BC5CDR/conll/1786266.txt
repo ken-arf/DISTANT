@@ -7,7 +7,7 @@ use	use	O	O
 and	and	O	O
 cerebral	cerebral	O	O
 perfusion	perfusion	O	O
-SPECT	spect	O	O
+SPECT	spect	S_chemical	O
 scan	scan	O	O
 findings	findings	O	O
 .	.	O	O
@@ -17,11 +17,11 @@ rabbit	rabbit	O	O
 syndrome	syndrome	O	O
 is	is	O	O
 an	an	O	O
-extrapyramidal	extrapyramidal	O	O
+extrapyramidal	extrapyramidal	O	S_disease
 side	side	O	O
 effect	effect	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 chronic	chronic	O	O
 neuroleptic	neuroleptic	O	O
 therapy	therapy	O	O
@@ -56,7 +56,7 @@ antidepressants	antidepressants	S_chemical	O
 Repeated	repeated	O	O
 cerebral	cerebral	O	O
 perfusion	perfusion	O	O
-SPECT	spect	O	O
+SPECT	spect	S_chemical	O
 scans	scans	O	O
 revealed	revealed	O	O
 decreased	decreased	O	O

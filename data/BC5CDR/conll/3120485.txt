@@ -4,9 +4,9 @@ diazepam-induced	diazepam-induced	O	O
 sedative	sedative	O	O
 effects	effects	O	O
 by	by	O	O
-Ro15	ro15	O	O
--	-	O	O
-1788	1788	O	O
+Ro15	ro15	B_chemical	O
+-	-	I_chemical	O
+1788	1788	I_chemical	O
 in	in	O	O
 patients	patients	O	O
 after	after	O	O
@@ -38,9 +38,9 @@ assess	assess	O	O
 the	the	O	O
 efficacy	efficacy	O	O
 of	of	O	O
-Ro15	ro15	O	O
--	-	O	O
-1788	1788	O	O
+Ro15	ro15	B_chemical	O
+-	-	I_chemical	O
+1788	1788	I_chemical	O
 and	and	O	O
 a	a	O	O
 placebo	placebo	O	O
@@ -64,9 +64,9 @@ and	and	O	O
 general	general	O	O
 safety	safety	O	O
 of	of	O	O
-Ro15	ro15	O	O
--	-	O	O
-1788	1788	O	O
+Ro15	ro15	B_chemical	O
+-	-	I_chemical	O
+1788	1788	I_chemical	O
 .	.	O	O
 
 Fifty-seven	fifty-seven	O	O
@@ -87,9 +87,9 @@ of	of	O	O
 diazepam-induced	diazepam-induced	O	O
 effects	effects	O	O
 by	by	O	O
-Ro15	ro15	O	O
--	-	O	O
-1788	1788	O	O
+Ro15	ro15	B_chemical	O
+-	-	I_chemical	O
+1788	1788	I_chemical	O
 was	was	O	O
 investigated	investigated	O	O
 postoperatively	postoperatively	O	O
@@ -159,9 +159,9 @@ signs	signs	O	O
 .	.	O	O
 
 The	the	O	O
-Ro15	ro15	O	O
--	-	O	O
-1788	1788	O	O
+Ro15	ro15	B_chemical	O
+-	-	I_chemical	O
+1788	1788	I_chemical	O
 group	group	O	O
 showed	showed	O	O
 a	a	O	O

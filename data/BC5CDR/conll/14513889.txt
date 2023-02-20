@@ -93,9 +93,9 @@ for	for	O	O
 close	close	O	O
 vigilance	vigilance	O	O
 in	in	O	O
-adverse	adverse	O	O
-drug	drug	O	O
-reactions	reactions	O	O
+adverse	adverse	O	B_disease
+drug	drug	O	I_disease
+reactions	reactions	O	I_disease
 ,	,	O	O
 particularly	particularly	O	O
 in	in	O	O

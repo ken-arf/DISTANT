@@ -32,8 +32,8 @@ their	their	O	O
 abilities	abilities	O	O
 to	to	O	O
 control	control	O	O
-gastric	gastric	O	O
-acid	acid	O	O
+gastric	gastric	B_chemical	O
+acid	acid	I_chemical	O
 hypersecretion	hypersecretion	O	O
 on	on	O	O
 a	a	O	O
@@ -45,8 +45,8 @@ in	in	O	O
 22	22	O	O
 patients	patients	O	O
 with	with	O	O
-gastric	gastric	O	O
-acid	acid	O	O
+gastric	gastric	B_chemical	O
+acid	acid	I_chemical	O
 hypersecretory	hypersecretory	O	O
 states	states	O	O
 .	.	O	O
@@ -60,8 +60,8 @@ syndrome	syndrome	O	O
 one	one	O	O
 patient	patient	O	O
 had	had	O	O
-systemic	systemic	O	O
-mastocytosis	mastocytosis	O	O
+systemic	systemic	O	B_disease
+mastocytosis	mastocytosis	O	I_disease
 ,	,	O	O
 and	and	O	O
 two	two	O	O
@@ -74,8 +74,8 @@ hypersecretion	hypersecretion	O	O
 The	the	O	O
 rates	rates	O	O
 of	of	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 the	the	O	O
 action	action	O	O
 of	of	O	O
@@ -217,8 +217,8 @@ months	months	O	O
 )	)	O	O
 was	was	O	O
 not	not	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 hepatic	hepatic	O	O
 or	or	O	O
 hematologic	hematologic	O	O
@@ -234,8 +234,8 @@ but	but	O	O
 ranitidine	ranitidine	S_chemical	O
 therapy	therapy	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 significantly	significantly	O	O
 lower	lower	O	O
@@ -287,8 +287,8 @@ not	not	O	O
 cause	cause	O	O
 the	the	O	O
 antiandrogen	antiandrogen	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 frequently	frequently	O	O
 seen	seen	O	O
 with	with	O	O

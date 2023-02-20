@@ -4,10 +4,10 @@ in	in	O	O
 the	the	O	O
 pathogenesis	pathogenesis	O	O
 of	of	O	O
-liver	liver	O	O
+liver	liver	O	B_disease
 tumors	tumors	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 oral	oral	B_chemical	O
 contraceptives	contraceptives	I_chemical	O
 .	.	O	O
@@ -20,7 +20,7 @@ years	years	O	O
 ,	,	O	O
 previously	previously	O	O
 rare	rare	O	O
-liver	liver	O	O
+liver	liver	O	B_disease
 tumors	tumors	O	S_disease
 have	have	O	O
 been	been	O	O
@@ -37,10 +37,10 @@ steroids	steroids	S_chemical	O
 The	the	O	O
 Registry	registry	O	O
 for	for	O	O
-Liver	liver	O	O
+Liver	liver	O	B_disease
 Tumors	tumors	O	S_disease
-Associated	associated	O	O
-with	with	O	O
+Associated	associated	O	B_disease
+with	with	O	I_disease
 Oral	oral	B_chemical	O
 Contraceptives	contraceptives	I_chemical	O
 at	at	O	O
@@ -49,7 +49,7 @@ University	university	O	O
 of	of	O	O
 California	california	O	O
 ,	,	O	O
-Irvine	irvine	O	O
+Irvine	irvine	S_chemical	O
 ,	,	O	O
 has	has	O	O
 clearly	clearly	O	O
@@ -107,8 +107,8 @@ steroids	steroids	S_chemical	O
 Eight	eight	O	O
 deaths	deaths	O	S_disease
 and	and	O	O
-liver	liver	O	O
-rupture	rupture	O	O
+liver	liver	O	B_disease
+rupture	rupture	O	I_disease
 in	in	O	O
 18	18	O	O
 patients	patients	O	O
@@ -121,7 +121,7 @@ this	this	O	O
 new	new	O	O
 potentially	potentially	O	O
 lethal	lethal	O	O
-adverse	adverse	O	O
-phenomenon	phenomenon	O	O
+adverse	adverse	O	B_disease
+phenomenon	phenomenon	O	I_disease
 .	.	O	O
 

@@ -11,7 +11,7 @@ nephrosclerosis	nephrosclerosis	O	O
 in	in	O	O
 rats	rats	O	O
 with	with	O	O
-renovascular	renovascular	O	O
+renovascular	renovascular	O	B_disease
 hypertension	hypertension	O	S_disease
 .	.	O	O
 
@@ -58,7 +58,7 @@ two-kidney	two-kidney	O	O
 ,	,	O	O
 one	one	O	O
 clip	clip	O	O
-renovascular	renovascular	O	O
+renovascular	renovascular	O	B_disease
 hypertension	hypertension	O	S_disease
 .	.	O	O
 
@@ -68,8 +68,8 @@ after	after	O	O
 clipping	clipping	O	O
 of	of	O	O
 one	one	O	O
-renal	renal	O	O
-artery	artery	O	O
+renal	renal	O	B_disease
+artery	artery	O	I_disease
 ,	,	O	O
 hypertensive	hypertensive	O	S_disease
 rats	rats	O	O
@@ -155,8 +155,8 @@ anesthetized	anesthetized	O	O
 rats	rats	O	O
 .	.	O	O
 
-Renal	renal	O	O
-tissue	tissue	O	O
+Renal	renal	O	B_disease
+tissue	tissue	O	I_disease
 was	was	O	O
 obtained	obtained	O	O
 for	for	O	O

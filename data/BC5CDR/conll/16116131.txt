@@ -65,8 +65,8 @@ a	a	O	O
 modification	modification	O	O
 of	of	O	O
 a	a	O	O
-dyskinetic	dyskinetic	O	O
-state	state	O	O
+dyskinetic	dyskinetic	O	B_disease
+state	state	O	I_disease
 induced	induced	O	O
 by	by	O	O
 continuous	continuous	O	O

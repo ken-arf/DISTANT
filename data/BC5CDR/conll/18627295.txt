@@ -72,7 +72,7 @@ B1R(-/-	b1r(-/-	O	O
 )	)	O	O
 by	by	O	O
 investigating	investigating	O	O
-cardiac	cardiac	O	O
+cardiac	cardiac	O	B_disease
 inflammation	inflammation	O	S_disease
 and	and	O	O
 apoptosis	apoptosis	O	O
@@ -99,14 +99,14 @@ vivo	vivo	O	O
 
 This	this	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 reduced	reduced	O	O
 activation	activation	O	O
 state	state	O	O
 of	of	O	O
-AKT	akt	O	O
+AKT	akt	S_chemical	O
 ,	,	O	O
 as	as	O	O
 well	well	O	O
@@ -120,8 +120,8 @@ Western	western	O	O
 blots	blots	O	O
 ,	,	O	O
 indicating	indicating	O	O
-cardiac	cardiac	O	O
-apoptosis	apoptosis	O	O
+cardiac	cardiac	O	B_disease
+apoptosis	apoptosis	O	I_disease
 .	.	O	O
 
 Furthermore	furthermore	O	O
@@ -132,8 +132,8 @@ of	of	O	O
 the	the	O	O
 proinflammatory	proinflammatory	O	O
 cytokine	cytokine	O	O
-interleukin	interleukin	O	O
-6	6	O	O
+interleukin	interleukin	B_chemical	O
+6	6	I_chemical	O
 were	were	O	O
 increased	increased	O	O
 in	in	O	O
@@ -160,21 +160,21 @@ mice	mice	O	O
 ,	,	O	O
 which	which	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 normalization	normalization	O	O
 of	of	O	O
 the	the	O	O
 bax/bcl-2	bax/bcl-2	O	O
 ratio	ratio	O	O
 and	and	O	O
-interleukin	interleukin	O	O
-6	6	O	O
+interleukin	interleukin	B_chemical	O
+6	6	I_chemical	O
 ,	,	O	O
 as	as	O	O
 well	well	O	O
 as	as	O	O
-AKT	akt	O	O
+AKT	akt	S_chemical	O
 activation	activation	O	O
 state	state	O	O
 .	.	O	O

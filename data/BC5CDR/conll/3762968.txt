@@ -1,4 +1,4 @@
-Transketolase	transketolase	O	O
+Transketolase	transketolase	S_chemical	O
 abnormality	abnormality	O	O
 in	in	O	O
 tolazamide-induced	tolazamide-induced	O	O
@@ -13,7 +13,7 @@ a	a	O	O
 thiamine-dependent	thiamine-dependent	O	O
 enzyme	enzyme	O	O
 ,	,	O	O
-transketolase	transketolase	O	O
+transketolase	transketolase	S_chemical	O
 ,	,	O	O
 from	from	O	O
 fibroblasts	fibroblasts	O	O
@@ -40,7 +40,7 @@ this	this	O	O
 patient	patient	O	O
 also	also	O	O
 had	had	O	O
-transketolase	transketolase	O	O
+transketolase	transketolase	S_chemical	O
 abnormality	abnormality	O	O
 [	[	O	O
 high	high	O	O
@@ -112,7 +112,7 @@ Wernicke	wernicke	O	O
 encephalopathy	encephalopathy	O	S_disease
 had	had	O	O
 abnormal	abnormal	O	O
-transketolase	transketolase	O	O
+transketolase	transketolase	S_chemical	O
 as	as	O	O
 determined	determined	O	O
 by	by	O	O
@@ -143,7 +143,7 @@ from	from	O	O
 the	the	O	O
 standpoint	standpoint	O	O
 of	of	O	O
-transketolase	transketolase	O	O
+transketolase	transketolase	S_chemical	O
 abnormality	abnormality	O	O
 .	.	O	O
 

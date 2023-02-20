@@ -258,7 +258,7 @@ indicate	indicate	O	O
 that	that	O	O
 cocaine	cocaine	S_chemical	O
 induced	induced	O	O
-hyperlocomotion	hyperlocomotion	O	O
+hyperlocomotion	hyperlocomotion	O	S_disease
 is	is	O	O
 modified	modified	O	O
 by	by	O	O

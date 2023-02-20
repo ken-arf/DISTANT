@@ -5,8 +5,8 @@ cancer	cancer	O	S_disease
 --	--	O	O
 a	a	O	O
 highly	highly	O	O
-aggressive	aggressive	O	O
-disease	disease	O	O
+aggressive	aggressive	O	B_disease
+disease	disease	O	I_disease
 :	:	O	O
 analysis	analysis	O	O
 of	of	O	O
@@ -29,7 +29,7 @@ prevention	prevention	O	O
 of	of	O	O
 cyclophosphamide	cyclophosphamide	S_chemical	O
 associated	associated	O	O
-urothelial	urothelial	O	O
+urothelial	urothelial	S_chemical	O
 cancer	cancer	O	S_disease
 .	.	O	O
 
@@ -133,12 +133,12 @@ CONCLUSIONS	conclusions	O	O
 :	:	O	O
 Cyclophosphamide	cyclophosphamide	S_chemical	O
 associated	associated	O	O
-bladder	bladder	O	O
+bladder	bladder	O	B_disease
 tumor	tumor	O	S_disease
 is	is	O	O
 an	an	O	O
-aggressive	aggressive	O	O
-disease	disease	O	O
+aggressive	aggressive	O	B_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 However	however	O	O

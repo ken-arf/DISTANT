@@ -15,8 +15,8 @@ A	a	O	O
 common	common	O	O
 side	side	O	O
 effect	effect	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 succinylcholine	succinylcholine	S_chemical	O
 is	is	O	O
 postoperative	postoperative	O	O
@@ -162,7 +162,7 @@ significant	significant	O	O
 In	in	O	O
 addition	addition	O	O
 ,	,	O	O
-interleukin-6	interleukin-6	O	O
+interleukin-6	interleukin-6	S_chemical	O
 (	(	O	O
 IL-6	il-6	O	O
 )	)	O	O
@@ -269,7 +269,7 @@ and	and	O	O
 time	time	O	O
 course	course	O	O
 of	of	O	O
-interleukin-6	interleukin-6	O	O
+interleukin-6	interleukin-6	S_chemical	O
 concentrations	concentrations	O	O
 ,	,	O	O
 a	a	O	O

@@ -1,6 +1,6 @@
 Role	role	O	O
 of	of	O	O
-mangiferin	mangiferin	O	O
+mangiferin	mangiferin	S_chemical	O
 on	on	O	O
 biochemical	biochemical	O	O
 alterations	alterations	O	O
@@ -24,15 +24,15 @@ the	the	O	O
 protective	protective	O	O
 role	role	O	O
 of	of	O	O
-mangiferin	mangiferin	O	O
+mangiferin	mangiferin	S_chemical	O
 ,	,	O	O
 a	a	O	O
-polyphenol	polyphenol	O	O
+polyphenol	polyphenol	S_chemical	O
 from	from	O	O
 Mangifera	mangifera	O	O
 indica	indica	O	O
-Linn	linn	O	O
-.	.	O	O
+Linn	linn	B_chemical	O
+.	.	I_chemical	O
 (	(	O	O
 Anacardiaceae	anacardiaceae	O	O
 )	)	O	O
@@ -56,7 +56,7 @@ mechanism	mechanism	O	O
 Subcutaneous	subcutaneous	O	O
 injection	injection	O	O
 of	of	O	O
-ISPH	isph	O	O
+ISPH	isph	S_chemical	O
 (	(	O	O
 200	200	O	O
 mg/kg	mg/kg	O	O
@@ -118,13 +118,13 @@ The	the	O	O
 protective	protective	O	O
 role	role	O	O
 of	of	O	O
-mangiferin	mangiferin	O	O
+mangiferin	mangiferin	S_chemical	O
 was	was	O	O
 analyzed	analyzed	O	O
 by	by	O	O
-triphenyl	triphenyl	O	O
-tetrazolium	tetrazolium	O	O
-chloride	chloride	O	O
+triphenyl	triphenyl	S_chemical	O
+tetrazolium	tetrazolium	B_chemical	O
+chloride	chloride	I_chemical	O
 (	(	O	O
 TTC	ttc	O	O
 )	)	O	O
@@ -137,13 +137,13 @@ mapping	mapping	O	O
 assay	assay	O	O
 of	of	O	O
 the	the	O	O
-ischemic	ischemic	O	O
-myocardium	myocardium	O	O
+ischemic	ischemic	O	B_disease
+myocardium	myocardium	O	I_disease
 .	.	O	O
 
 The	the	O	O
-heart	heart	O	O
-tissue	tissue	O	O
+heart	heart	O	B_disease
+tissue	tissue	O	I_disease
 antioxidant	antioxidant	O	O
 enzymes	enzymes	O	O
 such	such	O	O
@@ -167,7 +167,7 @@ non-enzymic	non-enzymic	O	O
 antioxidants	antioxidants	O	O
 such	such	O	O
 as	as	O	O
-cerruloplasmin	cerruloplasmin	O	O
+cerruloplasmin	cerruloplasmin	S_chemical	O
 ,	,	O	O
 Vitamin	vitamin	O	O
 C	c	O	O
@@ -187,7 +187,7 @@ rats	rats	O	O
 Upon	upon	O	O
 pretreatment	pretreatment	O	O
 with	with	O	O
-mangiferin	mangiferin	O	O
+mangiferin	mangiferin	S_chemical	O
 (	(	O	O
 100	100	O	O
 mg/kg	mg/kg	O	O
@@ -198,8 +198,8 @@ in	in	O	O
 2	2	O	O
 ml	ml	O	O
 of	of	O	O
-dimethyl	dimethyl	O	O
-sulphoxide	sulphoxide	O	O
+dimethyl	dimethyl	B_chemical	O
+sulphoxide	sulphoxide	I_chemical	O
 )	)	O	O
 given	given	O	O
 intraperitoneally	intraperitoneally	O	O
@@ -223,8 +223,8 @@ levels	levels	O	O
 
 Activities	activities	O	O
 of	of	O	O
-heart	heart	O	O
-tissue	tissue	O	O
+heart	heart	O	B_disease
+tissue	tissue	O	I_disease
 enzymic	enzymic	O	O
 antioxidants	antioxidants	O	O
 and	and	O	O
@@ -235,7 +235,7 @@ levels	levels	O	O
 rose	rose	O	O
 significantly	significantly	O	O
 upon	upon	O	O
-mangiferin	mangiferin	O	O
+mangiferin	mangiferin	S_chemical	O
 administration	administration	O	O
 as	as	O	O
 compared	compared	O	O
@@ -253,7 +253,7 @@ it	it	O	O
 is	is	O	O
 concluded	concluded	O	O
 that	that	O	O
-mangiferin	mangiferin	O	O
+mangiferin	mangiferin	S_chemical	O
 exerts	exerts	O	O
 a	a	O	O
 beneficial	beneficial	O	O
@@ -274,7 +274,7 @@ tissues	tissues	O	O
 defense	defense	O	O
 system	system	O	O
 against	against	O	O
-cardiac	cardiac	O	O
-damage	damage	O	O
+cardiac	cardiac	O	B_disease
+damage	damage	O	I_disease
 .	.	O	O
 

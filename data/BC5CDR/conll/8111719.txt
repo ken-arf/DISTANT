@@ -35,8 +35,8 @@ been	been	O	O
 reported	reported	O	O
 with	with	O	O
 other	other	O	O
-mental	mental	O	O
-status	status	O	O
+mental	mental	O	B_disease
+status	status	O	I_disease
 changes	changes	O	O
 .	.	O	O
 
@@ -69,8 +69,8 @@ as	as	O	O
 part	part	O	O
 of	of	O	O
 their	their	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 transplant	transplant	O	O
 procedure	procedure	O	O
 .	.	O	O

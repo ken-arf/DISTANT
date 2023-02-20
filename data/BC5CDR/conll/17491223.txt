@@ -70,7 +70,7 @@ myocardial	myocardial	O	B_disease
 ischemia	ischemia	O	S_disease
 ,	,	O	O
 using	using	O	O
-Tc99m-Sestamibi	tc99m-sestamibi	O	O
+Tc99m-Sestamibi	tc99m-sestamibi	S_chemical	O
 single-photon	single-photon	O	O
 emission	emission	O	O
 computed	computed	O	O
@@ -135,7 +135,7 @@ ischemia	ischemia	O	S_disease
 were	were	O	O
 detected	detected	O	O
 on	on	O	O
-SPECT	spect	O	O
+SPECT	spect	S_chemical	O
 .	.	O	O
 
 The	the	O	O

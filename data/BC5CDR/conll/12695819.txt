@@ -37,8 +37,8 @@ transplant	transplant	O	O
 patients	patients	O	O
 who	who	O	O
 developed	developed	O	O
-neurologic	neurologic	O	O
-symptoms	symptoms	O	O
+neurologic	neurologic	O	B_disease
+symptoms	symptoms	O	I_disease
 during	during	O	O
 tacrolimus	tacrolimus	S_chemical	O
 therapy	therapy	O	O
@@ -64,8 +64,8 @@ receiving	receiving	O	O
 tacrolimus	tacrolimus	S_chemical	O
 who	who	O	O
 developed	developed	O	O
-neurologic	neurologic	O	O
-complications	complications	O	O
+neurologic	neurologic	O	B_disease
+complications	complications	O	I_disease
 .	.	O	O
 
 In	in	O	O

@@ -27,7 +27,7 @@ angiogenesis	angiogenesis	B_chemical	O
 inhibitors	inhibitors	I_chemical	O
 such	such	O	O
 as	as	O	O
-sunitinib	sunitinib	O	O
+sunitinib	sunitinib	S_chemical	O
 and	and	O	O
 sorafenib	sorafenib	S_chemical	O
 have	have	O	O
@@ -35,7 +35,7 @@ been	been	O	O
 found	found	O	O
 to	to	O	O
 cause	cause	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 hemolysis	hemolysis	O	S_disease
 .	.	O	O
 
@@ -82,10 +82,10 @@ virus	virus	O	O
 were	were	O	O
 treated	treated	O	O
 by	by	O	O
-pegylated	pegylated	O	O
-interferon	interferon	O	O
-alpha	alpha	O	O
-2a	2a	O	O
+pegylated	pegylated	S_chemical	O
+interferon	interferon	B_chemical	O
+alpha	alpha	I_chemical	O
+2a	2a	I_chemical	O
 and	and	O	O
 ribavirin	ribavirin	S_chemical	O
 .	.	O	O
@@ -157,7 +157,7 @@ not	not	O	O
 change	change	O	O
 significantly	significantly	O	O
 by	by	O	O
-pegylated	pegylated	O	O
+pegylated	pegylated	S_chemical	O
 interferon	interferon	O	O
 and	and	O	O
 ribavirin	ribavirin	S_chemical	O

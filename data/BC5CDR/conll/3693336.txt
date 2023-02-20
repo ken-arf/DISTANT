@@ -29,7 +29,7 @@ woman	woman	O	O
 
 Features	features	O	O
 of	of	O	O
-organic	organic	O	O
+organic	organic	O	B_disease
 mental	mental	O	B_disease
 disorder	disorder	O	I_disease
 (	(	O	O
@@ -40,8 +40,8 @@ not	not	O	O
 present	present	O	O
 .	.	O	O
 
-Manic	manic	O	S_disease
-excitement	excitement	O	O
+Manic	manic	O	B_disease
+excitement	excitement	O	I_disease
 was	was	O	O
 coincident	coincident	O	O
 with	with	O	O

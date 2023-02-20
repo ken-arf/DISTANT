@@ -7,7 +7,7 @@ of	of	O	O
 nitric	nitric	B_chemical	O
 oxide	oxide	I_chemical	O
 (	(	O	O
-iNOS	inos	O	O
+iNOS	inos	S_chemical	S_disease
 )	)	O	O
 ,	,	O	O
 basic	basic	O	O
@@ -30,7 +30,7 @@ induced	induced	O	O
 in	in	O	O
 rats	rats	O	O
 by	by	O	O
-fenoldopam	fenoldopam	O	O
+fenoldopam	fenoldopam	S_chemical	O
 and	and	O	O
 theophylline	theophylline	S_chemical	O
 ,	,	O	O
@@ -44,7 +44,7 @@ rats	rats	O	O
 by	by	O	O
 vasodilators	vasodilators	S_chemical	O
 ,	,	O	O
-fenoldopam	fenoldopam	O	O
+fenoldopam	fenoldopam	S_chemical	O
 and	and	O	O
 theophylline	theophylline	S_chemical	O
 ,	,	O	O
@@ -61,7 +61,7 @@ nitric	nitric	B_chemical	O
 oxide	oxide	I_chemical	O
 synthase	synthase	I_chemical	O
 (	(	O	O
-iNOS	inos	O	O
+iNOS	inos	S_chemical	S_disease
 )	)	O	O
 ,	,	O	O
 basic	basic	O	O
@@ -83,7 +83,7 @@ TGF-beta1	tgf-beta1	O	O
 Rats	rats	O	O
 were	were	O	O
 administered	administered	O	O
-fenoldopam	fenoldopam	O	O
+fenoldopam	fenoldopam	S_chemical	O
 for	for	O	O
 24	24	O	O
 hours	hours	O	O
@@ -107,7 +107,7 @@ of	of	O	O
 theophylline	theophylline	S_chemical	O
 administration	administration	O	O
 ,	,	O	O
-iNOS	inos	O	O
+iNOS	inos	S_chemical	S_disease
 antigens	antigens	O	O
 were	were	O	O
 remarkably	remarkably	O	O
@@ -161,7 +161,7 @@ the	the	O	O
 peak	peak	O	O
 expression	expression	O	O
 of	of	O	O
-iNOS	inos	O	O
+iNOS	inos	S_chemical	S_disease
 antigen	antigen	O	O
 was	was	O	O
 followed	followed	O	O
@@ -179,7 +179,7 @@ a	a	O	O
 suppressive	suppressive	O	O
 effect	effect	O	O
 on	on	O	O
-iNOS	inos	O	O
+iNOS	inos	S_chemical	S_disease
 expression	expression	O	O
 in	in	O	O
 these	these	O	O
@@ -203,7 +203,7 @@ a	a	O	O
 suppressive	suppressive	O	O
 effect	effect	O	O
 on	on	O	O
-iNOS	inos	O	O
+iNOS	inos	S_chemical	S_disease
 expression	expression	O	O
 in	in	O	O
 these	these	O	O

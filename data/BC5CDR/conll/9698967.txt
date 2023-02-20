@@ -6,7 +6,7 @@ to	to	O	O
 axillary	axillary	O	O
 block	block	O	O
 by	by	O	O
-mepivacaine	mepivacaine	O	O
+mepivacaine	mepivacaine	S_chemical	O
 with	with	O	O
 adrenaline	adrenaline	S_chemical	O
 .	.	O	O
@@ -54,7 +54,7 @@ of	of	O	O
 axillary	axillary	O	O
 block	block	O	O
 with	with	O	O
-mepivacaine	mepivacaine	O	O
+mepivacaine	mepivacaine	S_chemical	O
 850	850	O	O
 mg	mg	O	O
 containing	containing	O	O
@@ -141,7 +141,7 @@ rapid	rapid	O	O
 systemic	systemic	O	O
 absorption	absorption	O	O
 of	of	O	O
-mepivacaine	mepivacaine	O	O
+mepivacaine	mepivacaine	S_chemical	O
 with	with	O	O
 adrenaline	adrenaline	S_chemical	O
 and/or	and/or	O	O
@@ -159,7 +159,7 @@ were	were	O	O
 responsible	responsible	O	O
 for	for	O	O
 the	the	O	O
-perioperative	perioperative	O	O
+perioperative	perioperative	O	S_disease
 complications	complications	O	O
 .	.	O	O
 

@@ -4,8 +4,8 @@ of	of	O	O
 rheumatoid	rheumatoid	O	B_disease
 arthritis	arthritis	O	S_disease
 by	by	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 transplantation	transplantation	O	O
 .	.	O	O
 
@@ -21,15 +21,15 @@ possible	possible	O	O
 cure	cure	O	O
 of	of	O	O
 severe	severe	O	O
-erosive	erosive	O	O
+erosive	erosive	O	B_disease
 rheumatoid	rheumatoid	O	B_disease
 arthritis	arthritis	O	S_disease
 (	(	O	O
 RA	ra	O	O
 )	)	O	O
 by	by	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 transplantation	transplantation	O	O
 (	(	O	O
 BMT	bmt	O	O
@@ -56,7 +56,7 @@ in	in	O	O
 one	one	O	O
 case	case	O	O
 and	and	O	O
-D-penicillamine	d-penicillamine	O	O
+D-penicillamine	d-penicillamine	S_chemical	O
 in	in	O	O
 the	the	O	O
 other	other	O	O

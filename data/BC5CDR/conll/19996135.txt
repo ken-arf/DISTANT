@@ -2,14 +2,14 @@ High-dose	high-dose	O	O
 tranexamic	tranexamic	B_chemical	O
 Acid	acid	I_chemical	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 nonischemic	nonischemic	O	O
 clinical	clinical	O	O
 seizures	seizures	O	S_disease
 in	in	O	O
-cardiac	cardiac	O	O
-surgical	surgical	O	O
+cardiac	cardiac	O	B_disease
+surgical	surgical	O	I_disease
 patients	patients	O	O
 .	.	O	O
 
@@ -30,7 +30,7 @@ the	the	O	O
 incidence	incidence	O	O
 of	of	O	O
 postoperative	postoperative	O	O
-convulsive	convulsive	O	S_disease
+convulsive	convulsive	O	B_disease
 seizures	seizures	O	S_disease
 from	from	O	O
 1.3	1.3	O	O
@@ -43,8 +43,8 @@ patients	patients	O	O
 having	having	O	O
 undergone	undergone	O	O
 major	major	O	O
-cardiac	cardiac	O	O
-surgical	surgical	O	O
+cardiac	cardiac	O	B_disease
+surgical	surgical	O	I_disease
 procedures	procedures	O	O
 .	.	O	O
 
@@ -68,7 +68,7 @@ therapy	therapy	O	O
 after	after	O	O
 withdrawal	withdrawal	O	O
 of	of	O	O
-aprotinin	aprotinin	O	O
+aprotinin	aprotinin	S_chemical	O
 from	from	O	O
 general	general	O	O
 clinical	clinical	O	O
@@ -117,7 +117,7 @@ all	all	O	O
 patients	patients	O	O
 who	who	O	O
 developed	developed	O	O
-perioperative	perioperative	O	O
+perioperative	perioperative	O	S_disease
 seizures	seizures	O	S_disease
 .	.	O	O
 
@@ -158,9 +158,9 @@ have	have	O	O
 evidence	evidence	O	O
 of	of	O	O
 new	new	O	O
-cerebral	cerebral	O	O
-ischemic	ischemic	O	O
-injury	injury	O	O
+cerebral	cerebral	O	B_disease
+ischemic	ischemic	O	B_disease
+injury	injury	O	I_disease
 ,	,	O	O
 but	but	O	O
 seizures	seizures	O	S_disease
@@ -168,9 +168,9 @@ were	were	O	O
 likely	likely	O	O
 due	due	O	O
 to	to	O	O
-ischemic	ischemic	O	O
-brain	brain	O	O
-injury	injury	O	O
+ischemic	ischemic	O	B_disease
+brain	brain	O	I_disease
+injury	injury	O	I_disease
 in	in	O	O
 3	3	O	O
 patients	patients	O	O
@@ -184,8 +184,8 @@ did	did	O	O
 not	not	O	O
 have	have	O	O
 permanent	permanent	O	O
-neurological	neurological	O	O
-abnormalities	abnormalities	O	O
+neurological	neurological	O	B_disease
+abnormalities	abnormalities	O	I_disease
 .	.	O	O
 
 All	all	O	O
@@ -243,8 +243,8 @@ bypass	bypass	O	O
 No	no	O	O
 evidence	evidence	O	O
 of	of	O	O
-brain	brain	O	O
-ischemic	ischemic	O	O
+brain	brain	O	B_disease
+ischemic	ischemic	O	I_disease
 ,	,	O	O
 metabolic	metabolic	O	O
 ,	,	O	O
@@ -281,8 +281,8 @@ open-chamber	open-chamber	O	O
 cardiac	cardiac	O	O
 surgery	surgery	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 clinical	clinical	O	O
 seizures	seizures	O	S_disease
 in	in	O	O

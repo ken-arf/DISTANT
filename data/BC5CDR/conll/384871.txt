@@ -4,7 +4,7 @@ neuropathy	neuropathy	O	S_disease
 due	due	O	O
 to	to	O	O
 combined	combined	O	O
-ethambutol	ethambutol	O	O
+ethambutol	ethambutol	S_chemical	O
 and	and	O	O
 isoniazid	isoniazid	S_chemical	O
 treatment	treatment	O	O
@@ -27,7 +27,7 @@ and	and	O	O
 was	was	O	O
 treated	treated	O	O
 with	with	O	O
-ethambutol	ethambutol	O	O
+ethambutol	ethambutol	S_chemical	O
 and	and	O	O
 isoniazid	isoniazid	S_chemical	O
 is	is	O	O
@@ -49,7 +49,7 @@ was	was	O	O
 found	found	O	O
 .	.	O	O
 
-Ethambutol	ethambutol	O	O
+Ethambutol	ethambutol	S_chemical	O
 was	was	O	O
 stopped	stopped	O	O
 and	and	O	O
@@ -82,12 +82,12 @@ acuity	acuity	O	O
 The	the	O	O
 hazards	hazards	O	O
 of	of	O	O
-optic	optic	O	O
-nerve	nerve	O	O
+optic	optic	O	B_disease
+nerve	nerve	O	I_disease
 toxicity	toxicity	O	S_disease
 due	due	O	O
 to	to	O	O
-ethambutol	ethambutol	O	O
+ethambutol	ethambutol	S_chemical	O
 are	are	O	O
 known	known	O	O
 .	.	O	O
@@ -101,7 +101,7 @@ in	in	O	O
 the	the	O	O
 use	use	O	O
 of	of	O	O
-ethambutol	ethambutol	O	O
+ethambutol	ethambutol	S_chemical	O
 and	and	O	O
 isoniazid	isoniazid	S_chemical	O
 .	.	O	O

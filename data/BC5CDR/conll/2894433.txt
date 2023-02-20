@@ -127,8 +127,8 @@ by	by	O	O
 binding	binding	O	O
 to	to	O	O
 sites	sites	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 benzodiazepine-GABA-chloride	benzodiazepine-gaba-chloride	O	O
 channel	channel	O	O
@@ -151,9 +151,9 @@ macromolecular	macromolecular	O	O
 complex	complex	O	O
 within	within	O	O
 the	the	O	O
-central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 to	to	O	O
 facilitate	facilitate	O	O
 reflex	reflex	O	O

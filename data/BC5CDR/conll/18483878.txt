@@ -27,7 +27,7 @@ VIP	vip	O	O
 is	is	O	O
 an	an	O	O
 immunomodulatory	immunomodulatory	O	O
-neuropeptide	neuropeptide	O	O
+neuropeptide	neuropeptide	S_chemical	O
 distributed	distributed	O	O
 in	in	O	O
 micturition	micturition	O	O
@@ -95,8 +95,8 @@ regulated	regulated	O	O
 transcripts	transcripts	O	O
 in	in	O	O
 the	the	O	O
-urinary	urinary	O	O
-bladder	bladder	O	O
+urinary	urinary	O	B_disease
+bladder	bladder	O	I_disease
 of	of	O	O
 wild	wild	O	O
 type	type	O	O
@@ -133,7 +133,7 @@ made	made	O	O
 WT	wt	O	O
 control	control	O	O
 versus	versus	O	O
-CYP	cyp	O	O
+CYP	cyp	S_chemical	O
 treatment	treatment	O	O
 (	(	O	O
 48	48	O	O
@@ -144,7 +144,7 @@ VIP(-/-	vip(-/-	O	O
 )	)	O	O
 control	control	O	O
 versus	versus	O	O
-CYP	cyp	O	O
+CYP	cyp	S_chemical	O
 treatment	treatment	O	O
 (	(	O	O
 48	48	O	O
@@ -161,7 +161,7 @@ control	control	O	O
 and	and	O	O
 WT	wt	O	O
 with	with	O	O
-CYP	cyp	O	O
+CYP	cyp	S_chemical	O
 treatment	treatment	O	O
 (	(	O	O
 48	48	O	O
@@ -171,7 +171,7 @@ versus	versus	O	O
 VIP(-/-	vip(-/-	O	O
 )	)	O	O
 with	with	O	O
-CYP	cyp	O	O
+CYP	cyp	S_chemical	O
 treatment	treatment	O	O
 (	(	O	O
 48	48	O	O
@@ -225,7 +225,7 @@ and	and	O	O
 CXCL1	cxcl1	O	O
 .	.	O	O
 
-CYP	cyp	O	O
+CYP	cyp	S_chemical	O
 treatment	treatment	O	O
 significantly	significantly	O	O
 (	(	O	O
@@ -243,8 +243,8 @@ and	and	O	O
 IL-1beta	il-1beta	O	O
 in	in	O	O
 the	the	O	O
-urinary	urinary	O	O
-bladder	bladder	O	O
+urinary	urinary	O	B_disease
+bladder	bladder	O	I_disease
 of	of	O	O
 WT	wt	O	O
 and	and	O	O
@@ -259,7 +259,7 @@ VIP(-/-	vip(-/-	O	O
 )	)	O	O
 mice	mice	O	O
 with	with	O	O
-CYP	cyp	O	O
+CYP	cyp	S_chemical	O
 treatment	treatment	O	O
 was	was	O	O
 significantly	significantly	O	O
@@ -282,8 +282,8 @@ that	that	O	O
 observed	observed	O	O
 in	in	O	O
 WT	wt	O	O
-urinary	urinary	O	O
-bladder	bladder	O	O
+urinary	urinary	O	B_disease
+bladder	bladder	O	I_disease
 (	(	O	O
 3.6-	3.6-	O	O
 to	to	O	O
@@ -301,7 +301,7 @@ VIP(-/-	vip(-/-	O	O
 )	)	O	O
 mice	mice	O	O
 with	with	O	O
-bladder	bladder	O	O
+bladder	bladder	O	B_disease
 inflammation	inflammation	O	S_disease
 ,	,	O	O
 inflammatory	inflammatory	O	O
@@ -314,7 +314,7 @@ observed	observed	O	O
 in	in	O	O
 WT	wt	O	O
 with	with	O	O
-CYP	cyp	O	O
+CYP	cyp	S_chemical	O
 .	.	O	O
 
 This	this	O	O
@@ -325,14 +325,14 @@ may	may	O	O
 contribute	contribute	O	O
 to	to	O	O
 increased	increased	O	O
-bladder	bladder	O	O
-dysfunction	dysfunction	O	O
+bladder	bladder	O	B_disease
+dysfunction	dysfunction	O	I_disease
 in	in	O	O
 VIP(-/-	vip(-/-	O	O
 )	)	O	O
 mice	mice	O	O
 with	with	O	O
-bladder	bladder	O	O
+bladder	bladder	O	B_disease
 inflammation	inflammation	O	S_disease
 and	and	O	O
 altered	altered	O	O

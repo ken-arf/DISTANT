@@ -1,4 +1,4 @@
-D-penicillamine	d-penicillamine	O	O
+D-penicillamine	d-penicillamine	S_chemical	O
 in	in	O	O
 the	the	O	O
 treatment	treatment	O	O
@@ -23,8 +23,8 @@ and	and	O	O
 disabling	disabling	O	O
 when	when	O	O
 the	the	O	O
-cutaneous	cutaneous	O	O
-lesions	lesions	O	O
+cutaneous	cutaneous	O	B_disease
+lesions	lesions	O	I_disease
 are	are	O	O
 extensive	extensive	O	O
 or	or	O	O
@@ -59,7 +59,7 @@ who	who	O	O
 were	were	O	O
 treated	treated	O	O
 with	with	O	O
-D-penicillamine	d-penicillamine	O	O
+D-penicillamine	d-penicillamine	S_chemical	O
 are	are	O	O
 summarized	summarized	O	O
 in	in	O	O
@@ -104,8 +104,8 @@ of	of	O	O
 cessation	cessation	O	O
 of	of	O	O
 active	active	O	O
-cutaneous	cutaneous	O	O
-lesions	lesions	O	O
+cutaneous	cutaneous	O	B_disease
+lesions	lesions	O	I_disease
 in	in	O	O
 all	all	O	O
 7	7	O	O
@@ -142,9 +142,9 @@ improved	improved	O	O
 The	the	O	O
 dose	dose	O	O
 of	of	O	O
-D-penicillamine	d-penicillamine	O	O
-associated	associated	O	O
-with	with	O	O
+D-penicillamine	d-penicillamine	S_chemical	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 favorable	favorable	O	O
 response	response	O	O
@@ -170,7 +170,7 @@ to	to	O	O
 months	months	O	O
 .	.	O	O
 
-D-Penicillamine	d-penicillamine	O	O
+D-Penicillamine	d-penicillamine	S_chemical	O
 caused	caused	O	O
 nephrotic	nephrotic	O	B_disease
 syndrome	syndrome	O	I_disease
@@ -196,7 +196,7 @@ These	these	O	O
 data	data	O	O
 suggest	suggest	O	O
 that	that	O	O
-D-penicillamine	d-penicillamine	O	O
+D-penicillamine	d-penicillamine	S_chemical	O
 may	may	O	O
 be	be	O	O
 effective	effective	O	O

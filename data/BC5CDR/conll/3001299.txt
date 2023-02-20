@@ -24,9 +24,9 @@ the	the	O	O
 development	development	O	O
 of	of	O	O
 both	both	O	O
-nephrogenic	nephrogenic	O	O
+nephrogenic	nephrogenic	O	B_disease
 diabetes	diabetes	O	B_disease
-insipidus	insipidus	O	I_disease
+insipidus	insipidus	O	S_disease
 and	and	O	O
 hypothyroidism	hypothyroidism	O	S_disease
 during	during	O	O
@@ -36,20 +36,20 @@ treatment	treatment	O	O
 
 We	we	O	O
 measured	measured	O	O
-serum	serum	O	O
+serum	serum	B_chemical	O
 thyroxine	thyroxine	S_chemical	O
 and	and	O	O
 urine-concentrating	urine-concentrating	O	O
 ability	ability	O	O
 (	(	O	O
-Umax	umax	O	O
+Umax	umax	S_chemical	O
 )	)	O	O
 in	in	O	O
 response	response	O	O
 to	to	O	O
-desmopressin	desmopressin	O	O
+desmopressin	desmopressin	S_chemical	O
 (	(	O	O
-DDAVP	ddavp	O	O
+DDAVP	ddavp	S_chemical	O
 )	)	O	O
 in	in	O	O
 85	85	O	O
@@ -71,12 +71,12 @@ lithium	lithium	S_chemical	O
 .	.	O	O
 
 Impaired	impaired	O	O
-Umax	umax	O	O
+Umax	umax	S_chemical	O
 was	was	O	O
 found	found	O	O
 in	in	O	O
 both	both	O	O
-euthyroid	euthyroid	O	O
+euthyroid	euthyroid	O	S_disease
 and	and	O	O
 hypothyroid	hypothyroid	O	S_disease
 patients	patients	O	O

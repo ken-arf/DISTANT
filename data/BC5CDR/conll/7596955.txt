@@ -5,13 +5,13 @@ combined	combined	O	O
 administration	administration	O	O
 of	of	O	O
 oral	oral	O	O
-prostacyclin	prostacyclin	O	O
+prostacyclin	prostacyclin	S_chemical	O
 analogue	analogue	O	O
-beraprost	beraprost	O	O
+beraprost	beraprost	S_chemical	O
 and	and	O	O
 phosphodiesterase	phosphodiesterase	O	O
 inhibitor	inhibitor	O	O
-cilostazol	cilostazol	O	O
+cilostazol	cilostazol	S_chemical	O
 .	.	O	O
 
 Among	among	O	O
@@ -24,9 +24,9 @@ combination	combination	O	O
 of	of	O	O
 a	a	O	O
 novel	novel	O	O
-prostacyclin	prostacyclin	O	O
+prostacyclin	prostacyclin	S_chemical	O
 analogue	analogue	O	O
-beraprost	beraprost	O	O
+beraprost	beraprost	S_chemical	O
 (	(	O	O
 BPT	bpt	O	O
 )	)	O	O
@@ -35,9 +35,9 @@ a	a	O	O
 potent	potent	O	O
 phosphodiesterase	phosphodiesterase	O	O
 inhibitor	inhibitor	O	O
-cilostazol	cilostazol	O	O
+cilostazol	cilostazol	S_chemical	O
 (	(	O	O
-CLZ	clz	O	O
+CLZ	clz	S_chemical	O
 )	)	O	O
 may	may	O	O
 result	result	O	O
@@ -108,7 +108,7 @@ day	day	O	O
 to	to	O	O
 14	14	O	O
 ,	,	O	O
-CLZ	clz	O	O
+CLZ	clz	S_chemical	O
 :	:	O	O
 200	200	O	O
 mg	mg	O	O
@@ -172,8 +172,8 @@ a	a	O	O
 short	short	O	O
 duration	duration	O	O
 accompanying	accompanying	O	O
-facial	facial	O	O
-flush	flush	O	O
+facial	facial	O	B_disease
+flush	flush	O	I_disease
 in	in	O	O
 one	one	O	O
 and	and	O	O
@@ -185,7 +185,7 @@ especially	especially	O	O
 after	after	O	O
 ingestion	ingestion	O	O
 of	of	O	O
-CLZ	clz	O	O
+CLZ	clz	S_chemical	O
 .	.	O	O
 
 All	all	O	O

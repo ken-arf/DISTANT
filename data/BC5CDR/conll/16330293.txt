@@ -46,8 +46,8 @@ equivalent	equivalent	O	O
 doses	doses	O	O
 of	of	O	O
 nicotine	nicotine	S_chemical	O
-polacrilex	polacrilex	O	O
-gum	gum	O	O
+polacrilex	polacrilex	B_chemical	O
+gum	gum	I_chemical	O
 .	.	O	O
 
 The	the	O	O
@@ -302,8 +302,8 @@ lozenge	lozenge	O	O
 The	the	O	O
 incidence	incidence	O	O
 of	of	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 in	in	O	O
 the	the	O	O
 2	2	O	O
@@ -373,12 +373,12 @@ use	use	O	O
 and	and	O	O
 severity	severity	O	O
 of	of	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 revealed	revealed	O	O
 no	no	O	O
-clinically	clinically	O	O
-significant	significant	O	O
+clinically	clinically	O	B_disease
+significant	significant	O	I_disease
 differences	differences	O	O
 between	between	O	O
 the	the	O	O
@@ -390,8 +390,8 @@ gum	gum	O	O
 The	the	O	O
 most	most	O	O
 common	common	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 were	were	O	O
 nausea	nausea	O	S_disease
 (	(	O	O
@@ -446,9 +446,9 @@ to	to	O	O
 )	)	O	O
 .	.	O	O
 
-Serious	serious	O	O
-adverse	adverse	O	O
-events	events	O	O
+Serious	serious	O	B_disease
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 were	were	O	O
 reported	reported	O	O
 in	in	O	O

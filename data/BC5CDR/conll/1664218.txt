@@ -3,7 +3,7 @@ II	ii	O	O
 study	study	O	O
 of	of	O	O
 the	the	O	O
-amsacrine	amsacrine	O	O
+amsacrine	amsacrine	S_chemical	O
 analogue	analogue	O	O
 CI-921	ci-921	O	O
 (	(	O	O
@@ -13,7 +13,7 @@ NSC	nsc	O	O
 in	in	O	O
 non-small	non-small	O	O
 cell	cell	O	O
-lung	lung	O	O
+lung	lung	O	B_disease
 cancer	cancer	O	S_disease
 .	.	O	O
 
@@ -25,7 +25,7 @@ NSC	nsc	O	O
 9-[[2-methoxy-4-[(methylsulphonyl)amino]phenyl]amino	9-[[2-methoxy-4-[(methylsulphonyl)amino]phenyl]amino	B_chemical	O
 ]	]	I_chemical	O
 -N,5-dimethyl-	-n,5-dimethyl-	I_chemical	O
-4-acridinecarboxamide	4-acridinecarboxamide	I_chemical	O
+4-acridinecarboxamide	4-acridinecarboxamide	S_chemical	O
 )	)	O	O
 is	is	O	O
 a	a	O	O
@@ -53,7 +53,7 @@ patients	patients	O	O
 with	with	O	O
 non-small	non-small	O	O
 cell	cell	O	O
-lung	lung	O	O
+lung	lung	O	B_disease
 cancer	cancer	O	S_disease
 (	(	O	O
 NSCLC	nsclc	O	S_disease
@@ -118,7 +118,7 @@ years	years	O	O
 The	the	O	O
 histology	histology	O	O
 comprised	comprised	O	O
-squamous	squamous	O	O
+squamous	squamous	O	B_disease
 carcinoma	carcinoma	O	S_disease
 (	(	O	O
 11	11	O	O
@@ -135,7 +135,7 @@ histology	histology	O	O
 2	2	O	O
 )	)	O	O
 ,	,	O	O
-bronchio-alveolar	bronchio-alveolar	O	O
+bronchio-alveolar	bronchio-alveolar	O	B_disease
 carcinoma	carcinoma	O	S_disease
 (	(	O	O
 1	1	O	O
@@ -171,8 +171,8 @@ in	in	O	O
 3	3	O	O
 ,	,	O	O
 and	and	O	O
-grand	grand	O	O
-mal	mal	O	O
+grand	grand	O	B_disease
+mal	mal	O	I_disease
 seizures	seizures	O	S_disease
 in	in	O	O
 1	1	O	O
@@ -186,8 +186,8 @@ or	or	O	O
 equal	equal	O	O
 to	to	O	O
 2	2	O	O
-nausea	nausea	O	S_disease
-and	and	O	O
+nausea	nausea	O	B_disease
+and	and	O	I_disease
 vomiting	vomiting	O	S_disease
 occurred	occurred	O	O
 in	in	O	O

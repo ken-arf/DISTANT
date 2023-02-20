@@ -11,11 +11,11 @@ a	a	O	O
 child	child	O	O
 .	.	O	O
 
-Acute	acute	O	O
-vanishing	vanishing	O	O
-bile	bile	O	O
-duct	duct	O	O
-syndrome	syndrome	O	O
+Acute	acute	O	B_disease
+vanishing	vanishing	O	I_disease
+bile	bile	O	B_disease
+duct	duct	O	I_disease
+syndrome	syndrome	O	I_disease
 is	is	O	O
 a	a	O	O
 rare	rare	O	O
@@ -60,8 +60,8 @@ a	a	O	O
 well-recognized	well-recognized	O	O
 immune	immune	O	O
 complex-mediated	complex-mediated	O	O
-hypersensitivity	hypersensitivity	O	S_disease
-reaction	reaction	O	O
+hypersensitivity	hypersensitivity	O	B_disease
+reaction	reaction	O	I_disease
 that	that	O	O
 affects	affects	O	O
 all	all	O	O
@@ -99,9 +99,9 @@ severe	severe	O	O
 rapidly	rapidly	O	O
 progressive	progressive	O	O
 vanishing	vanishing	O	O
-bile	bile	O	O
-duct	duct	O	O
-syndrome	syndrome	O	O
+bile	bile	O	B_disease
+duct	duct	O	I_disease
+syndrome	syndrome	O	I_disease
 shortly	shortly	O	O
 after	after	O	O
 Stevens-Johnson	stevens-johnson	O	O
@@ -112,8 +112,8 @@ described	described	O	O
 this	this	O	O
 was	was	O	O
 temporally	temporally	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 ibuprofen	ibuprofen	S_chemical	O
 use	use	O	O
 .	.	O	O
@@ -131,8 +131,8 @@ then	then	O	O
 tacrolimus	tacrolimus	S_chemical	O
 ,	,	O	O
 her	her	O	O
-cholestatic	cholestatic	O	O
-disease	disease	O	O
+cholestatic	cholestatic	O	B_disease
+disease	disease	O	I_disease
 was	was	O	O
 unrelenting	unrelenting	O	O
 ,	,	O	O
@@ -153,9 +153,9 @@ documents	documents	O	O
 acute	acute	O	O
 drug-related	drug-related	O	O
 vanishing	vanishing	O	O
-bile	bile	O	O
-duct	duct	O	O
-syndrome	syndrome	O	O
+bile	bile	O	B_disease
+duct	duct	O	I_disease
+syndrome	syndrome	O	I_disease
 in	in	O	O
 the	the	O	O
 pediatric	pediatric	O	O
@@ -175,8 +175,8 @@ Stevens-Johnson	stevens-johnson	O	O
 syndrome	syndrome	O	O
 and	and	O	O
 vanishing	vanishing	O	O
-bile	bile	O	O
-duct	duct	O	O
-syndrome	syndrome	O	O
+bile	bile	O	B_disease
+duct	duct	O	I_disease
+syndrome	syndrome	O	I_disease
 .	.	O	O
 

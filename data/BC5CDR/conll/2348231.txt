@@ -6,17 +6,17 @@ does	does	O	O
 not	not	O	O
 inhibit	inhibit	O	O
 dipyridamole-induced	dipyridamole-induced	O	O
-coronary	coronary	O	O
+coronary	coronary	O	B_disease
 hyperemia	hyperemia	O	S_disease
 :	:	O	O
 implications	implications	O	O
 for	for	O	O
-dipyridamole-thallium-201	dipyridamole-thallium-201	O	O
+dipyridamole-thallium-201	dipyridamole-thallium-201	S_chemical	O
 myocardial	myocardial	O	O
 imaging	imaging	O	O
 .	.	O	O
 
-Dipyridamole-thallium-201	dipyridamole-thallium-201	O	O
+Dipyridamole-thallium-201	dipyridamole-thallium-201	S_chemical	O
 imaging	imaging	O	O
 is	is	O	O
 often	often	O	O
@@ -28,9 +28,9 @@ to	to	O	O
 exercise	exercise	O	O
 because	because	O	O
 of	of	O	O
-peripheral	peripheral	O	O
-vascular	vascular	O	O
-disease	disease	O	O
+peripheral	peripheral	O	B_disease
+vascular	vascular	O	I_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 Many	many	O	O
@@ -45,8 +45,8 @@ Trental	trental	O	O
 )	)	O	O
 ,	,	O	O
 a	a	O	O
-methylxanthine	methylxanthine	O	O
-derivative	derivative	O	O
+methylxanthine	methylxanthine	B_chemical	O
+derivative	derivative	I_chemical	O
 which	which	O	O
 may	may	O	O
 improve	improve	O	O
@@ -58,11 +58,11 @@ Whether	whether	O	O
 pentoxifylline	pentoxifylline	S_chemical	O
 inhibits	inhibits	O	O
 dipyridamole-induced	dipyridamole-induced	O	O
-coronary	coronary	O	O
+coronary	coronary	O	B_disease
 hyperemia	hyperemia	O	S_disease
 like	like	O	O
 other	other	O	O
-methylxanthines	methylxanthines	O	O
+methylxanthines	methylxanthines	S_chemical	O
 such	such	O	O
 as	as	O	O
 theophylline	theophylline	S_chemical	O
@@ -72,7 +72,7 @@ be	be	O	O
 stopped	stopped	O	O
 prior	prior	O	O
 to	to	O	O
-dipyridamole-thallium-201	dipyridamole-thallium-201	O	O
+dipyridamole-thallium-201	dipyridamole-thallium-201	S_chemical	O
 imaging	imaging	O	O
 is	is	O	O
 unknown	unknown	O	O
@@ -188,12 +188,12 @@ than	than	O	O
 We	we	O	O
 conclude	conclude	O	O
 that	that	O	O
-pentoxyifylline	pentoxyifylline	O	O
+pentoxyifylline	pentoxyifylline	S_chemical	O
 does	does	O	O
 not	not	O	O
 inhibit	inhibit	O	O
 dipyridamole-induced	dipyridamole-induced	O	O
-coronary	coronary	O	O
+coronary	coronary	O	B_disease
 hyperemia	hyperemia	O	S_disease
 even	even	O	O
 at	at	O	O

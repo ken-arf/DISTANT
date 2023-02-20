@@ -4,7 +4,7 @@ of	of	O	O
 hypertension	hypertension	O	S_disease
 during	during	O	O
 focal	focal	O	O
-cerebral	cerebral	O	O
+cerebral	cerebral	O	B_disease
 ischemia	ischemia	O	S_disease
 :	:	O	O
 effect	effect	O	O
@@ -29,7 +29,7 @@ cerebral	cerebral	O	O
 artery	artery	O	O
 occlusion	occlusion	O	O
 (	(	O	O
-MCAO	mcao	O	O
+MCAO	mcao	S_chemical	O
 )	)	O	O
 on	on	O	O
 brain	brain	O	B_disease
@@ -103,13 +103,13 @@ beginning	beginning	O	O
 2	2	O	O
 h	h	S_chemical	O
 after	after	O	O
-MCAO	mcao	O	O
+MCAO	mcao	S_chemical	O
 .	.	O	O
 
 Four	four	O	O
 hours	hours	O	O
 after	after	O	O
-MCAO	mcao	O	O
+MCAO	mcao	S_chemical	O
 ,	,	O	O
 the	the	O	O
 rats	rats	O	O
@@ -135,7 +135,7 @@ of	of	O	O
 ischemia	ischemia	O	S_disease
 produced	produced	O	O
 by	by	O	O
-MCAO	mcao	O	O
+MCAO	mcao	S_chemical	O
 .	.	O	O
 
 Specific	specific	O	O
@@ -161,16 +161,16 @@ and	and	O	O
 periphery	periphery	O	O
 of	of	O	O
 the	the	O	O
-ischemic	ischemic	O	O
-territory	territory	O	O
+ischemic	ischemic	O	B_disease
+territory	territory	O	I_disease
 )	)	O	O
 .	.	O	O
 
 The	the	O	O
 extent	extent	O	O
 of	of	O	O
-neuronal	neuronal	O	O
-injury	injury	O	O
+neuronal	neuronal	O	B_disease
+injury	injury	O	I_disease
 was	was	O	O
 determined	determined	O	O
 by	by	O	O
@@ -205,8 +205,8 @@ the	the	O	O
 periphery	periphery	O	O
 of	of	O	O
 the	the	O	O
-ischemic	ischemic	O	O
-territory	territory	O	O
+ischemic	ischemic	O	B_disease
+territory	territory	O	I_disease
 ,	,	O	O
 SG	sg	O	O
 in	in	O	O
@@ -294,7 +294,7 @@ instituted	instituted	O	O
 2	2	O	O
 h	h	S_chemical	O
 after	after	O	O
-MCAO	mcao	O	O
+MCAO	mcao	S_chemical	O
 does	does	O	O
 not	not	O	O
 aggravate	aggravate	O	O
@@ -313,8 +313,8 @@ the	the	O	O
 periphery	periphery	O	O
 of	of	O	O
 the	the	O	O
-ischemic	ischemic	O	O
-territory	territory	O	O
+ischemic	ischemic	O	B_disease
+territory	territory	O	I_disease
 ,	,	O	O
 and	and	O	O
 that	that	O	O
@@ -323,8 +323,8 @@ reduces	reduces	O	O
 the	the	O	O
 area	area	O	O
 of	of	O	O
-histochemical	histochemical	O	O
-neuronal	neuronal	O	O
-dysfunction	dysfunction	O	O
+histochemical	histochemical	O	B_disease
+neuronal	neuronal	O	I_disease
+dysfunction	dysfunction	O	I_disease
 .	.	O	O
 

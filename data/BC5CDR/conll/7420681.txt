@@ -24,11 +24,11 @@ antibiotics	antibiotics	O	O
 annually	annually	O	O
 .	.	O	O
 
-Gentamicin	gentamicin	S_chemical	O
-sulfate	sulfate	O	O
+Gentamicin	gentamicin	B_chemical	O
+sulfate	sulfate	I_chemical	O
 and	and	O	O
-tobramycin	tobramycin	S_chemical	O
-sulfate	sulfate	O	O
+tobramycin	tobramycin	B_chemical	O
+sulfate	sulfate	I_chemical	O
 continue	continue	O	O
 to	to	O	O
 demonstrate	demonstrate	O	O
@@ -63,11 +63,11 @@ to	to	O	O
 5	5	O	O
 mg/kg/day	mg/kg/day	O	O
 of	of	O	O
-gentamicin	gentamicin	S_chemical	O
-sulfate	sulfate	O	O
+gentamicin	gentamicin	B_chemical	O
+sulfate	sulfate	I_chemical	O
 or	or	O	O
-tobramycin	tobramycin	S_chemical	O
-sulfate	sulfate	O	O
+tobramycin	tobramycin	B_chemical	O
+sulfate	sulfate	I_chemical	O
 for	for	O	O
 a	a	O	O
 minimum	minimum	O	O
@@ -146,8 +146,8 @@ Thus	thus	O	O
 ,	,	O	O
 gentamicin	gentamicin	S_chemical	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 renal	renal	O	B_disease
 failure	failure	O	I_disease
 more	more	O	O

@@ -5,7 +5,7 @@ of	of	O	O
 dna	dna	O	O
 damage	damage	O	O
 associated	associated	O	O
-apoptotic	apoptotic	O	O
+apoptotic	apoptotic	O	S_disease
 and	and	O	O
 necrotic	necrotic	O	S_disease
 cell	cell	O	O
@@ -38,7 +38,7 @@ primarily	primarily	O	O
 a	a	O	O
 mixture	mixture	O	O
 of	of	O	O
-proanthocyanidins	proanthocyanidins	O	O
+proanthocyanidins	proanthocyanidins	S_chemical	O
 ,	,	O	O
 has	has	O	O
 been	been	O	O
@@ -335,7 +335,7 @@ AMI	ami	S_chemical	O
 and	and	O	O
 DOX	dox	S_chemical	O
 induced	induced	O	O
-apoptotic	apoptotic	O	O
+apoptotic	apoptotic	O	S_disease
 death	death	O	S_disease
 in	in	O	O
 addition	addition	O	O
@@ -428,7 +428,7 @@ first	first	O	O
 report	report	O	O
 on	on	O	O
 AMI-induced	ami-induced	O	O
-apoptotic	apoptotic	O	O
+apoptotic	apoptotic	O	S_disease
 death	death	O	S_disease
 in	in	O	O
 the	the	O	O

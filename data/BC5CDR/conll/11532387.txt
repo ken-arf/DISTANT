@@ -16,7 +16,7 @@ RS	rs	O	O
 is	is	O	O
 a	a	O	O
 rare	rare	O	O
-extrapyramidal	extrapyramidal	O	O
+extrapyramidal	extrapyramidal	O	S_disease
 side	side	O	O
 effect	effect	O	O
 caused	caused	O	O

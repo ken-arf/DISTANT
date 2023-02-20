@@ -5,7 +5,7 @@ of	of	O	O
 a	a	O	O
 patient	patient	O	O
 with	with	O	O
-decompensated	decompensated	O	O
+decompensated	decompensated	O	S_disease
 hepatitis	hepatitis	O	B_disease
 B	b	O	I_disease
 virus-related	virus-related	O	O
@@ -36,8 +36,8 @@ carcinoma	carcinoma	O	S_disease
 remains	remains	O	O
 a	a	O	O
 major	major	O	O
-health	health	O	O
-problem	problem	O	O
+health	health	O	B_disease
+problem	problem	O	I_disease
 in	in	O	O
 Asian	asian	O	O
 countries	countries	O	O
@@ -86,7 +86,7 @@ encountered	encountered	O	O
 a	a	O	O
 patient	patient	O	O
 with	with	O	O
-decompensated	decompensated	O	O
+decompensated	decompensated	O	S_disease
 HBV-related	hbv-related	O	O
 cirrhosis	cirrhosis	O	S_disease
 who	who	O	O
@@ -147,8 +147,8 @@ months	months	O	O
 dramatically	dramatically	O	O
 improved	improved	O	O
 her	her	O	O
-liver	liver	O	O
-severity	severity	O	O
+liver	liver	O	B_disease
+severity	severity	O	I_disease
 .	.	O	O
 
 During	during	O	O

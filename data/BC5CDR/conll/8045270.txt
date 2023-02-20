@@ -124,10 +124,10 @@ anticataleptic	anticataleptic	O	O
 effects	effects	O	O
 of	of	O	O
 a	a	O	O
-subthreshold	subthreshold	O	O
+subthreshold	subthreshold	S_chemical	O
 dose	dose	O	O
 of	of	O	O
-L-3,4-dihydroxyphenylalanine	l-3,4-dihydroxyphenylalanine	O	O
+L-3,4-dihydroxyphenylalanine	l-3,4-dihydroxyphenylalanine	S_chemical	O
 (	(	O	O
 L-DOPA	l-dopa	O	O
 ;	;	O	O
@@ -137,7 +137,7 @@ i.p	i.p	O	O
 .	.	O	O
 )	)	O	O
 plus	plus	O	O
-benserazide	benserazide	O	O
+benserazide	benserazide	S_chemical	O
 (	(	O	O
 6.25	6.25	O	O
 mg/kg	mg/kg	O	O
@@ -162,7 +162,7 @@ antagonist	antagonist	O	O
 and	and	O	O
 that	that	O	O
 the	the	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 function	function	O	O
 of	of	O	O
 the	the	O	O

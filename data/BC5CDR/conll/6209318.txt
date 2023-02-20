@@ -209,8 +209,8 @@ significant	significant	O	O
 The	the	O	O
 incidence	incidence	O	O
 of	of	O	O
-coronary	coronary	O	O
-events	events	O	O
+coronary	coronary	O	B_disease
+events	events	O	I_disease
 was	was	O	O
 similar	similar	O	O
 in	in	O	O
@@ -220,14 +220,14 @@ groups	groups	O	O
 
 Previously	previously	O	O
 recognized	recognized	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 ,	,	O	O
 particularly	particularly	O	O
 tremor	tremor	O	S_disease
 and	and	O	O
-gastrointestinal	gastrointestinal	O	O
-problems	problems	O	O
+gastrointestinal	gastrointestinal	O	B_disease
+problems	problems	O	I_disease
 ,	,	O	O
 were	were	O	O
 more	more	O	O

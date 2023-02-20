@@ -2,7 +2,7 @@ Magnetic	magnetic	O	O
 resonance	resonance	O	O
 imaging	imaging	O	O
 of	of	O	O
-cerebral	cerebral	O	O
+cerebral	cerebral	O	B_disease
 venous	venous	O	B_disease
 thrombosis	thrombosis	O	S_disease
 secondary	secondary	O	O
@@ -41,12 +41,12 @@ presented	presented	O	O
 with	with	O	O
 relatively	relatively	O	O
 mild	mild	O	O
-clinical	clinical	O	O
-symptoms	symptoms	O	O
+clinical	clinical	O	B_disease
+symptoms	symptoms	O	I_disease
 and	and	O	O
 progressing	progressing	O	O
-mental	mental	O	O
-status	status	O	O
+mental	mental	O	B_disease
+status	status	O	I_disease
 changes	changes	O	O
 .	.	O	O
 
@@ -61,7 +61,7 @@ low-dose	low-dose	O	O
 "	"	O	O
 oral	oral	B_chemical	O
 contraceptive	contraceptive	I_chemical	O
-pills	pills	O	O
+pills	pills	I_chemical	O
 .	.	O	O
 
 The	the	O	O

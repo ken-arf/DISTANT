@@ -1,4 +1,4 @@
-Hepatonecrosis	hepatonecrosis	O	O
+Hepatonecrosis	hepatonecrosis	O	S_disease
 and	and	O	O
 cholangitis	cholangitis	O	O
 related	related	O	O
@@ -34,8 +34,8 @@ that	that	O	O
 PB-related	pb-related	O	O
 increases	increases	O	O
 in	in	O	O
-serum	serum	O	O
-aminotransferase	aminotransferase	O	O
+serum	serum	B_chemical	O
+aminotransferase	aminotransferase	I_chemical	O
 levels	levels	O	O
 do	do	O	O
 not	not	O	O
@@ -46,7 +46,7 @@ the	the	O	O
 development	development	O	O
 of	of	O	O
 significant	significant	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 liver	liver	O	B_disease
 disease	disease	O	I_disease
 .	.	O	O
@@ -81,8 +81,8 @@ arrest	arrest	O	I_disease
 the	the	O	O
 other	other	O	O
 of	of	O	O
-acute	acute	O	O
-bronchopneumonia	bronchopneumonia	O	O
+acute	acute	O	B_disease
+bronchopneumonia	bronchopneumonia	O	I_disease
 .	.	O	O
 
 At	at	O	O
@@ -107,8 +107,8 @@ and	and	O	O
 monocyte	monocyte	O	O
 cells	cells	O	O
 ,	,	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 several	several	O	O
 foci	foci	O	O
 of	of	O	O
@@ -120,8 +120,8 @@ hard	hard	O	O
 ring	ring	O	O
 of	of	O	O
 non-specific	non-specific	O	O
-granulomatous	granulomatous	O	O
-tissue	tissue	O	O
+granulomatous	granulomatous	O	B_disease
+tissue	tissue	O	I_disease
 .	.	O	O
 
 Inflammatory	inflammatory	O	O
@@ -145,9 +145,9 @@ that	that	O	O
 PB	pb	O	O
 may	may	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
-chronic	chronic	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+chronic	chronic	O	B_disease
 liver	liver	O	B_disease
 damage	damage	O	I_disease
 ,	,	O	O
@@ -179,9 +179,9 @@ diagnosis	diagnosis	O	O
 of	of	O	O
 PB-related	pb-related	O	O
 asymptomatic	asymptomatic	O	O
-chronic	chronic	O	O
-hepatic	hepatic	O	O
-enzyme	enzyme	O	O
-dysfunction	dysfunction	O	O
+chronic	chronic	O	B_disease
+hepatic	hepatic	O	I_disease
+enzyme	enzyme	O	I_disease
+dysfunction	dysfunction	O	I_disease
 .	.	O	O
 

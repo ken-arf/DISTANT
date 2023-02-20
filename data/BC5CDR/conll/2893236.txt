@@ -89,7 +89,7 @@ Pretreatment	pretreatment	O	O
 of	of	O	O
 rats	rats	O	O
 with	with	O	O
-thiosemicarbazide	thiosemicarbazide	O	O
+thiosemicarbazide	thiosemicarbazide	S_chemical	O
 for	for	O	O
 30	30	O	O
 minutes	minutes	O	O
@@ -115,8 +115,8 @@ i.v	i.v	O	O
 .	.	O	O
 thiopental	thiopental	O	O
 produced	produced	O	O
-respiratory	respiratory	O	O
-arrest	arrest	O	O
+respiratory	respiratory	O	B_disease
+arrest	arrest	O	I_disease
 with	with	O	O
 further	further	O	O
 increase	increase	O	O

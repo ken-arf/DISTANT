@@ -13,7 +13,7 @@ Apomorphine	apomorphine	S_chemical	O
 was	was	O	O
 the	the	O	O
 first	first	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 drug	drug	O	O
 ever	ever	O	O
 used	used	O	O
@@ -183,8 +183,8 @@ subcutaneous	subcutaneous	O	O
 apomorphine	apomorphine	S_chemical	O
 infusions	infusions	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 marked	marked	O	O
 reductions	reductions	O	O
 of	of	O	O
@@ -195,8 +195,8 @@ dyskinesias	dyskinesias	O	S_disease
 
 The	the	O	O
 main	main	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 subcutaneous	subcutaneous	O	O
 apomorphine	apomorphine	S_chemical	O
@@ -211,8 +211,8 @@ problems	problems	O	O
 whereas	whereas	O	O
 sedation	sedation	O	O
 and	and	O	O
-psychiatric	psychiatric	O	S_disease
-complications	complications	O	O
+psychiatric	psychiatric	O	B_disease
+complications	complications	O	I_disease
 play	play	O	O
 a	a	O	O
 lesser	lesser	O	O

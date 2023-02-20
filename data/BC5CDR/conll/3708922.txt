@@ -43,8 +43,8 @@ for	for	O	O
 4	4	O	O
 weeks	weeks	O	O
 caused	caused	O	O
-renal	renal	O	O
-functional	functional	O	O
+renal	renal	O	B_disease
+functional	functional	O	I_disease
 and	and	O	O
 structural	structural	O	O
 changes	changes	O	O

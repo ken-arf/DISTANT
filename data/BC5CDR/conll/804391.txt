@@ -83,7 +83,7 @@ these	these	O	O
 eight	eight	O	O
 patients	patients	O	O
 to	to	O	O
-phytomitogen	phytomitogen	O	O
+phytomitogen	phytomitogen	S_chemical	O
 (	(	O	O
 PHA-P	pha-p	O	O
 )	)	O	O

@@ -1,12 +1,12 @@
 Simvastatin-induced	simvastatin-induced	O	O
 bilateral	bilateral	O	O
-leg	leg	O	O
-compartment	compartment	O	O
-syndrome	syndrome	O	O
+leg	leg	O	B_disease
+compartment	compartment	O	I_disease
+syndrome	syndrome	O	I_disease
 and	and	O	O
 myonecrosis	myonecrosis	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 hypothyroidism	hypothyroidism	O	S_disease
 .	.	O	O
 
@@ -21,9 +21,9 @@ simvastatin	simvastatin	S_chemical	O
 presented	presented	O	O
 with	with	O	O
 bilateral	bilateral	O	O
-leg	leg	O	O
-compartment	compartment	O	O
-syndrome	syndrome	O	O
+leg	leg	O	B_disease
+compartment	compartment	O	I_disease
+syndrome	syndrome	O	I_disease
 and	and	O	O
 myonecrosis	myonecrosis	O	O
 .	.	O	O
@@ -70,7 +70,7 @@ its	its	O	O
 approval	approval	O	O
 for	for	O	O
 all	all	O	O
-arteriopathic	arteriopathic	O	O
+arteriopathic	arteriopathic	O	S_disease
 patients	patients	O	O
 .	.	O	O
 

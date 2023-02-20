@@ -48,7 +48,7 @@ to	to	O	O
 the	the	O	O
 development	development	O	O
 of	of	O	O
-bradyarrhythmias	bradyarrhythmias	O	O
+bradyarrhythmias	bradyarrhythmias	O	S_disease
 ;	;	O	O
 and	and	O	O
 ,	,	O	O

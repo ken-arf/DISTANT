@@ -24,7 +24,7 @@ levels	levels	O	O
 of	of	O	O
 blood	blood	B_chemical	B_disease
 coagulation	coagulation	B_chemical	I_disease
-factors	factors	I_chemical	O
+factors	factors	I_chemical	I_disease
 :	:	O	O
 summary	summary	O	O
 report	report	O	O
@@ -120,7 +120,7 @@ profile	profile	O	O
 ,	,	O	O
 suggesting	suggesting	O	O
 "	"	O	O
-hypercoagulability	hypercoagulability	O	O
+hypercoagulability	hypercoagulability	O	S_disease
 "	"	O	O
 before	before	O	O
 initiation	initiation	O	O

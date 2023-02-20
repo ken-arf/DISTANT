@@ -52,7 +52,7 @@ antineutrophil	antineutrophil	O	O
 cytoplasmic	cytoplasmic	O	O
 antibodies	antibodies	O	O
 (	(	O	O
-ANCAs	ancas	O	O
+ANCAs	ancas	S_chemical	O
 )	)	O	O
 in	in	O	O
 response	response	O	O
@@ -76,8 +76,8 @@ who	who	O	O
 presented	presented	O	O
 with	with	O	O
 palpable	palpable	O	O
-purpuric	purpuric	O	O
-lesions	lesions	O	O
+purpuric	purpuric	O	B_disease
+lesions	lesions	O	I_disease
 .	.	O	O
 
 The	the	O	O

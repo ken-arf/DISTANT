@@ -1,7 +1,7 @@
-Cholestatic	cholestatic	O	O
+Cholestatic	cholestatic	O	S_disease
 jaundice	jaundice	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 use	use	O	O
 of	of	O	O
@@ -14,7 +14,7 @@ a	a	O	O
 patient	patient	O	O
 who	who	O	O
 developed	developed	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 jaundice	jaundice	O	S_disease
 shortly	shortly	O	O
 after	after	O	O
@@ -22,8 +22,8 @@ initiation	initiation	O	O
 of	of	O	O
 treatment	treatment	O	O
 with	with	O	O
-metformin	metformin	O	O
-hydrochloride	hydrochloride	O	O
+metformin	metformin	B_chemical	O
+hydrochloride	hydrochloride	I_chemical	O
 .	.	O	O
 
 Ultrasound	ultrasound	O	O
@@ -59,16 +59,16 @@ with	with	O	O
 portal	portal	O	O
 edema	edema	O	S_disease
 ,	,	O	O
-ductular	ductular	O	O
-proliferation	proliferation	O	O
+ductular	ductular	O	B_disease
+proliferation	proliferation	O	I_disease
 ,	,	O	O
 and	and	O	O
 acute	acute	O	O
 inflammation	inflammation	O	S_disease
 .	.	O	O
 
-Metformin	metformin	O	O
-hydrochloride	hydrochloride	O	O
+Metformin	metformin	B_chemical	O
+hydrochloride	hydrochloride	I_chemical	O
 was	was	O	O
 discontinued	discontinued	O	O
 ,	,	O	O
@@ -89,8 +89,8 @@ months	months	O	O
 
 Given	given	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 his	his	O	O
 jaundice	jaundice	O	S_disease
 2	2	O	O

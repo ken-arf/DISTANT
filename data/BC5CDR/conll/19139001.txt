@@ -11,15 +11,15 @@ III	iii	O	O
 clinical	clinical	O	O
 trial	trial	O	O
 of	of	O	O
-difluoromethylornithine	difluoromethylornithine	O	O
+difluoromethylornithine	difluoromethylornithine	S_chemical	O
 and	and	O	O
 sulindac	sulindac	S_chemical	O
 for	for	O	O
 prevention	prevention	O	O
 of	of	O	O
 sporadic	sporadic	O	O
-colorectal	colorectal	O	O
-adenomas	adenomas	O	O
+colorectal	colorectal	O	B_disease
+adenomas	adenomas	O	I_disease
 .	.	O	O
 
 A	a	O	O
@@ -39,9 +39,9 @@ for	for	O	O
 36	36	O	O
 months	months	O	O
 with	with	O	O
-difluoromethylornithine	difluoromethylornithine	O	O
+difluoromethylornithine	difluoromethylornithine	S_chemical	O
 (	(	O	O
-DFMO	dfmo	O	O
+DFMO	dfmo	S_chemical	O
 )	)	O	O
 plus	plus	O	O
 sulindac	sulindac	S_chemical	O
@@ -60,7 +60,7 @@ toxicity	toxicity	O	S_disease
 of	of	O	O
 treatment	treatment	O	O
 with	with	O	O
-DFMO	dfmo	O	O
+DFMO	dfmo	S_chemical	O
 ,	,	O	O
 thus	thus	O	O
 a	a	O	O
@@ -128,7 +128,7 @@ between	between	O	O
 subjects	subjects	O	O
 treated	treated	O	O
 with	with	O	O
-DFMO	dfmo	O	O
+DFMO	dfmo	S_chemical	O
 plus	plus	O	O
 sulindac	sulindac	S_chemical	O
 compared	compared	O	O
@@ -216,7 +216,7 @@ of	of	O	O
 )	)	O	O
 in	in	O	O
 the	the	O	O
-DFMO	dfmo	O	O
+DFMO	dfmo	S_chemical	O
 plus	plus	O	O
 sulindac	sulindac	S_chemical	O
 group	group	O	O
@@ -310,14 +310,14 @@ of	of	O	O
 subjects	subjects	O	O
 in	in	O	O
 the	the	O	O
-DFMO	dfmo	O	O
+DFMO	dfmo	S_chemical	O
 plus	plus	O	O
 sulindac	sulindac	S_chemical	O
 group	group	O	O
 who	who	O	O
 experienced	experienced	O	O
-clinically	clinically	O	O
-significant	significant	O	O
+clinically	clinically	O	B_disease
+significant	significant	O	I_disease
 hearing	hearing	O	B_disease
 loss	loss	O	I_disease
 compared	compared	O	O
@@ -373,7 +373,7 @@ for	for	O	O
 patients	patients	O	O
 treated	treated	O	O
 with	with	O	O
-DFMO	dfmo	O	O
+DFMO	dfmo	S_chemical	O
 plus	plus	O	O
 sulindac	sulindac	S_chemical	O
 compared	compared	O	O

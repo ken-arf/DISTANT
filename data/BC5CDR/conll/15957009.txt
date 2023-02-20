@@ -10,11 +10,11 @@ performance	performance	O	O
 in	in	O	O
 cholinergic	cholinergic	O	O
 and	and	O	O
-serotonergic	serotonergic	O	O
+serotonergic	serotonergic	S_chemical	O
 models	models	O	O
 of	of	O	O
-memory	memory	O	O
-deficiency	deficiency	O	O
+memory	memory	O	B_disease
+deficiency	deficiency	O	I_disease
 in	in	O	O
 the	the	O	O
 rat	rat	O	O
@@ -101,7 +101,7 @@ serotonergic-	serotonergic-	O	O
 (	(	O	O
 tryptophan	tryptophan	O	O
 (	(	O	O
-TRP	trp	O	O
+TRP	trp	S_chemical	O
 )	)	O	O
 depletion	depletion	O	O
 )	)	O	O
@@ -118,9 +118,9 @@ with	with	O	O
 that	that	O	O
 of	of	O	O
 the	the	O	O
-acetylcholinesterase	acetylcholinesterase	O	O
+acetylcholinesterase	acetylcholinesterase	S_chemical	O
 inhibitor	inhibitor	O	O
-metrifonate	metrifonate	O	O
+metrifonate	metrifonate	S_chemical	O
 .	.	O	O
 
 Initial	initial	O	O
@@ -140,7 +140,7 @@ and	and	O	O
 testing	testing	O	O
 showed	showed	O	O
 that	that	O	O
-metrifonate	metrifonate	O	O
+metrifonate	metrifonate	S_chemical	O
 improved	improved	O	O
 object	object	O	O
 recognition	recognition	O	O
@@ -177,7 +177,7 @@ i.p	i.p	O	O
 )	)	O	O
 )	)	O	O
 and	and	O	O
-metrifonate	metrifonate	O	O
+metrifonate	metrifonate	S_chemical	O
 (	(	O	O
 10	10	O	O
 mg/kg	mg/kg	O	O
@@ -188,13 +188,13 @@ p.o	p.o	O	O
 respectively	respectively	O	O
 )	)	O	O
 reversed	reversed	O	O
-memory	memory	O	O
-deficits	deficits	O	O
+memory	memory	O	B_disease
+deficits	deficits	O	I_disease
 induced	induced	O	O
 by	by	O	O
 scopolamine	scopolamine	S_chemical	O
 and	and	O	O
-TRP	trp	O	O
+TRP	trp	S_chemical	O
 depletion	depletion	O	O
 (	(	O	O
 10	10	O	O
@@ -233,7 +233,7 @@ a	a	O	O
 cholinergic	cholinergic	O	O
 and	and	O	O
 a	a	O	O
-serotonergic	serotonergic	O	O
+serotonergic	serotonergic	S_chemical	O
 memory	memory	O	O
 deficit	deficit	O	O
 ,	,	O	O

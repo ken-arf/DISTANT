@@ -19,7 +19,7 @@ test	test	O	O
 the	the	O	O
 effects	effects	O	O
 of	of	O	O
-L-alpha-glycerylphosphorylcholine	l-alpha-glycerylphosphorylcholine	O	O
+L-alpha-glycerylphosphorylcholine	l-alpha-glycerylphosphorylcholine	S_chemical	O
 (	(	O	O
 L-alpha-GFC	l-alpha-gfc	O	O
 )	)	O	O

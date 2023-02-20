@@ -25,7 +25,7 @@ d	d	O	O
 of	of	O	O
 nelarabine	nelarabine	S_chemical	O
 (	(	O	O
-AraG	arag	S_chemical	O
+AraG	arag	S_chemical	S_disease
 )	)	O	O
 with	with	O	O
 5	5	O	O
@@ -65,12 +65,12 @@ lymphoma	lymphoma	O	O
 The	the	O	O
 most	most	O	O
 common	common	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 attributable	attributable	O	O
 to	to	O	O
 the	the	O	O
-AraG	arag	S_chemical	O
+AraG	arag	S_chemical	S_disease
 included	included	O	O
 Grade	grade	O	O
 2	2	O	O
@@ -93,7 +93,7 @@ for	for	O	O
 the	the	O	O
 combination	combination	O	O
 than	than	O	O
-AraG	arag	S_chemical	O
+AraG	arag	S_chemical	S_disease
 alone	alone	O	O
 ,	,	O	O
 although	although	O	O
@@ -146,7 +146,7 @@ the	the	O	O
 safety	safety	O	O
 of	of	O	O
 giving	giving	O	O
-AraG	arag	S_chemical	O
+AraG	arag	S_chemical	S_disease
 as	as	O	O
 salvage	salvage	O	O
 therapy	therapy	O	O

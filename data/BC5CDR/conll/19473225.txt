@@ -36,7 +36,7 @@ closely	closely	O	O
 related	related	O	O
 amino	amino	B_chemical	O
 acid	acid	I_chemical	O
-glutamine	glutamine	O	O
+glutamine	glutamine	I_chemical	O
 were	were	O	O
 claimed	claimed	O	O
 to	to	O	O

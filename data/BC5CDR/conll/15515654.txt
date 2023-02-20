@@ -163,7 +163,7 @@ sensorineural	sensorineural	O	B_disease
 hearing	hearing	O	B_disease
 loss	loss	O	I_disease
 (	(	O	O
-SNHL	snhl	O	O
+SNHL	snhl	S_chemical	O
 )	)	O	O
 ,	,	O	O
 either	either	O	O
@@ -191,7 +191,7 @@ patients	patients	O	O
 
 Patients	patients	O	O
 with	with	O	O
-SNHL	snhl	O	O
+SNHL	snhl	S_chemical	O
 presented	presented	O	O
 with	with	O	O
 relatively	relatively	O	O
@@ -217,7 +217,7 @@ observed	observed	O	O
 
 Subjects	subjects	O	O
 with	with	O	O
-SNHL	snhl	O	O
+SNHL	snhl	S_chemical	O
 were	were	O	O
 submitted	submitted	O	O
 to	to	O	O

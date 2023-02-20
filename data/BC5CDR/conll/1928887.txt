@@ -24,12 +24,12 @@ mediated	mediated	O	O
 by	by	O	O
 the	the	O	O
 endogenous	endogenous	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 system	system	O	O
 .	.	O	O
 
 The	the	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 antagonist	antagonist	O	O
 naloxone	naloxone	S_chemical	O
 has	has	O	O

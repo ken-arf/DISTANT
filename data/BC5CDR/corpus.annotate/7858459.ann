@@ -1,0 +1,15 @@
+T2	Chemical 70 82	folinic acid
+T3	Chemical 157 168	cisplatinum
+T4	Chemical 170 179	etoposide
+T5	Chemical 233 245	folinic acid
+T6	Disease 264 286	gastric adenocarcinoma
+T7	Disease 301 326	acute neurologic symptoms
+T8	Disease 330 346	mental confusion
+T11	Chemical 502 514	folinic acid
+T12	Chemical 609 621	folinic acid
+T13	Chemical 669 681	folinic acid
+T14	Disease 733 746	neurotoxicity
+T15	Disease 836 849	neurotoxicity
+T16	Chemical 890 903	fluoroacetate
+T17	Chemical 908 921	fluorocitrate
+T19	Chemical 947 974	dihydrouracil dehydrogenase

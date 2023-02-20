@@ -42,6 +42,6 @@ max_patient_count: 3
 
 
 # restore model
-restore_model: False
+restore_model: True
 restore_model_path: experiments/immunology/models/model_best_%suffix%.pth
 

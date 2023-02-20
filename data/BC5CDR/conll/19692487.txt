@@ -84,14 +84,14 @@ a	a	O	O
 marked	marked	O	O
 polyuria	polyuria	O	S_disease
 with	with	O	O
-hyposmotic	hyposmotic	O	O
+hyposmotic	hyposmotic	O	S_disease
 urine	urine	O	O
 .	.	O	O
 
 This	this	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 elevated	elevated	O	O
 renal	renal	O	O
 mPGES-1	mpges-1	O	O

@@ -1,16 +1,16 @@
 Time	time	O	O
 dependence	dependence	O	O
 of	of	O	O
-plasma	plasma	O	O
+plasma	plasma	B_chemical	O
 malondialdehyde	malondialdehyde	S_chemical	O
 ,	,	O	O
-oxypurines	oxypurines	O	O
+oxypurines	oxypurines	S_chemical	O
 ,	,	O	O
 and	and	O	O
 nucleosides	nucleosides	O	O
 during	during	O	O
 incomplete	incomplete	O	O
-cerebral	cerebral	O	O
+cerebral	cerebral	O	B_disease
 ischemia	ischemia	O	S_disease
 in	in	O	O
 the	the	O	O
@@ -18,7 +18,7 @@ rat	rat	O	O
 .	.	O	O
 
 Incomplete	incomplete	O	O
-cerebral	cerebral	O	O
+cerebral	cerebral	O	B_disease
 ischemia	ischemia	O	S_disease
 (	(	O	O
 30	30	O	O
@@ -93,7 +93,7 @@ determination	determination	O	O
 of	of	O	O
 malondialdehyde	malondialdehyde	S_chemical	O
 ,	,	O	O
-oxypurines	oxypurines	O	O
+oxypurines	oxypurines	S_chemical	O
 ,	,	O	O
 and	and	O	O
 nucleosides	nucleosides	O	O
@@ -106,15 +106,15 @@ a	a	O	O
 time-dependent	time-dependent	O	O
 increase	increase	O	O
 of	of	O	O
-plasma	plasma	O	O
-oxypurines	oxypurines	O	O
+plasma	plasma	B_chemical	O
+oxypurines	oxypurines	S_chemical	O
 and	and	O	O
 nucleosides	nucleosides	O	O
 was	was	O	O
 observed	observed	O	O
 .	.	O	O
 
-Plasma	plasma	O	O
+Plasma	plasma	B_chemical	O
 malondialdehyde	malondialdehyde	S_chemical	O
 ,	,	O	O
 which	which	O	O
@@ -164,7 +164,7 @@ SD	sd	O	O
 .	.	O	O
 
 Increased	increased	O	O
-plasma	plasma	O	O
+plasma	plasma	B_chemical	O
 malondialdehyde	malondialdehyde	S_chemical	O
 was	was	O	O
 also	also	O	O
@@ -192,7 +192,7 @@ of	of	O	O
 the	the	O	O
 cyclooxygenase	cyclooxygenase	O	O
 inhibitor	inhibitor	O	O
-acetylsalicylate	acetylsalicylate	O	O
+acetylsalicylate	acetylsalicylate	S_chemical	O
 intravenously	intravenously	O	O
 immediately	immediately	O	O
 before	before	O	O
@@ -242,7 +242,7 @@ determination	determination	O	O
 of	of	O	O
 malondialdehyde	malondialdehyde	S_chemical	O
 ,	,	O	O
-oxypurines	oxypurines	O	O
+oxypurines	oxypurines	S_chemical	O
 ,	,	O	O
 and	and	O	O
 nucleosides	nucleosides	O	O

@@ -17,8 +17,8 @@ Current	current	O	O
 animal	animal	O	O
 models	models	O	O
 of	of	O	O
-obsessive-compulsive	obsessive-compulsive	O	O
-disorder	disorder	O	O
+obsessive-compulsive	obsessive-compulsive	O	B_disease
+disorder	disorder	O	I_disease
 (	(	O	O
 OCD	ocd	O	S_disease
 )	)	O	O
@@ -34,7 +34,7 @@ a	a	O	O
 genetic	genetic	O	O
 association	association	O	O
 with	with	O	O
-stereotypies	stereotypies	O	O
+stereotypies	stereotypies	O	S_disease
 or	or	O	O
 anxiety	anxiety	O	S_disease
 .	.	O	O
@@ -59,7 +59,7 @@ treated	treated	O	O
 with	with	O	O
 the	the	O	O
 tricyclic	tricyclic	O	O
-antidepressant	antidepressant	S_chemical	O
+antidepressant	antidepressant	B_chemical	O
 clomipramine	clomipramine	S_chemical	O
 or	or	O	O
 vehicle	vehicle	O	O
@@ -131,8 +131,8 @@ paradigm	paradigm	O	O
 hoarding	hoarding	O	O
 ,	,	O	O
 and	and	O	O
-corticostriatal	corticostriatal	O	O
-dysfunction	dysfunction	O	O
+corticostriatal	corticostriatal	O	B_disease
+dysfunction	dysfunction	O	I_disease
 .	.	O	O
 
 Dopamine	dopamine	S_chemical	O
@@ -235,7 +235,7 @@ for	for	O	O
 this	this	O	O
 and	and	O	O
 other	other	O	O
-psychiatric	psychiatric	O	S_disease
-disorders	disorders	O	O
+psychiatric	psychiatric	O	B_disease
+disorders	disorders	O	I_disease
 .	.	O	O
 

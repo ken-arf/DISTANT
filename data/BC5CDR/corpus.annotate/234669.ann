@@ -1,0 +1,17 @@
+T2	Disease 57 81	ventricular fibrillation
+T3	Disease 89 108	respiratory failure
+T4	Disease 109 128	Cardiac arrhythmias
+T5	Disease 179 198	respiratory failure
+T6	Disease 268 288	cardiac disturbances
+T7	Disease 306 325	respiratory failure
+T9	Disease 397 421	ventricular fibrillation
+T10	Disease 478 497	respiratory failure
+T11	Disease 548 572	ventricular fibrillation
+T12	Disease 663 685	ventricular myocardium
+T14	Disease 779 803	ventricular fibrillation
+T15	Chemical 911 925	carbon dioxide
+T16	Disease 969 988	respiratory failure
+T17	Disease 1005 1020	hypoventilation
+T19	Disease 1148 1172	ventricular fibrillation
+T20	Disease 1317 1340	ventricular arrhythmias
+T21	Disease 1344 1363	respiratory failure

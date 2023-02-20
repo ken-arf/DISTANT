@@ -3,7 +3,7 @@ malignant	malignant	O	I_disease
 syndrome	syndrome	O	I_disease
 induced	induced	O	O
 by	by	O	O
-ziprasidone	ziprasidone	O	O
+ziprasidone	ziprasidone	S_chemical	O
 on	on	O	O
 the	the	O	O
 second	second	O	O
@@ -42,12 +42,12 @@ syndrome	syndrome	O	I_disease
 (	(	O	O
 NMS	nms	O	O
 )	)	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 use	use	O	O
 of	of	O	O
-ziprasidone	ziprasidone	O	O
+ziprasidone	ziprasidone	S_chemical	O
 .	.	O	O
 
 Although	although	O	O
@@ -56,15 +56,15 @@ neuroleptics	neuroleptics	S_chemical	O
 are	are	O	O
 more	more	O	O
 frequently	frequently	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 NMS	nms	O	O
 ,	,	O	O
 atypical	atypical	O	O
 antipsychotic	antipsychotic	B_chemical	O
 drugs	drugs	I_chemical	O
 like	like	O	O
-ziprasidone	ziprasidone	O	O
+ziprasidone	ziprasidone	S_chemical	O
 may	may	O	O
 also	also	O	O
 be	be	O	O
@@ -102,7 +102,7 @@ dose	dose	O	O
 of	of	O	O
 orally	orally	O	O
 administrated	administrated	O	O
-ziprasidone	ziprasidone	O	O
+ziprasidone	ziprasidone	S_chemical	O
 .	.	O	O
 
 This	this	O	O
@@ -119,7 +119,7 @@ treatment	treatment	O	O
 NMS	nms	O	O
 due	due	O	O
 to	to	O	O
-ziprasidone	ziprasidone	O	O
+ziprasidone	ziprasidone	S_chemical	O
 reported	reported	O	O
 in	in	O	O
 the	the	O	O

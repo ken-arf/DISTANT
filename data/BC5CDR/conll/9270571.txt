@@ -60,8 +60,8 @@ as	as	O	O
 SKF-82958	skf-82958	O	O
 (	(	O	O
 6-chloro-7,8-dihydroxy-3-allyl-1-phenyl-2,3,4,5-tetrahydro-1H-3-benzaze	6-chloro-7,8-dihydroxy-3-allyl-1-phenyl-2,3,4,5-tetrahydro-1h-3-benzaze	O	O
-pine	pine	O	O
-hydrobromide	hydrobromide	O	O
+pine	pine	B_chemical	O
+hydrobromide	hydrobromide	S_chemical	O
 )	)	O	O
 and	and	O	O
 A-77636	a-77636	O	O
@@ -72,8 +72,8 @@ A-77636	a-77636	O	O
 3S	3s	O	O
 ]	]	O	O
 3-[1'-admantyl]-1-aminomethyl-3,4-dihydro-5,6-dihydroxy-1H-2-benzo	3-[1'-admantyl]-1-aminomethyl-3,4-dihydro-5,6-dihydroxy-1h-2-benzo	O	O
-pyran	pyran	O	O
-hydrochloride	hydrochloride	O	O
+pyran	pyran	B_chemical	O
+hydrochloride	hydrochloride	I_chemical	O
 )	)	O	O
 seems	seems	O	O
 limited	limited	O	O
@@ -122,7 +122,7 @@ dose-response	dose-response	O	O
 study	study	O	O
 in	in	O	O
 four	four	O	O
-1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine	1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine	O	O
+1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine	1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine	S_chemical	O
 (MPTP)-exposed	(mptp)-exposed	O	O
 cynomolgus	cynomolgus	O	O
 monkeys	monkeys	O	O
@@ -136,7 +136,7 @@ evaluate	evaluate	O	O
 the	the	O	O
 locomotor	locomotor	O	O
 and	and	O	O
-dyskinetic	dyskinetic	O	O
+dyskinetic	dyskinetic	O	S_disease
 effects	effects	O	O
 on	on	O	O
 challenge	challenge	O	O
@@ -191,8 +191,8 @@ LY-171555	ly-171555	O	O
 [4aR-trans]-4,4a,5,6,7,8,8a,9-o-dihydro-5n-propyl-2H-pyrazo	[4ar-trans]-4,4a,5,6,7,8,8a,9-o-dihydro-5n-propyl-2h-pyrazo	O	O
 lo-3	lo-3	O	O
 -	-	O	O
-4-quinoline	4-quinoline	O	O
-hydrochloride	hydrochloride	O	O
+4-quinoline	4-quinoline	B_chemical	O
+hydrochloride	hydrochloride	I_chemical	O
 )	)	O	O
 were	were	O	O
 also	also	O	O

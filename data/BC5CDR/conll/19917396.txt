@@ -1,5 +1,5 @@
 Reversible	reversible	O	O
-myocardial	myocardial	O	O
+myocardial	myocardial	O	B_disease
 hypertrophy	hypertrophy	O	S_disease
 induced	induced	O	O
 by	by	O	O
@@ -31,8 +31,8 @@ transplantation	transplantation	O	O
 
 However	however	O	O
 ,	,	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 include	include	O	O
 cardiac	cardiac	O	B_disease
 toxicity	toxicity	O	S_disease
@@ -42,7 +42,7 @@ Herein	herein	O	O
 we	we	O	O
 describe	describe	O	O
 transient	transient	O	O
-myocardial	myocardial	O	O
+myocardial	myocardial	O	B_disease
 hypertrophy	hypertrophy	O	S_disease
 induced	induced	O	O
 by	by	O	O
@@ -56,8 +56,8 @@ The	the	O	O
 hypertrophy	hypertrophy	O	S_disease
 caused	caused	O	O
 no	no	O	O
-clinical	clinical	O	O
-symptoms	symptoms	O	O
+clinical	clinical	O	B_disease
+symptoms	symptoms	O	I_disease
 but	but	O	O
 was	was	O	O
 noted	noted	O	O
@@ -65,10 +65,10 @@ because	because	O	O
 of	of	O	O
 elevation	elevation	O	O
 of	of	O	O
-plasma	plasma	O	O
-brain	brain	O	O
-natriuretic	natriuretic	O	O
-peptide	peptide	O	O
+plasma	plasma	B_chemical	O
+brain	brain	B_chemical	O
+natriuretic	natriuretic	I_chemical	O
+peptide	peptide	I_chemical	O
 concentration	concentration	O	O
 and	and	O	O
 confirmed	confirmed	O	O
@@ -90,11 +90,11 @@ biopsy	biopsy	O	O
 samples	samples	O	O
 revealed	revealed	O	O
 only	only	O	O
-interstitial	interstitial	O	O
+interstitial	interstitial	O	B_disease
 edema	edema	O	S_disease
 and	and	O	O
 mild	mild	O	O
-myocardial	myocardial	O	O
+myocardial	myocardial	O	B_disease
 hypertrophy	hypertrophy	O	S_disease
 ;	;	O	O
 neither	neither	O	O
@@ -126,7 +126,7 @@ was	was	O	O
 reduced	reduced	O	O
 .	.	O	O
 
-Myocardial	myocardial	O	O
+Myocardial	myocardial	O	B_disease
 hypertrophy	hypertrophy	O	S_disease
 completely	completely	O	O
 resolved	resolved	O	O
@@ -159,7 +159,7 @@ that	that	O	O
 tacrolimus	tacrolimus	S_chemical	O
 induces	induces	O	O
 reversible	reversible	O	O
-myocardial	myocardial	O	O
+myocardial	myocardial	O	B_disease
 hypertrophy	hypertrophy	O	S_disease
 .	.	O	O
 

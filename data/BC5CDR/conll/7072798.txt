@@ -5,8 +5,8 @@ following	following	O	O
 topical	topical	O	O
 administration	administration	O	O
 of	of	O	O
-ophthalmic	ophthalmic	O	O
-chloramphenicol	chloramphenicol	O	O
+ophthalmic	ophthalmic	B_chemical	O
+chloramphenicol	chloramphenicol	I_chemical	O
 .	.	O	O
 
 A	a	O	O
@@ -53,8 +53,8 @@ the	the	O	O
 aplastic	aplastic	O	B_disease
 anemia	anemia	O	S_disease
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 an	an	O	O
 idiosyncratic	idiosyncratic	O	O
 response	response	O	O
@@ -77,17 +77,17 @@ treatment	treatment	O	O
 with	with	O	O
 chloramphenicol	chloramphenicol	O	O
 for	for	O	O
-ocular	ocular	O	O
-conditions	conditions	O	O
+ocular	ocular	O	B_disease
+conditions	conditions	O	I_disease
 ,	,	O	O
 although	although	O	O
 two	two	O	O
 cases	cases	O	O
 of	of	O	O
 reversible	reversible	O	O
-bone	bone	O	O
-marrow	marrow	O	O
-hypoplasia	hypoplasia	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
+hypoplasia	hypoplasia	O	I_disease
 have	have	O	O
 also	also	O	O
 been	been	O	O
@@ -101,8 +101,8 @@ cases	cases	O	O
 of	of	O	O
 ocular	ocular	O	O
 toxicity	toxicity	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 topically	topically	O	O
 applied	applied	O	O
 chloramphenicol	chloramphenicol	O	O
@@ -116,8 +116,8 @@ Registry	registry	O	O
 of	of	O	O
 Drug-Induced	drug-induced	O	O
 Ocular	ocular	O	O
-Side	side	O	O
-Effects	effects	O	O
+Side	side	O	B_disease
+Effects	effects	O	I_disease
 ,	,	O	O
 Oregon	oregon	O	O
 Health	health	O	O

@@ -1,6 +1,6 @@
 Adriamycin-induced	adriamycin-induced	O	O
-autophagic	autophagic	O	O
-cardiomyocyte	cardiomyocyte	O	O
+autophagic	autophagic	O	B_disease
+cardiomyocyte	cardiomyocyte	O	I_disease
 death	death	O	S_disease
 plays	plays	O	O
 a	a	O	O
@@ -96,7 +96,7 @@ adriamycin	adriamycin	S_chemical	O
 .	.	O	O
 
 Neonatal	neonatal	O	O
-cardiomyocytes	cardiomyocytes	O	O
+cardiomyocytes	cardiomyocytes	O	S_disease
 were	were	O	O
 isolated	isolated	O	O
 from	from	O	O
@@ -133,7 +133,7 @@ beclin	beclin	O	O
 1	1	O	O
 gene	gene	O	O
 ,	,	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 permeability	permeability	O	O
 transition	transition	O	O
 (	(	O	O
@@ -154,7 +154,7 @@ assessed	assessed	O	O
 cell	cell	O	O
 viability	viability	O	O
 ,	,	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 membrane	membrane	O	O
 potential	potential	O	O
 changes	changes	O	O
@@ -164,7 +164,7 @@ autophagic	autophagic	O	O
 vacuoles	vacuoles	O	O
 in	in	O	O
 cultured	cultured	O	O
-cardiomyocytes	cardiomyocytes	O	O
+cardiomyocytes	cardiomyocytes	O	S_disease
 .	.	O	O
 
 In	in	O	O
@@ -201,8 +201,8 @@ cardiac	cardiac	O	O
 function	function	O	O
 and	and	O	O
 reduced	reduced	O	O
-mitochondrial	mitochondrial	O	O
-injury	injury	O	O
+mitochondrial	mitochondrial	O	B_disease
+injury	injury	O	I_disease
 .	.	O	O
 
 Furthermore	furthermore	O	O
@@ -239,8 +239,8 @@ vacuoles	vacuoles	O	O
 
 CONCLUSION	conclusion	O	O
 :	:	O	O
-Autophagic	autophagic	O	O
-cardiomyocyte	cardiomyocyte	O	O
+Autophagic	autophagic	O	B_disease
+cardiomyocyte	cardiomyocyte	O	I_disease
 death	death	O	S_disease
 plays	plays	O	O
 an	an	O	O
@@ -259,8 +259,8 @@ by	by	O	O
 adriamycin	adriamycin	S_chemical	O
 .	.	O	O
 
-Mitochondrial	mitochondrial	O	O
-injury	injury	O	O
+Mitochondrial	mitochondrial	O	B_disease
+injury	injury	O	I_disease
 may	may	O	O
 be	be	O	O
 involved	involved	O	O

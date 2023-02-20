@@ -14,8 +14,8 @@ treatment	treatment	O	O
 of	of	O	O
 otherwise	otherwise	O	O
 resistant	resistant	O	O
-cardiac	cardiac	O	O
-tachyarrhythmias	tachyarrhythmias	O	O
+cardiac	cardiac	O	B_disease
+tachyarrhythmias	tachyarrhythmias	O	S_disease
 .	.	O	O
 
 The	the	O	O
@@ -38,7 +38,7 @@ side-effects	side-effects	O	O
 A	a	O	O
 patient	patient	O	O
 with	with	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 due	due	O	O
 to	to	O	O
@@ -75,17 +75,17 @@ amiodarone	amiodarone	S_chemical	O
 treatment	treatment	O	O
 ,	,	O	O
 including	including	O	O
-steatosis	steatosis	O	O
+steatosis	steatosis	O	S_disease
 ,	,	O	O
 alterations	alterations	O	O
 resembling	resembling	O	O
 alcoholic	alcoholic	O	O
 hepatitis	hepatitis	O	S_disease
 ,	,	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 and	and	O	O
-micronodular	micronodular	O	O
+micronodular	micronodular	O	S_disease
 cirrhosis	cirrhosis	O	S_disease
 of	of	O	O
 the	the	O	O
@@ -115,7 +115,7 @@ on	on	O	O
 the	the	O	O
 suspicion	suspicion	O	O
 of	of	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 injury	injury	O	O
 or	or	O	O
 hepatomegaly	hepatomegaly	O	S_disease

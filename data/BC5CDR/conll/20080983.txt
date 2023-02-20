@@ -24,13 +24,13 @@ determine	determine	O	O
 the	the	O	O
 effect	effect	O	O
 of	of	O	O
-morning-dosed	morning-dosed	O	O
+morning-dosed	morning-dosed	B_chemical	O
 modafinil	modafinil	S_chemical	O
 on	on	O	O
 sleep	sleep	O	O
 and	and	O	O
-daytime	daytime	O	O
-sleepiness	sleepiness	O	O
+daytime	daytime	O	B_disease
+sleepiness	sleepiness	O	I_disease
 in	in	O	O
 chronic	chronic	O	O
 cocaine	cocaine	S_chemical	O
@@ -170,8 +170,8 @@ abstinence	abstinence	O	O
 from	from	O	O
 cocaine	cocaine	S_chemical	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 worsening	worsening	O	O
 of	of	O	O
 all	all	O	O
@@ -211,8 +211,8 @@ abstinence	abstinence	O	O
 week	week	O	O
 and	and	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 longer	longer	O	O
 total	total	O	O
 sleep	sleep	O	O
@@ -261,8 +261,8 @@ participants	participants	O	O
 
 Modafinil	modafinil	S_chemical	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 increased	increased	O	O
 daytime	daytime	O	O
 sleep	sleep	O	O
@@ -283,14 +283,14 @@ nearly	nearly	O	O
 significant	significant	O	O
 decrease	decrease	O	O
 in	in	O	O
-subjective	subjective	O	O
-daytime	daytime	O	O
-sleepiness	sleepiness	O	O
+subjective	subjective	O	B_disease
+daytime	daytime	O	B_disease
+sleepiness	sleepiness	O	I_disease
 .	.	O	O
 
 CONCLUSIONS	conclusions	O	O
 :	:	O	O
-Morning-dosed	morning-dosed	O	O
+Morning-dosed	morning-dosed	B_chemical	O
 modafinil	modafinil	S_chemical	O
 promotes	promotes	O	O
 nocturnal	nocturnal	O	O
@@ -302,8 +302,8 @@ architecture	architecture	O	O
 ,	,	O	O
 and	and	O	O
 decreases	decreases	O	O
-daytime	daytime	O	O
-sleepiness	sleepiness	O	O
+daytime	daytime	O	B_disease
+sleepiness	sleepiness	O	I_disease
 in	in	O	O
 abstinent	abstinent	O	O
 cocaine	cocaine	S_chemical	O

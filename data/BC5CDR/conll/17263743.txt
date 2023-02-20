@@ -59,7 +59,7 @@ for	for	O	O
 placement	placement	O	O
 of	of	O	O
 a	a	O	O
-baclofen	baclofen	O	O
+baclofen	baclofen	S_chemical	O
 pump	pump	O	O
 .	.	O	O
 
@@ -105,8 +105,8 @@ bradycardia	bradycardia	O	S_disease
 and	and	O	O
 hypotension	hypotension	O	S_disease
 requiring	requiring	O	O
-cardiac	cardiac	O	O
-resuscitation	resuscitation	O	O
+cardiac	cardiac	O	B_disease
+resuscitation	resuscitation	O	I_disease
 .	.	O	O
 
 There	there	O	O

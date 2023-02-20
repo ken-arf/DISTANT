@@ -1,6 +1,6 @@
 Stroke	stroke	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 cocaine	cocaine	S_chemical	O
 use	use	O	O
 .	.	O	O
@@ -70,7 +70,7 @@ intramuscular	intramuscular	O	O
 routes	routes	O	O
 .	.	O	O
 
-Intracranial	intracranial	O	O
+Intracranial	intracranial	O	B_disease
 aneurysms	aneurysms	O	S_disease
 or	or	O	O
 arteriovenous	arteriovenous	O	B_disease
@@ -88,7 +88,7 @@ or	or	O	O
 at	at	O	O
 autopsy	autopsy	O	O
 ;	;	O	O
-cerebral	cerebral	O	O
+cerebral	cerebral	O	B_disease
 vasculitis	vasculitis	O	S_disease
 was	was	O	O
 present	present	O	O
@@ -179,9 +179,9 @@ cocaine	cocaine	S_chemical	O
 use	use	O	O
 is	is	O	O
 frequently	frequently	O	O
-associated	associated	O	O
-with	with	O	O
-intracranial	intracranial	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+intracranial	intracranial	O	B_disease
 aneurysms	aneurysms	O	S_disease
 and	and	O	O
 arteriovenous	arteriovenous	O	B_disease
@@ -198,7 +198,7 @@ stroke	stroke	O	S_disease
 the	the	O	O
 frequency	frequency	O	O
 of	of	O	O
-intracranial	intracranial	O	O
+intracranial	intracranial	O	B_disease
 hemorrhage	hemorrhage	O	S_disease
 exceeds	exceeds	O	O
 that	that	O	O

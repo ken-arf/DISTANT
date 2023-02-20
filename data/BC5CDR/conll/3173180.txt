@@ -1,5 +1,5 @@
-Haemolytic-uraemic	haemolytic-uraemic	O	O
-syndrome	syndrome	O	O
+Haemolytic-uraemic	haemolytic-uraemic	O	B_disease
+syndrome	syndrome	O	I_disease
 after	after	O	O
 treatment	treatment	O	O
 with	with	O	O
@@ -18,8 +18,8 @@ children	children	O	O
 who	who	O	O
 developed	developed	O	O
 the	the	O	O
-haemolytic-uraemic	haemolytic-uraemic	O	O
-syndrome	syndrome	O	O
+haemolytic-uraemic	haemolytic-uraemic	O	B_disease
+syndrome	syndrome	O	I_disease
 after	after	O	O
 treatment	treatment	O	O
 with	with	O	O
@@ -59,8 +59,8 @@ the	the	O	O
 aetiology	aetiology	O	O
 of	of	O	O
 the	the	O	O
-haemolytic-uraemic	haemolytic-uraemic	O	O
-syndrome	syndrome	O	O
+haemolytic-uraemic	haemolytic-uraemic	O	B_disease
+syndrome	syndrome	O	I_disease
 is	is	O	O
 not	not	O	O
 established	established	O	O
@@ -86,8 +86,8 @@ oxidation	oxidation	O	O
 changes	changes	O	O
 in	in	O	O
 the	the	O	O
-haemolytic-uraemic	haemolytic-uraemic	O	O
-syndrome	syndrome	O	O
+haemolytic-uraemic	haemolytic-uraemic	O	B_disease
+syndrome	syndrome	O	I_disease
 suggest	suggest	O	O
 a	a	O	O
 possible	possible	O	O
@@ -100,7 +100,7 @@ some	some	O	O
 cases	cases	O	O
 of	of	O	O
 the	the	O	O
-haemolytic-uraemic	haemolytic-uraemic	O	O
-syndrome	syndrome	O	O
+haemolytic-uraemic	haemolytic-uraemic	O	B_disease
+syndrome	syndrome	O	I_disease
 .	.	O	O
 

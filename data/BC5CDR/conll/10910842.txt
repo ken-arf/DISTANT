@@ -162,7 +162,7 @@ the	the	O	O
 dose-response	dose-response	O	O
 curves	curves	O	O
 of	of	O	O
-d-tubocurarine	d-tubocurarine	O	O
+d-tubocurarine	d-tubocurarine	S_chemical	O
 in	in	O	O
 the	the	O	O
 tibialis	tibialis	O	O
@@ -272,7 +272,7 @@ The	the	O	O
 effective	effective	O	O
 dose	dose	O	O
 of	of	O	O
-d-tubocurarine	d-tubocurarine	O	O
+d-tubocurarine	d-tubocurarine	S_chemical	O
 (	(	O	O
 microg/kg	microg/kg	O	O
 )	)	O	O
@@ -359,7 +359,7 @@ The	the	O	O
 effective	effective	O	O
 dose	dose	O	O
 of	of	O	O
-d-tubocurarine	d-tubocurarine	O	O
+d-tubocurarine	d-tubocurarine	S_chemical	O
 did	did	O	O
 not	not	O	O
 correlate	correlate	O	O
@@ -376,8 +376,8 @@ results	results	O	O
 suggest	suggest	O	O
 that	that	O	O
 the	the	O	O
-neuromuscular	neuromuscular	O	O
-dysfunction	dysfunction	O	O
+neuromuscular	neuromuscular	O	B_disease
+dysfunction	dysfunction	O	I_disease
 after	after	O	O
 prednisolone	prednisolone	S_chemical	O
 is	is	O	O

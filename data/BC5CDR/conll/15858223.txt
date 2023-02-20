@@ -40,10 +40,10 @@ antiepileptic	antiepileptic	O	O
 drug	drug	O	O
 ,	,	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 in	in	O	O
 rats	rats	O	O
 ,	,	O	O
@@ -54,7 +54,7 @@ by	by	O	O
 elevated	elevated	O	O
 levels	levels	O	O
 of	of	O	O
-15-F(2t)-isoprostane	15-f(2t)-isoprostane	O	O
+15-F(2t)-isoprostane	15-f(2t)-isoprostane	S_chemical	O
 (	(	O	O
 15-F(2t)-IsoP	15-f(2t)-isop	O	O
 )	)	O	O
@@ -70,8 +70,8 @@ temporal	temporal	O	O
 relationship	relationship	O	O
 between	between	O	O
 VPA-associated	vpa-associated	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 and	and	O	O
 hepatotoxicity	hepatotoxicity	O	S_disease
 ,	,	O	O
@@ -111,8 +111,8 @@ or	or	O	O
 days	days	O	O
 .	.	O	O
 
-Oxidative	oxidative	O	O
-stress	stress	O	O
+Oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 was	was	O	O
 assessed	assessed	O	O
 by	by	O	O
@@ -124,8 +124,8 @@ levels	levels	O	O
 of	of	O	O
 15-F(2t)-IsoP	15-f(2t)-isop	O	O
 ,	,	O	O
-lipid	lipid	O	O
-hydroperoxides	hydroperoxides	O	O
+lipid	lipid	B_chemical	O
+hydroperoxides	hydroperoxides	I_chemical	O
 (	(	O	O
 LPO	lpo	O	O
 )	)	O	O
@@ -253,7 +253,7 @@ capsule	capsule	O	O
 necrosis	necrosis	O	S_disease
 ,	,	O	O
 and	and	O	O
-steatosis	steatosis	O	O
+steatosis	steatosis	O	S_disease
 throughout	throughout	O	O
 the	the	O	O
 study	study	O	O
@@ -298,8 +298,8 @@ VPA	vpa	S_chemical	O
 treatment	treatment	O	O
 results	results	O	O
 in	in	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 ,	,	O	O
 as	as	O	O
 measured	measured	O	O
@@ -311,11 +311,11 @@ of	of	O	O
 which	which	O	O
 precedes	precedes	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 necrosis	necrosis	O	S_disease
 ,	,	O	O
-steatosis	steatosis	O	O
+steatosis	steatosis	O	S_disease
 ,	,	O	O
 and	and	O	O
 elevated	elevated	O	O

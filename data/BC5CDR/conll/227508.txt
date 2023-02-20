@@ -36,7 +36,7 @@ inhibited	inhibited	O	O
 or	or	O	O
 reversed	reversed	O	O
 by	by	O	O
-nalozone	nalozone	O	O
+nalozone	nalozone	S_chemical	O
 ,	,	O	O
 0.2	0.2	O	O
 to	to	O	O
@@ -50,7 +50,7 @@ effect	effect	O	O
 of	of	O	O
 100	100	O	O
 mg/kg	mg/kg	O	O
-alpha-methyldopa	alpha-methyldopa	O	O
+alpha-methyldopa	alpha-methyldopa	S_chemical	O
 was	was	O	O
 also	also	O	O
 partially	partially	O	O
@@ -116,7 +116,7 @@ influence	influence	O	O
 clonidine-suppressible	clonidine-suppressible	O	O
 binding	binding	O	O
 of	of	O	O
-[3H]-dihydroergocryptine	[3h]-dihydroergocryptine	O	O
+[3H]-dihydroergocryptine	[3h]-dihydroergocryptine	S_chemical	O
 (	(	O	O
 1	1	O	O
 nM	nm	O	O
@@ -173,7 +173,7 @@ opiate	opiate	O	O
 by	by	O	O
 clonidine	clonidine	S_chemical	O
 or	or	O	O
-alpha-methyldopa	alpha-methyldopa	O	O
+alpha-methyldopa	alpha-methyldopa	S_chemical	O
 and	and	O	O
 the	the	O	O
 possible	possible	O	O

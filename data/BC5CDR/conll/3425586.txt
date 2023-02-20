@@ -43,8 +43,8 @@ mg/day	mg/day	O	O
 )	)	O	O
 not	not	O	O
 usually	usually	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 clinical	clinical	O	O
 hemolysis	hemolysis	O	S_disease
 .	.	O	O
@@ -64,7 +64,7 @@ body	body	O	O
 formation	formation	O	O
 ,	,	O	O
 decreased	decreased	O	O
-reduced	reduced	O	O
+reduced	reduced	B_chemical	O
 glutathione	glutathione	S_chemical	O
 (	(	O	O
 GSH	gsh	S_chemical	O
@@ -77,7 +77,7 @@ stability	stability	O	O
 .	.	O	O
 
 The	the	O	O
-pentose	pentose	O	O
+pentose	pentose	B_chemical	O
 phosphate	phosphate	S_chemical	O
 shunt	shunt	O	O
 activity	activity	O	O
@@ -122,7 +122,7 @@ normal	normal	O	O
 .	.	O	O
 
 The	the	O	O
-pentose	pentose	O	O
+pentose	pentose	B_chemical	O
 phosphate	phosphate	S_chemical	O
 shunt	shunt	O	O
 activity	activity	O	O

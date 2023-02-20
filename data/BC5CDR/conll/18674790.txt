@@ -23,8 +23,8 @@ is	is	O	O
 limited	limited	O	O
 due	due	O	O
 to	to	O	O
-life	life	O	O
-threatening	threatening	O	O
+life	life	O	B_disease
+threatening	threatening	O	I_disease
 cardiotoxicity	cardiotoxicity	O	S_disease
 in	in	O	O
 patients	patients	O	O
@@ -56,8 +56,8 @@ accompanied	accompanied	O	O
 by	by	O	O
 decreased	decreased	O	O
 cardiac	cardiac	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 and	and	O	O
 triglycerides	triglycerides	O	O
 and	and	O	O
@@ -182,7 +182,7 @@ accumulation	accumulation	O	O
 of	of	O	O
 doxorubicin	doxorubicin	S_chemical	O
 and	and	O	O
-doxorubicinol	doxorubicinol	O	O
+doxorubicinol	doxorubicinol	S_chemical	O
 (	(	O	O
 toxic	toxic	O	O
 metabolite	metabolite	O	O
@@ -241,8 +241,8 @@ receptor-alpha	receptor-alpha	O	O
 3	3	O	O
 )	)	O	O
 decreased	decreased	O	O
-plasma	plasma	O	O
-adiponectin	adiponectin	O	O
+plasma	plasma	B_chemical	O
+adiponectin	adiponectin	I_chemical	O
 levels	levels	O	O
 ,	,	O	O
 (	(	O	O
@@ -270,7 +270,7 @@ OB	ob	O	O
 5	5	O	O
 )	)	O	O
 decreased	decreased	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 AMP-alpha2	amp-alpha2	O	O
 protein	protein	O	O
 kinase	kinase	O	O
@@ -305,7 +305,7 @@ SOCS3	socs3	O	O
 further	further	O	O
 downregulated	downregulated	O	O
 the	the	O	O
-cardioprotective	cardioprotective	O	O
+cardioprotective	cardioprotective	O	S_disease
 JAK/STAT3	jak/stat3	O	O
 pathway	pathway	O	O
 .	.	O	O
@@ -326,13 +326,13 @@ by	by	O	O
 substantially	substantially	O	O
 downregulating	downregulating	O	O
 cardiac	cardiac	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 ATP	atp	S_chemical	O
 generation	generation	O	O
 ,	,	O	O
 increasing	increasing	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 and	and	O	O
 downregulating	downregulating	O	O
 the	the	O	O

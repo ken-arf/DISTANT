@@ -2,8 +2,8 @@ Yohimbine	yohimbine	S_chemical	O
 treatment	treatment	O	O
 of	of	O	O
 sexual	sexual	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 induced	induced	O	O
 by	by	O	O
 serotonin	serotonin	S_chemical	O
@@ -21,8 +21,8 @@ suggest	suggest	O	O
 that	that	O	O
 yohimbine	yohimbine	S_chemical	O
 facilitates	facilitates	O	O
-sexual	sexual	O	O
-behavior	behavior	O	O
+sexual	sexual	O	B_disease
+behavior	behavior	O	I_disease
 and	and	O	O
 may	may	O	O
 be	be	O	O
@@ -49,8 +49,8 @@ to	to	O	O
 treat	treat	O	O
 the	the	O	O
 sexual	sexual	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 clomipramine	clomipramine	S_chemical	O
 .	.	O	O
@@ -65,8 +65,8 @@ treatment	treatment	O	O
 for	for	O	O
 the	the	O	O
 sexual	sexual	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 caused	caused	O	O
 by	by	O	O
 serotonin	serotonin	S_chemical	O
@@ -80,9 +80,9 @@ Six	six	O	O
 patients	patients	O	O
 with	with	O	O
 either	either	O	O
-obsessive	obsessive	O	O
-compulsive	compulsive	O	O
-disorder	disorder	O	O
+obsessive	obsessive	O	B_disease
+compulsive	compulsive	O	I_disease
+disorder	disorder	O	I_disease
 ,	,	O	O
 trichotillomania	trichotillomania	O	O
 ,	,	O	O
@@ -94,8 +94,8 @@ disorders	disorders	O	I_disease
 who	who	O	O
 suffered	suffered	O	O
 sexual	sexual	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 after	after	O	O
 treatment	treatment	O	O
 with	with	O	O
@@ -165,8 +165,8 @@ therapeutic	therapeutic	B_chemical	O
 effects	effects	I_chemical	O
 .	.	O	O
 
-Side	side	O	O
-effects	effects	O	O
+Side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 yohimbine	yohimbine	S_chemical	O
 included	included	O	O
@@ -203,8 +203,8 @@ treatment	treatment	O	O
 for	for	O	O
 the	the	O	O
 sexual	sexual	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 caused	caused	O	O
 by	by	O	O
 serotonin	serotonin	S_chemical	O

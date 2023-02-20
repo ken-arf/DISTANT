@@ -50,7 +50,7 @@ transplant-free	transplant-free	O	O
 survivors	survivors	O	O
 of	of	O	O
 paracetamol-induced	paracetamol-induced	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 liver	liver	O	B_disease
 injury	injury	O	I_disease
 ,	,	O	O

@@ -19,17 +19,17 @@ to	to	O	O
 x	x	O	O
 10(6	10(6	O	O
 )	)	O	O
-IU	iu	O	O
+IU	iu	S_chemical	O
 vitamin	vitamin	B_chemical	O
 D3	d3	I_chemical	O
 )	)	O	O
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 prolonged	prolonged	O	O
 hypercalcemia	hypercalcemia	O	S_disease
 ,	,	O	O
-hyperphosphatemia	hyperphosphatemia	O	O
+hyperphosphatemia	hyperphosphatemia	O	S_disease
 ,	,	O	O
 and	and	O	O
 large	large	O	O
@@ -69,7 +69,7 @@ D3	d3	I_chemical	O
 about	about	O	O
 32	32	O	O
 days	days	O	O
-prepartum	prepartum	O	O
+prepartum	prepartum	S_chemical	O
 (	(	O	O
 8.8	8.8	O	O
 mg/100	mg/100	O	O
@@ -220,6 +220,6 @@ when	when	O	O
 injected	injected	O	O
 several	several	O	O
 weeks	weeks	O	O
-prepartum	prepartum	O	O
+prepartum	prepartum	S_chemical	O
 .	.	O	O
 

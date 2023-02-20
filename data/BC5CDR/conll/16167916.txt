@@ -8,7 +8,7 @@ on	on	O	O
 fibrinolysis	fibrinolysis	O	O
 markers	markers	O	O
 :	:	O	O
-TAFI	tafi	O	O
+TAFI	tafi	S_chemical	O
 ,	,	O	O
 tPA	tpa	O	O
 ,	,	O	O
@@ -23,7 +23,7 @@ thrombin-activatable	thrombin-activatable	O	O
 fibrinolysis	fibrinolysis	O	O
 inhibitor	inhibitor	O	O
 (	(	O	O
-TAFI	tafi	O	O
+TAFI	tafi	S_chemical	O
 )	)	O	O
 ,	,	O	O
 tissue-type	tissue-type	O	O
@@ -63,7 +63,7 @@ Thirty-nine	thirty-nine	O	O
 postmenopausal	postmenopausal	O	O
 women	women	O	O
 with	with	O	O
-osteopenia	osteopenia	O	O
+osteopenia	osteopenia	O	S_disease
 or	or	O	O
 osteoporosis	osteoporosis	O	S_disease
 were	were	O	O
@@ -109,7 +109,7 @@ calcium	calcium	S_chemical	O
 .	.	O	O
 
 Plasma	plasma	O	O
-TAFI	tafi	O	O
+TAFI	tafi	S_chemical	O
 ,	,	O	O
 tPA	tpa	O	O
 ,	,	O	O
@@ -164,15 +164,15 @@ of	of	O	O
 raloxifene	raloxifene	S_chemical	O
 treatment	treatment	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 significant	significant	O	O
 decrease	decrease	O	O
 in	in	O	O
 the	the	O	O
 plasma	plasma	O	O
-TAFI	tafi	O	O
+TAFI	tafi	S_chemical	O
 antigen	antigen	O	O
 concentrations	concentrations	O	O
 (	(	O	O
@@ -211,7 +211,7 @@ was	was	O	O
 found	found	O	O
 between	between	O	O
 baseline	baseline	O	O
-TAFI	tafi	O	O
+TAFI	tafi	S_chemical	O
 antigen	antigen	O	O
 concentrations	concentrations	O	O
 and	and	O	O
@@ -255,7 +255,7 @@ levels	levels	O	O
 ,	,	O	O
 but	but	O	O
 not	not	O	O
-TAFI	tafi	O	O
+TAFI	tafi	S_chemical	O
 levels	levels	O	O
 .	.	O	O
 

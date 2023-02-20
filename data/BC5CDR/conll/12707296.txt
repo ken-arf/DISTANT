@@ -1,4 +1,4 @@
-L-arginine	l-arginine	O	O
+L-arginine	l-arginine	S_chemical	O
 transport	transport	O	O
 in	in	O	O
 humans	humans	O	O
@@ -24,7 +24,7 @@ investigate	investigate	O	O
 whether	whether	O	O
 abnormalities	abnormalities	O	O
 in	in	O	O
-L-arginine	l-arginine	O	O
+L-arginine	l-arginine	S_chemical	O
 uptake	uptake	O	O
 contribute	contribute	O	O
 to	to	O	O
@@ -93,7 +93,7 @@ treatment	treatment	O	O
 period	period	O	O
 .	.	O	O
 
-L-arginine	l-arginine	O	O
+L-arginine	l-arginine	S_chemical	O
 uptake	uptake	O	O
 was	was	O	O
 assessed	assessed	O	O
@@ -102,7 +102,7 @@ mononuclear	mononuclear	O	O
 cells	cells	O	O
 incubated	incubated	O	O
 with	with	O	O
-L-arginine	l-arginine	O	O
+L-arginine	l-arginine	S_chemical	O
 (	(	O	O
 1	1	O	O
 to	to	O	O
@@ -157,7 +157,7 @@ collected	collected	O	O
 for	for	O	O
 determination	determination	O	O
 of	of	O	O
-L-arginine	l-arginine	O	O
+L-arginine	l-arginine	S_chemical	O
 extraction	extraction	O	O
 .	.	O	O
 
@@ -196,7 +196,7 @@ Hg	hg	O	O
 .	.	O	O
 
 Neither	neither	O	O
-L-arginine	l-arginine	O	O
+L-arginine	l-arginine	S_chemical	O
 transport	transport	O	O
 into	into	O	O
 mononuclear	mononuclear	O	O
@@ -220,14 +220,14 @@ respectively	respectively	O	O
 ,	,	O	O
 at	at	O	O
 an	an	O	O
-l-arginine	l-arginine	O	O
+l-arginine	l-arginine	S_chemical	O
 concentration	concentration	O	O
 of	of	O	O
 300	300	O	O
 micromol/L	micromol/l	O	O
 )	)	O	O
 nor	nor	O	O
-L-arginine	l-arginine	O	O
+L-arginine	l-arginine	S_chemical	O
 extraction	extraction	O	O
 in	in	O	O
 the	the	O	O
@@ -263,7 +263,7 @@ treatment	treatment	O	O
 ie	ie	O	O
 ,	,	O	O
 that	that	O	O
-L-arginine	l-arginine	O	O
+L-arginine	l-arginine	S_chemical	O
 uptake	uptake	O	O
 is	is	O	O
 not	not	O	O
@@ -284,12 +284,12 @@ blood	blood	O	O
 pressure	pressure	O	O
 are	are	O	O
 not	not	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 abnormalities	abnormalities	O	O
 in	in	O	O
 the	the	O	O
-l-arginine	l-arginine	O	O
+l-arginine	l-arginine	S_chemical	O
 transport	transport	O	O
 system	system	O	O
 .	.	O	O

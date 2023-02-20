@@ -6,7 +6,7 @@ to	to	O	O
 the	the	O	O
 administration	administration	O	O
 of	of	O	O
-rifampicin	rifampicin	O	O
+rifampicin	rifampicin	S_chemical	O
 .	.	O	O
 
 A	a	O	O
@@ -56,13 +56,13 @@ the	the	O	O
 intermittent	intermittent	O	O
 administration	administration	O	O
 of	of	O	O
-rifampicin	rifampicin	O	O
+rifampicin	rifampicin	S_chemical	O
 .	.	O	O
 
 The	the	O	O
 stage	stage	O	O
 of	of	O	O
-olig-anuria	olig-anuria	O	O
+olig-anuria	olig-anuria	O	S_disease
 lasted	lasted	O	O
 for	for	O	O
 1	1	O	O
@@ -158,8 +158,8 @@ the	the	O	O
 acute	acute	O	O
 stage	stage	O	O
 the	the	O	O
-renal	renal	O	O
-lesions	lesions	O	O
+renal	renal	O	B_disease
+lesions	lesions	O	I_disease
 histologically	histologically	O	O
 appeared	appeared	O	O
 toxic	toxic	O	O

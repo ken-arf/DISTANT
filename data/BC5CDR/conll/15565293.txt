@@ -3,8 +3,8 @@ coherence	coherence	O	O
 tomography	tomography	O	O
 can	can	O	O
 measure	measure	O	O
-axonal	axonal	O	O
-loss	loss	O	O
+axonal	axonal	O	B_disease
+loss	loss	O	I_disease
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
@@ -26,8 +26,8 @@ in	in	O	O
 vivo	vivo	O	O
 ,	,	O	O
 of	of	O	O
-axonal	axonal	O	O
-degeneration	degeneration	O	O
+axonal	axonal	O	B_disease
+degeneration	degeneration	O	I_disease
 in	in	O	O
 ethambutol-induced	ethambutol-induced	O	O
 optic	optic	O	O
@@ -41,7 +41,7 @@ OCT	oct	O	O
 )	)	O	O
 .	.	O	O
 
-Ethambutol	ethambutol	O	O
+Ethambutol	ethambutol	S_chemical	O
 is	is	O	O
 an	an	O	O
 antimycobacterial	antimycobacterial	O	O
@@ -57,7 +57,7 @@ A	a	O	O
 serious	serious	O	O
 complication	complication	O	O
 of	of	O	O
-ethambutol	ethambutol	O	O
+ethambutol	ethambutol	S_chemical	O
 is	is	O	O
 an	an	O	O
 optic	optic	O	O
@@ -111,7 +111,7 @@ with	with	O	O
 a	a	O	O
 history	history	O	O
 of	of	O	O
-ethambutol	ethambutol	O	O
+ethambutol	ethambutol	S_chemical	O
 (EMB)-induced	(emb)-induced	O	O
 optic	optic	O	O
 neuropathy	neuropathy	O	S_disease
@@ -122,8 +122,8 @@ intermediate-	intermediate-	O	O
 ,	,	O	O
 and	and	O	O
 long-term	long-term	O	O
-visual	visual	O	O
-deficits	deficits	O	O
+visual	visual	O	B_disease
+deficits	deficits	O	I_disease
 were	were	O	O
 administered	administered	O	O
 a	a	O	O
@@ -188,8 +188,8 @@ from	from	O	O
 points	points	O	O
 around	around	O	O
 the	the	O	O
-optic	optic	O	O
-nerve	nerve	O	O
+optic	optic	O	B_disease
+nerve	nerve	O	I_disease
 to	to	O	O
 effectively	effectively	O	O
 map	map	O	O
@@ -271,8 +271,8 @@ B	b	O	O
 ,	,	O	O
 with	with	O	O
 intermediate	intermediate	O	O
-visual	visual	O	O
-deficits	deficits	O	O
+visual	visual	O	B_disease
+deficits	deficits	O	I_disease
 ,	,	O	O
 68	68	O	O
 %	%	O	O
@@ -282,9 +282,9 @@ patient	patient	O	O
 C	c	O	O
 ,	,	O	O
 with	with	O	O
-chronic	chronic	O	O
-visual	visual	O	O
-deficits	deficits	O	O
+chronic	chronic	O	B_disease
+visual	visual	O	B_disease
+deficits	deficits	O	I_disease
 ,	,	O	O
 90	90	O	O
 %	%	O	O
@@ -295,8 +295,8 @@ with	with	O	O
 an	an	O	O
 average	average	O	O
 mean	mean	O	O
-optic	optic	O	O
-nerve	nerve	O	O
+optic	optic	O	B_disease
+nerve	nerve	O	I_disease
 thickness	thickness	O	O
 of	of	O	O
 26+/-16	26+/-16	O	O
@@ -356,8 +356,8 @@ the	the	O	O
 subjects	subjects	O	O
 with	with	O	O
 persistent	persistent	O	O
-visual	visual	O	O
-deficits	deficits	O	O
+visual	visual	O	B_disease
+deficits	deficits	O	I_disease
 (	(	O	O
 patients	patients	O	O
 B	b	O	O
@@ -431,9 +431,9 @@ bundle	bundle	O	O
 in	in	O	O
 toxic	toxic	O	O
 or	or	O	O
-hereditary	hereditary	O	O
-optic	optic	O	O
-neuropathies	neuropathies	O	O
+hereditary	hereditary	O	B_disease
+optic	optic	O	I_disease
+neuropathies	neuropathies	O	I_disease
 .	.	O	O
 
 OCT	oct	O	O
@@ -468,13 +468,13 @@ important	important	O	O
 to	to	O	O
 properly	properly	O	O
 manage	manage	O	O
-ethambutol	ethambutol	O	O
+ethambutol	ethambutol	S_chemical	O
 dosing	dosing	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-renal	renal	O	O
-impairment	impairment	O	O
+renal	renal	O	B_disease
+impairment	impairment	O	I_disease
 and	and	O	O
 to	to	O	O
 achieve	achieve	O	O

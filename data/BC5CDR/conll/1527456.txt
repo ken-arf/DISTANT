@@ -17,8 +17,8 @@ ventilation	ventilation	O	O
 tubes	tubes	O	O
 .	.	O	O
 
-Idiopathic	idiopathic	O	O
-subjective	subjective	O	O
+Idiopathic	idiopathic	O	B_disease
+subjective	subjective	O	I_disease
 tinnitus	tinnitus	O	S_disease
 (	(	O	O
 IST	ist	O	O
@@ -29,7 +29,7 @@ of	of	O	O
 the	the	O	O
 most	most	O	O
 obscure	obscure	O	O
-otological	otological	O	O
+otological	otological	O	S_disease
 pathologies	pathologies	O	O
 .	.	O	O
 
@@ -100,7 +100,7 @@ the	the	O	O
 nine	nine	O	O
 patients	patients	O	O
 the	the	O	O
-decompensated	decompensated	O	O
+decompensated	decompensated	O	S_disease
 tinnitus	tinnitus	O	S_disease
 changed	changed	O	O
 to	to	O	O
@@ -139,8 +139,8 @@ be	be	O	O
 warned	warned	O	O
 about	about	O	O
 the	the	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 vertigo	vertigo	O	O
 and	and	O	O

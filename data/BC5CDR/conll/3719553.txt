@@ -10,7 +10,7 @@ allergic	allergic	O	B_disease
 reaction	reaction	O	I_disease
 consisting	consisting	O	O
 of	of	O	O
-angioneurotic	angioneurotic	O	O
+angioneurotic	angioneurotic	O	S_disease
 edema	edema	O	S_disease
 secondary	secondary	O	O
 to	to	O	O

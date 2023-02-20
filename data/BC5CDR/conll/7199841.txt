@@ -1,7 +1,7 @@
 Neurologic	neurologic	O	O
 effects	effects	O	O
 of	of	O	O
-subarachnoid	subarachnoid	O	O
+subarachnoid	subarachnoid	O	S_disease
 administration	administration	O	O
 of	of	O	O
 2-chloroprocaine-CE	2-chloroprocaine-ce	O	O
@@ -30,7 +30,7 @@ neurologic	neurologic	O	O
 consequences	consequences	O	O
 of	of	O	O
 deliberate	deliberate	O	O
-subarachnoid	subarachnoid	O	O
+subarachnoid	subarachnoid	O	S_disease
 injection	injection	O	O
 of	of	O	O
 large	large	O	O
@@ -73,7 +73,7 @@ received	received	O	O
 injections	injections	O	O
 in	in	O	O
 the	the	O	O
-subarachnoid	subarachnoid	O	O
+subarachnoid	subarachnoid	O	S_disease
 space	space	O	O
 as	as	O	O
 follows	follows	O	O
@@ -127,7 +127,7 @@ the	the	O	O
 animals	animals	O	O
 that	that	O	O
 received	received	O	O
-subarachnoid	subarachnoid	O	O
+subarachnoid	subarachnoid	O	S_disease
 injection	injection	O	O
 of	of	O	O
 2-chloroprocaine-CE	2-chloroprocaine-ce	O	O
@@ -186,7 +186,7 @@ the	the	O	O
 nerve	nerve	O	O
 roots	roots	O	O
 and	and	O	O
-subarachnoid	subarachnoid	O	O
+subarachnoid	subarachnoid	O	S_disease
 vessels	vessels	O	O
 were	were	O	O
 normal	normal	O	O

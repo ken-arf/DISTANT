@@ -1,8 +1,8 @@
 Effects	effects	O	O
 of	of	O	O
-tetrandrine	tetrandrine	O	O
+tetrandrine	tetrandrine	S_chemical	O
 and	and	O	O
-fangchinoline	fangchinoline	O	O
+fangchinoline	fangchinoline	S_chemical	O
 on	on	O	O
 experimental	experimental	O	O
 thrombosis	thrombosis	O	S_disease
@@ -14,12 +14,12 @@ platelet	platelet	O	B_disease
 aggregation	aggregation	O	I_disease
 .	.	O	O
 
-Tetrandrine	tetrandrine	O	O
+Tetrandrine	tetrandrine	S_chemical	O
 (	(	O	O
 TET	tet	S_chemical	O
 )	)	O	O
 and	and	O	O
-fangchinoline	fangchinoline	O	O
+fangchinoline	fangchinoline	S_chemical	O
 (	(	O	O
 FAN	fan	S_chemical	O
 )	)	O	O
@@ -176,7 +176,7 @@ partial	partial	O	O
 thromboplastin	thromboplastin	O	O
 time	time	O	O
 (	(	O	O
-APTT	aptt	O	O
+APTT	aptt	S_chemical	O
 )	)	O	O
 ,	,	O	O
 prothrombin	prothrombin	O	O
@@ -199,7 +199,7 @@ These	these	O	O
 results	results	O	O
 suggest	suggest	O	O
 that	that	O	O
-antithrombosis	antithrombosis	O	O
+antithrombosis	antithrombosis	O	S_disease
 of	of	O	O
 TET	tet	S_chemical	O
 and	and	O	O

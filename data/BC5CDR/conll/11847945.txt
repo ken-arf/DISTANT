@@ -1,5 +1,5 @@
 Acute	acute	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 after	after	O	O
 exposure	exposure	O	O
@@ -15,7 +15,7 @@ a	a	O	O
 case	case	O	O
 of	of	O	O
 acute	acute	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 following	following	O	O
 exposure	exposure	O	O
@@ -37,7 +37,7 @@ from	from	O	O
 Iraq	iraq	O	O
 developed	developed	O	O
 acute	acute	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 3	3	O	O
 weeks	weeks	O	O
@@ -76,7 +76,7 @@ were	were	O	O
 involved	involved	O	O
 except	except	O	O
 for	for	O	O
-dipyrone	dipyrone	O	O
+dipyrone	dipyrone	S_chemical	O
 for	for	O	O
 analgesia	analgesia	O	O
 .	.	O	O
@@ -118,7 +118,7 @@ by	by	O	O
 the	the	O	O
 patient	patient	O	O
 to	to	O	O
-dipyrone	dipyrone	O	O
+dipyrone	dipyrone	S_chemical	O
 was	was	O	O
 uneventful	uneventful	O	O
 .	.	O	O
@@ -157,7 +157,7 @@ agent	agent	O	O
 can	can	O	O
 cause	cause	O	O
 severe	severe	O	O
-cholestatic	cholestatic	O	O
+cholestatic	cholestatic	O	S_disease
 hepatitis	hepatitis	O	S_disease
 .	.	O	O
 

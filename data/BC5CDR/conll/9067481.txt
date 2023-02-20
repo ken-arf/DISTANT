@@ -1,5 +1,5 @@
-Cholesteryl	cholesteryl	O	O
-hemisuccinate	hemisuccinate	O	O
+Cholesteryl	cholesteryl	B_chemical	O
+hemisuccinate	hemisuccinate	I_chemical	O
 treatment	treatment	O	O
 protects	protects	O	O
 rodents	rodents	O	O
@@ -17,7 +17,7 @@ tetrachloride	tetrachloride	I_chemical	O
 ,	,	O	O
 chloroform	chloroform	O	O
 and	and	O	O
-galactosamine	galactosamine	O	O
+galactosamine	galactosamine	S_chemical	O
 .	.	O	O
 
 In	in	O	O
@@ -31,8 +31,8 @@ stabilizer/rigidifier	stabilizer/rigidifier	O	O
 of	of	O	O
 membranes	membranes	O	O
 ,	,	O	O
-cholesteryl	cholesteryl	O	O
-hemisuccinate	hemisuccinate	O	O
+cholesteryl	cholesteryl	B_chemical	O
+hemisuccinate	hemisuccinate	I_chemical	O
 ,	,	O	O
 tris	tris	O	O
 salt	salt	S_chemical	O
@@ -55,7 +55,7 @@ of	of	O	O
 carbon	carbon	B_chemical	O
 tetrachloride	tetrachloride	I_chemical	O
 (	(	O	O
-CCl4	ccl4	O	O
+CCl4	ccl4	S_chemical	O
 )	)	O	O
 .	.	O	O
 
@@ -89,8 +89,8 @@ form	form	O	O
 of	of	O	O
 CS	cs	O	O
 ,	,	O	O
-gamma-cholesteryloxybutyric	gamma-cholesteryloxybutyric	O	O
-acid	acid	O	O
+gamma-cholesteryloxybutyric	gamma-cholesteryloxybutyric	B_chemical	O
+acid	acid	I_chemical	O
 ,	,	O	O
 tris	tris	O	O
 salt	salt	S_chemical	O
@@ -105,7 +105,7 @@ adriamycin-	adriamycin-	O	O
 carbon	carbon	O	O
 tetrachloride-	tetrachloride-	O	O
 ,	,	O	O
-chloroform-	chloroform-	O	O
+chloroform-	chloroform-	S_chemical	O
 and	and	O	O
 galactosamine-induced	galactosamine-induced	O	O
 toxicity	toxicity	O	S_disease
@@ -165,13 +165,13 @@ the	the	O	O
 hepatotoxic	hepatotoxic	O	S_disease
 effects	effects	O	O
 of	of	O	O
-CCl4	ccl4	O	O
+CCl4	ccl4	S_chemical	O
 ,	,	O	O
 CHCl3	chcl3	O	O
 ,	,	O	O
 acetaminophen	acetaminophen	S_chemical	O
 and	and	O	O
-galactosamine	galactosamine	O	O
+galactosamine	galactosamine	S_chemical	O
 and	and	O	O
 against	against	O	O
 the	the	O	O
@@ -223,8 +223,8 @@ important	important	O	O
 common	common	O	O
 pathway	pathway	O	O
 to	to	O	O
-toxic	toxic	O	O
-cell	cell	O	O
+toxic	toxic	O	B_disease
+cell	cell	O	I_disease
 death	death	O	S_disease
 .	.	O	O
 
@@ -258,7 +258,7 @@ the	the	O	O
 protection	protection	O	O
 observed	observed	O	O
 against	against	O	O
-galactosamine	galactosamine	O	O
+galactosamine	galactosamine	S_chemical	O
 hepatotoxicity	hepatotoxicity	O	S_disease
 )	)	O	O
 .	.	O	O

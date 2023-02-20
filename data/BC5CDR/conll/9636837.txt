@@ -65,10 +65,10 @@ safety	safety	O	O
 with	with	O	O
 respect	respect	O	O
 to	to	O	O
-peripheral	peripheral	O	O
-nervous	nervous	O	O
-system	system	O	O
-damage	damage	O	O
+peripheral	peripheral	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
+damage	damage	O	I_disease
 .	.	O	O
 
 MATERIALS	materials	O	O

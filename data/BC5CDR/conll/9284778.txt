@@ -191,7 +191,7 @@ P450	p450	O	O
 and	and	O	O
 P58	p58	O	O
 protein	protein	O	O
-disulphide	disulphide	O	O
+disulphide	disulphide	S_chemical	O
 isomerase	isomerase	O	O
 isoform	isoform	O	O
 (	(	O	O
@@ -206,7 +206,7 @@ liver	liver	O	O
 biopsy	biopsy	O	O
 sample	sample	O	O
 showed	showed	O	O
-hepatocellular	hepatocellular	O	O
+hepatocellular	hepatocellular	O	B_disease
 necrosis	necrosis	O	S_disease
 which	which	O	O
 was	was	O	O
@@ -250,8 +250,8 @@ or	or	O	O
 P58	p58	O	O
 ,	,	O	O
 previously	previously	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 halothane	halothane	S_chemical	B_disease
 hepatitis	hepatitis	O	S_disease
 ,	,	O	O

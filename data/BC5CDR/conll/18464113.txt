@@ -35,7 +35,7 @@ the	the	O	O
 major	major	O	O
 causes	causes	O	O
 of	of	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 liver	liver	O	B_disease
 disease	disease	O	I_disease
 worldwide	worldwide	O	O
@@ -52,8 +52,8 @@ HBV	hbv	O	O
 have	have	O	O
 a	a	O	O
 higher	higher	O	O
-hepatic	hepatic	O	O
-complication	complication	O	O
+hepatic	hepatic	O	B_disease
+complication	complication	O	I_disease
 rate	rate	O	O
 while	while	O	O
 receiving	receiving	O	O
@@ -83,7 +83,7 @@ who	who	O	O
 have	have	O	O
 solid	solid	O	O
 and	and	O	O
-hematological	hematological	O	O
+hematological	hematological	O	B_disease
 malignancies	malignancies	O	S_disease
 with	with	O	O
 chronic	chronic	O	O
@@ -147,7 +147,7 @@ study	study	O	O
 
 The	the	O	O
 prophylactic	prophylactic	O	O
-lamivudin	lamivudin	O	O
+lamivudin	lamivudin	S_chemical	O
 group	group	O	O
 consisted	consisted	O	O
 of	of	O	O

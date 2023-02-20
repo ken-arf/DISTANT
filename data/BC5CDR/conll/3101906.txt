@@ -1,7 +1,7 @@
 Hepatic	hepatic	O	O
 reactions	reactions	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 ketoconazole	ketoconazole	S_chemical	O
 in	in	O	O
 the	the	O	O
@@ -36,8 +36,8 @@ reports	reports	O	O
 of	of	O	O
 possible	possible	O	O
 hepatotoxicity	hepatotoxicity	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 drug	drug	O	O
 ,	,	O	O
@@ -129,8 +129,8 @@ of	of	O	O
 treatment	treatment	O	O
 before	before	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 jaundice	jaundice	O	S_disease
 was	was	O	O
 61	61	O	O
@@ -161,8 +161,8 @@ liver	liver	O	O
 function	function	O	O
 tests	tests	O	O
 suggested	suggested	O	O
-hepatocellular	hepatocellular	O	O
-injury	injury	O	O
+hepatocellular	hepatocellular	O	B_disease
+injury	injury	O	I_disease
 in	in	O	O
 10	10	O	O
 (	(	O	O
@@ -210,8 +210,8 @@ were	were	O	O
 similar	similar	O	O
 .	.	O	O
 
-Allergic	allergic	O	O
-manifestations	manifestations	O	O
+Allergic	allergic	O	B_disease
+manifestations	manifestations	O	I_disease
 such	such	O	O
 as	as	O	O
 rash	rash	O	S_disease
@@ -255,8 +255,8 @@ the	the	O	O
 three	three	O	O
 deaths	deaths	O	S_disease
 probably	probably	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 ketoconazole	ketoconazole	S_chemical	O
 treatment	treatment	O	O
 the	the	O	O
@@ -266,8 +266,8 @@ been	been	O	O
 continued	continued	O	O
 after	after	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 jaundice	jaundice	O	S_disease
 and	and	O	O
 other	other	O	O

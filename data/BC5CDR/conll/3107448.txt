@@ -42,9 +42,9 @@ diabetes	diabetes	O	B_disease
 mellitus	mellitus	O	I_disease
 developed	developed	O	O
 an	an	O	O
-acute	acute	O	O
-hepatitis-like	hepatitis-like	O	O
-syndrome	syndrome	O	O
+acute	acute	O	B_disease
+hepatitis-like	hepatitis-like	O	I_disease
+syndrome	syndrome	O	I_disease
 soon	soon	O	O
 after	after	O	O
 initiation	initiation	O	O
@@ -102,9 +102,9 @@ Glyburide	glyburide	O	O
 can	can	O	O
 produce	produce	O	O
 an	an	O	O
-acute	acute	O	O
-hepatitis-like	hepatitis-like	O	O
-illness	illness	O	O
+acute	acute	O	B_disease
+hepatitis-like	hepatitis-like	O	I_disease
+illness	illness	O	I_disease
 in	in	O	O
 some	some	O	O
 persons	persons	O	O

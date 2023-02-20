@@ -7,13 +7,13 @@ efficacy	efficacy	O	O
 and	and	O	O
 safety	safety	O	O
 of	of	O	O
-dothiepin	dothiepin	O	O
+dothiepin	dothiepin	S_chemical	O
 hydrochloride	hydrochloride	O	O
 in	in	O	O
 the	the	O	O
 treatment	treatment	O	O
 of	of	O	O
-major	major	O	O
+major	major	O	B_disease
 depressive	depressive	O	B_disease
 disorder	disorder	O	I_disease
 .	.	O	O
@@ -26,7 +26,7 @@ parallel	parallel	O	O
 treatment	treatment	O	O
 study	study	O	O
 ,	,	O	O
-dothiepin	dothiepin	O	O
+dothiepin	dothiepin	S_chemical	O
 and	and	O	O
 amitriptyline	amitriptyline	S_chemical	O
 were	were	O	O
@@ -42,7 +42,7 @@ depressed	depressed	O	S_disease
 outpatients	outpatients	O	O
 .	.	O	O
 
-Dothiepin	dothiepin	O	O
+Dothiepin	dothiepin	S_chemical	O
 and	and	O	O
 amitriptyline	amitriptyline	S_chemical	O
 were	were	O	O
@@ -69,16 +69,16 @@ The	the	O	O
 overall	overall	O	O
 incidence	incidence	O	O
 of	of	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 and	and	O	O
 the	the	O	O
 frequency	frequency	O	O
 and	and	O	O
 severity	severity	O	O
 of	of	O	O
-blurred	blurred	O	O
-vision	vision	O	O
+blurred	blurred	O	B_disease
+vision	vision	O	I_disease
 ,	,	O	O
 dry	dry	O	B_disease
 mouth	mouth	O	I_disease
@@ -89,13 +89,13 @@ were	were	O	O
 significantly	significantly	O	O
 less	less	O	O
 with	with	O	O
-dothiepin	dothiepin	O	O
+dothiepin	dothiepin	S_chemical	O
 than	than	O	O
 with	with	O	O
 amitriptyline	amitriptyline	S_chemical	O
 .	.	O	O
 
-Dothiepin	dothiepin	O	O
+Dothiepin	dothiepin	S_chemical	O
 also	also	O	O
 produced	produced	O	O
 fewer	fewer	O	O
@@ -116,7 +116,7 @@ laboratory	laboratory	O	O
 parameters	parameters	O	O
 .	.	O	O
 
-Dothiepin	dothiepin	O	O
+Dothiepin	dothiepin	S_chemical	O
 thus	thus	O	O
 was	was	O	O
 found	found	O	O
@@ -126,11 +126,11 @@ an	an	O	O
 effective	effective	O	O
 antidepressant	antidepressant	S_chemical	O
 drug	drug	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 fewer	fewer	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 than	than	O	O
 amitriptyline	amitriptyline	S_chemical	O
 in	in	O	O

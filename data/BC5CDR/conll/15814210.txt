@@ -1,9 +1,9 @@
 Minor	minor	O	O
-neurological	neurological	O	O
-dysfunction	dysfunction	O	O
+neurological	neurological	O	B_disease
+dysfunction	dysfunction	O	I_disease
 ,	,	O	O
-cognitive	cognitive	O	O
-development	development	O	O
+cognitive	cognitive	O	B_disease
+development	development	O	I_disease
 ,	,	O	O
 and	and	O	O
 somatic	somatic	O	O
@@ -34,11 +34,11 @@ was	was	O	O
 to	to	O	O
 assess	assess	O	O
 minor	minor	O	O
-neurological	neurological	O	O
-dysfunction	dysfunction	O	O
+neurological	neurological	O	B_disease
+dysfunction	dysfunction	O	I_disease
 ,	,	O	O
-cognitive	cognitive	O	O
-development	development	O	O
+cognitive	cognitive	O	B_disease
+development	development	O	I_disease
 ,	,	O	O
 and	and	O	O
 somatic	somatic	O	O
@@ -127,12 +127,12 @@ and	and	O	O
 IV	iv	O	O
 ,	,	O	O
 periventricular	periventricular	O	O
-leukomalacia	leukomalacia	O	O
+leukomalacia	leukomalacia	O	S_disease
 ,	,	O	O
 and	and	O	O
 severe	severe	O	O
-psychomotor	psychomotor	O	O
-retardation	retardation	O	O
+psychomotor	psychomotor	O	B_disease
+retardation	retardation	O	I_disease
 .	.	O	O
 
 Each	each	O	O
@@ -144,16 +144,16 @@ a	a	O	O
 neuropediatrician	neuropediatrician	O	O
 for	for	O	O
 minor	minor	O	O
-neurological	neurological	O	O
-dysfunctions	dysfunctions	O	O
+neurological	neurological	O	B_disease
+dysfunctions	dysfunctions	O	I_disease
 and	and	O	O
 tested	tested	O	O
 by	by	O	O
 a	a	O	O
 psychologist	psychologist	O	O
 for	for	O	O
-cognitive	cognitive	O	O
-development	development	O	O
+cognitive	cognitive	O	B_disease
+development	development	O	I_disease
 with	with	O	O
 a	a	O	O
 Kaufman	kaufman	O	O
@@ -253,8 +253,8 @@ higher	higher	O	O
 rate	rate	O	O
 of	of	O	O
 minor	minor	O	O
-neurological	neurological	O	O
-dysfunctions	dysfunctions	O	O
+neurological	neurological	O	B_disease
+dysfunctions	dysfunctions	O	I_disease
 .	.	O	O
 
 Neurological	neurological	O	O
@@ -284,7 +284,7 @@ dexamethasone	dexamethasone	S_chemical	O
 on	on	O	O
 neurological	neurological	O	O
 and	and	O	O
-cognitive	cognitive	O	O
-development	development	O	O
+cognitive	cognitive	O	B_disease
+development	development	O	I_disease
 .	.	O	O
 

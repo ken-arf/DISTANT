@@ -36,8 +36,8 @@ and	and	O	O
 the	the	O	O
 medical	medical	O	O
 risks	risks	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 this	this	O	O
 serious	serious	O	O
 condition	condition	O	O
@@ -66,16 +66,16 @@ other	other	O	O
 effects	effects	O	O
 such	such	O	O
 as	as	O	O
-cardiac	cardiac	O	O
-dysrhythmias	dysrhythmias	O	O
+cardiac	cardiac	O	B_disease
+dysrhythmias	dysrhythmias	O	S_disease
 ,	,	O	O
 hypertension	hypertension	O	S_disease
 ,	,	O	O
 hallucinations	hallucinations	O	S_disease
 ,	,	O	O
 and	and	O	O
-violent	violent	O	O
-behavior	behavior	O	O
+violent	violent	O	B_disease
+behavior	behavior	O	I_disease
 .	.	O	O
 
 Dental	dental	O	O
@@ -91,8 +91,8 @@ hygiene	hygiene	O	O
 ,	,	O	O
 xerostomia	xerostomia	O	O
 ,	,	O	O
-rampant	rampant	O	O
-caries	caries	O	O
+rampant	rampant	O	B_disease
+caries	caries	O	I_disease
 (	(	O	O
 "	"	O	O
 meth	meth	S_chemical	B_disease

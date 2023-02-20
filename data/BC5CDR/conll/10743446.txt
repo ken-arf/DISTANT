@@ -137,7 +137,7 @@ pain	pain	O	S_disease
 pain	pain	O	S_disease
 evoked	evoked	O	O
 by	by	O	O
-punctate	punctate	O	O
+punctate	punctate	S_chemical	O
 and	and	O	O
 brush	brush	O	O
 stimuli	stimuli	O	O

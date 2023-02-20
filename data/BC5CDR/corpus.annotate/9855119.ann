@@ -1,0 +1,11 @@
+T1	Chemical 74 84	tacrolimus
+T2	Chemical 86 91	FK506
+T3	Chemical 234 244	tacrolimus
+T4	Chemical 246 251	FK506
+T5	Chemical 872 877	FK506
+T6	Chemical 913 918	FK506
+T7	Disease 1240 1258	glomerulosclerosis
+T8	Disease 1296 1317	interstitial fibrosis
+T9	Chemical 1343 1353	creatinine
+T10	Disease 1649 1663	arteriolopathy
+T11	Disease 1690 1700	hyalinosis

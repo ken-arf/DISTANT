@@ -15,7 +15,7 @@ hyperalgesia	hyperalgesia	O	S_disease
 in	in	O	O
 chemotherapy	chemotherapy	O	O
 and	and	O	O
-diabetic	diabetic	O	S_disease
+diabetic	diabetic	O	B_disease
 neuropathy	neuropathy	O	S_disease
 rat	rat	O	O
 model	model	O	O
@@ -148,7 +148,7 @@ withdrawal	withdrawal	O	O
 test	test	O	O
 described	described	O	O
 by	by	O	O
-Randall-Selitto	randall-selitto	O	O
+Randall-Selitto	randall-selitto	S_chemical	O
 .	.	O	O
 
 RESULTS	results	O	O
@@ -175,7 +175,7 @@ NO	no	O	O
 synthase	synthase	O	O
 activity	activity	O	O
 reduces	reduces	O	O
-diabetic	diabetic	O	S_disease
+diabetic	diabetic	O	B_disease
 hyperalgesia	hyperalgesia	O	S_disease
 .	.	O	O
 
@@ -246,7 +246,7 @@ of	of	O	O
 HOE	hoe	O	O
 140	140	O	O
 or	or	O	O
-des-Arg10HOE	des-arg10hoe	O	O
+des-Arg10HOE	des-arg10hoe	S_chemical	O
 140	140	O	O
 in	in	O	O
 toxic	toxic	O	O

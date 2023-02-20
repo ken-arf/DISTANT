@@ -1,5 +1,5 @@
 Recurrent	recurrent	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 interstitial	interstitial	O	B_disease
 nephritis	nephritis	O	I_disease
 induced	induced	O	O
@@ -17,7 +17,7 @@ recurrent	recurrent	O	O
 ,	,	O	O
 azithromycin-induced	azithromycin-induced	O	O
 ,	,	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 interstitial	interstitial	O	B_disease
 nephritis	nephritis	O	I_disease
 .	.	O	O
@@ -54,7 +54,7 @@ cases	cases	O	O
 of	of	O	O
 antibiotic	antibiotic	O	O
 induced	induced	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 interstitial	interstitial	O	B_disease
 nephritis	nephritis	O	I_disease
 are	are	O	O

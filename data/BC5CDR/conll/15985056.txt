@@ -51,7 +51,7 @@ azithromycin	azithromycin	S_chemical	O
 and	and	O	O
 therapy	therapy	O	O
 with	with	O	O
-baclofen	baclofen	O	O
+baclofen	baclofen	S_chemical	O
 finally	finally	O	O
 resolved	resolved	O	O
 hiccups	hiccups	O	S_disease
@@ -76,8 +76,8 @@ agents	agents	O	O
 have	have	O	O
 been	been	O	O
 uncommonly	uncommonly	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 hiccups	hiccups	O	S_disease
 .	.	O	O
 
@@ -108,8 +108,8 @@ the	the	O	O
 literature	literature	O	O
 as	as	O	O
 being	being	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 development	development	O	O
 of	of	O	O
@@ -126,7 +126,7 @@ been	been	O	O
 reported	reported	O	O
 related	related	O	O
 to	to	O	O
-macrolide	macrolide	O	O
+macrolide	macrolide	S_chemical	O
 antimicrobials	antimicrobials	O	O
 .	.	O	O
 
@@ -166,7 +166,7 @@ this	this	O	O
 reaction	reaction	O	O
 with	with	O	O
 other	other	O	O
-macrolides	macrolides	O	O
+macrolides	macrolides	S_chemical	O
 and	and	O	O
 the	the	O	O
 absence	absence	O	O
@@ -220,15 +220,15 @@ elimination	elimination	O	O
 
 However	however	O	O
 ,	,	O	O
-macrolide	macrolide	O	O
+macrolide	macrolide	S_chemical	O
 antimicrobials	antimicrobials	O	O
 have	have	O	O
 been	been	O	O
 reported	reported	O	O
 to	to	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 hiccups	hiccups	O	S_disease
 and	and	O	O
 vagal	vagal	O	O

@@ -1,4 +1,4 @@
-Daidzein	daidzein	O	O
+Daidzein	daidzein	S_chemical	O
 activates	activates	O	O
 choline	choline	S_chemical	O
 acetyltransferase	acetyltransferase	O	O
@@ -86,9 +86,9 @@ was	was	O	O
 ultimately	ultimately	O	O
 identified	identified	O	O
 as	as	O	O
-daidzein	daidzein	O	O
+daidzein	daidzein	S_chemical	O
 (	(	O	O
-4',7-dihydroxy-isoflavone	4',7-dihydroxy-isoflavone	O	O
+4',7-dihydroxy-isoflavone	4',7-dihydroxy-isoflavone	S_chemical	O
 )	)	O	O
 .	.	O	O
 
@@ -99,7 +99,7 @@ investigate	investigate	O	O
 the	the	O	O
 effects	effects	O	O
 of	of	O	O
-daidzein	daidzein	O	O
+daidzein	daidzein	S_chemical	O
 from	from	O	O
 Pueraria	pueraria	O	O
 thunbergiana	thunbergiana	O	O
@@ -123,7 +123,7 @@ tests	tests	O	O
 
 Administration	administration	O	O
 of	of	O	O
-daidzein	daidzein	O	O
+daidzein	daidzein	S_chemical	O
 (	(	O	O
 4.5	4.5	O	O
 mg/kg	mg/kg	O	O
@@ -181,7 +181,7 @@ contrast	contrast	O	O
 mice	mice	O	O
 treated	treated	O	O
 with	with	O	O
-daidzein	daidzein	O	O
+daidzein	daidzein	S_chemical	O
 prior	prior	O	O
 to	to	O	O
 the	the	O	O
@@ -210,7 +210,7 @@ These	these	O	O
 results	results	O	O
 indicate	indicate	O	O
 that	that	O	O
-daidzein	daidzein	O	O
+daidzein	daidzein	S_chemical	O
 might	might	O	O
 play	play	O	O
 a	a	O	O

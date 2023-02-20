@@ -1,0 +1,16 @@
+T1	Disease 20 41	cholestatic hepatitis
+T2	Disease 94 115	cholestatic hepatitis
+T3	Disease 274 295	cholestatic hepatitis
+T4	Chemical 312 323	ticlopidine
+T5	Chemical 473 484	ticlopidine
+T6	Disease 569 590	Cholestatic hepatitis
+T7	Chemical 640 651	ticlopidine
+T9	Chemical 778 789	ticlopidine
+T10	Disease 848 869	cholestatic hepatitis
+T12	Disease 1126 1144	adverse drug event
+T13	Chemical 1180 1191	ticlopidine
+T15	Disease 1309 1323	hepatotoxicity
+T16	Disease 1398 1419	Cholestatic hepatitis
+T17	Chemical 1448 1459	ticlopidine
+T18	Chemical 1670 1681	ticlopidine
+T19	Chemical 1732 1743	clopidogrel

@@ -1,6 +1,6 @@
-Nitro-L-arginine	nitro-l-arginine	O	O
-methyl	methyl	O	O
-ester	ester	O	O
+Nitro-L-arginine	nitro-l-arginine	B_chemical	O
+methyl	methyl	I_chemical	O
+ester	ester	I_chemical	O
 :	:	O	O
 a	a	O	O
 potential	potential	O	O
@@ -17,9 +17,9 @@ oxide	oxide	I_chemical	O
 NO	no	O	O
 )	)	O	O
 inhibitor	inhibitor	O	O
-nitro-L-arginine	nitro-l-arginine	O	O
-methyl	methyl	O	O
-ester	ester	O	O
+nitro-L-arginine	nitro-l-arginine	B_chemical	O
+methyl	methyl	I_chemical	O
+ester	ester	I_chemical	O
 (	(	O	O
 L-NAME	l-name	O	O
 )	)	O	O
@@ -27,7 +27,7 @@ may	may	O	O
 act	act	O	O
 as	as	O	O
 an	an	O	O
-otoprotectant	otoprotectant	O	O
+otoprotectant	otoprotectant	S_chemical	O
 against	against	O	O
 high-frequency	high-frequency	O	O
 hearing	hearing	O	B_disease
@@ -67,8 +67,8 @@ ototoxicity	ototoxicity	O	S_disease
 is	is	O	O
 a	a	O	O
 serious	serious	O	O
-health	health	O	O
-problem	problem	O	O
+health	health	O	B_disease
+problem	problem	O	I_disease
 and	and	O	O
 ,	,	O	O
 as	as	O	O
@@ -123,7 +123,7 @@ ear	ear	O	O
 .	.	O	O
 
 The	the	O	O
-otoprotectant	otoprotectant	O	O
+otoprotectant	otoprotectant	S_chemical	O
 L-NAME	l-name	O	O
 was	was	O	O
 administered	administered	O	O

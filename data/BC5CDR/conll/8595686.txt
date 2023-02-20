@@ -86,8 +86,8 @@ mg	mg	O	O
 )	)	O	O
 .	.	O	O
 
-Venous	venous	O	O
-discomfort	discomfort	O	O
+Venous	venous	O	B_disease
+discomfort	discomfort	O	I_disease
 was	was	O	O
 assessed	assessed	O	O
 with	with	O	O
@@ -175,8 +175,8 @@ P	p	O	O
 The	the	O	O
 incidence	incidence	O	O
 of	of	O	O
-venous	venous	O	O
-discomfort	discomfort	O	O
+venous	venous	O	B_disease
+discomfort	discomfort	O	I_disease
 was	was	O	O
 lower	lower	O	O
 in	in	O	O

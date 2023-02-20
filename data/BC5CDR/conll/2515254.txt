@@ -2,8 +2,8 @@ Source	source	O	O
 of	of	O	O
 pain	pain	O	S_disease
 and	and	O	O
-primitive	primitive	O	O
-dysfunction	dysfunction	O	O
+primitive	primitive	O	B_disease
+dysfunction	dysfunction	O	I_disease
 in	in	O	O
 migraine	migraine	O	S_disease
 :	:	O	O

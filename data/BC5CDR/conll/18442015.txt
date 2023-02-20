@@ -17,7 +17,7 @@ concerning	concerning	O	O
 with	with	O	O
 pathogenesis	pathogenesis	O	O
 of	of	O	O
-gastric	gastric	O	O
+gastric	gastric	O	B_disease
 hemorrhage	hemorrhage	O	S_disease
 and	and	O	O
 mucosal	mucosal	O	O
@@ -41,8 +41,8 @@ examine	examine	O	O
 the	the	O	O
 role	role	O	O
 of	of	O	O
-gastric	gastric	O	O
-acid	acid	O	O
+gastric	gastric	B_chemical	O
+acid	acid	I_chemical	O
 back-diffusion	back-diffusion	O	O
 ,	,	O	O
 mast	mast	O	O
@@ -62,7 +62,7 @@ microvascular	microvascular	O	O
 permeability	permeability	O	O
 in	in	O	O
 modulating	modulating	O	O
-gastric	gastric	O	O
+gastric	gastric	O	B_disease
 hemorrhage	hemorrhage	O	S_disease
 and	and	O	O
 ulcer	ulcer	O	S_disease
@@ -74,8 +74,8 @@ induced	induced	O	O
 by	by	O	O
 coadministration	coadministration	O	O
 of	of	O	O
-vitamin	vitamin	O	O
-D2	d2	O	O
+vitamin	vitamin	B_chemical	O
+D2	d2	I_chemical	O
 and	and	O	O
 cholesterol	cholesterol	S_chemical	O
 .	.	O	O
@@ -113,8 +113,8 @@ of	of	O	O
 corn	corn	B_chemical	O
 oil	oil	I_chemical	O
 containing	containing	O	O
-vitamin	vitamin	O	O
-D2	d2	O	O
+vitamin	vitamin	B_chemical	O
+D2	d2	I_chemical	O
 and	and	O	O
 cholesterol	cholesterol	S_chemical	O
 to	to	O	O
@@ -151,8 +151,8 @@ normal	normal	O	O
 saline	saline	O	O
 .	.	O	O
 
-Gastric	gastric	O	O
-acid	acid	O	O
+Gastric	gastric	B_chemical	O
+acid	acid	I_chemical	O
 back-diffusion	back-diffusion	O	O
 ,	,	O	O
 mucosal	mucosal	O	O
@@ -184,7 +184,7 @@ as	as	O	O
 serum	serum	O	O
 calcium	calcium	S_chemical	O
 ,	,	O	O
-total	total	O	O
+total	total	B_chemical	O
 cholesterol	cholesterol	S_chemical	O
 and	and	O	O
 low-density	low-density	O	O
@@ -198,17 +198,17 @@ rats	rats	O	O
 .	.	O	O
 
 Severe	severe	O	O
-gastric	gastric	O	O
-ulcers	ulcers	O	O
+gastric	gastric	O	B_disease
+ulcers	ulcers	O	I_disease
 accompanied	accompanied	O	O
 with	with	O	O
 increased	increased	O	O
-ulcerogenic	ulcerogenic	O	O
+ulcerogenic	ulcerogenic	O	S_disease
 factors	factors	O	O
 ,	,	O	O
 including	including	O	O
-gastric	gastric	O	O
-acid	acid	O	O
+gastric	gastric	B_chemical	O
+acid	acid	I_chemical	O
 back-diffusion	back-diffusion	O	O
 ,	,	O	O
 histamine	histamine	S_chemical	O
@@ -236,7 +236,7 @@ correlation	correlation	O	O
 of	of	O	O
 histamine	histamine	S_chemical	O
 to	to	O	O
-gastric	gastric	O	O
+gastric	gastric	O	B_disease
 hemorrhage	hemorrhage	O	S_disease
 and	and	O	O
 to	to	O	O
@@ -250,11 +250,11 @@ rats	rats	O	O
 .	.	O	O
 
 This	this	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 ulcer	ulcer	O	S_disease
 and	and	O	O
 various	various	O	O
-ulcerogenic	ulcerogenic	O	O
+ulcerogenic	ulcerogenic	O	S_disease
 parameters	parameters	O	O
 were	were	O	O
 dose-dependently	dose-dependently	O	O
@@ -269,13 +269,13 @@ Atherosclerosis	atherosclerosis	O	S_disease
 could	could	O	O
 produce	produce	O	O
 gastric	gastric	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 ulcer	ulcer	O	S_disease
 via	via	O	O
 aggravation	aggravation	O	O
 of	of	O	O
-gastric	gastric	O	O
-acid	acid	O	O
+gastric	gastric	B_chemical	O
+acid	acid	I_chemical	O
 back-diffusion	back-diffusion	O	O
 ,	,	O	O
 LPO	lpo	O	O

@@ -1,5 +1,5 @@
-Arterial	arterial	O	O
-thromboembolism	thromboembolism	O	O
+Arterial	arterial	O	B_disease
+thromboembolism	thromboembolism	O	I_disease
 in	in	O	O
 patients	patients	O	O
 receiving	receiving	O	O
@@ -9,14 +9,14 @@ therapy	therapy	O	O
 :	:	O	O
 a	a	O	O
 complication	complication	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 heparin-induced	heparin-induced	O	O
 thrombocytopenia	thrombocytopenia	O	S_disease
 .	.	O	O
 
-Arterial	arterial	O	O
-thromboembolism	thromboembolism	O	O
+Arterial	arterial	O	B_disease
+thromboembolism	thromboembolism	O	I_disease
 is	is	O	O
 a	a	O	O
 recognized	recognized	O	O
@@ -146,7 +146,7 @@ heparin	heparin	S_chemical	O
 and	and	O	O
 anticoagulation	anticoagulation	O	O
 with	with	O	O
-sodium	sodium	S_chemical	O
+sodium	sodium	B_chemical	O
 warfarin	warfarin	S_chemical	O
 if	if	O	O
 necessary	necessary	O	O

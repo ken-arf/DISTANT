@@ -1,7 +1,7 @@
 Changes	changes	O	O
 in	in	O	O
-heart	heart	O	O
-size	size	O	O
+heart	heart	O	B_disease
+size	size	O	I_disease
 during	during	O	O
 long-term	long-term	O	O
 timolol	timolol	S_chemical	O
@@ -18,8 +18,8 @@ long-term	long-term	O	O
 timolol	timolol	S_chemical	O
 treatment	treatment	O	O
 on	on	O	O
-heart	heart	O	O
-size	size	O	O
+heart	heart	O	B_disease
+size	size	O	I_disease
 after	after	O	O
 myocardial	myocardial	O	B_disease
 infarction	infarction	O	S_disease
@@ -61,8 +61,8 @@ but	but	O	O
 significant	significant	O	O
 increase	increase	O	O
 in	in	O	O
-heart	heart	O	O
-size	size	O	O
+heart	heart	O	B_disease
+size	size	O	I_disease
 from	from	O	O
 baseline	baseline	O	O
 in	in	O	O
@@ -97,8 +97,8 @@ The	the	O	O
 timolol-related	timolol-related	O	O
 increase	increase	O	O
 in	in	O	O
-heart	heart	O	O
-size	size	O	O
+heart	heart	O	B_disease
+size	size	O	I_disease
 was	was	O	O
 observed	observed	O	O
 only	only	O	O
@@ -108,8 +108,8 @@ with	with	O	O
 normal	normal	O	O
 and	and	O	O
 borderline	borderline	O	O
-heart	heart	O	O
-size	size	O	O
+heart	heart	O	B_disease
+size	size	O	I_disease
 .	.	O	O
 
 In	in	O	O
@@ -120,8 +120,8 @@ cardiomegaly	cardiomegaly	O	O
 the	the	O	O
 increase	increase	O	O
 in	in	O	O
-heart	heart	O	O
-size	size	O	O
+heart	heart	O	B_disease
+size	size	O	I_disease
 was	was	O	O
 similar	similar	O	O
 in	in	O	O
@@ -132,8 +132,8 @@ groups	groups	O	O
 After	after	O	O
 re-infarction	re-infarction	O	O
 ,	,	O	O
-heart	heart	O	O
-size	size	O	O
+heart	heart	O	B_disease
+size	size	O	I_disease
 increased	increased	O	O
 in	in	O	O
 the	the	O	O

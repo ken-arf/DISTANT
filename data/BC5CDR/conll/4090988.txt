@@ -4,8 +4,8 @@ paracetamol	paracetamol	S_chemical	O
 of	of	O	O
 bladder	bladder	O	O
 and	and	O	O
-liver	liver	O	O
-tumours	tumours	O	O
+liver	liver	O	B_disease
+tumours	tumours	O	I_disease
 in	in	O	O
 the	the	O	O
 rat	rat	O	O
@@ -62,8 +62,8 @@ of	of	O	O
 both	both	O	O
 sexes	sexes	O	O
 developed	developed	O	O
-neoplastic	neoplastic	O	O
-nodules	nodules	O	O
+neoplastic	neoplastic	O	B_disease
+nodules	nodules	O	I_disease
 of	of	O	O
 the	the	O	O
 liver	liver	O	O
@@ -89,8 +89,8 @@ increase	increase	O	O
 in	in	O	O
 foci	foci	O	O
 of	of	O	O
-cellular	cellular	O	O
-alteration	alteration	O	O
+cellular	cellular	O	B_disease
+alteration	alteration	O	I_disease
 ,	,	O	O
 the	the	O	O
 latter	latter	O	O
@@ -123,8 +123,8 @@ and	and	O	O
 three	three	O	O
 rats	rats	O	O
 bore	bore	O	O
-bladder	bladder	O	O
-carcinomas	carcinomas	O	O
+bladder	bladder	O	B_disease
+carcinomas	carcinomas	O	I_disease
 .	.	O	O
 
 However	however	O	O
@@ -132,8 +132,8 @@ However	however	O	O
 significant	significant	O	O
 yields	yields	O	O
 of	of	O	O
-bladder	bladder	O	O
-tumours	tumours	O	O
+bladder	bladder	O	B_disease
+tumours	tumours	O	I_disease
 were	were	O	O
 only	only	O	O
 obtained	obtained	O	O

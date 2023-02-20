@@ -135,8 +135,8 @@ pain	pain	O	S_disease
 .	.	O	O
 
 Most	most	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 were	were	O	O
 mild	mild	O	O
 and	and	O	O

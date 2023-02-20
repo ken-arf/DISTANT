@@ -7,7 +7,7 @@ Crocus	crocus	O	O
 sativus	sativus	O	O
 L.	l.	O	O
 ,	,	O	O
-crocin	crocin	O	O
+crocin	crocin	S_chemical	O
 on	on	O	O
 streptozocin-induced	streptozocin-induced	O	O
 model	model	O	O
@@ -29,7 +29,7 @@ of	of	O	O
 water-soluble	water-soluble	O	O
 carotenoids	carotenoids	O	O
 ,	,	O	O
-crocins	crocins	O	O
+crocins	crocins	S_chemical	O
 ,	,	O	O
 as	as	O	O
 the	the	O	O
@@ -60,7 +60,7 @@ study	study	O	O
 the	the	O	O
 effect	effect	O	O
 of	of	O	O
-crocins	crocins	O	O
+crocins	crocins	S_chemical	O
 on	on	O	O
 sporadic	sporadic	O	O
 Alzheimer	alzheimer	O	B_disease
@@ -110,7 +110,7 @@ control	control	O	O
 and	and	O	O
 3	3	O	O
 ,	,	O	O
-crocins	crocins	O	O
+crocins	crocins	S_chemical	O
 (	(	O	O
 15	15	O	O
 and	and	O	O
@@ -128,7 +128,7 @@ and	and	O	O
 ,	,	O	O
 STZ	stz	O	O
 +	+	O	O
-crocins	crocins	O	O
+crocins	crocins	S_chemical	O
 (	(	O	O
 15	15	O	O
 and	and	O	O
@@ -173,11 +173,11 @@ repeated	repeated	O	O
 In	in	O	O
 STZ	stz	O	O
 +	+	O	O
-crocin	crocin	O	O
+crocin	crocin	S_chemical	O
 animal	animal	O	O
 groups	groups	O	O
 ,	,	O	O
-crocin	crocin	O	O
+crocin	crocin	S_chemical	O
 was	was	O	O
 applied	applied	O	O
 in	in	O	O
@@ -203,7 +203,7 @@ weeks	weeks	O	O
 
 Prescription	prescription	O	O
 of	of	O	O
-crocin	crocin	O	O
+crocin	crocin	S_chemical	O
 in	in	O	O
 each	each	O	O
 dose	dose	O	O
@@ -248,7 +248,7 @@ was	was	O	O
 found	found	O	O
 out	out	O	O
 that	that	O	O
-crocin	crocin	O	O
+crocin	crocin	S_chemical	O
 (	(	O	O
 30	30	O	O
 mg/kg)-treated	mg/kg)-treated	O	O
@@ -272,7 +272,7 @@ rats	rats	O	O
 In	in	O	O
 addition	addition	O	O
 ,	,	O	O
-crocin	crocin	O	O
+crocin	crocin	S_chemical	O
 in	in	O	O
 the	the	O	O
 mentioned	mentioned	O	O
@@ -304,7 +304,7 @@ demonstrate	demonstrate	O	O
 the	the	O	O
 effectiveness	effectiveness	O	O
 of	of	O	O
-crocin	crocin	O	O
+crocin	crocin	S_chemical	O
 (	(	O	O
 30	30	O	O
 mg/kg	mg/kg	O	O

@@ -26,11 +26,11 @@ a	a	O	O
 fixed-dose	fixed-dose	O	O
 combination	combination	O	O
 of	of	O	O
-telmisartan	telmisartan	O	O
+telmisartan	telmisartan	S_chemical	O
 and	and	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 versus	versus	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 monotherapy	monotherapy	O	O
 in	in	O	O
 Indian	indian	O	O
@@ -64,11 +64,11 @@ combination	combination	O	O
 FDC	fdc	O	O
 )	)	O	O
 of	of	O	O
-telmisartan	telmisartan	O	O
+telmisartan	telmisartan	S_chemical	O
 40	40	O	O
 mg	mg	O	O
 +	+	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 5	5	O	O
 mg	mg	O	O
 (	(	O	O
@@ -76,7 +76,7 @@ T+A	t+a	O	O
 )	)	O	O
 compared	compared	O	O
 with	with	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 5-mg	5-mg	O	O
 monotherapy	monotherapy	O	O
 (	(	O	O
@@ -210,8 +210,8 @@ was	was	O	O
 assessed	assessed	O	O
 by	by	O	O
 treatment-emergent	treatment-emergent	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 ,	,	O	O
 identified	identified	O	O
 using	using	O	O
@@ -363,8 +363,8 @@ P	p	O	O
 The	the	O	O
 prevalences	prevalences	O	O
 of	of	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 were	were	O	O
 not	not	O	O
 significantly	significantly	O	O
@@ -393,7 +393,7 @@ A	a	O	O
 )	)	O	O
 .	.	O	O
 
-Peripheral	peripheral	O	O
+Peripheral	peripheral	O	B_disease
 edema	edema	O	S_disease
 was	was	O	O
 reported	reported	O	O

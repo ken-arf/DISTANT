@@ -1,14 +1,14 @@
-Glycopyrronium	glycopyrronium	O	O
+Glycopyrronium	glycopyrronium	S_chemical	O
 requirements	requirements	O	O
 for	for	O	O
 antagonism	antagonism	O	O
 of	of	O	O
 the	the	O	O
-muscarinic	muscarinic	O	O
-side	side	O	O
-effects	effects	O	O
+muscarinic	muscarinic	S_chemical	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
-edrophonium	edrophonium	O	O
+edrophonium	edrophonium	S_chemical	O
 .	.	O	O
 
 We	we	O	O
@@ -24,7 +24,7 @@ the	the	O	O
 cardiovascular	cardiovascular	O	O
 effects	effects	O	O
 of	of	O	O
-glycopyrronium	glycopyrronium	O	O
+glycopyrronium	glycopyrronium	S_chemical	O
 5	5	O	O
 micrograms	micrograms	O	O
 kg-1	kg-1	O	O
@@ -39,7 +39,7 @@ or	or	O	O
 1	1	O	O
 min	min	O	O
 before	before	O	O
-edrophonium	edrophonium	O	O
+edrophonium	edrophonium	S_chemical	O
 1	1	O	O
 mg	mg	O	O
 kg-1	kg-1	O	O
@@ -93,7 +93,7 @@ min-1	min-1	O	O
 
 Use	use	O	O
 of	of	O	O
-glycopyrronium	glycopyrronium	O	O
+glycopyrronium	glycopyrronium	S_chemical	O
 5	5	O	O
 micrograms	micrograms	O	O
 kg-1	kg-1	O	O
@@ -108,7 +108,7 @@ given	given	O	O
 min	min	O	O
 before	before	O	O
 the	the	O	O
-edrophonium	edrophonium	O	O
+edrophonium	edrophonium	S_chemical	O
 ,	,	O	O
 was	was	O	O
 sufficient	sufficient	O	O
@@ -124,7 +124,7 @@ This	this	O	O
 low	low	O	O
 dose	dose	O	O
 of	of	O	O
-glycopyrronium	glycopyrronium	O	O
+glycopyrronium	glycopyrronium	S_chemical	O
 provided	provided	O	O
 good	good	O	O
 control	control	O	O

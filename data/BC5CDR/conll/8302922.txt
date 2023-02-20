@@ -5,7 +5,7 @@ during	during	O	O
 prostaglandin	prostaglandin	B_chemical	O
 E1	e1	I_chemical	O
 or	or	O	O
-trimethaphan	trimethaphan	O	O
+trimethaphan	trimethaphan	S_chemical	O
 induced	induced	O	O
 hypotension	hypotension	O	S_disease
 .	.	O	O
@@ -21,7 +21,7 @@ E1	e1	I_chemical	O
 PGE1	pge1	S_chemical	O
 )	)	O	O
 or	or	O	O
-trimethaphan	trimethaphan	O	O
+trimethaphan	trimethaphan	S_chemical	O
 (	(	O	O
 TMP	tmp	S_chemical	O
 )	)	O	O

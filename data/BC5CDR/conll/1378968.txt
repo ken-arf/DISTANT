@@ -120,7 +120,7 @@ glomerular	glomerular	O	O
 filtration	filtration	O	O
 rate	rate	O	O
 (	(	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 )	)	O	O
 without	without	O	O
 significant	significant	O	O
@@ -171,7 +171,7 @@ also	also	O	O
 caused	caused	O	O
 proteinuria	proteinuria	O	S_disease
 and	and	O	O
-systolic	systolic	O	O
+systolic	systolic	O	B_disease
 hypertension	hypertension	O	S_disease
 in	in	O	O
 absence	absence	O	O
@@ -182,7 +182,7 @@ glomerulosclerosis	glomerulosclerosis	O	S_disease
 HP	hp	O	O
 failed	failed	O	O
 to	to	O	O
-accentuante	accentuante	O	O
+accentuante	accentuante	S_chemical	O
 progression	progression	O	O
 of	of	O	O
 renal	renal	O	B_disease
@@ -193,7 +193,7 @@ fact	fact	O	O
 tended	tended	O	O
 to	to	O	O
 increase	increase	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 and	and	O	O
 decrease	decrease	O	O
 plasma	plasma	O	O
@@ -211,7 +211,7 @@ an	an	O	O
 additive	additive	O	O
 deterioration	deterioration	O	O
 in	in	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 which	which	O	O
 ,	,	O	O
 however	however	O	O
@@ -245,19 +245,19 @@ nephropathy	nephropathy	O	S_disease
 even	even	O	O
 when	when	O	O
 the	the	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 is	is	O	O
 only	only	O	O
 modestly	modestly	O	O
 reduced	reduced	O	O
 ,	,	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 proteinuria	proteinuria	O	S_disease
 and	and	O	O
-arterial	arterial	O	O
-systolic	systolic	O	O
+arterial	arterial	O	B_disease
+systolic	systolic	O	B_disease
 hypertension	hypertension	O	S_disease
 .	.	O	O
 
@@ -271,7 +271,7 @@ failure	failure	O	I_disease
 the	the	O	O
 decline	decline	O	O
 in	in	O	O
-GFR	gfr	O	O
+GFR	gfr	S_chemical	O
 is	is	O	O
 not	not	O	O
 accompanied	accompanied	O	O

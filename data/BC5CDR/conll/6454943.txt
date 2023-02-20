@@ -31,14 +31,14 @@ of	of	O	O
 reproducing	reproducing	O	O
 the	the	O	O
 same	same	O	O
-renal	renal	O	O
-abnormality	abnormality	O	O
+renal	renal	O	B_disease
+abnormality	abnormality	O	I_disease
 with	with	O	O
 captopril	captopril	S_chemical	O
 was	was	O	O
 examined	examined	O	O
 in	in	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 .	.	O	O
 
 Oral	oral	O	O
@@ -57,7 +57,7 @@ aggravate	aggravate	O	O
 proteinuria	proteinuria	O	S_disease
 pre-existing	pre-existing	O	O
 in	in	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 .	.	O	O
 
 Also	also	O	O
@@ -78,7 +78,7 @@ by	by	O	O
 puromycin	puromycin	B_chemical	O
 aminonucleoside	aminonucleoside	S_chemical	O
 in	in	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 .	.	O	O
 
 Captopril	captopril	S_chemical	O
@@ -134,6 +134,6 @@ dosing	dosing	O	O
 of	of	O	O
 captopril	captopril	S_chemical	O
 in	in	O	O
-SHR	shr	O	O
+SHR	shr	S_chemical	O
 .	.	O	O
 

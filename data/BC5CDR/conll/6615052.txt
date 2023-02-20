@@ -29,8 +29,8 @@ or	or	O	O
 more	more	O	O
 frequently	frequently	O	O
 ,	,	O	O
-thromboembolic	thromboembolic	O	S_disease
-events	events	O	O
+thromboembolic	thromboembolic	O	B_disease
+events	events	O	I_disease
 in	in	O	O
 patients	patients	O	O
 receiving	receiving	O	O

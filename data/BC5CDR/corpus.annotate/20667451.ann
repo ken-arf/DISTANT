@@ -1,0 +1,27 @@
+T1	Chemical 0 8	Curcumin
+T2	Disease 21 42	cognitive dysfunction
+T3	Disease 47 63	oxidative damage
+T5	Chemical 86 99	carbamazepine
+T7	Chemical 162 175	carbamazepine
+T8	Disease 200 220	cognitive impairment
+T9	Disease 335 355	cognitive impairment
+T11	Chemical 380 388	Curcumin
+T12	Chemical 545 553	curcumin
+T13	Disease 614 634	cognitive impairment
+T14	Disease 639 655	oxidative stress
+T15	Chemical 697 705	curcumin
+T17	Chemical 730 743	carbamazepine
+T19	Chemical 981 994	carbamazepine
+T20	Chemical 1008 1023	malondialdehyde
+T21	Chemical 1036 1047	glutathione
+T23	Chemical 1112 1125	carbamazepine
+T24	Disease 1216 1232	oxidative stress
+T25	Chemical 1246 1254	curcumin
+T26	Disease 1284 1304	cognitive impairment
+T27	Chemical 1388 1396	Curcumin
+T29	Chemical 1518 1531	carbamazepine
+T30	Chemical 1557 1565	curcumin
+T31	Disease 1647 1663	oxidative damage
+T33	Chemical 1704 1717	carbamazepine
+T34	Chemical 1803 1811	curcumin
+T36	Chemical 1895 1908	carbamazepine

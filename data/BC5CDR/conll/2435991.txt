@@ -2,7 +2,7 @@ Antiarrhythmic	antiarrhythmic	O	O
 plasma	plasma	O	O
 concentrations	concentrations	O	O
 of	of	O	O
-cibenzoline	cibenzoline	O	O
+cibenzoline	cibenzoline	S_chemical	O
 on	on	O	O
 canine	canine	O	O
 ventricular	ventricular	O	B_disease
@@ -25,7 +25,7 @@ arrhythmias	arrhythmias	O	S_disease
 antiarrhythmic	antiarrhythmic	O	O
 effects	effects	O	O
 of	of	O	O
-cibenzoline	cibenzoline	O	O
+cibenzoline	cibenzoline	S_chemical	O
 were	were	O	O
 examined	examined	O	O
 and	and	O	O
@@ -42,7 +42,7 @@ was	was	O	O
 determined	determined	O	O
 .	.	O	O
 
-Cibenzoline	cibenzoline	O	O
+Cibenzoline	cibenzoline	S_chemical	O
 suppressed	suppressed	O	O
 all	all	O	O
 the	the	O	O
@@ -171,9 +171,9 @@ all	all	O	O
 three	three	O	O
 drugs	drugs	O	O
 have	have	O	O
-central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 (	(	O	O
 CNS	cns	O	O
 )	)	O	O
@@ -182,7 +182,7 @@ action	action	O	O
 .	.	O	O
 
 Because	because	O	O
-cibenzoline	cibenzoline	O	O
+cibenzoline	cibenzoline	S_chemical	O
 had	had	O	O
 only	only	O	O
 weak	weak	O	O

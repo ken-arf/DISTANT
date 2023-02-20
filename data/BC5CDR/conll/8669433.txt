@@ -33,8 +33,8 @@ use	use	O	O
 of	of	O	O
 phenacetin	phenacetin	S_chemical	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 development	development	O	O
 of	of	O	O
@@ -42,9 +42,9 @@ chronic	chronic	O	B_disease
 renal	renal	O	B_disease
 failure	failure	O	I_disease
 and	and	O	O
-end-stage	end-stage	O	O
-renal	renal	O	O
-disease	disease	O	O
+end-stage	end-stage	O	B_disease
+renal	renal	O	B_disease
+disease	disease	O	I_disease
 (	(	O	O
 ESRD	esrd	O	S_disease
 )	)	O	O
@@ -114,8 +114,8 @@ of	of	O	O
 acetaminophen	acetaminophen	S_chemical	O
 is	is	O	O
 also	also	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 chronic	chronic	O	B_disease
 renal	renal	O	B_disease
 failure	failure	O	I_disease

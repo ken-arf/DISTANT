@@ -226,7 +226,7 @@ oxazepam	oxazepam	O	O
 ,	,	O	O
 temazepam	temazepam	O	O
 and	and	O	O
-zopiclone	zopiclone	O	O
+zopiclone	zopiclone	S_chemical	O
 were	were	O	O
 analysed	analysed	O	O
 .	.	O	O
@@ -281,8 +281,8 @@ of	of	O	O
 these	these	O	O
 drugs	drugs	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 female	female	O	O
 sex	sex	O	O
 and	and	O	O
@@ -322,8 +322,8 @@ of	of	O	O
 BZDs/RDs	bzds/rds	O	O
 was	was	O	O
 not	not	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 cognitive	cognitive	O	O
 function	function	O	O
 as	as	O	O
@@ -339,8 +339,8 @@ use	use	O	O
 of	of	O	O
 BZDs/RDs	bzds/rds	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 dizziness	dizziness	O	S_disease
 ,	,	O	O
 inability	inability	O	O
@@ -382,8 +382,8 @@ BZDs/RDs	bzds/rds	O	O
 tended	tended	O	O
 to	to	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 reduced	reduced	O	O
 ability	ability	O	O
@@ -442,15 +442,15 @@ patients	patients	O	O
 hospitalised	hospitalised	O	O
 because	because	O	O
 of	of	O	O
-acute	acute	O	O
-illnesses	illnesses	O	O
+acute	acute	O	B_disease
+illnesses	illnesses	O	I_disease
 .	.	O	O
 
 Long-term	long-term	O	O
 use	use	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 daytime	daytime	O	O
 and	and	O	O
 night-time	night-time	O	O
@@ -464,8 +464,8 @@ potentially	potentially	O	O
 caused	caused	O	O
 by	by	O	O
 the	the	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 of	of	O	O
 these	these	O	O
 drugs	drugs	O	O

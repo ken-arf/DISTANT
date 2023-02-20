@@ -14,8 +14,8 @@ with	with	O	O
 carbachol	carbachol	S_chemical	O
 ,	,	O	O
 a	a	O	O
-muscarinic	muscarinic	O	O
-cholinergic	cholinergic	O	O
+muscarinic	muscarinic	B_chemical	O
+cholinergic	cholinergic	I_chemical	O
 receptor	receptor	O	O
 agonist	agonist	O	O
 are	are	O	O
@@ -203,7 +203,7 @@ hyperhidrosis	hyperhidrosis	O	O
 ,	,	O	O
 hypersalivation	hypersalivation	O	O
 ,	,	O	O
-bronchorrhoea	bronchorrhoea	O	O
+bronchorrhoea	bronchorrhoea	O	S_disease
 ,	,	O	O
 and	and	O	O
 severe	severe	O	O
@@ -213,8 +213,8 @@ the	the	O	O
 electrocardiographic	electrocardiographic	O	O
 finding	finding	O	O
 was	was	O	O
-atrio-ventricular	atrio-ventricular	O	O
-dissociation	dissociation	O	O
+atrio-ventricular	atrio-ventricular	O	B_disease
+dissociation	dissociation	O	I_disease
 .	.	O	O
 
 High	high	O	O
@@ -268,7 +268,7 @@ mirabilis	mirabilis	O	O
 infection	infection	O	S_disease
 and	and	O	O
 severe	severe	O	O
-bronchoconstriction	bronchoconstriction	O	O
+bronchoconstriction	bronchoconstriction	O	S_disease
 .	.	O	O
 
 One	one	O	O
@@ -439,8 +439,8 @@ as	as	O	O
 a	a	O	O
 cause	cause	O	O
 of	of	O	O
-acute	acute	O	O
-cardiovascular	cardiovascular	O	O
-failure	failure	O	O
+acute	acute	O	B_disease
+cardiovascular	cardiovascular	O	I_disease
+failure	failure	O	I_disease
 .	.	O	O
 

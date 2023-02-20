@@ -1,6 +1,6 @@
 Effects	effects	O	O
 of	of	O	O
-UMB24	umb24	O	O
+UMB24	umb24	S_chemical	O
 and	and	O	O
 (+/-)-SM	(+/-)-sm	O	O
 21	21	O	O
@@ -77,7 +77,7 @@ need	need	O	O
 ,	,	O	O
 we	we	O	O
 characterized	characterized	O	O
-UMB24	umb24	O	O
+UMB24	umb24	S_chemical	O
 (	(	O	O
 1-(2-phenethyl)-4-(2-pyridyl)-piperazine	1-(2-phenethyl)-4-(2-pyridyl)-piperazine	O	O
 )	)	O	O
@@ -85,7 +85,7 @@ and	and	O	O
 (+/-)-SM	(+/-)-sm	O	O
 21	21	O	O
 (	(	O	O
-3alpha-tropanyl-2-(4-chorophenoxy)butyrate	3alpha-tropanyl-2-(4-chorophenoxy)butyrate	O	O
+3alpha-tropanyl-2-(4-chorophenoxy)butyrate	3alpha-tropanyl-2-(4-chorophenoxy)butyrate	S_chemical	O
 )	)	O	O
 in	in	O	O
 receptor	receptor	O	O
@@ -100,7 +100,7 @@ binding	binding	O	O
 studies	studies	O	O
 confirmed	confirmed	O	O
 that	that	O	O
-UMB24	umb24	O	O
+UMB24	umb24	S_chemical	O
 and	and	O	O
 (+/-)-SM	(+/-)-sm	O	O
 21	21	O	O
@@ -124,7 +124,7 @@ Swiss	swiss	O	O
 Webster	webster	O	O
 mice	mice	O	O
 with	with	O	O
-UMB24	umb24	O	O
+UMB24	umb24	S_chemical	O
 or	or	O	O
 (+/-)-SM	(+/-)-sm	O	O
 21	21	O	O
@@ -159,7 +159,7 @@ of	of	O	O
 saline	saline	O	O
 ,	,	O	O
 but	but	O	O
-UMB24	umb24	O	O
+UMB24	umb24	S_chemical	O
 had	had	O	O
 locomotor	locomotor	O	O
 depressant	depressant	O	O

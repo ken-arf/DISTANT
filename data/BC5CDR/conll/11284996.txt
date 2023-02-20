@@ -31,8 +31,8 @@ primary	primary	O	O
 headaches	headaches	O	O
 may	may	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 release	release	O	O
 of	of	O	O
 calcitonin	calcitonin	S_chemical	O
@@ -62,10 +62,10 @@ by	by	O	O
 the	the	O	O
 NO	no	O	O
 donor	donor	O	O
-glyceryl	glyceryl	O	O
-trinitrate	trinitrate	O	O
-(	(	O	O
-GTN	gtn	O	O
+glyceryl	glyceryl	B_chemical	O
+trinitrate	trinitrate	S_chemical	O
+(	(	I_chemical	O
+GTN	gtn	S_chemical	O
 )	)	O	O
 in	in	O	O
 16	16	O	O
@@ -89,7 +89,7 @@ to	to	O	O
 receive	receive	O	O
 0.5	0.5	O	O
 microg/kg/min	microg/kg/min	O	O
-GTN	gtn	O	O
+GTN	gtn	S_chemical	O
 or	or	O	O
 placebo	placebo	O	O
 over	over	O	O
@@ -131,7 +131,7 @@ immediate	immediate	O	O
 headache	headache	O	S_disease
 on	on	O	O
 the	the	O	O
-GTN	gtn	O	O
+GTN	gtn	S_chemical	O
 day	day	O	O
 than	than	O	O
 on	on	O	O
@@ -164,10 +164,10 @@ the	the	O	O
 CGRP	cgrp	S_chemical	O
 curve	curve	O	O
 (	(	O	O
-AUCCGRP	auccgrp	O	O
+AUCCGRP	auccgrp	S_chemical	O
 )	)	O	O
 on	on	O	O
-GTN	gtn	O	O
+GTN	gtn	S_chemical	O
 vs.	vs.	O	O
 placebo	placebo	O	O
 day	day	O	O
@@ -185,11 +185,11 @@ P=0.48	p=0.48	O	O
 .	.	O	O
 
 The	the	O	O
-AUCCGRP	auccgrp	O	O
+AUCCGRP	auccgrp	S_chemical	O
 recorded	recorded	O	O
 on	on	O	O
 the	the	O	O
-GTN	gtn	O	O
+GTN	gtn	S_chemical	O
 day	day	O	O
 did	did	O	O
 not	not	O	O
@@ -219,7 +219,7 @@ time	time	O	O
 on	on	O	O
 both	both	O	O
 the	the	O	O
-GTN	gtn	O	O
+GTN	gtn	S_chemical	O
 and	and	O	O
 placebo	placebo	O	O
 days	days	O	O
@@ -240,8 +240,8 @@ immediate	immediate	O	O
 headache	headache	O	S_disease
 is	is	O	O
 not	not	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 release	release	O	O
 of	of	O	O
 CGRP	cgrp	S_chemical	O

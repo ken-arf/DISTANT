@@ -69,7 +69,7 @@ Q10	q10	I_chemical	O
 significantly	significantly	O	O
 reduced	reduced	O	O
 blood	blood	B_chemical	O
-urea	urea	S_chemical	O
+urea	urea	B_chemical	O
 nitrogen	nitrogen	I_chemical	O
 and	and	O	O
 serum	serum	O	O
@@ -93,7 +93,7 @@ antioxidant	antioxidant	O	O
 defense	defense	O	O
 mechanisms	mechanisms	O	O
 (	(	O	O
-reduced	reduced	O	O
+reduced	reduced	B_chemical	O
 glutathione	glutathione	S_chemical	O
 level	level	O	O
 and	and	O	O
@@ -110,7 +110,7 @@ decreased	decreased	O	O
 the	the	O	O
 elevations	elevations	O	O
 of	of	O	O
-tumor	tumor	O	S_disease
+tumor	tumor	O	B_disease
 necrosis	necrosis	O	S_disease
 factor-alpha	factor-alpha	O	O
 ,	,	O	O
@@ -131,8 +131,8 @@ and	and	O	O
 zinc	zinc	O	O
 ions	ions	O	O
 in	in	O	O
-renal	renal	O	O
-tissue	tissue	O	O
+renal	renal	O	B_disease
+tissue	tissue	O	I_disease
 resulted	resulted	O	O
 from	from	O	O
 cisplatin	cisplatin	S_chemical	O
@@ -142,8 +142,8 @@ administration	administration	O	O
 Also	also	O	O
 ,	,	O	O
 histopathological	histopathological	O	O
-renal	renal	O	O
-tissue	tissue	O	O
+renal	renal	O	B_disease
+tissue	tissue	O	I_disease
 damage	damage	O	O
 mediated	mediated	O	O
 by	by	O	O
@@ -178,10 +178,10 @@ factor-kappaB	factor-kappab	O	O
 ,	,	O	O
 caspase-3	caspase-3	O	O
 and	and	O	O
-p53	p53	O	O
+p53	p53	S_chemical	O
 in	in	O	O
-renal	renal	O	O
-tissue	tissue	O	O
+renal	renal	O	B_disease
+tissue	tissue	O	I_disease
 .	.	O	O
 
 It	it	O	O

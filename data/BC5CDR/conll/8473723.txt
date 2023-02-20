@@ -2,7 +2,7 @@ Seizures	seizures	O	S_disease
 induced	induced	O	O
 by	by	O	O
 combined	combined	O	O
-levomepromazine-fluvoxamine	levomepromazine-fluvoxamine	O	O
+levomepromazine-fluvoxamine	levomepromazine-fluvoxamine	S_chemical	O
 treatment	treatment	O	O
 .	.	O	O
 
@@ -12,7 +12,7 @@ a	a	O	O
 case	case	O	O
 of	of	O	O
 combined	combined	O	O
-levomepromazine-fluvoxamine	levomepromazine-fluvoxamine	O	O
+levomepromazine-fluvoxamine	levomepromazine-fluvoxamine	S_chemical	O
 treatment-induced	treatment-induced	O	O
 seizures	seizures	O	S_disease
 .	.	O	O
@@ -23,7 +23,7 @@ that	that	O	O
 combined	combined	O	O
 treatment	treatment	O	O
 of	of	O	O
-fluvoxamine	fluvoxamine	O	O
+fluvoxamine	fluvoxamine	S_chemical	O
 with	with	O	O
 phenothiazines	phenothiazines	O	O
 may	may	O	O

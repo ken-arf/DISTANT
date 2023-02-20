@@ -115,8 +115,8 @@ gain	gain	O	I_disease
 Seizures	seizures	O	S_disease
 induced	induced	O	O
 by	by	O	O
-hexafluorodiethyl	hexafluorodiethyl	O	O
-ether	ether	O	O
+hexafluorodiethyl	hexafluorodiethyl	B_chemical	O
+ether	ether	I_chemical	O
 (	(	O	O
 HFDE	hfde	O	O
 )	)	O	O

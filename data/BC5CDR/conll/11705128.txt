@@ -34,7 +34,7 @@ therapy	therapy	O	O
 with	with	O	O
 interferon	interferon	O	O
 and	and	O	O
-alpha-2b/ribavirin	alpha-2b/ribavirin	O	O
+alpha-2b/ribavirin	alpha-2b/ribavirin	S_chemical	O
 compared	compared	O	O
 with	with	O	O
 interferon-alpha	interferon-alpha	O	O
@@ -54,8 +54,8 @@ CHC	chc	O	O
 Combination	combination	O	O
 therapy	therapy	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 clinically	clinically	O	O
 important	important	O	O
@@ -66,7 +66,7 @@ ribavirin-induced	ribavirin-induced	O	O
 hemolytic	hemolytic	O	B_disease
 anemia	anemia	O	S_disease
 (	(	O	O
-RIHA	riha	O	O
+RIHA	riha	O	S_disease
 )	)	O	O
 .	.	O	O
 
@@ -85,7 +85,7 @@ costs	costs	O	O
 and	and	O	O
 management	management	O	O
 of	of	O	O
-RIHA	riha	O	O
+RIHA	riha	O	S_disease
 during	during	O	O
 treatment	treatment	O	O
 of	of	O	O
@@ -114,7 +114,7 @@ incidence	incidence	O	O
 and	and	O	O
 management	management	O	O
 of	of	O	O
-RIHA	riha	O	O
+RIHA	riha	O	S_disease
 .	.	O	O
 
 Decision-analytic	decision-analytic	O	O
@@ -127,7 +127,7 @@ the	the	O	O
 cost	cost	O	O
 of	of	O	O
 treating	treating	O	O
-RIHA	riha	O	O
+RIHA	riha	O	S_disease
 .	.	O	O
 
 Uncertainty	uncertainty	O	O
@@ -140,7 +140,7 @@ analyses	analyses	O	O
 
 RESULTS	results	O	O
 :	:	O	O
-RIHA	riha	O	O
+RIHA	riha	O	S_disease
 ,	,	O	O
 defined	defined	O	O
 as	as	O	O
@@ -177,7 +177,7 @@ care	care	O	O
 for	for	O	O
 management	management	O	O
 of	of	O	O
-RIHA	riha	O	O
+RIHA	riha	O	S_disease
 is	is	O	O
 reduction	reduction	O	O
 or	or	O	O
@@ -195,9 +195,9 @@ direct	direct	O	O
 cost	cost	O	O
 of	of	O	O
 treating	treating	O	O
-clinically	clinically	O	O
-significant	significant	O	O
-RIHA	riha	O	O
+clinically	clinically	O	B_disease
+significant	significant	O	I_disease
+RIHA	riha	O	S_disease
 to	to	O	O
 be	be	O	O
  	 	O	O
@@ -257,9 +257,9 @@ direct	direct	O	O
 cost	cost	O	O
 of	of	O	O
 treating	treating	O	O
-clinically	clinically	O	O
-significant	significant	O	O
-RIHA	riha	O	O
+clinically	clinically	O	B_disease
+significant	significant	O	I_disease
+RIHA	riha	O	S_disease
 is	is	O	O
 1	1	O	O
 %	%	O	O
@@ -285,7 +285,7 @@ and	and	O	O
 the	the	O	O
 incidence	incidence	O	O
 of	of	O	O
-RIHA	riha	O	O
+RIHA	riha	O	S_disease
 in	in	O	O
 a	a	O	O
 real-world	real-world	O	O
@@ -305,7 +305,7 @@ direct	direct	O	O
 cost	cost	O	O
 of	of	O	O
 treating	treating	O	O
-RIHA	riha	O	O
+RIHA	riha	O	S_disease
 provides	provides	O	O
 an	an	O	O
 estimate	estimate	O	O

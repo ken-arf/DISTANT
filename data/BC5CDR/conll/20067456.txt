@@ -5,7 +5,7 @@ the	the	O	O
 adjunctive	adjunctive	O	O
 bupropion	bupropion	S_chemical	O
 on	on	O	O
-male	male	O	O
+male	male	O	B_disease
 sexual	sexual	O	B_disease
 dysfunction	dysfunction	O	I_disease
 induced	induced	O	O
@@ -40,7 +40,7 @@ sustained-release	sustained-release	O	O
 SR	sr	O	O
 )	)	O	O
 on	on	O	O
-male	male	O	O
+male	male	O	B_disease
 sexual	sexual	O	B_disease
 dysfunction	dysfunction	O	I_disease
 (	(	O	O
@@ -87,7 +87,7 @@ sample	sample	O	O
 consisted	consisted	O	O
 of	of	O	O
 234	234	O	O
-euthymic	euthymic	O	O
+euthymic	euthymic	O	S_disease
 men	men	O	O
 who	who	O	O
 were	were	O	O
@@ -160,7 +160,7 @@ Sexual	sexual	O	O
 Experience	experience	O	O
 Scale	scale	O	O
 (	(	O	O
-ASEX	asex	O	O
+ASEX	asex	S_chemical	O
 )	)	O	O
 ,	,	O	O
 and	and	O	O
@@ -277,7 +277,7 @@ IIEF	iief	O	O
 .	.	O	O
 
 Total	total	O	O
-ASEX	asex	O	O
+ASEX	asex	S_chemical	O
 scores	scores	O	O
 were	were	O	O
 significantly	significantly	O	O
@@ -337,7 +337,7 @@ P=	p=	O	O
 .	.	O	O
 
 The	the	O	O
-ASEX	asex	O	O
+ASEX	asex	S_chemical	O
 score	score	O	O
 and	and	O	O
 CGI-SF	cgi-sf	O	O

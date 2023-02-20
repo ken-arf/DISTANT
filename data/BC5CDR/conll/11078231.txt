@@ -2,8 +2,8 @@ Myocardial	myocardial	O	B_disease
 ischemia	ischemia	O	S_disease
 due	due	O	O
 to	to	O	O
-coronary	coronary	O	O
-artery	artery	O	O
+coronary	coronary	O	B_disease
+artery	artery	O	I_disease
 spasm	spasm	O	S_disease
 during	during	O	O
 dobutamine	dobutamine	S_chemical	O
@@ -15,7 +15,7 @@ Dobutamine	dobutamine	S_chemical	O
 stress	stress	O	O
 echocardiography	echocardiography	O	O
 (	(	O	O
-DSE	dse	O	O
+DSE	dse	S_chemical	O
 )	)	O	O
 is	is	O	O
 a	a	O	O
@@ -44,19 +44,19 @@ organic	organic	O	O
 lesion	lesion	O	O
 in	in	O	O
 the	the	O	O
-coronary	coronary	O	O
-artery	artery	O	O
+coronary	coronary	O	B_disease
+artery	artery	O	I_disease
 ,	,	O	O
 and	and	O	O
 positive	positive	O	O
-DSE	dse	O	O
+DSE	dse	S_chemical	O
 has	has	O	O
 indicated	indicated	O	O
 the	the	O	O
 presence	presence	O	O
 of	of	O	O
 significant	significant	O	O
-fixed	fixed	O	O
+fixed	fixed	O	B_disease
 coronary	coronary	O	B_disease
 artery	artery	O	I_disease
 stenosis	stenosis	O	I_disease
@@ -86,18 +86,18 @@ dobutamine	dobutamine	S_chemical	O
 
 We	we	O	O
 performed	performed	O	O
-DSE	dse	O	O
+DSE	dse	S_chemical	O
 on	on	O	O
 51	51	O	O
 patients	patients	O	O
 with	with	O	O
-coronary	coronary	O	O
-spastic	spastic	O	O
-angina	angina	O	O
+coronary	coronary	O	B_disease
+spastic	spastic	O	I_disease
+angina	angina	O	I_disease
 but	but	O	O
 without	without	O	O
 significant	significant	O	O
-fixed	fixed	O	O
+fixed	fixed	O	B_disease
 coronary	coronary	O	B_disease
 artery	artery	O	I_disease
 stenosis	stenosis	O	I_disease
@@ -134,7 +134,7 @@ acetylcholine	acetylcholine	S_chemical	O
 ,	,	O	O
 and	and	O	O
 no	no	O	O
-fixed	fixed	O	O
+fixed	fixed	O	B_disease
 coronary	coronary	O	B_disease
 artery	artery	O	I_disease
 stenosis	stenosis	O	I_disease
@@ -147,7 +147,7 @@ all	all	O	O
 patients	patients	O	O
 .	.	O	O
 
-DSE	dse	O	O
+DSE	dse	S_chemical	O
 was	was	O	O
 performed	performed	O	O
 with	with	O	O
@@ -207,8 +207,8 @@ both	both	O	O
 chest	chest	O	B_disease
 pain	pain	O	S_disease
 and	and	O	O
-electrocardiographic	electrocardiographic	O	O
-changes	changes	O	O
+electrocardiographic	electrocardiographic	O	B_disease
+changes	changes	O	I_disease
 were	were	O	O
 preceded	preceded	O	O
 by	by	O	O
@@ -228,13 +228,13 @@ in	in	O	O
 some	some	O	O
 patients	patients	O	O
 with	with	O	O
-coronary	coronary	O	O
-spastic	spastic	O	O
-angina	angina	O	O
+coronary	coronary	O	B_disease
+spastic	spastic	O	I_disease
+angina	angina	O	I_disease
 .	.	O	O
 
 When	when	O	O
-DSE	dse	O	O
+DSE	dse	S_chemical	O
 is	is	O	O
 performed	performed	O	O
 to	to	O	O

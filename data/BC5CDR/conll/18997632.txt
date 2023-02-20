@@ -76,7 +76,7 @@ arrhythmia	arrhythmia	O	S_disease
 who	who	O	O
 developed	developed	O	O
 sustained	sustained	O	O
-bigeminy	bigeminy	O	O
+bigeminy	bigeminy	O	S_disease
 and	and	O	O
 2	2	O	O
 brief	brief	O	O

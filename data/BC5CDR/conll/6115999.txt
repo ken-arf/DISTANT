@@ -1,14 +1,14 @@
-Adverse	adverse	O	O
-reactions	reactions	O	O
+Adverse	adverse	O	B_disease
+reactions	reactions	O	I_disease
 to	to	O	O
-bendrofluazide	bendrofluazide	O	O
+bendrofluazide	bendrofluazide	S_chemical	O
 and	and	O	O
 propranolol	propranolol	S_chemical	O
 for	for	O	O
 the	the	O	O
 treatment	treatment	O	O
 of	of	O	O
-mild	mild	O	O
+mild	mild	O	B_disease
 hypertension	hypertension	O	S_disease
 .	.	O	O
 
@@ -35,7 +35,7 @@ Council	council	O	O
 treatment	treatment	O	O
 trial	trial	O	O
 for	for	O	O
-mild	mild	O	O
+mild	mild	O	B_disease
 hypertension	hypertension	O	S_disease
 are	are	O	O
 randomly	randomly	O	O
@@ -47,7 +47,7 @@ four	four	O	O
 treatment	treatment	O	O
 groups	groups	O	O
 :	:	O	O
-bendrofluazide	bendrofluazide	O	O
+bendrofluazide	bendrofluazide	S_chemical	O
 ,	,	O	O
 propranolol	propranolol	S_chemical	O
 ,	,	O	O
@@ -96,7 +96,7 @@ show	show	O	O
 an	an	O	O
 association	association	O	O
 between	between	O	O
-bendrofluazide	bendrofluazide	O	O
+bendrofluazide	bendrofluazide	S_chemical	O
 treatment	treatment	O	O
 and	and	O	O
 impotence	impotence	O	S_disease
@@ -119,8 +119,8 @@ placebos	placebos	O	O
 .	.	O	O
 
 Other	other	O	O
-adverse	adverse	O	O
-reactions	reactions	O	O
+adverse	adverse	O	B_disease
+reactions	reactions	O	I_disease
 significantly	significantly	O	O
 linked	linked	O	O
 with	with	O	O
@@ -139,9 +139,9 @@ gout	gout	O	O
 in	in	O	O
 men	men	O	O
 ,	,	O	O
-associated	associated	O	O
-with	with	O	O
-bendrofluazide	bendrofluazide	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+bendrofluazide	bendrofluazide	S_chemical	O
 treatment	treatment	O	O
 ,	,	O	O
 and	and	O	O
@@ -158,9 +158,9 @@ taking	taking	O	O
 propranolol	propranolol	S_chemical	O
 .	.	O	O
 
-No	no	O	O
-corneal	corneal	O	O
-disease	disease	O	O
+No	no	O	B_disease
+corneal	corneal	O	I_disease
+disease	disease	O	I_disease
 is	is	O	O
 known	known	O	O
 to	to	O	O
@@ -190,8 +190,8 @@ in	in	O	O
 men	men	O	O
 and	and	O	O
 women	women	O	O
-taking	taking	O	O
-bendrofluazide	bendrofluazide	O	O
+taking	taking	B_chemical	O
+bendrofluazide	bendrofluazide	S_chemical	O
 .	.	O	O
 
 In	in	O	O

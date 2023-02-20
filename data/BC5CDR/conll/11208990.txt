@@ -140,7 +140,7 @@ group	group	O	O
 ,	,	O	O
 animals	animals	O	O
 receiving	receiving	O	O
-aminoguanidine	aminoguanidine	O	O
+aminoguanidine	aminoguanidine	S_chemical	O
 (	(	O	O
 AG	ag	O	O
 )	)	O	O
@@ -185,11 +185,11 @@ revealed	revealed	O	O
 focal	focal	O	O
 areas	areas	O	O
 of	of	O	O
-mesangial	mesangial	O	O
-proliferation	proliferation	O	O
+mesangial	mesangial	O	B_disease
+proliferation	proliferation	O	I_disease
 and	and	O	O
-mild	mild	O	O
-tubulointerstitial	tubulointerstitial	O	O
+mild	mild	O	B_disease
+tubulointerstitial	tubulointerstitial	O	I_disease
 inflammation	inflammation	O	S_disease
 .	.	O	O
 
@@ -264,7 +264,7 @@ ADR-nephropathy	adr-nephropathy	O	O
 group	group	O	O
 ,	,	O	O
 numerous	numerous	O	O
-apoptotic	apoptotic	O	O
+apoptotic	apoptotic	O	S_disease
 cells	cells	O	O
 were	were	O	O
 identified	identified	O	O
@@ -279,7 +279,7 @@ staining	staining	O	O
 revealed	revealed	O	O
 numerous	numerous	O	O
 interstitial	interstitial	O	O
-apoptotic	apoptotic	O	O
+apoptotic	apoptotic	O	S_disease
 cells	cells	O	O
 to	to	O	O
 stain	stain	O	O

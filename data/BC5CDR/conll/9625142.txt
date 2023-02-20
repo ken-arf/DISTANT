@@ -6,7 +6,7 @@ hemolytic	hemolytic	O	B_disease
 anemia	anemia	O	S_disease
 ,	,	O	O
 and	and	O	O
-erythroblastocytopenia	erythroblastocytopenia	O	O
+erythroblastocytopenia	erythroblastocytopenia	O	S_disease
 induced	induced	O	O
 by	by	O	O
 ceftriaxone	ceftriaxone	S_chemical	O
@@ -35,9 +35,9 @@ baseline	baseline	O	O
 after	after	O	O
 withholding	withholding	O	O
 the	the	O	O
-beta	beta	O	O
-lactam	lactam	O	O
-antibiotic	antibiotic	O	O
+beta	beta	B_chemical	O
+lactam	lactam	I_chemical	O
+antibiotic	antibiotic	I_chemical	O
 ,	,	O	O
 there	there	O	O
 was	was	O	O
@@ -60,7 +60,7 @@ autoimmune	autoimmune	O	B_disease
 hemolytic	hemolytic	O	B_disease
 anemia	anemia	O	S_disease
 and	and	O	O
-erythroblastocytopenia	erythroblastocytopenia	O	O
+erythroblastocytopenia	erythroblastocytopenia	O	S_disease
 .	.	O	O
 
 These	these	O	O
@@ -82,8 +82,8 @@ agents	agents	O	O
 this	this	O	O
 triad	triad	O	O
 of	of	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 has	has	O	O
 not	not	O	O
 previously	previously	O	O

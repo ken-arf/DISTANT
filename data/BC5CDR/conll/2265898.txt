@@ -2,7 +2,7 @@ Serial	serial	O	O
 epilepsy	epilepsy	O	S_disease
 caused	caused	O	O
 by	by	O	O
-levodopa/carbidopa	levodopa/carbidopa	O	O
+levodopa/carbidopa	levodopa/carbidopa	S_chemical	O
 administration	administration	O	O
 in	in	O	O
 two	two	O	O
@@ -45,15 +45,15 @@ had	had	O	O
 been	been	O	O
 receiving	receiving	O	O
 a	a	O	O
-carbidopa/levodopa	carbidopa/levodopa	O	O
+carbidopa/levodopa	carbidopa/levodopa	S_chemical	O
 preparation	preparation	O	O
 ;	;	O	O
 and	and	O	O
 both	both	O	O
 had	had	O	O
 the	the	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 hallucinosis	hallucinosis	O	O
 and	and	O	O
 recurrent	recurrent	O	O
@@ -85,8 +85,8 @@ following	following	O	O
 the	the	O	O
 administration	administration	O	O
 of	of	O	O
-vitamin	vitamin	O	O
-B6	b6	O	O
+vitamin	vitamin	B_chemical	O
+B6	b6	I_chemical	O
 .	.	O	O
 
 Neither	neither	O	O

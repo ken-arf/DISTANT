@@ -4,7 +4,7 @@ pallidal	pallidal	O	O
 neurotensin	neurotensin	S_chemical	O
 on	on	O	O
 haloperidol-induced	haloperidol-induced	O	O
-parkinsonian	parkinsonian	O	S_disease
+parkinsonian	parkinsonian	O	B_disease
 catalepsy	catalepsy	O	S_disease
 :	:	O	O
 behavioral	behavioral	O	O
@@ -99,7 +99,7 @@ globus	globus	O	O
 pallidus	pallidus	O	O
 reversed	reversed	O	O
 haloperidol-induced	haloperidol-induced	O	O
-parkinsonian	parkinsonian	O	S_disease
+parkinsonian	parkinsonian	O	B_disease
 catalepsy	catalepsy	O	S_disease
 in	in	O	O
 rats	rats	O	O

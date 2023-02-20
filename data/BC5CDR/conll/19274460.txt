@@ -10,7 +10,7 @@ cyclophosphamide	cyclophosphamide	S_chemical	O
 in	in	O	O
 combination	combination	O	O
 with	with	O	O
-bortezomib/dexamethasone	bortezomib/dexamethasone	O	O
+bortezomib/dexamethasone	bortezomib/dexamethasone	S_chemical	O
 for	for	O	O
 remission	remission	O	O
 induction	induction	O	O
@@ -37,7 +37,7 @@ cyclophosphamide	cyclophosphamide	S_chemical	O
 in	in	O	O
 combination	combination	O	O
 with	with	O	O
-bortezomib	bortezomib	O	O
+bortezomib	bortezomib	S_chemical	O
 and	and	O	O
 dexamethasone	dexamethasone	S_chemical	O
 as	as	O	O
@@ -69,7 +69,7 @@ three	three	O	O
 21-day	21-day	O	O
 cycles	cycles	O	O
 of	of	O	O
-bortezomib	bortezomib	O	O
+bortezomib	bortezomib	S_chemical	O
 1.3	1.3	O	O
 mg/m(2	mg/m(2	O	O
 )	)	O	O
@@ -91,7 +91,7 @@ on	on	O	O
 the	the	O	O
 day	day	O	O
 of	of	O	O
-bortezomib	bortezomib	O	O
+bortezomib	bortezomib	S_chemical	O
 injection	injection	O	O
 and	and	O	O
 the	the	O	O
@@ -180,15 +180,15 @@ rate	rate	O	O
 No	no	O	O
 patient	patient	O	O
 experienced	experienced	O	O
-progressive	progressive	O	O
-disease	disease	O	O
+progressive	progressive	O	B_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 The	the	O	O
 most	most	O	O
 frequent	frequent	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 were	were	O	O
 hematological	hematological	O	O
 and	and	O	O
@@ -204,7 +204,7 @@ The	the	O	O
 results	results	O	O
 suggest	suggest	O	O
 that	that	O	O
-bortezomib	bortezomib	O	O
+bortezomib	bortezomib	S_chemical	O
 in	in	O	O
 combination	combination	O	O
 with	with	O	O

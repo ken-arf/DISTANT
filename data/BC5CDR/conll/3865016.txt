@@ -21,9 +21,9 @@ in	in	O	O
 a	a	O	O
 patient	patient	O	O
 with	with	O	O
-acute	acute	O	O
-T-lymphocytic	t-lymphocytic	O	O
-leukemia	leukemia	O	O
+acute	acute	O	B_disease
+T-lymphocytic	t-lymphocytic	O	I_disease
+leukemia	leukemia	O	I_disease
 in	in	O	O
 relapse	relapse	O	O
 .	.	O	O
@@ -45,13 +45,13 @@ refractory	refractory	O	O
 leukemic	leukemic	O	B_disease
 infiltration	infiltration	O	I_disease
 of	of	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 .	.	O	O
 
 Severe	severe	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 in	in	O	O
 terms	terms	O	O
 of	of	O	O

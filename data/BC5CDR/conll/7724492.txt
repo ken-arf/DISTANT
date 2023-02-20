@@ -1,10 +1,10 @@
-Acute	acute	O	O
+Acute	acute	O	B_disease
 renal	renal	O	B_disease
 toxicity	toxicity	O	S_disease
 of	of	O	O
 doxorubicin	doxorubicin	S_chemical	O
 (adriamycin)-loaded	(adriamycin)-loaded	O	O
-cyanoacrylate	cyanoacrylate	O	O
+cyanoacrylate	cyanoacrylate	S_chemical	O
 nanoparticles	nanoparticles	O	O
 .	.	O	O
 
@@ -12,7 +12,7 @@ Acute	acute	O	O
 doxorubicin-loaded	doxorubicin-loaded	O	O
 nanoparticle	nanoparticle	O	O
 (	(	O	O
-DXNP	dxnp	O	O
+DXNP	dxnp	S_chemical	O
 )	)	O	O
 renal	renal	O	B_disease
 toxicity	toxicity	O	S_disease
@@ -62,7 +62,7 @@ received	received	O	O
 free	free	O	O
 NP	np	O	O
 or	or	O	O
-DXNP	dxnp	O	O
+DXNP	dxnp	S_chemical	O
 survived	survived	O	O
 .	.	O	O
 
@@ -76,7 +76,7 @@ in	in	O	O
 animals	animals	O	O
 treated	treated	O	O
 with	with	O	O
-DXNP	dxnp	O	O
+DXNP	dxnp	S_chemical	O
 than	than	O	O
 in	in	O	O
 those	those	O	O
@@ -98,7 +98,7 @@ Two	two	O	O
 hr	hr	O	O
 post-injection	post-injection	O	O
 ,	,	O	O
-DXNP	dxnp	O	O
+DXNP	dxnp	S_chemical	O
 was	was	O	O
 2.7	2.7	O	O
 times	times	O	O
@@ -138,7 +138,7 @@ to	to	O	O
 animals	animals	O	O
 treated	treated	O	O
 by	by	O	O
-DXNP	dxnp	O	O
+DXNP	dxnp	S_chemical	O
 ,	,	O	O
 NP	np	O	O
 ,	,	O	O
@@ -185,7 +185,7 @@ without	without	O	O
 significant	significant	O	O
 difference	difference	O	O
 between	between	O	O
-DXNP	dxnp	O	O
+DXNP	dxnp	S_chemical	O
 and	and	O	O
 DX	dx	O	O
 .	.	O	O
@@ -210,7 +210,7 @@ these	these	O	O
 experimental	experimental	O	O
 conditions	conditions	O	O
 ,	,	O	O
-DXNP	dxnp	O	O
+DXNP	dxnp	S_chemical	O
 killed	killed	O	O
 less	less	O	O
 animals	animals	O	O
@@ -246,7 +246,7 @@ an	an	O	O
 enhanced	enhanced	O	O
 capture	capture	O	O
 of	of	O	O
-DXNP	dxnp	O	O
+DXNP	dxnp	S_chemical	O
 by	by	O	O
 cells	cells	O	O
 of	of	O	O

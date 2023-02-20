@@ -6,8 +6,8 @@ ischemia	ischemia	O	S_disease
 Angina	angina	O	O
 and	and	O	O
 ischemic	ischemic	O	O
-electrocardiographic	electrocardiographic	O	O
-changes	changes	O	O
+electrocardiographic	electrocardiographic	O	B_disease
+changes	changes	O	I_disease
 occurred	occurred	O	O
 after	after	O	O
 administration	administration	O	O

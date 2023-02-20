@@ -14,7 +14,7 @@ potential	potential	O	O
 model	model	O	O
 of	of	O	O
 cephalosporin	cephalosporin	O	O
-hematotoxicity	hematotoxicity	O	O
+hematotoxicity	hematotoxicity	O	S_disease
 in	in	O	O
 man	man	O	O
 .	.	O	O
@@ -25,8 +25,8 @@ cause	cause	O	O
 a	a	O	O
 variety	variety	O	O
 of	of	O	O
-hematologic	hematologic	O	O
-disturbances	disturbances	O	O
+hematologic	hematologic	O	B_disease
+disturbances	disturbances	O	I_disease
 in	in	O	O
 man	man	O	O
 ,	,	O	O
@@ -53,8 +53,8 @@ model	model	O	O
 in	in	O	O
 which	which	O	O
 these	these	O	O
-blood	blood	O	O
-dyscrasias	dyscrasias	O	O
+blood	blood	O	B_disease
+dyscrasias	dyscrasias	O	I_disease
 can	can	O	O
 be	be	O	O
 studied	studied	O	O
@@ -146,7 +146,7 @@ for	for	O	O
 recovery	recovery	O	O
 of	of	O	O
 the	the	O	O
-erythron	erythron	O	O
+erythron	erythron	S_chemical	O
 (	(	O	O
 approximately	approximately	O	O
 1	1	O	O
@@ -178,8 +178,8 @@ either	either	O	O
 cephalosporin	cephalosporin	O	O
 ,	,	O	O
 the	the	O	O
-hematologic	hematologic	O	O
-syndrome	syndrome	O	O
+hematologic	hematologic	O	B_disease
+syndrome	syndrome	O	I_disease
 was	was	O	O
 reproduced	reproduced	O	O
 in	in	O	O
@@ -282,13 +282,13 @@ to	to	O	O
 dogs	dogs	O	O
 can	can	O	O
 induce	induce	O	O
-hematotoxicity	hematotoxicity	O	O
+hematotoxicity	hematotoxicity	O	S_disease
 similar	similar	O	O
 to	to	O	O
 the	the	O	O
 cephalosporin-induced	cephalosporin-induced	O	O
-blood	blood	O	O
-dyscrasias	dyscrasias	O	O
+blood	blood	O	B_disease
+dyscrasias	dyscrasias	O	I_disease
 described	described	O	O
 in	in	O	O
 man	man	O	O

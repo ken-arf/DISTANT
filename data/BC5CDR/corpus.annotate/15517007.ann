@@ -1,0 +1,11 @@
+T1	Disease 31 45	cardiotoxicity
+T2	Disease 124 143	autoimmune diseases
+T3	Disease 171 189	systemic sclerosis
+T4	Disease 194 212	multiple sclerosis
+T5	Disease 341 360	autoimmune diseases
+T7	Disease 785 801	cardiac toxicity
+T8	Chemical 844 860	cyclophosphamide
+T9	Chemical 887 899	mitoxantrone
+T10	Disease 948 960	heart damage
+T11	Disease 975 993	systemic sclerosis
+T12	Disease 1345 1363	autoimmune disease

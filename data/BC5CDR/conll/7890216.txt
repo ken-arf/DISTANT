@@ -3,8 +3,8 @@ of	of	O	O
 gall	gall	O	O
 bladder	bladder	O	O
 stones	stones	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 octreotide	octreotide	S_chemical	O
 :	:	O	O
 response	response	O	O
@@ -140,9 +140,9 @@ stones	stones	O	O
 )	)	O	O
 .	.	O	O
 
-Gall	gall	O	O
-bladder	bladder	O	O
-bile	bile	O	O
+Gall	gall	B_chemical	O
+bladder	bladder	I_chemical	O
+bile	bile	I_chemical	O
 was	was	O	O
 obtained	obtained	O	O
 by	by	O	O
@@ -228,7 +228,7 @@ oral	oral	O	O
 ursodeoxycholic	ursodeoxycholic	B_chemical	O
 acid	acid	I_chemical	O
 (	(	O	O
-UDCA	udca	O	O
+UDCA	udca	S_chemical	O
 )	)	O	O
 treatment	treatment	O	O
 ,	,	O	O
@@ -236,14 +236,14 @@ two	two	O	O
 had	had	O	O
 a	a	O	O
 blocked	blocked	O	O
-cystic	cystic	O	O
-duct	duct	O	O
+cystic	cystic	O	B_disease
+duct	duct	O	I_disease
 and	and	O	O
 were	were	O	O
 not	not	O	O
 started	started	O	O
 on	on	O	O
-UDCA	udca	O	O
+UDCA	udca	S_chemical	O
 while	while	O	O
 one	one	O	O
 was	was	O	O
@@ -341,9 +341,9 @@ in	in	O	O
 common	common	O	O
 with	with	O	O
 spontaneous	spontaneous	O	O
-gall	gall	O	O
-stone	stone	O	O
-disease	disease	O	O
+gall	gall	O	B_disease
+stone	stone	O	I_disease
+disease	disease	O	I_disease
 ,	,	O	O
 at	at	O	O
 presentation	presentation	O	O
@@ -353,8 +353,8 @@ will	will	O	O
 have	have	O	O
 a	a	O	O
 blocked	blocked	O	O
-cystic	cystic	O	O
-duct	duct	O	O
+cystic	cystic	O	B_disease
+duct	duct	O	I_disease
 and	and	O	O
 some	some	O	O
 gall	gall	O	O

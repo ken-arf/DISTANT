@@ -5,7 +5,7 @@ the	the	O	O
 long-term	long-term	O	O
 effects	effects	O	O
 of	of	O	O
-somatostatin	somatostatin	O	O
+somatostatin	somatostatin	S_chemical	O
 analog	analog	O	O
 (	(	O	O
 octreotide	octreotide	S_chemical	O
@@ -46,7 +46,7 @@ sc	sc	O	O
 injection	injection	O	O
 of	of	O	O
 the	the	O	O
-somatostatin	somatostatin	O	O
+somatostatin	somatostatin	S_chemical	O
 analog	analog	O	O
 octreotide	octreotide	S_chemical	O
 in	in	O	O
@@ -84,8 +84,8 @@ gallstones	gallstones	O	O
 and	and	O	O
 1	1	O	O
 developed	developed	O	O
-acute	acute	O	O
-cholecystitis	cholecystitis	O	O
+acute	acute	O	B_disease
+cholecystitis	cholecystitis	O	I_disease
 requiring	requiring	O	O
 surgery	surgery	O	O
 .	.	O	O

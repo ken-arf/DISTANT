@@ -6,9 +6,9 @@ treatment	treatment	O	O
 of	of	O	O
 patients	patients	O	O
 with	with	O	O
-mechanical	mechanical	O	O
-heart	heart	O	O
-valves	valves	O	O
+mechanical	mechanical	O	B_disease
+heart	heart	O	I_disease
+valves	valves	O	I_disease
 .	.	O	O
 
 BACKGROUND	background	O	O
@@ -16,8 +16,8 @@ BACKGROUND	background	O	O
 The	the	O	O
 interruption	interruption	O	O
 of	of	O	O
-oral	oral	O	O
-anticoagulant	anticoagulant	O	O
+oral	oral	B_chemical	O
+anticoagulant	anticoagulant	I_chemical	O
 (	(	O	O
 OAC	oac	O	O
 )	)	O	O
@@ -28,9 +28,9 @@ indicated	indicated	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-mechanical	mechanical	O	O
-heart	heart	O	O
-valves	valves	O	O
+mechanical	mechanical	O	B_disease
+heart	heart	O	I_disease
+valves	valves	O	I_disease
 ,	,	O	O
 mainly	mainly	O	O
 before	before	O	O
@@ -139,9 +139,9 @@ LMWH	lmwh	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-mechanical	mechanical	O	O
-heart	heart	O	O
-valves	valves	O	O
+mechanical	mechanical	O	B_disease
+heart	heart	O	I_disease
+valves	valves	O	I_disease
 was	was	O	O
 extensively	extensively	O	O
 reviewed	reviewed	O	O
@@ -214,8 +214,8 @@ b	b	O	O
 )	)	O	O
 short-term	short-term	O	O
 ,	,	O	O
-perioperative	perioperative	O	O
-(noncardiac)/periprocedural	(noncardiac)/periprocedural	O	O
+perioperative	perioperative	O	S_disease
+(noncardiac)/periprocedural	(noncardiac)/periprocedural	S_chemical	O
 (	(	O	O
 n	n	O	O
 =	=	O	O
@@ -318,9 +318,9 @@ CONCLUSIONS	conclusions	O	O
 In	in	O	O
 patients	patients	O	O
 with	with	O	O
-mechanical	mechanical	O	O
-heart	heart	O	O
-valves	valves	O	O
+mechanical	mechanical	O	B_disease
+heart	heart	O	I_disease
+valves	valves	O	I_disease
 ,	,	O	O
 short-term	short-term	O	O
 LMWH	lmwh	O	O
@@ -365,8 +365,8 @@ LMWH	lmwh	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-mechanical	mechanical	O	O
-heart	heart	O	O
-valves	valves	O	O
+mechanical	mechanical	O	B_disease
+heart	heart	O	I_disease
+valves	valves	O	I_disease
 .	.	O	O
 

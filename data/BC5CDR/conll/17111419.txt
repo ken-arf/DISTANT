@@ -54,7 +54,7 @@ depression	depression	O	S_disease
 Reported	reported	O	O
 medications	medications	O	O
 included	included	O	O
-bumetanide	bumetanide	O	O
+bumetanide	bumetanide	S_chemical	O
 ,	,	O	O
 pravastatin	pravastatin	S_chemical	O
 ,	,	O	O
@@ -90,9 +90,9 @@ then	then	O	O
 very	very	O	O
 rapidly	rapidly	O	O
 developed	developed	O	O
-acute	acute	O	O
-onset	onset	O	O
-of	of	O	O
+acute	acute	O	B_disease
+onset	onset	O	B_disease
+of	of	O	I_disease
 severe	severe	O	O
 facial	facial	O	O
 and	and	O	O
@@ -153,7 +153,7 @@ it	it	O	O
 was	was	O	O
 noted	noted	O	O
 that	that	O	O
-bumetanide	bumetanide	O	O
+bumetanide	bumetanide	S_chemical	O
 is	is	O	O
 a	a	O	O
 loop	loop	O	O

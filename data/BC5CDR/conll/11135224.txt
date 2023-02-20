@@ -13,7 +13,7 @@ therapeutic	therapeutic	O	O
 approach	approach	O	O
 in	in	O	O
 metastatic	metastatic	O	O
-nonsmall	nonsmall	O	O
+nonsmall	nonsmall	S_chemical	O
 cell	cell	O	O
 lung	lung	O	O
 carcinoma	carcinoma	O	S_disease
@@ -31,8 +31,8 @@ life	life	O	O
 and	and	O	O
 survival	survival	O	O
 in	in	O	O
-advanced	advanced	O	O
-nonsmall	nonsmall	O	O
+advanced	advanced	B_chemical	O
+nonsmall	nonsmall	S_chemical	O
 cell	cell	O	O
 lung	lung	O	O
 carcinoma	carcinoma	O	S_disease

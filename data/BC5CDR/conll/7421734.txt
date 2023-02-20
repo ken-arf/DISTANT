@@ -23,8 +23,8 @@ childhood	childhood	O	O
 
 She	she	O	O
 had	had	O	O
-ovarian	ovarian	O	O
-failure	failure	O	O
+ovarian	ovarian	O	B_disease
+failure	failure	O	I_disease
 after	after	O	O
 abdominal	abdominal	O	O
 irradiation	irradiation	O	O
@@ -59,8 +59,8 @@ on	on	O	O
 replacement	replacement	O	O
 estrogens	estrogens	O	O
 for	for	O	O
-ovarian	ovarian	O	O
-failure	failure	O	O
+ovarian	ovarian	O	B_disease
+failure	failure	O	I_disease
 after	after	O	O
 cancer	cancer	O	S_disease
 therapy	therapy	O	O

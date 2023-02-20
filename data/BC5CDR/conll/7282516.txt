@@ -37,8 +37,8 @@ relationships	relationships	O	O
 during	during	O	O
 development	development	O	O
 of	of	O	O
-myocardial	myocardial	O	O
-disease	disease	O	O
+myocardial	myocardial	O	B_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 We	we	O	O
@@ -46,8 +46,8 @@ measured	measured	O	O
 the	the	O	O
 degree	degree	O	O
 of	of	O	O
-morphologic	morphologic	O	O
-damage	damage	O	O
+morphologic	morphologic	O	B_disease
+damage	damage	O	I_disease
 by	by	O	O
 ultrastructural	ultrastructural	O	O
 examination	examination	O	O
@@ -70,8 +70,8 @@ receiving	receiving	O	O
 DXR	dxr	O	O
 .	.	O	O
 
-Morphologic	morphologic	O	O
-damage	damage	O	O
+Morphologic	morphologic	O	B_disease
+damage	damage	O	I_disease
 was	was	O	O
 variable	variable	O	O
 but	but	O	O
@@ -117,8 +117,8 @@ abnormalities	abnormalities	O	O
 correlated	correlated	O	O
 well	well	O	O
 with	with	O	O
-morphologic	morphologic	O	O
-damage	damage	O	O
+morphologic	morphologic	O	B_disease
+damage	damage	O	I_disease
 (	(	O	O
 r	r	O	O
 =	=	O	O

@@ -1,4 +1,4 @@
-Serotonergic	serotonergic	O	O
+Serotonergic	serotonergic	S_chemical	O
 antidepressants	antidepressants	S_chemical	O
 and	and	O	O
 urinary	urinary	O	B_disease
@@ -7,7 +7,7 @@ incontinence	incontinence	O	S_disease
 
 Many	many	O	O
 new	new	O	O
-serotonergic	serotonergic	O	O
+serotonergic	serotonergic	S_chemical	O
 antidepressants	antidepressants	S_chemical	O
 have	have	O	O
 been	been	O	O
@@ -129,7 +129,7 @@ that	that	O	O
 incontinence	incontinence	O	S_disease
 secondary	secondary	O	O
 to	to	O	O
-serotonergic	serotonergic	O	O
+serotonergic	serotonergic	S_chemical	O
 antidepressants	antidepressants	S_chemical	O
 could	could	O	O
 be	be	O	O

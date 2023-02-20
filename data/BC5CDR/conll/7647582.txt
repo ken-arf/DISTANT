@@ -22,8 +22,8 @@ isoflurane	isoflurane	S_chemical	O
 ,	,	O	O
 have	have	O	O
 been	been	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 an	an	O	O
 allergic-type	allergic-type	O	O
 hepatic	hepatic	O	B_disease

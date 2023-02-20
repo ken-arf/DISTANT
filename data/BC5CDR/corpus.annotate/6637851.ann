@@ -1,0 +1,8 @@
+T3	Disease 68 91	ventricular tachycardia
+T4	Disease 95 119	ventricular fibrillation
+T6	Disease 195 218	ventricular tachycardia
+T7	Disease 239 253	cardiac arrest
+T9	Disease 520 544	ventricular fibrillation
+T11	Disease 831 853	adverse drug reactions
+T14	Disease 1033 1050	adverse reactions
+T21	Disease 1506 1521	adverse effects

@@ -45,8 +45,8 @@ toxicity	toxicity	O	S_disease
 6	6	O	O
 patients	patients	O	O
 presented	presented	O	O
-clinical	clinical	O	O
-symptoms	symptoms	O	O
+clinical	clinical	O	B_disease
+symptoms	symptoms	O	I_disease
 of	of	O	O
 visual	visual	O	O
 or	or	O	O
@@ -85,8 +85,8 @@ tritan-type	tritan-type	O	O
 dyschromatopsy	dyschromatopsy	O	O
 ,	,	O	O
 sometimes	sometimes	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 loss	loss	O	O
 of	of	O	O
@@ -214,8 +214,8 @@ in	in	O	O
 order	order	O	O
 to	to	O	O
 detect	detect	O	O
-adverse	adverse	O	O
-effects	effects	O	O
+adverse	adverse	O	B_disease
+effects	effects	O	I_disease
 as	as	O	O
 early	early	O	O
 as	as	O	O

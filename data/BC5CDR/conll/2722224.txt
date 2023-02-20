@@ -84,7 +84,7 @@ to	to	O	O
 mm	mm	O	O
 Hg	hg	O	O
 (	(	O	O
-SED	sed	O	O
+SED	sed	S_chemical	O
 +	+	O	O
 /-	/-	O	O
 3.4	3.4	O	O
@@ -95,8 +95,8 @@ than	than	O	O
 0.01	0.01	O	O
 )	)	O	O
 ,	,	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 an	an	O	O
 increased	increased	O	O
 cardiac	cardiac	O	O
@@ -107,7 +107,7 @@ output	output	O	O
 7.73	7.73	O	O
 l/min	l/min	O	O
 ,	,	O	O
-SED	sed	O	O
+SED	sed	S_chemical	O
 +	+	O	O
 /-	/-	O	O
 0.46	0.46	O	O
@@ -120,8 +120,8 @@ than	than	O	O
 .	.	O	O
 
 Total	total	O	O
-peripheral	peripheral	O	O
-vascular	vascular	O	O
+peripheral	peripheral	O	B_disease
+vascular	vascular	O	I_disease
 resistance	resistance	O	O
 fell	fell	O	O
 from	from	O	O
@@ -131,7 +131,7 @@ to	to	O	O
 mm	mm	O	O
 Hg/l/min	hg/l/min	O	O
 (	(	O	O
-SED	sed	O	O
+SED	sed	S_chemical	O
 +	+	O	O
 /-	/-	O	O
 1.03	1.03	O	O
@@ -185,7 +185,7 @@ units	units	O	O
 after	after	O	O
 treatment	treatment	O	O
 (	(	O	O
-SED	sed	O	O
+SED	sed	S_chemical	O
 +	+	O	O
 /-	/-	O	O
 6.4	6.4	O	O
@@ -245,7 +245,7 @@ units	units	O	O
 after	after	O	O
 hydrocortisone	hydrocortisone	S_chemical	O
 (	(	O	O
-SED	sed	O	O
+SED	sed	S_chemical	O
 +	+	O	O
 /-	/-	O	O
 6.0	6.0	O	O
@@ -312,8 +312,8 @@ pressure	pressure	O	O
 with	with	O	O
 hydrocortisone	hydrocortisone	S_chemical	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 an	an	O	O
 increased	increased	O	O
 cardiac	cardiac	O	O

@@ -19,7 +19,7 @@ from	from	O	O
 the	the	O	O
 studies	studies	O	O
 of	of	O	O
-left	left	O	O
+left	left	O	B_disease
 ventricular	ventricular	O	B_disease
 dysfunction	dysfunction	O	I_disease
 (SOLVD)BACKGROUND	(solvd)background	O	O
@@ -102,7 +102,7 @@ from	from	O	O
 the	the	O	O
 Studies	studies	O	O
 of	of	O	O
-Left	left	O	O
+Left	left	O	B_disease
 Ventricular	ventricular	O	B_disease
 Dysfunction	dysfunction	O	I_disease
 (	(	O	O
@@ -276,8 +276,8 @@ therapy	therapy	O	O
 and	and	O	O
 diabetes	diabetes	O	S_disease
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 decreased	decreased	O	O
 renal	renal	O	O
 function	function	O	O
@@ -296,8 +296,8 @@ renoprotective	renoprotective	O	O
 Older	older	O	O
 age	age	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 greater	greater	O	O
 risk	risk	O	O
@@ -362,8 +362,8 @@ Diuretic	diuretic	O	O
 therapy	therapy	O	O
 was	was	O	O
 likewise	likewise	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 greater	greater	O	O
 risk	risk	O	O
@@ -447,8 +447,8 @@ A	a	O	O
 lower	lower	O	O
 risk	risk	O	O
 of	of	O	O
-renal	renal	O	O
-impairment	impairment	O	O
+renal	renal	O	B_disease
+impairment	impairment	O	I_disease
 was	was	O	O
 seen	seen	O	O
 in	in	O	O
@@ -526,14 +526,14 @@ risk	risk	O	O
 
 Diabetes	diabetes	O	S_disease
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 an	an	O	O
 increased	increased	O	O
 risk	risk	O	O
 of	of	O	O
-renal	renal	O	O
-impairment	impairment	O	O
+renal	renal	O	B_disease
+impairment	impairment	O	I_disease
 in	in	O	O
 all	all	O	O
 patients	patients	O	O

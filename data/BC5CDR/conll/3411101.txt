@@ -1,6 +1,6 @@
 Quinidine	quinidine	O	O
 phenylethylbarbiturate-induced	phenylethylbarbiturate-induced	O	O
-fulminant	fulminant	O	O
+fulminant	fulminant	O	B_disease
 hepatitis	hepatitis	O	S_disease
 in	in	O	O
 a	a	O	O
@@ -24,7 +24,7 @@ Laotian	laotian	O	O
 patient	patient	O	O
 affected	affected	O	O
 by	by	O	O
-fulminant	fulminant	O	O
+fulminant	fulminant	O	B_disease
 hepatitis	hepatitis	O	S_disease
 during	during	O	O
 the	the	O	O
@@ -38,8 +38,8 @@ a	a	O	O
 1-month	1-month	O	O
 administration	administration	O	O
 of	of	O	O
-quinidine	quinidine	O	O
-phenylethylbarbiturate	phenylethylbarbiturate	O	O
+quinidine	quinidine	B_chemical	O
+phenylethylbarbiturate	phenylethylbarbiturate	S_chemical	O
 .	.	O	O
 
 After	after	O	O
@@ -69,12 +69,12 @@ transplantation	transplantation	O	O
 Quinidine	quinidine	O	O
 itself	itself	O	O
 or	or	O	O
-phenylethylbarbiturate	phenylethylbarbiturate	O	O
+phenylethylbarbiturate	phenylethylbarbiturate	S_chemical	O
 may	may	O	O
 be	be	O	O
 responsible	responsible	O	O
 for	for	O	O
-fulminant	fulminant	O	O
+fulminant	fulminant	O	B_disease
 hepatitis	hepatitis	O	S_disease
 in	in	O	O
 this	this	O	O

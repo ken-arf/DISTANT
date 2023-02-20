@@ -10,7 +10,7 @@ demand	demand	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 coronary	coronary	O	B_disease
 artery	artery	O	I_disease
 disease	disease	O	I_disease
@@ -50,7 +50,7 @@ in	in	O	O
 the	the	O	O
 presence	presence	O	O
 of	of	O	O
-obstructive	obstructive	O	O
+obstructive	obstructive	O	B_disease
 coronary	coronary	O	B_disease
 artery	artery	O	I_disease
 disease	disease	O	I_disease
@@ -90,7 +90,7 @@ in	in	O	O
 patients	patients	O	O
 with	with	O	O
 severe	severe	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 coronary	coronary	O	B_disease
 artery	artery	O	I_disease
 disease	disease	O	I_disease
@@ -291,7 +291,7 @@ that	that	O	O
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 coronary	coronary	O	B_disease
 artery	artery	O	I_disease
 disease	disease	O	I_disease
@@ -324,8 +324,8 @@ this	this	O	O
 fall	fall	O	O
 would	would	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 decrease	decrease	O	O
 in	in	O	O

@@ -1,13 +1,13 @@
-Cauda	cauda	O	O
-equina	equina	O	O
-syndrome	syndrome	O	O
+Cauda	cauda	O	B_disease
+equina	equina	O	I_disease
+syndrome	syndrome	O	I_disease
 after	after	O	O
 spinal	spinal	O	O
 anaesthesia	anaesthesia	O	O
 with	with	O	O
 hyperbaric	hyperbaric	O	O
-5	5	O	O
-%	%	O	O
+5	5	B_chemical	O
+%	%	I_chemical	O
 lignocaine	lignocaine	S_chemical	O
 :	:	O	O
 a	a	O	O
@@ -16,9 +16,9 @@ of	of	O	O
 six	six	O	O
 cases	cases	O	O
 of	of	O	O
-cauda	cauda	O	O
-equina	equina	O	O
-syndrome	syndrome	O	O
+cauda	cauda	O	B_disease
+equina	equina	O	I_disease
+syndrome	syndrome	O	I_disease
 reported	reported	O	O
 to	to	O	O
 the	the	O	O
@@ -30,9 +30,9 @@ Insurance	insurance	O	O
 1997.Six	1997.six	O	O
 cases	cases	O	O
 of	of	O	O
-cauda	cauda	O	O
-equina	equina	O	O
-syndrome	syndrome	O	O
+cauda	cauda	O	B_disease
+equina	equina	O	I_disease
+syndrome	syndrome	O	I_disease
 with	with	O	O
 varying	varying	O	O
 severity	severity	O	O
@@ -53,14 +53,14 @@ period	period	O	O
 
 All	all	O	O
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 spinal	spinal	O	O
 anaesthesia	anaesthesia	O	O
 using	using	O	O
 hyperbaric	hyperbaric	O	O
-5	5	O	O
-%	%	O	O
+5	5	B_chemical	O
+%	%	I_chemical	O
 lignocaine	lignocaine	S_chemical	O
 .	.	O	O
 
@@ -87,8 +87,8 @@ The	the	O	O
 dose	dose	O	O
 of	of	O	O
 hyperbaric	hyperbaric	O	O
-5	5	O	O
-%	%	O	O
+5	5	B_chemical	O
+%	%	I_chemical	O
 lignocaine	lignocaine	S_chemical	O
 administered	administered	O	O
 ranged	ranged	O	O
@@ -112,8 +112,8 @@ direct	direct	O	O
 neurotoxicity	neurotoxicity	O	S_disease
 of	of	O	O
 hyperbaric	hyperbaric	O	O
-5	5	O	O
-%	%	O	O
+5	5	B_chemical	O
+%	%	I_chemical	O
 lignocaine	lignocaine	S_chemical	O
 .	.	O	O
 
@@ -148,8 +148,8 @@ All	all	O	O
 cases	cases	O	O
 sustained	sustained	O	O
 permanent	permanent	O	O
-neurological	neurological	O	O
-deficits	deficits	O	O
+neurological	neurological	O	B_disease
+deficits	deficits	O	I_disease
 .	.	O	O
 
 We	we	O	O

@@ -3,8 +3,8 @@ ameliorates	ameliorates	O	O
 cognitive	cognitive	O	B_disease
 dysfunction	dysfunction	O	I_disease
 and	and	O	O
-oxidative	oxidative	O	O
-damage	damage	O	O
+oxidative	oxidative	O	B_disease
+damage	damage	O	I_disease
 in	in	O	O
 phenobarbitone	phenobarbitone	S_chemical	O
 and	and	O	O
@@ -83,14 +83,14 @@ chronic	chronic	O	O
 curcumin	curcumin	S_chemical	O
 administration	administration	O	O
 on	on	O	O
-phenobarbitone-	phenobarbitone-	O	O
+phenobarbitone-	phenobarbitone-	S_chemical	O
 and	and	O	O
 carbamazepine-induced	carbamazepine-induced	O	O
 cognitive	cognitive	O	B_disease
 impairment	impairment	O	I_disease
 and	and	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 in	in	O	O
 rats	rats	O	O
 .	.	O	O
@@ -152,7 +152,7 @@ whole	whole	O	O
 brain	brain	O	O
 malondialdehyde	malondialdehyde	S_chemical	O
 and	and	O	O
-reduced	reduced	O	O
+reduced	reduced	B_chemical	O
 glutathione	glutathione	S_chemical	O
 levels	levels	O	O
 were	were	O	O
@@ -180,8 +180,8 @@ well	well	O	O
 as	as	O	O
 an	an	O	O
 increased	increased	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 .	.	O	O
 
 Concomitant	concomitant	O	O
@@ -195,8 +195,8 @@ and	and	O	O
 decreased	decreased	O	O
 the	the	O	O
 increased	increased	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 induced	induced	O	O
 by	by	O	O
 these	these	O	O
@@ -238,11 +238,11 @@ mitigating	mitigating	O	O
 the	the	O	O
 deterioration	deterioration	O	O
 of	of	O	O
-cognitive	cognitive	O	O
-functions	functions	O	O
+cognitive	cognitive	O	B_disease
+functions	functions	O	I_disease
 and	and	O	O
-oxidative	oxidative	O	O
-damage	damage	O	O
+oxidative	oxidative	O	B_disease
+damage	damage	O	I_disease
 in	in	O	O
 rats	rats	O	O
 treated	treated	O	O
@@ -282,8 +282,8 @@ in	in	O	O
 preventing	preventing	O	O
 cognitive	cognitive	O	B_disease
 impairment	impairment	O	I_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 these	these	O	O
 drugs	drugs	O	O
 .	.	O	O

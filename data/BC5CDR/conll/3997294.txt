@@ -42,8 +42,8 @@ months	months	O	O
 for	for	O	O
 control	control	O	O
 of	of	O	O
-supraventricular	supraventricular	O	O
-tachyarrhythmias	tachyarrhythmias	O	O
+supraventricular	supraventricular	O	B_disease
+tachyarrhythmias	tachyarrhythmias	O	S_disease
 .	.	O	O
 
 He	he	O	O

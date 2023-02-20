@@ -164,7 +164,7 @@ In	in	O	O
 1	1	O	O
 session	session	O	O
 ,	,	O	O
-tropicamide	tropicamide	O	O
+tropicamide	tropicamide	S_chemical	O
 (	(	O	O
 20	20	O	O
 microL	microl	O	O
@@ -188,7 +188,7 @@ In	in	O	O
 another	another	O	O
 session	session	O	O
 ,	,	O	O
-tropicamide	tropicamide	O	O
+tropicamide	tropicamide	S_chemical	O
 (	(	O	O
 20	20	O	O
 microL	microl	O	O
@@ -290,7 +290,7 @@ points	points	O	O
 after	after	O	O
 administration	administration	O	O
 of	of	O	O
-tropicamide	tropicamide	O	O
+tropicamide	tropicamide	S_chemical	O
 and	and	O	O
 pilocarpine	pilocarpine	S_chemical	O
 ;	;	O	O
@@ -317,7 +317,7 @@ in	in	O	O
 pupillary	pupillary	O	O
 response	response	O	O
 to	to	O	O
-tropicamide	tropicamide	O	O
+tropicamide	tropicamide	S_chemical	O
 at	at	O	O
 any	any	O	O
 time	time	O	O
@@ -411,7 +411,7 @@ is	is	O	O
 not	not	O	O
 found	found	O	O
 with	with	O	O
-tropicamide	tropicamide	O	O
+tropicamide	tropicamide	S_chemical	O
 .	.	O	O
 
 Thus	thus	O	O

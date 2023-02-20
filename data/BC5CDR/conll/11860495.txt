@@ -8,7 +8,7 @@ the	the	O	O
 anti-amnesic	anti-amnesic	O	O
 effects	effects	O	O
 of	of	O	O
-pregnenolone	pregnenolone	O	O
+pregnenolone	pregnenolone	S_chemical	O
 sulphate	sulphate	O	O
 in	in	O	O
 the	the	O	O
@@ -19,7 +19,7 @@ in	in	O	O
 rats	rats	O	O
 .	.	O	O
 
-Pregnenolone	pregnenolone	O	O
+Pregnenolone	pregnenolone	S_chemical	O
 sulphate	sulphate	O	O
 (	(	O	O
 PREGS	pregs	O	O
@@ -87,7 +87,7 @@ potent	potent	O	O
 positive	positive	O	O
 modulator	modulator	O	O
 of	of	O	O
-N-methyl-d-aspartate	n-methyl-d-aspartate	O	O
+N-methyl-d-aspartate	n-methyl-d-aspartate	S_chemical	O
 receptors	receptors	O	O
 (	(	O	O
 NMDARs	nmdars	O	O
@@ -97,7 +97,7 @@ a	a	O	O
 negative	negative	O	O
 modulator	modulator	O	O
 of	of	O	O
-gamma-aminobutyric	gamma-aminobutyric	O	O
+gamma-aminobutyric	gamma-aminobutyric	S_chemical	O
 acid(A	acid(a	O	O
 )	)	O	O
 receptors	receptors	O	O
@@ -160,8 +160,8 @@ analogs	analogs	O	O
 tested	tested	O	O
 were	were	O	O
 :	:	O	O
-11-ketopregnenolone	11-ketopregnenolone	O	O
-sulphate	sulphate	O	O
+11-ketopregnenolone	11-ketopregnenolone	B_chemical	O
+sulphate	sulphate	I_chemical	O
 (	(	O	O
 an	an	O	O
 agent	agent	O	O
@@ -174,7 +174,7 @@ and	and	O	O
 NMDARs	nmdars	O	O
 )	)	O	O
 ,	,	O	O
-epipregnanolone	epipregnanolone	O	O
+epipregnanolone	epipregnanolone	S_chemical	O
 (	(	O	O
 [	[	O	O
 3beta-hydroxy-5beta-pregnan-20-one	3beta-hydroxy-5beta-pregnan-20-one	O	O
@@ -260,11 +260,11 @@ that	that	O	O
 unlike	unlike	O	O
 PREGS	pregs	O	O
 ,	,	O	O
-11-ketopregnenolone	11-ketopregnenolone	O	O
-sulphate	sulphate	O	O
+11-ketopregnenolone	11-ketopregnenolone	B_chemical	O
+sulphate	sulphate	I_chemical	O
 and	and	O	O
-epipregnanolone	epipregnanolone	O	O
-sulphate	sulphate	O	O
+epipregnanolone	epipregnanolone	B_chemical	O
+sulphate	sulphate	I_chemical	O
 failed	failed	O	O
 to	to	O	O
 block	block	O	O

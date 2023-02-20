@@ -1,4 +1,4 @@
-Dextran-etodolac	dextran-etodolac	O	O
+Dextran-etodolac	dextran-etodolac	S_chemical	O
 conjugates	conjugates	O	O
 :	:	O	O
 synthesis	synthesis	O	O
@@ -38,7 +38,7 @@ carrier	carrier	O	O
 for	for	O	O
 synthesis	synthesis	O	O
 of	of	O	O
-etodolac-dextran	etodolac-dextran	O	O
+etodolac-dextran	etodolac-dextran	S_chemical	O
 conjugates	conjugates	O	O
 (	(	O	O
 ED	ed	O	O
@@ -51,8 +51,8 @@ solubility	solubility	O	O
 and	and	O	O
 reduce	reduce	O	O
 gastrointestinal	gastrointestinal	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 
 An	an	O	O
@@ -60,10 +60,10 @@ activated	activated	O	O
 moiety	moiety	O	O
 ,	,	O	O
 i.e.	i.e.	O	O
-N-acylimidazole	n-acylimidazole	O	O
-derivative	derivative	O	O
-of	of	O	O
-etodolac	etodolac	O	O
+N-acylimidazole	n-acylimidazole	B_chemical	O
+derivative	derivative	I_chemical	O
+of	of	I_chemical	O
+etodolac	etodolac	I_chemical	O
 (	(	O	O
 EAI	eai	O	O
 )	)	O	O
@@ -270,14 +270,14 @@ activities	activities	O	O
 with	with	O	O
 remarkably	remarkably	O	O
 reduced	reduced	O	O
-ulcerogenicity	ulcerogenicity	O	O
+ulcerogenicity	ulcerogenicity	O	S_disease
 as	as	O	O
 compared	compared	O	O
 to	to	O	O
 their	their	O	O
 parent	parent	O	O
-drug	drug	O	O
---	--	O	O
-etodolac	etodolac	O	O
+drug	drug	B_chemical	O
+--	--	I_chemical	O
+etodolac	etodolac	I_chemical	O
 .	.	O	O
 

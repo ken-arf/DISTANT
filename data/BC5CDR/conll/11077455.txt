@@ -27,8 +27,8 @@ constriction	constriction	O	O
 thought	thought	O	O
 to	to	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 vigabatrin	vigabatrin	S_chemical	O
 has	has	O	O
 been	been	O	O
@@ -235,15 +235,15 @@ constriction	constriction	O	O
 appears	appears	O	O
 to	to	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 vigabatrin	vigabatrin	S_chemical	O
 therapy	therapy	O	O
 .	.	O	O
 
 The	the	O	O
-field	field	O	O
-defects	defects	O	O
+field	field	O	B_disease
+defects	defects	O	I_disease
 and	and	O	O
 some	some	O	O
 electrophysiological	electrophysiological	O	O

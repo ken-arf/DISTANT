@@ -1,0 +1,10 @@
+T1	Chemical 65 77	cyclosporine
+T2	Chemical 394 404	tacrolimus
+T3	Chemical 565 575	tacrolimus
+T5	Disease 770 783	neurotoxicity
+T6	Disease 810 827	diabetes mellitus
+T7	Disease 840 854	nephrotoxicity
+T10	Disease 949 962	neurotoxicity
+T11	Disease 980 994	nephrotoxicity
+T12	Disease 1017 1031	hepatotoxicity
+T14	Disease 1110 1126	hemolytic anemia

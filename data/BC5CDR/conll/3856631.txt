@@ -34,7 +34,7 @@ to	to	O	O
 achieve	achieve	O	O
 and	and	O	O
 maintain	maintain	O	O
-CSF	csf	O	O
+CSF	csf	B_chemical	O
 methotrexate	methotrexate	S_chemical	O
 concentrations	concentrations	O	O
 of	of	O	O
@@ -79,7 +79,7 @@ for	for	O	O
 hours	hours	O	O
 .	.	O	O
 
-Leucovorin	leucovorin	O	O
+Leucovorin	leucovorin	S_chemical	O
 rescue	rescue	O	O
 was	was	O	O
 initiated	initiated	O	O
@@ -132,7 +132,7 @@ mean	mean	O	O
 steady-state	steady-state	O	O
 plasma	plasma	O	O
 and	and	O	O
-CSF	csf	O	O
+CSF	csf	B_chemical	O
 methotrexate	methotrexate	S_chemical	O
 concentrations	concentrations	O	O
 achieved	achieved	O	O
@@ -204,8 +204,8 @@ had	had	O	O
 focal	focal	O	O
 seizures	seizures	O	S_disease
 and	and	O	O
-transient	transient	O	O
-hemiparesis	hemiparesis	O	O
+transient	transient	O	B_disease
+hemiparesis	hemiparesis	O	S_disease
 but	but	O	O
 recovered	recovered	O	O
 completely	completely	O	O

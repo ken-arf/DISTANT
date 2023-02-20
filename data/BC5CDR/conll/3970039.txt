@@ -86,8 +86,8 @@ stopped	stopped	O	O
 .	.	O	O
 
 Since	since	O	O
-adverse	adverse	O	O
-reactions	reactions	O	O
+adverse	adverse	O	B_disease
+reactions	reactions	O	I_disease
 are	are	O	O
 frequent	frequent	O	O
 ,	,	O	O
@@ -151,9 +151,9 @@ risk	risk	O	O
 of	of	O	O
 development	development	O	O
 of	of	O	O
-acute	acute	O	O
-nonlymphocytic	nonlymphocytic	O	O
-leukemia	leukemia	O	O
+acute	acute	O	B_disease
+nonlymphocytic	nonlymphocytic	O	I_disease
+leukemia	leukemia	O	I_disease
 ,	,	O	O
 and	and	O	O
 both	both	O	O
@@ -162,14 +162,14 @@ agents	agents	I_chemical	O
 and	and	O	O
 azathioprine	azathioprine	S_chemical	O
 are	are	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 development	development	O	O
 of	of	O	O
 non-Hodgkin	non-hodgkin	O	O
-'s	's	O	O
-lymphoma	lymphoma	O	O
+'s	's	O	B_disease
+lymphoma	lymphoma	O	I_disease
 .	.	O	O
 
 Cyclophosphamide	cyclophosphamide	S_chemical	O
@@ -260,8 +260,8 @@ for	for	O	O
 patients	patients	O	O
 with	with	O	O
 severe	severe	O	O
-progressive	progressive	O	O
-disease	disease	O	O
+progressive	progressive	O	B_disease
+disease	disease	O	I_disease
 or	or	O	O
 life-threatening	life-threatening	O	O
 complications	complications	O	O

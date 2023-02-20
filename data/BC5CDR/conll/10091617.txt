@@ -1,5 +1,5 @@
 Selegiline-induced	selegiline-induced	O	O
-postural	postural	O	O
+postural	postural	O	B_disease
 hypotension	hypotension	O	S_disease
 in	in	O	O
 Parkinson	parkinson	O	B_disease
@@ -73,8 +73,8 @@ selegiline	selegiline	S_chemical	O
 and	and	O	O
 L-dopa	l-dopa	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 selective	selective	O	O
 systolic	systolic	O	O
 orthostatic	orthostatic	O	B_disease
@@ -101,8 +101,8 @@ the	the	O	O
 result	result	O	O
 of	of	O	O
 underlying	underlying	O	O
-autonomic	autonomic	O	O
-failure	failure	O	O
+autonomic	autonomic	O	B_disease
+failure	failure	O	I_disease
 .	.	O	O
 
 The	the	O	O
@@ -282,8 +282,8 @@ combination	combination	O	O
 with	with	O	O
 L-dopa	l-dopa	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 selective	selective	O	O
 orthostatic	orthostatic	O	B_disease
 hypotension	hypotension	O	S_disease
@@ -309,7 +309,7 @@ or	or	O	O
 of	of	O	O
 amphetamine	amphetamine	S_chemical	O
 and	and	O	O
-metamphetamine	metamphetamine	O	O
+metamphetamine	metamphetamine	S_chemical	O
 are	are	O	O
 discussed	discussed	O	O
 .	.	O	O

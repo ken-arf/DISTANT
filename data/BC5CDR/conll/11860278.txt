@@ -8,7 +8,7 @@ cell	cell	O	O
 death	death	O	S_disease
 induced	induced	O	O
 by	by	O	O
-muscarinic	muscarinic	O	O
+muscarinic	muscarinic	S_chemical	O
 and	and	O	O
 glutamatergic	glutamatergic	O	O
 drugs	drugs	O	O
@@ -32,7 +32,7 @@ in	in	O	O
 the	the	O	O
 control	control	O	O
 of	of	O	O
-epileptic	epileptic	O	S_disease
+epileptic	epileptic	O	B_disease
 seizures	seizures	O	S_disease
 arising	arising	O	O
 in	in	O	O
@@ -41,7 +41,7 @@ limbic	limbic	O	O
 system	system	O	O
 .	.	O	O
 
-Excitotoxicity	excitotoxicity	O	O
+Excitotoxicity	excitotoxicity	O	S_disease
 leading	leading	O	O
 to	to	O	O
 neuronal	neuronal	O	O
@@ -199,7 +199,7 @@ acetylcholine	acetylcholine	S_chemical	O
 Moreover	moreover	O	O
 ,	,	O	O
 the	the	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 control	control	O	O
 of	of	O	O
 epilepsy-induced	epilepsy-induced	O	O

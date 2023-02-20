@@ -86,7 +86,7 @@ or	or	O	O
 absence	absence	O	O
 of	of	O	O
 lithium-induced	lithium-induced	O	O
-cardiac	cardiac	O	O
-malformations	malformations	O	O
+cardiac	cardiac	O	B_disease
+malformations	malformations	O	I_disease
 .	.	O	O
 

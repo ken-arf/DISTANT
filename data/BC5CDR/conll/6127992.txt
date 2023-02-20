@@ -1,7 +1,7 @@
 Adverse	adverse	O	O
 interaction	interaction	O	O
 between	between	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 blocking	blocking	O	O
 drugs	drugs	O	O
 and	and	O	O
@@ -16,7 +16,7 @@ cases	cases	O	O
 Three	three	O	O
 patients	patients	O	O
 with	with	O	O
-ischaemic	ischaemic	O	O
+ischaemic	ischaemic	O	B_disease
 heart	heart	O	B_disease
 disease	disease	O	I_disease
 developed	developed	O	O
@@ -33,7 +33,7 @@ therapy	therapy	O	O
 with	with	O	O
 verapamil	verapamil	S_chemical	O
 and	and	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 blocking	blocking	O	O
 drugs	drugs	O	O
 .	.	O	O
@@ -81,7 +81,7 @@ other	other	O	O
 Simultaneously	simultaneously	O	O
 administration	administration	O	O
 of	of	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 blocking	blocking	O	O
 drugs	drugs	O	O
 and	and	O	O

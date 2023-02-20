@@ -19,15 +19,15 @@ a	a	O	O
 35-year-old	35-year-old	O	O
 man	man	O	O
 ,	,	O	O
-sodium	sodium	S_chemical	O
-pentothal	pentothal	O	O
+sodium	sodium	B_chemical	O
+pentothal	pentothal	I_chemical	O
 was	was	O	O
 intravenously	intravenously	O	O
 infused	infused	O	O
 to	to	O	O
 minimize	minimize	O	O
-cerebral	cerebral	O	O
-ischaemia	ischaemia	O	O
+cerebral	cerebral	O	B_disease
+ischaemia	ischaemia	O	I_disease
 .	.	O	O
 
 Intense	intense	O	O

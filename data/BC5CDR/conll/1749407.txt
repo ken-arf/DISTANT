@@ -53,8 +53,8 @@ in	in	O	O
 myocardial	myocardial	O	O
 oxygen	oxygen	S_chemical	O
 demand	demand	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 cocaine-induced	cocaine-induced	O	O
 increase	increase	O	O
 in	in	O	O
@@ -68,8 +68,8 @@ individuals	individuals	O	O
 with	with	O	O
 no	no	O	O
 underlying	underlying	O	O
-atherosclerotic	atherosclerotic	O	S_disease
-obstruction	obstruction	O	O
+atherosclerotic	atherosclerotic	O	B_disease
+obstruction	obstruction	O	I_disease
 ,	,	O	O
 coronary	coronary	O	B_disease
 occlusion	occlusion	O	I_disease

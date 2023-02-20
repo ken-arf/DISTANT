@@ -20,8 +20,8 @@ of	of	O	O
 switching	switching	O	O
 to	to	O	O
 mania	mania	O	S_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 antidepressants	antidepressants	S_chemical	O
 continue	continue	O	O
 to	to	O	O
@@ -165,7 +165,7 @@ normothymic	normothymic	O	O
 period	period	O	O
 using	using	O	O
 the	the	O	O
-hyperthymia	hyperthymia	O	O
+hyperthymia	hyperthymia	O	S_disease
 component	component	O	O
 of	of	O	O
 the	the	O	O
@@ -179,7 +179,7 @@ RESULTS	results	O	O
 :	:	O	O
 Switches	switches	O	O
 to	to	O	O
-hypomania	hypomania	O	O
+hypomania	hypomania	O	S_disease
 or	or	O	O
 mania	mania	O	S_disease
 occurred	occurred	O	O
@@ -232,8 +232,8 @@ N	n	O	O
 5	5	O	O
 )	)	O	O
 experienced	experienced	O	O
-hypomanic	hypomanic	O	O
-episodes	episodes	O	O
+hypomanic	hypomanic	O	B_disease
+episodes	episodes	O	I_disease
 .	.	O	O
 
 Sex	sex	O	O
@@ -340,7 +340,7 @@ high	high	O	O
 score	score	O	O
 on	on	O	O
 the	the	O	O
-hyperthymia	hyperthymia	O	O
+hyperthymia	hyperthymia	O	S_disease
 component	component	O	O
 of	of	O	O
 the	the	O	O
@@ -349,8 +349,8 @@ Affective	affective	O	O
 Temperament	temperament	O	O
 Interview	interview	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 greater	greater	O	O
 risk	risk	O	O
@@ -370,8 +370,8 @@ frequency	frequency	O	O
 of	of	O	O
 mood	mood	O	O
 switching	switching	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 acute	acute	O	O
 antidepressant	antidepressant	S_chemical	O
 therapy	therapy	O	O
@@ -392,8 +392,8 @@ to	to	O	O
 patients	patients	O	O
 with	with	O	O
 a	a	O	O
-hyperthymic	hyperthymic	O	O
-temperament	temperament	O	O
+hyperthymic	hyperthymic	O	B_disease
+temperament	temperament	O	I_disease
 ,	,	O	O
 who	who	O	O
 have	have	O	O

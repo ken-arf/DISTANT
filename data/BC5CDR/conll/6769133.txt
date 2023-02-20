@@ -82,9 +82,9 @@ the	the	O	O
 10	10	O	O
 monkeys	monkeys	O	O
 developed	developed	O	O
-acute	acute	O	O
-myeloblastic	myeloblastic	O	O
-leukemia	leukemia	O	O
+acute	acute	O	B_disease
+myeloblastic	myeloblastic	O	I_disease
+leukemia	leukemia	O	I_disease
 after	after	O	O
 receiving	receiving	O	O
 324	324	O	O
@@ -118,7 +118,7 @@ is	is	O	O
 a	a	O	O
 more	more	O	O
 potent	potent	O	O
-cardiotoxin	cardiotoxin	O	O
+cardiotoxin	cardiotoxin	S_chemical	O
 in	in	O	O
 monkeys	monkeys	O	O
 than	than	O	O

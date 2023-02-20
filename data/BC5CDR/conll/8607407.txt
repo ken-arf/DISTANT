@@ -296,8 +296,8 @@ representative	representative	O	O
 of	of	O	O
 nearly	nearly	O	O
 all	all	O	O
-borderline	borderline	O	O
-hypertensives	hypertensives	O	O
+borderline	borderline	B_chemical	O
+hypertensives	hypertensives	I_chemical	O
 .	.	O	O
 
 We	we	O	O

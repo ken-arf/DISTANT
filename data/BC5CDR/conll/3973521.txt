@@ -48,8 +48,8 @@ normal	normal	O	O
 left	left	O	O
 ventricles	ventricles	O	O
 and	and	O	O
-coronary	coronary	O	O
-arteries	arteries	O	O
+coronary	coronary	O	B_disease
+arteries	arteries	O	I_disease
 .	.	O	O
 
 Significant	significant	O	O

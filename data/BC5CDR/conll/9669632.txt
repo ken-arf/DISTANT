@@ -36,8 +36,8 @@ be	be	O	O
 related	related	O	O
 to	to	O	O
 disordered	disordered	O	O
-gastrointestinal	gastrointestinal	O	O
-motility	motility	O	O
+gastrointestinal	gastrointestinal	O	B_disease
+motility	motility	O	I_disease
 .	.	O	O
 
 Our	our	O	O
@@ -59,8 +59,8 @@ cisapride	cisapride	S_chemical	O
 ,	,	O	O
 on	on	O	O
 postprandial	postprandial	O	O
-jejunal	jejunal	O	O
-motility	motility	O	O
+jejunal	jejunal	O	B_disease
+motility	motility	O	I_disease
 and	and	O	O
 symptoms	symptoms	O	O
 in	in	O	O
@@ -270,8 +270,8 @@ No	no	O	O
 significant	significant	O	O
 differences	differences	O	O
 in	in	O	O
-jejunal	jejunal	O	O
-motility	motility	O	O
+jejunal	jejunal	O	B_disease
+motility	motility	O	I_disease
 were	were	O	O
 found	found	O	O
 in	in	O	O

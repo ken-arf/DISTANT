@@ -24,16 +24,16 @@ under	under	O	O
 amiodarone	amiodarone	S_chemical	O
 treatment	treatment	O	O
 for	for	O	O
-atrial	atrial	O	O
+atrial	atrial	O	B_disease
 tachycardia	tachycardia	O	S_disease
 in	in	O	O
 a	a	O	O
 patient	patient	O	O
 without	without	O	O
 clear	clear	O	O
-intraventricular	intraventricular	O	O
-conduction	conduction	O	O
-abnormalities	abnormalities	O	O
+intraventricular	intraventricular	O	B_disease
+conduction	conduction	O	I_disease
+abnormalities	abnormalities	O	I_disease
 .	.	O	O
 
 His	his	O	O
@@ -41,7 +41,7 @@ bundle	bundle	O	O
 recordings	recordings	O	O
 showed	showed	O	O
 an	an	O	O
-atrial	atrial	O	O
+atrial	atrial	O	B_disease
 tachycardia	tachycardia	O	S_disease
 with	with	O	O
 intermittent	intermittent	O	O

@@ -31,8 +31,8 @@ ganglia	ganglia	O	O
 Risperidone	risperidone	S_chemical	O
 ,	,	O	O
 a	a	O	O
-benzisoxazole	benzisoxazole	O	O
-derivative	derivative	O	O
+benzisoxazole	benzisoxazole	B_chemical	O
+derivative	derivative	I_chemical	O
 antipsychotic	antipsychotic	O	O
 ,	,	O	O
 has	has	O	O
@@ -114,7 +114,7 @@ and	and	O	O
 starting	starting	O	O
 treatment	treatment	O	O
 with	with	O	O
-dantrolene	dantrolene	O	O
+dantrolene	dantrolene	S_chemical	O
 and	and	O	O
 bromocriptine	bromocriptine	S_chemical	O
 .	.	O	O
@@ -125,9 +125,9 @@ that	that	O	O
 the	the	O	O
 protection	protection	O	O
 from	from	O	O
-extrapyramidal	extrapyramidal	O	O
-side	side	O	O
-effects	effects	O	O
+extrapyramidal	extrapyramidal	O	S_disease
+side	side	O	B_disease
+effects	effects	O	I_disease
 observed	observed	O	O
 with	with	O	O
 risperidone	risperidone	S_chemical	O

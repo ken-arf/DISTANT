@@ -1,4 +1,4 @@
-Antituberculosis	antituberculosis	O	O
+Antituberculosis	antituberculosis	S_chemical	O
 therapy-induced	therapy-induced	O	O
 acute	acute	O	B_disease
 liver	liver	O	B_disease
@@ -16,7 +16,7 @@ of	of	O	O
 outcome	outcome	O	O
 .	.	O	O
 
-Antituberculosis	antituberculosis	O	O
+Antituberculosis	antituberculosis	S_chemical	O
 therapy	therapy	O	O
 (ATT)-associated	(att)-associated	O	O
 acute	acute	O	B_disease
@@ -29,7 +29,7 @@ is	is	O	O
 the	the	O	O
 commonest	commonest	O	O
 drug-induced	drug-induced	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 in	in	O	O
 South	south	O	O
 Asia	asia	O	O
@@ -72,12 +72,12 @@ January	january	O	O
 ,	,	O	O
 1223	1223	O	O
 consecutive	consecutive	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 patients	patients	O	O
 were	were	O	O
 evaluated	evaluated	O	O
 :	:	O	O
-ATT	att	O	O
+ATT	att	S_chemical	O
 alone	alone	O	O
 was	was	O	O
 the	the	O	O
@@ -98,7 +98,7 @@ Another	another	O	O
 %	%	O	O
 )	)	O	O
 had	had	O	O
-ATT	att	O	O
+ATT	att	S_chemical	O
 and	and	O	O
 simultaneous	simultaneous	O	O
 hepatitis	hepatitis	O	S_disease
@@ -114,7 +114,7 @@ In	in	O	O
 )	)	O	O
 patients	patients	O	O
 ,	,	O	O
-ATT	att	O	O
+ATT	att	S_chemical	O
 was	was	O	O
 prescribed	prescribed	O	O
 empirically	empirically	O	O
@@ -152,7 +152,7 @@ women	women	O	O
 
 Most	most	O	O
 had	had	O	O
-hyperacute	hyperacute	O	O
+hyperacute	hyperacute	O	S_disease
 presentation	presentation	O	O
 ;	;	O	O
 the	the	O	O
@@ -174,9 +174,9 @@ The	the	O	O
 median	median	O	O
 duration	duration	O	O
 of	of	O	O
-ATT	att	O	O
+ATT	att	S_chemical	O
 before	before	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 was	was	O	O
 30	30	O	O
 (	(	O	O
@@ -268,7 +268,7 @@ HEV	hev	O	O
 and	and	O	O
 non-A	non-a	O	O
 non-E-induced	non-e-induced	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 ,	,	O	O
 ATT-ALF	att-alf	O	O
 patients	patients	O	O
@@ -365,7 +365,7 @@ constituted	constituted	O	O
 5.7	5.7	O	O
 %	%	O	O
 of	of	O	O
-ALF	alf	O	S_disease
+ALF	alf	S_chemical	S_disease
 at	at	O	O
 our	our	O	O
 center	center	O	O
@@ -402,7 +402,7 @@ of	of	O	O
 patients	patients	O	O
 had	had	O	O
 consumed	consumed	O	O
-ATT	att	O	O
+ATT	att	S_chemical	O
 empirically	empirically	O	O
 ,	,	O	O
 which	which	O	O

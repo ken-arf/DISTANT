@@ -103,7 +103,7 @@ changes	changes	O	O
 .	.	O	O
 
 The	the	O	O
-dyskinetic	dyskinetic	O	O
+dyskinetic	dyskinetic	O	S_disease
 parkinsonian	parkinsonian	O	S_disease
 patients	patients	O	O
 exhibited	exhibited	O	O
@@ -137,7 +137,7 @@ motor	motor	O	O
 area	area	O	O
 and	and	O	O
 the	the	O	O
-ipsi-	ipsi-	O	O
+ipsi-	ipsi-	S_chemical	O
 and	and	O	O
 contralateral	contralateral	O	O
 primary	primary	O	O
@@ -154,10 +154,10 @@ the	the	O	O
 hypothesis	hypothesis	O	O
 that	that	O	O
 an	an	O	O
-hyperkinetic	hyperkinetic	O	O
+hyperkinetic	hyperkinetic	O	S_disease
 abnormal	abnormal	O	O
-involuntary	involuntary	O	O
-movement	movement	O	O
+involuntary	involuntary	O	B_disease
+movement	movement	O	I_disease
 ,	,	O	O
 like	like	O	O
 L-dopa-induced	l-dopa-induced	O	O
@@ -169,7 +169,7 @@ is	is	O	O
 due	due	O	O
 to	to	O	O
 a	a	O	O
-disinhibition	disinhibition	O	O
+disinhibition	disinhibition	O	S_disease
 of	of	O	O
 the	the	O	O
 primary	primary	O	O

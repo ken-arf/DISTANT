@@ -7,8 +7,8 @@ and	and	O	O
 rubella	rubella	O	O
 prevention	prevention	O	O
 in	in	O	O
-New	new	O	O
-Hampshire	hampshire	O	O
+New	new	B_chemical	O
+Hampshire	hampshire	I_chemical	O
 delivery	delivery	O	O
 hospitals	hospitals	O	O
 .	.	O	O
@@ -29,8 +29,8 @@ rubella	rubella	O	O
 prevention	prevention	O	O
 practices	practices	O	O
 in	in	O	O
-New	new	O	O
-Hampshire	hampshire	O	O
+New	new	B_chemical	O
+Hampshire	hampshire	I_chemical	O
 .	.	O	O
 
 METHODS	methods	O	O
@@ -50,8 +50,8 @@ year	year	O	O
 birth	birth	O	O
 cohort	cohort	O	O
 in	in	O	O
-New	new	O	O
-Hampshire	hampshire	O	O
+New	new	B_chemical	O
+Hampshire	hampshire	I_chemical	O
 's	's	O	O
 25	25	O	O
 delivery	delivery	O	O
@@ -287,8 +287,8 @@ documents	documents	O	O
 good	good	O	O
 compliance	compliance	O	O
 in	in	O	O
-New	new	O	O
-Hampshire	hampshire	O	O
+New	new	B_chemical	O
+Hampshire	hampshire	I_chemical	O
 's	's	O	O
 birthing	birthing	O	O
 hospitals	hospitals	O	O

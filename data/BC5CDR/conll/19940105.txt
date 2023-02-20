@@ -4,8 +4,8 @@ glutamate	glutamate	S_chemical	O
 receptor	receptor	O	O
 subtype	subtype	O	O
 modulates	modulates	O	O
-motor	motor	O	O
-symptoms	symptoms	O	O
+motor	motor	O	B_disease
+symptoms	symptoms	O	I_disease
 in	in	O	O
 rodent	rodent	O	O
 models	models	O	O
@@ -26,9 +26,9 @@ synaptic	synaptic	O	O
 transmission	transmission	O	O
 in	in	O	O
 the	the	O	O
-central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 and	and	O	O
 represent	represent	O	O
 promising	promising	O	O
@@ -53,7 +53,7 @@ mGlu	mglu	O	O
 receptor	receptor	O	O
 subtypes	subtypes	O	O
 ,	,	O	O
-mGlu7	mglu7	O	O
+mGlu7	mglu7	S_chemical	O
 receptor	receptor	O	O
 is	is	O	O
 prominently	prominently	O	O
@@ -86,9 +86,9 @@ of	of	O	O
 N	n	O	O
 ,	,	O	O
 N'-dibenzhydrylethane-1,2-diamine	n'-dibenzhydrylethane-1,2-diamine	O	O
-dihydrochloride	dihydrochloride	O	O
+dihydrochloride	dihydrochloride	S_chemical	O
 (	(	O	O
-AMN082	amn082	O	O
+AMN082	amn082	S_chemical	O
 )	)	O	O
 ,	,	O	O
 the	the	O	O
@@ -97,7 +97,7 @@ selective	selective	O	O
 allosteric	allosteric	O	O
 activator	activator	O	O
 of	of	O	O
-mGlu7	mglu7	O	O
+mGlu7	mglu7	S_chemical	O
 receptors	receptors	O	O
 ,	,	O	O
 were	were	O	O
@@ -131,7 +131,7 @@ and	and	O	O
 nmol	nmol	O	O
 )	)	O	O
 of	of	O	O
-AMN082	amn082	O	O
+AMN082	amn082	S_chemical	O
 reverses	reverses	O	O
 haloperidol-induced	haloperidol-induced	O	O
 catalepsy	catalepsy	O	S_disease
@@ -139,7 +139,7 @@ in	in	O	O
 rats	rats	O	O
 .	.	O	O
 
-AMN082	amn082	O	O
+AMN082	amn082	S_chemical	O
 (	(	O	O
 2.5	2.5	O	O
 and	and	O	O
@@ -174,7 +174,7 @@ patients	patients	O	O
 ,	,	O	O
 5	5	O	O
 mg/kg	mg/kg	O	O
-AMN082	amn082	O	O
+AMN082	amn082	S_chemical	O
 reverses	reverses	O	O
 the	the	O	O
 increased	increased	O	O
@@ -194,7 +194,7 @@ rats	rats	O	O
 In	in	O	O
 addition	addition	O	O
 ,	,	O	O
-AMN082	amn082	O	O
+AMN082	amn082	S_chemical	O
 reduces	reduces	O	O
 the	the	O	O
 duration	duration	O	O
@@ -203,14 +203,14 @@ haloperidol-induced	haloperidol-induced	O	O
 catalepsy	catalepsy	O	S_disease
 in	in	O	O
 a	a	O	O
-mGlu7	mglu7	O	O
+mGlu7	mglu7	S_chemical	O
 receptor-dependent	receptor-dependent	O	O
 manner	manner	O	O
 in	in	O	O
 wild-type	wild-type	O	O
 but	but	O	O
 not	not	O	O
-mGlu7	mglu7	O	O
+mGlu7	mglu7	S_chemical	O
 receptor	receptor	O	O
 knockout	knockout	O	O
 mice	mice	O	O
@@ -219,7 +219,7 @@ mice	mice	O	O
 Higher	higher	O	O
 doses	doses	O	O
 of	of	O	O
-AMN082	amn082	O	O
+AMN082	amn082	S_chemical	O
 (	(	O	O
 10	10	O	O
 and	and	O	O
@@ -244,15 +244,15 @@ these	these	O	O
 findings	findings	O	O
 suggest	suggest	O	O
 that	that	O	O
-mGlu7	mglu7	O	O
+mGlu7	mglu7	S_chemical	O
 receptor	receptor	O	O
 activation	activation	O	O
 can	can	O	O
-reverse	reverse	O	O
-motor	motor	O	O
-dysfunction	dysfunction	O	O
-associated	associated	O	O
-with	with	O	O
+reverse	reverse	O	B_disease
+motor	motor	O	B_disease
+dysfunction	dysfunction	O	I_disease
+associated	associated	O	B_disease
+with	with	O	I_disease
 reduced	reduced	O	O
 dopamine	dopamine	S_chemical	O
 activity	activity	O	O
@@ -261,7 +261,7 @@ activity	activity	O	O
 Selective	selective	O	O
 ligands	ligands	O	O
 of	of	O	O
-mGlu7	mglu7	O	O
+mGlu7	mglu7	S_chemical	O
 receptor	receptor	O	O
 subtypes	subtypes	O	O
 may	may	O	O

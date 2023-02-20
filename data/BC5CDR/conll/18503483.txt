@@ -61,8 +61,8 @@ headaches	headaches	O	O
 seizures	seizures	O	S_disease
 ,	,	O	O
 or	or	O	O
-neurological	neurological	O	O
-deficits	deficits	O	O
+neurological	neurological	O	B_disease
+deficits	deficits	O	I_disease
 .	.	O	O
 
 Here	here	O	O
@@ -87,8 +87,8 @@ T2	t2	O	O
 signals	signals	O	O
 in	in	O	O
 the	the	O	O
-cervical	cervical	O	O
-cord	cord	O	O
+cervical	cervical	O	B_disease
+cord	cord	O	I_disease
 and	and	O	O
 right	right	O	O
 brachial	brachial	O	O
@@ -116,7 +116,7 @@ reduction	reduction	O	O
 ,	,	O	O
 administration	administration	O	O
 of	of	O	O
-IVIG	ivig	O	O
+IVIG	ivig	S_chemical	O
 and	and	O	O
 four	four	O	O
 doses	doses	O	O

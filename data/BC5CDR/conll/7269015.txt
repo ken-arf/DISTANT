@@ -1,5 +1,5 @@
 Busulfan-induced	busulfan-induced	O	O
-hemorrhagic	hemorrhagic	O	S_disease
+hemorrhagic	hemorrhagic	O	B_disease
 cystitis	cystitis	O	S_disease
 .	.	O	O
 
@@ -58,8 +58,8 @@ of	of	O	O
 busulfan	busulfan	S_chemical	O
 to	to	O	O
 induce	induce	O	O
-cellular	cellular	O	O
-atypia	atypia	O	O
+cellular	cellular	O	B_disease
+atypia	atypia	O	I_disease
 and	and	O	O
 carcinoma	carcinoma	O	S_disease
 in	in	O	O

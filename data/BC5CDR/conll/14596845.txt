@@ -110,8 +110,8 @@ starting	starting	O	O
 4	4	O	O
 h	h	S_chemical	O
 after	after	O	O
-onset	onset	O	O
-of	of	O	O
+onset	onset	O	B_disease
+of	of	O	I_disease
 the	the	O	O
 dark	dark	O	O
 period	period	O	O

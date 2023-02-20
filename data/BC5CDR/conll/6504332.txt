@@ -11,8 +11,8 @@ A	a	O	O
 child	child	O	O
 with	with	O	O
 known	known	O	O
-neurologic	neurologic	O	O
-impairment	impairment	O	O
+neurologic	neurologic	O	B_disease
+impairment	impairment	O	I_disease
 developed	developed	O	O
 a	a	O	O
 dyskinesia	dyskinesia	O	S_disease

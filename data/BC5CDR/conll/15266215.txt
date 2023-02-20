@@ -12,9 +12,9 @@ agents	agents	O	O
 and	and	O	O
 placebo	placebo	O	O
 on	on	O	O
-cardiovascular	cardiovascular	O	O
+cardiovascular	cardiovascular	O	B_disease
 thrombotic	thrombotic	O	S_disease
-events	events	O	O
+events	events	O	I_disease
 in	in	O	O
 patients	patients	O	O
 with	with	O	O
@@ -29,9 +29,9 @@ that	that	O	O
 the	the	O	O
 risk	risk	O	O
 of	of	O	O
-cardiovascular	cardiovascular	O	O
+cardiovascular	cardiovascular	O	B_disease
 thrombotic	thrombotic	O	S_disease
-events	events	O	O
+events	events	O	I_disease
 may	may	O	O
 be	be	O	O
 higher	higher	O	O
@@ -51,8 +51,8 @@ NSAIDs	nsaids	O	O
 
 We	we	O	O
 evaluated	evaluated	O	O
-cardiovascular	cardiovascular	O	O
-event	event	O	O
+cardiovascular	cardiovascular	O	B_disease
+event	event	O	I_disease
 data	data	O	O
 for	for	O	O
 valdecoxib	valdecoxib	O	O
@@ -83,16 +83,16 @@ trials	trials	O	O
 The	the	O	O
 incidence	incidence	O	O
 of	of	O	O
-cardiovascular	cardiovascular	O	O
+cardiovascular	cardiovascular	O	B_disease
 thrombotic	thrombotic	O	S_disease
-events	events	O	O
+events	events	O	I_disease
 (	(	O	O
 cardiac	cardiac	O	O
 ,	,	O	O
 cerebrovascular	cerebrovascular	O	O
 and	and	O	O
-peripheral	peripheral	O	O
-vascular	vascular	O	O
+peripheral	peripheral	O	B_disease
+vascular	vascular	O	I_disease
 ,	,	O	O
 or	or	O	O
 arterial	arterial	O	O
@@ -318,8 +318,8 @@ valdecoxib	valdecoxib	O	O
 doses	doses	O	O
 was	was	O	O
 not	not	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 an	an	O	O
 increased	increased	O	O
 incidence	incidence	O	O

@@ -144,8 +144,8 @@ and	and	O	O
 clinical	clinical	O	O
 evidence	evidence	O	O
 of	of	O	O
-adverse	adverse	O	O
-events	events	O	O
+adverse	adverse	O	B_disease
+events	events	O	I_disease
 monitored	monitored	O	O
 periodically	periodically	O	O
 throughout	throughout	O	O
@@ -299,8 +299,8 @@ Myopathy	myopathy	O	S_disease
 ,	,	O	O
 defined	defined	O	O
 as	as	O	O
-muscle	muscle	O	O
-symptoms	symptoms	O	O
+muscle	muscle	O	B_disease
+symptoms	symptoms	O	I_disease
 with	with	O	O
 creatine	creatine	B_chemical	O
 kinase	kinase	I_chemical	O
@@ -318,8 +318,8 @@ normal	normal	O	O
 was	was	O	O
 rare	rare	O	O
 and	and	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 highest	highest	O	O
 recommended	recommended	O	O

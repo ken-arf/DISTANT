@@ -1,8 +1,8 @@
 Immunopathology	immunopathology	O	O
 of	of	O	O
 penicillamine-induced	penicillamine-induced	O	O
-glomerular	glomerular	O	O
-disease	disease	O	O
+glomerular	glomerular	O	B_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 Four	four	O	O
@@ -21,7 +21,7 @@ months	months	O	O
 of	of	O	O
 treatment	treatment	O	O
 with	with	O	O
-D-penicillamine	d-penicillamine	O	O
+D-penicillamine	d-penicillamine	S_chemical	O
 .	.	O	O
 
 Light	light	O	O
@@ -68,8 +68,8 @@ processes	processes	O	O
 and	and	O	O
 evidence	evidence	O	O
 of	of	O	O
-mesangial	mesangial	O	O
-cell	cell	O	O
+mesangial	mesangial	O	B_disease
+cell	cell	O	I_disease
 hyperactivity	hyperactivity	O	S_disease
 .	.	O	O
 

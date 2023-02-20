@@ -28,7 +28,7 @@ ephedrine	ephedrine	S_chemical	O
 an	an	O	O
 alpha-	alpha-	O	O
 and	and	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 agonist	agonist	O	O
 previously	previously	O	O
 shown	shown	O	O
@@ -86,16 +86,16 @@ on	on	O	O
 self-report	self-report	O	O
 measures	measures	O	O
 of	of	O	O
-sexual	sexual	O	O
-desire	desire	O	O
+sexual	sexual	O	B_disease
+desire	desire	O	I_disease
 ,	,	O	O
 arousal	arousal	O	O
 ,	,	O	O
 orgasm	orgasm	O	O
 ,	,	O	O
 and	and	O	O
-sexual	sexual	O	O
-satisfaction	satisfaction	O	O
+sexual	sexual	O	B_disease
+satisfaction	satisfaction	O	I_disease
 .	.	O	O
 
 Although	although	O	O
@@ -107,8 +107,8 @@ relative	relative	O	O
 to	to	O	O
 baseline	baseline	O	O
 in	in	O	O
-sexual	sexual	O	O
-desire	desire	O	O
+sexual	sexual	O	B_disease
+desire	desire	O	I_disease
 and	and	O	O
 orgasm	orgasm	O	O
 intensity/pleasure	intensity/pleasure	O	O
@@ -135,7 +135,7 @@ in	in	O	O
 sexual	sexual	O	O
 arousal	arousal	O	O
 and	and	O	O
-orgasmic	orgasmic	O	O
+orgasmic	orgasmic	O	S_disease
 ability	ability	O	O
 also	also	O	O
 were	were	O	O

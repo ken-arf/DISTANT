@@ -23,8 +23,8 @@ and	and	O	O
 preventability	preventability	O	O
 of	of	O	O
 warfarin-induced	warfarin-induced	O	O
-cerebral	cerebral	O	O
-haemorrhages	haemorrhages	O	O
+cerebral	cerebral	O	B_disease
+haemorrhages	haemorrhages	O	I_disease
 due	due	O	O
 to	to	O	O
 warfarin	warfarin	S_chemical	O
@@ -145,8 +145,8 @@ cases	cases	O	O
 )	)	O	O
 had	had	O	O
 a	a	O	O
-fatal	fatal	O	O
-outcome	outcome	O	O
+fatal	fatal	O	B_disease
+outcome	outcome	O	I_disease
 ,	,	O	O
 compared	compared	O	O
 to	to	O	O
@@ -208,8 +208,8 @@ avoid	avoid	O	O
 CONCLUSIONS	conclusions	O	O
 :	:	O	O
 Warfarin-induced	warfarin-induced	O	O
-cerebral	cerebral	O	O
-haemorrhages	haemorrhages	O	O
+cerebral	cerebral	O	B_disease
+haemorrhages	haemorrhages	O	I_disease
 are	are	O	O
 a	a	O	O
 major	major	O	O
@@ -240,8 +240,8 @@ significant	significant	O	O
 proportion	proportion	O	O
 of	of	O	O
 warfarin-related	warfarin-related	O	O
-cerebral	cerebral	O	O
-haemorrhages	haemorrhages	O	O
+cerebral	cerebral	O	B_disease
+haemorrhages	haemorrhages	O	I_disease
 might	might	O	O
 have	have	O	O
 been	been	O	O

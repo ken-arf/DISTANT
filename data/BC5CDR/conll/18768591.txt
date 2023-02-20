@@ -25,8 +25,8 @@ fibrosis	fibrosis	O	S_disease
 .	.	O	O
 
 The	the	O	O
-aldosterone-sensitive	aldosterone-sensitive	O	O
-serum-	serum-	O	O
+aldosterone-sensitive	aldosterone-sensitive	B_chemical	O
+serum-	serum-	I_chemical	O
 and	and	O	O
 glucocorticoid-inducible	glucocorticoid-inducible	O	O
 kinase	kinase	O	O
@@ -40,7 +40,7 @@ in	in	O	O
 the	the	O	O
 stimulation	stimulation	O	O
 of	of	O	O
-ENaC	enac	O	O
+ENaC	enac	S_chemical	S_disease
 and	and	O	O
 to	to	O	O
 mediate	mediate	O	O
@@ -143,13 +143,13 @@ ascites	ascites	O	S_disease
 lipidemia	lipidemia	O	O
 ,	,	O	O
 and	and	O	O
-hypoalbuminemia	hypoalbuminemia	O	O
+hypoalbuminemia	hypoalbuminemia	O	S_disease
 in	in	O	O
 both	both	O	O
 genotypes	genotypes	O	O
 .	.	O	O
 
-Plasma	plasma	O	O
+Plasma	plasma	B_chemical	O
 aldosterone	aldosterone	S_chemical	O
 levels	levels	O	O
 increased	increased	O	O
@@ -207,8 +207,8 @@ crea	crea	O	O
 )	)	O	O
 and	and	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 significantly	significantly	O	O
 higher	higher	O	O

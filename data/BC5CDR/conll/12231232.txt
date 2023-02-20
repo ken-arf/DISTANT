@@ -10,7 +10,7 @@ of	of	O	O
 an	an	O	O
 antagonist	antagonist	O	O
 of	of	O	O
-mGluR1	mglur1	O	O
+mGluR1	mglur1	S_chemical	O
 ,	,	O	O
 but	but	O	O
 not	not	O	O
@@ -40,7 +40,7 @@ metabotropic	metabotropic	O	O
 receptor	receptor	O	O
 1	1	O	O
 (	(	O	O
-mGluR1	mglur1	O	O
+mGluR1	mglur1	S_chemical	O
 )	)	O	O
 and	and	O	O
 group	group	O	O
@@ -110,11 +110,11 @@ a	a	O	O
 potent	potent	O	O
 and	and	O	O
 selective	selective	O	O
-mGluR1	mglur1	O	O
+mGluR1	mglur1	S_chemical	O
 antagonist	antagonist	O	O
 ,	,	O	O
 or	or	O	O
-(2R,4R)-4-aminopyrrolidine-2,4-dicarboxylate	(2r,4r)-4-aminopyrrolidine-2,4-dicarboxylate	O	O
+(2R,4R)-4-aminopyrrolidine-2,4-dicarboxylate	(2r,4r)-4-aminopyrrolidine-2,4-dicarboxylate	S_chemical	O
 (	(	O	O
 2R,4R-APDC	2r,4r-apdc	O	O
 ;	;	O	O
@@ -176,8 +176,8 @@ that	that	O	O
 the	the	O	O
 blockade	blockade	O	O
 of	of	O	O
-striatal	striatal	O	O
-mGluR1	mglur1	O	O
+striatal	striatal	O	S_disease
+mGluR1	mglur1	S_chemical	O
 ,	,	O	O
 but	but	O	O
 not	not	O	O

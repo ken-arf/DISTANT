@@ -7,7 +7,7 @@ the	the	O	O
 first-line	first-line	O	O
 treatment	treatment	O	O
 of	of	O	O
-advanced	advanced	O	O
+advanced	advanced	O	B_disease
 ovarian	ovarian	O	B_disease
 cancer	cancer	O	S_disease
 .	.	O	O
@@ -52,7 +52,7 @@ days	days	O	O
 to	to	O	O
 women	women	O	O
 with	with	O	O
-advanced	advanced	O	O
+advanced	advanced	O	B_disease
 ovarian	ovarian	O	B_disease
 cancer	cancer	O	S_disease
 ,	,	O	O

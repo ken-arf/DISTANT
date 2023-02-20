@@ -1,0 +1,14 @@
+T1	Disease 92 105	heart failure
+T2	Disease 232 248	cell dysfunction
+T3	Disease 253 266	tissue injury
+T4	Disease 325 341	oxidative stress
+T5	Disease 378 392	cardiotoxicity
+T7	Chemical 409 412	DOX
+T8	Chemical 439 452	anthracycline
+T9	Disease 549 563	cardiotoxicity
+T10	Disease 765 784	cardiac dysfunction
+T11	Chemical 861 864	DOX
+T12	Chemical 897 900	DOX
+T13	Disease 1166 1185	cardiac dysfunction
+T14	Chemical 1332 1347	creatine kinase
+T15	Disease 1451 1465	cardiotoxicity

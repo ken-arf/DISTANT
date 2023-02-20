@@ -1,7 +1,7 @@
 Structural	structural	O	O
 and	and	O	O
-functional	functional	O	O
-impairment	impairment	O	O
+functional	functional	O	B_disease
+impairment	impairment	O	I_disease
 of	of	O	O
 mitochondria	mitochondria	O	O
 in	in	O	O
@@ -37,7 +37,7 @@ due	due	O	O
 to	to	O	O
 its	its	O	O
 cumulative	cumulative	O	O
-cardiovascular	cardiovascular	O	O
+cardiovascular	cardiovascular	O	B_disease
 toxicity	toxicity	O	S_disease
 .	.	O	O
 
@@ -47,7 +47,7 @@ that	that	O	O
 ADR	adr	S_chemical	O
 interacts	interacts	O	O
 with	with	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 cytochrome	cytochrome	O	O
 c	c	O	O
 oxidase	oxidase	O	O
@@ -72,7 +72,7 @@ cardiovascular	cardiovascular	O	O
 functions	functions	O	O
 and	and	O	O
 heart	heart	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 morphology	morphology	O	O
 in	in	O	O
 Balb-c	balb-c	O	O
@@ -104,8 +104,8 @@ by	by	O	O
 electrocardiography	electrocardiography	O	O
 and	and	O	O
 for	for	O	O
-heart	heart	O	O
-tissue	tissue	O	O
+heart	heart	O	B_disease
+tissue	tissue	O	I_disease
 damage	damage	O	O
 by	by	O	O
 electron	electron	O	O
@@ -142,9 +142,9 @@ transcripts	transcripts	O	O
 encoded	encoded	O	O
 by	by	O	O
 the	the	O	O
-COXII	coxii	O	O
+COXII	coxii	S_chemical	O
 ,	,	O	O
-COXIII	coxiii	O	O
+COXIII	coxiii	S_chemical	O
 ,	,	O	O
 and	and	O	O
 COXIV	coxiv	O	O
@@ -181,7 +181,7 @@ mice	mice	O	O
 with	with	O	O
 ADR	adr	S_chemical	O
 caused	caused	O	O
-cardiovascular	cardiovascular	O	O
+cardiovascular	cardiovascular	O	B_disease
 arrhythmias	arrhythmias	O	S_disease
 characterized	characterized	O	O
 by	by	O	O
@@ -217,8 +217,8 @@ dose	dose	O	O
 2	2	O	O
 )	)	O	O
 the	the	O	O
-heart	heart	O	O
-mitochondria	mitochondria	O	O
+heart	heart	O	B_disease
+mitochondria	mitochondria	O	I_disease
 underwent	underwent	O	O
 swelling	swelling	O	O
 ,	,	O	O
@@ -229,7 +229,7 @@ dissolution	dissolution	O	O
 and/or	and/or	O	O
 disruption	disruption	O	O
 of	of	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 cristae	cristae	O	O
 after	after	O	O
 several	several	O	O
@@ -263,7 +263,7 @@ enzyme	enzyme	O	O
 examined	examined	O	O
 ,	,	O	O
 only	only	O	O
-COXII	coxii	O	O
+COXII	coxii	S_chemical	O
 gene	gene	O	O
 expression	expression	O	O
 was	was	O	O
@@ -285,8 +285,8 @@ liver	liver	O	O
 
 Knowing	knowing	O	O
 that	that	O	O
-heart	heart	O	O
-mitochondria	mitochondria	O	O
+heart	heart	O	B_disease
+mitochondria	mitochondria	O	I_disease
 represent	represent	O	O
 almost	almost	O	O
 40	40	O	O
@@ -309,10 +309,10 @@ on	on	O	O
 cardiovascular	cardiovascular	O	O
 function	function	O	O
 involve	involve	O	O
-mitochondrial	mitochondrial	O	O
-structural	structural	O	O
+mitochondrial	mitochondrial	O	B_disease
+structural	structural	O	I_disease
 and	and	O	O
-functional	functional	O	O
-impairment	impairment	O	O
+functional	functional	O	B_disease
+impairment	impairment	O	I_disease
 .	.	O	O
 

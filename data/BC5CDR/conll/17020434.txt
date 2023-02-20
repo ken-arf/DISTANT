@@ -10,8 +10,8 @@ fibrillation	fibrillation	O	I_disease
 Atrial	atrial	O	B_disease
 fibrillation	fibrillation	O	I_disease
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 substantial	substantial	O	O
 morbidity	morbidity	O	O
 and	and	O	O
@@ -77,7 +77,7 @@ of	of	O	O
 %	%	O	O
 .	.	O	O
 
-Ximelagatran	ximelagatran	O	O
+Ximelagatran	ximelagatran	S_chemical	O
 ,	,	O	O
 an	an	O	O
 oral	oral	O	O
@@ -100,8 +100,8 @@ in	in	O	O
 the	the	O	O
 prevention	prevention	O	O
 of	of	O	O
-embolic	embolic	O	O
-events	events	O	O
+embolic	embolic	O	B_disease
+events	events	O	I_disease
 ,	,	O	O
 but	but	O	O
 has	has	O	O
@@ -124,12 +124,12 @@ Fibrillation	fibrillation	O	I_disease
 Clopidogrel	clopidogrel	S_chemical	O
 Trial	trial	O	O
 with	with	O	O
-Irbesartan	irbesartan	O	O
+Irbesartan	irbesartan	S_chemical	O
 for	for	O	O
 Prevention	prevention	O	O
 of	of	O	O
-Vascular	vascular	O	O
-Events	events	O	O
+Vascular	vascular	O	B_disease
+Events	events	O	I_disease
 )	)	O	O
 study	study	O	O
 has	has	O	O
@@ -150,11 +150,11 @@ in	in	O	O
 the	the	O	O
 prevention	prevention	O	O
 af	af	O	O
-embolic	embolic	O	O
-events	events	O	O
+embolic	embolic	O	B_disease
+events	events	O	I_disease
 .	.	O	O
 
-Idraparinux	idraparinux	O	O
+Idraparinux	idraparinux	S_chemical	O
 ,	,	O	O
 a	a	O	O
 Factor	factor	B_chemical	O

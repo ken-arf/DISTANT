@@ -150,7 +150,7 @@ of	of	O	O
 age	age	O	O
 .	.	O	O
 
-Six-	six-	O	O
+Six-	six-	S_chemical	O
 to	to	O	O
 9-month	9-month	O	O
 old	old	O	O

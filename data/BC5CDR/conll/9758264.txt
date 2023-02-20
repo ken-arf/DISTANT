@@ -18,9 +18,9 @@ study	study	O	O
 the	the	O	O
 effect	effect	O	O
 of	of	O	O
-folic	folic	O	O
-acid-containing	acid-containing	O	O
-multivitamin	multivitamin	O	O
+folic	folic	S_chemical	O
+acid-containing	acid-containing	B_chemical	O
+multivitamin	multivitamin	I_chemical	O
 supplementation	supplementation	O	O
 in	in	O	O
 epileptic	epileptic	O	S_disease
@@ -41,8 +41,8 @@ birth	birth	O	B_disease
 defects	defects	O	I_disease
 and	and	O	O
 epilepsy-related	epilepsy-related	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 
 STUDY	study	O	O
@@ -75,16 +75,16 @@ folic	folic	B_chemical	O
 acid	acid	I_chemical	O
 (	(	O	O
 0.8	0.8	O	O
-mg)-containing	mg)-containing	O	O
-multivitamin	multivitamin	O	O
+mg)-containing	mg)-containing	B_chemical	O
+multivitamin	multivitamin	I_chemical	O
 supplementation	supplementation	O	O
 ,	,	O	O
 no	no	O	O
 one	one	O	O
 developed	developed	O	O
 epilepsy-related	epilepsy-related	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 during	during	O	O
 the	the	O	O
 periconception	periconception	O	O
@@ -136,8 +136,8 @@ folic	folic	B_chemical	O
 acid	acid	I_chemical	O
 (	(	O	O
 1	1	O	O
-mg)-containing	mg)-containing	O	O
-multivitamin	multivitamin	O	O
+mg)-containing	mg)-containing	B_chemical	O
+multivitamin	multivitamin	I_chemical	O
 from	from	O	O
 the	the	O	O
 20th	20th	O	O
@@ -155,8 +155,8 @@ later	later	O	O
 symptoms	symptoms	O	O
 of	of	O	O
 systemic	systemic	O	O
-lupus	lupus	O	O
-erythematodes	erythematodes	O	O
+lupus	lupus	O	B_disease
+erythematodes	erythematodes	O	I_disease
 .	.	O	O
 
 Her	her	O	O
@@ -237,7 +237,7 @@ increase	increase	O	O
 the	the	O	O
 risk	risk	O	O
 for	for	O	O
-epileptic	epileptic	O	S_disease
+epileptic	epileptic	O	B_disease
 seizures	seizures	O	S_disease
 .	.	O	O
 

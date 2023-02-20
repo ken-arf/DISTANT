@@ -53,8 +53,8 @@ and	and	O	O
 macrophages	macrophages	O	O
 in	in	O	O
 the	the	O	O
-artery	artery	O	O
-wall	wall	O	O
+artery	artery	O	B_disease
+wall	wall	O	I_disease
 .	.	O	O
 
 The	the	O	O
@@ -90,8 +90,8 @@ focal	focal	O	O
 calcification	calcification	O	S_disease
 of	of	O	O
 the	the	O	O
-artery	artery	O	O
-media	media	O	O
+artery	artery	O	B_disease
+media	media	O	I_disease
 in	in	O	O
 20-day-old	20-day-old	O	O
 rats	rats	O	O
@@ -184,8 +184,8 @@ focal	focal	O	O
 calcification	calcification	O	S_disease
 of	of	O	O
 the	the	O	O
-artery	artery	O	O
-media	media	O	O
+artery	artery	O	B_disease
+media	media	O	I_disease
 in	in	O	O
 the	the	O	O
 ad	ad	O	O
@@ -332,8 +332,8 @@ cause	cause	O	O
 calcification	calcification	O	S_disease
 of	of	O	O
 the	the	O	O
-artery	artery	O	O
-media	media	O	O
+artery	artery	O	B_disease
+media	media	O	I_disease
 in	in	O	O
 as	as	O	O
 little	little	O	O
@@ -360,8 +360,8 @@ cause	cause	O	O
 calcification	calcification	O	S_disease
 of	of	O	O
 the	the	O	O
-artery	artery	O	O
-media	media	O	O
+artery	artery	O	B_disease
+media	media	O	I_disease
 ,	,	O	O
 but	but	O	O
 at	at	O	O

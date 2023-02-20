@@ -1,4 +1,4 @@
-Cardioprotective	cardioprotective	O	O
+Cardioprotective	cardioprotective	O	S_disease
 effect	effect	O	O
 of	of	O	O
 salvianolic	salvianolic	B_chemical	O
@@ -20,7 +20,7 @@ designed	designed	O	O
 to	to	O	O
 evaluate	evaluate	O	O
 the	the	O	O
-cardioprotective	cardioprotective	O	O
+cardioprotective	cardioprotective	O	S_disease
 potential	potential	O	O
 of	of	O	O
 salvianolic	salvianolic	B_chemical	O
@@ -64,7 +64,7 @@ measured	measured	O	O
 
 Assay	assay	O	O
 for	for	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 respiratory	respiratory	O	O
 function	function	O	O
 and	and	O	O
@@ -122,9 +122,9 @@ also	also	O	O
 showed	showed	O	O
 declines	declines	O	O
 in	in	O	O
-left	left	O	O
-ventricular	ventricular	O	O
-systolic	systolic	O	O
+left	left	O	B_disease
+ventricular	ventricular	O	I_disease
+systolic	systolic	O	I_disease
 pressure	pressure	O	O
 ,	,	O	O
 maximum	maximum	O	O
@@ -151,9 +151,9 @@ ST-segment	st-segment	O	O
 In	in	O	O
 addition	addition	O	O
 ,	,	O	O
-mitochondrial	mitochondrial	O	O
-respiratory	respiratory	O	O
-dysfunction	dysfunction	O	O
+mitochondrial	mitochondrial	O	B_disease
+respiratory	respiratory	O	I_disease
+dysfunction	dysfunction	O	I_disease
 characterized	characterized	O	O
 by	by	O	O
 decreased	decreased	O	O
@@ -190,7 +190,7 @@ myocardial	myocardial	O	B_disease
 injury	injury	O	I_disease
 and	and	O	O
 improved	improved	O	O
-mitochondrial	mitochondrial	O	O
+mitochondrial	mitochondrial	O	S_disease
 respiratory	respiratory	O	O
 function	function	O	O
 .	.	O	O

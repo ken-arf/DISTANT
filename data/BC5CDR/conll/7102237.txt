@@ -53,8 +53,8 @@ Somewhat	somewhat	O	O
 fewer	fewer	O	O
 cardiovascular	cardiovascular	O	O
 and	and	O	O
-local	local	O	O
-sequelae	sequelae	O	O
+local	local	O	B_disease
+sequelae	sequelae	O	I_disease
 were	were	O	O
 found	found	O	O
 in	in	O	O

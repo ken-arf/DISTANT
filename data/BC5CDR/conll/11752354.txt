@@ -47,7 +47,7 @@ to	to	O	O
 the	the	O	O
 type	type	O	O
 of	of	O	O
-progestagen	progestagen	O	O
+progestagen	progestagen	S_chemical	O
 included	included	O	O
 in	in	O	O
 third-generation	third-generation	O	O
@@ -56,14 +56,14 @@ i.e.	i.e.	O	O
 ,	,	O	O
 desogestrel	desogestrel	S_chemical	O
 or	or	O	O
-gestodene	gestodene	O	O
+gestodene	gestodene	S_chemical	O
 )	)	O	O
 and	and	O	O
 second-generation	second-generation	O	O
 (	(	O	O
 i.e.	i.e.	O	O
 ,	,	O	O
-levonorgestrel	levonorgestrel	O	O
+levonorgestrel	levonorgestrel	S_chemical	O
 )	)	O	O
 oral	oral	B_chemical	O
 contraceptives	contraceptives	I_chemical	O
@@ -79,7 +79,7 @@ presence	presence	O	O
 or	or	O	O
 absence	absence	O	O
 of	of	O	O
-prothrombotic	prothrombotic	O	O
+prothrombotic	prothrombotic	O	S_disease
 mutations	mutations	O	O
 METHODS	methods	O	O
 :	:	O	O
@@ -239,7 +239,7 @@ among	among	O	O
 women	women	O	O
 who	who	O	O
 used	used	O	O
-second-generation	second-generation	O	O
+second-generation	second-generation	B_chemical	O
 oral	oral	B_chemical	O
 contraceptives	contraceptives	I_chemical	O
 and	and	O	O
@@ -258,7 +258,7 @@ among	among	O	O
 those	those	O	O
 who	who	O	O
 used	used	O	O
-third-generation	third-generation	O	O
+third-generation	third-generation	B_chemical	O
 oral	oral	B_chemical	O
 contraceptives	contraceptives	I_chemical	O
 .	.	O	O
@@ -289,7 +289,7 @@ for	for	O	O
 those	those	O	O
 without	without	O	O
 a	a	O	O
-prothrombotic	prothrombotic	O	O
+prothrombotic	prothrombotic	O	S_disease
 mutation	mutation	O	O
 and	and	O	O
 1.9	1.9	O	O
@@ -321,7 +321,7 @@ among	among	O	O
 women	women	O	O
 who	who	O	O
 used	used	O	O
-second-generation	second-generation	O	O
+second-generation	second-generation	B_chemical	O
 oral	oral	B_chemical	O
 contraceptives	contraceptives	I_chemical	O
 .	.	O	O
@@ -334,7 +334,7 @@ to	to	O	O
 the	the	O	O
 use	use	O	O
 of	of	O	O
-third-generation	third-generation	O	O
+third-generation	third-generation	B_chemical	O
 oral	oral	B_chemical	O
 contraceptives	contraceptives	I_chemical	O
 were	were	O	O
@@ -349,9 +349,9 @@ lower	lower	O	O
 than	than	O	O
 the	the	O	O
 risk	risk	O	O
-associated	associated	O	O
-with	with	O	O
-second-generation	second-generation	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+second-generation	second-generation	B_chemical	O
 oral	oral	B_chemical	O
 contraceptives	contraceptives	I_chemical	O
 .	.	O	O
@@ -375,7 +375,7 @@ not	not	O	O
 they	they	O	O
 had	had	O	O
 a	a	O	O
-prothrombotic	prothrombotic	O	O
+prothrombotic	prothrombotic	O	S_disease
 mutation	mutation	O	O
 .	.	O	O
 

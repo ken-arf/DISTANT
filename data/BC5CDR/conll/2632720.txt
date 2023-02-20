@@ -76,7 +76,7 @@ patient	patient	O	O
 plasma	plasma	O	O
 levels	levels	O	O
 of	of	O	O
-deoxycorticosterone	deoxycorticosterone	O	O
+deoxycorticosterone	deoxycorticosterone	S_chemical	O
 and	and	O	O
 11-deoxycortisol	11-deoxycortisol	S_chemical	O
 were	were	O	O
@@ -94,12 +94,12 @@ an	an	O	O
 increase	increase	O	O
 in	in	O	O
 both	both	O	O
-deoxycorticosterone	deoxycorticosterone	O	O
+deoxycorticosterone	deoxycorticosterone	S_chemical	O
 and	and	O	O
 11-deoxycortisol	11-deoxycortisol	S_chemical	O
 levels	levels	O	O
 ,	,	O	O
-plasma	plasma	O	O
+plasma	plasma	B_chemical	O
 aldosterone	aldosterone	S_chemical	O
 values	values	O	O
 were	were	O	O

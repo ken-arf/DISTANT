@@ -21,7 +21,7 @@ poly(ADP-ribose	poly(adp-ribose	O	O
 )	)	O	O
 polymerase	polymerase	O	O
 (	(	O	O
-PARP	parp	O	O
+PARP	parp	S_chemical	O
 )	)	O	O
 by	by	O	O
 oxidant-mediated	oxidant-mediated	O	O
@@ -32,22 +32,22 @@ an	an	O	O
 important	important	O	O
 pathway	pathway	O	O
 of	of	O	O
-cell	cell	O	O
-dysfunction	dysfunction	O	O
+cell	cell	O	B_disease
+dysfunction	dysfunction	O	I_disease
 and	and	O	O
-tissue	tissue	O	O
-injury	injury	O	O
+tissue	tissue	O	B_disease
+injury	injury	O	I_disease
 in	in	O	O
 conditions	conditions	O	O
-associated	associated	O	O
-with	with	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 .	.	O	O
 
 Increased	increased	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 is	is	O	O
 a	a	O	O
 major	major	O	O
@@ -78,7 +78,7 @@ that	that	O	O
 the	the	O	O
 activation	activation	O	O
 of	of	O	O
-PARP	parp	O	O
+PARP	parp	S_chemical	O
 may	may	O	O
 contribute	contribute	O	O
 to	to	O	O
@@ -103,8 +103,8 @@ pharmacological	pharmacological	O	O
 inhibition	inhibition	O	O
 with	with	O	O
 the	the	O	O
-phenanthridinone	phenanthridinone	O	O
-PARP	parp	O	O
+phenanthridinone	phenanthridinone	S_chemical	O
+PARP	parp	S_chemical	O
 inhibitor	inhibitor	O	O
 PJ34	pj34	O	O
 ,	,	O	O
@@ -114,7 +114,7 @@ demonstrate	demonstrate	O	O
 the	the	O	O
 role	role	O	O
 of	of	O	O
-PARP	parp	O	O
+PARP	parp	S_chemical	O
 in	in	O	O
 the	the	O	O
 development	development	O	O
@@ -229,7 +229,7 @@ heart	heart	O	O
 
 Thus	thus	O	O
 ,	,	O	O
-PARP	parp	O	O
+PARP	parp	S_chemical	O
 activation	activation	O	O
 contributes	contributes	O	O
 to	to	O	O
@@ -239,7 +239,7 @@ of	of	O	O
 DOX	dox	S_chemical	O
 .	.	O	O
 
-PARP	parp	O	O
+PARP	parp	S_chemical	O
 inhibitors	inhibitors	O	O
 may	may	O	O
 exert	exert	O	O
@@ -250,10 +250,10 @@ the	the	O	O
 development	development	O	O
 of	of	O	O
 severe	severe	O	O
-cardiac	cardiac	O	O
-complications	complications	O	O
-associated	associated	O	O
-with	with	O	O
+cardiac	cardiac	O	B_disease
+complications	complications	O	I_disease
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 DOX	dox	S_chemical	O
 treatment	treatment	O	O

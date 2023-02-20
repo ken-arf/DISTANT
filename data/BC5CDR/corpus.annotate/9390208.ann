@@ -1,0 +1,9 @@
+T1	Disease 43 56	breast cancer
+T2	Chemical 60 72	mitoxantrone
+T3	Chemical 60 72	mitoxantrone
+T4	Disease 236 249	breast cancer
+T5	Chemical 347 361	5-fluorouracil
+T6	Disease 567 580	breast cancer
+T7	Chemical 1103 1115	mitoxantrone
+T9	Disease 1507 1521	cardiotoxicity
+T12	Disease 1770 1783	breast cancer

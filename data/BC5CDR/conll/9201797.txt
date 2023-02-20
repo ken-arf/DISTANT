@@ -2,8 +2,8 @@ The	the	O	O
 attenuating	attenuating	O	O
 effect	effect	O	O
 of	of	O	O
-carteolol	carteolol	O	O
-hydrochloride	hydrochloride	O	O
+carteolol	carteolol	B_chemical	O
+hydrochloride	hydrochloride	I_chemical	O
 ,	,	O	O
 a	a	O	O
 beta-adrenoceptor	beta-adrenoceptor	O	O
@@ -33,9 +33,9 @@ akathisia	akathisia	O	S_disease
 one	one	O	O
 of	of	O	O
 the	the	O	O
-extrapyramidal	extrapyramidal	O	O
-side	side	O	O
-effects	effects	O	O
+extrapyramidal	extrapyramidal	O	S_disease
+side	side	O	B_disease
+effects	effects	O	I_disease
 that	that	O	O
 occur	occur	O	O
 during	during	O	O
@@ -50,9 +50,9 @@ a	a	O	O
 model	model	O	O
 of	of	O	O
 neuroleptic-induced	neuroleptic-induced	O	O
-extrapyramidal	extrapyramidal	O	O
-side	side	O	O
-effects	effects	O	O
+extrapyramidal	extrapyramidal	O	S_disease
+side	side	O	B_disease
+effects	effects	O	I_disease
 ,	,	O	O
 was	was	O	O
 considered	considered	O	O
@@ -86,7 +86,7 @@ Therefore	therefore	O	O
 the	the	O	O
 effects	effects	O	O
 of	of	O	O
-carteolol	carteolol	O	O
+carteolol	carteolol	S_chemical	O
 ,	,	O	O
 a	a	O	O
 beta-adrenoceptor	beta-adrenoceptor	O	O
@@ -107,22 +107,22 @@ those	those	O	O
 of	of	O	O
 propranolol	propranolol	S_chemical	O
 and	and	O	O
-biperiden	biperiden	O	O
+biperiden	biperiden	S_chemical	O
 ,	,	O	O
 a	a	O	O
-muscarinic	muscarinic	O	O
+muscarinic	muscarinic	S_chemical	O
 receptor	receptor	O	O
 antagonist	antagonist	O	O
 .	.	O	O
 
-Carteolol	carteolol	O	O
+Carteolol	carteolol	S_chemical	O
 ,	,	O	O
 as	as	O	O
 well	well	O	O
 as	as	O	O
 propranolol	propranolol	S_chemical	O
 and	and	O	O
-biperiden	biperiden	O	O
+biperiden	biperiden	S_chemical	O
 ,	,	O	O
 inhibited	inhibited	O	O
 the	the	O	O
@@ -134,7 +134,7 @@ The	the	O	O
 inhibitory	inhibitory	O	O
 effect	effect	O	O
 of	of	O	O
-carteolol	carteolol	O	O
+carteolol	carteolol	S_chemical	O
 was	was	O	O
 almost	almost	O	O
 comparable	comparable	O	O
@@ -149,10 +149,10 @@ weaker	weaker	O	O
 than	than	O	O
 that	that	O	O
 of	of	O	O
-biperiden	biperiden	O	O
+biperiden	biperiden	S_chemical	O
 .	.	O	O
 
-Carteolol	carteolol	O	O
+Carteolol	carteolol	S_chemical	O
 did	did	O	O
 not	not	O	O
 evoke	evoke	O	O
@@ -163,14 +163,14 @@ behavioral	behavioral	O	O
 signs	signs	O	O
 such	such	O	O
 as	as	O	O
-stereotypy	stereotypy	O	O
+stereotypy	stereotypy	O	S_disease
 and	and	O	O
-hyperlocomotion	hyperlocomotion	O	O
+hyperlocomotion	hyperlocomotion	O	S_disease
 in	in	O	O
 rats	rats	O	O
 .	.	O	O
 
-Carteolol	carteolol	O	O
+Carteolol	carteolol	S_chemical	O
 did	did	O	O
 not	not	O	O
 antagonize	antagonize	O	O
@@ -181,7 +181,7 @@ of	of	O	O
 haloperidol	haloperidol	S_chemical	O
 on	on	O	O
 apomorphine-induced	apomorphine-induced	O	O
-stereotypy	stereotypy	O	O
+stereotypy	stereotypy	O	S_disease
 and	and	O	O
 locomotor	locomotor	O	O
 activity	activity	O	O
@@ -192,7 +192,7 @@ rats	rats	O	O
 In	in	O	O
 addition	addition	O	O
 ,	,	O	O
-carteolol	carteolol	O	O
+carteolol	carteolol	S_chemical	O
 did	did	O	O
 not	not	O	O
 evoke	evoke	O	O
@@ -221,7 +221,7 @@ rats	rats	O	O
 
 Finally	finally	O	O
 ,	,	O	O
-carteolol	carteolol	O	O
+carteolol	carteolol	S_chemical	O
 did	did	O	O
 not	not	O	O
 inhibit	inhibit	O	O
@@ -236,7 +236,7 @@ results	results	O	O
 strongly	strongly	O	O
 suggest	suggest	O	O
 that	that	O	O
-carteolol	carteolol	O	O
+carteolol	carteolol	S_chemical	O
 improves	improves	O	O
 haloperidol-induced	haloperidol-induced	O	O
 catalepsy	catalepsy	O	S_disease

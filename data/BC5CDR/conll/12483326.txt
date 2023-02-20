@@ -9,8 +9,8 @@ injection	injection	O	O
 of	of	O	O
 carboplatin	carboplatin	S_chemical	O
 for	for	O	O
-recurrent	recurrent	O	O
-glioblastomas	glioblastomas	O	O
+recurrent	recurrent	O	B_disease
+glioblastomas	glioblastomas	O	I_disease
 .	.	O	O
 
 BACKGROUND	background	O	O
@@ -66,7 +66,7 @@ have	have	O	O
 intracarotid	intracarotid	O	O
 injection	injection	O	O
 of	of	O	O
-carcinostatics	carcinostatics	O	O
+carcinostatics	carcinostatics	O	S_disease
 added	added	O	O
 to	to	O	O
 the	the	O	O
@@ -82,8 +82,8 @@ said	said	O	O
 to	to	O	O
 have	have	O	O
 milder	milder	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 than	than	O	O
 cisplatin	cisplatin	S_chemical	O
 ,	,	O	O
@@ -133,8 +133,8 @@ injection	injection	O	O
 of	of	O	O
 carboplatin	carboplatin	S_chemical	O
 for	for	O	O
-recurrent	recurrent	O	O
-glioblastomas	glioblastomas	O	O
+recurrent	recurrent	O	B_disease
+glioblastomas	glioblastomas	O	I_disease
 in	in	O	O
 his	his	O	O
 left	left	O	O
@@ -147,8 +147,8 @@ complained	complained	O	O
 of	of	O	O
 pain	pain	O	S_disease
 and	and	O	O
-visual	visual	O	O
-disturbance	disturbance	O	O
+visual	visual	O	B_disease
+disturbance	disturbance	O	I_disease
 in	in	O	O
 the	the	O	O
 ipsilateral	ipsilateral	O	O
@@ -161,8 +161,8 @@ injection	injection	O	O
 .	.	O	O
 
 Various	various	O	O
-ocular	ocular	O	O
-symptoms	symptoms	O	O
+ocular	ocular	O	B_disease
+symptoms	symptoms	O	I_disease
 and	and	O	O
 findings	findings	O	O
 caused	caused	O	O
@@ -206,7 +206,7 @@ angle-closure	angle-closure	O	O
 glaucoma	glaucoma	O	S_disease
 decreased	decreased	O	O
 and	and	O	O
-ocular	ocular	O	O
+ocular	ocular	O	B_disease
 pain	pain	O	S_disease
 diminished	diminished	O	O
 ,	,	O	O
@@ -284,7 +284,7 @@ to	to	O	O
 minimize	minimize	O	O
 such	such	O	O
 severe	severe	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 

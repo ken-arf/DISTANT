@@ -27,9 +27,9 @@ dobutamine	dobutamine	S_chemical	O
 stress	stress	O	O
 testing	testing	O	O
 with	with	O	O
-technetium-99	technetium-99	O	O
-m	m	O	O
-sestamibi	sestamibi	O	O
+technetium-99	technetium-99	B_chemical	O
+m	m	I_chemical	O
+sestamibi	sestamibi	I_chemical	O
 single-photon	single-photon	O	O
 emission	emission	O	O
 computed	computed	O	O
@@ -229,7 +229,7 @@ parameter	parameter	O	O
 between	between	O	O
 metoprolol	metoprolol	S_chemical	O
 and	and	O	O
-metoprolol-glucagon	metoprolol-glucagon	O	O
+metoprolol-glucagon	metoprolol-glucagon	S_chemical	O
 .	.	O	O
 
 CONCLUSION	conclusion	O	O

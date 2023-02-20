@@ -1,5 +1,5 @@
-Repeated	repeated	O	O
-trimipramine	trimipramine	O	O
+Repeated	repeated	B_chemical	O
+trimipramine	trimipramine	I_chemical	O
 induces	induces	O	O
 dopamine	dopamine	S_chemical	O
 D2/D3	d2/d3	O	O
@@ -40,7 +40,7 @@ nor	nor	O	O
 does	does	O	O
 it	it	O	O
 induce	induce	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 down-regulation	down-regulation	O	O
 .	.	O	O
 
@@ -77,7 +77,7 @@ adaptive	adaptive	O	O
 changes	changes	O	O
 in	in	O	O
 the	the	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 and	and	O	O
 alpha1-adrenergic	alpha1-adrenergic	O	O
 systems	systems	O	O
@@ -152,11 +152,11 @@ locomotor	locomotor	O	B_disease
 hyperactivity	hyperactivity	O	S_disease
 induced	induced	O	O
 by	by	O	O
-d-amphetamine	d-amphetamine	O	O
+d-amphetamine	d-amphetamine	S_chemical	O
 ,	,	O	O
-quinpirole	quinpirole	O	O
+quinpirole	quinpirole	S_chemical	O
 and	and	O	O
-(+)-7-hydroxy-dipropyloaminotetralin	(+)-7-hydroxy-dipropyloaminotetralin	O	O
+(+)-7-hydroxy-dipropyloaminotetralin	(+)-7-hydroxy-dipropyloaminotetralin	S_chemical	O
 (	(	O	O
 dopamine	dopamine	S_chemical	O
 D2	d2	O	O
@@ -167,10 +167,10 @@ effects	effects	O	O
 .	.	O	O
 
 The	the	O	O
-stereotypies	stereotypies	O	O
+stereotypies	stereotypies	O	S_disease
 induced	induced	O	O
 by	by	O	O
-d-amphetamine	d-amphetamine	O	O
+d-amphetamine	d-amphetamine	S_chemical	O
 or	or	O	O
 apomorphine	apomorphine	S_chemical	O
 are	are	O	O
@@ -253,7 +253,7 @@ locomotor	locomotor	O	O
 activity	activity	O	O
 but	but	O	O
 not	not	O	O
-stereotypy	stereotypy	O	O
+stereotypy	stereotypy	O	S_disease
 )	)	O	O
 as	as	O	O
 well	well	O	O

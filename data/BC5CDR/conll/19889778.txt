@@ -44,8 +44,8 @@ because	because	O	O
 they	they	O	O
 can	can	O	O
 be	be	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 vaccine	vaccine	O	O
 escape	escape	O	O
 ,	,	O	O
@@ -98,8 +98,8 @@ variants	variants	O	O
 the	the	O	O
 sG145R	sg145r	O	O
 and	and	O	O
-sP120	sp120	O	O
-T	t	O	O
+sP120	sp120	B_chemical	O
+T	t	I_chemical	O
 mutants	mutants	O	O
 ,	,	O	O
 on	on	O	O
@@ -133,8 +133,8 @@ strains	strains	O	O
 with	with	O	O
 sG145R	sg145r	O	O
 or	or	O	O
-sP120	sp120	O	O
-T	t	O	O
+sP120	sp120	B_chemical	O
+T	t	I_chemical	O
 and	and	O	O
 LAM	lam	S_chemical	O
 resistance	resistance	O	O
@@ -207,8 +207,8 @@ replication	replication	O	O
 
 Although	although	O	O
 the	the	O	O
-sP120	sp120	O	O
-T	t	O	O
+sP120	sp120	B_chemical	O
+T	t	I_chemical	O
 substitution	substitution	O	O
 also	also	O	O
 impaired	impaired	O	O
@@ -238,8 +238,8 @@ negativity	negativity	O	O
 PC/BCP	pc/bcp	O	O
 )	)	O	O
 ,	,	O	O
-sP120	sp120	O	O
-T	t	O	O
+sP120	sp120	B_chemical	O
+T	t	I_chemical	O
 ,	,	O	O
 and	and	O	O
 LAM	lam	S_chemical	O
@@ -272,9 +272,9 @@ mutations	mutations	O	O
 the	the	O	O
 nucleotide	nucleotide	O	O
 analogues	analogues	O	O
-adefovir	adefovir	O	O
+adefovir	adefovir	S_chemical	O
 and	and	O	O
-tenofovir	tenofovir	O	O
+tenofovir	tenofovir	S_chemical	O
 remained	remained	O	O
 effective	effective	O	O
 in	in	O	O

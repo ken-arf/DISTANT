@@ -94,7 +94,7 @@ PR	pr	O	O
 normal	normal	O	O
 saline	saline	O	O
 and	and	O	O
-rocuronium	rocuronium	O	O
+rocuronium	rocuronium	S_chemical	O
 0.6	0.6	O	O
 mg	mg	O	O
 x	x	O	O
@@ -151,7 +151,7 @@ PS	ps	O	O
 LS	ls	O	O
 )	)	O	O
 or	or	O	O
-rocuronium	rocuronium	O	O
+rocuronium	rocuronium	S_chemical	O
 (	(	O	O
 Group	group	O	O
 PR	pr	O	O

@@ -39,7 +39,7 @@ produced	produced	O	O
 by	by	O	O
 administration	administration	O	O
 of	of	O	O
-hexachloro-1:3-butadiene	hexachloro-1:3-butadiene	O	O
+hexachloro-1:3-butadiene	hexachloro-1:3-butadiene	S_chemical	O
 (	(	O	O
 HCBD	hcbd	O	O
 )	)	O	O
@@ -51,7 +51,7 @@ PAN	pan	S_chemical	O
 )	)	O	O
 ,	,	O	O
 and	and	O	O
-2-bromoethylamine	2-bromoethylamine	O	O
+2-bromoethylamine	2-bromoethylamine	S_chemical	O
 (	(	O	O
 BEA	bea	O	O
 )	)	O	O
@@ -70,7 +70,7 @@ enzymes	enzymes	O	O
 alkaline	alkaline	B_chemical	O
 phosphatase	phosphatase	I_chemical	O
 and	and	O	O
-N-acetyl-beta-glucosaminidase	n-acetyl-beta-glucosaminidase	O	O
+N-acetyl-beta-glucosaminidase	n-acetyl-beta-glucosaminidase	S_chemical	O
 ,	,	O	O
 and	and	O	O
 the	the	O	O
@@ -86,8 +86,8 @@ urine	urine	O	O
 samples	samples	O	O
 .	.	O	O
 
-Tubular	tubular	O	O
-damage	damage	O	O
+Tubular	tubular	O	B_disease
+damage	damage	O	I_disease
 produced	produced	O	O
 by	by	O	O
 HCBD	hcbd	O	O
@@ -100,8 +100,8 @@ quantitatively	quantitatively	O	O
 and	and	O	O
 qualitatively	qualitatively	O	O
 from	from	O	O
-glomerular	glomerular	O	O
-damage	damage	O	O
+glomerular	glomerular	O	B_disease
+damage	damage	O	I_disease
 produced	produced	O	O
 by	by	O	O
 PAN	pan	S_chemical	O
@@ -136,8 +136,8 @@ contrast	contrast	O	O
 protein	protein	O	O
 excretion	excretion	O	O
 in	in	O	O
-tubular	tubular	O	O
-damage	damage	O	O
+tubular	tubular	O	B_disease
+damage	damage	O	I_disease
 was	was	O	O
 raised	raised	O	O
 only	only	O	O
@@ -158,14 +158,14 @@ weights	weights	O	O
 .	.	O	O
 
 Proximal	proximal	O	O
-tubular	tubular	O	O
-damage	damage	O	O
+tubular	tubular	O	B_disease
+damage	damage	O	I_disease
 caused	caused	O	O
 by	by	O	O
 HCBD	hcbd	O	O
 and	and	O	O
-papillary	papillary	O	O
-damage	damage	O	O
+papillary	papillary	O	B_disease
+damage	damage	O	I_disease
 caused	caused	O	O
 by	by	O	O
 BEA	bea	O	O
@@ -202,17 +202,17 @@ transiently	transiently	O	O
 elevated	elevated	O	O
 in	in	O	O
 proximal	proximal	O	O
-tubular	tubular	O	O
-damage	damage	O	O
+tubular	tubular	O	B_disease
+damage	damage	O	I_disease
 and	and	O	O
-N-acetyl-beta-glucosaminidase	n-acetyl-beta-glucosaminidase	O	O
+N-acetyl-beta-glucosaminidase	n-acetyl-beta-glucosaminidase	S_chemical	O
 showed	showed	O	O
 a	a	O	O
 sustained	sustained	O	O
 elevation	elevation	O	O
 in	in	O	O
-papillary	papillary	O	O
-damage	damage	O	O
+papillary	papillary	O	B_disease
+damage	damage	O	I_disease
 .	.	O	O
 
 It	it	O	O

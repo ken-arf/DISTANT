@@ -59,7 +59,7 @@ adenylate	adenylate	O	O
 energy	energy	O	O
 charge	charge	O	O
 and	and	O	O
-phosphorylcreatine	phosphorylcreatine	O	O
+phosphorylcreatine	phosphorylcreatine	S_chemical	O
 mole	mole	O	O
 fraction	fraction	O	O
 were	were	O	O
@@ -83,7 +83,7 @@ decreased	decreased	O	O
 ,	,	O	O
 while	while	O	O
 the	the	O	O
-phophorylcreatine	phophorylcreatine	O	O
+phophorylcreatine	phophorylcreatine	S_chemical	O
 mole	mole	O	O
 fraction	fraction	O	O
 was	was	O	O
@@ -108,8 +108,8 @@ mM	mm	O	O
 adenosine	adenosine	S_chemical	O
 to	to	O	O
 the	the	O	O
-myocardial	myocardial	O	O
-cell	cell	O	O
+myocardial	myocardial	O	B_disease
+cell	cell	O	I_disease
 cultures	cultures	O	O
 markedly	markedly	O	O
 increases	increases	O	O

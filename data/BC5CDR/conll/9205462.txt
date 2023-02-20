@@ -4,8 +4,8 @@ tumor	tumor	O	S_disease
 of	of	O	I_disease
 the	the	O	I_disease
 ovary	ovary	O	I_disease
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 antecedent	antecedent	O	O
 tamoxifen	tamoxifen	S_chemical	O
 use	use	O	O
@@ -110,8 +110,8 @@ CONCLUSION	conclusion	O	O
 Patients	patients	O	O
 with	with	O	O
 tamoxifen-induced	tamoxifen-induced	O	O
-liver	liver	O	O
-dysfunction	dysfunction	O	O
+liver	liver	O	B_disease
+dysfunction	dysfunction	O	I_disease
 may	may	O	O
 be	be	O	O
 at	at	O	O

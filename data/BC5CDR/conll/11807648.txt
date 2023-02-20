@@ -1,4 +1,4 @@
-Epileptic	epileptic	O	S_disease
+Epileptic	epileptic	O	B_disease
 seizures	seizures	O	S_disease
 following	following	O	O
 cortical	cortical	O	O
@@ -41,7 +41,7 @@ stability	stability	O	O
 FS	fs	O	O
 typically	typically	O	O
 contain	contain	O	O
-aprotinin	aprotinin	O	O
+aprotinin	aprotinin	S_chemical	O
 ,	,	O	O
 a	a	O	O
 natural	natural	O	O
@@ -67,7 +67,7 @@ considered	considered	O	O
 as	as	O	O
 substitutes	substitutes	O	O
 for	for	O	O
-aprotinin	aprotinin	O	O
+aprotinin	aprotinin	S_chemical	O
 .	.	O	O
 
 However	however	O	O
@@ -78,7 +78,7 @@ been	been	O	O
 shown	shown	O	O
 to	to	O	O
 cause	cause	O	O
-epileptic	epileptic	O	S_disease
+epileptic	epileptic	O	B_disease
 seizures	seizures	O	S_disease
 .	.	O	O
 
@@ -103,7 +103,7 @@ METHOD	method	O	O
 :	:	O	O
 FS	fs	O	O
 containing	containing	O	O
-aprotinin	aprotinin	O	O
+aprotinin	aprotinin	S_chemical	O
 or	or	O	O
 different	different	O	O
 concentrations	concentrations	O	O
@@ -163,8 +163,8 @@ brain	brain	O	O
 activity	activity	O	O
 which	which	O	O
 was	was	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 distinct	distinct	O	O
 convulsive	convulsive	O	S_disease
 behaviours	behaviours	O	O
@@ -230,7 +230,7 @@ contrast	contrast	O	O
 ,	,	O	O
 FS	fs	O	O
 containing	containing	O	O
-aprotinin	aprotinin	O	O
+aprotinin	aprotinin	S_chemical	O
 did	did	O	O
 not	not	O	O
 evoke	evoke	O	O

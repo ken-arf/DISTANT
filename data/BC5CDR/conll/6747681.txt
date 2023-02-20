@@ -4,13 +4,13 @@ chemotherapy	chemotherapy	O	O
 for	for	O	O
 treatment	treatment	O	O
 of	of	O	O
-malignant	malignant	O	O
-gliomas	gliomas	O	O
+malignant	malignant	O	B_disease
+gliomas	gliomas	O	I_disease
 of	of	O	O
 the	the	O	O
-central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 .	.	O	O
 
 Because	because	O	O
@@ -39,8 +39,8 @@ for	for	O	O
 the	the	O	O
 treatment	treatment	O	O
 of	of	O	O
-malignant	malignant	O	O
-gliomas	gliomas	O	O
+malignant	malignant	O	B_disease
+gliomas	gliomas	O	I_disease
 .	.	O	O
 
 Thirty-six	thirty-six	O	O

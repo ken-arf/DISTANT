@@ -1,9 +1,9 @@
-Central	central	O	O
-vein	vein	O	O
+Central	central	O	B_disease
+vein	vein	O	I_disease
 thrombosis	thrombosis	O	S_disease
 and	and	O	O
-topical	topical	O	O
-dipivalyl	dipivalyl	O	O
+topical	topical	B_chemical	O
+dipivalyl	dipivalyl	S_chemical	O
 epinephrine	epinephrine	S_chemical	O
 .	.	O	O
 
@@ -17,8 +17,8 @@ an	an	O	O
 female	female	O	O
 who	who	O	O
 acquired	acquired	O	O
-central	central	O	O
-vein	vein	O	O
+central	central	O	B_disease
+vein	vein	O	I_disease
 thrombosis	thrombosis	O	S_disease
 in	in	O	O
 her	her	O	O
@@ -32,7 +32,7 @@ started	started	O	O
 topical	topical	O	O
 medication	medication	O	O
 with	with	O	O
-dipivalyl	dipivalyl	O	O
+dipivalyl	dipivalyl	S_chemical	O
 epinephrine	epinephrine	S_chemical	O
 for	for	O	O
 advanced	advanced	O	O

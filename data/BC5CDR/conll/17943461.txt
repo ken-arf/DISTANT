@@ -86,7 +86,7 @@ HAART	haart	O	O
 component	component	O	O
 zidovudine	zidovudine	S_chemical	O
 (	(	O	O
-3'-azido-2',3'-deoxythymidine	3'-azido-2',3'-deoxythymidine	O	O
+3'-azido-2',3'-deoxythymidine	3'-azido-2',3'-deoxythymidine	S_chemical	O
 ;	;	O	O
 AZT	azt	S_chemical	O
 )	)	O	O
@@ -97,8 +97,8 @@ cell-death	cell-death	O	O
 pathway	pathway	O	O
 and	and	O	O
 cause	cause	O	O
-cytoskeletal	cytoskeletal	O	O
-disruption	disruption	O	O
+cytoskeletal	cytoskeletal	O	B_disease
+disruption	disruption	O	I_disease
 in	in	O	O
 a	a	O	O
 murine	murine	O	O
@@ -194,8 +194,8 @@ FasL	fasl	O	O
 Tg	tg	O	S_disease
 mice	mice	O	O
 developed	developed	O	O
-cardiac	cardiac	O	O
-dilation	dilation	O	O
+cardiac	cardiac	O	B_disease
+dilation	dilation	O	I_disease
 and	and	O	O
 depressed	depressed	O	S_disease
 cardiac	cardiac	O	O
@@ -217,8 +217,8 @@ ventricles	ventricles	O	O
 These	these	O	O
 changes	changes	O	O
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 an	an	O	O
 increased	increased	O	O
 sarcolemmal	sarcolemmal	O	O
@@ -258,11 +258,11 @@ apoptosis	apoptosis	O	O
 
 These	these	O	O
 were	were	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 changes	changes	O	O
 in	in	O	O
-dystrophin	dystrophin	O	O
+dystrophin	dystrophin	S_chemical	O
 and	and	O	O
 cardiac	cardiac	O	O
 troponin	troponin	B_chemical	O
@@ -306,13 +306,13 @@ due	due	O	O
 to	to	O	O
 activation	activation	O	O
 of	of	O	O
-apoptotic	apoptotic	O	O
+apoptotic	apoptotic	O	S_disease
 pathways	pathways	O	O
 ,	,	O	O
 resulting	resulting	O	O
 in	in	O	O
-cardiac	cardiac	O	O
-dilation	dilation	O	O
+cardiac	cardiac	O	B_disease
+dilation	dilation	O	I_disease
 and	and	O	O
 dysfunction	dysfunction	O	O
 .	.	O	O

@@ -2,8 +2,8 @@ Expression	expression	O	O
 of	of	O	O
 p300	p300	O	O
 protects	protects	O	O
-cardiac	cardiac	O	O
-myocytes	myocytes	O	O
+cardiac	cardiac	O	B_disease
+myocytes	myocytes	O	I_disease
 from	from	O	O
 apoptosis	apoptosis	O	O
 in	in	O	O
@@ -22,8 +22,8 @@ gene	gene	O	O
 expression	expression	O	O
 and	and	O	O
 induces	induces	O	O
-myocardial	myocardial	O	O
-cell	cell	O	O
+myocardial	myocardial	O	B_disease
+cell	cell	O	I_disease
 apoptosis	apoptosis	O	O
 .	.	O	O
 
@@ -46,8 +46,8 @@ the	the	O	O
 differentiated	differentiated	O	O
 phenotype	phenotype	O	O
 of	of	O	O
-cardiac	cardiac	O	O
-myocytes	myocytes	O	O
+cardiac	cardiac	O	B_disease
+myocytes	myocytes	O	I_disease
 .	.	O	O
 
 However	however	O	O
@@ -105,14 +105,14 @@ and	and	O	O
 cardiac	cardiac	O	O
 expression	expression	O	O
 of	of	O	O
-alpha-sarcomeric	alpha-sarcomeric	O	O
-actin	actin	O	O
+alpha-sarcomeric	alpha-sarcomeric	B_chemical	O
+actin	actin	I_chemical	O
 .	.	O	O
 
 Doxorubicin	doxorubicin	S_chemical	O
 induced	induced	O	O
-myocardial	myocardial	O	O
-cell	cell	O	O
+myocardial	myocardial	O	B_disease
+cell	cell	O	I_disease
 apoptosis	apoptosis	O	O
 in	in	O	O
 wild-type	wild-type	O	O
@@ -140,7 +140,7 @@ but	but	O	O
 not	not	O	O
 that	that	O	O
 of	of	O	O
-p53	p53	O	O
+p53	p53	S_chemical	O
 or	or	O	O
 other	other	O	O
 members	members	O	O
@@ -158,8 +158,8 @@ overexpression	overexpression	O	O
 of	of	O	O
 p300	p300	O	O
 protects	protects	O	O
-cardiac	cardiac	O	O
-myocytes	myocytes	O	O
+cardiac	cardiac	O	B_disease
+myocytes	myocytes	O	I_disease
 from	from	O	O
 doxorubicin-induced	doxorubicin-induced	O	O
 apoptosis	apoptosis	O	O
@@ -168,7 +168,7 @@ reduces	reduces	O	O
 the	the	O	O
 extent	extent	O	O
 of	of	O	O
-acute	acute	O	O
+acute	acute	O	B_disease
 heart	heart	O	B_disease
 failure	failure	O	I_disease
 in	in	O	O

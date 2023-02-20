@@ -3,7 +3,7 @@ of	of	O	O
 calcium	calcium	B_chemical	O
 chloride	chloride	I_chemical	O
 and	and	O	O
-4-aminopyridine	4-aminopyridine	O	O
+4-aminopyridine	4-aminopyridine	S_chemical	O
 therapy	therapy	O	O
 on	on	O	O
 desipramine	desipramine	S_chemical	O
@@ -81,7 +81,7 @@ overdose	overdose	O	S_disease
 
 CaCl2	cacl2	S_chemical	O
 and	and	O	O
-4-aminopyridine	4-aminopyridine	O	O
+4-aminopyridine	4-aminopyridine	S_chemical	O
 .	.	O	O
 
 Anesthetized	anesthetized	O	O
@@ -89,7 +89,7 @@ rats	rats	O	O
 received	received	O	O
 the	the	O	O
 tricyclic	tricyclic	O	O
-antidepressant	antidepressant	S_chemical	O
+antidepressant	antidepressant	B_chemical	O
 desipramine	desipramine	S_chemical	O
 IP	ip	O	O
 to	to	O	O
@@ -125,7 +125,7 @@ experiment	experiment	O	O
 rats	rats	O	O
 received	received	O	O
 tricyclic	tricyclic	O	O
-antidepressant	antidepressant	S_chemical	O
+antidepressant	antidepressant	B_chemical	O
 desipramine	desipramine	S_chemical	O
 IP	ip	O	O
 followed	followed	O	O
@@ -133,7 +133,7 @@ in	in	O	O
 15	15	O	O
 min	min	O	O
 by	by	O	O
-4-aminopyridine	4-aminopyridine	O	O
+4-aminopyridine	4-aminopyridine	S_chemical	O
 or	or	O	O
 saline	saline	O	O
 .	.	O	O
@@ -155,7 +155,7 @@ prolongation	prolongation	O	O
 
 CaCl2	cacl2	S_chemical	O
 and	and	O	O
-4-aminopyridine	4-aminopyridine	O	O
+4-aminopyridine	4-aminopyridine	S_chemical	O
 failed	failed	O	O
 to	to	O	O
 improve	improve	O	O
@@ -199,7 +199,7 @@ administration	administration	O	O
 of	of	O	O
 CaCl2	cacl2	S_chemical	O
 or	or	O	O
-4-aminopyridine	4-aminopyridine	O	O
+4-aminopyridine	4-aminopyridine	S_chemical	O
 did	did	O	O
 not	not	O	O
 reverse	reverse	O	O
@@ -218,9 +218,9 @@ worsen	worsen	O	O
 both	both	O	O
 cardiovascular	cardiovascular	O	O
 and	and	O	O
-central	central	O	O
-nervous	nervous	O	O
-system	system	O	O
+central	central	O	B_disease
+nervous	nervous	O	I_disease
+system	system	O	I_disease
 toxicity	toxicity	O	S_disease
 .	.	O	O
 

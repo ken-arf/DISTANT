@@ -1,4 +1,4 @@
-Cardioprotective	cardioprotective	O	O
+Cardioprotective	cardioprotective	O	S_disease
 effect	effect	O	O
 of	of	O	O
 tincture	tincture	O	O

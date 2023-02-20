@@ -94,7 +94,7 @@ noxious	noxious	O	O
 stimulation	stimulation	O	O
 and	and	O	O
 capsaicin-evoked	capsaicin-evoked	O	O
-mechanical	mechanical	O	O
+mechanical	mechanical	O	B_disease
 hypersensitivity	hypersensitivity	O	S_disease
 .	.	O	O
 
@@ -173,7 +173,7 @@ of	of	O	O
 mechanical	mechanical	O	O
 hyperalgesia	hyperalgesia	O	S_disease
 and	and	O	O
-allodynia	allodynia	O	O
+allodynia	allodynia	S_chemical	O
 after	after	O	O
 intradermal	intradermal	O	O
 capsaicin	capsaicin	S_chemical	O
@@ -203,7 +203,7 @@ reduced	reduced	O	O
 mechanical	mechanical	O	O
 hyperalgesia	hyperalgesia	O	S_disease
 and	and	O	O
-allodynia	allodynia	O	O
+allodynia	allodynia	S_chemical	O
 from	from	O	O
 intradermal	intradermal	O	O
 capsaicin	capsaicin	S_chemical	O
@@ -272,7 +272,7 @@ reports	reports	O	O
 of	of	O	O
 patients	patients	O	O
 with	with	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 neuropathic	neuropathic	O	B_disease
 pain	pain	O	S_disease
 and	and	O	O

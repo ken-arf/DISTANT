@@ -193,7 +193,7 @@ in	in	O	O
 patients	patients	O	O
 ,	,	O	O
 early	early	O	O
-cardiac	cardiac	O	O
+cardiac	cardiac	O	B_disease
 infarction	infarction	O	S_disease
 .	.	O	O
 

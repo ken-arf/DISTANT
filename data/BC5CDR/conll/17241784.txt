@@ -4,8 +4,8 @@ with	with	O	O
 up-regulation	up-regulation	O	O
 of	of	O	O
 MHC-I	mhc-i	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 statin	statin	S_chemical	O
 therapy	therapy	O	O
 .	.	O	O
@@ -17,7 +17,7 @@ a	a	O	O
 necrotizing	necrotizing	O	O
 myopathy	myopathy	O	S_disease
 and	and	O	O
-hyperCKaemia	hyperckaemia	O	O
+hyperCKaemia	hyperckaemia	O	S_disease
 which	which	O	O
 is	is	O	O
 reversible	reversible	O	O

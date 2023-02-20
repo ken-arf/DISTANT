@@ -1,0 +1,22 @@
+T1	Disease 30 45	hepatic failure
+T2	Chemical 91 113	Serum aminotransferase
+T3	Chemical 164 199	3-hydroxy-3-methylglutaryl coenzyme
+T4	Disease 249 267	hepatotoxic events
+T5	Chemical 304 313	ezetimibe
+T6	Chemical 339 360	simvastatin-ezetimibe
+T7	Disease 417 442	fulminant hepatic failure
+T10	Chemical 550 562	mg-ezetimibe
+T12	Disease 693 707	hepatotoxicity
+T13	Chemical 782 804	serum aminotransferase
+T14	Chemical 813 833	Simvastatinezetimibe
+T15	Chemical 838 850	escitalopram
+T17	Disease 938 952	hepatotoxicity
+T21	Disease 1297 1311	adverse events
+T22	Chemical 1313 1322	Ezetimibe
+T23	Chemical 1486 1510	simvastatin hydroxy acid
+T25	Disease 1571 1585	hepatotoxicity
+T26	Disease 1668 1681	liver failure
+T27	Disease 1790 1804	hepatotoxicity
+T29	Disease 1923 1937	hepatotoxicity
+T30	Chemical 1943 1964	simvastatin-ezetimibe
+T31	Chemical 2025 2047	serum aminotransferase

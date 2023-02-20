@@ -24,7 +24,7 @@ NRA0160	nra0160	S_chemical	O
 (	(	I_chemical	O
 3	3	I_chemical	O
 -	-	I_chemical	O
-fluorobenzylidene	fluorobenzylidene	I_chemical	O
+fluorobenzylidene	fluorobenzylidene	S_chemical	O
 )	)	I_chemical	O
 piperidin-1-yl	piperidin-1-yl	I_chemical	O
 )	)	I_chemical	O
@@ -34,7 +34,7 @@ ethyl	ethyl	I_chemical	O
 4	4	I_chemical	O
 -(4-fluorophenyl	-(4-fluorophenyl	I_chemical	O
 )	)	I_chemical	O
-thiazole-2-carboxamide	thiazole-2-carboxamide	I_chemical	O
+thiazole-2-carboxamide	thiazole-2-carboxamide	S_chemical	O
 ,	,	O	O
 has	has	O	O
 a	a	O	O
@@ -245,8 +245,8 @@ the	the	O	O
 liability	liability	O	O
 of	of	O	O
 motor	motor	O	O
-side	side	O	O
-effects	effects	O	O
+side	side	O	B_disease
+effects	effects	O	I_disease
 typical	typical	O	O
 of	of	O	O
 classical	classical	O	O

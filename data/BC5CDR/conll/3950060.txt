@@ -1,6 +1,6 @@
 Factors	factors	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 nephrotoxicity	nephrotoxicity	O	S_disease
 and	and	O	O
 clinical	clinical	O	O
@@ -22,8 +22,8 @@ were	were	O	O
 analyzed	analyzed	O	O
 for	for	O	O
 factors	factors	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 nephrotoxicity	nephrotoxicity	O	S_disease
 .	.	O	O
 
@@ -38,8 +38,8 @@ were	were	O	O
 examined	examined	O	O
 for	for	O	O
 factors	factors	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 clinical	clinical	O	O
 outcome	outcome	O	O
 .	.	O	O

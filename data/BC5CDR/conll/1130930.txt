@@ -1,7 +1,7 @@
 Nephrotoxicity	nephrotoxicity	O	S_disease
 of	of	O	O
 combined	combined	O	O
-cephalothin-gentamicin	cephalothin-gentamicin	O	O
+cephalothin-gentamicin	cephalothin-gentamicin	S_chemical	O
 regimen	regimen	O	O
 .	.	O	O
 
@@ -27,11 +27,11 @@ receiving	receiving	O	O
 a	a	O	O
 combination	combination	O	O
 of	of	O	O
-cephalothin	cephalothin	S_chemical	O
+cephalothin	cephalothin	B_chemical	O
 sodium	sodium	S_chemical	O
 and	and	O	O
-gentamicin	gentamicin	S_chemical	O
-sulfate	sulfate	O	O
+gentamicin	gentamicin	B_chemical	O
+sulfate	sulfate	I_chemical	O
 therapy	therapy	O	O
 .	.	O	O
 

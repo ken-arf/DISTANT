@@ -2,8 +2,8 @@ Cocaine	cocaine	S_chemical	O
 causes	causes	O	O
 memory	memory	O	O
 and	and	O	O
-learning	learning	O	O
-impairments	impairments	O	O
+learning	learning	O	B_disease
+impairments	impairments	O	I_disease
 in	in	O	O
 rats	rats	O	O
 :	:	O	O
@@ -14,13 +14,13 @@ factor	factor	O	O
 kappa	kappa	O	O
 B	b	O	O
 and	and	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 ,	,	O	O
 and	and	O	O
 prevention	prevention	O	O
 by	by	O	O
-topiramate	topiramate	O	O
+topiramate	topiramate	S_chemical	O
 .	.	O	O
 
 Different	different	O	O
@@ -35,8 +35,8 @@ including	including	O	O
 an	an	O	O
 increase	increase	O	O
 in	in	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 but	but	O	O
 the	the	O	O
 association	association	O	O
@@ -59,14 +59,14 @@ factor	factor	O	O
 kappa	kappa	O	O
 B	b	O	O
 (	(	O	O
-NFkappaB	nfkappab	O	O
+NFkappaB	nfkappab	S_chemical	O
 )	)	O	O
 is	is	O	O
 a	a	O	O
 sensor	sensor	O	O
 of	of	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 and	and	O	O
 participates	participates	O	O
 in	in	O	O
@@ -85,18 +85,18 @@ mechanisms	mechanisms	O	O
 .	.	O	O
 
 Therefore	therefore	O	O
-NFkappaB	nfkappab	O	O
+NFkappaB	nfkappab	S_chemical	O
 activity	activity	O	O
 ,	,	O	O
-oxidative	oxidative	O	O
-stress	stress	O	O
+oxidative	oxidative	O	B_disease
+stress	stress	O	I_disease
 ,	,	O	O
 neuronal	neuronal	O	O
 nitric	nitric	B_chemical	O
 oxide	oxide	I_chemical	O
 synthase	synthase	I_chemical	O
 (	(	O	O
-nNOS	nnos	O	O
+nNOS	nnos	O	S_disease
 )	)	O	O
 activity	activity	O	O
 ,	,	O	O
@@ -110,7 +110,7 @@ as	as	O	O
 the	the	O	O
 effect	effect	O	O
 of	of	O	O
-topiramate	topiramate	O	O
+topiramate	topiramate	S_chemical	O
 ,	,	O	O
 a	a	O	O
 previously	previously	O	O
@@ -133,7 +133,7 @@ in	in	O	O
 rats	rats	O	O
 .	.	O	O
 
-NFkappaB	nfkappab	O	O
+NFkappaB	nfkappab	S_chemical	O
 activity	activity	O	O
 was	was	O	O
 decreased	decreased	O	O
@@ -160,7 +160,7 @@ the	the	O	O
 hippocampus	hippocampus	O	O
 ,	,	O	O
 whereas	whereas	O	O
-nNOS	nnos	O	O
+nNOS	nnos	O	S_disease
 activity	activity	O	O
 in	in	O	O
 the	the	O	O
@@ -184,7 +184,7 @@ and	and	O	O
 negatively	negatively	O	O
 correlated	correlated	O	O
 with	with	O	O
-NFkappaB	nfkappab	O	O
+NFkappaB	nfkappab	S_chemical	O
 activity	activity	O	O
 in	in	O	O
 the	the	O	O
@@ -207,7 +207,7 @@ with	with	O	O
 the	the	O	O
 increase	increase	O	O
 of	of	O	O
-nNOS	nnos	O	O
+nNOS	nnos	O	S_disease
 activity	activity	O	O
 and	and	O	O
 the	the	O	O
@@ -232,7 +232,7 @@ and	and	O	O
 nitrosative	nitrosative	O	O
 stress	stress	O	O
 and	and	O	O
-NFkappaB	nfkappab	O	O
+NFkappaB	nfkappab	S_chemical	O
 in	in	O	O
 the	the	O	O
 alterations	alterations	O	O
@@ -241,7 +241,7 @@ by	by	O	O
 cocaine	cocaine	S_chemical	O
 .	.	O	O
 
-Topiramate	topiramate	O	O
+Topiramate	topiramate	S_chemical	O
 prevented	prevented	O	O
 all	all	O	O
 the	the	O	O

@@ -1,6 +1,6 @@
-Extrapyramidal	extrapyramidal	O	O
-side	side	O	O
-effects	effects	O	O
+Extrapyramidal	extrapyramidal	O	S_disease
+side	side	O	B_disease
+effects	effects	O	I_disease
 with	with	O	O
 risperidone	risperidone	S_chemical	O
 and	and	O	O
@@ -52,9 +52,9 @@ and	and	O	O
 decreased	decreased	O	O
 propensity	propensity	O	O
 for	for	O	O
-extrapyramidal	extrapyramidal	O	O
-side	side	O	O
-effects	effects	O	O
+extrapyramidal	extrapyramidal	O	S_disease
+side	side	O	B_disease
+effects	effects	O	I_disease
 ;	;	O	O
 features	features	O	O
 shared	shared	O	O
@@ -73,8 +73,8 @@ routine	routine	O	O
 risperidone	risperidone	S_chemical	O
 treatment	treatment	O	O
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 unique	unique	O	O
 degree	degree	O	O
@@ -91,7 +91,7 @@ effects	effects	O	O
 we	we	O	O
 used	used	O	O
 [123I]IBZM	[123i]ibzm	O	O
-SPECT	spect	O	O
+SPECT	spect	S_chemical	O
 to	to	O	O
 determine	determine	O	O
 D2	d2	O	O
@@ -216,8 +216,8 @@ against	against	O	O
 the	the	O	O
 risk	risk	O	O
 for	for	O	O
-extrapyramidal	extrapyramidal	O	O
-side	side	O	O
-effects	effects	O	O
+extrapyramidal	extrapyramidal	O	S_disease
+side	side	O	B_disease
+effects	effects	O	I_disease
 .	.	O	O
 

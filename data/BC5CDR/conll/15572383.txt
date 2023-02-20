@@ -38,10 +38,10 @@ I/D	i/d	O	O
 genotype	genotype	O	O
 ,	,	O	O
 are	are	O	O
-associated	associated	O	O
-with	with	O	O
-renal	renal	O	O
-prognosis	prognosis	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
+renal	renal	O	B_disease
+prognosis	prognosis	O	I_disease
 .	.	O	O
 
 This	this	O	O
@@ -58,8 +58,8 @@ activity	activity	O	O
 are	are	O	O
 involved	involved	O	O
 in	in	O	O
-renal	renal	O	O
-susceptibility	susceptibility	O	O
+renal	renal	O	B_disease
+susceptibility	susceptibility	O	I_disease
 to	to	O	O
 inflicted	inflicted	O	O
 damage	damage	O	O
@@ -186,8 +186,8 @@ range	range	O	O
 proteinuria	proteinuria	O	S_disease
 ,	,	O	O
 renal	renal	O	O
-interstitial	interstitial	O	O
-damage	damage	O	O
+interstitial	interstitial	O	B_disease
+damage	damage	O	I_disease
 and	and	O	O
 mild	mild	O	O
 focal	focal	O	O

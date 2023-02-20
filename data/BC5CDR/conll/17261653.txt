@@ -36,7 +36,7 @@ heart	heart	O	B_disease
 disease	disease	O	I_disease
 ,	,	O	O
 and	and	O	O
-chronic	chronic	O	O
+chronic	chronic	O	B_disease
 heart	heart	O	B_disease
 failure	failure	O	I_disease
 .	.	O	O
@@ -55,7 +55,7 @@ of	of	O	O
 action	action	O	O
 of	of	O	O
 the	the	O	O
-antisympathetic	antisympathetic	O	O
+antisympathetic	antisympathetic	S_chemical	O
 drug	drug	O	O
 clonidine	clonidine	S_chemical	O
 ;	;	O	O
@@ -182,8 +182,8 @@ in	in	O	O
 isolated	isolated	O	O
 spontaneously	spontaneously	O	O
 beating	beating	O	O
-right	right	O	O
-atria	atria	O	O
+right	right	O	B_disease
+atria	atria	O	I_disease
 from	from	O	O
 alpha2ABC-knockout	alpha2abc-knockout	O	O
 and	and	O	O

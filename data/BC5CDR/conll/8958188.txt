@@ -5,11 +5,11 @@ clinical	clinical	O	O
 study	study	O	O
 of	of	O	O
 the	the	O	O
-antipurine	antipurine	O	O
-antifolate	antifolate	O	O
-lometrexol	lometrexol	O	O
+antipurine	antipurine	S_chemical	O
+antifolate	antifolate	S_chemical	O
+lometrexol	lometrexol	S_chemical	O
 (	(	O	O
-DDATHF	ddathf	O	O
+DDATHF	ddathf	S_chemical	O
 )	)	O	O
 given	given	O	O
 with	with	O	O
@@ -18,25 +18,25 @@ folic	folic	B_chemical	O
 acid	acid	I_chemical	O
 .	.	O	O
 
-Lometrexol	lometrexol	O	O
+Lometrexol	lometrexol	S_chemical	O
 is	is	O	O
 an	an	O	O
-antifolate	antifolate	O	O
+antifolate	antifolate	S_chemical	O
 which	which	O	O
 inhibits	inhibits	O	O
 glycinamide	glycinamide	B_chemical	O
 ribonucleotide	ribonucleotide	I_chemical	O
 formyltransferase	formyltransferase	O	O
 (	(	O	O
-GARFT	garft	O	O
+GARFT	garft	S_chemical	O
 )	)	O	O
 ,	,	O	O
 an	an	O	O
 enzyme	enzyme	O	O
 essential	essential	O	O
 for	for	O	O
-de	de	O	O
-novo	novo	O	O
+de	de	O	B_disease
+novo	novo	O	I_disease
 purine	purine	O	O
 synthesis	synthesis	O	O
 .	.	O	O
@@ -50,7 +50,7 @@ data	data	O	O
 have	have	O	O
 shown	shown	O	O
 that	that	O	O
-lometrexol	lometrexol	O	O
+lometrexol	lometrexol	S_chemical	O
 has	has	O	O
 activity	activity	O	O
 against	against	O	O
@@ -73,7 +73,7 @@ initial	initial	O	O
 clinical	clinical	O	O
 development	development	O	O
 of	of	O	O
-lometrexol	lometrexol	O	O
+lometrexol	lometrexol	S_chemical	O
 was	was	O	O
 curtailed	curtailed	O	O
 because	because	O	O
@@ -93,7 +93,7 @@ that	that	O	O
 the	the	O	O
 toxicity	toxicity	O	S_disease
 of	of	O	O
-lometrexol	lometrexol	O	O
+lometrexol	lometrexol	S_chemical	O
 can	can	O	O
 be	be	O	O
 prevented	prevented	O	O
@@ -129,7 +129,7 @@ I	i	O	O
 clinical	clinical	O	O
 study	study	O	O
 of	of	O	O
-lometrexol	lometrexol	O	O
+lometrexol	lometrexol	S_chemical	O
 given	given	O	O
 with	with	O	O
 folic	folic	B_chemical	O
@@ -142,7 +142,7 @@ that	that	O	O
 the	the	O	O
 toxicity	toxicity	O	S_disease
 of	of	O	O
-lometrexol	lometrexol	O	O
+lometrexol	lometrexol	S_chemical	O
 can	can	O	O
 be	be	O	O
 markedly	markedly	O	O
@@ -183,7 +183,7 @@ Associated	associated	O	O
 studies	studies	O	O
 demonstrated	demonstrated	O	O
 that	that	O	O
-lometrexol	lometrexol	O	O
+lometrexol	lometrexol	S_chemical	O
 plasma	plasma	O	O
 pharmacokinetics	pharmacokinetics	O	O
 were	were	O	O
@@ -203,7 +203,7 @@ reduce	reduce	O	O
 toxicity	toxicity	O	S_disease
 by	by	O	O
 enhancing	enhancing	O	O
-lometrexol	lometrexol	O	O
+lometrexol	lometrexol	S_chemical	O
 plasma	plasma	O	O
 clearance	clearance	O	O
 .	.	O	O
@@ -229,7 +229,7 @@ the	the	O	O
 administration	administration	O	O
 of	of	O	O
 a	a	O	O
-GARFT	garft	O	O
+GARFT	garft	S_chemical	O
 inhibitor	inhibitor	O	O
 .	.	O	O
 

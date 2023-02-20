@@ -1,6 +1,6 @@
 Synthesis	synthesis	O	O
 of	of	O	O
-N-pyrimidinyl-2-phenoxyacetamides	n-pyrimidinyl-2-phenoxyacetamides	O	O
+N-pyrimidinyl-2-phenoxyacetamides	n-pyrimidinyl-2-phenoxyacetamides	S_chemical	O
 as	as	O	O
 adenosine	adenosine	S_chemical	O
 A2A	a2a	O	O

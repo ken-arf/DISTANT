@@ -141,7 +141,7 @@ presence	presence	O	O
 of	of	O	O
 akinetic	akinetic	O	S_disease
 or	or	O	O
-hyperkinetic	hyperkinetic	O	O
+hyperkinetic	hyperkinetic	O	S_disease
 (	(	O	O
 K	k	S_chemical	O
 )	)	O	O
@@ -154,7 +154,7 @@ group	group	O	O
 suggesting	suggesting	O	O
 signs	signs	O	O
 of	of	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 activation	activation	O	O
 .	.	O	O
 
@@ -194,7 +194,7 @@ order	order	O	O
 to	to	O	O
 block	block	O	O
 the	the	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 activation	activation	O	O
 and	and	O	O
 to	to	O	O
@@ -210,7 +210,7 @@ the	the	O	O
 rigidity	rigidity	O	S_disease
 without	without	O	O
 any	any	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 interference	interference	O	O
 .	.	O	O
 
@@ -271,7 +271,7 @@ another	another	O	O
 process	process	O	O
 leading	leading	O	O
 to	to	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 activation	activation	O	O
 in	in	O	O
 the	the	O	O
@@ -299,7 +299,7 @@ and	and	O	O
 the	the	O	O
 signs	signs	O	O
 of	of	O	O
-dopaminergic	dopaminergic	O	O
+dopaminergic	dopaminergic	O	S_disease
 activation	activation	O	O
 observed	observed	O	O
 in	in	O	O

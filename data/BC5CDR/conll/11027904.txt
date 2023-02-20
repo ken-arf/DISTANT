@@ -2,7 +2,7 @@ Pain	pain	O	S_disease
 responses	responses	O	O
 in	in	O	O
 methadone-maintained	methadone-maintained	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 abusers	abusers	O	O
 .	.	O	O
 
@@ -11,7 +11,7 @@ pain	pain	O	S_disease
 management	management	O	O
 for	for	O	O
 known	known	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 abusers	abusers	O	O
 is	is	O	O
 a	a	O	O
@@ -49,7 +49,7 @@ in	in	O	O
 a	a	O	O
 sample	sample	O	O
 of	of	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 addicts	addicts	O	O
 stabilized	stabilized	O	O
 in	in	O	O
@@ -107,7 +107,7 @@ therapeutic	therapeutic	O	O
 doses	doses	O	O
 of	of	O	O
 common	common	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 (	(	O	O
 hydromorphone	hydromorphone	O	O
 2	2	O	O
@@ -162,7 +162,7 @@ data	data	O	O
 indicate	indicate	O	O
 that	that	O	O
 MM	mm	O	O
-opioid	opioid	O	O
+opioid	opioid	S_chemical	O
 abusers	abusers	O	O
 represent	represent	O	O
 a	a	O	O

@@ -29,10 +29,10 @@ as	as	O	O
 a	a	O	O
 shrunken	shrunken	O	O
 finely	finely	O	O
-nodular	nodular	O	O
-liver	liver	O	O
+nodular	nodular	O	B_disease
+liver	liver	O	I_disease
 with	with	O	O
-micronodular	micronodular	O	O
+micronodular	micronodular	O	S_disease
 histology	histology	O	O
 ,	,	O	O
 ascites	ascites	O	S_disease
@@ -56,7 +56,7 @@ times	times	O	O
 normal	normal	O	O
 ,	,	O	O
 and	and	O	O
-testicular	testicular	O	O
+testicular	testicular	O	B_disease
 atrophy	atrophy	O	S_disease
 approximately	approximately	O	O
 half	half	O	O

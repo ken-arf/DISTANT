@@ -6,7 +6,7 @@ renal	renal	O	B_disease
 failure	failure	O	I_disease
 after	after	O	O
 oral	oral	O	O
-bisphosphonate	bisphosphonate	O	O
+bisphosphonate	bisphosphonate	S_chemical	O
 (	(	O	O
 alendronate	alendronate	O	O
 )	)	O	O
@@ -59,9 +59,9 @@ days	days	O	O
 of	of	O	O
 the	the	O	O
 oral	oral	O	O
-bisphosphonate	bisphosphonate	O	O
+bisphosphonate	bisphosphonate	S_chemical	O
 (	(	O	O
-alendronate	alendronate	O	O
+alendronate	alendronate	B_chemical	O
 sodium	sodium	S_chemical	O
 )	)	O	O
 administration	administration	O	O
@@ -138,7 +138,7 @@ intravenous	intravenous	O	O
 but	but	O	O
 also	also	O	O
 oral	oral	O	O
-bisphosphonates	bisphosphonates	O	O
+bisphosphonates	bisphosphonates	S_chemical	O
 can	can	O	O
 aggravate	aggravate	O	O
 proteinuria	proteinuria	O	S_disease

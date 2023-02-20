@@ -61,8 +61,8 @@ This	this	O	O
 article	article	O	O
 describes	describes	O	O
 two	two	O	O
-critically	critically	O	O
-ill	ill	O	O
+critically	critically	O	B_disease
+ill	ill	O	I_disease
 patients	patients	O	O
 in	in	O	O
 whom	whom	O	O

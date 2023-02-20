@@ -3,9 +3,9 @@ iliopsoas	iliopsoas	O	O
 hemorrhage	hemorrhage	O	S_disease
 with	with	O	O
 subsequent	subsequent	O	O
-femoral	femoral	O	O
-nerve	nerve	O	O
-palsy	palsy	O	O
+femoral	femoral	O	B_disease
+nerve	nerve	O	I_disease
+palsy	palsy	O	I_disease
 .	.	O	O
 
 We	we	O	O
@@ -54,9 +54,9 @@ entrapment	entrapment	O	O
 resulting	resulting	O	O
 in	in	O	O
 a	a	O	O
-femoral	femoral	O	O
-nerve	nerve	O	O
-palsy	palsy	O	O
+femoral	femoral	O	B_disease
+nerve	nerve	O	I_disease
+palsy	palsy	O	I_disease
 and	and	O	O
 partial	partial	O	O
 loss	loss	O	O
@@ -66,9 +66,9 @@ functions	functions	O	O
 .	.	O	O
 
 Anticoagulant-induced	anticoagulant-induced	O	O
-femoral	femoral	O	O
-nerve	nerve	O	O
-palsy	palsy	O	O
+femoral	femoral	O	B_disease
+nerve	nerve	O	I_disease
+palsy	palsy	O	I_disease
 represents	represents	O	O
 the	the	O	O
 most	most	O	O
@@ -95,8 +95,8 @@ degrees	degrees	O	O
 of	of	O	O
 motor	motor	O	O
 and	and	O	O
-sensory	sensory	O	O
-impairment	impairment	O	O
+sensory	sensory	O	B_disease
+impairment	impairment	O	I_disease
 ,	,	O	O
 and	and	O	O
 flexure	flexure	O	O

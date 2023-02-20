@@ -1,0 +1,14 @@
+T1	Disease 0 23	End-stage renal disease
+T2	Chemical 166 201	calcineurin inhibitors cyclosporine
+T3	Chemical 206 216	tacrolimus
+T5	Disease 435 458	end-stage renal disease
+T6	Disease 541 562	chronic renal failure
+T7	Chemical 891 901	creatinine
+T8	Disease 1154 1171	renal dysfunction
+T9	Chemical 1292 1302	creatinine
+T10	Disease 1349 1369	hepatorenal syndrome
+T11	Chemical 1479 1489	creatinine
+T12	Chemical 1626 1636	creatinine
+T13	Chemical 2492 2508	serum creatinine
+T14	Disease 2537 2557	hepatorenal syndrome
+T15	Chemical 2589 2599	creatinine

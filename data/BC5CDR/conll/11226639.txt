@@ -140,7 +140,7 @@ not	not	O	O
 the	the	O	O
 latency	latency	O	O
 of	of	O	O
-ketamine-	ketamine-	O	O
+ketamine-	ketamine-	S_chemical	O
 or	or	O	O
 diazepam-induced	diazepam-induced	O	O
 narcosis	narcosis	O	O

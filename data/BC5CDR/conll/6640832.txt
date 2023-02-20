@@ -160,8 +160,8 @@ had	had	O	O
 primary	primary	O	O
 and	and	O	O
 59	59	O	O
-recurrent	recurrent	O	O
-disease	disease	O	O
+recurrent	recurrent	O	B_disease
+disease	disease	O	I_disease
 .	.	O	O
 
 Of	of	O	O
@@ -290,7 +290,7 @@ and	and	O	O
 repeated	repeated	O	O
 instillations	instillations	O	O
 after	after	O	O
-TUR	tur	O	O
+TUR	tur	S_chemical	O
 ,	,	O	O
 or	or	O	O
 both	both	O	O

@@ -23,8 +23,8 @@ include	include	O	O
 a	a	O	O
 variety	variety	O	O
 of	of	O	O
-neurological	neurological	O	O
-symptoms	symptoms	O	O
+neurological	neurological	O	B_disease
+symptoms	symptoms	O	I_disease
 that	that	O	O
 can	can	O	O
 limit	limit	O	O
@@ -70,8 +70,8 @@ revealed	revealed	O	O
 no	no	O	O
 changes	changes	O	O
 of	of	O	O
-mental	mental	O	O
-status	status	O	O
+mental	mental	O	B_disease
+status	status	O	I_disease
 and	and	O	O
 at	at	O	O
 rest	rest	O	O
@@ -79,8 +79,8 @@ there	there	O	O
 were	were	O	O
 no	no	O	O
 further	further	O	O
-motor	motor	O	O
-symptoms	symptoms	O	O
+motor	motor	O	B_disease
+symptoms	symptoms	O	I_disease
 .	.	O	O
 
 Cranial	cranial	O	O
@@ -100,8 +100,8 @@ of	of	O	O
 the	the	O	O
 brain	brain	O	O
 and	and	O	O
-metabolic	metabolic	O	O
-abnormalities	abnormalities	O	O
+metabolic	metabolic	O	B_disease
+abnormalities	abnormalities	O	I_disease
 .	.	O	O
 
 An	an	O	O
@@ -174,8 +174,8 @@ that	that	O	O
 negative	negative	O	O
 myoclonus	myoclonus	O	S_disease
 is	is	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 the	the	O	O
 use	use	O	O
 of	of	O	O

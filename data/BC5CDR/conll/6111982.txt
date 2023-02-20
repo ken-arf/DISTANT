@@ -3,14 +3,14 @@ of	of	O	O
 GYKI-41	gyki-41	O	O
 099	099	O	O
 (	(	O	O
-chlorpropanol	chlorpropanol	O	O
+chlorpropanol	chlorpropanol	S_chemical	O
 ,	,	O	O
-Tobanum	tobanum	O	O
+Tobanum	tobanum	S_chemical	O
 )	)	O	O
 a	a	O	O
 new	new	O	O
 potent	potent	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 antagonist	antagonist	O	O
 .	.	O	O
 
@@ -21,7 +21,7 @@ GYKI-41	gyki-41	O	O
 ,	,	O	O
 as	as	O	O
 a	a	O	O
-beta-adrenergic	beta-adrenergic	O	O
+beta-adrenergic	beta-adrenergic	S_chemical	O
 antagonist	antagonist	O	O
 ,	,	O	O
 is	is	O	O

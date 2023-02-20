@@ -1,7 +1,7 @@
 Photodistributed	photodistributed	O	O
 nifedipine-induced	nifedipine-induced	O	O
 facial	facial	O	O
-telangiectasia	telangiectasia	O	O
+telangiectasia	telangiectasia	O	S_disease
 .	.	O	O
 
 Five	five	O	O
@@ -10,7 +10,7 @@ after	after	O	O
 starting	starting	O	O
 nifedipine	nifedipine	S_chemical	O
 (	(	O	O
-Adalat	adalat	O	O
+Adalat	adalat	S_chemical	O
 )	)	O	O
 ,	,	O	O
 two	two	O	O
@@ -18,7 +18,7 @@ patients	patients	O	O
 developed	developed	O	O
 photodistributed	photodistributed	O	O
 facial	facial	O	O
-telangiectasia	telangiectasia	O	O
+telangiectasia	telangiectasia	O	S_disease
 ,	,	O	O
 which	which	O	O
 became	became	O	O
@@ -56,7 +56,7 @@ the	the	O	O
 closely	closely	O	O
 related	related	O	O
 drug	drug	O	O
-amlodipine	amlodipine	O	O
+amlodipine	amlodipine	S_chemical	O
 3	3	O	O
 years	years	O	O
 later	later	O	O
@@ -64,14 +64,14 @@ later	later	O	O
 with	with	O	O
 recurrence	recurrence	O	O
 of	of	O	O
-telangiectasia	telangiectasia	O	O
+telangiectasia	telangiectasia	O	S_disease
 .	.	O	O
 
 The	the	O	O
 photodistribution	photodistribution	O	O
 of	of	O	O
 the	the	O	O
-telangiectasia	telangiectasia	O	O
+telangiectasia	telangiectasia	O	S_disease
 suggests	suggests	O	O
 a	a	O	O
 significant	significant	O	O

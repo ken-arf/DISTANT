@@ -16,7 +16,7 @@ The	the	O	O
 anaemia	anaemia	O	O
 induced	induced	O	O
 by	by	O	O
-3'-azido-3'dideoxythymidine	3'-azido-3'dideoxythymidine	O	O
+3'-azido-3'dideoxythymidine	3'-azido-3'dideoxythymidine	S_chemical	O
 (	(	O	O
 AZT	azt	S_chemical	O
 )	)	O	O
@@ -71,7 +71,7 @@ BFU-e	bfu-e	O	O
 to	to	O	O
 erythropoietin	erythropoietin	O	O
 (	(	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 )	)	O	O
 .	.	O	O
 
@@ -120,8 +120,8 @@ number	number	O	O
 of	of	O	O
 splenic	splenic	O	O
 and	and	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 BFU-e	bfu-e	O	O
 in	in	O	O
 AZT	azt	S_chemical	O
@@ -150,8 +150,8 @@ formation	formation	O	O
 by	by	O	O
 splenic	splenic	O	O
 and	and	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 BFUe	bfue	O	O
 was	was	O	O
 stimulated	stimulated	O	O
@@ -159,7 +159,7 @@ at	at	O	O
 lower	lower	O	O
 concentrations	concentrations	O	O
 of	of	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 in	in	O	O
 mice	mice	O	O
 receiving	receiving	O	O
@@ -184,8 +184,8 @@ of	of	O	O
 both	both	O	O
 splenic	splenic	O	O
 and	and	O	O
-bone	bone	O	O
-marrow	marrow	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
 BFU-e	bfu-e	O	O
 of	of	O	O
 treated	treated	O	O
@@ -207,7 +207,7 @@ mean	mean	O	O
 plasma	plasma	O	O
 levels	levels	O	O
 of	of	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 observed	observed	O	O
 in	in	O	O
 AZT	azt	S_chemical	O
@@ -225,7 +225,7 @@ observed	observed	O	O
 when	when	O	O
 compared	compared	O	O
 with	with	O	O
-phenylhydrazine	phenylhydrazine	O	O
+phenylhydrazine	phenylhydrazine	S_chemical	O
 (	(	O	O
 PHZ	phz	O	O
 )	)	O	O
@@ -241,9 +241,9 @@ and	and	O	O
 the	the	O	O
 percentage	percentage	O	O
 of	of	O	O
-bone	bone	O	O
-marrow	marrow	O	O
-erythroblasts	erythroblasts	O	O
+bone	bone	O	B_disease
+marrow	marrow	O	I_disease
+erythroblasts	erythroblasts	O	I_disease
 observed	observed	O	O
 were	were	O	O
 comparable	comparable	O	O
@@ -262,7 +262,7 @@ anaemia	anaemia	O	O
 
 However	however	O	O
 ,	,	O	O
-reticulocytosis	reticulocytosis	O	O
+reticulocytosis	reticulocytosis	O	S_disease
 was	was	O	O
 inappropriate	inappropriate	O	O
 for	for	O	O
@@ -294,7 +294,7 @@ increased	increased	O	O
 levels	levels	O	O
 of	of	O	O
 plasma	plasma	O	O
-EPO	epo	O	O
+EPO	epo	S_chemical	O
 suggest	suggest	O	O
 a	a	O	O
 lesion	lesion	O	O

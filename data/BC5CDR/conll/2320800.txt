@@ -48,8 +48,8 @@ bolus	bolus	O	O
 ifosfamide	ifosfamide	S_chemical	O
 .	.	O	O
 
-Postrenal	postrenal	O	O
-failure	failure	O	O
+Postrenal	postrenal	O	B_disease
+failure	failure	O	I_disease
 was	was	O	O
 excluded	excluded	O	O
 by	by	O	O
@@ -75,7 +75,7 @@ due	due	O	O
 to	to	O	O
 an	an	O	O
 increasing	increasing	O	O
-ascitis	ascitis	O	O
+ascitis	ascitis	O	S_disease
 ,	,	O	O
 occurring	occurring	O	O
 just	just	O	O
@@ -105,7 +105,7 @@ nephrotoxic	nephrotoxic	O	S_disease
 drug	drug	O	O
 with	with	O	O
 demonstrated	demonstrated	O	O
-tubulopathies	tubulopathies	O	O
+tubulopathies	tubulopathies	O	S_disease
 .	.	O	O
 
 We	we	O	O

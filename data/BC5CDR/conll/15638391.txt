@@ -34,7 +34,7 @@ induced	induced	O	O
 by	by	O	O
 haloperidol	haloperidol	S_chemical	O
 (	(	O	O
-HAL	hal	O	O
+HAL	hal	S_chemical	O
 )	)	O	O
 on	on	O	O
 age	age	O	O
@@ -151,11 +151,11 @@ epithelium	epithelium	O	O
 hyperplasia	hyperplasia	O	O
 of	of	O	O
 the	the	O	O
-glandular	glandular	O	O
-ducts	ducts	O	O
+glandular	glandular	O	B_disease
+ducts	ducts	O	I_disease
 ,	,	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 increased	increased	O	O
 PCNA	pcna	S_chemical	O
 expression	expression	O	O

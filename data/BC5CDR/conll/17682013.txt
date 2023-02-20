@@ -33,8 +33,8 @@ of	of	O	O
 intrathecal	intrathecal	O	O
 methotrexate	methotrexate	S_chemical	O
 for	for	O	O
-childhood	childhood	O	O
-leukaemia	leukaemia	O	O
+childhood	childhood	O	B_disease
+leukaemia	leukaemia	O	I_disease
 .	.	O	O
 
 Recently	recently	O	O
@@ -45,8 +45,8 @@ suggest	suggest	O	O
 a	a	O	O
 common	common	O	O
 pathophysiology	pathophysiology	O	O
-associated	associated	O	O
-with	with	O	O
+associated	associated	O	B_disease
+with	with	O	I_disease
 a	a	O	O
 variety	variety	O	O
 of	of	O	O
@@ -97,8 +97,8 @@ data	data	O	O
 
 Patients	patients	O	O
 with	with	O	O
-cerebrovascular	cerebrovascular	O	O
-accidents	accidents	O	O
+cerebrovascular	cerebrovascular	O	B_disease
+accidents	accidents	O	I_disease
 were	were	O	O
 excluded	excluded	O	O
 .	.	O	O
@@ -127,7 +127,7 @@ systemic	systemic	O	O
 and	and	O	O
 its	its	O	O
 derivative	derivative	O	O
-carmofur	carmofur	O	O
+carmofur	carmofur	S_chemical	O
 ,	,	O	O
 and	and	O	O
 capecitabine	capecitabine	S_chemical	O
@@ -273,8 +273,8 @@ at	at	O	O
 least	least	O	O
 partially	partially	O	O
 reversible	reversible	O	O
-metabolic	metabolic	O	O
-derangement	derangement	O	O
+metabolic	metabolic	O	B_disease
+derangement	derangement	O	I_disease
 as	as	O	O
 the	the	O	O
 basis	basis	O	O
