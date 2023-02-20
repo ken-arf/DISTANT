@@ -91,6 +91,7 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
     best_acc = 0
     patient_count = 0
     steps = 0
+
     for epoch in range(num_train_epochs):
 
         # Training
@@ -107,6 +108,7 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
             progress_bar.set_description("loss:{:7.2f} epoch:{}".format(loss.item(),epoch))
             steps += 1
 
+
         # Evaluation
 
         progress_bar_valid = tqdm(range(len(valid_dataloader)))
@@ -121,6 +123,7 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
             progress_bar_valid.update(1)
             progress_bar_valid.set_description("running_acc:{:.2f} epoch:{}".format(running_acc, epoch))
         print("running_acc: {:.2f}".format(running_acc))
+
 
         best_update = False
         if best_acc < running_acc:
@@ -282,7 +285,6 @@ def setup_final_dataset(neg_index, parameters):
     df_test = df_train_raw.iloc[test_index]
     
     df_pos = pd.concat(list(df_trains.values()))
-    #df_pos = pd.concat([df_train_0, df_train_1, df_train_2])
     df_train = pd.concat([df_pos, df_neg])
 
     return df_train, df_test
