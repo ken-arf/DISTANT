@@ -39,6 +39,6 @@ train_num_warmup_steps: 100
 max_patient_count: 5 
 
 # restore model
-restore_model: True
+restore_model: True 
 restore_model_path: experiments/bc5cdr/segmentation/models/model_best_seg.pth
 
