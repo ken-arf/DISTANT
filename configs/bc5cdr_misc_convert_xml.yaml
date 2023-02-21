@@ -4,8 +4,6 @@
 task_name: bc5cdr 
 
 cdr_corpus_dir: CDR_Data/CDR.Corpus.v010516
-corpus_dir: data/BC5CDR/corpus
+corpus_dir: data/BC5CDR/processed_corpus
 dict_dir: data/BC5CDR/dict
-
-
 
