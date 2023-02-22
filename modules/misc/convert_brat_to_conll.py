@@ -120,20 +120,17 @@ def main():
     utils._print_config(parameters, config_path)
 
     
-    root = parameters["corpus_root_dir"]
-    dirs = glob.glob(f'{root}/*')
+    root = parameters["corpus_dir"]
                     
-    for dir in dirs:
-        print(dir)
-        files = sorted(glob.glob(f"{dir}/*.txt"))
-        ann_files = [file.replace(".txt", ".ann") for file in files]
-        for file, ann in zip(files, ann_files):
-            print(file)
-            path, fname = os.path.split(file)
-            basename, ext = os.path.splitext(fname)
+    files = sorted(glob.glob(f"{root}/*.txt"))
+    ann_files = [file.replace(".txt", ".ann") for file in files]
+    for file, ann in zip(files, ann_files):
+        print(file)
+        path, fname = os.path.split(file)
+        basename, ext = os.path.splitext(fname)
 
-            output_path = os.path.join(path, f"{basename}.coll")
-            convert(file, ann, output_path)
+        output_path = os.path.join(path, f"{basename}.coll")
+        convert(file, ann, output_path)
 
 
 
