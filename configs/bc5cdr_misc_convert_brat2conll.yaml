@@ -1,0 +1,7 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+corpus_root_dir: data/BC5CDR/processed_corpus
+

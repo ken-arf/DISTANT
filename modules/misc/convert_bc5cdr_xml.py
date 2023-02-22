@@ -87,9 +87,8 @@ def convert_xml(xml_file, output_dir):
                         except:
                             print("ERROR!! assertion error")
 
-                        offset_buf = ';'.join([f"offset[0] offset[1]" for offset in offsets])
+                        offset_buf = ';'.join(["{} {}".format(offset[0],offset[1]) for offset in offsets])
                         fp.write(f"T{index}\t{entity} {offset_buf}\t{ann_txt}\n")
-
 
 
                     index += 1
