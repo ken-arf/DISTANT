@@ -4,14 +4,16 @@
 task_name: bc5cdr 
 
 dict_dir: 
-    - data/BC5CDR/processed_dict
+    - data/Mesh/processed_dict
+    - data/UMLS/processed_dict
+#    - data/BC5CDR/processed_dict
 
 dict_files:
-    - chemical.dict
+    - chemicals.dict
     - disease.dict
 
 entity2integer:
-    chemical: 0
+    chemicals: 0
     disease: 1
 
 
