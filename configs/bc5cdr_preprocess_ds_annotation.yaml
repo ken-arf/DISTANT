@@ -11,10 +11,12 @@ task_name: bc5cdr
 spark: True
 
 processed_dict_dirs:
-        - data/BC5CDR/processed_dict
+        - data/Mesh/processed_dict
+        - data/UMLS/processed_dict
+#        - data/BC5CDR/processed_dict
 
 dict_files: 
-        - chemical.dict
+        - chemicals.dict
         - disease.dict
 
 entity_names:

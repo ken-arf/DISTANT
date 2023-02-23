@@ -21,6 +21,7 @@ Evaluation
 data/BC5CDR/
 old/
 *xml
+*.dict
 
 # C extensions
 *.so
