@@ -10,8 +10,11 @@ task_name: bc5cdr
 #t-lymphocyte_dict_file: t-lymphocyte.dict 
 #protein_dict_file: protein.dict 
 
-document_root_dir: data/BC5CDR/corpus
-annotation_root_dir: data/BC5CDR/corpus.annotate
+#document_root_dir: data/BC5CDR/corpus
+#annotation_root_dir: data/BC5CDR/corpus.annotate
+
+document_root_dir: data/BC5CDR/eval/test
+annotation_root_dir: data/BC5CDR/eval/annotate
 
 corpus_dir: data/Corpus/BC5CDR
 
