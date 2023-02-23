@@ -192,7 +192,11 @@ def main():
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    files = glob.glob(f"{corpus_dir}/*.txt")
+    files = sorted(glob.glob(f"{corpus_dir}/*.txt"))
+
+    if len(files) == 0:
+        print("file not found")
+        exit(1)
 
     match_count = annotate(files, parameters)
 
