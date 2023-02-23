@@ -333,10 +333,10 @@ def lf_debug(x):
 
 
 @labeling_function()
-def lf_chemical_distsv(x):
+def lf_chemicals_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
     ent = x.lower()
-    for phrase in dist_dict['chemical.dict']:
+    for phrase in dist_dict['chemicals.dict']:
         #if ed.eval(ent,phrase.lower()) <= max_dist:
         if min_edit_distance(phrase, ent) <= max_dist:
             return CHEMICAL 
