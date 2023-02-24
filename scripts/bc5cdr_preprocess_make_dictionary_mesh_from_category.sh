@@ -20,20 +20,9 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
-#nohop python modules/preprocess/dictionary/extract_mesh_dictionary.py --yaml $YAML_PATH  > $LOG_PATH &
+#nohup python modules/preprocess/dictionary/extract_mesh_dictionary_from_category.py --yaml $YAML_PATH > $LOG_PATH &
 python modules/preprocess/dictionary/extract_mesh_dictionary_from_category.py --yaml $YAML_PATH 
 
 #sleep 5
 #tail -f $LOG_PATH
 
-# postprocess
-# delete duplicated items
-
-files=`ls /Users/kenyano/WORK/AIST/Immunology/data/Mesh/dict/*`
-
-for file in $files; do
-    cp $file $file.tmp
-    sort $file.tmp | uniq > $file
-    echo $file
-    rm $file.tmp
-done

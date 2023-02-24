@@ -15,10 +15,9 @@ def extract_labels(coll_file):
     with open(coll_file) as fp:
         text = fp.read()
 
-    pdb.set_trace()
     labels = []
     label = []
-    sents = text.split('/n')
+    sents = text.split('\n')
     for sent in sents:
         if len(sent) == 0:
             labels.append(label)

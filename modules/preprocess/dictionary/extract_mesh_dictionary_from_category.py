@@ -105,7 +105,7 @@ def extract_terms(record):
     terms = []
     if "ConceptList" in record:
         concepts = record['ConceptList']['Concept']
-        if type(concepts) == str:
+        if type(concepts) == dict:
             concepts = [concepts]
         for concept in concepts:
             try:
@@ -119,6 +119,7 @@ def extract_terms(record):
 
 def collect_category_terms(alphabet_suffix, doc):
 
+
     records = doc['DescriptorRecordSet']['DescriptorRecord']
     print(len(records))
 
@@ -127,14 +128,18 @@ def collect_category_terms(alphabet_suffix, doc):
         if 'TreeNumberList' in record:
             relevant = False
             treenumberlist = record['TreeNumberList']['TreeNumber']
+            if type(treenumberlist) == str:
+                treenumberlist = [treenumberlist]
+
             for number in treenumberlist:
+                print(number)
                 if number.startswith(alphabet_suffix):
                     relevant = True
                     break
 
             if relevant:
-               terms = extract_terms(record)
-               term_list += terms
+                terms = extract_terms(record)
+                term_list += terms
 
     return term_list
 
@@ -189,8 +194,11 @@ def main():
         dict_path = os.path.join(parameters['dict_dir'], fname)
         term_list = collect_category_terms(category, mesh_doc)
         print(category, len(term_list))
+
+        term_list = sorted(list(set(term_list)))
         with open(dict_path, 'w') as fp:
-            for term in term_list:
+            for k, term in enumerate(term_list):
+                print(term)
                 fp.write(f'{term}\n')
 
 
