@@ -4,7 +4,7 @@
 task_name: bc5cdr 
 
 entities:
-    - chemical.dict
+    - chemicals.dict
     - disease.dict
 
 corpus_dir: data/BC5CDR/conll
