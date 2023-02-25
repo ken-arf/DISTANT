@@ -105,19 +105,22 @@ def annotate(files, parameters):
 
     entity_dict = defaultdict(list)
 
-    for dict_path in dict_paths:
-        path, fname = os.path.split(dict_path)
-        name, txt = os.path.splitext(fname)
-        entity_dict[name] += load_dict(dict_path)
+    if parameters["use_dictionary"]:
+        for dict_path in dict_paths:
+            path, fname = os.path.split(dict_path)
+            name, txt = os.path.splitext(fname)
+            entity_dict[name] += load_dict(dict_path)
 
     # append all entities extracted from pu_training
 
     #pdb.set_trace()
     if parameters["use_pu_data"]:
+
         pu_data_csv = parameters["pu_data"]
         df_pu_data = pd.read_csv(pu_data_csv)
         
-        for name in entity_dict.keys():
+        #for name in entity_dict.keys():
+        for name in parameters['entity2integer'].keys():
             entid = ent2int[name]
             df_entities = list(set(df_pu_data[df_pu_data.label == entid].entities.unique()))
 
@@ -125,9 +128,7 @@ def annotate(files, parameters):
             for ent in df_entities:
                 ent_tokens = tokenize(ent.lower())
                 items.append(ent_tokens)
-
             entity_dict[name] += items
-        
         
     # convert dictionay item to list to tuple
     for key, items in entity_dict.items():
