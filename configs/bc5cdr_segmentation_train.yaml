@@ -14,7 +14,8 @@ model_dir: experiments/bc5cdr/segmentation/models
 
 # bert model
 seed: 22
-model_checkpoint: allenai/scibert_scivocab_cased
+#model_checkpoint: allenai/scibert_scivocab_cased
+model_checkpoint: allenai/scibert_scivocab_uncased
 # nn model
 dropout_rate: 0.3
 embedding_dim: 768
@@ -39,6 +40,6 @@ train_num_warmup_steps: 100
 max_patient_count: 5 
 
 # restore model
-restore_model: True
+restore_model: False
 restore_model_path: experiments/bc5cdr/segmentation/models/model_best_seg.pth
 

@@ -20,7 +20,8 @@ model_dir: experiments/bc5cdr/models
 
 # bert model
 seed: 22
-model_checkpoint: allenai/scibert_scivocab_cased
+#model_checkpoint: allenai/scibert_scivocab_cased
+model_checkpoint: allenai/scibert_scivocab_uncased
 # nn model
 dropout_rate: 0.3
 embedding_dim: 768
