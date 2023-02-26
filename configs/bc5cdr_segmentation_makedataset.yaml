@@ -9,6 +9,10 @@ dict_dir:
     - data/UMLS/processed_dict
 #    - data/BC5CDR/processed_dict
 
+#spacy_model: en_core_sci_sm
+spacy_model: en_core_sci_lg
+#spacy_model: en_ner_bc5cdr_md
+
 dict_files:
     - chemicals.dict
     - disease.dict

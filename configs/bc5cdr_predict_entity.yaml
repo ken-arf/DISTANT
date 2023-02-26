@@ -16,6 +16,11 @@ annotation_root_dir: data/BC5CDR/annotate
 #document_root_dir: data/BC5CDR/eval/test
 #annotation_root_dir: data/BC5CDR/eval/annotate
 
+#spacy_model: en_core_sci_sm
+spacy_model: en_core_sci_lg
+#spacy_model: en_ner_bc5cdr_md
+
+
 corpus_dir: data/Corpus/BC5CDR
 
 # model save dir

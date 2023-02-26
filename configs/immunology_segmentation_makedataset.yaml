@@ -17,6 +17,9 @@ entity2integer:
     transcription_factor: 1
     t_lymphocyte: 2
 
+#spacy_model: en_core_sci_sm
+spacy_model: en_core_sci_lg
+#spacy_model: en_ner_bc5cdr_md
 
 corpus_dir: data/Mesh/PubMed/Immunology/extract
 output_dir: data/Mesh/PubMed/Immunology/conll

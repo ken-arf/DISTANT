@@ -40,6 +40,9 @@ gpu: 0
 #train_num_warmup_steps: 100 
 #max_patient_count: 3 
 
+#spacy_model: en_core_sci_sm
+spacy_model: en_core_sci_lg
+#spacy_model: en_ner_bc5cdr_md
 
 # restore model
 restore_model: True

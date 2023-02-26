@@ -22,7 +22,8 @@ from utils import utils
 
 from pu_dataloader import PU_Dataloader 
 #from pu_model import PU_Model 
-from pu_model2 import PU_Model 
+#from pu_model2 import PU_Model 
+from pu_model3 import PU_Model 
 from pu_samples import extract_neg_index
 from pu_samples import generate_final_pos_samples
 

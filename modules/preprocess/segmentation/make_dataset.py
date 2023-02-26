@@ -17,8 +17,10 @@ from utils import moses
 
 import pdb
 
-nlp = spacy.load("en_core_sci_sm")
-nlp.add_pipe("sentencizer")
+
+global nlp
+#nlp = spacy.load("en_core_sci_sm")
+#nlp.add_pipe("sentencizer")
 
 mymoses = moses.MyMosesTokenizer()
 
@@ -53,10 +55,11 @@ def tokenize(text, offset = False, moses = False, ):
     
 
 def load_dict(path):
+    print("loading dictionary", path)
     items = []
     with open(path) as fp:
         lines = [line.strip().lower() for line in fp.readlines() if len(line.strip()) !=0]
-    for line in lines:
+    for line in tqdm(lines):
         doc = tokenize(line)
         #print(doc)
         items.append(doc)
@@ -186,6 +189,10 @@ def main():
 
     # check running time
     t_start = time.time()                                                                                                  
+
+    global nlp
+    nlp = spacy.load(parameters["spacy_model"])
+    nlp.add_pipe("sentencizer")
 
     corpus_dir = parameters["corpus_dir"]
     output_dir = parameters["output_dir"]
