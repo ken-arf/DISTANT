@@ -3,7 +3,7 @@
 # data path
 task_name: bc5cdr 
 
-use_dictionary: False
+use_dictionary: True
 dict_dir: 
     - data/Mesh/processed_dict
     - data/UMLS/processed_dict
@@ -22,8 +22,10 @@ entity2integer:
     disease: 1
 
 
-corpus_dir: data/BC5CDR/corpus
-output_dir: data/BC5CDR/conll
+#corpus_dir: data/BC5CDR/corpus
+#output_dir: data/BC5CDR/conll
+corpus_dir: data/Mesh/PubMed/BC5CDR/extract
+output_dir: data/Mesh/PubMed/BC5CDR/conll
 
-use_pu_data: True
+use_pu_data: False
 pu_data: data/Corpus/BC5CDR/df_pu_train.csv

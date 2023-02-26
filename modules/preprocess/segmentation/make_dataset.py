@@ -18,9 +18,9 @@ from utils import moses
 import pdb
 
 
-global nlp
-#nlp = spacy.load("en_core_sci_sm")
-#nlp.add_pipe("sentencizer")
+#global nlp
+nlp = spacy.load("en_core_sci_lg")
+nlp.add_pipe("sentencizer")
 
 mymoses = moses.MyMosesTokenizer()
 
@@ -190,9 +190,9 @@ def main():
     # check running time
     t_start = time.time()                                                                                                  
 
-    global nlp
-    nlp = spacy.load(parameters["spacy_model"])
-    nlp.add_pipe("sentencizer")
+    #global nlp
+    #nlp = spacy.load(parameters["spacy_model"])
+    #nlp.add_pipe("sentencizer")
 
     corpus_dir = parameters["corpus_dir"]
     output_dir = parameters["output_dir"]

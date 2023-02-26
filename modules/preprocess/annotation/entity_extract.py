@@ -20,7 +20,7 @@ class ExtractEntityCandidate:
     def __init__(self, config_file):
 
         self.entityExtraction = EntityExtraction(config_file)
-        self.nlp = spacy.load("en_core_sci_sm")
+        self.nlp = spacy.load("en_core_sci_lg")
         self.nlp.add_pipe("sentencizer")
 
     def check_overlap(self, entities, term):

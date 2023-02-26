@@ -63,7 +63,7 @@ class EntityExtraction:
 
         self.logger.addHandler(handler1)
 
-        self.nlp = spacy.load("en_core_sci_sm")
+        self.nlp = spacy.load("en_core_sci_lg")
         #self.nlp.add_pipe("abbreviation_detector")
         self.nlp.add_pipe("sentencizer")
 

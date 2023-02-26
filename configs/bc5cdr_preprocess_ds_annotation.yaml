@@ -23,7 +23,8 @@ entity_names:
         - Chemical 
         - Disease
 
-document_root_dir: data/BC5CDR/corpus
+#document_root_dir: data/BC5CDR/corpus
+document_root_dir: data/Mesh/PubMed/BC5CDR/extract
 corpus_dir: data/Corpus/BC5CDR
 
 #spacy_model: en_core_sci_sm
