@@ -26,4 +26,9 @@ entity_names:
 document_root_dir: data/BC5CDR/corpus
 corpus_dir: data/Corpus/BC5CDR
 
+#spacy_model: en_core_sci_sm
+spacy_model: en_core_sci_lg
+#spacy_model: en_ner_bc5cdr_md
+
+
 segmentation_predict_config: configs/bc5cdr_segmentation_predict.yaml

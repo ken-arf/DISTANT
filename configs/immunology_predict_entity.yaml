@@ -36,6 +36,11 @@ entity_names:
 # gpu
 gpu: 0 
 
+#spacy_model: en_core_sci_sm
+spacy_model: en_core_sci_lg
+#spacy_model: en_ner_bc5cdr_md
+
+
 # restore model
 restore_model_path: experiments/immunology/models/model_best_final.pth
 
