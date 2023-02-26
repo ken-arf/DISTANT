@@ -14,7 +14,7 @@ import pdb
 
 from Bio.Entrez import efetch
 from Bio import Entrez                                                                                                                                                                                          
-Entrez.email = 'some@example.com'   
+Entrez.email = 'yano0828@gmail.com'   
  
 def get_abstract(pmid):
 
@@ -22,6 +22,7 @@ def get_abstract(pmid):
         handle = efetch(db='pubmed', id=pmid, retmode='text', rettype='abstract')
         buff = handle.read()
     except:
+        print("exception efetch")
         return ""
 
     abst_lines = []
@@ -69,6 +70,7 @@ def main():
         abst_file = os.path.join(parameters['pubmed_extract_dir'], "{}.txt".format(pmid))
 
         if os.path.exists(abst_file):
+            print(abst_file, " exist, skip")
             continue
         abst = get_abstract(pmid)
         if len(abst) <= 100:
