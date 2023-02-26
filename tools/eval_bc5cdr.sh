@@ -5,7 +5,7 @@ ROOT_DIR=../data/BC5CDR/eval
 
 predict_coll_dir=$ROOT_DIR/annotate.prev
 predict_coll_dir=$ROOT_DIR/annotate.latest
-predict_coll_dir=$ROOT_DIR/annotate.0225
+predict_coll_dir=$ROOT_DIR/annotate
 true_coll_dir=$ROOT_DIR/annotate.gold
 
 ls $predict_coll_dir/*.coll | sort | xargs -n1 cat > predict.coll
