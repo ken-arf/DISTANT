@@ -112,6 +112,9 @@ def train(parameters, name_suffix):
     dataloader = Dataloader(data, parameters)
     train_dataloader, valid_dataloader = dataloader.load_data()
 
+    print("Train data loader size: ", len(train_dataloader))
+    print("Valid data loader size: ", len(valid_dataloader))
+
     metric = evaluate.load("seqeval")
 
     if torch.cuda.is_available() and parameters['gpu'] >= 0:
