@@ -18,8 +18,8 @@ from utils import moses
 import pdb
 
 
-#global nlp
-nlp = spacy.load("en_core_sci_lg")
+#nlp = spacy.load("en_core_sci_lg")
+nlp = spacy.load("en_core_sci_sm")
 nlp.add_pipe("sentencizer")
 
 mymoses = moses.MyMosesTokenizer()

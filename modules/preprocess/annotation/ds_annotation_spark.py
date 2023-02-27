@@ -80,9 +80,8 @@ DISEASE=1
 # threshold for edit distance
 max_dist=0
 
-#nlp = spacy.load("en_core_sci_scibert")
-#nlp = spacy.load("en_ner_jnlpba_md")
-nlp = spacy.load("en_core_sci_lg")
+#nlp = spacy.load("en_core_sci_lg")
+nlp = spacy.load("en_core_sci_sm")
 
 #nlp.add_pipe("abbreviation_detector")
 nlp.add_pipe("sentencizer")

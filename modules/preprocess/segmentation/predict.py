@@ -63,8 +63,8 @@ class EntityExtraction:
 
         self.logger.addHandler(handler1)
 
-        self.nlp = spacy.load("en_core_sci_lg")
-        #self.nlp.add_pipe("abbreviation_detector")
+        #self.nlp = spacy.load("en_core_sci_lg")
+        self.nlp = spacy.load("en_core_sci_sm")
         self.nlp.add_pipe("sentencizer")
 
         with open(config_yaml, 'r') as stream:

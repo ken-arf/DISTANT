@@ -14,7 +14,8 @@ from utils import utils
 
 
 
-nlp = spacy.load("en_core_sci_lg")
+#nlp = spacy.load("en_core_sci_lg")
+nlp = spacy.load("en_core_sci_sm")
 nlp.add_pipe("sentencizer")
 
 
