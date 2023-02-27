@@ -173,7 +173,7 @@ def entity_extract(entityExtraction, sent, pmid, k):
     start_chars= []
     end_chars = []
                 
-    candidates = entityExtraction.extract_candiate(sent)
+    candidates = entityExtraction.extract_candiate(sent, custom_model =True, scipy_model = True)
     
     for ent in candidates:
 
@@ -413,6 +413,7 @@ def main():
 
     df_train = pd.concat(dfs, ignore_index=True)
 
+    print("df_train size:", df_train.shape)
 
     # dictionary generation1
     dict_dirs = parameters["processed_dict_dirs"]
