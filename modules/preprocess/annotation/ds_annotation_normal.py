@@ -117,9 +117,6 @@ def min_edit_distance(ref, src):
     return min_l
 
 
-def get_synonyms(word):
-    """Get the synonyms of word from Wordnet."""
-    return wn.synsets(word.lower())
 
 def entity_extract(sent, pmid,k):
        
@@ -130,9 +127,6 @@ def entity_extract(sent, pmid,k):
    end_chars = []
 
    for ent in sent.ents:
-
-       if len(get_synonyms(ent.text)) != 0:
-            continue
 
        entities.append(ent.text)
        start_tokens.append(int(ent.start))

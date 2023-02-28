@@ -160,9 +160,6 @@ def min_edit_distance(ref, src):
     return min_l
 
 
-def get_synonyms(word):
-    """Get the synonyms of word from Wordnet."""
-    return wn.synsets(word.lower())
 
 def entity_extract(entityExtraction, sent, pmid, k):
 
@@ -176,8 +173,6 @@ def entity_extract(entityExtraction, sent, pmid, k):
     
     for ent in candidates:
 
-        if len(get_synonyms(ent.text)) != 0:
-             continue
     
         entities.append(ent.text)
         start_tokens.append(int(ent.start))
@@ -198,37 +193,6 @@ def entity_extract(entityExtraction, sent, pmid, k):
 
 
 
-
-def entity_extract_old(sent, pmid,k):
-       
-    entities = []
-    start_tokens = []
-    end_tokens = []
-    start_chars= []
-    end_chars = []
-
-    for ent in sent.ents:
-
-        if len(get_synonyms(ent.text)) != 0:
-             continue
-
-        entities.append(ent.text)
-        start_tokens.append(int(ent.start))
-        end_tokens.append(int(ent.end))
-        start_chars.append(int(ent.start_char))
-        end_chars.append(int(ent.end_char))
-
-    df = pd.DataFrame({'entities': entities, 
-                       'start_tokens': start_tokens, 
-                       'end_tokens': end_tokens, 
-                       'start_chars': start_chars, 
-                       'end_chars': end_chars,
-                       'text': [sent.text] * len(entities),
-                       'pmid': [f"{pmid}_{k}"] * len(entities)})
-
-
-    return df
-   
 
 
 # snorkel Labeling functions

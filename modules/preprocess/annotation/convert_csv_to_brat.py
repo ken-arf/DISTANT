@@ -31,10 +31,6 @@ def apply_group(df):
     
     return df_entities
 
-def get_synonyms(word):
-    """Get the synonyms of word from Wordnet."""
-    return wn.synsets(word.lower())
-
 
 def main():
 
@@ -106,8 +102,6 @@ def main():
         with open(ann_file, 'w') as ann_fp:
             for k, (entity, label, char_offset) in  enumerate(zip(entities, labels, char_offsets)):
 
-                if len(get_synonyms(entity)) != 0:
-                    continue
                     
                 start_char = char_offset[0]
                 end_char = char_offset[1]

@@ -270,9 +270,6 @@ class Entity_extractor:
 
         return df_doc, test_dataloader
 
-#def get_synonyms(word):
-#    """Get the synonyms of word from Wordnet."""
-#    return wn.synsets(word.lower())
 
 def output_annotation_file(doc_file, df_result, annotation_root_dir, entity_names):
 
@@ -316,8 +313,6 @@ def output_annotation_file(doc_file, df_result, annotation_root_dir, entity_name
             if end_char == doc_len:
                 end_char -= 1
 
-            #if len(get_synonyms(entity)) != 0:
-            #    continue
 
             entity_type = entity_types[predict]
             fp.write(f"T{k+1}\t{entity_type} {start_char} {end_char}\t{entity}\n")
