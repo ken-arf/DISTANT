@@ -94,7 +94,6 @@ def match_entity(tokens, entity_dict, entity_type):
 
 def annotate(files, parameters):
 
-
     ent2int = parameters["entity2integer"]
     int2ent = {i:k for k,i in ent2int.items()}
     
@@ -110,6 +109,9 @@ def annotate(files, parameters):
 
     if parameters["use_dictionary"]:
         for dict_path in dict_paths:
+            if not os.path.exists(dict_path):
+                continue
+
             path, fname = os.path.split(dict_path)
             name, txt = os.path.splitext(fname)
             entity_dict[name] += load_dict(dict_path)

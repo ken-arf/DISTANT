@@ -14,6 +14,7 @@ spark: True
 processed_dict_dirs:
         - data/Mesh/processed_dict
         - data/UMLS/processed_dict
+        - data/BC5CDR/processed_dict
 
 dict_files: 
         - chemicals.dict

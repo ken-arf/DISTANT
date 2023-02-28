@@ -7,19 +7,17 @@ use_dictionary: True
 dict_dir: 
     - data/Mesh/processed_dict
     - data/UMLS/processed_dict
-#    - data/BC5CDR/processed_dict
-
-#spacy_model: en_core_sci_sm
-spacy_model: en_core_sci_lg
-#spacy_model: en_ner_bc5cdr_md
+    - data/BC5CDR/processed_dict
 
 dict_files:
     - chemicals.dict
     - disease.dict
+    - others.dict
 
 entity2integer:
     chemicals: 0
     disease: 1
+    others: 2
 
 
 #corpus_dir: data/BC5CDR/corpus
