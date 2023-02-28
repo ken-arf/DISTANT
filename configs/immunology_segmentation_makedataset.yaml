@@ -3,6 +3,7 @@
 # data path
 task_name: immunology 
 
+use_dictionary: True
 dict_dir: 
     - data/Mesh/processed_dict
     - data/UMLS/processed_dict
@@ -24,5 +25,5 @@ spacy_model: en_core_sci_lg
 corpus_dir: data/Mesh/PubMed/Immunology/extract
 output_dir: data/Mesh/PubMed/Immunology/conll
 
-use_pu_data: True
+use_pu_data: False
 pu_data: data/Corpus/Immunology/df_pu_train.csv

@@ -295,7 +295,8 @@ def extract_negative_samples(parameters):
 
     pos_label_num = parameters["class_num"]
 
-    for step in range(3):
+    #for step in range(3):
+    for step in range(1):
 
         parameters["seed"] = step
         df_train_pos, df_train_neg = setup_pu_dataset(step, parameters)

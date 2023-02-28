@@ -53,8 +53,21 @@ def extract_true_neg_candidate(csv):
 
     return df_neg_true
 
-
 def extract_neg_index(model_dir):
+
+    # neg_sample result for 3 steps
+    df_neg_true_0= extract_true_neg_candidate(os.path.join(model_dir, "train_neg_0.csv"))
+    #df_neg_true_1= extract_true_neg_candidate(os.path.join(model_dir, "train_neg_1.csv"))
+    #df_neg_true_2= extract_true_neg_candidate(os.path.join(model_dir, "train_neg_2.csv"))
+    
+    neg_index_0 = df_neg_true_0["orig_index"].values.tolist()
+    #neg_index_1 = df_neg_true_1["orig_index"].values.tolist()
+    #neg_index_2 = df_neg_true_2["orig_index"].values.tolist()
+    
+    #true_neg_indexes = sorted(list(set(neg_index_0 ).intersection(set(neg_index_1 )).intersection(set(neg_index_2))))
+    return sorted(neg_index_0)
+
+def extract_neg_index_old(model_dir):
 
     # neg_sample result for 3 steps
     df_neg_true_0= extract_true_neg_candidate(os.path.join(model_dir, "train_neg_0.csv"))

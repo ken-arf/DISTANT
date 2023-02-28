@@ -172,7 +172,7 @@ def entity_extract(entityExtraction, sent, pmid, k):
     start_chars= []
     end_chars = []
                 
-    candidates = entityExtraction.extract_candiate(sent, custom_model =True, scipy_model = True)
+    candidates = entityExtraction.extract_candiate(sent, custom_model =True, scipy_model = False)
     
     for ent in candidates:
 
