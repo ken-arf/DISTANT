@@ -24,10 +24,6 @@ import xmltodict
 import pdb
 
 
-def get_synonyms(word):
-    """Get the synonyms of word from Wordnet."""
-    return wn.synsets(word.lower())
-
 
 def replace_greek_char(term):
     name = ['alpha','beta','gamma','delta','epsilon','zeta','eta','theta','iota','kappa', 'lambda','mu','nu','xi','omicron','pi','pho','sigma','tau','upsilon','phi','chi','psi','omega']
@@ -83,7 +79,7 @@ def expand_dict(dict_path, parameters):
         expanded_terms = []
         if ',' in term:
             parts = re.split(',', term)
-            parts = [part.strip() for part in parts if len(get_synonyms(part.strip())) == 0]
+            parts = [part.strip() for part in parts]
             expanded_terms += parts
             expanded_terms.append(' '.join(parts))
             expanded_terms.append(' '.join(parts[::-1]))

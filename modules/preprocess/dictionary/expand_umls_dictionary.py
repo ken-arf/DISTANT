@@ -23,15 +23,6 @@ import pdb
 
 
 
-def get_synonyms(word):
-    """Get the synonyms of word from Wordnet."""
-
-    if not re.fullmatch(r'\w+', word.lower()):
-        return [] 
-
-    lemmas = set().union(*[s.lemmas() for s in wn.synsets(word)])
-    return list(set(l.name().lower().replace("_", " ") for l in lemmas) - {word})
-
 
 def replace_greek_char(term):
     name = ['alpha','beta','gamma','delta','epsilon','zeta','eta','theta','iota','kappa', 'lambda','mu','nu','xi','omicron','pi','pho','sigma','tau','upsilon','phi','chi','psi','omega']
