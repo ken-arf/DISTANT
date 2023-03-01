@@ -6,6 +6,7 @@ task_name: bc5cdr
 entities:
     - chemicals.dict
     - disease.dict
+    - others.dict
 
 #corpus_dir: data/BC5CDR/conll
 corpus_dir: data/Mesh/PubMed/BC5CDR/conll

@@ -13,6 +13,9 @@ corpus_dir: data/Corpus/JNLPBA
 
 # model save dir
 model_dir: experiments/jnlpba/models
+#
+# PU threshold true negative percentile threshold
+pu_thres_pert: 5
 
 # bert model
 seed: 22

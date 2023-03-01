@@ -14,6 +14,9 @@ corpus_dir: data/Corpus/Immunology
 # model save dir
 model_dir: experiments/immunology/models
 
+# PU threshold true negative percentile threshold
+pu_thres_pert: 5
+
 # bert model
 seed: 22
 #model_checkpoint: allenai/scibert_scivocab_cased

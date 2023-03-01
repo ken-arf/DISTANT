@@ -354,7 +354,7 @@ def main():
 
     extract_negative_samples(parameters)
     model_dir = parameters["model_dir"]
-    true_neg_index = extract_neg_index(model_dir)
+    true_neg_index = extract_neg_index(model_dir, parameters["pu_thres_pert"])
     
     # step-2.
     # classify unknown samples

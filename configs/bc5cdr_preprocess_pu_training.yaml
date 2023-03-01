@@ -23,8 +23,11 @@ embedding_dim: 768
 # positive label num
 class_num: 2
 
+# PU threshold true negative percentile threshold
+pu_thres_pert: 5
+
 # gpu
-gpu: 0 
+gpu: -1 
 
 # training
 train_epochs: 50
