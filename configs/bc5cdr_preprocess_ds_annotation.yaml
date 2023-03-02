@@ -24,10 +24,8 @@ entity_names:
         - Chemical 
         - Disease
 
-#document_root_dir: data/BC5CDR/corpus
-document_root_dir: data/Mesh/PubMed/BC5CDR/extract
-corpus_dir: data/Corpus/BC5CDR
-
+document_root_dir: data/BC5CDR/corpus
+#document_root_dir: data/Mesh/PubMed/BC5CDR/extract
 
 
 segmentation_predict_config: configs/bc5cdr_segmentation_predict.yaml

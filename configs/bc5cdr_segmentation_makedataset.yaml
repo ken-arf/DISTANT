@@ -20,10 +20,10 @@ entity2integer:
     others: 2
 
 
-#corpus_dir: data/BC5CDR/corpus
-#output_dir: data/BC5CDR/conll
-corpus_dir: data/Mesh/PubMed/BC5CDR/extract
-output_dir: data/Mesh/PubMed/BC5CDR/conll
+corpus_dir: data/BC5CDR/corpus
+output_dir: data/BC5CDR/conll
+#corpus_dir: data/Mesh/PubMed/BC5CDR/extract
+#output_dir: data/Mesh/PubMed/BC5CDR/conll
 
 use_pu_data: True
 pu_data: data/Corpus/BC5CDR/df_pu_train.csv

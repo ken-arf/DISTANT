@@ -5,9 +5,8 @@ task_name: bc5cdr
 
 #processed_dict_dir: data/BC5CDR/processed_dict
 
-#document_root_dir: data/BC5CDR/corpus
-document_root_dir: data/Mesh/PubMed/BC5CDR/extract
-corpus_dir: data/Corpus/BC5CDR
+document_root_dir: data/BC5CDR/corpus
+#document_root_dir: data/Mesh/PubMed/BC5CDR/extract
 
 # model save dir
 model_dir: experiments/bc5cdr/models

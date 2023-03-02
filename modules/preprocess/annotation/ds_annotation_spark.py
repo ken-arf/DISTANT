@@ -79,6 +79,7 @@ DISEASE=1
 
 # threshold for edit distance
 max_dist=0
+#max_dist=1
 
 #nlp = spacy.load("en_core_sci_lg")
 nlp = spacy.load("en_core_sci_sm")
@@ -105,6 +106,16 @@ synonym_table = {
 synonym_table.update(greek_translate)
 
 lemmatizer = WordNetLemmatizer()
+
+def is_substr(ref, src):
+
+    ref = re.sub(r'\W', '', ref)
+    src = re.sub(r'\W', '', src)
+
+    if src in ref:
+        return True
+    else:
+        return False
 
 def min_edit_distance_test(ref, src):
 
@@ -206,6 +217,15 @@ def lf_cytokine_distsv(x):
             return CYTOKINE
     return ABSTAIN
 
+@labeling_function()
+def lf_cytokine_substr(x):
+    # Returns a label of rating if pattern of digit star's found in the phrase
+    ent = x.lower()
+    for phrase in dist_dict['cytokine.dict']:
+        if is_substr(phrase, ent):
+            return CYTOKINE
+    return ABSTAIN
+
 
 @labeling_function()
 def lf_transcription_factor_distsv(x):
@@ -217,6 +237,15 @@ def lf_transcription_factor_distsv(x):
             return TRANSCRIPTION_FACTOR
     return ABSTAIN
 
+@labeling_function()
+def lf_transcription_factor_substr(x):
+    # Returns a label of rating if pattern of digit star's found in the phrase
+    ent = x.lower()
+    for phrase in dist_dict['transcription_factor.dict']:
+        if is_substr(phrase, ent):
+            return TRANSCRIPTION_FACTOR
+    return ABSTAIN
+
 
 @labeling_function()
 def lf_t_lymphocyte_distsv(x):
@@ -225,6 +254,15 @@ def lf_t_lymphocyte_distsv(x):
     for phrase in dist_dict['t_lymphocyte.dict']:
         #if ed.eval(ent,phrase.lower()) <= max_dist:
         if min_edit_distance(phrase, ent) <= max_dist:
+            return T_LYMPHOCYTE
+    return ABSTAIN
+
+@labeling_function()
+def lf_t_lymphocyte_substr(x):
+    # Returns a label of rating if pattern of digit star's found in the phrase
+    ent = x.lower()
+    for phrase in dist_dict['t_lymphocyte.dict']:
+        if is_substr(phrase, ent):
             return T_LYMPHOCYTE
     return ABSTAIN
 
@@ -306,6 +344,16 @@ def lf_chemicals_distsv(x):
     return ABSTAIN
 
 @labeling_function()
+def lf_chemicals_substr(x):
+    # Returns a label of rating if pattern of digit star's found in the phrase
+    ent = x.lower()
+    for phrase in dist_dict['chemicals.dict']:
+        if is_substr(phrase, ent):
+            return CHEMICAL 
+    return ABSTAIN
+
+
+@labeling_function()
 def lf_disease_distsv(x):
     # Returns a label of rating if pattern of digit star's found in the phrase
     ent = x.lower()
@@ -315,6 +363,14 @@ def lf_disease_distsv(x):
             return DISEASE 
     return ABSTAIN
 
+@labeling_function()
+def lf_disease_substr(x):
+    # Returns a label of rating if pattern of digit star's found in the phrase
+    ent = x.lower()
+    for phrase in dist_dict['disease.dict']:
+        if is_substr(phrase, ent):
+            return DISEASE 
+    return ABSTAIN
 
 
 global dist_dict
@@ -403,6 +459,8 @@ def main():
         basename, _ = os.path.splitext(fname)
         lf_func = f"lf_{basename}_distsv"
         lfs.append(eval(lf_func))
+        lf_func = f"lf_{basename}_substr"
+        lfs.append(eval(lf_func))
 
     if parameters["spark"]:
         L_train = snorkel_spark(parameters, df_train["entities"], lfs)
@@ -417,7 +475,7 @@ def main():
         df_train[lfs[i].name] = L_train[:, i]
 
 
-    label_model = MajorityLabelVoter(cardinality=len(lfs))
+    label_model = MajorityLabelVoter(cardinality=int(len(lfs) / 2))
     df_train["label"] = label_model.predict(L=L_train)
 
     df_train['start_tokens'] = df_train['start_tokens'].astype(np.int64)

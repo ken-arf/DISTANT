@@ -15,6 +15,8 @@ def percentile(prob, percent):
 
 def extract_true_neg_candidate(csv, thres_pert):
 
+    prob_thres = 0.90
+
     thres_percentile = thres_pert 
     df_train_neg = pd.read_csv(csv)
     df_neg = df_train_neg[df_train_neg["olabel"]==-1]
@@ -37,8 +39,8 @@ def extract_true_neg_candidate(csv, thres_pert):
     prob_col_names = [ f"prob_{k}" for k in dfs.keys() ]
     max_prob = np.max(df_neg[prob_col_names].values, axis=1)
     max_index = np.argmax(df_neg[prob_col_names].values, axis=1)
-    #thres = [probs[index]['mean'] for index in max_index]
-    thres = [probs[index]['per'] for index in max_index]
+
+    thres = [min(probs[index]['per'], prob_thres) for index in max_index]
     
     mask = max_prob < np.array(thres)
     df_neg_true = df_neg[mask]
@@ -48,7 +50,7 @@ def extract_true_neg_candidate(csv, thres_pert):
 
 def extract_true_neg_candidate_old(csv):
     
-    thres_percentile = 5
+    thres_percentile = 2.5 
     df_train_neg = pd.read_csv(csv)
     df_neg = df_train_neg[df_train_neg["olabel"]==-1]
 
