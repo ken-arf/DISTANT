@@ -483,6 +483,9 @@ def main():
     df_train['start_chars'] = df_train['start_chars'].astype(np.int64)
     df_train['end_chars'] = df_train['end_chars'].astype(np.int64)
 
+    # drop na rows
+    df_train = df_train.dropna()
+
     df_train_raw = df_train.copy()
 
     N = df_train_raw.shape[0]

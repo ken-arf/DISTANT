@@ -58,53 +58,85 @@ class PU_Dataloader:
 
         # shuffle dataset
 
-        #df_train = pd.concat([self.df_train_pos, self.df_train_neg], axis=0)
         df_train = self.df_train_pos
         df_train = df_train.sample(frac=1, replace=False, random_state=self.myseed)
 
         n = len(df_train)
-        val_size = int(n * 0.1)
+        train_size = int(n * 0.9)
 
-        df_train_dataset_ = df_train.iloc[:n-val_size]
-        df_valid_dataset_ = df_train.iloc[n-val_size:]
+        df_train_dataset_ = df_train[:train_size]
+        df_valid_dataset_ = df_train[train_size:]
 
-        train_dataset = Dataset.from_pandas(df_train_dataset_)
-        valid_dataset = Dataset.from_pandas(df_valid_dataset_)
-        test_dataset = Dataset.from_pandas(self.df_train_neg)
+        if self.df_train_neg:
 
-        self.datasets = DatasetDict({
-            "train": train_dataset,
-            "valid": valid_dataset,
-            "test": test_dataset,
-            })
+            train_dataset = Dataset.from_pandas(df_train_dataset_)
+            valid_dataset = Dataset.from_pandas(df_valid_dataset_)
+            test_dataset = Dataset.from_pandas(self.df_train_neg)
 
-        tokenized_datasets = self.datasets.map(
-                self.tokenized_and_align_labels,
-                batched = True,
-                remove_columns = self.datasets["train"].column_names
-                )
+            self.datasets = DatasetDict({
+                "train": train_dataset,
+                "valid": valid_dataset,
+                "test": test_dataset,
+                })
 
-        train_dataloader = DataLoader(
-            tokenized_datasets["train"],
-            shuffle=True,
-            collate_fn=self.data_collator,
-            batch_size = self.params["train_batch_size"],
-        )
+            tokenized_datasets = self.datasets.map(
+                    self.tokenized_and_align_labels,
+                    batched = True,
+                    remove_columns = self.datasets["train"].column_names
+                    )
 
-        valid_dataloader = DataLoader(
-            tokenized_datasets["valid"],
-            shuffle=True,
-            collate_fn=self.data_collator,
-            batch_size = self.params["valid_batch_size"],
-        )
+            train_dataloader = DataLoader(
+                tokenized_datasets["train"],
+                shuffle=True,
+                collate_fn=self.data_collator,
+                batch_size = self.params["train_batch_size"],
+            )
 
-        test_dataloader = DataLoader(
-            tokenized_datasets["test"],
-            shuffle=False,
-            collate_fn=self.data_collator,
-            batch_size = self.params["test_batch_size"],
-        )
+            valid_dataloader = DataLoader(
+                tokenized_datasets["valid"],
+                shuffle=True,
+                collate_fn=self.data_collator,
+                batch_size = self.params["valid_batch_size"],
+            )
 
+            test_dataloader = DataLoader(
+                tokenized_datasets["test"],
+                shuffle=False,
+                collate_fn=self.data_collator,
+                batch_size = self.params["test_batch_size"],
+            )
+
+        else:
+
+            train_dataset = Dataset.from_pandas(df_train_dataset_)
+            valid_dataset = Dataset.from_pandas(df_valid_dataset_)
+
+            self.datasets = DatasetDict({
+                "train": train_dataset,
+                "valid": valid_dataset,
+                })
+
+            tokenized_datasets = self.datasets.map(
+                    self.tokenized_and_align_labels,
+                    batched = True,
+                    remove_columns = self.datasets["train"].column_names
+                    )
+
+            train_dataloader = DataLoader(
+                tokenized_datasets["train"],
+                shuffle=True,
+                collate_fn=self.data_collator,
+                batch_size = self.params["train_batch_size"],
+            )
+
+            valid_dataloader = DataLoader(
+                tokenized_datasets["valid"],
+                shuffle=True,
+                collate_fn=self.data_collator,
+                batch_size = self.params["valid_batch_size"],
+            )
+
+            test_dataloader = None
 
         return train_dataloader, valid_dataloader, test_dataloader
 
