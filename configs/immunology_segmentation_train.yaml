@@ -3,10 +3,12 @@
 # data path
 task_name: immunology 
 
-entities:
-    - cytokine
-    - transcription_factor
-    - t_lymphocyte
+num_bio_labels:  3
+
+#entities:
+#    - cytokine
+#    - transcription_factor
+#    - t_lymphocyte
 
 corpus_dir: data/Mesh/PubMed/Immunology/conll
 # model save dir
@@ -27,7 +29,6 @@ class_num: 2
 
 # gpu
 gpu: 0 
-
 
 # training
 train_epochs: 50

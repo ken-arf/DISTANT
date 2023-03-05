@@ -238,7 +238,6 @@ def setup_pu_dataset(step, parameters):
 
 def setup_final_dataset(unknown_sample_result, parameters):
 
-    pdb.set_trace()
 
     corpus_dir = parameters["corpus_dir"]
     df_train_raw = pd.read_csv(os.path.join(corpus_dir,"df_train_pos_neg.csv"), index_col=0)
@@ -328,7 +327,7 @@ def main():
     # negative samples by the common sample set from the three sets of negative samples
 
     count = 3
-    #extract_negative_samples(parameters, count=count)
+    extract_negative_samples(parameters, count=count)
     model_dir = parameters["model_dir"]
     unknow_sample_result = classify_unknown_samples(model_dir, parameters["pu_thres_pert"], count=count)
     

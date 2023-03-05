@@ -1,0 +1,1045 @@
+,entities
+0,(STAT)3
+1,(STAT)4
+2,(TNF)-alpha
+3,(n)Treg
+4,+ T cell
+5,1
+6,17 cells
+7,2 helper T cells
+8,AHR
+9,AP-1
+10,AP-1 transcription factor
+11,ATF2
+12,ATF3
+13,Activating transcription factor-3
+14,AhR
+15,Ahr
+16,Aryl hydrocarbon receptor
+17,B cell
+18,B lymphocyte
+19,B lymphocyte induced maturation protein-1
+20,B lymphocyte stimulator
+21,B lymphocyte-induced maturation protein 1
+22,B subunit
+23,B-cell
+24,B-cell lymphoma 6 protein
+25,BCL-6
+26,Bcl-6
+27,Binding Protein
+28,C-C
+29,C-C chemokine
+30,C-C chemokines
+31,C-MAF
+32,C-REL
+33,C-X-C
+34,C-X-C chemokine
+35,C-rel
+36,CBP
+37,CC chemokine
+38,CCAAT/enhancer binding protein alpha
+39,CCCTC-binding factor
+40,CCL1
+41,CCL11
+42,CCL17
+43,CCL19
+44,CCL2
+45,CCL20
+46,CCL21
+47,CCL22
+48,CCL3
+49,CCL4
+50,CCL5
+51,CCL8
+52,CCR4
+53,CD154
+54,CD25(+)T cells
+55,CD27
+56,CD3+T cells
+57,CD4
+58,CD4 lymphocytes
+59,CD4(+)CD25(+)Foxp3(+)Regulatory T cells
+60,CD4(+)CD25(+)Treg cell
+61,CD4(+)CD25(-)T cell
+62,CD4(+)T
+63,CD4(+)T cells
+64,CD4+ T cell
+65,CD4+ T lymphocyte
+66,CD4+ T lymphocytes
+67,CD4+CD25+regulatory T cells
+68,CD4+T
+69,CD4+T cell
+70,CD4+T cells
+71,CD4+T-cells
+72,CD4-positive T cells
+73,CD40 ligand
+74,CD40L
+75,CD70
+76,CD8
+77,CD8 cell
+78,CD8 lymphocytes
+79,CD8(+)T cells
+80,CD8+ T cell
+81,CD8+ T lymphocyte
+82,CD8+ T lymphocytes
+83,CD8+T cell
+84,CD8+T cells
+85,CD95 ligand
+86,CD95L
+87,CREB
+88,CREB-binding protein
+89,CTCF
+90,CTL
+91,CXC chemokine
+92,CXCL1
+93,CXCL1 protein
+94,CXCL10
+95,CXCL11
+96,CXCL12
+97,CXCL13
+98,CXCL16
+99,CXCL2
+100,CXCL8
+101,CXCL9
+102,Ccl17
+103,Ccl21
+104,Ccl22
+105,Ccl8
+106,Cell-mediated
+107,Chemokine CXCL11
+108,Chemokines
+109,Co-repressor histone deacetylase 9
+110,CxCL13
+111,Cytokine
+112,Cytokines
+113,Cytotoxic T Lymphocytes
+114,DNA-binding protein
+115,EBI3
+116,EGR1
+117,ELC
+118,ERalpha
+119,ERbeta
+120,ERα
+121,ERβ
+122,ETS
+123,EZH2
+124,Effector T cells
+125,Egr transcription factors
+126,Egr1
+127,Egr2
+128,Egr3
+129,Eotaxin
+130,Ets
+131,Ets transcription factor
+132,Ets-1
+133,Ezh2
+134,Fas Ligand
+135,Fas ligand
+136,Fas ligand (FasL
+137,Fas ligand (FasL)
+138,Follicular helper T cells
+139,Forkhead Box
+140,Forkhead box
+141,Forkhead box protein
+142,Forkhead box transcription factor
+143,Forkhead transcription factor
+144,Forkhead transcription factors
+145,Foxp3(+)Treg
+146,G-CSF
+147,GAD65
+148,GATA
+149,GATA binding protein
+150,GATA2
+151,GATA3
+152,GDF-15
+153,GM-CSF
+154,Gamma interferon
+155,Gata3
+156,Gata3 transcriptional
+157,H1
+158,HDAC1
+159,HGF
+160,HIV Tat protein
+161,Helper T cells
+162,Hepatocyte growth factor
+163,Hes-1
+164,Histone deacetylase
+165,I kappa B
+166,IFN
+167,IFN regulatory factor
+168,IFN regulatory factor 3
+169,IFN regulatory factor 4
+170,IFN regulatory factor 7
+171,IFN) gamma
+172,IFN- γ
+173,IFN-beta
+174,IFN-g
+175,IFN-gamma
+176,IFN-β
+177,IFN-γ
+178,IFNA
+179,IFNG
+180,IFNs
+181,II interferon
+182,II interferons
+183,IL -4
+184,IL-1
+185,IL-1-alpha
+186,IL-10
+187,IL-10 Treg
+188,IL-11
+189,IL-12
+190,IL-12 p35
+191,IL-12 p40
+192,IL-12 p70
+193,IL-12p35
+194,IL-12p40
+195,IL-13
+196,IL-13 cytokines
+197,IL-15
+198,IL-16
+199,IL-17
+200,IL-17A
+201,IL-17E
+202,IL-17F
+203,IL-17a
+204,IL-18
+205,IL-1RA
+206,IL-1alpha
+207,IL-1beta
+208,IL-1α
+209,IL-1β
+210,IL-2
+211,IL-2 cytokine
+212,IL-21
+213,IL-22
+214,IL-23
+215,IL-23(rIL-23
+216,IL-23p19
+217,IL-25
+218,IL-27
+219,IL-3
+220,IL-31
+221,IL-33
+222,IL-4
+223,IL-4 cytokine
+224,IL-4 receptor alpha
+225,IL-5
+226,IL-6
+227,IL-6 TGF-β
+228,IL-7
+229,IL-7 receptor
+230,IL-8
+231,IL-9
+232,IL1-β
+233,IL10
+234,IL12
+235,IL12A
+236,IL12B
+237,IL12p35
+238,IL17
+239,IL17+Foxp3
+240,IL17A
+241,IL17F
+242,IL1B
+243,IL2
+244,IL21
+245,IL22
+246,IL23
+247,IL23A
+248,IL4
+249,IL5
+250,IL6
+251,IL8
+252,IL9
+253,IP-10
+254,IRF
+255,IRF-1
+256,IRF-2
+257,IRF-3
+258,IRF-7
+259,Ifng
+260,IkappaBalpha
+261,Ikaros
+262,Il-10
+263,Il-17A
+264,Il-4
+265,Il-6
+266,Il10
+267,Il13
+268,Il17
+269,Il17a
+270,Il17f
+271,Il2
+272,Il21
+273,Il31
+274,Il4
+275,Il5
+276,Il6
+277,Il7
+278,Il8
+279,Il9
+280,Inhibitor of differentiation protein 2
+281,Interferon
+282,Interferon Regulatory Factor
+283,Interferon Regulatory Factor 1
+284,Interferon gamma
+285,Interferon regulatory factor
+286,Interferon regulatory factor 7
+287,Interferon regulatory factor-1
+288,Interferon regulatory factors
+289,Interferon-alpha
+290,Interferon-beta
+291,Interferon-gamma
+292,Interferon-β
+293,Interferon-γ
+294,Interferons
+295,Interleukin
+296,Interleukin 2
+297,Interleukin 21
+298,Interleukin 33
+299,Interleukin 4
+300,Interleukin 9
+301,Interleukin-10
+302,Interleukin-12
+303,Interleukin-15
+304,Interleukin-17
+305,Interleukin-17A
+306,Interleukin-2
+307,Interleukin-21
+308,Interleukin-22
+309,Interleukin-23
+310,Interleukin-27
+311,Interleukin-33
+312,Interleukin-4
+313,Interleukin-5
+314,Interleukin-6
+315,Interleukin-7
+316,Interleukin-9
+317,Intraepithelial
+318,Intraepithelial lymphocytes
+319,Invariant natural killer T cells
+320,Irf-1
+321,Jurkat
+322,Jurkat T cell
+323,Jurkat T cells
+324,Jurkat cells
+325,KLF4
+326,Kruppel-like factor
+327,L-cells
+328,LT beta
+329,Lymphotoxin
+330,M-CSF
+331,MAIT
+332,MAIT cell
+333,MAIT cells
+334,MIP-1alpha
+335,MIP-1beta
+336,MIP-1α
+337,MIP-2
+338,MLL
+339,MPL
+340,MYC
+341,Maf
+342,Mast cell
+343,Monocyte chemoattractant protein
+344,Monocyte-derived
+345,Myb
+346,NF(kappa)B
+347,NF-AT
+348,NF-IL6
+349,NF-KB
+350,NF-kB
+351,NF-kB p65
+352,NF-kappa B
+353,NF-kappaB
+354,NF-kappaB p65
+355,NF-kappaB2
+356,NFATC2
+357,NFATc
+358,NFATc1
+359,NFATc2
+360,NFKB1
+361,NKT
+362,NKT cell
+363,NKT cells
+364,NOTCH1
+365,Natural Killer
+366,Natural killer
+367,Naturally occurring
+368,Naturally occurring regulatory T
+369,Nfatc1
+370,Nfatc3
+371,Notch 1
+372,Notch receptor
+373,Notch receptors
+374,Notch1
+375,Notch1 receptor
+376,Notch2
+377,Nuclear Factor
+378,Nuclear Factor Kappa B
+379,Nuclear factor
+380,Nuclear factor of activated T cells
+381,Nuclear receptor subfamily 2
+382,OCT-1
+383,OX40 ligand
+384,Oct-1
+385,Oct-2
+386,PPAR
+387,PSD-95/N-methyl-d-aspartate receptor protein complex
+388,PcG
+389,Polycomb group
+390,Pou2f1
+391,RANTES
+392,RANTES chemokines
+393,RAR
+394,REGulatory T cells
+395,RFX1
+396,RNA polymerase II
+397,RTE
+398,RTEs
+399,Rantes
+400,Regulatory T
+401,Regulatory T cell
+402,Regulatory T cells
+403,Regulatory T lymphocyte
+404,Regulatory T lymphocytes
+405,Regulatory T-cell
+406,Regulatory T-cells
+407,Regulatory T cells
+408,Regulatory factor
+409,Rel
+410,RelA
+411,RelB
+412,Retinoic acid
+413,Runt-related
+414,Runx proteins
+415,SDF-1α
+416,SMAD
+417,SOX11
+418,SOX4
+419,SP
+420,SP1
+421,STAT
+422,STAT transcription factors
+423,STAT1
+424,STAT1 protein
+425,STAT1 transcription factor
+426,STAT2
+427,STAT2 protein
+428,STAT3
+429,STAT3 transcription factor
+430,STAT4
+431,STAT4 protein
+432,STAT4 serine
+433,STAT4 transcription factor
+434,STAT5
+435,STAT5 protein
+436,STAT5 transcription factor
+437,STAT5A
+438,STAT5B
+439,STAT5a
+440,STAT5b
+441,STAT6
+442,STAT6 protein
+443,STAT6 transcription factor
+444,STAT6-/-
+445,Serine
+446,Signal Transducer and Activator of Transcription 6
+447,Signal transducer and activator of transcription 1
+448,Signal transducer and activator of transcription 3
+449,Signal transducer and activator of transcription 4
+450,Smad
+451,Smad proteins
+452,Sox12
+453,SoxC
+454,Stat
+455,Stat1
+456,Stat2
+457,Stat3
+458,Stat3 protein
+459,Stat4
+460,Stat4alpha
+461,Stat4beta
+462,Stat5
+463,Stat6
+464,Stat6-/-
+465,T
+466,T cell
+467,T cell cytokine
+468,T cell cytokines
+469,T cell factor 1
+470,T cell precursors
+471,T cell receptor β
+472,T cell subset
+473,T cell subsets
+474,T cells
+475,T follicular helper cell
+476,T follicular helper cells
+477,T helper 1
+478,T helper 17 cells
+479,T helper 2 cells
+480,T helper cell
+481,T lymphocyte
+482,T lymphocyte subsets
+483,T lymphocytes
+484,T regulatory cell 1
+485,T suppressor
+486,T(Treg
+487,T-Cells
+488,T-cell
+489,T-cell cytokines
+490,T-cell precursors
+491,T-cell subset
+492,T-cell subsets
+493,T-cells
+494,T-helper cell
+495,T-lymphocyte
+496,T-lymphocytes
+497,T-regulatory cell
+498,T3
+499,TARC
+500,TCDD
+501,TCF
+502,TCF-1
+503,TFH
+504,TFH cell
+505,TFH cells
+506,TFh
+507,TFh cells
+508,TGF
+509,TGF-Beta
+510,TGF-beta
+511,TGF-beta1
+512,TGF-beta2
+513,TGF-β
+514,TGF-β cytokines
+515,TGFbeta
+516,TGFβ
+517,TH 17 cell
+518,TH 17 cells
+519,TH cell
+520,TH-1
+521,TH-2
+522,TH1
+523,TH1 cells
+524,TH17
+525,TH17 cell
+526,TH17 cells
+527,TH17 cytokine
+528,TH17 cell
+529,TH2
+530,TH2 cell
+531,TH2 cells
+532,TH2 cytokine
+533,TH2 cytokines
+534,TIL
+535,TL1A
+536,TNF
+537,TNF-alpha
+538,TNF-α
+539,TNFalpha
+540,TNFα
+541,TR1
+542,TR1 precursor cells
+543,TRAIL
+544,TREG
+545,TREG cells
+546,TReg cell
+547,TSLP
+548,Tat protein
+549,Tc1
+550,Tc1 cells
+551,Tfh
+552,Tfh cell
+553,Tfh cells
+554,Tfh-cell
+555,Tgf-β
+556,Tgfβ
+557,Th cell
+558,Th-1
+559,Th-17
+560,Th-17 cells
+561,Th-2
+562,Th1
+563,Th1 cell
+564,Th1 cells
+565,Th1 cytokine
+566,Th1 cytokines
+567,Th1 effector T cells
+568,Th17
+569,Th17 cell
+570,Th17 cell-mediated
+571,Th17 cells
+572,Th17 cytokine
+573,Th17 cytokines
+574,Th17 regulatory T cells
+575,Th17 cell
+576,Th17 cells
+577,Th17 cells
+578,Th17 cell
+579,Th2
+580,Th2 cell
+581,Th2 cells
+582,Th2 cytokine
+583,Th2 cytokine IL-4
+584,Th2 cytokines
+585,Th2 transcription factor GATA3
+586,Th2 transcription factor Gata3
+587,Th2 transcription factor Stat6
+588,Th2 transcription factor c-Maf
+589,Th3
+590,Th3 cells
+591,Thymic
+592,Thymic stromal lymphopoietin
+593,Thymocytes
+594,Tr cell
+595,Tr1
+596,Tr1 cell
+597,Tr1 cells
+598,Trans-Activator
+599,Transcription factor nuclear factor
+600,Transcription factors
+601,Transcriptional
+602,Transforming growth factor beta
+603,Transforming growth factor beta1
+604,Transforming growth factor β
+605,Treg
+606,Treg Cell
+607,Treg cell
+608,Treg cell-mediated
+609,Treg cells
+610,Tumor Necrosis Factor-α
+611,Type I IFN
+612,Type I IFNs
+613,Type I interferon
+614,Type I interferons
+615,T cell
+616,T cells
+617,T lymphocyte
+618,USF
+619,XBP-1
+620,Y Box protein 1
+621,ZEB) 1
+622,ZEB1
+623,Zeb1
+624,activated/memory T cells
+625,activating transcription factor
+626,activating transcription factor 2
+627,activating transcription factor 3
+628,activating transcription factor-3
+629,activating transcription factors
+630,activator protein 1
+631,activator protein-1
+632,alpha 1
+633,alpha 1 beta
+634,alpha 2
+635,aryl hydrocarbon receptor
+636,aryl hydrocarbon receptor nuclear translocator
+637,bHLH
+638,bZIP
+639,basic helix-loop-helix
+640,basic helix-loop-helix transcription factor
+641,basic leucine zipper transcription factor
+642,beta interferon
+643,beta-catenin
+644,binding protein
+645,c-ETS
+646,c-Fos
+647,c-Maf
+648,c-Myb
+649,c-Rel
+650,c-fos
+651,c-maf
+652,c-myb
+653,c-rel
+654,cAMP response element binding protein
+655,cAMP response element-binding protein
+656,cAMP-responsive element modulator
+657,cell-mediated
+658,cell-mediated Th1
+659,cell-mediated cytokine
+660,cells
+661,central memory T cells
+662,central memory T-cell
+663,chemokine
+664,chemokine (C-C motif) ligand 8
+665,chemokine CCL1
+666,chemokine CCL22
+667,chemokine CCL3
+668,chemokine CCL4
+669,chemokine CCL8
+670,chemokines
+671,chemokines CCL17
+672,chemokines CCL2
+673,chemokines CCL22
+674,chemotactic
+675,chemotactic cytokines
+676,chemotactic factor
+677,co-repressor
+678,coactivator
+679,colony stimulating factor
+680,colony-stimulating factor
+681,corepressors
+682,cyclin
+683,cyclins
+684,cytokine
+685,cytokine IFN-γ
+686,cytokine IL-10
+687,cytokine IL-17
+688,cytokine IL-17a
+689,cytokine IL-2
+690,cytokine IL-21
+691,cytokine IL-4
+692,cytokine IL-6
+693,cytokine IL-7
+694,cytokine TGF-beta
+695,cytokine TGF-beta1
+696,cytokine TGF-β
+697,cytokine interleukin
+698,cytokine interleukin-10
+699,cytokine transforming growth factor beta
+700,cytokines
+701,cytokines IFN-γ
+702,cytokines IL-1
+703,cytokines IL-12
+704,cytokines IL-17
+705,cytokines IL-17A
+706,cytokines IL-2
+707,cytokines IL-4
+708,cytokines IL-6
+709,cytokines IL-8
+710,cytokines TGF-β
+711,cytokines TNF-alpha
+712,cytokines interferon-γ
+713,cytokines interleukin
+714,cytokines interleukin 17
+715,cytokines interleukin-12
+716,cytokines tumor necrosis factor
+717,cytotoxic T
+718,cytotoxic T cell
+719,cytotoxic T cells
+720,cytotoxic T lymphocyte
+721,cytotoxic T lymphocytes
+722,cytotoxic T-lymphocyte
+723,cytotoxic T cell
+724,differentiation factor
+725,dioxin receptor
+726,early growth response protein 1
+727,effector T cell
+728,effector T cells
+729,effector T lymphocytes
+730,effector T-cell
+731,effector T-cells
+732,effector T cell
+733,effector T cells
+734,effector memory T cells
+735,effector-memory T cells
+736,egr2
+737,emigrants
+738,eotaxin
+739,estrogen receptor
+740,estrogen receptor alpha
+741,estrogen receptors
+742,factor-beta1
+743,factor-kappaB
+744,follicular helper T cell
+745,follicular helper T cells
+746,forkhead
+747,forkhead box
+748,forkhead box protein
+749,forkhead box protein O1
+750,forkhead transcription factor
+751,gamma interferon
+752,gata3
+753,gene product
+754,glucocorticoid receptor
+755,granulocyte colony-stimulating factor
+756,granulocyte macrophage colony-stimulating factor
+757,granulocyte-macrophage colony stimulating factor
+758,granulocyte-macrophage colony-stimulating factor
+759,group F
+760,growth factor
+761,growth factor interleukin
+762,growth factor(TGF)-Β
+763,helper T
+764,helper T cell
+765,helper T cell subsets
+766,helper T cells
+767,helper T lymphocyte
+768,helper T lymphocytes
+769,helper T-cell
+770,helper T-cells
+771,helper cell
+772,helper cells
+773,hes-1
+774,histone deacetylase
+775,histone deacetylase 1
+776,human immunodeficiency virus
+777,iNKT
+778,iNKT cell
+779,iNKT cells
+780,iNKT cells
+781,ifn-γ
+782,il-2
+783,il-5
+784,il17
+785,il17a
+786,il17f
+787,il4
+788,interferon
+789,interferon alpha
+790,interferon gamma
+791,interferon regulatory
+792,interferon regulatory factor
+793,interferon regulatory factor 1
+794,interferon regulatory factor-1
+795,interferon regulatory factor-2
+796,interferon type I
+797,interferon β
+798,interferon γ
+799,interferon-gamma
+800,interferon-α
+801,interferon-β
+802,interferon-γ
+803,interferons
+804,interleukin
+805,interleukin 10
+806,interleukin 12
+807,interleukin 17
+808,interleukin 17A
+809,interleukin 1beta
+810,interleukin 2
+811,interleukin 33
+812,interleukin 4
+813,interleukin 9
+814,interleukin-1
+815,interleukin-1 beta
+816,interleukin-10
+817,interleukin-12
+818,interleukin-13
+819,interleukin-15
+820,interleukin-17
+821,interleukin-17A
+822,interleukin-18
+823,interleukin-1beta
+824,interleukin-2
+825,interleukin-21
+826,interleukin-22
+827,interleukin-23
+828,interleukin-27
+829,interleukin-3
+830,interleukin-33
+831,interleukin-4
+832,interleukin-5
+833,interleukin-6
+834,interleukin-7
+835,interleukin-8
+836,interleukin-9
+837,interleukins
+838,intraepithelial
+839,invariant NKT cells
+840,invariant Natural Killer T cells
+841,invariant T cells
+842,leukemia zinc finger protein
+843,lymphoblastoid
+844,lymphokine
+845,lymphotoxin
+846,lymphotoxin-β
+847,macrophage inflammatory protein 1 beta
+848,macrophage inflammatory protein 1α
+849,macrophage inflammatory protein 2
+850,macrophage-activating
+851,macrophage-derived chemokine
+852,mast cell
+853,member 4
+854,member 6
+855,memory T
+856,memory T cell
+857,memory T cells
+858,memory T helper cell
+859,memory T lymphocytes
+860,memory T-cell
+861,microphthalmia-associated transcription factor
+862,monocyte chemoattractant protein 1
+863,monocyte chemoattractant protein-1
+864,monocyte chemotactic protein 1
+865,monocyte-derived
+866,natural killer
+867,natural killer T cells
+868,natural killer T-cell
+869,naturally
+870,naturally occurring
+871,naturally occurring Treg
+872,naturally occurring regulatory T
+873,naturally occurring regulatory T cells
+874,naturally-occurring
+875,nuclear factor
+876,nuclear factor I-A
+877,nuclear factor kappa B
+878,nuclear factor kappaB
+879,nuclear factor of activated T cell
+880,nuclear factor of activated T cells
+881,nuclear factor of activated T-cells
+882,nuclear factor of activated T cells
+883,nuclear factor-kappaB
+884,nuclear factors of activated T cells
+885,nuclear protein
+886,nuclear receptor
+887,nuclear receptors
+888,of nuclear factor-kappa B
+889,orphan
+890,orphan nuclear
+891,orphan nuclear receptor
+892,orphan nuclear receptors
+893,osteopontin
+894,p100
+895,p16(ink4a
+896,p28
+897,p300
+898,p35
+899,p40
+900,p40 subunit
+901,p50
+902,p52
+903,p65
+904,p65 NF-kappaB
+905,p65 transcriptional
+906,peroxisome proliferator-activated
+907,peroxisome proliferator-activated receptor gamma
+908,peroxisome proliferator-activated receptor γ
+909,peroxisome proliferator-activated receptor γ coactivator 1-α
+910,platelet factor 4
+911,polycomb repressive complex 2
+912,precursor cell
+913,precursor cells
+914,protein 1
+915,protein complex
+916,protein-1
+917,protein-1alpha
+918,rFL
+919,recent thymic emigrant
+920,recent thymic emigrants
+921,receptor alpha
+922,receptor ligands
+923,regulator
+924,regulatory T
+925,regulatory T cell
+926,regulatory T cell subsets
+927,regulatory T cells
+928,regulatory T lymphocyte
+929,regulatory T lymphocytes
+930,regulatory T(Treg
+931,regulatory T-cell
+932,regulatory T-cell subset
+933,regulatory T-cells
+934,regulatory T-lymphocytes
+935,regulatory T cells
+936,regulatory factor
+937,regulatory factor 3
+938,regulatory factor-9
+939,regulatory t
+940,retinoic acid
+941,retinoic acid receptor
+942,retinoic acid receptors
+943,retinoid X receptors
+944,runt-related transcription factor 1
+945,runt-related transcription factor 3
+946,serine
+947,sigma factor
+948,signal transducer and activator of transcription 1
+949,signal transducer and activator of transcription 3
+950,signal transducer and activator of transcription 4
+951,signal transducer and activator of transcription 5
+952,signal transducer and activator of transcription 6
+953,signal transducer and activator of transcription 3
+954,stromal
+955,suppressive factors
+956,suppressor T cells
+957,tgf-β
+958,th17 cell
+959,thymic
+960,thymic IL-4
+961,thymic Treg
+962,thymic natural killer
+963,thymic stromal
+964,thymic stromal lymphopoietin
+965,thymocyte
+966,thymocytes
+967,thymus and activation-regulated chemokine
+968,transactivator
+969,transactivators
+970,transcription 3
+971,transcription factor
+972,transcription factor 3
+973,transcription factor A
+974,transcription factor B lymphocyte-induced maturation protein 1
+975,transcription factor B-cell
+976,transcription factor BCL-6
+977,transcription factor Bcl-6
+978,transcription factor Egr1
+979,transcription factor GATA3
+980,transcription factor IFN regulatory factor
+981,transcription factor Ikaros
+982,transcription factor Kruppel-like factor
+983,transcription factor MAF
+984,transcription factor MAFB
+985,transcription factor NF-kB p65
+986,transcription factor NFATc
+987,transcription factor NFATc1
+988,transcription factor NFATc2
+989,transcription factor RelB
+990,transcription factor SOX4
+991,transcription factor STAT1
+992,transcription factor STAT2
+993,transcription factor STAT3
+994,transcription factor STAT4
+995,transcription factor STAT5
+996,transcription factor STAT6
+997,transcription factor Stat1
+998,transcription factor Stat3
+999,transcription factor aryl hydrocarbon receptor
+1000,transcription factor c-maf
+1001,transcription factor cAMP responsive element modulator
+1002,transcription factor forkhead box
+1003,transcription factor nuclear factor kappaB.
+1004,transcription factor nuclear factor of activated T cells
+1005,transcription factor(s
+1006,transcription factor-2
+1007,transcription factors
+1008,transcriptional
+1009,transforming growth factor
+1010,transforming growth factor beta
+1011,transforming growth factor beta 2
+1012,transforming growth factor beta1
+1013,transforming growth factor β
+1014,transforming growth factor β1
+1015,transforming growth factor-beta1
+1016,tumor necrosis factor
+1017,tumor necrosis factor alpha
+1018,tumor necrosis factor α
+1019,tumor necrosis factor-alpha
+1020,tumor necrosis factor-α
+1021,type 1 Treg
+1022,type 2 helper T cells
+1023,type I
+1024,type I IFN
+1025,type I IFNs
+1026,type I T helper cell
+1027,type I chemokine
+1028,type I interferon
+1029,type I interferons
+1030,type II
+1031,type II IFN
+1032,type II IFNs
+1033,type II NKT cells
+1034,type II interferon
+1035,type III
+1036,type T cells
+1037,v-maf
+1038,zeste homolog 2
+1039,zinc finger protein
+1040,β-Catenin
+1041,β-catenin
+1042,γ-interferon
+1043,γδT cells

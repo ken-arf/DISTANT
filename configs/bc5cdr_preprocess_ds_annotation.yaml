@@ -12,8 +12,8 @@ spark: True
 
 
 processed_dict_dirs:
-        - data/Mesh/processed_dict
-        - data/UMLS/processed_dict
+#        - data/Mesh/processed_dict
+#       - data/UMLS/processed_dict
         - data/BC5CDR/processed_dict
 
 dict_files: 
@@ -26,6 +26,7 @@ entity_names:
 
 document_root_dir: data/BC5CDR/corpus
 #document_root_dir: data/Mesh/PubMed/BC5CDR/extract
+corpus_dir: data/Corpus/BC5CDR
 
 
 segmentation_predict_config: configs/bc5cdr_segmentation_predict.yaml

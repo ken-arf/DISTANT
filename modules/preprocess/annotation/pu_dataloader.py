@@ -67,7 +67,7 @@ class PU_Dataloader:
         df_train_dataset_ = df_train[:train_size]
         df_valid_dataset_ = df_train[train_size:]
 
-        if self.df_train_neg:
+        if self.df_train_neg is not None:
 
             train_dataset = Dataset.from_pandas(df_train_dataset_)
             valid_dataset = Dataset.from_pandas(df_valid_dataset_)

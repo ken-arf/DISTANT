@@ -61,14 +61,14 @@ class PU_Model(nn.Module):
         
         self.dropout = nn.Dropout(self.params['dropout_rate'])
 
-        hidden_size = 100
-        #self.tanh = nn.Tanh()
-        #self.linear = nn.Linear(self.params['embedding_dim'], hidden_size).to(self.device)
-        #self.linear = nn.Linear(hidden_size, self.params['class_num']).to(self.device)
+        # change hidden_zie = > 100->200
+        #hidden_size = 100
+        hidden_size = 200
 
         self.linear = nn.Sequential(
           nn.Linear(self.params['embedding_dim'] * 3, hidden_size),
-          nn.Tanh(),
+          #nn.Tanh(),
+          nn.ReLU(),
           nn.Linear(hidden_size, self.params['class_num'])
         ).to(self.device)
 

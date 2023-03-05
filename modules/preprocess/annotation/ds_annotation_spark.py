@@ -459,8 +459,8 @@ def main():
         basename, _ = os.path.splitext(fname)
         lf_func = f"lf_{basename}_distsv"
         lfs.append(eval(lf_func))
-        lf_func = f"lf_{basename}_substr"
-        lfs.append(eval(lf_func))
+        #lf_func = f"lf_{basename}_substr"
+        #lfs.append(eval(lf_func))
 
     if parameters["spark"]:
         L_train = snorkel_spark(parameters, df_train["entities"], lfs)
@@ -475,7 +475,8 @@ def main():
         df_train[lfs[i].name] = L_train[:, i]
 
 
-    label_model = MajorityLabelVoter(cardinality=int(len(lfs) / 2))
+    #label_model = MajorityLabelVoter(cardinality=int(len(lfs) / 2))
+    label_model = MajorityLabelVoter(cardinality=len(lfs))
     df_train["label"] = label_model.predict(L=L_train)
 
     df_train['start_tokens'] = df_train['start_tokens'].astype(np.int64)

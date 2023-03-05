@@ -121,17 +121,18 @@ def main():
     utils._print_config(parameters, config_path)
 
     
-    root = parameters["corpus_dir"]
+    corpus_dirs = parameters["corpus_dir"]
                     
-    files = sorted(glob.glob(f"{root}/*.txt"))
-    ann_files = [file.replace(".txt", ".ann") for file in files]
-    for file, ann in zip(files, ann_files):
-        print(file)
-        path, fname = os.path.split(file)
-        basename, ext = os.path.splitext(fname)
+    for root in corpus_dirs:
+        files = sorted(glob.glob(f"{root}/*.txt"))
+        ann_files = [file.replace(".txt", ".ann") for file in files]
+        for file, ann in zip(files, ann_files):
+            print(file)
+            path, fname = os.path.split(file)
+            basename, ext = os.path.splitext(fname)
 
-        output_path = os.path.join(path, f"{basename}.coll")
-        convert(file, ann, output_path)
+            output_path = os.path.join(path, f"{basename}.coll")
+            convert(file, ann, output_path)
 
 
 

@@ -2,7 +2,7 @@
 
 # data path
 task_name: immunology 
-corpus_dir: data/Mesh
+#corpus_dir: data/Mesh
 corpus_file: desc2023.xml
 
 #dict_dir: data/Mesh/dict

@@ -3,21 +3,25 @@
 # data path
 task_name: bc5cdr 
 
-use_dictionary: False
+use_dictionary: True
 dict_dir: 
-    - data/Mesh/processed_dict
-    - data/UMLS/processed_dict
+#    - data/Mesh/processed_dict
+#    - data/UMLS/processed_dict
     - data/BC5CDR/processed_dict
 
 dict_files:
     - chemicals.dict
     - disease.dict
+
+other_dict_files:
     - others.dict
+
+use_pu_train: False
+pu_train_csv: experiments/bc5cdr/models/train.csv
 
 entity2integer:
     chemicals: 0
     disease: 1
-    others: 2
 
 
 corpus_dir: data/BC5CDR/corpus
@@ -25,5 +29,3 @@ output_dir: data/BC5CDR/conll
 #corpus_dir: data/Mesh/PubMed/BC5CDR/extract
 #output_dir: data/Mesh/PubMed/BC5CDR/conll
 
-use_pu_data: True
-pu_data: data/Corpus/BC5CDR/df_pu_train.csv

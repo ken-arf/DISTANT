@@ -3,7 +3,7 @@
 
 ROOT_DIR=../data/BC5CDR/eval
 
-predict_coll_dir=$ROOT_DIR/annotate.prev
+#predict_coll_dir=$ROOT_DIR/annotate.prev
 predict_coll_dir=$ROOT_DIR/annotate.latest
 predict_coll_dir=$ROOT_DIR/annotate
 true_coll_dir=$ROOT_DIR/annotate.gold

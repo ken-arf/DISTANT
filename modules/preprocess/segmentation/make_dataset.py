@@ -107,6 +107,7 @@ def annotate(files, parameters):
 
     entity_dict = defaultdict(list)
 
+
     if parameters["use_dictionary"]:
         for dict_path in dict_paths:
             if not os.path.exists(dict_path):
@@ -116,12 +117,25 @@ def annotate(files, parameters):
             name, txt = os.path.splitext(fname)
             entity_dict[name] += load_dict(dict_path)
 
+
+        if parameters["task_name"] == "bc5cdr":
+            dict_dirs = parameters["dict_dir"]
+            other_dict_files= parameters["other_dict_files"]
+            dict_paths = [os.path.join(dict_dir, file) for dict_dir in dict_dirs for file in other_dict_files ]
+            for dict_path in dict_paths:
+                if not os.path.exists(dict_path):
+                    continue
+
+                path, fname = os.path.split(dict_path)
+                name, txt = os.path.splitext(fname)
+                entity_dict[name] += load_dict(dict_path)
+
+    
     # append all entities extracted from pu_training
 
-    #pdb.set_trace()
-    if parameters["use_pu_data"]:
+    if parameters["use_pu_train"]:
 
-        pu_data_csv = parameters["pu_data"]
+        pu_data_csv = parameters["pu_train_csv"]
         df_pu_data = pd.read_csv(pu_data_csv)
         
         #for name in entity_dict.keys():
@@ -158,6 +172,7 @@ def annotate(files, parameters):
                 tokens = tokenize(sent)
                 tokens_low = [token.lower() for token in tokens]
                 
+
                 bio_tag = {}
                 for entity_type in entity_dict.keys():
                     bio_tag[entity_type], cnt = match_entity(tokens_low, entity_dict, entity_type)
