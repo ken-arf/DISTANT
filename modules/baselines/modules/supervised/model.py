@@ -41,10 +41,10 @@ from datasets.features.features import ClassLabel
 import pdb
 
 
-class PU_Model(nn.Module):
+class Model(nn.Module):
 
     def __init__(self, params, logger):
-        super(PU_Model, self).__init__()
+        super(Model, self).__init__()
 
         self.params = params
         self.logger = logger
@@ -61,33 +61,43 @@ class PU_Model(nn.Module):
         
         self.dropout = nn.Dropout(self.params['dropout_rate'])
 
-        # change hidden_zie = > 100->200
-        #hidden_size = 100
-        hidden_size = 100
+        hidden_size = self.params['hidden_size']
 
         self.linear = nn.Sequential(
-          nn.Linear(self.params['embedding_dim'] * 3, hidden_size),
-          nn.ReLU(),
+          nn.Linear(self.params['embedding_dim'], hidden_size),
+          nn.Tanh(),
           nn.Linear(hidden_size, self.params['class_num'])
         ).to(self.device)
 
-#        self.linear = nn.Sequential(
-#         nn.Linear(self.params['embedding_dim'] * 3, hidden_size),
-#         #nn.Tanh(),
-#          nn.ReLU(),
-#          nn.Linear(hidden_size, self.params['class_num'])
-#        ).to(self.device)
-
         # cross entropy loss
-        self.loss = nn.CrossEntropyLoss()
+        self.loss = nn.CrossEntropyLoss(ignore_index=-100)
 
     def forward(self, **kargs):
 
         input_ids = kargs["input_ids"]
         token_type_ids = kargs["token_type_ids"]
         attention_mask = kargs["attention_mask"]
-        start_pos = kargs["start_positions"]
-        end_pos = kargs["end_positions"]
+        labels = kargs["labels"]
+
+        #Extract outputs from the body
+        bert_outputs = self.bert_model(input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
+
+        #Add custom layers
+        last_hidden_output = bert_outputs['last_hidden_state']
+        bert_sequence_output = self.dropout(last_hidden_output) #outputs[0]=last hidden state
+
+        # logit
+        logit = self.linear(bert_sequence_output)
+        loss = self.loss(torch.transpose(logit,1,2), labels)
+
+        return loss
+
+
+    def decode(self, **kargs):
+
+        input_ids = kargs["input_ids"]
+        token_type_ids = kargs["token_type_ids"]
+        attention_mask = kargs["attention_mask"]
         labels = kargs["labels"]
 
         #Extract outputs from the body
@@ -98,41 +108,23 @@ class PU_Model(nn.Module):
         bert_sequence_output = self.dropout(last_hidden_output) #outputs[0]=last hidden state
 
 
-        features = []
-        for k, (start, end) in enumerate(zip(start_pos, end_pos)):
-            feature = bert_sequence_output[k, start:end+1, :]
-            if feature.shape[0] == 1:
-                head_feature = feature[0,:]
-                mean_feature = feature[0,:]
-                tail_feature = feature[0,:]
-            elif feature.shape[0] == 2:
-                head_feature = feature[0,:]
-                mean_feature = torch.mean(feature, 0)
-                tail_feature = feature[-1,:]
-            else:
-                head_feature = feature[0,:]
-                mean_feature = torch.mean(feature[1:-1], 0)
-                tail_feature = feature[-1,:]
-
-            features.append(torch.cat((head_feature, mean_feature, tail_feature)))
-
-        features_pt = torch.stack(features)
-
         # logit
-        logit = self.linear(features_pt)
-        loss = self.loss(logit, labels)
+        logit = self.linear(bert_sequence_output)
+        loss = self.loss(torch.transpose(logit,1,2), labels)
 
-        return loss
+        # probability
+        probs = F.softmax(logit, dim=2)
+    
+        # prediction
+        predicts = torch.argmax(logit, dim=2)
 
+        return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
 
-    def decode(self, **kargs):
+    def predict(self, **kargs):
 
         input_ids = kargs["input_ids"]
         token_type_ids = kargs["token_type_ids"]
         attention_mask = kargs["attention_mask"]
-        start_pos = kargs["start_positions"]
-        end_pos = kargs["end_positions"]
-        #labels = kargs["labels"]
 
         #Extract outputs from the body
         bert_outputs = self.bert_model(input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
@@ -142,33 +134,14 @@ class PU_Model(nn.Module):
         bert_sequence_output = self.dropout(last_hidden_output) #outputs[0]=last hidden state
 
 
-        features = []
-        for k, (start, end) in enumerate(zip(start_pos, end_pos)):
-            feature = bert_sequence_output[k, start:end+1, :]
-            if feature.shape[0] == 1:
-                head_feature = feature[0,:]
-                mean_feature = feature[0,:]
-                tail_feature = feature[0,:]
-            elif feature.shape[0] == 2:
-                head_feature = feature[0,:]
-                mean_feature = torch.mean(feature, 0)
-                tail_feature = feature[-1,:]
-            else:
-                head_feature = feature[0,:]
-                mean_feature = torch.mean(feature[1:-1], 0)
-                tail_feature = feature[-1,:]
-
-            features.append(torch.cat((head_feature, mean_feature, tail_feature)))
-
-        features_pt = torch.stack(features)
-
         # logit
-        logit = self.linear(features_pt)
-        predicts = torch.argmax(logit, axis=1)
+        logit = self.linear(bert_sequence_output)
 
         # probability
-        probs = F.softmax(logit, dim=1)
+        probs = F.softmax(logit, dim=2)
+    
+        # prediction
+        predicts = torch.argmax(logit, dim=2)
 
         return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
-
 

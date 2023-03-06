@@ -63,7 +63,7 @@ def convert_bio(label):
 
 def load_dataset(parameters):
 
-    ent_num = len(parameters["entities"])
+    ent_num = parameters["num_bio_labels"]
     corpus_dir = parameters["corpus_dir"]
 
     files = sorted(glob.glob(f"{corpus_dir}/*.txt"))
@@ -250,7 +250,7 @@ def main():
     t_start = time.time()                                                                                                  
 
     # train model
-    train(parameters, "seg")
+    train(parameters, "supervised")
 
     print('Done!')
     t_end = time.time()                                                                                                  

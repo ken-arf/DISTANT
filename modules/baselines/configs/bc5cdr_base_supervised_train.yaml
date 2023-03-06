@@ -1,0 +1,19 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+#other_dict_files:
+#    - others.dict
+#
+entity_names:
+        - Chemical 
+        - Disease
+
+corpus_dir:
+        train: ./data/BC5CDR/processed_corpus/CDR_TrainingSet
+        dev: ./data/BC5CDR/processed_corpus/CDR_DevelopmentSet
+        test: ./data/BC5CDR/processed_corpus/CDR_TestSet
+
+#corpus_dir: data/BC5CDR/eval/test
+output_dir: data/BC5CDR/eval/annotate.supervised

@@ -63,12 +63,18 @@ class PU_Model(nn.Module):
 
         # change hidden_zie = > 100->200
         #hidden_size = 100
-        hidden_size = 100
+        hidden_size = 200
+
+        hidden_size1 = 300
+
+        hidden_size2 = 100
 
         self.linear = nn.Sequential(
-          nn.Linear(self.params['embedding_dim'] * 3, hidden_size),
+          nn.Linear(self.params['embedding_dim'] * 3, hidden_size1),
           nn.ReLU(),
-          nn.Linear(hidden_size, self.params['class_num'])
+          nn.Linear(hidden_size1, hidden_size2),
+          nn.ReLU(),
+          nn.Linear(hidden_size2, self.params['class_num'])
         ).to(self.device)
 
 #        self.linear = nn.Sequential(

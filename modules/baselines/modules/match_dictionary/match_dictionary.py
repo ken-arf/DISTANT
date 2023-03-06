@@ -66,7 +66,7 @@ def load_dict(path):
     return items
     
 
-def match_entity(tokens, entity_dict, entity_type):
+def match_entity(tokens, entity_dict, entity_type, tag_name):
     #print(tokens)
     match_count = 0
     n = len(tokens)
@@ -81,21 +81,20 @@ def match_entity(tokens, entity_dict, entity_type):
                 match_count += 1
 
                 if len(entity) == 1:
-                    bio[i] = f'S_{entity_type}'
+                    bio[i] = f'B_{tag_name}'
                 else: 
                     for j in range(i, i+len(entity)):
                         if j == i:
-                            bio[j] = f'B_{entity_type}'
+                            bio[j] = f'B_{tag_name}'
                         else:
-                            bio[j] = f'I_{entity_type}'
+                            bio[j] = f'I_{tag_name}'
             
     return bio, match_count
         
 
 def annotate(files, parameters):
 
-    ent2int = parameters["entity2integer"]
-    int2ent = {i:k for k,i in ent2int.items()}
+    bio_tag_names = parameters["entity_names"]
     
 
     outdir = parameters["output_dir"]
@@ -107,6 +106,7 @@ def annotate(files, parameters):
 
     entity_dict = defaultdict(list)
 
+
     if parameters["use_dictionary"]:
         for dict_path in dict_paths:
             if not os.path.exists(dict_path):
@@ -116,25 +116,7 @@ def annotate(files, parameters):
             name, txt = os.path.splitext(fname)
             entity_dict[name] += load_dict(dict_path)
 
-    # append all entities extracted from pu_training
 
-    #pdb.set_trace()
-    if parameters["use_pu_data"]:
-
-        pu_data_csv = parameters["pu_data"]
-        df_pu_data = pd.read_csv(pu_data_csv)
-        
-        #for name in entity_dict.keys():
-        for name in parameters['entity2integer'].keys():
-            entid = ent2int[name]
-            df_entities = list(set(df_pu_data[df_pu_data.label == entid].entities.unique()))
-
-            items = []
-            for ent in df_entities:
-                ent_tokens = tokenize(ent.lower())
-                items.append(ent_tokens)
-            entity_dict[name] += items
-        
     # convert dictionay item to list to tuple
     for key, items in entity_dict.items():
         entity_dict[key] = list(set([tuple(item) for item in items]))
@@ -148,30 +130,42 @@ def annotate(files, parameters):
     for file in tqdm(files):
         
         path, fname = os.path.split(file)
+        basename, txt = os.path.splitext(fname)
+
         with open(file) as fp:
                 text = fp.read().strip()
         #print(text)
         doc = sentence_split(text)
         
-        with open(os.path.join(outdir, fname), 'w') as fp:
+        with open(os.path.join(outdir, f'{basename}.coll'), 'w') as fp:
             for k, sent in enumerate(doc):
                 tokens = tokenize(sent)
                 tokens_low = [token.lower() for token in tokens]
                 
+
                 bio_tag = {}
-                for entity_type in entity_dict.keys():
-                    bio_tag[entity_type], cnt = match_entity(tokens_low, entity_dict, entity_type)
+                for entity_type, tag_name in zip(entity_dict.keys(), bio_tag_names):
+                    bio_tag[entity_type], cnt = match_entity(tokens_low, entity_dict, entity_type, tag_name)
                     match_count[entity_type] += cnt
                     
                 #print(bio_tag)
+
                 labels = [tags for tags in zip(*bio_tag.values())]
                     
                 for token, bio_label in zip(tokens, labels):
                     buf = "{}\t{}".format(token, token.lower())
                     
-                    for tag in bio_label:
+                    skip = 0
+                    for k, tag in enumerate(bio_label):
+                        if tag == 'O':
+                            skip += 1
+                            continue
+                        else:
+                            buf +=  "\t{}".format(tag)
+                            break
+                    if skip == len(bio_label):
                         buf +=  "\t{}".format(tag)
-                    #print(buf)
+
                     fp.write("{}\n".format(buf))    
                 fp.write('\n')
                 
