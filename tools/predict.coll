@@ -212,9 +212,9 @@ reaction	O
 (	O
 dyspnea	B-Disease
 ,	O
-loss	B-Disease
-of	I-Disease
-consciousness	I-Disease
+loss	O
+of	O
+consciousness	O
 )	O
 and	O
 delayed	O
@@ -545,7 +545,7 @@ receiving	O
 continuous	O
 infusion	O
 of	O
-5-FU	O
+5-FU	B-Chemical
 .	O
 
 Azotemia	O
@@ -578,7 +578,7 @@ receiving	O
 continuous	O
 infusion	O
 of	O
-5-FU	O
+5-FU	B-Chemical
 .	O
 
 The	O
@@ -625,7 +625,7 @@ and	O
 mg/kg	O
 )	O
 and	O
-4-aminopyridine	O
+4-aminopyridine	B-Chemical
 (	O
 1	O
 and	O
@@ -1277,7 +1277,7 @@ for	O
 0	O
 -	O
 24	O
-h	B-Disease
+h	O
 with	O
 each	O
 compound	O
@@ -1359,7 +1359,7 @@ manner	O
 ,	O
 while	O
 the	O
-phenols	B-Chemical
+phenols	O
 ,	O
 NCR181	O
 ,	O
@@ -1546,8 +1546,8 @@ preliminary	O
 pharmacological	O
 investigations	O
 of	O
-1-(1,2-dihydro-2-acenaphthylenyl)piperazine	O
-derivatives	O
+1-(1,2-dihydro-2-acenaphthylenyl)piperazine	B-Chemical
+derivatives	I-Chemical
 as	O
 potential	O
 atypical	O
@@ -1598,14 +1598,14 @@ series	O
 of	O
 potential	O
 atypical	O
-antipsychotic	O
-agents	O
+antipsychotic	B-Chemical
+agents	I-Chemical
 based	O
 on	O
 the	O
 structure	O
 of	O
-1-(1,2-dihydro-2-acenaphthylenyl)piperazine	O
+1-(1,2-dihydro-2-acenaphthylenyl)piperazine	B-Chemical
 (	O
 7	O
 )	O
@@ -1734,7 +1734,7 @@ the	O
 striatum	O
 .	O
 
-Neuroleptic	B-Chemical
+Neuroleptic	B-Disease
 drugs	O
 such	O
 as	O
@@ -1838,7 +1838,7 @@ NADPH-d	O
 )	O
 histochemistry	O
 was	O
-also	B-Disease
+also	O
 employed	O
 to	O
 visualize	O
@@ -1910,7 +1910,7 @@ saline	O
 .	O
 
 In	O
-contrast	B-Disease
+contrast	B-Chemical
 ,	O
 there	O
 was	O
@@ -2133,7 +2133,7 @@ maximum	O
 double	O
 product	O
 (	O
-p	B-Disease
+p	O
 =	O
 0.53	O
 )	O
@@ -2141,7 +2141,7 @@ or	O
 ST	O
 depression	B-Disease
 (	O
-p	B-Disease
+p	O
 =	O
 0.63	O
 )	O
@@ -2176,7 +2176,7 @@ SEM	O
 -5.6	O
 (1.5)%	O
 ,	O
-p	B-Disease
+p	O
 <	O
 0.05	O
 ;	O
@@ -2274,7 +2274,7 @@ form	O
 of	O
 stress	O
 (	O
-p	B-Disease
+p	O
 <	O
 0.05	O
 )	O
@@ -2473,7 +2473,7 @@ hypertension	I-Disease
 were	O
 classed	O
 as	O
-PPH	B-Disease
+PPH	O
 .	O
 
 A	O
@@ -2493,7 +2493,7 @@ use	O
 of	O
 antidepressants	B-Chemical
 ,	O
-anorexigens	O
+anorexigens	B-Chemical
 ,	O
 and	O
 amphetamines	B-Chemical
@@ -2510,7 +2510,7 @@ studied	O
 ,	O
 205	O
 with	O
-PPH	B-Disease
+PPH	O
 and	O
 374	O
 with	O
@@ -2667,7 +2667,7 @@ are	O
 causally	O
 related	O
 to	O
-PPH	B-Disease
+PPH	O
 .	O
 
 The	O
@@ -2821,8 +2821,8 @@ osteoporosis	B-Disease
 ,	O
 eosinophilia	B-Disease
 ,	O
-skin	B-Disease
-reactions	I-Disease
+skin	O
+reactions	B-Disease
 ,	O
 allergic	B-Disease
 reactions	I-Disease
@@ -2909,7 +2909,7 @@ newer	O
 low	O
 molecular	O
 weight	O
-heparins	B-Chemical
+heparins	B-Disease
 appear	O
 to	O
 be	O
@@ -2976,8 +2976,8 @@ patient	O
 receiving	O
 tacrolimus	B-Chemical
 (	O
-FK	O
-506	O
+FK	B-Chemical
+506	I-Chemical
 ,	O
 Prograf	O
 ;	O
@@ -3256,7 +3256,7 @@ of	O
 patients	O
 in	O
 groups	O
-C1	B-Disease
+C1	O
 and	O
 C2	O
 .	O
@@ -3363,11 +3363,11 @@ nanosphere	O
 NS-718	O
 )	O
 incorporating	O
-amphotericin	B-Chemical
-B.NS-718	I-Chemical
+amphotericin	O
+B.NS-718	O
 ,	O
 a	O
-lipid	B-Chemical
+lipid	B-Disease
 nanosphere	O
 incorporating	O
 amphotericin	B-Chemical
@@ -3603,7 +3603,7 @@ showed	O
 multiple	O
 radiolucent	O
 renal	O
-calculi	B-Disease
+calculi	O
 in	O
 echography	O
 .	O
@@ -3856,7 +3856,7 @@ infarction	I-Disease
 All	O
 dogs	O
 (	O
-n	B-Disease
+n	O
 =	O
 6	O
 )	O
@@ -3990,7 +3990,7 @@ and	O
 dose-dependently	O
 lowered	O
 after	O
-dronedarone	B-Chemical
+dronedarone	B-Disease
 and	O
 to	O
 a	O
@@ -4090,10 +4090,10 @@ tube	I-Disease
 cancers	I-Disease
 and	O
 primary	O
-carcinoma	B-Disease
-of	I-Disease
-the	I-Disease
-peritoneum	I-Disease
+carcinoma	O
+of	O
+the	O
+peritoneum	O
 .	O
 
 BACKGROUND	O
@@ -4498,7 +4498,7 @@ to	O
 20	O
 mg/d	O
 (	O
-n	B-Disease
+n	O
 =	O
 55	O
 )	O
@@ -4506,7 +4506,7 @@ n	B-Disease
 or	O
 placebo	O
 (	O
-n	B-Disease
+n	O
 =	O
 60	O
 )	O
@@ -4680,7 +4680,7 @@ vs	O
 ,	O
 respectively	O
 ;	O
-P	B-Disease
+P	O
 =	O
 .02	O
 )	O
@@ -4695,7 +4695,7 @@ vs	O
 ,	O
 respectively	O
 ;	O
-P	B-Disease
+P	O
 =	O
 .	O
 01	O
@@ -4902,7 +4902,7 @@ acuity	O
 (	O
 HCVA	O
 and	O
-LCVA	B-Disease
+LCVA	O
 )	O
 ,	O
 Pelli-Robson	O
@@ -5038,7 +5038,7 @@ CONCLUSIONS	O
 Pupillary	O
 dilation	O
 may	O
-lead	O
+lead	B-Disease
 to	O
 a	O
 decrease	O
@@ -5080,7 +5080,7 @@ isotretinoin	B-Disease
 embryopathy	I-Disease
 with	O
 bilateral	O
-anotia	B-Disease
+anotia	O
 and	O
 Taussig-Bing	O
 malformation	B-Disease
@@ -5260,7 +5260,7 @@ significant	O
 rise	B-Disease
 in	I-Disease
 systolic	I-Disease
-blood	O
+blood	I-Disease
 pressure	O
 and	O
 significant	O
@@ -5355,7 +5355,7 @@ weight	O
 )	O
 of	O
 certain	O
-amino	O
+amino	B-Chemical
 derivatives	O
 of	O
 caproate	B-Chemical
@@ -5605,7 +5605,7 @@ greater	O
 than	O
 0.30	O
 (	O
-n	B-Disease
+n	O
 =	O
 3164	O
 )	O
@@ -5855,7 +5855,7 @@ Cocaine	B-Chemical
 ethanol	B-Chemical
 ,	O
 and	O
-cocaethylene	O
+cocaethylene	B-Chemical
 cardiotoxity	O
 in	O
 an	O
@@ -5948,7 +5948,7 @@ delineate	O
 the	O
 role	O
 of	O
-CE	O
+CE	B-Chemical
 in	O
 the	O
 combined	O
@@ -5999,7 +5999,7 @@ infusion	O
 (	O
 C+E	O
 ,	O
-n	B-Disease
+n	O
 =	O
 8)	O
 ,	O
@@ -6012,7 +6012,7 @@ only	O
 (	O
 C	O
 ,	O
-n	B-Disease
+n	O
 =	O
 6	O
 )	O
@@ -6025,7 +6025,7 @@ only	O
 (	O
 E	O
 ,	O
-n	B-Disease
+n	O
 =	O
 5	O
 )	O
@@ -6038,7 +6038,7 @@ boluses	O
 and	O
 infusion	O
 (	O
-n	B-Disease
+n	O
 =	O
 4	O
 )	O
@@ -6126,7 +6126,7 @@ a	O
 45	O
 %	O
 (	O
-SD	B-Disease
+SD	O
 +	O
 /-	O
 22	O
@@ -6147,7 +6147,7 @@ in	O
 cardiac	O
 output	O
 (	O
-p	B-Disease
+p	O
 <	O
 0.05	O
 )	O
@@ -6156,7 +6156,7 @@ a	O
 56	O
 %	O
 (	O
-SD	B-Disease
+SD	O
 +	O
 /-	O
 23	O
@@ -6177,7 +6177,7 @@ in	O
 dP/dt(max	O
 )	O
 (	O
-p	B-Disease
+p	O
 <	O
 .006	O
 )	O
@@ -6187,7 +6187,7 @@ a	O
 23	O
 %	O
 (	O
-SD	B-Disease
+SD	O
 +	O
 /-	O
 15	O
@@ -6208,7 +6208,7 @@ in	O
 SVO(2	O
 )	O
 (	O
-p	B-Disease
+p	O
 <	O
 0.025	O
 )	O
@@ -6363,9 +6363,9 @@ Boston	O
 warn	O
 that	O
 the	O
-protease	O
-inhibitor	O
-Viracept	O
+protease	B-Chemical
+inhibitor	I-Chemical
+Viracept	I-Chemical
 may	O
 cause	O
 an	O
@@ -6392,7 +6392,7 @@ male	O
 patient	O
 who	O
 was	O
-Viracept	B-Disease
+Viracept	O
 in	O
 combination	O
 with	O
@@ -6480,7 +6480,7 @@ of	O
 being	O
 related	O
 to	O
-PTU	B-Disease
+PTU	O
 because	O
 the	O
 titres	O
@@ -6806,7 +6806,7 @@ PTU	O
 
 CONCLUSIONS	O
 :	O
-PTU	O
+PTU	B-Chemical
 therapy	O
 may	O
 be	O
@@ -6927,7 +6927,7 @@ of	O
 the	O
 controls	O
 (	O
-p	B-Disease
+p	O
 =	O
 0.055	O
 )	O
@@ -6964,7 +6964,7 @@ controls	O
 ,	O
 respectively	O
 (	O
-p	B-Disease
+p	O
 =	O
 0.11	O
 and	O
@@ -7031,7 +7031,7 @@ the	O
 ethanol	B-Chemical
 extract	I-Chemical
 of	O
-Picrorrhiza	O
+Picrorrhiza	B-Chemical
 kurroa	O
 rhizomes	O
 and	O
@@ -7063,7 +7063,7 @@ investigated	O
 Oral	O
 pre-treatment	O
 with	O
-PK	O
+PK	B-Disease
 (	O
 80	O
 mg	O
@@ -7224,7 +7224,7 @@ action	O
 potential	O
 duration	O
 (	O
-APD	B-Disease
+APD	O
 )	O
 in	O
 M	O
@@ -7338,7 +7338,7 @@ multiple	O
 episodes	O
 of	O
 spontaneous	O
-TdP	B-Chemical
+TdP	B-Disease
 in	O
 3	O
 of	O
@@ -7398,7 +7398,7 @@ recordings	O
 that	O
 phase	O
 2	O
-EAD	O
+EAD	B-Disease
 can	O
 be	O
 generated	O
@@ -7415,7 +7415,7 @@ initiate	O
 the	O
 onset	O
 of	O
-TdP	B-Chemical
+TdP	O
 under	O
 QT	B-Disease
 prolongation	I-Disease
@@ -7975,7 +7975,7 @@ the	O
 unexposed	O
 group	O
 (	O
-p	B-Chemical
+p	O
 <	O
 0.01	O
 )	O
@@ -8453,7 +8453,7 @@ for	O
 prevention	O
 .	O
 
-Fatty	B-Disease
+Fatty	O
 liver	O
 induced	O
 by	O
@@ -8748,7 +8748,7 @@ assess	O
 whether	O
 prednisone	B-Chemical
 (	O
-PDN	B-Chemical
+PDN	O
 )	O
 produces	O
 anxiety	B-Disease
@@ -8786,7 +8786,7 @@ group	O
 received	O
 5	O
 mg/kg/day	O
-PDN	O
+PDN	B-Disease
 released	O
 from	O
 a	O
@@ -8801,7 +8801,7 @@ group	O
 ,	O
 implants	O
 containing	O
-PDN	B-Chemical
+PDN	O
 equivalent	O
 to	O
 60	O
@@ -8817,7 +8817,7 @@ group	O
 implants	O
 contained	O
 no	O
-PDN	B-Chemical
+PDN	O
 .	O
 
 Anxiety	B-Disease
@@ -8861,7 +8861,7 @@ in	O
 both	O
 groups	O
 of	O
-PDN	B-Chemical
+PDN	B-Disease
 treated	O
 rats	O
 compared	O
@@ -8924,7 +8924,7 @@ high-dose	O
 controls	O
 18.9	O
 ;	O
-p	B-Disease
+p	O
 <	O
 0.01	O
 )	O
@@ -8946,7 +8946,7 @@ significantly	O
 higher	O
 in	O
 the	O
-PDN	O
+PDN	B-Disease
 treated	O
 groups	O
 in	O
@@ -8972,7 +8972,7 @@ cells	O
 per	O
 field	O
 ;	O
-p	B-Disease
+p	O
 <	O
 0.01	O
 )	O
@@ -9002,7 +9002,7 @@ CONCLUSION	O
 Subacute	O
 exposure	O
 to	O
-PDN	B-Chemical
+PDN	B-Disease
 induced	O
 anxiety	B-Disease
 and	O
@@ -9019,7 +9019,7 @@ features	O
 for	O
 patients	O
 using	O
-PDN	O
+PDN	B-Disease
 remains	O
 to	O
 be	O
@@ -9792,7 +9792,7 @@ comparison	O
 with	O
 diclofenac	B-Chemical
 (	O
-DCF	B-Chemical
+DCF	O
 )	O
 .	O
 
@@ -9833,10 +9833,10 @@ to	O
 receive	O
 either	O
 DCF	B-Chemical
-per	O
-os	O
+per	I-Chemical
+os	I-Chemical
 or	O
-GTN	B-Chemical
+GTN	O
 patches	O
 the	O
 first	O
@@ -9877,7 +9877,7 @@ or	O
 mg/24	O
 h	O
 transdermal	O
-GTN	B-Chemical
+GTN	O
 for	O
 the	O
 first	O
@@ -9959,9 +9959,9 @@ the	O
 30th	O
 minute	O
 (	O
-GTN	B-Disease
+GTN	O
 ,	O
--12.8	B-Disease
+-12.8	O
 +	O
 /-	O
 17.9	O
@@ -9977,7 +9977,7 @@ DCF	O
 
 However	O
 ,	O
-DCF	O
+DCF	B-Chemical
 continued	O
 to	O
 be	O
@@ -10067,18 +10067,18 @@ was	O
 significantly	O
 increased	O
 by	O
-GTN	B-Chemical
+GTN	O
 but	O
 not	O
 by	O
-DCF	B-Chemical
+DCF	O
 .	O
 
 Eight	O
 patients	O
 stopped	O
 using	O
-GTN	B-Chemical
+GTN	O
 because	O
 headache	B-Disease
 --	O
@@ -10095,7 +10095,7 @@ These	O
 findings	O
 indicate	O
 that	O
-GTN	O
+GTN	B-Chemical
 has	O
 a	O
 reduced	O
@@ -10130,9 +10130,9 @@ glomerular	B-Disease
 injury	I-Disease
 in	O
 chronic	O
-puromycin	B-Chemical
-aminonucleoside	I-Chemical
-nephrosis	I-Chemical
+puromycin	B-Disease
+aminonucleoside	I-Disease
+nephrosis	I-Disease
 .	O
 
 The	O
@@ -10214,7 +10214,7 @@ used	O
 i	O
 )	O
 the	O
-PAN	B-Disease
+PAN	O
 group	O
 (	O
 14	O
@@ -10299,7 +10299,7 @@ Systolic	O
 BP	O
 in	O
 the	O
-PAN	B-Disease
+PAN	B-Chemical
 group	O
 was	O
 significantly	O
@@ -10326,7 +10326,7 @@ protein	O
 excretion	O
 in	O
 the	O
-PAN	B-Disease
+PAN	O
 group	O
 increased	O
 significantly	O
@@ -10401,7 +10401,7 @@ and	O
 weeks	O
 in	O
 the	O
-PAN	B-Disease
+PAN	O
 group	O
 .	O
 
@@ -10421,7 +10421,7 @@ r	O
 =	O
 0.808	O
 ,	O
-p	B-Disease
+p	O
 <	O
 0.0001	O
 )	O
@@ -10535,7 +10535,7 @@ showed	O
 severely	O
 decreased	B-Disease
 pulmonary	O
-blood	O
+blood	B-Disease
 flow	O
 .	O
 
@@ -10575,11 +10575,11 @@ ibuprofen	B-Chemical
 
 Hyponatremia	B-Disease
 and	O
-syndrome	O
-of	O
-inappropriate	O
-anti-diuretic	O
-hormone	O
+syndrome	B-Chemical
+of	I-Chemical
+inappropriate	I-Chemical
+anti-diuretic	I-Chemical
+hormone	B-Chemical
 reported	O
 with	O
 the	O
@@ -10619,7 +10619,7 @@ of	I-Disease
 anti-diuretic	O
 hormone	O
 (	O
-SIADH	O
+SIADH	B-Chemical
 )	O
 among	O
 vincristine-treated	O
@@ -10683,7 +10683,7 @@ cases	O
 of	O
 hyponatremia	B-Disease
 and/or	O
-SIADH	B-Disease
+SIADH	B-Chemical
 associated	O
 with	O
 vincristine	B-Chemical
@@ -10953,7 +10953,7 @@ After	O
 30	O
 days	O
 of	O
-CY	B-Chemical
+CY	O
 injection	O
 ulcerous	O
 and	O
@@ -11097,7 +11097,7 @@ that	O
 delayed	O
 toxicity	B-Disease
 of	O
-CY	B-Chemical
+CY	O
 in	O
 female	O
 DBA/2	O
@@ -11173,13 +11173,13 @@ infusion	O
 of	O
 5-fluorouracil	B-Chemical
 (	O
-5-FU	O
+5-FU	B-Chemical
 )	O
 and	O
 folinic	B-Chemical
 acid	I-Chemical
 (	O
-FA	B-Chemical
+FA	O
 )	O
 as	O
 part	O
@@ -11306,7 +11306,7 @@ mg/m(2	O
 preceded	O
 by	O
 2-hour	O
-FA	B-Chemical
+FA	O
 500	O
 mg/m(2	O
 )	O
@@ -11395,7 +11395,7 @@ and	O
 showed	O
 a	O
 relapsed	O
-AGC	B-Disease
+AGC	O
 .	O
 
 Median	O
@@ -11430,7 +11430,7 @@ remission	O
 9.1	O
 %	O
 (	O
-n	B-Disease
+n	O
 =	O
 3	O
 )	O
@@ -11440,7 +11440,7 @@ remission	O
 45.5	O
 %	O
 (	O
-n	B-Disease
+n	O
 =	O
 15	O
 )	O
@@ -11450,7 +11450,7 @@ change	O
 27.3	O
 %	O
 (	O
-n	B-Disease
+n	O
 =	O
 9	O
 )	O
@@ -11460,7 +11460,7 @@ disease	O
 15.1	O
 %	O
 (	O
-n	B-Disease
+n	O
 =	O
 5	O
 )	O
@@ -11670,7 +11670,7 @@ human	B-Disease
 immunodeficiency	I-Disease
 virus	I-Disease
 type	I-Disease
-1-infected	I-Disease
+1-infected	O
 children	O
 treated	O
 with	O
@@ -11877,7 +11877,7 @@ curve	O
 19	O
 mg/L	O
 x	O
-h	B-Disease
+h	O
 or	O
 a	O
 peak	O
@@ -12030,7 +12030,7 @@ indinavir	B-Chemical
 19	O
 mg/L	O
 x	O
-h	B-Disease
+h	O
 ,	O
 and	O
 a	O
@@ -12545,7 +12545,7 @@ chronic	B-Disease
 renal	I-Disease
 failure	I-Disease
 (	O
-CRF	B-Disease
+CRF	O
 )	O
 developed	O
 neuroleptic	B-Disease
@@ -12569,7 +12569,7 @@ the	O
 typical	O
 symptoms	O
 of	O
-NMS	O
+NMS	B-Disease
 ,	O
 massive	O
 intestinal	O
@@ -12595,8 +12595,8 @@ may	O
 be	O
 complicated	O
 by	O
-intestinal	B-Disease
-bleeding	I-Disease
+intestinal	O
+bleeding	B-Disease
 and	O
 needs	O
 special	O
@@ -13201,7 +13201,7 @@ adenosine	B-Chemical
 receptor	O
 agonists	O
 :	O
-2-p-(2-carboxyethyl)phenethylamino-5'-N-ethylcarboxamidoadenosine	O
+2-p-(2-carboxyethyl)phenethylamino-5'-N-ethylcarboxamidoadenosine	B-Chemical
 (	O
 CGS	O
 21680	O
@@ -13211,7 +13211,7 @@ A2A	O
 receptor	O
 agonist	O
 ,	O
-N6-cyclopentyladenosine	O
+N6-cyclopentyladenosine	B-Chemical
 (	O
 CPA	O
 )	O
@@ -13221,7 +13221,7 @@ receptor	O
 agonist	O
 ,	O
 and	O
-5'-N-ethylcarboxamidoadenosine	O
+5'-N-ethylcarboxamidoadenosine	B-Chemical
 (	O
 NECA	O
 )	O
@@ -13644,9 +13644,9 @@ agents	O
 ,	O
 beta-blockers	O
 ,	O
-calcium	O
-channel	O
-blockers	O
+calcium	B-Chemical
+channel	I-Chemical
+blockers	I-Chemical
 ,	O
 and	O
 digoxin	B-Chemical
@@ -13872,7 +13872,7 @@ a	O
 control	O
 group	O
 (	O
-n	B-Disease
+n	O
 =	O
 10	O
 )	O
@@ -13881,7 +13881,7 @@ a	O
 high-dose	O
 group	O
 (	O
-n	B-Disease
+n	O
 =	O
 10	O
 )	O
@@ -13902,7 +13902,7 @@ therapeutic	O
 dose	O
 group	O
 (	O
-n	B-Disease
+n	O
 =	O
 10	O
 )	O
@@ -13981,7 +13981,7 @@ in	O
 the	O
 mucosa	O
 (	O
-P	B-Disease
+P	O
 <	O
 0.0001	O
 )	O
@@ -14018,7 +14018,7 @@ also	O
 statistically	O
 significant	O
 (	O
-P	B-Disease
+P	O
 <	O
 0.0001	O
 )	O
@@ -14538,8 +14538,8 @@ were	O
 successfully	O
 treated	O
 with	O
-sodium	O
-thiopental	O
+sodium	B-Chemical
+thiopental	I-Chemical
 in	O
 addition	O
 to	O
@@ -14625,8 +14625,8 @@ result	O
 in	O
 central	B-Disease
 nervous	O
-system	O
-toxicity	B-Disease
+system	B-Disease
+toxicity	I-Disease
 did	O
 not	O
 produce	O
@@ -14671,9 +14671,9 @@ days	O
 )	O
 development	O
 of	O
-torsade	B-Disease
-de	I-Disease
-pointes	I-Disease
+torsade	O
+de	O
+pointes	O
 (	O
 TdP	O
 )	O
@@ -14691,7 +14691,7 @@ reports	O
 this	O
 case	O
 of	O
-TdP	B-Chemical
+TdP	O
 occurred	O
 in	O
 the	O
@@ -14708,10 +14708,10 @@ excess	O
 .	O
 
 Transient	O
-prolongation	B-Disease
-of	I-Disease
-the	I-Disease
-QT	I-Disease
+prolongation	O
+of	O
+the	O
+QT	O
 during	O
 bladder	O
 irrigation	O
@@ -14771,7 +14771,7 @@ irrigation	O
 did	O
 not	O
 induce	O
-TdP	B-Chemical
+TdP	O
 despite	O
 hypokalemia	B-Disease
 and	O
@@ -14886,7 +14886,7 @@ EMG	O
 
 The	O
 diagnosis	O
-MC	B-Disease
+MC	O
 was	O
 confirmed	O
 genetically	O
@@ -15152,7 +15152,7 @@ to	O
 a	O
 significant	O
 (	O
-p	B-Disease
+p	O
 <	O
 0.05	O
 )	O
@@ -15205,7 +15205,7 @@ by	O
 a	O
 significant	O
 (	O
-p	B-Disease
+p	O
 <	O
 0.05	O
 )	O
@@ -15367,8 +15367,8 @@ of	O
 progesterone	B-Chemical
 treatment	O
 on	O
-bupivacaine	B-Chemical
-arrhythmogenicity	I-Chemical
+bupivacaine	B-Disease
+arrhythmogenicity	I-Disease
 in	O
 beating	O
 rat	O
@@ -15481,8 +15481,8 @@ nor	O
 estradiol	B-Chemical
 effects	O
 on	O
-bupivacaine	B-Chemical
-arrhythmogenicity	I-Chemical
+bupivacaine	B-Disease
+arrhythmogenicity	I-Disease
 were	O
 potentiated	O
 by	O
@@ -15504,8 +15504,8 @@ a	O
 significant	O
 increase	O
 in	O
-bupivacaine	B-Chemical
-arrhythmogenicity	O
+bupivacaine	B-Disease
+arrhythmogenicity	I-Disease
 in	O
 intact	O
 pentobarbital-anesthetized	O
@@ -15571,8 +15571,8 @@ vitro	O
 
 Potentiation	O
 of	O
-bupivacaine	B-Chemical
-arrhythmia	I-Chemical
+bupivacaine	B-Disease
+arrhythmia	I-Disease
 in	O
 myocyte	O
 cultures	O
@@ -15776,7 +15776,7 @@ range	O
 52.7	O
 U/mL	O
 ,	O
-n	B-Disease
+n	O
 =	O
 17	O
 )	O
@@ -15801,7 +15801,7 @@ range	O
 46.0	O
 U/mL	O
 ,	O
-n	B-Disease
+n	O
 =	O
 7	O
 ,	O
@@ -15842,7 +15842,7 @@ r	O
 =	O
 0.613	O
 ,	O
-P	B-Disease
+P	O
 <	O
 0.01	O
 )	O
@@ -16220,7 +16220,7 @@ home	O
 intravenous	O
 desferrioxamine	B-Chemical
 (	O
-DFX	O
+DFX	B-Chemical
 )	O
 treatment	O
 by	O
@@ -16378,8 +16378,8 @@ clinical	O
 experience	O
 with	O
 abnormal	B-Disease
-ocular	O
-motility	B-Disease
+ocular	I-Disease
+motility	I-Disease
 in	O
 patients	O
 treated	O
@@ -16446,7 +16446,7 @@ of	O
 treatment	O
 failure	O
 (	O
-n	B-Disease
+n	O
 =	O
 4	O
 )	O
@@ -16619,7 +16619,7 @@ after	O
 being	O
 treated	O
 with	O
-ethambutol	O
+ethambutol	B-Chemical
 for	O
 tuberculosis	B-Disease
 of	O
@@ -16949,7 +16949,7 @@ dry	B-Disease
 mouth	I-Disease
 and	O
 a	O
-sore	B-Disease
+sore	B-Chemical
 throat	O
 in	O
 2	O
@@ -16961,8 +16961,8 @@ glycopyrrolate	B-Chemical
 )	O
 ,	O
 a	O
-light	B-Disease
-headache	I-Disease
+light	O
+headache	B-Disease
 in	O
 1	O
 patient	O
@@ -17038,7 +17038,7 @@ amenorrhea/oligomenorrhea	O
 associated	O
 with	O
 their	O
-neuroleptic	B-Chemical
+neuroleptic	B-Disease
 medications	O
 were	O
 treated	O
@@ -17150,7 +17150,7 @@ synthesis/turnover	O
 of	O
 5-hydroxytryptamine	B-Chemical
 (	O
-5-HT	O
+5-HT	B-Chemical
 )	O
 but	O
 suppressed	O
@@ -17224,7 +17224,7 @@ and	O
 anticonvulsant	O
 beta-carboline	O
 derivative	O
-abecarnil	O
+abecarnil	B-Chemical
 .	O
 
 In	O
@@ -17236,10 +17236,10 @@ of	O
 the	O
 beta-carboline	B-Chemical
 derivative	O
-isopropyl-6-	O
+isopropyl-6-	B-Chemical
 benzyloxy-4-methoxymethyl-beta-carboline-3-carboxylate	O
 (	O
-abecarrnil	O
+abecarrnil	B-Chemical
 )	O
 ,	O
 a	O
@@ -17284,7 +17284,7 @@ cortical	O
 membrane	O
 preparation	O
 ,	O
-abecarnil	O
+abecarnil	B-Chemical
 increased	O
 [3H]GABA	O
 binding	O
@@ -17324,7 +17324,7 @@ Ro	O
 6028	O
 (	O
 tert-butyl-(S)-8-bromo-11,12,13,13a-tetrahydro-9-oxo-9H-	O
-imidazo[1,5-a]-pyrrolo-[2,1-c][1,4]benzodiazepine-1-carboxylate	O
+imidazo[1,5-a]-pyrrolo-[2,1-c][1,4]benzodiazepine-1-carboxylate	B-Chemical
 )	O
 showed	O
 very	O
@@ -17344,7 +17344,7 @@ injection	O
 to	O
 rats	O
 ,	O
-abecarnil	O
+abecarnil	B-Chemical
 and	O
 diazepam	B-Chemical
 decreased	O
@@ -17454,7 +17454,7 @@ In	O
 these	O
 animals	O
 ,	O
-abecarnil	O
+abecarnil	B-Chemical
 produced	O
 a	O
 paralleled	O
@@ -17497,7 +17497,7 @@ the	O
 convulsions	B-Disease
 induced	O
 by	O
-isoniazid	O
+isoniazid	B-Chemical
 (	O
 200	O
 mg/kg	O
@@ -17629,8 +17629,8 @@ a	O
 combination	O
 of	O
 different	O
-psychotropic	B-Disease
-drugs	I-Disease
+psychotropic	B-Chemical
+drugs	I-Chemical
 ,	O
 in	O
 whom	O
@@ -17939,13 +17939,13 @@ hyponatremia	B-Disease
 Evaluation	O
 revealed	O
 the	O
-syndrome	O
-of	O
-inappropriate	O
-secretion	O
-of	O
-antidiuretic	O
-hormone	O
+syndrome	B-Chemical
+of	I-Chemical
+inappropriate	I-Chemical
+secretion	I-Chemical
+of	I-Chemical
+antidiuretic	I-Chemical
+hormone	I-Chemical
 ,	O
 which	O
 was	O
@@ -18321,7 +18321,7 @@ in	O
 other	O
 studies	O
 with	O
-isradipine	O
+isradipine	B-Chemical
 or	O
 with	O
 placebo	O
@@ -18550,7 +18550,7 @@ were	O
 measured	O
 for	O
 48	O
-h	B-Disease
+h	O
 following	O
 drug	O
 administration	O
@@ -18669,7 +18669,7 @@ vs.	O
 20	O
 %	O
 ,	O
-p	B-Disease
+p	O
 <	O
 0.01	O
 )	O
@@ -18681,7 +18681,7 @@ vs.	O
 6.6	O
 %	O
 ,	O
-p	B-Disease
+p	O
 <	O
 0.001	O
 )	O
@@ -18993,7 +18993,7 @@ of	O
 cardiac	O
 events	O
 with	O
-VNR	O
+VNR	B-Disease
 was	O
 1.19	O
 %	O
@@ -19024,7 +19024,7 @@ of	O
 cardiac	O
 events	O
 between	O
-VNR	B-Disease
+VNR	O
 and	O
 other	O
 drugs	O
@@ -19069,7 +19069,7 @@ anthracyclines	B-Chemical
 ,	O
 gemcitabine	B-Chemical
 (	O
-GEM	B-Chemical
+GEM	O
 )	O
 em	O
 leader	O
@@ -19140,7 +19140,7 @@ the	O
 risk	O
 associated	O
 with	O
-VNR	B-Disease
+VNR	O
 seems	O
 to	O
 be	O
@@ -19482,7 +19482,7 @@ range	O
 after	O
 follow-up	O
 ;	O
-P=0.338	B-Disease
+P=0.338	O
 unpaired	O
 t-test	O
 .	O
@@ -19702,7 +19702,7 @@ In	O
 patient	O
 with	O
 eyelid	O
-eczema	B-Chemical
+eczema	O
 ,	O
 rosaceiform	O
 periocular	O
@@ -19773,7 +19773,7 @@ tacrolimus	B-Chemical
 ,	O
 proliferation	O
 of	O
-Demodex	B-Disease
+Demodex	B-Chemical
 due	O
 to	O
 local	O
@@ -19892,7 +19892,7 @@ of	O
 structural	O
 deficits	B-Disease
 in	O
-the	B-Disease
+the	O
 human	O
 brain	O
 associated	O
@@ -19952,7 +19952,7 @@ alterations	O
 associated	O
 with	O
 chronic	O
-MA	B-Chemical
+MA	O
 abuse	O
 in	O
 human	O
@@ -20030,7 +20030,7 @@ averaging	O
 below	O
 control	O
 ;	O
-p	B-Disease
+p	O
 <	O
 0.05	O
 )	O
@@ -20051,7 +20051,7 @@ than	O
 control	O
 subjects	O
 (	O
-p	B-Disease
+p	O
 <	O
 0.01	O
 ;	O
@@ -20106,8 +20106,8 @@ maps	O
 suggest	O
 that	O
 chronic	O
-methamphetamine	B-Chemical
-abuse	I-Chemical
+methamphetamine	B-Disease
+abuse	I-Disease
 causes	O
 a	O
 selective	O
@@ -20841,11 +20841,11 @@ Cardioprotective	O
 effect	O
 of	O
 ethanolic	O
-extract	O
-of	O
-Terminalia	O
-chebula	O
-fruits	O
+extract	B-Chemical
+of	I-Chemical
+Terminalia	I-Chemical
+chebula	I-Chemical
+fruits	I-Chemical
 (	O
 500	O
 mg/kg	O
@@ -21140,7 +21140,7 @@ neurogenic	B-Disease
 diabetes	I-Disease
 insipidus	I-Disease
 (	O
-DI	O
+DI	B-Chemical
 )	O
 secondary	O
 to	O
@@ -21260,7 +21260,7 @@ that	O
 nephrogenic	O
 and	O
 neurogenic	O
-DI	B-Disease
+DI	O
 be	O
 treated	O
 concomitantly	O
@@ -21283,9 +21283,9 @@ ribavirin	B-Chemical
 combination	O
 therapy	O
 for	O
-chronic	B-Disease
-hepatitis	I-Disease
-C	I-Disease
+chronic	O
+hepatitis	O
+C	O
 produces	O
 hemolytic	B-Disease
 anemia	I-Disease
@@ -21310,9 +21310,9 @@ METHODS	O
 Eighty-eight	O
 patients	O
 with	O
-chronic	B-Disease
-hepatitis	I-Disease
-C	I-Disease
+chronic	O
+hepatitis	O
+C	O
 who	O
 received	O
 interferon-alpha-2b	O
@@ -21463,7 +21463,7 @@ severity	O
 of	O
 anemia	B-Disease
 (	O
-P	B-Disease
+P	O
 <	O
 0.01	O
 )	O
@@ -21824,7 +21824,7 @@ hours	O
 Our	O
 data	O
 showed	O
-ADR	O
+ADR	B-Chemical
 induced	O
 4HNE-protein	O
 adducts	O
@@ -22192,7 +22192,7 @@ and	O
 3	O
 mg/kg	O
 )	O
-stereotypy	B-Disease
+stereotypy	O
 and	O
 apomorphine	B-Chemical
 (	O
@@ -22318,7 +22318,7 @@ suggest	O
 that	O
 trazodone	B-Chemical
 (	O
-5	O
+5	B-Chemical
 ,	O
 10	O
 and	O
@@ -22373,7 +22373,7 @@ Parkinson	B-Disease
 's	I-Disease
 disease	I-Disease
 (	O
-PD	O
+PD	B-Disease
 )	O
 have	O
 been	O
@@ -22495,7 +22495,7 @@ controls	O
 (	O
 Dunnett	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.02	O
 )	O
@@ -22514,7 +22514,7 @@ nondyskinetic	O
 (	O
 Dunnett	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.06	O
 )	O
@@ -22547,7 +22547,7 @@ Pearson	O
 's	O
 correlation	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.01	O
 and	O
@@ -22629,7 +22629,7 @@ of	O
 deglutition	O
 alterations	O
 in	O
-PD	O
+PD	B-Disease
 .	O
 
 Inhibition	O
@@ -22835,7 +22835,7 @@ compared	O
 to	O
 control	O
 (	O
-p	B-Disease
+p	O
 <	O
 0.05	O
 )	O
@@ -22864,7 +22864,7 @@ function	O
 
 Treatment	O
 with	O
-PDTC	B-Chemical
+PDTC	O
 reduced	O
 the	O
 functional	O
@@ -22946,8 +22946,8 @@ it	O
 remains	O
 unclear	O
 whether	O
-atypical	O
-agents	O
+atypical	B-Chemical
+agents	I-Chemical
 are	O
 directly	O
 affecting	O
@@ -23127,7 +23127,7 @@ The	O
 mean	O
 +	O
 /-	O
-SD	B-Disease
+SD	O
 duration	O
 of	O
 treatment	O
@@ -23179,7 +23179,7 @@ F(33	O
 =	O
 3.35	O
 ;	O
-P	B-Disease
+P	O
 =	O
 .047	O
 )	O
@@ -23203,7 +23203,7 @@ t(33	O
 =	O
 2.32	O
 ;	O
-P	B-Disease
+P	O
 =	O
 .03	O
 )	O
@@ -23217,7 +23217,7 @@ t(33	O
 =	O
 2.15	O
 ;	O
-P	B-Disease
+P	O
 =	O
 .04	O
 )	O
@@ -23317,7 +23317,7 @@ F(33	O
 =	O
 4.92	O
 ;	O
-P	B-Disease
+P	O
 =	O
 .01	O
 )	O
@@ -23351,7 +23351,7 @@ t(33	O
 =	O
 2.42	O
 ;	O
-P	B-Disease
+P	O
 =	O
 .02	O
 )	O
@@ -23373,7 +23373,7 @@ F(30	O
 =	O
 4.18	O
 ;	O
-P	B-Disease
+P	O
 =	O
 .02	O
 )	O
@@ -23397,7 +23397,7 @@ t(30	O
 =	O
 -2.59	O
 ;	O
-P	B-Disease
+P	O
 =	O
 .02	O
 )	O
@@ -23411,7 +23411,7 @@ t(30	O
 =	O
 -2.34	O
 ,	O
-P	B-Disease
+P	O
 =	O
 .03	O
 )	O
@@ -23503,7 +23503,7 @@ index	O
 of	O
 suspicion	O
 may	O
-lead	B-Disease
+lead	O
 to	O
 a	O
 quick	O
@@ -23692,7 +23692,7 @@ primary	O
 systemic	B-Disease
 amyloidosis	I-Disease
 (	O
-AL	B-Disease
+AL	O
 )	O
 have	O
 a	O
@@ -23791,7 +23791,7 @@ Acute	O
 renal	O
 insufficiency	O
 (	O
-ARI	B-Disease
+ARI	O
 )	O
 after	O
 high-dose	O
@@ -23853,7 +23853,7 @@ the	O
 patients	O
 studied	O
 ,	O
-ARI	B-Disease
+ARI	O
 developed	O
 in	O
 18.8	O
@@ -23911,7 +23911,7 @@ analysis	O
 Patients	O
 who	O
 had	O
-ARI	B-Disease
+ARI	O
 after	O
 high-dose	O
 melphalan	B-Chemical
@@ -23920,7 +23920,7 @@ dialysis	O
 more	O
 often	O
 (	O
-P	B-Disease
+P	O
 =	O
 0.007	O
 )	O
@@ -23932,7 +23932,7 @@ worse	O
 1-year	O
 survival	O
 (	O
-P	B-Disease
+P	O
 =	O
 0.03	O
 )	O
@@ -23977,7 +23977,7 @@ sediment	O
 
 Development	O
 of	O
-ARI	B-Disease
+ARI	B-Chemical
 adversely	O
 affected	O
 the	O
@@ -24193,7 +24193,7 @@ group	O
 mean	O
 +	O
 /-	O
-SD	B-Disease
+SD	O
 )	O
 versus	O
 the	O
@@ -24693,7 +24693,7 @@ reactions	O
 
 Celecoxib	B-Chemical
 (	O
-CE	O
+CE	B-Chemical
 )	O
 is	O
 a	O
@@ -24803,7 +24803,7 @@ of	O
 200	O
 mg	O
 of	O
-CE	B-Chemical
+CE	O
 in	O
 refracted	O
 doses	O
@@ -24887,7 +24887,7 @@ patients	O
 %	O
 )	O
 tolerated	O
-CE	B-Chemical
+CE	O
 .	O
 
 Only	O
@@ -24988,7 +24988,7 @@ end-stage	O
 renal	B-Disease
 disease	I-Disease
 (	O
-ESRD	B-Disease
+ESRD	O
 )	O
 have	O
 given	O
@@ -25292,8 +25292,8 @@ ESRD	B-Disease
 Two	O
 cases	O
 of	O
-amisulpride	B-Chemical
-overdose	I-Chemical
+amisulpride	B-Disease
+overdose	I-Disease
 :	O
 a	O
 cause	O
@@ -25401,7 +25401,7 @@ GAP43-ir	O
 )	O
 correlates	O
 with	O
-MFS	O
+MFS	B-Disease
 ,	O
 we	O
 assessed	O
@@ -25477,7 +25477,7 @@ rats	O
 .	O
 
 The	O
-Pilo	B-Disease
+Pilo	O
 group	O
 was	O
 injected	O
@@ -25488,7 +25488,7 @@ drugs	O
 ,	O
 except	O
 for	O
-CHX	B-Disease
+CHX	O
 .	O
 
 Animals	O
@@ -25549,7 +25549,7 @@ the	O
 IML	O
 showed	O
 that	O
-CHX+Pilo	B-Disease
+CHX+Pilo	O
 and	O
 control	O
 animals	O
@@ -25559,7 +25559,7 @@ significantly	O
 larger	O
 band	O
 (	O
-p	B-Disease
+p	O
 =	O
 0.03	O
 )	O
@@ -26150,11 +26150,11 @@ trials	O
 of	O
 HT	O
 (	O
-oestrogens	B-Chemical
+oestrogens	B-Disease
 with	O
 or	O
 without	O
-progestogens	B-Chemical
+progestogens	B-Disease
 )	O
 versus	O
 placebo	O
@@ -26246,7 +26246,7 @@ women	O
 ,	O
 combined	O
 continuous	O
-HT	B-Disease
+HT	O
 significantly	O
 increased	O
 the	O
@@ -26307,7 +26307,7 @@ statistically	O
 significant	O
 benefits	O
 of	O
-HT	O
+HT	B-Chemical
 were	O
 a	O
 decreased	O
@@ -26315,8 +26315,8 @@ incidence	O
 of	O
 fractures	B-Disease
 and	O
-colon	O
-cancer	B-Disease
+colon	B-Disease
+cancer	I-Disease
 with	O
 long-term	O
 use	O
@@ -26332,7 +26332,7 @@ years	O
 taking	O
 continuous	O
 combined	O
-HT	B-Disease
+HT	O
 ,	O
 there	O
 was	O
@@ -26395,12 +26395,12 @@ women	O
 taking	O
 combined	O
 continuous	O
-HT	B-Disease
+HT	O
 and	O
 1637	O
 taking	O
 oestrogen-only	O
-HT	B-Disease
+HT	O
 ,	O
 versus	O
 similar-sized	O
@@ -26513,7 +26513,7 @@ drug-induced	O
 liver	B-Disease
 injury	I-Disease
 (	O
-DILI	B-Disease
+DILI	O
 )	O
 and	O
 outcome	O
@@ -26663,7 +26663,7 @@ correlated	O
 with	O
 age	O
 (	O
-P	B-Disease
+P	O
 <	O
 .0001	O
 )	O
@@ -26677,7 +26677,7 @@ outcome	O
 Cox	O
 regression	O
 ,	O
-P	B-Disease
+P	O
 <	O
 .034	O
 )	O
@@ -26716,7 +26716,7 @@ in	O
 nonjaundiced	O
 patients	O
 (	O
-P	B-Chemical
+P	O
 <	O
 .04	O
 )	O
@@ -26747,7 +26747,7 @@ CI	O
 -	O
 151	O
 ;	O
-P	B-Disease
+P	O
 <	O
 .0001	O
 )	O
@@ -26767,7 +26767,7 @@ CI	O
 -	O
 37	O
 ;	O
-P	B-Disease
+P	O
 <	O
 .009	O
 )	O
@@ -26826,7 +26826,7 @@ common	O
 drug	O
 related	O
 to	O
-DILI	B-Disease
+DILI	B-Chemical
 .	O
 
 Morphological	O
@@ -26970,7 +26970,7 @@ sham	O
 ,	O
 VCM	O
 and	O
-VCM	O
+VCM	B-Chemical
 plus	O
 erdosteine	B-Chemical
 .	O
@@ -27266,7 +27266,7 @@ a	O
 single	O
 drug	O
 ,	O
-gemfibrozil	B-Chemical
+gemfibrozil	O
 (	O
 1.2	O
 g/day)-lovastatin	O
@@ -27673,7 +27673,7 @@ and	O
 the	O
 symptoms	O
 of	O
-RLS	O
+RLS	B-Disease
 in	O
 our	O
 patient	O
@@ -27888,8 +27888,8 @@ disease	I-Disease
 CONCLUSIONS	O
 :	O
 Ischaemic	O
-coronary	B-Disease
-arteriosclerosis	I-Disease
+coronary	O
+arteriosclerosis	B-Disease
 with	O
 an	O
 incidence	O
@@ -27947,7 +27947,7 @@ occurring	O
 during	O
 5-fluorouracil	B-Chemical
 (	O
-5-FU	O
+5-FU	B-Chemical
 )	O
 treatment	O
 for	O
@@ -28026,7 +28026,7 @@ continuous	O
 intravenous	O
 infusion	O
 of	O
-5-FU	O
+5-FU	B-Chemical
 (	O
 1000	O
 mg/day	O
@@ -28068,7 +28068,7 @@ after	O
 the	O
 discontinuation	O
 of	O
-5-FU	O
+5-FU	B-Chemical
 .	O
 
 As	O
@@ -28106,7 +28106,7 @@ S-1	O
 a	O
 derivative	O
 of	O
-5-FU	O
+5-FU	B-Chemical
 )	O
 ,	O
 at	O
@@ -28207,7 +28207,7 @@ literature	O
 ,	O
 suggests	O
 that	O
-FBAL	O
+FBAL	B-Chemical
 is	O
 related	O
 to	O
@@ -28430,7 +28430,7 @@ semisynthetic	O
 flavonoid	B-Chemical
 monohydroxyethylrutoside	I-Chemical
 (	O
-monoHER	O
+monoHER	B-Chemical
 )	O
 showed	O
 cardioprotection	O
@@ -28455,7 +28455,7 @@ short	O
 final	O
 half-life	O
 of	O
-monoHER	O
+monoHER	B-Chemical
 (	O
 about	O
 30	O
@@ -28470,7 +28470,7 @@ the	O
 time	O
 interval	O
 between	O
-monoHER	O
+monoHER	B-Chemical
 and	O
 DOX	B-Chemical
 might	O
@@ -28700,7 +28700,7 @@ protective	O
 effect	O
 by	O
 adding	O
-monoHER	O
+monoHER	B-Chemical
 before	O
 DOX	B-Chemical
 led	O
@@ -28740,7 +28740,7 @@ and	O
 DOX	B-Chemical
 administration	O
 (	O
-P=0.345	B-Disease
+P=0.345	O
 )	O
 .	O
 
@@ -28803,7 +28803,7 @@ and	O
 atrial	B-Disease
 flutter	I-Disease
 (	O
-AFL	O
+AFL	B-Disease
 )	O
 .	O
 
@@ -28814,9 +28814,9 @@ adverse	O
 effects	O
 ,	O
 including	O
-torsade	O
-de	O
-pointes	O
+torsade	B-Disease
+de	I-Disease
+pointes	I-Disease
 (	O
 Tdp	O
 )	O
@@ -28833,7 +28833,7 @@ RESULTS	O
 Adverse	O
 effects	O
 of	O
-Bpd	B-Chemical
+Bpd	B-Disease
 requiring	O
 discontinuation	O
 of	O
@@ -28842,7 +28842,7 @@ were	O
 evaluated	O
 .	O
 
-Bpd	O
+Bpd	B-Chemical
 was	O
 administered	O
 to	O
@@ -28861,7 +28861,7 @@ comprising	O
 AF	B-Disease
 and	O
 81	O
-AFL	B-Disease
+AFL	O
 cases	O
 .	O
 
@@ -28881,7 +28881,7 @@ were	O
 %	O
 and	O
 40+/-6	O
-mm	B-Disease
+mm	O
 ,	O
 respectively	O
 .	O
@@ -28947,7 +28947,7 @@ with	O
 QT	B-Disease
 prolongation	I-Disease
 ,	O
-Tdp	B-Chemical
+Tdp	O
 occurred	O
 .	O
 
@@ -28956,7 +28956,7 @@ major	O
 triggering	O
 factors	O
 of	O
-Tdp	B-Chemical
+Tdp	O
 were	O
 hypokalemia	B-Disease
 and	O
@@ -28981,7 +28981,7 @@ patients	O
 with	O
 and	O
 without	O
-Tdp	B-Chemical
+Tdp	O
 other	O
 than	O
 LAD	O
@@ -28997,7 +28997,7 @@ in	O
 the	O
 patients	O
 with	O
-Tdp	B-Chemical
+Tdp	B-Disease
 .	O
 
 CONCLUSION	O
@@ -29093,7 +29093,7 @@ beta-AR	O
 agonist	O
 isoproterenol	B-Chemical
 (	O
-Iso	O
+Iso	B-Chemical
 )	O
 .	O
 
@@ -29114,7 +29114,7 @@ In	O
 isolated	O
 hearts	O
 ,	O
-Iso	O
+Iso	B-Chemical
 induced	O
 a	O
 significantly	O
@@ -29770,8 +29770,8 @@ was	O
 +	O
 /-	O
 2	O
-mm	B-Disease
-Hg	I-Disease
+mm	O
+Hg	O
 in	O
 control	O
 and	O
@@ -29779,13 +29779,13 @@ and	O
 +	O
 /-	O
 5	O
-mm	B-Disease
-Hg	I-Disease
+mm	O
+Hg	O
 in	O
 LNNA	O
 rats	O
 (	O
-P<0.05	B-Disease
+P<0.05	O
 )	O
 .	O
 
@@ -29885,7 +29885,7 @@ or	O
 2	O
 weeks	O
 after	O
-LNNA	B-Chemical
+LNNA	O
 .	O
 
 The	O
@@ -29937,8 +29937,8 @@ and	O
 +	O
 /-	O
 11	O
-mm	B-Disease
-Hg	I-Disease
+mm	O
+Hg	O
 )	O
 .	O
 
@@ -29974,8 +29974,8 @@ rats	O
 +	O
 /-	O
 10	O
-mm	B-Disease
-Hg	I-Disease
+mm	O
+Hg	O
 )	O
 .	O
 
@@ -30917,7 +30917,7 @@ improved	O
 the	O
 survival	O
 of	O
-HBsAg	B-Chemical
+HBsAg	B-Disease
 positive	O
 patients	O
 .	O
@@ -31079,7 +31079,7 @@ and	O
 of	O
 HBV-DNA	O
 and	O
-HBeAg	B-Chemical
+HBeAg	O
 positive	O
 patients	O
 respectively	O
@@ -31541,13 +31541,13 @@ critical	O
 thiol	B-Chemical
 groups	O
 in	O
-ifosfamide	B-Chemical
-nephropathy	I-Chemical
+ifosfamide	B-Disease
+nephropathy	I-Disease
 .	O
 
 Chloroacetaldehyde	B-Chemical
 (	O
-CAA	O
+CAA	B-Chemical
 )	O
 is	O
 a	O
@@ -31664,7 +31664,7 @@ loss	O
 in	O
 free	O
 intracellular	O
-thiols	B-Chemical
+thiols	B-Disease
 and	O
 an	O
 increase	O
@@ -31685,8 +31685,8 @@ caspase-3	O
 ,	O
 caspase-8	O
 and	O
-cathepsin	B-Chemical
-B.	I-Chemical
+cathepsin	O
+B.	O
 Caspase	O
 activation	O
 by	O
@@ -31721,13 +31721,13 @@ leakage	O
 The	O
 effects	O
 of	O
-CAA	O
+CAA	B-Chemical
 on	O
 cysteine	B-Chemical
 protease	O
 activities	O
 and	O
-thiols	O
+thiols	B-Chemical
 could	O
 be	O
 reproduced	O
@@ -31753,7 +31753,7 @@ also	O
 attenuate	O
 effects	O
 of	O
-CAA	O
+CAA	B-Chemical
 on	O
 necrosis	B-Disease
 markers	O
@@ -32240,7 +32240,7 @@ in	O
 emotional	O
 lability	O
 and	O
-inattention	O
+inattention	B-Disease
 on	O
 the	O
 Conners	O
@@ -32346,7 +32346,7 @@ behavioral	B-Disease
 dyscontrol	I-Disease
 ,	O
 and	O
-inattention	B-Chemical
+inattention	B-Disease
 .	O
 
 Further	O
@@ -32409,7 +32409,7 @@ mean	O
 age=23.3	O
 years	O
 [	O
-SD	B-Disease
+SD	O
 =	O
 5.1	O
 ]	O
@@ -32543,7 +32543,7 @@ measures	O
 of	O
 parkinsonism	B-Disease
 and	O
-akathisia	B-Disease
+akathisia	O
 did	O
 not	O
 differ	O
@@ -33199,8 +33199,8 @@ infarction	I-Disease
 AMI	B-Disease
 )	O
 with	O
-COX-2	O
-inhibitors	O
+COX-2	B-Chemical
+inhibitors	I-Chemical
 may	O
 offset	O
 their	O
@@ -33232,7 +33232,7 @@ risks	O
 of	O
 hospitalization	O
 for	O
-AMI	B-Chemical
+AMI	B-Disease
 and	O
 GI	B-Disease
 bleeding	I-Disease
@@ -33311,7 +33311,7 @@ acetaminophen	B-Chemical
 ,	O
 42,671	O
 to	O
-rofecoxib	B-Chemical
+rofecoxib	O
 65,860	O
 to	O
 celecoxib	B-Chemical
@@ -33396,7 +33396,7 @@ celecoxib	B-Chemical
 naproxen	B-Chemical
 1.59	O
 (	O
-1.31	B-Disease
+1.31	O
 ,	O
 1.93	O
 )	O
@@ -33409,7 +33409,7 @@ diclofenac	B-Chemical
 1.38	O
 )	O
 and	O
-ibuprofen	O
+ibuprofen	B-Chemical
 1.05	O
 (	O
 0.74	O
@@ -33442,7 +33442,7 @@ celecoxib	B-Chemical
 1.52	O
 )	O
 ,	O
-ibuprofen	O
+ibuprofen	B-Chemical
 1.51	O
 (	O
 0.95	O
@@ -33467,7 +33467,7 @@ naproxen	B-Chemical
 )	O
 and	O
 acetaminophen	B-Chemical
-1.29	B-Disease
+1.29	O
 (	O
 1.17	O
 ,	O
@@ -33837,7 +33837,7 @@ arrhythmia	B-Disease
 such	O
 as	O
 multiple	O
-PVC	O
+PVC	B-Disease
 .	O
 
 Administration	O
@@ -33918,8 +33918,8 @@ is	O
 an	O
 autosomal	O
 recessive	O
-disorder	B-Disease
-of	I-Disease
+disorder	O
+of	O
 hepatic	O
 copper	B-Chemical
 metabolism	O
@@ -34159,7 +34159,7 @@ blood	O
 pressure	O
 following	O
 prehospital	O
-GTN	B-Chemical
+GTN	O
 administration	O
 .	O
 
@@ -34172,8 +34172,8 @@ with	O
 no	O
 history	O
 of	O
-cardiac	O
-chest	B-Disease
+cardiac	B-Disease
+chest	I-Disease
 pain	I-Disease
 awoke	O
 with	O
@@ -34214,7 +34214,7 @@ and	O
 glyceryl	B-Chemical
 trinitrate	I-Chemical
 (	O
-GTN	B-Chemical
+GTN	O
 )	O
 .	O
 
@@ -34453,7 +34453,7 @@ versus	O
 mm	B-Disease
 Hg	I-Disease
 ,	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.05	O
@@ -34486,10 +34486,10 @@ versus	O
 +	O
 /-	O
 5	O
-mm	B-Disease
-Hg	I-Disease
+mm	O
+Hg	O
 ,	O
-p	B-Disease
+p	O
 less	O
 than	O
 0.05	O
@@ -34841,8 +34841,8 @@ tolerability	O
 of	O
 valsartan	B-Chemical
 (	O
-VAL	O
-)	O
+VAL	B-Chemical
+)	I-Chemical
 or	O
 hydrochlorothiazide	B-Chemical
 (HCTZ)-monotherapy	O
@@ -34915,7 +34915,7 @@ of	O
 treatment	O
 groups	O
 :	O
-VAL	O
+VAL	B-Chemical
 160	O
 or	O
 320	O
@@ -34986,16 +34986,16 @@ as	O
 MSDBP	O
 <	O
 90	O
-mm	B-Disease
-Hg	I-Disease
+mm	O
+Hg	O
 or	O
 a	O
 >	O
 or	O
 =	O
 10	O
-mm	B-Disease
-Hg	I-Disease
+mm	O
+Hg	O
 decrease	O
 compared	O
 to	O
@@ -35117,7 +35117,7 @@ of	O
 combination	O
 therapy	O
 (	O
-VAL	O
+VAL	B-Chemical
 and	O
 HCTZ	B-Chemical
 ,	O
@@ -35148,7 +35148,7 @@ placebo	O
 (	O
 all	O
 ,	O
-P	B-Disease
+P	O
 <	O
 0.001	O
 )	O
@@ -35171,8 +35171,8 @@ Hg	I-Disease
 compared	O
 with	O
 5.9/7.0	O
-mm	B-Disease
-Hg	I-Disease
+mm	O
+Hg	O
 with	O
 placebo	O
 .	O
@@ -35194,7 +35194,7 @@ VAL/HCTZ	O
 160/12.5	O
 mg	O
 (	O
-P	B-Disease
+P	O
 <	O
 0.002	O
 )	O
@@ -35298,8 +35298,8 @@ associated	O
 with	O
 significantly	O
 greater	O
-BP	B-Disease
-reductions	I-Disease
+BP	O
+reductions	B-Disease
 compared	O
 with	O
 either	O
@@ -35427,7 +35427,7 @@ exposure	O
 and	O
 treatment	O
 with	O
-succimer	B-Chemical
+succimer	B-Disease
 ,	O
 a	O
 widely	O
@@ -35472,7 +35472,7 @@ Pb-exposed	O
 children	O
 .	O
 
-Succimer	B-Chemical
+Succimer	O
 treatment	O
 of	O
 the	O
@@ -35500,7 +35500,7 @@ a	O
 function	O
 of	O
 the	O
-Pb	B-Chemical
+Pb	O
 exposure	O
 level	O
 and	O
@@ -35511,7 +35511,7 @@ deficit	O
 .	O
 
 In	O
-contrast	B-Disease
+contrast	O
 ,	O
 succimer	O
 treatment	O
@@ -35660,7 +35660,7 @@ with	O
 panic	B-Disease
 attacks	I-Disease
 (	O
-MDP	B-Chemical
+MDP	O
 )	O
 (	O
 Diagnostic	O
@@ -35704,7 +35704,7 @@ PD	B-Disease
 ,	O
 27	O
 with	O
-MDP	O
+MDP	B-Disease
 ,	O
 25	O
 with	O
@@ -35727,8 +35727,8 @@ The	O
 patients	O
 had	O
 no	O
-psychotropic	O
-drug	O
+psychotropic	B-Chemical
+drug	I-Chemical
 for	O
 at	O
 least	O
@@ -35751,8 +35751,8 @@ days	O
 apart	O
 ,	O
 480	O
-mg	B-Chemical
-caffeine	I-Chemical
+mg	O
+caffeine	O
 and	O
 a	O
 caffeine-free	O
@@ -35784,7 +35784,7 @@ of	O
 58.6	O
 %	O
 (	O
-n	B-Disease
+n	O
 =	O
 17	O
 )	O
@@ -35796,19 +35796,19 @@ PD	B-Disease
 44.4	O
 %	O
 (	O
-n	B-Disease
+n	O
 =	O
 12	O
 )	O
 of	O
 patients	O
 with	O
-MDP	B-Chemical
+MDP	B-Disease
 ,	O
 12.0	O
 %	O
 (	O
-n	B-Disease
+n	O
 =	O
 3	O
 )	O
@@ -35821,7 +35821,7 @@ and	O
 7.1	O
 %	O
 (	O
-n=	B-Disease
+n=	O
 2	O
 )	O
 of	O
@@ -35843,7 +35843,7 @@ chi(2)(3	O
 =	O
 16.22	O
 ,	O
-P	B-Disease
+P	O
 =	O
 .001	O
 )	O
@@ -35852,9 +35852,9 @@ P	B-Disease
 The	O
 patients	O
 with	O
-PD	O
+PD	B-Disease
 and	O
-MDP	B-Chemical
+MDP	O
 were	O
 more	O
 sensitive	O
@@ -35864,7 +35864,7 @@ than	O
 were	O
 patients	O
 with	O
-MD	B-Disease
+MD	O
 and	O
 healthy	O
 volunteers	O
@@ -35919,7 +35919,7 @@ F(3,762	O
 =	O
 2.85	O
 ,	O
-P	B-Disease
+P	O
 =	O
 .026	O
 )	O
@@ -35942,7 +35942,7 @@ matter	O
 if	O
 associated	O
 with	O
-PD	O
+PD	B-Disease
 or	O
 MDP	O
 ,	O
@@ -36011,7 +36011,7 @@ the	O
 MR	B-Disease
 ,	O
 the	O
-MAP	O
+MAP	B-Disease
 may	O
 also	O
 reshape	O
@@ -36150,7 +36150,7 @@ by	O
 echocardiography	O
 .	O
 
-MAP	B-Disease
+MAP	O
 was	O
 accomplished	O
 by	O
@@ -36179,7 +36179,7 @@ MAP	B-Disease
 
 RESULTS	O
 :	O
-MAP	B-Chemical
+MAP	O
 decreased	O
 mitral	O
 annular	O
@@ -36241,7 +36241,7 @@ to	O
 18.9	O
 %	O
 (	O
-p	B-Disease
+p	O
 =	O
 0.016	O
 )	O
@@ -36288,7 +36288,7 @@ to	O
 8	O
 ms	B-Disease
 ,	O
-p	B-Disease
+p	O
 <	O
 0.01	O
 )	O
@@ -36321,7 +36321,7 @@ p	O
 .	O
 
 After	O
-MAP	B-Disease
+MAP	B-Chemical
 ,	O
 increases	O
 were	O
@@ -36368,7 +36368,7 @@ acquired	O
 suggest	O
 that	O
 isolated	O
-MAP	O
+MAP	B-Chemical
 may	O
 have	O
 certain	O
@@ -36485,7 +36485,7 @@ generalized	O
 tonic-clonic	O
 seizure	B-Disease
 (	O
-GTCS	B-Disease
+GTCS	O
 )	O
 after	O
 5	O
@@ -36514,7 +36514,7 @@ normal	O
 plasma	O
 electrolyte	O
 and	O
-ammonia	B-Chemical
+ammonia	O
 levels	O
 but	O
 leukocytosis	B-Disease
@@ -36548,7 +36548,7 @@ antiepileptic	O
 agents	O
 ,	O
 another	O
-GTCS	B-Disease
+GTCS	O
 episode	O
 recurred	O
 after	O
@@ -36667,8 +36667,8 @@ centers	O
 
 Temporary	O
 ipsilateral	O
-vocal	O
-nerve	B-Disease
+vocal	B-Disease
+nerve	I-Disease
 palsies	I-Disease
 due	O
 to	O
@@ -37032,7 +37032,7 @@ six	O
 basic	O
 emotions	O
 (	O
-happiness	O
+happiness	B-Disease
 ,	O
 surprise	B-Disease
 ,	O
@@ -37128,7 +37128,7 @@ use	O
 histories	O
 to	O
 the	O
-OC	B-Disease
+OC	O
 group	O
 ,	O
 exhibited	O
@@ -37151,7 +37151,7 @@ group	O
 also	O
 correctly	O
 identified	O
-anger	B-Disease
+anger	B-Chemical
 ,	O
 fear	O
 ,	O
@@ -37167,12 +37167,12 @@ CN	O
 ,	O
 but	O
 not	O
-OC	B-Disease
+OC	O
 participants	O
 .	O
 
 The	O
-OC	B-Disease
+OC	O
 group	O
 was	O
 slower	O
@@ -37327,7 +37327,7 @@ developing	O
 in	O
 the	O
 activated	O
-SNR	B-Chemical
+SNR	O
 .	O
 
 In	O
@@ -37411,7 +37411,7 @@ for	O
 immunohistochemical	O
 staining	O
 of	O
-SNR	B-Chemical
+SNR	O
 .	O
 
 Nissl-staining	O
@@ -37526,7 +37526,7 @@ aspects	O
 
 At	O
 1	O
-h	B-Disease
+h	O
 there	O
 was	O
 additional	O
@@ -37611,7 +37611,7 @@ By	O
 48	O
 -	O
 72	O
-h	B-Disease
+h	O
 ,	O
 astrocytes	O
 surrounding	O
@@ -37647,7 +37647,7 @@ conventional	O
 paraffin-sections	O
 confirmed	O
 the	O
-neuronal	B-Disease
+neuronal	O
 and	O
 glial	B-Disease
 damage	I-Disease
@@ -37962,10 +37962,10 @@ decreased	O
 malondialdehyde	B-Chemical
 levels	O
 in	O
-BCNU	B-Disease
+BCNU	O
 group	O
 (	O
-P<0.01	B-Disease
+P<0.01	O
 )	O
 ,	O
 while	O
@@ -38023,7 +38023,7 @@ in	O
 the	O
 form	O
 of	O
-N-(2-hydroxypropyl)methacrylamide	O
+N-(2-hydroxypropyl)methacrylamide	B-Chemical
 conjugates	O
 :	O
 and	O
@@ -38067,7 +38067,7 @@ the	O
 form	O
 of	O
 three	O
-N-(2-hydroxypropyl)methacrylamide	O
+N-(2-hydroxypropyl)methacrylamide	B-Chemical
 (	O
 HPMA	O
 )	O
@@ -38203,7 +38203,7 @@ DOX	B-Chemical
 4	O
 mg/kg	O
 ;	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.01	O
@@ -38322,7 +38322,7 @@ age-matched	O
 control	O
 rats	O
 (	O
-P	B-Chemical
+P	O
 less	O
 than	O
 0.05	O
@@ -38350,7 +38350,7 @@ throughout	O
 the	O
 study	O
 (	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.05	O
@@ -38412,7 +38412,7 @@ after	O
 drug	O
 administration	O
 (	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.01).(ABSTRACT	O
@@ -38859,7 +38859,7 @@ duration	O
 or	O
 localization	O
 of	O
-PHN	O
+PHN	B-Disease
 (	O
 trigeminal	O
 involvement	O
@@ -38915,7 +38915,7 @@ effect	O
 of	O
 capsaicin	B-Chemical
 in	O
-PHN	O
+PHN	B-Disease
 is	O
 mediated	O
 by	O
@@ -39102,7 +39102,7 @@ as	O
 an	O
 entity	O
 ,	O
-ATIN	B-Chemical
+ATIN	O
 remains	O
 under-diagnosed	O
 ,	O
@@ -39177,7 +39177,7 @@ blood	B-Chemical
 urea	I-Chemical
 nitrogen	I-Chemical
 (	O
-BUN	B-Disease
+BUN	B-Chemical
 )	O
 concentration	O
 of	O
@@ -39416,9 +39416,9 @@ for	O
 the	O
 treatment	O
 of	O
-chronic	B-Disease
-hepatitis	I-Disease
-B	I-Disease
+chronic	O
+hepatitis	O
+B	O
 patients	O
 .	O
 
@@ -39480,9 +39480,9 @@ A	O
 total	O
 of	O
 77	O
-chronic	B-Disease
-hepatitis	I-Disease
-B	I-Disease
+chronic	O
+hepatitis	O
+B	O
 patients	O
 who	O
 had	O
@@ -39533,7 +39533,7 @@ enzymes	O
 ,	O
 anti-HCV	O
 ,	O
-HBeAg	B-Disease
+HBeAg	O
 ,	O
 and	O
 anti-HBe	O
@@ -39575,7 +39575,7 @@ IU/l	O
 respectively	O
 .	O
 
-HBeAg	B-Disease
+HBeAg	O
 was	O
 positive	O
 in	O
@@ -39803,7 +39803,7 @@ METHODS	O
 :	O
 Subjects	O
 (	O
-n	B-Disease
+n	O
 =	O
 114	O
 )	O
@@ -39826,7 +39826,7 @@ before	O
 surgery	O
 and	O
 either	O
-rofecoxib	O
+rofecoxib	B-Chemical
 50	O
 mg	O
 or	O
@@ -39841,7 +39841,7 @@ for	O
 the	O
 following	O
 48	O
-h.	B-Disease
+h.	O
 Oral	O
 mucosal	O
 biopsies	O
@@ -39851,7 +39851,7 @@ before	O
 surgery	O
 and	O
 48	O
-h	B-Disease
+h	O
 after	O
 surgery	O
 .	O
@@ -39871,10 +39871,10 @@ site	O
 for	O
 PGE2	B-Chemical
 and	O
-thromboxane	B-Chemical
-B2	I-Chemical
+thromboxane	O
+B2	O
 (	O
-TXB2	B-Chemical
+TXB2	O
 )	O
 measurements	O
 .	O
@@ -39908,7 +39908,7 @@ over	O
 the	O
 first	O
 4	O
-h.	B-Disease
+h.	O
 However	O
 ,	O
 the	O
@@ -39920,7 +39920,7 @@ more	O
 pain	B-Disease
 at	O
 24	O
-h	B-Disease
+h	O
 and	O
 PGE2	B-Chemical
 levels	O
@@ -39928,7 +39928,7 @@ during	O
 the	O
 first	O
 4	O
-h	B-Disease
+h	O
 were	O
 significantly	O
 higher	O
@@ -39950,7 +39950,7 @@ gene	O
 expression	O
 at	O
 48	O
-h	B-Disease
+h	O
 as	O
 compared	O
 with	O
@@ -40039,7 +40039,7 @@ cystitis	B-Disease
 A	O
 role	O
 for	O
-nerve	B-Disease
+nerve	O
 growth	O
 factor	O
 (	O
@@ -40199,7 +40199,7 @@ demonstrated	O
 significant	O
 increases	O
 (	O
-P	B-Disease
+P	O
 <	O
 or	O
 =	O
@@ -40273,7 +40273,7 @@ bodies	O
 ,	O
 increases	O
 (	O
-P	B-Disease
+P	O
 <	O
 or	O
 =	O
@@ -40409,7 +40409,7 @@ exposure	O
 of	O
 phosphatidylserine	B-Chemical
 (	O
-PS	B-Chemical
+PS	O
 )	O
 at	O
 the	O
@@ -40469,7 +40469,7 @@ Ca2	O
 +	O
 activity	O
 (	O
-Fluo3	O
+Fluo3	B-Chemical
 fluorescence	O
 )	O
 ,	O
@@ -40520,8 +40520,8 @@ Ca2	O
 +	O
 activity	O
 and	O
-annexin	B-Chemical
-V	I-Chemical
+annexin	O
+V	O
 binding	O
 and	O
 decreased	O
@@ -40669,7 +40669,7 @@ PO	O
 ,	O
 q	O
 8	O
-h	B-Disease
+h	O
 )	O
 .	O
 
@@ -40861,7 +40861,7 @@ Serotonin	B-Chemical
 reuptake	I-Chemical
 inhibitors	I-Chemical
 ,	O
-paranoia	B-Disease
+paranoia	O
 ,	O
 and	O
 the	O
@@ -40956,7 +40956,7 @@ present	O
 particular	O
 vulnerability	O
 to	O
-paranoid	B-Disease
+paranoid	O
 exacerbations	O
 associated	O
 with	O
@@ -41257,7 +41257,7 @@ group	O
 developed	O
 hypotension	B-Disease
 ,	O
-P=	B-Disease
+P=	O
 0.71	O
 .	O
 
@@ -41320,7 +41320,7 @@ to	O
 the	O
 baseline	O
 (	O
-P=	B-Disease
+P=	O
 0.003	O
 ,	O
 0.001	O
@@ -41500,9 +41500,9 @@ NVP	O
 d4	O
 T	O
 +	O
-efavirenz	B-Disease
+efavirenz	B-Chemical
 (	O
-EFV	B-Disease
+EFV	O
 )	O
 (	O
 20.1	O
@@ -41629,7 +41629,7 @@ immune	O
 reconstitution	B-Disease
 syndrome	I-Disease
 (	O
-p	B-Chemical
+p	O
 <	O
 0.05	O
 )	O
@@ -41661,7 +41661,7 @@ developing	O
 peripheral	B-Disease
 neuropathy	I-Disease
 (	O
-p	B-Disease
+p	O
 <	O
 0.05	O
 )	O
@@ -41720,8 +41720,8 @@ a	O
 high	O
 incidence	O
 of	O
-sensory	O
-axonal	B-Disease
+sensory	B-Disease
+axonal	I-Disease
 neuropathy	I-Disease
 in	O
 patients	O
@@ -41801,7 +41801,7 @@ in	O
 female	O
 patients	O
 with	O
-CLE	B-Disease
+CLE	B-Chemical
 during	O
 treatment	O
 with	O
@@ -42003,7 +42003,7 @@ treatment	O
 with	O
 diethylcarbamazine	B-Chemical
 (	O
-DEC	O
+DEC	B-Chemical
 )	O
 were	O
 observed	O
@@ -42064,7 +42064,7 @@ than	O
 10	O
 mg	O
 of	O
-DEC	B-Chemical
+DEC	O
 ,	O
 very	O
 gradual	O
@@ -42168,7 +42168,7 @@ heart	I-Disease
 disease	I-Disease
 :	O
 Diagnostic	O
-pitfall	B-Disease
+pitfall	O
 and	O
 new	O
 findings	O
@@ -42213,7 +42213,7 @@ lung	O
 mass	O
 (	O
 1.5	O
-cm	B-Disease
+cm	O
 in	O
 diameter	O
 )	O
@@ -42558,7 +42558,7 @@ glipizide	B-Chemical
 -	O
 5.1	O
 ,	O
-P=0.000	B-Disease
+P=0.000	O
 )	O
 with	O
 either	O
@@ -42579,7 +42579,7 @@ decreased	O
 -	O
 1.7	O
 ,	O
-P=0.385	B-Disease
+P=0.385	O
 )	O
 with	O
 glimepiride	B-Chemical
@@ -42590,7 +42590,7 @@ glimepiride	B-Chemical
 -	O
 1.3	O
 ,	O
-P=0.192	B-Disease
+P=0.192	O
 )	O
 with	O
 gliclazide	B-Chemical
@@ -42602,7 +42602,7 @@ and	O
 -	O
 1.1	O
 ,	O
-P=0.09	B-Disease
+P=0.09	O
 )	O
 with	O
 either	O
@@ -42666,8 +42666,8 @@ agents	O
 Reduced	O
 progression	O
 of	O
-adriamycin	B-Chemical
-nephropathy	I-Chemical
+adriamycin	B-Disease
+nephropathy	I-Disease
 in	O
 spontaneously	O
 hypertensive	B-Disease
@@ -42764,7 +42764,7 @@ and	O
 ADR+LOS(12	O
 )	O
 received	O
-ADR	B-Chemical
+ADR	O
 (	O
 2	O
 mg/kg/b.w	O
@@ -42805,7 +42805,7 @@ after	O
 second	O
 injection	O
 of	O
-ADR	B-Chemical
+ADR	O
 .	O
 
 Animals	O
@@ -43026,7 +43026,7 @@ a	O
 university-affiliated	O
 clinic	O
 (	O
-n	B-Disease
+n	O
 =	O
 1188	O
 )	O
@@ -43115,7 +43115,7 @@ vs	O
 1.2	O
 %	O
 ,	O
-P	B-Chemical
+P	O
 <	O
 0.001	O
 )	O
@@ -43144,7 +43144,7 @@ vs	O
 1.2	O
 %	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.003	O
 ;	O
@@ -43154,7 +43154,7 @@ vs	O
 2.4	O
 %	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.035	O
 ,	O
@@ -43172,7 +43172,7 @@ vs	O
 2.3	O
 %	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.020	O
 )	O
@@ -43186,7 +43186,7 @@ vs	O
 1.7	O
 %	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.002	O
 )	O
@@ -43237,7 +43237,7 @@ vs	O
 2.0	O
 %	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.027	O
 ;	O
@@ -43247,7 +43247,7 @@ vs	O
 15.2	O
 %	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.036	O
 ,	O
@@ -43507,7 +43507,7 @@ responses	O
 to	O
 isoprenaline	B-Chemical
 ,	O
-(+)-propranolol	B-Chemical
+(+)-propranolol	O
 had	O
 less	O
 than	O
@@ -43561,8 +43561,8 @@ glucose	B-Chemical
 ,	O
 lactate	B-Chemical
 and	O
-free	B-Chemical
-fatty	I-Chemical
+free	O
+fatty	B-Chemical
 acids	I-Chemical
 )	O
 were	O
@@ -43795,7 +43795,7 @@ Improving	O
 glioblastoma	B-Disease
 multiforme	I-Disease
 (	O
-GBM	B-Disease
+GBM	O
 )	O
 treatment	O
 with	O
@@ -43840,7 +43840,7 @@ fractions/40	O
 days	O
 )	O
 and	O
-topotecan	B-Disease
+topotecan	B-Chemical
 (	O
 0.9	O
 mg/m(2)/day	O
@@ -44331,7 +44331,7 @@ therapy	O
 Valproic	O
 acid	O
 (	O
-VPA	O
+VPA	B-Chemical
 )	O
 is	O
 effective	O
@@ -44395,7 +44395,7 @@ After	O
 the	O
 withdrawal	O
 of	O
-VPA	O
+VPA	B-Chemical
 therapy	O
 ,	O
 our	O
@@ -45447,8 +45447,8 @@ several	O
 complications	O
 associated	O
 with	O
-heroin	B-Chemical
-abuse	I-Chemical
+heroin	B-Disease
+abuse	I-Disease
 ,	O
 some	O
 of	O
@@ -45501,8 +45501,8 @@ and	O
 had	O
 used	O
 150	O
-mg	B-Chemical
-methadone	I-Chemical
+mg	O
+methadone	O
 daily	O
 for	O
 6	O
@@ -45629,8 +45629,8 @@ discussed	O
 Increased	O
 vulnerability	O
 to	O
-6-hydroxydopamine	B-Chemical
-lesion	I-Chemical
+6-hydroxydopamine	B-Disease
+lesion	I-Disease
 and	O
 reduced	O
 development	O
@@ -45686,7 +45686,7 @@ A	O
 lesion	O
 induced	O
 by	O
-6-OHDA	B-Chemical
+6-OHDA	O
 produced	O
 more	O
 severe	O
@@ -45745,7 +45745,7 @@ in	O
 the	O
 CPu	O
 and	O
-Cg	B-Disease
+Cg	O
 compared	O
 to	O
 WT	O
@@ -45790,7 +45790,7 @@ of	O
 motor	B-Disease
 impairment	I-Disease
 and	O
-DA	O
+DA	B-Chemical
 lesion	O
 ,	O
 and	O
@@ -46257,7 +46257,7 @@ is	O
 associated	O
 with	O
 increased	O
-TBARS	B-Chemical
+TBARS	O
 levels	O
 and	O
 superoxide	B-Chemical
@@ -46719,7 +46719,7 @@ that	O
 interact	O
 with	O
 sodium	B-Chemical
-channels	I-Chemical
+channels	O
 may	O
 cause	O
 delirium	B-Disease
@@ -46888,7 +46888,7 @@ NSCLC	B-Disease
 patients	O
 .	O
 
-RAD001	B-Chemical
+RAD001	O
 ,	O
 an	O
 oral	O
@@ -46940,13 +46940,13 @@ or	O
 both	O
 chemotherapy	O
 and	O
-epidermal	O
-growth	O
-factor	O
-receptor	O
-tyrosine	O
-kinase	O
-inhibitors	O
+epidermal	B-Chemical
+growth	I-Chemical
+factor	I-Chemical
+receptor	I-Chemical
+tyrosine	I-Chemical
+kinase	I-Chemical
+inhibitors	I-Chemical
 (	O
 stratum	O
 2	O
@@ -47129,7 +47129,7 @@ PFS	O
 
 CONCLUSIONS	O
 :	O
-RAD001	O
+RAD001	B-Chemical
 10	O
 mg/day	O
 was	O
@@ -47784,7 +47784,7 @@ heroin	B-Chemical
 .	O
 
 Bilateral	O
-basal	B-Disease
+basal	O
 ganglia	O
 infarcts	B-Disease
 after	O
@@ -47860,8 +47860,8 @@ results	O
 from	O
 treatment	O
 with	O
-immunosuppressive	B-Chemical
-agents	I-Chemical
+immunosuppressive	B-Disease
+agents	I-Disease
 (	O
 primarily	O
 those	O
@@ -48037,8 +48037,8 @@ bridge	O
 to	O
 recovery	O
 for	O
-cerebral	O
-edema	B-Disease
+cerebral	B-Disease
+edema	I-Disease
 and	O
 intracranial	B-Disease
 hypertension	I-Disease
@@ -48100,7 +48100,7 @@ a	O
 27-year-old	O
 female	O
 with	O
-FHF	O
+FHF	B-Disease
 from	O
 acetaminophen	B-Chemical
 and	O
@@ -48147,7 +48147,7 @@ lasting	O
 at	O
 least	O
 24	O
-h	B-Disease
+h	O
 prior	O
 to	O
 admission	O
@@ -48213,8 +48213,8 @@ had	O
 resolution	O
 of	O
 her	O
-cerebral	O
-edema	B-Disease
+cerebral	B-Disease
+edema	I-Disease
 and	O
 intracranial	B-Disease
 hypertension	I-Disease
@@ -48239,13 +48239,13 @@ CONCLUSION	O
 In	O
 patients	O
 with	O
-FHF	B-Chemical
+FHF	B-Disease
 and	O
 cerebral	B-Disease
 edema	I-Disease
 from	O
-acetaminophen	B-Chemical
-overdose	I-Chemical
+acetaminophen	B-Disease
+overdose	I-Disease
 ,	O
 prolonged	O
 therapeutic	O
@@ -48382,7 +48382,7 @@ Bilateral	O
 visual	B-Disease
 field	I-Disease
 constriction	I-Disease
-was	O
+was	I-Disease
 observed	O
 in	O
 59	O
@@ -48486,7 +48486,7 @@ retinal	B-Disease
 toxicity	I-Disease
 associated	O
 with	O
-VGB	O
+VGB	B-Disease
 .	O
 
 Smoking	B-Chemical
@@ -48576,8 +48576,8 @@ Study	O
 who	O
 reported	O
 injecting	O
-illicit	B-Disease
-drugs	B-Chemical
+illicit	B-Chemical
+drugs	I-Chemical
 at	O
 least	O
 once	O
@@ -48889,7 +48889,7 @@ described	O
 experiencing	O
 deteriorations	B-Disease
 in	I-Disease
-cognition	I-Disease
+cognition	O
 .	O
 
 A	O
@@ -48900,7 +48900,7 @@ agent	O
 ,	O
 5-fluorouracil	B-Chemical
 (	O
-5-FU	O
+5-FU	B-Chemical
 )	O
 ,	O
 readily	O
@@ -48941,7 +48941,7 @@ brain	O
 .	O
 
 In	O
-contrast	B-Disease
+contrast	B-Chemical
 reports	O
 indicate	O
 that	O
@@ -49018,7 +49018,7 @@ that	O
 animals	O
 treated	O
 with	O
-5-FU	O
+5-FU	B-Chemical
 had	O
 a	O
 significant	O
@@ -49084,7 +49084,7 @@ their	O
 performance	O
 .	O
 
-5-FU	O
+5-FU	B-Chemical
 chemotherapy	O
 caused	O
 a	O
@@ -49142,7 +49142,7 @@ These	O
 findings	O
 suggest	O
 that	O
-5-FU	O
+5-FU	B-Chemical
 can	O
 negatively	O
 affect	O
@@ -49278,7 +49278,7 @@ and	O
 10	O
 days	O
 during	O
-PB	B-Chemical
+PB	O
 administration	O
 .	O
 
@@ -49302,7 +49302,7 @@ as	O
 compared	O
 to	O
 0	O
-h	B-Disease
+h	O
 at	O
 day	O
 2	O
@@ -49374,7 +49374,7 @@ compared	O
 to	O
 WT	O
 after	O
-PB	B-Chemical
+PB	O
 administration	O
 .	O
 
@@ -49430,7 +49430,7 @@ different	O
 time	O
 points	O
 during	O
-PB	B-Chemical
+PB	O
 administration	O
 .	O
 
@@ -49766,7 +49766,7 @@ he	O
 was	O
 diagnosed	O
 with	O
-PTLD	B-Disease
+PTLD	O
 (	O
 post-transplantation	O
 lymphoproliferative	B-Disease
@@ -50167,7 +50167,7 @@ following	O
 status	B-Disease
 epilepticus	I-Disease
 (	O
-SE	B-Disease
+SE	O
 )	O
 induced	O
 by	O
@@ -50177,7 +50177,7 @@ injection	O
 
 METHODS	O
 :	O
-SE	B-Disease
+SE	O
 was	O
 induced	O
 by	O
@@ -50293,7 +50293,7 @@ the	O
 CCR2-labeled	O
 cells	O
 in	O
-SE	B-Disease
+SE	O
 rats	O
 .	O
 
@@ -50364,7 +50364,7 @@ the	O
 hippocampus	O
 after	O
 pilocarpine-induced	O
-SE	B-Disease
+SE	O
 .	O
 
 Seizures	B-Disease
@@ -50442,7 +50442,7 @@ metallothionein	O
 MT	O
 )	O
 by	O
-ZnSO(4	O
+ZnSO(4	B-Chemical
 )	O
 and	O
 its	O
@@ -50510,7 +50510,7 @@ followed	O
 h	O
 later	O
 by	O
-BCNU	B-Chemical
+BCNU	O
 solvent	O
 (	O
 i.v	O
@@ -50521,8 +50521,8 @@ The	O
 second	O
 group	O
 administered	O
-ZnSO(4	O
-)	O
+ZnSO(4	B-Chemical
+)	I-Chemical
 (	O
 0.1	O
 micromol/10	O
@@ -50546,7 +50546,7 @@ h.	O
 Third	O
 group	O
 received	O
-BCNU	B-Chemical
+BCNU	O
 (	O
 20	O
 mg/kg	O
@@ -50556,7 +50556,7 @@ i.v	O
 once	O
 )	O
 24	O
-h	B-Disease
+h	O
 after	O
 injection	O
 with	O
@@ -50597,13 +50597,13 @@ once	O
 )	O
 after	O
 24	O
-h.	B-Disease
+h.	O
 The	O
 obtained	O
 data	O
 revealed	O
 that	O
-BCNU	O
+BCNU	B-Chemical
 administration	O
 resulted	O
 in	O
@@ -50647,7 +50647,7 @@ content	O
 
 Also	O
 ,	O
-BCNU	O
+BCNU	B-Chemical
 administration	O
 increased	O
 serum	O
@@ -50678,14 +50678,14 @@ histological	O
 alterations	O
 .	O
 
-ZnSO(4	O
+ZnSO(4	B-Chemical
 )	O
 pretreatment	O
 counteracted	O
 BCNU-induced	O
 inhibition	O
 of	O
-GR	B-Disease
+GR	B-Chemical
 and	O
 depletion	O
 of	O
@@ -50948,7 +50948,7 @@ Parkinson	B-Disease
 's	I-Disease
 disease	I-Disease
 (	O
-PD	O
+PD	B-Disease
 )	O
 .	O
 
@@ -51026,7 +51026,7 @@ METHODS	O
 Marmosets	O
 were	O
 administered	O
-1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine	O
+1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine	B-Chemical
 (	O
 2.0	O
 mg/kg	O
@@ -51170,7 +51170,7 @@ therapy	O
 .	O
 
 In	O
-contrast	B-Disease
+contrast	B-Chemical
 ,	O
 levodopa-induced	O
 neuropsychiatric-like	O
@@ -51204,7 +51204,7 @@ that	O
 neuropsychiatric	B-Disease
 disorders	I-Disease
 in	O
-PD	O
+PD	B-Disease
 are	O
 more	O
 likely	O
@@ -51372,7 +51372,7 @@ groups	O
 postprocedural	O
 (	O
 48	O
-h	B-Disease
+h	O
 )	O
 serum	O
 creatinine	B-Chemical
@@ -51389,7 +51389,7 @@ decreased	O
 nonsignificantly	O
 in	O
 the	O
-PTRA	B-Disease
+PTRA	O
 group	O
 (	O
 1.46+/-0.8	O
@@ -51397,9 +51397,9 @@ vs.	O
 1.34+/-0.5	O
 mg/dl	O
 ,	O
-P	B-Disease
+P	O
 =	O
-NS	B-Disease
+NS	O
 )	O
 and	O
 increased	O
@@ -51462,7 +51462,7 @@ to	O
 the	O
 volume	O
 of	O
-CM	B-Chemical
+CM	O
 administered	O
 .	O
 
@@ -51495,7 +51495,7 @@ patients	O
 The	O
 effectiveness	O
 of	O
-PTRA	O
+PTRA	B-Chemical
 on	O
 renal	O
 function	O
@@ -51684,7 +51684,7 @@ eight-minute	O
 observation	O
 period	O
 (	O
-P	B-Chemical
+P	O
 less	O
 than	O
 0.01	O
@@ -51692,7 +51692,7 @@ than	O
 .	O
 
 In	O
-contrast	B-Disease
+contrast	B-Chemical
 ,	O
 in	O
 the	O
@@ -51743,7 +51743,7 @@ receptor	O
 
 Medical	O
 and	O
-psychiatric	O
+psychiatric	B-Disease
 outcomes	O
 for	O
 patients	O
@@ -51836,7 +51836,7 @@ for	O
 acetaminophen-induced	O
 ALF	B-Disease
 (	O
-n=36	B-Disease
+n=36	O
 )	O
 with	O
 age-	O
@@ -51850,7 +51850,7 @@ for	O
 non-acetaminophen-induced	O
 ALF	B-Disease
 (	O
-n=35	B-Disease
+n=35	O
 )	O
 and	O
 elective	O
@@ -51862,7 +51862,7 @@ disease	I-Disease
 (	O
 CLD	O
 ,	O
-n=34	B-Disease
+n=34	O
 )	O
 .	O
 
@@ -51872,7 +51872,7 @@ Acetaminophen-induced	O
 ALF	B-Disease
 patients	O
 undergoing	O
-LT	B-Disease
+LT	O
 had	O
 a	O
 greater	O
@@ -51918,14 +51918,14 @@ formal	O
 psychiatric	B-Disease
 diagnosis	O
 before	O
-LT	B-Disease
+LT	O
 (	O
 non-acetaminophen-induced	O
 ALF=0/35	B-Disease
 ,	O
 CLD=2/34	O
 ;	O
-P<0.01	O
+P<0.01	B-Disease
 for	O
 all	O
 )	O
@@ -51991,7 +51991,7 @@ ALF	B-Disease
 78	O
 %	O
 ;	O
-CLD	B-Disease
+CLD	O
 93	O
 %	O
 ,	O
@@ -52071,7 +52071,7 @@ low	O
 rates	O
 of	O
 graft	O
-loss	B-Disease
+loss	O
 because	O
 of	O
 non-compliance	O
@@ -52241,7 +52241,7 @@ in	O
 antithrombotic	O
 users	O
 with	O
-MB	B-Chemical
+MB	O
 .	O
 
 RESULTS	O
@@ -52314,7 +52314,7 @@ in	O
 warfarin	B-Chemical
 users	O
 (	O
-P	B-Chemical
+P	O
 difference=0.01	O
 )	O
 .	O
@@ -52368,7 +52368,7 @@ CI	O
 -	O
 1.7	O
 ;	O
-P=0.33	B-Disease
+P=0.33	O
 ;	O
 P	O
 difference=0.01	O
@@ -52381,7 +52381,7 @@ a	O
 smaller	O
 excess	O
 of	O
-MB	B-Chemical
+MB	O
 in	O
 antiplatelet	O
 users	O
@@ -52427,9 +52427,9 @@ CI	O
 -	O
 1.7	O
 ;	O
-P<0.001	B-Disease
+P<0.001	O
 ;	O
-P	B-Disease
+P	O
 difference=0.25	O
 )	O
 .	O
@@ -52641,7 +52641,7 @@ mg/kg	O
 ;	O
 5.0	O
 mg/kg	O
-CNSB002	O
+CNSB002	B-Disease
 with	O
 morphine	B-Chemical
 3.2	O
@@ -52803,7 +52803,7 @@ models	O
 ,	O
 respectively	O
 (	O
-P	B-Disease
+P	O
 <	O
 0.01	O
 ;	O
@@ -53200,7 +53200,7 @@ following	O
 Botox	B-Chemical
 injections	O
 for	O
-ADSD	B-Disease
+ADSD	O
 ,	O
 a	O
 complication	O
@@ -53238,7 +53238,7 @@ evaluated	O
 
 Patients	O
 with	O
-ADSD	B-Disease
+ADSD	O
 were	O
 identified	O
 .	O
@@ -53299,7 +53299,7 @@ had	O
 been	O
 diagnosed	O
 with	O
-ADSD	B-Disease
+ADSD	O
 .	O
 
 Of	O
@@ -53397,7 +53397,7 @@ of	O
 Botox	B-Chemical
 injections	O
 for	O
-ADSD	O
+ADSD	B-Chemical
 ,	O
 causing	O
 difficulty	O
@@ -53490,7 +53490,7 @@ that	O
 cocaine	B-Disease
 abuse	I-Disease
 may	O
-lead	B-Disease
+lead	O
 to	O
 altered	O
 mitochondrial	O
@@ -53911,7 +53911,7 @@ administered	O
 ,	O
 and	O
 then	O
-PRL	B-Disease
+PRL	B-Chemical
 levels	O
 were	O
 measured	O
@@ -53939,7 +53939,7 @@ basal	O
 prolactin	O
 levels	O
 (	O
-PRL	B-Chemical
+PRL	O
 )	O
 .	O
 
@@ -53948,7 +53948,7 @@ RESULTS	O
 Verapamil	B-Chemical
 significantly	O
 increased	O
-PRL	B-Chemical
+PRL	O
 levels	O
 in	O
 healthy	O
@@ -53957,7 +53957,7 @@ controls	O
 N.	B-Disease
 8	O
 ,	O
-PRL	B-Disease
+PRL	O
 :	O
 183	O
 %	O
@@ -53968,7 +53968,7 @@ macroprolactinoma	B-Disease
 N.	B-Disease
 8	O
 ,	O
-PRL	B-Disease
+PRL	O
 :	O
 7	O
 %	O
@@ -53979,7 +53979,7 @@ microprolactinoma	B-Disease
 N.	B-Disease
 19	O
 ,	O
-PRL	B-Disease
+PRL	O
 :	O
 21	O
 %	O
@@ -53990,7 +53990,7 @@ macroprolactinemia	B-Disease
 N.	B-Disease
 23	O
 ,	O
-PRL	B-Disease
+PRL	O
 :	O
 126	O
 %	O
@@ -54004,7 +54004,7 @@ pseudoprolactinoma	B-Disease
 N.	B-Disease
 8	O
 ,	O
-PRL	B-Disease
+PRL	O
 :	O
 0.8	O
 %	O
@@ -54017,7 +54017,7 @@ hyperprolactinemia	B-Disease
 N.	B-Disease
 7	O
 ,	O
-PRL	B-Disease
+PRL	O
 :	O
 3	O
 %	O
@@ -54271,7 +54271,7 @@ glycation	O
 end	O
 products	O
 (	O
-AGEs	O
+AGEs	B-Disease
 )	O
 and	O
 in	O
@@ -54284,7 +54284,7 @@ Tie2-Cre;Loxp-EGFP	O
 by	O
 administration	O
 of	O
-AGEs	O
+AGEs	B-Chemical
 ,	O
 with	O
 nonglycated	O
@@ -54313,7 +54313,7 @@ studies	O
 using	O
 receptor	O
 for	O
-AGE	O
+AGE	B-Chemical
 siRNA	O
 and	O
 a	O
@@ -54366,7 +54366,7 @@ Smad3	O
 was	O
 activated	O
 by	O
-AGEs	O
+AGEs	B-Chemical
 but	O
 was	O
 inhibited	O
@@ -54460,7 +54460,7 @@ Mantle	O
 cell	O
 lymphoma	B-Disease
 (	O
-MCL	B-Disease
+MCL	O
 )	O
 is	O
 a	O
@@ -54503,7 +54503,7 @@ recently	O
 reported	O
 in	O
 refractory	O
-MCL	B-Disease
+MCL	B-Chemical
 treated	O
 with	O
 temsirolimus	B-Chemical
@@ -54671,7 +54671,7 @@ reported	O
 efficiency	O
 in	O
 refractory	O
-MCL	O
+MCL	B-Disease
 resistant	O
 to	O
 conventional	O
@@ -54702,8 +54702,8 @@ the	O
 various	O
 regimens	O
 of	O
-antituberculosis	O
-drugs	O
+antituberculosis	B-Chemical
+drugs	I-Chemical
 for	O
 nearly	O
 15	O
@@ -54713,7 +54713,7 @@ months	O
 Rifampicin	B-Chemical
 was	O
 administered	O
-thrice	O
+thrice	B-Chemical
 as	O
 one	O
 of	O
@@ -54933,8 +54933,8 @@ disturbance	I-Disease
 .	O
 
 Diffuse	O
-skeletal	B-Disease
-pain	I-Disease
+skeletal	O
+pain	B-Disease
 after	O
 administration	O
 of	O
@@ -55176,7 +55176,7 @@ renal	I-Disease
 failure	I-Disease
 (	O
 serum	O
-creatinine	B-Disease
+creatinine	B-Chemical
 1.9	O
 mg/dL	O
 ,	O
@@ -55667,8 +55667,8 @@ in	O
 rat	O
 model	O
 of	O
-lindane	B-Chemical
-seizures	I-Chemical
+lindane	B-Disease
+seizures	I-Disease
 .	O
 
 Severe	O
@@ -55918,7 +55918,7 @@ parameter	O
 .	O
 
 In	O
-contrast	B-Disease
+contrast	B-Chemical
 ,	O
 cromakalim	B-Chemical
 and	O
@@ -56070,7 +56070,7 @@ large	O
 coronary	O
 arteries	O
 ,	O
-cromakalim	O
+cromakalim	B-Chemical
 and	O
 pinacidil	B-Chemical
 dilate	O
@@ -56390,14 +56390,14 @@ to	O
 mg/dL	O
 ]	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.006	O
 )	O
 .	O
 
 In	O
-contrast	B-Disease
+contrast	O
 ,	O
 eucalcemic	O
 patients	O
@@ -56517,7 +56517,7 @@ Scleroderma	B-Disease
 renal	I-Disease
 crisis	I-Disease
 (	O
-SRC	B-Disease
+SRC	O
 )	O
 is	O
 a	O
@@ -56527,7 +56527,7 @@ of	O
 systemic	B-Disease
 sclerosis	I-Disease
 (	O
-SSc	B-Disease
+SSc	O
 )	O
 but	O
 can	O
@@ -56801,8 +56801,8 @@ and	O
 associated	O
 factors	O
 of	O
-methamphetamine	B-Chemical
-psychosis	I-Chemical
+methamphetamine	B-Disease
+psychosis	I-Disease
 in	O
 methamphetamine-dependent	O
 patients	O
@@ -56831,8 +56831,8 @@ psychosis	B-Disease
 in	O
 patients	O
 with	O
-methamphetamine	B-Chemical
-dependence	I-Chemical
+methamphetamine	B-Disease
+dependence	I-Disease
 .	O
 
 The	O
@@ -57047,8 +57047,8 @@ psychosis	B-Disease
 in	O
 patients	O
 with	O
-methamphetamine	B-Chemical
-dependence	I-Chemical
+methamphetamine	B-Disease
+dependence	I-Disease
 .	O
 
 It	O
@@ -57075,8 +57075,8 @@ that	O
 all	O
 cases	O
 of	O
-methamphetamine	B-Chemical
-dependence	I-Chemical
+methamphetamine	B-Disease
+dependence	I-Disease
 should	O
 be	O
 screened	O
@@ -57120,7 +57120,7 @@ Parkinson	B-Disease
 's	I-Disease
 disease	I-Disease
 (	O
-PD	O
+PD	B-Disease
 )	O
 and	O
 levodopa-induced	O
@@ -57233,7 +57233,7 @@ inhibitory	O
 cerebellar	O
 stimulation	O
 on	O
-LIDs	O
+LIDs	B-Disease
 is	O
 known	O
 .	O
@@ -57653,7 +57653,7 @@ i.p	O
 .	O
 injected	O
 with	O
-CYP	B-Chemical
+CYP	O
 (	O
 150	O
 mg/kg	O
@@ -57671,7 +57671,7 @@ i.p	O
 .	O
 injected	O
 with	O
-CYP	B-Chemical
+CYP	O
 with	O
 subsequently	O
 perfusion	O
@@ -57790,7 +57790,7 @@ X(2	O
 =	O
 7.619	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.007	O
 )	O
@@ -57803,7 +57803,7 @@ X(2	O
 =	O
 13.755	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.000	O
 )	O
@@ -57823,7 +57823,7 @@ and	O
 intervention	O
 groups	O
 (	O
-P	B-Disease
+P	O
 <	O
 0.01	O
 )	O
@@ -57994,7 +57994,7 @@ compared	O
 various	O
 concentrations	O
 of	O
-CHP	B-Chemical
+CHP	O
 to	O
 determine	O
 if	O
@@ -58107,7 +58107,7 @@ a	O
 direct	O
 relationship	O
 between	O
-CHP	B-Chemical
+CHP	O
 concentration	O
 and	O
 patients	O
@@ -58144,7 +58144,7 @@ treatments	O
 differed	O
 statistically	O
 from	O
-AgSD	B-Disease
+AgSD	O
 or	O
 from	O
 each	O
@@ -58158,7 +58158,7 @@ ease	O
 of	O
 application	O
 of	O
-CHP	B-Chemical
+CHP	O
 creams	O
 was	O
 less	O
@@ -58353,7 +58353,7 @@ R/R	O
 multiple	O
 myeloma	B-Disease
 (	O
-MM	B-Disease
+MM	O
 )	O
 .	O
 
@@ -58486,7 +58486,7 @@ response	O
 including	O
 19	O
 %	O
-CR	B-Disease
+CR	O
 and	O
 35	O
 %	O
@@ -58809,7 +58809,7 @@ hippocampus	O
 of	O
 mice	O
 with	O
-BPA	B-Chemical
+BPA	O
 compared	O
 to	O
 control	O
@@ -58891,7 +58891,7 @@ cardiotoxicity	B-Disease
 Cardiovascular	B-Disease
 diseases	I-Disease
 (	O
-CVDs	B-Disease
+CVDs	O
 )	O
 are	O
 the	O
@@ -58951,7 +58951,7 @@ an	O
 interval	O
 of	O
 24	O
-h	B-Disease
+h	O
 ,	O
 for	O
 two	O
@@ -59025,7 +59025,7 @@ normal	O
 control	O
 group	O
 (	O
-P	B-Disease
+P	O
 <	O
 0.05	O
 )	O
@@ -59209,7 +59209,7 @@ real	O
 world	O
 "	O
 (	O
-RW	B-Disease
+RW	O
 )	O
 ,	O
 according	O
@@ -59255,7 +59255,7 @@ was	O
 complete	O
 response	O
 (	O
-CR	B-Disease
+CR	O
 )	O
 ,	O
 20.2	O
@@ -59282,9 +59282,9 @@ respectively	O
 Median	O
 time	O
 to	O
-CR	B-Disease
+CR	O
 when	O
-RD	B-Disease
+RD	O
 was	O
 given	O
 as	O
@@ -59347,7 +59347,7 @@ versus	O
 19	O
 months	O
 ,	O
-p	B-Chemical
+p	O
 <	O
 0.001	O
 )	O
@@ -59364,7 +59364,7 @@ in	O
 of	O
 responders	O
 (	O
-p	B-Disease
+p	O
 <	O
 0.001	O
 )	O
@@ -59479,7 +59479,7 @@ Our	O
 study	O
 confirms	O
 that	O
-RD	O
+RD	B-Chemical
 is	O
 effective	O
 and	O
@@ -59546,8 +59546,8 @@ IFO	O
 is	O
 an	O
 alkylating	O
-nitrogen	O
-mustard	O
+nitrogen	B-Chemical
+mustard	I-Chemical
 ,	O
 administrated	O
 as	O
@@ -59575,7 +59575,7 @@ This	O
 side	O
 effect	O
 of	O
-IFO	O
+IFO	B-Chemical
 raises	O
 the	O
 requirement	O
@@ -59692,7 +59692,7 @@ noted	O
 ,	O
 than	O
 with	O
-IFO	O
+IFO	B-Chemical
 acting	O
 at	O
 the	O
@@ -59706,7 +59706,7 @@ lymphocytes	O
 Mesna	B-Chemical
 significantly	O
 reduces	O
-IFO	O
+IFO	B-Chemical
 's	O
 genotoxicity	B-Disease
 ,	O
@@ -59756,7 +59756,7 @@ Parkinson	B-Disease
 's	I-Disease
 disease	I-Disease
 (	O
-PD	O
+PD	B-Disease
 )	O
 leads	O
 to	O
@@ -59783,7 +59783,7 @@ multiethnic	O
 Malaysian	O
 patients	O
 with	O
-PD	O
+PD	B-Disease
 .	O
 
 METHODS	O
@@ -59873,7 +59873,7 @@ in	O
 44	O
 %	O
 (	O
-n	B-Disease
+n	O
 =	O
 42	O
 )	O
@@ -59936,7 +59936,7 @@ of	O
 levodopa	B-Chemical
 therapy	O
 (	O
-p	B-Chemical
+p	O
 <	O
 0.001	O
 )	O
@@ -59945,7 +59945,7 @@ longer	O
 disease	O
 duration	O
 (	O
-p	B-Chemical
+p	O
 <	O
 0.001	O
 )	O
@@ -60194,7 +60194,7 @@ course	O
 or	O
 within	O
 24	O
-h	B-Disease
+h	O
 after	O
 the	O
 last	O
@@ -60248,7 +60248,7 @@ of	O
 %	O
 )	O
 (	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.02	O
@@ -60326,7 +60326,7 @@ was	O
 significantly	O
 different	O
 (	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.02	O
@@ -60355,8 +60355,8 @@ This	O
 study	O
 shows	O
 that	O
-busulfan	B-Chemical
-neurotoxicity	I-Chemical
+busulfan	B-Disease
+neurotoxicity	I-Disease
 is	O
 dose-dependent	O
 in	O
@@ -60953,7 +60953,7 @@ tenofovir	B-Chemical
 disoproxil	I-Chemical
 fumarate	I-Chemical
 (	O
-TDF	B-Chemical
+TDF	O
 )	O
 as	O
 part	O
@@ -61077,7 +61077,7 @@ incidence	O
 of	O
 hospitalisation	O
 for	O
-TDF	B-Chemical
+TDF	O
 kidney	O
 adverse	O
 effects	O
@@ -61645,10 +61645,10 @@ astrocytic	O
 protein	O
 marker	O
 ,	O
-glial	B-Chemical
-fibrillary	I-Chemical
-acidic	I-Chemical
-protein	I-Chemical
+glial	B-Disease
+fibrillary	I-Disease
+acidic	I-Disease
+protein	I-Disease
 ,	O
 were	O
 only	O
@@ -61762,7 +61762,7 @@ drugs	O
 including	O
 linezolid	B-Chemical
 and	O
-ethambutol	O
+ethambutol	B-Chemical
 for	O
 extensively	O
 drug-resistant	O
@@ -61876,8 +61876,8 @@ optimal	O
 dosing	O
 regimens	O
 of	O
-lipid	B-Chemical
-emulsion	I-Chemical
+lipid	B-Disease
+emulsion	I-Disease
 ,	O
 epinephrine	B-Chemical
 ,	O
@@ -62084,7 +62084,7 @@ plus	O
 lipid	O
 groups	O
 (	O
-P<0.05	B-Disease
+P<0.05	O
 )	O
 .	O
 
@@ -62200,9 +62200,9 @@ thrombocytopenia	B-Disease
 type	I-Disease
 II	I-Disease
 (	O
-HIT	B-Disease
-type	I-Disease
-II	I-Disease
+HIT	O
+type	O
+II	O
 )	O
 as	O
 a	O
@@ -62299,9 +62299,9 @@ and	O
 clinical	O
 signs	O
 of	O
-HIT	B-Disease
-type	I-Disease
-II	I-Disease
+HIT	O
+type	O
+II	O
 were	O
 analyzed	O
 .	O
@@ -62349,7 +62349,7 @@ of	O
 the	O
 patients	O
 (	O
-n	B-Disease
+n	O
 =	O
 193	O
 )	O
@@ -62465,8 +62465,8 @@ is	O
 characterized	O
 by	O
 left	B-Disease
-ventricle	O
-apical	B-Disease
+ventricle	I-Disease
+apical	I-Disease
 ballooning	I-Disease
 with	O
 elevated	O
@@ -62546,8 +62546,8 @@ and	O
 V6	O
 and	O
 positive	O
-troponin	B-Chemical
-I.	I-Chemical
+troponin	B-Disease
+I.	I-Disease
 Emergent	O
 coronary	O
 angiogram	O
@@ -62568,7 +62568,7 @@ motion	O
 abnormalities	O
 consistent	O
 with	O
-TS	B-Chemical
+TS	O
 .	O
 
 Detailed	O
@@ -62696,13 +62696,13 @@ of	O
 (	O
 MDMA	O
 ,	O
-ecstasy).RATIONALE	B-Chemical
+ecstasy).RATIONALE	B-Disease
 :	O
 Ecstasy	B-Chemical
 (	O
 3,4-methylenedioxymethamphetamine	B-Chemical
 ,	O
-MDMA	O
+MDMA	B-Chemical
 )	O
 is	O
 a	O
@@ -62710,7 +62710,7 @@ worldwide	O
 recreational	O
 drug	B-Chemical
 of	O
-abuse	B-Disease
+abuse	O
 .	O
 
 Unfortunately	O
@@ -62817,7 +62817,7 @@ CAN	O
 non-ecstasy	O
 polydrug	O
 (	O
-PD	O
+PD	B-Disease
 )	O
 )	O
 ,	O
@@ -63535,13 +63535,13 @@ lymphoma	I-Disease
 Hodgkin	O
 lymphoma	B-Disease
 (	O
-HL	B-Disease
+HL	O
 )	O
 is	O
 a	O
 relatively	O
 chemosensitive	O
-malignancy	O
+malignancy	B-Disease
 .	O
 
 However	O
@@ -63627,7 +63627,7 @@ with	O
 relapsed	O
 or	O
 refractory	O
-HL	B-Disease
+HL	O
 treated	O
 with	O
 gemcitabine	B-Chemical
@@ -63754,7 +63754,7 @@ was	O
 complete	O
 response	O
 (	O
-CR	B-Disease
+CR	O
 )	O
 37	O
 %	O
@@ -63766,12 +63766,12 @@ response	O
 )	O
 with	O
 14/15	O
-CR	B-Disease
+CR	O
 confirmed	O
 as	O
 a	O
 metabolic	O
-CR	B-Disease
+CR	O
 on	O
 PET	O
 and	O
@@ -64192,7 +64192,7 @@ demands	O
 and	O
 hypersecretion	O
 may	O
-lead	B-Disease
+lead	O
 to	O
 the	O
 increased	O
@@ -64362,7 +64362,7 @@ non-convulsive	O
 status	B-Disease
 epilepticus	I-Disease
 (	O
-NCSE	O
+NCSE	B-Disease
 )	O
 that	O
 required	O
@@ -64547,7 +64547,7 @@ in	O
 serum	O
 creatinine	B-Chemical
 (	O
-Cr	O
+Cr	B-Chemical
 )	O
 of	O
 0.5	O
@@ -64609,7 +64609,7 @@ who	O
 did	O
 not	O
 (	O
-P	B-Disease
+P	O
 =	O
 0.1	O
 )	O
@@ -64633,7 +64633,7 @@ the	O
 last	O
 chemotherapy	O
 (	O
-P	B-Disease
+P	O
 =	O
 0.005	O
 )	O
@@ -64646,7 +64646,7 @@ independent	O
 risk	O
 factor	O
 (	O
-P	B-Disease
+P	O
 =	O
 0.017	O
 )	O
@@ -64661,7 +64661,7 @@ treatment	O
 with	O
 bevacizumab/irinotecan	B-Chemical
 (	O
-P	B-Disease
+P	O
 =	O
 0.021	O
 )	O
@@ -64671,7 +64671,7 @@ patients	O
 with	O
 hypertension	B-Disease
 (	O
-P	B-Disease
+P	O
 =	O
 0.044	O
 )	O
@@ -64794,13 +64794,13 @@ report	O
 a	O
 case	O
 of	O
-syndrome	B-Disease
-of	I-Disease
-inappropriate	I-Disease
-anti-diuretic	I-Disease
-hormone	O
+syndrome	B-Chemical
+of	I-Chemical
+inappropriate	I-Chemical
+anti-diuretic	B-Chemical
+hormone	I-Chemical
 (	O
-SIADH	O
+SIADH	B-Chemical
 )	O
 secretion	O
 associated	O
@@ -64865,7 +64865,7 @@ with	O
 a	O
 diagnosis	O
 of	O
-SIADH	B-Disease
+SIADH	O
 .	O
 
 Desvenlafaxine	B-Chemical
@@ -64917,7 +64917,7 @@ mirtazapine	B-Chemical
 
 DISCUSSION	O
 :	O
-SIADH	B-Disease
+SIADH	B-Chemical
 has	O
 been	O
 widely	O
@@ -64994,7 +64994,7 @@ controversial	O
 Wistar	O
 rats	O
 (	O
-n	B-Disease
+n	O
 =	O
 66	O
 )	O
@@ -65020,21 +65020,21 @@ killed	O
 before	O
 (	O
 -24	O
-h	B-Disease
+h	O
 ,	O
-n	B-Disease
+n	O
 =	O
 8)	O
 and	O
 24	O
-h	B-Disease
+h	O
 after	O
 (	O
 +	O
 24	O
-h	B-Disease
+h	O
 ,	O
-n	B-Disease
+n	O
 =	O
 8)	O
 a	O
@@ -65060,7 +65060,7 @@ and	O
 )	O
 rats	O
 (	O
-n	B-Disease
+n	O
 =	O
 58	O
 )	O
@@ -65113,7 +65113,7 @@ used	O
 at	O
 M0	O
 (	O
-n	B-Disease
+n	O
 =	O
 8)	O
 were	O
@@ -65122,7 +65122,7 @@ used	O
 at	O
 moment	O
 -24	O
-h	B-Disease
+h	O
 of	O
 acute	O
 study	O
@@ -65175,7 +65175,7 @@ SBs	O
 )	O
 and	O
 oxidized	O
-pyrimidines	B-Chemical
+pyrimidines	O
 )	O
 and	O
 decreased	O
@@ -65266,7 +65266,7 @@ R	O
 =	O
 -0.97	O
 ,	O
-p	B-Disease
+p	O
 =	O
 0.027	O
 )	O
@@ -65324,7 +65324,7 @@ chronic	O
 toxicity	B-Disease
 .	O
 
-Tacrolimus-related	B-Chemical
+Tacrolimus-related	O
 seizure	B-Disease
 after	O
 pediatric	O
@@ -65346,7 +65346,7 @@ new-onset	O
 seizures	B-Disease
 after	O
 pediatric	O
-LT	B-Disease
+LT	O
 and	O
 to	O
 assess	O
@@ -65446,7 +65446,7 @@ with	O
 seizures	B-Disease
 after	O
 pediatric	O
-LT	B-Disease
+LT	O
 included	O
 gender	O
 ,	O
@@ -65541,7 +65541,7 @@ post-operative	O
 period	O
 after	O
 pediatric	O
-LT	B-Disease
+LT	O
 .	O
 
 High	O
@@ -65640,7 +65640,7 @@ groups	O
 in	O
 the	O
 24	O
-h	B-Disease
+h	O
 retention	O
 trial	O
 .	O
@@ -65941,7 +65941,7 @@ r	O
 =	O
 0.58	O
 ;	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.05	O
@@ -66149,7 +66149,7 @@ restored	O
 the	O
 amplitude	O
 of	O
-PS	B-Disease
+PS	O
 that	O
 was	O
 attenuated	O
@@ -66283,12 +66283,12 @@ activation	O
 and	O
 post	O
 synaptic	O
-toxicity	O
+toxicity	B-Disease
 in	O
 ICV	O
 Streptozotocin	B-Chemical
 (	O
-STZ	B-Chemical
+STZ	O
 )	O
 induced	O
 memory	B-Disease
@@ -66319,7 +66319,7 @@ on	O
 16	O
 days	O
 after	O
-STZ	B-Chemical
+STZ	O
 (	O
 ICV	O
 ;	O
@@ -66328,7 +66328,7 @@ ICV	O
 administration	O
 .	O
 
-STZ	B-Chemical
+STZ	O
 causes	O
 increased	O
 expression	O
@@ -66385,7 +66385,7 @@ was	O
 also	O
 observed	O
 in	O
-STZ	B-Chemical
+STZ	O
 treated	O
 rat	O
 which	O
@@ -66399,7 +66399,7 @@ and	O
 cortex	O
 .	O
 
-STZ	B-Chemical
+STZ	O
 treatment	O
 showed	O
 decrease	O
@@ -66451,7 +66451,7 @@ for	O
 13	O
 days	O
 attenuated	O
-STZ	B-Chemical
+STZ	O
 induced	O
 glial	O
 activation	O
@@ -66488,7 +66488,7 @@ i.e.	O
 9	O
 days	O
 after	O
-STZ	B-Chemical
+STZ	O
 treatment	O
 .	O
 
@@ -66813,7 +66813,7 @@ all	O
 three	O
 groups	O
 (	O
-p	B-Disease
+p	O
 >	O
 0.05	O
 )	O
@@ -66900,7 +66900,7 @@ five	O
 %	O
 )	O
 (	O
-p	B-Chemical
+p	O
 >	O
 0.05	O
 )	O
@@ -67005,7 +67005,7 @@ IT	O
 )	O
 therapy	O
 ,	O
-leucovorin	B-Chemical
+leucovorin	O
 rescue	O
 ,	O
 and	O
@@ -67439,8 +67439,8 @@ BACKGROUND	O
 :	O
 Pre-treatment	O
 with	O
-lipid	B-Chemical
-emulsions	I-Chemical
+lipid	B-Disease
+emulsions	I-Disease
 has	O
 been	O
 shown	O
@@ -67614,7 +67614,7 @@ were	O
 longer	O
 in	O
 Group	O
-P	B-Chemical
+P	O
 than	O
 the	O
 other	O
@@ -67643,11 +67643,11 @@ significantly	O
 lower	O
 in	O
 Group	O
-P	B-Chemical
+P	O
 than	O
 in	O
 Group	O
-C.	B-Chemical
+C.	O
 Bupivacaine	B-Chemical
 levels	O
 in	O
@@ -67660,14 +67660,14 @@ significantly	O
 lower	O
 in	O
 Group	O
-P	B-Chemical
+P	O
 and	O
 Group	O
 L	O
 than	O
 in	O
 Group	O
-C.	B-Chemical
+C.	O
 CONCLUSION	O
 :	O
 We	O
@@ -67790,8 +67790,8 @@ nausea	B-Disease
 anorexia	B-Disease
 ,	O
 and	O
-upper	O
-abdominal	B-Disease
+upper	B-Disease
+abdominal	I-Disease
 pain	I-Disease
 .	O
 
@@ -67899,7 +67899,7 @@ to	O
 recover	O
 with	O
 48	O
-h	B-Disease
+h	O
 of	O
 discontinuation	O
 .	O
@@ -68299,7 +68299,7 @@ AUC	O
 =	O
 0.815	O
 ;	O
-P	B-Disease
+P	O
 =	O
 0.001	O
 ]	O
@@ -68326,7 +68326,7 @@ AUC	O
 =	O
 0.757	O
 ;	O
-P	B-Disease
+P	O
 =	O
 0.005	O
 )	O
@@ -68355,7 +68355,7 @@ predictor	O
 of	O
 cardiotoxicity	B-Disease
 (	O
-P	B-Disease
+P	O
 =	O
 0.000	O
 )	O
@@ -68468,7 +68468,7 @@ induction	O
 of	O
 anesthesia	O
 with	O
-etomidate	B-Disease
+etomidate	B-Chemical
 ,	O
 the	O
 patients	O
@@ -68541,7 +68541,7 @@ induced	O
 with	O
 0.3	O
 mg.kg-1	O
-etomidate	O
+etomidate	B-Chemical
 injected	O
 intravenously	O
 over	O
@@ -68573,7 +68573,7 @@ the	O
 2	O
 minutes	O
 after	O
-etomidate	O
+etomidate	B-Chemical
 injection	O
 .	O
 
@@ -68583,7 +68583,7 @@ of	O
 pain	B-Disease
 due	O
 to	O
-etomidate	O
+etomidate	B-Chemical
 injection	O
 ,	O
 mean	O
@@ -68634,7 +68634,7 @@ M	O
 ,	O
 and	O
 Group	O
-FM	B-Disease
+FM	O
 ,	O
 respectively	O
 ,	O
@@ -68688,7 +68688,7 @@ dopamine	B-Chemical
 
 Lindane	B-Chemical
 (	O
-gamma-hexachlorocyclohexane	B-Chemical
+gamma-hexachlorocyclohexane	O
 )	O
 is	O
 an	O
@@ -68832,9 +68832,9 @@ striatum	O
 Cholestatic	O
 presentation	O
 of	O
-yellow	B-Chemical
-phosphorus	I-Chemical
-poisoning	I-Chemical
+yellow	B-Disease
+phosphorus	I-Disease
+poisoning	I-Disease
 .	O
 
 Yellow	O
@@ -68883,9 +68883,9 @@ present	O
 a	O
 case	O
 of	O
-yellow	B-Chemical
-phosphorus	I-Chemical
-poisoning	I-Chemical
+yellow	B-Disease
+phosphorus	I-Disease
+poisoning	I-Disease
 in	O
 which	O
 a	O
@@ -69028,7 +69028,7 @@ The	O
 bradycardia	B-Disease
 lasted	O
 ~2	O
-h	B-Disease
+h	O
 ,	O
 and	O
 further	O
@@ -69103,7 +69103,7 @@ of	O
 first-generation	O
 antipsychotics	O
 ,	O
-zuclopenthixol	O
+zuclopenthixol	B-Chemical
 (	O
 100	O
 mg/day	O
@@ -69116,7 +69116,7 @@ mg/day	O
 )	O
 (	O
 serum	O
-lithium=0.85	O
+lithium=0.85	B-Disease
 mEq/l	O
 )	O
 .	O
@@ -69308,7 +69308,7 @@ days	O
 
 Oral	O
 bovine	O
-LF	B-Chemical
+LF	O
 (	O
 30	O
 ,	O
@@ -69340,7 +69340,7 @@ received	O
 4	O
 days	O
 of	O
-LF	B-Chemical
+LF	O
 treatment	O
 followed	O
 by	O
@@ -69426,7 +69426,7 @@ dose	O
 dependently	O
 prevented	O
 (	O
-P	B-Disease
+P	O
 <	O
 0.001	O
 )	O
@@ -69644,7 +69644,7 @@ was	O
 216	O
 ]	O
 )	O
-h	B-Disease
+h	O
 and	O
 8	O
 (	O
@@ -69657,7 +69657,7 @@ and	O
 18	O
 ]	O
 )	O
-h	B-Disease
+h	O
 ,	O
 respectively	O
 .	O
@@ -69823,7 +69823,7 @@ patients	O
 without	O
 seizures	B-Disease
 (	O
-p	B-Disease
+p	O
 <	O
 0.001	O
 )	O
@@ -69932,7 +69932,7 @@ regular	O
 ecstasy	B-Chemical
 users	O
 (	O
-n=12	B-Disease
+n=12	O
 )	O
 and	O
 drug	O
@@ -69940,7 +69940,7 @@ naive	O
 healthy	O
 controls	O
 (	O
-n=26	B-Disease
+n=26	O
 )	O
 .	O
 
@@ -70103,8 +70103,8 @@ transient	B-Disease
 unilateral	I-Disease
 hemiparesis	I-Disease
 with	O
-facial	O
-droop	B-Disease
+facial	B-Disease
+droop	I-Disease
 ,	O
 and	O
 had	O
@@ -70367,10 +70367,10 @@ dysmetria	B-Disease
 ,	O
 dysarthria	B-Disease
 ,	O
-reduced	O
-smooth	O
-pursuit	O
-gain	O
+reduced	B-Disease
+smooth	I-Disease
+pursuit	I-Disease
+gain	I-Disease
 and	O
 decreased	B-Disease
 saccadic	I-Disease
@@ -70542,9 +70542,9 @@ by	O
 chance	O
 ,	O
 revealed	O
-torsade	B-Disease
-de	I-Disease
-pointes	I-Disease
+torsade	O
+de	O
+pointes	O
 with	O
 gradually	O
 prolonged	B-Disease
@@ -70779,7 +70779,7 @@ protocol	O
 of	O
 lomustine	B-Chemical
 (	O
-CCNU	O
+CCNU	B-Chemical
 )	O
 and	O
 cyclophosphamide	B-Chemical
@@ -70792,7 +70792,7 @@ with	O
 lymphoma	B-Disease
 .	O
 
-CCNU	B-Disease
+CCNU	O
 was	O
 administered	O
 per	O
@@ -70934,7 +70934,7 @@ kg	O
 12.4	O
 kg	O
 ;	O
-P	B-Disease
+P	O
 =	O
 .005	O
 )	O
@@ -70990,7 +70990,7 @@ of	O
 mg/m(2	O
 )	O
 of	O
-CCNU	B-Disease
+CCNU	O
 combined	O
 with	O
 250	O
@@ -71546,7 +71546,7 @@ therapy	O
 he	O
 succumbed	O
 23	O
-h	B-Disease
+h	O
 after	O
 the	O
 onset	O
@@ -71806,7 +71806,7 @@ increases	O
 in	O
 peak	O
 myocardial	O
-contrast	B-Disease
+contrast	B-Chemical
 enhancement	O
 and	O
 serological	O
@@ -72140,7 +72140,7 @@ von	O
 Frey	O
 gauges	O
 (	O
-P	B-Chemical
+P	O
 <	O
 0.001	O
 )	O
@@ -72291,7 +72291,7 @@ primary	O
 open-angle	O
 glaucoma	B-Disease
 (	O
-POAG	B-Disease
+POAG	O
 )	O
 .	O
 
@@ -72464,7 +72464,7 @@ ER	O
 stress	O
 in	O
 the	O
-TM	B-Chemical
+TM	O
 with	O
 sodium	B-Chemical
 4-phenylbutyrate	I-Chemical
@@ -72927,8 +72927,8 @@ arterial	O
 pressure	O
 <	O
 60	O
-mm	O
-Hg	O
+mm	B-Disease
+Hg	I-Disease
 )	O
 and	O
 bradycardia	B-Disease
@@ -72962,7 +72962,7 @@ vs	O
 30	O
 %	O
 ,	O
-p	B-Disease
+p	O
 =	O
 0.94	O
 )	O
@@ -72976,7 +72976,7 @@ vs	O
 34	O
 %	O
 ,	O
-p	B-Disease
+p	O
 =	O
 0.35	O
 )	O
@@ -73351,7 +73351,7 @@ in	O
 the	O
 first	O
 18	O
-h	B-Disease
+h	O
 of	O
 therapy	O
 ,	O
@@ -73614,15 +73614,15 @@ superior	O
 vena	O
 cava	O
 (	O
-SVC	B-Disease
-)	I-Disease
-syndrome	I-Disease
+SVC	O
+)	O
+syndrome	B-Disease
 .	O
 
 A	O
 percutaneous	O
 mechanical	O
-thrombectomy	O
+thrombectomy	B-Disease
 and	O
 CDT	O
 with	O
@@ -73799,7 +73799,7 @@ effects	O
 of	O
 dehydroepiandrosterone	B-Chemical
 (	O
-DHEA	B-Chemical
+DHEA	O
 )	O
 on	O
 animal	O
@@ -73839,11 +73839,11 @@ amphetamine	B-Chemical
 and	O
 100	O
 mg/kg	O
-DHEA	B-Chemical
+DHEA	O
 .	O
 
 The	O
-DHEA	B-Chemical
+DHEA	O
 was	O
 administered	O
 intraperitoneally	O
@@ -73972,11 +73972,11 @@ group	O
 .	O
 
 Both	O
-DHEA	O
+DHEA	B-Chemical
 50	O
 mg/kg	O
 (	O
-p<0.05	B-Disease
+p<0.05	O
 )	O
 ,	O
 and	O
@@ -74010,7 +74010,7 @@ haloperidol-induced	O
 catalepsy	B-Disease
 test	O
 (	O
-p<0.05	B-Disease
+p<0.05	O
 )	O
 .	O
 
@@ -74033,7 +74033,7 @@ apomorphine-induced	O
 climbing	O
 test	O
 (	O
-p>0.05	B-Disease
+p>0.05	O
 )	O
 .	O
 
@@ -74066,7 +74066,7 @@ behavior	O
 We	O
 suggest	O
 that	O
-DHEA	O
+DHEA	B-Chemical
 displays	O
 typical	O
 neuroleptic-like	O
@@ -74264,7 +74264,7 @@ Terfenadine	B-Chemical
 and	O
 Citalopram	B-Chemical
 prolonged	O
-FPDc	B-Disease
+FPDc	O
 in	O
 a	O
 concentration	O
@@ -74301,7 +74301,7 @@ produced	O
 early	O
 afterdepolarization	O
 (	O
-EAD	B-Disease
+EAD	O
 )	O
 .	O
 
@@ -74333,11 +74333,11 @@ assay	O
 can	O
 help	O
 detect	O
-EAD	B-Disease
+EAD	O
 for	O
 drugs	O
 with	O
-TdP	B-Chemical
+TdP	O
 potential	O
 .	O
 
@@ -74785,7 +74785,7 @@ CI	O
 ,	O
 6.944	O
 ;	O
-P	B-Chemical
+P	O
 =	O
 0.048	O
 )	O
@@ -74828,7 +74828,7 @@ CI	O
 ,	O
 32.258	O
 ;	O
-P	B-Disease
+P	O
 <	O
 0.0001	O
 )	O
@@ -74845,7 +74845,7 @@ CI	O
 ,	O
 8.439	O
 ;	O
-P	B-Disease
+P	O
 =	O
 0.017	O
 )	O
@@ -75095,7 +75095,7 @@ of	O
 along	O
 with	O
 alternate-day	O
-PTZ	B-Chemical
+PTZ	O
 .	O
 
 We	O
@@ -75512,8 +75512,8 @@ callosum	O
 The	O
 diagnosis	O
 of	O
-metronidazole	B-Chemical
-toxicity	I-Chemical
+metronidazole	B-Disease
+toxicity	I-Disease
 was	O
 made	O
 by	O
@@ -75592,8 +75592,8 @@ Ca(2	O
 +	O
 )	O
 in	O
-aconitine	B-Chemical
-poisoning	I-Chemical
+aconitine	B-Disease
+poisoning	I-Disease
 .	O
 
 In	O
@@ -75611,8 +75611,8 @@ Ca(2	O
 )	O
 signaling	O
 in	O
-aconitine	B-Chemical
-poisoning	I-Chemical
+aconitine	B-Disease
+poisoning	I-Disease
 in	O
 vitro	O
 and	O
@@ -75627,7 +75627,7 @@ Ca(2	O
 +	O
 )	O
 overload	O
-lead	O
+lead	B-Disease
 to	O
 accelerated	O
 beating	O
@@ -75943,7 +75943,7 @@ of	O
 5	O
 groups	O
 (	O
-n=6	B-Disease
+n=6	O
 ):	O
 normal	O
 control	O
@@ -76206,8 +76206,8 @@ The	O
 literature	O
 related	O
 to	O
-antithyroid	O
-drug	O
+antithyroid	B-Chemical
+drug	I-Chemical
 side	O
 effects	O
 and	O
@@ -76665,8 +76665,8 @@ and	O
 peripheral	O
 nerves	O
 to	O
-ethambutol	B-Chemical
-toxicity	I-Chemical
+ethambutol	B-Disease
+toxicity	I-Disease
 .	O
 
 Testosterone	O
@@ -76710,7 +76710,7 @@ icv	O
 )	O
 infused	O
 with	O
-STZ	B-Chemical
+STZ	O
 (	O
 750	O
 ug	O
@@ -76736,7 +76736,7 @@ the	O
 first	O
 injection	O
 of	O
-STZ	B-Chemical
+STZ	O
 .	O
 
 Castration	O
@@ -76819,7 +76819,7 @@ the	O
 first	O
 injection	O
 of	O
-STZ	B-Chemical
+STZ	O
 .	O
 
 RESULTS	O
@@ -76878,7 +76878,7 @@ Administration	O
 of	O
 flutamide	B-Chemical
 ,	O
-letrozole	B-Chemical
+letrozole	O
 or	O
 tamoxifen	B-Chemical
 significantly	O
@@ -77197,7 +77197,7 @@ The	O
 results	O
 indicate	O
 that	O
-GFC	O
+GFC	B-Chemical
 can	O
 exert	O
 anticonvulsant	O
@@ -77482,7 +77482,7 @@ high	O
 adherence	O
 group	O
 (	O
-HAG	B-Disease
+HAG	O
 )	O
 and	O
 patients	O
@@ -77540,7 +77540,7 @@ regression	O
 analysis	O
 (	O
 two-sided	O
-P	B-Chemical
+P	O
 <	O
 0.05	O
 )	O
@@ -77583,7 +77583,7 @@ versus	O
 in	O
 HAG	O
 (	O
-P	B-Disease
+P	O
 =	O
 0.035	O
 )	O
@@ -77621,7 +77621,7 @@ develop	O
 AKI	B-Disease
 compared	O
 with	O
-HAG	B-Disease
+HAG	O
 (	O
 95	O
 %	O
@@ -77631,7 +77631,7 @@ interval	O
 to	O
 5.124	O
 ,	O
-P	B-Disease
+P	O
 =	O
 0.039	O
 )	O
@@ -77924,7 +77924,7 @@ with	O
 multiple	B-Disease
 myeloma	I-Disease
 (	O
-MM	B-Disease
+MM	O
 )	O
 has	O
 been	O
@@ -78130,7 +78130,7 @@ after	O
 consolidation	O
 therapy	O
 (	O
-p	B-Disease
+p	O
 =	O
 0.041	O
 )	O
@@ -78152,7 +78152,7 @@ in	O
 the	O
 treatment	O
 of	O
-MM	B-Disease
+MM	O
 in	O
 Japanese	O
 population	O
@@ -78245,7 +78245,7 @@ Four	O
 animal	O
 groups	O
 (	O
-n	B-Disease
+n	O
 =	O
 6	O
 )	O
@@ -78259,7 +78259,7 @@ control	O
 ,	O
 CsA	B-Chemical
 ,	O
-SRL	O
+SRL	B-Chemical
 ,	O
 and	O
 conversion	O
@@ -78355,7 +78355,7 @@ kb	O
 ,	O
 mTOR	O
 ,	O
-PCNA	B-Chemical
+PCNA	O
 ,	O
 TP53	O
 ,	O
@@ -78421,7 +78421,7 @@ lesions	O
 )	O
 ,	O
 while	O
-NGAL	B-Disease
+NGAL	O
 (	O
 serum	O
 versus	O
@@ -79085,7 +79085,7 @@ Optimal	O
 precurarizing	O
 dose	O
 of	O
-rocuronium	B-Chemical
+rocuronium	O
 to	O
 decrease	O
 fasciculation	B-Disease
@@ -79132,7 +79132,7 @@ evaluated	O
 the	O
 influence	O
 of	O
-rocuronium	B-Chemical
+rocuronium	O
 on	O
 the	O
 speed	O
@@ -79181,7 +79181,7 @@ receive	O
 and	O
 0.06	O
 mg/kg	O
-rocuronium	B-Chemical
+rocuronium	O
 as	O
 a	O
 precurarizing	O
@@ -79267,9 +79267,9 @@ of	O
 precurarizing	O
 dose	O
 of	O
-rocuronium	B-Chemical
+rocuronium	O
 (	O
-P	B-Chemical
+P	O
 <	O
 0.001	O
 )	O
@@ -79298,7 +79298,7 @@ was	O
 no	O
 significance	O
 (	O
-P	B-Disease
+P	O
 =	O
 0.072	O
 )	O
@@ -79320,9 +79320,9 @@ of	O
 precurarizing	O
 dose	O
 of	O
-rocuronium	B-Chemical
+rocuronium	O
 (	O
-P	B-Disease
+P	O
 <	O
 0.001	O
 )	O
@@ -79687,7 +79687,7 @@ very	O
 rare	O
 side-effect	O
 of	O
-amlodipine	O
+amlodipine	B-Chemical
 is	O
 dysguesia	B-Disease
 .	O
@@ -79711,13 +79711,13 @@ about	O
 a	O
 female	O
 with	O
-essential	O
-hypertension	B-Disease
+essential	B-Disease
+hypertension	I-Disease
 on	O
 drug	O
 treatment	O
 with	O
-amlodipine	O
+amlodipine	B-Chemical
 developed	O
 loss	B-Disease
 of	I-Disease
@@ -79741,7 +79741,7 @@ days	O
 We	O
 conclude	O
 that	O
-amlodipine	O
+amlodipine	B-Chemical
 can	O
 cause	O
 dysguesia	B-Disease
@@ -79760,7 +79760,7 @@ the	O
 relevant	O
 literature	O
 on	O
-amlodipine	O
+amlodipine	B-Chemical
 and	O
 dysguesia	B-Disease
 .	O
@@ -79922,8 +79922,8 @@ p.	O
 Val204Asp	O
 )	O
 causes	O
-loss	B-Disease
-of	I-Disease
+loss	O
+of	O
 activity	O
 and	O
 prolonged	O
@@ -80012,7 +80012,7 @@ mutation	O
 disrupts	O
 the	O
 catalytic	O
-triad	B-Disease
+triad	B-Chemical
 and	O
 determines	O
 a	O
@@ -81947,7 +81947,7 @@ than	O
 2.5	O
 mg/dl	O
 or	O
-BUN	B-Disease
+BUN	B-Chemical
 greater	O
 than	O
 50	O
@@ -82181,7 +82181,7 @@ lung	B-Disease
 cancer	I-Disease
 risks	O
 (	O
-N=283	B-Disease
+N=283	O
 )	O
 among	O
 applicators	O
@@ -82190,7 +82190,7 @@ the	O
 greatest	O
 number	O
 of	O
-LT	B-Disease
+LT	O
 (	O
 RR=1.60	O
 ;	O
@@ -82226,7 +82226,7 @@ Ptrend=0.08	O
 Kidney	B-Disease
 cancer	I-Disease
 (	O
-N=94	B-Disease
+N=94	O
 )	O
 risks	O
 were	O
@@ -82464,9 +82464,9 @@ of	O
 these	O
 pollutants	O
 on	O
-Parkinson	O
-'s	O
-disease	O
+Parkinson	B-Disease
+'s	I-Disease
+disease	I-Disease
 risk	O
 is	O
 supported	O
@@ -82785,7 +82785,7 @@ gene	O
 expression	O
 of	O
 glial-cell-line-derived	O
-neurotrophic	O
+neurotrophic	B-Chemical
 factor	O
 (GDNF)/tyrosine	O
 kinase	O
@@ -82801,7 +82801,7 @@ These	O
 results	O
 demonstrated	O
 that	O
-PCE	O
+PCE	B-Chemical
 could	O
 induce	O
 dysplasia	B-Disease
@@ -82853,7 +82853,7 @@ UNASSIGNED	O
 Epidemiological	O
 studies	O
 of	O
-1,3-butadiene	O
+1,3-butadiene	B-Chemical
 have	O
 suggest	O
 that	O
@@ -82871,7 +82871,7 @@ CML	B-Disease
 )	O
 .	O
 
-CML	B-Disease
+CML	B-Chemical
 has	O
 a	O
 well-documented	O
@@ -82930,7 +82930,7 @@ We	O
 have	O
 proposed	O
 that	O
-1,3-butadiene	O
+1,3-butadiene	B-Chemical
 metabolites	O
 be	O
 so	O
@@ -83020,7 +83020,7 @@ required	O
 for	O
 studies	O
 of	O
-1,3-butadiene	O
+1,3-butadiene	B-Chemical
 are	O
 discussed	O
 .	O
@@ -83054,7 +83054,7 @@ classified	O
 as	O
 a	O
 Group	O
-C	B-Disease
+C	O
 carcinogen	O
 by	O
 the	O
@@ -83178,7 +83178,7 @@ all	O
 cancers	B-Disease
 combined	O
 (	O
-n	B-Disease
+n	O
 =	O
 5,701	O
 with	O
@@ -83387,12 +83387,12 @@ iAs	O
 )	O
 in	O
 their	O
-drinking	B-Chemical
-water	I-Chemical
+drinking	B-Disease
+water	I-Disease
 .	O
 
 Inorganic	O
-As	B-Chemical
+As	O
 exposure	O
 during	O
 key	O
@@ -83577,7 +83577,7 @@ male	O
 with	O
 evidence	O
 of	O
-peripheral	O
+peripheral	B-Disease
 and	O
 autonomic	B-Disease
 neuropathy	I-Disease
@@ -83812,7 +83812,7 @@ seizures	B-Disease
 .	O
 
 In	O
-contrast	O
+contrast	B-Chemical
 ,	O
 haloperidol	B-Chemical
 demonstrated	O
@@ -83922,7 +83922,7 @@ in	O
 less	O
 than	O
 1	O
-h	B-Disease
+h	O
 ,	O
 the	O
 normal	O
@@ -84237,7 +84237,7 @@ group	O
 
 The	O
 mean	O
-H	B-Chemical
+H	O
 concentration	O
 during	O
 hypotension	B-Disease
@@ -84254,7 +84254,7 @@ vol%	O
 ,	O
 the	O
 mean	O
-E	B-Chemical
+E	O
 concentration	O
 1.6	O
 +	O
@@ -84459,7 +84459,7 @@ disodium	B-Chemical
 phosphate	I-Chemical
 ester	I-Chemical
 of	O
-3-hydroxymethyl-5,5-diphenylhydantoin	O
+3-hydroxymethyl-5,5-diphenylhydantoin	B-Chemical
 ,	O
 is	O
 a	O
@@ -84999,7 +84999,7 @@ FEF25	O
 -	O
 75	O
 (	O
-p	B-Disease
+p	O
 less	O
 than	O
 0.001	O
@@ -85008,7 +85008,7 @@ than	O
 and	O
 pretreatment	O
 with	O
-HDS	O
+HDS	B-Disease
 did	O
 not	O
 displace	O
@@ -85023,7 +85023,7 @@ DRC	O
 for	O
 HR	O
 (	O
-p	B-Disease
+p	O
 less	O
 than	O
 0.001	O
@@ -85050,10 +85050,10 @@ attenuated	O
 after	O
 treatment	O
 with	O
-HDS	O
+HDS	B-Disease
 compared	O
 with	O
-PI	B-Chemical
+PI	O
 .	O
 
 There	O
@@ -85067,7 +85067,7 @@ LDS	O
 for	O
 HR	O
 (	O
-p	B-Disease
+p	O
 less	O
 than	O
 0.001	O
@@ -85075,7 +85075,7 @@ than	O
 and	O
 Glu	B-Chemical
 (	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.05	O
@@ -85094,11 +85094,11 @@ were	O
 also	O
 reduced	O
 after	O
-HDS	O
+HDS	B-Disease
 :	O
 tremor	B-Disease
 (	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.001	O
@@ -85106,7 +85106,7 @@ than	O
 ,	O
 palpitations	B-Disease
 (	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.001).(ABSTRACT	O
@@ -85193,9 +85193,9 @@ mandatory	O
 Treatment	O
 of	O
 lethal	O
-pertussis	B-Chemical
-vaccine	I-Chemical
-reaction	I-Chemical
+pertussis	O
+vaccine	O
+reaction	O
 with	O
 histamine	B-Chemical
 H1	O
@@ -85239,7 +85239,7 @@ day	O
 +	O
 7	O
 of	O
-pertussis	B-Chemical
+pertussis	O
 immunization	O
 .	O
 
@@ -85257,8 +85257,8 @@ mianserin	O
 ,	O
 or	O
 2	O
-mg	B-Chemical
-chlorpheniramine	I-Chemical
+mg	O
+chlorpheniramine	O
 ,	O
 only	O
 5	O
@@ -85356,7 +85356,7 @@ and	O
 a	O
 5	O
 %	O
-dextrose	B-Disease
+dextrose	B-Chemical
 solution	O
 (	O
 5.4	O
@@ -85390,7 +85390,7 @@ were	O
 followed	O
 for	O
 18	O
-h	B-Disease
+h	O
 after	O
 the	O
 infusions	O
@@ -85442,7 +85442,7 @@ infusion	O
 (	O
 ANOVA	O
 ,	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.001	O
@@ -85533,7 +85533,7 @@ the	O
 effects	O
 of	O
 three	O
-alkylxanthines	O
+alkylxanthines	B-Chemical
 with	O
 different	O
 potencies	O
@@ -85544,7 +85544,7 @@ antagonists	O
 ,	O
 theophylline	B-Chemical
 and	O
-enprofylline	O
+enprofylline	B-Chemical
 ,	O
 were	O
 examined	O
@@ -85757,7 +85757,7 @@ or	O
 gray	O
 subepithelial	O
 corneal	O
-opacities	B-Disease
+opacities	O
 ;	O
 all	O
 of	O
@@ -86304,7 +86304,7 @@ patients	O
 may	O
 have	O
 abnormalities	O
-in	B-Disease
+in	O
 neuronal	O
 systems	O
 involving	O
@@ -86519,8 +86519,8 @@ of	O
 dosage	O
 .	O
 
-Penicillin	B-Disease
-anaphylaxis	I-Disease
+Penicillin	O
+anaphylaxis	O
 .	O
 
 A	O
@@ -87285,7 +87285,7 @@ group	O
 SEM	O
 )	O
 cm	O
-H2O	B-Chemical
+H2O	O
 )	O
 than	O
 in	O
@@ -87301,7 +87301,7 @@ group	O
 SEM	O
 )	O
 cm	O
-H2O	B-Chemical
+H2O	O
 )	O
 .	O
 
@@ -87393,8 +87393,8 @@ effect	O
 of	O
 isoproterenol	B-Chemical
 in	O
-streptozotocin	B-Chemical
-diabetic	I-Chemical
+streptozotocin	B-Disease
+diabetic	I-Disease
 rats	O
 .	O
 
@@ -87421,8 +87421,8 @@ reported	O
 protective	O
 effect	O
 of	O
-streptozotocin	B-Chemical
-diabetes	I-Chemical
+streptozotocin	B-Disease
+diabetes	I-Disease
 against	O
 the	O
 cardiotoxic	B-Disease
@@ -87433,7 +87433,7 @@ doses	O
 of	O
 isoproterenol	B-Chemical
 (	O
-ISO	O
+ISO	B-Chemical
 )	O
 was	O
 investigated	O
@@ -87452,13 +87452,13 @@ of	O
 crystalline	O
 insulin	O
 ,	O
-ISO	B-Disease
+ISO	B-Chemical
 was	O
 given	O
 subcutaneously	O
 and	O
 when	O
-ISO	B-Disease
+ISO	B-Chemical
 induced	O
 fibrosis	B-Disease
 in	O
@@ -87670,7 +87670,7 @@ phenylbutazone	B-Chemical
 ,	O
 indomethacin	B-Chemical
 ,	O
-ibuprofen	O
+ibuprofen	B-Chemical
 and	O
 mefenamic	B-Chemical
 acid	I-Chemical
@@ -87732,7 +87732,7 @@ Indomethacin	B-Chemical
 mg/kg	O
 ,	O
 and	O
-ibuprofen	O
+ibuprofen	B-Chemical
 ,	O
 10	O
 -	O
@@ -88089,10 +88089,10 @@ suggested	O
 Differential	O
 effects	O
 of	O
-1,4-dihydropyridine	O
-calcium	O
-channel	O
-blockers	O
+1,4-dihydropyridine	B-Chemical
+calcium	I-Chemical
+channel	I-Chemical
+blockers	I-Chemical
 :	O
 therapeutic	O
 implications	O
@@ -88161,7 +88161,7 @@ selectivity	O
 .	O
 
 In	O
-contrast	O
+contrast	B-Chemical
 to	O
 verapamil	B-Chemical
 and	O
@@ -88239,9 +88239,9 @@ of	O
 this	O
 group	O
 of	O
-calcium	O
-channel	O
-blockers	O
+calcium	B-Chemical
+channel	I-Chemical
+blockers	I-Chemical
 have	O
 been	O
 studied	O
@@ -88404,7 +88404,7 @@ administration	O
 of	O
 puromycin-aminonucleoside	O
 (	O
-AMNS	O
+AMNS	B-Disease
 )	O
 and	O
 protamine	B-Chemical
@@ -88506,7 +88506,7 @@ showed	O
 significant	O
 difference	O
 (	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.01	O
@@ -88521,10 +88521,10 @@ group	O
 such	O
 as	O
 ,	O
-AMNS	O
+AMNS	B-Disease
 alone	O
 ,	O
-PS	B-Chemical
+PS	O
 alone	O
 or	O
 saline	O
@@ -88579,12 +88579,12 @@ that	O
 the	O
 administration	O
 of	O
-PS	B-Chemical
+PS	O
 enhances	O
 the	O
-toxicity	O
-of	O
-AMNS	O
+toxicity	B-Disease
+of	I-Disease
+AMNS	I-Disease
 on	O
 the	O
 glomerulus	O
@@ -88891,7 +88891,7 @@ treated	O
 with	O
 cisplatin	B-Chemical
 (	O
-CDDP	O
+CDDP	B-Chemical
 )	O
 and	O
 5-fluorouracil	B-Chemical
@@ -88962,7 +88962,7 @@ may	O
 be	O
 influenced	O
 by	O
-CDDP	B-Chemical
+CDDP	O
 .	O
 
 The	O
@@ -89530,7 +89530,7 @@ both	O
 .	O
 
 Oral	O
-thrush	B-Disease
+thrush	B-Chemical
 did	O
 not	O
 recur	O
@@ -89875,7 +89875,7 @@ in	O
 Group	O
 2	O
 (	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.025	O
@@ -89908,7 +89908,7 @@ in	O
 Group	O
 2	O
 (	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.25	O
@@ -89932,7 +89932,7 @@ the	O
 two	O
 groups	O
 (	O
-P	B-Disease
+P	O
 greater	O
 than	O
 0.5	O
@@ -90060,7 +90060,7 @@ if	O
 ever	O
 ,	O
 cause	O
-glomerular	O
+glomerular	B-Disease
 or	O
 tubular	B-Disease
 dysfunction	I-Disease
@@ -90232,7 +90232,7 @@ naphazoline	B-Chemical
 and	O
 xylometazoline	B-Chemical
 on	O
-analgesia	B-Chemical
+analgesia	B-Disease
 induced	O
 by	O
 morphine	B-Chemical
@@ -90617,8 +90617,8 @@ was	O
 unclear	O
 .	O
 
-Flurothyl	B-Chemical
-seizure	I-Chemical
+Flurothyl	B-Disease
+seizure	I-Disease
 testing	O
 proved	O
 to	O
@@ -90879,7 +90879,7 @@ gamma-vinyl-GABA	O
 (	O
 D	O
 ,	O
-L-4-amino-hex-5-enoic	O
+L-4-amino-hex-5-enoic	B-Chemical
 acid	O
 )	O
 ,	O
@@ -91073,7 +91073,7 @@ to	O
 pg/mg	O
 protein	O
 (	O
-P	B-Chemical
+P	O
 less	O
 than	O
 0.05	O
@@ -91103,7 +91103,7 @@ to	O
 pg/mg	O
 protein	O
 (	O
-P	B-Chemical
+P	O
 less	O
 than	O
 0.05	O
@@ -91301,7 +91301,7 @@ r	O
 =	O
 0.57	O
 ,	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.05	O
@@ -91697,7 +91697,7 @@ of	O
 patients	O
 receiving	O
 high-dose	O
-MP	B-Chemical
+MP	O
 is	O
 recommended	O
 .	O
@@ -92116,7 +92116,7 @@ was	O
 statistically	O
 significant	O
 (	O
-p	B-Disease
+p	O
 less	O
 than	O
 0.005	O
@@ -92220,7 +92220,7 @@ of	O
 timolol-hydrochlorothiazide	O
 therapy	O
 (	O
-P	B-Chemical
+P	O
 less	O
 than	O
 0.01	O
@@ -92301,8 +92301,8 @@ adverse	O
 events	O
 .	O
 
-Salicylate	B-Chemical
-nephropathy	I-Chemical
+Salicylate	B-Disease
+nephropathy	I-Disease
 in	O
 the	O
 Gunn	O
@@ -92398,7 +92398,7 @@ groups	O
 of	O
 rats	O
 (	O
-n	B-Disease
+n	O
 =	O
 7	O
 )	O
@@ -92508,7 +92508,7 @@ rats	O
 3	O
 )	O
 (	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.01	O
@@ -92548,7 +92548,7 @@ rats	O
 2	O
 )	O
 (	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.05	O
@@ -92574,7 +92574,7 @@ without	O
 aspirin	B-Chemical
 administration	O
 (	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.05	O
@@ -92622,7 +92622,7 @@ increased	O
 serum	O
 creatinine	B-Chemical
 (	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.05	O
@@ -92675,7 +92675,7 @@ of	O
 prostaglandin	B-Chemical
 synthesis	O
 may	O
-lead	O
+lead	B-Disease
 to	O
 pathological	O
 renal	B-Disease
@@ -93035,7 +93035,7 @@ an	O
 acetylcholine-synthesis	O
 inhibitor	O
 ,	O
-hemicholinium	O
+hemicholinium	B-Chemical
 ,	O
 prevented	O
 the	O
@@ -93060,7 +93060,7 @@ that	O
 is	O
 produced	O
 by	O
-neuroleptics	B-Chemical
+neuroleptics	B-Disease
 such	O
 as	O
 haloperidol	B-Chemical
@@ -93366,8 +93366,8 @@ disturbances	I-Disease
 and	O
 the	O
 hypersensitivity	B-Disease
-of	O
-the	B-Disease
+of	I-Disease
+the	I-Disease
 cardiovascular	O
 system	O
 to	O
@@ -93519,8 +93519,8 @@ systolic	O
 +	O
 /-	O
 7	O
-mm	B-Disease
-Hg	I-Disease
+mm	O
+Hg	O
 diastolic	O
 )	O
 .	O
@@ -93662,7 +93662,7 @@ sec/cm5	O
 We	O
 conclude	O
 that	O
-PPA	O
+PPA	B-Chemical
 increases	O
 blood	O
 pressure	O
@@ -93702,7 +93702,7 @@ of	O
 PPA	O
 is	O
 in	O
-contrast	B-Disease
+contrast	O
 to	O
 the	O
 interaction	O
@@ -93762,7 +93762,7 @@ the	O
 puromycin	B-Chemical
 aminonucleoside	I-Chemical
 (	O
-PAN	O
+PAN	B-Chemical
 )	O
 model	O
 .	O
@@ -93774,7 +93774,7 @@ rats	O
 received	O
 repeated	O
 subcutaneous	O
-PAN	B-Chemical
+PAN	O
 injections	O
 ;	O
 five	O
@@ -93788,7 +93788,7 @@ After	O
 4	O
 weeks	O
 the	O
-PAN	B-Disease
+PAN	O
 rats	O
 were	O
 severely	O
@@ -93832,7 +93832,7 @@ of	O
 the	O
 glomeruli	O
 of	O
-PAN	B-Disease
+PAN	O
 rats	O
 ;	O
 glomeruli	O
@@ -93845,12 +93845,12 @@ normal	O
 
 Glomeruli	O
 of	O
-PAN	B-Disease
+PAN	O
 rats	O
 contained	O
 significantly	O
 more	O
-CC	B-Disease
+CC	O
 than	O
 glomeruli	O
 of	O
@@ -93863,7 +93863,7 @@ sclerosis	B-Disease
 contained	O
 significantly	O
 more	O
-CC	B-Disease
+CC	O
 than	O
 non-sclerotic	O
 glomeruli	O
@@ -93943,7 +93943,7 @@ of	O
 lesions	O
 in	O
 the	O
-PAN	B-Disease
+PAN	O
 glomeruli	O
 in	O
 concordance	O
@@ -94143,7 +94143,7 @@ rats	O
 
 Acetaminophen	B-Chemical
 (	O
-APAP	B-Chemical
+APAP	O
 )	O
 produces	O
 proximal	B-Disease
@@ -94260,7 +94260,7 @@ with	O
 BNPP	B-Chemical
 prior	O
 to	O
-APAP	B-Chemical
+APAP	O
 or	O
 PAP	B-Chemical
 administration	O
@@ -94269,7 +94269,7 @@ in	O
 marked	O
 reduction	O
 of	O
-APAP	B-Chemical
+APAP	O
 (	O
 900	O
 mg/kg	O
@@ -94291,7 +94291,7 @@ altered	O
 disposition	O
 of	O
 either	O
-APAP	B-Chemical
+APAP	O
 or	O
 acetylated	O
 metabolites	O
@@ -94307,13 +94307,13 @@ tissue	O
 
 Rather	O
 ,	O
-BNPP	O
+BNPP	B-Chemical
 pretreatment	O
 reduced	O
 the	O
 fraction	O
 of	O
-APAP	B-Chemical
+APAP	B-Disease
 excreted	O
 as	O
 PAP	O
@@ -94323,7 +94323,7 @@ and	O
 75	O
 %	O
 after	O
-APAP	B-Chemical
+APAP	B-Disease
 doses	O
 of	O
 750	O
@@ -94339,7 +94339,7 @@ alter	O
 the	O
 excretion	O
 of	O
-APAP	B-Chemical
+APAP	O
 or	O
 any	O
 of	O
@@ -94548,7 +94548,7 @@ of	O
 mg/kg	O
 indomethacin	B-Chemical
 (	O
-IDM	O
+IDM	B-Chemical
 )	O
 to	O
 sodium	B-Chemical
@@ -94632,13 +94632,13 @@ N-substituted	O
 piperazine	B-Chemical
 derivative	O
 of	O
-trans-2-amino-3-hydroxy-1	O
-,	O
-2	O
-,	O
-3	O
-,	O
-4-tetrahydroanaphthalene	O
+trans-2-amino-3-hydroxy-1	B-Chemical
+,	I-Chemical
+2	I-Chemical
+,	I-Chemical
+3	I-Chemical
+,	I-Chemical
+4-tetrahydroanaphthalene	I-Chemical
 .	O
 
 The	O
@@ -94647,8 +94647,8 @@ activity	O
 of	O
 the	O
 compound	O
-N-(trans-3-hydroxy-1,2,3,4-tetrahydro-2-naphthyl)-N-(3-oxo-3-phenyl-2-methylpropyl)-piperazine	O
-hydrochloride	O
+N-(trans-3-hydroxy-1,2,3,4-tetrahydro-2-naphthyl)-N-(3-oxo-3-phenyl-2-methylpropyl)-piperazine	B-Chemical
+hydrochloride	I-Chemical
 ,	O
 referred	O
 to	O
@@ -94682,7 +94682,7 @@ are	O
 used	O
 --	O
 with	O
-BaCl2	O
+BaCl2	B-Chemical
 ,	O
 with	O
 chloroform-adrenaline	O
@@ -94744,7 +94744,7 @@ cent	O
 )	O
 and	O
 with	O
-BaCl2	O
+BaCl2	B-Chemical
 (	O
 in	O
 84	O
@@ -94860,7 +94860,7 @@ fibrinolytic	B-Disease
 syndromes	I-Disease
 treated	O
 with	O
-EACA	B-Chemical
+EACA	B-Disease
 ,	O
 or	O
 other	O
@@ -94881,7 +94881,7 @@ with	O
 fibrinolytic	B-Disease
 disorders	I-Disease
 ,	O
-EACA	O
+EACA	B-Chemical
 should	O
 not	O
 be	O
@@ -95062,7 +95062,7 @@ x	O
 pyocin	O
 type	O
 6	O
-Pseudomonas	B-Disease
+Pseudomonas	O
 organisms	O
 in	O
 monkeys	O
@@ -95120,8 +95120,8 @@ of	O
 comparative	O
 efficacy	O
 of	O
-antimicrobial	B-Chemical
-agents	I-Chemical
+antimicrobial	O
+agents	B-Chemical
 .	O
 
 Modification	O
@@ -95216,7 +95216,7 @@ subjects	O
 and	O
 an	O
 increase	O
-in	B-Disease
+in	O
 diastolic	O
 pressure	O
 .	O
@@ -95511,9 +95511,9 @@ did	O
 not	O
 first	O
 cause	O
-loss	B-Disease
-of	I-Disease
-consciousness	I-Disease
+loss	O
+of	O
+consciousness	O
 ,	O
 while	O
 cats	O
@@ -95534,7 +95534,7 @@ in	O
 cats	O
 included	O
 excessive	O
-salivation	B-Disease
+salivation	O
 ,	O
 extreme	O
 apprehensive	O
@@ -95555,7 +95555,7 @@ FZP	O
 and	O
 pentylenetetrazol	B-Chemical
 (	O
-PTZ	B-Chemical
+PTZ	O
 )	O
 was	O
 shown	O
@@ -95565,7 +95565,7 @@ mice	O
 with	O
 FZP	O
 before	O
-PTZ	B-Chemical
+PTZ	O
 challenge	O
 .	O
 
@@ -95575,7 +95575,7 @@ function	O
 of	O
 dose	O
 ,	O
-FZP	B-Chemical
+FZP	O
 first	O
 protected	O
 against	O
@@ -95598,7 +95598,7 @@ emerged	O
 These	O
 doses	O
 of	O
-FZP	B-Chemical
+FZP	O
 were	O
 lower	O
 than	O
@@ -95647,16 +95647,16 @@ in	O
 the	O
 treatment	O
 of	O
-idiopathic	B-Disease
-orthostatic	I-Disease
+idiopathic	O
+orthostatic	B-Disease
 hypotension	I-Disease
 .	O
 
 Five	O
 patients	O
 with	O
-idiopathic	B-Disease
-orthostatic	I-Disease
+idiopathic	O
+orthostatic	B-Disease
 hypotension	I-Disease
 who	O
 had	O
@@ -95893,7 +95893,7 @@ Total	O
 intravenous	O
 anesthesia	O
 with	O
-etomidate	O
+etomidate	B-Chemical
 .	O
 
 III	O
@@ -95913,7 +95913,7 @@ determine	O
 the	O
 dosage	O
 of	O
-etomidate	O
+etomidate	B-Chemical
 required	O
 to	O
 maintain	O
@@ -95951,7 +95951,7 @@ intermittent	O
 intravenous	O
 injections	O
 of	O
-etomidate	O
+etomidate	B-Chemical
 0.1/mg/kg	O
 ,	O
 given	O
@@ -95971,7 +95971,7 @@ mean	O
 overall	O
 dose	O
 of	O
-etomidate	B-Disease
+etomidate	B-Chemical
 17.4	O
 microgram/kg/min	O
 .	O
@@ -96033,7 +96033,7 @@ is	O
 considered	O
 unlikely	O
 that	O
-etomidate	B-Disease
+etomidate	B-Chemical
 will	O
 prove	O
 to	O
@@ -96104,8 +96104,8 @@ cardioselective	O
 )	O
 ,	O
 40	O
-mg	B-Chemical
-propranolol	I-Chemical
+mg	O
+propranolol	O
 (	O
 nonselective	O
 )	O
@@ -96171,8 +96171,8 @@ drugs	O
 The	O
 effects	O
 on	O
-isoproterenol	B-Chemical
-tachycardia	I-Chemical
+isoproterenol	B-Disease
+tachycardia	I-Disease
 were	O
 determined	O
 before	O
@@ -96477,7 +96477,7 @@ schedule	O
 consisted	O
 of	O
 conjugated	O
-estrogens	B-Chemical
+estrogens	B-Disease
 (	O
 Premarin	O
 )	O
@@ -96711,7 +96711,7 @@ patients	O
 received	O
 azathioprine	B-Chemical
 (	O
-Aza	O
+Aza	B-Chemical
 )	O
 and	O
 prednisone	B-Chemical
@@ -96748,7 +96748,7 @@ more	O
 overall	O
 infections	B-Disease
 (	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.05	O
@@ -96758,7 +96758,7 @@ more	O
 nonviral	O
 infections	B-Disease
 (	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.02	O
@@ -96803,7 +96803,7 @@ patients	O
 on	O
 cyclosporine	B-Chemical
 or	O
-Aza	O
+Aza	B-Chemical
 ,	O
 but	O
 infection	B-Disease
@@ -96884,7 +96884,7 @@ in	O
 Aza-treated	O
 patients	O
 (	O
-P	B-Disease
+P	O
 less	O
 than	O
 0.05	O
@@ -96904,7 +96904,7 @@ other	O
 transplant	O
 groups	O
 (	O
-P	B-Chemical
+P	O
 less	O
 than	O
 0.005	O
@@ -97028,7 +97028,7 @@ octapeptide	O
 sulphate	B-Chemical
 ester	O
 (	O
-CCK-8-SE	O
+CCK-8-SE	B-Chemical
 )	O
 and	O
 nonsulphated	O
@@ -97286,7 +97286,7 @@ antidiuretic	O
 action	O
 but	O
 minimal	O
-vasopressor	B-Disease
+vasopressor	B-Chemical
 effect	O
 failed	O
 to	O
@@ -97300,7 +97300,7 @@ observed	O
 after	O
 administration	O
 of	O
-AVP	B-Chemical
+AVP	O
 .	O
 
 Furthermore	O
@@ -97605,7 +97605,7 @@ sinus	O
 rhythm	O
 and	O
 intermittent	O
-sinoatrial	O
+sinoatrial	B-Chemical
 (	O
 S-A	O
 )	O
@@ -97623,8 +97623,8 @@ for	O
 angina	B-Disease
 with	O
 80	O
-mg	B-Chemical
-propranolol	I-Chemical
+mg	O
+propranolol	O
 daily	O
 .	O
 
@@ -97952,7 +97952,7 @@ diameter	O
 +	O
 /-	O
 3.3	O
-mm	B-Disease
+mm	O
 )	O
 were	O
 treated	O
@@ -98146,7 +98146,7 @@ levels	O
 so	O
 ascites	B-Disease
 and	O
-hydrothorax	B-Disease
+hydrothorax	B-Chemical
 were	O
 not	O
 necessarily	O
@@ -98184,10 +98184,10 @@ with	O
 pilocarpine	B-Chemical
 nitrate	I-Chemical
 and	O
-timolol	B-Chemical
-maleate	I-Chemical
-eye	I-Chemical
-drops	I-Chemical
+timolol	B-Disease
+maleate	I-Disease
+eye	I-Disease
+drops	I-Disease
 ,	O
 developed	O
 a	O
@@ -98355,7 +98355,7 @@ to	O
 70	O
 mg	O
 and	O
-neostigmine	O
+neostigmine	B-Chemical
 to	O
 2.5	O
 mg	O
@@ -98431,8 +98431,8 @@ dynamic	O
 myocardial	O
 scintigraphy	O
 with	O
-[omega-I-131]heptadecanoic	O
-acid	O
+[omega-I-131]heptadecanoic	B-Chemical
+acid	I-Chemical
 (	O
 I-131	O
 HA	O
@@ -98645,14 +98645,14 @@ pH	O
 ,	O
 pO2	B-Chemical
 ,	O
-pCO2	B-Chemical
+pCO2	O
 )	O
 we	O
 could	O
 confirm	O
 that	O
-nitroprusside	B-Chemical
-hypotension	I-Chemical
+nitroprusside	B-Disease
+hypotension	I-Disease
 could	O
 be	O
 safely	O
@@ -98795,21 +98795,21 @@ rearings	O
 and	O
 the	O
 amphetamine-induced	O
-stereotypies	B-Disease
+stereotypies	O
 were	O
 not	O
 blocked	O
 by	O
 pretreatment	O
 with	O
-DSP4	B-Chemical
+DSP4	O
 .	O
 
 The	O
 reduction	O
 of	O
-amphetamine	B-Chemical
-hyperactivity	I-Chemical
+amphetamine	B-Disease
+hyperactivity	I-Disease
 induced	O
 by	O
 DSP4	O
@@ -99078,7 +99078,7 @@ conditions	O
 
 Mice	O
 (	O
-n	B-Disease
+n	O
 =	O
 12	O
 for	O
@@ -99146,7 +99146,7 @@ animals	O
 the	O
 occurrence	O
 of	O
-clonic	O
+clonic	B-Disease
 seizures	B-Disease
 was	O
 scored	O
@@ -99478,7 +99478,7 @@ were	O
 universal	O
 .	O
 
-HMM	B-Disease
+HMM	B-Chemical
 gastrointestinal	O
 toxicity	B-Disease
 necessitated	O
@@ -99534,7 +99534,7 @@ association	O
 with	O
 hypertension	B-Disease
 ,	O
-smoke	B-Disease
+smoke	B-Chemical
 ,	O
 and	O
 oral	B-Chemical
@@ -99909,7 +99909,7 @@ set	O
 in	O
 .	O
 
-Bepridil	O
+Bepridil	B-Chemical
 at	O
 a	O
 dose	O
@@ -100034,7 +100034,7 @@ caused	O
 a	O
 marked	O
 reduction	O
-in	B-Disease
+in	O
 heart	O
 rate	O
 which	O
@@ -100585,9 +100585,9 @@ was	O
 accompanied	O
 by	O
 significant	O
-decreases	B-Disease
-in	I-Disease
-mean	I-Disease
+decreases	O
+in	O
+mean	O
 pulmonary	O
 arterial	O
 pressure	O
@@ -100613,7 +100613,7 @@ ventricular	O
 end-diastolic	O
 pressure	O
 (	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.001	O
@@ -100717,7 +100717,7 @@ ventricular	O
 end-diastolic	O
 pressure	O
 (	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.01	O
@@ -100754,7 +100754,7 @@ mixed	O
 venous	O
 blood	O
 (	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.05	O
@@ -100773,7 +100773,7 @@ and	O
 cardiac	O
 output	O
 (	O
-p	B-Chemical
+p	O
 less	O
 than	O
 0.05	O
@@ -100838,7 +100838,7 @@ Dimer-X	O
 iocarmate	B-Chemical
 )	O
 and	O
-Hexabrix	O
+Hexabrix	B-Disease
 (	O
 ioxaglate	B-Chemical
 )	O
@@ -100853,7 +100853,7 @@ hysterosalpingography	O
 with	O
 Dimer-X	O
 ,	O
-Hexabrix	O
+Hexabrix	B-Disease
 ,	O
 Vasurix	B-Chemical
 polyvidone	I-Chemical
@@ -100937,7 +100937,7 @@ of	O
 its	O
 low	O
 toxicity	B-Disease
-Hexabrix	O
+Hexabrix	B-Disease
 should	O
 be	O
 preferred	O
@@ -100959,8 +100959,8 @@ report	O
 by	O
 Coxon	O
 ,	O
-scoline	B-Chemical
-pain	I-Chemical
+scoline	B-Disease
+pain	I-Disease
 occurs	O
 in	O
 African	O
@@ -101029,8 +101029,8 @@ influence	O
 the	O
 occurrence	O
 of	O
-scoline	B-Chemical
-pain	I-Chemical
+scoline	B-Disease
+pain	I-Disease
 .	O
 
 Neither	O
@@ -101061,8 +101061,8 @@ affected	O
 the	O
 incidence	O
 of	O
-scoline	B-Chemical
-pain	I-Chemical
+scoline	B-Disease
+pain	I-Disease
 .	O
 
 Invasive	O
@@ -101099,8 +101099,8 @@ treated	O
 for	O
 five	O
 years	O
-wtih	B-Chemical
-cyclophosphamide	I-Chemical
+wtih	O
+cyclophosphamide	O
 for	O
 cerebral	B-Disease
 vasculitis	I-Disease
@@ -101294,7 +101294,7 @@ arteries	O
 0.4	O
 -	O
 -0.2	O
-mm	B-Disease
+mm	O
 in	O
 diameter	O
 )	O
@@ -101438,8 +101438,8 @@ in	O
 other	O
 instances	O
 of	O
-arterial	B-Disease
-spasm	I-Disease
+arterial	O
+spasm	B-Disease
 .	O
 
 Endothelial	O
@@ -101491,7 +101491,7 @@ bilateral	O
 retinal	O
 artery	O
 and	O
-choriocapillaris	B-Disease
+choriocapillaris	O
 occlusions	O
 with	O
 blindness	B-Disease
@@ -101566,8 +101566,8 @@ vascular	O
 attenuation	O
 ,	O
 and	O
-chorioretinal	B-Disease
-atrophy	I-Disease
+chorioretinal	O
+atrophy	O
 .	O
 
 The	O
@@ -101591,7 +101591,7 @@ visual-evoked	O
 potential	O
 in	O
 quinine	B-Chemical
-amblyopia	B-Disease
+amblyopia	O
 .	O
 
 Total	O
@@ -101648,8 +101648,8 @@ abnormal	O
 visual-evoked	O
 potentials	O
 in	O
-quinine	B-Chemical
-toxicity	I-Chemical
+quinine	B-Disease
+toxicity	I-Disease
 ,	O
 to	O
 our	O
@@ -101683,8 +101683,8 @@ was	O
 given	O
 halothane	B-Chemical
 ,	O
-nitrous	O
-oxide	O
+nitrous	B-Chemical
+oxide	I-Chemical
 and	O
 oxygen	B-Chemical
 ,	O
@@ -101789,7 +101789,7 @@ cholinesterase	O
 despite	O
 pretreatment	O
 with	O
-pancuronium	B-Chemical
+pancuronium	O
 .	O
 
 Indomethacin-induced	O
@@ -101881,7 +101881,7 @@ serious	O
 complication	O
 .	O
 
-Etomidate	B-Disease
+Etomidate	B-Chemical
 :	O
 a	O
 foreshortened	O
@@ -101893,7 +101893,7 @@ A	O
 clinical	O
 evaluation	O
 of	O
-etomidate	O
+etomidate	B-Chemical
 for	O
 outpatient	O
 cystoscopy	O
@@ -101911,7 +101911,7 @@ fentanyl	B-Chemical
 microgram/kg	O
 followed	O
 by	O
-etomidate	B-Disease
+etomidate	B-Chemical
 0.3	O
 mg/kg	O
 .	O
@@ -101921,7 +101921,7 @@ was	O
 maintained	O
 with	O
 intermittent	O
-etomidate	B-Disease
+etomidate	B-Chemical
 in	O
 2	O
 -	O
@@ -102113,7 +102113,7 @@ significant	O
 %	O
 improvement	O
 (	O
-p	B-Disease
+p	O
 <	O
 0.05	O
 )	O
@@ -102583,8 +102583,8 @@ not	O
 associated	O
 with	O
 significant	O
-cardiovascular	O
-or	B-Disease
+cardiovascular	B-Disease
+or	I-Disease
 central	I-Disease
 nervous	I-Disease
 system	I-Disease
@@ -102793,9 +102793,9 @@ one	O
 anabolizing	O
 agent	O
 (	O
-Dianabol	O
+Dianabol	B-Chemical
 ,	O
-CIBA	B-Chemical
+CIBA	O
 )	O
 at	O
 high	O
@@ -103305,8 +103305,8 @@ of	O
 renal	O
 hemodynamics	O
 and	O
-sodium	B-Chemical
-retention	I-Chemical
+sodium	B-Disease
+retention	I-Disease
 .	O
 
 These	O
@@ -103850,7 +103850,7 @@ three	O
 minutes	O
 of	O
 initiating	O
-CPR	B-Chemical
+CPR	B-Disease
 .	O
 
 We	O
@@ -104000,7 +104000,7 @@ receive	O
 one	O
 of	O
 four	O
-granisetron	O
+granisetron	B-Chemical
 doses	O
 (	O
 5	O
@@ -104160,14 +104160,14 @@ episode	O
 of	O
 nausea	B-Disease
 (	O
-P	B-Disease
+P	O
 =	O
 .0015	O
 )	O
 and	O
 vomiting	B-Disease
 (	O
-P	B-Disease
+P	O
 =	O
 .0001	O
 )	O
@@ -104202,7 +104202,7 @@ appetite	O
 return	O
 increased	O
 (	O
-P	B-Disease
+P	O
 =	O
 .040	O
 )	O
@@ -104234,7 +104234,7 @@ or	O
 40-micrograms/kg	O
 dose	O
 of	O
-granisetron	O
+granisetron	B-Chemical
 was	O
 effective	O
 in	O
@@ -104936,7 +104936,7 @@ flumazenil	B-Chemical
 
 Animals	O
 became	O
-somnolent	B-Disease
+somnolent	B-Chemical
 after	O
 diazepam	B-Chemical
 and	O
@@ -105010,7 +105010,7 @@ seizures	B-Disease
 90	O
 %	O
 (	O
-P	B-Disease
+P	O
 <	O
 .01	O
 )	O
@@ -105021,7 +105021,7 @@ death	B-Disease
 100	O
 %	O
 (	O
-P	B-Disease
+P	O
 <	O
 or	O
 =	O
@@ -105060,7 +105060,7 @@ seizures	B-Disease
 90	O
 %	O
 (	O
-P	B-Disease
+P	O
 <	O
 or	O
 =	O
@@ -105073,7 +105073,7 @@ death	B-Disease
 90	O
 %	O
 (	O
-P	B-Disease
+P	O
 <	O
 or	O
 =	O
@@ -105145,7 +105145,7 @@ nephropathy	B-Disease
 
 Administration	O
 of	O
-GM	O
+GM	B-Chemical
 at	O
 40	O
 mg/kg	O
@@ -105170,7 +105170,7 @@ and	O
 inulin	O
 clearance	O
 (	O
-CIn	O
+CIn	B-Disease
 )	O
 as	O
 well	O
@@ -105274,7 +105274,7 @@ damage	I-Disease
 .	O
 
 In	O
-contrast	B-Disease
+contrast	B-Chemical
 ,	O
 DMTU	O
 significantly	O
@@ -105644,9 +105644,9 @@ Central	O
 cardiovascular	O
 effects	O
 of	O
-AVP	B-Chemical
+AVP	O
 and	O
-ANP	B-Chemical
+ANP	O
 in	O
 normotensive	O
 and	O
@@ -105741,7 +105741,7 @@ venous	O
 catheters	O
 .	O
 
-MAP	B-Disease
+MAP	O
 and	O
 HR	O
 were	O
@@ -105764,7 +105764,7 @@ and	O
 50	O
 ng	O
 of	O
-AVP	B-Chemical
+AVP	O
 and	O
 25	O
 ,	O
@@ -105773,7 +105773,7 @@ and	O
 500	O
 ng	O
 of	O
-ANP	B-Chemical
+ANP	O
 .	O
 
 Sensitivity	O
@@ -105871,7 +105871,7 @@ in	O
 SHR	O
 .	O
 
-ANP	B-Chemical
+ANP	O
 did	O
 not	O
 cause	O
@@ -105924,13 +105924,13 @@ in	O
 WKY	O
 administration	O
 of	O
-ANP	B-Chemical
+ANP	O
 ,	O
 AVP	B-Chemical
 and	O
 ANP	O
 +	O
-AVP	B-Chemical
+AVP	O
 decreased	O
 CCB	O
 during	O
@@ -106847,7 +106847,7 @@ prevented	O
 epinephrine-induced	O
 death	B-Disease
 (	O
-P	B-Disease
+P	O
 <	O
 .05	O
 )	O
@@ -107377,7 +107377,7 @@ agents	O
 the	O
 protection	O
 of	O
-ICRF-187	B-Disease
+ICRF-187	O
 was	O
 determined	O
 using	O
@@ -107420,7 +107420,7 @@ normal	O
 after	O
 sacrifice	O
 and	O
-ICRF-187	B-Disease
+ICRF-187	O
 (	O
 50	O
 mg/kg	O
@@ -107429,7 +107429,7 @@ i.p	O
 .	O
 
 1	O
-h	B-Disease
+h	O
 before	O
 doxorubicin	B-Chemical
 )	O
@@ -107535,7 +107535,7 @@ whether	O
 bupivacaine	B-Chemical
 alters	O
 the	O
-dysrhythmogenicity	O
+dysrhythmogenicity	B-Disease
 of	O
 subsequent	O
 administration	O
@@ -107580,7 +107580,7 @@ min	O
 
 After	O
 3	O
-h	B-Disease
+h	O
 ,	O
 these	O
 responders	O
@@ -107638,7 +107638,7 @@ sinoatrial	B-Disease
 beats	I-Disease
 and	O
 less	O
-ectopies	B-Disease
+ectopies	O
 .	O
 
 Epinephrine	O
@@ -108121,9 +108121,9 @@ of	O
 antidepressants	B-Chemical
 indicates	O
 that	O
-NMS	B-Disease
+NMS	O
 and	O
-SS	B-Disease
+SS	O
 are	O
 spectrum	B-Disease
 disorders	I-Disease
@@ -108197,7 +108197,7 @@ of	O
 +	O
 /-	O
 6.3	O
-mg	B-Disease
+mg	O
 (	O
 mean	O
 +	O
@@ -108286,14 +108286,14 @@ of	O
 +	O
 /-	O
 0.7	O
-mg	B-Disease
+mg	O
 compared	O
 with	O
 8.6	O
 +	O
 /-	O
 0.9	O
-mg	B-Disease
+mg	O
 for	O
 untreated	O
 rats	O
@@ -108494,7 +108494,7 @@ which	O
 is	O
 metabolized	O
 to	O
-acrolein	B-Chemical
+acrolein	O
 ,	O
 an	O
 irritant	O
@@ -108506,7 +108506,7 @@ urine	O
 
 Injection	O
 of	O
-CYP	B-Chemical
+CYP	O
 (	O
 n	O
 =	O
@@ -108582,10 +108582,10 @@ in	O
 rats	O
 receiving	O
 chronic	O
-CYP	B-Chemical
+CYP	O
 treatment	O
 (	O
-n	B-Disease
+n	O
 =	O
 15	O
 ,	O
@@ -108613,7 +108613,7 @@ animals	O
 treated	O
 acutely	O
 with	O
-CYP	B-Chemical
+CYP	O
 ,	O
 only	O
 small	O
@@ -108642,11 +108642,11 @@ DRG	O
 .	O
 
 Chronic	O
-CYP	B-Chemical
+CYP	O
 administration	O
 significantly	O
 (	O
-P	B-Disease
+P	O
 <	O
 or	O
 =	O
@@ -108715,7 +108715,7 @@ L6-S1	O
 DRG	O
 labeled	O
 by	O
-Fluorogold	O
+Fluorogold	B-Chemical
 (	O
 40	O
 microliters	O
@@ -108737,7 +108737,7 @@ however	O
 ,	O
 following	O
 chronic	O
-CYP	B-Chemical
+CYP	O
 administration	O
 ,	O
 a	O
@@ -108875,15 +108875,15 @@ In	O
 the	O
 presence	O
 of	O
-coronary	O
-artery	B-Disease
+coronary	B-Disease
+artery	I-Disease
 stenosis	I-Disease
 ,	O
 3-min	O
 periods	O
 of	O
 intracoronary	O
-ISO	O
+ISO	B-Chemical
 infusion	O
 (	O
 10	O
@@ -108951,7 +108951,7 @@ and	O
 3	O
 micrograms/kg/min	O
 ,	O
-n	B-Disease
+n	O
 =	O
 9	O
 )	O
@@ -108963,7 +108963,7 @@ and	O
 30	O
 micrograms/kg/min	O
 ,	O
-n	B-Disease
+n	O
 =	O
 7	O
 )	O
@@ -109005,7 +109005,7 @@ infusion	O
 .	O
 
 In	O
-contrast	O
+contrast	B-Chemical
 to	O
 nifedipine	B-Chemical
 ,	O
@@ -109038,7 +109038,7 @@ the	O
 control	O
 value	O
 (	O
-P	B-Chemical
+P	O
 <	O
 .01	O
 )	O
@@ -109102,7 +109102,7 @@ the	O
 control	O
 value	O
 (	O
-P	B-Disease
+P	O
 <	O
 .05	O
 )	O
@@ -109130,7 +109130,7 @@ at	O
 3	O
 min	O
 after	O
-ISO	B-Disease
+ISO	B-Chemical
 infusion	O
 with	O
 stenosis	B-Disease
@@ -109180,9 +109180,9 @@ growth	O
 factor-I	O
 on	O
 chronic	O
-puromycin	B-Chemical
-aminonucleoside	I-Chemical
-nephropathy	I-Chemical
+puromycin	B-Disease
+aminonucleoside	I-Disease
+nephropathy	I-Disease
 in	O
 rats	O
 .	O
@@ -109204,9 +109204,9 @@ chronic	O
 puromycin	B-Chemical
 aminonucleoside	I-Chemical
 (	O
-PAN	B-Disease
-)	I-Disease
-nephropathy	I-Disease
+PAN	O
+)	O
+nephropathy	O
 ,	O
 an	O
 experimental	O
@@ -109263,7 +109263,7 @@ wk	O
 Experimental	O
 animals	O
 (	O
-n	B-Disease
+n	O
 =	O
 6	O
 )	O
@@ -109277,7 +109277,7 @@ whereas	O
 control	O
 rats	O
 (	O
-n	B-Disease
+n	O
 =	O
 6	O
 )	O
@@ -109294,7 +109294,7 @@ by	O
 14	O
 %	O
 (	O
-p	B-Disease
+p	O
 <	O
 0.05	O
 )	O
@@ -109468,7 +109468,7 @@ with	O
 untreated	O
 animals	O
 (	O
-n	B-Disease
+n	O
 =	O
 4	O
 )	O
@@ -109750,15 +109750,15 @@ of	O
 events	O
 which	O
 ultimately	O
-lead	B-Disease
+lead	O
 to	O
 consolidation	O
 of	O
 memory	O
 .	O
 
-Phenytoin	B-Chemical
-encephalopathy	I-Chemical
+Phenytoin	B-Disease
+encephalopathy	I-Disease
 as	O
 probable	O
 idiosyncratic	O
@@ -109830,7 +109830,7 @@ the	O
 concentration	O
 of	O
 free	O
-DPH	O
+DPH	B-Chemical
 was	O
 normal	O
 ,	O
@@ -109869,7 +109869,7 @@ in	O
 a	O
 patient	O
 starting	O
-DPH	B-Chemical
+DPH	O
 treatment	O
 an	O
 unexpected	O
@@ -109895,7 +109895,7 @@ possible	O
 need	O
 for	O
 eliminating	O
-DPH	B-Chemical
+DPH	O
 from	O
 the	O
 therapeutic	O
@@ -110026,7 +110026,7 @@ with	O
 -13	O
 days	O
 of	O
-progestagen	B-Disease
+progestagen	B-Chemical
 does	O
 not	O
 seem	O
@@ -110177,7 +110177,7 @@ group	O
 exhibited	O
 significantly	O
 (	O
-Pp	B-Disease
+Pp	O
 less	O
 than	O
 0.05	O
@@ -110381,9 +110381,9 @@ test	O
 200	O
 micrograms	O
 of	O
-hCRH	B-Chemical
+hCRH	O
 (	O
-n	B-Disease
+n	O
 =	O
 12	O
 )	O
@@ -110393,7 +110393,7 @@ micrograms	O
 of	O
 TRH	O
 (	O
-n	B-Disease
+n	O
 =	O
 6	O
 )	O
@@ -110433,7 +110433,7 @@ subject	O
 
 In	O
 the	O
-hCRH	B-Disease
+hCRH	O
 group	O
 a	O
 marked	O
@@ -110449,9 +110449,9 @@ left	O
 was	O
 observed	O
 after	O
-hCRH	B-Chemical
+hCRH	O
 (	O
-P	B-Chemical
+P	O
 <	O
 0.01	O
 )	O
@@ -110468,7 +110468,7 @@ was	O
 less	O
 striking	O
 (	O
-P	B-Disease
+P	O
 =	O
 0.05	O
 )	O
@@ -110545,7 +110545,7 @@ placebo-controlled	O
 trial	O
 .	O
 
-Lamivudine	O
+Lamivudine	B-Chemical
 is	O
 a	O
 novel	O
@@ -110589,7 +110589,7 @@ B	I-Disease
 surface	I-Disease
 antigen	I-Disease
 (	O
-HBsAg	B-Chemical
+HBsAg	B-Disease
 )	O
 carriers	O
 .	O
@@ -110683,7 +110683,7 @@ of	O
 90	O
 %	O
 (	O
-P	B-Disease
+P	O
 <	O
 .001	O
 compared	O
@@ -110705,7 +110705,7 @@ than	O
 100	O
 mg	O
 (	O
-P	B-Disease
+P	O
 =	O
 .011	O
 )	O
@@ -110713,7 +110713,7 @@ and	O
 300	O
 mg	O
 (	O
-P	B-Disease
+P	O
 =	O
 .005	O
 )	O
@@ -110795,7 +110795,7 @@ HBV	O
 DNA	O
 in	O
 Chinese	O
-HBsAg	B-Chemical
+HBsAg	B-Disease
 carriers	O
 .	O
 
@@ -110881,7 +110881,7 @@ third-generation	O
 progestagens	O
 gestodene	B-Chemical
 or	O
-desogestrel	O
+desogestrel	B-Chemical
 than	O
 in	O
 users	O
@@ -111043,7 +111043,7 @@ users	O
 of	O
 the	O
 main	O
-OC	O
+OC	B-Chemical
 preparations	O
 ,	O
 and	O
@@ -111065,7 +111065,7 @@ of	O
 different	O
 types	O
 of	O
-OC	O
+OC	B-Chemical
 ,	O
 after	O
 adjustment	O
@@ -111169,7 +111169,7 @@ with	O
 use	O
 of	O
 combined	O
-OCs	O
+OCs	B-Chemical
 ,	O
 43	O
 were	O
@@ -111208,7 +111208,7 @@ current	O
 users	O
 of	O
 any	O
-OC	O
+OC	B-Chemical
 ,	O
 3.10	O
 in	O
@@ -111461,7 +111461,7 @@ mg/kg	O
 induced	O
 tonic	O
 and	O
-clonic	O
+clonic	B-Disease
 seizure	B-Disease
 .	O
 
@@ -111655,7 +111655,7 @@ BRE-26	O
 a	O
 phase	O
 II	O
-trial.5-Fluorouracil	O
+trial.5-Fluorouracil	B-Chemical
 plus	O
 folinic	B-Chemical
 acid	I-Chemical
@@ -111898,7 +111898,7 @@ in	O
 patients	O
 .	O
 
-TFL	B-Chemical
+TFL	O
 is	O
 an	O
 active	O
@@ -112157,9 +112157,9 @@ patients	O
 at	O
 risk	O
 for	O
-torsades	O
-de	O
-pointes	O
+torsades	B-Disease
+de	I-Disease
+pointes	I-Disease
 .	O
 
 However	O
@@ -112192,7 +112192,7 @@ vs.	O
 53	O
 mg/day	O
 ;	O
-p	B-Disease
+p	O
 =	O
 0.0017	O
 )	O
@@ -112216,7 +112216,7 @@ an	O
 U	O
 wave	O
 (	O
-p	B-Disease
+p	O
 =	O
 0.049	O
 )	O
@@ -112224,7 +112224,7 @@ p	B-Disease
 female	O
 gender	O
 (	O
-p	B-Disease
+p	O
 =	O
 0.015	O
 )	O
@@ -112243,7 +112243,7 @@ and	O
 QTc	O
 interval	O
 (	O
-p	B-Disease
+p	O
 <	O
 0.05	O
 )	O
@@ -112354,9 +112354,9 @@ an	O
 increased	O
 risk	O
 for	O
-torsades	O
-de	O
-pointes	O
+torsades	B-Disease
+de	I-Disease
+pointes	I-Disease
 .	O
 
 Other	O
@@ -112442,7 +112442,7 @@ to	O
 inhibit	O
 prolactin	O
 (	O
-PRL	B-Chemical
+PRL	O
 )	O
 secretion	O
 .	O
@@ -112458,7 +112458,7 @@ acute	O
 elevations	O
 in	O
 serum	O
-PRL	B-Chemical
+PRL	O
 by	O
 increasing	O
 its	O
@@ -112478,7 +112478,7 @@ with	O
 chronically	O
 high	O
 serum	O
-PRL	B-Chemical
+PRL	O
 levels	O
 .	O
 
@@ -112621,7 +112621,7 @@ high	O
 increase	O
 in	O
 serum	O
-PRL	B-Chemical
+PRL	O
 levels	O
 produced	O
 by	O
@@ -112647,12 +112647,12 @@ DA	B-Chemical
 ,	O
 norepinephrine	B-Chemical
 (	O
-NE	O
+NE	B-Chemical
 )	O
 ,	O
 serotonin	B-Chemical
 (	O
-5-HT	O
+5-HT	B-Chemical
 )	O
 ,	O
 or	O
@@ -112761,7 +112761,7 @@ associated	O
 with	O
 increases	O
 in	O
-PRL	B-Chemical
+PRL	O
 secretion	O
 .	O
 
@@ -113005,7 +113005,7 @@ discontinued	O
 We	O
 conclude	O
 that	O
-ATRA	O
+ATRA	B-Chemical
 is	O
 a	O
 valid	O
@@ -113078,8 +113078,8 @@ diethylpropion	B-Chemical
 (	O
 DEP	O
 )	O
-became	O
-manic	B-Disease
+became	B-Disease
+manic	I-Disease
 during	O
 his	O
 second	O
@@ -113143,7 +113143,7 @@ the	O
 patient	O
 became	O
 fully	O
-manic	B-Disease
+manic	O
 .	O
 
 Such	O
@@ -113154,8 +113154,8 @@ the	O
 total	O
 power	O
 of	O
-pupillary	B-Disease
-oscillation	B-Disease
+pupillary	O
+oscillation	O
 might	O
 be	O
 of	O
@@ -113361,7 +113361,7 @@ chemo-somatosensory	O
 evoked	O
 potential	O
 ,	O
-CSSEP	B-Chemical
+CSSEP	O
 )	O
 and	O
 a	O
@@ -113482,7 +113482,7 @@ mucosa	O
 stimulus	O
 duration	O
 500	O
-ms	B-Disease
+ms	O
 ,	O
 interval	O
 approximately	O
@@ -113670,7 +113670,7 @@ peripheral	O
 effects	O
 of	O
 an	O
-NSAID	O
+NSAID	B-Chemical
 .	O
 
 The	O
@@ -113734,9 +113734,9 @@ only	O
 Oral	O
 administration	O
 of	O
-2,5-di-O-acetyl-D-glucaro-1,4	O
--	O
-6,3-dilactone	O
+2,5-di-O-acetyl-D-glucaro-1,4	B-Chemical
+-	I-Chemical
+6,3-dilactone	I-Chemical
 protected	O
 rats	O
 against	O
@@ -113762,8 +113762,8 @@ other	O
 saccharic	B-Chemical
 acid	I-Chemical
 ,	O
-hexauronic	O
-acids	O
+hexauronic	B-Chemical
+acids	I-Chemical
 and	O
 hexaaldonic	O
 acids	O
@@ -113908,7 +113908,7 @@ severe	O
 depression	B-Disease
 following	O
 peri-operative	O
-ondansetron	B-Chemical
+ondansetron	O
 .	O
 
 A	O
@@ -114360,8 +114360,8 @@ methotrexate	B-Chemical
 contaminants	O
 ,	O
 local	O
-folate	B-Chemical
-deficiency	I-Chemical
+folate	B-Disease
+deficiency	I-Disease
 ,	O
 and	O
 cranial	O
@@ -114632,7 +114632,7 @@ intracoronary	O
 cocaine	B-Chemical
 concentration	O
 on	O
-LV	O
+LV	B-Disease
 systolic	O
 and	O
 diastolic	O
@@ -114713,7 +114713,7 @@ infusion	O
 of	O
 saline	O
 (	O
-n=10	B-Disease
+n=10	O
 ,	O
 control	O
 subjects	O
@@ -114724,7 +114724,7 @@ hydrochloride	I-Chemical
 1	O
 mg/min	O
 (	O
-n=10	B-Disease
+n=10	O
 )	O
 .	O
 
@@ -114995,13 +114995,13 @@ with	O
 100	O
 microg	O
 (	O
-n=6	B-Disease
+n=6	O
 )	O
 and	O
 200	O
 microg	O
 (	O
-n=18	B-Disease
+n=18	O
 )	O
 .	O
 
@@ -115067,7 +115067,7 @@ five	O
 cases	O
 of	O
 additional	O
-oxytocics	B-Chemical
+oxytocics	B-Disease
 administration	O
 and	O
 five	O
@@ -115269,7 +115269,7 @@ obstruction	I-Disease
 in	O
 patients	O
 with	O
-HIV	B-Disease
+HIV	B-Chemical
 undergoing	O
 indinavir	B-Chemical
 therapy	O
@@ -116045,7 +116045,7 @@ methylphenidate	B-Chemical
 
 She	O
 had	O
-defects	O
+defects	B-Disease
 in	O
 the	O
 supratentorial	O
@@ -116396,7 +116396,7 @@ A	O
 clear	O
 reduction	O
 of	O
-BS	O
+BS	B-Chemical
 synthesis	O
 was	O
 found	O
@@ -116405,7 +116405,7 @@ bile-diverted	O
 rats	O
 treated	O
 with	O
-EE	B-Chemical
+EE	O
 ,	O
 yet	O
 biliary	O
@@ -116486,7 +116486,7 @@ diversion	O
 and	O
 suppressed	O
 by	O
-EE	B-Chemical
+EE	O
 .	O
 
 This	O
@@ -116533,7 +116533,7 @@ to	O
 overall	O
 effects	O
 of	O
-EE	O
+EE	B-Chemical
 on	O
 BS	O
 synthesis	O
@@ -116594,7 +116594,7 @@ ATP	B-Chemical
 sensitive	O
 K+	O
 (	O
-K(ATP	O
+K(ATP	B-Chemical
 )	O
 )	O
 channels	O

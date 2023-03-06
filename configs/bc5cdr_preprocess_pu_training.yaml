@@ -28,7 +28,7 @@ class_num: 2
 pu_thres_pert: 2.5 
 
 # gpu
-gpu: -1 
+gpu: 0 
 
 # training
 train_epochs: 50
@@ -40,7 +40,7 @@ test_batch_size: 8
 # training lr
 train_lr: 1e-4
 train_scheduler: linear
-train_num_warmup_steps: 100 
+train_num_warmup_steps: 1000
 max_patient_count: 3 
 
 

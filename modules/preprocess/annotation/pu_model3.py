@@ -90,9 +90,8 @@ class PU_Model(nn.Module):
 
         # cross entropy loss
         self.loss = nn.CrossEntropyLoss()
-
+ 
     def forward(self, **kargs):
-
 
         input_ids = kargs["input_ids"]
         token_type_ids = kargs["token_type_ids"]
@@ -123,18 +122,6 @@ class PU_Model(nn.Module):
             head_feature = feature[0,:]
             mean_feature = torch.mean(feature, 0)
             tail_feature = feature[-1,:]
-            #if feature.shape[0] == 1:
-            #    head_feature = feature[0,:]
-            #    mean_feature = feature[0,:]
-            #    tail_feature = feature[0,:]
-            #elif feature.shape[0] == 2:
-            #    head_feature = feature[0,:]
-            #    mean_feature = torch.mean(feature, 0)
-            #    tail_feature = feature[-1,:]
-            #else:
-            #    head_feature = feature[0,:]
-            #    mean_feature = torch.mean(feature[1:-1], 0)
-            #    tail_feature = feature[-1,:]
 
             features.append(torch.cat((head_feature, mean_feature, tail_feature)))
 
@@ -149,18 +136,6 @@ class PU_Model(nn.Module):
             head_feature = feature[0,:]
             mean_feature = torch.mean(feature, 0)
             tail_feature = feature[-1,:]
-            #if feature.shape[0] == 1:
-            #    head_feature = feature[0,:]
-            #    mean_feature = feature[0,:]
-            #    tail_feature = feature[0,:]
-            #elif feature.shape[0] == 2:
-            #    head_feature = feature[0,:]
-            #    mean_feature = torch.mean(feature, 0)
-            #    tail_feature = feature[-1,:]
-            #else:
-            #    head_feature = feature[0,:]
-            #    mean_feature = torch.mean(feature[1:-1], 0)
-            #    tail_feature = feature[-1,:]
 
             features.append(torch.cat((head_feature, mean_feature, tail_feature)))
 
@@ -188,35 +163,53 @@ class PU_Model(nn.Module):
         #labels = kargs["labels"]
 
         #Extract outputs from the body
-        bert_outputs = self.bert_model(input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
+        bert_outputs = self.bert_model(input_ids=input_ids, 
+                                        token_type_ids=token_type_ids, 
+                                        attention_mask=attention_mask,
+                                        output_hidden_states=True,
+                                        output_attentions=True) 
+
 
         #Add custom layers
         last_hidden_output = bert_outputs['last_hidden_state']
+        hidden_states = bert_outputs['hidden_states']
+        attentions = bert_outputs['attentions']
+
         bert_sequence_output = self.dropout(last_hidden_output) #outputs[0]=last hidden state
 
 
         features = []
         for k, (start, end) in enumerate(zip(start_pos, end_pos)):
             feature = bert_sequence_output[k, start:end+1, :]
-            if feature.shape[0] == 1:
-                head_feature = feature[0,:]
-                mean_feature = feature[0,:]
-                tail_feature = feature[0,:]
-            elif feature.shape[0] == 2:
-                head_feature = feature[0,:]
-                mean_feature = torch.mean(feature, 0)
-                tail_feature = feature[-1,:]
-            else:
-                head_feature = feature[0,:]
-                mean_feature = torch.mean(feature[1:-1], 0)
-                tail_feature = feature[-1,:]
+            head_feature = feature[0,:]
+            mean_feature = torch.mean(feature, 0)
+            tail_feature = feature[-1,:]
 
             features.append(torch.cat((head_feature, mean_feature, tail_feature)))
 
-        features_pt = torch.stack(features)
+        last_span_features = torch.stack(features)
+
+
+        # take 1st hidden feature
+        hidden_state = hidden_states[0]
+        features = []
+        for k, (start, end) in enumerate(zip(start_pos, end_pos)):
+            feature = hidden_state[k, start:end+1, :]
+            head_feature = feature[0,:]
+            mean_feature = torch.mean(feature, 0)
+            tail_feature = feature[-1,:]
+
+            features.append(torch.cat((head_feature, mean_feature, tail_feature)))
+
+        first_span_features = torch.stack(features)
+
+
+        last_span_feature = self.linear_last(last_span_features)
+        first_span_feature = self.linear_first(first_span_features)
+
 
         # logit
-        logit = self.linear(features_pt)
+        logit = self.linear_logit(torch.cat((first_span_feature, last_span_feature), axis=-1))
         predicts = torch.argmax(logit, axis=1)
 
         # probability

@@ -35,6 +35,10 @@ def extract_unknown_samples(csv, thres_pert):
         p_per =percentile(dfs[k][f"prob_{k}"], thres_percentile)
         probs[k] = {'max': p_max, 'min': p_min, 'mean': p_mean, 'per': p_per}
 
+    print("probs")
+    for key in probs.keys():
+        print(probs[key])
+
     prob_col_names = [ f"prob_{k}" for k in dfs.keys() ]
     max_prob = np.max(df_neg[prob_col_names].values, axis=1)
     max_index = np.argmax(df_neg[prob_col_names].values, axis=1)
