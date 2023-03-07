@@ -23,6 +23,7 @@ data/BC5CDR/
 old/
 *xml
 *.dict
+*.coll
 
 # C extensions
 *.so

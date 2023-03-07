@@ -8,7 +8,7 @@ export PYTHONPATH="$HOME:$HOME/modules"
 
 TASK="bc5cdr"
 SUBTASK="base"
-MODULE="supervised_train"
+MODULE="match_dictionary"
 
 CONFIG_DIR="configs"
 YAML_FILE="${TASK}_${SUBTASK}_${MODULE}.yaml"

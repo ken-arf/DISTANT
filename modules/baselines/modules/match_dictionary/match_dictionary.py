@@ -81,13 +81,13 @@ def match_entity(tokens, entity_dict, entity_type, tag_name):
                 match_count += 1
 
                 if len(entity) == 1:
-                    bio[i] = f'B_{tag_name}'
+                    bio[i] = f'B-{tag_name}'
                 else: 
                     for j in range(i, i+len(entity)):
                         if j == i:
-                            bio[j] = f'B_{tag_name}'
+                            bio[j] = f'B-{tag_name}'
                         else:
-                            bio[j] = f'I_{tag_name}'
+                            bio[j] = f'I-{tag_name}'
             
     return bio, match_count
         
