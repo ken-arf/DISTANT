@@ -139,20 +139,26 @@ class EntityExtraction:
         entities = []
         for span_index in word_indexes:
 
-            # start word index
-            start = span_index[0]
-            # end word index
-            end = span_index[-1]+1
+            try:
 
-            tokens = aux_data["tokens"][start:end]
-            offsets = aux_data["token_offsets"][start:end]
-            start_char = offsets[0]
-            end_char = offsets[-1] + len(tokens[-1])
-            text = aux_data["text"][start_char:end_char]
-            ent = Entity(text=text, name=entity_name, start=start, end=end, start_char=start_char, end_char=end_char)
+                # start word index
+                start = span_index[0]
+                # end word index
+                end = span_index[-1]+1
 
-            if not ent in entities:
-                entities.append(ent)
+                tokens = aux_data["tokens"][start:end]
+                offsets = aux_data["token_offsets"][start:end]
+                start_char = offsets[0]
+                end_char = offsets[-1] + len(tokens[-1])
+                text = aux_data["text"][start_char:end_char]
+                ent = Entity(text=text, name=entity_name, start=start, end=end, start_char=start_char, end_char=end_char)
+
+                if not ent in entities:
+                    entities.append(ent)
+
+            except:
+                print("error", span_index)
+                pass
 
         return entities
             
@@ -218,10 +224,13 @@ def output_annotation_file(doc_file, output_dir, extracted_entities):
                 start_char += offset
                 end_char += offset
 
+
                 # To prevent an error by brat
                 # The last character is "\n", which should not be included in the span definition.
                 if end_char == doc_len:
                     end_char -= 1
+                
+                #assert(txt[start_char:end_char] == mention)
 
                 fp.write(f"T{k+1}\t{entity_type} {start_char} {end_char}\t{mention}\n")
                 k += 1
@@ -244,6 +253,7 @@ def main():
     
     output_dir = parameters["output_dir"]
     utils.makedir(output_dir)
+
 
     for file in files:
         with open(file) as fp:

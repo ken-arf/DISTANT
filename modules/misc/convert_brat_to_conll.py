@@ -21,9 +21,9 @@ nlp.add_pipe("sentencizer")
 
 
 def annotate(tokens, offsets, ann_data_list):
-    print(tokens)
-    print(offsets)
-    print(ann_data_list)
+    #print(tokens)
+    #print(offsets)
+    #print(ann_data_list)
     starts = [off[0] for off in offsets]
     ends =  [off[1] for off in offsets]
     bio_labels = ['O'] * len(tokens)
@@ -78,7 +78,7 @@ def convert(file, ann, output_path):
         
     ann_data_list = []
     for line in lines:
-        print(line)
+        #print(line)
         ann_data = {}
         ann_txt = line.split('\t')[-1]
         entity = line.split('\t')[1].split(' ')[0]
