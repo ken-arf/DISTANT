@@ -18,7 +18,6 @@ corpus_dir:
 #corpus_dir: data/BC5CDR/eval/test
 output_dir: data/BC5CDR/eval/annotate.supervised
 
-
 # bert model
 seed: 22
 model_checkpoint: allenai/scibert_scivocab_uncased
@@ -37,7 +36,6 @@ train_batch_size: 8
 valid_batch_size: 8
 test_batch_size: 1
 
-
 # training lr
 train_epochs: 50
 train_lr: 1e-4
@@ -46,7 +44,8 @@ train_num_warmup_steps: 10000
 max_patient_count: 5 
 
 model_dir: experiments/bc5cdr/models/
+
 # restore model
 restore_model: False
-restore_model_path: experiments/bc5cdr/segmentation/models/model.pth
+restore_model_path: experiments/bc5cdr/models/model_supervised.pth
 
