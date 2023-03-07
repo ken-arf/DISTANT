@@ -30,10 +30,10 @@ from tqdm.auto import tqdm
 
 from utils import utils
 
-from model import Model 
+from preprocess.segmentation.model import Model 
 
-from make_dataset import tokenize
-from make_dataset import sentence_split
+from preprocess.segmentation.make_dataset import tokenize
+from preprocess.segmentation.make_dataset import sentence_split
 
 import dataclasses
 
@@ -43,7 +43,6 @@ import pdb
 @dataclasses.dataclass
 class Entity:
     text: str
-    name: str
     start: int = 0
     end: int = 0
     start_char: int = 0
@@ -64,6 +63,7 @@ class EntityExtraction:
 
         self.logger.addHandler(handler1)
 
+        #self.nlp = spacy.load("en_core_sci_lg")
         self.nlp = spacy.load("en_core_sci_sm")
         self.nlp.add_pipe("sentencizer")
 
@@ -90,48 +90,35 @@ class EntityExtraction:
 
         self.model.load_state_dict(torch.load(restore_model_checkpoint, map_location=torch.device(self.device)))
 
+
     def get_entities(self, text):
-
-        entities = self.params["entity_names"]
-        ent2id = {}
-        ent2id['O'] = 0
-        for entity in entities:
-            ent2id[f'B-{entity}'] = len(ent2id)
-            ent2id[f'I-{entity}'] = len(ent2id)
-
-        all_entities = []
-        for entity in entities:
-            eid = ent2id[f"B-{entity}"]
-
-            #pdb.set_trace()
-            entities = self._get_entities_helper(text, eid, entity)
-            print(entities)
-            all_entities += entities
-
-        all_entities = sorted(all_entities, key = lambda x: x.start_char)
-        return all_entities
-
-    def _get_entities_helper(self, text, start_bio, entity_name):
 
         #pdb.set_trace()
         tokenized_input, aux_data = self.tokenize_text(text)
         prediction, prob = self.model.predict(**tokenized_input)
 
-        # extract location of start_bio 
-        indexes = np.argwhere(prediction[0]==start_bio).squeeze(-1).tolist()
+        # extract span of 1's
+        indexes = np.argwhere(prediction[0]==1).squeeze(-1).tolist()
         entity_indexes = []
+        span = []
 
-        N = len(prediction[0])
+        prev_index = None
         for index in indexes:
-
-            span = []
-            span.append(index)
-            for i in range(index+1, N):
-                if prediction[0][i] == start_bio+1:
-                    span.append(i)
-                else:
+            if prev_index == None:
+                span.append(index)
+                prev_index = index
+            elif prev_index + 1 == index:
+                span.append(index)
+                prev_index = index
+            else:
+                if len(span) != 0:
                     entity_indexes.append(span.copy())
-                    break
+                    span = []
+                span.append(index)
+                prev_index = index
+
+        if len(span) != 0:
+            entity_indexes.append(span.copy())
 
         # conver index to word_ids
         word_indexes = [[aux_data["word_ids"][index]for index in span] for span in entity_indexes]
@@ -139,9 +126,13 @@ class EntityExtraction:
         entities = []
         for span_index in word_indexes:
 
-            # start word index
+            ##
+            # work around when 1 is flaged at the first or the last token, which should never happen.
+            if None in span_index:
+                continue
+            ##
+
             start = span_index[0]
-            # end word index
             end = span_index[-1]+1
 
             tokens = aux_data["tokens"][start:end]
@@ -149,10 +140,9 @@ class EntityExtraction:
             start_char = offsets[0]
             end_char = offsets[-1] + len(tokens[-1])
             text = aux_data["text"][start_char:end_char]
-            ent = Entity(text=text, name=entity_name, start=start, end=end, start_char=start_char, end_char=end_char)
+            ent = Entity(text=text, start=start, end=end, start_char=start_char, end_char=end_char)
 
-            if not ent in entities:
-                entities.append(ent)
+            entities.append(ent)
 
         return entities
             
@@ -193,38 +183,7 @@ class EntityExtraction:
 
         return tensor_input, aux_data 
 
-def output_annotation_file(doc_file, output_dir, extracted_entities):
 
-    _, fname = os.path.split(doc_file)
-    basename, ext  = os.path.splitext(fname)
-
-    with open(doc_file) as fp:
-        txt = fp.read()
-    doc_len = len(txt)
-
-    ann_file_path = os.path.join(output_dir, f"{basename}.ann")
-
-    with open(ann_file_path, 'w') as fp:
-
-        k = 0
-        for offset, entities in extracted_entities:
-            for entity in entities:
-            
-                mention = entity.text
-                entity_type = entity.name
-
-                start_char = entity.start_char
-                end_char = entity.end_char
-                start_char += offset
-                end_char += offset
-
-                # To prevent an error by brat
-                # The last character is "\n", which should not be included in the span definition.
-                if end_char == doc_len:
-                    end_char -= 1
-
-                fp.write(f"T{k+1}\t{entity_type} {start_char} {end_char}\t{mention}\n")
-                k += 1
 
 def main():
 
@@ -237,31 +196,28 @@ def main():
     # print config
     utils._print_config(parameters, config_path)
 
+
     entityExtraction  = EntityExtraction(config_path)
 
     text_dir=parameters["test_dir"]
     files = sorted(glob(f"{text_dir}/*.txt"))
     
-    output_dir = parameters["output_dir"]
-    utils.makedir(output_dir)
+    pdb.set_trace()
 
     for file in files:
         with open(file) as fp:
             text = fp.read().strip('\n')
 
         print("###", file, "###")
-        sents, offsets = sentence_split(text)
+        sents = sentence_split(text)
 
-        extracted_entities = []
-        for sent, offset in zip(sents, offsets):
+        for sent in sents:
             print("-"*10)
             print(sent)
             entities = entityExtraction.get_entities(sent)
             for k, ent in enumerate(entities):
                 print(k, ent)
-            extracted_entities.append((offset, entities))
-        
-        output_annotation_file(file, output_dir, extracted_entities)
+
 
 if __name__ == '__main__':                                                                                                                        
     main()

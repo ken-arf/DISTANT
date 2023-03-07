@@ -43,9 +43,9 @@ import pdb
 
 class Dataloader:
 
-    def __init__(self, data, params):
+    def __init__(self, dataset, params):
 
-        self.data = data
+        self.dataset = dataset
 
         self.params = params
         self.myseed = self.params["seed"] 
@@ -55,37 +55,15 @@ class Dataloader:
             
     def load_data(self):
 
-        # shuffle dataset
-        random.seed(self.myseed)
 
-        texts  = self.data['text']
-        labels = self.data['label']
-        index = list(range(len(texts)))
-        random.shuffle(index)
-
-        stexts = [texts[i] for i in index]
-        slabels = [labels[i] for i in index]
-
-        n = len(texts)
-        val_size = int(n * 0.1)
-        train_size = n - val_size
-
-        train_stexts = stexts[:train_size]
-        valid_stexts = stexts[train_size:]
-
-        train_slabels = slabels[:train_size]
-        valid_slabels = slabels[train_size:]
-
-        train_dataset = {'text': train_stexts, 'label': train_slabels}
-        valid_dataset = {'text': valid_stexts, 'label': valid_slabels}
-
-
-        train_dataset = Dataset.from_dict(train_dataset)
-        valid_dataset = Dataset.from_dict(valid_dataset)
+        train_dataset = Dataset.from_dict(self.dataset['train'])
+        dev_dataset = Dataset.from_dict(self.dataset['dev'])
+        test_dataset = Dataset.from_dict(self.dataset['test'])
 
         self.datasets = DatasetDict({
             "train": train_dataset,
-            "valid": valid_dataset,
+            "valid": dev_dataset,
+            "test": test_dataset,
             })
 
         tokenized_datasets = self.datasets.map(
@@ -108,7 +86,14 @@ class Dataloader:
             batch_size = self.params["valid_batch_size"],
         )
 
-        return train_dataloader, valid_dataloader
+        test_dataloader = DataLoader(
+            tokenized_datasets["test"],
+            shuffle=False,
+            collate_fn=self.data_collator,
+            batch_size = self.params["test_batch_size"],
+        )
+
+        return train_dataloader, valid_dataloader, test_dataloader
 
 
     def data_collator(self, features):
@@ -140,7 +125,21 @@ class Dataloader:
                 [label_pad_token_id] * (sequence_length - len(label)) + list(label) for label in labels
             ]
 
-        
+
+        word_ids = [feature["word_ids"] for feature in features]
+        # collate word_ids
+        label_pad_token_id = -100
+        padding_side = self.tokenizer.padding_side
+        if padding_side == "right":
+            batch["word_ids"] = [
+                list(word_id) + [label_pad_token_id] * (sequence_length - len(word_id)) for word_id in word_ids
+            ]
+        else:
+            batch["word_ids"] = [
+                [label_pad_token_id] * (sequence_length - len(word_id)) + list(word_id) for word_id in word_ids
+            ]
+
+
         batch = {k: torch.tensor(v, dtype=torch.int64) for k, v in batch.items()}
         return batch
 
@@ -185,6 +184,7 @@ class Dataloader:
 
 
         labels = []
+        wordIds = []
         for index, (sample_id, offset) in enumerate(zip(sample_map, offset_mapping)):
             
             sample_label = examples["label"][sample_id]
@@ -193,7 +193,13 @@ class Dataloader:
             aligned_label = self._align_labels_with_tokens(sample_label, word_ids)
             labels.append(aligned_label)
 
+            # change None to -100
+            word_ids[0] = -100
+            word_ids[-1] = -100
+            wordIds.append(word_ids)
+
         tokenized_inputs["labels"] = labels
+        tokenized_inputs["word_ids"] = wordIds
 
         return tokenized_inputs
 

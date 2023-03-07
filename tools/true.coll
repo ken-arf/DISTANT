@@ -36990,7 +36990,7 @@ participants	O
 CN	O
 )	O
 ,	O
-_	O
+ 	O
 30	O
 occasional	O
 cocaine	B-Chemical
@@ -69294,7 +69294,7 @@ by	O
 Dex	B-Chemical
 (	O
 30	O
-_	O
+ 	O
 u	O
 g/kg/day	O
 subcutaneously	O
@@ -79388,7 +79388,7 @@ insipidus	I-Disease
 NDI	B-Disease
 )	O
 in	O
-_	O
+ 	O
 40	O
 %	O
 of	O

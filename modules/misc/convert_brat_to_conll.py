@@ -43,9 +43,9 @@ def annotate(tokens, offsets, ann_data_list):
                 #print(start_idx, end_idx)
                 for k in range(start_idx, end_idx+1):
                     if k == start_idx:
-                        bio_labels[k] = f'B_{ent}'
+                        bio_labels[k] = f'B-{ent}'
                     else:
-                        bio_labels[k] = f'I_{ent}'
+                        bio_labels[k] = f'I-{ent}'
                 #print(bio_labels)
         # uncontinuous label
         else:
@@ -58,11 +58,11 @@ def annotate(tokens, offsets, ann_data_list):
                     end_idx = ends.index(end_char)
                     for k in range(start_idx,end_idx+1):
                         if k == start_idx and I == 0:
-                            bio_labels[k] = f'B_{ent}'
+                            bio_labels[k] = f'B-{ent}'
                         elif k == start_idx:
-                            bio_labels[k] = f'S_{ent}'
+                            bio_labels[k] = f'S-{ent}'
                         else:
-                            bio_labels[k] = f'I_{ent}'
+                            bio_labels[k] = f'I-{ent}'
                             
     #print(bio_labels)
     return bio_labels

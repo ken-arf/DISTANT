@@ -7,7 +7,8 @@ ROOT_DIR=../data/BC5CDR/eval
 predict_coll_dir=$ROOT_DIR/annotate.latest
 predict_coll_dir=../../experiments/bc5cdr/F1_79/annotate/
 predict_coll_dir=$ROOT_DIR/annotate.match_dict
-#predict_coll_dir=$ROOT_DIR/annotate
+predict_coll_dir=$ROOT_DIR/annotate
+predict_coll_dir=$ROOT_DIR/annotate.supervised
 
 
 true_coll_dir=$ROOT_DIR/annotate.gold
@@ -16,14 +17,14 @@ ls $predict_coll_dir/*.coll | sort | xargs -n1 cat > predict.coll
 ls $true_coll_dir/*.coll | sort | xargs -n1 cat > true.coll
 
 
-sed -e "s/^ /_/g" -i predict.coll
-sed -e "s/^ /_/g" -i true.coll
+#sed -e "s/^ /_/g" -i predict.coll
+#sed -e "s/^ /_/g" -i true.coll
 
-sed -e "s/B_/B-/g" -i predict.coll
-sed -e "s/I_/I-/g" -i predict.coll
+#sed -e "s/B_/B-/g" -i predict.coll
+#sed -e "s/I_/I-/g" -i predict.coll
 
-sed -e "s/B_/B-/g" -i true.coll
-sed -e "s/I_/I-/g" -i true.coll
+#sed -e "s/B_/B-/g" -i true.coll
+#sed -e "s/I_/I-/g" -i true.coll
 
 
 python eval_performance.py

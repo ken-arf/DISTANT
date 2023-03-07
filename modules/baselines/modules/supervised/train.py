@@ -26,67 +26,59 @@ from model import Model
 import pdb
 
 
-def load_file(file,  n_type):
+def load_file(file):
     
     input_data = defaultdict(list)
     
     with open(file) as fp:
         tokens = []
-        bio_labels = defaultdict(list)
+        bio_labels = []
         
         for line in fp:
             line = line.strip('\n')
             #print(line, len(line))
             if len(line) == 0:
                 input_data['tokens'].append(tokens)
-                for i in range(n_type):
-                    input_data[f'bio_{i}'].append(bio_labels[i])
+                input_data['bio'].append(bio_labels)
                 tokens = []
-                bio_labels = defaultdict(list)
+                bio_labels = []
                 continue
             fields = line.split('\t')
             #print(fields)
-            assert(len(fields) == n_type + 2)
-            tokens.append(fields[0])
-            for i in range(n_type):
-                bio_labels[i].append(fields[2+i])
+            assert(len(fields) == 2)
+            tokens.append(fields[0].lower())
+            bio_labels.append(fields[1])
             
     return input_data
             
 
-def convert_bio(label):
-    if label == 'O':
-        return 0
-    else:
-        return 1
+def convert_bio(ent2id, label):
 
+    label = label.replace("S_", "B_")
+    return ent2id[label]
 
-def load_dataset(parameters):
+def load_dataset(data_kind, parameters):
 
-    ent_num = parameters["num_bio_labels"]
-    corpus_dir = parameters["corpus_dir"]
+    #pdb.set_trace()
 
-    files = sorted(glob.glob(f"{corpus_dir}/*.txt"))
+    corpus_dir = parameters["corpus_dir"][data_kind]
+
+    files = sorted(glob.glob(f"{corpus_dir}/*.coll"))
 
     text_data = []
     label_data = []
 
     for file in tqdm(files):
         #print(file)
-        input_data = load_file(file, ent_num)
+        input_data = load_file(file)
         #print(input_data.keys())
         seq_num = len(input_data['tokens'])
         
         for sn in range(seq_num):
-            lseq = []
-            for i in range(ent_num):
-                lseq.append(list(map(convert_bio, input_data[f'bio_{i}'][sn])))
-            
-            bl = [1 if sum(s) > 0 else 0 for s in zip(*lseq)]
-    #        print(bl, len(bl))
-    #        print(input_data['tokens'][sn], len(input_data['tokens'][sn]))
+
             text_data.append(input_data['tokens'][sn])
-            label_data.append(bl)
+            b_bio = [parameters['ent2id'][bio.replace('S_', 'B_')] for bio in input_data['bio'][sn]]
+            label_data.append(b_bio)
 
     data = {'text': text_data, 'label': label_data}
 
@@ -107,13 +99,28 @@ def train(parameters, name_suffix):
     logger.addHandler(handler1)
     #logger.addHandler(handler2)
 
+    ent2id = {}
+    ent2id['O'] = 0
+    for entity in parameters["entity_names"]:
+        ent2id[f'B_{entity}'] = len(ent2id)
+        ent2id[f'I_{entity}'] = len(ent2id)
+    id2ent = {d:k for k, d in ent2id.items()}
+
+    parameters["ent2id"] = ent2id
+    parameters["id2ent"] = id2ent
+
     # step 0) load dataset
-    data = load_dataset(parameters)
-    dataloader = Dataloader(data, parameters)
-    train_dataloader, valid_dataloader = dataloader.load_data()
+    train_data = load_dataset('train', parameters)
+    dev_data = load_dataset('dev', parameters)
+    test_data = load_dataset('test', parameters)
+
+    dataset = {'train': train_data, 'dev': dev_data, 'test': test_data}
+    dataloader = Dataloader(dataset, parameters)
+    train_dataloader, valid_dataloader, test_dataloader = dataloader.load_data()
 
     print("Train data loader size: ", len(train_dataloader))
     print("Valid data loader size: ", len(valid_dataloader))
+    print("Test data loader size: ", len(test_dataloader))
 
     metric = evaluate.load("seqeval")
 
@@ -172,6 +179,8 @@ def train(parameters, name_suffix):
             progress_bar.set_description("loss:{:7.2f} epoch:{}".format(loss.item(),epoch))
             steps += 1
 
+            ## debug
+            #break
 
         # Evaluation
         progress_bar_valid = tqdm(range(len(valid_dataloader)))
@@ -194,13 +203,15 @@ def train(parameters, name_suffix):
             logger.debug("labels")
             logger.debug(labels)
 
-            label_map = {0:0, 1:1}
-            true_predictions, true_labels = utils.postprocess(predictions, labels, label_map)
+            true_predictions, true_labels = utils.postprocess(predictions, labels, id2ent)
 
             batch_acc = performance.performance_acc(true_predictions, true_labels, logger)
             running_acc += (batch_acc - running_acc) / (batch_index + 1)
             progress_bar_valid.update(1)
             progress_bar_valid.set_description("running_acc:{:.2f} epoch:{}".format(running_acc, epoch))
+
+            ## debug
+            #break
 
         print("running_acc: {:.2f}".format(running_acc))
 
@@ -216,6 +227,10 @@ def train(parameters, name_suffix):
         if patient_count > parameters["max_patient_count"]:
             print("Exceed max patient count. Force to exit")
             break
+        
+        ## debug 
+        #best_update = True
+        ####
 
         # prepare saving model
         accelerator.wait_for_everyone()
@@ -231,8 +246,66 @@ def train(parameters, name_suffix):
         if best_update:
             torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_best_{name_suffix}.pth"))
 
+        ## debug
+        #break
+
     print("best_acc: {:.2f}".format(best_acc))
+
+    # test
+    #test(logger, parameters, test_dataloader, name_suffix)
+
     return
+
+def test(logger, parameters, test_dataloader, name_suffix):
+
+    print("test start")
+
+    ent2id = {}
+    ent2id['O'] = 0
+    for entity in parameters["entity_names"]:
+        ent2id[f'B_{entity}'] = len(ent2id)
+        ent2id[f'I_{entity}'] = len(ent2id)
+    id2ent = {d:k for k, d in ent2id.items()}
+
+    parameters["ent2id"] = ent2id
+ 
+    metric = evaluate.load("seqeval")
+    if torch.cuda.is_available() and parameters['gpu'] >= 0:
+        device = "cuda"
+    else:
+        device = "cpu"
+
+    OUTPUT_PATH = parameters['model_dir']
+    model = Model(parameters, logger)
+    best_model_path = os.path.join(OUTPUT_PATH, f"model_best_{name_suffix}.pth")
+    model.load_state_dict(torch.load(best_model_path, map_location=torch.device(device)))
+
+    accelerator = Accelerator()
+    model, test_dataloader = accelerator.prepare(model, test_dataloader)
+
+    # test
+    progress_bar_test = tqdm(range(len(test_dataloader)))
+    running_acc = 0
+    model.eval()
+    for batch_index, batch in tqdm(enumerate(test_dataloader)):
+        with torch.no_grad():
+            predictions, probs = model.decode(**batch)
+        labels = batch["labels"].detach().cpu().numpy()
+
+        predictions = accelerator.gather(predictions)
+        labels = accelerator.gather(labels)
+
+        logger.debug("predictions")
+        logger.debug(predictions)
+        logger.debug("labels")
+        logger.debug(labels)
+
+        true_predictions, true_labels = utils.postprocess(predictions, labels, id2ent)
+
+        batch_acc = performance.performance_acc(true_predictions, true_labels, logger)
+        running_acc += (batch_acc - running_acc) / (batch_index + 1)
+        progress_bar_test.update(1)
+        progress_bar_test.set_description("running_acc:{:.2f}".format(running_acc))
 
 
 def main():

@@ -1,0 +1,13 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+#corpus_root_dir: data/BC5CDR/processed_corpus
+
+corpus_dir: 
+    - data/BC5CDR/eval/annotate.supervised
+    - data/BC5CDR/eval/annotate.gold
+#    - data/BC5CDR/processed_corpus/CDR_DevelopmentSet  
+#    - data/BC5CDR/processed_corpus/CDR_TestSet  
+#    - data/BC5CDR/processed_corpus/CDR_TrainingSet  

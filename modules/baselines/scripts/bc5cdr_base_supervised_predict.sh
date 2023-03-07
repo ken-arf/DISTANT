@@ -8,7 +8,7 @@ export PYTHONPATH="$HOME:$HOME/modules"
 
 TASK="bc5cdr"
 SUBTASK="base"
-MODULE="supervised_train"
+MODULE="supervised_predict"
 
 CONFIG_DIR="configs"
 YAML_FILE="${TASK}_${SUBTASK}_${MODULE}.yaml"
@@ -20,7 +20,7 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
-python modules/supervised/train.py --yaml $YAML_PATH 
+python modules/supervised/predict.py --yaml $YAML_PATH 
 
 #sleep 5
 #tail -f $LOG_PATH
