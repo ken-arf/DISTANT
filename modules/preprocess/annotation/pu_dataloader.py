@@ -63,6 +63,7 @@ class PU_Dataloader:
 
         n = len(df_train)
         train_size = int(n * 0.9)
+        #train_size = int(n * 0.8)
 
         df_train_dataset_ = df_train[:train_size]
         df_valid_dataset_ = df_train[train_size:]
