@@ -16,7 +16,6 @@ dict_files:
 other_dict_files:
     - others.dict
 
-
 entity2integer:
     chemicals: 0
     disease: 1

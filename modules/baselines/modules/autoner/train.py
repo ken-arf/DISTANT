@@ -28,13 +28,13 @@ import pdb
 
 def load_file(file,  n_type):
     
-    pdb.set_trace()
 
     input_data = defaultdict(list)
     
     with open(file) as fp:
         tokens = []
         bio_labels = defaultdict(list)
+        spans = []
         
         for line in fp:
             line = line.strip('\n')
@@ -43,25 +43,21 @@ def load_file(file,  n_type):
                 input_data['tokens'].append(tokens)
                 for i in range(n_type):
                     input_data[f'bio_{i}'].append(bio_labels[i])
+                input_data['spans'].append(spans)
                 tokens = []
                 bio_labels = defaultdict(list)
+                spans = []
                 continue
             fields = line.split('\t')
-            print(fields)
+            #print(fields)
             assert(len(fields) == n_type + 3)
             tokens.append(fields[0])
             for i in range(n_type):
                 bio_labels[i].append(fields[2+i])
+            spans.append(fields[-1])
             
     return input_data
             
-
-def convert_bio(label):
-    if label == 'O':
-        return 0
-    else:
-        return 1
-
 
 def load_dataset(parameters):
 
@@ -71,26 +67,25 @@ def load_dataset(parameters):
     files = sorted(glob.glob(f"{corpus_dir}/*.txt"))
 
     text_data = []
-    label_data = []
+    bio_labels_0 = []
+    bio_labels_1 = []
+    bio_labels_2 = []
+    spans = []
+
 
     for file in tqdm(files):
-        #print(file)
         input_data = load_file(file, ent_num)
-        #print(input_data.keys())
-        seq_num = len(input_data['tokens'])
-        
-        for sn in range(seq_num):
-            lseq = []
-            for i in range(ent_num):
-                lseq.append(list(map(convert_bio, input_data[f'bio_{i}'][sn])))
-            
-            bl = [1 if sum(s) > 0 else 0 for s in zip(*lseq)]
-    #        print(bl, len(bl))
-    #        print(input_data['tokens'][sn], len(input_data['tokens'][sn]))
-            text_data.append(input_data['tokens'][sn])
-            label_data.append(bl)
+        text_data += input_data['tokens']
+        bio_labels_0 += input_data['bio_0']
+        bio_labels_1 += input_data['bio_1']
+        bio_labels_2 += input_data['bio_2']
+        spans += input_data['spans']
 
-    data = {'text': text_data, 'label': label_data}
+    data = {'text': text_data, 
+            'bio_labels_0': bio_labels_0,
+            'bio_labels_1': bio_labels_1,
+            'bio_labels_2': bio_labels_2,
+            'spans': spans}
 
     return data
 
@@ -111,11 +106,14 @@ def train(parameters, name_suffix):
 
     # step 0) load dataset
     data = load_dataset(parameters)
+
     dataloader = Dataloader(data, parameters)
     train_dataloader, valid_dataloader = dataloader.load_data()
 
     print("Train data loader size: ", len(train_dataloader))
     print("Valid data loader size: ", len(valid_dataloader))
+
+    pdb.set_trace()
 
     metric = evaluate.load("seqeval")
 
@@ -252,7 +250,7 @@ def main():
     t_start = time.time()                                                                                                  
 
     # train model
-    train(parameters, "seg")
+    train(parameters, "autoner")
 
     print('Done!')
     t_end = time.time()                                                                                                  

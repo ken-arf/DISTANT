@@ -68,6 +68,8 @@ def load_dict(path):
 
 def match_entity(tokens, entity_dict, entity_type):
     #print(tokens)
+
+    entity_name = entity_type.upper()
     match_count = 0
     n = len(tokens)
     bio = ['O'] * n
@@ -80,15 +82,9 @@ def match_entity(tokens, entity_dict, entity_type):
                 #print('match at {}: {}'.format(i, '_'.join(entity)))
                 match_count += 1
 
-                if len(entity) == 1:
-                    bio[i] = f'B-{entity_type}'
-                else: 
-                    for j in range(i, i+len(entity)):
-                        if j == i:
-                            bio[j] = f'B-{entity_type}'
-                        else:
-                            bio[j] = f'I-{entity_type}'
-            
+                for j in range(i, i+len(entity)):
+                    bio[j] = f'{entity_name}'
+
     return bio, match_count
         
 

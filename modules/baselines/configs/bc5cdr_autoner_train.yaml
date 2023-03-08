@@ -7,6 +7,7 @@ num_bio_labels:  3
 
 corpus_dir: data/BC5CDR/conll.autoner
 
+word2vec: modules/autoner/PubMed-w2v.bin
 
 # model save dir
 model_dir: experiments/bc5cdr/autoner/models
@@ -14,6 +15,10 @@ model_dir: experiments/bc5cdr/autoner/models
 # bert model
 seed: 22
 
+ent2int:
+    chemicals: 0
+    disease: 1
+    others: 2
 
 model_checkpoint: allenai/scibert_scivocab_uncased
 # nn model
@@ -21,8 +26,9 @@ dropout_rate: 0.3
 embedding_dim: 768
 hidden_size: 100
 
+
 # label num
-class_num: 2
+class_num: 3
 
 # gpu
 gpu: 0 

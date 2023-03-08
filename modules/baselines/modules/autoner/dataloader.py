@@ -31,6 +31,9 @@ from transformers import get_scheduler
 from transformers import default_data_collator
 from transformers import BertModel
 from accelerate import Accelerator
+import gensim
+import torch
+import torch.nn as nn
 
 from datasets import load_dataset
 from datasets import DatasetDict
@@ -50,34 +53,70 @@ class Dataloader:
         self.params = params
         self.myseed = self.params["seed"] 
 
-        model_checkpoint = self.params["model_checkpoint"]
-        self.tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
-            
+        self.span2int= {'O': 0, 'I': 1}
+        self.label2int = {}
+
+        for key, v in self.params['ent2int'].items():
+            self.label2int[key.upper()] = v
+        self.label2int['O'] = -100
+
+
+        # Load word2vec pre-train model
+        word2vec_model = self.params["word2vec"]
+        self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
+        #model = gensim.models.Word2Vec.load('./word2vec_pretrain_v300.model')
+        weights = torch.FloatTensor(self.w2v_model.vectors)
+
+        # Build nn.Embedding() layer
+        self.embedding = nn.Embedding.from_pretrained(weights)
+        self.embedding.requires_grad = False
+
+
     def load_data(self):
 
         # shuffle dataset
         random.seed(self.myseed)
 
         texts  = self.data['text']
-        labels = self.data['label']
+
+        bio = {}
+        for i in range(self.params['class_num']):
+            bio[i] = [[self.label2int[label] for label in labels] for labels in self.data[f'bio_labels_{i}']] 
+
+        spans = [[self.span2int[label] for label in labels] for labels in self.data['spans']] 
+
         index = list(range(len(texts)))
         random.shuffle(index)
 
-        stexts = [texts[i] for i in index]
-        slabels = [labels[i] for i in index]
+        texts = [texts[i] for i in index]
+        for k in range(self.params['class_num']):
+            bio[k] = [bio[k][i] for i in index]
+        spans = [spans[i] for i in index]
 
         n = len(texts)
         val_size = int(n * 0.1)
         train_size = n - val_size
 
-        train_stexts = stexts[:train_size]
-        valid_stexts = stexts[train_size:]
+        train_texts = texts[:train_size]
+        valid_texts = texts[train_size:]
 
-        train_slabels = slabels[:train_size]
-        valid_slabels = slabels[train_size:]
+        train_bio = {}
+        valid_bio = {}
+        for k in range(self.params['class_num']):
+            train_bio[k] = bio[k][:train_size]
+            valid_bio[k] = bio[k][train_size:]
+    
+        train_spans = spans[:train_size]
+        valid_spans = spans[train_size:]
 
-        train_dataset = {'text': train_stexts, 'label': train_slabels}
-        valid_dataset = {'text': valid_stexts, 'label': valid_slabels}
+
+        train_dataset = {'text': train_texts, 'span': train_spans}
+        train_bio = {f'bio_{k}': train_bio[k] for k in range(self.params['class_num'])}
+        train_dataset.update(train_bio)
+
+        valid_dataset = {'text': valid_texts, 'span': valid_spans}
+        valid_bio = {f'bio_{k}': valid_bio[k] for k in range(self.params['class_num'])}
+        valid_dataset.update(valid_bio)
 
 
         train_dataset = Dataset.from_dict(train_dataset)
@@ -88,18 +127,21 @@ class Dataloader:
             "valid": valid_dataset,
             })
 
+
         tokenized_datasets = self.datasets.map(
                 self.tokenized_and_align_labels,
                 batched = True,
-                remove_columns = self.datasets["train"].column_names
+                remove_columns = ["text"],
                 )
+
 
         train_dataloader = DataLoader(
             tokenized_datasets["train"],
-            shuffle=True,
+            shuffle=False,
             collate_fn=self.data_collator,
             batch_size = self.params["train_batch_size"],
         )
+
 
         valid_dataloader = DataLoader(
             tokenized_datasets["valid"],
@@ -113,87 +155,92 @@ class Dataloader:
 
     def data_collator(self, features):
 
-        batch = self.tokenizer.pad(
-            features,
-            padding = True,
-            #max_length=max_length,
-            pad_to_multiple_of = None,
-            # Conversion to tensors will fail if we have labels as they are not of the same length yet.
-            return_tensors= None,
-        )
+        # batch size
+        bs = len(features)
 
-        sequence_length = torch.tensor(batch["input_ids"]).shape[1]
+        slength = []
+        for i in range(bs):
+            slen = len(features[i]['input_ids'])
+            slength.append(slen)
 
-        label_pad_token_id = -100
-        label_name = "label" if "label" in features[0].keys() else "labels"
-
-        labels = [feature[label_name] for feature in features] if label_name in features[0].keys() else None
-
-        # collate labels
-        padding_side = self.tokenizer.padding_side
-        if padding_side == "right":
-            batch[label_name] = [
-                list(label) + [label_pad_token_id] * (sequence_length - len(label)) for label in labels
-            ]
-        else:
-            batch[label_name] = [
-                [label_pad_token_id] * (sequence_length - len(label)) + list(label) for label in labels
-            ]
-
+        features = features.copy()
+        sindex = np.argsort(slength)
+        sindex = sindex[::-1]
+        input_ids = [features[i]['input_ids'] for i in sindex]
+        input_char_ids = [features[i]['input_char_ids'] for i in sindex]
+        spans = [features[i]['span'] for i in sindex]
+        bio_labels = {}
+        for k in range(3):
+            bio_labels[k] = [features[i][f'bio_{k}'] for i in sindex]
         
+        #sequence_length = slength[sindex[-1]]
+        sequence_length = slength[sindex[0]]
+        batch = {}
+        batch['slength'] = slength
+        batch['input_ids'] = [
+            list(input_id) + [-100] * (sequence_length - len(input_id)) for input_id in input_ids
+        ]
+        batch['span'] = [
+            list(span) + [-100] * (sequence_length - len(span)) for span in spans
+        ]
+        for k in range(3):
+            batch[f'bio_{k}'] = [
+                list(bio) + [-100] * (sequence_length - len(bio)) for bio in bio_labels[k]
+            ]
+
+        # compute maximum char-length within the mini-batch
+        max_char_len = 0
+        for input_char_id in input_char_ids:
+            for char_id in input_char_id:
+                char_len = len(char_id)
+                if char_len > max_char_len:
+                    max_char_len = char_len 
+    
+
+        batch['input_char_ids'] = []
+        for input_char_id in input_char_ids:
+            padded_char_id = [
+                char_id + [-100] * (max_char_len - len(char_id)) for char_id in input_char_id
+            ]
+
+            padded_char_id += [
+                [-100] * max_char_len for i in range(sequence_length - len(input_char_id))
+            ]
+            batch['input_char_ids'].append(padded_char_id)
+
+        batch['input_char_lengths'] = []
+        for input_char_id in input_char_ids:
+            char_len = [ len(char_id)  for char_id in input_char_id ]
+            char_len += [ -100 for i in range(sequence_length - len(input_char_id))]
+            batch['input_char_lengths'].append(char_len)
+
         batch = {k: torch.tensor(v, dtype=torch.int64) for k, v in batch.items()}
         return batch
 
-    def _align_labels_with_tokens(self, labels, word_ids):
-
-        new_labels = []
-        current_word = None
-        for word_id in word_ids:
-            if word_id != current_word:
-                # Start of a new word!
-                current_word = word_id
-                label = -100 if word_id is None else labels[word_id]
-                new_labels.append(label)
-            elif word_id is None:
-                # Special token
-                new_labels.append(-100)
-            else:
-                # Same word as previous token
-                label = labels[word_id]
-                new_labels.append(label)
-
-        assert(len(word_ids) == len(new_labels))
-        return new_labels
 
     def tokenized_and_align_labels(self, examples):
 
-        tokenized_inputs = self.tokenizer(
-                    examples["text"],
-                    truncation = True,
-                    max_length = 512,
-                    is_split_into_words = True,
-                    #return_tensors = "pt",
-                    return_offsets_mapping = True,
-                    return_overflowing_tokens = True,
-        )
+        tokenized_input = {}
 
-        #print(f"The examples gave {len(tokenized_inputs['input_ids'])} features.")
-        #print(f"Here is where each comes from: {tokenized_inputs['overflow_to_sample_mapping']}.")
+        input_ids = []
+        UNK_id = self.w2v_model.get_index('UNK')
+        for text in examples["text"]:
+            ids = [self.w2v_model.get_index(word.lower()) if word.lower() in self.w2v_model else UNK_id for word in text]
+            input_ids.append(ids)
 
-        sample_map = tokenized_inputs.pop("overflow_to_sample_mapping")
-        offset_mapping = tokenized_inputs.pop("offset_mapping")
+        input_char_ids = []
+        for text in examples["text"]:
+            words = []
+            for word in text:
+                char_ids = [ord(ch) for ch in list(word.lower())]
+                words.append(char_ids)
+            input_char_ids.append(words)
 
-
-        labels = []
-        for index, (sample_id, offset) in enumerate(zip(sample_map, offset_mapping)):
+        tokenized_input["input_ids"] = input_ids
+        tokenized_input["input_char_ids"] = input_char_ids
+        tokenized_input["span"] = examples["span"].copy()
+        for i in range(3):
+            tokenized_input[f"bio_{i}"] = examples[f"bio_{i}"].copy()
             
-            sample_label = examples["label"][sample_id]
-            word_ids = tokenized_inputs.word_ids(index)
-
-            aligned_label = self._align_labels_with_tokens(sample_label, word_ids)
-            labels.append(aligned_label)
-
-        tokenized_inputs["labels"] = labels
-
-        return tokenized_inputs
+        return tokenized_input
 
