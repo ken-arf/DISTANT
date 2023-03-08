@@ -24,6 +24,7 @@ old/
 *xml
 *.dict
 *.coll
+*.bin
 
 # C extensions
 *.so

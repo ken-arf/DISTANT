@@ -1,0 +1,27 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+use_dictionary: True
+dict_dir: 
+#    - data/Mesh/processed_dict
+#    - data/UMLS/processed_dict
+    - data/BC5CDR/processed_dict
+
+dict_files:
+    - chemicals.dict
+    - disease.dict
+
+other_dict_files:
+    - others.dict
+
+
+entity2integer:
+    chemicals: 0
+    disease: 1
+
+
+corpus_dir: data/BC5CDR/corpus
+output_dir: data/BC5CDR/conll.autoner
+

@@ -34,5 +34,5 @@ gpu: 0
 
 # restore model
 restore_model: True
-model_dir: experiments/bc5cdr/models
+model_dir: experiments/bc5cdr/supervised/models
 model_name: model_best_supervised.pth 

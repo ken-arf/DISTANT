@@ -1,0 +1,45 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+num_bio_labels:  3
+
+corpus_dir: data/BC5CDR/conll.autoner
+
+
+# model save dir
+model_dir: experiments/bc5cdr/autoner/models
+
+# bert model
+seed: 22
+
+
+model_checkpoint: allenai/scibert_scivocab_uncased
+# nn model
+dropout_rate: 0.3
+embedding_dim: 768
+hidden_size: 100
+
+# label num
+class_num: 2
+
+# gpu
+gpu: 0 
+
+
+# training
+train_epochs: 50
+train_batch_size: 8 
+valid_batch_size: 8 
+
+# training lr
+train_lr: 1e-4
+train_scheduler: linear
+train_num_warmup_steps: 10000 
+max_patient_count: 5 
+
+# restore model
+restore_model: False
+restore_model_path: experiments/bc5cdr/autoner/models/model_best.pth
+

@@ -43,9 +43,9 @@ train_scheduler: linear
 train_num_warmup_steps: 10000 
 max_patient_count: 5 
 
-model_dir: experiments/bc5cdr/models/
+model_dir: experiments/bc5cdr/supervised/models/
 
 # restore model
 restore_model: False
-restore_model_path: experiments/bc5cdr/models/model_supervised.pth
+restore_model_path: experiments/bc5cdr/supervised/models/model_supervised.pth
 
