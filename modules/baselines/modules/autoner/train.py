@@ -21,7 +21,7 @@ import evaluate
 
 from dataloader import Dataloader
 from measure import performance
-from model import Model
+from model import AutoNER
 
 import pdb
 
@@ -113,7 +113,6 @@ def train(parameters, name_suffix):
     print("Train data loader size: ", len(train_dataloader))
     print("Valid data loader size: ", len(valid_dataloader))
 
-    pdb.set_trace()
 
     metric = evaluate.load("seqeval")
 
@@ -122,7 +121,7 @@ def train(parameters, name_suffix):
     else:
         device = "cpu"
 
-    model = Model(parameters, logger)
+    model = AutoNER(parameters, logger)
 
     if parameters['restore_model'] == True:
         model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
@@ -162,16 +161,16 @@ def train(parameters, name_suffix):
         model.train()
         for batch in train_dataloader:
 
-            loss = model(**batch)
+            span_loss, ent_loss = model(**batch)
+            loss = span_loss + ent_loss
             accelerator.backward(loss)
 
             optimizer.step()
             lr_scheduler.step()
             optimizer.zero_grad()
             progress_bar.update(1)
-            progress_bar.set_description("loss:{:7.2f} epoch:{}".format(loss.item(),epoch))
+            progress_bar.set_description("spanloss:{:7.2f} entloss:{:7.2f} epoch:{}".format(span_loss.item(),ent_loss.item(),epoch))
             steps += 1
-
 
         # Evaluation
         progress_bar_valid = tqdm(range(len(valid_dataloader)))

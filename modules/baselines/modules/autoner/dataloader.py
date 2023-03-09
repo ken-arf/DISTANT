@@ -65,11 +65,6 @@ class Dataloader:
         word2vec_model = self.params["word2vec"]
         self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
         #model = gensim.models.Word2Vec.load('./word2vec_pretrain_v300.model')
-        weights = torch.FloatTensor(self.w2v_model.vectors)
-
-        # Build nn.Embedding() layer
-        self.embedding = nn.Embedding.from_pretrained(weights)
-        self.embedding.requires_grad = False
 
 
     def load_data(self):
@@ -145,7 +140,7 @@ class Dataloader:
 
         valid_dataloader = DataLoader(
             tokenized_datasets["valid"],
-            shuffle=True,
+            shuffle=False,
             collate_fn=self.data_collator,
             batch_size = self.params["valid_batch_size"],
         )
@@ -158,14 +153,18 @@ class Dataloader:
         # batch size
         bs = len(features)
 
-        slength = []
+        length = []
         for i in range(bs):
-            slen = len(features[i]['input_ids'])
-            slength.append(slen)
+            l = len(features[i]['input_ids'])
+            length.append(l)
 
         features = features.copy()
-        sindex = np.argsort(slength)
+
+        # sort sample by sentence length in decending order
+        sindex = np.argsort(length)
         sindex = sindex[::-1]
+        slength = [length[i] for i in sindex]
+
         input_ids = [features[i]['input_ids'] for i in sindex]
         input_char_ids = [features[i]['input_char_ids'] for i in sindex]
         spans = [features[i]['span'] for i in sindex]
@@ -173,8 +172,9 @@ class Dataloader:
         for k in range(3):
             bio_labels[k] = [features[i][f'bio_{k}'] for i in sindex]
         
-        #sequence_length = slength[sindex[-1]]
-        sequence_length = slength[sindex[0]]
+        # take maximum sequence
+        sequence_length = slength[0]
+
         batch = {}
         batch['slength'] = slength
         batch['input_ids'] = [
