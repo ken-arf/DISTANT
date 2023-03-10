@@ -152,7 +152,7 @@ class AutoNER(nn.Module):
         tail = features[-1]
         cat_features = torch.cat([head, mean, tail])
         logit = self.entity_linear(cat_features)
-        predict = torch.argsort(logit, dim=-1)
+        predict = torch.argsort(logit, descending=True, dim=-1)
 
         if 2 in ent_labels and len(ent_labels) == 1:
             pass
@@ -163,7 +163,7 @@ class AutoNER(nn.Module):
 
         true_y = torch.zeros(3)
         true_y.index_fill_(0, torch.tensor(ent_labels), 1)
-        true_y = F.normalize(true_y, dim=0)
+        true_y = F.normalize(true_y, dim=0).to(self.device)
         pred_y = predict[:len(ent_labels)].tolist()
 
         loss = self.entity_loss(logit, true_y)
@@ -189,7 +189,7 @@ class AutoNER(nn.Module):
         padded_input = torch.cat((input_embed, char_embed), dim=-1)
 
         # lstm
-        packed_input = pack_padded_sequence(padded_input, slength, batch_first=True)
+        packed_input = pack_padded_sequence(padded_input, slength.cpu().detach(), batch_first=True)
         packed_output, _  = self.word_bilstm(packed_input)
         padded_output, length = pad_packed_sequence(packed_output, batch_first=True)
 
@@ -211,7 +211,7 @@ class AutoNER(nn.Module):
                 ent_labels = []
                 for k in range(3):
                     bio = bio_label[k][i]
-                    match = torch.all(torch.tensor([k]*(span[1]-span[0]))==bio[span[0]:span[1]])
+                    match = torch.all(torch.tensor([k]*(span[1]-span[0])).to(self.device)==bio[span[0]:span[1]])
                     if match.item():
                         ent_labels.append(k)
 
@@ -247,7 +247,7 @@ class AutoNER(nn.Module):
         padded_input = torch.cat((input_embed, char_embed), dim=-1)
 
         # lstm
-        packed_input = pack_padded_sequence(padded_input, slength, batch_first=True)
+        packed_input = pack_padded_sequence(padded_input, slength.cpu().detach(), batch_first=True)
         packed_output, _  = self.word_bilstm(packed_input)
         padded_output, length = pad_packed_sequence(packed_output, batch_first=True)
 
@@ -274,7 +274,7 @@ class AutoNER(nn.Module):
                 ent_labels = []
                 for k in range(3):
                     bio = bio_label[k][i]
-                    match = torch.all(torch.tensor([k]*(span[1]-span[0]))==bio[span[0]:span[1]])
+                    match = torch.all(torch.tensor([k]*(span[1]-span[0])).to(self.device)==bio[span[0]:span[1]])
                     if match.item():
                         ent_labels.append(k)
 
