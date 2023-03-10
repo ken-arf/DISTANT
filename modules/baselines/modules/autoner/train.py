@@ -172,36 +172,59 @@ def train(parameters, name_suffix):
             progress_bar.set_description("spanloss:{:7.2f} entloss:{:7.2f} epoch:{}".format(span_loss.item(),ent_loss.item(),epoch))
             steps += 1
 
+
         # Evaluation
         progress_bar_valid = tqdm(range(len(valid_dataloader)))
+
         running_acc = 0
+        running_span_acc = 0
+        running_entity_acc = 0
+
         model.eval()
         for batch_index, batch in tqdm(enumerate(valid_dataloader)):
             with torch.no_grad():
-                predictions, probs = model.decode(**batch)
-            labels = batch["labels"].detach().cpu().numpy()
-
+                span_result, entity_result = model.decode(**batch)
 
             #predictions = accelerator.pad_across_processes(predictions, dim=2, pad_index=-100)
             #labels = accelerator.pad_across_processes(labels, dim=2, pad_index=-100)
 
-            predictions = accelerator.gather(predictions)
-            labels = accelerator.gather(labels)
+            #predictions = accelerator.gather(predictions)
+            #labels = accelerator.gather(labels)
 
-            logger.debug("predictions")
-            logger.debug(predictions)
-            logger.debug("labels")
-            logger.debug(labels)
 
-            label_map = {0:0, 1:1}
-            true_predictions, true_labels = utils.postprocess(predictions, labels, label_map)
+            logger.debug("Span")
+            logger.debug("pred")
+            logger.debug(span_result[0])
+            logger.debug("true")
+            logger.debug(span_result[1])
 
-            batch_acc = performance.performance_acc(true_predictions, true_labels, logger)
-            running_acc += (batch_acc - running_acc) / (batch_index + 1)
+            logger.debug("Entity")
+            logger.debug("pred")
+            logger.debug(entity_result[0])
+            logger.debug("true")
+            logger.debug(entity_result[1])
+
+            label_map = {0:'O', 1:'I'}
+            pred_span, true_span = utils.postprocess(span_result[0], span_result[1], label_map)
+
+            label_map = {0:'Chemical', 1:'Disease', 2:'Other'}
+            pred_entity, true_entity = utils.postprocess(entity_result[0], entity_result[1], label_map)
+
+            batch_span_acc = performance.performance_acc(pred_span, true_span, logger)
+            running_span_acc += (batch_span_acc - running_span_acc) / (batch_index + 1)
+
+            batch_entity_acc = performance.performance_acc(pred_entity, true_entity, logger)
+            running_entity_acc += (batch_entity_acc - running_entity_acc) / (batch_index + 1)
+
             progress_bar_valid.update(1)
-            progress_bar_valid.set_description("running_acc:{:.2f} epoch:{}".format(running_acc, epoch))
+            progress_bar_valid.set_description("running_span_acc:{:.2f}, running_entity_acc:{:.2f} : epoch:{}".
+                                        format(running_span_acc, running_entity_acc, epoch))
 
-        print("running_acc: {:.2f}".format(running_acc))
+
+        print("running_span_acc: {:.2f}".format(running_span_acc))
+        print("running_entity_acc: {:.2f}".format(running_entity_acc))
+
+        running_acc = running_span_acc + running_entity_acc
 
         best_update = False
         if best_acc < running_acc:

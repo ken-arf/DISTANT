@@ -146,25 +146,29 @@ class AutoNER(nn.Module):
         
     def _comp_entity_loss(self, features, span, ent_labels):
 
-
         features = features[span[0]:span[1]]
         head = features[0]
         mean = torch.mean(features, dim=0)
         tail = features[-1]
         cat_features = torch.cat([head, mean, tail])
         logit = self.entity_linear(cat_features)
+        predict = torch.argsort(logit, dim=-1)
 
         if 2 in ent_labels and len(ent_labels) == 1:
             pass
         else:
+            # if others(2) is included in true labels with other positve labels (chemicals:0, disease:1)
+            # others(2) should be remove to prevent injecting noisy single.
             ent_labels.remove(2)
 
-        true_label = torch.zeros(3)
-        true_label.index_fill_(0, torch.tensor(ent_labels), 1)
-        true_label = F.normalize(true_label, dim=0)
-        
-        loss = self.entity_loss(logit, true_label)
-        return loss
+        true_y = torch.zeros(3)
+        true_y.index_fill_(0, torch.tensor(ent_labels), 1)
+        true_y = F.normalize(true_y, dim=0)
+        pred_y = predict[:len(ent_labels)].tolist()
+
+        loss = self.entity_loss(logit, true_y)
+
+        return loss, (pred_y, ent_labels)
 
     def forward(self, **kargs):
 
@@ -211,10 +215,15 @@ class AutoNER(nn.Module):
                     if match.item():
                         ent_labels.append(k)
 
+                if len(ent_labels) == 0:
+                    continue
+
                 if ent_loss == None:
-                    ent_loss = self._comp_entity_loss(features, span, ent_labels)
+                    loss, _ = self._comp_entity_loss(features, span, ent_labels)
+                    ent_loss = loss
                 else:
-                    ent_loss += self._comp_entity_loss(features, span, ent_labels)
+                    loss, _ = self._comp_entity_loss(features, span, ent_labels)
+                    ent_loss += loss
                     
         return span_loss, ent_loss 
 
@@ -242,11 +251,16 @@ class AutoNER(nn.Module):
         packed_output, _  = self.word_bilstm(packed_input)
         padded_output, length = pad_packed_sequence(packed_output, batch_first=True)
 
-        span_output = self.span_linear(padded_output)
-    
-        span_loss = self.span_loss(torch.transpose(span_output,1,2), span_label)
 
-        ent_loss = None
+        span_output = self.span_linear(padded_output)
+        predict = torch.argmax(span_output, dim=-1)
+        mask = span_label != -100
+
+        true_span = span_label[mask]
+        pred_span = predict[mask]
+
+        pred_ys = []
+        true_ys = []
         bs, slen = span_label.shape
         for i in range(bs):
 
@@ -264,12 +278,14 @@ class AutoNER(nn.Module):
                     if match.item():
                         ent_labels.append(k)
 
-                if ent_loss == None:
-                    ent_loss = self._comp_entity_loss(features, span, ent_labels)
-                else:
-                    ent_loss += self._comp_entity_loss(features, span, ent_labels)
+                if len(ent_labels) == 0:
+                    continue
+                _, (pred_y, true_y) = self._comp_entity_loss(features, span, ent_labels)
+                pred_ys += pred_y
+                true_ys += true_y
 
-        return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
+
+        return (pred_span[None,:], true_span[None,:]), (torch.LongTensor([pred_ys]), torch.LongTensor([true_ys]))
 
     def predict(self, **kargs):
 
