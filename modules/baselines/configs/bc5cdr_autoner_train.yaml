@@ -26,13 +26,11 @@ dropout_rate: 0.3
 embedding_dim: 768
 hidden_size: 100
 
-
 # label num
 class_num: 3
 
 # gpu
 gpu: 0 
-
 
 # training
 train_epochs: 50
@@ -46,6 +44,6 @@ train_num_warmup_steps: 10000
 max_patient_count: 5 
 
 # restore model
-restore_model: False
-restore_model_path: experiments/bc5cdr/autoner/models/model_best.pth
+restore_model: True
+restore_model_path: experiments/bc5cdr/autoner/models/model_best_autoner.pth
 

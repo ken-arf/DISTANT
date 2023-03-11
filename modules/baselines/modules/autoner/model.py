@@ -165,6 +165,7 @@ class AutoNER(nn.Module):
         true_y.index_fill_(0, torch.tensor(ent_labels), 1)
         true_y = F.normalize(true_y, dim=0).to(self.device)
         pred_y = predict[:len(ent_labels)].tolist()
+        pred_y = sorted(pred_y)
 
         loss = self.entity_loss(logit, true_y)
 
