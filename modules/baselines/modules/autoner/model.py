@@ -154,6 +154,9 @@ class AutoNER(nn.Module):
         logit = self.entity_linear(cat_features)
         predict = torch.argsort(logit, descending=True, dim=-1)
 
+        if ent_labels == None:
+            return predict.tolist()
+
         if 2 in ent_labels and len(ent_labels) == 1:
             pass
         else:
@@ -290,7 +293,6 @@ class AutoNER(nn.Module):
 
     def predict(self, **kargs):
 
-        pdb.set_trace()
 
         input_ids = kargs["input_ids"]
         input_char_ids = kargs["input_char_ids"]
@@ -315,8 +317,8 @@ class AutoNER(nn.Module):
         span_output = self.span_linear(padded_output)
         span_pred = torch.argmax(span_output, dim=-1)
 
+        pred_spans = []
         pred_ys = []
-        true_ys = []
         bs, slen = span_pred.shape
         for i in range(bs):
 
@@ -327,9 +329,10 @@ class AutoNER(nn.Module):
             spans = self._extract_span(span_index[0])
 
             for span in spans:
-                _, (pred_y, true_y) = self._comp_entity_loss(features, span, ent_labels)
-                pred_ys += pred_y
-
-
-        return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
+                pred_y = self._comp_entity_loss(features, span, None)
+                if pred_y[0] != 2:
+                    pred_spans.append((span[0].item(), span[1].item()))
+                    pred_ys.append(pred_y[0])
+            
+        return pred_spans, pred_ys
 
