@@ -144,7 +144,7 @@ def annotate(files, parameters):
         with open(file) as fp:
                 text = fp.read().strip()
         #print(text)
-        doc = sentence_split(text)
+        doc, offsets = sentence_split(text)
         
         with open(os.path.join(outdir, fname), 'w') as fp:
             for k, sent in enumerate(doc):
