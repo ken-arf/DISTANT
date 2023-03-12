@@ -127,7 +127,7 @@ def main():
         files = sorted(glob.glob(f"{root}/*.txt"))
         ann_files = [file.replace(".txt", ".ann") for file in files]
         for file, ann in zip(files, ann_files):
-            print(file)
+            #print(file)
             path, fname = os.path.split(file)
             basename, ext = os.path.splitext(fname)
 

@@ -290,26 +290,46 @@ class AutoNER(nn.Module):
 
     def predict(self, **kargs):
 
+        pdb.set_trace()
+
         input_ids = kargs["input_ids"]
-        token_type_ids = kargs["token_type_ids"]
-        attention_mask = kargs["attention_mask"]
+        input_char_ids = kargs["input_char_ids"]
+        input_char_lengths = kargs["input_char_lengths"]
+        slength = kargs["slength"]
 
-        #Extract outputs from the body
-        bert_outputs = self.bert_model(input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
+        #bio_label = {}
+        #for k in range(3):
+        #    bio_label[k] = kargs[f"bio_{k}"]
 
-        #Add custom layers
-        last_hidden_output = bert_outputs['last_hidden_state']
-        bert_sequence_output = self.dropout(last_hidden_output) #outputs[0]=last hidden state
+        char_embed = self._process_char_lstm(input_char_ids, input_char_lengths)
 
+        input_ids[input_ids==-100] = 0
+        input_embed = self.word_embedding(input_ids)
+        padded_input = torch.cat((input_embed, char_embed), dim=-1)
 
-        # logit
-        logit = self.linear(bert_sequence_output)
+        # lstm
+        packed_input = pack_padded_sequence(padded_input, slength.cpu().detach(), batch_first=True)
+        packed_output, _  = self.word_bilstm(packed_input)
+        padded_output, length = pad_packed_sequence(packed_output, batch_first=True)
 
-        # probability
-        probs = F.softmax(logit, dim=2)
-    
-        # prediction
-        predicts = torch.argmax(logit, dim=2)
+        span_output = self.span_linear(padded_output)
+        span_pred = torch.argmax(span_output, dim=-1)
+
+        pred_ys = []
+        true_ys = []
+        bs, slen = span_pred.shape
+        for i in range(bs):
+
+            features = padded_output[i]
+            span_index = torch.where(span_pred[i] == 1)
+            if torch.numel(span_index[0]) == 0:
+                continue
+            spans = self._extract_span(span_index[0])
+
+            for span in spans:
+                _, (pred_y, true_y) = self._comp_entity_loss(features, span, ent_labels)
+                pred_ys += pred_y
+
 
         return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
 

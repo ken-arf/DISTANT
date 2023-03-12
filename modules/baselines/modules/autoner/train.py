@@ -27,7 +27,6 @@ import pdb
 
 
 def load_file(file,  n_type):
-    
 
     input_data = defaultdict(list)
     

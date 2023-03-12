@@ -32,8 +32,9 @@ def sentence_split(doc, offset = False, moses = False):
     else:
         doc = nlp(doc)
         sents =  [sent.text for sent in doc.sents]
+        offsets =  [sent.start_char for sent in doc.sents]
         
-    return sents
+    return sents, offsets
     
 
 def tokenize(text, offset = False, moses = False, ):
