@@ -76,6 +76,8 @@ class EntityExtraction:
 
     def load_model(self):
 
+        #pdb.set_trace()
+
         if torch.cuda.is_available() and self.params['gpu'] >= 0:
             self.device = "cuda"
         else:
@@ -88,6 +90,7 @@ class EntityExtraction:
 
         model_path = self.params["restore_model_path"]
         self.model.load_state_dict(torch.load(model_path, map_location=torch.device(self.device)))
+        self.model = self.model.to(self.device)
 
     def get_entities(self, text):
 
@@ -115,83 +118,12 @@ class EntityExtraction:
             end_char = offsets[-1] + len(tokens[-1])
             mention = text[start_char:end_char]
 
-            ent = Entity(text=mention, name=entity_name, start=offsets[0], end=offsets[-1], start_char=start_char, end_char=end_char)
+            ent = Entity(text=mention, name=entity_name, start=span[0], end=span[1], start_char=start_char, end_char=end_char)
             entities.append(ent)
 
         return entities
 
-    def get_entities_old(self, text):
 
-        entities = self.params["entity_names"]
-        ent2id = {}
-        ent2id['O'] = 0
-        for entity in entities:
-            ent2id[f'B-{entity}'] = len(ent2id)
-            ent2id[f'I-{entity}'] = len(ent2id)
-
-        all_entities = []
-        for entity in entities:
-            eid = ent2id[f"B-{entity}"]
-
-            #pdb.set_trace()
-            entities = self._get_entities_helper(text, eid, entity)
-            print(entities)
-            all_entities += entities
-
-        all_entities = sorted(all_entities, key = lambda x: x.start_char)
-        return all_entities
-
-    def _get_entities_helper_old(self, text, start_bio, entity_name):
-
-        #pdb.set_trace()
-        tokenized_input, aux_data = self.tokenize_text(text)
-        prediction, prob = self.model.predict(**tokenized_input)
-
-        # extract location of start_bio 
-        indexes = np.argwhere(prediction[0]==start_bio).squeeze(-1).tolist()
-        entity_indexes = []
-
-        N = len(prediction[0])
-        for index in indexes:
-
-            span = []
-            span.append(index)
-            for i in range(index+1, N):
-                if prediction[0][i] == start_bio+1:
-                    span.append(i)
-                else:
-                    entity_indexes.append(span.copy())
-                    break
-
-        # conver index to word_ids
-        word_indexes = [[aux_data["word_ids"][index]for index in span] for span in entity_indexes]
-
-        entities = []
-        for span_index in word_indexes:
-
-            try:
-
-                # start word index
-                start = span_index[0]
-                # end word index
-                end = span_index[-1]+1
-
-                tokens = aux_data["tokens"][start:end]
-                offsets = aux_data["token_offsets"][start:end]
-                start_char = offsets[0]
-                end_char = offsets[-1] + len(tokens[-1])
-                text = aux_data["text"][start_char:end_char]
-                ent = Entity(text=text, name=entity_name, start=start, end=end, start_char=start_char, end_char=end_char)
-
-                if not ent in entities:
-                    entities.append(ent)
-
-            except:
-                print("error", span_index)
-                pass
-
-        return entities
-            
     def tokenize_text(self, text):
 
         tokens = tokenize(text, offset=True)
@@ -238,42 +170,6 @@ class EntityExtraction:
 
         return tensor_input, aux_data 
 
-
-    def tokenize_text_old(self, text):
-
-        tokens = tokenize(text, offset=True)
-
-        token_text = [token[0] for token in tokens]
-        token_offset = [token[1] for token in tokens]
-
-        if len(tokens) > 512:
-            print("Error, token length exceed 512")
-            exit()
-
-        tokenized_inputs = self.tokenizer(
-                    [token_text],
-                    truncation = True,
-                    max_length = 512,
-                    is_split_into_words = True,
-                    #return_tensors = "pt",
-                    return_offsets_mapping = True,
-                    return_overflowing_tokens = True,
-        )
-
-        sample_map = tokenized_inputs.pop("overflow_to_sample_mapping")
-        offset_mapping = tokenized_inputs.pop("offset_mapping")
-        word_ids = tokenized_inputs.word_ids(0)
-
-        tensor_input = {k: torch.tensor(v, dtype=torch.int64).to(self.device) for k, v in tokenized_inputs.items()}
-         
-        aux_data = {}
-        aux_data["text"] = text
-        aux_data["tokens"] = token_text
-        aux_data["token_offsets"] = token_offset
-        aux_data["offset_mapping"] = offset_mapping
-        aux_data["word_ids"] = word_ids
-
-        return tensor_input, aux_data 
 
 def output_annotation_file(doc_file, output_dir, extracted_entities):
 

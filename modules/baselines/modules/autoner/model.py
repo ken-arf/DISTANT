@@ -105,6 +105,7 @@ class AutoNER(nn.Module):
 
     def _process_char_lstm(self, input_char_ids, input_char_lengths):
 
+        #pdb.set_trace()
 
         result = []
         # batch_len, word seuqnce_len, char sequence_len
@@ -293,15 +294,15 @@ class AutoNER(nn.Module):
 
     def predict(self, **kargs):
 
-
         input_ids = kargs["input_ids"]
         input_char_ids = kargs["input_char_ids"]
         input_char_lengths = kargs["input_char_lengths"]
         slength = kargs["slength"]
 
-        #bio_label = {}
-        #for k in range(3):
-        #    bio_label[k] = kargs[f"bio_{k}"]
+        #print(input_ids)
+        #print(input_char_ids)
+        #print(input_char_lengths)
+        #print(slength)
 
         char_embed = self._process_char_lstm(input_char_ids, input_char_lengths)
 
