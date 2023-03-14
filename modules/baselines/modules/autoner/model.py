@@ -56,16 +56,17 @@ class AutoNER(nn.Module):
         # embedding 
         self.word_embed_size = 200
         weights = torch.FloatTensor(self.w2v_model.vectors)
-        self.word_embedding = nn.Embedding.from_pretrained(weights, freeze=True, padding_idx=-100)
-        self.word_embedding.requires_grad = False
+        #self.word_embedding = nn.Embedding.from_pretrained(weights, freeze=True, padding_idx=-100)
+        #self.word_embedding.requires_grad = False
+        self.word_embedding = nn.Embedding.from_pretrained(weights, freeze=False, padding_idx=-100)
 
         self.char_embed_size = 20 
         self.char_embedding = nn.Embedding(256, self.char_embed_size, padding_idx=-100)
 
         # lstm
         self.char_lstm_input_size = self.char_embed_size
-        self.char_lstm_hidden_size = 20
-        self.char_lstm_num_layers = 2
+        self.char_lstm_hidden_size = 50 
+        self.char_lstm_num_layers = 4
         self.char_bilstm = nn.LSTM(self.char_lstm_input_size, 
                                     self.char_lstm_hidden_size,
                                     self.char_lstm_num_layers,
@@ -73,8 +74,8 @@ class AutoNER(nn.Module):
                                     bidirectional=True)
 
         self.word_lstm_input_size = self.word_embed_size + self.char_lstm_hidden_size * 4
-        self.word_lstm_hidden_size = 50 
-        self.word_lstm_num_layers = 4
+        self.word_lstm_hidden_size =  100 
+        self.word_lstm_num_layers = 6
         self.word_bilstm = nn.LSTM(self.word_lstm_input_size, 
                                     self.word_lstm_hidden_size,
                                     self.word_lstm_num_layers,

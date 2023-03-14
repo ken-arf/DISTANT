@@ -133,7 +133,7 @@ class EntityExtraction:
 
         tokenized_input = {}
 
-        UNK_id = self.w2v_model.get_index('UNK')
+        UNK_id = self.w2v_model.get_index('unk')
         input_ids = [self.w2v_model.get_index(word.lower()) if word.lower() in self.w2v_model else UNK_id for word in tokenized_text]
 
         tokenized_input["input_ids"] = [input_ids]

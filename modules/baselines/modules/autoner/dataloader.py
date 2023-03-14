@@ -225,7 +225,7 @@ class Dataloader:
         tokenized_input = {}
 
         input_ids = []
-        UNK_id = self.w2v_model.get_index('UNK')
+        UNK_id = self.w2v_model.get_index('unk')
         for text in examples["text"]:
             ids = [self.w2v_model.get_index(word.lower()) if word.lower() in self.w2v_model else UNK_id for word in text]
             input_ids.append(ids)
