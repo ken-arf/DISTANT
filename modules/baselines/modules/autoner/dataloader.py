@@ -46,12 +46,13 @@ import pdb
 
 class Dataloader:
 
-    def __init__(self, data, params):
+    def __init__(self, data, params, logger):
 
 
         self.data = data
 
         self.params = params
+        self.logger = logger
         self.myseed = self.params["seed"] 
 
         self.span2int= {'O': 0, 'I': 1}
@@ -228,6 +229,16 @@ class Dataloader:
         for text in examples["text"]:
             ids = [self.w2v_model.get_index(word.lower()) if word.lower() in self.w2v_model else UNK_id for word in text]
             input_ids.append(ids)
+
+        # debug
+        for input_txt, input_id in zip(examples["text"], input_ids):
+            #print(np.sum(np.array(input_id) == UNK_id))
+            self.logger.info(np.sum(np.array(input_id) == UNK_id))
+            if np.sum(np.array(input_id) == UNK_id) > 0:
+                args = np.where(np.array(input_id)==UNK_id)[0].tolist()
+                #print([input_txt[arg] for arg in args])
+                self.logger.info([input_txt[arg] for arg in args])
+
 
         input_char_ids = []
         for text in examples["text"]:

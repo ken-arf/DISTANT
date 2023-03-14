@@ -106,7 +106,7 @@ def train(parameters, name_suffix):
     # step 0) load dataset
     data = load_dataset(parameters)
 
-    dataloader = Dataloader(data, parameters)
+    dataloader = Dataloader(data, parameters, logger)
     train_dataloader, valid_dataloader = dataloader.load_data()
 
     print("Train data loader size: ", len(train_dataloader))
