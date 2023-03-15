@@ -1,0 +1,18 @@
+T1	Chemical 21 28	lindane
+T2	Chemical 65 69	GABA
+T3	Chemical 74 82	dopamine
+T4	Chemical 83 90	Lindane
+T5	Chemical 92 119	gamma-hexachlorocyclohexane
+T6	Disease 165 175	neurotoxic
+T7	Chemical 267 274	lindane
+T8	Chemical 319 342	gamma-aminobutyric acid
+T9	Chemical 344 348	GABA
+T10	Chemical 387 394	lindane
+T11	Chemical 483 487	GABA
+T12	Chemical 489 497	dopamine
+T13	Disease 551 559	seizures
+T14	Disease 588 599	convulsions
+T15	Chemical 626 633	lindane
+T16	Chemical 671 675	GABA
+T17	Chemical 802 810	dopamine
+T18	Chemical 873 878	DOPAC

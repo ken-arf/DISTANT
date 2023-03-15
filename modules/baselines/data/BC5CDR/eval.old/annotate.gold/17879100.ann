@@ -1,0 +1,17 @@
+T1	Disease 127 162	Acute tubulo-interstitial nephritis
+T2	Disease 164 168	ATIN
+T3	Disease 195 214	acute renal failure
+T4	Disease 286 312	tubulo-interstitial injury
+T5	Disease 433 437	ATIN
+T6	Disease 572 591	acute renal failure
+T7	Chemical 642 649	aspirin
+T8	Chemical 677 686	ibuprofen
+T9	Disease 691 696	fever
+T10	Chemical 826 845	blood urea nitrogen
+T11	Chemical 847 850	BUN
+T12	Chemical 883 893	creatinine
+T13	Chemical 918 927	potassium
+T14	Disease 1041 1045	ATIN
+T15	Chemical 1229 1237	steroids
+T16	Disease 1292 1303	proteinuria
+T17	Disease 1376 1380	ATIN

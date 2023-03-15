@@ -1,0 +1,27 @@
+T1	Disease 34 45	microbleeds
+T2	Disease 51 75	intracerebral hemorrhage
+T3	Disease 167 178	microbleeds
+T4	Disease 215 239	intracerebral hemorrhage
+T5	Disease 241 244	ICH
+T6	Chemical 305 325	antithrombotic drugs
+T7	Chemical 398 412	antithrombotic
+T8	Disease 433 436	ICH
+T9	Disease 441 456	ischemic stroke
+T10	Disease 457 487	(IS)/transient ischemic attack
+T12	Chemical 637 639	(1
+T13	Chemical 641 655	antithrombotic
+T14	Chemical 694 697	ICH
+T15	Chemical 699 701	(2
+T16	Chemical 703 717	antithrombotic
+T17	Chemical 753 755	(3
+T18	Chemical 757 760	ICH
+T19	Disease 764 779	ischemic events
+T20	Chemical 794 808	antithrombotic
+T21	Chemical 904 918	antithrombotic
+T22	Chemical 1174 1186	antiplatelet
+T25	Chemical 1324 1327	ICH
+T27	Chemical 1494 1506	antiplatelet
+T28	Chemical 1530 1533	ICH
+T29	Chemical 1601 1613	antiplatelet
+T30	Chemical 1721 1735	antithrombotic
+T31	Chemical 1835 1838	ICH

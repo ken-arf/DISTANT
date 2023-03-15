@@ -1,0 +1,67 @@
+Bradycardia	bradycardia	O	DISEASE	OTHERS	I
+due	due	O	O	O	O
+to	to	O	O	O	O
+trihexyphenidyl	trihexyphenidyl	CHEMICALS	O	OTHERS	I
+hydrochloride	hydrochloride	O	O	OTHERS	I
+.	.	O	O	O	O
+
+A	a	O	O	O	O
+chronic	chronic	O	O	O	O
+schizophrenic	schizophrenic	O	DISEASE	OTHERS	I
+patient	patient	O	O	O	O
+was	was	O	O	O	O
+treated	treated	O	O	O	O
+with	with	O	O	O	O
+an	an	O	O	O	O
+anticholinergic	anticholinergic	O	O	O	O
+drug	drug	O	O	O	O
+,	,	O	O	O	O
+trihexyphenidyl	trihexyphenidyl	CHEMICALS	O	OTHERS	I
+hydrochloride	hydrochloride	O	O	OTHERS	I
+.	.	O	O	O	O
+
+The	the	O	O	O	O
+patient	patient	O	O	O	O
+developed	developed	O	O	O	O
+,	,	O	O	O	O
+paradoxically	paradoxically	O	O	O	O
+,	,	O	O	O	O
+sinus	sinus	O	DISEASE	OTHERS	I
+bradycardia	bradycardia	O	DISEASE	OTHERS	I
+.	.	O	O	O	O
+
+The	the	O	O	O	O
+reaction	reaction	O	O	O	O
+was	was	O	O	O	O
+specific	specific	O	O	O	O
+to	to	O	O	O	O
+trihexyphenidyl	trihexyphenidyl	CHEMICALS	O	OTHERS	I
+and	and	O	O	O	O
+not	not	O	O	O	O
+to	to	O	O	O	O
+other	other	O	O	O	O
+anticholinergic	anticholinergic	O	O	O	O
+drugs	drugs	O	O	O	O
+.	.	O	O	O	O
+
+This	this	O	O	O	O
+antidyskinetic	antidyskinetic	O	O	O	O
+drug	drug	O	O	O	O
+is	is	O	O	O	O
+widely	widely	O	O	O	O
+used	used	O	O	O	O
+in	in	O	O	O	O
+clinical	clinical	O	O	O	O
+psychiatric	psychiatric	O	DISEASE	OTHERS	I
+practice	practice	O	O	O	O
+and	and	O	O	O	O
+physicians	physicians	O	O	O	O
+should	should	O	O	O	O
+be	be	O	O	O	O
+aware	aware	O	O	O	O
+of	of	O	O	O	O
+this	this	O	O	O	O
+side	side	O	O	O	O
+effect	effect	O	O	O	O
+.	.	O	O	O	O
+

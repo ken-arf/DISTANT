@@ -1,0 +1,21 @@
+T1	Disease 62 76	cardiomyopathy
+T2	Disease 142 155	dose-limiting
+T3	Disease 184 198	cardiomyopathy
+T4	Chemical 209 220	doxorubicin
+T5	Disease 288 299	dysfunction
+T6	Disease 578 589	dysfunction
+T7	Chemical 617 628	doxorubicin
+T8	Chemical 717 728	doxorubicin
+T9	Disease 1252 1271	doxorubicin-treated
+T10	Chemical 1278 1289	Doxorubicin
+T11	Chemical 1429 1447	cytochrome oxidase
+T12	Chemical 1478 1488	carvedilol
+T13	Chemical 1595 1606	doxorubicin
+T14	Chemical 1661 1671	Carvedilol
+T15	Chemical 1821 1832	doxorubicin
+T16	Chemical 1834 1844	Carvedilol
+T17	Disease 2028 2035	cardiac
+T18	Disease 2110 2123	dose-limiting
+T19	Disease 2138 2168	dysfunction and cardiomyopathy
+T20	Chemical 2196 2207	doxorubicin
+T21	Disease 2219 2225	cancer

@@ -1,0 +1,20 @@
+T1	Chemical 10 24	alkylxanthines
+T2	Disease 47 66	acute renal failure
+T3	Chemical 78 99	Adenosine antagonists
+T5	Disease 188 207	acute renal failure
+T6	Chemical 209 212	ARF
+T7	Chemical 258 272	alkylxanthines
+T9	Chemical 301 343	adenosine antagonists 8-phenyltheophylline
+T11	Chemical 362 374	enprofylline
+T12	Disease 409 428	acute renal failure
+T14	Chemical 476 480	kg-1
+T15	Disease 483 497	Renal function
+T16	Chemical 527 538	plasma urea
+T17	Chemical 543 553	creatinine
+T19	Chemical 587 597	[3H]inulin
+T20	Chemical 602 627	[14C]p-aminohippuric acid
+T22	Disease 776 790	renal function
+T24	Chemical 912 931	polyethylene glycol
+T25	Chemical 936 940	NaOH
+T26	Chemical 1003 1017	alkylxanthines
+T28	Chemical 1139 1142	ARF

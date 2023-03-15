@@ -1,0 +1,15 @@
+T1	Disease 101 115	nephrotoxicity
+T2	Chemical 199 214	aminoglycosides
+T3	Disease 221 244	proximal tubular damage
+T5	Disease 304 323	tubular dysfunction
+T6	Chemical 344 359	aminoglycosides
+T7	Disease 363 376	seriously ill
+T8	Disease 433 452	acute renal failure
+T9	Chemical 611 625	aminoglycoside
+T10	Disease 634 647	liver disease
+T11	Chemical 686 696	creatinine
+T12	Chemical 722 735	female gender
+T13	Disease 762 776	nephrotoxicity
+T14	Disease 794 813	acute renal failure
+T16	Disease 1048 1063	pathophysiology
+T17	Disease 1090 1104	nephrotoxicity

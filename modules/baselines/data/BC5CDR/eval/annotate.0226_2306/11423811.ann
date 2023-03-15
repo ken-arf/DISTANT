@@ -1,0 +1,18 @@
+T1	Chemical 38 48	dobutamine
+T2	Disease 134 144	chest pain
+T3	Disease 162 172	Chest pain
+T4	Chemical 231 241	Dobutamine
+T5	Disease 328 344	cardiac ischemia
+T6	Chemical 409 419	dobutamine
+T7	Disease 563 573	chest pain
+T9	Disease 812 831	onset of chest pain
+T10	Chemical 857 867	tropinin I
+T13	Disease 1226 1237	hypokinesis
+T14	Disease 1292 1317	atrial conduction deficit
+T15	Chemical 1496 1515	adrenergic response
+T16	Disease 1549 1563	blood pressure
+T17	Disease 1611 1628	tachydysrhythmias
+T18	Disease 1640 1657	sinus tachycardia
+T19	Chemical 1699 1718	adrenergic response
+T21	Chemical 1875 1885	dobutamine
+T22	Disease 1936 1946	chest pain

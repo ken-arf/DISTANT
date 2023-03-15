@@ -1,0 +1,30 @@
+T1	Disease 23 43	glomerular sclerosis
+T2	Chemical 57 72	aminonucleoside
+T3	Disease 73 82	nephrosis
+T4	Disease 117 126	mesangial
+T5	Disease 117 138	mesangial dysfunction
+T6	Disease 158 178	glomerular sclerosis
+T7	Chemical 198 207	puromycin
+T8	Chemical 198 223	puromycin aminonucleoside
+T9	Chemical 225 228	PAN
+T10	Chemical 290 293	PAN
+T11	Chemical 360 363	PAN
+T12	Disease 383 394	proteinuric
+T13	Chemical 452 458	carbon
+T14	Chemical 460 462	CC
+T15	Disease 491 511	glomerular sclerosis
+T16	Chemical 558 561	PAN
+T17	Chemical 620 623	PAN
+T18	Chemical 658 660	CC
+T19	Disease 704 713	sclerosis
+T20	Chemical 743 745	CC
+T21	Chemical 796 798	CC
+T22	Chemical 898 900	CC
+T23	Chemical 960 963	PAN
+T24	Chemical 1010 1012	CC
+T25	Chemical 1071 1073	CC
+T26	Disease 1140 1149	sclerosis
+T27	Disease 1323 1334	dysfunction
+T28	Disease 1389 1392	PAN
+T29	Disease 1393 1402	nephrosis
+T30	Disease 1422 1442	glomerular sclerosis

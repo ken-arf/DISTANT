@@ -1,0 +1,17 @@
+T1	Chemical 51 60	enalapril
+T2	Chemical 65 73	prazosin
+T3	Disease 122 146	congestive heart failure
+T4	Chemical 173 219	angiotensin converting enzyme (ACE) inhibitors
+T5	Disease 267 291	congestive heart failure
+T6	Disease 309 320	hypotension
+T7	Chemical 425 438	ACE inhibitor
+T8	Chemical 439 448	enalapril
+T9	Chemical 476 484	prazosin
+T10	Disease 571 582	hypotension
+T11	Chemical 642 651	enalapril
+T12	Chemical 659 667	prazosin
+T13	Chemical 789 798	enalapril
+T14	Disease 871 882	hypotension
+T15	Chemical 921 929	prazosin
+T16	Chemical 1000 1009	enalapril
+T17	Chemical 1109 1118	enalapril

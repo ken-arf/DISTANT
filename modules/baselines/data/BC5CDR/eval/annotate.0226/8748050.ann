@@ -1,0 +1,10 @@
+T2	Disease 49 79	neuroleptic malignant syndrome
+T3	Disease 84 111	serotonin syndrome spectrum
+T5	Disease 241 260	unipolar depression
+T6	Disease 318 348	neuroleptic malignant syndrome
+T7	Disease 358 376	serotonin syndrome
+T9	Chemical 435 453	dopamine/serotonin
+T11	Disease 471 493	central nervous system
+T15	Disease 614 632	spectrum disorders
+T17	Chemical 660 676	antidopaminergic
+T18	Chemical 681 693	serotonergic

@@ -1,0 +1,9 @@
+T1	Chemical 54 79	slow-release theophylline
+T2	Chemical 121 128	inhaled
+T3	Chemical 179 204	slow-release theophylline
+T4	Chemical 447 459	theophylline
+T5	Disease 895 911	reporting nausea
+T6	Disease 913 921	vomiting
+T7	Disease 926 933	tremors
+T8	Chemical 940 952	theophylline
+T9	Chemical 1004 1016	theophylline

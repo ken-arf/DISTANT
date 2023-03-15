@@ -1,0 +1,17 @@
+T1	Disease 0 24	Hepatocellular carcinoma
+T2	Disease 28 44	Fanconi's anemia
+T3	Chemical 58 66	androgen
+T4	Chemical 71 85	corticosteroid
+T5	Disease 151 167	Fanconi's anemia
+T6	Chemical 201 210	androgens
+T7	Chemical 212 227	corticosteroids
+T8	Disease 323 333	septicemia
+T9	Disease 389 417	hemorrhagic bronchopneumonia
+T10	Disease 430 438	peliosis
+T11	Disease 452 466	hepatic tumors
+T12	Disease 532 556	hepatocellular carcinoma
+T13	Disease 632 649	hepatic neoplasms
+T14	Disease 654 662	peliosis
+T15	Chemical 692 700	androgen
+T16	Chemical 706 720	corticosteroid
+T17	Disease 729 745	Fanconi's anemia

@@ -1,0 +1,34 @@
+T1	Chemical 17 35	calcium antagonist
+T2	Chemical 37 43	CD-832
+T3	Disease 70 89	myocardial ischemia
+T5	Disease 111 128	coronary stenosis
+T6	Chemical 140 146	CD-832
+T8	Disease 178 197	myocardial ischemia
+T10	Disease 232 249	coronary stenosis
+T11	Disease 257 288	left circumflex coronary artery
+T15	Disease 375 399	coronary artery stenosis
+T16	Disease 470 480	heart rate
+T17	Disease 501 517	left ventricular
+T18	Disease 576 596	segmental shortening
+T19	Disease 601 611	ST-segment
+T20	Disease 629 639	epicardial
+T22	Chemical 744 753	CD-832 (3
+T24	Chemical 799 801	(1
+T26	Chemical 961 967	CD-832
+T29	Chemical 1063 1066	ISO
+T31	Chemical 1104 1110	CD-832
+T32	Disease 1171 1191	segmental shortening
+T33	Chemical 1201 1203	/-
+T34	Chemical 1216 1218	/-
+T35	Disease 1258 1268	ST-segment
+T36	Chemical 1289 1291	/-
+T37	Chemical 1307 1309	/-
+T40	Chemical 1475 1477	/-
+T41	Chemical 1489 1491	/-
+T42	Disease 1531 1541	ST-segment
+T43	Chemical 1562 1564	/-
+T44	Chemical 1580 1582	/-
+T46	Chemical 1664 1670	CD-832
+T47	Disease 1680 1699	myocardial ischemia
+T49	Chemical 1789 1795	CD-832
+T50	Chemical 1844 1850	CD-832

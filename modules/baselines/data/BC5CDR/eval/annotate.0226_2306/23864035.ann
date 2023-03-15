@@ -1,0 +1,17 @@
+T1	Chemical 0 10	Bortezomib
+T3	Disease 85 101	multiple myeloma
+T5	Disease 125 142	clinical outcomes
+T6	Chemical 143 153	Bortezomib
+T7	Chemical 154 174	(bort)-dexamethasone
+T8	Chemical 176 179	dex
+T9	Disease 235 251	multiple myeloma
+T10	Chemical 376 379	dex
+T12	Chemical 653 675	immunomodulatory drugs
+T13	Chemical 716 724	bort-dex
+T14	Chemical 747 755	bort-dex
+T16	Disease 1103 1116	adverse event
+T17	Disease 1121 1142	peripheral neuropathy
+T18	Disease 1184 1192	grade II
+T19	Disease 1200 1209	grade III
+T21	Chemical 1355 1358	PFS
+T23	Chemical 1504 1512	bort-dex

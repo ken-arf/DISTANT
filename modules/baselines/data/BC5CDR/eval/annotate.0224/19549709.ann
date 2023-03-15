@@ -1,0 +1,8 @@
+T1	Chemical 12 22	everolimus
+T2	Disease 212 238	non-small-cell lung cancer
+T3	Chemical 290 319	mammalian target of rapamycin
+T4	Chemical 510 569	epidermal growth factor receptor tyrosine kinase inhibitors
+T5	Chemical 744 748	mTOR
+T7	Disease 1143 1150	grade 3
+T13	Disease 1273 1282	grade 1/2
+T14	Chemical 1355 1366	phospho AKT

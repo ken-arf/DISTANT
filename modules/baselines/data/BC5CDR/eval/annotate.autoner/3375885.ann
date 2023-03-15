@@ -1,0 +1,13 @@
+T1	Disease 0 12	Hyperkalemia
+T2	Chemical 24 36	indomethacin
+T3	Chemical 66 81	fludrocortisone
+T4	Chemical 160 169	mefenamic
+T5	Disease 175 186	nephropathy
+T6	Disease 195 207	hyperkalemia
+T7	Chemical 264 276	indomethacin
+T8	Disease 418 434	tubular acidosis
+T9	Chemical 454 475	synthetase inhibitors
+T10	Chemical 514 526	nonsteroidal
+T11	Chemical 545 549	drug
+T12	Disease 601 613	hyperkalemia
+T13	Chemical 627 639	indomethacin

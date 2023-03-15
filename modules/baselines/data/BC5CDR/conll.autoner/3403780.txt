@@ -1,0 +1,60 @@
+Paracetamol-associated	paracetamol-associated	O	O	O	O
+coma	coma	O	DISEASE	OTHERS	I
+,	,	O	O	O	O
+metabolic	metabolic	O	DISEASE	OTHERS	I
+acidosis	acidosis	O	DISEASE	OTHERS	I
+,	,	O	O	O	O
+renal	renal	O	O	O	O
+and	and	O	O	O	O
+hepatic	hepatic	O	DISEASE	OTHERS	I
+failure	failure	O	DISEASE	OTHERS	I
+.	.	O	O	O	O
+
+A	a	O	O	O	O
+case	case	O	O	O	O
+of	of	O	O	O	O
+metabolic	metabolic	O	DISEASE	OTHERS	I
+acidosis	acidosis	O	DISEASE	OTHERS	I
+,	,	O	O	O	O
+acute	acute	O	DISEASE	OTHERS	I
+renal	renal	O	DISEASE	OTHERS	I
+failure	failure	O	DISEASE	OTHERS	I
+and	and	O	O	O	O
+hepatic	hepatic	O	DISEASE	OTHERS	I
+failure	failure	O	DISEASE	OTHERS	I
+following	following	O	O	O	O
+paracetamol	paracetamol	CHEMICALS	O	OTHERS	I
+ingestion	ingestion	O	O	O	O
+is	is	O	O	O	O
+presented	presented	O	O	O	O
+.	.	O	O	O	O
+
+The	the	O	O	O	O
+diagnostic	diagnostic	O	O	O	O
+difficulty	difficulty	O	O	O	O
+at	at	O	O	O	O
+presentation	presentation	O	O	O	O
+is	is	O	O	O	O
+highlighted	highlighted	O	O	O	O
+.	.	O	O	O	O
+
+Continuous	continuous	O	O	O	O
+arteriovenous	arteriovenous	O	O	O	O
+haemofiltration	haemofiltration	O	O	O	O
+proved	proved	O	O	O	O
+a	a	O	O	O	O
+valuable	valuable	O	O	O	O
+means	means	O	O	O	O
+of	of	O	O	O	O
+maintaining	maintaining	O	O	O	O
+fluid	fluid	O	O	O	O
+and	and	O	O	O	O
+electrolyte	electrolyte	O	O	O	O
+balance	balance	O	O	O	O
+.	.	O	O	O	O
+
+The	the	O	O	O	O
+patient	patient	O	O	O	O
+recovered	recovered	O	O	O	O
+.	.	O	O	O	O
+

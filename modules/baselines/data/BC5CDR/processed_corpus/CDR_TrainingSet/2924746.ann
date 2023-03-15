@@ -1,0 +1,24 @@
+T1	Chemical 8 21	carbamazepine
+T2	Disease 54 62	toxicity
+T3	Chemical 96 102	folate
+T4	Chemical 118 124	Folate
+T5	Chemical 205 218	Carbamazepine
+T6	Chemical 220 223	CBZ
+T7	Chemical 353 356	CBZ
+T8	Chemical 370 376	folate
+T9	Chemical 462 478	propylene glycol
+T10	Disease 564 572	seizures
+T11	Disease 587 598	weight gain
+T12	Disease 600 608	Seizures
+T13	Chemical 620 643	hexafluorodiethyl ether
+T14	Chemical 645 649	HFDE
+T15	Chemical 715 718	CBZ
+T16	Disease 724 732	seizures
+T17	Chemical 795 798	CBZ
+T18	Chemical 893 897	HFDE
+T19	Disease 906 914	seizures
+T20	Disease 954 965	weight gain
+T21	Chemical 997 1000	CBZ
+T22	Chemical 1133 1136	CBZ
+T23	Chemical 1171 1177	folate
+T24	Chemical 1222 1228	folate

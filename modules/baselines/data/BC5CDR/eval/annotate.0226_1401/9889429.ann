@@ -1,0 +1,16 @@
+T2	Disease 23 36	adverse event
+T4	Chemical 81 92	cyclosporin
+T7	Disease 152 161	psoriatic
+T9	Chemical 210 223	cyclosporin A
+T10	Chemical 266 289	calcium channel blocker
+T11	Chemical 291 319	sustained-release nifedipine
+T13	Disease 372 386	adverse events
+T15	Disease 462 492	subclinical hypertensive state
+T16	Chemical 500 513	cyclosporin A
+T18	Disease 551 566	blood pressures
+T19	Disease 658 672	blood pressure
+T20	Disease 742 756	adverse events
+T21	Chemical 786 799	cyclosporin A
+T26	Chemical 982 1010	sustained-release nifedipine
+T28	Disease 1038 1047	psoriatic
+T30	Chemical 1088 1101	cyclosporin A

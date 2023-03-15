@@ -1,0 +1,15 @@
+T4	Disease 79 90	Reperfusion
+T5	Disease 94 112	ischemic intestine
+T6	Disease 124 147	acute liver dysfunction
+T11	Disease 288 303	pathophysiology
+T12	Disease 320 340	acute hepatic injury
+T19	Chemical 705 724	reduced glutathione
+T20	Chemical 770 781	glutathione
+T22	Disease 803 830	ischemia-reperfusion injury
+T23	Chemical 832 852	Oxidized glutathione
+T24	Chemical 854 858	GSSG
+T25	Disease 911 922	reperfusion
+T29	Chemical 1035 1039	GSSG
+T31	Disease 1080 1091	reperfusion
+T38	Chemical 1396 1400	GSSG
+T41	Disease 1438 1452	oxidant stress

@@ -1,0 +1,16 @@
+T1	Disease 20 30	vasculitis
+T2	Disease 58 71	polyarteritis
+T3	Disease 58 78	polyarteritis nodosa
+T4	Chemical 117 128	minocycline
+T5	Disease 133 145	palmoplantar
+T6	Disease 133 156	palmoplantar pustulosis
+T7	Disease 167 172	fever
+T8	Disease 174 182	myalgias
+T9	Disease 184 198	polyneuropathy
+T10	Disease 204 219	testicular pain
+T11	Disease 455 468	polyarteritis
+T12	Disease 455 475	polyarteritis nodosa
+T13	Chemical 486 497	minocycline
+T14	Disease 627 637	vasculitis
+T15	Disease 758 771	polyarteritis
+T16	Disease 758 778	polyarteritis nodosa

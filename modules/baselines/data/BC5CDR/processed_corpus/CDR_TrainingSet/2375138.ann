@@ -1,0 +1,11 @@
+T1	Chemical 23 32	midazolam
+T2	Disease 44 68	cardiorespiratory arrest
+T3	Disease 73 78	death
+T4	Chemical 79 102	Midazolam hydrochloride
+T5	Disease 264 305	respiratory and cardiovascular depression
+T6	Disease 264 275;295 305	respiratory depression
+T7	Disease 280 305	cardiovascular depression
+T8	Disease 357 381	cardiorespiratory arrest
+T9	Disease 386 391	death
+T10	Chemical 440 449	midazolam
+T11	Chemical 473 482	midazolam

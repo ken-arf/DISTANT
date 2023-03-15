@@ -1,0 +1,13 @@
+T1	Disease 0 25	Acute renal insufficiency
+T2	Chemical 32 51	high-dose melphalan
+T3	Disease 77 97	systemic amyloidosis
+T6	Disease 490 515	acute renal insufficiency
+T8	Disease 743 768	Acute renal insufficiency
+T9	Chemical 781 800	high-dose melphalan
+T10	Chemical 871 887	serum creatinine
+T11	Chemical 1146 1165	high-dose melphalan
+T12	Disease 1203 1218	hypoalbuminemia
+T13	Chemical 1434 1453	high-dose melphalan
+T14	Disease 1567 1579	renal injury
+T16	Disease 1640 1654	tubular injury
+T17	Disease 1681 1693	renal injury

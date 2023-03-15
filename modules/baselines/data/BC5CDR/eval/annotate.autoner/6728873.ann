@@ -1,0 +1,16 @@
+T1	Disease 82 87	toxic
+T2	Chemical 127 135	caffeine
+T3	Chemical 380 388	caffeine
+T4	Disease 449 457	righting
+T5	Disease 508 517	lethality
+T6	Disease 519 524	death
+T7	Chemical 573 581	caffeine
+T8	Chemical 820 828	caffeine
+T9	Disease 874 882	righting
+T10	Disease 1141 1149	seizures
+T11	Disease 1151 1156	death
+T12	Disease 1306 1314	seizures
+T13	Chemical 1406 1414	caffeine
+T14	Chemical 1542 1550	caffeine
+T15	Disease 1627 1635	toxicity
+T16	Chemical 1647 1661	alkylxanthines

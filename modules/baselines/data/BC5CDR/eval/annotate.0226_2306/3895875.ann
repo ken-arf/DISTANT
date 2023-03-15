@@ -1,0 +1,15 @@
+T1	Disease 30 41	early phase
+T3	Disease 55 76	myocardial infarction
+T5	Disease 118 139	myocardial infarction
+T6	Disease 167 175	onset of
+T12	Disease 318 342	ventricular fibrillation
+T14	Disease 356 379	ventricular tachycardia
+T15	Disease 414 435	myocardial infarction
+T18	Disease 561 584	ventricular tachycardia
+T23	Disease 854 875	myocardial infarction
+T24	Disease 932 948	acute infarction
+T26	Chemical 997 1017	beta-blocking agents
+T27	Chemical 1064 1084	beta blocking agents
+T29	Disease 1135 1170	central nervous system side effects
+T35	Disease 1441 1452	early hours
+T37	Disease 1466 1487	myocardial infarction

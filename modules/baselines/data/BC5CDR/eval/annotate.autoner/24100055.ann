@@ -1,0 +1,20 @@
+T1	Disease 13 45	heparin-induced thrombocytopenia
+T2	Disease 170 186	Thrombocytopenia
+T3	Disease 204 219	end-stage liver
+T4	Disease 240 248	disorder
+T5	Disease 273 285	hypertension
+T6	Disease 320 331	endotoxemia
+T7	Disease 363 395	heparin-induced thrombocytopenia
+T8	Disease 432 448	thrombocytopenia
+T9	Disease 455 460	liver
+T10	Disease 631 647	thrombocytopenia
+T11	Disease 654 659	liver
+T12	Disease 835 850	full-size liver
+T13	Disease 913 922	end-stage
+T14	Disease 1037 1040	HIT
+T15	Disease 1116 1132	thrombocytopenia
+T16	Disease 1194 1217	End-Stage Liver Disease
+T17	Disease 1228 1243	liver cirrhosis
+T18	Disease 1453 1456	HIT
+T19	Disease 1474 1499	end-stage hepatic failure
+T20	Chemical 1589 1596	heparin

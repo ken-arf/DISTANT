@@ -1,0 +1,23 @@
+T1	Chemical 45 55	daptomycin
+T2	Disease 215 225	meningitis
+T3	Chemical 249 259	daptomycin
+T4	Disease 413 433	generalized weakness
+T5	Chemical 548 558	vancomycin
+T6	Chemical 560 572	levofloxacin
+T7	Chemical 578 601	piperacillin/tazobactam
+T8	Chemical 708 717	nafcillin
+T9	Disease 760 779	acute renal failure
+T10	Chemical 787 797	creatinine
+T11	Disease 902 906	Coma
+T12	Disease 1028 1034	arrest
+T13	Chemical 1080 1084	MSSA
+T14	Disease 1166 1175	infection
+T15	Chemical 1208 1218	daptomycin
+T16	Disease 1261 1271	meningitis
+T17	Disease 1310 1315	death
+T18	Disease 1453 1461	puncture
+T19	Chemical 1551 1557	kinase
+T20	Chemical 1586 1596	daptomycin
+T21	Chemical 1642 1652	Daptomycin
+T22	Chemical 1917 1937	High-dose daptomycin
+T23	Disease 2136 2146	meningitis

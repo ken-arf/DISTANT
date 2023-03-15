@@ -1,0 +1,20 @@
+T1	Chemical 45 58	dexamethasone
+T2	Disease 67 79	hypertension
+T3	Chemical 87 100	Dexamethasone
+T4	Chemical 103 106	Dex
+T5	Disease 117 129	hypertension
+T6	Chemical 199 203	iron
+T7	Disease 357 369	hypertension
+T8	Chemical 375 378	Dex
+T9	Chemical 428 431	Dex
+T10	Chemical 643 646	Dex
+T11	Chemical 822 839	hydrogen peroxide
+T12	Chemical 841 845	H2O2
+T13	Chemical 929 942	Dexamethasone
+T14	Chemical 982 986	H2O2
+T15	Chemical 1097 1100	Dex
+T16	Disease 1109 1121	hypertension
+T17	Disease 1141 1152	weight loss
+T18	Chemical 1199 1203	H2O2
+T19	Chemical 1355 1358	Dex
+T20	Disease 1367 1379	hypertension

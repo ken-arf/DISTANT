@@ -1,0 +1,25 @@
+T1	Chemical 16 25	lomustine
+T2	Chemical 46 62	cyclophosphamide
+T3	Disease 76 84	lymphoma
+T4	Disease 120 128	toxicity
+T5	Chemical 159 168	lomustine
+T6	Chemical 170 174	CCNU
+T7	Chemical 180 196	cyclophosphamide
+T8	Chemical 198 201	CTX
+T9	Disease 216 224	lymphoma
+T10	Chemical 226 230	CCNU
+T11	Chemical 256 258	PO
+T12	Chemical 323 326	CTX
+T13	Chemical 344 346	PO
+T14	Disease 529 540	Neutropenia
+T15	Disease 610 621	neutropenia
+T16	Chemical 651 659	CCNU/CTX
+T17	Disease 745 756	neutropenia
+T18	Disease 863 874	neutropenia
+T19	Disease 963 977	hepatotoxicity
+T20	Disease 1010 1024	renal toxicity
+T21	Disease 1028 1039	hemorrhagic
+T22	Disease 1040 1048	cystitis
+T23	Disease 1058 1074	gastrointestinal
+T24	Chemical 1168 1172	CCNU
+T25	Chemical 1202 1205	CTX

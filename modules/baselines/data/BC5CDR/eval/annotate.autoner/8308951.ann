@@ -1,0 +1,7 @@
+T1	Disease 61 85	intracerebral hemorrhage
+T2	Disease 125 133	hematoma
+T3	Disease 141 157	warfarin-induced
+T4	Disease 238 244	poison
+T5	Chemical 352 360	warfarin
+T6	Chemical 526 535	piroxicam
+T7	Disease 591 603	coagulopathy

@@ -1,0 +1,11 @@
+T1	Chemical 0 9	Quinidine
+T2	Disease 10 19	hepatitis
+T3	Chemical 48 57	quinidine
+T4	Chemical 132 143	lactic acid
+T5	Disease 212 221	hepatitis
+T6	Chemical 241 250	quinidine
+T7	Chemical 325 334	quinidine
+T8	Chemical 416 427	lactic acid
+T9	Chemical 485 494	quinidine
+T10	Disease 495 509	hepatotoxicity
+T11	Disease 665 681	hepatic toxicity

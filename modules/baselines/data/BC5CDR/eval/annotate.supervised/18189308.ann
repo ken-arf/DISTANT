@@ -1,0 +1,14 @@
+T1	Disease 103 111	cystitis
+T2	Chemical 327 335	tyrosine
+T3	Disease 389 417	urinary bladder inflammation
+T4	Chemical 511 514	NGF
+T5	Chemical 516 523	p75(NTR
+T6	Disease 553 573	bladder inflammation
+T7	Chemical 585 601	cyclophosphamide
+T8	Chemical 603 606	CYP
+T9	Disease 621 629	cystitis
+T10	Disease 906 914	cystitis
+T11	Disease 1123 1131	cystitis
+T12	Chemical 1172 1180	Fastblue
+T13	Disease 1348 1356	cystitis
+T14	Disease 1780 1800	bladder inflammation

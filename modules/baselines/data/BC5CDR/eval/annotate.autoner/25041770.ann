@@ -1,0 +1,9 @@
+T1	Disease 0 14	Rhabdomyolysis
+T2	Chemical 35 46	simvastatin
+T3	Disease 252 266	rhabdomyolysis
+T4	Disease 390 405	obvious cardiac
+T5	Disease 524 538	rhabdomyolysis
+T6	Chemical 643 654	medications
+T7	Disease 681 689	myopathy
+T8	Chemical 787 793	statin
+T9	Disease 802 816	rhabdomyolysis

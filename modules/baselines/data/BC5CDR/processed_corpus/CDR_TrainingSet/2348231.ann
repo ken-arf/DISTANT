@@ -1,0 +1,32 @@
+T1	Chemical 0 14	Pentoxifylline
+T2	Chemical 16 23	Trental
+T3	Chemical 42 54	dipyridamole
+T4	Disease 72 81	hyperemia
+T5	Chemical 100 112	dipyridamole
+T6	Chemical 113 121	thallium
+T7	Chemical 145 157	Dipyridamole
+T8	Chemical 158 166	thallium
+T9	Disease 240 267	peripheral vascular disease
+T10	Chemical 303 317	pentoxifylline
+T11	Chemical 319 326	Trental
+T12	Chemical 331 345	methylxanthine
+T13	Disease 375 400	intermittent claudication
+T14	Chemical 410 424	pentoxifylline
+T15	Chemical 434 446	dipyridamole
+T16	Disease 464 473	hyperemia
+T17	Chemical 485 500	methylxanthines
+T18	Chemical 509 521	theophylline
+T19	Chemical 553 565	dipyridamole
+T20	Chemical 566 574	thallium
+T21	Chemical 647 659	dipyridamole
+T22	Chemical 729 743	pentoxifylline
+T23	Chemical 774 786	theophylline
+T24	Chemical 897 909	Dipyridamole
+T25	Chemical 992 1006	pentoxifylline
+T26	Chemical 1044 1058	pentoxifylline
+T27	Chemical 1087 1099	dipyridamole
+T28	Disease 1108 1117	hyperemia
+T29	Chemical 1180 1192	theophylline
+T30	Chemical 1230 1245	pentoxyifylline
+T31	Chemical 1263 1275	dipyridamole
+T32	Disease 1293 1302	hyperemia

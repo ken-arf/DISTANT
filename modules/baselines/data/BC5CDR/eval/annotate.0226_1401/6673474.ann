@@ -1,0 +1,18 @@
+T1	Disease 17 38	myocardial metabolism
+T4	Disease 99 118	Coronary blood flow
+T5	Disease 120 132	cardiac work
+T7	Chemical 175 195	sodium nitroprusside
+T8	Chemical 206 217	trimetaphan
+T9	Chemical 219 222	TMP
+T11	Disease 260 273	mean pressure
+T12	Disease 324 348	drug-induced hypotension
+T13	Disease 352 371	coronary blood flow
+T15	Disease 384 398	coronary sinus
+T16	Chemical 419 422	pO2
+T17	Disease 511 525	blood pressure
+T18	Disease 585 599	blood pressure
+T19	Disease 610 622	Cardiac work
+T23	Chemical 684 686	O2
+T24	Chemical 703 705	O2
+T25	Disease 750 768	coronary perfusion
+T26	Disease 805 819	blood pressure

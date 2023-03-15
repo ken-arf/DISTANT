@@ -1,0 +1,13 @@
+T1	Chemical 23 32	albuterol
+T2	Disease 60 66	asthma
+T3	Disease 234 240	asthma
+T4	Chemical 277 286	albuterol
+T5	Chemical 288 291	CNA
+T6	Chemical 313 322	albuterol
+T7	Chemical 324 327	INA
+T8	Disease 390 396	asthma
+T9	Chemical 411 414	CNA
+T10	Disease 477 497	cardiac dysrhythmias
+T11	Disease 538 549	hypokalemia
+T12	Chemical 716 719	CNA
+T13	Chemical 724 727	INA

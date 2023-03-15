@@ -1,0 +1,31 @@
+T1	Disease 0 24	Structural abnormalities
+T3	Disease 130 149	structural deficits
+T5	Chemical 185 208	chronic methamphetamine
+T8	Chemical 302 314	dopaminergic
+T9	Chemical 319 331	serotonergic
+T10	Disease 353 376	metabolic abnormalities
+T11	Disease 505 522	brain alterations
+T12	Disease 539 555	chronic MA abuse
+T14	Disease 604 624	cognitive impairment
+T15	Chemical 634 653	high-resolution MRI
+T16	Disease 704 730	map regional abnormalities
+T21	Disease 889 909	gray-matter deficits
+T22	Disease 917 926	cingulate
+T24	Disease 940 950	paralimbic
+T26	Disease 1057 1068	hippocampal
+T27	Chemical 1159 1171	white-matter
+T28	Disease 1202 1222	Hippocampal deficits
+T29	Disease 1344 1365	methamphetamine abuse
+T30	Disease 1396 1418	cerebral deterioration
+T31	Disease 1439 1454	impaired memory
+T33	Disease 1505 1518	temporal lobe
+T34	Disease 1563 1586	cingulate-limbic cortex
+T35	Disease 1597 1612	neuroadaptation
+T37	Disease 1637 1647	cell death
+T38	Disease 1659 1671	white-matter
+T39	Disease 1659 1671	white-matter
+T40	Chemical 1708 1719	myelination
+T41	Disease 1758 1775	gliosis secondary
+T42	Disease 1779 1794	neuronal damage
+T44	Chemical 1876 1895	therapeutic targets
+T45	Disease 1900 1925	drug-induced brain injury

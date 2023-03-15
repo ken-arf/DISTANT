@@ -1,0 +1,9 @@
+T1	Chemical 16 27	propranolol
+T5	Disease 266 278	insulin-only
+T6	Chemical 297 308	propranolol
+T10	Disease 406 416	heart-rate
+T12	Disease 441 455	blood-pressure
+T13	Disease 522 532	heart-rate
+T14	Disease 569 587	diastolic pressure
+T19	Chemical 771 784	beta-blockers
+T21	Disease 831 845	blood-pressure

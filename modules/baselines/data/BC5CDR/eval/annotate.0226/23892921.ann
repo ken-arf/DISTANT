@@ -1,0 +1,17 @@
+T1	Chemical 48 60	lenalidomide
+T3	Disease 116 132	multiple myeloma
+T4	Disease 210 223	Greek Myeloma
+T5	Chemical 236 248	Lenalidomide
+T7	Disease 318 334	multiple myeloma
+T8	Chemical 336 340	RRMM
+T9	Chemical 427 429	RW
+T10	Chemical 541 545	RRMM
+T16	Chemical 953 963	bortezomib
+T18	Disease 1237 1251	stable disease
+T19	Disease 1253 1267	Adverse events
+T21	Disease 1380 1401	Peripheral neuropathy
+T22	Disease 1445 1465	deep vein thrombosis
+T27	Chemical 1659 1671	lenalidomide
+T30	Disease 1718 1733	Extra-medullary
+T31	Chemical 1826 1830	RRMM
+T34	Disease 1990 2004	stable disease

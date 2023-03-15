@@ -1,0 +1,25 @@
+T1	Disease 16 26	arrhythmia
+T2	Disease 52 59	malaria
+T3	Disease 129 137	jaundice
+T4	Disease 157 167	arrhythmia
+T5	Chemical 218 225	quinine
+T6	Disease 319 327	vomiting
+T7	Disease 329 337	jaundice
+T8	Disease 459 470	examination
+T9	Chemical 514 523	bilirubin
+T10	Chemical 547 556	bilirubin
+T11	Chemical 582 591	bilirubin
+T12	Disease 670 678	jaundice
+T13	Chemical 687 694	quinine
+T14	Disease 777 785	diarrhea
+T15	Disease 787 795	tinnitus
+T16	Disease 805 812	hearing
+T17	Chemical 832 839	quinine
+T18	Chemical 1146 1165	potassium aspartate
+T19	Chemical 1377 1386	potassium
+T20	Disease 1595 1606	arrhythmias
+T21	Disease 1625 1635	arrhythmia
+T22	Chemical 1676 1694	parenteral quinine
+T23	Disease 1826 1834	diseases
+T24	Disease 1918 1926	vomiting
+T25	Disease 1934 1942	diarrhea

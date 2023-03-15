@@ -1,0 +1,18 @@
+T1	Chemical 29 40	misoprostol
+T2	Disease 65 82	renal dysfunction
+T3	Disease 103 112	cirrhosis
+T4	Chemical 113 124	Misoprostol
+T5	Disease 204 221	renal dysfunction
+T6	Disease 242 251	cirrhotic
+T7	Chemical 330 341	misoprostol
+T8	Chemical 407 413	sodium
+T9	Chemical 418 423	water
+T10	Disease 494 503	cirrhotic
+T11	Chemical 562 574	indomethacin
+T12	Chemical 596 607	misoprostol
+T13	Chemical 694 706	indomethacin
+T14	Chemical 800 806	sodium
+T15	Chemical 1002 1013	misoprostol
+T16	Chemical 1091 1102	misoprostol
+T17	Chemical 1137 1149	indomethacin
+T18	Disease 1296 1305	cirrhosis

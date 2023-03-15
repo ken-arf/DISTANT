@@ -1,0 +1,21 @@
+T1	Chemical 24 48	17alpha-ethinylestradiol
+T3	Chemical 129 153	17alpha-ethinylestradiol
+T6	Disease 273 286	enterohepatic
+T8	Disease 326 340	bile diversion
+T9	Chemical 504 522	7alpha-hydroxylase
+T10	Chemical 524 529	CYP7A
+T11	Chemical 536 557	sterol 27-hydroxylase
+T12	Chemical 559 564	CYP27
+T14	Disease 802 809	cholate
+T15	Chemical 863 880	chenodeoxycholate
+T16	Chemical 927 941	Delta22-isomer
+T17	Chemical 945 961	beta-muricholate
+T18	Chemical 1278 1283	CYP7A
+T19	Chemical 1371 1376	CYP27
+T21	Chemical 1418 1423	CYP7A
+T22	Chemical 1485 1495	CYP27 mRNA
+T23	Chemical 1556 1582	sterol 12alpha-hydroxylase
+T24	Chemical 1587 1617	lithocholate 6beta-hydroxylase
+T26	Chemical 1695 1719	17alpha-ethinylestradiol
+T27	Disease 1733 1757	intrahepatic cholestasis
+T28	Chemical 1813 1828	neutral pathway

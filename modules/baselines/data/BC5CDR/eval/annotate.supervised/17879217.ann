@@ -1,0 +1,19 @@
+T1	Disease 44 62	glomerulonephritis
+T2	Disease 66 80	staphylococcal
+T3	Disease 66 93	staphylococcal endocarditis
+T4	Disease 116 134	glomerulonephritis
+T5	Chemical 172 182	rifampicin
+T6	Disease 227 239	tuberculosis
+T7	Disease 266 276	infections
+T8	Disease 285 294	infective
+T9	Disease 285 307	infective endocarditis
+T10	Disease 309 311	IE
+T11	Chemical 350 360	rifampicin
+T12	Disease 365 379	Staphylococcal
+T13	Disease 365 390	Staphylococcal infections
+T14	Disease 429 443	Staphylococcal
+T15	Disease 429 446	Staphylococcal IE
+T16	Disease 461 480	acute renal failure
+T17	Disease 518 536	glomerulonephritis
+T18	Chemical 562 572	rifampicin
+T19	Chemical 631 641	rifampicin

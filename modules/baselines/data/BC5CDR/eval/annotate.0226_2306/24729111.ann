@@ -1,0 +1,9 @@
+T3	Disease 99 118	respiratory failure
+T4	Disease 170 189	atrial fibrillation
+T5	Chemical 191 218	Thyroid-stimulating hormone
+T6	Chemical 269 283	free thyroxine
+T7	Chemical 285 288	FT4
+T10	Disease 639 652	mental status
+T11	Chemical 771 788	levothyroxine 175
+T13	Chemical 1047 1062	thyroid hormone
+T14	Disease 1215 1230	thyroid disease

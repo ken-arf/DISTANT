@@ -1,0 +1,19 @@
+T1	Disease 62 73	dysfunction
+T2	Disease 97 111	cardiotoxicity
+T3	Disease 125 138	breast cancer
+T4	Disease 199 205	cancer
+T5	Disease 232 239	disease
+T6	Chemical 314 325	doxorubicin
+T7	Chemical 327 338	Doxorubicin
+T8	Disease 358 372	cardiotoxicity
+T9	Disease 410 419	oxidative
+T10	Disease 528 536	toxicity
+T11	Disease 605 618	breast cancer
+T12	Disease 644 657	breast tumors
+T13	Chemical 753 764	doxorubicin
+T14	Chemical 784 800	doxorubicin plus
+T15	Chemical 1074 1085	doxorubicin
+T16	Disease 1155 1164	oxidative
+T17	Disease 1329 1335	damage
+T18	Chemical 1348 1359	doxorubicin
+T19	Disease 1381 1387	damage

@@ -1,0 +1,18 @@
+T1	Chemical 14 64	signal transducer and activator of transcription 3
+T2	Chemical 69 78	apoptotic
+T4	Disease 138 155	myocardial injury
+T5	Chemical 214 230	cardioprotective
+T8	Chemical 336 386	signal transducer and activator of transcription 3
+T9	Chemical 388 393	STAT3
+T10	Chemical 399 408	apoptotic
+T14	Disease 587 602	ischemic injury
+T16	Chemical 710 731	cardiac marker enzyme
+T19	Chemical 903 916	marker enzyme
+T20	Disease 944 971	left ventricular remodeling
+T21	Chemical 1029 1044	phosphorylation
+T22	Chemical 1048 1053	STAT3
+T25	Chemical 1216 1221	Bcl-2
+T26	Chemical 1309 1318	Bcl-2/Bax
+T29	Disease 1524 1543	myocardial ischemia
+T30	Chemical 1566 1571	STAT3
+T31	Chemical 1576 1585	apoptotic

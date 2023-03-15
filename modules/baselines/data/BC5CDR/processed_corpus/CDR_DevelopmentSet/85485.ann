@@ -1,0 +1,11 @@
+T1	Disease 50 58	hepatoma
+T2	Chemical 78 104	alpha-benzene hexachloride
+T3	Disease 120 129	hepatomas
+T4	Disease 161 174	liver lesions
+T5	Chemical 202 228	alpha-benzene hexachloride
+T6	Disease 310 319	hepatomas
+T7	Disease 345 351	tumors
+T8	Disease 408 413	tumor
+T9	Chemical 439 477	ethyl-alpha-p-chlorophenoxyisobutyrate
+T10	Disease 954 963	hepatomas
+T11	Chemical 1093 1131	ethyl-alpha-p-chlorophenoxyisobutyrate

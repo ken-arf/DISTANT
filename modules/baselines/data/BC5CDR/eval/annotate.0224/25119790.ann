@@ -1,0 +1,16 @@
+T1	Chemical 0 8	Curcumin
+T2	Chemical 105 125	mitochondrial oxygen
+T3	Chemical 215 243	dietary antioxidant curcumin
+T4	Disease 283 295	renal injury
+T6	Disease 454 466	renal injury
+T10	Chemical 611 620	lipocalin
+T11	Chemical 622 626	NGAL
+T12	Chemical 632 660	N-acetyl b-D-glucosaminidase
+T13	Chemical 749 758	claudin-2
+T18	Chemical 1117 1140	reactive oxygen species
+T21	Chemical 1382 1391	complex I
+T22	Chemical 1396 1405	aconitase
+T23	Chemical 1482 1490	curcumin
+T24	Chemical 1513 1521	curcumin
+T25	Chemical 1701 1721	mitochondrial oxygen
+T26	Disease 1750 1771	respiratory complex I

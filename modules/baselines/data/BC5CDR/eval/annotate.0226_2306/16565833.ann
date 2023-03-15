@@ -1,0 +1,34 @@
+T1	Chemical 43 50	monoHER
+T3	Disease 128 142	cardiotoxicity
+T4	Disease 183 197	cardiotoxicity
+T5	Chemical 203 215	anthracyclin
+T6	Chemical 229 232	DOX
+T7	Chemical 279 301	chemotherapeutic agent
+T8	Disease 315 329	cardiac damage
+T9	Chemical 371 384	free radicals
+T10	Chemical 388 391	DOX
+T11	Chemical 393 416	Reactive oxygen species
+T13	Chemical 555 589	flavonoid monohydroxyethylrutoside
+T14	Chemical 591 598	monoHER
+T15	Chemical 607 623	cardioprotection
+T16	Disease 644 658	cardiotoxicity
+T17	Chemical 671 689	radical scavenging
+T18	Chemical 694 719	iron chelating properties
+T19	Chemical 772 779	monoHER
+T20	Chemical 842 849	monoHER
+T21	Chemical 854 857	DOX
+T22	Chemical 887 903	cardioprotective
+T24	Chemical 1067 1070	DOX
+T25	Chemical 1080 1083	DOX
+T26	Chemical 1111 1118	monoHER
+T28	Chemical 1502 1505	DOX
+T29	Disease 1532 1546	cardiac damage
+T31	Chemical 1705 1708	DOX
+T33	Chemical 1816 1819	DOX
+T34	Chemical 1832 1839	monoHER
+T35	Chemical 1975 1982	monoHER
+T36	Chemical 1990 1993	DOX
+T38	Chemical 2155 2162	monoHER
+T39	Chemical 2167 2170	DOX
+T40	Chemical 2269 2276	monoHER
+T41	Chemical 2312 2315	DOX

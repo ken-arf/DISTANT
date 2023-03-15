@@ -1,0 +1,30 @@
+T1	Chemical 0 10	Temocapril
+T2	Chemical 39 50	angiotensin
+T3	Disease 90 107	glomerular injury
+T4	Chemical 119 128	puromycin
+T5	Chemical 119 144	puromycin aminonucleoside
+T6	Disease 145 154	nephrosis
+T7	Chemical 239 249	temocapril
+T8	Chemical 278 289	angiotensin
+T9	Disease 333 344	proteinuria
+T10	Disease 356 378	glomerular hypertrophy
+T11	Disease 393 411	glomerulosclerosis
+T12	Chemical 423 432	puromycin
+T13	Chemical 423 448	puromycin aminonucleoside
+T14	Disease 465 474	nephrotic
+T15	Disease 481 490	Nephrosis
+T16	Chemical 519 522	PAN
+T17	Chemical 611 614	PAN
+T18	Chemical 631 645	PAN/temocapril
+T19	Chemical 657 667	temocapril
+T20	Chemical 706 716	Temocapril
+T21	Chemical 990 993	PAN
+T22	Chemical 1068 1082	PAN/temocapril
+T23	Chemical 1123 1126	PAN
+T24	Chemical 1253 1263	Temocapril
+T25	Disease 1282 1293	proteinuria
+T26	Disease 1358 1376	glomerulosclerosis
+T27	Chemical 1474 1477	PAN
+T28	Chemical 1670 1673	PAN
+T29	Chemical 1747 1761	PAN/temocapril
+T30	Chemical 1785 1795	temocapril

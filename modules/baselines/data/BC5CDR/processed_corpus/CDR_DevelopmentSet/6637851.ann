@@ -1,0 +1,30 @@
+T1	Disease 23 31	toxicity
+T2	Chemical 45 55	amiodarone
+T3	Disease 68 91	ventricular tachycardia
+T4	Disease 95 119	ventricular fibrillation
+T5	Chemical 120 130	Amiodarone
+T6	Disease 195 218	ventricular tachycardia
+T7	Disease 220 222	VT
+T8	Disease 239 253	cardiac arrest
+T9	Chemical 466 476	amiodarone
+T10	Disease 514 516	VT
+T11	Disease 520 544	ventricular fibrillation
+T12	Disease 546 548	VF
+T13	Disease 686 688	VT
+T14	Chemical 733 743	amiodarone
+T15	Chemical 933 943	amiodarone
+T16	Chemical 974 984	amiodarone
+T17	Disease 1056 1062	tremor
+T18	Disease 1066 1072	ataxia
+T19	Disease 1080 1086	nausea
+T20	Disease 1091 1099	anorexia
+T21	Disease 1106 1130	visual halos or blurring
+T22	Disease 1137 1167	thyroid function abnormalities
+T23	Disease 1177 1211	pulmonary interstitial infiltrates
+T24	Chemical 1238 1248	amiodarone
+T25	Disease 1299 1301	VT
+T26	Disease 1305 1307	VF
+T27	Disease 1379 1387	toxicity
+T28	Disease 1544 1546	VT
+T29	Disease 1550 1552	VF
+T30	Chemical 1586 1596	amiodarone

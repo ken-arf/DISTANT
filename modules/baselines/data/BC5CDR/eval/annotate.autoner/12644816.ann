@@ -1,0 +1,12 @@
+T1	Chemical 123 134	thalidomide
+T2	Disease 445 453	prostate
+T3	Chemical 605 609	urea
+T4	Disease 921 928	disease
+T5	Disease 1132 1144	constipation
+T6	Disease 1166 1175	dizziness
+T7	Disease 1180 1184	rash
+T8	Disease 1273 1283	neuropathy
+T9	Chemical 1375 1386	thalidomide
+T10	Disease 1412 1433	peripheral neuropathy
+T11	Chemical 1533 1544	thalidomide
+T12	Disease 1673 1694	peripheral neuropathy

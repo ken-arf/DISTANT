@@ -1,0 +1,33 @@
+T1	Chemical 0 14	Spironolactone
+T2	Disease 23 42	renal insufficiency
+T3	Disease 47 59	hyperkalemia
+T4	Disease 77 90	heart failure
+T5	Chemical 164 178	spironolactone
+T6	Disease 182 195	heart failure
+T7	Disease 228 240	hyperkalemia
+T8	Disease 250 269	renal insufficiency
+T9	Disease 299 312	heart failure
+T10	Chemical 348 362	spironolactone
+T11	Disease 534 546	hyperkalemia
+T12	Disease 551 570	renal insufficiency
+T13	Disease 574 587	heart failure
+T14	Chemical 610 624	spironolactone
+T15	Disease 672 685	heart failure
+T16	Chemical 708 722	spironolactone
+T17	Disease 783 795	hyperkalemia
+T18	Chemical 797 798	K
+T19	Disease 817 836	renal insufficiency
+T20	Chemical 838 840	Cr
+T21	Chemical 1109 1123	spironolactone
+T22	Disease 1131 1143	hyperkalemia
+T23	Disease 1156 1169	renal failure
+T24	Disease 1203 1215	hyperkalemia
+T25	Disease 1251 1259	diabetes
+T26	Chemical 1287 1296	potassium
+T27	Chemical 1323 1332	potassium
+T28	Disease 1453 1472	renal insufficiency
+T29	Chemical 1530 1540	creatinine
+T30	Chemical 1623 1631	thiazide
+T31	Chemical 1670 1684	Spironolactone
+T32	Disease 1693 1705	hyperkalemia
+T33	Disease 1710 1729	renal insufficiency

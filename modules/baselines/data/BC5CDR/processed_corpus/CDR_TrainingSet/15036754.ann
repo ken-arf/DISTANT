@@ -1,0 +1,48 @@
+T1	Chemical 0 15	Organophosphate
+T2	Disease 24 35	convulsions
+T3	Disease 54 79	neuropathological damages
+T4	Chemical 85 101	organophosphorus
+T5	Chemical 103 105	OP
+T6	Chemical 120 146	diisopropylfluorophosphate
+T7	Chemical 148 151	DFP
+T8	Chemical 154 159	sarin
+T9	Chemical 164 169	soman
+T10	Disease 271 279	toxicity
+T11	Chemical 283 286	OPs
+T12	Chemical 394 407	acetylcholine
+T13	Chemical 409 412	ACh
+T14	Chemical 515 518	DFP
+T15	Chemical 634 656	pralidoxime-2-chloride
+T16	Chemical 658 662	2PAM
+T17	Chemical 696 704	diazepam
+T18	Chemical 726 735	adenosine
+T19	Chemical 753 779	N(6)-cyclopentyl adenosine
+T20	Chemical 781 784	CPA
+T21	Chemical 802 806	NMDA
+T22	Chemical 827 846	dizocilpine maleate
+T23	Chemical 934 950	atropine sulfate
+T24	Chemical 1022 1025	DFP
+T25	Chemical 1053 1069	atropine sulfate
+T26	Chemical 1132 1135	DFP
+T27	Chemical 1209 1212	DFP
+T28	Chemical 1246 1249	DFP
+T29	Chemical 1250 1258	atropine
+T30	Chemical 1281 1283	OP
+T31	Disease 1292 1300	toxicity
+T32	Chemical 1313 1316	CPA
+T33	Chemical 1318 1326	diazepam
+T34	Chemical 1330 1334	2PAM
+T35	Chemical 1363 1366	DFP
+T36	Chemical 1367 1375	atropine
+T37	Disease 1461 1470	poisoning
+T38	Chemical 1472 1480	Atropine
+T39	Chemical 1481 1486	MK801
+T40	Chemical 1535 1538	DFP
+T41	Disease 1539 1547	toxicity
+T42	Chemical 1564 1567	CPA
+T43	Chemical 1569 1577	diazepam
+T44	Chemical 1582 1586	2PAM
+T45	Chemical 1607 1615	atropine
+T46	Disease 1661 1670	poisoning
+T47	Disease 1692 1700	toxicity
+T48	Chemical 1704 1707	DFP

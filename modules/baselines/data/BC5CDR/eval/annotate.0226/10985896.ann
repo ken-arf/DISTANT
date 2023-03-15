@@ -1,0 +1,18 @@
+T1	Chemical 17 38	liposomal doxorubicin
+T3	Disease 98 120	fallopian tube cancers
+T4	Disease 125 142	primary carcinoma
+T5	Chemical 207 228	liposomal doxorubicin
+T6	Chemical 230 235	Doxil
+T7	Chemical 253 273	antineoplastic agent
+T8	Disease 296 310	ovarian cancer
+T11	Disease 428 446	hand-foot syndrome
+T13	Chemical 503 542	liposomal doxorubicin treatment regimen
+T16	Disease 708 730	fallopian tube cancers
+T21	Chemical 948 969	liposomal doxorubicin
+T23	Disease 1193 1219	grade 2 hand-foot syndrome
+T25	Disease 1265 1272	grade 3
+T26	Disease 1297 1313	grade 3 diarrhea
+T28	Chemical 1435 1456	liposomal doxorubicin
+T31	Chemical 1666 1687	liposomal doxorubicin
+T34	Disease 1734 1752	hand-foot syndrome
+T35	Disease 1930 1944	ovarian cancer

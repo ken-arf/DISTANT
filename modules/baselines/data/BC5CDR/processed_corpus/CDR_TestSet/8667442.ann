@@ -1,0 +1,24 @@
+T1	Disease 0 20	Milk-alkali syndrome
+T2	Chemical 32 42	1,25(OH)2D
+T3	Disease 61 79	hypoparathyroidism
+T4	Disease 80 100	Milk-alkali syndrome
+T5	Disease 169 189	peptic ulcer disease
+T6	Chemical 212 219	calcium
+T7	Chemical 224 230	alkali
+T8	Disease 254 259	ulcer
+T9	Chemical 283 293	omeprazole
+T10	Chemical 299 309	sucralfate
+T11	Disease 329 349	milk-alkali syndrome
+T12	Disease 400 413	hypercalcemia
+T13	Disease 415 424	alkalosis
+T14	Disease 430 446	renal impairment
+T15	Disease 485 505	Milk-alkali syndrome
+T16	Disease 649 667	hypoparathyroidism
+T17	Chemical 689 706	calcium carbonate
+T18	Chemical 711 721	calcitriol
+T19	Disease 770 790	milk-alkali syndrome
+T20	Chemical 846 857	pamidronate
+T21	Chemical 890 904	hydrocortisone
+T22	Chemical 949 960	pamidronate
+T23	Disease 997 1017	milk-alkali syndrome
+T24	Disease 1030 1053	hypercalcemic emergency

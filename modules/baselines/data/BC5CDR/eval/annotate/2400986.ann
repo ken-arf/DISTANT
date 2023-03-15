@@ -1,0 +1,25 @@
+T1	Disease 15 28	neurotoxicity
+T2	Chemical 42 50	busulfan
+T3	Chemical 101 109	Busulfan
+T4	Disease 173 186	neurotoxicity
+T5	Disease 367 378	bone marrow
+T7	Disease 423 435	brain tumors
+T8	Chemical 446 454	Busulfan
+T9	Chemical 751 765	anticonvulsive
+T11	Disease 986 999	neurotoxicity
+T12	Chemical 1040 1042	(1
+T13	Chemical 1220 1230	clonazepam
+T14	Chemical 1268 1276	Busulfan
+T15	Disease 1407 1437	central nervous system disease
+T16	Chemical 1454 1462	busulfan
+T17	Chemical 1468 1478	clonazepam
+T18	Chemical 1479 1507	busulfan cerebrospinal fluid
+T19	Chemical 1691 1699	busulfan
+T20	Chemical 1805 1815	clonazepam
+T21	Chemical 1819 1827	busulfan
+T22	Disease 1950 1963	neurotoxicity
+T23	Disease 1974 1987	neurotoxicity
+T24	Chemical 2071 2079	busulfan
+T25	Chemical 2287 2300	myeloablative
+T26	Chemical 2314 2322	busulfan
+T27	Disease 2363 2374	bone marrow

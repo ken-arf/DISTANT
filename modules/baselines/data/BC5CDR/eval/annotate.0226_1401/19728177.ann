@@ -1,0 +1,18 @@
+T4	Disease 50 64	cerebral edema
+T5	Disease 69 94	intracranial hypertension
+T6	Disease 111 136	fulminant hepatic failure
+T7	Disease 209 223	cerebral edema
+T8	Disease 237 262	fulminant hepatic failure
+T12	Chemical 455 458	FHF
+T15	Disease 492 506	cerebral edema
+T19	Disease 696 717	mental status lasting
+T20	Chemical 781 784	FHF
+T22	Disease 808 822	cerebral edema
+T25	Disease 907 925	chemical paralysis
+T26	Chemical 927 930	Her
+T27	Disease 931 952	intracranial pressure
+T30	Disease 1119 1137	her cerebral edema
+T31	Disease 1142 1167	intracranial hypertension
+T35	Chemical 1277 1280	FHF
+T36	Disease 1285 1299	cerebral edema
+T41	Disease 1442 1463	neurological recovery

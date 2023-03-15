@@ -1,0 +1,20 @@
+T1	Chemical 41 52	thalidomide
+T2	Disease 77 92	prostate cancer
+T3	Chemical 123 134	thalidomide
+T4	Disease 208 222	haematological
+T5	Disease 208 235	haematological malignancies
+T6	Chemical 237 248	Thalidomide
+T7	Chemical 360 371	thalidomide
+T8	Disease 445 460	prostate cancer
+T9	Chemical 599 602	PSA
+T10	Chemical 605 609	urea
+T11	Chemical 643 647	VEGF
+T12	Disease 1132 1144	constipation
+T13	Disease 1154 1164	drowsiness
+T14	Disease 1166 1175	dizziness
+T15	Disease 1180 1184	rash
+T16	Disease 1254 1283	peripheral sensory neuropathy
+T17	Chemical 1375 1386	thalidomide
+T18	Disease 1412 1433	peripheral neuropathy
+T19	Chemical 1533 1544	thalidomide
+T20	Disease 1673 1694	peripheral neuropathy

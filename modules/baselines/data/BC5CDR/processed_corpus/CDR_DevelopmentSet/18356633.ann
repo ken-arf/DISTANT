@@ -1,0 +1,18 @@
+T1	Chemical 17 25	amikacin
+T2	Disease 26 40	nephrotoxicity
+T3	Chemical 79 87	Amikacin
+T4	Chemical 94 108	aminoglycoside
+T5	Disease 179 198	febrile neutropenia
+T6	Disease 219 229	infections
+T7	Chemical 459 467	amikacin
+T8	Disease 479 493	nephrotoxicity
+T9	Disease 689 719	hematologic/oncologic disorder
+T10	Disease 689 700;711 719	hematologic disorder
+T11	Disease 701 719	oncologic disorder
+T12	Chemical 752 766	aminoglycoside
+T13	Chemical 827 835	amikacin
+T14	Disease 855 869	nephrotoxicity
+T15	Chemical 903 913	creatinine
+T16	Chemical 945 953	amikacin
+T17	Disease 1034 1048	nephrotoxicity
+T18	Disease 1300 1314	nephrotoxicity

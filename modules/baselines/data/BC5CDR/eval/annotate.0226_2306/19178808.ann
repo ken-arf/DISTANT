@@ -1,0 +1,18 @@
+T1	Disease 14 28	laryngeal mask
+T2	Disease 81 94	sinus surgery
+T3	Disease 193 207	intraoperative
+T4	Disease 228 257	intraoperative blood pressure
+T5	Disease 288 301	sinus surgery
+T6	Disease 335 349	laryngeal mask
+T7	Chemical 456 477	propofol-remifentanil
+T8	Chemical 501 505	TIVA
+T9	Chemical 660 686	propofol-remifentanil-TIVA
+T10	Chemical 660 686	propofol-remifentanil-TIVA
+T11	Chemical 727 734	group I
+T12	Chemical 743 751	group II
+T14	Chemical 981 993	remifentanil
+T15	Chemical 1027 1039	remifentanil
+T16	Disease 1241 1251	blood loss
+T19	Chemical 1304 1313	low doses
+T20	Chemical 1317 1329	remifentanil
+T21	Chemical 1337 1341	TIVA

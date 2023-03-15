@@ -1,0 +1,18 @@
+T1	Disease 9 23	Renal Toxicity
+T2	Chemical 53 62	Cisplatin
+T4	Chemical 101 110	Cisplatin
+T7	Chemical 178 187	cisplatin
+T10	Chemical 312 328	nephroprotectant
+T12	Disease 423 437	nephrotoxicity
+T13	Chemical 480 489	cisplatin
+T16	Chemical 702 711	cisplatin
+T17	Disease 790 809	acute kidney injury
+T18	Disease 811 814	AKI
+T19	Chemical 865 877	single-agent
+T20	Chemical 878 887	cisplatin
+T21	Disease 911 931	head and neck cancer
+T22	Disease 941 959	primary malignancy
+T24	Disease 1027 1041	nephrotoxicity
+T28	Disease 1238 1252	nephrotoxicity
+T32	Disease 1507 1521	nephrotoxicity
+T33	Chemical 1610 1619	cisplatin

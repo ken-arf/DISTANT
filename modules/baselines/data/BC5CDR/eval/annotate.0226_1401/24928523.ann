@@ -1,0 +1,12 @@
+T1	Chemical 15 25	bortezomib
+T5	Disease 150 166	multiple myeloma
+T6	Disease 228 244	multiple myeloma
+T8	Chemical 445 455	bortezomib
+T11	Disease 548 563	newly diagnosed
+T13	Chemical 585 595	bortezomib
+T18	Disease 759 766	Grade 3
+T23	Disease 945 966	Peripheral neuropathy
+T24	Disease 997 1004	grade 3
+T25	Disease 1007 1028	peripheral neuropathy
+T26	Chemical 1236 1240	VGPR
+T27	Chemical 1274 1278	VGPR

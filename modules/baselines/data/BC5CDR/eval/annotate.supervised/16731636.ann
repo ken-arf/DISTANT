@@ -1,0 +1,12 @@
+T1	Disease 31 50	cardiac hypertrophy
+T2	Chemical 405 418	isoproterenol
+T3	Chemical 420 423	Iso
+T4	Chemical 457 472	angiotensinogen
+T5	Chemical 510 513	Iso
+T6	Disease 679 690	hypertrophy
+T7	Chemical 702 705	Iso
+T8	Disease 853 855	LV
+T9	Disease 856 867	hypertrophy
+T10	Chemical 1096 1106	metoprolol
+T11	Chemical 1269 1277	atropine
+T12	Disease 1422 1433	hypertrophy

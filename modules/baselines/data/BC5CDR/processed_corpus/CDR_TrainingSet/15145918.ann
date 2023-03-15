@@ -1,0 +1,27 @@
+T1	Chemical 27 35	estrogen
+T2	Chemical 64 75	imidazoline
+T3	Disease 94 105	hypotension
+T4	Chemical 149 157	estrogen
+T5	Disease 183 194	hypotensive
+T6	Chemical 205 214	clonidine
+T7	Chemical 393 401	estrogen
+T8	Chemical 513 524	rilmenidine
+T9	Chemical 544 560	alpha-methyldopa
+T10	Chemical 821 829	estrogen
+T11	Chemical 1206 1217	rilmenidine
+T12	Chemical 1221 1237	alpha-methyldopa
+T13	Disease 1255 1266	hypotension
+T14	Chemical 1401 1417	alpha-methyldopa
+T15	Disease 1450 1461	hypotensive
+T16	Chemical 1474 1490	alpha-methyldopa
+T17	Chemical 1520 1531	rilmenidine
+T18	Disease 1532 1543	hypotension
+T19	Chemical 1558 1574	alpha-methyldopa
+T20	Disease 1575 1586	hypotension
+T21	Disease 1649 1677	a reduced locomotor activity
+T22	Chemical 1701 1717	17beta-estradiol
+T23	Chemical 1825 1841	alpha-methyldopa
+T24	Chemical 1895 1903	estrogen
+T25	Disease 1955 1966	hypotension
+T26	Chemical 2025 2041	alpha-methyldopa
+T27	Chemical 2042 2050	estrogen

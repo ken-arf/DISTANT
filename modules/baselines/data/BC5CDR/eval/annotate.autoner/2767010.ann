@@ -1,0 +1,20 @@
+T1	Chemical 26 35	phenytoin
+T2	Chemical 59 67	disodium
+T3	Chemical 142 151	phenytoin
+T4	Chemical 287 293	sodium
+T5	Disease 342 350	seizures
+T6	Chemical 521 527	sodium
+T7	Chemical 542 558	phenytoin sodium
+T8	Chemical 697 713	phenytoin sodium
+T9	Disease 739 749	arrhythmia
+T10	Disease 768 774	rhythm
+T11	Chemical 838 844	sodium
+T12	Disease 919 930	arrhythmias
+T13	Chemical 1117 1123	sodium
+T14	Chemical 1153 1169	phenytoin sodium
+T15	Chemical 1347 1363	phenytoin sodium
+T16	Disease 1378 1386	toxicity
+T17	Chemical 1421 1427	sodium
+T18	Disease 1547 1552	signs
+T19	Disease 1652 1662	irritation
+T20	Chemical 1708 1714	sodium

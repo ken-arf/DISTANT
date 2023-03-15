@@ -1,0 +1,22 @@
+T1	Disease 13 25	compensatory
+T3	Chemical 63 77	glycopyrrolate
+T4	Disease 78 101	Gustatory hyperhidrosis
+T5	Disease 105 120	facial sweating
+T6	Disease 159 168	hot spicy
+T8	Chemical 244 265	anticholinergic drugs
+T10	Chemical 314 331	aluminum chloride
+T11	Chemical 354 369	botulinum toxin
+T12	Chemical 439 453	glycopyrrolate
+T13	Disease 472 495	gustatory hyperhidrosis
+T15	Chemical 677 691	glycopyrrolate
+T18	Disease 934 949	Adverse effects
+T19	Disease 968 977	dry mouth
+T20	Disease 984 995	sore throat
+T21	Chemical 1010 1012	(2
+T22	Chemical 1014 1028	glycopyrrolate
+T23	Disease 1033 1047	light headache
+T24	Chemical 1067 1081	glycopyrrolate
+T25	Chemical 1113 1127	glycopyrrolate
+T28	Disease 1254 1277	gustatory hyperhidrosis
+T29	Disease 1328 1342	sympathicotomy
+T30	Disease 1362 1374	side effects

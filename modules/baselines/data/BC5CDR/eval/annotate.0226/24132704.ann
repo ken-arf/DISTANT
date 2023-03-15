@@ -1,0 +1,38 @@
+T1	Chemical 0 6	Crocin
+T2	Disease 22 35	dysregulation
+T3	Chemical 39 56	subacute diazinon
+T4	Chemical 74 80	ERK1/2
+T6	Chemical 116 124	Diazinon
+T8	Chemical 158 187	organophosphorus insecticides
+T9	Chemical 239 247	diazinon
+T10	Disease 267 283	lipid metabolism
+T11	Chemical 323 329	crocin
+T12	Chemical 395 432	Extracellular signal-regulated kinase
+T13	Chemical 434 437	ERK
+T15	Chemical 451 483	low-density lipoprotein receptor
+T16	Chemical 485 489	LDLr
+T17	Disease 570 586	lipid metabolism
+T18	Chemical 588 591	ERK
+T19	Chemical 596 600	LDLr
+T21	Chemical 644 661	subacute diazinon
+T22	Chemical 698 704	crocin
+T23	Chemical 708 716	diazinon
+T24	Disease 735 758	cholesterol homeostasis
+T25	Chemical 863 871	Corn oil
+T26	Chemical 883 891	diazinon
+T27	Chemical 922 928	crocin
+T29	Chemical 995 1003	diazinon
+T34	Chemical 1120 1124	LDLr
+T35	Chemical 1129 1135	ERK1/2
+T38	Chemical 1194 1200	ERK1/2
+T40	Chemical 1363 1371	diazinon
+T44	Chemical 1458 1466	diazinon
+T45	Chemical 1477 1507	ERK1/2 protein phosphorylation
+T46	Chemical 1512 1516	LDLr
+T48	Chemical 1529 1535	Crocin
+T49	Chemical 1558 1561	ERK
+T52	Chemical 1631 1635	LDLr
+T54	Chemical 1661 1667	Crocin
+T55	Chemical 1697 1713	protective agent
+T56	Chemical 1769 1780	ERK pathway
+T57	Chemical 1797 1801	LDLr

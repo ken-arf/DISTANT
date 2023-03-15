@@ -1,0 +1,15 @@
+T1	Disease 0 13	Heart failure
+T2	Chemical 104 111	digoxin
+T3	Disease 156 175	atrial fibrillation
+T4	Chemical 176 183	digoxin
+T5	Disease 261 274	heart failure
+T6	Chemical 304 311	Digoxin
+T7	Chemical 409 416	digoxin
+T8	Disease 518 529	arrhythmias
+T9	Chemical 757 764	digoxin
+T10	Chemical 989 996	digoxin
+T11	Disease 1026 1047	myocardial infarction
+T12	Disease 1049 1051	MI
+T13	Chemical 1054 1076	Angiotensin-converting
+T14	Chemical 1315 1322	digoxin
+T15	Chemical 1409 1416	digoxin

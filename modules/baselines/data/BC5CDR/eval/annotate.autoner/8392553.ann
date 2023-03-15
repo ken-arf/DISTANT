@@ -1,0 +1,12 @@
+T1	Disease 60 74	cardiac injury
+T2	Chemical 148 155	calcium
+T3	Disease 171 205	epinephrine-induced cardiomyopathy
+T4	Chemical 235 246	epinephrine
+T5	Disease 323 331	fibrosis
+T6	Chemical 474 487	isoproterenol
+T7	Disease 760 771	ventricular
+T8	Disease 793 801	fibrosis
+T9	Chemical 906 919	isoproterenol
+T10	Chemical 1013 1024	epinephrine
+T11	Chemical 1511 1520	partially
+T12	Disease 1662 1676	cardiac injury

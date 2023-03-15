@@ -1,0 +1,23 @@
+T1	Chemical 0 14	Chemokine CCL2
+T2	Chemical 32 36	CCR2
+T3	Disease 100 118	status epilepticus
+T4	Disease 131 148	Neuroinflammation
+T6	Chemical 209 213	CCR2
+T7	Chemical 219 237	chemokine receptor
+T8	Chemical 242 246	CCL2
+T9	Disease 307 324	neuroinflammatory
+T10	Chemical 388 392	CCR2
+T11	Chemical 397 401	CCL2
+T12	Disease 437 455	status epilepticus
+T13	Chemical 628 632	CCR2
+T14	Chemical 731 735	CCR2
+T15	Chemical 810 814	CCL2
+T16	Chemical 897 901	CCR2
+T18	Chemical 1011 1015	CCR2
+T19	Chemical 1061 1065	CCR2
+T20	Chemical 1323 1328	CCR2+
+T21	Chemical 1391 1395	CCL2
+T22	Chemical 1499 1503	CCR2
+T23	Chemical 1508 1512	CCL2
+T25	Chemical 1614 1627	CCR2 receptor
+T26	Disease 1733 1750	neuroinflammatory

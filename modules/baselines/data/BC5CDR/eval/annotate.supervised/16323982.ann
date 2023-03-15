@@ -1,0 +1,19 @@
+T1	Disease 33 58	coronary arterial disease
+T2	Disease 145 160	prostate cancer
+T3	Chemical 245 257	cholesterols
+T4	Chemical 259 260	C
+T5	Chemical 263 276	triglycerides
+T6	Chemical 278 280	TG
+T7	Disease 410 425	prostate cancer
+T8	Chemical 485 496	cyproterone
+T9	Chemical 485 504	cyproterone acetate
+T10	Chemical 506 509	CPA
+T11	Chemical 642 654	triglyceride
+T12	Chemical 686 689	CPA
+T13	Chemical 722 725	CPA
+T14	Disease 799 821	coronary heart disease
+T15	Disease 836 871	Ischaemic coronary arteriosclerosis
+T16	Disease 855 871	arteriosclerosis
+T17	Chemical 927 930	CPA
+T18	Chemical 974 985	cholesterol
+T19	Chemical 1081 1089	estrogen

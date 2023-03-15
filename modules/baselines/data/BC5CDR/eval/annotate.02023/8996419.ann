@@ -1,0 +1,18 @@
+T1	Chemical 81 100	oral contraceptives
+T2	Chemical 247 266	oral contraceptives
+T3	Chemical 305 317	progestagens
+T4	Chemical 331 342	desogestrel
+T5	Chemical 393 405	progestagens
+T7	Disease 937 954	venous thrombosis
+T8	Disease 983 1000	pulmonary embolus
+T12	Disease 1945 1962	venous thrombosis
+T13	Chemical 2467 2479	progestagens
+T14	Chemical 2520 2531	desogestrel
+T15	Chemical 2542 2559	ethinyloestradiol
+T16	Chemical 2590 2601	desogestrel
+T17	Chemical 2612 2629	ethinyloestradiol
+T18	Chemical 2731 2742	desogestrel
+T19	Chemical 2753 2770	ethinyloestradiol
+T20	Chemical 2823 2835	progestagens
+T21	Chemical 3124 3141	ethinyloestradiol
+T22	Chemical 3146 3157	desogestrel

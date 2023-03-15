@@ -1,0 +1,13 @@
+T1	Disease 123 134	epilepticus
+T2	Disease 169 180	epilepticus
+T3	Disease 450 458	seizures
+T4	Disease 496 507	epilepticus
+T5	Disease 706 713	ectopic
+T6	Disease 826 837	epilepticus
+T7	Disease 1027 1034	ectopic
+T8	Disease 1072 1083	epilepticus
+T9	Disease 1222 1230	seizures
+T10	Disease 1323 1331	seizures
+T11	Chemical 1606 1617	pilocarpine
+T12	Disease 1627 1635	temporal
+T13	Disease 1641 1649	epilepsy

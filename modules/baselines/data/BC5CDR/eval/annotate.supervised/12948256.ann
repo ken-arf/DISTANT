@@ -1,0 +1,16 @@
+T1	Chemical 0 10	Ethambutol
+T2	Disease 15 31	optic neuropathy
+T3	Chemical 80 90	ethambutol
+T4	Disease 95 111	optic neuropathy
+T5	Disease 153 169	optic neuropathy
+T6	Chemical 195 205	ethambutol
+T7	Disease 210 222	tuberculosis
+T8	Disease 456 472	optic neuropathy
+T9	Chemical 530 540	ethambutol
+T10	Disease 732 749	visual impairment
+T11	Disease 766 783	diabetes mellitus
+T12	Disease 785 793	glaucoma
+T13	Disease 859 875	optic neuropathy
+T14	Chemical 914 924	ethambutol
+T15	Disease 1032 1049	diabetes mellitus
+T16	Disease 1051 1059	glaucoma

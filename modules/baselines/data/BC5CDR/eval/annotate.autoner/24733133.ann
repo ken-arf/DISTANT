@@ -1,0 +1,27 @@
+T1	Chemical 7 17	argatroban
+T2	Chemical 58 67	alteplase
+T3	Disease 96 128	heparin-induced thrombocytopenia
+T4	Disease 134 144	thrombosis
+T5	Disease 200 232	heparin-induced thrombocytopenia
+T6	Disease 238 248	thrombosis
+T7	Disease 250 254	HITT
+T8	Chemical 277 287	argatroban
+T9	Disease 401 418	renal amyloidosis
+T10	Disease 517 526	extensive
+T11	Disease 565 575	thrombosis
+T12	Disease 577 580	DVT
+T13	Disease 618 650	heparin-induced thrombocytopenia
+T14	Chemical 682 692	argatroban
+T15	Disease 907 915	syndrome
+T16	Disease 919 931	percutaneous
+T17	Chemical 969 978	alteplase
+T18	Disease 1032 1041	epistaxis
+T19	Disease 1134 1146	percutaneous
+T20	Chemical 1339 1349	argatroban
+T21	Chemical 1519 1529	argatroban
+T22	Chemical 1566 1574	warfarin
+T23	Disease 1663 1669	vision
+T24	Disease 1674 1681	hearing
+T25	Disease 1759 1776	renal amyloidosis
+T26	Disease 1785 1793	syndrome
+T27	Chemical 1866 1875	alteplase

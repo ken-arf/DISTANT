@@ -1,0 +1,16 @@
+T1	Chemical 27 44	6-hydroxydopamine
+T2	Disease 79 90	dyskinesias
+T3	Disease 133 149	Motor impairment
+T4	Chemical 151 159	dopamine
+T5	Chemical 161 163	DA
+T6	Chemical 299 317	L-DOPA+benserazide
+T7	Chemical 359 365	6-OHDA
+T8	Disease 387 406	motor deterioration
+T9	Chemical 450 452	DA
+T10	Chemical 645 648	MDA
+T11	Chemical 738 756	L-DOPA+benserazide
+T12	Disease 792 803	dyskinesias
+T13	Disease 921 937	motor impairment
+T14	Chemical 942 944	DA
+T15	Disease 980 991	dyskinesias
+T16	Disease 1137 1148	dyskinesias

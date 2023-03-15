@@ -1,0 +1,46 @@
+T1	Chemical 17 42	N-(2-propylpentanoyl)urea
+T2	Chemical 58 68	amino acid
+T3	Chemical 90 101	pilocarpine
+T4	Disease 110 117	seizure
+T5	Chemical 244 254	amino acid
+T6	Chemical 274 283	glutamate
+T7	Chemical 285 294	aspartate
+T8	Chemical 296 303	glycine
+T9	Chemical 308 312	GABA
+T10	Chemical 317 342	N-(2-propylpentanoyl)urea
+T11	Chemical 344 347	VPU
+T12	Chemical 387 400	valproic acid
+T13	Chemical 402 405	VPA
+T14	Chemical 408 411	VPU
+T15	Chemical 433 436	VPA
+T16	Chemical 523 534	pilocarpine
+T17	Disease 543 550	seizure
+T18	Chemical 587 590	VPA
+T19	Chemical 683 694	pilocarpine
+T20	Chemical 741 750	glutamate
+T21	Chemical 755 764	aspartate
+T22	Chemical 824 831	glycine
+T23	Chemical 836 840	GABA
+T24	Chemical 867 870	VPU
+T25	Chemical 893 896	VPA
+T26	Chemical 938 949	pilocarpine
+T27	Chemical 984 993	glutamate
+T28	Chemical 998 1007	aspartate
+T29	Chemical 1094 1098	GABA
+T30	Chemical 1103 1110	glycine
+T31	Chemical 1148 1157	glutamate
+T32	Chemical 1162 1171	aspartate
+T33	Chemical 1205 1208	VPU
+T34	Chemical 1213 1216	VPA
+T35	Chemical 1251 1262	pilocarpine
+T36	Disease 1271 1278	seizure
+T37	Chemical 1328 1338	amino acid
+T38	Chemical 1421 1430	glutamate
+T39	Chemical 1435 1444	aspartate
+T40	Chemical 1462 1465	VPA
+T41	Chemical 1484 1487	VPU
+T42	Chemical 1513 1524	pilocarpine
+T43	Chemical 1546 1555	glutamate
+T44	Chemical 1560 1569	aspartate
+T45	Chemical 1647 1658	pilocarpine
+T46	Disease 1667 1674	seizure

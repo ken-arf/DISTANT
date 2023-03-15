@@ -1,0 +1,10 @@
+T1	Chemical 0 10	Nifedipine
+T2	Disease 19 30	bradycardia
+T3	Disease 49 69	autonomic neuropathy
+T4	Disease 85 93	diabetic
+T5	Disease 131 151	autonomic neuropathy
+T6	Disease 176 180	pain
+T7	Disease 203 217	atrial flutter
+T8	Chemical 432 442	nifedipine
+T9	Disease 451 462	tachycardia
+T10	Disease 572 583	bradycardia

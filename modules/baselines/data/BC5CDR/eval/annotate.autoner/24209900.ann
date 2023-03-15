@@ -1,0 +1,22 @@
+T1	Chemical 0 10	Ifosfamide
+T2	Disease 19 33	encephalopathy
+T3	Chemical 84 94	Ifosfamide
+T4	Disease 161 168	cancers
+T5	Disease 226 233	cancers
+T6	Disease 235 249	Encephalopathy
+T7	Chemical 310 323	IV ifosfamide
+T8	Chemical 429 439	ifosfamide
+T9	Disease 448 462	encephalopathy
+T10	Disease 594 600	Cancer
+T11	Chemical 651 661	ifosfamide
+T12	Disease 676 690	encephalopathy
+T13	Disease 743 757	encephalopathy
+T14	Chemical 800 810	ifosfamide
+T15	Disease 847 858	convulsions
+T16	Disease 898 912	non-convulsive
+T17	Disease 920 931	epilepticus
+T18	Disease 1002 1014	epileptiform
+T19	Chemical 1355 1365	ifosfamide
+T20	Disease 1374 1388	encephalopathy
+T21	Chemical 1476 1486	ifosfamide
+T22	Disease 1511 1525	encephalopathy.

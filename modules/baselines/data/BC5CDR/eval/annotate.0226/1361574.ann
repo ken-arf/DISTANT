@@ -1,0 +1,33 @@
+T1	Chemical 16 57	gamma-aminobutyric acidA receptor complex
+T2	Chemical 117 146	anticonvulsant beta-carboline
+T3	Chemical 198 291	beta-carboline derivative isopropyl-6- benzyloxy-4-methoxymethyl-beta-carboline-3-carboxylate
+T4	Chemical 293 303	abecarrnil
+T9	Chemical 442 465	gamma-aminobutyric acid
+T10	Chemical 466 473	(GABA)A
+T11	Chemical 466 490	(GABA)A receptor complex
+T12	Chemical 572 581	abecarnil
+T13	Chemical 592 608	[3H]GABA binding
+T14	Chemical 679 715	t-[35S]butylbicyclophosphorothionate
+T15	Chemical 717 726	[35S]TBPS
+T17	Chemical 798 824	partial agonist Ro 16-6028
+T18	Chemical 826 882	tert-butyl-(S)-8-bromo-11,12,13,13a-tetrahydro-9-oxo-9H-
+T19	Chemical 826 946	tert-butyl-(S)-8-bromo-11,12,13,13a-tetrahydro-9-oxo-9H- imidazo[1,5-a]-pyrrolo-[2,1-c][1,4]benzodiazepine-1-carboxylate
+T20	Chemical 883 946	imidazo[1,5-a]-pyrrolo-[2,1-c][1,4]benzodiazepine-1-carboxylate
+T21	Chemical 883 946	imidazo[1,5-a]-pyrrolo-[2,1-c][1,4]benzodiazepine-1-carboxylate
+T22	Chemical 883 946	imidazo[1,5-a]-pyrrolo-[2,1-c][1,4]benzodiazepine-1-carboxylate
+T23	Chemical 883 946	imidazo[1,5-a]-pyrrolo-[2,1-c][1,4]benzodiazepine-1-carboxylate
+T24	Chemical 1032 1041	abecarnil
+T26	Chemical 1117 1121	i.p.
+T27	Chemical 1130 1139	[35S]TBPS
+T29	Disease 1172 1187	cerebral cortex
+T32	Chemical 1262 1272	convulsant
+T33	Chemical 1331 1341	isoniazide
+T34	Chemical 1386 1395	[35S]TBPS
+T35	Disease 1415 1425	foot-shock
+T37	Chemical 1528 1537	abecarnil
+T38	Chemical 1541 1558	[35S]TBPS binding
+T39	Chemical 1673 1682	abecarnil
+T40	Chemical 1734 1738	i.p.
+T42	Chemical 1786 1795	[35S]TBPS
+T43	Chemical 1834 1848	beta-carboline
+T44	Chemical 1882 1891	[35S]TBPS

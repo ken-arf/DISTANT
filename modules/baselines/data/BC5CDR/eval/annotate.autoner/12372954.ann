@@ -1,0 +1,14 @@
+T1	Disease 6 28	interstitial nephritis
+T2	Disease 84 106	interstitial nephritis
+T3	Disease 194 199	fever
+T4	Disease 210 223	renal failure
+T5	Disease 314 323	occlusion
+T6	Disease 394 399	fever
+T7	Disease 409 413	rash
+T8	Disease 438 446	symptoms
+T9	Disease 468 473	fever
+T10	Disease 505 517	eosinophilia
+T11	Disease 522 535	renal failure
+T12	Disease 608 614	biopsy
+T13	Chemical 770 788	methylprednisolone
+T14	Disease 885 907	nicergoline-associated

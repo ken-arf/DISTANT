@@ -1,0 +1,15 @@
+T1	Disease 166 178	hearing loss
+T2	Disease 213 229	beta-thalassemia
+T3	Chemical 478 493	desferrioxamine
+T4	Chemical 495 498	DFO
+T5	Disease 803 829	sensorineural hearing loss
+T6	Disease 831 835	SNHL
+T7	Disease 873 881	ototoxic
+T8	Chemical 901 904	DFO
+T9	Disease 956 960	SNHL
+T10	Disease 1124 1128	SNHL
+T11	Chemical 1147 1150	DFO
+T12	Chemical 1345 1348	DFO
+T13	Disease 1391 1409	hearing impairment
+T14	Disease 1462 1473	thalassemic
+T15	Disease 1596 1614	hearing impairment

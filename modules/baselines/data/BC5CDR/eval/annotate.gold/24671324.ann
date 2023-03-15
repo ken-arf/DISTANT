@@ -1,0 +1,16 @@
+T1	Disease 0 21	Necrotising fasciitis
+T2	Chemical 28 38	bortezomib
+T3	Chemical 43 56	dexamethasone
+T4	Disease 101 131	Waldenstrom macroglobulinaemia
+T5	Chemical 132 142	Bortezomib
+T6	Chemical 157 170	dexamethasone
+T7	Disease 248 268	bacterial infections
+T8	Disease 293 305	malignancies
+T9	Disease 440 470	Waldenstrom macroglobulinaemia
+T10	Disease 484 505	necrotising fasciitis
+T11	Disease 514 525	neutropenia
+T12	Chemical 563 573	bortezomib
+T13	Chemical 585 598	dexamethasone
+T14	Disease 755 775	bacterial infections
+T15	Chemical 787 797	bortezomib
+T16	Chemical 813 826	dexamethasone

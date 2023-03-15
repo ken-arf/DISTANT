@@ -1,0 +1,16 @@
+T1	Disease 75 94	acute kidney injury
+T2	Disease 175 194	Acute kidney injury
+T3	Disease 196 199	AKI
+T4	Disease 497 508	nephrotoxic
+T5	Disease 543 546	AKI
+T6	Chemical 833 843	vancomycin
+T7	Chemical 845 855	gentamicin
+T8	Chemical 860 870	tobramycin
+T9	Disease 1092 1095	AKI
+T10	Disease 1215 1218	AKI
+T11	Disease 1409 1412	AKI
+T12	Disease 1561 1583	soft tissue infections
+T13	Disease 1668 1671	AKI
+T14	Chemical 1686 1689	HAG
+T15	Disease 1793 1804	nephrotoxic
+T16	Disease 1860 1863	AKI

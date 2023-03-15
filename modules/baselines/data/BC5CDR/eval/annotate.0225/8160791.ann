@@ -1,0 +1,24 @@
+T1	Chemical 15 33	protective effects
+T2	Chemical 37 60	free radical scavengers
+T3	Chemical 161 179	protective effects
+T4	Chemical 183 206	free radical scavengers
+T8	Chemical 357 360	RBF
+T9	Chemical 384 387	CIn
+T10	Chemical 481 494	monophosphate
+T11	Chemical 481 494	monophosphate
+T12	Chemical 496 500	cGMP
+T13	Chemical 567 579	endothelin-1
+T14	Chemical 636 656	Superoxide dismutase
+T15	Chemical 666 682	dimethylthiourea
+T16	Chemical 684 688	DMTU
+T17	Chemical 741 744	CIn
+T18	Chemical 845 848	RBF
+T20	Chemical 873 877	cGMP
+T22	Chemical 923 935	endothelin-1
+T25	Chemical 1115 1136	vasoactive substances
+T26	Disease 1172 1186	renal cortical
+T28	Chemical 1261 1265	DMTU
+T29	Chemical 1271 1289	protective effects
+T30	Chemical 1344 1362	protective effects
+T31	Chemical 1382 1386	DMTU
+T32	Chemical 1395 1412	superoxide anions

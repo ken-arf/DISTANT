@@ -1,0 +1,11 @@
+T1	Chemical 23 35	tetracycline
+T2	Disease 417 429	accumulation
+T3	Chemical 474 484	oleic acid
+T4	Chemical 584 596	tetracycline
+T5	Disease 652 662	depression
+T6	Chemical 913 925	triglyceride
+T7	Disease 1206 1216	depression
+T8	Chemical 1363 1375	tetracycline
+T9	Chemical 1397 1407	oleic acid
+T10	Chemical 1440 1452	triglyceride
+T11	Chemical 1599 1616	triglyceride-rich

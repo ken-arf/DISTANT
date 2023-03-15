@@ -1,0 +1,17 @@
+T1	Disease 15 28	field defects
+T2	Chemical 49 59	vigabatrin
+T3	Disease 88 102	visual defects
+T4	Chemical 123 152	antiepileptic drug vigabatrin
+T5	Chemical 154 157	VGB
+T7	Chemical 227 245	antiepileptic drug
+T10	Disease 459 469	multifocal
+T12	Chemical 634 637	VGB
+T13	Chemical 675 678	VGB
+T14	Chemical 720 723	VGB
+T15	Disease 739 755	retinal function
+T16	Chemical 802 805	VGB
+T17	Chemical 829 832	VGB
+T18	Chemical 897 900	VGB
+T20	Disease 919 938	field abnormalities
+T22	Disease 1002 1014	drug history
+T25	Chemical 1165 1168	VGB

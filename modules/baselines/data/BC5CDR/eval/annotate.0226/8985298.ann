@@ -1,0 +1,15 @@
+T1	Chemical 39 60	hepatitis B virus DNA
+T2	Chemical 72 99	hepatitis B surface antigen
+T3	Chemical 159 190	2',3'-dideoxy cytosine analogue
+T5	Chemical 385 412	hepatitis B surface antigen
+T6	Chemical 414 419	HBsAg
+T8	Chemical 449 454	HBsAg
+T14	Disease 813 824	hepatitis B
+T15	Chemical 832 835	HBV
+T17	Chemical 1029 1032	HBV
+T18	Chemical 1071 1074	HBV
+T19	Chemical 1185 1206	hepatitis B e antigen
+T20	Disease 1248 1270	serious adverse events
+T21	Chemical 1372 1375	HBV
+T23	Chemical 1391 1396	HBsAg
+T25	Chemical 1558 1561	HBV

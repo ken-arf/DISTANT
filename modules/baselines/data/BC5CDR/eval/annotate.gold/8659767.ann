@@ -1,0 +1,35 @@
+T1	Chemical 0 11	Epinephrine
+T2	Chemical 59 70	bupivacaine
+T3	Chemical 85 96	bupivacaine
+T4	Chemical 101 112	epinephrine
+T5	Disease 134 146	dysrhythmias
+T6	Chemical 160 171	bupivacaine
+T7	Chemical 243 254	epinephrine
+T8	Chemical 286 297	bupivacaine
+T9	Chemical 360 371	epinephrine
+T10	Disease 429 450	myocardial infarction
+T11	Chemical 511 522	epinephrine
+T12	Disease 557 580	ventricular tachycardia
+T13	Disease 582 584	VT
+T14	Chemical 659 670	bupivacaine
+T15	Chemical 730 741	epinephrine
+T16	Chemical 750 761	bupivacaine
+T17	Chemical 770 781	epinephrine
+T18	Chemical 831 842	bupivacaine
+T19	Disease 844 846	VT
+T20	Chemical 947 958	Epinephrine
+T21	Chemical 983 994	bupivacaine
+T22	Disease 1047 1068	myocardial infarction
+T23	Chemical 1085 1094	halothane
+T24	Chemical 1146 1157	epinephrine
+T25	Disease 1164 1166	VT
+T26	Chemical 1199 1210	bupivacaine
+T27	Chemical 1278 1289	epinephrine
+T28	Chemical 1337 1348	epinephrine
+T29	Chemical 1381 1392	bupivacaine
+T30	Chemical 1394 1405	Bupivacaine
+T31	Chemical 1418 1429	epinephrine
+T32	Disease 1482 1484	VT
+T33	Disease 1539 1551	dysrhythmias
+T34	Chemical 1597 1608	bupivacaine
+T35	Chemical 1670 1681	epinephrine

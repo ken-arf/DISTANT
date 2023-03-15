@@ -1,0 +1,15 @@
+T1	Disease 51 57	cancer
+T2	Chemical 103 117	5-fluorouracil
+T3	Disease 143 154	dehydration
+T4	Disease 159 168	infection
+T5	Disease 191 197	cancer
+T6	Chemical 304 318	5-fluorouracil
+T7	Chemical 320 324	5-FU
+T8	Disease 368 395	decompensated liver disease
+T9	Disease 708 718	infections
+T10	Chemical 804 812	ammonium
+T11	Disease 844 858	hyperammonemia
+T12	Disease 899 909	infections
+T13	Chemical 1007 1012	mg/m2
+T14	Disease 1321 1334	insufficiency
+T15	Disease 1349 1359	infections

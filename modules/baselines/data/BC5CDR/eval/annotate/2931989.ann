@@ -1,0 +1,14 @@
+T1	Disease 0 24	Adverse ocular reactions
+T2	Chemical 50 62	isotretinoin
+T3	Chemical 141 153	isotretinoin
+T5	Chemical 291 303	contact lens
+T6	Disease 321 336	photodermatitis
+T7	Disease 352 364	side effects
+T8	Disease 386 403	adverse reactions
+T10	Disease 425 444	pseudotumor cerebri
+T11	Disease 478 495	corneal opacities
+T14	Chemical 623 635	Isotretinoin
+T15	Disease 697 721	congenital abnormalities
+T16	Disease 752 766	microphthalmos
+T17	Disease 776 789	hypertelorism
+T18	Disease 795 817	optic nerve hypoplasia

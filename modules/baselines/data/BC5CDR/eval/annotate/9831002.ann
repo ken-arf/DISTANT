@@ -1,0 +1,11 @@
+T7	Disease 176 190	supratentorial
+T8	Disease 211 224	basal ganglia
+T9	Disease 243 271	multicystic encephalomalacia
+T10	Disease 297 328	hypoxic-ischemic encephalopathy
+T12	Chemical 430 442	dopaminergic
+T15	Chemical 552 568	dopamine agonist
+T17	Chemical 625 637	dopaminergic
+T18	Disease 693 704	spinal cord
+T20	Chemical 776 794	gamma-aminobutyric
+T21	Chemical 776 794	gamma-aminobutyric
+T23	Chemical 849 880	gamma-aminobutyric acid-mimetic

@@ -1,0 +1,22 @@
+T1	Disease 18 40	auditory neurotoxicity
+T2	Chemical 63 75	deferoxamine
+T3	Disease 84 117	Visual and auditory neurotoxicity
+T4	Disease 84 90;104 117	Visual neurotoxicity
+T5	Disease 95 117	auditory neurotoxicity
+T6	Disease 192 198	anemia
+T7	Chemical 218 222	iron
+T8	Chemical 265 277	deferoxamine
+T9	Disease 325 414	abnormal audiograms with deficits mostly in the high frequency range of 4,000 to 8,000 Hz
+T10	Chemical 479 491	deferoxamine
+T11	Disease 795 815	permanent disability
+T12	Chemical 870 882	deferoxamine
+T13	Disease 1047 1067	auditory abnormality
+T14	Disease 1116 1124	toxicity
+T15	Chemical 1256 1268	deferoxamine
+T16	Chemical 1353 1365	deferoxamine
+T17	Disease 1385 1396	ototoxicity
+T18	Chemical 1503 1515	deferoxamine
+T19	Disease 1603 1611	toxicity
+T20	Chemical 1779 1791	deferoxamine
+T21	Disease 1864 1876	hearing loss
+T22	Disease 2194 2214	auditory dysfunction

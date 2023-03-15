@@ -1,0 +1,19 @@
+T1	Disease 0 15	Pulmonary edema
+T2	Disease 20 25	shock
+T3	Chemical 42 53	aracytine-C
+T4	Disease 58 66	lymphoma
+T5	Chemical 162 167	Ara-C
+T6	Disease 172 181	lymphomas
+T7	Disease 300 305	fever
+T8	Disease 307 315	diarrhea
+T9	Disease 317 322	shock
+T10	Disease 324 339	pulmonary edema
+T11	Disease 341 360	acute renal failure
+T12	Disease 362 380	metabolic acidosis
+T13	Disease 382 393	weight gain
+T14	Disease 398 410	leukocytosis
+T15	Disease 477 486	infection
+T16	Chemical 566 571	Ara-C
+T17	Disease 832 837	shock
+T18	Disease 842 877	adult respiratory distress syndrome
+T19	Chemical 909 914	Ara-C

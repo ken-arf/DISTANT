@@ -1,0 +1,23 @@
+T1	Disease 63 75	hypertensive
+T2	Chemical 92 100	losartan
+T3	Chemical 185 196	angiotensin
+T4	Chemical 225 233	losartan
+T5	Disease 312 324	hypertensive
+T6	Chemical 341 351	adriamycin
+T7	Chemical 353 356	ADR
+T8	Disease 358 369	nephropathy
+T9	Chemical 560 563	ADR
+T10	Chemical 751 754	ADR
+T11	Disease 1124 1142	glomerulosclerosis
+T12	Disease 1166 1177	proteinuria
+T13	Disease 1241 1259	glomerulosclerosis
+T14	Disease 1307 1314	atrophy
+T15	Disease 1319 1340	interstitial fibrosis
+T16	Disease 1364 1375	proteinuria
+T17	Disease 1388 1401	renal failure
+T18	Disease 1561 1568	atrophy
+T19	Disease 1583 1595	infiltration
+T20	Disease 1600 1608	fibrosis
+T21	Disease 1713 1731	glomerulosclerosis
+T22	Disease 1735 1744	end-stage
+T23	Disease 1751 1758	disease

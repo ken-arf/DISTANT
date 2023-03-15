@@ -1,0 +1,24 @@
+T1	Disease 22 27	mania
+T2	Disease 29 41	antibiomania
+T3	Disease 134 139	manic
+T4	Disease 225 230	mania
+T5	Disease 396 401	mania
+T6	Chemical 463 477	clarithromycin
+T7	Chemical 494 503	isoniazid
+T8	Chemical 533 545	erythromycin
+T9	Chemical 550 561	amoxicillin
+T10	Chemical 600 614	clarithromycin
+T11	Chemical 651 664	ciprofloxacin
+T12	Chemical 690 699	ofloxacin
+T13	Chemical 719 732	Cotrimoxazole
+T14	Chemical 734 747	metronidazole
+T15	Chemical 753 765	erythromycin
+T16	Disease 795 800	manic
+T17	Chemical 844 858	clarithromycin
+T18	Chemical 863 876	ciprofloxacin
+T19	Disease 938 943	mania
+T20	Disease 1129 1134	mania
+T21	Disease 1378 1383	mania
+T22	Disease 1450 1455	manic
+T23	Disease 1565 1584	affective disorders
+T24	Disease 1718 1730	antibiomania

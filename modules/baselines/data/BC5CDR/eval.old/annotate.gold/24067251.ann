@@ -1,0 +1,17 @@
+T1	Disease 35 48	kidney injury
+T2	Chemical 84 113	tenofovir disoproxil fumarate
+T3	Chemical 195 204	tenofovir
+T4	Chemical 475 504	tenofovir disoproxil fumarate
+T5	Chemical 506 509	TDF
+T6	Disease 735 754	acute kidney injury
+T7	Disease 756 782	kidney tubular dysfunction
+T8	Disease 787 803	Fanconi syndrome
+T9	Chemical 873 876	TDF
+T10	Disease 885 899	kidney disease
+T11	Disease 935 961	kidney tubular dysfunction
+T12	Disease 1003 1025	glomerular dysfunction
+T13	Disease 1043 1059	Fanconi syndrome
+T14	Chemical 1072 1075	TDF
+T15	Chemical 1166 1169	TDF
+T16	Disease 1250 1266	Fanconi syndrome
+T17	Chemical 1392 1395	TDF

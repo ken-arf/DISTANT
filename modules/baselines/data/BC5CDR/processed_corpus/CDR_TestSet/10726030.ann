@@ -1,0 +1,31 @@
+T1	Chemical 20 27	heparin
+T2	Disease 36 52	thrombocytopenia
+T3	Disease 57 67	thrombosis
+T4	Chemical 94 101	heparin
+T5	Chemical 110 117	Heparin
+T6	Disease 207 217	thrombosis
+T7	Chemical 303 310	heparin
+T8	Disease 362 372	thrombotic
+T9	Chemical 407 414	heparin
+T10	Disease 459 467	Bleeding
+T11	Chemical 502 509	heparin
+T12	Disease 517 525	bleeding
+T13	Chemical 570 577	heparin
+T14	Chemical 637 644	heparin
+T15	Chemical 661 668	heparin
+T16	Disease 677 693	thrombocytopenia
+T17	Chemical 695 702	heparin
+T18	Disease 714 726	osteoporosis
+T19	Disease 728 740	eosinophilia
+T20	Disease 742 756	skin reactions
+T21	Disease 758 776	allergic reactions
+T22	Disease 788 804	thrombocytopenia
+T23	Disease 806 814	alopecia
+T24	Disease 833 845	hyperkalemia
+T25	Disease 847 864	hypoaldosteronism
+T26	Disease 870 878	priapism
+T27	Chemical 984 991	heparin
+T28	Disease 1029 1033	HITT
+T29	Disease 1038 1050	osteoporosis
+T30	Chemical 1186 1193	heparin
+T31	Chemical 1275 1283	heparins

@@ -1,0 +1,18 @@
+T1	Chemical 32 40	low-dose
+T2	Chemical 97 119	antiangiogenic effects
+T6	Chemical 272 289	angiogenic agents
+T7	Chemical 300 304	bFGF
+T8	Chemical 306 310	VEGF
+T9	Chemical 315 319	IL-6
+T10	Chemical 360 378	thalidomide 100 mg
+T15	Chemical 643 647	VEGF
+T19	Chemical 883 887	VEGF
+T22	Chemical 1002 1006	bFGF
+T23	Chemical 1011 1015	VEGF
+T25	Chemical 1091 1105	growth factors
+T26	Disease 1107 1122	Adverse effects
+T28	Disease 1146 1164	morning drowsiness
+T32	Disease 1254 1283	peripheral sensory neuropathy
+T34	Disease 1388 1408	subclinical evidence
+T35	Disease 1412 1433	peripheral neuropathy
+T38	Disease 1673 1694	peripheral neuropathy

@@ -1,0 +1,32 @@
+T1	Disease 32 39	seizure
+T2	Chemical 142 154	piperacillin
+T3	Disease 165 178	neurotoxicity
+T4	Chemical 195 207	piperacillin
+T5	Disease 314 323	end-stage
+T6	Disease 314 337	end-stage renal disease
+T7	Disease 412 419	slurred
+T8	Disease 412 426	slurred speech
+T9	Disease 428 434	tremor
+T10	Disease 436 443	bizarre
+T11	Disease 436 452	bizarre behavior
+T12	Disease 473 482	confusion
+T13	Disease 514 526	tonic-clonic
+T14	Disease 514 534	tonic-clonic seizure
+T15	Disease 536 540	GTCS
+T16	Chemical 559 582	piperacillin/tazobactam
+T17	Disease 611 625	bronchiectasis
+T18	Disease 641 650	infection
+T19	Chemical 711 718	ammonia
+T20	Disease 730 742	leukocytosis
+T21	Disease 775 785	dysarthria
+T22	Disease 800 808	Babinski
+T23	Disease 937 941	GTCS
+T24	Chemical 983 1006	piperacillin/tazobactam
+T25	Disease 1067 1077	infarction
+T26	Disease 1082 1103	organic brain lesions
+T27	Disease 1163 1182	neurologic symptoms
+T28	Disease 1220 1234	encephalopathy
+T29	Disease 1263 1269	uremic
+T30	Chemical 1325 1329	CAPD
+T31	Chemical 1357 1369	piperacillin
+T32	Disease 1439 1453	encephalopathy

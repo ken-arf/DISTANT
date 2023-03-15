@@ -1,0 +1,25 @@
+T1	Chemical 27 44	6-hydroxydopamine
+T3	Chemical 107 132	CB1 cannabinoid receptors
+T4	Disease 133 149	Motor impairment
+T5	Chemical 151 164	dopamine (DA)
+T6	Chemical 187 200	proenkephalin
+T7	Disease 231 246	caudate-putamen
+T9	Chemical 299 317	L-DOPA+benserazide
+T10	Chemical 319 325	CB1 KO
+T11	Chemical 359 365	6-OHDA
+T12	Disease 387 406	motor deterioration
+T13	Chemical 410 413	CB1
+T15	Chemical 508 529	Oxidative/nitrosative
+T16	Disease 534 551	neuroinflammatory
+T18	Disease 593 602	cingulate
+T19	Chemical 616 619	CB1
+T20	Chemical 645 648	MDA
+T21	Chemical 660 664	iNOS
+T23	Chemical 699 701	Cg
+T24	Chemical 714 716	WT
+T25	Chemical 738 756	L-DOPA+benserazide
+T27	Chemical 807 810	CB1
+T29	Chemical 869 884	cannabinoid CB1
+T31	Disease 921 937	motor impairment
+T33	Chemical 1034 1047	CB1 receptors
+T34	Chemical 1079 1091	dopaminergic

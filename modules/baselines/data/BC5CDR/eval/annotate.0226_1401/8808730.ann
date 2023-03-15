@@ -1,0 +1,32 @@
+T1	Chemical 24 54	neuronal nitric oxide synthase
+T3	Disease 94 120	chronic bladder irritation
+T4	Chemical 205 235	neuronal nitric oxide synthase
+T8	Disease 308 321	urinary tract
+T9	Disease 334 351	Chemical cystitis
+T10	Chemical 367 383	cyclophosphamide
+T11	Chemical 385 388	CYP
+T14	Chemical 474 477	CYP
+T15	Disease 617 634	dorsal commissure
+T16	Disease 636 647	dorsal horn
+T17	Chemical 691 696	L1-L2
+T18	Chemical 701 706	L6-S1
+T22	Disease 791 802	spinal cord
+T23	Chemical 967 970	CYP
+T24	Disease 1061 1086	L6-S1 dorsal root ganglia
+T25	Disease 1088 1091	DRG
+T26	Chemical 1102 1105	CYP
+T27	Disease 1161 1175	bladder weight
+T28	Chemical 1276 1281	L6-S1
+T29	Disease 1282 1285	DRG
+T30	Chemical 1378 1380	L2
+T31	Disease 1388 1391	DRG
+T33	Chemical 1423 1428	L6-S1
+T34	Disease 1429 1432	DRG
+T35	Disease 1459 1470	microliters
+T36	Disease 1490 1502	bladder wall
+T37	Chemical 1573 1576	CYP
+T39	Chemical 1659 1661	L6
+T40	Chemical 1682 1684	S1
+T41	Disease 1806 1825	chemical irritation
+T42	Disease 1855 1868	urinary tract
+T45	Disease 1909 1922	urinary tract

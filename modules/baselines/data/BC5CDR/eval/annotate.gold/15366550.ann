@@ -1,0 +1,14 @@
+T1	Disease 246 275	neurogenic diabetes insipidus
+T2	Disease 277 279	DI
+T3	Disease 296 318	traumatic brain injury
+T4	Disease 422 432	polydipsia
+T5	Chemical 451 458	lithium
+T6	Chemical 464 471	Lithium
+T7	Disease 502 516	nephrogenic DI
+T8	Chemical 559 566	lithium
+T9	Disease 639 653	nephrogenic DI
+T10	Chemical 851 858	lithium
+T11	Disease 867 881	nephrogenic DI
+T12	Disease 896 909	neurogenic DI
+T13	Disease 923 935	brain trauma
+T14	Disease 993 1006	neurogenic DI

@@ -1,0 +1,17 @@
+T1	Chemical 42 48	HOMER1
+T3	Disease 68 83	adverse effects
+T4	Disease 87 106	Parkinson's disease
+T6	Disease 171 190	Parkinson's disease
+T7	Disease 226 250	chronic adverse outcomes
+T8	Disease 260 278	motor fluctuations
+T10	Disease 295 316	visual hallucinations
+T11	Chemical 318 324	HOMER1
+T15	Disease 577 598	chronic complications
+T16	Disease 649 679	idiopathic Parkinson's disease
+T17	Chemical 727 736	rs4704559
+T18	Chemical 738 748	rs10942891
+T19	Chemical 753 762	rs4704560
+T20	Chemical 794 800	Taqman
+T21	Chemical 813 822	rs4704559
+T24	Disease 970 991	visual hallucinations
+T29	Disease 1135 1150	adverse effects

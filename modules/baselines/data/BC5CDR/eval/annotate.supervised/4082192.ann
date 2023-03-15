@@ -1,0 +1,43 @@
+T1	Chemical 12 25	p-aminophenol
+T2	Disease 51 65	nephrotoxicity
+T3	Chemical 77 94	bis(p-nitrophenyl
+T4	Chemical 77 105	bis(p-nitrophenyl) phosphate
+T5	Chemical 109 122	acetaminophen
+T6	Chemical 127 140	p-aminophenol
+T7	Disease 141 155	nephrotoxicity
+T8	Chemical 191 204	Acetaminophen
+T9	Chemical 206 210	APAP
+T10	Disease 221 246	proximal tubular necrosis
+T11	Chemical 285 298	p-aminophenol
+T12	Chemical 300 303	PAP
+T13	Disease 321 335	nephrotoxicant
+T14	Chemical 371 375	APAP
+T15	Chemical 436 439	PAP
+T16	Disease 486 500	nephrotoxicity
+T17	Chemical 527 544	bis(p-nitrophenyl
+T18	Chemical 544 555	) phosphate
+T19	Chemical 557 561	BNPP
+T20	Chemical 593 597	APAP
+T21	Chemical 602 605	PAP
+T22	Disease 606 620	nephrotoxicity
+T23	Chemical 652 656	BNPP
+T24	Chemical 677 681	APAP
+T25	Chemical 818 822	BNPP
+T26	Chemical 832 836	APAP
+T27	Chemical 840 843	PAP
+T28	Chemical 891 895	APAP
+T29	Disease 908 922	nephrotoxicity
+T30	Chemical 931 934	PAP
+T31	Disease 935 949	nephrotoxicity
+T32	Chemical 1008 1012	APAP
+T33	Chemical 1095 1099	BNPP
+T34	Chemical 1137 1141	APAP
+T35	Chemical 1154 1157	PAP
+T36	Chemical 1178 1182	APAP
+T37	Chemical 1211 1215	BNPP
+T38	Chemical 1247 1251	APAP
+T39	Chemical 1303 1307	BNPP
+T40	Chemical 1327 1330	PAP
+T41	Chemical 1356 1359	PAP
+T42	Disease 1442 1456	nephrotoxicity
+T43	Chemical 1533 1536	PAP

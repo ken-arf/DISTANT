@@ -1,0 +1,21 @@
+T2	Chemical 27 43	toxic flecainide
+T3	Chemical 119 129	paroxetine
+T4	Chemical 247 257	paroxetine
+T8	Chemical 473 483	warfarin 2
+T9	Chemical 492 502	folic acid
+T10	Chemical 513 526	levothyroxine
+T11	Chemical 543 555	pantoprazole
+T12	Chemical 567 577	paroxetine
+T15	Disease 670 689	atrial fibrillation
+T20	Chemical 882 892	paroxetine
+T21	Chemical 967 977	Paroxetine
+T24	Chemical 1056 1059	Her
+T28	Chemical 1171 1186	sodium channels
+T32	Chemical 1352 1358	CYP2D6
+T34	Chemical 1374 1384	paroxetine
+T35	Chemical 1388 1404	CYP2D6 inhibitor
+T37	Disease 1549 1567	patient's delirium
+T39	Chemical 1690 1700	paroxetine
+T44	Chemical 1847 1857	paroxetine
+T45	Chemical 1875 1892	CYP2D6 inhibitors
+T47	Chemical 1976 1993	CYP2D6 inhibitors

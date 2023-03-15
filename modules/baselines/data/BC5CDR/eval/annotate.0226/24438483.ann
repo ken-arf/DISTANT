@@ -1,0 +1,34 @@
+T1	Disease 37 62	cardiovascular depression
+T2	Chemical 79 97	lipid formulations
+T3	Chemical 101 109	propofol
+T4	Chemical 141 156	lipid emulsions
+T5	Chemical 184 196	lethal doses
+T6	Chemical 200 211	bupivacaine
+T9	Chemical 238 246	propofol
+T10	Disease 281 295	cardiotoxicity
+T11	Chemical 352 360	propofol
+T12	Disease 422 436	cardiotoxicity
+T14	Chemical 514 522	propofol
+T15	Chemical 538 545	Group P
+T16	Chemical 548 556	propofol
+T17	Chemical 572 579	Group L
+T19	Chemical 593 600	Group C
+T20	Chemical 639 650	bupivacaine
+T21	Disease 695 706	dysrhythmia
+T22	Disease 768 778	heart rate
+T23	Disease 788 810	mean arterial pressure
+T24	Chemical 853 864	bupivacaine
+T27	Disease 965 976	dysrhythmia
+T30	Chemical 1063 1070	Group P
+T32	Chemical 1109 1120	bupivacaine
+T33	Chemical 1183 1194	bupivacaine
+T34	Chemical 1230 1237	Group P
+T36	Chemical 1252 1266	C. Bupivacaine
+T39	Chemical 1325 1332	Group P
+T42	Chemical 1410 1418	propofol
+T43	Chemical 1448 1456	propofol
+T45	Chemical 1523 1534	cardiotoxic
+T46	Chemical 1569 1580	bupivacaine
+T47	Chemical 1634 1645	bupivacaine
+T48	Chemical 1656 1664	propofol
+T49	Chemical 1668 1678	medialipid

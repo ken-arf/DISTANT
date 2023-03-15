@@ -1,0 +1,18 @@
+T2	Disease 49 71	dilated cardiomyopathy
+T3	Disease 98 121	ventricular tachycardia
+T5	Disease 152 180	left ventricular dysfunction
+T6	Disease 188 210	dilated cardiomyopathy
+T8	Disease 276 299	ventricular tachycardia
+T9	Chemical 334 358	nifekalant hydrochloride
+T12	Chemical 402 411	class III
+T13	Chemical 419 426	sotalol
+T14	Chemical 513 523	nifekalant
+T15	Chemical 527 534	sotalol
+T16	Disease 556 558	ST
+T18	Disease 654 656	ST
+T20	Disease 672 688	chest discomfort
+T21	Chemical 723 744	long-acting diltiazem
+T22	Disease 755 764	vasospasm
+T23	Chemical 787 800	non-selective
+T24	Chemical 801 825	beta-blocking properties
+T25	Chemical 829 836	sotalol

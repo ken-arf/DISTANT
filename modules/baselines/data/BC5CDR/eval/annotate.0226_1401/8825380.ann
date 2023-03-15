@@ -1,0 +1,36 @@
+T3	Chemical 32 44	insulin-like
+T4	Chemical 72 97	puromycin aminonucleoside
+T6	Chemical 160 163	hGH
+T8	Chemical 226 251	puromycin aminonucleoside
+T10	Chemical 347 364	recombinant human
+T11	Chemical 370 375	IGF-I
+T13	Disease 420 434	growth failure
+T15	Disease 456 471	PAN nephropathy
+T16	Disease 477 491	glomerulopathy
+T17	Chemical 588 595	rhIGF-I
+T19	Chemical 666 673	rhIGF-I
+T20	Disease 683 694	weight gain
+T21	Disease 745 759	blood pressure
+T22	Disease 773 786	renal disease
+T25	Disease 870 885	PAN nephropathy
+T26	Disease 1008 1019	body weight
+T29	Disease 1170 1188	glomerulosclerosis
+T30	Disease 1190 1215	tubulointerstitial injury
+T31	Chemical 1235 1250	malondialdehyde
+T32	Disease 1273 1288	PAN nephropathy
+T33	Chemical 1308 1315	rhIGF-I
+T34	Chemical 1326 1331	IGF-I
+T35	Chemical 1336 1347	GH receptor
+T36	Chemical 1408 1413	IGF-I
+T38	Disease 1510 1521	weight gain
+T39	Disease 1523 1537	blood pressure
+T41	Chemical 1596 1611	malondialdehyde
+T43	Chemical 1706 1713	rhIGF-I
+T44	Chemical 1755 1765	IGF-I mRNA
+T45	Chemical 1791 1806	gene expression
+T46	Chemical 1814 1819	IGF-I
+T47	Chemical 1823 1835	GH receptors
+T48	Chemical 1876 1883	rhIGF-I
+T49	Disease 1921 1944	chronic PAN nephropathy
+T51	Chemical 1982 1989	rhIGF-I
+T52	Disease 1999 2022	worsen renal functional

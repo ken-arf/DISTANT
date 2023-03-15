@@ -1,0 +1,29 @@
+T1	Chemical 0 10	Cytostatic
+T2	Chemical 15 38	anti-angiogenic effects
+T3	Chemical 42 54	temsirolimus
+T4	Disease 69 89	mantle cell lymphoma
+T5	Disease 90 110	Mantle cell lymphoma
+T6	Disease 150 179	B-cell non-Hodgkin's lymphoma
+T9	Chemical 352 355	MCL
+T10	Chemical 369 381	temsirolimus
+T11	Chemical 385 399	mTOR inhibitor
+T13	Disease 470 486	tumor regression
+T14	Chemical 504 516	temsirolimus
+T15	Disease 588 598	lymph node
+T16	Chemical 651 663	temsirolimus
+T17	Chemical 716 728	temsirolimus
+T18	Disease 739 763	tumor cell proliferation
+T19	Disease 772 789	cell cycle arrest
+T20	Chemical 877 887	cytostatic
+T21	Chemical 896 908	temsirolimus
+T22	Chemical 916 937	antiangiogenic effect
+T23	Chemical 988 992	VEGF
+T24	Disease 1045 1053	fibrotic
+T25	Disease 1091 1104	tissue repair
+T26	Chemical 1131 1143	temsirolimus
+T27	Chemical 1159 1171	temsirolimus
+T28	Disease 1180 1192	tumor burden
+T29	Chemical 1212 1222	cytostatic
+T30	Chemical 1227 1242	anti-angiogenic
+T31	Chemical 1271 1283	temsirolimus
+T32	Disease 1287 1299	tumor tissue

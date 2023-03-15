@@ -1,0 +1,8 @@
+T1	Disease 0 13	Heart failure
+T3	Disease 156 175	atrial fibrillation
+T4	Disease 244 256	sinus rhythm
+T5	Disease 261 274	heart failure
+T15	Chemical 915 930	inotropic drugs
+T17	Disease 1026 1047	myocardial infarction
+T18	Chemical 1054 1083	Angiotensin-converting enzyme
+T22	Disease 1237 1255	exercise tolerance

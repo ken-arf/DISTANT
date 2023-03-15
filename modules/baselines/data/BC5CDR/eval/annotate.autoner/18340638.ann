@@ -1,0 +1,15 @@
+T1	Disease 42 47	death
+T2	Chemical 60 72	Azathioprine
+T3	Chemical 138 150	azathioprine
+T4	Disease 159 165	anemia
+T5	Disease 208 219	suppression
+T6	Disease 236 242	anemia
+T7	Disease 294 299	death
+T8	Chemical 352 370	phosphatidylserine
+T9	Chemical 476 488	azathioprine
+T10	Chemical 654 666	azathioprine
+T11	Chemical 688 697	cytosolic
+T12	Chemical 1043 1055	azathioprine
+T13	Chemical 1187 1199	Azathioprine
+T14	Disease 1230 1235	death
+T15	Disease 1274 1301	azathioprine-induced anemia

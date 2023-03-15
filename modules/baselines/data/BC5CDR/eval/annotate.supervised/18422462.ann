@@ -1,0 +1,24 @@
+T1	Disease 66 78	HIV-infected
+T2	Disease 248 260	HIV-infected
+T3	Disease 325 337	HIV-infected
+T4	Chemical 539 549	nevirapine
+T5	Chemical 551 554	NVP
+T6	Chemical 565 575	zidovudine
+T7	Chemical 590 593	NVP
+T8	Chemical 615 624	efavirenz
+T9	Chemical 626 629	EFV
+T10	Chemical 656 659	EFV
+T11	Disease 736 740	rash
+T12	Disease 776 797	peripheral neuropathy
+T13	Disease 850 856	anemia
+T14	Disease 939 948	hepatitis
+T15	Disease 959 967	jaundice
+T16	Chemical 973 980	alanine
+T17	Disease 1128 1143	lactic acidosis
+T18	Disease 1200 1230	immune reconstitution syndrome
+T19	Chemical 1288 1291	NVP
+T20	Disease 1345 1349	rash
+T21	Disease 1382 1403	peripheral neuropathy
+T22	Disease 1416 1422	Anemia
+T23	Disease 1427 1436	hepatitis
+T24	Disease 1534 1544	toxicities

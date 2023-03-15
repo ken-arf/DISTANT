@@ -1,0 +1,16 @@
+T1	Chemical 28 39	bupivacaine
+T3	Chemical 57 73	prostaglandin E2
+T5	Chemical 207 221	surgical sites
+T8	Chemical 356 367	bupivacaine
+T9	Chemical 377 393	prostaglandin E2
+T10	Chemical 395 399	PGE2
+T12	Disease 468 486	postoperative pain
+T14	Chemical 618 629	bupivacaine
+T15	Disease 870 883	surgical site
+T16	Chemical 888 892	PGE2
+T17	Chemical 897 911	thromboxane B2
+T19	Chemical 1197 1201	PGE2
+T20	Chemical 1305 1316	bupivacaine
+T21	Chemical 1417 1428	Thromboxane
+T22	Chemical 1624 1635	bupivacaine
+T24	Chemical 1722 1726	PGE2

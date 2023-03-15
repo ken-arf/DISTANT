@@ -1,0 +1,35 @@
+T1	Chemical 18 22	Ca2+
+T5	Chemical 81 89	p38 MAPK
+T6	Chemical 116 125	Aconitine
+T7	Chemical 137 167	bioactive diterpenoid alkaloid
+T9	Chemical 274 279	Na(+)
+T10	Disease 315 329	cardiotoxicity
+T11	Chemical 333 342	aconitine
+T12	Chemical 393 399	Ca(2+)
+T13	Chemical 403 412	aconitine
+T15	Chemical 482 488	Ca(2+)
+T16	Chemical 558 564	Ca(2+)
+T18	Disease 594 608	beating rhythm
+T20	Chemical 724 733	aconitine
+T21	Disease 737 754	myocardial injury
+T23	Chemical 854 875	lactate dehydrogenase
+T24	Chemical 986 995	aconitine
+T25	Disease 1008 1025	myocardial injury
+T26	Chemical 1087 1100	pro-apoptotic
+T27	Chemical 1314 1323	aconitine
+T29	Chemical 1390 1396	Ca(2+)
+T30	Chemical 1397 1414	handling proteins
+T31	Chemical 1433 1442	aconitine
+T32	Chemical 1452 1458	Ca(2+)
+T34	Chemical 1505 1511	Ca(2+)
+T35	Chemical 1512 1529	handling proteins
+T36	Chemical 1558 1584	apoptosis-related proteins
+T37	Chemical 1599 1620	pro-apoptotic protein
+T39	Chemical 1668 1681	protein BCL-2
+T40	Chemical 1735 1750	phosphorylation
+T41	Chemical 1754 1773	MAPK family members
+T42	Chemical 1868 1877	aconitine
+T43	Chemical 1903 1909	Ca(2+)
+T46	Chemical 1962 1971	apoptotic
+T47	Chemical 1988 2003	phosphorylation
+T48	Chemical 2007 2043	P38 mitogen-activated protein kinase

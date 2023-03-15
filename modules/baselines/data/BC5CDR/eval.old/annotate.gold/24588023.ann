@@ -1,0 +1,30 @@
+T1	Chemical 24 39	tranexamic acid
+T2	Disease 44 54	convulsive
+T3	Disease 55 63	seizures
+T4	Disease 179 187	seizures
+T5	Disease 380 390	convulsive
+T6	Disease 391 398	seizure
+T7	Disease 479 515	abnormal involuntary motor movements
+T8	Disease 616 624	seizures
+T9	Disease 681 691	convulsive
+T10	Disease 692 700	seizures
+T11	Disease 702 732	Generalised and focal seizures
+T12	Disease 839 846	seizure
+T13	Disease 1030 1038	seizures
+T14	Disease 1121 1145	congestive heart failure
+T15	Disease 1152 1163	hypothermic
+T16	Chemical 1219 1234	tranexamic acid
+T17	Chemical 1287 1302	tranexamic acid
+T18	Disease 1341 1349	seizures
+T19	Disease 1403 1413	convulsive
+T20	Disease 1414 1422	seizures
+T21	Disease 1541 1551	convulsive
+T22	Disease 1552 1560	seizures
+T23	Disease 1668 1678	convulsive
+T24	Disease 1679 1687	seizures
+T25	Disease 1745 1753	seizures
+T26	Disease 1767 1777	Convulsive
+T27	Disease 1778 1786	seizures
+T28	Disease 1801 1827	postoperative complication
+T29	Chemical 1854 1869	tranexamic acid
+T30	Disease 2019 2027	seizures

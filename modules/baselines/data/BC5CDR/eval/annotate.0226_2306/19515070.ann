@@ -1,0 +1,18 @@
+T1	Disease 0 14	Intraoperative
+T2	Disease 31 52	liver transplantation
+T4	Disease 76 97	Liver transplantation
+T5	Disease 102 113	acutely ill
+T6	Disease 128 151	fulminant liver failure
+T7	Disease 165 179	intraoperative
+T10	Disease 268 287	acute kidney injury
+T11	Disease 298 312	intraoperative
+T13	Disease 451 474	fulminant liver failure
+T18	Chemical 734 751	Citrate dialysate
+T19	Chemical 774 785	citric acid
+T21	Chemical 861 877	regional citrate
+T22	Disease 947 970	fulminant liver failure
+T23	Disease 987 990	AKI
+T24	Disease 1005 1019	intraoperative
+T25	Disease 1044 1065	liver transplantation
+T30	Disease 1358 1379	liver transplantation
+T31	Disease 1383 1406	fulminant liver failure

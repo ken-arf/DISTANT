@@ -1,0 +1,42 @@
+T1	Chemical 61 77	garcinielliptone
+T2	Chemical 61 80	garcinielliptone FC
+T3	Disease 104 112	seizures
+T4	Chemical 113 129	Garcinielliptone
+T5	Chemical 113 132	Garcinielliptone FC
+T6	Chemical 134 137	GFC
+T7	Chemical 153 160	hexanic
+T8	Chemical 153 169	hexanic fraction
+T9	Chemical 194 202	Platonia
+T10	Disease 262 275	skin diseases
+T11	Disease 356 365	diarrheas
+T12	Disease 370 391	inflammatory diseases
+T13	Chemical 426 429	GFC
+T14	Chemical 520 523	GFC
+T15	Disease 566 573	seizure
+T16	Chemical 647 657	amino acid
+T17	Chemical 659 673	r-aminobutyric
+T18	Chemical 659 678	r-aminobutyric acid
+T19	Chemical 680 684	GABA
+T20	Chemical 687 696	glutamine
+T21	Chemical 698 707	aspartate
+T22	Chemical 712 723	glutathione
+T23	Disease 809 817	seizures
+T24	Chemical 819 822	GFC
+T25	Disease 862 869	seizure
+T26	Chemical 1011 1015	GABA
+T27	Chemical 1057 1062	GFC75
+T28	Chemical 1068 1072	P400
+T29	Chemical 1137 1146	aspartate
+T30	Chemical 1148 1157	glutamine
+T31	Chemical 1162 1171	glutamate
+T32	Chemical 1274 1279	GFC75
+T33	Chemical 1285 1289	P400
+T34	Chemical 1352 1357	GFC75
+T35	Chemical 1363 1367	P400
+T36	Chemical 1471 1474	GFC
+T37	Disease 1573 1591	status epilepticus
+T38	Disease 1641 1648	seizure
+T39	Chemical 1729 1732	GFC
+T40	Chemical 1804 1815	pilocarpine
+T41	Chemical 1840 1844	GABA
+T42	Chemical 1849 1858	glutamate

@@ -1,0 +1,18 @@
+T1	Disease 6 20	encephalopathy
+T2	Disease 25 43	cerebral vasospasm
+T3	Chemical 84 100	PEG-asparaginase
+T4	Chemical 117 127	cytarabine
+T5	Disease 149 177	acute lymphoblastic leukemia
+T6	Disease 261 267	B-cell
+T7	Disease 261 296	B-cell acute lymphoblastic leukemia
+T8	Disease 298 301	ALL
+T9	Disease 345 359	encephalopathy
+T10	Disease 393 400	aphasia
+T11	Disease 402 414	incontinence
+T12	Disease 416 437	visual hallucinations
+T13	Disease 455 463	weakness
+T14	Disease 477 495	cerebral vasospasm
+T15	Chemical 570 580	cytarabine
+T16	Chemical 582 593	Vincristine
+T17	Chemical 595 608	dexamethasone
+T18	Chemical 614 646	polyethylene glycol-asparaginase

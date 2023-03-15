@@ -1,0 +1,13 @@
+T1	Disease 10 15	edema
+T2	Disease 20 25	shock
+T3	Disease 232 240	syndrome
+T4	Disease 300 305	fever
+T5	Disease 307 315	diarrhea
+T6	Disease 317 322	shock
+T7	Disease 324 339	pulmonary edema
+T8	Disease 347 360	renal failure
+T9	Disease 372 380	acidosis
+T10	Disease 635 643	syndrome
+T11	Disease 832 837	shock
+T12	Disease 848 877	respiratory distress syndrome
+T13	Chemical 899 914	high-dose Ara-C

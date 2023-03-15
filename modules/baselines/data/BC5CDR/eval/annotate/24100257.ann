@@ -1,0 +1,16 @@
+T1	Disease 0 18	Takotsubo syndrome
+T2	Disease 23 49	apical ballooning syndrome
+T3	Chemical 64 76	Zolmitriptan
+T4	Disease 77 95	Takotsubo syndrome
+T5	Disease 116 137	broken heart syndrome
+T6	Disease 159 191	left ventricle apical ballooning
+T7	Chemical 214 224	biomarkers
+T8	Disease 275 298	acute coronary syndrome
+T9	Disease 432 453	mitral valve prolapse
+T11	Disease 517 527	chest pain
+T12	Chemical 638 649	troponin I.
+T13	Disease 736 761	left ventricular ejection
+T15	Disease 1055 1072	migraine headache
+T16	Chemical 1186 1189	her
+T17	Disease 1330 1355	coronary artery vasospasm
+T18	Disease 1369 1381	zolmitriptan

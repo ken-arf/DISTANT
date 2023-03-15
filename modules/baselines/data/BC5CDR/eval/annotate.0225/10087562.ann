@@ -1,0 +1,15 @@
+T1	Disease 0 42	Torsade de pointes ventricular tachycardia
+T2	Chemical 50 58	low dose
+T4	Chemical 72 82	dobutamine
+T5	Disease 111 133	dilated cardiomyopathy
+T6	Disease 138 162	congestive heart failure
+T9	Disease 237 250	heart failure
+T11	Disease 264 286	dilated cardiomyopathy
+T13	Disease 314 337	ventricular arrhythmias
+T14	Disease 372 414	torsade de pointes ventricular tachycardia
+T15	Chemical 448 456	low dose
+T16	Chemical 478 488	dobutamine
+T17	Disease 505 547	torsade de pointes ventricular tachycardia
+T19	Chemical 568 578	dobutamine
+T22	Chemical 660 669	low doses
+T25	Chemical 781 791	Dubutamine

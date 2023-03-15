@@ -1,0 +1,20 @@
+T1	Chemical 13 22	lidocaine
+T2	Disease 55 76	myocardial infarction
+T3	Disease 118 139	myocardial infarction
+T4	Chemical 228 237	lidocaine
+T5	Disease 318 342	ventricular fibrillation
+T6	Disease 368 379	tachycardia
+T7	Disease 414 435	myocardial infarction
+T8	Chemical 451 460	Lidocaine
+T9	Disease 561 584	ventricular tachycardia
+T10	Chemical 734 743	lidocaine
+T11	Chemical 783 792	lidocaine
+T12	Disease 854 875	myocardial infarction
+T13	Chemical 966 975	lidocaine
+T14	Chemical 1011 1017	agents
+T15	Chemical 1078 1084	agents
+T16	Chemical 1204 1213	lidocaine
+T17	Disease 1221 1232	hypotension
+T18	Disease 1323 1331	asystole
+T19	Chemical 1407 1433	lidocaine prophylactically
+T20	Disease 1466 1487	myocardial infarction

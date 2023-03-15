@@ -1,0 +1,30 @@
+T1	Chemical 28 39	bupivacaine
+T2	Chemical 44 53	lidocaine
+T3	Chemical 57 73	prostaglandin E2
+T4	Disease 118 122	pain
+T5	Disease 137 141	pain
+T6	Chemical 241 252	anesthetics
+T7	Disease 277 289	inflammation
+T8	Chemical 356 367	bupivacaine
+T9	Chemical 377 393	prostaglandin E2
+T10	Chemical 395 399	PGE2
+T11	Disease 468 486	postoperative pain
+T12	Chemical 600 609	lidocaine
+T13	Chemical 618 629	bupivacaine
+T14	Chemical 656 665	rofecoxib
+T15	Chemical 888 892	PGE2
+T16	Chemical 897 908	thromboxane
+T17	Chemical 897 911	thromboxane B2
+T18	Chemical 913 917	TXB2
+T19	Chemical 946 967	bupivacaine/rofecoxib
+T20	Disease 1002 1006	pain
+T21	Chemical 1126 1145	bupivacaine/placebo
+T22	Disease 1180 1184	pain
+T23	Chemical 1197 1201	PGE2
+T24	Chemical 1305 1316	bupivacaine
+T25	Chemical 1392 1409	lidocaine/placebo
+T26	Chemical 1417 1428	Thromboxane
+T27	Chemical 1624 1635	bupivacaine
+T28	Disease 1675 1688	tissue injury
+T29	Chemical 1722 1726	PGE2
+T30	Disease 1742 1746	pain

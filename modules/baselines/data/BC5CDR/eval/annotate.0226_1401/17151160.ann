@@ -1,0 +1,34 @@
+T1	Chemical 25 35	olanzapine
+T2	Disease 76 103	first-episode schizophrenia
+T3	Chemical 185 195	olanzapine
+T4	Chemical 203 214	risperidone
+T5	Disease 232 259	first-episode schizophrenia
+T6	Disease 260 278	spectrum disorders
+T7	Disease 364 391	first-episode schizophrenia
+T8	Disease 399 424	schizophreniform disorder
+T9	Chemical 506 516	olanzapine
+T10	Chemical 536 547	risperidone
+T11	Chemical 623 633	olanzapine
+T12	Chemical 666 677	risperidone
+T13	Chemical 765 775	olanzapine
+T16	Disease 978 987	akathisia
+T18	Disease 1024 1038	Extrapyramidal
+T19	Chemical 1094 1105	risperidone
+T20	Chemical 1136 1146	olanzapine
+T21	Disease 1167 1178	weight gain
+T22	Chemical 1193 1203	olanzapine
+T23	Chemical 1214 1225	risperidone
+T25	Chemical 1326 1336	olanzapine
+T26	Chemical 1372 1383	risperidone
+T27	Disease 1385 1400	Body mass index
+T28	Chemical 1493 1503	olanzapine
+T29	Chemical 1518 1530	CI=22.5-25.3
+T30	Chemical 1549 1561	CI=25.2-28.2
+T31	Chemical 1568 1579	risperidone
+T32	Chemical 1617 1628	risperidone
+T33	Chemical 1654 1664	olanzapine
+T34	Chemical 1699 1709	Olanzapine
+T35	Disease 1742 1754	side effects
+T37	Disease 1798 1809	weight gain
+T38	Disease 1815 1826	weight gain
+T39	Chemical 1844 1854	olanzapine

@@ -1,0 +1,16 @@
+T1	Disease 8 16	toxicity
+T2	Chemical 20 36	cyclophosphamide
+T3	Chemical 303 319	cyclophosphamide
+T4	Chemical 321 323	CY
+T5	Chemical 382 384	CY
+T6	Chemical 575 577	CY
+T7	Disease 578 586	toxicity
+T8	Disease 604 616	haemorrhagic
+T9	Disease 617 625	cystitis
+T10	Chemical 708 710	CY
+T11	Disease 764 772	cystitis
+T12	Disease 843 851	cystitis
+T13	Disease 1437 1445	cystitis
+T14	Disease 1538 1546	toxicity
+T15	Chemical 1550 1552	CY
+T16	Disease 1664 1685	interstitial cystitis

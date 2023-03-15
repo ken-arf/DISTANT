@@ -1,0 +1,18 @@
+T3	Chemical 119 129	paroxetine
+T4	Disease 163 181	flecainide-induced
+T5	Disease 225 241	drug interaction
+T6	Chemical 247 257	paroxetine
+T10	Chemical 492 504	folic acid 1
+T11	Chemical 513 526	levothyroxine
+T12	Chemical 543 555	pantoprazole
+T15	Disease 670 689	atrial fibrillation
+T17	Disease 842 858	drug interaction
+T19	Chemical 882 892	paroxetine
+T21	Chemical 1056 1059	Her
+T22	Chemical 1171 1186	sodium channels
+T24	Chemical 1352 1358	CYP2D6
+T26	Chemical 1374 1384	paroxetine
+T27	Chemical 1388 1394	CYP2D6
+T32	Chemical 1847 1857	paroxetine
+T33	Chemical 1875 1892	CYP2D6 inhibitors
+T35	Chemical 1976 1993	CYP2D6 inhibitors

@@ -1,0 +1,51 @@
+T1	Disease 16 26	arrhythmia
+T2	Disease 52 59	malaria
+T3	Disease 108 115	malaria
+T4	Disease 129 137	jaundice
+T5	Disease 157 167	arrhythmia
+T6	Disease 169 202	premature ventricular contraction
+T7	Chemical 218 225	quinine
+T8	Disease 305 310	fever
+T9	Disease 312 317	chill
+T10	Disease 319 327	vomiting
+T11	Disease 329 337	jaundice
+T12	Disease 478 499	Plasmodium falciparum
+T13	Chemical 514 523	bilirubin
+T14	Chemical 547 556	bilirubin
+T15	Chemical 582 591	bilirubin
+T16	Chemical 604 613	potassium
+T17	Disease 657 664	malaria
+T18	Disease 670 678	jaundice
+T19	Chemical 687 694	quinine
+T20	Chemical 707 715	dextrose
+T21	Disease 768 775	vomitus
+T22	Disease 777 785	diarrhea
+T23	Disease 787 795	tinnitus
+T24	Disease 797 812	loss of hearing
+T25	Chemical 832 839	quinine
+T26	Disease 866 877	palpitation
+T27	Disease 925 958	premature ventricular contraction
+T28	Disease 960 963	PVC
+T29	Disease 999 1003	type
+T30	Disease 1003 1005	--
+T31	Disease 1005 1015	sinoatrial
+T32	Disease 1005 1021	sinoatrial block
+T33	Chemical 1060 1069	lidocaine
+T34	Chemical 1122 1130	dextrose
+T35	Chemical 1146 1165	potassium aspartate
+T36	Chemical 1174 1181	Quinine
+T37	Chemical 1225 1232	sulfate
+T38	Chemical 1233 1240	quinine
+T39	Chemical 1377 1386	potassium
+T40	Chemical 1457 1464	Quinine
+T41	Chemical 1471 1480	quinidine
+T42	Chemical 1487 1495	chincona
+T43	Disease 1595 1606	arrhythmias
+T44	Disease 1625 1635	arrhythmia
+T45	Chemical 1687 1694	quinine
+T46	Disease 1820 1834	heart diseases
+T47	Disease 1852 1872	electrolyte disorder
+T48	Disease 1874 1885	hypokalemia
+T49	Disease 1918 1926	vomiting
+T50	Disease 1934 1942	diarrhea
+T51	Disease 1946 1953	malaria

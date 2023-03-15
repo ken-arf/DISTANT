@@ -1,0 +1,15 @@
+T1	Disease 21 33	hyperkalemia
+T2	Disease 57 62	gouty
+T3	Disease 57 72	gouty arthritis
+T4	Disease 133 145	hyperkalemia
+T5	Disease 150 169	renal insufficiency
+T6	Disease 205 210	gouty
+T7	Disease 205 220	gouty arthritis
+T8	Chemical 226 238	indomethacin
+T9	Chemical 291 304	prostaglandin
+T10	Disease 330 343	hyporeninemic
+T11	Disease 344 361	hypoaidosteronism
+T12	Chemical 403 412	potassium
+T13	Chemical 443 455	indomethacin
+T14	Disease 540 557	diabetes mellitus
+T15	Disease 573 586	renal disease

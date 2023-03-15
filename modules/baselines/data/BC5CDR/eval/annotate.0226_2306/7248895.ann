@@ -1,0 +1,27 @@
+T1	Disease 0 18	Invasive carcinoma
+T2	Disease 26 38	renal pelvis
+T3	Chemical 49 65	cyclophosphamide
+T4	Disease 78 90	nonmalignant
+T5	Disease 130 151	hydroureteronephrosis
+T6	Disease 159 194	ureterovesical junction obstruction
+T7	Disease 199 214	gross hematuria
+T8	Disease 276 295	cerebral vasculitis
+T9	Disease 299 323	right nephroureterectomy
+T11	Disease 395 412	clinically occult
+T12	Disease 413 431	invasive carcinoma
+T13	Disease 439 451	renal pelvis
+T14	Chemical 477 493	cyclophosphamide
+T15	Disease 503 523	hemorrhagic cystitis
+T16	Disease 581 601	high grade carcinoma
+T18	Disease 696 709	urinary tract
+T19	Disease 736 751	urinary bladder
+T22	Disease 881 893	renal pelvis
+T23	Chemical 923 939	cyclophosphamide
+T24	Disease 967 987	urinary tract cancer
+T25	Chemical 1017 1033	cyclophosphamide
+T26	Disease 1048 1060	nonmalignant
+T28	Disease 1116 1137	hydroureteronephrosis
+T30	Disease 1197 1227	upper urinary tract epithelium
+T31	Chemical 1231 1247	cyclophosphamide
+T33	Chemical 1291 1307	cyclophosphamide
+T34	Disease 1352 1372	obstructive uropathy

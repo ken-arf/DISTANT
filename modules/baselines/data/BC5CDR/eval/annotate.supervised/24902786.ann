@@ -1,0 +1,21 @@
+T1	Chemical 0 12	Testosterone
+T2	Disease 48 65	memory impairment
+T3	Chemical 108 120	testosterone
+T4	Chemical 124 138	streptozotocin
+T5	Disease 153 170	memory impairment
+T6	Chemical 267 270	STZ
+T7	Chemical 375 378	STZ
+T8	Chemical 512 524	Testosterone
+T9	Chemical 583 592	flutamide
+T10	Chemical 652 661	tamoxifen
+T11	Chemical 713 722	letrozole
+T12	Chemical 802 805	STZ
+T13	Chemical 816 819	STZ
+T14	Chemical 953 965	Testosterone
+T15	Chemical 1116 1125	flutamide
+T16	Chemical 1127 1136	letrozole
+T17	Chemical 1140 1149	tamoxifen
+T18	Chemical 1233 1245	testosterone
+T19	Disease 1299 1316	memory impairment
+T20	Chemical 1330 1342	Testosterone
+T21	Disease 1398 1415	memory impairment

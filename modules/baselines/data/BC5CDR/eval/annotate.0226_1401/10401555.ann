@@ -1,0 +1,25 @@
+T1	Chemical 0 19	Nociceptin/orphanin
+T2	Chemical 20 22	FQ
+T3	Chemical 27 37	nocistatin
+T5	Disease 54 71	memory impairment
+T7	Chemical 132 143	orphanin FQ
+T10	Chemical 177 190	orphan opioid
+T11	Chemical 205 215	receptor 1
+T12	Chemical 217 221	ORL1
+T13	Disease 264 286	central nervous system
+T15	Chemical 313 323	nocistatin
+T17	Disease 413 422	allodynia
+T18	Disease 427 439	hyperalgesia
+T19	Chemical 453 457	ORL1
+T22	Chemical 499 516	sequence homology
+T23	Chemical 532 548	opioid receptors
+T27	Chemical 700 719	nociceptin/orphanin
+T28	Chemical 720 722	FQ
+T29	Chemical 727 737	nocistatin
+T33	Chemical 813 855	muscarinic cholinergic receptor antagonist
+T34	Chemical 958 968	nocistatin
+T35	Chemical 983 990	mouse-1
+T37	Chemical 1297 1307	nociceptin
+T38	Chemical 1388 1398	nocistatin
+T39	Chemical 1420 1427	mouse-1
+T40	Chemical 1681 1691	nocistatin

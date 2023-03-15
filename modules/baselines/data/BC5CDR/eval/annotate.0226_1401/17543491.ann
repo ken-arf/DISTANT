@@ -1,0 +1,23 @@
+T4	Disease 35 55	vocal cord paralysis
+T5	Disease 79 101	carotid endarterectomy
+T6	Disease 175 205	clinical neurologic monitoring
+T7	Disease 207 229	carotid endarterectomy
+T10	Disease 335 354	vocal nerve palsies
+T11	Chemical 362 379	local anesthetics
+T15	Disease 553 569	local anesthesia
+T16	Disease 573 592	vocal cord function
+T18	Disease 705 727	carotid endarterectomy
+T19	Disease 752 771	Vocal cord function
+T23	Chemical 950 961	ropivacaine
+T24	Chemical 967 979	short-acting
+T25	Chemical 981 991	prilocaine
+T27	Disease 1038 1057	vocal cord function
+T28	Disease 1115 1129	intraoperative
+T30	Disease 1142 1162	vocal cord paralysis
+T32	Disease 1340 1360	vocal cord paralysis
+T35	Disease 1448 1468	vocal cord paralysis
+T38	Disease 1602 1612	vocal cord
+T39	Disease 1629 1651	carotid endarterectomy
+T40	Disease 1699 1713	intraoperative
+T45	Disease 1779 1799	vocal cord paralysis
+T46	Disease 1815 1833	general anesthesia

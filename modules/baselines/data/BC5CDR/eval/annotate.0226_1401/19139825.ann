@@ -1,0 +1,12 @@
+T1	Chemical 0 9	Topotecan
+T2	Disease 46 58	unresectable
+T4	Disease 99 122	glioblastoma multiforme
+T5	Disease 124 127	GBM
+T6	Chemical 144 162	radio-chemotherapy
+T7	Chemical 184 193	Topotecan
+T9	Chemical 389 398	topotecan
+T11	Disease 525 542	non-hematological
+T14	Disease 566 573	grade 3
+T20	Chemical 864 873	Topotecan
+T23	Disease 1086 1098	unresectable
+T24	Disease 1099 1102	GBM

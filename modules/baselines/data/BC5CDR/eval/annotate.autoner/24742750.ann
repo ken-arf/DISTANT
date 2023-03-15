@@ -1,0 +1,11 @@
+T1	Disease 114 126	prolongation
+T2	Disease 625 637	prolongation
+T3	Chemical 782 789	vehicle
+T4	Chemical 831 839	blockers
+T5	Chemical 1004 1014	Amiodarone
+T6	Chemical 1016 1026	Paroxetine
+T7	Chemical 1028 1039	Terfenadine
+T8	Chemical 1134 1145	Terfenadine
+T9	Chemical 1150 1160	Citalopram
+T10	Disease 1201 1208	Pointes
+T11	Disease 1210 1213	TdP

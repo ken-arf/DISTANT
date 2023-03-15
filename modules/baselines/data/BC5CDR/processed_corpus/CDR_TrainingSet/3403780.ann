@@ -1,0 +1,11 @@
+T1	Chemical 0 11	Paracetamol
+T2	Disease 23 27	coma
+T3	Disease 29 47	metabolic acidosis
+T4	Disease 49 74	renal and hepatic failure
+T5	Disease 49 54;67 74	renal failure
+T6	Disease 59 74	hepatic failure
+T7	Disease 85 103	metabolic acidosis
+T8	Disease 105 144	acute renal failure and hepatic failure
+T9	Disease 105 124	acute renal failure
+T10	Disease 105 110;129 144	acute hepatic failure
+T11	Chemical 155 166	paracetamol

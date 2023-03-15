@@ -1,0 +1,26 @@
+T1	Chemical 0 10	Carvedilol
+T2	Chemical 28 39	doxorubicin
+T3	Disease 62 76	cardiomyopathy
+T4	Disease 184 198	cardiomyopathy
+T5	Chemical 209 220	doxorubicin
+T6	Disease 274 299	mitochondrial dysfunction
+T7	Chemical 411 421	carvedilol
+T8	Chemical 617 628	doxorubicin
+T9	Disease 629 637	toxicity
+T10	Chemical 717 728	doxorubicin
+T11	Chemical 748 758	carvedilol
+T12	Chemical 848 859	doxorubicin
+T13	Chemical 1138 1145	calcium
+T14	Chemical 1252 1263	doxorubicin
+T15	Chemical 1278 1289	Doxorubicin
+T16	Chemical 1478 1488	carvedilol
+T17	Chemical 1595 1606	doxorubicin
+T18	Chemical 1661 1671	Carvedilol
+T19	Chemical 1717 1719	Ca
+T20	Chemical 1821 1832	doxorubicin
+T21	Chemical 1834 1844	Carvedilol
+T22	Chemical 1974 1984	carvedilol
+T23	Disease 2124 2149	mitochondrial dysfunction
+T24	Disease 2154 2168	cardiomyopathy
+T25	Chemical 2196 2207	doxorubicin
+T26	Disease 2219 2225	cancer

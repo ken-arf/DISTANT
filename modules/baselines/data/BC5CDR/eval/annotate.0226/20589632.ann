@@ -1,0 +1,8 @@
+T2	Disease 28 44	hemolytic anemia
+T7	Disease 155 169	acute leukemia
+T8	Disease 185 209	post-chemotherapy anemia
+T9	Chemical 218 226	red cell
+T11	Disease 311 323	Drug-induced
+T13	Disease 331 347	hemolytic anemia
+T15	Chemical 560 572	trimethoprim
+T16	Chemical 577 606	trimethoprim-sulfamethoxazole

@@ -1,0 +1,16 @@
+T1	Disease 27 37	late-stage
+T2	Disease 38 66	anthracycline cardiotoxicity
+T4	Chemical 86 89	DOX
+T5	Disease 170 180	late-stage
+T6	Disease 170 195	late-stage cardiotoxicity
+T7	Disease 248 261	heart failure
+T8	Disease 311 321	late-stage
+T9	Disease 326 340	cardiotoxicity
+T10	Chemical 544 547	DOX
+T11	Chemical 623 626	DOX
+T13	Chemical 827 830	DOX
+T15	Chemical 1038 1043	STAT3
+T16	Chemical 1124 1143	DNA repair proteins
+T17	Chemical 1206 1211	STAT3
+T19	Chemical 1480 1496	cardioprotective
+T20	Chemical 1519 1524	STAT3

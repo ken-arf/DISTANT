@@ -1,0 +1,21 @@
+T1	Chemical 25 49	isotonic sodium chloride
+T3	Chemical 317 341	isotonic sodium chloride
+T4	Chemical 347 365	sodium bicarbonate
+T5	Chemical 379 403	isotonic sodium chloride
+T7	Chemical 431 454	calcium channel blocker
+T9	Chemical 570 584	contrast agent
+T10	Chemical 640 650	creatinine
+T11	Chemical 802 826	isotonic sodium chloride
+T14	Chemical 897 915	sodium bicarbonate
+T15	Chemical 956 980	isotonic sodium chloride
+T18	Chemical 1204 1214	creatinine
+T19	Chemical 1306 1323	contrast material
+T20	Chemical 1344 1354	creatinine
+T21	Disease 1482 1501	acute renal failure
+T22	Disease 1503 1506	ARF
+T23	Chemical 1532 1549	contrast material
+T24	Disease 1609 1612	ARF
+T25	Chemical 1823 1847	isotonic sodium chloride
+T26	Chemical 1849 1867	sodium bicarbonate
+T27	Chemical 1872 1896	isotonic sodium chloride
+T29	Chemical 1941 1944	CIN

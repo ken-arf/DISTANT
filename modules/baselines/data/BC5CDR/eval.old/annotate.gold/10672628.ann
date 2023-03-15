@@ -1,0 +1,32 @@
+T1	Chemical 26 38	nitric-oxide
+T2	Chemical 58 69	haloperidol
+T3	Disease 78 87	catalepsy
+T4	Chemical 106 111	NADPH
+T5	Chemical 150 169	NG-nitro-L-arginine
+T6	Chemical 171 178	L-NOARG
+T7	Chemical 197 209	nitric-oxide
+T8	Disease 234 243	catalepsy
+T9	Chemical 351 358	L-NOARG
+T10	Chemical 370 382	Nitric oxide
+T11	Chemical 384 386	NO
+T12	Chemical 490 501	haloperidol
+T13	Chemical 515 523	dopamine
+T14	Disease 546 555	catalepsy
+T15	Chemical 621 628	L-NOARG
+T16	Chemical 642 653	haloperidol
+T17	Disease 662 671	catalepsy
+T18	Chemical 828 835	L-NOARG
+T19	Chemical 855 866	haloperidol
+T20	Disease 883 892	Catalepsy
+T21	Chemical 963 1006	nicotinamide adenine dinucleotide phosphate
+T22	Chemical 1019 1024	NADPH
+T23	Chemical 1168 1175	L-NOARG
+T24	Chemical 1225 1232	L-NOARG
+T25	Chemical 1240 1251	haloperidol
+T26	Disease 1260 1269	catalepsy
+T27	Chemical 1316 1321	NADPH
+T28	Chemical 1408 1419	haloperidol
+T29	Chemical 1525 1530	NADPH
+T30	Chemical 1594 1605	haloperidol
+T31	Chemical 1618 1625	L-NOARG
+T32	Chemical 1712 1714	NO

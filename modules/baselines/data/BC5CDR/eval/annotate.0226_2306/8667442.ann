@@ -1,0 +1,17 @@
+T1	Disease 0 20	Milk-alkali syndrome
+T2	Chemical 32 42	1,25(OH)2D
+T4	Disease 80 100	Milk-alkali syndrome
+T5	Disease 169 189	peptic ulcer disease
+T7	Chemical 269 281	H-2 blockers
+T11	Disease 329 349	milk-alkali syndrome
+T14	Disease 430 446	renal impairment
+T16	Disease 485 505	Milk-alkali syndrome
+T18	Chemical 689 706	calcium carbonate
+T19	Chemical 711 721	calcitriol
+T20	Disease 770 790	milk-alkali syndrome
+T21	Chemical 846 857	pamidronate
+T22	Chemical 861 864	his
+T23	Chemical 949 960	pamidronate
+T24	Chemical 975 991	therapeutic tool
+T25	Disease 997 1017	milk-alkali syndrome
+T26	Disease 1030 1043	hypercalcemic

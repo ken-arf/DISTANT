@@ -1,0 +1,10 @@
+T1	Chemical 8 33	epsilon-aminocaproic acid
+T2	Chemical 35 39	EACA
+T3	Disease 48 56	myopathy
+T4	Disease 114 134	necrotizing myopathy
+T5	Disease 114 125	necrotizing
+T6	Disease 126 134	myopathy
+T7	Chemical 150 175	epsilon-aminocaproic acid
+T8	Chemical 177 181	EACA
+T9	Disease 223 247	subarachnoid haemorrhage
+T10	Disease 249 252	SAH

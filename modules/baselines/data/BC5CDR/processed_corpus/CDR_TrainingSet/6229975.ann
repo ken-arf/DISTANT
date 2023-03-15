@@ -1,0 +1,12 @@
+T1	Chemical 39 46	timolol
+T2	Disease 63 84	myocardial infarction
+T3	Chemical 109 116	timolol
+T4	Disease 147 168	myocardial infarction
+T5	Chemical 253 260	timolol
+T6	Chemical 307 314	timolol
+T7	Chemical 483 490	timolol
+T8	Disease 499 510	bradycardia
+T9	Chemical 568 575	timolol
+T10	Disease 693 705	cardiomegaly
+T11	Disease 771 781	infarction
+T12	Chemical 855 862	timolol

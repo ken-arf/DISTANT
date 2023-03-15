@@ -1,0 +1,14 @@
+T1	Disease 106 120	cardiotoxicity
+T2	Disease 138 144	cancer
+T3	Disease 174 191	cardiac morbidity
+T4	Chemical 366 377	doxorubicin
+T5	Disease 392 406	cardiomyopathy
+T6	Disease 635 643	toxicity
+T7	Chemical 693 696	DOX
+T8	Disease 955 967	degeneration
+T9	Disease 969 991	hypertrophy/cytomegaly
+T10	Disease 1058 1066	fibrosis
+T11	Disease 1375 1389	LV dysfunction
+T12	Chemical 1644 1654	gadolinium
+T13	Disease 1708 1729	diastolic dysfunction
+T14	Disease 2000 2014	LV dysfunction

@@ -1,0 +1,12 @@
+T1	Disease 0 7	Seizure
+T2	Chemical 14 24	flumazenil
+T3	Chemical 63 73	Flumazenil
+T4	Chemical 79 93	benzodiazepine
+T5	Disease 143 165	respiratory depression
+T6	Chemical 177 192	benzodiazepines
+T7	Disease 194 202	Seizures
+T8	Disease 207 226	cardiac arrhythmias
+T9	Disease 271 279	Overdose
+T10	Chemical 434 444	flumazenil
+T11	Disease 500 520	tonic-clonic seizure
+T12	Chemical 576 586	flumazenil

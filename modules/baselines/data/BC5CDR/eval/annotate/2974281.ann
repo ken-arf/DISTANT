@@ -1,0 +1,16 @@
+T1	Chemical 20 31	propranolol
+T2	Disease 69 90	rat heart hypertrophy
+T3	Disease 111 125	blood pressure
+T4	Chemical 152 173	beta-receptor blocker
+T7	Chemical 371 382	propranolol
+T8	Disease 464 481	heart hypertrophy
+T9	Disease 512 526	blood pressure
+T10	Disease 614 631	heart hypertrophy
+T11	Chemical 645 667	beta-receptor blockers
+T12	Chemical 674 687	beta-blockers
+T14	Chemical 817 840	ornithine decarboxylase
+T15	Chemical 860 873	beta-blockers
+T16	Chemical 950 961	propranolol
+T17	Chemical 1019 1035	myosin isoenzyme
+T18	Chemical 1139 1173	beta-receptor blockers propranolol
+T20	Disease 1243 1260	heart hypertrophy

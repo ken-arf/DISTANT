@@ -1,0 +1,18 @@
+T1	Disease 34 56	venous thromboembolism
+T3	Disease 189 211	venous thromboembolism
+T4	Chemical 247 266	oral contraceptives
+T5	Chemical 305 317	progestagens
+T6	Chemical 375 392	second-generation
+T7	Chemical 375 405	second-generation progestagens
+T8	Disease 915 935	deep-vein thrombosis
+T9	Disease 937 954	venous thrombosis
+T10	Disease 983 1000	pulmonary embolus
+T13	Disease 1883 1903	deep-vein thrombosis
+T14	Disease 1911 1931	pulmonary thrombosis
+T15	Disease 1945 1962	venous thrombosis
+T16	Chemical 2542 2559	ethinyloestradiol
+T17	Chemical 2612 2629	ethinyloestradiol
+T18	Chemical 2612 2629	ethinyloestradiol
+T19	Chemical 2753 2770	ethinyloestradiol
+T20	Chemical 2823 2835	progestagens
+T21	Chemical 3124 3141	ethinyloestradiol

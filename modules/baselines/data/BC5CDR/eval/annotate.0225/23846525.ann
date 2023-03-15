@@ -1,0 +1,7 @@
+T2	Chemical 32 43	clopidogrel
+T3	Disease 88 100	Drug-induced
+T4	Disease 101 115	hepatotoxicity
+T8	Disease 383 397	hepatotoxicity
+T9	Chemical 405 416	clopidogrel
+T11	Disease 573 585	drug-induced
+T13	Chemical 606 617	clopidogrel

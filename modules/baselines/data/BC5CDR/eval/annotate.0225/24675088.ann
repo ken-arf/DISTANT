@@ -1,0 +1,20 @@
+T2	Disease 106 120	cardiotoxicity
+T6	Disease 174 191	cardiac morbidity
+T7	Chemical 197 207	biomarkers
+T8	Disease 233 245	early damage
+T16	Chemical 693 696	DOX
+T18	Chemical 850 863	mitochondrial
+T19	Chemical 880 891	single dose
+T21	Disease 941 954	cardiomyocyte
+T22	Disease 969 991	hypertrophy/cytomegaly
+T25	Disease 1197 1213	left ventricular
+T26	Chemical 1233 1237	LVEF
+T27	Disease 1240 1254	cardiac output
+T28	Chemical 1489 1499	troponin I
+T29	Chemical 1501 1505	cTnI
+T30	Chemical 1560 1564	LVEF
+T31	Chemical 1582 1592	Troponin I
+T32	Disease 1708 1729	diastolic dysfunction
+T35	Disease 1831 1849	functional decline
+T37	Chemical 1938 1942	cTnI
+T38	Chemical 2065 2075	biomarkers

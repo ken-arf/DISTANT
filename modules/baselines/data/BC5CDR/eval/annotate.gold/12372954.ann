@@ -1,0 +1,24 @@
+T1	Disease 6 28	interstitial nephritis
+T2	Chemical 36 47	nicergoline
+T3	Chemical 49 56	Sermion
+T4	Disease 84 106	interstitial nephritis
+T5	Disease 108 111	AIN
+T6	Chemical 120 131	nicergoline
+T7	Chemical 133 140	Sermion
+T8	Disease 194 199	fever
+T9	Disease 204 223	acute renal failure
+T10	Chemical 262 273	nicergoline
+T11	Chemical 278 293	bendazac lysine
+T12	Disease 301 323	retinal vein occlusion
+T13	Disease 394 399	fever
+T14	Disease 404 413	skin rash
+T15	Disease 453 463	arthralgia
+T16	Disease 468 473	fever
+T17	Disease 505 517	eosinophilia
+T18	Disease 522 535	renal failure
+T19	Disease 547 550	AIN
+T20	Chemical 688 699	nicergoline
+T21	Chemical 742 753	nicergoline
+T22	Chemical 770 788	methylprednisolone
+T23	Chemical 885 896	nicergoline
+T24	Disease 908 911	AIN

@@ -1,0 +1,9 @@
+T1	Disease 101 115	nephrotoxicity
+T2	Disease 230 237	tubular
+T3	Disease 433 452	acute renal failure
+T4	Chemical 611 625	aminoglycoside
+T5	Disease 634 647	liver disease
+T6	Chemical 686 696	creatinine
+T7	Disease 762 776	nephrotoxicity
+T8	Disease 800 813	renal failure
+T9	Disease 1090 1104	nephrotoxicity

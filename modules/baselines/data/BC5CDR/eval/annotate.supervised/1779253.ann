@@ -1,0 +1,16 @@
+T1	Chemical 15 24	capsaicin
+T2	Disease 36 49	post-herpetic
+T3	Disease 50 59	neuralgia
+T4	Chemical 210 219	capsaicin
+T5	Disease 246 259	post-herpetic
+T6	Disease 246 269	post-herpetic neuralgia
+T7	Disease 271 274	PHN
+T8	Chemical 329 338	capsaicin
+T9	Disease 398 402	pain
+T10	Disease 731 749	burning sensations
+T11	Disease 757 765	mastitis
+T12	Disease 1093 1096	PHN
+T13	Disease 1159 1163	pain
+T14	Disease 1278 1285	burning
+T15	Chemical 1423 1432	capsaicin
+T16	Disease 1436 1439	PHN

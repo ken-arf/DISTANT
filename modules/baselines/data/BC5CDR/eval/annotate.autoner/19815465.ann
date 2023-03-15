@@ -1,0 +1,11 @@
+T1	Disease 21 28	defects
+T2	Chemical 49 59	vigabatrin
+T3	Disease 95 102	defects
+T4	Chemical 123 136	antiepileptic
+T5	Chemical 142 152	vigabatrin
+T6	Disease 189 197	epilepsy
+T7	Chemical 227 240	antiepileptic
+T8	Disease 351 358	seizure
+T9	Chemical 829 832	VGB
+T10	Disease 965 973	epilepsy
+T11	Disease 1140 1148	toxicity

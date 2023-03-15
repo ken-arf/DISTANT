@@ -1,0 +1,21 @@
+T1	Disease 0 13	Hypercalcemia
+T2	Disease 15 25	arrhythmia
+T3	Disease 69 76	bipolar
+T4	Chemical 107 114	lithium
+T5	Disease 137 150	hypercalcemia
+T6	Disease 162 177	bradyarrhythmia
+T7	Disease 235 242	bipolar
+T8	Disease 276 289	hypercalcemia
+T9	Disease 318 331	hypercalcemia
+T10	Disease 412 426	hypercalcemias
+T11	Disease 532 546	hypercalcemias
+T12	Disease 558 570	malignancies
+T13	Disease 650 663	hypercalcemia
+T14	Disease 755 764	medically
+T15	Disease 930 951	bipolar normocalcemic
+T16	Disease 938 951	normocalcemic
+T17	Disease 991 1012	bipolar normocalcemic
+T18	Disease 1266 1269	ECG
+T19	Disease 1383 1396	hypercalcemia
+T20	Disease 1433 1440	bipolar
+T21	Disease 1474 1487	hypercalcemia

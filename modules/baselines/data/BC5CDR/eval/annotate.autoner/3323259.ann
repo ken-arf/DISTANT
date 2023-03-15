@@ -1,0 +1,20 @@
+T1	Chemical 44 51	calcium
+T2	Chemical 139 146	calcium
+T3	Disease 185 192	disease
+T4	Chemical 233 240	calcium
+T5	Disease 310 318	diseases
+T6	Chemical 455 462	calcium
+T7	Chemical 530 539	verapamil
+T8	Chemical 544 553	diltiazem
+T9	Chemical 662 669	calcium
+T10	Chemical 893 903	nifedipine
+T11	Disease 924 936	hypertension
+T12	Disease 950 960	depression
+T13	Disease 1323 1335	hypertension
+T14	Disease 1341 1349	coronary
+T15	Chemical 1498 1508	nimodipine
+T16	Disease 1573 1590	migraine headache
+T17	Disease 1592 1600	dementia
+T18	Chemical 1646 1653	calcium
+T19	Disease 1704 1712	headache
+T20	Disease 1745 1758	edema, nausea

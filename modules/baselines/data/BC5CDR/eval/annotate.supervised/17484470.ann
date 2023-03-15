@@ -1,0 +1,12 @@
+T1	Disease 202 224	dilated cardiomyopathy
+T2	Disease 240 260	mitral regurgitation
+T3	Disease 262 264	MR
+T4	Disease 569 588	acute heart failure
+T5	Disease 950 963	heart failure
+T6	Chemical 979 990	propranolol
+T7	Disease 1067 1069	MR
+T8	Disease 1212 1225	heart failure
+T9	Chemical 1251 1254	MAP
+T10	Disease 2087 2106	acute heart failure
+T11	Disease 2195 2202	chronic
+T12	Disease 2203 2216	heart failure

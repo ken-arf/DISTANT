@@ -1,0 +1,27 @@
+T1	Disease 14 27	breast cancer
+T2	Chemical 33 42	tamoxifen
+T3	Chemical 136 145	Tamoxifen
+T4	Chemical 175 184	Tamoxifen
+T5	Disease 225 238	breast cancer
+T6	Disease 300 318	endometrial cancer
+T7	Chemical 373 382	tamoxifen
+T8	Chemical 498 507	tamoxifen
+T9	Disease 552 565	breast cancer
+T10	Chemical 631 640	tamoxifen
+T11	Disease 1064 1077	breast cancer
+T12	Disease 1273 1286	breast cancer
+T13	Disease 1335 1348	breast cancer
+T14	Disease 1376 1389	breast-cancer
+T15	Chemical 1435 1444	tamoxifen
+T16	Disease 1506 1519	breast cancer
+T17	Chemical 1542 1551	tamoxifen
+T18	Disease 1694 1707	breast cancer
+T19	Chemical 1760 1769	tamoxifen
+T20	Disease 1848 1863	vascular events
+T21	Disease 1868 1889	hypertriglyceridaemia
+T22	Chemical 1905 1914	tamoxifen
+T23	Disease 2031 2044	breast cancer
+T24	Chemical 2083 2092	tamoxifen
+T25	Chemical 2192 2201	tamoxifen
+T26	Disease 2229 2242	breast cancer
+T27	Chemical 2361 2370	tamoxifen

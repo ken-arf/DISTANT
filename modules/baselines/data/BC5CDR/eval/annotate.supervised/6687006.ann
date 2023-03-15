@@ -1,0 +1,16 @@
+T1	Chemical 95 106	amphetamine
+T2	Chemical 141 154	noradrenaline
+T3	Chemical 155 165	neurotoxin
+T4	Chemical 166 170	DSP4
+T5	Chemical 211 224	D-amphetamine
+T6	Disease 255 268	hyperactivity
+T7	Chemical 280 293	D-amphetamine
+T8	Chemical 337 341	DSP4
+T9	Chemical 467 471	DSP4
+T10	Chemical 490 501	amphetamine
+T11	Disease 502 515	hyperactivity
+T12	Chemical 527 531	DSP4
+T13	Chemical 606 617	desipramine
+T14	Disease 638 648	neurotoxic
+T15	Chemical 659 663	DSP4
+T16	Chemical 788 799	amphetamine

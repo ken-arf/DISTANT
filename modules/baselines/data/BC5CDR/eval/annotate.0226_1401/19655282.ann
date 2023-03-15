@@ -1,0 +1,22 @@
+T2	Chemical 68 76	low-risk
+T3	Disease 110 120	chest pain
+T5	Disease 213 223	chest pain
+T6	Disease 283 306	acute coronary syndrome
+T8	Disease 520 528	low risk
+T9	Disease 533 547	cardiac events
+T11	Disease 667 677	chest pain
+T12	Disease 691 700	vasospasm
+T14	Disease 818 828	chest pain
+T16	Chemical 940 948	low-risk
+T17	Disease 1005 1015	chest pain
+T20	Disease 1288 1304	maximal stenosis
+T22	Disease 1365 1385	cardiovascular death
+T23	Disease 1389 1410	myocardial infarction
+T24	Disease 1468 1478	chest pain
+T27	Disease 1890 1907	coronary stenosis
+T29	Disease 1975 1995	cardiovascular event
+T31	Disease 2053 2074	myocardial infarction
+T33	Disease 2174 2199	coronary vasoconstriction
+T35	Disease 2234 2244	chest pain
+T37	Chemical 2365 2373	low risk
+T38	Disease 2384 2398	adverse events

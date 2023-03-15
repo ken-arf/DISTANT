@@ -1,0 +1,23 @@
+T1	Chemical 45 55	daptomycin
+T2	Disease 69 101	Staphylococcus aureus meningitis
+T3	Disease 155 176	Staphylococcus aureus
+T5	Disease 210 214	MSSA
+T7	Chemical 249 259	daptomycin
+T9	Disease 447 469	health-care-associated
+T10	Disease 447 469	health-care-associated
+T11	Disease 447 479	health-care-associated pneumonia
+T12	Chemical 560 572	levofloxacin
+T13	Disease 630 636	aureus
+T15	Disease 760 779	acute renal failure
+T16	Chemical 787 797	creatinine
+T18	Disease 1020 1034	cardiac arrest
+T19	Disease 1080 1095	MSSA bacteremia
+T20	Disease 1137 1159	central nervous system
+T23	Chemical 1208 1218	daptomycin
+T26	Chemical 1327 1337	Daptomycin
+T27	Chemical 1542 1557	Creatine kinase
+T28	Chemical 1586 1596	daptomycin
+T29	Chemical 1642 1652	Daptomycin
+T30	Disease 1722 1750	acute interstitial nephritis
+T32	Chemical 1917 1926	High-dose
+T33	Chemical 1927 1937	daptomycin

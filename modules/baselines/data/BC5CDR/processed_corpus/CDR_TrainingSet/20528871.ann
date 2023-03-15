@@ -1,0 +1,27 @@
+T1	Chemical 21 31	nelarabine
+T2	Chemical 33 42	etoposide
+T3	Chemical 48 64	cyclophosphamide
+T4	Disease 99 142	T-cell lymphoblastic leukaemia and lymphoma
+T5	Disease 99 129	T-cell lymphoblastic leukaemia
+T6	Disease 99 119;134 142	T-cell lymphoblastic lymphoma
+T7	Chemical 167 177	nelarabine
+T8	Chemical 179 183	AraG
+T9	Chemical 197 206	etoposide
+T10	Chemical 208 210	VP
+T11	Chemical 216 232	cyclophosphamide
+T12	Chemical 234 237	CPM
+T13	Disease 355 383	T-cell leukaemia or lymphoma
+T14	Disease 355 371	T-cell leukaemia
+T15	Disease 355 361;375 383	T-cell lymphoma
+T16	Chemical 434 438	AraG
+T17	Disease 480 490	neuropathy
+T18	Disease 495 515	musculoskeletal pain
+T19	Disease 517 540	Haematological toxicity
+T20	Chemical 578 582	AraG
+T21	Chemical 826 830	AraG
+T22	Chemical 831 833	VP
+T23	Chemical 834 837	CPM
+T24	Chemical 884 888	AraG
+T25	Chemical 926 935	etoposide
+T26	Chemical 940 956	cyclophosphamide
+T27	Disease 967 988	neurological toxicity

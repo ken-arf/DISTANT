@@ -1,0 +1,13 @@
+T1	Chemical 98 106	diazinon
+T2	Chemical 172 180	Diazinon
+T3	Disease 277 288	lung cancer
+T5	Chemical 437 445	diazinon
+T7	Chemical 611 619	diazinon
+T10	Disease 1119 1130	lung cancer
+T11	Chemical 1253 1261	diazinon
+T12	Disease 1311 1324	Kidney cancer
+T13	Disease 1490 1516	aggressive prostate cancer
+T14	Chemical 1565 1573	diazinon
+T15	Disease 1626 1637	lung cancer
+T16	Disease 1670 1683	kidney cancer
+T17	Disease 1717 1732	prostate cancer

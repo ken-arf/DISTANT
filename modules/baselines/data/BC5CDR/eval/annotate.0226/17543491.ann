@@ -1,0 +1,17 @@
+T4	Disease 35 55	vocal cord paralysis
+T8	Disease 335 354	vocal nerve palsies
+T9	Chemical 362 379	local anesthetics
+T13	Disease 573 592	vocal cord function
+T15	Disease 752 771	Vocal cord function
+T17	Chemical 835 840	day 1
+T19	Chemical 950 961	ropivacaine
+T20	Chemical 967 979	short-acting
+T21	Chemical 981 991	prilocaine
+T23	Disease 1038 1057	vocal cord function
+T24	Disease 1115 1129	intraoperative
+T26	Disease 1142 1162	vocal cord paralysis
+T27	Disease 1340 1350	vocal cord
+T31	Disease 1448 1468	vocal cord paralysis
+T33	Disease 1602 1621	vocal cord function
+T35	Disease 1699 1713	intraoperative
+T40	Disease 1779 1799	vocal cord paralysis

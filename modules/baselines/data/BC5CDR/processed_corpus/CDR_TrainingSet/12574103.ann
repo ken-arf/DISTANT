@@ -1,0 +1,23 @@
+T1	Chemical 9 22	dexamethasone
+T2	Disease 32 44	hypertension
+T3	Disease 49 61	renal injury
+T4	Chemical 237 250	dexamethasone
+T5	Disease 276 302	increase in blood pressure
+T6	Disease 307 319	renal injury
+T7	Chemical 410 423	dexamethasone
+T8	Chemical 557 570	dexamethasone
+T9	Disease 609 639	reduction in glomerular number
+T10	Chemical 861 874	dexamethasone
+T11	Chemical 1024 1037	dexamethasone
+T12	Disease 1099 1123	elevated blood pressures
+T13	Disease 1176 1206	reduction in glomerular number
+T14	Chemical 1225 1238	dexamethasone
+T15	Disease 1294 1312	glomerulosclerosis
+T16	Chemical 1363 1376	dexamethasone
+T17	Disease 1398 1428	reduction in glomerular number
+T18	Disease 1430 1448	glomerulosclerosis
+T19	Disease 1454 1466	hypertension
+T20	Disease 1522 1534	Hypertension
+T21	Disease 1635 1665	reduction in glomerular number
+T22	Disease 1685 1715	reduction in glomerular number
+T23	Disease 1761 1773	hypertension

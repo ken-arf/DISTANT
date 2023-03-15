@@ -1,0 +1,13 @@
+T1	Chemical 10 21	vincristine
+T2	Chemical 10 29	vincristine sulfate
+T3	Disease 33 55	Pseudomonas infections
+T4	Disease 135 163	10(10)Pseudomonas aeruginosa
+T5	Disease 328 340	Leukocytosis
+T6	Chemical 431 442	vincristine
+T7	Chemical 431 450	vincristine sulfate
+T8	Disease 467 477	leukopenia
+T9	Chemical 603 614	vincristine
+T10	Chemical 603 622	vincristine sulfate
+T11	Disease 659 668	infection
+T12	Disease 798 808	leukopenia
+T13	Disease 831 849	Pseudomonas sepsis

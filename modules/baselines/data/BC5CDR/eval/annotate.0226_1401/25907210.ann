@@ -1,0 +1,19 @@
+T2	Disease 13 26	solid tumours
+T4	Chemical 70 106	organophosphate insecticide diazinon
+T5	Chemical 172 180	Diazinon
+T6	Chemical 191 218	organophosphate insecticide
+T7	Chemical 224 244	genotoxic properties
+T8	Disease 277 288	lung cancer
+T10	Chemical 437 445	diazinon
+T13	Disease 500 517	solid tumour risk
+T15	Chemical 611 619	diazinon
+T19	Chemical 975 977	LT
+T20	Disease 1119 1130	lung cancer
+T21	Chemical 1191 1193	LT
+T22	Chemical 1253 1261	diazinon
+T23	Disease 1311 1324	Kidney cancer
+T24	Disease 1501 1516	prostate cancer
+T25	Chemical 1565 1573	diazinon
+T26	Disease 1626 1637	lung cancer
+T28	Disease 1670 1683	kidney cancer
+T29	Disease 1717 1732	prostate cancer

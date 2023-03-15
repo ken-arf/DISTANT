@@ -1,0 +1,13 @@
+T1	Chemical 39 50	carboplatin
+T3	Chemical 110 121	carboplatin
+T4	Disease 224 250	intraocular retinoblastoma
+T5	Chemical 361 372	carboplatin
+T7	Disease 503 514	carboplatin
+T9	Disease 740 757	treatment failure
+T10	Disease 890 916	intraocular retinoblastoma
+T11	Chemical 952 963	carboplatin
+T12	Disease 1092 1103	optic nerve
+T15	Disease 1271 1284	globe rupture
+T16	Disease 1314 1325	soft tissue
+T17	Chemical 1359 1370	carboplatin
+T19	Chemical 1554 1565	carboplatin

@@ -1,0 +1,27 @@
+T1	Disease 0 13	Tachyphylaxis
+T3	Chemical 84 93	high dose
+T4	Chemical 102 112	salbutamol
+T5	Chemical 127 137	High doses
+T6	Chemical 149 159	salbutamol
+T8	Disease 374 387	tachyphylaxis
+T9	Chemical 427 436	high dose
+T10	Chemical 445 455	salbutamol
+T12	Chemical 484 488	FEV1
+T13	Chemical 494 498	/- 4
+T14	Chemical 546 559	beta-agonists
+T15	Chemical 618 646	high dose inhaled salbutamol
+T16	Chemical 678 705	low dose inhaled salbutamol
+T17	Chemical 707 710	LDS
+T19	Chemical 884 897	beta-agonists
+T20	Chemical 916 935	ipratropium bromide
+T21	Chemical 1012 1025	dose-response
+T22	Chemical 1033 1036	DRC
+T24	Chemical 1065 1069	FEV1
+T25	Chemical 1071 1076	FEF25
+T29	Chemical 1126 1129	Glu
+T30	Chemical 1295 1299	FEV1
+T31	Chemical 1304 1312	FEF25-75
+T33	Chemical 1458 1461	Glu
+T35	Chemical 1585 1588	LDS
+T37	Chemical 1620 1623	Glu
+T40	Disease 1691 1706	adverse effects

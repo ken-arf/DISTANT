@@ -1,0 +1,13 @@
+T1	Chemical 0 11	Thalidomide
+T2	Disease 12 22	neuropathy
+T3	Disease 58 73	prostate cancer
+T4	Disease 121 131	neuropathy
+T5	Disease 218 233	prostate cancer
+T6	Chemical 265 276	thalidomide
+T7	Chemical 510 514	SNAP
+T8	Chemical 714 725	Thalidomide
+T9	Chemical 842 853	thalidomide
+T10	Disease 943 953	neuropathy
+T11	Disease 1094 1104	Neuropathy
+T12	Chemical 1142 1153	thalidomide
+T13	Disease 1211 1232	peripheral neuropathy

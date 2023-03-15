@@ -1,0 +1,24 @@
+T2	Disease 80 91	bone marrow
+T3	Disease 153 168	aplastic anemia
+T4	Chemical 173 192	antipsychotic agent
+T5	Chemical 194 205	remoxipride
+T6	Chemical 207 275	(S)-(-)-3-bromo-N-[(1-ethyl-2-pyrrolidinyl)methyl]-2,6-dimethoxybenz
+T8	Disease 317 332	aplastic anemia
+T9	Chemical 366 377	remoxipride
+T10	Chemical 385 396	pyrrolidine
+T13	Disease 516 527	bone marrow
+T15	Chemical 690 706	propidium iodide
+T18	Chemical 922 930	catechol
+T19	Chemical 935 947	hydroquinone
+T22	Chemical 1162 1173	pyrrolidine
+T24	Chemical 1294 1302	biphasic
+T27	Chemical 1437 1445	catechol
+T28	Chemical 1450 1462	hydroquinone
+T29	Chemical 1478 1489	remoxipride
+T32	Chemical 1633 1641	catechol
+T33	Chemical 1646 1658	hydroquinone
+T36	Chemical 1708 1716	Moran et
+T37	Chemical 1775 1786	remoxipride
+T39	Disease 1810 1825	aplastic anemia
+T41	Disease 2001 2016	aplastic anemia
+T42	Chemical 2047 2058	remoxipride

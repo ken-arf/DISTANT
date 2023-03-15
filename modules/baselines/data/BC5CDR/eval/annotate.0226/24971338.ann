@@ -1,0 +1,36 @@
+T1	Chemical 14 23	sirolimus
+T3	Chemical 139 149	biomarkers
+T4	Chemical 179 192	cyclosporin A
+T5	Chemical 202 211	sirolimus
+T6	Chemical 213 216	SRL
+T7	Chemical 420 438	molecular pathways
+T8	Chemical 452 462	biomarkers
+T9	Chemical 466 476	CsA-to-SRL
+T10	Chemical 573 576	SRL
+T11	Chemical 622 625	SRL
+T14	Chemical 707 725	protein expression
+T16	Disease 750 763	Renal lesions
+T17	Disease 830 838	Masson's
+T19	Chemical 900 904	NGAL
+T22	Disease 948 964	renal impairment
+T23	Disease 1018 1032	kidney lesions
+T24	Chemical 1037 1042	TGF-b
+T25	Chemical 1044 1047	NF-
+T26	Chemical 1052 1056	mTOR
+T27	Chemical 1058 1062	PCNA
+T28	Chemical 1064 1068	TP53
+T29	Chemical 1070 1075	KIM-1
+T30	Chemical 1081 1085	CTGF
+T33	Chemical 1107 1122	protein changes
+T34	Disease 1158 1170	renal damage
+T37	Chemical 1249 1255	TGF- b
+T38	Chemical 1260 1264	IL-7
+T39	Chemical 1266 1271	TBARs
+T40	Chemical 1294 1299	TGF-b
+T41	Chemical 1304 1308	mTOR
+T42	Chemical 1324 1327	SRL
+T43	Disease 1350 1362	renal damage
+T44	Disease 1386 1399	grade lesions
+T45	Chemical 1408 1412	NGAL
+T46	Chemical 1457 1466	biomarker
+T47	Chemical 1489 1492	SRL

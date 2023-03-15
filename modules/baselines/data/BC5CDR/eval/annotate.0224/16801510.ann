@@ -1,0 +1,8 @@
+T1	Disease 0 12	Drug-induced
+T4	Chemical 75 89	high frequency
+T5	Disease 144 156	Drug-induced
+T7	Disease 187 208	adverse drug reaction
+T8	Chemical 559 575	intravenous drug
+T11	Disease 1260 1279	torsades de pointes
+T12	Chemical 1512 1528	cytochrome P-450
+T14	Chemical 1760 1791	cytochrome P-450 3A4 inhibitors

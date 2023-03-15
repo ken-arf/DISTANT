@@ -1,0 +1,24 @@
+T2	Chemical 59 70	bupivacaine
+T3	Chemical 85 96	bupivacaine
+T5	Disease 134 146	dysrhythmias
+T6	Chemical 160 171	bupivacaine
+T8	Chemical 286 297	bupivacaine
+T10	Disease 429 450	myocardial infarction
+T11	Chemical 489 510	micrograms.kg-1.min-1
+T14	Disease 557 580	ventricular tachycardia
+T15	Chemical 659 670	bupivacaine
+T17	Chemical 708 729	micrograms.kg-1.min-1
+T19	Chemical 750 761	bupivacaine
+T21	Chemical 831 842	bupivacaine
+T22	Disease 911 921	sinoatrial
+T24	Disease 937 945	ectopies
+T26	Chemical 969 971	QT
+T27	Chemical 983 994	bupivacaine
+T28	Disease 1047 1068	myocardial infarction
+T29	Chemical 1124 1145	micrograms.kg-1.min-1
+T32	Chemical 1199 1210	bupivacaine
+T33	Chemical 1256 1277	micrograms.kg-1.min-1
+T36	Chemical 1381 1392	bupivacaine
+T37	Chemical 1394 1405	Bupivacaine
+T41	Disease 1527 1551	postinfarct dysrhythmias
+T42	Chemical 1597 1608	bupivacaine

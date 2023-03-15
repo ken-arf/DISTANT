@@ -1,0 +1,31 @@
+T1	Chemical 58 75	Fluoropyrimidines
+T2	Chemical 91 105	5-fluorouracil
+T3	Chemical 107 111	5-FU
+T4	Disease 168 174	tumors
+T5	Disease 186 230	colorectal, breast and head and neck cancers
+T6	Disease 186 196;222 229	colorectal cancers
+T7	Disease 198 204;223 230	breast cancers
+T8	Disease 209 230	head and neck cancers
+T9	Chemical 332 344	capecitabine
+T10	Chemical 466 478	capecitabine
+T11	Disease 538 562	renal and kidney disease
+T12	Chemical 614 626	capecitabine
+T13	Chemical 662 674	Capecitabine
+T14	Chemical 697 701	5-FU
+T15	Disease 912 997	colorectal, breast, pancreaticobiliary, gastric, renal cell and head and neck cancers
+T16	Disease 912 922;990 997	colorectal cancers
+T17	Disease 924 930;990 997	breast cancers
+T18	Disease 932 950;990 997	pancreaticobiliary cancers
+T19	Disease 952 959;990 997	gastric cancers
+T20	Disease 961 971;990 997	renal cell cancers
+T21	Disease 976 997	head and neck cancers
+T22	Chemical 1043 1055	capecitabine
+T23	Disease 1060 1068	diarrhea
+T24	Disease 1070 1076	nausea
+T25	Disease 1078 1086	vomiting
+T26	Disease 1088 1098	stomatitis
+T27	Disease 1103 1121	hand-foot syndrome
+T28	Chemical 1123 1135	Capecitabine
+T29	Disease 1229 1259	hepatic and renal dysfunctions
+T30	Disease 1229 1236;1247 1259	hepatic dysfunctions
+T31	Disease 1241 1259	renal dysfunctions

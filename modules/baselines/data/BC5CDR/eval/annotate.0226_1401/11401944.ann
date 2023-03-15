@@ -1,0 +1,33 @@
+T2	Disease 62 85	ventricular tachycardia
+T4	Disease 177 193	left ventricular
+T5	Disease 318 336	torsade de pointes
+T6	Chemical 338 341	TdP
+T7	Disease 348 363	QT prolongation
+T8	Chemical 375 385	dl-sotalol
+T9	Chemical 390 399	azimilide
+T10	Disease 421 431	transmural
+T11	Chemical 523 526	TdP
+T13	Disease 617 630	midmyocardium
+T15	Disease 694 704	transmural
+T16	Disease 751 767	left ventricular
+T17	Chemical 782 792	dl-Sotalol
+T18	Chemical 878 880	(1
+T19	Disease 912 914	QT
+T21	Chemical 952 961	Azimilide
+T22	Chemical 1104 1114	dl-sotalol
+T23	Chemical 1116 1125	azimilide
+T24	Disease 1152 1162	epicardial
+T25	Chemical 1217 1227	dl-sotalol
+T26	Chemical 1232 1241	azimilide
+T27	Disease 1272 1287	left ventricles
+T28	Disease 1312 1316	EADs
+T29	Disease 1354 1356	QT
+T31	Chemical 1402 1412	dl-sotalol
+T34	Chemical 1504 1507	TdP
+T35	Disease 1525 1540	left ventricles
+T36	Chemical 1560 1572	azimilide (3
+T37	Chemical 1615 1625	dl-sotalol
+T38	Chemical 1792 1808	action potential
+T40	Disease 1866 1882	ventricular wall
+T41	Chemical 1930 1933	TdP
+T42	Disease 1940 1942	QT

@@ -1,0 +1,22 @@
+T1	Chemical 24 48	17alpha-ethinylestradiol
+T2	Chemical 129 153	17alpha-ethinylestradiol
+T3	Chemical 155 157	EE
+T4	Chemical 492 503	cholesterol
+T5	Chemical 536 542	sterol
+T6	Chemical 656 658	EE
+T7	Chemical 770 772	EE
+T8	Chemical 802 809	cholate
+T9	Chemical 863 880	chenodeoxycholate
+T10	Chemical 927 941	Delta22-isomer
+T11	Chemical 945 961	beta-muricholate
+T12	Chemical 1206 1208	EE
+T13	Chemical 1301 1303	EE
+T14	Chemical 1454 1456	EE
+T15	Chemical 1524 1526	EE
+T16	Chemical 1556 1562	sterol
+T17	Chemical 1587 1599	lithocholate
+T18	Chemical 1669 1671	EE
+T19	Chemical 1695 1719	17alpha-ethinylestradiol
+T20	Disease 1733 1745	intrahepatic
+T21	Disease 1733 1757	intrahepatic cholestasis
+T22	Chemical 1968 1970	EE

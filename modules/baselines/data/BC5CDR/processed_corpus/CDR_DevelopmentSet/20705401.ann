@@ -1,0 +1,34 @@
+T1	Chemical 0 9	Serotonin
+T2	Chemical 45 60	methamphetamine
+T3	Disease 69 78	psychosis
+T4	Disease 207 226	psychotic disorders
+T5	Disease 235 248	schizophrenia
+T6	Chemical 254 263	serotonin
+T7	Chemical 267 271	5-HT
+T8	Chemical 364 373	clozapine
+T9	Chemical 378 388	olanzapine
+T10	Chemical 394 407	d-amphetamine
+T11	Disease 416 429	hyperactivity
+T12	Chemical 479 483	5-HT
+T13	Chemical 564 577	d-amphetamine
+T14	Chemical 581 594	phencyclidine
+T15	Chemical 611 615	5-HT
+T16	Disease 740 753	schizophrenia
+T17	Chemical 800 804	5-HT
+T18	Disease 855 874	psychotic disorders
+T19	Chemical 892 907	methamphetamine
+T20	Chemical 909 913	METH
+T21	Disease 923 932	psychosis
+T22	Disease 957 984	paranoid type schizophrenia
+T23	Chemical 1048 1052	5-HT
+T24	Chemical 1071 1075	METH
+T25	Disease 1084 1093	psychosis
+T26	Chemical 1260 1264	METH
+T27	Disease 1273 1282	psychosis
+T28	Chemical 1411 1426	methamphetamine
+T29	Chemical 1487 1491	METH
+T30	Disease 1500 1509	psychosis
+T31	Chemical 1806 1810	METH
+T32	Disease 1819 1828	psychosis
+T33	Chemical 1923 1927	METH
+T34	Disease 1936 1945	psychosis

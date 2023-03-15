@@ -1,0 +1,28 @@
+T1	Disease 63 85	postoperative delirium
+T2	Disease 63 85	postoperative delirium
+T3	Disease 77 85	delirium
+T4	Disease 117 129	hip fracture
+T5	Disease 237 249	hip fracture
+T6	Disease 308 330	postoperative delirium
+T7	Disease 308 330	postoperative delirium
+T8	Disease 322 330	delirium
+T9	Disease 497 505	delirium
+T10	Disease 516 524	dementia
+T11	Disease 539 551	hip fracture
+T12	Chemical 588 596	propofol
+T13	Disease 816 838	Postoperative delirium
+T14	Disease 816 838	Postoperative delirium
+T15	Disease 830 838	delirium
+T16	Disease 903 919	Mental Disorders
+T17	Disease 1162 1184	postoperative delirium
+T18	Disease 1162 1184	postoperative delirium
+T19	Disease 1176 1184	delirium
+T20	Disease 1331 1339	delirium
+T21	Disease 1444 1452	delirium
+T22	Chemical 1618 1626	propofol
+T23	Disease 1664 1686	postoperative delirium
+T24	Disease 1664 1686	postoperative delirium
+T25	Disease 1678 1686	delirium
+T26	Disease 1841 1863	postoperative delirium
+T27	Disease 1841 1863	postoperative delirium
+T28	Disease 1855 1863	delirium

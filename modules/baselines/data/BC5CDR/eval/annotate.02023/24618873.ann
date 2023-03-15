@@ -1,0 +1,11 @@
+T1	Chemical 67 76	pethidine
+T2	Chemical 77 86	Pethidine
+T3	Chemical 93 99	opioid
+T4	Disease 260 272	side effects
+T5	Disease 321 333	side effects
+T6	Chemical 471 480	pethidine
+T7	Disease 502 524	central nervous system
+T9	Chemical 683 692	pethidine
+T10	Chemical 849 855	opioid
+T11	Disease 869 881	side effects
+T13	Disease 953 967	smooth pursuit

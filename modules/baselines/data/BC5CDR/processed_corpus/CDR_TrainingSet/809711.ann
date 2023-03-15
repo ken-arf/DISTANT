@@ -1,0 +1,16 @@
+T1	Chemical 12 25	phenylephrine
+T2	Chemical 67 80	nitroglycerin
+T3	Disease 98 125	acute myocardial infarction
+T4	Chemical 126 139	Nitroglycerin
+T5	Disease 193 220	acute myocardial infarction
+T6	Chemical 278 291	nitroglycerin
+T7	Disease 300 311	hypotension
+T8	Chemical 373 386	nitroglycerin
+T9	Chemical 391 404	phenylephrine
+T10	Disease 449 471	myocardial infarctions
+T11	Chemical 493 506	nitroglycerin
+T12	Chemical 831 844	nitroglycerin
+T13	Chemical 869 882	phenylephrine
+T14	Chemical 1175 1188	phenylephrine
+T15	Chemical 1192 1205	nitroglycerin
+T16	Disease 1258 1285	acute myocardial infarction

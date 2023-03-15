@@ -1,0 +1,16 @@
+T1	Disease 61 75	extrapyramidal
+T2	Disease 61 84	extrapyramidal syndrome
+T3	Disease 96 109	schizophrenic
+T4	Disease 124 138	Extrapyramidal
+T5	Disease 124 147	Extrapyramidal syndrome
+T6	Disease 149 152	EPS
+T7	Disease 413 426	schizophrenia
+T8	Disease 598 601	EPS
+T9	Disease 605 618	schizophrenic
+T10	Disease 784 797	schizophrenic
+T11	Disease 818 821	EPS
+T12	Disease 837 840	EPS
+T13	Chemical 892 906	chlorpromazine
+T14	Chemical 1530 1544	chlorpromazine
+T15	Disease 1580 1593	schizophrenia
+T16	Disease 1671 1674	EPS

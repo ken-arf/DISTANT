@@ -1,0 +1,13 @@
+T1	Chemical 13 22	aprotinin
+T2	Chemical 27 42	tranexamic acid
+T3	Chemical 218 227	aprotinin
+T4	Chemical 240 255	tranexamic acid
+T5	Chemical 521 530	aprotinin
+T6	Chemical 591 606	tranexamic acid
+T7	Disease 1095 1114	atrial fibrillation
+T8	Disease 1145 1158	renal failure
+T9	Disease 1346 1374	acute myocardial infarctions
+T10	Disease 1379 1396	renal dysfunction
+T11	Chemical 1526 1535	aprotinin
+T12	Chemical 1738 1747	aprotinin
+T13	Chemical 1848 1863	tranexamic acid

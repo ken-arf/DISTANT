@@ -1,0 +1,9 @@
+T3	Chemical 240 248	factor 4
+T4	Chemical 299 330	procoagulant platelet particles
+T7	Disease 467 489	vascular complications
+T10	Disease 701 720	whenever thrombosis
+T12	Disease 897 918	catastrophic outcomes
+T14	Chemical 1023 1037	antithrombotic
+T15	Chemical 1069 1094	direct thrombin inhibitor
+T17	Chemical 1389 1415	Direct thrombin inhibitors
+T19	Disease 1527 1561	percutaneous coronary intervention

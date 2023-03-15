@@ -1,0 +1,27 @@
+T1	Chemical 0 8	Kinin B2
+T2	Disease 70 88	acute renal injury
+T3	Chemical 89 98	Cisplatin
+T5	Disease 180 199	acute kidney injury
+T6	Disease 237 251	renal function
+T7	Chemical 277 287	creatinine
+T11	Chemical 373 378	IL-1b
+T12	Chemical 395 412	kinin B2 receptor
+T15	Disease 565 585	diabetic nephropathy
+T16	Chemical 621 629	kinin B2
+T17	Disease 660 679	acute kidney injury
+T18	Chemical 681 689	kinin B2
+T19	Chemical 734 743	cisplatin
+T20	Chemical 787 809	B2 receptor antagonist
+T21	Chemical 816 825	cisplatin
+T22	Chemical 842 844	B2
+T24	Disease 940 951	weight loss
+T26	Disease 976 991	kidney function
+T29	Chemical 1097 1125	kinin B2 receptor antagonist
+T30	Chemical 1166 1176	creatinine
+T32	Chemical 1198 1207	cisplatin
+T33	Chemical 1256 1264	kinin B2
+T34	Disease 1307 1326	acute kidney injury
+T36	Disease 1434 1448	renal function
+T37	Chemical 1478 1506	kinin B2 receptor antagonist
+T38	Disease 1536 1550	nephrotoxicity
+T39	Chemical 1562 1571	cisplatin

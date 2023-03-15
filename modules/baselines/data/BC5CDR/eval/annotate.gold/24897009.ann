@@ -1,0 +1,10 @@
+T1	Disease 19 40	peripheral neuropathy
+T2	Chemical 48 58	ethambutol
+T3	Chemical 73 83	Ethambutol
+T4	Disease 102 118	optic neuropathy
+T5	Disease 144 158	polyneuropathy
+T6	Disease 271 282	visual loss
+T7	Disease 287 299	paresthesias
+T8	Chemical 357 367	ethambutol
+T9	Chemical 477 487	ethambutol
+T10	Disease 488 496	toxicity

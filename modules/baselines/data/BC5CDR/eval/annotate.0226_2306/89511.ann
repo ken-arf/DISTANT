@@ -1,0 +1,11 @@
+T1	Disease 28 47	endometrial disease
+T2	Disease 154 173	endometrial disease
+T4	Disease 231 249	Cystic hyperplasia
+T5	Chemical 306 317	progestagen
+T6	Chemical 350 364	norethisterone
+T9	Disease 417 435	cystic hyperplasia
+T11	Disease 460 480	atypical hyperplasia
+T12	Disease 493 514	endometrial carcinoma
+T19	Chemical 709 717	low-dose
+T20	Chemical 755 766	progestagen
+T21	Disease 805 828	endometrial hyperplasia

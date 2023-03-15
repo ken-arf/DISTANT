@@ -1,0 +1,19 @@
+T1	Disease 12 26	adverse events
+T2	Disease 141 155	adverse events
+T4	Chemical 173 183	fixed-dose
+T5	Chemical 207 221	antiretroviral
+T8	Chemical 533 536	d4T
+T9	Chemical 551 554	NVP
+T13	Chemical 590 593	NVP
+T15	Chemical 609 624	d4T + efavirenz
+T16	Chemical 626 629	EFV
+T19	Chemical 656 659	EFV
+T20	Disease 684 698	adverse events
+T24	Disease 776 797	peripheral neuropathy
+T25	Disease 827 849	Clinically significant
+T30	Disease 950 967	clinical jaundice
+T31	Chemical 973 997	alanine aminotransferase
+T33	Disease 1128 1143	lactic acidosis
+T34	Disease 1200 1230	immune reconstitution syndrome
+T36	Chemical 1354 1357	d4T
+T37	Disease 1382 1403	peripheral neuropathy

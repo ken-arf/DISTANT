@@ -1,0 +1,14 @@
+T2	Chemical 205 227	gemfibrozil-lovastatin
+T4	Disease 320 336	vascular disease
+T6	Chemical 385 408	low-density lipoprotein
+T7	Chemical 448 472	high-density lipoprotein
+T8	Chemical 523 550	cholesterol/HDL cholesterol
+T11	Chemical 619 636	g/day)-lovastatin
+T12	Chemical 846 868	creatine phosphokinase
+T13	Chemical 938 964	gamma glutamyl transferase
+T14	Chemical 1038 1060	creatine phosphokinase
+T16	Chemical 1296 1311	LDL cholesterol
+T17	Chemical 1363 1390	cholesterol/HDL cholesterol
+T19	Chemical 1494 1510	drug combination
+T21	Chemical 1612 1634	creatine phosphokinase
+T22	Disease 1666 1680	rhabdomyolysis

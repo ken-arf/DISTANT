@@ -1,0 +1,14 @@
+T1	Chemical 42 45	ANP
+T2	Chemical 167 187	arginine vasopressin
+T3	Chemical 201 227	atrial natriuretic peptide
+T4	Disease 257 271	blood pressure
+T6	Chemical 664 667	ANP
+T9	Chemical 914 934	sodium nitroprusside
+T11	Chemical 1034 1037	ANP
+T13	Chemical 1177 1180	ANP
+T16	Chemical 1453 1456	ANP
+T17	Chemical 1466 1469	ANP
+T18	Chemical 1576 1579	ANP
+T19	Disease 1610 1624	blood pressure
+T21	Disease 1726 1740	blood pressure
+T22	Disease 1768 1790	central nervous system

@@ -1,0 +1,22 @@
+T1	Disease 19 26	tumours
+T2	Chemical 70 85	organophosphate
+T3	Chemical 98 106	diazinon
+T4	Chemical 172 180	Diazinon
+T5	Chemical 191 206	organophosphate
+T6	Disease 277 288	lung cancer
+T7	Disease 408 414	cancer
+T8	Chemical 437 445	diazinon
+T9	Disease 459 465	cancer
+T10	Disease 506 512	tumour
+T11	Chemical 544 553	pesticide
+T12	Chemical 611 619	diazinon
+T13	Disease 676 682	cancer
+T14	Disease 920 926	cancer
+T15	Disease 1119 1130	lung cancer
+T16	Chemical 1253 1261	diazinon
+T17	Disease 1311 1324	Kidney cancer
+T18	Disease 1501 1516	prostate cancer
+T19	Chemical 1565 1573	diazinon
+T20	Disease 1626 1637	lung cancer
+T21	Disease 1670 1683	kidney cancer
+T22	Disease 1717 1732	prostate cancer

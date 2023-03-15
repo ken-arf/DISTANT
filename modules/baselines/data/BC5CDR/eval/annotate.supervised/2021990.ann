@@ -1,0 +1,18 @@
+T1	Chemical 0 15	Diphenhydramine
+T2	Chemical 53 63	cimetidine
+T3	Chemical 80 90	Cimetidine
+T4	Chemical 94 103	histamine
+T5	Disease 134 142	decrease
+T6	Disease 201 215	critically ill
+T7	Chemical 246 256	cimetidine
+T8	Chemical 267 276	histamine
+T9	Chemical 333 342	histamine
+T10	Chemical 370 385	diphenhydramine
+T11	Chemical 430 440	cimetidine
+T12	Chemical 540 550	cimetidine
+T13	Chemical 609 624	diphenhydramine
+T14	Chemical 639 649	cimetidine
+T15	Chemical 814 824	cimetidine
+T16	Disease 1079 1090	hypotension
+T17	Chemical 1104 1114	cimetidine
+T18	Chemical 1151 1161	cimetidine

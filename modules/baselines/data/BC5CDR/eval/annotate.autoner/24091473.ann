@@ -1,0 +1,17 @@
+T1	Chemical 26 37	epinephrine
+T2	Disease 82 90	toxicity
+T3	Chemical 169 180	epinephrine
+T4	Disease 264 272	toxicity
+T5	Disease 468 491	ventricular tachycardia
+T6	Disease 514 526	prolongation
+T7	Chemical 590 596	saline
+T8	Chemical 620 631	epinephrine
+T9	Chemical 674 685	epinephrine
+T10	Disease 881 887	rhythm
+T11	Chemical 1222 1232	Intralipid
+T12	Chemical 1281 1292	epinephrine
+T13	Chemical 1297 1308	epinephrine
+T14	Chemical 1381 1392	epinephrine
+T15	Chemical 1397 1408	epinephrine
+T16	Chemical 1510 1521	Epinephrine
+T17	Disease 1618 1626	compared

@@ -1,0 +1,24 @@
+T1	Chemical 0 25	Growth-associated protein
+T2	Disease 43 70	hippocampal molecular layer
+T3	Chemical 110 123	cycloheximide
+T4	Chemical 133 138	GAP43
+T6	Chemical 265 270	GAP43
+T7	Chemical 283 291	GAP43-ir
+T10	Chemical 380 388	GAP43-ir
+T11	Chemical 402 417	molecular layer
+T12	Disease 425 438	dentate gyrus
+T13	Chemical 440 443	IML
+T14	Disease 464 482	status epilepticus
+T16	Disease 507 511	Pilo
+T17	Chemical 546 559	cycloheximide
+T18	Chemical 561 564	CHX
+T20	Chemical 613 616	CHX
+T22	Chemical 831 836	GAP43
+T23	Chemical 924 932	GAP43-ir
+T24	Chemical 940 943	IML
+T25	Disease 952 956	Pilo
+T26	Chemical 1050 1053	IML
+T27	Chemical 1232 1240	CHX+Pilo
+T28	Chemical 1275 1278	IML
+T30	Disease 1552 1559	loss of
+T31	Chemical 1596 1602	GAP-43

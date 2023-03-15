@@ -1,0 +1,29 @@
+T3	Chemical 30 46	pluripotent stem
+T4	Chemical 60 74	cardiomyocytes
+T6	Chemical 161 204	human-induced pluripotent stem cell-derived
+T7	Chemical 205 219	cardiomyocytes
+T8	Chemical 250 252	QT
+T9	Chemical 330 334	K(+)
+T10	Chemical 347 369	Ca(2+) channel blocker
+T11	Chemical 381 383	QT
+T12	Chemical 473 493	multichannel blocker
+T13	Chemical 508 510	QT
+T15	Chemical 622 624	QT
+T18	Chemical 799 817	drug concentration
+T19	Chemical 819 822	IKr
+T20	Chemical 827 830	IKs
+T22	Chemical 891 895	FPDc
+T23	Chemical 906 929	Ca(2+) channel blockers
+T24	Chemical 966 970	FPDc
+T25	Chemical 982 1003	multichannel blockers
+T26	Chemical 1016 1026	Paroxetine
+T27	Chemical 1028 1039	Terfenadine
+T28	Chemical 1044 1054	Citalopram
+T29	Chemical 1065 1069	FPDc
+T30	Chemical 1120 1123	IKr
+T31	Chemical 1134 1145	Terfenadine
+T32	Chemical 1150 1160	Citalopram
+T33	Disease 1190 1208	Torsade de Pointes
+T34	Chemical 1309 1313	FPDc
+T35	Chemical 1341 1356	drug candidates
+T37	Chemical 1446 1449	TdP

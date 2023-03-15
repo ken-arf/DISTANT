@@ -1,0 +1,14 @@
+T1	Chemical 41 50	dismutase
+T2	Disease 83 90	hearing
+T3	Chemical 126 132	oxygen
+T4	Disease 167 178	ototoxicity
+T5	Disease 336 347	ototoxicity
+T6	Chemical 423 432	dismutase
+T7	Disease 478 489	ototoxicity
+T8	Chemical 577 598	C57BL/6-TgN[SOD1]3Cje
+T9	Disease 634 645	littermates
+T10	Chemical 655 664	kanamycin
+T11	Disease 837 850	nontransgenic
+T12	Chemical 984 993	kanamycin
+T13	Chemical 1152 1161	dismutase
+T14	Disease 1257 1268	ototoxicity

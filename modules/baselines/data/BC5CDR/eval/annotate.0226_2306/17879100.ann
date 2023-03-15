@@ -1,0 +1,13 @@
+T1	Chemical 0 31	Non-steroidal anti-inflammatory
+T2	Disease 49 77	acute interstitial nephritis
+T3	Disease 83 117	granular tubular basement membrane
+T5	Disease 186 214	cause of acute renal failure
+T8	Chemical 332 369	non-steroidal anti-inflammatory drugs
+T14	Disease 572 591	acute renal failure
+T16	Disease 606 626	aortic valve surgery
+T20	Chemical 883 893	creatinine
+T21	Disease 1001 1024	inflammatory infiltrate
+T22	Disease 1063 1088	tubular basement membrane
+T23	Chemical 1090 1093	TBM
+T24	Chemical 1130 1144	polyclonal IgG
+T25	Chemical 1149 1151	C3

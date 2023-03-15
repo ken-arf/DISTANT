@@ -1,0 +1,45 @@
+T1	Disease 0 18	Glucose metabolism
+T4	Chemical 72 92	antipsychotic agents
+T5	Disease 127 144	glucose tolerance
+T7	Disease 212 239	new-onset diabetes mellitus
+T10	Chemical 319 339	antipsychotic agents
+T11	Chemical 368 383	atypical agents
+T12	Disease 407 425	glucose metabolism
+T16	Chemical 551 561	olanzapine
+T17	Chemical 567 578	risperidone
+T18	Disease 618 635	glucose tolerance
+T20	Disease 771 788	glucose tolerance
+T21	Disease 1068 1085	glucose tolerance
+T23	Disease 1143 1167	schizoaffective disorder
+T24	Disease 1180 1195	body mass index
+T26	Chemical 1231 1241	olanzapine
+T27	Chemical 1246 1257	risperidone
+T32	Disease 1429 1447	insulin resistance
+T36	Chemical 1582 1584	/-
+T38	Chemical 1616 1618	/-
+T39	Chemical 1632 1642	olanzapine
+T40	Chemical 1655 1657	/-
+T42	Chemical 1738 1742	F(33
+T43	Chemical 1773 1783	olanzapine
+T45	Chemical 1848 1859	risperidone
+T46	Chemical 1888 1898	olanzapine
+T47	Chemical 2018 2022	F(33
+T48	Chemical 2052 2062	olanzapine
+T50	Chemical 2118 2128	olanzapine
+T51	Disease 2152 2170	insulin resistance
+T52	Chemical 2216 2227	risperidone
+T54	Chemical 2242 2253	risperidone
+T55	Chemical 2278 2288	olanzapine
+T56	Chemical 2292 2303	risperidone
+T57	Disease 2376 2394	insulin resistance
+T58	Chemical 2437 2441	F(33
+T59	Chemical 2471 2481	olanzapine
+T61	Chemical 2509 2520	risperidone
+T62	Chemical 2546 2556	olanzapine
+T63	Chemical 2671 2675	F(30
+T64	Chemical 2705 2715	olanzapine
+T66	Chemical 2780 2791	risperidone
+T67	Chemical 2821 2831	olanzapine
+T68	Disease 2964 2982	insulin resistance
+T72	Chemical 3097 3107	olanzapine
+T73	Disease 3129 3147	insulin resistance

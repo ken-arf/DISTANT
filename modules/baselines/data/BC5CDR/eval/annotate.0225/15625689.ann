@@ -1,0 +1,15 @@
+T1	Disease 0 24	Swallowing abnormalities
+T3	Disease 43 62	Parkinson's disease
+T4	Disease 63 93	Gastrointestinal abnormalities
+T5	Disease 97 116	Parkinson's disease
+T6	Disease 198 213	pathophysiology
+T9	Disease 388 398	dyskinetic
+T10	Disease 403 416	nondyskinetic
+T12	Disease 529 548	Parkinson's Disease
+T13	Disease 687 700	Nondyskinetic
+T14	Disease 723 733	dyskinetic
+T15	Disease 846 856	Dyskinetic
+T16	Disease 901 914	nondyskinetic
+T20	Chemical 1000 1004	OPSE
+T23	Disease 1249 1259	dyskinetic
+T28	Disease 1503 1526	deglutition alterations

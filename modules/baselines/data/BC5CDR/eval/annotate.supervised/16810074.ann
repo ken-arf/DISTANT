@@ -1,0 +1,30 @@
+T1	Disease 14 26	hypertension
+T2	Chemical 38 50	nitric oxide
+T3	Chemical 52 54	NO
+T4	Chemical 126 138	nitric oxide
+T5	Chemical 140 142	NO
+T6	Disease 147 159	hypertension
+T7	Disease 177 197	arterial dysfunction
+T8	Disease 212 224	hypertension
+T9	Chemical 251 253	NO
+T10	Chemical 563 586	Nomega-nitro-L-arginine
+T11	Chemical 588 592	LNNA
+T12	Disease 594 606	hypertension
+T13	Chemical 660 662	NO
+T14	Chemical 682 686	LNNA
+T15	Chemical 823 827	LNNA
+T16	Chemical 952 966	norepinephrine
+T17	Chemical 1154 1168	norepinephrine
+T18	Chemical 1229 1233	ET-1
+T19	Chemical 1341 1345	LNNA
+T20	Disease 1346 1358	hypertension
+T21	Chemical 1381 1385	LNNA
+T22	Chemical 1391 1401	superoxide
+T23	Chemical 1412 1418	tempol
+T24	Chemical 1547 1551	LNNA
+T25	Chemical 1640 1653	hexamethonium
+T26	Chemical 1693 1697	LNNA
+T27	Disease 1698 1710	hypertensive
+T28	Chemical 1874 1884	superoxide
+T29	Chemical 1954 1956	NO
+T30	Disease 2128 2140	hypertension

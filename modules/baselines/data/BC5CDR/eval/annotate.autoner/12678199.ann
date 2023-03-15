@@ -1,0 +1,7 @@
+T1	Disease 19 26	torsade
+T2	Disease 30 37	pointes
+T3	Disease 171 189	torsade de pointes
+T4	Disease 191 194	TdP
+T5	Chemical 217 227	amiodarone
+T6	Chemical 646 656	amiodarone
+T7	Chemical 729 739	amiodarone

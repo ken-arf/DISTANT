@@ -1,0 +1,18 @@
+T1	Disease 18 34	optic neuropathy
+T2	Chemical 40 63	systemic antimicrobials
+T3	Disease 101 116	adverse effects
+T4	Chemical 149 158	multidrug
+T6	Disease 219 233	adverse effect
+T8	Disease 269 276	loss of
+T9	Chemical 426 435	linezolid
+T10	Chemical 440 450	ethambutol
+T11	Disease 467 494	drug-resistant tuberculosis
+T13	Disease 546 553	loss of
+T15	Disease 575 587	Color vision
+T17	Disease 606 624	fundus examination
+T18	Disease 634 650	optic disc edema
+T20	Disease 684 706	toxic optic neuropathy
+T22	Chemical 732 742	ethambutol
+T25	Chemical 813 823	ethambutol
+T26	Chemical 844 853	linezolid
+T28	Disease 945 960	visual function

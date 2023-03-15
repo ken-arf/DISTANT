@@ -1,0 +1,26 @@
+T1	Chemical 139 150	pilocarpine
+T2	Chemical 206 215	aconitine
+T3	Chemical 232 239	ouabain
+T4	Disease 259 269	arrhythmia
+T5	Chemical 337 344	calcium
+T6	Chemical 362 364	Ca
+T7	Chemical 425 436	pilocarpine
+T8	Disease 468 479	arrhythmias
+T9	Disease 510 550	ventricular tachycardia and fibrillation
+T10	Disease 510 533	ventricular tachycardia
+T11	Disease 510 521;538 550	ventricular fibrillation
+T12	Disease 560 570	arrhythmia
+T13	Disease 613 623	arrhythmic
+T14	Chemical 647 649	Ca
+T15	Chemical 678 687	aconitine
+T16	Chemical 691 698	ouabain
+T17	Chemical 748 759	pilocarpine
+T18	Chemical 787 800	acetylcholine
+T19	Chemical 829 835	4-DAMP
+T20	Chemical 837 884	4-diphenylacetoxy-N-methylpiperidine-methiodide
+T21	Chemical 932 943	pilocarpine
+T22	Chemical 969 980	pilocarpine
+T23	Disease 1016 1026	arrhythmic
+T24	Chemical 1064 1073	aconitine
+T25	Chemical 1077 1084	ouabain
+T26	Chemical 1176 1178	Ca

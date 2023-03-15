@@ -1,0 +1,22 @@
+T1	Disease 0 14	Hepatotoxicity
+T2	Chemical 18 28	amiodarone
+T3	Chemical 29 39	Amiodarone
+T4	Disease 114 130	tachyarrhythmias
+T5	Chemical 143 153	amiodarone
+T6	Disease 229 250	cholestatic hepatitis
+T7	Disease 229 240	cholestatic
+T8	Disease 241 250	hepatitis
+T9	Chemical 258 268	amiodarone
+T10	Disease 318 332	hepatotoxicity
+T11	Chemical 336 346	amiodarone
+T12	Disease 403 417	hepatic injury
+T13	Chemical 425 435	amiodarone
+T14	Disease 457 466	steatosis
+T15	Disease 491 510	alcoholic hepatitis
+T16	Disease 512 533	cholestatic hepatitis
+T17	Disease 512 523	cholestatic
+T18	Disease 524 533	hepatitis
+T19	Disease 551 573	cirrhosis of the liver
+T20	Chemical 594 604	amiodarone
+T21	Disease 724 742	cholestatic injury
+T22	Disease 746 758	hepatomegaly

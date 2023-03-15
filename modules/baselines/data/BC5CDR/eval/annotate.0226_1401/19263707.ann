@@ -1,0 +1,19 @@
+T1	Chemical 0 11	Carbimazole
+T2	Chemical 20 24	ANCA
+T4	Chemical 45 63	Anti-thyroid drugs
+T5	Chemical 70 81	carbimazole
+T8	Disease 198 210	side effects
+T11	Chemical 239 274	Antineutrophil cytoplasmic antibody
+T14	Disease 339 353	adverse effect
+T15	Disease 406 421	Graves' disease
+T16	Chemical 436 440	ANCA
+T17	Chemical 441 461	positive carbimazole
+T20	Disease 528 537	skin rash
+T21	Disease 560 575	joint arthritis
+T23	Disease 589 600	parotiditis
+T32	Chemical 790 801	Carbimazole
+T33	Chemical 806 817	methimazole
+T35	Chemical 853 857	ANCA
+T36	Disease 867 879	side effects
+T38	Chemical 937 941	ANCA
+T39	Chemical 942 962	positive carbimazole

@@ -1,0 +1,22 @@
+T1	Chemical 0 11	Carbimazole
+T2	Disease 20 24	ANCA
+T3	Disease 25 44	positive vasculitis
+T4	Chemical 45 63	Anti-thyroid drugs
+T5	Chemical 70 81	carbimazole
+T7	Chemical 104 107	PTU
+T9	Disease 198 210	side effects
+T10	Chemical 214 237	antithyroid medications
+T11	Chemical 239 274	Antineutrophil cytoplasmic antibody
+T13	Disease 339 353	adverse effect
+T14	Disease 406 421	Graves' disease
+T15	Chemical 436 440	ANCA
+T16	Chemical 450 461	carbimazole
+T19	Disease 517 537	vasculitic skin rash
+T21	Disease 589 600	parotiditis
+T23	Disease 617 638	pulmonary involvement
+T27	Chemical 790 801	Carbimazole
+T28	Chemical 806 817	methimazole
+T29	Chemical 853 857	ANCA
+T30	Disease 867 879	side effects
+T31	Chemical 937 941	ANCA
+T32	Chemical 951 962	carbimazole

@@ -1,0 +1,16 @@
+T1	Chemical 7 18	propranolol
+T3	Disease 50 73	orthostatic hypotension
+T4	Disease 104 127	orthostatic hypotension
+T7	Disease 183 204	autonomic dysfunction
+T8	Chemical 269 290	plasma catecholamines
+T14	Chemical 492 494	(1
+T15	Disease 542 556	blood pressure
+T17	Chemical 658 669	propranolol
+T18	Disease 704 719	blood pressures
+T20	Chemical 853 864	propranolol
+T22	Disease 948 960	side effects
+T24	Disease 1245 1266	peripheral resistance
+T25	Disease 1296 1310	cardiac output
+T26	Chemical 1321 1332	propranolol
+T27	Chemical 1367 1378	propranolol
+T30	Disease 1440 1463	orthostatic hypotension

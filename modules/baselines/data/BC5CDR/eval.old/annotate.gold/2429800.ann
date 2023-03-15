@@ -1,0 +1,16 @@
+T1	Chemical 0 9	Histamine
+T2	Chemical 26 40	d-tubocurarine
+T3	Disease 49 60	hypotension
+T4	Chemical 114 123	histamine
+T5	Chemical 168 182	d-tubocurarine
+T6	Chemical 223 232	histamine
+T7	Chemical 286 300	d-tubocurarine
+T8	Chemical 381 391	cimetidine
+T9	Chemical 425 441	chlorpheniramine
+T10	Chemical 481 491	cimetidine
+T11	Chemical 497 513	chlorpheniramine
+T12	Chemical 515 524	Histamine
+T13	Chemical 594 608	d-tubocurarine
+T14	Chemical 676 685	histamine
+T15	Chemical 939 953	d-tubocurarine
+T16	Chemical 993 1002	histamine

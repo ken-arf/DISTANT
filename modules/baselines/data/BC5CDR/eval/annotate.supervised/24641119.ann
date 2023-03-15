@@ -1,0 +1,13 @@
+T1	Disease 0 6	Baboon
+T2	Disease 0 15	Baboon syndrome
+T3	Chemical 27 39	ketoconazole
+T4	Chemical 159 171	ketoconazole
+T5	Disease 217 223	baboon
+T6	Disease 217 232	baboon syndrome
+T7	Chemical 299 311	ketoconazole
+T8	Disease 369 375	Baboon
+T9	Disease 369 384	Baboon syndrome
+T10	Disease 424 437	maculopapular
+T11	Disease 438 446	eruption
+T12	Disease 589 595	baboon
+T13	Disease 589 604	baboon syndrome

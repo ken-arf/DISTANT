@@ -1,0 +1,15 @@
+T1	Chemical 12 22	olanzapine
+T3	Chemical 172 182	olanzapine
+T6	Disease 349 365	bipolar disorder
+T8	Chemical 402 412	olanzapine
+T10	Disease 554 562	euthymia
+T11	Chemical 634 643	end point
+T12	Chemical 681 690	end point
+T13	Disease 757 771	adverse events
+T14	Disease 773 787	Extrapyramidal
+T15	Disease 856 867	vital signs
+T16	Disease 873 886	weight change
+T17	Disease 1140 1152	postbaseline
+T18	Disease 1374 1382	euthymia
+T19	Disease 1617 1628	weight gain
+T21	Chemical 1824 1834	Olanzapine

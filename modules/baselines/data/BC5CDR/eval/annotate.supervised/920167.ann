@@ -1,0 +1,13 @@
+T1	Chemical 19 27	warfarin
+T2	Chemical 111 119	warfarin
+T3	Chemical 215 223	warfarin
+T4	Chemical 229 236	heparin
+T5	Disease 255 267	cerebral and
+T6	Disease 268 288	pulmonary hemorrhage
+T7	Disease 381 392	embryopathy
+T8	Disease 398 414	nasal hypoplasia
+T9	Disease 428 437	epiphyses
+T10	Disease 439 455	chondrodysplasia
+T11	Disease 439 464	chondrodysplasia punctata
+T12	Disease 467 483	Nasal hypoplasia
+T13	Chemical 584 592	warfarin

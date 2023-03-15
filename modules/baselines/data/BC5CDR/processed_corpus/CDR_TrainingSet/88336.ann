@@ -1,0 +1,18 @@
+T1	Disease 15 19	coma
+T2	Disease 58 74	cerebral hypoxia
+T3	Disease 107 115	comatose
+T4	Disease 119 128	stuporous
+T5	Chemical 230 245	chlormethiazole
+T6	Chemical 250 257	alcohol
+T7	Disease 258 277	withdrawal symptoms
+T8	Disease 303 311	overdose
+T9	Chemical 315 325	nitrazepam
+T10	Chemical 344 354	nitrazepam
+T11	Disease 355 363	overdose
+T12	Chemical 386 401	chlormethiazole
+T13	Disease 451 455	coma
+T14	Chemical 588 603	chlormethiazole
+T15	Disease 724 745	neurological sequelae
+T16	Disease 875 885	depression
+T17	Disease 1063 1067	coma
+T18	Disease 1208 1218	hypoxaemia

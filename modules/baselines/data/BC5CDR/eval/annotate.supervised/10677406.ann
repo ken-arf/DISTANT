@@ -1,0 +1,23 @@
+T1	Disease 10 38	left ventricular dysfunction
+T2	Disease 63 86	coronary artery disease
+T3	Chemical 98 108	dobutamine
+T4	Disease 130 150	myocardial ischaemia
+T5	Disease 240 268	left ventricular dysfunction
+T6	Disease 286 309	coronary artery disease
+T7	Chemical 473 483	dobutamine
+T8	Disease 492 501	ischaemia
+T9	Disease 537 543	angina
+T10	Disease 569 592	coronary artery disease
+T11	Chemical 670 680	dobutamine
+T12	Disease 965 977	systolic and
+T13	Disease 978 999	diastolic dysfunction
+T14	Chemical 1308 1318	dobutamine
+T15	Chemical 1539 1549	dobutamine
+T16	Disease 1700 1723	coronary artery disease
+T17	Chemical 1725 1735	dobutamine
+T18	Disease 1744 1753	ischaemia
+T19	Disease 1786 1814	left ventricular dysfunction
+T20	Disease 1831 1850	myocardial stunning
+T21	Chemical 1889 1899	Dobutamine
+T22	Disease 1908 1917	ischaemia
+T23	Disease 2015 2038	coronary artery disease

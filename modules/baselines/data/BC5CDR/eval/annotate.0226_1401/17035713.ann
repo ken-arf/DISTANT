@@ -1,0 +1,28 @@
+T1	Chemical 0 18	Chloroacetaldehyde
+T2	Chemical 24 42	sulfhydryl reagent
+T3	Chemical 65 70	thiol
+T4	Chemical 81 91	ifosfamide
+T5	Chemical 104 122	Chloroacetaldehyde
+T6	Disease 124 127	CAA
+T8	Chemical 152 179	alkylating agent ifosfamide
+T9	Chemical 181 184	IFO
+T10	Disease 217 229	renal damage
+T11	Chemical 264 267	IFO
+T12	Chemical 282 292	sulfhydryl
+T15	Chemical 543 546	LDH
+T16	Chemical 588 597	caspase-3
+T17	Chemical 613 619	thiols
+T18	Chemical 651 657	Ellman
+T20	Chemical 740 746	thiols
+T24	Chemical 819 847	cysteine proteases caspase-3
+T25	Chemical 849 858	caspase-8
+T26	Chemical 863 872	cathepsin
+T28	Chemical 898 907	cisplatin
+T30	Disease 1017 1026	lysosomal
+T31	Disease 1036 1045	lysosomal
+T33	Chemical 1077 1094	cysteine protease
+T34	Chemical 1110 1116	thiols
+T36	Chemical 1206 1211	thiol
+T38	Chemical 1277 1282	thiol
+T39	Chemical 1297 1314	cysteine protease
+T44	Disease 1505 1526	urinary acidification

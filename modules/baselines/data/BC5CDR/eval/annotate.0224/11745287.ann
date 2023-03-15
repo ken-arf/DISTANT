@@ -1,0 +1,13 @@
+T1	Chemical 18 29	carboplatin
+T2	Disease 83 106	squamous cell carcinoma
+T3	Chemical 168 179	carboplatin
+T4	Disease 264 282	cervical carcinoma
+T5	Chemical 312 323	carboplatin
+T6	Disease 506 538	squamous cell cervical carcinoma
+T7	Disease 909 916	Grade 3
+T11	Disease 1011 1028	neutropenic fever
+T13	Disease 1313 1322	mucositis
+T15	Disease 1384 1395	weight loss
+T16	Disease 1411 1420	hand-foot
+T18	Chemical 1511 1522	carboplatin
+T19	Disease 1596 1614	cervical carcinoma

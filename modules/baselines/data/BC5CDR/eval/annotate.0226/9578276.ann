@@ -1,0 +1,27 @@
+T2	Chemical 48 58	carbetocin
+T3	Chemical 127 149	maximum tolerated dose
+T4	Chemical 151 154	MTD
+T5	Chemical 159 169	carbetocin
+T6	Chemical 173 203	long-acting synthetic analogue
+T8	Chemical 303 313	Carbetocin
+T10	Chemical 483 496	Dosage groups
+T11	Chemical 542 548	microg
+T12	Chemical 549 559	carbetocin
+T13	Chemical 728 734	microg
+T14	Chemical 749 755	microg
+T15	Disease 792 806	adverse events
+T17	Disease 846 860	abdominal pain
+T19	Disease 883 900	retained placenta
+T20	Disease 909 931	Serious adverse events
+T21	Disease 972 982	blood loss
+T24	Disease 1106 1123	blood transfusion
+T25	Disease 1133 1143	blood loss
+T26	Chemical 1174 1184	lower dose
+T27	Chemical 1218 1229	microg dose
+T28	Disease 1264 1274	blood loss
+T29	Chemical 1310 1316	microg
+T31	Chemical 1429 1440	dose groups
+T32	Chemical 1448 1454	microg
+T34	Chemical 1510 1516	microg
+T35	Chemical 1566 1572	microg
+T36	Chemical 1573 1583	carbetocin

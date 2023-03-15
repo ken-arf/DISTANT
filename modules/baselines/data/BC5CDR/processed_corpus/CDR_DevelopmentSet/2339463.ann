@@ -1,0 +1,13 @@
+T1	Disease 0 25	Cerebral sinus thrombosis
+T2	Disease 81 92	menorrhagia
+T3	Disease 148 193	sagittal and left transverse sinus thrombosis
+T4	Disease 148 156;177 193	sagittal sinus thrombosis
+T5	Disease 161 193	left transverse sinus thrombosis
+T6	Chemical 220 245	epsilon-aminocaproic acid
+T7	Disease 258 269	menorrhagia
+T8	Disease 327 338	menorrhagia
+T9	Disease 370 380	blood loss
+T10	Disease 409 431	thromboembolic disease
+T11	Chemical 472 497	epsilon-aminocaproic acid
+T12	Disease 499 524	cerebral sinus thrombosis
+T13	Chemical 575 600	epsilon-aminocaproic acid

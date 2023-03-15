@@ -1,0 +1,25 @@
+T1	Disease 0 12	Hyperosmolar
+T2	Disease 13 23	nonketotic
+T3	Disease 24 28	coma
+T4	Disease 61 72	nephrogenic
+T5	Disease 73 91	diabetes insipidus
+T6	Disease 137 142	manic
+T7	Disease 137 153	manic depression
+T8	Chemical 167 174	lithium
+T9	Disease 194 206	hyperosmolar
+T10	Disease 208 218	nonketotic
+T11	Disease 219 223	coma
+T12	Disease 256 264	polyuria
+T13	Disease 269 279	polydipsia
+T14	Chemical 332 339	glucose
+T15	Disease 361 375	hyperglycaemia
+T16	Disease 389 397	polyuric
+T17	Chemical 419 426	glucose
+T18	Disease 479 490	nephrogenic
+T19	Disease 491 509	diabetes insipidus
+T20	Disease 585 600	type 2 diabetes
+T21	Disease 610 618	polyuria
+T22	Disease 626 637	nephrogenic
+T23	Disease 626 656	nephrogenic diabetes insipidus
+T24	Disease 687 699	hyperosmolar
+T25	Disease 700 711	dehydration

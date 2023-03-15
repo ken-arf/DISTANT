@@ -1,0 +1,35 @@
+T1	Chemical 0 8	Caffeine
+T2	Disease 27 41	panic disorder
+T3	Disease 46 56	depression
+T4	Disease 62 67	panic
+T5	Disease 116 130	panic disorder
+T6	Disease 132 134	PD
+T7	Disease 154 170	major depression
+T8	Disease 176 189	panic attacks
+T9	Disease 191 194	MDP
+T10	Disease 322 327	panic
+T11	Chemical 347 355	caffeine
+T12	Disease 410 412	PD
+T13	Disease 422 425	MDP
+T14	Disease 435 451	major depression
+T15	Disease 460 473	panic attacks
+T16	Disease 475 477	MD
+T17	Chemical 661 669	caffeine
+T18	Chemical 732 738	coffee
+T19	Disease 748 755	anxiety
+T20	Disease 847 849	PD
+T21	Disease 883 886	MDP
+T22	Disease 919 921	MD
+T23	Disease 965 970	panic
+T24	Chemical 995 1003	caffeine
+T25	Disease 1068 1070	PD
+T26	Disease 1075 1078	MDP
+T27	Chemical 1102 1110	caffeine
+T28	Disease 1135 1137	MD
+T29	Disease 1165 1170	panic
+T30	Disease 1250 1252	MD
+T31	Disease 1496 1509	panic attacks
+T32	Disease 1540 1542	PD
+T33	Disease 1546 1549	MDP
+T34	Disease 1555 1570	hyperreactivity
+T35	Chemical 1582 1590	caffeine

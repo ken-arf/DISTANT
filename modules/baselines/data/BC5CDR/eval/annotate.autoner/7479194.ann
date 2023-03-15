@@ -1,0 +1,13 @@
+T1	Chemical 44 73	trimethoprim-sulfamethoxazole
+T2	Disease 130 138	toxicity
+T3	Chemical 232 261	trimethoprim-sulfamethoxazole
+T4	Chemical 292 304	trimethoprim
+T5	Chemical 335 345	cephalexin
+T6	Disease 409 418	disorders
+T7	Chemical 793 805	trimethoprim
+T8	Chemical 857 867	cephalexin
+T9	Disease 939 948	disorders
+T10	Disease 1000 1019	erythema multiforme
+T11	Disease 1040 1048	syndrome
+T12	Disease 1112 1122	necrolysis
+T13	Disease 1319 1327	diseases

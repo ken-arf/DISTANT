@@ -1,0 +1,20 @@
+T3	Disease 30 44	perimenopausal
+T5	Disease 214 236	cardiovascular disease
+T8	Disease 426 439	heart disease
+T9	Disease 441 463	venous thromboembolism
+T11	Disease 473 500	transient ischaemic attacks
+T12	Disease 502 515	breast cancer
+T13	Disease 517 534	colorectal cancer
+T14	Disease 536 550	ovarian cancer
+T15	Disease 552 570	endometrial cancer
+T16	Disease 572 591	gallbladder disease
+T20	Disease 1119 1133	perimenopausal
+T21	Disease 1663 1685	venous thromboembolism
+T22	Disease 1752 1765	breast cancer
+T23	Disease 1786 1805	gallbladder disease
+T25	Disease 1887 1906	gallbladder disease
+T26	Disease 2011 2023	colon cancer
+T28	Disease 2214 2236	cardiovascular disease
+T29	Disease 2314 2336	venous thromboembolism
+T30	Disease 2634 2656	venous thromboembolism
+T31	Disease 2808 2823	chronic disease

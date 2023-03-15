@@ -1,0 +1,15 @@
+T3	Disease 44 62	cognitive deficits
+T4	Chemical 122 136	streptozotocin
+T6	Disease 208 227	Alzheimer's disease
+T9	Chemical 277 293	insulin-receptor
+T11	Chemical 350 369	glucose transporter
+T12	Chemical 370 375	GLUT4
+T15	Chemical 460 471	d-galactose
+T16	Chemical 477 487	C-4-epimer
+T17	Chemical 491 500	d-glucose
+T19	Chemical 541 566	insulin-independent GLUT3
+T22	Disease 704 724	memory deterioration
+T25	Disease 969 987	cognitive deficits
+T28	Disease 1264 1282	cognitive deficits
+T38	Disease 1742 1756	memory ability
+T39	Disease 1809 1827	cognitive deficits

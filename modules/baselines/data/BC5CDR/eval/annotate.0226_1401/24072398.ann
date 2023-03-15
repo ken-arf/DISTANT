@@ -1,0 +1,17 @@
+T4	Disease 178 188	METH abuse
+T6	Disease 207 223	emotional states
+T7	Disease 234 253	depressive symptoms
+T8	Disease 261 276	drug withdrawal
+T10	Disease 372 392	depressive phenotype
+T16	Disease 598 612	motor function
+T18	Disease 677 691	escape latency
+T20	Chemical 980 992	dopaminergic
+T21	Chemical 997 1009	serotonergic
+T23	Chemical 1081 1086	DOPAC
+T24	Chemical 1091 1094	HVA
+T25	Chemical 1096 1116	tyrosine hydroxylase
+T28	Disease 1242 1252	astroglial
+T30	Disease 1303 1311	striatal
+T32	Chemical 1353 1384	glial fibrillary acidic protein
+T36	Chemical 1620 1632	dopaminergic
+T37	Chemical 1637 1649	serotonergic

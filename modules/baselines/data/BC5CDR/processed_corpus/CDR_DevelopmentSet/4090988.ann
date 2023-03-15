@@ -1,0 +1,16 @@
+T1	Chemical 13 24	paracetamol
+T2	Disease 28 53	bladder and liver tumours
+T3	Disease 28 35;46 53	bladder tumours
+T4	Disease 40 53	liver tumours
+T5	Chemical 200 211	paracetamol
+T6	Disease 542 552	Papillomas
+T7	Chemical 616 627	paracetamol
+T8	Disease 664 682	bladder carcinomas
+T9	Disease 715 730	bladder tumours
+T10	Chemical 824 835	paracetamol
+T11	Disease 859 870	hyperplasia
+T12	Disease 944 959	bladder calculi
+T13	Disease 976 983	tumours
+T14	Chemical 1028 1039	paracetamol
+T15	Chemical 1095 1106	paracetamol
+T16	Disease 1240 1257	hepatocarcinogens

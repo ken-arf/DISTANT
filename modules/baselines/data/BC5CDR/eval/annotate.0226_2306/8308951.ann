@@ -1,0 +1,10 @@
+T1	Disease 0 18	Cutaneous exposure
+T2	Chemical 22 49	warfarin-like anticoagulant
+T3	Disease 61 85	intracerebral hemorrhage
+T4	Disease 111 133	intercerebral hematoma
+T5	Disease 158 170	coagulopathy
+T6	Chemical 252 255	her
+T7	Chemical 275 278	her
+T9	Disease 369 381	coagulopathy
+T10	Disease 496 508	adverse drug
+T13	Disease 591 603	coagulopathy

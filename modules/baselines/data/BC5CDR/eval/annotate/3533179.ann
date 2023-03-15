@@ -1,0 +1,22 @@
+T1	Disease 17 31	cardiotoxicity
+T2	Disease 93 104	bone marrow
+T3	Disease 285 299	cardiotoxicity
+T4	Disease 367 381	cardiotoxicity
+T6	Disease 834 849	aplastic anemia
+T7	Chemical 851 875	Wiskott-Aldrich syndrome
+T8	Disease 880 921	severe combined immunodeficiency syndrome
+T9	Disease 957 975	symptoms and signs
+T10	Disease 996 1010	cardiotoxicity
+T11	Disease 1094 1118	congestive heart failure
+T13	Disease 1348 1362	Cardiotoxicity
+T14	Chemical 1418 1420	(3
+T15	Chemical 1438 1445	Group 1
+T16	Chemical 1477 1484	Group 2
+T17	Disease 1506 1530	Congestive heart failure
+T19	Chemical 1582 1589	Group 1
+T20	Chemical 1618 1625	Group 2
+T21	Disease 1784 1798	cardiotoxicity
+T22	Disease 1784 1798	cardiotoxicity
+T23	Disease 1885 1900	aplastic anemia
+T24	Disease 1956 1967	bone marrow
+T25	Disease 2163 2176	drug toxicity

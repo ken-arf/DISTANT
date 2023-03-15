@@ -1,0 +1,21 @@
+T1	Chemical 32 40	caffeine
+T2	Disease 44 49	panic
+T3	Chemical 75 79	oral
+T4	Chemical 98 106	caffeine
+T5	Disease 337 348	agoraphobia
+T6	Disease 354 359	panic
+T7	Disease 371 385	panic disorder
+T8	Chemical 387 395	Caffeine
+T9	Disease 454 461	anxiety
+T10	Disease 463 474	nervousness
+T11	Disease 480 488	, nausea
+T12	Disease 504 516	restlessness
+T13	Chemical 682 690	caffeine
+T14	Chemical 775 783	caffeine
+T15	Disease 825 830	panic
+T16	Chemical 840 848	Caffeine
+T17	Chemical 926 934	Caffeine
+T18	Chemical 1019 1027	caffeine
+T19	Chemical 1034 1043	adenosine
+T20	Disease 1097 1111	panic disorder
+T21	Disease 1199 1206	anxiety

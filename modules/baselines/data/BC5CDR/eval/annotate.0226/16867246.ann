@@ -1,0 +1,28 @@
+T1	Chemical 15 19	DRD2
+T2	Disease 61 84	extrapyramidal syndrome
+T3	Disease 124 147	Extrapyramidal syndrome
+T4	Chemical 191 210	antipsychotic drugs
+T6	Chemical 246 248	D2
+T7	Chemical 371 375	DRD2
+T8	Chemical 389 409	therapeutic response
+T12	Chemical 561 565	DRD2
+T13	Chemical 658 692	SNP(single nucleotide polymorphism
+T14	Chemical 709 714	TaqIB
+T15	Chemical 716 721	TaqID
+T16	Chemical 734 740	rs6275
+T17	Chemical 742 748	rs6277
+T18	Chemical 753 758	TaqIA
+T19	Chemical 767 771	DRD2
+T21	Disease 965 968	PCR
+T22	Chemical 970 995	polymerase chain reaction
+T23	Chemical 1021 1026	TaqID
+T24	Chemical 1042 1048	rs6277
+T26	Chemical 1202 1207	TaqIB
+T27	Chemical 1209 1215	rs6275
+T28	Chemical 1220 1225	TaqIA
+T29	Chemical 1273 1278	TaqIB
+T30	Chemical 1280 1286	rs6275
+T31	Chemical 1291 1296	TaqIA
+T32	Chemical 1446 1450	DRD2
+T33	Disease 1504 1518	adverse effect
+T37	Chemical 1662 1666	DRD2

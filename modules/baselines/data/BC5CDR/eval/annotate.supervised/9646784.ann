@@ -1,0 +1,13 @@
+T1	Disease 16 32	thrombocytopenia
+T2	Disease 34 45	paradoxical
+T3	Disease 46 61	thromboembolism
+T4	Chemical 89 96	heparin
+T5	Chemical 166 173	heparin
+T6	Chemical 257 264	heparin
+T7	Chemical 339 346	heparin
+T8	Disease 381 397	thrombocytopenia
+T9	Disease 418 430	osteoporosis
+T10	Disease 432 444	eosinophilia
+T11	Disease 462 470	allergic
+T12	Disease 492 508	thrombocytopenia
+T13	Disease 513 521	alopecia

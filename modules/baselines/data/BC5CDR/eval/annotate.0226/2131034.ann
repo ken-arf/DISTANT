@@ -1,0 +1,20 @@
+T2	Disease 7 21	polyneuropathy
+T3	Disease 26 36	motor loss
+T4	Chemical 55 88	thiotepa combination chemotherapy
+T7	Disease 143 162	neurologic toxicity
+T8	Chemical 213 237	combination chemotherapy
+T10	Chemical 258 262	TSPA
+T11	Disease 300 317	axonal neuropathy
+T12	Disease 323 341	motor predominance
+T13	Disease 349 366	lower extremities
+T15	Disease 422 443	Neurologic toxicities
+T16	Chemical 469 484	IT-methotrexate
+T17	Chemical 486 509	IT-cytosine arabinoside
+T18	Chemical 514 521	IT-TSPA
+T19	Disease 550 567	axonal neuropathy
+T21	Chemical 676 680	TSPA
+T22	Chemical 693 701	IT agent
+T24	Chemical 724 727	MTX
+T25	Chemical 729 734	ara-C
+T28	Disease 771 784	neurotoxicity
+T30	Chemical 869 876	IT-TSPA

@@ -1,0 +1,15 @@
+T1	Chemical 0 13	Sulfasalazine
+T2	Disease 22 41	lupus erythematosus
+T3	Disease 42 53	Pneumonitis
+T4	Disease 65 82	pleural effusions
+T5	Disease 114 131	cardiac tamponade
+T6	Chemical 221 234	sulfasalazine
+T7	Disease 255 273	ulcerative colitis
+T8	Chemical 298 311	sulfasalazine
+T9	Chemical 466 479	sulfasalazine
+T10	Disease 488 493	lupus
+T11	Disease 517 526	serositis
+T12	Chemical 618 631	sulfasalazine
+T13	Disease 655 681	inflammatory bowel disease
+T14	Chemical 714 727	sulfasalazine
+T15	Disease 736 750	lupus syndrome

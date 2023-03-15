@@ -1,0 +1,20 @@
+T1	Chemical 52 62	piperazine
+T2	Chemical 77 102	trans-2-amino-3-hydroxy-1
+T3	Chemical 102 103	,
+T4	Chemical 104 105	2
+T5	Chemical 105 106	,
+T6	Chemical 107 108	3
+T7	Chemical 108 109	,
+T8	Chemical 110 134	4-tetrahydroanaphthalene
+T9	Chemical 179 273	N-(trans-3-hydroxy-1,2,3,4-tetrahydro-2-naphthyl)-N-(3-oxo-3-phenyl-2-methylpropyl)-piperazine
+T10	Chemical 179 287	N-(trans-3-hydroxy-1,2,3,4-tetrahydro-2-naphthyl)-N-(3-oxo-3-phenyl-2-methylpropyl)-piperazine hydrochloride
+T11	Disease 434 444	arrhythmia
+T12	Chemical 460 465	BaCl2
+T13	Chemical 472 493	chloroform-adrenaline
+T14	Chemical 500 512	strophantine
+T15	Chemical 500 514	strophantine G
+T16	Chemical 524 533	aconitine
+T17	Disease 710 720	arrhythmia
+T18	Disease 762 772	arrhythmia
+T19	Chemical 784 805	chloroform-adrenaline
+T20	Chemical 832 837	BaCl2

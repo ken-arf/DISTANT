@@ -1,0 +1,22 @@
+T1	Chemical 11 21	troponin I
+T2	Disease 39 68	cocaine-associated chest pain
+T4	Disease 199 220	myocardial infarction
+T5	Disease 272 282	chest pain
+T6	Chemical 284 292	Troponin
+T7	Disease 397 416	troponin positivity
+T8	Disease 442 452	chest pain
+T9	Chemical 652 667	creatine kinase
+T10	Chemical 674 679	CK-MB
+T11	Chemical 685 703	cardiac troponin I
+T12	Chemical 747 755	CK-MB MI
+T13	Chemical 757 762	CK-MB
+T14	Disease 831 844	cardiac death
+T15	Disease 862 878	coronary disease
+T18	Chemical 1198 1203	CK-MB
+T19	Disease 1360 1373	cardiac death
+T21	Chemical 1416 1424	CK-MB MI
+T22	Chemical 1525 1530	CK-MB
+T24	Chemical 1616 1624	Troponin
+T25	Chemical 1689 1694	CK-MB
+T27	Disease 1736 1754	cocaine-associated
+T28	Disease 1755 1765	chest pain

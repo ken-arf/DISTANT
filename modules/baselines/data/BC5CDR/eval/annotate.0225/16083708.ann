@@ -1,0 +1,15 @@
+T1	Disease 0 25	Drug-induced liver injury
+T2	Disease 191 216	drug-induced liver injury
+T3	Chemical 309 313	bona
+T4	Chemical 314 318	fide
+T5	Disease 473 485	liver damage
+T6	Disease 517 531	hepatocellular
+T7	Disease 533 544	cholestatic
+T10	Chemical 888 911	amoxicillin-clavulanate
+T11	Disease 1148 1169	liver transplantation
+T14	Disease 1367 1392	fulminant hepatic failure
+T16	Disease 1448 1469	hepatocellular damage
+T21	Disease 1621 1657	drug-induced hepatocellular jaundice
+T24	Chemical 1720 1750	Amoxicillin-clavulanate stands
+T25	Disease 1774 1786	drug related
+T26	Chemical 1790 1794	DILI

@@ -1,0 +1,15 @@
+T1	Chemical 57 60	HPA
+T2	Disease 71 93	psychological distress
+T3	Chemical 118 126	polydrug
+T4	Chemical 164 184	psychostimulant drug
+T5	Disease 223 251	psychobiological dysfunction
+T7	Chemical 370 373	HPA
+T8	Chemical 480 496	ecstasy-polydrug
+T9	Disease 504 526	psychological distress
+T10	Chemical 556 559	HPA
+T11	Disease 761 774	substance use
+T12	Disease 801 823	psychological distress
+T13	Chemical 971 976	day 2
+T16	Chemical 1173 1178	day 1
+T17	Chemical 1300 1305	day 2
+T21	Disease 1886 1904	physical morbidity

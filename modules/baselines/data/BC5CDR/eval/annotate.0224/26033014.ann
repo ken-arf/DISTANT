@@ -1,0 +1,17 @@
+T2	Chemical 21 32	metolachlor
+T3	Chemical 93 104	Metolachlor
+T5	Chemical 150 168	Group C carcinogen
+T7	Chemical 311 322	metolachlor
+T10	Chemical 631 642	metolachlor
+T11	Chemical 716 727	metolachlor
+T13	Chemical 834 845	metolachlor
+T16	Disease 953 965	liver cancer
+T17	Disease 1297 1321	follicular cell lymphoma
+T18	Disease 1336 1353	lymphoma subtypes
+T19	Disease 1390 1401	lung cancer
+T20	Chemical 1425 1436	metolachlor
+T21	Chemical 1532 1543	metolachlor
+T22	Disease 1548 1560	liver cancer
+T25	Disease 1715 1727	liver cancer
+T26	Disease 1732 1756	follicular cell lymphoma
+T27	Chemical 1810 1821	metolachlor

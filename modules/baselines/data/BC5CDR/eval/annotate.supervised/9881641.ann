@@ -1,0 +1,21 @@
+T1	Disease 24 35	hypotension
+T2	Chemical 48 58	helodermin
+T3	Chemical 94 104	helodermin
+T4	Chemical 114 122	35-amino
+T5	Chemical 123 127	acid
+T6	Chemical 303 306	ATP
+T7	Chemical 321 326	K(ATP
+T8	Chemical 454 464	Helodermin
+T9	Disease 474 485	hypotension
+T10	Chemical 564 567	VIP
+T11	Disease 569 580	Hypotension
+T12	Chemical 638 651	glibenclamide
+T13	Disease 694 705	decrease in
+T14	Chemical 731 744	Oxyhemoglobin
+T15	Disease 779 790	hypotension
+T16	Chemical 829 842	acetylcholine
+T17	Disease 858 869	hypotension
+T18	Disease 919 930	hypotension
+T19	Chemical 1012 1017	K(ATP
+T20	Chemical 1136 1141	oxide
+T21	Disease 1206 1217	hypotension

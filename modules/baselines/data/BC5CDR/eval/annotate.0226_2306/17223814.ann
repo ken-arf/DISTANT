@@ -1,0 +1,14 @@
+T1	Disease 0 37	Peri-operative atrioventricular block
+T2	Chemical 71 81	epirubicin
+T3	Chemical 86 96	paclitaxel
+T6	Disease 156 177	latissimus dorsi flap
+T9	Chemical 306 318	neo-adjuvant
+T10	Chemical 337 347	epirubicin
+T11	Chemical 349 359	paclitaxel
+T12	Chemical 361 366	Taxol
+T13	Disease 372 388	cyclophosphamide
+T14	Disease 518 529	bradycardic
+T15	Disease 569 585	cardiac symptoms
+T17	Disease 689 719	transvenous ventricular pacing
+T18	Disease 738 752	peri-operative
+T19	Disease 889 903	cardiotoxicity

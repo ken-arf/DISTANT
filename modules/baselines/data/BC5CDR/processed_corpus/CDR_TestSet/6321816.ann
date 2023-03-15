@@ -1,0 +1,21 @@
+T1	Chemical 0 11	Vasopressin
+T2	Disease 41 53	hypertension
+T3	Chemical 66 77	vasopressin
+T4	Disease 104 116	hypertensive
+T5	Chemical 139 150	Vasopressin
+T6	Chemical 193 197	DOCA
+T7	Disease 203 215	hypertension
+T8	Chemical 292 299	lithium
+T9	Disease 308 326	diabetes insipidus
+T10	Chemical 333 337	DOCA
+T11	Chemical 372 377	DDAVP
+T12	Chemical 560 571	vasopressin
+T13	Disease 632 644	hypertension
+T14	Disease 740 752	hypertension
+T15	Chemical 777 788	vasopressin
+T16	Disease 880 892	hypertension
+T17	Chemical 923 934	vasopressin
+T18	Chemical 1022 1033	angiotensin
+T19	Chemical 1079 1085	sodium
+T20	Chemical 1129 1140	vasopressin
+T21	Disease 1185 1197	hypertension

@@ -1,0 +1,13 @@
+T1	Disease 6 19	renal failure
+T2	Disease 254 265	Nephropathy
+T3	Chemical 349 361	aristolochic
+T4	Disease 413 432	acute renal failure
+T5	Disease 594 600	injury
+T6	Chemical 656 669	non-steroidal
+T7	Chemical 688 692	drug
+T8	Chemical 694 704	diclofenac
+T9	Disease 887 894	atrophy
+T10	Chemical 1022 1028	herbal
+T11	Disease 1039 1051	renal injury
+T12	Disease 1111 1122	nephropathy
+T13	Disease 1185 1198	renal failure

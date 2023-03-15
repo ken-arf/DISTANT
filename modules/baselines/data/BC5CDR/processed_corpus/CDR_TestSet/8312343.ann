@@ -1,0 +1,18 @@
+T1	Disease 238 263	idiopathic cardiomyopathy
+T2	Disease 271 295	congenital heart disease
+T3	Disease 361 388	hypertrophic cardiomyopathy
+T4	Disease 395 417	valvular heart disease
+T5	Chemical 428 439	doxorubicin
+T6	Disease 440 454	cardiomyopathy
+T7	Chemical 488 500	cyclosporine
+T8	Chemical 505 517	azathioprine
+T9	Chemical 573 581	Steroids
+T10	Chemical 744 752	steroids
+T11	Disease 880 889	infection
+T12	Disease 1169 1179	infections
+T13	Disease 1218 1244	Cytomegalovirus infections
+T14	Chemical 1276 1287	ganciclovir
+T15	Disease 1505 1520	atherosclerosis
+T16	Disease 1540 1548	Seizures
+T17	Disease 1585 1597	hypertension
+T18	Disease 1663 1691	lymphoproliferative disorder

@@ -1,0 +1,17 @@
+T4	Disease 50 68	memory impairments
+T5	Disease 145 165	Cognitive impairment
+T7	Disease 194 205	comorbidity
+T9	Chemical 276 301	therapeutic interventions
+T13	Disease 440 458	cognition deficits
+T14	Disease 520 535	epileptogenesis
+T15	Disease 540 558	cognitive deficits
+T20	Chemical 658 680	antidiabetic oral drug
+T23	Chemical 750 770	ameliorative effects
+T26	Disease 797 817	cognitive impairment
+T27	Chemical 915 922	C57BL/6
+T28	Chemical 973 991	pentylenetetrazole
+T29	Chemical 1003 1007	i.p.
+T32	Chemical 1130 1133	PTZ
+T36	Disease 1215 1235	cognitive impairment
+T40	Chemical 1390 1409	protective medicine
+T41	Disease 1418 1438	cognitive impairment

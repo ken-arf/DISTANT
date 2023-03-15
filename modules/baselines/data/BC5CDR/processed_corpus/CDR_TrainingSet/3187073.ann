@@ -1,0 +1,17 @@
+T1	Chemical 69 79	cis-platin
+T2	Chemical 84 98	5-fluorouracil
+T3	Disease 135 158	head and neck carcinoma
+T4	Disease 163 183	esophageal carcinoma
+T5	Chemical 303 313	cis-platin
+T6	Chemical 336 340	5-FU
+T7	Disease 726 748	cardiovascular disease
+T8	Disease 956 970	cardiotoxicity
+T9	Disease 1012 1034	cardiovascular disease
+T10	Disease 1115 1129	cardiotoxicity
+T11	Disease 1135 1145	chest pain
+T12	Disease 1169 1188	atrial fibrillation
+T13	Disease 1211 1235	ventricular fibrillation
+T14	Disease 1255 1267	sudden death
+T15	Chemical 1313 1317	5-FU
+T16	Disease 1411 1421	chest pain
+T17	Disease 1425 1440	tachyarrhythmia

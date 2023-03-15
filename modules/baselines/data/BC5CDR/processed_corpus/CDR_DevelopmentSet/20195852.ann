@@ -1,0 +1,42 @@
+T1	Disease 8 19	nephropathy
+T2	Chemical 50 64	contrast media
+T3	Chemical 168 182	contrast media
+T4	Disease 191 202	nephropathy
+T5	Disease 204 207	CIN
+T6	Disease 480 483	CIN
+T7	Chemical 501 515	contrast media
+T8	Chemical 517 519	CM
+T9	Chemical 522 531	iopromide
+T10	Chemical 536 543	iohexol
+T11	Chemical 668 670	CM
+T12	Disease 691 699	cyanosis
+T13	Chemical 760 769	iopromide
+T14	Chemical 791 798	iohexol
+T15	Chemical 824 830	sodium
+T16	Chemical 832 834	Na
+T17	Chemical 837 846	potassium
+T18	Chemical 848 849	K
+T19	Chemical 856 866	creatinine
+T20	Chemical 868 870	Cr
+T21	Chemical 988 990	CM
+T22	Chemical 1014 1016	Na
+T23	Chemical 1021 1023	Cr
+T24	Disease 1073 1086	renal failure
+T25	Disease 1088 1108	Injury to the kidney
+T26	Disease 1110 1136	Failure of kidney function
+T27	Disease 1138 1161	Loss of kidney function
+T28	Disease 1177 1189	renal damage
+T29	Disease 1227 1230	CIN
+T30	Disease 1300 1303	CIN
+T31	Disease 1388 1400	renal injury
+T32	Disease 1456 1468	renal injury
+T33	Disease 1505 1508	CIN
+T34	Chemical 1560 1562	CM
+T35	Disease 1687 1690	CIN
+T36	Chemical 1727 1729	CM
+T37	Disease 1770 1773	CIN
+T38	Disease 1790 1815	congenital heart diseases
+T39	Disease 1944 1947	CIN
+T40	Chemical 2048 2050	CM
+T41	Disease 2075 2083	cyanosis
+T42	Disease 2098 2101	CIN

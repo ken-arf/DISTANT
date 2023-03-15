@@ -1,0 +1,34 @@
+T1	Disease 25 56	urinary bladder sensory neurons
+T2	Disease 61 72	spinal cord
+T3	Chemical 123 142	nerve growth factor
+T5	Disease 178 195	voiding frequency
+T7	Disease 227 242	urinary bladder
+T8	Chemical 327 352	tyrosine kinase receptors
+T9	Chemical 354 358	Trks
+T10	Disease 389 417	urinary bladder inflammation
+T14	Chemical 516 523	p75(NTR
+T15	Chemical 516 523	p75(NTR
+T18	Chemical 585 601	cyclophosphamide
+T19	Chemical 603 606	CYP
+T20	Chemical 657 664	p75(NTR
+T21	Chemical 657 664	p75(NTR
+T22	Disease 684 703	superficial lateral
+T24	Disease 715 726	dorsal horn
+T25	Chemical 777 800	p75(NTR)-immunoreactive
+T27	Disease 820 851	lumbosacral dorsal root ganglia
+T32	Disease 1257 1260	DRG
+T34	Chemical 1296 1307	p75(NTR)-IR
+T35	Chemical 1296 1307	p75(NTR)-IR
+T37	Disease 1401 1404	DRG
+T38	Chemical 1405 1416	cell bodies
+T39	Disease 1448 1460	pericellular
+T40	Disease 1473 1476	DRG
+T41	Disease 1499 1502	DRG
+T42	Chemical 1568 1579	p75(NTR)-IR
+T43	Chemical 1568 1579	p75(NTR)-IR
+T44	Chemical 1568 1579	p75(NTR)-IR
+T45	Chemical 1609 1621	glial marker
+T46	Chemical 1623 1654	glial fibrillary acidic protein
+T47	Chemical 1656 1660	GFAP
+T48	Chemical 1694 1701	p75(NTR
+T49	Chemical 1694 1701	p75(NTR

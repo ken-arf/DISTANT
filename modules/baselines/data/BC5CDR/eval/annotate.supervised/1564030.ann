@@ -1,0 +1,23 @@
+T1	Disease 0 5	Mania
+T2	Chemical 22 32	fluoxetine
+T3	Chemical 58 68	Fluoxetine
+T4	Chemical 72 110	selective serotonin reuptake inhibitor
+T5	Disease 175 185	depression
+T6	Chemical 232 242	fluoxetine
+T7	Disease 271 276	mania
+T8	Disease 296 305	depressed
+T9	Disease 353 358	mania
+T10	Chemical 387 397	fluoxetine
+T11	Disease 463 468	mania
+T12	Disease 472 481	hypomania
+T13	Chemical 489 499	fluoxetine
+T14	Disease 559 576	attention-deficit
+T15	Disease 559 599	attention-deficit hyperactivity disorder
+T16	Disease 604 625	affective instability
+T17	Disease 627 643	major depression
+T18	Disease 649 667	psychotic features
+T19	Disease 689 707	affective disorder
+T20	Disease 720 736	bipolar disorder
+T21	Disease 757 773	bipolar disorder
+T22	Chemical 902 912	fluoxetine
+T23	Disease 921 926	mania

@@ -1,0 +1,20 @@
+T1	Disease 78 91	heart failure
+T2	Chemical 237 240	VIP
+T3	Disease 290 303	heart failure
+T4	Chemical 340 346	cobalt
+T5	Disease 347 361	cardiomyopathy
+T6	Disease 550 563	heart failure
+T7	Chemical 652 655	VIP
+T8	Disease 828 837	rheumatic
+T9	Disease 828 845	rheumatic disease
+T10	Disease 857 867	myxomatous
+T11	Disease 857 880	myxomatous degeneration
+T12	Chemical 939 942	VIP
+T13	Disease 998 1014	coronary disease
+T14	Chemical 1218 1221	VIP
+T15	Disease 1277 1300	coronary artery disease
+T16	Chemical 1361 1364	VIP
+T17	Disease 1467 1483	coronary disease
+T18	Chemical 1565 1579	catecholamines
+T19	Chemical 1702 1705	VIP
+T20	Chemical 1710 1724	norepinephrine

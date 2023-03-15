@@ -1,0 +1,28 @@
+T1	Chemical 0 10	Ifosfamide
+T2	Disease 19 33	encephalopathy
+T3	Chemical 84 94	Ifosfamide
+T4	Chemical 101 111	alkylating
+T5	Chemical 101 117	alkylating agent
+T6	Disease 161 168	cancers
+T7	Disease 179 187	sarcomas
+T8	Disease 189 197	lymphoma
+T9	Disease 199 210	gynecologic
+T10	Disease 199 214	gynecologic and
+T11	Disease 215 233	testicular cancers
+T12	Disease 235 249	Encephalopathy
+T13	Chemical 313 323	ifosfamide
+T14	Chemical 429 439	ifosfamide
+T15	Disease 448 462	encephalopathy
+T16	Disease 594 600	Cancer
+T17	Chemical 651 661	ifosfamide
+T18	Disease 676 690	encephalopathy
+T19	Disease 743 757	encephalopathy
+T20	Chemical 800 810	ifosfamide
+T21	Disease 847 858	convulsions
+T22	Disease 898 912	non-convulsive
+T23	Disease 913 931	status epilepticus
+T24	Disease 933 937	NCSE
+T25	Chemical 1355 1365	ifosfamide
+T26	Disease 1374 1388	encephalopathy
+T27	Chemical 1476 1486	ifosfamide
+T28	Disease 1511 1525	encephalopathy

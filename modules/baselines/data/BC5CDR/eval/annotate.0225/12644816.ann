@@ -1,0 +1,20 @@
+T1	Chemical 32 40	low-dose
+T2	Chemical 97 119	antiangiogenic effects
+T5	Disease 208 235	haematological malignancies
+T6	Chemical 237 255	Thalidomide blocks
+T8	Chemical 272 289	angiogenic agents
+T9	Chemical 300 304	bFGF
+T10	Chemical 306 310	VEGF
+T11	Chemical 315 319	IL-6
+T12	Chemical 360 378	thalidomide 100 mg
+T13	Chemical 572 597	prostate-specific antigen
+T17	Chemical 628 638	serum bFGF
+T18	Chemical 643 647	VEGF
+T21	Chemical 883 887	VEGF
+T24	Chemical 1002 1006	bFGF
+T26	Chemical 1091 1105	growth factors
+T27	Disease 1107 1122	Adverse effects
+T29	Disease 1146 1164	morning drowsiness
+T33	Disease 1254 1283	peripheral sensory neuropathy
+T35	Disease 1412 1433	peripheral neuropathy
+T38	Disease 1673 1694	peripheral neuropathy

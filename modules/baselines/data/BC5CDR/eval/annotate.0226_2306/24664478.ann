@@ -1,0 +1,19 @@
+T5	Disease 311 327	relapsed disease
+T9	Disease 474 494	leukemic involvement
+T10	Chemical 520 530	nelarabine
+T12	Chemical 582 592	cytarabine
+T13	Disease 612 634	central nervous system
+T15	Disease 702 719	renal replacement
+T17	Disease 747 767	tumor lysis syndrome
+T18	Disease 813 831	complete remission
+T19	Chemical 898 908	nelarabine
+T22	Disease 1037 1058	Predominantly sensory
+T25	Disease 1093 1114	peripheral neuropathy
+T26	Chemical 1126 1129	her
+T29	Chemical 1208 1211	her
+T30	Disease 1219 1236	upper extremities
+T31	Chemical 1276 1279	her
+T33	Chemical 1312 1314	C2
+T34	Disease 1318 1320	C6
+T37	Chemical 1422 1425	Her
+T43	Disease 1748 1761	neurotoxicity

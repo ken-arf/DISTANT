@@ -1,0 +1,10 @@
+T1	Chemical 16 25	lomustine
+T2	Chemical 46 62	cyclophosphamide
+T3	Chemical 159 168	lomustine
+T4	Chemical 180 196	cyclophosphamide
+T5	Disease 610 621	neutropenia
+T6	Disease 745 756	neutropenia
+T7	Disease 863 874	neutropenia
+T8	Disease 963 977	hepatotoxicity
+T9	Disease 1016 1024	toxicity
+T10	Disease 1028 1048	hemorrhagic cystitis

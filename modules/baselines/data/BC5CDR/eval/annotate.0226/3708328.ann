@@ -1,0 +1,24 @@
+T5	Chemical 96 112	gamma-vinyl-GABA
+T6	Disease 122 138	substantia nigra
+T8	Disease 200 226	neuropathological sequelae
+T9	Disease 230 252	temporal lobe epilepsy
+T10	Disease 352 370	pathways operative
+T14	Chemical 513 536	gamma-aminobutyric acid
+T15	Disease 584 600	substantia nigra
+T20	Chemical 770 794	GABA-synthesizing enzyme
+T21	Chemical 796 825	L-glutamic acid decarboxylase
+T22	Chemical 889 903	non-convulsant
+T25	Disease 964 985	motor limbic seizures
+T26	Disease 990 1008	status epilepticus
+T28	Disease 1170 1187	frontal forebrain
+T29	Disease 1258 1269	hippocampal
+T33	Disease 1301 1317	olfactory cortex
+T34	Disease 1319 1335	substantia nigra
+T43	Chemical 1579 1596	GABA transaminase
+T44	Chemical 1598 1614	gamma-vinyl-GABA
+T45	Chemical 1598 1616	gamma-vinyl-GABA (
+T46	Chemical 1618 1644	L-4-amino-hex-5-enoic acid
+T48	Disease 1869 1881	brain damage
+T49	Chemical 1902 1918	gamma-vinyl-GABA
+T50	Disease 1943 1958	dorsal striatum
+T55	Disease 2225 2241	substantia nigra

@@ -1,0 +1,15 @@
+T1	Disease 58 86	tubulointerstitial nephritis
+T2	Chemical 98 108	gentamicin
+T3	Chemical 142 152	gentamicin
+T4	Disease 193 201	fibrosis
+T5	Chemical 441 451	gentamicin
+T6	Chemical 455 465	gentamicin
+T7	Chemical 578 588	gentamicin
+T8	Chemical 632 642	gentamicin
+T9	Chemical 1060 1070	creatinine
+T10	Chemical 1099 1106	kinases
+T11	Disease 1278 1286	fibrosis
+T12	Chemical 1424 1434	gentamicin
+T13	Chemical 1484 1493	NF-kappaB
+T14	Disease 1516 1544	tubulointerstitial nephritis
+T15	Chemical 1556 1566	gentamicin

@@ -1,0 +1,27 @@
+T2	Chemical 23 49	Solidago virgaurea extract
+T3	Disease 66 80	cardiotoxicity
+T4	Disease 81 104	Cardiovascular diseases
+T5	Disease 126 140	health problem
+T6	Chemical 251 268	protective effect
+T7	Chemical 276 302	Solidago virgaurea extract
+T8	Disease 328 342	cardiotoxicity
+T10	Chemical 512 533	lactate dehydrogenase
+T11	Chemical 535 557	creatine phosphokinase
+T12	Chemical 559 579	alanine transaminase
+T13	Chemical 581 603	aspartate transaminase
+T14	Chemical 609 638	angiotensin-converting enzyme
+T15	Chemical 651 668	total cholesterol
+T17	Chemical 696 706	fatty acid
+T18	Chemical 723 738	malondialdehyde
+T19	Chemical 740 743	MDA
+T20	Chemical 750 762	nitric oxide
+T21	Chemical 810 821	glutathione
+T22	Chemical 826 846	superoxide dismutase
+T23	Chemical 935 955	S. virgaurea extract
+T28	Chemical 1133 1162	angiotensin-converting enzyme
+T30	Chemical 1182 1203	cardioprotective drug
+T31	Chemical 1294 1314	S. virgaurea extract
+T32	Chemical 1326 1343	protective effect
+T33	Chemical 1358 1361	MDA
+T34	Chemical 1483 1503	S. virgaurea extract
+T35	Chemical 1509 1531	cardioprotective agent

@@ -1,0 +1,19 @@
+T2	Disease 18 47	hyperammonemic encephalopathy
+T4	Chemical 103 117	5-fluorouracil
+T10	Disease 240 269	hyperammonemic encephalopathy
+T11	Chemical 304 318	5-fluorouracil
+T12	Chemical 320 324	5-FU
+T13	Disease 368 395	decompensated liver disease
+T14	Disease 397 435	Onset of hyperammonemic encephalopathy
+T17	Chemical 571 578	microg%
+T18	Chemical 591 593	/-
+T21	Disease 698 718	bacterial infections
+T26	Disease 835 858	onset of hyperammonemia
+T27	Disease 889 909	bacterial infections
+T28	Chemical 976 992	high daily doses
+T29	Chemical 1007 1012	mg/m2
+T30	Chemical 1017 1021	5-FU
+T32	Disease 1209 1238	hyperammonemic encephalopathy
+T33	Disease 1310 1334	body fluid insufficiency
+T34	Disease 1339 1359	bacterial infections
+T36	Chemical 1500 1504	5-FU

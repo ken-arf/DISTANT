@@ -1,0 +1,15 @@
+T1	Chemical 20 31	propranolol
+T2	Chemical 47 60	isoproterenol
+T3	Disease 73 90	heart hypertrophy
+T4	Chemical 371 382	propranolol
+T5	Chemical 442 455	isoproterenol
+T6	Disease 464 481	heart hypertrophy
+T7	Disease 614 631	heart hypertrophy
+T8	Disease 718 729	hypertrophy
+T9	Chemical 817 826	ornithine
+T10	Disease 877 897	hypertrophied hearts
+T11	Chemical 950 961	propranolol
+T12	Disease 1051 1064	hypertrophied
+T13	Chemical 1162 1173	propranolol
+T14	Chemical 1214 1227	isoproterenol
+T15	Disease 1243 1260	heart hypertrophy

@@ -1,0 +1,29 @@
+T1	Chemical 42 45	ANP
+T2	Chemical 167 187	arginine vasopressin
+T3	Chemical 189 192	AVP
+T4	Chemical 201 227	atrial natriuretic peptide
+T5	Chemical 229 232	ANP
+T6	Disease 257 271	blood pressure
+T7	Disease 282 292	heart rate
+T8	Disease 477 494	lateral ventricle
+T10	Chemical 634 637	AVP
+T11	Chemical 664 667	ANP
+T12	Disease 705 715	baroreflex
+T13	Chemical 717 720	CCB
+T14	Disease 809 835	systolic arterial pressure
+T16	Chemical 857 860	HRp
+T19	Chemical 914 934	sodium nitroprusside
+T21	Chemical 961 964	CCB
+T23	Chemical 1029 1032	AVP
+T24	Chemical 1034 1037	ANP
+T26	Chemical 1138 1141	AVP
+T28	Chemical 1320 1323	CCB
+T30	Chemical 1453 1456	ANP
+T31	Chemical 1458 1461	AVP
+T32	Chemical 1466 1469	ANP
+T33	Chemical 1472 1475	AVP
+T34	Chemical 1486 1489	CCB
+T35	Disease 1610 1624	blood pressure
+T36	Disease 1651 1661	heart rate
+T38	Disease 1726 1740	blood pressure
+T39	Disease 1768 1790	central nervous system

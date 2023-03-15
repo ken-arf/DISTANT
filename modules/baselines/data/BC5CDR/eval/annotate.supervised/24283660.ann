@@ -1,0 +1,18 @@
+T1	Disease 19 26	seizure
+T2	Disease 136 144	seizures
+T3	Disease 415 423	seizures
+T4	Disease 528 536	Seizures
+T5	Disease 613 625	tonic-clonic
+T6	Disease 613 634	tonic-clonic seizures
+T7	Disease 734 742	seizures
+T8	Disease 789 812	end-stage liver disease
+T9	Chemical 874 879	total
+T10	Chemical 880 889	bilirubin
+T11	Chemical 916 919	TAC
+T12	Chemical 968 971	TAC
+T13	Disease 1035 1043	seizures
+T14	Disease 1074 1082	seizures
+T15	Chemical 1236 1239	TAC
+T16	Disease 1293 1301	seizures
+T17	Chemical 1429 1433	Tbil
+T18	Disease 1483 1491	seizures

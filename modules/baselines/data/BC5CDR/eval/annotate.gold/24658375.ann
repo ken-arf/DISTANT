@@ -1,0 +1,10 @@
+T1	Chemical 0 23	All-trans retinoic acid
+T2	Disease 45 53	myositis
+T3	Disease 72 100	acute promyelocytic leukemia
+T4	Chemical 101 124	All-trans retinoic acid
+T5	Chemical 126 130	ATRA
+T6	Disease 169 197	acute promyelocytic leukemia
+T7	Disease 199 202	APL
+T8	Chemical 379 383	ATRA
+T9	Disease 392 400	myositis
+T10	Disease 520 523	APL

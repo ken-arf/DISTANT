@@ -1,0 +1,11 @@
+T1	Disease 23 34	neutropenia
+T2	Disease 39 52	renal failure
+T3	Disease 77 91	hypothyroidism
+T4	Disease 138 151	renal failure
+T5	Disease 163 174	neutropenia
+T6	Disease 228 239	neutropenia
+T7	Disease 331 342	hypothyroid
+T8	Chemical 492 501	mefenamic
+T9	Chemical 492 506	mefenamic acid
+T10	Disease 510 521	hypothyroid
+T11	Disease 541 555	hypothyroidism

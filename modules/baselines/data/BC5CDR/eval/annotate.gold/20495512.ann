@@ -1,0 +1,27 @@
+T1	Chemical 0 7	Heparin
+T2	Disease 16 32	thrombocytopenia
+T3	Chemical 53 60	Heparin
+T4	Disease 69 85	thrombocytopenia
+T5	Disease 87 90	HIT
+T6	Chemical 178 185	heparin
+T7	Chemical 223 230	heparin
+T8	Disease 332 342	Thrombosis
+T9	Disease 347 363	thrombocytopenia
+T10	Disease 410 413	HIT
+T11	Disease 509 512	HIT
+T12	Disease 618 621	HIT
+T13	Disease 676 686	thrombosis
+T14	Disease 710 720	thrombosis
+T15	Chemical 734 741	heparin
+T16	Disease 937 940	HIT
+T17	Chemical 980 987	heparin
+T18	Chemical 1069 1094	direct thrombin inhibitor
+T19	Disease 1251 1254	HIT
+T20	Chemical 1332 1339	heparin
+T21	Chemical 1389 1415	Direct thrombin inhibitors
+T22	Chemical 1464 1471	heparin
+T23	Disease 1502 1505	HIT
+T24	Chemical 1566 1573	heparin
+T25	Disease 1651 1654	HIT
+T26	Chemical 1666 1673	heparin
+T27	Chemical 1748 1755	heparin

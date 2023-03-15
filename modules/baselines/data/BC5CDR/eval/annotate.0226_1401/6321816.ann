@@ -1,0 +1,10 @@
+T4	Chemical 83 96	pressor agent
+T8	Disease 240 254	blood pressure
+T9	Disease 308 326	diabetes insipidus
+T10	Chemical 372 377	DDAVP
+T12	Chemical 420 438	vasopressor effect
+T13	Disease 458 472	blood pressure
+T14	Chemical 520 523	AVP
+T28	Chemical 1022 1036	angiotensin II
+T29	Chemical 1049 1074	receptor binding capacity
+T33	Disease 1175 1197	essential hypertension

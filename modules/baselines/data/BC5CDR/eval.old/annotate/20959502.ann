@@ -1,0 +1,12 @@
+T1	Chemical 239 259	high-dose daptomycin
+T3	Chemical 560 572	levofloxacin
+T4	Disease 760 779	acute renal failure
+T5	Chemical 781 797	serum creatinine
+T6	Disease 1020 1034	cardiac arrest
+T8	Chemical 1208 1218	daptomycin
+T10	Chemical 1327 1337	Daptomycin
+T11	Chemical 1542 1557	Creatine kinase
+T12	Chemical 1586 1596	daptomycin
+T13	Chemical 1642 1652	Daptomycin
+T14	Disease 1722 1750	acute interstitial nephritis
+T15	Chemical 1917 1937	High-dose daptomycin

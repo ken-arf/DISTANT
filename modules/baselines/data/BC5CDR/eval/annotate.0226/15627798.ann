@@ -1,0 +1,23 @@
+T1	Chemical 14 35	nuclear factor-kappaB
+T2	Disease 58 86	tubulointerstitial nephritis
+T5	Disease 180 201	interstitial fibrosis
+T6	Disease 209 221	renal cortex
+T7	Chemical 265 286	nuclear factor-kappaB
+T8	Chemical 288 297	NF-kappaB
+T9	Chemical 300 327	mitogen-activated protein (
+T11	Disease 363 375	renal cortex
+T16	Chemical 468 495	pyrrolidine dithiocarbamate
+T17	Chemical 497 501	PDTC
+T18	Chemical 507 526	NF-kappaB inhibitor
+T21	Chemical 645 649	PDTC
+T22	Chemical 670 683	NaCl solution
+T24	Chemical 1060 1070	creatinine
+T26	Chemical 1089 1093	ED-1
+T27	Chemical 1095 1106	MAP kinases
+T28	Chemical 1111 1120	NF-kappaB
+T29	Disease 1156 1168	renal cortex
+T31	Disease 1294 1306	renal cortex
+T33	Disease 1331 1345	renal function
+T34	Chemical 1362 1366	PDTC
+T38	Chemical 1484 1493	NF-kappaB
+T39	Disease 1516 1544	tubulointerstitial nephritis

@@ -1,0 +1,19 @@
+T1	Disease 20 34	cardiotoxicity
+T2	Chemical 85 96	doxorubicin
+T3	Chemical 114 125	doxorubicin
+T4	Chemical 127 130	DOX
+T5	Disease 140 154	cardiotoxicity
+T6	Chemical 208 211	DOX
+T7	Chemical 387 390	DOX
+T8	Chemical 430 433	DOX
+T9	Chemical 494 497	DOX
+T10	Chemical 873 876	DOX
+T11	Disease 907 929	cardiac disarrangement
+T12	Disease 931 939	necrosis
+T13	Disease 1123 1131	necrosis
+T14	Disease 1296 1304	necrosis
+T15	Disease 1396 1410	cardiotoxicity
+T16	Chemical 1439 1442	DOX
+T17	Chemical 1532 1535	DOX
+T18	Disease 1589 1597	toxicity
+T19	Disease 1613 1621	toxicity

@@ -1,0 +1,22 @@
+T1	Disease 0 37	Cerebellar and oculomotor dysfunction
+T2	Disease offset[0] offset[1];offset[0] offset[1]	Cerebellar dysfunction
+T3	Disease 15 37	oculomotor dysfunction
+T4	Chemical 67 76	pethidine
+T5	Chemical 77 86	Pethidine
+T6	Disease 144 148	pain
+T7	Disease 212 216	pain
+T8	Disease 342 348	nausea
+T9	Disease 350 358	vomiting
+T10	Disease 363 374	hypotension
+T11	Disease 393 426	impaired renal and liver function
+T12	Disease offset[0] offset[1];offset[0] offset[1]	impaired renal function
+T13	Disease offset[0] offset[1];offset[0] offset[1]	impaired liver function
+T14	Disease 457 461	pain
+T15	Chemical 471 480	pethidine
+T16	Disease 551 561	neurotoxic
+T17	Chemical 574 586	norpethidine
+T18	Disease 601 613	irritability
+T19	Disease 618 625	seizure
+T20	Chemical 683 692	pethidine
+T21	Disease 922 931	dysmetria
+T22	Disease 933 943	dysarthria

@@ -1,0 +1,15 @@
+T1	Chemical 37 41	NHE3
+T2	Chemical 43 47	NBC1
+T3	Chemical 49 53	AQP1
+T7	Chemical 569 579	creatinine
+T8	Chemical 618 628	creatinine
+T11	Chemical 864 881	Na(+)/K(+)-ATPase
+T12	Chemical 883 887	NHE3
+T13	Chemical 889 893	NBC1
+T14	Chemical 899 903	AQP1
+T16	Chemical 964 968	OAT1
+T17	Chemical 973 977	OAT3
+T18	Chemical 1101 1118	Na(+)/K(+)-ATPase
+T19	Chemical 1120 1124	NHE3
+T20	Chemical 1126 1130	NBC1
+T21	Chemical 1132 1136	AQP1

@@ -1,0 +1,14 @@
+T1	Chemical 40 68	chronic maintenance steroids
+T3	Chemical 154 156	/-
+T4	Disease 178 199	heart transplantation
+T5	Disease 238 263	idiopathic cardiomyopathy
+T6	Disease 271 295	congenital heart disease
+T7	Disease 361 388	hypertrophic cardiomyopathy
+T8	Chemical 488 500	cyclosporine
+T10	Chemical 539 562	antilymphocyte globulin
+T12	Disease 616 636	refractory rejection
+T16	Disease 780 793	perioperative
+T23	Disease 1218 1244	Cytomegalovirus infections
+T24	Chemical 1276 1287	ganciclovir
+T27	Disease 1499 1520	graft atherosclerosis
+T30	Disease 1663 1691	lymphoproliferative disorder

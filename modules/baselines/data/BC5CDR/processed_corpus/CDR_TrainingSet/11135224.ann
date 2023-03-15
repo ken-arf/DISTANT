@@ -1,0 +1,30 @@
+T1	Chemical 0 10	Paclitaxel
+T2	Chemical 12 21	cisplatin
+T3	Chemical 27 38	gemcitabine
+T4	Disease 126 154	nonsmall cell lung carcinoma
+T5	Chemical 167 176	Cisplatin
+T6	Disease 258 286	nonsmall cell lung carcinoma
+T7	Disease 288 293	NSCLC
+T8	Disease 500 508	toxicity
+T9	Chemical 514 524	paclitaxel
+T10	Chemical 526 535	cisplatin
+T11	Chemical 541 552	gemcitabine
+T12	Disease 585 590	NSCLC
+T13	Disease 658 663	NSCLC
+T14	Chemical 767 777	paclitaxel
+T15	Chemical 833 842	cisplatin
+T16	Chemical 902 913	gemcitabine
+T17	Disease 1181 1189	toxicity
+T18	Disease 1295 1303	toxicity
+T19	Chemical 1650 1660	paclitaxel
+T20	Chemical 1686 1695	cisplatin
+T21	Chemical 1726 1737	gemcitabine
+T22	Disease 1783 1794	neutropenia
+T23	Disease 1799 1815	thrombocytopenia
+T24	Disease 1903 1908	death
+T25	Disease 1925 1935	toxicities
+T26	Chemical 2118 2128	paclitaxel
+T27	Chemical 2130 2139	cisplatin
+T28	Chemical 2145 2156	gemcitabine
+T29	Disease 2213 2218	NSCLC
+T30	Chemical 2272 2281	cisplatin

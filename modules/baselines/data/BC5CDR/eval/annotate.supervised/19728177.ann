@@ -1,0 +1,29 @@
+T1	Disease 10 21	hypothermia
+T2	Disease 50 64	cerebral edema
+T3	Disease 69 94	intracranial hypertension
+T4	Disease 111 120	fulminant
+T5	Disease 111 136	fulminant hepatic failure
+T6	Disease 209 223	cerebral edema
+T7	Disease 237 246	fulminant
+T8	Disease 237 262	fulminant hepatic failure
+T9	Disease 264 267	FHF
+T10	Disease 455 458	FHF
+T11	Chemical 464 477	acetaminophen
+T12	Disease 492 506	cerebral edema
+T13	Disease 599 607	toxicity
+T14	Chemical 613 626	acetaminophen
+T15	Disease 683 692	depressed
+T16	Disease 781 784	FHF
+T17	Chemical 790 803	acetaminophen
+T18	Disease 808 822	cerebral edema
+T19	Disease 875 891	hyperventilation
+T20	Disease 916 925	paralysis
+T21	Disease 1034 1045	hypothermia
+T22	Disease 1123 1137	cerebral edema
+T23	Disease 1142 1167	intracranial hypertension
+T24	Disease 1277 1280	FHF
+T25	Disease 1285 1299	cerebral edema
+T26	Chemical 1305 1318	acetaminophen
+T27	Disease 1319 1327	overdose
+T28	Disease 1351 1362	hypothermia
+T29	Disease 1485 1496	hypothermia

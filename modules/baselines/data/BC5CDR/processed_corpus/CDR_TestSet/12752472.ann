@@ -1,0 +1,12 @@
+T1	Disease 56 61	Apnea
+T2	Disease 87 95	seizures
+T3	Chemical 346 357	pilocarpine
+T4	Disease 366 374	epilepsy
+T5	Disease 414 423	epileptic
+T6	Disease 507 523	hyperventilation
+T7	Disease 1009 1025	hyperventilation
+T8	Chemical 1083 1094	pilocarpine
+T9	Disease 1179 1188	epileptic
+T10	Disease 1424 1433	epileptic
+T11	Chemical 1748 1759	pilocarpine
+T12	Disease 2007 2015	epilepsy

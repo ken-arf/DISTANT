@@ -1,0 +1,17 @@
+T1	Disease 66 80	cardiotoxicity
+T2	Disease 81 104	Cardiovascular diseases
+T3	Disease 126 140	health problem
+T4	Disease 328 342	cardiotoxicity
+T6	Chemical 512 533	lactate dehydrogenase
+T7	Chemical 535 557	creatine phosphokinase
+T8	Chemical 559 579	alanine transaminase
+T9	Chemical 581 603	aspartate transaminase
+T10	Chemical 609 638	angiotensin-converting enzyme
+T12	Chemical 696 706	fatty acid
+T13	Chemical 723 738	malondialdehyde
+T14	Chemical 750 762	nitric oxide
+T15	Chemical 810 821	glutathione
+T16	Chemical 826 846	superoxide dismutase
+T19	Chemical 1133 1162	angiotensin-converting enzyme
+T20	Chemical 1182 1203	cardioprotective drug
+T22	Chemical 1509 1525	cardioprotective

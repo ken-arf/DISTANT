@@ -1,0 +1,24 @@
+T1	Chemical 5 16	domperidone
+T2	Disease 51 64	restless legs
+T3	Chemical 130 142	dopaminergic
+T4	Disease 153 175	restless legs syndrome
+T5	Disease 177 180	RLS
+T8	Chemical 261 278	dopamine agonists
+T9	Chemical 296 328	dopamine D2 receptor antagonists
+T12	Chemical 431 442	domperidone
+T13	Chemical 457 488	dopamine D2 receptor antagonist
+T14	Disease 509 527	aggravate symptoms
+T15	Chemical 536 547	Mirtazapine
+T16	Chemical 559 572	noradrenergic
+T17	Chemical 586 613	serotonergic antidepressant
+T20	Chemical 789 800	mirtazapine
+T21	Chemical 819 822	his
+T23	Disease 884 887	RLS
+T24	Chemical 924 935	mirtazapine
+T25	Chemical 941 944	his
+T26	Disease 945 948	RLS
+T29	Chemical 1002 1017	his mirtazapine
+T30	Chemical 1067 1078	mirtazapine
+T32	Chemical 1159 1169	domperione
+T33	Chemical 1261 1272	mirtazapine
+T34	Chemical 1360 1392	dopamine D2 receptor antagonists

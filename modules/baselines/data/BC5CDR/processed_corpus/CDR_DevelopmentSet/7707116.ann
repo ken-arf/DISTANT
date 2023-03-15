@@ -1,0 +1,29 @@
+T1	Chemical 17 37	13-cis-retinoic acid
+T2	Disease 55 68	neuroblastoma
+T3	Disease 129 142	neuroblastoma
+T4	Chemical 159 179	13-cis-retinoic acid
+T5	Chemical 181 187	cis-RA
+T6	Chemical 244 250	cis-RA
+T7	Disease 290 303	neuroblastoma
+T8	Disease 462 472	toxicities
+T9	Chemical 498 504	cis-RA
+T10	Disease 563 576	neuroblastoma
+T11	Chemical 720 726	cis-RA
+T12	Disease 911 919	toxicity
+T13	Chemical 1013 1019	cis-RA
+T14	Disease 1051 1061	toxicities
+T15	Disease 1110 1123	hypercalcemia
+T16	Disease 1133 1137	rash
+T17	Disease 1151 1157	anemia
+T18	Disease 1158 1174	thrombocytopenia
+T19	Disease 1175 1181	emesis
+T20	Disease 1182 1186	rash
+T21	Disease 1200 1210	toxicities
+T22	Chemical 1226 1232	cis-RA
+T23	Disease 1300 1310	metastases
+T24	Chemical 1521 1527	cis-RA
+T25	Disease 1624 1637	neuroblastoma
+T26	Disease 1692 1705	hypercalcemia
+T27	Chemical 1737 1743	cis-RA
+T28	Chemical 1772 1779	calcium
+T29	Chemical 1784 1790	cis-RA

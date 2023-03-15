@@ -1,0 +1,13 @@
+T1	Disease 10 33	subarachnoid hemorrhage
+T2	Chemical 50 67	aminocaproic acid
+T3	Disease 80 109	acute renal artery thrombosis
+T4	Chemical 123 148	Epsilon aminocaproic acid
+T5	Disease 181 191	rebleeding
+T6	Disease 209 232	subarachnoid hemorrhage
+T7	Disease 334 344	thrombotic
+T8	Disease 437 469	intracranial vascular thrombosis
+T9	Disease 549 571	fibrinolytic syndromes
+T10	Disease 819 844	intravascular coagulation
+T11	Disease 867 881	coagulopathies
+T12	Disease 915 928	infarction of
+T14	Disease 970 982	renal artery

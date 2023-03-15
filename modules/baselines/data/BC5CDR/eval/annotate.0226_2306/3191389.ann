@@ -1,0 +1,13 @@
+T1	Chemical 24 61	non-steroidal anti-inflammatory drugs
+T4	Chemical 110 140	muscarinic cholinergic agonist
+T7	Disease 182 200	status epilepticus
+T10	Chemical 311 348	non-steroidal anti-inflammatory drugs
+T11	Chemical 350 367	sodium salicylate
+T15	Chemical 413 427	mefenamic acid
+T18	Chemical 492 509	sodium salicylate
+T19	Chemical 511 515	ED50
+T21	Chemical 587 601	non-convulsant
+T23	Chemical 639 649	convulsant
+T28	Chemical 763 777	Mefenamic acid
+T30	Disease 856 868	brain damage
+T32	Chemical 932 969	non-steroidal anti-inflammatory drugs

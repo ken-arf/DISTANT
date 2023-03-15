@@ -1,0 +1,20 @@
+T1	Disease 0 19	Acute renal failure
+T2	Chemical 26 35	high-dose
+T4	Chemical 85 94	High-dose
+T5	Chemical 109 115	HD-MTX
+T6	Disease 147 163	Burkitt lymphoma
+T8	Disease 191 205	renal toxicity
+T9	Disease 257 276	acute renal failure
+T10	Chemical 283 289	HD-MTX
+T12	Disease 379 415	living-related liver transplantation
+T13	Disease 420 446	congenital biliary atresia
+T14	Disease 535 563	lymphoproliferative disorder
+T15	Disease 578 596	malignant lymphoma
+T16	Disease 637 654	ileal perforation
+T18	Chemical 695 701	HD-MTX
+T19	Disease 717 736	acute renal failure
+T20	Disease 793 806	intravascular
+T22	Disease 826 846	substantial drainage
+T23	Disease 856 865	ileostoma
+T25	Chemical 974 980	HD-MTX
+T27	Disease 1018 1027	ileostoma

@@ -1,0 +1,15 @@
+T2	Chemical 45 58	carbenicillin
+T10	Chemical 259 266	100/mm3
+T12	Disease 327 342	adverse effects
+T15	Chemical 434 447	carbenicillin
+T17	Chemical 499 504	mg/m2
+T18	Chemical 509 522	carbenicillin
+T20	Disease 584 603	infectious episodes
+T28	Disease 906 927	Klebsiella pneumoniae
+T29	Chemical 952 968	Escherichia coli
+T30	Disease 973 995	Pseudomonas aeruginosa
+T31	Disease 1036 1056	bacillary infections
+T37	Disease 1312 1323	side effect
+T40	Chemical 1394 1404	creatinine
+T44	Chemical 1598 1618	therapeutic efficacy
+T45	Disease 1634 1648	renal toxicity

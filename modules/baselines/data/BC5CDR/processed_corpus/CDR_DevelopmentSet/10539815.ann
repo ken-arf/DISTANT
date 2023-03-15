@@ -1,0 +1,45 @@
+T1	Disease 14 38	decreased renal function
+T2	Disease 56 69	heart failure
+T3	Chemical 77 88	angiotensin
+T4	Disease 154 182	left ventricular dysfunction
+T5	Chemical 211 222	angiotensin
+T6	Disease 300 324	congestive heart failure
+T7	Disease 326 329	CHF
+T8	Disease 350 374	decreased renal function
+T9	Disease 532 559	reduction in renal function
+T10	Disease 577 580	CHF
+T11	Chemical 600 611	angiotensin
+T12	Disease 694 722	Left Ventricular Dysfunction
+T13	Chemical 788 797	enalapril
+T14	Disease 819 822	CHF
+T15	Chemical 870 879	enalapril
+T16	Disease 998 1022	Decreased renal function
+T17	Chemical 1054 1064	creatinine
+T18	Chemical 1255 1265	creatinine
+T19	Disease 1320 1332	hypertension
+T20	Disease 1334 1342	diabetes
+T21	Chemical 1369 1377	diuretic
+T22	Chemical 1444 1453	enalapril
+T23	Disease 1486 1510	decreased renal function
+T24	Chemical 1586 1595	enalapril
+T25	Chemical 1614 1622	diuretic
+T26	Disease 1636 1644	diabetes
+T27	Disease 1666 1690	decreased renal function
+T28	Disease 1830 1854	decreased renal function
+T29	Chemical 1904 1913	enalapril
+T30	Chemical 1921 1930	enalapril
+T31	Chemical 2011 2020	enalapril
+T32	Chemical 2059 2067	Diuretic
+T33	Disease 2123 2147	decreased renal function
+T34	Chemical 2155 2164	enalapril
+T35	Chemical 2266 2275	enalapril
+T36	Disease 2408 2416	diabetes
+T37	Disease 2434 2450	renal impairment
+T38	Chemical 2627 2636	Enalapril
+T39	Disease 2678 2702	decreased renal function
+T40	Disease 2720 2723	CHF
+T41	Chemical 2725 2733	Diuretic
+T42	Disease 2776 2784	Diabetes
+T43	Disease 2826 2842	renal impairment
+T44	Disease 2864 2867	CHF
+T45	Chemical 2902 2911	enalapril

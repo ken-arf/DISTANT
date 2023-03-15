@@ -1,0 +1,38 @@
+T1	Disease 35 48	neurotoxicity
+T2	Chemical 68 82	Streptozotocin
+T3	Disease 97 114	memory impairment
+T7	Chemical 207 221	Streptozotocin
+T8	Disease 236 251	memory impaired
+T9	Disease 295 309	Memory deficit
+T10	Chemical 400 403	STZ
+T11	Chemical 435 439	GFAP
+T12	Chemical 441 446	CD11b
+T13	Chemical 451 456	TNF-a
+T14	Disease 489 506	neuroinflammation
+T18	Chemical 568 574	Ca(2+)
+T19	Chemical 591 604	mitochondrial
+T20	Chemical 617 641	synaptosomal preparation
+T21	Chemical 655 667	free radical
+T22	Disease 683 697	excitotoxicity
+T23	Chemical 736 745	Caspase-3
+T24	Chemical 767 770	STZ
+T27	Chemical 903 918	markers CaMKIIa
+T28	Chemical 923 929	PSD-95
+T29	Chemical 952 955	pre
+T32	Chemical 992 999	SNAP-25
+T34	Disease 1054 1067	neurotoxicity
+T35	Chemical 1089 1098	Memantine
+T37	Chemical 1163 1166	STZ
+T38	Disease 1232 1245	neurotoxicity
+T40	Disease 1299 1314	memory function
+T41	Chemical 1380 1384	GFAP
+T42	Chemical 1386 1391	CD11b
+T43	Chemical 1393 1398	TNF-a
+T46	Chemical 1458 1467	apoptotic
+T47	Chemical 1476 1492	synaptic markers
+T48	Chemical 1494 1507	mitochondrial
+T49	Chemical 1521 1527	Ca(2+)
+T50	Disease 1587 1604	neuroinflammatory
+T52	Disease 1770 1783	neurotoxicity
+T53	Disease 1819 1836	memory impairment
+T54	Disease 1850 1860	cell death

@@ -1,0 +1,17 @@
+T1	Chemical 0 10	Paclitaxel
+T2	Chemical 57 68	carboplatin
+T3	Chemical 116 126	Paclitaxel
+T4	Chemical 128 133	Taxol
+T5	Chemical 217 228	carboplatin
+T6	Disease 277 303	non-small cell lung cancer
+T7	Chemical 305 316	Carboplatin
+T8	Chemical 424 434	paclitaxel
+T9	Disease 680 690	toxicities
+T10	Disease 692 702	arthralgia
+T11	Disease 707 725	sensory neuropathy
+T12	Disease 889 899	Toxicities
+T13	Chemical 962 972	paclitaxel
+T14	Chemical 1005 1016	Carboplatin
+T15	Disease 1046 1068	hematologic toxicities
+T16	Chemical 1087 1097	paclitaxel
+T17	Chemical 1098 1109	carboplatin

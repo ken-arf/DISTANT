@@ -1,0 +1,22 @@
+T1	Disease 7 13	anuria
+T2	Chemical 37 47	ifosfamide
+T3	Disease 66 79	breast cancer
+T4	Disease 96 119	impaired renal function
+T5	Disease 157 170	breast cancer
+T6	Chemical 196 205	cisplatin
+T7	Disease 240 253	renal failure
+T8	Disease 259 265	anuria
+T9	Chemical 294 304	ifosfamide
+T10	Disease 306 323	Postrenal failure
+T11	Disease 399 412	renal failure
+T12	Disease 436 447	hypotension
+T13	Disease 501 507	anuria
+T14	Chemical 591 601	Ifosfamide
+T15	Disease 613 624	nephrotoxic
+T16	Disease 648 661	tubulopathies
+T17	Disease 700 706	anuria
+T18	Chemical 725 735	ifosfamide
+T19	Chemical 785 794	cisplatin
+T20	Disease 856 867	hypotension
+T21	Chemical 897 907	ifosfamide
+T22	Disease 936 947	nephrotoxic

@@ -1,0 +1,38 @@
+T1	Chemical 5 8	fat
+T2	Disease 18 23	obese
+T3	Chemical 53 64	doxorubicin
+T4	Disease 73 87	cardiotoxicity
+T5	Chemical 111 122	doxorubicin
+T6	Chemical 124 134	Adriamycin
+T7	Disease 171 185	cardiotoxicity
+T8	Chemical 305 316	doxorubicin
+T9	Disease 325 339	cardiotoxicity
+T10	Chemical 420 433	triglycerides
+T11	Chemical 478 481	ATP
+T12	Chemical 623 626	fat
+T13	Disease 653 660	obesity
+T14	Chemical 716 727	doxorubicin
+T15	Disease 736 750	cardiotoxicity
+T16	Chemical 772 783	doxorubicin
+T17	Disease 856 870	cardiotoxicity
+T18	Disease 872 891	cardiac dysfunction
+T19	Disease 938 943	obese
+T20	Disease 945 947	OB
+T21	Disease 988 1013	renal or hepatic toxicity
+T22	Disease 988 993;1005 1013	renal toxicity
+T23	Disease 997 1013	hepatic toxicity
+T24	Chemical 1015 1026	Doxorubicin
+T25	Chemical 1088 1099	doxorubicin
+T26	Chemical 1104 1117	doxorubicinol
+T27	Disease 1169 1171	OB
+T28	Disease 1214 1216	OB
+T29	Disease 1572 1574	OB
+T30	Chemical 1605 1608	AMP
+T31	Chemical 1660 1663	ATP
+T32	Chemical 1696 1699	ATP
+T33	Chemical 1700 1703	ADP
+T34	Chemical 1716 1727	doxorubicin
+T35	Disease 1886 1891	obese
+T36	Chemical 1922 1933	doxorubicin
+T37	Disease 1942 1956	cardiotoxicity
+T38	Chemical 2011 2014	ATP

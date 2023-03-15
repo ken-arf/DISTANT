@@ -1,0 +1,20 @@
+T1	Chemical 48 60	lenalidomide
+T2	Chemical 65 78	dexamethasone
+T3	Disease 116 132	multiple myeloma
+T4	Disease 216 223	Myeloma
+T5	Chemical 236 248	Lenalidomide
+T6	Chemical 253 266	dexamethasone
+T7	Chemical 268 270	RD
+T8	Disease 318 334	multiple myeloma
+T9	Disease 336 340	RRMM
+T10	Disease 541 545	RRMM
+T11	Disease 760 762	CR
+T12	Chemical 768 770	RD
+T13	Chemical 938 949	thalidomide
+T14	Chemical 953 963	bortezomib
+T15	Disease 1305 1321	myelosuppression
+T16	Disease 1380 1401	Peripheral neuropathy
+T17	Disease 1445 1465	deep vein thrombosis
+T18	Chemical 1659 1671	lenalidomide
+T19	Chemical 1798 1800	RD
+T20	Disease 1826 1830	RRMM

@@ -1,0 +1,12 @@
+T1	Disease 0 14	Intraoperative
+T2	Disease 102 113	acutely ill
+T3	Disease 128 151	fulminant liver failure
+T4	Disease 165 179	intraoperative
+T5	Disease 268 287	acute kidney injury
+T6	Disease 298 312	intraoperative
+T7	Chemical 404 416	procoagulant
+T9	Disease 461 474	liver failure
+T10	Chemical 774 785	citric acid
+T12	Disease 947 970	fulminant liver failure
+T13	Disease 1005 1019	intraoperative
+T14	Disease 1383 1406	fulminant liver failure

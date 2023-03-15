@@ -1,0 +1,14 @@
+T1	Chemical 31 43	serotonergic
+T4	Chemical 161 163	(1
+T5	Disease 254 271	medulla oblongata
+T7	Chemical 396 410	saline vehicle
+T8	Disease 457 479	mean arterial pressure
+T9	Disease 587 605	bilateral vagotomy
+T10	Disease 685 703	bilateral vagotomy
+T12	Chemical 837 860	5,7-dihydroxytryptamine
+T13	Chemical 891 904	vasodepressor
+T15	Disease 985 998	ventrolateral
+T16	Disease 1014 1031	medulla oblongata
+T17	Chemical 1078 1090	serotonergic
+T20	Disease 1234 1254	sympathetic efferent
+T22	Disease 1323 1337	vagal efferent

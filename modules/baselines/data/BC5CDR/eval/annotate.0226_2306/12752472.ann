@@ -1,0 +1,11 @@
+T1	Disease 0 19	Respiratory pattern
+T5	Disease 123 148	ictal respiratory changes
+T6	Disease 183 210	respiratory pattern defects
+T7	Disease 218 228	interictal
+T8	Disease 312 322	interictal
+T12	Disease 527 542	hypoventilation
+T14	Disease 555 574	Breathing movements
+T16	Disease 1319 1334	hypoventilation
+T18	Chemical 1379 1384	Paco2
+T19	Chemical 1578 1581	KCN
+T20	Disease 2007 2037	epilepsy-associated conditions

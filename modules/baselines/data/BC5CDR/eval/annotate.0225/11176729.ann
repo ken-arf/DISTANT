@@ -1,0 +1,24 @@
+T1	Chemical 14 24	high doses
+T2	Chemical 28 68	angiotensin-converting enzyme inhibitors
+T3	Disease 94 107	heart failure
+T5	Chemical 223 252	angiotensin-converting enzyme
+T9	Disease 327 340	heart failure
+T10	Chemical 342 345	CHF
+T14	Chemical 686 705	low-dose lisinopril
+T15	Chemical 709 712	CHF
+T17	Chemical 864 877	ACE inhibitor
+T21	Chemical 1041 1049	low-dose
+T22	Chemical 1135 1138	CHF
+T23	Disease 1143 1159	left ventricular
+T25	Disease 1303 1317	adverse events
+T29	Disease 1420 1437	renal dysfunction
+T30	Chemical 1492 1505	ACE inhibitor
+T34	Disease 1668 1685	renal dysfunction
+T36	Chemical 1763 1768	high-
+T37	Chemical 1773 1781	low-dose
+T38	Chemical 1984 1992	low-dose
+T40	Chemical 2045 2058	ACE inhibitor
+T41	Disease 2072 2086	blood pressure
+T42	Chemical 2100 2110	creatinine
+T44	Chemical 2292 2305	ACE inhibitor
+T45	Chemical 2336 2339	CHF

@@ -1,0 +1,13 @@
+T1	Disease 28 37	hemolytic
+T2	Disease 28 44	hemolytic anemia
+T3	Disease 100 109	hemolytic
+T4	Disease 155 169	acute leukemia
+T5	Disease 203 209	anemia
+T6	Disease 253 267	hemoglobinuria
+T7	Disease 331 347	hemolytic anemia
+T8	Chemical 560 572	trimethoprim
+T9	Chemical 577 606	trimethoprim-sulfamethoxazole
+T10	Chemical 625 641	sulfamethoxazole
+T11	Disease 742 748	anemia
+T12	Disease 807 813	anemia
+T13	Disease 847 856	hemolysis

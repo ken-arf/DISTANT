@@ -1,0 +1,23 @@
+T1	Disease 0 25	Acute renal insufficiency
+T2	Chemical 32 41	high-dose
+T4	Disease 77 97	systemic amyloidosis
+T5	Disease 105 130	stem cell transplantation
+T6	Disease 157 185	primary systemic amyloidosis
+T7	Disease 198 212	poor prognosis
+T8	Chemical 279 288	High-dose
+T9	Disease 323 344	peripheral blood stem
+T10	Disease 490 515	acute renal insufficiency
+T11	Disease 634 648	posttransplant
+T12	Disease 743 768	Acute renal insufficiency
+T13	Chemical 770 773	ARI
+T14	Chemical 781 790	high-dose
+T16	Chemical 877 887	creatinine
+T17	Chemical 1101 1104	ARI
+T18	Chemical 1146 1155	high-dose
+T20	Disease 1203 1218	hypoalbuminemia
+T21	Disease 1220 1237	heavy proteinuria
+T22	Chemical 1424 1427	ARI
+T23	Chemical 1434 1443	high-dose
+T25	Disease 1567 1579	renal injury
+T27	Disease 1640 1654	tubular injury
+T28	Disease 1681 1693	renal injury

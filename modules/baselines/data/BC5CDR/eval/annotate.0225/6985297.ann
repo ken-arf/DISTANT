@@ -1,0 +1,23 @@
+T2	Chemical 38 46	bepridil
+T3	Chemical 47 55	Bepridil
+T4	Chemical 65 80	active compound
+T5	Disease 111 126	anginal attacks
+T8	Chemical 165 195	non-specific anti-tachycardial
+T9	Chemical 290 298	bepridil
+T11	Disease 417 419	AP
+T13	Chemical 563 573	X 10(-5) M
+T15	Chemical 620 628	Bepridil
+T17	Chemical 722 724	/-
+T18	Chemical 737 739	/-
+T19	Chemical 820 822	/-
+T20	Chemical 841 843	/-
+T21	Chemical 940 944	/- 3
+T22	Chemical 957 961	/- 5
+T23	Chemical 989 997	bepridil
+T26	Disease 1102 1124	cardiac afferent nerve
+T29	Chemical 1244 1246	/-
+T30	Chemical 1268 1270	/-
+T31	Chemical 1338 1346	bepridil
+T32	Disease 1355 1365	heart rate
+T33	Disease 1392 1402	sinus node
+T34	Chemical 1454 1461	phase 0

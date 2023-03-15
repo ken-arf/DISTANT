@@ -1,0 +1,25 @@
+T1	Chemical 0 27	Pyrrolidine dithiocarbamate
+T2	Chemical 64 75	pilocarpine
+T3	Disease 76 94	status epilepticus
+T4	Chemical 101 128	Pyrrolidine dithiocarbamate
+T5	Chemical 130 134	PDTC
+T6	Chemical 271 277	oxygen
+T7	Disease 352 367	neuronal damage
+T8	Chemical 466 470	PDTC
+T9	Disease 474 492	status epilepticus
+T10	Chemical 591 602	pilocarpine
+T11	Chemical 635 639	PDTC
+T12	Disease 661 679	status epilepticus
+T13	Chemical 759 763	PDTC
+T14	Disease 827 845	status epilepticus
+T15	Disease 894 912	status epilepticus
+T16	Disease 931 946	neuronal damage
+T17	Chemical 1029 1033	PDTC
+T18	Chemical 1218 1222	PDTC
+T19	Disease 1246 1264	status epilepticus
+T20	Chemical 1321 1325	PDTC
+T21	Disease 1389 1402	neuronal loss
+T22	Chemical 1462 1468	oxygen
+T23	Disease 1534 1541	seizure
+T24	Disease 1553 1568	neuronal damage
+T25	Chemical 1730 1734	PDTC

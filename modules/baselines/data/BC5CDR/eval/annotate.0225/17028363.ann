@@ -1,0 +1,15 @@
+T1	Disease 0 19	Acute renal failure
+T3	Chemical 82 96	anthraquinones
+T4	Chemical 97 120	Chinese herbal medicine
+T9	Chemical 276 289	Chinese herbs
+T10	Chemical 349 367	aristolochic acids
+T11	Disease 413 432	acute renal failure
+T13	Chemical 518 531	anthraquinone
+T15	Disease 588 600	renal injury
+T16	Chemical 656 692	non-steroidal anti-inflammatory drug
+T17	Chemical 694 704	diclofenac
+T20	Disease 770 796	Spontaneous renal recovery
+T21	Chemical 828 842	slimming pills
+T25	Chemical 997 1034	anthraquinone-containing herbal agent
+T26	Disease 1039 1051	renal injury
+T27	Disease 1173 1198	unexplained renal failure

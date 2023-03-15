@@ -1,0 +1,27 @@
+T1	Disease 8 26	hyperprolactinemia
+T4	Chemical 82 94	dopaminergic
+T6	Chemical 140 143	PRL
+T7	Disease 197 213	acute elevations
+T8	Chemical 223 226	PRL
+T10	Chemical 334 337	PRL
+T11	Disease 386 404	hyperprolactinemia
+T13	Chemical 469 481	dopaminergic
+T15	Disease 504 522	Hyperprolactinemia
+T17	Chemical 568 596	dopamine receptor antagonist
+T20	Disease 799 817	hyperprolactinemia
+T22	Disease 855 870	median eminence
+T23	Disease 932 950	hyperprolactinemia
+T25	Disease 1098 1116	hyperprolactinemia
+T26	Chemical 1185 1188	PRL
+T32	Chemical 1333 1337	5-HT
+T34	Disease 1368 1383	arcuate nucleus
+T35	Disease 1390 1410	medial preoptic area
+T36	Disease 1418 1433	caudate putamen
+T37	Chemical 1435 1437	CP
+T39	Chemical 1539 1545	5-HIAA
+T40	Disease 1575 1593	hyperprolactinemia
+T41	Disease 1659 1677	hyperprolactinemia
+T42	Disease 1710 1728	hyperprolactinemia
+T43	Disease 1750 1754	TIDA
+T44	Disease 1830 1848	hyperprolactinemia
+T47	Chemical 1945 1948	PRL

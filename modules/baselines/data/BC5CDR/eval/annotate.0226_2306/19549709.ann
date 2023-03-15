@@ -1,0 +1,21 @@
+T1	Chemical 12 22	everolimus
+T2	Chemical 24 30	RAD001
+T3	Chemical 58 63	NSCLC
+T5	Chemical 132 147	EGFR inhibitors
+T6	Disease 212 238	non-small-cell lung cancer
+T7	Chemical 257 263	RAD001
+T8	Chemical 290 319	mammalian target of rapamycin
+T9	Chemical 321 325	mTOR
+T11	Chemical 510 569	epidermal growth factor receptor tyrosine kinase inhibitors
+T12	Chemical 571 580	stratum 2
+T13	Chemical 592 598	RAD001
+T17	Chemical 744 748	mTOR
+T20	Chemical 988 997	stratum 2
+T21	Chemical 1091 1100	stratum 1
+T22	Chemical 1118 1127	stratum 2
+T23	Disease 1143 1150	grade 3
+T30	Chemical 1355 1366	phospho AKT
+T31	Chemical 1368 1372	pAKT
+T32	Chemical 1441 1447	RAD001
+T33	Chemical 1546 1552	RAD001
+T35	Disease 1590 1595	NSCLC

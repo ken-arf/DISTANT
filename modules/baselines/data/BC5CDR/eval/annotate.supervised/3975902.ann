@@ -1,0 +1,22 @@
+T1	Disease 0 26	Cardiovascular dysfunction
+T2	Disease 31 47	hypersensitivity
+T3	Chemical 51 71	sodium pentobarbital
+T4	Chemical 91 97	barium
+T5	Chemical 91 106	barium chloride
+T6	Disease 195 207	hypertension
+T7	Chemical 242 248	barium
+T8	Chemical 531 537	barium
+T9	Disease 564 580	hypersensitivity
+T10	Disease 564 602	hypersensitivity of the cardiovascular
+T11	Chemical 613 633	sodium pentobarbital
+T12	Chemical 641 652	barbiturate
+T13	Chemical 851 859	ketamine
+T14	Chemical 864 872	xylazine
+T15	Chemical 928 948	sodium pentobarbital
+T16	Chemical 1150 1156	barium
+T17	Disease 1899 1915	hypersensitivity
+T18	Chemical 1948 1968	sodium pentobarbital
+T19	Disease 2019 2034	cardiomyopathic
+T20	Disease 2019 2043	cardiomyopathic disorder
+T21	Chemical 2063 2069	barium
+T22	Chemical 2154 2160	barium

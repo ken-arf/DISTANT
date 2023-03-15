@@ -1,0 +1,27 @@
+T1	Chemical 11 21	troponin I
+T2	Disease 58 68	chest pain
+T4	Disease 152 176	myocardial necrosis make
+T5	Disease 199 220	myocardial infarction
+T6	Disease 272 282	chest pain
+T7	Chemical 284 292	Troponin
+T8	Chemical 397 405	troponin
+T9	Disease 442 452	chest pain
+T12	Chemical 652 667	creatine kinase
+T13	Chemical 669 671	CK
+T14	Chemical 674 679	CK-MB
+T15	Chemical 693 703	troponin I
+T16	Chemical 705 709	cTnI
+T17	Chemical 757 762	CK-MB
+T18	Chemical 819 821	CK
+T19	Disease 831 844	cardiac death
+T21	Disease 862 878	coronary disease
+T22	Chemical 981 985	cTnI
+T25	Chemical 1178 1182	cTnI
+T26	Chemical 1246 1251	CK-MB
+T27	Disease 1360 1373	cardiac death
+T28	Disease 1377 1396	significant disease
+T29	Chemical 1429 1433	cTnI
+T30	Chemical 1504 1508	cTnI
+T32	Chemical 1616 1624	Troponin
+T33	Chemical 1689 1694	CK-MB
+T35	Disease 1755 1765	chest pain

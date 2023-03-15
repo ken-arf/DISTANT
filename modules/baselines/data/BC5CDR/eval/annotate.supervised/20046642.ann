@@ -1,0 +1,36 @@
+T1	Chemical 287 293	ZnSO(4
+T2	Chemical 397 399	MT
+T3	Chemical 413 423	carmustine
+T4	Disease 451 472	cognitive dysfunction
+T5	Chemical 664 668	BCNU
+T6	Chemical 714 720	ZnSO(4
+T7	Chemical 714 721	ZnSO(4)
+T8	Chemical 779 783	BCNU
+T9	Chemical 831 835	BCNU
+T10	Chemical 946 952	ZnSO(4
+T11	Chemical 952 953	)
+T12	Chemical 1005 1009	BCNU
+T13	Chemical 1076 1080	BCNU
+T14	Disease 1108 1157	deterioration of learning and short-term memory (
+T15	Disease 1157 1161	STM)
+T16	Chemical 1246 1257	glutathione
+T17	Chemical 1294 1305	glutathione
+T18	Chemical 1307 1310	GSH
+T19	Chemical 1327 1331	BCNU
+T20	Disease 1363 1368	tumor
+T21	Chemical 1392 1400	TNFalpha
+T22	Chemical 1415 1417	MT
+T23	Chemical 1422 1437	malondialdehyde
+T24	Chemical 1439 1442	MDA
+T25	Chemical 1524 1530	ZnSO(4
+T26	Chemical 1530 1531	)
+T27	Chemical 1605 1608	GSH
+T28	Chemical 1664 1667	MDA
+T29	Chemical 1672 1680	TNFalpha
+T30	Chemical 1795 1801	ZnSO(4
+T31	Chemical 1805 1809	BCNU
+T32	Chemical 1864 1866	MT
+T33	Disease 1896 1907	hippocampal
+T34	Disease 1908 1916	toxicity
+T35	Chemical 1951 1954	GSH
+T36	Chemical 2016 2019	MDA

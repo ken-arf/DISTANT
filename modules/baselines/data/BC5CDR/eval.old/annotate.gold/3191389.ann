@@ -1,0 +1,26 @@
+T1	Disease 65 73	seizures
+T2	Chemical 86 97	pilocarpine
+T3	Chemical 141 152	pilocarpine
+T4	Disease 169 177	seizures
+T5	Disease 182 200	status epilepticus
+T6	Chemical 350 367	sodium salicylate
+T7	Chemical 369 383	phenylbutazone
+T8	Chemical 385 397	indomethacin
+T9	Chemical 399 408	ibuprofen
+T10	Chemical 413 427	mefenamic acid
+T11	Disease 432 440	seizures
+T12	Chemical 453 464	pilocarpine
+T13	Chemical 492 509	sodium salicylate
+T14	Chemical 540 554	phenylbutazone
+T15	Chemical 610 621	pilocarpine
+T16	Chemical 655 667	Indomethacin
+T17	Chemical 685 694	ibuprofen
+T18	Disease 729 737	seizures
+T19	Chemical 750 761	pilocarpine
+T20	Chemical 763 777	Mefenamic acid
+T21	Disease 807 815	seizures
+T22	Disease 840 847	seizure
+T23	Disease 856 868	brain damage
+T24	Chemical 880 891	pilocarpine
+T25	Chemical 1012 1023	pilocarpine
+T26	Disease 1032 1040	seizures

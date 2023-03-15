@@ -1,0 +1,24 @@
+T1	Disease 23 45	venous thromboembolism
+T2	Chemical 70 79	docetaxel
+T3	Chemical 84 95	thalidomide
+T4	Disease 145 160	prostate cancer
+T5	Disease 207 229	venous thromboembolism
+T6	Disease 231 234	VTE
+T7	Disease 283 298	prostate cancer
+T8	Chemical 321 330	docetaxel
+T9	Chemical 360 371	thalidomide
+T10	Disease 577 592	prostate cancer
+T11	Chemical 649 658	docetaxel
+T12	Chemical 760 771	thalidomide
+T13	Chemical 807 816	docetaxel
+T14	Disease 895 903	toxicity
+T15	Chemical 992 1001	docetaxel
+T16	Disease 1018 1021	VTE
+T17	Chemical 1067 1076	docetaxel
+T18	Chemical 1082 1093	thalidomide
+T19	Disease 1104 1107	VTE
+T20	Chemical 1147 1158	thalidomide
+T21	Chemical 1162 1171	docetaxel
+T22	Disease 1192 1207	prostate cancer
+T23	Disease 1249 1252	VTE
+T24	Chemical 1324 1335	thalidomide

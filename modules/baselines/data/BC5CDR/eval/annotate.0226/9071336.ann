@@ -1,0 +1,31 @@
+T1	Chemical 0 10	Paclitaxel
+T2	Chemical 12 26	5-fluorouracil
+T3	Chemical 32 44	folinic acid
+T4	Disease 59 72	breast cancer
+T5	Chemical 93 113	trial.5-Fluorouracil
+T6	Chemical 119 131	folinic acid
+T7	Chemical 136 146	paclitaxel
+T8	Chemical 148 153	Taxol
+T9	Chemical 155 183	Bristol-Myers Squibb Company
+T11	Chemical 214 231	salvage therapies
+T12	Disease 247 260	breast cancer
+T13	Chemical 271 281	Paclitaxel
+T14	Chemical 286 300	5-fluorouracil
+T17	Chemical 382 392	paclitaxel
+T18	Chemical 397 402	mg/m2
+T19	Chemical 419 424	day I
+T20	Chemical 437 449	folinic acid
+T21	Chemical 476 490	5-fluorouracil
+T22	Chemical 495 500	mg/m2
+T23	Chemical 504 510	days 1
+T24	Chemical 531 534	TFL
+T25	Disease 561 574	breast cancer
+T26	Chemical 687 690	TFL
+T27	Disease 730 739	grade 3/4
+T29	Chemical 822 859	granulocyte colony-stimulating factor
+T32	Disease 923 932	Grade 3/4
+T33	Disease 933 947	nonhematologic
+T36	Chemical 1275 1285	paclitaxel
+T37	Chemical 1336 1346	paclitaxel
+T38	Chemical 1388 1391	TFL
+T41	Disease 1443 1456	breast cancer

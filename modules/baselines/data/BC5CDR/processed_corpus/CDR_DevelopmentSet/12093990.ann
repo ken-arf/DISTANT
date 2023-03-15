@@ -1,0 +1,54 @@
+T1	Chemical 12 21	ribavirin
+T2	Disease 43 61	adenovirus disease
+T3	Disease 219 237	adenovirus disease
+T4	Disease 489 507	adenovirus disease
+T5	Disease 671 689	adenovirus disease
+T6	Chemical 781 790	ribavirin
+T7	Chemical 795 804	cidofovir
+T8	Chemical 806 815	Ribavirin
+T9	Chemical 819 828	guanosine
+T10	Chemical 961 970	Ribavirin
+T11	Disease 1020 1057	respiratory syncytial virus infection
+T12	Disease 1110 1121	hepatitis C
+T13	Chemical 1135 1144	ribavirin
+T14	Disease 1176 1216	infection with hemorrhagic fever viruses
+T15	Chemical 1264 1273	ribavirin
+T16	Disease 1293 1299	anemia
+T17	Chemical 1312 1321	cidofovir
+T18	Disease 1332 1352	adenovirus infection
+T19	Disease 1423 1437	nephrotoxicity
+T20	Chemical 1492 1501	ribavirin
+T21	Disease 1521 1539	adenovirus disease
+T22	Chemical 1712 1721	ribavirin
+T23	Disease 1744 1762	adenovirus disease
+T24	Disease 1798 1818	hemorrhagic cystitis
+T25	Disease 1798 1809	hemorrhagic
+T26	Disease 1810 1818	cystitis
+T27	Chemical 1937 1946	cidofovir
+T28	Disease 2020 2040	adenovirus pneumonia
+T29	Disease 2020 2030	adenovirus
+T30	Disease 2031 2040	pneumonia
+T31	Disease 2081 2098	DiGeorge syndrome
+T32	Chemical 2178 2187	ribavirin
+T33	Disease 2385 2405	hemorrhagic cystitis
+T34	Disease 2385 2396	hemorrhagic
+T35	Disease 2397 2405	cystitis
+T36	Disease 2443 2463	adenovirus pneumonia
+T37	Disease 2443 2453	adenovirus
+T38	Disease 2454 2463	pneumonia
+T39	Disease 2498 2516	adenovirus disease
+T40	Chemical 2530 2539	ribavirin
+T41	Chemical 2575 2584	cidofovir
+T42	Disease 2616 2641	progressive renal failure
+T43	Disease 2646 2657	neutropenia
+T44	Disease 2786 2804	adenovirus disease
+T45	Disease 2892 2908	immunodeficiency
+T46	Chemical 2931 2940	ribavirin
+T47	Disease 2988 3006	adenovirus disease
+T48	Disease 3116 3125	infection
+T49	Disease 3223 3241	adenovirus disease
+T50	Disease 3371 3389	adenovirus disease
+T51	Chemical 3415 3424	ribavirin
+T52	Disease 3572 3592	adenovirus infection
+T53	Disease 3654 3672	adenovirus disease
+T54	Chemical 3817 3826	ribavirin

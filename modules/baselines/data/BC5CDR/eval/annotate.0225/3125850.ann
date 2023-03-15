@@ -1,0 +1,26 @@
+T1	Disease 12 33	intragastric pressure
+T2	Disease 63 84	muscle fasciculations
+T5	Chemical 112 122	alfentanil
+T6	Disease 134 155	intragastric pressure
+T7	Chemical 184 197	suxamethonium
+T8	Chemical 205 209	kg-1
+T10	Chemical 284 304	physiological saline
+T11	Chemical 308 318	alfentanil
+T12	Chemical 333 337	kg-1
+T13	Chemical 368 379	thiopentone
+T14	Chemical 385 389	kg-1
+T15	Disease 422 443	muscle fasciculations
+T16	Chemical 454 467	suxamethonium
+T17	Chemical 522 532	alfentanil
+T18	Disease 544 565	intragastric pressure
+T19	Disease 573 594	muscle fasciculations
+T21	Chemical 679 689	alfentanil
+T23	Disease 740 761	intragastric pressure
+T24	Disease 803 824	muscle fasciculations
+T25	Disease 897 918	intragastric pressure
+T26	Disease 950 971	muscle fasciculations
+T27	Chemical 982 995	suxamethonium
+T28	Chemical 1017 1027	Alfentanil
+T30	Chemical 1042 1046	kg-1
+T31	Disease 1121 1142	muscle fasciculations
+T32	Disease 1154 1175	intragastric pressure

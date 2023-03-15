@@ -1,0 +1,16 @@
+T1	Chemical 0 10	Amiodarone
+T2	Disease 11 29	pulmonary toxicity
+T3	Chemical 30 40	Amiodarone
+T4	Disease 152 163	pneumonitis
+T5	Disease 169 187	pulmonary toxicity
+T6	Chemical 191 201	amiodarone
+T7	Disease 320 348	hypersensitivity pneumonitis
+T8	Disease 320 336	hypersensitivity
+T9	Disease 337 348	pneumonitis
+T10	Chemical 392 402	amiodarone
+T11	Disease 411 429	pulmonary toxicity
+T12	Disease 528 541	heart failure
+T13	Disease 543 552	infection
+T14	Disease 558 568	malignancy
+T15	Chemical 590 600	amiodarone
+T16	Chemical 725 732	steroid

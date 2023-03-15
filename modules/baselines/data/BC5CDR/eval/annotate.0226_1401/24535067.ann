@@ -1,0 +1,15 @@
+T10	Chemical 493 502	etomidate
+T13	Chemical 595 602	Group F
+T14	Chemical 620 627	mg.kg-1
+T15	Chemical 629 636	Group M
+T16	Chemical 659 666	mg.kg-1
+T18	Chemical 682 689	ug.kg-1
+T22	Chemical 866 873	mg.kg-1
+T23	Chemical 874 883	etomidate
+T24	Disease 939 958	Myoclonic movements
+T25	Disease 1018 1035	clinical severity
+T26	Chemical 1063 1072	etomidate
+T29	Chemical 1112 1121	etomidate
+T30	Disease 1133 1155	mean arterial pressure
+T31	Disease 1157 1167	heart rate
+T32	Disease 1173 1188	adverse effects

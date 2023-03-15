@@ -1,0 +1,23 @@
+T2	Disease 16 34	primary prevention
+T3	Disease 38 59	cardiovascular events
+T4	Disease 143 165	Coronary heart disease
+T5	Disease 170 193	cerebrovascular disease
+T10	Disease 397 419	coronary heart disease
+T13	Disease 492 510	primary prevention
+T14	Disease 514 536	myocardial infarctions
+T18	Disease 913 931	primary prevention
+T19	Disease 935 957	cardiovascular disease
+T20	Disease 959 962	CVD
+T22	Disease 1035 1056	coronary heart events
+T25	Disease 1078 1099	coronary heart events
+T28	Disease 1158 1161	CVD
+T33	Disease 1525 1528	CVD
+T35	Disease 1562 1565	CVD
+T36	Disease 1606 1628	myocardial infarctions
+T37	Disease 1657 1673	ischemic strokes
+T39	Disease 1707 1710	CVD
+T43	Disease 1791 1809	primary prevention
+T47	Disease 1954 1973	hemorrhagic strokes
+T49	Disease 2046 2065	hemorrhagic strokes
+T51	Disease 2188 2191	CVD
+T58	Disease 2496 2517	myocardial infarction

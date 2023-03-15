@@ -1,0 +1,14 @@
+T1	Chemical 6 19	carbamazepine
+T5	Disease 167 188	drug hypersensitivity
+T7	Disease 232 249	adverse reactions
+T8	Chemical 253 266	carbamazepine
+T10	Disease 332 353	cardiovascular system
+T12	Disease 403 414	side effect
+T13	Chemical 418 431	carbamazepine
+T14	Disease 435 459	necrotizing eosinophilic
+T17	Disease 512 553	hypersensitivity myocarditis secondary to
+T18	Chemical 572 585	carbamazepine
+T19	Disease 593 621	hypersensitivity myocarditis
+T22	Disease 786 793	myocyte
+T25	Disease 831 848	cardiogenic shock
+T27	Chemical 908 921	carbamazepine

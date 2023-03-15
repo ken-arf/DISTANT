@@ -1,0 +1,39 @@
+T2	Chemical 38 50	nitric oxide
+T3	Disease 77 92	venous function
+T5	Chemical 126 138	nitric oxide
+T8	Disease 177 197	arterial dysfunction
+T12	Chemical 364 376	endothelin-1
+T13	Chemical 378 382	ET-1
+T15	Disease 415 429	nervous system
+T16	Disease 460 476	oxidative stress
+T18	Disease 516 529	smooth muscle
+T20	Chemical 563 586	Nomega-nitro-L-arginine
+T22	Chemical 660 671	NO synthase
+T23	Chemical 682 686	LNNA
+T24	Chemical 699 713	drinking water
+T25	Disease 728 750	Mean arterial pressure
+T26	Chemical 778 782	/- 2
+T27	Chemical 823 827	LNNA
+T28	Disease 843 859	Carotid arteries
+T29	Disease 864 873	vena cava
+T30	Disease 906 927	isometric contraction
+T32	Chemical 1005 1009	LNNA
+T33	Chemical 1072 1076	ET-1
+T34	Disease 1141 1150	vena cava
+T36	Chemical 1229 1233	ET-1
+T37	Disease 1305 1319	venomotor tone
+T38	Chemical 1381 1385	LNNA
+T40	Disease 1473 1490	arterial pressure
+T41	Chemical 1547 1551	LNNA
+T42	Disease 1615 1625	ganglionic
+T43	Chemical 1640 1653	hexamethonium
+T44	Chemical 1693 1697	LNNA
+T45	Chemical 1721 1725	/- 9
+T46	Disease 1779 1795	Carotid arteries
+T47	Disease 1797 1806	vena cava
+T48	Disease 1812 1831	sympathetic ganglia
+T49	Chemical 1837 1841	LNNA
+T50	Disease 1858 1870	basal levels
+T52	Disease 1954 1967	NO deficiency
+T53	Disease 1978 1994	oxidative stress
+T54	Disease 1999 2019	sympathetic activity

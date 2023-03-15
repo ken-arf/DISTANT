@@ -1,0 +1,19 @@
+T1	Chemical 24 39	tranexamic acid
+T3	Disease 70 85	cardiac surgery
+T5	Disease 194 209	cardiac surgery
+T6	Disease 310 332	cardiopulmonary bypass
+T9	Disease 447 461	brain function
+T11	Disease 488 515	involuntary motor movements
+T16	Disease 718 732	focal seizures
+T19	Disease 916 928	Epileptiform
+T20	Disease 941 963	electroencephalography
+T24	Disease 1070 1085	cardiac surgery
+T26	Disease 1104 1119	ascending aorta
+T27	Disease 1121 1145	congestive heart failure
+T28	Disease 1147 1182	deep hypothermic circulatory arrest
+T30	Chemical 1219 1234	tranexamic acid
+T31	Chemical 1287 1302	tranexamic acid
+T34	Disease 1486 1504	length of hospital
+T36	Disease 1581 1595	length of stay
+T42	Disease 1834 1849	cardiac surgery
+T43	Chemical 1854 1869	tranexamic acid

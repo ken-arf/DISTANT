@@ -1,0 +1,22 @@
+T1	Chemical 11 18	NIK-247
+T2	Chemical 41 52	scopolamine
+T3	Disease 61 68	amnesia
+T4	Chemical 84 91	NIK-247
+T5	Chemical 111 122	scopolamine
+T6	Disease 131 138	amnesia
+T7	Chemical 246 253	tacrine
+T8	Chemical 258 264	E-2020
+T9	Chemical 266 273	NIK-247
+T10	Chemical 275 282	tacrine
+T11	Chemical 287 293	E-2020
+T12	Chemical 454 461	NIK-247
+T13	Chemical 466 473	tacrine
+T14	Chemical 483 489	E-2020
+T15	Chemical 650 657	NIK-247
+T16	Disease 743 750	amnesia
+T17	Chemical 762 773	scopolamine
+T18	Chemical 967 974	NIK-247
+T19	Chemical 1017 1028	scopolamine
+T20	Disease 1037 1044	amnesia
+T21	Chemical 1113 1120	NIK-247
+T22	Disease 1163 1182	Alzheimer's disease

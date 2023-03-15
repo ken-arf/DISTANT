@@ -1,0 +1,28 @@
+T1	Chemical 68 77	Val204Asp
+T2	Disease 86 93	loss of
+T5	Chemical 128 141	suxamethonium
+T6	Chemical 142 163	Butyrylcholinesterase
+T8	Chemical 228 244	muscle relaxants
+T9	Chemical 246 259	suxamethonium
+T10	Chemical 263 273	mivacurium
+T11	Chemical 313 317	BCHE
+T13	Disease 360 379	neuromuscular block
+T14	Chemical 404 417	suxamethonium
+T15	Chemical 478 480	p.
+T19	Chemical 697 718	butyrylcholinesterase
+T20	Chemical 724 742	butyrylthiocholine
+T21	Chemical 744 747	BTC
+T22	Chemical 753 767	benzoylcholine
+T25	Chemical 921 924	his
+T26	Chemical 976 993	tetrameric enzyme
+T27	Chemical 1031 1035	BChE
+T30	Chemical 1140 1153	p.Val204Asp/p
+T31	Chemical 1165 1174	Ala539Thr
+T32	Chemical 1175 1179	BChE
+T37	Chemical 1351 1355	Vmax
+T38	Chemical 1408 1421	suxamethonium
+T39	Chemical 1559 1565	Gln223
+T40	Chemical 1570 1576	Glu441
+T42	Chemical 1867 1880	p.Ala204Asp/p
+T43	Chemical 1892 1901	Ala539Thr
+T44	Chemical 1902 1919	tetrameric enzyme

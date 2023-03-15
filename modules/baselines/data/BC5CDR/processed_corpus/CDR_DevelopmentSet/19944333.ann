@@ -1,0 +1,20 @@
+T1	Chemical 0 9	Sorafenib
+T2	Disease 24 45	myocardial infarction
+T3	Disease 53 74	coronary artery spasm
+T4	Disease 107 127	renal cell carcinoma
+T5	Disease 159 169	chest pain
+T6	Chemical 211 220	sorafenib
+T7	Disease 278 299	myocardial infarction
+T8	Disease 396 421	subendocardial infarction
+T9	Disease 491 512	Coronary artery spasm
+T10	Chemical 561 570	sorafenib
+T11	Chemical 593 595	Ca
+T12	Chemical 616 624	nitrates
+T13	Chemical 692 701	sorafenib
+T14	Chemical 720 730	nicorandil
+T15	Disease 767 780	stable angina
+T16	Chemical 817 826	sorafenib
+T17	Disease 835 856	coronary artery spasm
+T18	Chemical 858 867	Sorafenib
+T19	Disease 1063 1084	coronary artery spasm
+T20	Chemical 1151 1160	sorafenib

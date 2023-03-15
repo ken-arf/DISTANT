@@ -1,0 +1,20 @@
+T3	Chemical 21 32	metolachlor
+T4	Chemical 93 104	Metolachlor
+T8	Disease 232 247	liver neoplasms
+T9	Chemical 311 322	metolachlor
+T10	Chemical 450 471	pesticide applicators
+T14	Chemical 631 642	metolachlor
+T17	Chemical 834 845	metolachlor
+T20	Disease 926 947	site-specific cancers
+T21	Disease 953 965	liver cancer
+T22	Disease 1297 1321	follicular cell lymphoma
+T24	Disease 1345 1353	subtypes
+T25	Disease 1390 1401	lung cancer
+T26	Chemical 1425 1436	metolachlor
+T27	Chemical 1532 1543	metolachlor
+T28	Disease 1548 1560	liver cancer
+T29	Chemical 1567 1588	pesticide applicators
+T30	Disease 1644 1659	liver neoplasms
+T31	Disease 1715 1727	liver cancer
+T32	Disease 1732 1756	follicular cell lymphoma
+T33	Chemical 1810 1821	metolachlor

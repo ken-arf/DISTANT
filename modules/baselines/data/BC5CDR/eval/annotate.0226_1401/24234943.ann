@@ -1,0 +1,16 @@
+T2	Chemical 26 46	antidiuretic hormone
+T3	Chemical 73 87	desvenlafaxine
+T5	Chemical 145 166	anti-diuretic hormone
+T6	Disease 168 173	SIADH
+T7	Chemical 201 215	desvenlafaxine
+T8	Disease 257 270	hyponatraemia
+T9	Chemical 272 275	Her
+T10	Chemical 297 311	desvenlafaxine
+T17	Disease 538 543	SIADH
+T18	Chemical 545 559	Desvenlafaxine
+T19	Disease 575 592	fluid restriction
+T21	Chemical 696 699	her
+T25	Chemical 805 816	mirtazapine
+T26	Disease 830 835	SIADH
+T28	Chemical 925 939	desvenlafaxine
+T29	Disease 952 974	clinically significant

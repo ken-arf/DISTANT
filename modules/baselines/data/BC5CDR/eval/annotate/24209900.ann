@@ -1,0 +1,14 @@
+T1	Chemical 0 10	Ifosfamide
+T3	Chemical 84 94	Ifosfamide
+T4	Chemical 101 117	alkylating agent
+T10	Chemical 313 323	ifosfamide
+T11	Chemical 429 439	ifosfamide
+T13	Disease 582 600	MD Anderson Cancer
+T14	Chemical 651 661	ifosfamide
+T17	Chemical 800 810	ifosfamide
+T18	Disease 835 858	generalized convulsions
+T19	Disease 898 931	non-convulsive status epilepticus
+T20	Disease 1002 1014	epileptiform
+T21	Disease 1243 1256	symptom onset
+T22	Chemical 1355 1365	ifosfamide
+T24	Chemical 1476 1486	ifosfamide

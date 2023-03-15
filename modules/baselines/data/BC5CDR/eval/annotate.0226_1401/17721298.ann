@@ -1,0 +1,20 @@
+T1	Disease 0 14	Corneal ulcers
+T3	Disease 91 105	corneal ulcers
+T4	Disease 106 121	associated with
+T5	Disease 122 132	drug abuse
+T10	Disease 251 265	corneal ulcers
+T11	Disease 266 281	associated with
+T12	Disease 282 292	drug abuse
+T13	Disease 378 392	corneal ulcers
+T14	Chemical 409 422	crack cocaine
+T15	Disease 446 460	corneal ulcers
+T18	Disease 638 653	substance abuse
+T20	Disease 719 733	Capnocytophaga
+T21	Disease 738 752	Brevibacterium
+T24	Disease 845 865	lateral tarsorrhaphy
+T26	Disease 881 899	epithelial defects
+T27	Chemical 926 939	crack cocaine
+T29	Disease 986 1000	corneal ulcers
+T30	Disease 1002 1012	Drug abuse
+T34	Disease 1286 1301	substance abuse
+T35	Disease 1352 1373	corneal complications

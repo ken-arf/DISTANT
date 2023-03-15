@@ -1,0 +1,8 @@
+T2	Disease 34 48	cardiotoxicity
+T3	Chemical 77 86	cisplatin
+T4	Chemical 91 105	5-fluorouracil
+T5	Disease 106 122	Cardiac symptoms
+T8	Chemical 235 244	cisplatin
+T9	Chemical 256 270	5-fluorouracil
+T10	Chemical 272 276	5-FU
+T12	Disease 335 363	left ventricular dysfunction

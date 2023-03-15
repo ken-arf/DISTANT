@@ -1,0 +1,22 @@
+T1	Disease 76 87	epilepticus
+T2	Chemical 121 141	N-methyl-D-aspartate
+T3	Disease 226 233	seizure
+T4	Chemical 274 285	pilocarpine
+T5	Chemical 323 334	pilocarpine
+T6	Disease 613 621	seizures
+T7	Disease 759 766	seizure
+T8	Chemical 950 957	channel
+T9	Disease 1033 1041	seizures
+T10	Chemical 1053 1060	lithium
+T11	Chemical 1065 1076	pilocarpine
+T12	Chemical 1123 1134	pilocarpine
+T13	Disease 1178 1196	status epilepticus
+T14	Disease 1228 1236	seizures
+T15	Chemical 1282 1293	pilocarpine
+T16	Disease 1315 1326	epilepticus
+T17	Disease 1372 1379	seizure
+T18	Disease 1512 1530	status epilepticus
+T19	Disease 1535 1547	brain damage
+T20	Disease 1633 1646	nonconvulsive
+T21	Chemical 1665 1676	pilocarpine
+T22	Disease 1715 1726	epilepticus

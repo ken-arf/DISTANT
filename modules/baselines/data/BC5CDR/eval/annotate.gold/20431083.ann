@@ -1,0 +1,48 @@
+T1	Disease 25 45	cerebral microbleeds
+T2	Disease 51 75	intracerebral hemorrhage
+T3	Disease 158 178	Cerebral microbleeds
+T4	Disease 180 182	MB
+T5	Disease 215 239	intracerebral hemorrhage
+T6	Disease 241 244	ICH
+T7	Disease 371 373	MB
+T8	Disease 433 436	ICH
+T9	Disease 441 456	ischemic stroke
+T10	Disease 458 460	IS
+T11	Disease 462 487	transient ischemic attack
+T12	Disease 489 492	TIA
+T13	Disease 589 595	stroke
+T14	Disease 599 602	TIA
+T15	Disease 630 632	MB
+T16	Disease 694 697	ICH
+T17	Disease 741 743	IS
+T18	Disease 744 747	TIA
+T19	Disease 757 760	ICH
+T20	Disease 764 772	ischemic
+T21	Disease 897 900	ICH
+T22	Disease 930 932	MB
+T23	Disease 972 975	ICH
+T24	Disease 985 987	IS
+T25	Disease 988 991	TIA
+T26	Disease 993 995	MB
+T27	Disease 1018 1021	ICH
+T28	Disease 1025 1027	IS
+T29	Disease 1028 1031	TIA
+T30	Chemical 1222 1230	warfarin
+T31	Disease 1286 1288	MB
+T32	Chemical 1292 1300	warfarin
+T33	Disease 1324 1327	ICH
+T34	Chemical 1376 1384	warfarin
+T35	Disease 1396 1398	IS
+T36	Disease 1399 1402	TIA
+T37	Disease 1488 1490	MB
+T38	Disease 1530 1533	ICH
+T39	Disease 1625 1627	IS
+T40	Disease 1628 1631	TIA
+T41	Disease 1755 1757	MB
+T42	Disease 1835 1838	ICH
+T43	Disease 1905 1907	MB
+T44	Chemical 1911 1919	warfarin
+T45	Disease 1931 1934	ICH
+T46	Disease 1974 1976	MB
+T47	Chemical 1998 2006	warfarin
+T48	Disease 2018 2021	ICH

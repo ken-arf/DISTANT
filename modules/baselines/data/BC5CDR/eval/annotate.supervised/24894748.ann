@@ -1,0 +1,22 @@
+T1	Chemical 2 24	metoprolol-terbinafine
+T2	Disease 45 56	bradycardia
+T3	Disease 69 86	sinus bradycardia
+T4	Chemical 98 108	metoprolol
+T5	Chemical 113 124	terbinafine
+T6	Chemical 198 208	metoprolol
+T7	Disease 231 254	coronary artery disease
+T8	Chemical 294 305	terbinafine
+T9	Disease 321 334	onychomycosis
+T10	Chemical 355 366	terbinafine
+T11	Disease 457 466	confusion
+T12	Disease 471 476	falls
+T13	Disease 530 541	bradycardia
+T14	Disease 667 684	sinus bradycardia
+T15	Chemical 718 728	metoprolol
+T16	Chemical 733 744	terbinafine
+T17	Chemical 810 820	metoprolol
+T18	Chemical 853 863	bisoprolol
+T19	Chemical 939 950	terbinafine
+T20	Chemical 965 975	metoprolol
+T21	Chemical 1000 1010	metoprolol
+T22	Disease 1069 1086	sinus bradycardia

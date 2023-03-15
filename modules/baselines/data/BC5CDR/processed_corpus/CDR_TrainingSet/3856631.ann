@@ -1,0 +1,18 @@
+T1	Disease 23 41	meningeal leukemia
+T2	Chemical 69 81	methotrexate
+T3	Disease 103 131	acute lymphoblastic leukemia
+T4	Disease 146 163	meningeal disease
+T5	Chemical 206 218	methotrexate
+T6	Chemical 273 285	methotrexate
+T7	Chemical 374 386	methotrexate
+T8	Chemical 517 527	Leucovorin
+T9	Chemical 716 728	methotrexate
+T10	Chemical 813 825	methotrexate
+T11	Disease 1052 1062	toxicities
+T12	Chemical 1113 1122	bilirubin
+T13	Disease 1135 1146	neutropenia
+T14	Disease 1152 1161	mucositis
+T15	Disease 1185 1193	seizures
+T16	Disease 1198 1219	transient hemiparesis
+T17	Chemical 1268 1280	methotrexate
+T18	Disease 1365 1393	acute lymphoblastic leukemia

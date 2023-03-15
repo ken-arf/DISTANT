@@ -1,0 +1,13 @@
+T1	Disease 15 21	common
+T2	Chemical 59 67	levodopa
+T3	Disease 87 96	Parkinson
+T4	Disease 99 106	disease
+T5	Chemical 116 124	Levodopa
+T6	Disease 183 190	disease
+T7	Disease 280 290	dyskinesia
+T8	Chemical 363 372	glutamate
+T9	Chemical 602 610	levodopa
+T10	Disease 649 679	idiopathic Parkinson's disease
+T11	Disease 874 884	dyskinesia
+T12	Disease 977 991	hallucinations
+T13	Chemical 1126 1134	levodopa

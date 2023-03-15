@@ -1,0 +1,29 @@
+T1	Chemical 0 16	Antituberculosis
+T2	Disease 33 52	acute liver failure
+T3	Chemical 111 127	Antituberculosis
+T4	Disease 153 172	acute liver failure
+T5	Disease 178 181	ALF
+T6	Disease 213 216	ALF
+T7	Disease 259 262	ALF
+T8	Disease 389 392	ALF
+T9	Disease 446 449	ALF
+T10	Disease 565 590	hepatitis virus infection
+T11	Disease 678 690	tuberculosis
+T12	Disease 696 699	ALF
+T13	Disease 825 832	icterus
+T14	Disease 833 847	encephalopathy
+T15	Disease 912 915	ALF
+T16	Disease 963 977	encephalopathy
+T17	Disease 982 996	cerebral edema
+T18	Disease 1061 1083	Gastrointestinal bleed
+T19	Disease 1085 1093	seizures
+T20	Disease 1095 1104	infection
+T21	Disease 1110 1129	acute renal failure
+T22	Disease 1241 1252	hepatitis E
+T23	Disease 1289 1292	ALF
+T24	Disease 1298 1301	ALF
+T25	Disease 1445 1448	ALF
+T26	Chemical 1619 1628	bilirubin
+T27	Disease 1717 1731	encephalopathy
+T28	Disease 1765 1768	ALF
+T29	Disease 1789 1792	ALF

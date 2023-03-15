@@ -1,0 +1,24 @@
+T1	Disease 9 31	valvular heart disease
+T2	Chemical 47 59	fenfluramine
+T3	Chemical 64 79	dexfenfluramine
+T4	Chemical 239 251	fenfluramine
+T5	Chemical 256 271	dexfenfluramine
+T6	Disease 276 292	valvular disease
+T7	Disease 392 414	valvular abnormalities
+T8	Chemical 430 442	fenfluramine
+T9	Chemical 446 461	dexfenfluramine
+T10	Chemical 633 645	fenfluramine
+T11	Chemical 649 664	dexfenfluramine
+T12	Disease 817 829	valvulopathy
+T13	Disease 864 894	aortic or mitral regurgitation
+T14	Disease 864 870;881 894	aortic regurgitation
+T15	Disease 874 894	mitral regurgitation
+T16	Disease 1009 1029	aortic regurgitation
+T17	Disease 1042 1062	mitral regurgitation
+T18	Chemical 1128 1140	fenfluramine
+T19	Chemical 1141 1152	phentermine
+T20	Disease 1163 1185	valvular heart disease
+T21	Disease 1204 1225	bicuspid aortic valve
+T22	Disease 1235 1255	aortic regurgitation
+T23	Disease 1341 1361	aortic insufficiency
+T24	Disease 1417 1439	valvular heart disease

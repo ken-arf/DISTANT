@@ -1,0 +1,11 @@
+T1	Disease 214 236	cardiovascular disease
+T4	Disease 426 439	heart disease
+T6	Disease 502 515	breast cancer
+T7	Disease 517 534	colorectal cancer
+T8	Disease 536 550	ovarian cancer
+T9	Disease 552 570	endometrial cancer
+T12	Disease 765 777	Subfertility
+T15	Disease 1752 1765	breast cancer
+T19	Disease 2011 2023	colon cancer
+T21	Disease 2214 2236	cardiovascular disease
+T22	Disease 2808 2823	chronic disease

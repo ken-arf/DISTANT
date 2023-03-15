@@ -1,0 +1,28 @@
+T1	Disease 21 29	toxicity
+T2	Chemical 33 46	N-phenylimide
+T3	Chemical 78 85	S-53482
+T4	Chemical 90 97	S-23121
+T5	Chemical 102 115	N-phenylimide
+T6	Chemical 116 126	herbicides
+T7	Disease 140 155	embryolethality
+T8	Disease 180 206	ventricular septal defects
+T9	Disease 211 215	wavy
+T10	Disease 211 220	wavy ribs
+T11	Disease 227 245	growth retardation
+T12	Disease 289 297	toxicity
+T13	Disease 397 405	toxicity
+T14	Chemical 530 537	S-53482
+T15	Chemical 624 631	S-23121
+T16	Disease 784 792	visceral
+T17	Disease 798 818	skeletal alterations
+T18	Chemical 856 863	S-53482
+T19	Disease 912 920	toxicity
+T20	Disease 968 976	Toxicity
+T21	Disease 986 1001	embryolethality
+T22	Disease 1023 1041	growth retardation
+T23	Chemical 1068 1075	S-23121
+T24	Disease 1127 1142	embryonic death
+T25	Disease 1147 1172	ventricular septal defect
+T26	Chemical 1254 1261	S-23121
+T27	Chemical 1298 1305	S-53482
+T28	Chemical 1310 1317	S-23121

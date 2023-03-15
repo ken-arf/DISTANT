@@ -1,0 +1,15 @@
+T1	Chemical 28 46	oxitropium bromide
+T2	Chemical 54 66	slow-release
+T4	Disease 83 99	nocturnal asthma
+T6	Chemical 129 148	antimuscarinic drug
+T7	Chemical 150 168	oxitropium bromide
+T9	Disease 222 238	nocturnal asthma
+T10	Chemical 344 354	oxitropium
+T12	Chemical 592 603	active drug
+T14	Chemical 759 770	active drug
+T15	Chemical 805 815	oxitropium
+T16	Disease 837 849	side effects
+T17	Chemical 853 863	oxitropium
+T18	Disease 905 921	nausea, vomiting
+T21	Chemical 954 964	Oxitropium
+T23	Disease 1020 1036	nocturnal asthma

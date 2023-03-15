@@ -1,0 +1,10 @@
+T1	Disease 90 118	left ventricular dysfunction
+T2	Disease 129 150	myocardial infarction
+T3	Disease 209 230	myocardial infarction
+T4	Disease 406 425	cardiac dysfunction
+T5	Disease 479 500	myocardial infarction
+T6	Disease 848 875	acute myocardial infarction
+T7	Disease 907 932	left ventricular systolic
+T8	Disease 1013 1041	left ventricular dysfunction
+T9	Chemical 1122 1131	Metfromin
+T10	Chemical 1500 1505	AMPKa

@@ -1,0 +1,12 @@
+T1	Disease 53 66	renal failure
+T2	Disease 166 177	nephrotoxic
+T3	Disease 194 207	renal failure
+T4	Chemical 301 310	adenosine
+T5	Chemical 345 357	theophylline
+T6	Disease 415 428	renal failure
+T7	Chemical 457 467	gentamicin
+T8	Chemical 534 538	urea
+T9	Chemical 543 553	creatinine
+T10	Disease 669 677	necrosis
+T11	Chemical 925 931	glycol
+T12	Chemical 1061 1070	adenosine

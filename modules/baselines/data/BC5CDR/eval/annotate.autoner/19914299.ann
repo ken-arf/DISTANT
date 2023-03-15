@@ -1,0 +1,15 @@
+T1	Chemical 67 87	agent 5-fluorouracil
+T2	Disease 88 94	Cancer
+T3	Chemical 250 255	agent
+T4	Chemical 257 271	5-fluorouracil
+T5	Chemical 273 277	5-FU
+T6	Chemical 392 396	anti
+T7	Chemical 405 409	drug
+T8	Chemical 596 621	antidepressant Fluoxetine
+T9	Chemical 734 744	Fluoxetine
+T10	Disease 819 825	hooded
+T11	Chemical 971 975	5-FU
+T12	Chemical 1312 1322	Fluoxetine
+T13	Chemical 1351 1355	5-FU
+T14	Chemical 1540 1550	Fluoxetine
+T15	Chemical 1878 1888	Fluoxetine

@@ -1,0 +1,17 @@
+T1	Chemical 35 64	chlorhexidine diphosphanilate
+T2	Chemical 72 85	topical agent
+T6	Chemical 114 134	antimicrobial agents
+T10	Chemical 215 218	CHP
+T11	Chemical 242 261	antimicrobial agent
+T13	Chemical 318 328	cream form
+T16	Chemical 455 458	CHP
+T18	Chemical 788 791	CHP
+T20	Chemical 872 892	silver sulphadiazine
+T21	Chemical 894 898	AgSD
+T23	Chemical 910 929	antimicrobial agent
+T25	Disease 971 982	burn wounds
+T26	Chemical 1023 1027	AgSD
+T28	Chemical 1075 1078	CHP
+T30	Chemical 1163 1166	CHP
+T32	Chemical 1333 1336	CHP
+T35	Chemical 1445 1448	CHP

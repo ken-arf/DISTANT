@@ -1,0 +1,17 @@
+T1	Disease 0 12	Hyperkalemia
+T2	Chemical 24 36	indomethacin
+T3	Chemical 41 49	naproxen
+T4	Chemical 66 81	fludrocortisone
+T5	Disease 122 142	rheumatoid arthritis
+T6	Chemical 160 174	mefenamic acid
+T7	Disease 175 186	nephropathy
+T8	Disease 195 207	hyperkalemia
+T9	Disease 226 243	hypoaldosteronism
+T10	Chemical 264 276	indomethacin
+T11	Chemical 281 289	naproxen
+T12	Disease 362 375	renal disease
+T13	Disease 404 434	type IV renal tubular acidosis
+T14	Chemical 440 453	prostaglandin
+T15	Chemical 559 574	fludrocortisone
+T16	Disease 601 613	hyperkalemia
+T17	Chemical 627 639	indomethacin

@@ -1,0 +1,18 @@
+T1	Disease 15 26	bradycardia
+T2	Disease 31 42	hypotension
+T3	Chemical 59 66	timolol
+T4	Chemical 71 82	pilocarpine
+T5	Chemical 150 169	pilocarpine nitrate
+T6	Chemical 174 189	timolol maleate
+T7	Disease 213 224	bradycardia
+T8	Disease 236 247	hypotensive
+T9	Chemical 255 264	halothane
+T10	Chemical 283 290	timolol
+T11	Chemical 295 306	pilocarpine
+T12	Chemical 367 374	Timolol
+T13	Chemical 384 395	pilocarpine
+T14	Chemical 484 491	timolol
+T15	Chemical 626 635	halothane
+T16	Disease 663 674	bradycardia
+T17	Disease 679 690	hypotension
+T18	Chemical 692 703	Pilocarpine

@@ -1,0 +1,20 @@
+T1	Chemical 50 70	subtoxic bupivacaine
+T2	Chemical 85 96	bupivacaine
+T3	Disease 134 146	dysrhythmias
+T4	Chemical 160 171	bupivacaine
+T5	Disease 216 231	dysrhythmogenic
+T6	Chemical 286 297	bupivacaine
+T7	Disease 309 327	dysrhythmogenicity
+T8	Disease 429 450	myocardial infarction
+T9	Disease 557 580	ventricular tachycardia
+T10	Chemical 659 670	bupivacaine
+T12	Chemical 750 761	bupivacaine
+T14	Chemical 831 842	bupivacaine
+T15	Chemical 983 994	bupivacaine
+T16	Disease 1047 1068	myocardial infarction
+T17	Chemical 1199 1210	bupivacaine
+T19	Chemical 1381 1392	bupivacaine
+T20	Chemical 1394 1405	Bupivacaine
+T21	Disease 1539 1551	dysrhythmias
+T22	Chemical 1597 1608	bupivacaine
+T23	Disease 1637 1655	dysrhythmogenicity

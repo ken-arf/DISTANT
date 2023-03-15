@@ -1,0 +1,13 @@
+T2	Chemical 83 96	pressor agent
+T4	Chemical 193 202	DOCA-salt
+T5	Disease 240 254	blood pressure
+T6	Disease 308 326	diabetes insipidus
+T7	Chemical 333 342	DOCA-salt
+T8	Chemical 372 377	DDAVP
+T10	Chemical 420 438	vasopressor effect
+T11	Disease 458 472	blood pressure
+T12	Chemical 520 523	AVP
+T13	Chemical 542 556	pressor action
+T23	Chemical 1022 1036	angiotensin II
+T24	Chemical 1049 1074	receptor binding capacity
+T27	Disease 1175 1197	essential hypertension

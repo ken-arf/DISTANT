@@ -1,0 +1,26 @@
+T1	Disease 8 20	hypertensive
+T2	Chemical 27 47	sodium nitroprusside
+T3	Chemical 61 70	saralasin
+T4	Chemical 102 113	angiotensin
+T5	Chemical 165 174	halothane
+T6	Chemical 190 210	sodium nitroprusside
+T7	Chemical 212 215	SNP
+T8	Disease 225 236	hypotension
+T9	Chemical 274 283	halothane
+T10	Chemical 329 332	SNP
+T11	Chemical 503 512	saralasin
+T12	Chemical 541 555	angiotensin II
+T13	Chemical 608 611	SNP
+T14	Chemical 734 737	SNP
+T15	Disease 794 820	increase in blood pressure
+T16	Chemical 845 854	saralasin
+T17	Chemical 918 921	SNP
+T18	Chemical 1015 1024	saralasin
+T19	Chemical 1077 1086	halothane
+T20	Chemical 1145 1148	SNP
+T21	Chemical 1171 1174	SNP
+T22	Chemical 1230 1239	saralasin
+T23	Chemical 1291 1302	angiotensin
+T24	Disease 1339 1350	hypotensive
+T25	Chemical 1362 1371	halothane
+T26	Chemical 1376 1379	SNP

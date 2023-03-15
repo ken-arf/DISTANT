@@ -1,0 +1,11 @@
+T1	Disease 0 19	Blood brain barrier
+T3	Disease 125 144	blood-brain barrier
+T4	Chemical 146 149	BBB
+T5	Chemical 288 291	BBB
+T6	Chemical 319 339	triphenyltetrazolium
+T7	Chemical 341 344	TTC
+T10	Chemical 488 491	TTC
+T11	Disease 569 579	left brain
+T12	Disease 675 690	seizure-induced
+T13	Chemical 704 707	BBB
+T14	Disease 970 989	cerebral hemisphere

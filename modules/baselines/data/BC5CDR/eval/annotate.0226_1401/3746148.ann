@@ -1,0 +1,18 @@
+T1	Disease 26 49	coronary artery disease
+T2	Disease 53 65	body surface
+T3	Chemical 101 113	dipyridamole
+T4	Chemical 158 170	dipyridamole
+T5	Disease 233 256	coronary artery disease
+T6	Disease 287 297	submaximal
+T7	Disease 424 445	myocardial infarction
+T8	Disease 470 489	anterior infarction
+T10	Disease 620 636	thoracic surface
+T11	Chemical 673 685	dipyridamole
+T13	Disease 876 878	ST
+T15	Disease 1073 1085	body surface
+T16	Disease 1102 1104	ST
+T18	Chemical 1175 1187	dipyridamole
+T19	Disease 1299 1318	myocardial ischemia
+T20	Disease 1336 1348	inhomogenous
+T21	Chemical 1409 1421	dipyridamole
+T22	Disease 1491 1514	coronary artery disease

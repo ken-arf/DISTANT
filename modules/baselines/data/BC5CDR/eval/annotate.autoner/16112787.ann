@@ -1,0 +1,12 @@
+T1	Disease 51 57	stress
+T2	Disease 96 110	nephrotoxicity
+T3	Chemical 176 186	vancomycin
+T4	Disease 201 210	oxidative
+T5	Chemical 255 261	oxygen
+T6	Chemical 511 515	plus
+T7	Chemical 858 867	dismutase
+T8	Disease 1181 1195	nephrotoxicity
+T9	Disease 1293 1300	atrophy
+T10	Disease 1461 1468	tubular
+T11	Disease 1566 1580	nephrotoxicity
+T12	Chemical 1620 1624	with

@@ -1,0 +1,25 @@
+T1	Chemical 35 64	chlorhexidine diphosphanilate
+T2	Disease 90 95	burns
+T3	Disease 144 153	infection
+T4	Disease 171 175	burn
+T5	Chemical 186 213	Chlorhexidine phosphanilate
+T6	Chemical 215 218	CHP
+T7	Disease 295 299	burn
+T8	Chemical 455 458	CHP
+T9	Disease 575 579	burn
+T10	Disease 612 617	burns
+T11	Disease 738 742	burn
+T12	Chemical 788 791	CHP
+T13	Chemical 872 892	silver sulphadiazine
+T14	Chemical 894 898	AgSD
+T15	Disease 971 975	burn
+T16	Chemical 1023 1027	AgSD
+T17	Chemical 1075 1078	CHP
+T18	Disease 1118 1122	pain
+T19	Chemical 1163 1166	CHP
+T20	Chemical 1188 1192	AgSD
+T21	Disease 1196 1200	pain
+T22	Chemical 1272 1276	AgSD
+T23	Chemical 1333 1336	CHP
+T24	Chemical 1379 1383	AgSD
+T25	Chemical 1445 1448	CHP

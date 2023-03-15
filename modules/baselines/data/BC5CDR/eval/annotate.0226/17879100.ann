@@ -1,0 +1,20 @@
+T1	Chemical 0 31	Non-steroidal anti-inflammatory
+T2	Disease 49 77	acute interstitial nephritis
+T3	Disease 127 162	Acute tubulo-interstitial nephritis
+T4	Chemical 164 168	ATIN
+T5	Disease 186 214	cause of acute renal failure
+T6	Disease 262 312	immune complex-mediated tubulo-interstitial injury
+T8	Chemical 332 371	non-steroidal anti-inflammatory drugs (
+T9	Chemical 433 437	ATIN
+T12	Disease 572 591	acute renal failure
+T13	Disease 606 618	aortic valve
+T17	Chemical 883 893	creatinine
+T18	Chemical 935 940	mEq/l
+T19	Disease 1001 1024	inflammatory infiltrate
+T20	Chemical 1041 1045	ATIN
+T21	Chemical 1090 1093	TBM
+T22	Chemical 1130 1144	polyclonal IgG
+T23	Chemical 1149 1151	C3
+T25	Chemical 1252 1255	His
+T28	Chemical 1358 1380	NSAIDs-associated ATIN
+T29	Chemical 1446 1449	TBM

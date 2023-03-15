@@ -1,0 +1,16 @@
+T2	Disease 49 77	acute interstitial nephritis
+T4	Chemical 164 168	ATIN
+T5	Disease 195 214	acute renal failure
+T9	Chemical 332 369	non-steroidal anti-inflammatory drugs
+T14	Disease 572 591	acute renal failure
+T16	Disease 606 618	aortic valve
+T22	Chemical 883 893	creatinine
+T23	Disease 980 993	kidney biopsy
+T24	Disease 1001 1024	inflammatory infiltrate
+T25	Disease 1063 1088	tubular basement membrane
+T26	Chemical 1090 1093	TBM
+T28	Chemical 1149 1151	C3
+T30	Chemical 1252 1255	His
+T33	Chemical 1358 1380	NSAIDs-associated ATIN
+T35	Chemical 1411 1425	immune complex
+T36	Chemical 1446 1449	TBM

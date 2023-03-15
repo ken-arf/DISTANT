@@ -1,0 +1,22 @@
+T1	Chemical 24 34	sulfhydryl
+T2	Chemical 65 70	thiol
+T3	Chemical 81 91	ifosfamide
+T4	Chemical 152 179	alkylating agent ifosfamide
+T6	Chemical 543 546	LDH
+T7	Chemical 556 567	trypan blue
+T8	Chemical 588 597	caspase-3
+T9	Chemical 608 619	Free thiols
+T11	Chemical 740 746	thiols
+T13	Chemical 819 847	cysteine proteases caspase-3
+T14	Chemical 849 858	caspase-8
+T15	Chemical 863 872	cathepsin
+T17	Chemical 898 907	cisplatin
+T18	Chemical 952 968	fluorescent dyes
+T19	Chemical 1017 1026	lysosomal
+T20	Chemical 1036 1045	lysosomal
+T21	Chemical 1077 1094	cysteine protease
+T22	Chemical 1110 1116	thiols
+T23	Chemical 1206 1211	thiol
+T24	Chemical 1277 1282	thiol
+T25	Chemical 1297 1314	cysteine protease
+T27	Chemical 1407 1413	thiols

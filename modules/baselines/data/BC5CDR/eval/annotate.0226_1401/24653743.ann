@@ -1,0 +1,20 @@
+T1	Disease 10 30	Sudden Cardiac Death
+T2	Disease 59 78	Torsades de Pointes
+T3	Chemical 113 125	pilsicainide
+T4	Chemical 134 156	sodium channel blocker
+T5	Disease 162 175	slow recovery
+T6	Chemical 197 200	his
+T8	Disease 212 231	atrial fibrillation
+T9	Disease 237 249	sinus rhythm
+T10	Disease 280 293	cardiac death
+T12	Disease 375 393	torsade de pointes
+T13	Disease 399 418	gradually prolonged
+T14	Disease 419 421	QT
+T17	Disease 472 494	gastrointestinal tract
+T19	Disease 563 577	renal function
+T21	Chemical 618 630	pilsicainide
+T23	Chemical 668 680	pilsicainide
+T24	Disease 719 738	torsades de pointes
+T26	Chemical 796 810	class IC drugs
+T27	Chemical 822 834	pilsicainide
+T29	Disease 862 881	atrial fibrillation

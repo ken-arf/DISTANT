@@ -1,0 +1,33 @@
+T1	Disease 96 110	nephrotoxicity
+T2	Chemical 126 136	erdosteine
+T3	Chemical 176 186	vancomycin
+T4	Chemical 255 261	oxygen
+T5	Chemical 271 274	ROS
+T6	Chemical 307 317	erdosteine
+T7	Chemical 322 333	expectorant
+T8	Disease 430 446	renal impairment
+T9	Chemical 516 526	erdosteine
+T10	Chemical 528 531	VCM
+T11	Chemical 616 626	Erdosteine
+T12	Chemical 652 655	VCM
+T13	Chemical 717 732	malondialdehyde
+T14	Chemical 734 737	MDA
+T15	Chemical 751 782	N-acetyl-beta-d-glucosaminidase
+T16	Chemical 784 787	NAG
+T17	Disease 801 821	renal tubular injury
+T18	Chemical 847 857	superoxide
+T19	Chemical 905 915	Erdosteine
+T20	Chemical 936 939	VCM
+T21	Chemical 988 991	MDA
+T22	Chemical 1004 1007	NAG
+T23	Chemical 1103 1106	VCM
+T24	Chemical 1114 1124	Erdosteine
+T25	Disease 1181 1195	nephrotoxicity
+T26	Disease 1293 1300	atrophy
+T27	Disease 1302 1314	desquamation
+T28	Disease 1320 1328	necrosis
+T29	Chemical 1388 1398	erdosteine
+T30	Chemical 1407 1417	Erdosteine
+T31	Disease 1566 1580	nephrotoxicity
+T32	Chemical 1625 1635	erdosteine
+T33	Disease 1660 1673	kidney damage

@@ -1,0 +1,20 @@
+T1	Chemical 0 15	Tranexamic acid
+T2	Disease 47 54	seizure
+T3	Disease 58 71	renal failure
+T4	Disease 106 128	chronic kidney disease
+T5	Disease 152 176	tubulointerstial disease
+T6	Disease 220 226	anemia
+T7	Disease 234 245	menorrhagia
+T8	Disease 250 281	deterioration of renal function
+T9	Chemical 361 376	Tranexamic acid
+T10	Chemical 378 381	TNA
+T11	Disease 431 439	bleeding
+T12	Chemical 487 490	TNA
+T13	Disease 526 550	tonic clonic convulsions
+T14	Chemical 552 555	TNA
+T15	Disease 650 678	nervous system abnormalities
+T16	Disease 708 719	convulsions
+T17	Disease 802 812	convulsion
+T18	Disease 902 913	convulsions
+T19	Disease 936 944	overdose
+T20	Chemical 948 951	TNA

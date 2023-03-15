@@ -1,0 +1,22 @@
+T2	Disease 24 39	memory deficits
+T3	Chemical 54 72	chemotherapy agent
+T4	Chemical 73 87	5-fluorouracil
+T6	Chemical 131 161	systemic adjuvant chemotherapy
+T9	Chemical 233 255	chemotherapeutic agent
+T10	Chemical 257 271	5-fluorouracil
+T11	Chemical 273 277	5-FU
+T12	Disease 300 319	blood-brain barrier
+T14	Disease 449 467	neurogenic regions
+T16	Disease 522 533	hippocampal
+T17	Chemical 596 621	antidepressant Fluoxetine
+T18	Chemical 706 710	5-FU
+T21	Chemical 786 790	5-FU
+T22	Chemical 971 975	5-FU
+T23	Disease 1090 1101	hippocampal
+T24	Chemical 1211 1215	5-FU
+T29	Disease 1469 1482	dentate gyrus
+T31	Chemical 1576 1580	5-FU
+T33	Chemical 1689 1693	5-FU
+T34	Disease 1744 1755	hippocampal
+T35	Disease 1766 1780	working memory
+T37	Chemical 1863 1888	antidepressant Fluoxetine

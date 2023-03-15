@@ -1,0 +1,15 @@
+T1	Chemical 0 13	Carbamazepine
+T2	Disease 22 41	cardiac dysfunction
+T3	Disease 116 127	bradycardia
+T4	Disease 132 154	atrioventricular block
+T5	Chemical 167 180	carbamazepine
+T6	Chemical 312 325	carbamazepine
+T7	Disease 337 356	cardiac dysfunction
+T8	Disease 394 412	sinus tachycardias
+T9	Chemical 441 454	carbamazepine
+T10	Disease 455 463	overdose
+T11	Disease 571 587	bradyarrhythmias
+T12	Disease 591 624	atrioventricular conduction delay
+T13	Chemical 682 695	carbamazepine
+T14	Chemical 718 731	carbamazepine
+T15	Disease 787 798	psychiatric

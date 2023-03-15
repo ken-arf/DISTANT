@@ -1,0 +1,18 @@
+T1	Chemical 30 40	lamivudine
+T2	Disease 73 108	chronic hepatitis B virus infection
+T3	Chemical 121 131	Lamivudine
+T4	Disease 161 180	chronic hepatitis B
+T5	Disease 250 261	hepatitis B
+T6	Chemical 308 318	lamivudine
+T7	Disease 329 348	chronic hepatitis B
+T8	Chemical 429 439	lamivudine
+T9	Disease 450 469	chronic hepatitis B
+T10	Disease 524 543	chronic hepatitis B
+T11	Chemical 583 593	lamivudine
+T12	Chemical 839 844	HBeAg
+T13	Chemical 1023 1028	HBeAg
+T14	Chemical 1236 1241	HBeAg
+T15	Chemical 1324 1334	lamivudine
+T16	Disease 1359 1378	chronic hepatitis B
+T17	Chemical 1441 1451	lamivudine
+T18	Disease 1462 1481	chronic hepatitis B

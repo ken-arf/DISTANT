@@ -1,0 +1,8 @@
+T4	Chemical 94 110	histamine 2 (H2)
+T5	Disease 146 163	arterial pressure
+T6	Disease 201 215	critically ill
+T8	Chemical 267 284	histamine agonist
+T10	Chemical 349 368	receptor antagonist
+T17	Disease 832 860	systemic vascular resistance
+T19	Chemical 1037 1039	H1
+T24	Chemical 1196 1207	H1 receptor

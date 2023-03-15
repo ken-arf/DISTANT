@@ -1,0 +1,28 @@
+T2	Chemical 33 48	optical isomers
+T3	Chemical 52 63	propranolol
+T4	Chemical 131 142	propranolol
+T5	Chemical 172 185	beta-blocking
+T6	Chemical 244 253	inotropic
+T7	Chemical 284 296	isoprenaline
+T8	Chemical 298 313	(+)-propranolol
+T9	Chemical 357 372	(-)-propranolol
+T10	Chemical 392 407	(+)-propranolol
+T11	Chemical 442 454	isoprenaline
+T12	Chemical 567 579	isoprenaline
+T14	Chemical 637 653	free fatty acids
+T15	Chemical 675 690	(-)-propranolol
+T16	Chemical 692 707	(+)-Propranolol
+T19	Chemical 837 848	propranolol
+T20	Disease 898 911	atrial muscle
+T22	Chemical 953 964	propranolol
+T24	Chemical 1108 1115	racemic
+T26	Chemical 1193 1204	propranolol
+T27	Disease 1251 1270	cardiac arrhythmias
+T29	Chemical 1330 1345	(-)-propranolol
+T30	Chemical 1384 1399	(+)-propranolol
+T32	Chemical 1452 1467	(+)-propranolol
+T36	Chemical 1665 1676	propranolol
+T37	Disease 1708 1731	ventricular tachycardia
+T38	Chemical 1742 1749	ouabain
+T39	Chemical 1794 1809	(-)-propranolol
+T40	Chemical 1849 1864	(+)-propranolol

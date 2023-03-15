@@ -1,0 +1,27 @@
+T1	Disease 6 23	cerebral ischemia
+T4	Disease 124 156	middle cerebral artery occlusion
+T8	Disease 254 266	brain injury
+T9	Disease 271 290	blood-brain barrier
+T10	Disease 320 334	Blood pressure
+T11	Disease 403 414	reperfusion
+T12	Disease 438 449	reperfusion
+T13	Disease 477 491	blood pressure
+T14	Disease 547 558	reperfusion
+T15	Disease 604 615	reperfusion
+T17	Disease 727 739	brain injury
+T20	Chemical 859 865	Part B
+T23	Chemical 1008 1022	Evans Blue dye
+T24	Disease 1024 1036	Brain injury
+T25	Disease 1056 1075	ischemic hemisphere
+T26	Chemical 1111 1113	/-
+T27	Chemical 1159 1161	/-
+T28	Chemical 1217 1221	/- 5
+T29	Chemical 1281 1283	/-
+T30	Chemical 1317 1319	/-
+T31	Chemical 1347 1349	/-
+T33	Chemical 1441 1443	/-
+T34	Chemical 1481 1483	/-
+T35	Chemical 1544 1546	/-
+T36	Disease 1598 1609	reperfusion
+T38	Disease 1654 1666	brain injury
+T42	Disease 1732 1747	vasogenic edema

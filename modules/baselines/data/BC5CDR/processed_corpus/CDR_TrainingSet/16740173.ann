@@ -1,0 +1,32 @@
+T1	Chemical 89 98	carbachol
+T2	Disease 211 220	poisoning
+T3	Disease 340 359	Alzheimer's disease
+T4	Chemical 441 455	carbamylcholin
+T5	Chemical 467 476	carbachol
+T6	Chemical 496 505	carbachol
+T7	Chemical 586 595	Carbachol
+T8	Disease 774 780	nausea
+T9	Disease 795 806	hypotension
+T10	Disease 831 842	Bradycardia
+T11	Disease 869 877	asystole
+T12	Chemical 955 965	adrenaline
+T13	Chemical 967 978	epinephrine
+T14	Chemical 981 989	atropine
+T15	Chemical 994 1004	furosemide
+T16	Disease 1137 1150	hyperhidrosis
+T17	Disease 1152 1167	hypersalivation
+T18	Disease 1169 1182	bronchorrhoea
+T19	Disease 1195 1201	miosis
+T20	Disease 1240 1270	atrio-ventricular dissociation
+T21	Chemical 1286 1294	atropine
+T22	Chemical 1323 1333	adrenaline
+T23	Chemical 1338 1346	dopamine
+T24	Disease 1422 1430	dyspnoea
+T25	Disease 1435 1447	bronchospasm
+T26	Disease 1475 1500	Respiratory insufficiency
+T27	Disease 1525 1552	Proteus mirabilis infection
+T28	Disease 1737 1750	heart failure
+T29	Chemical 1824 1833	carbachol
+T30	Chemical 2207 2216	carbachol
+T31	Chemical 2270 2279	carbachol
+T32	Disease 2494 2522	acute cardiovascular failure

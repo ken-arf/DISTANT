@@ -1,0 +1,33 @@
+T1	Chemical 16 29	P2X3 receptor
+T2	Chemical 34 58	NK1 receptor antagonists
+T3	Chemical 168 172	P2X3
+T4	Chemical 177 180	NK1
+T6	Chemical 206 222	cyclophosphamide
+T7	Chemical 397 401	i.p.
+T9	Chemical 473 477	i.p.
+T10	Chemical 492 495	CYP
+T11	Chemical 553 557	i.p.
+T12	Chemical 572 575	CYP
+T14	Chemical 620 624	P2X3
+T15	Chemical 629 655	NK1 receptors' antagonists
+T16	Chemical 657 664	Suramin
+T17	Chemical 669 677	GR 82334
+T18	Chemical 738 741	CYP
+T22	Chemical 1008 1012	P2X3
+T23	Chemical 1017 1020	NK1
+T25	Chemical 1052 1068	Cyclophosphamide
+T27	Disease 1145 1164	bladder instability
+T28	Chemical 1302 1305	X(2
+T29	Chemical 1329 1332	MCC
+T33	Chemical 1595 1599	P2X3
+T34	Disease 1622 1632	urothelium
+T35	Disease 1637 1650	suburothelium
+T36	Chemical 1656 1659	NK1
+T37	Disease 1682 1695	suburothelium
+T38	Chemical 1815 1819	P2X3
+T39	Chemical 1824 1827	NK1
+T40	Disease 1851 1861	urothelium
+T41	Disease 1869 1882	suburothelium
+T43	Chemical 1910 1914	P2X3
+T44	Chemical 1919 1944	NK1 receptors antagonists
+T45	Disease 1961 1977	bladder function

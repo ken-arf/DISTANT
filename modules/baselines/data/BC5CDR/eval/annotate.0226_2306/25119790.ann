@@ -1,0 +1,21 @@
+T1	Chemical 0 8	Curcumin
+T2	Disease 34 48	nephrotoxicity
+T3	Chemical 105 118	mitochondrial
+T4	Disease 154 173	respiratory complex
+T5	Chemical 215 243	dietary antioxidant curcumin
+T6	Disease 283 295	renal injury
+T9	Disease 454 466	renal injury
+T10	Disease 488 513	renal vascular resistance
+T13	Chemical 611 620	lipocalin
+T14	Chemical 622 626	NGAL
+T15	Chemical 632 660	N-acetyl b-D-glucosaminidase
+T17	Disease 728 744	renal blood flow
+T18	Chemical 749 758	claudin-2
+T25	Chemical 1117 1140	reactive oxygen species
+T29	Disease 1291 1316	respiratory control index
+T30	Chemical 1328 1344	malate/glutamate
+T32	Disease 1382 1391	complex I
+T33	Chemical 1396 1405	aconitase
+T34	Chemical 1482 1490	curcumin
+T35	Chemical 1513 1521	curcumin
+T36	Chemical 1701 1714	mitochondrial

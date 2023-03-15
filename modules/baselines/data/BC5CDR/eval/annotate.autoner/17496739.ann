@@ -1,0 +1,14 @@
+T1	Disease 32 39	seizure
+T2	Disease 165 178	neurotoxicity
+T3	Disease 314 323	end-stage
+T4	Disease 412 419	slurred
+T5	Disease 428 434	tremor
+T6	Disease 473 482	confusion
+T7	Chemical 559 582	piperacillin/tazobactam
+T8	Disease 641 650	infection
+T9	Chemical 921 927	agents
+T10	Chemical 983 1006	piperacillin/tazobactam
+T11	Disease 1061 1077	acute infarction
+T12	Disease 1220 1234	encephalopathy
+T13	Chemical 1357 1369	piperacillin
+T14	Disease 1439 1453	encephalopathy

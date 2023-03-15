@@ -1,0 +1,28 @@
+T1	Disease 0 9	Long term
+T2	Disease 30 44	perimenopausal
+T3	Disease 134 153	menopausal symptoms
+T4	Disease 214 236	cardiovascular disease
+T9	Disease 426 439	heart disease
+T10	Disease 441 463	venous thromboembolism
+T12	Disease 483 500	ischaemic attacks
+T13	Disease 502 515	breast cancer
+T14	Disease 517 534	colorectal cancer
+T15	Disease 536 550	ovarian cancer
+T16	Disease 552 570	endometrial cancer
+T17	Disease 572 591	gallbladder disease
+T18	Disease 593 611	cognitive function
+T21	Disease 741 760	Menstrual Disorders
+T22	Disease 765 777	Subfertility
+T24	Chemical 868 874	EMBASE
+T25	Chemical 1027 1029	HT
+T28	Disease 1119 1133	perimenopausal
+T30	Disease 1663 1685	venous thromboembolism
+T31	Disease 1689 1703	coronary event
+T33	Disease 1752 1765	breast cancer
+T34	Disease 1786 1805	gallbladder disease
+T37	Disease 1887 1906	gallbladder disease
+T40	Disease 2011 2023	colon cancer
+T43	Disease 2214 2236	cardiovascular disease
+T45	Disease 2314 2336	venous thromboembolism
+T46	Disease 2634 2656	venous thromboembolism
+T47	Disease 2808 2823	chronic disease

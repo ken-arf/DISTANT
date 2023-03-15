@@ -1,0 +1,32 @@
+T1	Disease 0 19	Mitral annuloplasty
+T2	Disease 72 86	left ventricle
+T3	Disease 202 224	dilated cardiomyopathy
+T4	Disease 240 260	mitral regurgitation
+T5	Disease 332 356	dilated left ventricular
+T6	Chemical 427 438	LV function
+T8	Disease 575 588	heart failure
+T10	Disease 652 676	posterior mitral annulus
+T12	Disease 867 881	mitral annulus
+T13	Disease 886 900	left ventricle
+T14	Disease 950 963	heart failure
+T15	Chemical 979 990	propranolol
+T17	Disease 1029 1051	cardiopulmonary bypass
+T19	Disease 1212 1225	heart failure
+T22	Disease 1299 1320	commissure-commissure
+T24	Chemical 1461 1463	/-
+T25	Chemical 1477 1479	/-
+T26	Chemical 1514 1516	/-
+T27	Chemical 1532 1534	/-
+T28	Chemical 1635 1637	/-
+T29	Chemical 1647 1649	/-
+T31	Chemical 1687 1689	/-
+T32	Chemical 1781 1783	/-
+T33	Chemical 1797 1799	/-
+T34	Disease 1863 1877	cardiac output
+T35	Chemical 1890 1892	/-
+T36	Chemical 1907 1909	/-
+T37	Chemical 1926 1930	Emax
+T38	Chemical 1943 1945	/-
+T39	Chemical 1959 1961	/-
+T40	Disease 2093 2106	heart failure
+T41	Disease 2203 2216	heart failure

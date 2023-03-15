@@ -1,0 +1,10 @@
+T1	Disease 42 55	breast cancer
+T2	Disease 63 105	detrimental effect on memory and cognition
+T3	Disease 63 91	detrimental effect on memory
+T4	Disease 63 84;96 105	detrimental effect on cognition
+T5	Disease 175 188	breast cancer
+T6	Chemical 256 267	anastrozole
+T7	Chemical 269 278	tamoxifen
+T8	Disease 340 353	breast cancer
+T9	Disease 895 908	breast cancer
+T10	Chemical 966 975	oestrogen

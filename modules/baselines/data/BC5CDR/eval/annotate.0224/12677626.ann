@@ -1,0 +1,16 @@
+T1	Disease 0 31	Central nervous system toxicity
+T3	Disease 154 176	Central nervous system
+T4	Disease 181 197	cardiac toxicity
+T5	Chemical 230 247	local anesthetics
+T6	Chemical 327 331	S(-)
+T7	Chemical 346 357	bupivacaine
+T8	Chemical 414 425	bupivacaine
+T9	Disease 450 468	grand mal seizures
+T10	Disease 610 620	lower limb
+T12	Disease 808 826	grand mal seizures
+T15	Chemical 975 992	sodium thiopental
+T17	Chemical 1145 1171	beta-adrenergic antagonist
+T19	Disease 1374 1390	cardiac toxicity
+T20	Chemical 1404 1423	racemic bupivacaine
+T22	Disease 1564 1595	central nervous system toxicity
+T23	Disease 1630 1646	cardiac toxicity

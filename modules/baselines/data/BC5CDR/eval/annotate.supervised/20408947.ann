@@ -1,0 +1,21 @@
+T1	Disease 85 104	acute liver failure
+T2	Disease 161 175	hepatotoxicity
+T3	Disease 204 223	acute liver failure
+T4	Disease 225 228	ALF
+T5	Disease 318 338	substance dependence
+T6	Disease 409 420	psychiatric
+T7	Disease 585 588	ALF
+T8	Disease 684 687	ALF
+T9	Disease 715 736	chronic liver disease
+T10	Disease 738 741	CLD
+T11	Disease 781 784	ALF
+T12	Disease 1031 1034	ALF
+T13	Disease 1116 1124	ALF=0/35
+T14	Disease 1374 1377	ALF
+T15	Disease 1429 1432	ALF
+T16	Disease 1500 1503	ALF
+T17	Disease 1611 1634	psychiatric disturbance
+T18	Disease 1708 1711	ALF
+T19	Disease 1780 1783	ALF
+T20	Disease 1803 1806	CLD
+T21	Disease 1912 1919	suicide

@@ -1,0 +1,12 @@
+T1	Disease 18 32	hyperammonemic
+T2	Disease 18 47	hyperammonemic encephalopathy
+T3	Disease 80 92	Neurological
+T4	Disease 304 318	hyperammonemic
+T5	Disease 304 333	hyperammonemic encephalopathy
+T6	Chemical 371 380	valproate
+T7	Chemical 477 486	valproate
+T8	Disease 494 502	epilepsy
+T9	Disease 516 538	impaired consciousness
+T10	Disease 544 558	hyperammonemia
+T11	Chemical 614 623	valproate
+T12	Chemical 739 748	valproate

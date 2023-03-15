@@ -1,0 +1,22 @@
+T1	Chemical 23 34	granisetron
+T2	Disease 109 118	of nausea
+T3	Disease 123 131	vomiting
+T4	Chemical 153 162	cisplatin
+T5	Chemical 251 262	granisetron
+T6	Chemical 369 371	IV
+T7	Disease 415 421	nausea
+T8	Disease 426 434	vomiting
+T9	Chemical 530 539	cisplatin
+T10	Disease 762 770	, nausea
+T11	Disease 772 780	vomiting
+T12	Disease 1010 1018	vomiting
+T13	Disease 1161 1169	vomiting
+T14	Disease 1317 1319	of
+T15	Disease 1343 1351	vomiting
+T16	Chemical 1518 1529	granisetron
+T17	Disease 1584 1592	Headache
+T18	Chemical 1706 1717	granisetron
+T19	Disease 1747 1755	vomiting
+T20	Chemical 1830 1835	mg/m2
+T21	Disease 1858 1866	vomiting
+T22	Chemical 2032 2043	Granisetron

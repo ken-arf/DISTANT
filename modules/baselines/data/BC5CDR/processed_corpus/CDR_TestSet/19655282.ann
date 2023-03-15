@@ -1,0 +1,24 @@
+T1	Chemical 91 98	cocaine
+T2	Disease 110 120	chest pain
+T3	Chemical 194 201	cocaine
+T4	Disease 213 223	chest pain
+T5	Disease 283 306	acute coronary syndrome
+T6	Chemical 389 396	cocaine
+T7	Chemical 648 655	cocaine
+T8	Disease 667 677	chest pain
+T9	Disease 682 700	coronary vasospasm
+T10	Disease 729 737	ischemia
+T11	Chemical 799 806	cocaine
+T12	Disease 818 828	chest pain
+T13	Disease 1005 1015	chest pain
+T14	Disease 1296 1304	stenosis
+T15	Disease 1389 1410	myocardial infarction
+T16	Chemical 1449 1456	cocaine
+T17	Disease 1468 1478	chest pain
+T18	Disease 1890 1907	coronary stenosis
+T19	Disease 2053 2074	myocardial infarction
+T20	Chemical 2119 2126	cocaine
+T21	Disease 2138 2157	myocardial ischemia
+T22	Chemical 2215 2222	cocaine
+T23	Disease 2234 2244	chest pain
+T24	Disease 2252 2260	ischemic

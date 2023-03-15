@@ -1,0 +1,21 @@
+T1	Chemical 0 10	Cytostatic
+T2	Chemical 0 10	Cytostatic
+T3	Chemical 42 54	temsirolimus
+T4	Disease 69 89	mantle cell lymphoma
+T5	Disease 90 110	Mantle cell lymphoma
+T6	Disease 150 179	B-cell non-Hodgkin's lymphoma
+T8	Chemical 369 381	temsirolimus
+T9	Chemical 385 389	mTOR
+T11	Chemical 504 516	temsirolimus
+T12	Disease 588 598	lymph node
+T13	Chemical 651 663	temsirolimus
+T14	Chemical 716 728	temsirolimus
+T16	Chemical 896 908	temsirolimus
+T17	Chemical 916 930	antiangiogenic
+T18	Disease 955 972	tumor microvessel
+T19	Chemical 988 992	VEGF
+T20	Chemical 1131 1143	temsirolimus
+T21	Chemical 1159 1171	temsirolimus
+T23	Chemical 1212 1222	cytostatic
+T24	Chemical 1227 1242	anti-angiogenic
+T25	Chemical 1271 1283	temsirolimus

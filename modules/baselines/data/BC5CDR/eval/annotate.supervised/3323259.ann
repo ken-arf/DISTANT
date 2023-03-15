@@ -1,0 +1,39 @@
+T1	Chemical 24 43	1,4-dihydropyridine
+T2	Chemical 44 51	calcium
+T3	Chemical 139 146	calcium
+T4	Disease 170 192	cardiovascular disease
+T5	Chemical 233 240	calcium
+T6	Disease 295 318	cardiovascular diseases
+T7	Chemical 455 462	calcium
+T8	Chemical 530 539	verapamil
+T9	Chemical 544 553	diltiazem
+T10	Chemical 646 661	dihydropyridine
+T11	Chemical 662 669	calcium
+T12	Chemical 837 852	dihydropyridine
+T13	Chemical 893 903	nifedipine
+T14	Disease 913 919	angina
+T15	Disease 924 936	hypertension
+T16	Disease 950 960	depression
+T17	Chemical 1018 1025	calcium
+T18	Chemical 1189 1201	nitrendipine
+T19	Chemical 1206 1217	nisoldipine
+T20	Disease 1323 1335	hypertension
+T21	Chemical 1377 1388	nisoldipine
+T22	Disease 1444 1450	angina
+T23	Chemical 1498 1508	nimodipine
+T24	Disease 1548 1560	subarachnoid
+T25	Disease 1548 1571	subarachnoid hemorrhage
+T26	Disease 1573 1581	migraine
+T27	Disease 1582 1590	headache
+T28	Disease 1592 1600	dementia
+T29	Disease 1606 1612	stroke
+T30	Chemical 1630 1645	dihydropyridine
+T31	Chemical 1646 1653	calcium
+T32	Disease 1704 1712	headache
+T33	Disease 1714 1729	facial flushing
+T34	Disease 1721 1729	flushing
+T35	Disease 1731 1743	palpitations
+T36	Disease 1745 1750	edema
+T37	Disease 1752 1758	nausea
+T38	Disease 1760 1768	anorexia
+T39	Disease 1774 1783	dizziness

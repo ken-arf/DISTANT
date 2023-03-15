@@ -1,0 +1,21 @@
+T2	Disease 18 47	rostral ventrolateral medulla
+T3	Disease 146 175	rostral ventrolateral medulla
+T4	Disease 179 201	mean arterial pressure
+T5	Disease 203 213	heart rate
+T6	Disease 219 234	neurogenic tone
+T9	Chemical 355 363	nmol/200
+T10	Chemical 367 391	N-methyl-D-aspartic acid
+T11	Chemical 429 453	N-methyl-D-aspartic acid
+T13	Disease 535 565	resting mean arterial pressure
+T14	Chemical 646 650	/- 7
+T15	Chemical 663 667	/- 4
+T16	Chemical 799 801	/-
+T17	Chemical 816 826	/- 5 mm Hg
+T18	Disease 941 951	ganglionic
+T19	Chemical 960 972	trimethaphan
+T20	Disease 1017 1039	mean arterial pressure
+T23	Chemical 1179 1181	/-
+T26	Chemical 1234 1236	(+
+T27	Chemical 1240 1242	/-
+T29	Disease 1293 1322	rostral ventrolateral medulla
+T33	Disease 1449 1460	suprabulbar

@@ -1,0 +1,18 @@
+T1	Disease 26 49	coronary artery disease
+T2	Chemical 101 113	dipyridamole
+T3	Chemical 158 170	dipyridamole
+T4	Disease 233 256	coronary artery disease
+T5	Disease 424 445	myocardial infarction
+T6	Disease 470 489	anterior infarction
+T8	Chemical 673 685	dipyridamole
+T10	Chemical 763 775	non-MI group
+T11	Chemical 788 794	ANT-MI
+T12	Chemical 813 819	INF-MI
+T14	Chemical 942 948	ANT-MI
+T15	Chemical 967 973	INF-MI
+T16	Disease 1102 1104	ST
+T17	Chemical 1175 1187	dipyridamole
+T18	Disease 1299 1318	myocardial ischemia
+T19	Disease 1336 1348	inhomogenous
+T20	Chemical 1409 1421	dipyridamole
+T21	Disease 1491 1514	coronary artery disease

@@ -1,0 +1,12 @@
+T1	Disease 27 35	delirium
+T2	Disease 115 123	delirium
+T3	Disease 250 258	delirium
+T4	Chemical 471 482	demographic
+T5	Disease 756 764	delirium
+T6	Disease 971 979	delirium
+T7	Disease 1204 1212	delirium
+T8	Chemical 1225 1236	thiopentone
+T9	Disease 1301 1309	delirium
+T10	Chemical 1322 1330	propofol
+T11	Disease 1442 1450	delirium
+T12	Disease 1550 1554	risk

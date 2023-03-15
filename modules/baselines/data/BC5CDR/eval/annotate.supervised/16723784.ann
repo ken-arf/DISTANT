@@ -1,0 +1,27 @@
+T1	Chemical 46 54	bepridil
+T2	Disease 74 93	atrial fibrillation
+T3	Disease 98 105	flutter
+T4	Chemical 118 126	Bepridil
+T5	Chemical 118 140	Bepridil hydrochloride
+T6	Chemical 142 145	Bpd
+T7	Disease 196 215	atrial fibrillation
+T8	Disease 217 219	AF
+T9	Disease 225 239	atrial flutter
+T10	Disease 241 244	AFL
+T11	Disease 291 298	torsade
+T12	Disease 291 309	torsade de pointes
+T13	Disease 311 314	Tdp
+T14	Disease 377 380	Bpd
+T15	Chemical 436 439	Bpd
+T16	Disease 811 822	bradycardia
+T17	Disease 861 870	dizziness
+T18	Disease 883 890	fatigue
+T19	Disease 935 950	QT prolongation
+T20	Disease 952 955	Tdp
+T21	Disease 998 1001	Tdp
+T22	Disease 1007 1018	hypokalemia
+T23	Disease 1141 1144	Tdp
+T24	Disease 1156 1159	LAD
+T25	Disease 1218 1221	Tdp
+T26	Chemical 1264 1273	potassium
+T27	Chemical 1329 1332	Bpd

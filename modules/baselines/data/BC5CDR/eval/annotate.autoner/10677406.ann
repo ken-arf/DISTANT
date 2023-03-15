@@ -1,0 +1,18 @@
+T1	Disease 15 38	ventricular dysfunction
+T2	Disease 63 71	coronary
+T3	Disease 79 86	disease
+T4	Chemical 98 108	dobutamine
+T5	Disease 286 294	coronary
+T6	Disease 302 309	disease
+T7	Chemical 473 483	dobutamine
+T8	Disease 569 577	coronary
+T9	Disease 585 592	disease
+T10	Chemical 670 680	dobutamine
+T11	Disease 1072 1082	depression
+T12	Chemical 1308 1318	dobutamine
+T13	Chemical 1539 1549	dobutamine
+T14	Disease 1700 1708	coronary
+T15	Disease 1716 1723	disease
+T16	Chemical 1725 1735	dobutamine
+T17	Chemical 1889 1899	Dobutamine
+T18	Disease 2031 2038	disease

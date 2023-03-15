@@ -1,0 +1,19 @@
+T2	Chemical 33 40	ouabain
+T4	Disease 122 145	intracerebroventricular
+T5	Disease 147 150	ICV
+T6	Chemical 170 177	ouabain
+T7	Chemical 181 208	Na(+)/K(+)-ATPase inhibitor
+T10	Disease 317 333	bipolar disorder
+T11	Chemical 352 365	mitochondrial
+T12	Chemical 479 486	ouabain
+T13	Chemical 532 539	ouabain
+T14	Disease 598 601	ICV
+T16	Chemical 727 766	thiobarbituric acid reactive substances
+T18	Disease 853 870	prefrontal cortex
+T22	Chemical 939 955	ouabain at 10(-2
+T23	Disease 977 992	hyperlocomotion
+T24	Disease 1061 1064	ICV
+T25	Chemical 1193 1198	TBARS
+T27	Chemical 1235 1261	submitochondrial particles
+T28	Disease 1269 1286	prefrontal cortex
+T32	Disease 1461 1477	bipolar disorder

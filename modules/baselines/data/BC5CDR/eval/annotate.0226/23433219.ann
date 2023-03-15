@@ -1,0 +1,18 @@
+T1	Disease 35 60	methamphetamine psychosis
+T3	Disease 315 327	co-morbidity
+T6	Chemical 655 663	M.I.N.I.
+T7	Disease 713 741	Axis I psychiatric disorders
+T8	Disease 794 802	drug use
+T9	Disease 929 947	psychotic symptoms
+T10	Disease 994 1012	psychotic symptoms
+T11	Disease 1030 1049	depressive disorder
+T12	Disease 1081 1097	bipolar disorder
+T13	Disease 1131 1162	antisocial personality disorder
+T14	Chemical 1178 1193	CI=6.702-23.759
+T15	Chemical 1199 1220	heavy methamphetamine
+T16	Disease 1338 1363	Major depressive disorder
+T17	Disease 1395 1426	antisocial personality disorder
+T20	Disease 1629 1657	co-morbid affective disorder
+T21	Disease 1687 1712	heavy methamphetamine use
+T22	Disease 1750 1776	methamphetamine dependence
+T23	Disease 1800 1818	psychotic symptoms

@@ -1,0 +1,14 @@
+T1	Disease 28 39	alcohol use
+T2	Disease 49 68	disease progression
+T3	Disease 144 163	alcohol consumption
+T5	Disease 205 224	disease progression
+T6	Chemical 426 436	CD4+T-cell
+T7	Disease 474 493	depression symptoms
+T8	Disease 575 586	alcohol use
+T10	Disease 824 835	alcohol use
+T11	Chemical 897 911	antiretroviral
+T13	Disease 1043 1062	alcohol consumption
+T16	Chemical 1153 1164	CD4+ T-cell
+T17	Disease 1231 1250	alcohol consumption
+T20	Disease 1337 1356	disease progression
+T21	Disease 1410 1421	alcohol use

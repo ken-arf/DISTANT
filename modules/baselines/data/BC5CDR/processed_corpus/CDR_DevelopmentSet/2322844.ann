@@ -1,0 +1,25 @@
+T1	Chemical 61 94	prostaglandin D2, E2, or F2 alpha
+T2	Chemical 61 77	prostaglandin D2
+T3	Chemical 61 74;79 81	prostaglandin E2
+T4	Chemical 61 74;86 94	prostaglandin F2 alpha
+T5	Chemical 158 172	prostaglandins
+T6	Disease 176 180	pain
+T7	Chemical 247 258	acetic acid
+T8	Chemical 275 291	Prostaglandin D2
+T9	Disease 315 327	hyperalgesic
+T10	Chemical 408 424	Prostaglandin E2
+T11	Disease 434 446	hyperalgesic
+T12	Chemical 468 470	pg
+T13	Chemical 541 557	prostaglandin D2
+T14	Chemical 592 603	acetic acid
+T15	Disease 624 636	hyperalgesic
+T16	Chemical 647 663	prostaglandin D2
+T17	Chemical 775 781	AH6809
+T18	Chemical 833 849	prostaglandin E2
+T19	Disease 858 870	hyperalgesia
+T20	Chemical 886 892	AH6809
+T21	Chemical 966 988	Prostaglandin F2 alpha
+T22	Disease 1010 1014	pain
+T23	Chemical 1062 1078	prostaglandin D2
+T24	Chemical 1083 1099	prostaglandin E2
+T25	Disease 1106 1118	hyperalgesia

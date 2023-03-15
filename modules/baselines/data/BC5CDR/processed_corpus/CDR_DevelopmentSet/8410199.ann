@@ -1,0 +1,16 @@
+T1	Chemical 8 17	glutamate
+T2	Chemical 91 102	pilocarpine
+T3	Disease 111 119	seizures
+T4	Chemical 176 189	glutamic acid
+T5	Disease 290 297	seizure
+T6	Disease 335 343	seizures
+T7	Chemical 402 413	pilocarpine
+T8	Chemical 511 522	pilocarpine
+T9	Disease 531 539	seizures
+T10	Chemical 587 598	digoxigenin
+T11	Chemical 745 756	pilocarpine
+T12	Chemical 864 877	cresyl violet
+T13	Disease 888 909	neuronal degeneration
+T14	Disease 1074 1087	neuronal loss
+T15	Disease 1876 1883	seizure
+T16	Chemical 1989 1993	GABA

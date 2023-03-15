@@ -1,0 +1,7 @@
+T1	Chemical 47 65	patient-controlled
+T2	Chemical 84 92	morphine
+T3	Disease 151 160	dizziness
+T4	Chemical 323 331	morphine
+T5	Disease 343 351	symptoms
+T6	Chemical 414 432	patient-controlled
+T7	Chemical 443 451	morphine

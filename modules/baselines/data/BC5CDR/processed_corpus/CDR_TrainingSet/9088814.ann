@@ -1,0 +1,23 @@
+T1	Chemical 30 46	prostaglandin E1
+T2	Disease 55 66	hypotension
+T3	Disease 71 84	haemodilution
+T4	Chemical 141 157	prostaglandin E1
+T5	Chemical 159 163	PGE1
+T6	Disease 173 184	hypotension
+T7	Disease 189 202	haemodilution
+T8	Disease 391 402	hypotension
+T9	Disease 439 452	haemodilution
+T10	Disease 508 519	hypotension
+T11	Disease 524 537	haemodilution
+T12	Disease 539 552	Haemodilution
+T13	Chemical 671 678	dextran
+T14	Disease 745 756	hypotension
+T15	Chemical 792 796	PGE1
+T16	Chemical 918 931	aceto-acetate
+T17	Chemical 932 949	3-hydroxybutyrate
+T18	Disease 1205 1216	hypotension
+T19	Chemical 1300 1309	bilirubin
+T20	Chemical 1429 1433	PGE1
+T21	Disease 1442 1453	hypotension
+T22	Disease 1467 1480	haemodilution
+T23	Disease 1493 1523	impairment of hepatic function

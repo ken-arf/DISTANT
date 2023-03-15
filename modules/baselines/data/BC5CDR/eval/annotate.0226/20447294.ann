@@ -1,0 +1,21 @@
+T2	Chemical 48 70	sodium channel blocker
+T3	Chemical 72 79	CNSB002
+T5	Disease 115 131	neuropathic pain
+T6	Chemical 169 192	antihyperalgesic effect
+T7	Chemical 196 203	CNSB002
+T8	Chemical 207 229	sodium channel blocker
+T14	Disease 338 354	neuropathic pain
+T16	Chemical 423 430	CNSB002
+T17	Chemical 639 653	streptozotocin
+T18	Disease 668 687	diabetic neuropathy
+T20	Chemical 755 762	CNSB002
+T21	Chemical 785 792	CNSB002
+T24	Disease 879 891	hyperalgesia
+T25	Chemical 893 897	ED50
+T27	Chemical 1030 1037	CNSB002
+T29	Chemical 1151 1155	ED50
+T32	Chemical 1207 1214	CNSB002
+T35	Chemical 1454 1461	CNSB002
+T36	Disease 1513 1525	hyperalgesia
+T38	Disease 1550 1561	neuropathic
+T42	Chemical 1844 1851	CNSB002

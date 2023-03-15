@@ -1,0 +1,22 @@
+T1	Chemical 0 10	Quetiapine
+T2	Disease 19 30	neutropenia
+T3	Disease 36 43	bipolar
+T4	Disease 57 81	hepatocellular carcinoma
+T5	Chemical 93 103	Quetiapine
+T6	Chemical 150 159	clozapine
+T7	Disease 199 215	blood dyscrasias
+T8	Disease 228 239	neutropenia
+T9	Chemical 295 305	quetiapine
+T10	Disease 395 419	hepatocellular carcinoma
+T11	Disease 435 446	neutropenia
+T12	Chemical 468 478	quetiapine
+T13	Disease 546 562	bipolar disorder
+T14	Disease 582 606	hepatocellular carcinoma
+T15	Disease 632 642	leucopenia
+T16	Chemical 668 678	quetiapine
+T17	Chemical 686 696	quetiapine
+T18	Disease 784 795	neutropenia
+T19	Chemical 827 837	quetiapine
+T20	Disease 921 940	Hepatic dysfunction
+T21	Disease 998 1003	fever
+T22	Chemical 1055 1065	quetiapine

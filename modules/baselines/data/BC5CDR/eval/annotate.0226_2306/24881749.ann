@@ -1,0 +1,20 @@
+T1	Disease 0 30	Neuroleptic malignant syndrome
+T2	Chemical 67 80	tetrabenazine
+T3	Chemical 85 93	tiapride
+T4	Disease 121 141	Huntington's disease
+T5	Disease 149 163	terminal stage
+T6	Disease 177 190	breast cancer
+T9	Disease 257 287	neuroleptic malignant syndrome
+T10	Chemical 359 367	tiapride
+T11	Chemical 384 397	tetrabenazine
+T12	Disease 416 436	Huntington's disease
+T13	Chemical 472 480	tiapride
+T14	Chemical 484 497	tetrabenazine
+T15	Disease 516 531	adverse effects
+T16	Disease 608 621	breast cancer
+T18	Disease 714 744	neuroleptic malignant syndrome
+T19	Chemical 777 790	tetrabenazine
+T20	Chemical 795 803	tiapride
+T21	Chemical 838 851	Tetrabenazine
+T22	Chemical 916 933	neuroleptic drugs
+T24	Disease 977 994	general condition

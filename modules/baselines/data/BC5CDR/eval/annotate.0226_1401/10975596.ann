@@ -1,0 +1,23 @@
+T2	Chemical 42 53	dronedarone
+T4	Disease 94 115	myocardial infarction
+T5	Chemical 136 158	antiadrenergic effects
+T6	Chemical 162 173	dronedarone
+T7	Chemical 177 198	noniodinated compound
+T10	Disease 391 412	myocardial infarction
+T11	Chemical 456 467	dronedarone
+T14	Disease 607 617	Heart rate
+T16	Disease 624 646	mean arterial pressure
+T17	Chemical 648 651	MBP
+T18	Disease 683 699	left ventricular
+T19	Chemical 709 711	(+
+T20	Disease 752 768	left ventricular
+T22	Disease 956 969	posttreatment
+T23	Chemical 1024 1027	MBP
+T25	Chemical 1161 1172	dronedarone
+T27	Chemical 1219 1230	dronedarone
+T29	Disease 1272 1300	exercise-induced tachycardia
+T33	Chemical 1382 1393	dronedarone
+T36	Disease 1491 1507	left ventricular
+T37	Chemical 1532 1543	dronedarone
+T38	Disease 1619 1639	clinical arrhythmias
+T39	Disease 1666 1682	left ventricular

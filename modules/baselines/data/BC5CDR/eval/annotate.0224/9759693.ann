@@ -1,0 +1,11 @@
+T1	Disease 0 16	Ischemic colitis
+T2	Chemical 21 32	sumatriptan
+T3	Chemical 37 58	Sumatriptan succinate
+T4	Chemical 98 114	receptor agonist
+T5	Chemical 122 139	antimigraine drug
+T6	Disease 410 428	coronary vasospasm
+T7	Disease 430 449	myocardial ischemia
+T8	Disease 455 476	myocardial infarction
+T9	Chemical 493 504	sumatriptan
+T10	Disease 561 577	ischemic colitis
+T12	Chemical 617 628	sumatriptan

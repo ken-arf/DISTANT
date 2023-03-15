@@ -1,0 +1,23 @@
+T1	Disease 0 14	Intraoperative
+T2	Chemical 58 75	citrate dialysate
+T3	Disease 76 97	Liver transplantation
+T4	Disease 102 113	acutely ill
+T5	Disease 128 151	fulminant liver failure
+T6	Disease 165 179	intraoperative
+T9	Disease 268 287	acute kidney injury
+T10	Disease 298 312	intraoperative
+T11	Chemical 404 416	procoagulant
+T13	Disease 451 474	fulminant liver failure
+T16	Chemical 587 611	Systemic anticoagulation
+T20	Chemical 734 751	Citrate dialysate
+T21	Chemical 759 768	dialysate
+T22	Chemical 774 785	citric acid
+T25	Chemical 861 877	regional citrate
+T26	Disease 947 970	fulminant liver failure
+T27	Disease 987 990	AKI
+T28	Disease 1005 1019	intraoperative
+T29	Chemical 1020 1028	dialytic
+T31	Chemical 1094 1103	dialysate
+T36	Chemical 1297 1306	dialysate
+T37	Disease 1358 1379	liver transplantation
+T38	Disease 1383 1406	fulminant liver failure

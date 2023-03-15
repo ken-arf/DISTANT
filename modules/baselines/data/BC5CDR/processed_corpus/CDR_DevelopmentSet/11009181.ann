@@ -1,0 +1,19 @@
+T1	Chemical 0 11	Apomorphine
+T2	Disease 42 61	Parkinson's disease
+T3	Chemical 62 73	Apomorphine
+T4	Disease 137 156	Parkinson's disease
+T5	Disease 272 291	Parkinson's disease
+T6	Chemical 326 337	apomorphine
+T7	Chemical 492 503	apomorphine
+T8	Chemical 589 597	levodopa
+T9	Chemical 607 618	apomorphine
+T10	Chemical 744 755	apomorphine
+T11	Chemical 929 937	dopamine
+T12	Chemical 1054 1065	apomorphine
+T13	Chemical 1173 1184	apomorphine
+T14	Chemical 1247 1255	levodopa
+T15	Disease 1264 1275	dyskinesias
+T16	Chemical 1315 1326	apomorphine
+T17	Disease 1406 1417	psychiatric
+T18	Chemical 1504 1515	apomorphine
+T19	Disease 1541 1560	Parkinson's disease

@@ -1,0 +1,25 @@
+T1	Disease 13 29	long QT syndrome
+T2	Chemical 64 73	methadone
+T3	Disease 157 173	long QT syndrome
+T4	Chemical 210 219	Methadone
+T5	Disease 325 349	QT interval prolongation
+T6	Chemical 355 364	methadone
+T7	Chemical 592 601	methadone
+T8	Chemical 626 635	methadone
+T9	Chemical 752 761	methadone
+T10	Chemical 875 884	methadone
+T11	Chemical 901 910	methadone
+T12	Disease 1021 1036	QT prolongation
+T13	Chemical 1057 1066	methadone
+T14	Chemical 1234 1243	methadone
+T15	Disease 1260 1279	torsades de pointes
+T16	Chemical 1337 1346	methadone
+T17	Chemical 1496 1505	methadone
+T18	Disease 1557 1568	hypokalemia
+T19	Disease 1611 1635	QT interval prolongation
+T20	Chemical 1639 1648	methadone
+T21	Chemical 1732 1741	Methadone
+T22	Chemical 1793 1802	potassium
+T23	Disease 1843 1858	QT prolongation
+T24	Disease 1860 1876	Long QT syndrome
+T25	Chemical 1905 1914	methadone

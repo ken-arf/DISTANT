@@ -1,0 +1,11 @@
+T1	Chemical 0 10	Convulsant
+T8	Chemical 92 119	gamma-hexachlorocyclohexane
+T9	Chemical 127 153	organochlorine insecticide
+T12	Chemical 285 300	non-competitive
+T14	Chemical 319 342	gamma-aminobutyric acid
+T16	Chemical 414 423	GABAergic
+T17	Chemical 428 440	dopaminergic
+T22	Disease 523 534	brain areas
+T25	Chemical 609 611	/-
+T28	Disease 729 738	colliculi
+T32	Chemical 873 878	DOPAC

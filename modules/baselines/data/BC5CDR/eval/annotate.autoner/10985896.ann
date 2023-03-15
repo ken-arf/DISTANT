@@ -1,0 +1,22 @@
+T1	Chemical 17 38	liposomal doxorubicin
+T2	Disease 113 120	cancers
+T3	Disease 133 142	carcinoma
+T4	Chemical 207 228	liposomal doxorubicin
+T5	Disease 304 310	cancer
+T6	Disease 331 339	toxicity
+T7	Disease 400 425	severe erythrodysesthesia
+T8	Disease 428 446	hand-foot syndrome
+T9	Chemical 503 524	liposomal doxorubicin
+T10	Disease 651 658	disease
+T11	Disease 723 730	cancers
+T12	Disease 753 762	carcinoma
+T13	Disease 799 806	disease
+T14	Chemical 948 969	liposomal doxorubicin
+T15	Disease 1201 1219	hand-foot syndrome
+T16	Chemical 1224 1234	stomatitis
+T17	Disease 1305 1313	diarrhea
+T18	Chemical 1435 1456	liposomal doxorubicin
+T19	Chemical 1666 1687	liposomal doxorubicin
+T20	Disease 1712 1720	toxicity
+T21	Disease 1734 1752	hand-foot syndrome
+T22	Disease 1938 1944	cancer

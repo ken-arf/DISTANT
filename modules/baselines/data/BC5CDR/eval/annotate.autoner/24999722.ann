@@ -1,0 +1,13 @@
+T1	Chemical 36 58	acetonide intravitreal
+T2	Chemical 158 180	fluocinolone acetonide
+T3	Chemical 502 511	acetonide
+T4	Chemical 593 615	fluocinolone acetonide
+T5	Disease 771 789	retinal vasculitis
+T6	Disease 1003 1011	cataract
+T7	Disease 1093 1105	inflammation
+T8	Chemical 1399 1406	central
+T9	Disease 1773 1781	cataract
+T10	Chemical 1847 1856	acetonide
+T11	Disease 1892 1904	inflammation
+T12	Disease 2028 2036	cataract
+T13	Disease 2048 2060	hypertension

@@ -1,0 +1,28 @@
+T1	Chemical 68 76	low-risk
+T2	Disease 110 120	chest pain
+T4	Disease 213 223	chest pain
+T5	Disease 283 306	acute coronary syndrome
+T6	Chemical 520 528	low risk
+T7	Disease 533 547	cardiac events
+T9	Disease 667 677	chest pain
+T10	Disease 691 700	vasospasm
+T12	Disease 818 828	chest pain
+T13	Chemical 923 935	coronary CTA
+T14	Disease 1005 1015	chest pain
+T16	Chemical 1112 1115	CTA
+T18	Chemical 1222 1236	cardiac marker
+T20	Disease 1365 1385	cardiovascular death
+T21	Disease 1389 1410	myocardial infarction
+T22	Disease 1468 1478	chest pain
+T24	Chemical 1685 1688	CTA
+T25	Chemical 1749 1752	CTA
+T26	Chemical 1790 1793	CTA
+T27	Chemical 1862 1865	CTA
+T28	Disease 1890 1907	coronary stenosis
+T30	Disease 1975 1995	cardiovascular event
+T33	Disease 2053 2074	myocardial infarction
+T35	Disease 2138 2157	myocardial ischemia
+T36	Disease 2234 2244	chest pain
+T37	Chemical 2272 2276	TIMI
+T39	Chemical 2354 2357	CTA
+T40	Disease 2384 2398	adverse events

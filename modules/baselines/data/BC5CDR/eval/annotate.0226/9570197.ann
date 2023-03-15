@@ -1,0 +1,20 @@
+T1	Disease 52 68	left ventricular
+T2	Disease 82 100	diastolic function
+T4	Disease 205 221	left ventricular
+T5	Disease 267 280	end-diastolic
+T6	Disease 400 418	diastolic function
+T7	Disease 566 576	chest pain
+T8	Disease 602 628	systemic arterial pressure
+T9	Disease 695 712	ejection fraction
+T11	Chemical 832 853	cocaine hydrochloride
+T13	Chemical 922 940	drug concentration
+T14	Disease 968 982	coronary sinus
+T15	Chemical 987 996	3.0+/-0.4
+T16	Disease 1163 1173	heart rate
+T17	Chemical 1175 1183	LV dP/dt
+T19	Disease 1278 1301	mean arterial pressures
+T20	Disease 1306 1319	end-diastolic
+T21	Disease 1337 1349	end-systolic
+T22	Disease 1386 1403	ejection fraction
+T23	Chemical 1506 1524	drug concentration
+T24	Disease 1528 1548	coronary sinus blood

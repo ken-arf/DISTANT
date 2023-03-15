@@ -1,0 +1,17 @@
+T2	Chemical 52 63	propranolol
+T3	Chemical 131 142	propranolol
+T4	Chemical 284 296	isoprenaline
+T5	Chemical 442 454	isoprenaline
+T6	Chemical 567 579	isoprenaline
+T8	Chemical 637 653	free fatty acids
+T9	Chemical 725 735	fatty acid
+T10	Chemical 810 819	glucose.4
+T11	Chemical 837 848	propranolol
+T13	Chemical 953 964	propranolol
+T14	Chemical 1108 1115	racemic
+T15	Chemical 1193 1204	propranolol
+T16	Disease 1251 1270	cardiac arrhythmias
+T18	Chemical 1635 1647	adrenaline.7
+T19	Chemical 1665 1676	propranolol
+T20	Disease 1708 1731	ventricular tachycardia
+T21	Chemical 1742 1749	ouabain

@@ -1,0 +1,15 @@
+T1	Disease 47 66	acute renal failure
+T2	Chemical 78 99	Adenosine antagonists
+T4	Disease 188 207	acute renal failure
+T5	Chemical 209 212	ARF
+T8	Chemical 323 343	8-phenyltheophylline
+T10	Chemical 362 374	enprofylline
+T11	Disease 409 428	acute renal failure
+T13	Chemical 476 480	kg-1
+T14	Disease 483 497	Renal function
+T16	Chemical 543 553	creatinine
+T18	Chemical 587 597	[3H]inulin
+T23	Disease 776 790	renal function
+T26	Chemical 912 931	polyethylene glycol
+T27	Chemical 936 940	NaOH
+T29	Chemical 1139 1142	ARF

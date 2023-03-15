@@ -1,0 +1,17 @@
+T2	Disease 20 36	optic neuropathy
+T3	Chemical 53 63	tacrolimus
+T4	Chemical 65 70	FK506
+T5	Disease 86 107	liver transplantation
+T7	Disease 147 163	optic neuropathy
+T8	Chemical 187 197	tacrolimus
+T9	Chemical 199 205	FK 506
+T10	Chemical 207 214	Prograf
+T11	Chemical 216 228	Fujisawa USA
+T12	Disease 284 317	orthotropic liver transplantation
+T13	Chemical 371 381	tacrolimus
+T17	Disease 580 597	clinical features
+T19	Disease 618 636	optic neuropathies
+T22	Chemical 702 712	tacrolimus
+T23	Chemical 726 736	Tacrolimus
+T24	Chemical 747 771	immunosuppressive agents
+T25	Disease 795 806	optic nerve

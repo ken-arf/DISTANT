@@ -1,0 +1,39 @@
+T1	Disease 34 72	venous thromboembolism associated with
+T2	Chemical 81 100	oral contraceptives
+T3	Disease 189 211	venous thromboembolism
+T4	Disease 213 216	VTE
+T5	Chemical 247 266	oral contraceptives
+T6	Chemical 288 327	third-generation progestagens gestodene
+T7	Chemical 331 342	desogestrel
+T8	Chemical 375 405	second-generation progestagens
+T9	Disease 571 574	VTE
+T10	Disease 915 935	deep-vein thrombosis
+T11	Disease 937 954	venous thrombosis
+T12	Disease 983 1000	pulmonary embolus
+T14	Disease 1111 1114	VTE
+T15	Disease 1178 1181	VTE
+T17	Chemical 1612 1614	OC
+T21	Chemical 1781 1797	progestagen-only
+T22	Disease 1883 1903	deep-vein thrombosis
+T23	Disease 1911 1931	pulmonary thrombosis
+T24	Disease 1945 1962	venous thrombosis
+T25	Disease 2006 2009	VTE
+T26	Chemical 2131 2147	third-generation
+T27	Disease 2206 2209	VTE
+T28	Chemical 2222 2238	third-generation
+T29	Chemical 2251 2268	second-generation
+T30	Disease 2370 2373	VTE
+T31	Chemical 2391 2407	third-generation
+T32	Chemical 2450 2479	third-generation progestagens
+T33	Disease 2493 2496	VTE
+T34	Chemical 2520 2531	desogestrel
+T35	Chemical 2542 2559	ethinyloestradiol
+T36	Chemical 2590 2601	desogestrel
+T37	Chemical 2612 2629	ethinyloestradiol
+T38	Chemical 2640 2657	second-generation
+T39	Disease 2700 2703	VTE
+T40	Chemical 2731 2742	desogestrel
+T41	Chemical 2751 2770	g ethinyloestradiol
+T42	Chemical 2956 2973	second-generation
+T44	Chemical 3124 3141	ethinyloestradiol
+T45	Chemical 3146 3157	desogestrel

@@ -1,0 +1,23 @@
+T1	Chemical 106 114	Dopamine
+T2	Chemical 116 118	DA
+T3	Disease 201 219	epileptic seizures
+T4	Disease 250 264	Excitotoxicity
+T5	Disease 344 352	seizures
+T6	Chemical 427 429	DA
+T7	Disease 461 469	epilepsy
+T8	Disease 533 541	seizures
+T9	Disease 546 559	neurotoxicity
+T10	Chemical 613 624	pilocarpine
+T11	Chemical 688 699	kainic acid
+T12	Chemical 701 703	KA
+T13	Chemical 715 724	glutamate
+T14	Disease 768 776	seizures
+T15	Disease 863 876	neurotoxicity
+T16	Chemical 887 898	pilocarpine
+T17	Disease 907 915	seizures
+T18	Chemical 1006 1008	KA
+T19	Disease 1060 1068	seizures
+T20	Chemical 1085 1094	glutamate
+T21	Chemical 1099 1112	acetylcholine
+T22	Disease 1152 1160	epilepsy
+T23	Disease 1169 1186	neurodegeneration

@@ -1,0 +1,28 @@
+T1	Disease 10 22	subarachnoid
+T2	Disease 10 33	subarachnoid hemorrhage
+T3	Chemical 50 62	aminocaproic
+T4	Chemical 50 67	aminocaproic acid
+T5	Disease 80 109	acute renal artery thrombosis
+T6	Chemical 123 130	Epsilon
+T7	Chemical 123 148	Epsilon aminocaproic acid
+T8	Chemical 150 154	EACA
+T9	Disease 181 191	rebleeding
+T10	Disease 209 221	subarachnoid
+T11	Disease 209 232	subarachnoid hemorrhage
+T12	Disease 234 237	SAH
+T13	Disease 291 301	rebleeding
+T14	Disease 334 344	thrombotic
+T15	Chemical 362 366	EACA
+T16	Disease 437 469	intracranial vascular thrombosis
+T17	Disease 487 490	SAH
+T18	Chemical 585 589	EACA
+T19	Disease 600 614	thromboembolic
+T20	Chemical 721 725	EACA
+T21	Disease 819 844	intravascular coagulation
+T22	Disease 915 925	infarction
+T23	Disease 947 957	thrombosis
+T24	Chemical 1014 1018	EACA
+T25	Disease 1045 1048	SAH
+T26	Disease 1098 1101	SAH
+T27	Disease 1164 1176	hypertension
+T28	Disease 1188 1200	neurological

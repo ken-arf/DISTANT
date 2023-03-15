@@ -1,0 +1,21 @@
+T1	Disease 36 58	electrographic seizure
+T2	Disease 80 85	brain
+T3	Disease 189 196	seizure
+T4	Chemical 233 244	pilocarpine
+T5	Disease 275 289	clonic seizure
+T6	Chemical 291 302	Scopolamine
+T7	Chemical 318 331	pentobarbital
+T8	Disease 398 405	seizure
+T9	Disease 455 462	seizure
+T10	Chemical 536 547	Scopolamine
+T11	Chemical 552 565	pentobarbital
+T12	Disease 613 620	seizure
+T13	Disease 653 675	electrographic seizure
+T14	Chemical 687 698	pilocarpine
+T15	Chemical 775 786	Pilocarpine
+T16	Chemical 862 875	Pentobarbital
+T17	Chemical 877 888	scopolamine
+T18	Chemical 893 899	MK-801
+T19	Chemical 930 941	pilocarpine
+T20	Disease 1147 1165	status epilepticus
+T21	Chemical 1177 1188	pilocarpine

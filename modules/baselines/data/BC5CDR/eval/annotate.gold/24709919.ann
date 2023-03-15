@@ -1,0 +1,31 @@
+T1	Chemical 11 23	ginsenosides
+T2	Disease 42 54	hyperalgesia
+T3	Disease 78 90	hyperalgesia
+T4	Disease 92 95	OIH
+T5	Disease 190 193	OIH
+T6	Disease 273 289	opioid addiction
+T7	Chemical 337 366	Re, Rg1, and Rb1 ginsenosides
+T8	Chemical offset[0] offset[1];offset[0] offset[1]	Re ginsenosides
+T9	Chemical offset[0] offset[1];offset[0] offset[1]	Rg1 ginsenosides
+T10	Chemical 350 366	Rb1 ginsenosides
+T11	Disease 408 411	OIH
+T12	Disease 413 416	OIH
+T13	Chemical 475 483	morphine
+T14	Chemical 591 593	Re
+T15	Chemical 595 598	Rg1
+T16	Chemical 603 606	Rb1
+T17	Chemical 729 740	acetic acid
+T18	Chemical 764 766	Re
+T19	Disease 789 792	OIH
+T20	Chemical 838 849	acetic acid
+T21	Chemical 886 910	Rg1 and Rb1 ginsenosides
+T22	Chemical offset[0] offset[1];offset[0] offset[1]	Rg1 ginsenosides
+T23	Chemical 894 910	Rb1 ginsenosides
+T24	Disease 929 932	OIH
+T25	Chemical 962 965	Rg1
+T26	Disease 997 1000	OIH
+T27	Chemical 1008 1019	acetic acid
+T28	Chemical 1071 1085	ginsenoside Re
+T29	Chemical 1095 1098	Rg1
+T30	Chemical 1102 1105	Rb1
+T31	Disease 1141 1144	OIH

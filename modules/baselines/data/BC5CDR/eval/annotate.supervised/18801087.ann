@@ -1,0 +1,23 @@
+T1	Disease 19 33	pulmonary mass
+T2	Disease 56 74	glomerulonephritis
+T3	Disease 93 101	valvular
+T4	Disease 93 115	valvular heart disease
+T5	Chemical 153 163	Amiodarone
+T6	Disease 212 223	tachycardia
+T7	Disease 311 319	valvular
+T8	Disease 311 333	valvular heart disease
+T9	Disease 399 410	proteinuria
+T10	Chemical 445 455	amiodarone
+T11	Disease 477 486	lung mass
+T12	Disease 514 525	lung cancer
+T13	Chemical 864 875	hemosiderin
+T14	Disease 1156 1175	Autoimmune diseases
+T15	Disease 1177 1192	viral hepatitis
+T16	Disease 1194 1213	malignant neoplasms
+T17	Disease 1261 1271	membranous
+T18	Disease 1261 1290	membranous glomerulonephritis
+T19	Disease 1272 1290	glomerulonephritis
+T20	Disease 1409 1425	pulmonary lesion
+T21	Disease 1432 1440	neoplasm
+T22	Disease 1508 1526	glomerulonephritis
+T23	Chemical 1569 1579	amiodarone

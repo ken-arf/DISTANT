@@ -1,0 +1,17 @@
+T1	Disease 145 160	prostate cancer
+T2	Chemical 245 257	cholesterols
+T3	Chemical 259 260	C
+T4	Chemical 263 276	triglycerides
+T5	Chemical 278 280	TG
+T6	Disease 410 425	prostate cancer
+T7	Chemical 485 504	cyproterone acetate
+T8	Chemical 506 509	CPA
+T9	Chemical 642 654	triglyceride
+T10	Chemical 686 689	CPA
+T11	Chemical 722 725	CPA
+T12	Disease 799 821	coronary heart disease
+T13	Disease 846 871	coronary arteriosclerosis
+T14	Chemical 927 930	CPA
+T15	Chemical 974 985	cholesterol
+T16	Disease 1046 1070	hyperglyceridemic effect
+T17	Chemical 1081 1089	estrogen

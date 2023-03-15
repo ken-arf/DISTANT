@@ -1,0 +1,20 @@
+T1	Disease 18 26	deletion
+T2	Disease 76 88	renal injury
+T3	Chemical 89 98	Cisplatin
+T4	Disease 186 199	kidney injury
+T5	Chemical 277 287	creatinine
+T6	Chemical 292 296	urea
+T7	Disease 311 333	acute tubular necrosis
+T8	Disease 442 454	inflammation
+T9	Disease 574 585	nephropathy
+T10	Chemical 621 626	kinin
+T11	Disease 666 679	kidney injury
+T12	Chemical 681 686	kinin
+T13	Chemical 734 743	cisplatin
+T14	Chemical 816 825	cisplatin
+T15	Chemical 1166 1176	creatinine
+T16	Chemical 1187 1191	urea
+T17	Chemical 1198 1207	cisplatin
+T18	Disease 1313 1326	kidney injury
+T19	Disease 1536 1550	nephrotoxicity
+T20	Chemical 1562 1571	cisplatin

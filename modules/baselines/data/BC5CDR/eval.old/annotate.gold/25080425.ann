@@ -1,0 +1,18 @@
+T1	Chemical 91 98	betaine
+T2	Chemical 110 123	isoproterenol
+T3	Disease 138 155	myocardial injury
+T4	Chemical 242 249	betaine
+T5	Disease 259 278	myocardial ischemia
+T6	Chemical 516 523	betaine
+T7	Disease 576 602	myocardial ischemic injury
+T8	Chemical 652 665	isoproterenol
+T9	Chemical 832 839	betaine
+T10	Disease 949 971	ventricular remodeling
+T11	Chemical 1007 1020	isoproterenol
+T12	Chemical 1092 1099	betaine
+T13	Chemical 1138 1145	betaine
+T14	Chemical 1343 1350	betaine
+T15	Disease 1354 1371	myocardial damage
+T16	Chemical 1464 1471	betaine
+T17	Chemical 1496 1509	isoproterenol
+T18	Disease 1524 1543	myocardial ischemia

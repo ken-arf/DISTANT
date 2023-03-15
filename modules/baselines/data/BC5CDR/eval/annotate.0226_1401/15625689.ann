@@ -1,0 +1,16 @@
+T1	Disease 0 24	Swallowing abnormalities
+T3	Disease 43 62	Parkinson's disease
+T4	Disease 63 93	Gastrointestinal abnormalities
+T5	Disease 97 116	Parkinson's disease
+T7	Disease 198 213	pathophysiology
+T11	Disease 388 398	dyskinetic
+T12	Disease 403 416	nondyskinetic
+T14	Disease 529 548	Parkinson's Disease
+T17	Disease 687 700	Nondyskinetic
+T18	Disease 723 733	dyskinetic
+T19	Disease 752 776	oropharyngeal swallowing
+T20	Disease 846 856	Dyskinetic
+T21	Disease 901 914	nondyskinetic
+T28	Disease 1249 1259	dyskinetic
+T29	Disease 1289 1308	swallowing function
+T33	Disease 1423 1433	oral phase

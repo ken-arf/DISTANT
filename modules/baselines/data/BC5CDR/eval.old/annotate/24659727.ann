@@ -1,0 +1,5 @@
+T2	Chemical 46 62	cyclophosphamide
+T5	Chemical 180 196	cyclophosphamide
+T10	Disease 963 977	hepatotoxicity
+T11	Disease 1010 1024	renal toxicity
+T12	Disease 1028 1048	hemorrhagic cystitis

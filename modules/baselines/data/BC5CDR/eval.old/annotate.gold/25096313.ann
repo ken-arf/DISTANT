@@ -1,0 +1,11 @@
+T1	Disease 31 41	neuropathy
+T2	Chemical 48 55	steroid
+T3	Disease 185 195	neuropathy
+T4	Chemical 226 233	steroid
+T5	Disease 279 300	lateral epicondylitis
+T6	Disease 405 416	paresthesia
+T7	Disease 453 464	paresthesia
+T8	Chemical 486 493	steroid
+T9	Disease 586 590	pain
+T10	Chemical 1237 1244	steroid
+T11	Disease 1276 1297	lateral epicondylitis

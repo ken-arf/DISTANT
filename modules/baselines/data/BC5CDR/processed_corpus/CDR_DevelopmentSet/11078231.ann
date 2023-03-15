@@ -1,0 +1,24 @@
+T1	Disease 0 19	Myocardial ischemia
+T2	Disease 27 48	coronary artery spasm
+T3	Chemical 56 66	dobutamine
+T4	Chemical 91 101	Dobutamine
+T5	Disease 174 193	myocardial ischemia
+T6	Disease 348 372	coronary artery stenosis
+T7	Disease 425 444	myocardial ischemia
+T8	Disease 452 466	coronary spasm
+T9	Chemical 481 491	dobutamine
+T10	Disease 530 553	coronary spastic angina
+T11	Disease 584 608	coronary artery stenosis
+T12	Disease 627 634	anginal
+T13	Disease 695 709	variant angina
+T14	Chemical 769 782	acetylcholine
+T15	Disease 797 821	coronary artery stenosis
+T16	Chemical 903 913	dobutamine
+T17	Disease 1098 1108	chest pain
+T18	Disease 1135 1145	chest pain
+T19	Chemical 1235 1245	dobutamine
+T20	Disease 1258 1272	coronary spasm
+T21	Disease 1295 1318	coronary spastic angina
+T22	Disease 1354 1377	coronary artery disease
+T23	Disease 1394 1411	coronary stenosis
+T24	Disease 1422 1436	coronary spasm

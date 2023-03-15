@@ -1,0 +1,18 @@
+T1	Disease 70 88	status epilepticus
+T2	Disease 251 260	epileptic
+T3	Disease 261 268	seizure
+T4	Disease 316 334	status epilepticus
+T5	Disease 532 550	status epilepticus
+T6	Chemical 588 599	pilocarpine
+T7	Disease 631 634	SNR
+T8	Disease 859 877	status epilepticus
+T9	Disease 1075 1090	neuronal damage
+T10	Disease 1467 1472	edema
+T11	Disease 1582 1590	seizures
+T12	Disease 1818 1833	neuronal damage
+T13	Disease 1870 1889	neuronal distortion
+T14	Disease 2014 2019	edema
+T15	Disease 2355 2367	neuronal and
+T16	Disease 2368 2380	glial damage
+T17	Disease 2706 2715	metabolic
+T18	Disease 2785 2803	status epilepticus

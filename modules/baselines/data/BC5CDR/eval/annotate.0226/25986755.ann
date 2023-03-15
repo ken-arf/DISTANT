@@ -1,0 +1,42 @@
+T3	Chemical 36 40	AT2R
+T4	Disease 78 96	glomerulosclerosis
+T5	Disease 127 153	prenatal caffeine exposure
+T6	Disease 204 230	prenatal caffeine exposure
+T7	Disease 232 235	PCE
+T8	Disease 250 281	intrauterine growth retardation
+T9	Chemical 334 338	IUGR
+T10	Disease 360 378	glomerulosclerosis
+T11	Disease 397 400	PCE
+T12	Disease 414 432	glomerulosclerosis
+T13	Disease 528 546	glomerulosclerosis
+T15	Chemical 569 572	PCE
+T16	Chemical 633 637	IUGR
+T17	Disease 657 660	PCE
+T21	Disease 805 808	PCE
+T22	Disease 825 843	glomerulosclerosis
+T23	Disease 855 876	interstitial fibrosis
+T25	Chemical 918 928	creatinine
+T26	Chemical 954 984	angiotensin II receptor type 2
+T27	Chemical 986 990	AT2R
+T29	Chemical 1042 1045	PCE
+T30	Chemical 1065 1096	angiotensin II receptor type 1a
+T31	Disease 1146 1159	fetal kidneys
+T32	Disease 1167 1170	PCE
+T36	Disease 1307 1318	nephrogenic
+T37	Chemical 1412 1421	podocytes
+T39	Chemical 1455 1463	podocyte
+T41	Chemical 1478 1485	nephrin
+T42	Chemical 1490 1497	podocin
+T43	Chemical 1537 1541	AT2R
+T44	Disease 1574 1587	fetal kidneys
+T45	Chemical 1606 1609	PCE
+T46	Chemical 1668 1691	glial-cell-line-derived
+T47	Chemical 1692 1711	neurotrophic factor
+T48	Chemical 1712 1743	(GDNF)/tyrosine kinase receptor
+T49	Chemical 1745 1750	c-Ret
+T50	Chemical 1752 1769	signaling pathway
+T51	Chemical 1803 1806	PCE
+T53	Disease 1833 1846	fetal kidneys
+T54	Disease 1858 1876	glomerulosclerosis
+T56	Chemical 1941 1945	AT2R
+T58	Disease 1994 2012	glomerulosclerosis

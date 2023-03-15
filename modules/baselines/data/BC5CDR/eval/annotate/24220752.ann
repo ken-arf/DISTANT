@@ -1,0 +1,8 @@
+T3	Disease 303 322	acute renal failure
+T4	Chemical 500 510	creatinine
+T5	Chemical 807 810	CIN
+T6	Chemical 978 981	CIN
+T8	Disease 1138 1141	CIN
+T11	Disease 1426 1442	Contrast-induced
+T12	Disease 1456 1459	CIN
+T13	Chemical 1516 1519	CIN

@@ -1,0 +1,24 @@
+T1	Chemical 0 10	Temocapril
+T2	Chemical 39 78	angiotensin converting enzyme inhibitor
+T4	Chemical 239 249	temocapril
+T5	Chemical 278 307	angiotensin converting enzyme
+T9	Disease 393 411	glomerulosclerosis
+T10	Chemical 423 448	puromycin aminonucleoside
+T12	Disease 465 474	nephrotic
+T15	Disease 534 545	body weight
+T16	Chemical 611 620	PAN group
+T17	Chemical 631 645	PAN/temocapril
+T18	Chemical 657 667	temocapril
+T19	Chemical 706 716	Temocapril
+T20	Disease 829 843	blood pressure
+T24	Chemical 1068 1082	PAN/temocapril
+T27	Chemical 1253 1263	Temocapril
+T29	Disease 1358 1376	glomerulosclerosis
+T32	Chemical 1559 1562	GSI
+T33	Chemical 1563 1565	(r
+T34	Chemical 1656 1661	GT/BC
+T35	Chemical 1747 1761	PAN/temocapril
+T36	Chemical 1785 1795	temocapril
+T37	Disease 1823 1840	renal progression
+T38	Disease 1855 1869	renal function
+T39	Chemical 1877 1885	neprotic

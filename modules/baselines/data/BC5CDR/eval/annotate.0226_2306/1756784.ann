@@ -1,0 +1,29 @@
+T1	Disease 70 88	status epilepticus
+T3	Chemical 154 167	serum-protein
+T5	Disease 251 268	epileptic seizure
+T7	Disease 316 334	status epilepticus
+T10	Disease 442 463	metabolic derangement
+T11	Disease 468 483	hyperexcitation
+T12	Disease 532 550	status epilepticus
+T14	Disease 613 627	neuropathology
+T17	Disease 859 877	status epilepticus
+T19	Chemical 1020 1043	calcium-binding protein
+T20	Chemical 1045 1056	parvalbumin
+T21	Disease 1075 1090	neuronal damage
+T23	Chemical 1141 1161	cytoskeletal protein
+T24	Chemical 1163 1194	glial fibrillary acidic protein
+T25	Chemical 1196 1200	GFAP
+T26	Chemical 1225 1248	calcium-binding protein
+T27	Chemical 1250 1263	S-100 protein
+T28	Disease 1420 1439	blood-brain barrier
+T29	Disease 1457 1482	vasogenic edema formation
+T30	Disease 1523 1530	loss of
+T33	Chemical 1723 1728	S-100
+T34	Disease 1818 1833	neuronal damage
+T35	Disease 1870 1889	neuronal distortion
+T36	Chemical 1904 1918	serum-proteins
+T38	Disease 2004 2013	vasogenic
+T39	Chemical 2041 2044	SNR
+T48	Disease 2446 2452	globus
+T49	Disease 2706 2727	metabolic disturbance
+T50	Disease 2785 2803	status epilepticus

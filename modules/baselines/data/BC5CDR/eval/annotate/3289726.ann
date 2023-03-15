@@ -1,0 +1,11 @@
+T1	Disease 0 28	Acute neurologic dysfunction
+T2	Disease 67 83	malignant glioma
+T3	Chemical 84 93	Etoposide
+T5	Disease 162 186	hematologic malignancies
+T6	Disease 247 258	bone marrow
+T7	Disease 316 343	treatment-resistant cancers
+T8	Disease 354 370	malignant glioma
+T10	Disease 467 491	neurologic deterioration
+T11	Chemical 566 575	etoposide
+T19	Chemical 1080 1089	etoposide
+T20	Disease 1102 1118	malignant glioma

@@ -1,0 +1,19 @@
+T1	Disease 8 12	YMDD
+T2	Disease 13 26	motif mutants
+T3	Disease 73 108	chronic hepatitis B virus infection
+T5	Disease 161 180	chronic hepatitis B
+T7	Disease 329 348	chronic hepatitis B
+T8	Disease 407 411	YMDD
+T10	Disease 760 764	YMDD
+T12	Chemical 829 837	anti-HCV
+T13	Chemical 839 844	HBeAg
+T14	Chemical 850 858	anti-HBe
+T15	Chemical 959 962	AST
+T16	Chemical 1023 1028	HBeAg
+T17	Chemical 1053 1061	anti-HBe
+T18	Chemical 1086 1094	Anti-HCV
+T19	Chemical 1124 1128	YMDD
+T21	Chemical 1236 1241	HBeAg
+T22	Chemical 1245 1253	anti-HBe
+T23	Chemical 1302 1306	YMDD
+T24	Disease 1359 1378	chronic hepatitis B

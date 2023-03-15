@@ -1,0 +1,16 @@
+T1	Chemical 30 40	rocuronium
+T7	Disease 175 190	adverse effects
+T8	Disease 202 222	muscle fasciculation
+T11	Chemical 285 295	rocuronium
+T14	Chemical 388 398	rocuronium
+T16	Chemical 658 668	rocuronium
+T17	Disease 694 718	Neuromuscular monitoring
+T18	Chemical 730 748	precurarizing dose
+T19	Disease 771 795	adductor pollicis muscle
+T28	Disease 1124 1144	muscle fasciculation
+T29	Chemical 1198 1216	precurarizing dose
+T30	Chemical 1220 1230	rocuronium
+T32	Chemical 1316 1334	precurarizing dose
+T33	Chemical 1338 1348	rocuronium
+T35	Chemical 1504 1514	rocuronium
+T36	Chemical 1573 1583	rocuronium

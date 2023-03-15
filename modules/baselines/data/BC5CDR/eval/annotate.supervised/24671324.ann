@@ -1,0 +1,18 @@
+T1	Disease 12 21	fasciitis
+T2	Chemical 28 38	bortezomib
+T3	Disease 101 112	Waldenstrom
+T4	Disease 101 131	Waldenstrom macroglobulinaemia
+T5	Chemical 132 142	Bortezomib
+T6	Disease 248 268	bacterial infections
+T7	Disease 286 292	B-cell
+T8	Disease 286 305	B-cell malignancies
+T9	Disease 440 451	Waldenstrom
+T10	Disease 440 470	Waldenstrom macroglobulinaemia
+T11	Disease 496 505	fasciitis
+T12	Disease 514 525	neutropenia
+T13	Chemical 563 573	bortezomib
+T14	Chemical 585 598	dexamethasone
+T15	Chemical 603 612	rituximab
+T16	Disease 755 775	bacterial infections
+T17	Chemical 787 797	bortezomib
+T18	Chemical 813 826	dexamethasone

@@ -1,0 +1,43 @@
+T2	Chemical 38 50	nitric oxide
+T4	Chemical 126 138	nitric oxide
+T7	Disease 177 197	arterial dysfunction
+T8	Disease 199 224	Experimental hypertension
+T10	Chemical 364 376	endothelin-1
+T11	Chemical 378 382	ET-1
+T12	Disease 415 429	nervous system
+T14	Disease 516 529	smooth muscle
+T16	Chemical 563 586	Nomega-nitro-L-arginine
+T17	Chemical 588 592	LNNA
+T19	Chemical 660 686	NO synthase inhibitor LNNA
+T20	Chemical 699 713	drinking water
+T21	Disease 728 750	Mean arterial pressure
+T22	Chemical 778 788	/- 2 mm Hg
+T23	Chemical 809 819	/- 5 mm Hg
+T24	Chemical 823 827	LNNA
+T25	Disease 843 859	Carotid arteries
+T29	Chemical 1005 1009	LNNA
+T30	Chemical 1072 1076	ET-1
+T31	Disease 1141 1150	vena cava
+T33	Chemical 1229 1233	ET-1
+T35	Disease 1305 1319	venomotor tone
+T36	Chemical 1341 1345	LNNA
+T38	Chemical 1381 1385	LNNA
+T39	Chemical 1391 1418	superoxide scavenger tempol
+T41	Disease 1473 1490	arterial pressure
+T42	Chemical 1547 1551	LNNA
+T43	Chemical 1563 1565	/-
+T44	Chemical 1574 1576	/-
+T45	Chemical 1590 1592	/-
+T46	Chemical 1596 1601	mm Hg
+T47	Disease 1615 1625	ganglionic
+T48	Chemical 1640 1653	hexamethonium
+T49	Chemical 1693 1697	LNNA
+T50	Chemical 1721 1723	/-
+T51	Chemical 1726 1731	mm Hg
+T52	Chemical 1765 1767	/-
+T53	Chemical 1771 1776	mm Hg
+T54	Disease 1779 1795	Carotid arteries
+T55	Disease 1797 1806	vena cava
+T56	Disease 1812 1831	sympathetic ganglia
+T57	Chemical 1837 1841	LNNA
+T60	Disease 2041 2055	venous vessels

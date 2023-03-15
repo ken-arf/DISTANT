@@ -1,0 +1,20 @@
+T1	Disease 12 24	sinus rhythm
+T3	Disease 42 58	sinoatrial block
+T4	Chemical 70 81	propranolol
+T5	Disease 94 106	sinus rhythm
+T6	Disease 124 134	sinoatrial
+T9	Chemical 222 233	propranolol
+T11	Chemical 300 303	P-P
+T13	Chemical 384 387	P-P
+T14	Chemical 438 441	P-P
+T15	Disease 539 557	alternating rhythm
+T16	Chemical 654 663	short P-P
+T18	Disease 881 893	sinus rhythm
+T20	Disease 961 973	sinus rhythm
+T21	Chemical 1020 1023	P-P
+T23	Chemical 1190 1193	2/1
+T25	Chemical 1335 1338	P-P
+T27	Chemical 1458 1461	P-P
+T31	Chemical 1556 1567	propranolol
+T33	Chemical 1660 1671	propranolol
+T34	Disease 1696 1715	conduction disorder

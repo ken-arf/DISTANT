@@ -1,0 +1,15 @@
+T1	Disease 39 50	hypertrophy
+T2	Disease 143 153	deficiency
+T3	Chemical 192 193	(
+T4	Chemical 369 386	beta-adrenoceptor
+T5	Chemical 405 418	isoproterenol
+T6	Chemical 510 513	Iso
+T7	Disease 679 690	hypertrophy
+T8	Chemical 702 705	Iso
+T9	Disease 856 867	hypertrophy
+T10	Chemical 973 981	kinase-1
+T11	Chemical 1058 1060	HR
+T12	Chemical 1096 1106	metoprolol
+T13	Chemical 1269 1277	atropine
+T14	Chemical 1281 1283	HR
+T15	Disease 1422 1433	hypertrophy

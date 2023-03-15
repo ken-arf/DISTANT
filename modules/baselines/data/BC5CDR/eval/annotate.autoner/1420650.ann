@@ -1,0 +1,12 @@
+T1	Chemical 21 34	carbamazepine
+T2	Disease 76 85	asterixis
+T3	Chemical 141 147	agents
+T4	Chemical 242 247	drugs
+T5	Disease 257 266	asterixis
+T6	Chemical 298 311	carbamazepine
+T7	Chemical 313 316	CBZ
+T8	Chemical 406 409	CBZ
+T9	Disease 446 455	asterixis
+T10	Disease 491 504	neurotoxicity
+T11	Chemical 581 588	lithium
+T12	Chemical 592 601	clozapine

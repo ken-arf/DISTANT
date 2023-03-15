@@ -1,0 +1,21 @@
+T3	Disease 99 111	hyperalgesia
+T4	Disease 116 125	allodynia
+T7	Disease 240 252	hyperalgesia
+T8	Disease 257 266	allodynia
+T9	Disease 302 316	pain disorders
+T12	Disease 587 599	hyperalgesia
+T13	Disease 617 626	allodynia
+T14	Disease 651 659	von Frey
+T15	Disease 704 717	brush strokes
+T16	Disease 738 750	hyperalgesia
+T17	Disease 755 764	allodynia
+T18	Disease 1122 1134	hyperalgesia
+T21	Disease 1318 1330	hyperalgesia
+T23	Disease 1465 1478	brush strokes
+T25	Disease 1544 1556	hyperalgesia
+T26	Disease 1574 1583	allodynia
+T27	Disease 1671 1679	von Frey
+T28	Disease 1723 1735	hyperalgesia
+T29	Disease 1740 1749	allodynia
+T32	Disease 1809 1821	hyperalgesic
+T33	Chemical 1826 1835	allodynic

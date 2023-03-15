@@ -1,0 +1,8 @@
+T1	Disease 0 22	Pulmonary hypertension
+T3	Disease 59 66	preterm
+T5	Disease 107 117	hypoxaemia
+T7	Disease 222 239	ductus arteriosus
+T9	Disease 258 275	premature infants
+T11	Disease 382 392	Hypoxaemia
+T12	Chemical 421 433	nitric oxide
+T13	Disease 523 555	pulmonary pressure if hypoxaemia

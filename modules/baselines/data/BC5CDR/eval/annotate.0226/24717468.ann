@@ -1,0 +1,16 @@
+T2	Disease 23 47	hemodynamic disturbances
+T3	Chemical 56 71	dexmedetomidine
+T4	Chemical 76 84	propofol
+T6	Chemical 140 155	Dexmedetomidine
+T7	Chemical 160 168	propofol
+T11	Disease 336 348	side effects
+T13	Chemical 486 501	dexmedetomidine
+T14	Chemical 506 514	propofol
+T15	Chemical 947 962	dexmedetomidine
+T16	Chemical 966 974	propofol
+T17	Chemical 1036 1051	dexmedetomidine
+T18	Chemical 1060 1068	propofol
+T21	Disease 1231 1253	mean arterial pressure
+T23	Disease 1283 1293	heart rate
+T30	Chemical 1760 1775	dexmedetomidine
+T31	Chemical 1779 1787	propofol

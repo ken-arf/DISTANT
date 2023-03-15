@@ -1,0 +1,21 @@
+T1	Chemical 19 28	lidocaine
+T2	Disease 65 86	myocardial infarction
+T3	Chemical 130 139	lidocaine
+T4	Disease 174 195	myocardial infarction
+T5	Disease 197 199	MI
+T6	Disease 437 439	MI
+T7	Chemical 453 462	lidocaine
+T8	Chemical 529 538	lidocaine
+T9	Disease 576 578	MI
+T10	Disease 607 624	bradydysrhythmias
+T11	Disease 626 649	ventricular tachycardia
+T12	Disease 654 678	ventricular fibrillation
+T13	Disease 695 703	seizures
+T14	Chemical 728 737	lidocaine
+T15	Chemical 822 831	lidocaine
+T16	Chemical 844 851	cocaine
+T17	Disease 852 860	toxicity
+T18	Chemical 873 882	lidocaine
+T19	Disease 919 921	MI
+T20	Disease 958 975	cardiovascular or
+T21	Disease 976 1007	central nervous system toxicity

@@ -1,0 +1,33 @@
+T1	Disease 15 29	nephrotoxicity
+T2	Chemical 59 65	NS-718
+T3	Chemical 81 93	amphotericin
+T4	Chemical 81 102	amphotericin B.NS-718
+T5	Chemical 94 102	B.NS-718
+T6	Chemical 137 149	amphotericin
+T7	Chemical 137 151	amphotericin B
+T8	Disease 203 211	toxicity
+T9	Disease 229 237	toxicity
+T10	Chemical 241 247	NS-718
+T11	Chemical 261 270	Fungizone
+T12	Chemical 272 284	amphotericin
+T13	Chemical 272 293	amphotericin B-sodium
+T14	Chemical 285 293	B-sodium
+T15	Chemical 285 306	B-sodium deoxycholate
+T16	Chemical 308 313	D-AmB
+T17	Chemical 454 466	amphotericin
+T18	Chemical 454 468	amphotericin B
+T19	Chemical 544 550	NS-718
+T20	Chemical 661 667	D-AmB.
+T21	Chemical 680 684	urea
+T22	Chemical 689 699	creatinine
+T23	Chemical 771 776	D-AmB
+T24	Chemical 825 831	NS-718
+T25	Disease 892 900	necrosis
+T26	Chemical 961 973	Amphotericin
+T27	Chemical 961 975	Amphotericin B
+T28	Chemical 1137 1149	amphotericin
+T29	Chemical 1137 1151	amphotericin B
+T30	Chemical 1178 1184	NS-718
+T31	Disease 1200 1214	nephrotoxicity
+T32	Chemical 1218 1230	amphotericin
+T33	Chemical 1218 1232	amphotericin B.

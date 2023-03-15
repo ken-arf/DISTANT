@@ -1,0 +1,20 @@
+T1	Chemical 9 16	cocaine
+T2	Chemical 96 103	cocaine
+T3	Disease 134 146	subependymal
+T4	Disease 134 157	subependymal hemorrhage
+T5	Disease 179 184	cysts
+T6	Chemical 288 295	cocaine
+T7	Disease 332 344	subependymal
+T8	Disease 332 350	subependymal cysts
+T9	Chemical 596 603	cocaine
+T10	Chemical 629 636	cocaine
+T11	Chemical 724 731	cocaine
+T12	Disease 732 737	abuse
+T13	Disease 977 989	subependymal
+T14	Disease 977 995	subependymal cysts
+T15	Disease 1063 1075	subependymal
+T16	Disease 1063 1081	subependymal cysts
+T17	Chemical 1104 1111	cocaine
+T18	Disease 1251 1263	subependymal
+T19	Disease 1251 1268	subependymal cyst
+T20	Chemical 1318 1325	cocaine

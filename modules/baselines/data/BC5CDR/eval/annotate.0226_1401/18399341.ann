@@ -1,0 +1,24 @@
+T3	Disease 84 102	spinal anaesthesia
+T4	Disease 115 133	Spinal anaesthesia
+T5	Disease 215 232	block hypotension
+T7	Disease 347 366	respiratory changes
+T10	Disease 402 420	spinal anaesthesia
+T11	Disease 507 510	ASA
+T12	Disease 513 528	physical status
+T13	Disease 529 536	class 1
+T16	Disease 586 596	lower limb
+T18	Disease 722 738	lateral position
+T19	Disease 744 763	operative side down
+T20	Chemical 814 825	bupivacaine
+T21	Disease 916 932	lateral position
+T23	Disease 1061 1075	Blood pressure
+T24	Disease 1077 1087	heart rate
+T25	Disease 1089 1105	respiratory rate
+T28	Chemical 1274 1276	P=
+T29	Chemical 1369 1371	P=
+T32	Disease 1523 1538	blood pressures
+T33	Disease 1627 1648	mean respiratory rate
+T34	Disease 1741 1759	spinal anaesthesia
+T36	Disease 1772 1790	spinal anaesthesia
+T37	Disease 1865 1877	spinal block
+T38	Disease 1910 1926	respiratory rate

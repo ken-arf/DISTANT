@@ -1,0 +1,33 @@
+T1	Chemical 12 25	p-aminophenol
+T2	Disease 51 65	nephrotoxicity
+T3	Chemical 77 105	bis(p-nitrophenyl) phosphate
+T6	Chemical 206 210	APAP
+T8	Disease 230 246	tubular necrosis
+T9	Chemical 285 298	p-aminophenol
+T11	Chemical 321 335	nephrotoxicant
+T13	Chemical 371 375	APAP
+T14	Disease 486 500	nephrotoxicity
+T15	Chemical 527 555	bis(p-nitrophenyl) phosphate
+T16	Chemical 557 561	BNPP
+T17	Chemical 567 588	acylamidase inhibitor
+T18	Chemical 593 597	APAP
+T20	Disease 606 620	nephrotoxicity
+T21	Chemical 652 659	BNPP (1
+T22	Chemical 677 681	APAP
+T23	Chemical 682 695	deacetylation
+T24	Chemical 700 716	covalent binding
+T26	Chemical 818 822	BNPP
+T27	Chemical 832 836	APAP
+T29	Chemical 891 895	APAP
+T30	Disease 908 922	nephrotoxicity
+T32	Disease 935 949	nephrotoxicity
+T33	Chemical 1008 1012	APAP
+T36	Disease 1052 1066	renal cortical
+T37	Chemical 1137 1141	APAP
+T39	Chemical 1178 1182	APAP
+T40	Chemical 1247 1251	APAP
+T41	Chemical 1266 1294	non-deacetylated metabolites
+T42	Chemical 1303 1307	BNPP
+T46	Disease 1442 1456	nephrotoxicity
+T47	Chemical 1492 1496	APAP
+T48	Chemical 1497 1510	deacetylation

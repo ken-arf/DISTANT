@@ -1,0 +1,20 @@
+T1	Chemical 23 45	fluocinolone acetonide
+T2	Disease 89 108	retinochoroidopathy
+T3	Chemical 158 180	fluocinolone acetonide
+T4	Disease 238 257	retinochoroidopathy
+T7	Chemical 316 332	immunomodulatory
+T8	Disease 392 420	birdshot retinochoroidopathy
+T9	Chemical 489 511	fluocinolone acetonide
+T10	Chemical 593 615	fluocinolone acetonide
+T15	Disease 771 789	retinal vasculitis
+T19	Disease 1023 1034	intraocular
+T20	Disease 1081 1105	Intraocular inflammation
+T24	Disease 1456 1477	cystoid macular edema
+T25	Chemical 1569 1592	immunomodulatory agents
+T26	Disease 1706 1720	Adverse events
+T28	Disease 1740 1751	intraocular
+T30	Chemical 1834 1856	fluocinolone acetonide
+T32	Disease 1918 1938	treatment-refractory
+T33	Disease 1957 1976	retinochoroidopathy
+T34	Disease 2012 2024	side effects
+T36	Disease 2041 2060	ocular hypertension

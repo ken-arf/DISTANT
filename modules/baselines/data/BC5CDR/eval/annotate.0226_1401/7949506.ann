@@ -1,0 +1,8 @@
+T1	Disease 0 19	Adverse interaction
+T4	Disease 97 116	adverse interaction
+T19	Disease 459 467	AV block
+T25	Disease 683 691	AV block
+T26	Disease 754 773	adverse interaction
+T30	Chemical 1035 1057	antihypertensive drugs
+T34	Disease 1183 1190	AV node
+T36	Disease 1254 1261	AV node

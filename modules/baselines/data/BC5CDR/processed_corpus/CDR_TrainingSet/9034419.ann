@@ -1,0 +1,18 @@
+T1	Disease 0 7	Seizure
+T2	Chemical 25 36	venlafaxine
+T3	Disease 37 45	overdose
+T4	Chemical 77 88	venlafaxine
+T5	Disease 89 97	overdose
+T6	Disease 138 154	major depression
+T7	Disease 163 171	overdose
+T8	Chemical 175 186	venlafaxine
+T9	Chemical 245 256	venlafaxine
+T10	Disease 320 327	seizure
+T11	Chemical 382 393	venlafaxine
+T12	Chemical 512 523	venlafaxine
+T13	Disease 524 532	overdose
+T14	Disease 564 571	seizure
+T15	Chemical 635 646	venlafaxine
+T16	Chemical 752 763	venlafaxine
+T17	Disease 764 772	overdose
+T18	Disease 832 839	seizure

@@ -1,0 +1,16 @@
+T2	Chemical 46 62	cyclophosphamide
+T6	Chemical 170 174	CCNU
+T7	Chemical 180 196	cyclophosphamide
+T9	Chemical 226 230	CCNU
+T10	Disease 295 307	body surface
+T11	Chemical 323 326	CTX
+T17	Disease 602 609	grade 4
+T19	Disease 712 723	body weight
+T20	Disease 737 744	grade 4
+T22	Disease 814 825	body weight
+T25	Chemical 914 916	(3
+T28	Disease 963 977	hepatotoxicity
+T29	Disease 1010 1024	renal toxicity
+T31	Disease 1050 1082	Adverse gastrointestinal effects
+T33	Chemical 1168 1172	CCNU
+T34	Chemical 1202 1205	CTX

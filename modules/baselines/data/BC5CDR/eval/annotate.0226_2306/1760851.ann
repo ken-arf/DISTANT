@@ -1,0 +1,32 @@
+T1	Disease 8 22	cardiotoxicity
+T3	Chemical 59 92	N-(2-hydroxypropyl)methacrylamide
+T8	Disease 212 226	cardiotoxicity
+T10	Chemical 251 254	DOX
+T11	Chemical 272 281	free drug
+T12	Chemical 306 339	N-(2-hydroxypropyl)methacrylamide
+T13	Chemical 341 345	HPMA
+T16	Chemical 424 440	peptide linkages
+T17	Chemical 477 484	Gly-Gly
+T18	Chemical 503 512	lysosomal
+T22	Chemical 596 609	galactosamine
+T25	Chemical 739 742	DOX
+T26	Disease 788 799	body weight
+T27	Disease 835 846	body weight
+T28	Chemical 891 894	DOX
+T30	Chemical 976 979	DOX
+T31	Chemical 1028 1042	HPMA copolymer
+T32	Chemical 1052 1055	DOX
+T34	Disease 1136 1150	cardiotoxicity
+T35	Chemical 1207 1210	DOX
+T36	Chemical 1229 1243	HPMA copolymer
+T38	Chemical 1253 1256	DOX
+T41	Disease 1377 1391	cardiotoxicity
+T42	Disease 1420 1434	cardiac output
+T43	Chemical 1482 1485	DOX
+T44	Chemical 1504 1518	HPMA copolymer
+T45	Chemical 1528 1531	DOX
+T46	Chemical 1792 1806	HPMA copolymer
+T48	Chemical 1829 1832	DOX
+T49	Disease 1868 1882	cardiac output
+T51	Chemical 2023 2026	DOX
+T52	Chemical 2042 2056	HPMA copolymer

@@ -1,0 +1,23 @@
+T1	Disease 19 28	agitation
+T2	Chemical 58 68	quetiapine
+T3	Disease 72 88	schizo-affective
+T4	Disease 72 97	schizo-affective disorder
+T5	Disease 157 173	schizo-affective
+T6	Disease 157 182	schizo-affective disorder
+T7	Chemical 271 285	zuclopenthixol
+T8	Chemical 303 310	lithium
+T9	Chemical 332 344	lithium=0.85
+T10	Disease 384 404	personality disorder
+T11	Disease 422 432	antisocial
+T12	Disease 422 441	antisocial disorder
+T13	Disease 450 474	substance abuse disorder
+T14	Chemical 530 540	quetiapine
+T15	Disease 590 599	agitation
+T16	Disease 683 697	aggressiveness
+T17	Disease 701 721	personality disorder
+T18	Disease 740 745	manic
+T19	Disease 756 765	akathisia
+T20	Chemical 831 841	quetiapine
+T21	Disease 885 894	agitation
+T22	Disease 924 933	agitation
+T23	Chemical 950 960	quetiapine

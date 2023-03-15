@@ -1,0 +1,15 @@
+T3	Chemical 44 74	nonsteroidal anti-inflammatory
+T4	Disease 83 106	end-stage renal disease
+T8	Chemical 207 243	nonsteroidal anti-inflammatory drugs
+T10	Disease 257 280	end-stage renal disease
+T11	Disease 282 286	ESRD
+T13	Disease 402 406	ESRD
+T14	Disease 508 512	ESRD
+T16	Disease 666 670	ESRD
+T22	Chemical 1257 1268	pyrazolones
+T23	Chemical 1291 1302	paracetamol
+T24	Disease 1360 1364	ESRD
+T26	Disease 1507 1527	vascular nephropathy
+T29	Chemical 1622 1648	nonaspirin analgesic drugs
+T33	Disease 1704 1708	ESRD
+T35	Disease 1771 1775	ESRD

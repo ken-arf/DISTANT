@@ -1,0 +1,22 @@
+T1	Disease 0 19	Acute renal failure
+T2	Chemical 56 70	slimming pills
+T3	Chemical 82 96	anthraquinones
+T4	Chemical 105 133	herbal medicine preparations
+T8	Chemical 276 289	Chinese herbs
+T9	Chemical 349 367	aristolochic acids
+T10	Disease 413 432	acute renal failure
+T11	Chemical 482 502	herbal slimming pill
+T12	Chemical 518 531	anthraquinone
+T14	Disease 588 600	renal injury
+T15	Chemical 656 692	non-steroidal anti-inflammatory drug
+T16	Chemical 694 704	diclofenac
+T17	Disease 706 721	Renal pathology
+T18	Disease 734 746	hypocellular
+T19	Disease 770 796	Spontaneous renal recovery
+T20	Chemical 828 842	slimming pills
+T22	Disease 853 874	interstitial fibrosis
+T23	Disease 879 894	tubular atrophy
+T24	Chemical 997 1034	anthraquinone-containing herbal agent
+T25	Disease 1039 1051	renal injury
+T26	Disease 1098 1122	interstitial nephropathy
+T27	Disease 1173 1198	unexplained renal failure

@@ -1,0 +1,33 @@
+T1	Chemical 0 11	Propranolol
+T4	Disease 88 91	PPA
+T7	Disease 133 157	intracerebral hemorrhage
+T9	Chemical 208 219	propranolol
+T11	Chemical 284 295	propranolol
+T13	Disease 332 335	PPA
+T14	Disease 377 380	PPA
+T15	Disease 382 385	PPA
+T16	Disease 410 424	blood pressure
+T19	Chemical 483 494	propranolol
+T21	Chemical 600 611	propranolol
+T22	Disease 618 621	PPA
+T23	Disease 637 651	blood pressure
+T24	Disease 653 669	Left ventricular
+T25	Disease 722 725	PPA
+T27	Disease 804 821	ejection fraction
+T28	Disease 863 877	cardiac output
+T29	Chemical 935 946	propranolol
+T31	Disease 971 999	Systemic vascular resistance
+T32	Disease 1017 1020	PPA
+T33	Chemical 1053 1074	/- 700 dyne X sec/cm5
+T34	Chemical 1105 1116	propranolol
+T35	Disease 1173 1176	PPA
+T36	Disease 1187 1201	blood pressure
+T37	Disease 1216 1244	systemic vascular resistance
+T38	Disease 1249 1263	cardiac output
+T39	Chemical 1274 1285	propranolol
+T40	Disease 1339 1342	PPA
+T41	Disease 1346 1360	cardiac output
+T42	Chemical 1367 1378	propranolol
+T44	Disease 1413 1416	PPA
+T45	Chemical 1460 1471	propranolol
+T48	Chemical 1557 1563	beta 2

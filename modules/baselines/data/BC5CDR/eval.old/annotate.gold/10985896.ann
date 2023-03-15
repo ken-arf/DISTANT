@@ -1,0 +1,36 @@
+T1	Chemical 27 38	doxorubicin
+T2	Chemical 55 63	platinum
+T3	Chemical 64 74	paclitaxel
+T4	Disease 86 120	ovarian and fallopian tube cancers
+T5	Disease offset[0] offset[1];offset[0] offset[1]	ovarian cancers
+T6	Disease 98 120	fallopian tube cancers
+T7	Disease 133 160	carcinoma of the peritoneum
+T8	Chemical 217 228	doxorubicin
+T9	Chemical 230 235	Doxil
+T10	Chemical 277 285	platinum
+T11	Disease 296 310	ovarian cancer
+T12	Disease 331 339	toxicity
+T13	Disease 407 425	erythrodysesthesia
+T14	Disease 428 446	hand-foot syndrome
+T15	Disease 453 463	stomatitis
+T16	Chemical 513 524	doxorubicin
+T17	Chemical 620 628	platinum
+T18	Chemical 629 639	paclitaxel
+T19	Disease 697 730	ovarian or fallopian tube cancers
+T20	Disease offset[0] offset[1];offset[0] offset[1]	ovarian cancers
+T21	Disease 708 730	fallopian tube cancers
+T22	Disease 742 762	peritoneal carcinoma
+T23	Chemical 768 776	platinum
+T24	Chemical 777 787	paclitaxel
+T25	Chemical 958 969	doxorubicin
+T26	Disease 1201 1219	hand-foot syndrome
+T27	Disease 1224 1234	stomatitis
+T28	Disease 1305 1313	diarrhea
+T29	Chemical 1445 1456	doxorubicin
+T30	Chemical 1676 1687	doxorubicin
+T31	Disease 1712 1720	toxicity
+T32	Disease 1722 1732	stomatitis
+T33	Disease 1734 1752	hand-foot syndrome
+T34	Chemical 1894 1902	platinum
+T35	Chemical 1908 1918	paclitaxel
+T36	Disease 1930 1944	ovarian cancer

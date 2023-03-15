@@ -1,0 +1,26 @@
+T1	Disease 15 23	Toxicity
+T2	Disease 27 33	Cancer
+T3	Chemical 53 62	Cisplatin
+T4	Chemical 80 88	Mannitol
+T5	Chemical 101 110	Cisplatin
+T6	Chemical 178 187	cisplatin
+T7	Disease 195 223	dose-limiting nephrotoxicity
+T8	Disease 267 275	toxicity
+T9	Chemical 298 306	mannitol
+T10	Disease 423 437	nephrotoxicity
+T11	Chemical 480 489	cisplatin
+T12	Chemical 507 515	mannitol
+T13	Disease 663 669	cancer
+T14	Chemical 702 711	cisplatin
+T15	Disease 796 809	kidney injury
+T16	Chemical 878 887	cisplatin
+T17	Chemical 990 998	mannitol
+T18	Disease 1027 1041	nephrotoxicity
+T19	Disease 1182 1194	hypertension
+T20	Disease 1238 1252	nephrotoxicity
+T21	Chemical 1408 1416	mannitol
+T22	Disease 1507 1521	nephrotoxicity
+T23	Chemical 1610 1619	cisplatin
+T24	Disease 1649 1661	hypertension
+T25	Disease 1690 1704	nephrotoxicity
+T26	Chemical 1744 1752	mannitol

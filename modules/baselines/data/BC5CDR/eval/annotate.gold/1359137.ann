@@ -1,0 +1,17 @@
+T1	Chemical 0 11	Neuroleptic
+T2	Disease 23 41	hyperprolactinemia
+T3	Chemical 66 79	bromocriptine
+T4	Disease 120 138	hyperprolactinemia
+T5	Disease 143 153	amenorrhea
+T6	Disease 154 168	oligomenorrhea
+T7	Chemical 191 214	neuroleptic medications
+T8	Chemical 233 246	bromocriptine
+T9	Disease 287 305	hyperprolactinemia
+T10	Disease 400 420	psychiatric symptoms
+T11	Chemical 434 447	bromocriptine
+T12	Chemical 563 576	bromocriptine
+T13	Chemical 597 610	bromocriptine
+T14	Chemical 664 675	neuroleptic
+T15	Disease 687 705	hyperprolactinemia
+T16	Disease 710 720	amenorrhea
+T17	Disease 721 733	galactorrhea

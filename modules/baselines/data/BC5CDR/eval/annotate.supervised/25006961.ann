@@ -1,0 +1,19 @@
+T1	Disease 48 59	nephrogenic
+T2	Disease 60 78	diabetes insipidus
+T3	Chemical 79 86	Lithium
+T4	Disease 124 135	nephrogenic
+T5	Disease 124 154	nephrogenic diabetes insipidus
+T6	Disease 156 159	NDI
+T7	Chemical 243 250	lithium
+T8	Chemical 274 278	cAMP
+T9	Chemical 312 316	urea
+T10	Chemical 341 346	water
+T11	Disease 526 534	polyuria
+T12	Chemical 627 634	lithium
+T13	Chemical 1060 1067	lithium
+T14	Chemical 1390 1396	sodium
+T15	Chemical 1398 1407	potassium
+T16	Chemical 1412 1419	calcium
+T17	Disease 1605 1608	NDI
+T18	Disease 1653 1661	polyuria
+T19	Chemical 1678 1685	lithium

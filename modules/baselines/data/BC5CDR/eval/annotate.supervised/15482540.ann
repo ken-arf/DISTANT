@@ -1,0 +1,16 @@
+T1	Disease 42 48	anemia
+T2	Chemical 69 79	Interferon
+T3	Chemical 84 93	ribavirin
+T4	Disease 118 137	chronic hepatitis C
+T5	Disease 147 156	hemolytic
+T6	Disease 147 163	hemolytic anemia
+T7	Disease 248 254	anemia
+T8	Disease 292 311	chronic hepatitis C
+T9	Chemical 325 344	interferon-alpha-2b
+T10	Chemical 425 434	ribavirin
+T11	Disease 584 590	anemia
+T12	Disease 619 625	anemia
+T13	Disease 740 746	anemia
+T14	Disease 1115 1121	anemia
+T15	Chemical 1198 1207	ribavirin
+T16	Chemical 1417 1426	ribavirin

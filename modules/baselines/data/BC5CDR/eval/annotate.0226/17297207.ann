@@ -1,0 +1,18 @@
+T7	Disease 169 202	premature ventricular contraction
+T9	Disease 300 310	high fever
+T10	Disease 312 327	chill, vomiting
+T12	Disease 372 386	blood pressure
+T13	Chemical 478 505	Plasmodium falciparum (++++
+T15	Chemical 569 581	unconjugated
+T17	Chemical 619 624	meq/L
+T26	Disease 797 812	loss of hearing
+T29	Disease 925 958	premature ventricular contraction
+T30	Disease 979 988	trigemini
+T31	Disease 1005 1021	sinoatrial block
+T34	Chemical 1146 1165	potassium aspartate
+T38	Chemical 1233 1248	quinine tablets
+T40	Chemical 1402 1408	meq/L.
+T43	Chemical 1487 1495	chincona
+T48	Chemical 1676 1694	parenteral quinine
+T49	Disease 1820 1834	heart diseases
+T50	Disease 1852 1872	electrolyte disorder

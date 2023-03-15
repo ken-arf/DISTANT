@@ -1,0 +1,18 @@
+T1	Chemical 50 62	isotretinoin
+T2	Chemical 141 153	isotretinoin
+T3	Disease 203 209	cystic
+T4	Disease 210 214	acne
+T5	Disease 216 238	Blepharoconjunctivitis
+T6	Disease 265 273	dry eyes
+T7	Disease 275 282	blurred
+T8	Disease 275 289	blurred vision
+T9	Disease 321 336	photodermatitis
+T10	Disease 412 423	papilledema
+T11	Disease 425 436	pseudotumor
+T12	Disease 425 444	pseudotumor cerebri
+T13	Disease 478 495	corneal opacities
+T14	Chemical 623 635	Isotretinoin
+T15	Disease 697 721	congenital abnormalities
+T16	Disease 752 766	microphthalmos
+T17	Disease 768 789	orbital hypertelorism
+T18	Disease 795 817	optic nerve hypoplasia

@@ -1,0 +1,12 @@
+T1	Disease 0 10	Thrombotic
+T2	Chemical 83 87	acid
+T3	Disease 112 125	renal failure
+T4	Chemical 227 250	all-trans-retinoic acid
+T5	Chemical 262 277	tranexamic acid
+T6	Disease 333 346	renal failure
+T7	Disease 435 449	thromboembolic
+T8	Disease 561 566	signs
+T9	Disease 571 579	symptoms
+T10	Disease 680 699	acute renal failure
+T11	Disease 941 951	Thrombotic
+T12	Chemical 995 1003	low-dose

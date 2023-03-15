@@ -1,0 +1,16 @@
+T1	Disease 0 14	Cardiac arrest
+T2	Disease 31 45	cerebral palsy
+T3	Chemical 57 68	sevoflurane
+T4	Chemical 112 121	clonidine
+T5	Chemical 122 131	Clonidine
+T6	Disease 282 296	cerebral palsy
+T7	Disease 301 317	seizure disorder
+T8	Chemical 329 338	clonidine
+T9	Disease 343 355	restlessness
+T10	Chemical 390 398	baclofen
+T11	Chemical 502 511	clonidine
+T12	Disease 571 578	anxiety
+T13	Disease 634 645	bradycardia
+T14	Disease 650 661	hypotension
+T15	Chemical 728 737	clonidine
+T16	Disease 749 763	cardiac arrest

@@ -1,0 +1,21 @@
+T1	Chemical 34 45	vasopressin
+T2	Chemical 103 110	lithium
+T3	Disease 119 137	diabetes insipidus
+T4	Chemical 160 180	arginine vasopressin
+T5	Chemical 182 185	AVP
+T6	Chemical 279 286	lithium
+T7	Chemical 288 290	Li
+T8	Disease 300 308	polyuria
+T9	Chemical 428 432	LiCl
+T10	Disease 475 483	polyuria
+T11	Chemical 489 491	Li
+T12	Chemical 586 592	sodium
+T13	Chemical 651 653	Li
+T14	Chemical 724 727	AVP
+T15	Chemical 747 750	AVP
+T16	Chemical 811 813	Li
+T17	Disease 878 889	dehydration
+T18	Chemical 982 985	AVP
+T19	Chemical 1010 1013	AVP
+T20	Chemical 1060 1062	Li
+T21	Disease 1071 1089	diabetes insipidus

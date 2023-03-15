@@ -1,0 +1,31 @@
+T2	Disease 11 31	sterile leukocyturia
+T3	Disease 60 74	renal function
+T4	Chemical 78 106	human immunodeficiency virus
+T8	Disease 255 274	renal complications
+T9	Disease 308 320	side effects
+T10	Chemical 360 378	protease inhibitor
+T12	Disease 449 463	nephrotoxicity
+T13	Chemical 482 510	human immunodeficiency virus
+T16	Chemical 590 600	creatinine
+T18	Chemical 728 738	creatinine
+T23	Disease 1058 1078	sterile leukocyturia
+T25	Disease 1171 1192	microscopic hematuria
+T26	Chemical 1228 1238	creatinine
+T29	Disease 1313 1333	sterile leukocyturia
+T30	Chemical 1360 1370	creatinine
+T33	Disease 1437 1457	sterile leukocyturia
+T36	Disease 1506 1526	sterile leukocyturia
+T37	Disease 1616 1639	persistent leukocyturia
+T42	Disease 1802 1816	nephrotoxicity
+T43	Chemical 1842 1852	creatinine
+T44	Disease 1933 1945	leukocyturia
+T48	Disease 2075 2087	leukocyturia
+T51	Disease 2114 2134	sterile leukocyturia
+T52	Chemical 2176 2186	creatinine
+T53	Disease 2216 2232	Younger children
+T54	Disease 2261 2280	renal complications
+T56	Disease 2304 2318	renal function
+T59	Disease 2364 2381	clinical symptoms
+T60	Disease 2423 2437	nephrotoxicity
+T63	Disease 2533 2545	leukocyturia
+T65	Chemical 2620 2626	C(max)

@@ -1,0 +1,12 @@
+T1	Chemical 0 11	Ceftriaxone
+T2	Disease 23 46	biliary pseudolithiasis
+T3	Chemical 101 112	ceftriaxone
+T4	Disease 122 137	pseudolithiasis
+T5	Disease 227 250	gallbladder dysfunction
+T6	Disease 308 323	pseudolithiasis
+T7	Disease 408 423	pseudolithiasis
+T8	Chemical 466 477	ceftriaxone
+T9	Chemical 571 582	ceftriaxone
+T10	Disease 720 735	pseudolithiasis
+T11	Disease 883 898	pseudolithiasis
+T12	Disease 962 977	pseudolithiasis

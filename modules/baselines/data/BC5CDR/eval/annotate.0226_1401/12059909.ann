@@ -1,0 +1,17 @@
+T3	Chemical 20 36	cyclophosphamide
+T5	Chemical 55 60	DBA/2
+T11	Chemical 201 206	DBA/2
+T13	Chemical 303 319	cyclophosphamide
+T14	Disease 321 323	CY
+T15	Chemical 326 338	Inbred DBA/2
+T16	Chemical 382 384	CY
+T20	Disease 575 577	CY
+T23	Disease 708 710	CY
+T25	Disease 734 752	non-ulcerous forms
+T29	Disease 890 905	transepithelial
+T32	Disease 932 950	inflammatory cells
+T34	Disease 986 996	urothelium
+T36	Disease 1040 1055	muscular layers
+T41	Disease 1410 1427	epithelial layers
+T44	Disease 1550 1552	CY
+T48	Disease 1664 1685	interstitial cystitis

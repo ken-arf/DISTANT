@@ -1,0 +1,25 @@
+T1	Chemical 0 7	Cocaine
+T2	Chemical 9 16	ethanol
+T3	Chemical 22 34	cocaethylene
+T4	Disease 90 95	abuse
+T5	Chemical 130 137	cocaine
+T6	Chemical 142 149	ethanol
+T7	Disease 298 306	toxicity
+T8	Chemical 388 400	cocaethylene
+T9	Chemical 409 416	cocaine
+T10	Chemical 459 466	ethanol
+T11	Disease 542 556	cardiotoxicity
+T12	Chemical 560 567	cocaine
+T13	Disease 608 613	abuse
+T14	Chemical 698 700	IV
+T15	Chemical 713 720	cocaine
+T16	Chemical 736 743	ethanol
+T17	Chemical 794 801	cocaine
+T18	Chemical 1217 1224	cocaine
+T19	Disease 1604 1615	arrhythmias
+T20	Disease 1698 1721	ventricular tachycardia
+T21	Chemical 1736 1743	Cocaine
+T22	Chemical 1748 1755	ethanol
+T23	Disease 1864 1872	toxicity
+T24	Chemical 1909 1921	cocaethylene
+T25	Disease 1979 1989	depression

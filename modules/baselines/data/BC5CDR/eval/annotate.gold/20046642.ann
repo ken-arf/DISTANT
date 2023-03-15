@@ -1,0 +1,40 @@
+T1	Chemical 0 15	Metallothionein
+T2	Chemical 147 157	carmustine
+T3	Chemical 263 278	metallothionein
+T4	Chemical 280 282	MT
+T5	Chemical 287 294	ZnSO(4)
+T6	Chemical 397 399	MT
+T7	Chemical 413 423	carmustine
+T8	Chemical 425 429	BCNU
+T9	Disease 451 472	cognitive dysfunction
+T10	Chemical 664 668	BCNU
+T11	Chemical 714 721	ZnSO(4)
+T12	Chemical 779 783	BCNU
+T13	Chemical 831 835	BCNU
+T14	Chemical 946 953	ZnSO(4)
+T15	Chemical 1005 1009	BCNU
+T16	Chemical 1076 1080	BCNU
+T17	Disease 1108 1155	deterioration of learning and short-term memory
+T18	Disease 1108 1133	deterioration of learning
+T19	Disease offset[0] offset[1];offset[0] offset[1]	deterioration of short-term memory
+T20	Chemical 1246 1257	glutathione
+T21	Chemical 1294 1305	glutathione
+T22	Chemical 1307 1310	GSH
+T23	Chemical 1327 1331	BCNU
+T24	Disease 1363 1368	tumor
+T25	Disease 1369 1377	necrosis
+T26	Chemical 1415 1417	MT
+T27	Chemical 1422 1437	malondialdehyde
+T28	Chemical 1439 1442	MDA
+T29	Chemical 1524 1531	ZnSO(4)
+T30	Chemical 1558 1562	BCNU
+T31	Chemical 1605 1608	GSH
+T32	Chemical 1664 1667	MDA
+T33	Chemical 1795 1802	ZnSO(4)
+T34	Chemical 1805 1809	BCNU
+T35	Chemical 1827 1831	BCNU
+T36	Chemical 1864 1866	MT
+T37	Chemical 1883 1887	BCNU
+T38	Disease 1908 1916	toxicity
+T39	Chemical 1951 1954	GSH
+T40	Chemical 2016 2019	MDA

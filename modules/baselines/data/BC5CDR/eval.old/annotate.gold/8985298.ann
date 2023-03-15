@@ -1,0 +1,17 @@
+T1	Chemical 0 10	Lamivudine
+T2	Disease 39 50	hepatitis B
+T3	Chemical 72 99	hepatitis B surface antigen
+T4	Chemical 137 147	Lamivudine
+T5	Chemical 159 181	2',3'-dideoxy cytosine
+T6	Disease 229 240	hepatitis B
+T7	Chemical 385 412	hepatitis B surface antigen
+T8	Chemical 414 419	HBsAg
+T9	Chemical 449 454	HBsAg
+T10	Chemical 515 525	lamivudine
+T11	Chemical 784 794	lamivudine
+T12	Disease 813 824	hepatitis B
+T13	Chemical 908 918	lamivudine
+T14	Disease 1185 1196	hepatitis B
+T15	Chemical 1320 1330	lamivudine
+T16	Chemical 1391 1396	HBsAg
+T17	Chemical 1471 1481	lamivudine

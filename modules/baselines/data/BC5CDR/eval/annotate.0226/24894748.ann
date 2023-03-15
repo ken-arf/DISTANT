@@ -1,0 +1,11 @@
+T1	Chemical 2 24	metoprolol-terbinafine
+T3	Disease 69 86	sinus bradycardia
+T8	Disease 231 254	coronary artery disease
+T10	Disease 321 334	onychomycosis
+T13	Chemical 431 434	his
+T17	Disease 571 592	adverse drug reaction
+T18	Disease 667 684	sinus bradycardia
+T23	Chemical 853 863	bisoprolol
+T24	Disease 872 882	heart rate
+T25	Chemical 918 937	cytochrome P450 2D6
+T30	Disease 1069 1086	sinus bradycardia

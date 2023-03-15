@@ -1,0 +1,31 @@
+T1	Chemical 35 50	methamphetamine
+T2	Disease 51 60	psychosis
+T3	Disease 224 233	psychosis
+T4	Chemical 251 266	methamphetamine
+T5	Disease 267 277	dependence
+T6	Disease 303 314	psychiatric
+T7	Disease 356 365	psychosis
+T8	Chemical 549 564	methamphetamine
+T9	Disease 693 702	psychosis
+T10	Disease 713 717	Axis
+T11	Disease 720 741	psychiatric disorders
+T12	Disease 929 947	psychotic symptoms
+T13	Disease 994 1012	psychotic symptoms
+T14	Disease 1081 1097	bipolar disorder
+T15	Disease 1131 1141	antisocial
+T16	Disease 1131 1162	antisocial personality disorder
+T17	Chemical 1205 1220	methamphetamine
+T18	Disease 1294 1303	psychosis
+T19	Disease 1338 1363	Major depressive disorder
+T20	Disease 1395 1405	antisocial
+T21	Disease 1395 1426	antisocial personality disorder
+T22	Disease 1503 1512	psychosis
+T23	Disease 1551 1560	psychosis
+T24	Chemical 1578 1593	methamphetamine
+T25	Disease 1639 1657	affective disorder
+T26	Disease 1659 1669	antisocial
+T27	Disease 1659 1681	antisocial personality
+T28	Chemical 1693 1708	methamphetamine
+T29	Chemical 1750 1765	methamphetamine
+T30	Disease 1766 1776	dependence
+T31	Disease 1800 1818	psychotic symptoms

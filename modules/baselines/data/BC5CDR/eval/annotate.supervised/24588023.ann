@@ -1,0 +1,35 @@
+T1	Chemical 24 34	tranexamic
+T2	Chemical 24 39	tranexamic acid
+T3	Disease 44 54	convulsive
+T4	Disease 44 63	convulsive seizures
+T5	Disease 179 187	seizures
+T6	Disease 380 390	convulsive
+T7	Disease 380 398	convulsive seizure
+T8	Disease 437 461	disturbed brain function
+T9	Disease 479 515	abnormal involuntary motor movements
+T10	Disease 616 624	seizures
+T11	Disease 681 691	convulsive
+T12	Disease 681 700	convulsive seizures
+T13	Disease 724 732	seizures
+T14	Disease 839 846	seizure
+T15	Disease 1030 1038	seizures
+T16	Disease 1087 1103	calcification of
+T17	Disease 1121 1145	congestive heart failure
+T18	Disease 1164 1182	circulatory arrest
+T19	Chemical 1219 1229	tranexamic
+T20	Chemical 1219 1234	tranexamic acid
+T21	Chemical 1287 1297	tranexamic
+T22	Chemical 1287 1302	tranexamic acid
+T23	Disease 1341 1349	seizures
+T24	Disease 1403 1413	convulsive
+T25	Disease 1403 1422	convulsive seizures
+T26	Disease 1541 1551	convulsive
+T27	Disease 1541 1560	convulsive seizures
+T28	Disease 1668 1678	convulsive
+T29	Disease 1668 1687	convulsive seizures
+T30	Disease 1745 1753	seizures
+T31	Disease 1767 1777	Convulsive
+T32	Disease 1767 1786	Convulsive seizures
+T33	Chemical 1854 1864	tranexamic
+T34	Chemical 1854 1869	tranexamic acid
+T35	Disease 2005 2027	postoperative seizures

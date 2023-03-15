@@ -1,0 +1,27 @@
+T1	Chemical 21 35	bendrofluazide
+T2	Chemical 40 51	propranolol
+T3	Disease 78 90	hypertension
+T4	Disease 161 173	Hypertension
+T5	Disease 244 256	hypertension
+T6	Chemical 313 327	bendrofluazide
+T7	Chemical 329 340	propranolol
+T8	Chemical 560 574	bendrofluazide
+T9	Disease 589 598	impotence
+T10	Disease 604 613	impotence
+T11	Chemical 663 674	propranolol
+T12	Disease 777 803	impaired glucose tolerance
+T13	Disease 825 829	gout
+T14	Chemical 854 868	bendrofluazide
+T15	Disease 884 904	Raynaud's phenomenon
+T16	Disease 909 917	dyspnoea
+T17	Chemical 942 953	propranolol
+T18	Disease 958 973	corneal disease
+T19	Chemical 1007 1018	propranolol
+T20	Chemical 1037 1046	potassium
+T21	Chemical 1063 1067	urea
+T22	Chemical 1072 1081	uric acid
+T23	Chemical 1119 1133	bendrofluazide
+T24	Chemical 1142 1153	propranolol
+T25	Chemical 1167 1176	potassium
+T26	Chemical 1181 1190	uric acid
+T27	Chemical 1226 1230	urea

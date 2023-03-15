@@ -1,0 +1,12 @@
+T1	Chemical 31 43	serotonergic
+T5	Chemical 151 163	clonidine (1
+T7	Disease 225 238	ventrolateral
+T10	Chemical 396 410	saline vehicle
+T11	Disease 457 479	mean arterial pressure
+T12	Disease 488 498	heart rate
+T17	Disease 775 793	spinal 5-HT nerves
+T19	Chemical 837 860	5,7-dihydroxytryptamine
+T20	Chemical 891 904	vasodepressor
+T23	Chemical 1078 1090	serotonergic
+T27	Disease 1234 1254	sympathetic efferent
+T29	Disease 1323 1337	vagal efferent

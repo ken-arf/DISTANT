@@ -1,0 +1,14 @@
+T1	Chemical 0 9	Topotecan
+T2	Disease 59 71	glioblastoma
+T3	Disease 99 122	glioblastoma multiforme
+T4	Disease 124 127	GBM
+T5	Chemical 184 193	Topotecan
+T6	Disease 260 266	glioma
+T7	Chemical 389 398	topotecan
+T8	Disease 503 506	GBM
+T9	Disease 543 553	toxicities
+T10	Disease 590 600	toxicities
+T11	Disease 638 649	lymphopenia
+T12	Disease 654 665	neutropenia
+T13	Chemical 864 873	Topotecan
+T14	Disease 1099 1102	GBM

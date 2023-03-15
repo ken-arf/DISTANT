@@ -1,0 +1,32 @@
+T1	Disease 0 18	Serotonin syndrome
+T2	Chemical 24 35	venlafaxine
+T3	Chemical 36 51	tranylcypromine
+T4	Chemical 89 98	serotonin
+T5	Chemical 136 145	serotonin
+T6	Disease 181 196	muscle rigidity
+T7	Disease 198 208	salivation
+T8	Disease 210 219	confusion
+T9	Disease 221 230	agitation
+T10	Disease 235 247	hyperthermia
+T11	Chemical 366 375	serotonin
+T12	Chemical 396 407	Venlafaxine
+T13	Chemical 468 477	serotonin
+T14	Chemical 482 496	norepinephrine
+T15	Chemical 510 521	venlafaxine
+T16	Disease 560 578	serotonin syndrome
+T17	Chemical 613 628	tranylcypromine
+T18	Disease 633 643	depression
+T19	Chemical 720 731	venlafaxine
+T20	Disease 806 813	tremors
+T21	Disease 818 826	rigidity
+T22	Disease 929 944	myoclonic jerks
+T23	Disease 946 954	rigidity
+T24	Disease 956 966	salivation
+T25	Chemical 1169 1177	diazepam
+T26	Disease 1210 1225	muscle rigidity
+T27	Disease 1299 1314	hypoventilation
+T28	Disease 1324 1333	paralyzed
+T29	Disease 1345 1360	muscle rigidity
+T30	Disease 1414 1430	thrombocytopenia
+T31	Disease 1554 1568	rhabdomyolysis
+T32	Disease 1732 1741	paralysis

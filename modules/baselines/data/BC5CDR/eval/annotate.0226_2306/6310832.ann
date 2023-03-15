@@ -1,0 +1,31 @@
+T1	Disease 0 16	Early infections
+T4	Disease 39 55	liver transplant
+T5	Chemical 70 82	cyclosporine
+T8	Disease 134 150	liver transplant
+T11	Chemical 237 240	Aza
+T12	Disease 352 368	renal transplant
+T13	Chemical 399 411	cyclosporine
+T15	Chemical 443 446	Aza
+T16	Disease 512 531	nonviral infections
+T17	Chemical 571 583	cyclosporine
+T20	Chemical 644 656	cyclosporine
+T22	Disease 736 753	infectious deaths
+T23	Disease 757 773	renal transplant
+T24	Chemical 786 798	cyclosporine
+T25	Chemical 802 805	Aza
+T27	Disease 855 873	cardiac transplant
+T29	Disease 899 915	liver transplant
+T31	Chemical 942 954	cyclosporine
+T35	Disease 1039 1059	abdominal infections
+T36	Disease 1079 1103	intrathoracic infections
+T37	Disease 1127 1151	urinary tract infections
+T38	Disease 1171 1191	Pulmonary infections
+T39	Disease 1333 1358	staphylococcal infections
+T40	Disease 1417 1443	systemic fungal infections
+T41	Disease 1465 1481	liver transplant
+T42	Chemical 1587 1599	cyclosporine
+T43	Chemical 1620 1623	Aza
+T44	Chemical 1641 1653	cyclosporine
+T46	Disease 1692 1705	CMV infection
+T48	Chemical 1784 1796	cyclosporine
+T49	Disease 1825 1844	associated symptoms

@@ -1,0 +1,23 @@
+T1	Disease 26 37	hypotension
+T2	Chemical 49 71	adenosine triphosphate
+T3	Chemical 76 96	sodium nitroprusside
+T4	Chemical 128 150	Adenosine triphosphate
+T5	Chemical 152 155	ATP
+T6	Chemical 161 181	sodium nitroprusside
+T7	Chemical 183 186	SNP
+T8	Disease 239 250	hypotension
+T9	Chemical 270 273	SNP
+T10	Chemical 324 327	ATP
+T11	Chemical 526 529	ATP
+T12	Chemical 543 546	SNP
+T13	Disease 666 677	hypotension
+T14	Disease 724 735	Hypotension
+T15	Chemical 747 750	ATP
+T16	Chemical 1058 1064	oxygen
+T17	Chemical 1189 1192	ATP
+T18	Disease 1244 1255	hypotension
+T19	Chemical 1268 1271	SNP
+T20	Chemical 1561 1567	oxygen
+T21	Chemical 1842 1845	SNP
+T22	Chemical 1869 1872	ATP
+T23	Chemical 1877 1880	SNP

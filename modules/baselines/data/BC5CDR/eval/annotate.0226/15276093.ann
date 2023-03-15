@@ -1,0 +1,20 @@
+T1	Chemical 27 37	once-daily
+T3	Chemical 45 72	extended-release/lovastatin
+T5	Chemical 187 214	extended-release/lovastatin
+T6	Chemical 224 243	combination product
+T9	Disease 309 321	dyslipidemia
+T10	Chemical 384 398	bedtime niacin
+T11	Chemical 399 426	extended-release/lovastatin
+T12	Disease 563 575	dyslipidemia
+T17	Disease 927 939	dyslipidemia
+T19	Chemical 988 998	end points
+T21	Disease 1098 1115	clinical myopathy
+T23	Chemical 1197 1224	extended-release/lovastatin
+T24	Disease 1379 1392	adverse event
+T26	Disease 1429 1442	adverse event
+T29	Chemical 1533 1559	aspartate aminotransferase
+T30	Chemical 1567 1591	alanine aminotransferase
+T31	Chemical 1653 1675	creatine phosphokinase
+T32	Disease 1761 1782	drug-induced myopathy
+T33	Chemical 1805 1832	extended-release/lovastatin
+T35	Chemical 1970 1984	muscle enzymes

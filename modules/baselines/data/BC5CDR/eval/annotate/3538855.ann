@@ -1,0 +1,10 @@
+T1	Chemical 28 42	aminoglycoside
+T2	Chemical 199 214	aminoglycosides
+T3	Chemical 344 359	aminoglycosides
+T4	Disease 363 376	seriously ill
+T5	Disease 433 452	acute renal failure
+T6	Chemical 611 625	aminoglycoside
+T7	Disease 634 647	liver disease
+T8	Chemical 686 696	creatinine
+T9	Disease 794 813	acute renal failure
+T11	Disease 1048 1063	pathophysiology

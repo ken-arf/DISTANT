@@ -1,0 +1,13 @@
+T2	Disease 50 64	cerebral edema
+T3	Disease 69 94	intracranial hypertension
+T4	Disease 111 136	fulminant hepatic failure
+T5	Disease 209 223	cerebral edema
+T6	Disease 247 262	hepatic failure
+T9	Disease 492 506	cerebral edema
+T12	Disease 808 822	cerebral edema
+T15	Disease 907 925	chemical paralysis
+T16	Disease 927 952	Her intracranial pressure
+T18	Disease 1119 1137	her cerebral edema
+T19	Disease 1142 1167	intracranial hypertension
+T20	Disease 1285 1299	cerebral edema
+T21	Chemical 1305 1327	acetaminophen overdose

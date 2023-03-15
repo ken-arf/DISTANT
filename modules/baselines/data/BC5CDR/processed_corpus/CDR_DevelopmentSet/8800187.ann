@@ -1,0 +1,36 @@
+T1	Chemical 10 26	calcium chloride
+T2	Chemical 31 46	4-aminopyridine
+T3	Chemical 58 69	desipramine
+T4	Disease 70 78	toxicity
+T5	Disease 99 110	Hypotension
+T6	Disease 175 183	overdose
+T7	Chemical 244 251	calcium
+T8	Chemical 319 326	calcium
+T9	Disease 380 391	hypotension
+T10	Chemical 496 503	calcium
+T11	Disease 520 528	overdose
+T12	Chemical 530 535	CaCl2
+T13	Chemical 540 555	4-aminopyridine
+T14	Chemical 613 624	desipramine
+T15	Disease 639 650	hypotension
+T16	Disease 674 685	bradycardia
+T17	Chemical 723 728	CaCl2
+T18	Chemical 730 736	NaHCO3
+T19	Chemical 812 823	desipramine
+T20	Chemical 849 864	4-aminopyridine
+T21	Chemical 885 891	NaHCO3
+T22	Disease 917 928	hypotension
+T23	Chemical 951 956	CaCl2
+T24	Chemical 961 976	4-aminopyridine
+T25	Disease 1028 1051	ventricular arrhythmias
+T26	Disease 1068 1076	seizures
+T27	Chemical 1095 1100	CaCl2
+T28	Chemical 1175 1180	CaCl2
+T29	Chemical 1184 1199	4-aminopyridine
+T30	Disease 1249 1260	hypotension
+T31	Chemical 1270 1275	CaCl2
+T32	Disease 1309 1359	cardiovascular and central nervous system toxicity
+T33	Disease 1309 1323;1351 1359	cardiovascular toxicity
+T34	Disease 1328 1359	central nervous system toxicity
+T35	Chemical 1402 1409	calcium
+T36	Disease 1485 1496	hypotension

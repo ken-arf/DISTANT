@@ -1,0 +1,26 @@
+T1	Disease 30 48	hyperprolactinemia
+T2	Disease 50 67	loss of prolactin
+T3	Disease 216 234	hyperprolactinemia
+T4	Disease 266 284	Macroprolactinemia
+T6	Disease 442 460	macroprolactinemia
+T9	Disease 548 566	hyperprolactinemia
+T11	Chemical 683 686	PRL
+T13	Chemical 856 859	PRL
+T15	Chemical 905 908	PRL
+T16	Chemical 943 946	PRL
+T17	Disease 955 972	macroprolactinoma
+T18	Chemical 980 983	PRL
+T19	Disease 990 1007	microprolactinoma
+T20	Chemical 1016 1019	PRL
+T21	Disease 1027 1045	macroprolactinemia
+T22	Chemical 1054 1057	PRL
+T23	Disease 1077 1095	pseudoprolactinoma
+T24	Chemical 1103 1106	PRL
+T25	Disease 1139 1157	hyperprolactinemia
+T26	Chemical 1165 1168	PRL
+T28	Chemical 1249 1252	PRL
+T29	Disease 1409 1427	pseudoprolactinoma
+T30	Disease 1451 1469	hyperprolactinemia
+T32	Disease 1582 1600	hyperprolactinemia
+T34	Chemical 1711 1723	dopaminergic
+T35	Disease 1752 1770	hyperprolactinemia

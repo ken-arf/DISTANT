@@ -1,0 +1,20 @@
+T1	Chemical 10 19	captopril
+T2	Chemical 40 55	aminonucleoside
+T3	Disease 64 75	proteinuria
+T4	Disease 93 105	hypertensive
+T5	Disease 111 122	Proteinuria
+T6	Chemical 143 152	captopril
+T7	Disease 166 178	hypertensive
+T8	Disease 229 246	renal abnormality
+T9	Chemical 252 261	captopril
+T10	Chemical 306 315	captopril
+T11	Disease 361 372	proteinuria
+T12	Chemical 400 409	captopril
+T13	Disease 478 489	proteinuria
+T14	Chemical 501 526	puromycin aminonucleoside
+T15	Chemical 535 544	Captopril
+T16	Chemical 640 646	sodium
+T17	Chemical 651 660	potassium
+T18	Chemical 673 683	creatinine
+T19	Chemical 749 755	ketone
+T20	Chemical 857 866	captopril

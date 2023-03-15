@@ -1,0 +1,24 @@
+T1	Chemical 75 85	argatroban
+T2	Chemical 130 140	Argatroban
+T4	Chemical 171 196	direct thrombin inhibitor
+T6	Chemical 374 377	PCI
+T7	Chemical 453 463	argatroban
+T8	Chemical 503 513	argatroban
+T9	Disease 571 589	hepatic impairment
+T10	Chemical 766 779	reduced doses
+T12	Disease 840 861	hepatic hypoperfusion
+T13	Disease 868 881	heart failure
+T14	Disease 907 924	renal dysfunction
+T16	Chemical 969 979	Argatroban
+T17	Disease 1072 1075	PCI
+T18	Chemical 1199 1202	PCI
+T19	Chemical 1204 1214	argatroban
+T22	Chemical 1436 1446	Argatroban
+T23	Chemical 1460 1490	International Normalized Ratio
+T24	Chemical 1536 1558	argatroban-to-warfarin
+T25	Disease 1590 1604	Major bleeding
+T26	Chemical 1610 1620	argatroban
+T27	Chemical 1693 1703	Argatroban
+T31	Chemical 1771 1781	argatroban
+T32	Chemical 1875 1885	argatroban
+T33	Chemical 1946 1949	PCI

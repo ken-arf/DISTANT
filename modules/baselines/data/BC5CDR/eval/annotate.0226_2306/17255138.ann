@@ -1,0 +1,15 @@
+T1	Chemical 22 38	COX-2 inhibitors
+T2	Chemical 42 55	non-selective
+T5	Disease 193 214	myocardial infarction
+T6	Chemical 216 219	AMI
+T7	Chemical 226 242	COX-2 inhibitors
+T8	Chemical 304 317	non-selective
+T10	Chemical 323 360	non-steroidal anti-inflammatory drugs
+T13	Chemical 424 427	AMI
+T14	Disease 432 443	GI bleeding
+T15	Chemical 473 489	COX-2 inhibitors
+T16	Chemical 491 500	NS-NSAIDs
+T27	Chemical 1028 1037	NS-NSAIDs
+T34	Chemical 1315 1325	diclofenac
+T40	Chemical 1499 1509	diclofenac
+T48	Chemical 1818 1827	NS-NSAIDs

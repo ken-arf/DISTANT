@@ -1,0 +1,15 @@
+T2	Chemical 49 71	adenosine triphosphate
+T3	Chemical 76 96	sodium nitroprusside
+T4	Chemical 128 150	Adenosine triphosphate
+T6	Chemical 161 181	sodium nitroprusside
+T7	Disease 231 250	control hypotension
+T11	Disease 584 606	mean arterial pressure
+T15	Disease 800 818	pulmonary arterial
+T16	Disease 849 863	central venous
+T17	Disease 894 924	left ventricular end-diastolic
+T18	Disease 1206 1220	Cardiac output
+T21	Disease 1312 1330	pulmonary arterial
+T22	Disease 1360 1383	central venous pressure
+T23	Disease 1405 1435	left ventricular end-diastolic
+T25	Disease 1688 1702	cardiac output
+T26	Disease 1767 1797	left ventricular end-diastolic

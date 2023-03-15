@@ -1,0 +1,20 @@
+T1	Chemical 0 27	Cholecystokinin-octapeptide
+T2	Chemical 37 45	morphine
+T3	Chemical 108 135	Cholecystokinin-octapeptide
+T4	Chemical 137 142	CCK-8
+T5	Chemical 292 297	CCK-8
+T6	Chemical 323 331	morphine
+T7	Disease 340 347	amnesia
+T8	Chemical 425 433	morphine
+T9	Chemical 488 493	CCK-8
+T10	Chemical 628 636	morphine
+T11	Chemical 758 766	morphine
+T12	Chemical 838 843	CCK-8
+T13	Chemical 910 918	morphine
+T14	Chemical 961 966	CCK-8
+T15	Chemical 1167 1172	CCK-8
+T16	Chemical 1277 1282	CCK-8
+T17	Chemical 1308 1316	morphine
+T18	Chemical 1399 1404	CCK-8
+T19	Chemical 1408 1416	morphine
+T20	Disease 1425 1442	memory impairment

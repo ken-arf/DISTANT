@@ -1,0 +1,26 @@
+T1	Disease 6 28	neurologic dysfunction
+T2	Chemical 45 54	etoposide
+T3	Disease 67 83	malignant glioma
+T4	Chemical 84 93	Etoposide
+T5	Chemical 95 100	VP-16
+T6	Chemical 100 101	-
+T7	Chemical 101 104	213
+T8	Disease 151 157	tumors
+T9	Disease 162 186	hematologic malignancies
+T10	Disease 336 343	cancers
+T11	Disease 354 370	malignant glioma
+T12	Disease 445 451	glioma
+T13	Disease 467 491	neurologic deterioration
+T14	Chemical 566 575	etoposide
+T15	Disease 635 644	confusion
+T16	Disease 646 657	papilledema
+T17	Disease 659 669	somnolence
+T18	Disease 687 701	motor deficits
+T19	Disease 725 732	seizure
+T20	Chemical 822 835	dexamethasone
+T21	Disease 930 935	tumor
+T22	Disease 945 954	peritumor
+T23	Disease 945 960	peritumor edema
+T24	Disease 1058 1066	toxicity
+T25	Chemical 1080 1089	etoposide
+T26	Disease 1102 1118	malignant glioma

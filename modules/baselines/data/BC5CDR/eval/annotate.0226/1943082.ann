@@ -1,0 +1,17 @@
+T2	Disease 51 78	ischemia-reperfusion injury
+T3	Disease 79 90	Reperfusion
+T4	Disease 94 112	ischemic intestine
+T5	Disease 124 147	acute liver dysfunction
+T6	Chemical 165 186	hepatocellular enzyme
+T9	Disease 288 303	pathophysiology
+T12	Disease 433 447	hepatic injury
+T16	Disease 600 627	ischemia-reperfusion injury
+T17	Chemical 666 687	peroxidation products
+T19	Chemical 705 724	reduced glutathione
+T20	Chemical 764 781	total glutathione
+T22	Chemical 832 852	Oxidized glutathione
+T24	Chemical 972 990	lipid peroxidation
+T27	Chemical 1113 1124	hepatocytes
+T30	Chemical 1197 1215	lipid peroxidation
+T33	Chemical 1314 1339	hepatocyte cell membranes
+T36	Disease 1485 1503	lipid peroxidation

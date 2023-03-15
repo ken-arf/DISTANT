@@ -1,0 +1,16 @@
+T1	Disease 33 58	coronary arterial disease
+T2	Disease 87 103	lipid metabolism
+T3	Disease 145 160	prostate cancer
+T4	Chemical 258 259	(
+T6	Chemical 278 280	TG
+T9	Disease 401 425	low risk prostate cancer
+T10	Chemical 443 450	Gleason
+T11	Chemical 485 504	cyproterone acetate
+T13	Chemical 595 600	HDL-C
+T14	Chemical 602 609	Apo A-I
+T15	Chemical 614 622	Apo A-II
+T19	Disease 799 821	coronary heart disease
+T20	Disease 846 871	coronary arteriosclerosis
+T22	Chemical 970 985	HDL cholesterol
+T23	Chemical 987 994	Apo A-I
+T24	Disease 1046 1063	hyperglyceridemic

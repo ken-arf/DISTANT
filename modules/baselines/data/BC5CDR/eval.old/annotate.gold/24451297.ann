@@ -1,0 +1,12 @@
+T1	Disease 0 31	Drug-Induced Acute Liver Injury
+T2	Chemical 54 65	Fluvastatin
+T3	Chemical 83 90	statins
+T4	Disease 143 168	drug-induced liver injury
+T5	Disease 255 267	liver damage
+T6	Chemical 324 335	fluvastatin
+T7	Disease 385 391	nausea
+T8	Disease 393 401	anorexia
+T9	Disease 413 427	abdominal pain
+T10	Chemical 467 475	creatine
+T11	Chemical 626 637	fluvastatin
+T12	Disease 695 709	hepatic damage

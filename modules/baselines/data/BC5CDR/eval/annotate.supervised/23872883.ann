@@ -1,0 +1,23 @@
+T1	Disease 66 80	cardiotoxicity
+T2	Disease 81 104	Cardiovascular diseases
+T3	Disease 106 110	CVDs
+T4	Disease 328 342	cardiotoxicity
+T5	Chemical 382 395	isoproterenol
+T6	Chemical 512 519	lactate
+T7	Chemical 535 543	creatine
+T8	Chemical 559 566	alanine
+T9	Chemical 581 590	aspartate
+T10	Chemical 657 668	cholesterol
+T11	Chemical 670 683	triglycerides
+T12	Chemical 696 706	fatty acid
+T13	Chemical 723 738	malondialdehyde
+T14	Chemical 740 743	MDA
+T15	Chemical 750 762	nitric oxide
+T16	Chemical 810 821	glutathione
+T17	Chemical 826 836	superoxide
+T18	Chemical 935 937	S.
+T19	Chemical 938 947	virgaurea
+T20	Chemical 938 955	virgaurea extract
+T21	Chemical 1003 1016	isoproterenol
+T22	Chemical 1077 1086	Captopril
+T23	Chemical 1358 1361	MDA

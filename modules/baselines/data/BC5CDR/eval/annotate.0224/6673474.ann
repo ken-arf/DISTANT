@@ -1,0 +1,11 @@
+T2	Chemical 175 195	sodium nitroprusside
+T3	Chemical 206 217	trimetaphan
+T4	Chemical 219 222	TMP
+T6	Disease 324 348	drug-induced hypotension
+T7	Disease 384 398	coronary sinus
+T8	Disease 511 525	blood pressure
+T9	Disease 585 599	blood pressure
+T11	Chemical 684 686	O2
+T12	Chemical 703 705	O2
+T13	Disease 805 819	blood pressure
+T14	Chemical 821 832	blood gases

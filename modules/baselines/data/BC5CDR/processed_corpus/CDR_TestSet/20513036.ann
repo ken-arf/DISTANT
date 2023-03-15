@@ -1,0 +1,31 @@
+T1	Disease 9 18	paralysis
+T2	Chemical 25 30	botox
+T3	Disease 45 73	adductor spasmodic dysphonia
+T4	Chemical 114 119	Botox
+T5	Disease 201 229	adductor spasmodic dysphonia
+T6	Disease 231 235	ADSD
+T7	Disease 296 307	throat pain
+T8	Disease 401 410	paralysis
+T9	Chemical 421 426	Botox
+T10	Disease 442 446	ADSD
+T11	Chemical 559 564	Botox
+T12	Disease 580 599	spasmodic dysphonia
+T13	Disease 668 672	ADSD
+T14	Disease 793 802	paralysis
+T15	Chemical 824 829	Botox
+T16	Chemical 842 847	Botox
+T17	Disease 875 884	paralysis
+T18	Chemical 948 953	Botox
+T19	Disease 992 996	ADSD
+T20	Disease 1064 1073	paralysis
+T21	Disease 1234 1243	paralysis
+T22	Disease 1274 1283	paralysis
+T23	Disease 1416 1425	paralysis
+T24	Chemical 1432 1437	Botox
+T25	Disease 1452 1456	ADSD
+T26	Disease 1500 1509	paralysis
+T27	Chemical 1536 1541	Botox
+T28	Disease 1557 1561	ADSD
+T29	Disease 1636 1645	paralysis
+T30	Chemical 1662 1667	Botox
+T31	Disease 1758 1767	paralysis

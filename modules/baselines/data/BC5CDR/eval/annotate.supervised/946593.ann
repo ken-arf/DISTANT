@@ -1,0 +1,22 @@
+T1	Disease 0 10	Paraplegia
+T2	Chemical 33 45	methotrexate
+T3	Disease 117 127	paraplegia
+T4	Chemical 170 182	methotrexate
+T5	Disease 358 389	abnormal cerebrospinal dynamics
+T6	Disease 417 448	central nervous system leukemia
+T7	Chemical 515 527	methothexate
+T8	Disease 553 581	abnormal cerebrospinal fluid
+T9	Chemical 619 631	methotrexate
+T10	Disease 724 734	neurotoxic
+T11	Chemical 775 787	methotrexate
+T12	Chemical 830 842	methotrexate
+T13	Chemical 915 927	methotrexate
+T14	Chemical 948 954	folate
+T15	Chemical 1026 1038	methotrexate
+T16	Disease 1039 1047	toxicity
+T17	Disease 1077 1090	neurotoxicity
+T18	Chemical 1134 1146	methotrexate
+T19	Disease 1166 1197	central nervous system leukemia
+T20	Chemical 1293 1305	methotrexate
+T21	Chemical 1464 1476	methotrexate
+T22	Disease 1532 1545	neurotoxicity

@@ -1,0 +1,30 @@
+T1	Chemical 34 38	MPTP
+T2	Disease 57 76	Parkinson's disease
+T3	Disease 185 204	Parkinson's disease
+T4	Disease 206 208	PD
+T5	Chemical 275 283	levodopa
+T6	Chemical 316 324	dopamine
+T7	Chemical 351 359	levodopa
+T8	Chemical 368 372	MPTP
+T9	Disease 414 439	neuropsychiatric symptoms
+T10	Disease 443 445	PD
+T11	Chemical 491 499	levodopa
+T12	Disease 531 562	neuropsychiatric-like behaviors
+T13	Chemical 683 727	1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine
+T14	Disease 780 792	parkinsonism
+T15	Chemical 794 802	Levodopa
+T16	Chemical 817 828	benserazide
+T17	Disease 911 934	parkinsonian disability
+T18	Disease 936 946	dyskinesia
+T19	Disease 984 1015	neuropsychiatric-like behaviors
+T20	Chemical 1035 1043	levodopa
+T21	Disease 1179 1209	neuropsychiatric-like behavior
+T22	Chemical 1392 1400	levodopa
+T23	Disease 1429 1439	dyskinesia
+T24	Chemical 1494 1502	levodopa
+T25	Chemical 1525 1533	levodopa
+T26	Disease 1542 1573	neuropsychiatric-like behaviors
+T27	Chemical 1599 1607	levodopa
+T28	Disease 1718 1744	neuropsychiatric disorders
+T29	Disease 1748 1750	PD
+T30	Chemical 1790 1798	levodopa

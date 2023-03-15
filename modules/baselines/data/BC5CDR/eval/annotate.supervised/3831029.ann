@@ -1,0 +1,13 @@
+T1	Chemical 15 25	denopamine
+T2	Chemical 27 33	TA-064
+T3	Disease 60 75	cardiac failure
+T4	Chemical 126 136	denopamine
+T5	Disease 197 212	cardiac failure
+T6	Disease 276 285	depressed
+T7	Chemical 289 302	pentobarbital
+T8	Chemical 514 524	denopamine
+T9	Chemical 593 603	denopamine
+T10	Disease 722 733	arrhythmias
+T11	Chemical 765 775	denopamine
+T12	Chemical 816 826	denopamine
+T13	Disease 847 862	cardiac failure

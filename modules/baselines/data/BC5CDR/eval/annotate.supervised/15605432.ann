@@ -1,0 +1,15 @@
+T1	Disease 65 72	cardiac
+T2	Chemical 165 171	oxygen
+T3	Chemical 172 186	(ROS)/nitrogen
+T4	Chemical 227 237	adriamycin
+T5	Disease 252 266	cardiotoxicity
+T6	Chemical 524 527	ADR
+T7	Chemical 566 585	4-hydroxy-2-nonenal
+T8	Chemical 586 600	(4HNE)-protein
+T9	Chemical 613 628	3-nitrotyrosine
+T10	Chemical 630 633	3NT
+T11	Chemical 877 881	4HNE
+T12	Chemical 953 957	4HNE
+T13	Chemical 1070 1073	3NT
+T14	Chemical 1208 1211	ADR
+T15	Disease 1288 1308	mitochondrial injury

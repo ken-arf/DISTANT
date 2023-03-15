@@ -1,0 +1,28 @@
+T1	Disease 11 24	neurotoxicity
+T3	Disease 122 135	neurotoxicity
+T6	Disease 264 293	T-cell lymphoblastic lymphoma
+T12	Disease 474 482	leukemic
+T14	Chemical 520 530	nelarabine
+T17	Chemical 582 592	cytarabine
+T18	Disease 612 634	central nervous system
+T21	Disease 747 767	tumor lysis syndrome
+T22	Disease 813 831	complete remission
+T23	Chemical 847 850	her
+T24	Disease 851 865	renal function
+T25	Chemical 898 908	nelarabine
+T28	Disease 1014 1035	her lower extremities
+T29	Disease 1037 1058	Predominantly sensory
+T32	Disease 1093 1114	peripheral neuropathy
+T33	Chemical 1126 1129	her
+T36	Disease 1163 1182	mid-thoracic region
+T37	Chemical 1208 1211	her
+T38	Disease 1212 1236	distal upper extremities
+T39	Chemical 1276 1279	her
+T41	Chemical 1312 1314	C2
+T42	Disease 1318 1320	C6
+T44	Chemical 1369 1379	Nelarabine
+T45	Chemical 1408 1411	her
+T47	Chemical 1422 1425	Her
+T50	Disease 1565 1583	complete remission
+T54	Disease 1748 1761	neurotoxicity
+T55	Disease 1772 1782	nelarabine

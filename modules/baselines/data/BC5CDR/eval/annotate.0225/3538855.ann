@@ -1,0 +1,11 @@
+T1	Chemical 28 42	aminoglycoside
+T2	Chemical 199 214	aminoglycosides
+T5	Disease 304 323	tubular dysfunction
+T6	Chemical 344 359	aminoglycosides
+T7	Disease 433 452	acute renal failure
+T8	Chemical 611 625	aminoglycoside
+T9	Disease 634 647	liver disease
+T10	Chemical 686 696	creatinine
+T11	Disease 762 776	nephrotoxicity
+T12	Disease 794 813	acute renal failure
+T14	Disease 1048 1063	pathophysiology

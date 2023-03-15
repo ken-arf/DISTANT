@@ -1,0 +1,15 @@
+T1	Disease 57 68	cardiotoxic
+T6	Disease 172 191	myocardial fibrosis
+T7	Chemical 275 289	streptozotocin
+T9	Chemical 311 322	cardiotoxic
+T10	Chemical 333 343	high doses
+T12	Chemical 362 365	ISO
+T15	Chemical 455 458	ISO
+T16	Chemical 493 496	ISO
+T18	Chemical 609 611	(r
+T24	Disease 911 925	nervous system
+T25	Chemical 987 1012	beta-adrenergic receptors
+T26	Chemical 1144 1158	streptozotocin
+T27	Chemical 1180 1183	ISO
+T31	Disease 1374 1389	myocardial cell
+T33	Disease 1445 1473	cardiovascular complications

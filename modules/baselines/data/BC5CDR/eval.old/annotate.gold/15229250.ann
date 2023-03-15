@@ -1,0 +1,20 @@
+T1	Disease 130 168	structural deficits in the human brain
+T2	Chemical 193 208	methamphetamine
+T3	Chemical 210 212	MA
+T4	Chemical 261 263	MA
+T5	Disease 353 376	metabolic abnormalities
+T6	Chemical 547 549	MA
+T7	Disease 604 624	cognitive impairment
+T8	Disease 717 787	abnormalities in the cortex, hippocampus, white matter, and ventricles
+T9	Chemical 818 820	MA
+T10	Chemical 963 965	MA
+T11	Chemical 1029 1031	MA
+T12	Disease 1172 1183	hypertrophy
+T13	Chemical 1344 1359	methamphetamine
+T14	Disease 1439 1466	impaired memory performance
+T15	Chemical 1468 1470	MA
+T16	Disease 1672 1683	hypertrophy
+T17	Disease 1758 1765	gliosis
+T18	Disease 1779 1794	neuronal damage
+T19	Chemical 1856 1858	MA
+T20	Disease 1913 1925	brain injury

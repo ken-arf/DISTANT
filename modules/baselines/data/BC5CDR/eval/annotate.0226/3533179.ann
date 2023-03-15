@@ -1,0 +1,39 @@
+T1	Disease 93 120	bone marrow transplantation
+T3	Chemical 167 183	cyclophosphamide
+T4	Chemical 185 188	CYA
+T5	Chemical 258 268	high doses
+T6	Disease 285 299	cardiotoxicity
+T7	Disease 367 381	cardiotoxicity
+T8	Chemical 413 435	chemotherapeutic agent
+T11	Chemical 541 544	CYA
+T12	Chemical 730 733	CYA
+T13	Disease 834 849	aplastic anemia
+T14	Disease 851 875	Wiskott-Aldrich syndrome
+T16	Disease 887 921	combined immunodeficiency syndrome
+T17	Disease 957 975	symptoms and signs
+T18	Chemical 1056 1059	CYA
+T20	Disease 1094 1118	congestive heart failure
+T21	Chemical 1132 1135	CYA
+T23	Chemical 1251 1254	CYA
+T24	Chemical 1261 1268	Group 1
+T25	Chemical 1270 1273	CYA
+T26	Chemical 1301 1307	g/m2/d
+T27	Chemical 1309 1316	Group 2
+T28	Chemical 1318 1321	CYA
+T29	Chemical 1340 1346	g/m2/d
+T30	Disease 1348 1362	Cardiotoxicity
+T31	Chemical 1397 1400	CYA
+T32	Chemical 1418 1420	(3
+T33	Chemical 1438 1445	Group 1
+T34	Chemical 1477 1484	Group 2
+T35	Disease 1506 1530	Congestive heart failure
+T37	Chemical 1582 1589	Group 1
+T38	Chemical 1618 1625	Group 2
+T39	Chemical 1815 1818	CYA
+T40	Disease 1885 1900	aplastic anemia
+T42	Disease 1956 1967	bone marrow
+T43	Chemical 1982 1985	CYA
+T45	Chemical 1999 2005	g/m2/d
+T47	Disease 2046 2060	cardiotoxicity
+T48	Chemical 2081 2084	CYA
+T49	Disease 2163 2176	drug toxicity

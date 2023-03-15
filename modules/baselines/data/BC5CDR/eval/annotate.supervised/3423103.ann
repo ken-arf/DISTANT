@@ -1,0 +1,13 @@
+T1	Disease 90 101	hypotension
+T2	Disease 106 117	bradycardia
+T3	Chemical 151 160	clonidine
+T4	Chemical 377 386	clonidine
+T5	Disease 522 533	hypotension
+T6	Disease 648 659	bradycardia
+T7	Chemical 782 786	5-HT
+T8	Chemical 837 860	5,7-dihydroxytryptamine
+T9	Chemical 938 947	clonidine
+T10	Disease 1147 1158	hypotension
+T11	Disease 1163 1174	bradycardia
+T12	Disease 1188 1199	hypotension
+T13	Disease 1285 1296	bradycardia

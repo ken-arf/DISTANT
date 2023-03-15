@@ -1,0 +1,23 @@
+T1	Chemical 32 40	low-dose
+T2	Disease 77 92	prostate cancer
+T3	Chemical 97 111	antiangiogenic
+T6	Disease 208 235	haematological malignancies
+T7	Chemical 272 289	angiogenic agents
+T8	Chemical 300 304	bFGF
+T9	Chemical 306 310	VEGF
+T10	Chemical 315 319	IL-6
+T12	Disease 445 460	prostate cancer
+T13	Chemical 572 597	prostate-specific antigen
+T16	Chemical 634 638	bFGF
+T17	Chemical 643 647	VEGF
+T19	Chemical 874 878	bFGF
+T20	Chemical 883 887	VEGF
+T21	Disease 909 928	progressive disease
+T22	Chemical 1002 1006	bFGF
+T23	Chemical 1011 1015	VEGF
+T24	Chemical 1091 1105	growth factors
+T25	Disease 1107 1122	Adverse effects
+T27	Disease 1146 1164	morning drowsiness
+T31	Disease 1254 1283	peripheral sensory neuropathy
+T33	Disease 1412 1433	peripheral neuropathy
+T35	Disease 1673 1694	peripheral neuropathy

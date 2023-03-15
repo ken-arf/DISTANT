@@ -1,0 +1,16 @@
+T1	Disease 0 14	Rhabdomyolysis
+T2	Disease 20 31	hepatitis C
+T3	Chemical 68 78	telaprevir
+T5	Disease 120 155	chronic hepatitis C virus infection
+T8	Chemical 221 231	telaprevir
+T10	Disease 382 396	rhabdomyolysis
+T12	Chemical 431 446	antiviral drugs
+T14	Chemical 532 547	creatine kinase
+T15	Chemical 565 569	IU/L
+T16	Chemical 615 628	normal saline
+T17	Disease 634 658	patient's renal function
+T18	Chemical 717 732	creatine kinase
+T19	Chemical 759 763	IU/L
+T20	Chemical 796 806	Telaprevir
+T27	Disease 1105 1120	muscle toxicity
+T29	Chemical 1226 1236	telaprevir

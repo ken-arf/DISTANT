@@ -1,0 +1,28 @@
+T1	Chemical 0 15	Metallothionein
+T2	Chemical 34 43	caspase-3
+T3	Chemical 57 65	TNFalpha
+T4	Disease 124 135	hippocampal
+T5	Disease 171 182	Hippocampal
+T6	Chemical 263 278	metallothionein
+T7	Chemical 413 423	carmustine
+T8	Disease 439 450	hippocampal
+T9	Chemical 619 632	normal saline
+T10	Chemical 664 676	BCNU solvent
+T11	Chemical 746 759	normal saline
+T12	Chemical 779 791	BCNU solvent
+T13	Chemical 831 835	BCNU
+T14	Chemical 884 897	normal saline
+T15	Chemical 978 991	normal saline
+T16	Chemical 1005 1009	BCNU
+T17	Chemical 1076 1080	BCNU
+T18	Chemical 1234 1267	hippocampal glutathione reductase
+T19	Chemical 1286 1305	reduced glutathione
+T20	Chemical 1327 1331	BCNU
+T21	Chemical 1363 1390	tumor necrosis factor-alpha
+T22	Disease 1403 1414	hippocampal
+T23	Chemical 1422 1437	malondialdehyde
+T24	Chemical 1464 1473	caspase-3
+T25	Chemical 1708 1717	caspase-3
+T26	Chemical 1805 1809	BCNU
+T27	Disease 1896 1907	hippocampal
+T28	Chemical 2024 2033	caspase-3

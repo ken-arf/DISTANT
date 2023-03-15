@@ -1,0 +1,44 @@
+T1	Chemical 0 10	Bradykinin
+T2	Chemical 37 49	nitric oxide
+T3	Chemical 73 84	vincristine
+T4	Chemical 89 103	streptozotocin
+T5	Disease 112 124	hyperalgesia
+T6	Disease 145 164	diabetic neuropathy
+T7	Chemical 243 245	NO
+T8	Chemical 326 328	NO
+T9	Chemical 408 410	NO
+T10	Chemical 548 558	bradykinin
+T11	Chemical 560 567	HOE 140
+T12	Chemical 587 604	des Arg10 HOE 140
+T13	Disease 647 723	diabetic (streptozotocin-induced) and toxic (vincristine-induced) neuropathy
+T14	Disease 647 680;713 723	diabetic (streptozotocin-induced) neuropathy
+T15	Disease 685 723	toxic (vincristine-induced) neuropathy
+T16	Disease 766 770	pain
+T17	Chemical 968 978	bradykinin
+T18	Chemical 1003 1005	NO
+T19	Chemical 1032 1034	NO
+T20	Disease 1061 1082	diabetic hyperalgesia
+T21	Chemical 1189 1196	HOE 140
+T22	Chemical 1201 1218	des Arg10 HOE 140
+T23	Chemical 1270 1272	NO
+T24	Chemical 1295 1297	NO
+T25	Chemical 1329 1339	bradykinin
+T26	Disease 1356 1368	hyperalgesia
+T27	Chemical 1381 1392	vincristine
+T28	Chemical 1474 1481	HOE 140
+T29	Chemical 1485 1501	des-Arg10HOE 140
+T30	Disease 1505 1521	toxic neuropathy
+T31	Disease 1653 1682	diabetic and toxic neuropathy
+T32	Disease 1653 1661;1672 1682	diabetic neuropathy
+T33	Disease 1666 1682	toxic neuropathy
+T34	Chemical 1687 1701	streptozotocin
+T35	Disease 1710 1722	hyperalgesia
+T36	Chemical 1734 1736	NO
+T37	Chemical 1789 1799	bradykinin
+T38	Chemical 1812 1823	vincristine
+T39	Disease 1832 1844	hyperalgesia
+T40	Chemical 1845 1855	bradykinin
+T41	Chemical 1884 1886	NO
+T42	Chemical 1961 1971	bradykinin
+T43	Chemical 1997 1999	NO
+T44	Disease 2055 2071	neuropathic pain

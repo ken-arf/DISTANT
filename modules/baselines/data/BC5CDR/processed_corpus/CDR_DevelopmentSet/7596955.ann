@@ -1,0 +1,23 @@
+T1	Chemical 55 67	prostacyclin
+T2	Chemical 77 86	beraprost
+T3	Chemical 119 129	cilostazol
+T4	Chemical 189 201	prostacyclin
+T5	Chemical 211 220	beraprost
+T6	Chemical 222 225	BPT
+T7	Chemical 268 278	cilostazol
+T8	Chemical 280 283	CLZ
+T9	Chemical 380 384	cAMP
+T10	Chemical 386 422	cyclic adenosine 3',5'-monophosphate
+T11	Chemical 563 566	BPT
+T12	Chemical 567 570	CLZ
+T13	Chemical 598 601	BPT
+T14	Chemical 670 673	CLZ
+T15	Disease 788 808	platelet aggregation
+T16	Chemical 844 848	cAMP
+T17	Disease 992 1000	headache
+T18	Disease 1034 1046	facial flush
+T19	Disease 1058 1064	nausea
+T20	Chemical 1103 1106	CLZ
+T21	Chemical 1266 1270	cAMP
+T22	Chemical 1651 1654	BPT
+T23	Chemical 1655 1658	CLZ

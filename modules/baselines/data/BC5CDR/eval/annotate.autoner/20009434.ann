@@ -1,0 +1,11 @@
+T1	Disease 0 19	Acute renal failure
+T2	Chemical 26 48	high-dose methotrexate
+T3	Disease 75 84	ileostomy
+T4	Chemical 95 107	methotrexate
+T5	Disease 197 205	toxicity
+T6	Disease 263 276	renal failure
+T7	Disease 394 399	liver
+T8	Disease 565 587	Burkitt-type malignant
+T9	Disease 723 736	renal failure
+T10	Disease 873 895	acute prerenal failure
+T11	Chemical 1039 1049	parenteral

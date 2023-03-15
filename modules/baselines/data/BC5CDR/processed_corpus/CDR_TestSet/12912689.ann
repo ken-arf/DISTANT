@@ -1,0 +1,19 @@
+T1	Chemical 39 50	carboplatin
+T2	Disease 68 82	retinoblastoma
+T3	Chemical 110 121	carboplatin
+T4	Disease 173 181	toxicity
+T5	Disease 236 250	retinoblastoma
+T6	Disease 302 326	abnormal ocular motility
+T7	Chemical 361 372	carboplatin
+T8	Disease 405 429	abnormal ocular motility
+T9	Disease 462 476	retinoblastoma
+T10	Chemical 503 514	carboplatin
+T11	Disease 651 656	tumor
+T12	Disease 902 916	retinoblastoma
+T13	Chemical 952 963	carboplatin
+T14	Disease 1199 1207	necrosis
+T15	Disease 1277 1284	rupture
+T16	Chemical 1359 1370	carboplatin
+T17	Disease 1415 1423	fibrosis
+T18	Chemical 1554 1565	carboplatin
+T19	Disease 1581 1589	toxicity

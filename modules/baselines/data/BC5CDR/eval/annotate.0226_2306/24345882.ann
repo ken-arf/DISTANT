@@ -1,0 +1,28 @@
+T1	Disease 0 14	Neurocognitive
+T2	Disease 19 34	neuroradiologic
+T3	Disease 35 57	central nervous system
+T5	Chemical 125 130	P9605
+T6	Chemical 151 156	P9201
+T7	Disease 171 199	acute lymphoblastic leukemia
+T9	Disease 268 278	Children's
+T12	Chemical 333 336	MTX
+T13	Disease 338 351	neurotoxicity
+T14	Chemical 415 425	leucovorin
+T16	Chemical 460 463	MTX
+T18	Disease 496 524	acute lymphoblastic leukemia
+T19	Disease 569 584	neuroradiologic
+T20	Disease 597 616	leukoencephalopathy
+T22	Disease 664 686	central nervous system
+T23	Chemical 711 716	P9605
+T24	Chemical 807 812	P9201
+T27	Disease 905 933	acute lymphoblastic leukemia
+T28	Disease 988 1000	CNS leukemia
+T30	Chemical 1049 1054	P9201
+T31	Chemical 1067 1072	P9605
+T32	Disease 1243 1262	leukoencephalopathy
+T33	Chemical 1277 1282	P9201
+T36	Disease 1553 1571	attention problems
+T37	Chemical 1577 1582	P9605
+T39	Chemical 1667 1672	P9201
+T40	Chemical 1766 1769	MTX
+T42	Disease 1809 1821	late effects

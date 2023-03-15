@@ -1,0 +1,7 @@
+T1	Disease 88 115	Drug-induced hepatotoxicity
+T2	Disease 128 152	cause of acute hepatitis
+T3	Disease 258 273	acute hepatitis
+T4	Disease 383 397	hepatotoxicity
+T5	Chemical 405 416	clopidogrel
+T7	Disease 573 585	drug-induced
+T8	Chemical 606 617	clopidogrel

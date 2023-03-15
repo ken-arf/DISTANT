@@ -1,0 +1,25 @@
+T1	Chemical 12 21	glutamate
+T2	Chemical 26 35	capsaicin
+T3	Disease 99 111	hyperalgesia
+T4	Chemical 152 161	glutamate
+T5	Chemical 166 175	capsaicin
+T6	Disease 220 224	pain
+T7	Disease 240 252	hyperalgesia
+T8	Disease 257 266	allodynia
+T9	Disease 302 316	pain disorders
+T10	Disease 370 385	reproducibility
+T11	Chemical 508 517	glutamate
+T12	Chemical 522 531	capsaicin
+T13	Disease 738 750	hyperalgesia
+T14	Disease 755 764	allodynia
+T15	Disease 1113 1134	pinprick hyperalgesia
+T16	Chemical 1263 1272	glutamate
+T17	Chemical 1288 1297	capsaicin
+T18	Disease 1309 1330	pinprick hyperalgesia
+T19	Disease 1471 1478	strokes
+T20	Chemical 1493 1502	Capsaicin
+T21	Disease 1544 1556	hyperalgesia
+T22	Disease 1723 1735	hyperalgesia
+T23	Disease 1740 1749	allodynia
+T24	Chemical 1766 1775	glutamate
+T25	Chemical 1780 1789	capsaicin

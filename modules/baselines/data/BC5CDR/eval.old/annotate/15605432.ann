@@ -1,0 +1,8 @@
+T1	Disease 0 16	Oxidative damage
+T2	Disease 65 93	cardiac mitochondrial injury
+T3	Chemical 227 237	adriamycin
+T4	Disease 252 266	cardiotoxicity
+T5	Disease 288 328	cardiomyocyte oxidative/nitrative damage
+T6	Chemical 613 628	3-nitrotyrosine
+T7	Disease 1384 1414	mitochondrial oxidative damage
+T8	Disease 1424 1440	nitrative damage

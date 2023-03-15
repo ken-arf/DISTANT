@@ -1,0 +1,17 @@
+T1	Disease 45 64	acute liver failure
+T2	Chemical 72 83	paracetamol
+T3	Disease 84 92	overdose
+T4	Disease 250 269	acute liver failure
+T5	Disease 352 371	acute liver failure
+T6	Disease 464 483	acute liver failure
+T7	Disease 532 537	tumor
+T8	Disease 538 546	necrosis
+T9	Disease 677 696	acute liver failure
+T10	Disease 876 895	acute liver failure
+T11	Chemical 903 914	paracetamol
+T12	Disease 915 923	overdose
+T13	Disease 1004 1013	hepatitis
+T14	Chemical 1214 1223	aspartate
+T15	Disease 1339 1358	acute liver failure
+T16	Disease 1454 1459	tumor
+T17	Disease 1460 1468	necrosis

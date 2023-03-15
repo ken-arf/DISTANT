@@ -1,0 +1,23 @@
+T1	Disease 85 104	acute liver failure
+T2	Disease 161 175	hepatotoxicity
+T3	Disease 195 223	cause of acute liver failure
+T4	Chemical 225 228	ALF
+T6	Disease 278 293	suicidal intent
+T7	Disease 318 338	substance dependence
+T9	Disease 421 433	co-morbidity
+T11	Disease 503 524	liver transplantation
+T12	Chemical 585 588	ALF
+T13	Chemical 684 687	ALF
+T14	Disease 715 736	chronic liver disease
+T15	Chemical 781 784	ALF
+T17	Disease 869 885	Acute Physiology
+T18	Disease 1057 1078	psychiatric diagnosis
+T19	Disease 1182 1197	suicide attempt
+T23	Disease 1306 1319	graft failure
+T24	Chemical 1374 1377	ALF
+T25	Chemical 1457 1462	P>0.6
+T26	Chemical 1500 1503	ALF
+T27	Disease 1611 1634	psychiatric disturbance
+T29	Disease 1852 1873	psychiatric follow-up
+T30	Disease 1896 1911	post-transplant
+T31	Disease 1948 1958	graft loss

@@ -1,0 +1,13 @@
+T1	Disease 29 45	renal-transplant
+T3	Chemical 84 94	everolimus
+T4	Disease 96 110	AL amyloidosis
+T7	Chemical 187 227	mammalian target of rapamycin inhibitors
+T8	Chemical 229 235	mTOR-i
+T10	Disease 389 406	chronic rejection
+T11	Disease 408 429	interstitial fibrosis
+T12	Disease 434 449	tubular atrophy
+T14	Disease 470 489	novo glomerulopathy
+T17	Disease 559 575	renal-transplant
+T18	Disease 615 625	gammapathy
+T20	Chemical 703 713	tacrolimus
+T21	Chemical 717 727	everolimus

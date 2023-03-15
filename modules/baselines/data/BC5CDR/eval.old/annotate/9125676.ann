@@ -1,0 +1,17 @@
+T1	Chemical 277 286	l-sotalol
+T2	Disease 301 329	ventricular tachyarrhythmias
+T3	Disease 372 395	coronary artery disease
+T4	Disease 409 431	dilated cardiomyopathy
+T5	Disease 458 481	ventricular tachycardia
+T6	Disease 485 509	ventricular fibrillation
+T7	Disease 564 591	ventricular tachyarrhythmia
+T8	Chemical 720 729	l-sotalol
+T9	Disease 753 776	ventricular tachycardia
+T10	Disease 780 804	ventricular fibrillation
+T11	Chemical 965 974	l-sotalol
+T12	Disease 1001 1028	ventricular tachyarrhythmia
+T13	Chemical 1127 1136	l-sotalol
+T14	Disease 1827 1850	ventricular tachycardia
+T15	Disease 1931 1946	cardiac disease
+T16	Chemical 2119 2128	l-sotalol
+T17	Chemical 2230 2239	l-sotalol

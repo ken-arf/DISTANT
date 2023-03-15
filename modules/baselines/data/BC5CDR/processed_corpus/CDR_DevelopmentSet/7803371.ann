@@ -1,0 +1,14 @@
+T1	Disease 0 23	Cognitive deterioration
+T2	Chemical 48 64	dextromethorphan
+T3	Chemical 80 96	Dextromethorphan
+T4	Chemical 98 100	DM
+T5	Chemical 132 159	3-hydroxy-N-methylmorphinan
+T6	Disease 545 551	nausea
+T7	Disease 553 565	restlessness
+T8	Disease 567 575	insomnia
+T9	Disease 577 583	ataxia
+T10	Disease 604 613	nystagmus
+T11	Disease 687 706	aggressive behavior
+T12	Chemical 920 922	DM
+T13	Disease 1052 1075	cognitive deterioration
+T14	Chemical 1108 1110	DM

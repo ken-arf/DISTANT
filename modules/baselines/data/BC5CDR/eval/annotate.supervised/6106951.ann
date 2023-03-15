@@ -1,0 +1,30 @@
+T1	Chemical 30 40	flurazepam
+T2	Chemical 58 68	flurazepam
+T3	Chemical 70 73	FZP
+T4	Disease 183 201	clonic convulsions
+T5	Disease 227 237	depression
+T6	Disease 264 269	death
+T7	Disease 297 308	convulsions
+T8	Disease 356 366	depression
+T9	Disease 427 438	convulsions
+T10	Disease 473 494	loss of consciousness
+T11	Chemical 571 574	FZP
+T12	Disease 575 583	toxocity
+T13	Disease 601 610	excessive
+T14	Disease 611 621	salivation
+T15	Disease 654 662	retching
+T16	Disease 664 678	muscle tremors
+T17	Disease 683 694	convulsions
+T18	Chemical 719 722	FZP
+T19	Chemical 727 744	pentylenetetrazol
+T20	Chemical 746 749	PTZ
+T21	Chemical 786 789	FZP
+T22	Chemical 797 800	PTZ
+T23	Chemical 835 838	FZP
+T24	Disease 863 874	convulsions
+T25	Disease 879 884	death
+T26	Disease 912 923	convulsions
+T27	Chemical 954 957	FZP
+T28	Disease 1003 1014	convulsions
+T29	Chemical 1060 1063	FZP
+T30	Disease 1144 1152	epilepsy

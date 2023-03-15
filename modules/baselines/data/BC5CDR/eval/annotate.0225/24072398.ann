@@ -1,0 +1,14 @@
+T7	Disease 234 253	depressive symptoms
+T8	Disease 261 276	drug withdrawal
+T12	Disease 408 430	monoaminergic deficits
+T21	Chemical 980 992	dopaminergic
+T22	Chemical 997 1009	serotonergic
+T24	Chemical 1081 1086	DOPAC
+T25	Chemical 1091 1094	HVA
+T26	Chemical 1096 1116	tyrosine hydroxylase
+T29	Disease 1242 1252	astroglial
+T31	Disease 1303 1311	striatal
+T32	Chemical 1337 1351	protein marker
+T33	Chemical 1353 1384	glial fibrillary acidic protein
+T37	Chemical 1620 1632	dopaminergic
+T38	Chemical 1637 1649	serotonergic

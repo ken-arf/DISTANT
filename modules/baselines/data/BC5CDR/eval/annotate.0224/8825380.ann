@@ -1,0 +1,28 @@
+T1	Chemical 26 60	human insulin-like growth factor-I
+T2	Chemical 72 97	puromycin aminonucleoside
+T4	Chemical 226 251	puromycin aminonucleoside
+T6	Chemical 347 364	recombinant human
+T7	Chemical 370 375	IGF-I
+T8	Disease 420 434	growth failure
+T9	Disease 477 491	glomerulopathy
+T10	Chemical 588 595	rhIGF-I
+T11	Disease 683 694	weight gain
+T12	Disease 745 759	blood pressure
+T13	Disease 773 786	renal disease
+T15	Chemical 831 838	rhIGF-I
+T16	Disease 1008 1019	body weight
+T18	Disease 1170 1188	glomerulosclerosis
+T19	Disease 1190 1215	tubulointerstitial injury
+T20	Chemical 1308 1315	rhIGF-I
+T21	Chemical 1326 1331	IGF-I
+T22	Chemical 1336 1347	GH receptor
+T23	Chemical 1408 1413	IGF-I
+T25	Disease 1510 1521	weight gain
+T26	Disease 1523 1537	blood pressure
+T28	Chemical 1596 1611	malondialdehyde
+T29	Disease 1638 1656	tubulointerstitial
+T30	Chemical 1706 1713	rhIGF-I
+T31	Chemical 1755 1765	IGF-I mRNA
+T32	Chemical 1814 1819	IGF-I
+T33	Chemical 1876 1883	rhIGF-I
+T34	Chemical 1982 1989	rhIGF-I

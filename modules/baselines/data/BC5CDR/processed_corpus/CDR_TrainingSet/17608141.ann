@@ -1,0 +1,31 @@
+T1	Chemical 15 30	methamphetamine
+T2	Disease 66 79	neurotoxicity
+T3	Chemical 91 109	lipopolysaccharide
+T4	Chemical 184 199	methamphetamine
+T5	Disease 208 236	dopaminergic terminal damage
+T6	Chemical 278 296	lipopolysaccharide
+T7	Chemical 370 385	methamphetamine
+T8	Chemical 408 416	dopamine
+T9	Disease 417 430	neurotoxicity
+T10	Chemical 432 450	Lipopolysaccharide
+T11	Chemical 509 524	methamphetamine
+T12	Disease 534 546	hyperthermia
+T13	Chemical 579 597	lipopolysaccharide
+T14	Chemical 618 633	methamphetamine
+T15	Chemical 651 659	dopamine
+T16	Chemical 664 694	3,4-dihydroxyphenylacetic acid
+T17	Chemical 771 789	lipopolysaccharide
+T18	Chemical 846 861	methamphetamine
+T19	Chemical 878 893	methamphetamine
+T20	Chemical 911 919	dopamine
+T21	Chemical 924 954	3,4-dihydroxyphenylacetic acid
+T22	Chemical 1005 1023	lipopolysaccharide
+T23	Chemical 1064 1079	methamphetamine
+T24	Chemical 1098 1106	dopamine
+T25	Chemical 1111 1141	3,4-dihydroxyphenylacetic acid
+T26	Chemical 1211 1229	lipopolysaccharide
+T27	Chemical 1305 1320	methamphetamine
+T28	Chemical 1371 1389	lipopolysaccharide
+T29	Chemical 1444 1459	methamphetamine
+T30	Chemical 1482 1490	dopamine
+T31	Disease 1491 1504	neurotoxicity

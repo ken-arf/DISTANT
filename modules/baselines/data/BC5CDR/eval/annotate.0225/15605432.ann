@@ -1,0 +1,14 @@
+T1	Chemical 156 171	reactive oxygen
+T3	Chemical 227 237	adriamycin
+T4	Disease 252 266	cardiotoxicity
+T5	Chemical 288 301	cardiomyocyte
+T6	Chemical 302 321	oxidative/nitrative
+T8	Chemical 427 442	damage products
+T9	Chemical 470 474	B6C3
+T10	Chemical 500 511	single dose
+T12	Chemical 586 600	(4HNE)-protein
+T13	Chemical 613 628	3-nitrotyrosine
+T16	Chemical 842 863	subcellular organelle
+T21	Chemical 1117 1141	subcellular compartments
+T24	Chemical 1384 1397	mitochondrial
+T27	Chemical 1527 1549	subcellular organelles

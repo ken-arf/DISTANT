@@ -1,0 +1,20 @@
+T1	Chemical 24 43	1,4-dihydropyridine
+T2	Chemical 44 68	calcium channel blockers
+T6	Disease 170 192	cardiovascular disease
+T7	Chemical 233 264	calcium channel blocking agents
+T8	Disease 295 318	cardiovascular diseases
+T12	Chemical 455 479	calcium channel blockers
+T16	Chemical 646 686	dihydropyridine calcium channel blockers
+T18	Chemical 720 738	vasodilator agents
+T19	Chemical 788 801	cardiac nodal
+T20	Chemical 837 852	dihydropyridine
+T24	Disease 964 980	cardiac function
+T27	Chemical 1018 1042	calcium channel blockers
+T28	Chemical 1189 1201	nitrendipine
+T29	Chemical 1206 1217	nisoldipine
+T31	Chemical 1377 1388	nisoldipine
+T35	Chemical 1498 1508	nimodipine
+T36	Disease 1548 1571	subarachnoid hemorrhage
+T37	Disease 1573 1590	migraine headache
+T40	Chemical 1630 1670	dihydropyridine calcium channel blockers
+T48	Disease 1806 1821	adverse effects

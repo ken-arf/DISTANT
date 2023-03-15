@@ -1,0 +1,23 @@
+T1	Disease 81 104	Cardiovascular diseases
+T2	Disease 106 110	CVDs
+T3	Chemical 306 319	isoproterenol
+T4	Disease 328 342	cardiotoxicity
+T5	Chemical 382 395	isoproterenol
+T6	Chemical 512 519	lactate
+T7	Chemical 535 543	creatine
+T8	Chemical 559 566	alanine
+T9	Chemical 581 590	aspartate
+T10	Chemical 609 620	angiotensin
+T11	Chemical 657 668	cholesterol
+T12	Chemical 670 683	triglycerides
+T13	Chemical 696 706	fatty acid
+T14	Chemical 723 738	malondialdehyde
+T15	Chemical 740 743	MDA
+T16	Chemical 750 762	nitric oxide
+T17	Chemical 810 821	glutathione
+T18	Chemical 826 836	superoxide
+T19	Chemical 1003 1016	isoproterenol
+T20	Chemical 1077 1086	Captopril
+T21	Chemical 1133 1144	angiotensin
+T22	Chemical 1358 1361	MDA
+T23	Chemical 1409 1422	isoproterenol

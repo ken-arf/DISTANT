@@ -1,0 +1,32 @@
+T1	Chemical 75 85	argatroban
+T2	Disease 113 129	thrombocytopenia
+T3	Chemical 130 140	Argatroban
+T4	Disease 234 244	thrombosis
+T5	Disease 264 280	thrombocytopenia
+T6	Disease 282 285	HIT
+T7	Disease 323 326	HIT
+T8	Chemical 453 463	argatroban
+T9	Disease 475 478	HIT
+T10	Chemical 503 513	argatroban
+T11	Disease 522 525	HIT
+T12	Disease 571 589	hepatic impairment
+T13	Disease 840 861	hepatic hypoperfusion
+T14	Disease 868 881	heart failure
+T15	Disease 907 924	renal dysfunction
+T16	Disease 960 967	obesity
+T17	Chemical 969 979	Argatroban
+T18	Chemical 1204 1214	argatroban
+T19	Disease 1244 1255	hepatically
+T20	Disease 1244 1264	hepatically impaired
+T21	Disease 1344 1351	obesity
+T22	Chemical 1436 1446	Argatroban
+T23	Chemical 1536 1558	argatroban-to-warfarin
+T24	Disease 1596 1604	bleeding
+T25	Chemical 1610 1620	argatroban
+T26	Chemical 1693 1703	Argatroban
+T27	Chemical 1771 1781	argatroban
+T28	Chemical 1875 1885	argatroban
+T29	Disease 1897 1900	HIT
+T30	Disease 2000 2003	HIT
+T31	Disease 2016 2026	thromboses
+T32	Chemical 2057 2067	argatroban

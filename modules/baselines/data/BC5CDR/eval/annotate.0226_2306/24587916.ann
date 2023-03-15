@@ -1,0 +1,18 @@
+T1	Chemical 23 41	bovine lactoferrin
+T2	Chemical 87 101	Dexamethasone-
+T3	Chemical 103 107	Dex-
+T6	Chemical 176 187	Lactoferrin
+T8	Chemical 199 224	iron-binding glycoprotein
+T11	Chemical 375 378	Dex
+T12	Chemical 428 431	Dex
+T14	Chemical 643 646	Dex
+T15	Disease 694 708	blood pressure
+T16	Chemical 710 713	SBP
+T18	Chemical 822 839	hydrogen peroxide
+T19	Chemical 841 845	H2O2
+T23	Chemical 967 970	SBP
+T24	Chemical 982 986	H2O2
+T26	Disease 1018 1030	body weights
+T27	Disease 1136 1152	body weight loss
+T28	Chemical 1199 1203	H2O2
+T30	Disease 1281 1295	blood pressure

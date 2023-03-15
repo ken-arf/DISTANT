@@ -1,0 +1,21 @@
+T3	Disease 45 64	acute liver failure
+T4	Chemical 72 83	paracetamol
+T6	Chemical 169 176	Fas/Fas
+T7	Disease 250 269	acute liver failure
+T8	Chemical 315 327	soluble form
+T10	Disease 352 371	acute liver failure
+T12	Chemical 402 406	sFas
+T15	Disease 464 483	acute liver failure
+T16	Chemical 532 559	tumor necrosis factor-alpha
+T17	Chemical 564 580	interferon-gamma
+T18	Chemical 627 631	sFas
+T19	Disease 677 696	acute liver failure
+T20	Disease 876 895	acute liver failure
+T21	Chemical 903 914	paracetamol
+T22	Chemical 1103 1107	sFas
+T23	Chemical 1198 1202	sFas
+T24	Chemical 1214 1243	aspartate aminotransferase (r
+T25	Chemical 1308 1312	sFas
+T26	Disease 1339 1358	acute liver failure
+T28	Chemical 1454 1481	tumor necrosis factor-alpha
+T30	Disease 1512 1527	liver cell loss

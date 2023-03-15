@@ -1,0 +1,12 @@
+T1	Chemical 0 10	Nelarabine
+T2	Disease 320 327	disease
+T3	Disease 445 452	disease
+T4	Chemical 520 530	nelarabine
+T5	Chemical 612 619	central
+T6	Disease 747 767	tumor lysis syndrome
+T7	Disease 1104 1114	neuropathy
+T8	Chemical 1369 1379	Nelarabine
+T9	Disease 1426 1436	neuropathy
+T10	Disease 1574 1583	remission
+T11	Disease 1598 1605	disease
+T12	Disease 1748 1761	neurotoxicity

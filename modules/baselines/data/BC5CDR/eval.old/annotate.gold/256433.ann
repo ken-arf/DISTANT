@@ -1,0 +1,26 @@
+T1	Chemical 20 30	tobramycin
+T2	Chemical 45 58	carbenicillin
+T3	Disease 63 73	infections
+T4	Disease 77 83	cancer
+T5	Disease 110 120	infections
+T6	Disease 124 130	cancer
+T7	Disease 165 176	neutropenia
+T8	Disease 236 247	neutropenia
+T9	Disease 346 357	neutropenia
+T10	Chemical 359 369	tobramycin
+T11	Chemical 434 447	carbenicillin
+T12	Chemical 449 459	Tobramycin
+T13	Chemical 509 522	carbenicillin
+T14	Disease 611 617	cancer
+T15	Disease 699 708	Pneumonia
+T16	Disease 729 738	infection
+T17	Disease 854 864	infections
+T18	Disease 917 927	pneumoniae
+T19	Disease 1022 1056	gram-negative bacillary infections
+T20	Disease 1179 1190	neutropenia
+T21	Disease 1289 1297	Azotemia
+T22	Disease 1378 1386	azotemia
+T23	Chemical 1394 1404	creatinine
+T24	Disease 1479 1487	Azotemia
+T25	Chemical 1536 1546	tobramycin
+T26	Disease 1634 1648	renal toxicity

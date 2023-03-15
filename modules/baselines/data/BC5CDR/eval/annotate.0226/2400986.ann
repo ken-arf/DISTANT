@@ -1,0 +1,37 @@
+T1	Disease 15 28	neurotoxicity
+T2	Chemical 32 50	high-dose busulfan
+T4	Chemical 101 109	Busulfan
+T5	Disease 173 186	neurotoxicity
+T8	Chemical 316 334	high-dose busulfan
+T10	Disease 367 394	bone marrow transplantation
+T11	Disease 399 421	malignant solid tumors
+T12	Disease 423 435	brain tumors
+T13	Chemical 446 454	Busulfan
+T14	Chemical 571 576	mg/m2
+T17	Chemical 832 840	busulfan
+T18	Chemical 901 909	busulfan
+T19	Disease 986 999	neurotoxicity
+T20	Chemical 1040 1042	(1
+T21	Chemical 1079 1084	mg/m2
+T22	Chemical 1157 1186	600-mg/m2 busulfan total dose
+T23	Chemical 1220 1230	clonazepam
+T24	Disease 1245 1266	neurological symptoms
+T25	Chemical 1268 1276	Busulfan
+T27	Disease 1365 1384	cerebrospinal fluid
+T29	Disease 1407 1437	central nervous system disease
+T30	Chemical 1448 1462	mg/m2 busulfan
+T31	Chemical 1468 1478	clonazepam
+T32	Chemical 1479 1507	busulfan cerebrospinal fluid
+T34	Chemical 1677 1687	total dose
+T35	Chemical 1691 1699	busulfan
+T37	Chemical 1805 1815	clonazepam
+T38	Chemical 1819 1827	busulfan
+T39	Disease 1908 1922	young children
+T40	Disease 1950 1963	neurotoxicity
+T41	Disease 1974 1987	neurotoxicity
+T42	Chemical 2071 2079	busulfan
+T45	Disease 2171 2188	systemic exposure
+T46	Chemical 2223 2233	total dose
+T48	Chemical 2287 2300	myeloablative
+T49	Chemical 2314 2322	busulfan
+T53	Disease 2363 2390	bone marrow transplantation

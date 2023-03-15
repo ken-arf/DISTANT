@@ -1,0 +1,12 @@
+T1	Disease 0 11	Cardiotoxic
+T2	Chemical 49 59	adriamycin
+T3	Chemical 112 122	adriamycin
+T4	Disease 210 234	congestive heart failure
+T5	Chemical 260 270	adriamycin
+T6	Disease 376 394	myocardial lesions
+T7	Chemical 426 439	anthracycline
+T8	Disease 448 462	cardiomyopathy
+T9	Disease 494 521	acute myeloblastic leukemia
+T10	Chemical 551 561	adriamycin
+T11	Chemical 661 671	adriamycin
+T12	Disease 734 742	leukemia

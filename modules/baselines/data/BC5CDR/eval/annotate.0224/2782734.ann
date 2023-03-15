@@ -1,0 +1,12 @@
+T1	Disease 0 13	Tachyphylaxis
+T2	Chemical 102 112	salbutamol
+T3	Chemical 149 159	salbutamol
+T5	Disease 374 387	tachyphylaxis
+T6	Chemical 445 455	salbutamol
+T8	Chemical 546 559	beta-agonists
+T9	Chemical 636 646	salbutamol
+T10	Chemical 678 686	low dose
+T11	Chemical 695 705	salbutamol
+T12	Chemical 884 897	beta-agonists
+T13	Chemical 916 935	ipratropium bromide
+T15	Disease 1691 1706	adverse effects

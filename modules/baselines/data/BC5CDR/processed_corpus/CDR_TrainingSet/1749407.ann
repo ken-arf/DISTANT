@@ -1,0 +1,18 @@
+T1	Chemical 0 7	Cocaine
+T2	Disease 16 37	myocardial infarction
+T3	Chemical 187 194	cocaine
+T4	Disease 209 236	acute myocardial infarction
+T5	Disease 311 338	acute myocardial infarction
+T6	Chemical 381 387	oxygen
+T7	Chemical 411 418	cocaine
+T8	Disease 502 529	atherosclerotic obstruction
+T9	Disease 531 549	coronary occlusion
+T10	Disease 564 569	spasm
+T11	Disease 571 579	thrombus
+T12	Disease 605 610	spasm
+T13	Chemical 679 686	cocaine
+T14	Disease 813 818	spasm
+T15	Disease 1003 1013	infarction
+T16	Chemical 1148 1155	cocaine
+T17	Disease 1437 1447	thrombotic
+T18	Chemical 1458 1465	cocaine

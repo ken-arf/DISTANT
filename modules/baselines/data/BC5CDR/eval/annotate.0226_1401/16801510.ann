@@ -1,0 +1,16 @@
+T1	Disease 0 12	Drug-induced
+T5	Disease 144 156	Drug-induced
+T7	Disease 187 208	adverse drug reaction
+T9	Disease 325 336	QT interval
+T12	Disease 380 395	dose dependence
+T24	Disease 1021 1023	QT
+T28	Disease 1107 1123	QTc prolongation
+T30	Disease 1260 1279	torsades de pointes
+T32	Disease 1477 1480	QTc
+T35	Chemical 1512 1528	cytochrome P-450
+T37	Disease 1582 1596	liver function
+T38	Disease 1611 1622	QT interval
+T45	Chemical 1760 1776	cytochrome P-450
+T46	Disease 1814 1828	liver function
+T47	Disease 1843 1845	QT
+T50	Chemical 1892 1901	low doses

@@ -1,0 +1,16 @@
+T1	Disease 8 16	toxicity
+T2	Chemical 20 36	cyclophosphamide
+T3	Chemical 303 319	cyclophosphamide
+T4	Chemical 321 323	CY
+T5	Chemical 382 384	CY
+T6	Disease 578 586	toxicity
+T7	Chemical 708 710	CY
+T8	Disease 764 772	cystitis
+T9	Disease 835 851	Delayed cystitis
+T10	Disease 873 885	infiltration
+T11	Disease 967 978	exfoliation
+T12	Chemical 1210 1219	discoidal
+T13	Disease 1437 1445	cystitis
+T14	Disease 1538 1546	toxicity
+T15	Chemical 1550 1552	CY
+T16	Disease 1664 1685	interstitial cystitis

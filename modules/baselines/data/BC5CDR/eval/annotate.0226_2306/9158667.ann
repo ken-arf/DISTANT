@@ -1,0 +1,20 @@
+T1	Disease 0 10	Thrombotic
+T2	Disease 28 56	acute promyelocytic leukemia
+T3	Chemical 64 87	all-trans-retinoic acid
+T4	Disease 106 125	acute renal failure
+T6	Disease 147 160	renal vessels
+T7	Disease 179 207	acute promyelocytic leukemia
+T8	Disease 209 212	APL
+T9	Chemical 227 250	all-trans-retinoic acid
+T10	Chemical 252 256	ATRA
+T11	Chemical 262 277	tranexamic acid
+T12	Disease 327 346	acute renal failure
+T13	Disease 353 356	APL
+T14	Disease 378 382	ATRA
+T15	Disease 435 449	thromboembolic
+T18	Disease 561 579	signs and symptoms
+T19	Disease 583 586	APL
+T20	Disease 680 699	acute renal failure
+T21	Chemical 835 853	therapeutic choice
+T22	Disease 941 951	Thrombotic
+T23	Chemical 995 1011	low-dose heparin

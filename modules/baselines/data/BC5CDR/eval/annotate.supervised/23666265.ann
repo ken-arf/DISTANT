@@ -1,0 +1,14 @@
+T1	Disease 87 95	cystitis
+T2	Chemical 206 222	cyclophosphamide
+T3	Disease 237 245	cystitis
+T4	Chemical 492 495	CYP
+T5	Chemical 572 575	CYP
+T6	Chemical 669 677	GR 82334
+T7	Disease 691 695	pain
+T8	Chemical 738 741	CYP
+T9	Chemical 1052 1068	Cyclophosphamide
+T10	Disease 1105 1109	pain
+T11	Disease 1145 1164	bladder instability
+T12	Chemical 1329 1332	MCC
+T13	Disease 1500 1505	edema
+T14	Disease 1787 1795	cystitis

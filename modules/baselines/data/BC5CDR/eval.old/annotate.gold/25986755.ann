@@ -1,0 +1,19 @@
+T1	Disease 78 96	glomerulosclerosis
+T2	Chemical 136 144	caffeine
+T3	Chemical 213 221	caffeine
+T4	Disease 250 281	intrauterine growth retardation
+T5	Disease 283 287	IUGR
+T6	Disease 334 338	IUGR
+T7	Disease 360 378	glomerulosclerosis
+T8	Disease 414 432	glomerulosclerosis
+T9	Disease 528 546	glomerulosclerosis
+T10	Disease 633 637	IUGR
+T11	Disease 825 843	glomerulosclerosis
+T12	Disease 855 876	interstitial fibrosis
+T13	Chemical 918 928	creatinine
+T14	Chemical 954 968	angiotensin II
+T15	Chemical 1065 1079	angiotensin II
+T16	Chemical 1719 1727	tyrosine
+T17	Disease 1820 1846	dysplasia of fetal kidneys
+T18	Disease 1858 1876	glomerulosclerosis
+T19	Disease 1994 2012	glomerulosclerosis

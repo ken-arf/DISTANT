@@ -1,0 +1,23 @@
+T1	Disease 12 29	right ventricular
+T2	Disease 44 73	cardiopulmonary resuscitation
+T5	Disease 138 167	cardiopulmonary resuscitation
+T6	Disease 216 235	circulatory failure
+T7	Disease 241 263	myocardial dysfunction
+T9	Disease 290 307	viral myocarditis
+T13	Disease 426 443	cardiogenic shock
+T14	Disease 491 505	central venous
+T19	Disease 727 747	cardiac dysrhythmias
+T20	Disease 772 796	cardiocirculatory arrest
+T22	Disease 837 849	dysrhythmias
+T25	Disease 940 957	Right ventricular
+T26	Disease 1010 1039	cardiopulmonary resuscitation
+T28	Disease 1065 1079	cardiac pacing
+T31	Disease 1156 1170	cardiac output
+T32	Disease 1209 1223	cardiac arrest
+T34	Disease 1286 1300	cardiac pacing
+T35	Disease 1346 1358	sinus rhythm
+T36	Disease 1362 1387	electrical defibrillation
+T37	Disease 1445 1459	cardiac pacing
+T40	Disease 1526 1554	acute myocardial dysfunction
+T43	Disease 1624 1645	hemodynamic stability
+T44	Chemical 1734 1756	therapeutic modalities

@@ -1,0 +1,11 @@
+T1	Chemical 0 11	Simvastatin
+T2	Disease 34 54	compartment syndrome
+T3	Disease 59 70	myonecrosis
+T4	Disease 87 101	hypothyroidism
+T5	Disease 116 127	hypothyroid
+T6	Chemical 140 149	thyroxine
+T7	Chemical 154 165	simvastatin
+T8	Disease 195 215	compartment syndrome
+T9	Disease 220 231	myonecrosis
+T10	Chemical 335 346	simvastatin
+T11	Disease 479 492	arteriopathic

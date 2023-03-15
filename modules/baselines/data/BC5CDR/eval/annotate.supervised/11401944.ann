@@ -1,0 +1,25 @@
+T1	Disease 50 61	polymorphic
+T2	Disease 62 85	ventricular tachycardia
+T3	Disease 98 105	long-QT
+T4	Disease 98 114	long-QT syndrome
+T5	Disease 318 325	torsade
+T6	Disease 318 336	torsade de pointes
+T7	Disease 338 341	TdP
+T8	Disease 348 363	QT prolongation
+T9	Chemical 375 385	dl-sotalol
+T10	Chemical 390 399	azimilide
+T11	Disease 496 499	EAD
+T12	Disease 523 526	TdP
+T13	Chemical 782 792	dl-Sotalol
+T14	Disease 912 927	QT prolongation
+T15	Chemical 952 961	Azimilide
+T16	Chemical 1104 1114	dl-sotalol
+T17	Chemical 1116 1125	azimilide
+T18	Chemical 1217 1227	dl-sotalol
+T19	Chemical 1232 1241	azimilide
+T20	Chemical 1402 1412	dl-sotalol
+T21	Disease 1504 1507	TdP
+T22	Chemical 1560 1569	azimilide
+T23	Chemical 1615 1625	dl-sotalol
+T24	Disease 1930 1933	TdP
+T25	Disease 1940 1955	QT prolongation

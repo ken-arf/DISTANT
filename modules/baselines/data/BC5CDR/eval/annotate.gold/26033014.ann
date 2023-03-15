@@ -1,0 +1,24 @@
+T1	Disease 0 6	Cancer
+T2	Chemical 21 32	metolachlor
+T3	Chemical 93 104	Metolachlor
+T4	Disease 232 247	liver neoplasms
+T5	Chemical 311 322	metolachlor
+T6	Disease 532 538	cancer
+T7	Chemical 631 642	metolachlor
+T8	Chemical 716 727	metolachlor
+T9	Disease 786 792	cancer
+T10	Chemical 834 845	metolachlor
+T11	Disease 871 878	cancers
+T12	Disease 940 947	cancers
+T13	Disease 953 965	liver cancer
+T14	Chemical 1168 1178	metolachor
+T15	Disease 1297 1321	follicular cell lymphoma
+T16	Disease 1336 1344	lymphoma
+T17	Disease 1390 1401	lung cancer
+T18	Chemical 1425 1436	metolachlor
+T19	Chemical 1532 1543	metolachlor
+T20	Disease 1548 1560	liver cancer
+T21	Disease 1644 1659	liver neoplasms
+T22	Disease 1715 1727	liver cancer
+T23	Disease 1748 1756	lymphoma
+T24	Chemical 1810 1821	metolachlor

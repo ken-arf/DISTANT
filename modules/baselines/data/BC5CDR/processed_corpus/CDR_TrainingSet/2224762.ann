@@ -1,0 +1,25 @@
+T1	Chemical 138 170	4'-0-tetrahydropyranyladriamycin
+T2	Chemical 172 183	Pirarubicin
+T3	Disease 252 258	tumors
+T4	Disease 366 398	renal and/or hepatic dysfunction
+T5	Disease 366 371;387 398	renal dysfunction
+T6	Disease 379 398	hepatic dysfunction
+T7	Disease 621 637	granulocytopenia
+T8	Disease 723 739	thrombocytopenia
+T9	Disease 741 747	anemia
+T10	Disease 749 755	nausea
+T11	Disease 762 770	alopecia
+T12	Disease 772 781	phlebitis
+T13	Disease 787 796	mucositis
+T14	Disease 798 814	Myelosuppression
+T15	Disease 841 860	hepatic dysfunction
+T16	Chemical 911 922	Pirarubicin
+T17	Chemical 1206 1218	Adriamycinol
+T18	Chemical 1220 1231	doxorubicin
+T19	Chemical 1233 1246	adriamycinone
+T20	Chemical 1252 1281	tetrahydropyranyladriamycinol
+T21	Chemical 1340 1351	doxorubicin
+T22	Chemical 1429 1440	Pirarubicin
+T23	Disease 1516 1528	mesothelioma
+T24	Disease 1530 1544	leiomyosarcoma
+T25	Disease 1550 1570	basal cell carcinoma

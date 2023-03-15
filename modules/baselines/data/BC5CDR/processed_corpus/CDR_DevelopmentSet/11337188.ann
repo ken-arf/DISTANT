@@ -1,0 +1,27 @@
+T1	Disease 0 37	Cutaneous leucocytoclastic vasculitis
+T2	Chemical 54 63	oxacillin
+T3	Chemical 103 112	oxacillin
+T4	Disease 137 169	Staphylococcus aureus bacteremia
+T5	Disease 137 169	Staphylococcus aureus bacteremia
+T6	Disease 159 169	bacteremia
+T7	Disease 181 194	renal failure
+T8	Disease 228 244	purpuric lesions
+T9	Disease 258 275	Necrotic blisters
+T10	Disease 258 266	Necrotic
+T11	Disease 267 275	blisters
+T12	Disease 347 374	leucocytoclastic vasculitis
+T13	Chemical 376 385	Oxacillin
+T14	Chemical 432 447	corticosteroids
+T15	Disease 453 457	rash
+T16	Disease 527 554	Leucocytoclastic vasculitis
+T17	Disease 576 583	purpura
+T18	Disease 630 644	abdominal pain
+T19	Disease 646 656	arthralgia
+T20	Disease 662 679	renal involvement
+T21	Disease 731 741	infections
+T22	Disease 756 781	collagen vascular disease
+T23	Disease 786 795	neoplasia
+T24	Chemical 905 919	corticosteroid
+T25	Chemical 995 1010	corticosteroids
+T26	Chemical 1054 1063	Oxacillin
+T27	Disease 1114 1141	leucocytoclastic vasculitis

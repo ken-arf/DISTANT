@@ -1,0 +1,24 @@
+T1	Chemical 0 8	Succimer
+T2	Disease 114 134	cognitive impairment
+T3	Chemical 153 157	lead
+T4	Chemical 283 287	lead
+T5	Chemical 504 506	Pb
+T6	Chemical 627 629	Pb
+T7	Chemical 658 666	succimer
+T8	Chemical 719 721	Pb
+T9	Disease 722 731	poisoning
+T10	Chemical 742 744	Pb
+T11	Disease 771 806	impairments in learning, attention,
+T12	Chemical 917 925	Succimer
+T13	Chemical 1094 1096	Pb
+T14	Chemical 1162 1170	succimer
+T15	Chemical 1215 1217	Pb
+T16	Disease 1249 1262	cognitive and
+T17	Disease 1263 1284	affective dysfunction
+T18	Chemical 1340 1342	Pb
+T19	Disease 1480 1498	cognitive deficits
+T20	Chemical 1506 1508	Pb
+T21	Chemical 1580 1588	succimer
+T22	Chemical 1697 1705	succimer
+T23	Chemical 1802 1804	Pb
+T24	Chemical 1820 1826	metals

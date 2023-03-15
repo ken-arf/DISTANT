@@ -1,0 +1,12 @@
+T1	Disease 15 37	atrioventricular block
+T3	Chemical 71 81	epirubicin
+T4	Chemical 86 96	paclitaxel
+T6	Disease 156 177	latissimus dorsi flap
+T9	Chemical 306 331	neo-adjuvant chemotherapy
+T10	Chemical 337 347	epirubicin
+T11	Chemical 349 359	paclitaxel
+T12	Chemical 361 366	Taxol
+T13	Chemical 372 388	cyclophosphamide
+T15	Disease 518 529	bradycardic
+T16	Disease 569 585	cardiac symptoms
+T19	Disease 889 903	cardiotoxicity

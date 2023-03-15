@@ -1,0 +1,24 @@
+T1	Chemical 28 38	inhibitors
+T2	Chemical 42 55	non-selective
+T3	Disease 187 214	acute myocardial infarction
+T4	Chemical 323 336	non-steroidal
+T5	Disease 435 443	bleeding
+T6	Chemical 505 518	acetaminophen
+T7	Chemical 670 683	acetaminophen
+T8	Chemical 837 844	aspirin
+T9	Chemical 861 874	acetaminophen
+T10	Chemical 957 964	aspirin
+T11	Chemical 1086 1093	aspirin
+T12	Chemical 1185 1198	acetaminophen
+T13	Chemical 1208 1215	aspirin
+T14	Chemical 1315 1325	diclofenac
+T15	Chemical 1348 1357	ibuprofen
+T16	Chemical 1392 1399	aspirin
+T17	Chemical 1470 1479	ibuprofen
+T18	Chemical 1499 1509	diclofenac
+T19	Chemical 1560 1573	acetaminophen
+T20	Chemical 1624 1631	aspirin
+T21	Disease 1686 1694	bleeding
+T22	Disease 1707 1715	toxicity
+T23	Chemical 1752 1765	acetaminophen
+T24	Chemical 1844 1851	aspirin

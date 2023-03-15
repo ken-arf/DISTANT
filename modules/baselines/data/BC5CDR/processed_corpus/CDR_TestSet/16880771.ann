@@ -1,0 +1,15 @@
+T1	Chemical 91 99	dopamine
+T2	Chemical 191 199	dopamine
+T3	Chemical 210 218	levodopa
+T4	Disease 261 267	stroke
+T5	Chemical 286 294	levodopa
+T6	Chemical 766 774	dopamine
+T7	Chemical 792 801	pergolide
+T8	Chemical 872 880	dopamine
+T9	Disease 903 931	impaired novel word learning
+T10	Chemical 1057 1066	pergolide
+T11	Chemical 1179 1188	pergolide
+T12	Chemical 1287 1295	dopamine
+T13	Chemical 1350 1358	dopamine
+T14	Chemical 1435 1443	dopamine
+T15	Disease 1498 1504	stroke

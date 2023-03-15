@@ -1,0 +1,20 @@
+T1	Chemical 26 36	ifosfamide
+T2	Chemical 38 43	mesna
+T4	Chemical 139 149	Ifosfamide
+T5	Disease 151 154	IFO
+T6	Chemical 162 172	alkylating
+T7	Chemical 173 189	nitrogen mustard
+T8	Chemical 211 225	antineoplasmic
+T10	Disease 323 334	side effect
+T12	Chemical 430 435	Mesna
+T14	Chemical 478 481	IFO
+T15	Chemical 486 491	Mesna
+T17	Chemical 677 680	PRI
+T18	Chemical 715 720	Mesna
+T19	Chemical 751 754	IFO
+T20	Chemical 839 842	IFO
+T22	Chemical 915 920	Mesna
+T23	Chemical 1001 1004	IFO
+T25	Chemical 1058 1063	Mesna
+T26	Disease 1092 1104	genotoxicity
+T28	Chemical 1193 1203	cytostatic

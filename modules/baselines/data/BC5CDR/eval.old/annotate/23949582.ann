@@ -1,0 +1,13 @@
+T1	Chemical 26 36	ifosfamide
+T2	Chemical 38 43	mesna
+T3	Chemical 139 149	Ifosfamide
+T4	Chemical 151 154	IFO
+T5	Disease 296 316	hemorrhagic cystitis
+T6	Chemical 396 428	sodium 2-sulfanylethanesulfonate
+T7	Chemical 430 435	Mesna
+T8	Chemical 486 491	Mesna
+T9	Chemical 715 720	Mesna
+T10	Chemical 915 920	Mesna
+T11	Chemical 1001 1004	IFO
+T12	Chemical 1058 1063	Mesna
+T13	Disease 1092 1104	genotoxicity

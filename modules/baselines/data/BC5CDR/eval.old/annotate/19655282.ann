@@ -1,0 +1,16 @@
+T1	Disease 110 120	chest pain
+T2	Disease 213 223	chest pain
+T3	Disease 283 306	acute coronary syndrome
+T4	Disease 520 528	low risk
+T5	Disease 533 547	cardiac events
+T6	Disease 667 677	chest pain
+T7	Disease 682 700	coronary vasospasm
+T8	Disease 818 828	chest pain
+T9	Disease 1005 1015	chest pain
+T11	Disease 1365 1385	cardiovascular death
+T12	Disease 1389 1410	myocardial infarction
+T13	Disease 1468 1478	chest pain
+T14	Disease 1890 1907	coronary stenosis
+T15	Disease 2053 2074	myocardial infarction
+T16	Disease 2234 2244	chest pain
+T17	Disease 2365 2373	low risk

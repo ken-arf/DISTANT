@@ -1,0 +1,13 @@
+T1	Disease 15 31	atrioventricular
+T2	Disease 15 37	atrioventricular block
+T3	Chemical 71 81	epirubicin
+T4	Chemical 86 96	paclitaxel
+T5	Disease 220 243	carcinoma of the breast
+T6	Chemical 337 347	epirubicin
+T7	Chemical 349 359	paclitaxel
+T8	Chemical 361 366	Taxol
+T9	Chemical 372 388	cyclophosphamide
+T10	Disease 601 607	Mobitz
+T11	Disease 616 632	atrioventricular
+T12	Disease 616 638	atrioventricular block
+T13	Disease 889 903	cardiotoxicity

@@ -1,0 +1,19 @@
+T1	Disease 6 28	neurologic dysfunction
+T2	Chemical 35 54	high-dose etoposide
+T3	Disease 67 83	malignant glioma
+T4	Chemical 84 93	Etoposide
+T5	Chemical 95 100	VP-16
+T6	Disease 145 157	solid tumors
+T7	Disease 162 186	hematologic malignancies
+T8	Disease 247 274	bone marrow transplantation
+T10	Disease 316 343	treatment-resistant cancers
+T11	Disease 354 370	malignant glioma
+T13	Disease 435 451	resistant glioma
+T14	Disease 453 491	sudden severe neurologic deterioration
+T15	Chemical 556 575	high-dose etoposide
+T16	Disease 597 620	clinical manifestations
+T21	Disease 687 701	motor deficits
+T23	Chemical 800 809	high-dose
+T24	Disease 945 954	peritumor
+T28	Chemical 1070 1089	high-dose etoposide
+T29	Disease 1102 1118	malignant glioma

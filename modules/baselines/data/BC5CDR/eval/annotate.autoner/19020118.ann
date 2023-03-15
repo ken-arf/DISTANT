@@ -1,0 +1,11 @@
+T1	Chemical 27 42	tranexamic acid
+T2	Chemical 240 255	tranexamic acid
+T3	Chemical 591 606	tranexamic acid
+T4	Disease 859 867	seizures
+T5	Disease 1095 1114	atrial fibrillation
+T6	Disease 1145 1158	renal failure
+T7	Disease 1352 1362	myocardial
+T8	Disease 1379 1396	renal dysfunction
+T9	Chemical 1622 1638	antifibrinolytic
+T10	Disease 1769 1777	coronary
+T11	Chemical 1848 1863	tranexamic acid

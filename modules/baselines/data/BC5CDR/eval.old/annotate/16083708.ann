@@ -1,0 +1,10 @@
+T1	Disease 13 25	liver injury
+T2	Disease 204 216	liver injury
+T3	Disease 473 485	liver damage
+T4	Disease 517 531	hepatocellular
+T5	Disease 533 544	cholestatic
+T6	Chemical 888 911	amoxicillin-clavulanate
+T9	Disease 1367 1392	fulminant hepatic failure
+T10	Disease 1448 1469	hepatocellular damage
+T12	Disease 1634 1657	hepatocellular jaundice
+T13	Chemical 1720 1743	Amoxicillin-clavulanate

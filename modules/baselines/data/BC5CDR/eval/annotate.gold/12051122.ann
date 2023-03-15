@@ -1,0 +1,20 @@
+T1	Disease 0 12	Hyponatremia
+T2	Disease 17 64	syndrome of inappropriate anti-diuretic hormone
+T3	Chemical 90 101	Vincristine
+T4	Disease 260 272	hyponatremia
+T5	Disease 280 340	syndrome of inappropriate secretion of anti-diuretic hormone
+T6	Disease 342 347	SIADH
+T7	Chemical 355 366	vincristine
+T8	Disease 558 570	hyponatremia
+T9	Disease 578 583	SIADH
+T10	Chemical 647 658	vincristine
+T11	Disease 692 704	hyponatremia
+T12	Disease 712 717	SIADH
+T13	Chemical 734 745	vincristine
+T14	Disease 980 988	leukemia
+T15	Disease 992 1000	lymphoma
+T16	Disease 1200 1212	hyponatremia
+T17	Disease 1220 1225	SIADH
+T18	Chemical 1242 1253	vincristine
+T19	Disease 1297 1302	SIADH
+T20	Chemical 1319 1330	vincristine

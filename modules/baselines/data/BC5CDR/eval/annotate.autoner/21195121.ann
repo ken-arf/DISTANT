@@ -1,0 +1,16 @@
+T1	Disease 28 39	convulsions
+T2	Chemical 51 58	lindane
+T3	Disease 131 142	convulsions
+T4	Chemical 199 204	oxide
+T5	Chemical 305 315	L-arginine
+T6	Disease 399 407	epilepsy
+T7	Disease 541 549	epilepsy
+T8	Chemical 600 610	L-arginine
+T9	Disease 692 702	convulsion
+T10	Disease 762 772	convulsion
+T11	Disease 904 914	convulsion
+T12	Disease 968 978	convulsion
+T13	Disease 1006 1016	convulsive
+T14	Chemical 1144 1154	l-arginine
+T15	Chemical 1164 1171	lindane
+T16	Disease 1339 1347	seizures

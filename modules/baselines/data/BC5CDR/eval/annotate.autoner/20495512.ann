@@ -1,0 +1,15 @@
+T1	Disease 0 32	Heparin-induced thrombocytopenia
+T2	Disease 53 85	Heparin-induced thrombocytopenia
+T3	Disease 87 90	HIT
+T4	Chemical 178 185	heparin
+T5	Chemical 240 246	factor
+T6	Disease 332 342	Thrombosis
+T7	Disease 347 363	thrombocytopenia
+T8	Disease 710 720	thrombosis
+T9	Disease 758 769	recognition
+T10	Chemical 980 987	heparin
+T11	Disease 1251 1254	HIT
+T12	Disease 1290 1297	cardiac
+T13	Disease 1502 1505	HIT
+T14	Disease 1540 1548	coronary
+T15	Chemical 1748 1755	heparin

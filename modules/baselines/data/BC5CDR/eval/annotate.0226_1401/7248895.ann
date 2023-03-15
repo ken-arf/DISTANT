@@ -1,0 +1,17 @@
+T2	Disease 26 38	renal pelvis
+T4	Disease 130 151	hydroureteronephrosis
+T5	Disease 159 194	ureterovesical junction obstruction
+T7	Disease 255 271	cyclophosphamide
+T9	Disease 299 323	right nephroureterectomy
+T11	Disease 395 412	clinically occult
+T13	Disease 439 451	renal pelvis
+T14	Chemical 477 493	cyclophosphamide
+T18	Disease 696 709	urinary tract
+T20	Disease 736 751	urinary bladder
+T24	Disease 881 893	renal pelvis
+T25	Disease 967 987	urinary tract cancer
+T28	Disease 1116 1137	hydroureteronephrosis
+T30	Disease 1203 1216	urinary tract
+T31	Chemical 1231 1247	cyclophosphamide
+T33	Chemical 1291 1307	cyclophosphamide
+T34	Disease 1352 1372	obstructive uropathy

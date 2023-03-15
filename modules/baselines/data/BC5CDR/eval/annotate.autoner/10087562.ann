@@ -1,0 +1,13 @@
+T1	Disease 0 42	Torsade de pointes ventricular tachycardia
+T2	Chemical 72 82	dobutamine
+T3	Disease 111 133	dilated cardiomyopathy
+T4	Disease 138 162	congestive heart failure
+T5	Disease 237 250	heart failure
+T6	Disease 264 286	dilated cardiomyopathy
+T7	Disease 314 337	ventricular arrhythmias
+T8	Disease 383 414	pointes ventricular tachycardia
+T9	Chemical 478 488	dobutamine
+T10	Disease 505 547	torsade de pointes ventricular tachycardia
+T11	Chemical 568 578	dobutamine
+T12	Disease 717 723	rhythm
+T13	Disease 756 769	proarrhythmic

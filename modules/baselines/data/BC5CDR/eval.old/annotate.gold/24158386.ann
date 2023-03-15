@@ -1,0 +1,26 @@
+T1	Chemical 0 3	GEM
+T2	Disease 58 74	Hodgkin lymphoma
+T3	Disease 75 91	Hodgkin lymphoma
+T4	Disease 93 95	HL
+T5	Disease 128 138	malignancy
+T6	Disease 428 436	toxicity
+T7	Chemical 438 449	Gemcitabine
+T8	Chemical 454 463	cisplatin
+T9	Disease 481 483	HL
+T10	Disease 501 509	toxicity
+T11	Disease 675 677	HL
+T12	Chemical 691 702	gemcitabine
+T13	Chemical 739 757	methylprednisolone
+T14	Chemical 777 786	cisplatin
+T15	Chemical 819 822	GEM
+T16	Disease 877 885	toxicity
+T17	Chemical 1003 1006	GEM
+T18	Chemical 1104 1107	GEM
+T19	Chemical 1206 1209	GEM
+T20	Disease 1418 1428	toxicities
+T21	Disease 1450 1461	neutropenia
+T22	Disease 1471 1487	thrombocytopenia
+T23	Chemical 1529 1532	GEM
+T24	Chemical 1560 1563	GEM
+T25	Chemical 1776 1779	GEM
+T26	Disease 1951 1953	HL

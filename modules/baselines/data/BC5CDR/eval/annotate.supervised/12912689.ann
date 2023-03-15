@@ -1,0 +1,25 @@
+T1	Chemical 39 50	carboplatin
+T2	Disease 68 82	retinoblastoma
+T3	Chemical 101 109	subtenon
+T4	Chemical 110 121	carboplatin
+T5	Disease 236 250	retinoblastoma
+T6	Disease 302 326	abnormal ocular motility
+T7	Chemical 352 360	subtenon
+T8	Chemical 361 372	carboplatin
+T9	Disease 405 429	abnormal ocular motility
+T10	Disease 462 476	retinoblastoma
+T11	Chemical 494 502	subtenon
+T12	Chemical 503 514	carboplatin
+T13	Disease 651 656	tumor
+T14	Disease 805 834	Limitation of ocular motility
+T15	Disease 902 916	retinoblastoma
+T16	Chemical 943 951	subtenon
+T17	Chemical 943 963	subtenon carboplatin
+T18	Chemical 952 963	carboplatin
+T19	Disease 1195 1207	fat necrosis
+T20	Chemical 1350 1358	Subtenon
+T21	Chemical 1359 1370	carboplatin
+T22	Disease 1415 1423	fibrosis
+T23	Chemical 1545 1553	Subtenon
+T24	Chemical 1554 1565	carboplatin
+T25	Disease 1581 1589	toxicity

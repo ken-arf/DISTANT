@@ -1,0 +1,36 @@
+T1	Chemical 0 10	Nimodipine
+T2	Disease 20 37	memory impairment
+T3	Chemical 48 61	nitroglycerin
+T4	Disease 70 81	hypotension
+T5	Disease 108 119	Hypotension
+T6	Disease 211 232	cognitive dysfunction
+T7	Chemical 264 274	nimodipine
+T8	Chemical 276 280	NIMO
+T9	Chemical 311 324	nitroglycerin
+T10	Chemical 326 329	NTG
+T11	Disease 339 350	hypotension
+T12	Chemical 789 792	NTG
+T13	Chemical 824 827	NTG
+T14	Chemical 851 854	NTG
+T15	Chemical 859 863	NIMO
+T16	Chemical 884 888	NIMO
+T17	Disease 910 921	hypotension
+T18	Disease 1137 1148	hypotensive
+T19	Chemical 1262 1265	NTG
+T20	Chemical 1268 1272	NIMO
+T21	Chemical 1285 1288	NTG
+T22	Chemical 1566 1569	NTG
+T23	Chemical 1582 1585	NTG
+T24	Chemical 1588 1592	NIMO
+T25	Chemical 1826 1830	NIMO
+T26	Chemical 2041 2044	NTG
+T27	Chemical 2116 2119	NTG
+T28	Chemical 2122 2126	NIMO
+T29	Chemical 2258 2261	NTG
+T30	Disease 2388 2399	hypotension
+T31	Chemical 2415 2419	NIMO
+T32	Chemical 2493 2496	NTG
+T33	Disease 2543 2554	hypotension
+T34	Chemical 2579 2583	NIMO
+T35	Chemical 2634 2641	calcium
+T36	Disease 2661 2672	hypotension

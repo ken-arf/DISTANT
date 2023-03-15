@@ -1,0 +1,18 @@
+T1	Disease 61 82	myocardial infarction
+T2	Disease 147 168	myocardial infarction
+T3	Chemical 258 280	exercise-isoproterenol
+T4	Chemical 282 285	E-1
+T6	Chemical 407 430	sedentary-isoproterenol
+T7	Chemical 432 435	S-I
+T8	Chemical 639 642	S-I
+T9	Chemical 647 650	E-I
+T11	Disease 728 739	body weight
+T12	Chemical 757 760	S-I
+T13	Chemical 792 799	Pp less
+T15	Chemical 883 886	E-I
+T16	Chemical 900 903	CPK
+T17	Chemical 917 920	E-I
+T18	Chemical 998 1001	S-I
+T22	Disease 1212 1224	heart weight
+T23	Disease 1229 1241	heart weight
+T24	Disease 1245 1256	body weight

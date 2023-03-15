@@ -1,0 +1,21 @@
+T1	Chemical 15 25	bortezomib
+T2	Chemical 27 38	thalidomide
+T3	Chemical 44 57	dexamethasone
+T4	Chemical 59 62	VTD
+T5	Disease 150 166	multiple myeloma
+T6	Disease 228 244	multiple myeloma
+T7	Disease 246 248	MM
+T8	Chemical 445 455	bortezomib
+T9	Chemical 457 468	thalidomide
+T10	Chemical 474 487	dexamethasone
+T11	Chemical 489 492	VTD
+T12	Disease 564 566	MM
+T13	Chemical 585 595	bortezomib
+T14	Chemical 625 638	dexamethasone
+T15	Chemical 722 733	thalidomide
+T16	Disease 769 780	neutropenia
+T17	Disease 785 801	thrombocytopenia
+T18	Disease 905 914	cytopenia
+T19	Disease 945 966	Peripheral neuropathy
+T20	Disease 1007 1028	peripheral neuropathy
+T21	Disease 1409 1411	MM

@@ -1,0 +1,10 @@
+T1	Disease 6 15	hepatitis
+T2	Chemical 32 43	clopidogrel
+T3	Disease 101 115	hepatotoxicity
+T4	Disease 143 152	hepatitis
+T5	Chemical 238 249	clopidogrel
+T6	Disease 264 273	hepatitis
+T7	Disease 383 397	hepatotoxicity
+T8	Chemical 405 416	clopidogrel
+T9	Disease 586 600	hepatic injury
+T10	Chemical 606 617	clopidogrel

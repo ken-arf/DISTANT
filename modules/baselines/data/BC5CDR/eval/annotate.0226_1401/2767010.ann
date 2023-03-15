@@ -1,0 +1,34 @@
+T1	Chemical 16 24	ACC-9653
+T2	Chemical 26 53	phenytoin prodrug).ACC-9653
+T3	Chemical 59 83	disodium phosphate ester
+T4	Chemical 131 138	prodrug
+T6	Chemical 170 196	physicochemical properties
+T7	Chemical 198 206	ACC-9653
+T9	Chemical 264 272	ACC-9653
+T10	Chemical 277 293	phenytoin sodium
+T13	Chemical 447 451	ED50
+T15	Chemical 481 489	ACC-9653
+T16	Chemical 511 527	phenytoin sodium
+T17	Chemical 529 537	ACC-9653
+T18	Chemical 542 558	phenytoin sodium
+T19	Chemical 572 595	antiarrhythmic activity
+T20	Disease 620 643	ventricular tachycardia
+T21	Chemical 685 693	ACC-9653
+T22	Chemical 697 713	phenytoin sodium
+T24	Disease 755 774	normal sinus rhythm
+T25	Chemical 828 844	phenytoin sodium
+T26	Chemical 864 887	antiarrhythmic activity
+T28	Chemical 982 991	high dose
+T29	Chemical 995 1003	ACC-9653
+T30	Chemical 1089 1103	equimolar dose
+T31	Chemical 1107 1123	phenytoin sodium
+T32	Chemical 1140 1148	ACC-9653
+T33	Chemical 1153 1169	phenytoin sodium
+T34	Disease 1229 1243	blood pressure
+T35	Chemical 1248 1265	contractile force
+T37	Chemical 1347 1363	phenytoin sodium
+T39	Chemical 1398 1406	ACC-9653
+T40	Chemical 1411 1427	phenytoin sodium
+T41	Disease 1532 1546	systemic toxic
+T44	Chemical 1666 1674	ACC-9653
+T45	Chemical 1698 1714	phenytoin sodium

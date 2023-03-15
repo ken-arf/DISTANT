@@ -1,0 +1,21 @@
+T4	Disease 78 96	glomerulosclerosis
+T8	Disease 250 281	intrauterine growth retardation
+T10	Chemical 334 338	IUGR
+T11	Disease 360 378	glomerulosclerosis
+T12	Chemical 397 400	PCE
+T13	Disease 414 432	glomerulosclerosis
+T14	Disease 528 546	glomerulosclerosis
+T23	Disease 825 843	glomerulosclerosis
+T25	Chemical 918 928	creatinine
+T27	Chemical 954 984	angiotensin II receptor type 2
+T28	Chemical 992 1007	gene expression
+T30	Chemical 1065 1096	angiotensin II receptor type 1a
+T31	Disease 1146 1159	fetal kidneys
+T34	Chemical 1490 1497	podocin
+T35	Chemical 1537 1546	AT2R gene
+T37	Chemical 1668 1691	glial-cell-line-derived
+T38	Chemical 1692 1711	neurotrophic factor
+T40	Chemical 1752 1769	signaling pathway
+T42	Disease 1833 1846	fetal kidneys
+T43	Disease 1858 1876	glomerulosclerosis
+T49	Disease 1994 2012	glomerulosclerosis

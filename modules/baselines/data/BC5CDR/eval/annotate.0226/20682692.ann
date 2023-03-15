@@ -1,0 +1,42 @@
+T1	Disease 12 46	endothelial-mesenchymal transition
+T2	Chemical 52 67	Smad3 inhibitor
+T3	Disease 123 143	diabetic nephropathy
+T4	Chemical 221 245	renin-angiotensin system
+T5	Disease 263 269	type 1
+T6	Disease 283 299	normoalbuminuria
+T11	Disease 424 444	diabetic nephropathy
+T12	Disease 446 466	diabetic nephropathy
+T13	Chemical 542 548	EndoMT
+T15	Disease 590 617	renal interstitial fibrosis
+T16	Disease 635 651	microalbuminuria
+T17	Chemical 665 679	streptozotocin
+T20	Chemical 756 762	EndoMT
+T21	Disease 796 816	diabetic nephropathy
+T22	Chemical 847 853	EndoMT
+T24	Chemical 959 981	glycation end products
+T26	Chemical 1040 1058	Tie2-Cre;Loxp-EGFP
+T27	Chemical 1040 1058	Tie2-Cre;Loxp-EGFP
+T28	Chemical 1091 1116	nonglycated mouse albumin
+T29	Chemical 1139 1153	Phosphorylated
+T30	Chemical 1154 1159	Smad3
+T32	Chemical 1278 1283	siRNA
+T34	Chemical 1312 1317	Smad3
+T35	Chemical 1319 1323	SIS3
+T36	Disease 1368 1388	diabetic nephropathy
+T37	Chemical 1392 1410	Tie2-Cre;Loxp-EGFP
+T38	Disease 1460 1463	PCR
+T39	Chemical 1495 1501	EndoMT
+T40	Chemical 1518 1536	Tie2-Cre;Loxp-EGFP
+T41	Chemical 1592 1597	Smad3
+T43	Chemical 1641 1645	SIS3
+T44	Disease 1674 1694	diabetic nephropathy
+T45	Disease 1730 1733	PCR
+T46	Chemical 1760 1764	SIS3
+T47	Chemical 1775 1781	EndoMT
+T49	Disease 1791 1805	renal fibrosis
+T52	Disease 1898 1915	early development
+T53	Disease 1919 1939	diabetic nephropathy
+T54	Chemical 1953 1959	EndoMT
+T55	Chemical 1963 1967	SIS3
+T57	Disease 2024 2044	diabetic nephropathy
+T58	Disease 2055 2077	diabetes complications

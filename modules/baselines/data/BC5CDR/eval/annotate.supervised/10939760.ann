@@ -1,0 +1,14 @@
+T1	Chemical 12 24	sulfadiazine
+T2	Disease 31 45	nephrotoxicity
+T3	Chemical 46 58	Sulfadiazine
+T4	Disease 65 79	nephrotoxicity
+T5	Disease 124 137	toxoplasmosis
+T6	Disease 141 153	HIV-positive
+T7	Chemical 248 260	sulfadiazine
+T8	Disease 276 284	oliguria
+T9	Disease 286 300	abdominal pain
+T10	Disease 302 315	renal failure
+T11	Disease 348 361	renal calculi
+T12	Disease 545 553	ureteral
+T13	Disease 545 563	ureteral lithiasis
+T14	Chemical 693 705	sulfadiazine

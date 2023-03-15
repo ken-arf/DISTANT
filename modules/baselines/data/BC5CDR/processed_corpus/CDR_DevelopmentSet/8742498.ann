@@ -1,0 +1,40 @@
+T1	Chemical 26 29	NAD
+T2	Chemical 44 57	acetaminophen
+T3	Disease 58 72	hepatotoxicity
+T4	Chemical 139 159	nicotinic acid amide
+T5	Chemical 186 202	poly(ADP-ribose)
+T6	Chemical 257 270	acetaminophen
+T7	Chemical 272 275	AAP
+T8	Disease 277 286	hepatitis
+T9	Chemical 308 311	AAP
+T10	Disease 320 332	liver injury
+T11	Chemical 460 463	NAD
+T12	Chemical 524 527	AAP
+T13	Disease 528 537	hepatitis
+T14	Chemical 582 589	ethanol
+T15	Disease 620 634	Liver injuries
+T16	Chemical 674 683	glutamate
+T17	Chemical 684 696	oxaloacetate
+T18	Chemical 720 729	glutamate
+T19	Chemical 730 738	pyruvate
+T20	Chemical 765 768	AAP
+T21	Chemical 913 920	ethanol
+T22	Chemical 938 958	nicotinic acid amide
+T23	Chemical 960 963	NAA
+T24	Chemical 1037 1040	NAD
+T25	Chemical 1147 1150	AAP
+T26	Chemical 1190 1197	ethanol
+T27	Disease 1230 1242	liver damage
+T28	Chemical 1267 1274	ethanol
+T29	Disease 1303 1312	hepatitis
+T30	Chemical 1332 1335	NAA
+T31	Chemical 1349 1356	ethanol
+T32	Chemical 1357 1360	AAP
+T33	Chemical 1405 1408	AAP
+T34	Disease 1417 1426	hepatitis
+T35	Chemical 1451 1458	ethanol
+T36	Chemical 1518 1521	NAA
+T37	Chemical 1572 1575	NAD
+T38	Chemical 1608 1611	NAA
+T39	Chemical 1675 1688	acetaminophen
+T40	Disease 1707 1721	hepatic damage

@@ -1,0 +1,31 @@
+T1	Chemical 33 43	etoricoxib
+T2	Disease 47 67	rheumatoid arthritis
+T3	Chemical 93 103	etoricoxib
+T4	Chemical 107 124	diclofenac sodium
+T5	Chemical 307 317	etoricoxib
+T6	Chemical 322 332	diclofenac
+T7	Disease 350 370	rheumatoid arthritis
+T8	Disease 372 374	RA
+T9	Disease 461 463	RA
+T10	Chemical 491 501	etoricoxib
+T11	Chemical 528 538	diclofenac
+T12	Chemical 613 620	aspirin
+T13	Disease 847 872	thrombotic cardiovascular
+T14	Chemical 1096 1106	etoricoxib
+T15	Chemical 1111 1121	diclofenac
+T16	Disease 1187 1193	GI AEs
+T17	Chemical 1223 1233	etoricoxib
+T18	Chemical 1239 1249	diclofenac
+T19	Disease 1397 1409	hypertension
+T20	Disease 1422 1428	oedema
+T21	Chemical 1472 1482	etoricoxib
+T22	Chemical 1526 1536	diclofenac
+T23	Disease 1578 1590	hypertension
+T24	Disease 1606 1612	oedema
+T25	Chemical 1615 1625	Etoricoxib
+T26	Chemical 1630 1640	diclofenac
+T27	Chemical 1758 1768	Etoricoxib
+T28	Disease 1850 1856	GI AEs
+T29	Chemical 1871 1881	diclofenac
+T30	Disease 1978 1984	GI AEs
+T31	Chemical 2017 2027	etoricoxib

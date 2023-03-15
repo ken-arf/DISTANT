@@ -1,0 +1,14 @@
+T1	Disease 0 21	Necrotising fasciitis
+T2	Chemical 28 38	bortezomib
+T4	Disease 101 131	Waldenstrom macroglobulinaemia
+T5	Chemical 132 142	Bortezomib
+T6	Chemical 147 156	high-dose
+T8	Disease 248 268	bacterial infections
+T9	Disease 286 305	B-cell malignancies
+T11	Disease 440 470	Waldenstrom macroglobulinaemia
+T12	Disease 484 505	necrotising fasciitis
+T14	Chemical 563 573	bortezomib
+T15	Chemical 575 584	high-dose
+T17	Chemical 603 612	rituximab
+T21	Disease 755 775	bacterial infections
+T22	Chemical 803 812	high-dose

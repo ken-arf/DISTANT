@@ -1,0 +1,24 @@
+T1	Disease 32 41	myoclonus
+T2	Chemical 62 70	Fentanyl
+T3	Chemical 72 81	midazolam
+T4	Chemical 229 237	fentanyl
+T5	Chemical 239 248	midazolam
+T6	Chemical 271 279	fentanyl
+T7	Chemical 284 293	midazolam
+T8	Disease 323 332	myoclonus
+T9	Chemical 493 502	etomidate
+T10	Chemical 575 583	fentanyl
+T11	Chemical 605 614	midazolam
+T12	Chemical 643 652	midazolam
+T13	Chemical 669 677	fentanyl
+T14	Chemical 874 883	etomidate
+T15	Disease 939 948	Myoclonic
+T16	Disease 939 958	Myoclonic movements
+T17	Chemical 1063 1072	etomidate
+T18	Disease 1100 1104	pain
+T19	Chemical 1112 1121	etomidate
+T20	Disease 1245 1254	myoclonus
+T21	Chemical 1453 1461	fentanyl
+T22	Chemical 1480 1488	fentanyl
+T23	Chemical 1493 1502	midazolam
+T24	Disease 1549 1558	myoclonus

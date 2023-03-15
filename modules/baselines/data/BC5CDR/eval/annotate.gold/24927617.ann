@@ -1,0 +1,23 @@
+T1	Disease 0 14	Rhabdomyolysis
+T2	Disease 20 46	hepatitis C virus infected
+T3	Chemical 68 78	telaprevir
+T4	Chemical 83 94	simvastatin
+T5	Disease 128 155	hepatitis C virus infection
+T6	Chemical 185 194	ribavirin
+T7	Chemical 196 216	pegylated interferon
+T8	Chemical 221 231	telaprevir
+T9	Chemical 259 270	simvastatin
+T10	Disease 382 396	rhabdomyolysis
+T11	Chemical 411 422	simvastatin
+T12	Disease 473 481	toxicity
+T13	Chemical 532 540	creatine
+T14	Chemical 717 725	creatine
+T15	Chemical 796 806	Telaprevir
+T16	Chemical 874 885	simvastatin
+T17	Chemical 995 1006	simvastatin
+T18	Chemical 1018 1029	Simvastatin
+T19	Chemical 1090 1096	statin
+T20	Disease 1105 1120	muscle toxicity
+T21	Chemical 1160 1166	statin
+T22	Chemical 1226 1236	telaprevir
+T23	Chemical 1248 1255	statins

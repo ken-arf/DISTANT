@@ -1,0 +1,20 @@
+T1	Disease 30 44	perimenopausal
+T3	Disease 214 236	cardiovascular disease
+T6	Disease 426 439	heart disease
+T7	Disease 441 463	venous thromboembolism
+T9	Disease 502 515	breast cancer
+T10	Disease 517 534	colorectal cancer
+T11	Disease 536 550	ovarian cancer
+T12	Disease 552 570	endometrial cancer
+T13	Disease 572 591	gallbladder disease
+T15	Disease 741 760	Menstrual Disorders
+T18	Disease 1119 1133	perimenopausal
+T19	Disease 1663 1685	venous thromboembolism
+T21	Disease 1752 1765	breast cancer
+T22	Disease 1786 1805	gallbladder disease
+T24	Disease 1887 1906	gallbladder disease
+T25	Disease 2011 2023	colon cancer
+T27	Disease 2214 2236	cardiovascular disease
+T28	Disease 2314 2336	venous thromboembolism
+T29	Disease 2634 2656	venous thromboembolism
+T30	Disease 2808 2823	chronic disease

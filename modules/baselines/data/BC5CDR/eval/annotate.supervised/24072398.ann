@@ -1,0 +1,19 @@
+T1	Disease 9 19	neurotoxic
+T2	Chemical 28 43	methamphetamine
+T3	Chemical 101 116	Methamphetamine
+T4	Chemical 118 122	METH
+T5	Chemical 178 182	METH
+T6	Disease 234 253	depressive symptoms
+T7	Chemical 340 344	METH
+T8	Disease 372 382	depressive
+T9	Chemical 547 551	METH
+T10	Chemical 575 579	METH
+T11	Chemical 764 768	METH
+T12	Chemical 919 923	METH
+T13	Chemical 1071 1079	dopamine
+T14	Chemical 1081 1086	DOPAC
+T15	Chemical 1091 1094	HVA
+T16	Chemical 1096 1104	tyrosine
+T17	Chemical 1121 1130	serotonin
+T18	Disease 1230 1240	depression
+T19	Chemical 1502 1506	METH

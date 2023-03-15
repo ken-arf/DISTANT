@@ -1,0 +1,14 @@
+T1	Disease 19 33	blood pressure
+T2	Chemical 56 59	GTN
+T3	Chemical 85 88	his
+T4	Disease 124 134	chest pain
+T5	Disease 146 156	chest pain
+T6	Disease 170 185	afternoon sleep
+T8	Chemical 323 342	glyceryl trinitrate
+T9	Chemical 344 347	GTN
+T10	Chemical 376 379	GTN
+T12	Disease 421 435	blood pressure
+T13	Disease 440 450	heart rate
+T18	Disease 763 780	ventricular walls
+T19	Disease 805 824	sympathetic outflow
+T20	Disease 915 923	syncopal

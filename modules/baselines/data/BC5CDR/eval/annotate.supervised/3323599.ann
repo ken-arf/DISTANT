@@ -1,0 +1,27 @@
+T1	Chemical 19 34	aminonucleoside
+T2	Disease 35 44	nephrosis
+T3	Chemical 73 82	protamine
+T4	Disease 124 144	glomerular sclerosis
+T5	Disease 146 150	FSGS
+T6	Chemical 208 233	puromycin-aminonucleoside
+T7	Chemical 235 239	AMNS
+T8	Chemical 245 254	protamine
+T9	Chemical 245 262	protamine sulfate
+T10	Chemical 264 266	PS
+T11	Chemical 375 379	AMNS
+T12	Chemical 417 419	PS
+T13	Disease 626 635	nephrotic
+T14	Disease 626 644	nephrotic syndrome
+T15	Disease 657 670	renal failure
+T16	Chemical 697 707	creatinine
+T17	Chemical 821 825	AMNS
+T18	Chemical 833 835	PS
+T19	Disease 908 912	FSGS
+T20	Chemical 1014 1023	ruthenium
+T21	Chemical 1014 1027	ruthenium red
+T22	Chemical 1158 1160	PS
+T23	Disease 1174 1182	toxicity
+T24	Chemical 1186 1190	AMNS
+T25	Disease 1242 1246	FSGS
+T26	Disease 1272 1281	end-stage
+T27	Disease 1272 1295	end-stage renal disease

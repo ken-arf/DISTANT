@@ -1,0 +1,21 @@
+T1	Disease 35 48	neurotoxicity
+T2	Chemical 68 82	Streptozotocin
+T3	Chemical 207 221	Streptozotocin
+T4	Disease 295 309	Memory deficit
+T5	Chemical 435 439	GFAP
+T6	Chemical 441 446	CD11b
+T7	Disease 489 506	neuroinflammation
+T9	Chemical 591 604	mitochondrial
+T10	Chemical 655 667	free radical
+T11	Chemical 736 745	Caspase-3
+T12	Chemical 923 929	PSD-95
+T13	Disease 1054 1067	neurotoxicity
+T14	Chemical 1089 1098	Memantine
+T16	Disease 1232 1245	neurotoxicity
+T17	Chemical 1380 1384	GFAP
+T18	Chemical 1386 1391	CD11b
+T20	Chemical 1458 1467	apoptotic
+T21	Chemical 1494 1507	mitochondrial
+T22	Disease 1587 1604	neuroinflammatory
+T24	Disease 1770 1783	neurotoxicity
+T25	Disease 1850 1860	cell death

@@ -1,0 +1,22 @@
+T1	Chemical 0 14	Antiandrogenic
+T2	Disease 33 58	coronary arterial disease
+T4	Chemical 107 119	antiandrogen
+T5	Disease 145 160	prostate cancer
+T6	Chemical 238 257	plasma cholesterols
+T9	Chemical 278 280	TG
+T12	Chemical 306 321	apolipoproteins
+T13	Chemical 323 326	Apo
+T14	Chemical 335 338	A-I
+T15	Chemical 344 352	A-II pro
+T17	Disease 410 425	prostate cancer
+T19	Chemical 434 441	T1cN0M0
+T20	Chemical 485 504	cyproterone acetate
+T22	Chemical 595 600	HDL-C
+T23	Chemical 602 609	Apo A-I
+T24	Chemical 614 617	Apo
+T25	Chemical 618 622	A-II
+T30	Disease 799 821	coronary heart disease
+T31	Disease 846 871	coronary arteriosclerosis
+T32	Chemical 970 985	HDL cholesterol
+T33	Chemical 987 994	Apo A-I
+T34	Chemical 999 1011	Apo A-II pro

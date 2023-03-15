@@ -1,0 +1,27 @@
+T1	Disease 0 14	Rhabdomyolysis
+T2	Disease 19 40	brain ischemic stroke
+T3	Chemical 74 83	methadone
+T4	Chemical 163 169	heroin
+T5	Disease 170 175	abuse
+T6	Chemical 213 222	Methadone
+T7	Disease 330 344	rhabdomyolysis
+T8	Disease 349 373	cerebral ischemic stroke
+T9	Chemical 392 398	heroin
+T10	Chemical 412 418	heroin
+T11	Chemical 453 462	methadone
+T12	Disease 496 511	unconsciousness
+T13	Chemical 565 571	opiate
+T14	Disease 615 629	rhabdomyolysis
+T15	Disease 631 650	acute renal failure
+T16	Disease 655 680	acute respiratory failure
+T17	Disease 727 734	aphasia
+T18	Disease 739 747	weakness
+T19	Disease 787 815	cerebral ischemic infarction
+T20	Chemical 841 850	methadone
+T21	Chemical 855 861	heroin
+T22	Disease 898 912	rhabdomyolysis
+T23	Disease 917 932	ischemic stroke
+T24	Chemical 949 958	methadone
+T25	Disease 1065 1079	rhabdomyolysis
+T26	Disease 1084 1090	stroke
+T27	Chemical 1094 1100	heroin

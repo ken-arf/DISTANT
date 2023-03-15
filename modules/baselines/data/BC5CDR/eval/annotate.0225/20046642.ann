@@ -1,0 +1,50 @@
+T1	Chemical 0 15	Metallothionein
+T2	Chemical 34 43	caspase-3
+T3	Chemical 57 65	TNFalpha
+T5	Disease 124 135	hippocampal
+T7	Disease 171 182	Hippocampal
+T9	Disease 210 229	cognitive functions
+T10	Chemical 263 278	metallothionein
+T12	Chemical 287 293	ZnSO(4
+T14	Chemical 413 423	carmustine
+T15	Disease 439 450	hippocampal
+T16	Disease 451 472	cognitive dysfunction
+T17	Chemical 603 615	single doses
+T18	Chemical 619 632	normal saline
+T19	Chemical 634 639	i.c.v
+T20	Chemical 664 676	BCNU solvent
+T22	Chemical 714 720	ZnSO(4
+T23	Chemical 746 759	normal saline
+T24	Chemical 761 766	i.c.v
+T25	Chemical 779 791	BCNU solvent
+T26	Chemical 810 821	Third group
+T27	Chemical 831 835	BCNU
+T28	Chemical 884 897	normal saline
+T29	Chemical 899 904	i.c.v
+T30	Chemical 931 942	single dose
+T31	Chemical 946 952	ZnSO(4
+T32	Chemical 978 991	normal saline
+T33	Chemical 993 998	i.c.v
+T34	Chemical 1005 1009	BCNU
+T35	Chemical 1076 1080	BCNU
+T39	Chemical 1234 1267	hippocampal glutathione reductase
+T40	Chemical 1286 1305	reduced glutathione
+T41	Chemical 1327 1331	BCNU
+T42	Chemical 1363 1390	tumor necrosis factor-alpha
+T43	Chemical 1392 1400	TNFalpha
+T44	Disease 1403 1414	hippocampal
+T45	Chemical 1422 1437	malondialdehyde
+T46	Chemical 1439 1442	MDA
+T47	Chemical 1464 1473	caspase-3
+T48	Chemical 1524 1530	ZnSO(4
+T49	Chemical 1585 1587	GR
+T50	Chemical 1664 1667	MDA
+T51	Chemical 1672 1680	TNFalpha
+T52	Chemical 1708 1717	caspase-3
+T54	Chemical 1795 1801	ZnSO(4
+T55	Chemical 1805 1809	BCNU
+T57	Disease 1896 1907	hippocampal
+T59	Chemical 1933 1935	GR
+T60	Chemical 2006 2014	TNFalpha
+T61	Chemical 2016 2019	MDA
+T62	Chemical 2024 2033	caspase-3

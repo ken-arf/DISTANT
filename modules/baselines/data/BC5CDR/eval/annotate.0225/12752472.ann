@@ -1,0 +1,13 @@
+T1	Disease 0 19	Respiratory pattern
+T6	Disease 129 148	respiratory changes
+T7	Disease 183 202	respiratory pattern
+T12	Disease 527 542	hypoventilation
+T16	Chemical 839 841	VE
+T17	Disease 908 927	breathing frequency
+T19	Chemical 1130 1132	VE
+T20	Chemical 1212 1214	VE
+T22	Disease 1319 1334	hypoventilation
+T24	Chemical 1457 1459	VE
+T26	Chemical 1578 1581	KCN
+T27	Chemical 1692 1694	VE
+T29	Chemical 1832 1841	blood gas

@@ -1,0 +1,25 @@
+T1	Chemical 0 8	Curcumin
+T2	Disease 87 103	oxidative stress
+T3	Chemical 105 125	mitochondrial oxygen
+T4	Disease 154 173	respiratory complex
+T5	Chemical 190 207	protective effect
+T6	Chemical 215 243	dietary antioxidant curcumin
+T10	Disease 354 370	oxidative stress
+T13	Disease 488 513	renal vascular resistance
+T17	Chemical 611 620	lipocalin
+T18	Chemical 622 626	NGAL
+T19	Chemical 632 660	N-acetyl b-D-glucosaminidase
+T21	Disease 684 697	kidney injury
+T22	Chemical 698 714	molecule (KIM)-1
+T23	Chemical 749 758	claudin-2
+T25	Disease 830 846	Oxidative stress
+T29	Chemical 936 940	Nrf2
+T33	Chemical 1117 1140	reactive oxygen species
+T37	Chemical 1328 1344	malate/glutamate
+T39	Disease 1382 1391	complex I
+T40	Chemical 1396 1405	aconitase
+T41	Chemical 1482 1490	curcumin
+T42	Chemical 1513 1521	curcumin
+T43	Disease 1664 1680	oxidative stress
+T44	Chemical 1701 1721	mitochondrial oxygen
+T45	Disease 1762 1771	complex I

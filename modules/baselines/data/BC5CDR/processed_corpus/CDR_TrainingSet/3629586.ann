@@ -1,0 +1,29 @@
+T1	Chemical 27 36	cefonicid
+T2	Chemical 41 51	cefazedone
+T3	Chemical 85 98	cephalosporin
+T4	Disease 99 113	hematotoxicity
+T5	Chemical 121 134	Cephalosporin
+T6	Disease 166 190	hematologic disturbances
+T7	Disease 337 353	blood dyscrasias
+T8	Disease 387 395	toxicity
+T9	Chemical 439 448	cefonicid
+T10	Chemical 452 462	cefazedone
+T11	Disease 515 521	anemia
+T12	Disease 523 534	neutropenia
+T13	Disease 540 556	thrombocytopenia
+T14	Disease 606 612	anemia
+T15	Disease 646 656	cytopenias
+T16	Chemical 723 732	cefonicid
+T17	Chemical 750 760	cefazedone
+T18	Disease 772 782	cytopenias
+T19	Chemical 1035 1048	cephalosporin
+T20	Disease 1054 1074	hematologic syndrome
+T21	Chemical 1111 1120	cefonicid
+T22	Chemical 1130 1140	cefazedone
+T23	Disease 1405 1414	hemolytic
+T24	Disease 1529 1538	cytopenia
+T25	Chemical 1593 1602	cefonicid
+T26	Chemical 1606 1616	cefazedone
+T27	Disease 1636 1650	hematotoxicity
+T28	Chemical 1666 1679	cephalosporin
+T29	Disease 1688 1704	blood dyscrasias

@@ -1,0 +1,19 @@
+T1	Chemical 17 24	calcium
+T2	Disease 70 89	myocardial ischemia
+T3	Disease 120 128	stenosis
+T4	Chemical 150 163	isoproterenol
+T5	Disease 178 197	myocardial ischemia
+T6	Disease 232 249	coronary stenosis
+T7	Disease 273 281	coronary
+T8	Chemical 345 354	diltiazem
+T9	Disease 391 399	stenosis
+T10	Chemical 432 435	ISO
+T11	Chemical 788 798	nifedipine
+T12	Chemical 837 846	diltiazem
+T13	Chemical 942 945	ISO
+T14	Chemical 972 981	diltiazem
+T15	Chemical 991 1001	nifedipine
+T16	Chemical 1063 1066	ISO
+T17	Chemical 1092 1102	nifedipine
+T18	Chemical 1370 1379	Diltiazem
+T19	Disease 1680 1699	myocardial ischemia

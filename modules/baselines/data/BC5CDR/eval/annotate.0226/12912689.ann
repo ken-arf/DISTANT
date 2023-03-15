@@ -1,0 +1,24 @@
+T1	Disease 0 15	Ocular motility
+T2	Chemical 39 50	carboplatin
+T5	Chemical 110 121	carboplatin
+T6	Chemical 198 219	systemic chemotherapy
+T7	Disease 224 250	intraocular retinoblastoma
+T9	Disease 311 326	ocular motility
+T10	Chemical 361 372	carboplatin
+T13	Disease 414 429	ocular motility
+T15	Chemical 503 514	carboplatin
+T16	Disease 629 644	ocular motility
+T17	Disease 651 664	tumor control
+T18	Disease 670 685	ocular motility
+T19	Disease 740 757	treatment failure
+T20	Disease 819 834	ocular motility
+T21	Disease 890 916	intraocular retinoblastoma
+T22	Chemical 943 963	subtenon carboplatin
+T23	Chemical 1042 1052	lipophages
+T24	Disease 1060 1071	periorbital
+T25	Disease 1092 1103	optic nerve
+T26	Disease 1195 1207	fat necrosis
+T27	Disease 1271 1284	globe rupture
+T29	Chemical 1359 1370	carboplatin
+T32	Disease 1435 1447	soft tissues
+T33	Chemical 1554 1565	carboplatin

@@ -1,0 +1,22 @@
+T1	Disease 9 24	thromboembolism
+T2	Chemical 56 63	heparin
+T3	Chemical 104 111	heparin
+T4	Disease 120 136	thrombocytopenia
+T5	Disease 146 161	thromboembolism
+T6	Chemical 203 210	heparin
+T7	Disease 252 270	arterial occlusion
+T8	Disease 290 297	thrombi
+T9	Disease 310 318	ischemia
+T10	Chemical 373 380	heparin
+T11	Disease 411 427	thrombocytopenia
+T12	Disease 557 602	gastrointestinal and musculoskeletal symptoms
+T13	Disease 557 573;594 602	gastrointestinal symptoms
+T14	Disease 578 602	musculoskeletal symptoms
+T15	Disease 621 629	ischemic
+T16	Chemical 782 789	heparin
+T17	Disease 831 846	thromboembolism
+T18	Disease 851 867	thrombocytopenia
+T19	Chemical 871 878	heparin
+T20	Disease 887 907	platelet aggregation
+T21	Chemical 962 969	heparin
+T22	Chemical 996 1011	sodium warfarin

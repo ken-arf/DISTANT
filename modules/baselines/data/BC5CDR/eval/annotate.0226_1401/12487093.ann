@@ -1,0 +1,10 @@
+T1	Disease 0 19	Blood brain barrier
+T2	Disease 34 44	left-pawed
+T5	Disease 288 291	BBB
+T6	Chemical 319 339	triphenyltetrazolium
+T7	Chemical 341 344	TTC
+T10	Chemical 488 491	TTC
+T12	Disease 569 579	left brain
+T14	Disease 744 774	asymmetric cerebral blood flow
+T16	Disease 892 919	contralateral motor control
+T18	Disease 970 989	cerebral hemisphere

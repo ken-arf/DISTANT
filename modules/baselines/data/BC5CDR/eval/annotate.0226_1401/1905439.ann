@@ -1,0 +1,11 @@
+T3	Chemical 72 83	misoprostol
+T4	Chemical 84 95	Misoprostol
+T5	Disease 121 138	adverse reactions
+T6	Disease 150 175	gastrointestinal symptoms
+T7	Disease 177 197	gynecologic problems
+T9	Disease 224 237	mental status
+T10	Disease 434 447	mental status
+T11	Chemical 510 513	Her
+T13	Chemical 552 563	misoprostol
+T14	Chemical 585 588	her
+T15	Disease 589 602	mental status

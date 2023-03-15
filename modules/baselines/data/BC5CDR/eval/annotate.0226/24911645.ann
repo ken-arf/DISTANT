@@ -1,0 +1,31 @@
+T1	Chemical 61 80	garcinielliptone FC
+T2	Chemical 113 132	Garcinielliptone FC
+T3	Chemical 134 137	GFC
+T4	Chemical 153 182	hexanic fraction seed extract
+T6	Disease 194 202	Platonia
+T7	Chemical 239 252	folk medicine
+T8	Disease 262 275	skin diseases
+T9	Chemical 318 332	seed decoction
+T10	Disease 370 391	inflammatory diseases
+T11	Chemical 426 429	GFC
+T13	Disease 445 467	central nervous system
+T14	Chemical 520 523	GFC
+T18	Chemical 647 657	amino acid
+T19	Chemical 659 678	r-aminobutyric acid
+T22	Chemical 698 707	aspartate
+T23	Chemical 712 723	glutathione
+T24	Chemical 746 766	acetylcholinesterase
+T27	Chemical 819 822	GFC
+T32	Chemical 1057 1062	GFC75
+T33	Chemical 1068 1072	P400
+T34	Chemical 1137 1146	aspartate
+T39	Chemical 1274 1279	GFC75
+T40	Chemical 1285 1289	P400
+T41	Chemical 1352 1357	GFC75
+T42	Chemical 1363 1367	P400
+T43	Chemical 1471 1474	GFC
+T44	Disease 1573 1591	status epilepticus
+T47	Chemical 1729 1732	GFC
+T48	Disease 1750 1765	epileptogenesis
+T49	Chemical 1778 1800	anticonvulsant actions
+T56	Chemical 2007 2027	anticonvulsant agent

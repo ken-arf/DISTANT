@@ -1,0 +1,13 @@
+T1	Disease 3 12	Dysguesia
+T2	Disease 44 55	Side-effect
+T3	Disease 82 93	side-effect
+T4	Chemical 97 107	amlodipine
+T5	Disease 111 120	dysguesia
+T6	Disease 210 232	essential hypertension
+T8	Chemical 256 266	amlodipine
+T9	Disease 277 284	loss of
+T12	Chemical 386 396	amlodipine
+T13	Disease 407 416	dysguesia
+T14	Disease 440 461	clinical presentation
+T15	Chemical 500 510	amlodipine
+T16	Disease 515 524	dysguesia

@@ -1,0 +1,20 @@
+T1	Disease 19 28	myxoedema
+T2	Disease 29 33	coma
+T3	Disease 70 81	bradycardia
+T4	Disease 83 94	hypothermia
+T5	Disease 99 118	respiratory failure
+T6	Chemical 147 157	amiodarone
+T7	Disease 170 189	atrial fibrillation
+T8	Chemical 274 283	thyroxine
+T9	Chemical 285 288	FT4
+T10	Chemical 394 402	steroids
+T11	Chemical 496 509	levothyroxine
+T12	Chemical 721 724	FT4
+T13	Chemical 771 784	levothyroxine
+T14	Chemical 884 890	iodine
+T15	Disease 962 971	myxoedema
+T16	Disease 972 976	coma
+T17	Disease 1010 1015	death
+T18	Disease 1157 1166	myxoedema
+T19	Disease 1157 1171	myxoedema coma
+T20	Disease 1215 1230	thyroid disease

@@ -1,0 +1,21 @@
+T3	Chemical 56 71	dexmedetomidine
+T4	Chemical 76 84	propofol
+T5	Disease 101 119	neurocritical care
+T6	Chemical 140 155	Dexmedetomidine
+T7	Chemical 160 168	propofol
+T9	Disease 200 218	neurocritical care
+T12	Disease 336 348	side effects
+T14	Disease 448 466	neurocritical care
+T15	Chemical 486 501	dexmedetomidine
+T16	Chemical 506 514	propofol
+T17	Disease 740 758	Neurocritical care
+T18	Chemical 947 962	dexmedetomidine
+T19	Chemical 966 974	propofol
+T20	Chemical 1036 1051	dexmedetomidine
+T21	Chemical 1060 1068	propofol
+T22	Disease 1162 1177	primary outcome
+T25	Disease 1231 1253	mean arterial pressure
+T27	Disease 1283 1293	heart rate
+T35	Disease 1720 1738	neurocritical care
+T36	Chemical 1760 1775	dexmedetomidine
+T37	Chemical 1779 1787	propofol

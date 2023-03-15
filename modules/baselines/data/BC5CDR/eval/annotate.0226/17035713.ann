@@ -1,0 +1,47 @@
+T1	Chemical 0 18	Chloroacetaldehyde
+T2	Chemical 24 42	sulfhydryl reagent
+T3	Chemical 65 70	thiol
+T4	Chemical 81 91	ifosfamide
+T5	Chemical 104 122	Chloroacetaldehyde
+T6	Chemical 124 127	CAA
+T8	Chemical 152 179	alkylating agent ifosfamide
+T9	Disease 217 229	renal damage
+T10	Chemical 282 292	sulfhydryl
+T12	Chemical 328 340	cell culture
+T13	Disease 398 401	CAA
+T15	Disease 411 426	proximal tubule
+T17	Chemical 491 494	CAA
+T20	Chemical 530 541	cell number
+T21	Chemical 543 546	LDH
+T22	Chemical 556 567	trypan blue
+T23	Chemical 588 597	caspase-3
+T24	Chemical 613 619	thiols
+T25	Chemical 651 657	Ellman
+T26	Chemical 659 662	CAA
+T27	Chemical 671 677	hRPTEC
+T28	Chemical 678 689	cell number
+T32	Chemical 740 746	thiols
+T33	Chemical 766 782	necrosis markers
+T34	Chemical 784 787	CAA
+T36	Chemical 819 847	cysteine proteases caspase-3
+T37	Chemical 849 858	caspase-8
+T38	Chemical 863 872	cathepsin
+T40	Chemical 898 907	cisplatin
+T41	Chemical 925 928	CAA
+T44	Chemical 990 993	CAA
+T45	Chemical 1017 1026	lysosomal
+T46	Chemical 1036 1045	lysosomal
+T47	Chemical 1070 1073	CAA
+T48	Chemical 1077 1094	cysteine protease
+T49	Chemical 1110 1116	thiols
+T50	Chemical 1140 1151	cell lysate
+T52	Chemical 1197 1200	CAA
+T53	Chemical 1206 1211	thiol
+T54	Chemical 1252 1255	CAA
+T55	Chemical 1259 1275	necrosis markers
+T56	Chemical 1277 1282	thiol
+T57	Chemical 1297 1314	cysteine protease
+T58	Chemical 1349 1352	CAA
+T59	Chemical 1374 1390	cellular protein
+T60	Chemical 1395 1413	non-protein thiols
+T63	Disease 1557 1572	IFO nephropathy

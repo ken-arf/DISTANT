@@ -1,0 +1,18 @@
+T1	Disease 28 47	endometrial disease
+T2	Chemical 79 88	oestrogen
+T3	Disease 154 173	endometrial disease
+T4	Chemical 212 221	oestrogen
+T5	Disease 238 249	hyperplasia
+T6	Chemical 280 289	oestrogen
+T7	Chemical 306 317	progestagen
+T8	Chemical 350 364	norethisterone
+T9	Disease 424 435	hyperplasia
+T10	Disease 469 480	hyperplasia
+T11	Disease 493 514	endometrial carcinoma
+T12	Chemical 609 618	oestrogen
+T13	Disease 671 682	hyperplasia
+T14	Disease 688 698	malignancy
+T15	Chemical 718 727	oestrogen
+T16	Chemical 755 766	progestagen
+T17	Disease 805 828	endometrial hyperplasia
+T18	Disease 832 841	carcinoma

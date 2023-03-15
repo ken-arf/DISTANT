@@ -1,0 +1,25 @@
+T1	Disease 229 236	disease
+T2	Disease 238 250	osteoporosis
+T3	Disease 255 263	dementia
+T4	Disease 426 431	heart
+T5	Disease 441 447	venous
+T6	Disease 465 471	stroke
+T7	Disease 502 515	breast cancer
+T8	Disease 528 534	cancer
+T9	Disease 564 570	cancer
+T10	Disease 613 621	dementia
+T11	Disease 623 632	fractures
+T12	Disease 1360 1368	weighted
+T13	Disease 1663 1685	venous thromboembolism
+T14	Disease 1689 1697	coronary
+T15	Disease 1728 1734	stroke
+T16	Disease 1752 1765	breast cancer
+T17	Disease 1798 1805	disease
+T18	Disease 1876 1882	stroke
+T19	Disease 1887 1906	gallbladder disease
+T20	Disease 2011 2023	colon cancer
+T21	Disease 2187 2195	dementia
+T22	Disease 2229 2236	disease
+T23	Disease 2314 2320	venous
+T24	Disease 2634 2640	venous
+T25	Disease 2816 2823	disease

@@ -1,0 +1,9 @@
+T1	Disease 0 13	Heart failure
+T3	Disease 156 175	atrial fibrillation
+T4	Disease 244 256	sinus rhythm
+T5	Disease 261 274	heart failure
+T11	Disease 460 481	peripheral resistance
+T20	Disease 1026 1047	myocardial infarction
+T21	Chemical 1054 1083	Angiotensin-converting enzyme
+T23	Disease 1187 1209	progression of disease
+T27	Disease 1237 1255	exercise tolerance

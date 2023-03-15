@@ -1,0 +1,29 @@
+T1	Chemical 12 25	p-aminophenol
+T6	Chemical 206 210	APAP
+T9	Chemical 285 298	p-aminophenol
+T12	Chemical 371 375	APAP
+T14	Disease 486 500	nephrotoxicity
+T16	Chemical 557 561	BNPP
+T17	Chemical 567 578	acylamidase
+T18	Chemical 593 597	APAP
+T20	Disease 606 620	nephrotoxicity
+T22	Chemical 652 659	BNPP (1
+T23	Chemical 677 681	APAP
+T24	Disease 682 695	deacetylation
+T25	Chemical 700 716	covalent binding
+T27	Chemical 818 822	BNPP
+T28	Chemical 832 836	APAP
+T30	Chemical 891 895	APAP
+T31	Disease 908 922	nephrotoxicity
+T33	Disease 935 949	nephrotoxicity
+T34	Chemical 1008 1012	APAP
+T37	Disease 1052 1066	renal cortical
+T38	Chemical 1095 1099	BNPP
+T39	Chemical 1137 1141	APAP
+T41	Chemical 1178 1182	APAP
+T42	Chemical 1211 1215	BNPP
+T43	Chemical 1247 1251	APAP
+T44	Chemical 1303 1307	BNPP
+T47	Chemical 1492 1496	APAP
+T48	Disease 1497 1510	deacetylation
+T49	Disease 1608 1624	tubular necrosis

@@ -1,0 +1,11 @@
+T1	Disease 18 32	liver toxicity
+T2	Disease 77 97	rheumatoid arthritis
+T3	Disease 128 137	hepatitis
+T4	Chemical 145 154	meloxicam
+T5	Chemical 188 197	meloxicam
+T6	Disease 321 330	cytolytic
+T7	Disease 331 340	hepatitis
+T8	Chemical 364 373	meloxicam
+T9	Chemical 515 524	meloxicam
+T10	Disease 533 547	liver toxicity
+T11	Disease 598 612	hepatic damage

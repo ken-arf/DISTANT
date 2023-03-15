@@ -1,0 +1,36 @@
+T1	Chemical 27 35	morphine
+T2	Chemical 48 54	sodium
+T3	Chemical 72 79	CNSB002
+T4	Disease 115 131	neuropathic pain
+T5	Chemical 196 203	CNSB002
+T6	Chemical 207 213	sodium
+T7	Chemical 295 303	morphine
+T8	Disease 338 354	neuropathic pain
+T9	Chemical 410 418	morphine
+T10	Chemical 423 430	CNSB002
+T11	Disease 585 589	pain
+T12	Chemical 598 609	carrageenan
+T13	Disease 622 634	inflammation
+T14	Chemical 639 653	streptozotocin
+T15	Chemical 655 658	STZ
+T16	Disease 668 687	diabetic neuropathy
+T17	Chemical 734 742	morphine
+T18	Chemical 755 762	CNSB002
+T19	Chemical 785 792	CNSB002
+T20	Chemical 798 806	morphine
+T21	Disease 879 891	hyperalgesia
+T22	Chemical 939 950	carrageenan
+T23	Chemical 997 1000	STZ
+T24	Disease 1009 1019	neuropathy
+T25	Chemical 1030 1037	CNSB002
+T26	Chemical 1042 1050	morphine
+T27	Chemical 1167 1175	morphine
+T28	Chemical 1207 1214	CNSB002
+T29	Chemical 1289 1300	carrageenan
+T30	Disease 1330 1340	neuropathy
+T31	Chemical 1393 1401	morphine
+T32	Chemical 1454 1461	CNSB002
+T33	Disease 1513 1525	hyperalgesia
+T34	Disease 1550 1561	neuropathic
+T35	Chemical 1762 1770	morphine
+T36	Chemical 1844 1851	CNSB002

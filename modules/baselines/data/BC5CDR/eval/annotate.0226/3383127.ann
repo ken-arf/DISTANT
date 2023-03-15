@@ -1,0 +1,11 @@
+T3	Disease 34 48	cardiotoxicity
+T4	Chemical 77 86	cisplatin
+T5	Chemical 91 105	5-fluorouracil
+T6	Disease 106 122	Cardiac symptoms
+T8	Disease 180 209	advanced colorectal carcinoma
+T9	Chemical 235 244	cisplatin
+T10	Chemical 246 250	CDDP
+T11	Chemical 256 270	5-fluorouracil
+T12	Chemical 272 276	5-FU
+T15	Disease 335 363	left ventricular dysfunction
+T16	Chemical 418 433	Cardiac enzymes

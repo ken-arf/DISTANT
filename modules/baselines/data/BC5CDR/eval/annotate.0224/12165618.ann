@@ -1,0 +1,21 @@
+T1	Disease 19 31	leukocyturia
+T2	Chemical 78 106	human immunodeficiency virus
+T3	Disease 308 320	side effects
+T4	Chemical 360 378	protease inhibitor
+T5	Chemical 482 510	human immunodeficiency virus
+T7	Chemical 590 600	creatinine
+T8	Chemical 728 738	creatinine
+T9	Disease 951 963	leukocyturia
+T10	Disease 1066 1078	leukocyturia
+T12	Chemical 1228 1238	creatinine
+T13	Disease 1321 1333	leukocyturia
+T14	Chemical 1360 1370	creatinine
+T15	Disease 1445 1457	leukocyturia
+T16	Disease 1514 1526	leukocyturia
+T17	Disease 1627 1639	leukocyturia
+T20	Chemical 1842 1852	creatinine
+T21	Disease 1933 1945	leukocyturia
+T23	Disease 2075 2087	leukocyturia
+T24	Disease 2122 2134	leukocyturia
+T25	Chemical 2176 2186	creatinine
+T26	Disease 2533 2545	leukocyturia

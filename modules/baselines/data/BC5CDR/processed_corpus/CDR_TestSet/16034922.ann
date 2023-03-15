@@ -1,0 +1,32 @@
+T1	Disease 134 153	menopausal symptoms
+T2	Disease 214 236	cardiovascular disease
+T3	Disease 238 250	osteoporosis
+T4	Disease 255 263	dementia
+T5	Disease 426 439	heart disease
+T6	Disease 441 463	venous thromboembolism
+T7	Disease 465 471	stroke
+T8	Disease 473 500	transient ischaemic attacks
+T9	Disease 502 515	breast cancer
+T10	Disease 517 534	colorectal cancer
+T11	Disease 536 550	ovarian cancer
+T12	Disease 552 570	endometrial cancer
+T13	Disease 572 591	gallbladder disease
+T14	Disease 613 621	dementia
+T15	Disease 623 632	fractures
+T16	Chemical 1031 1041	oestrogens
+T17	Chemical 1058 1070	progestogens
+T18	Disease 1663 1685	venous thromboembolism
+T19	Disease 1728 1734	stroke
+T20	Disease 1752 1765	breast cancer
+T21	Disease 1786 1805	gallbladder disease
+T22	Chemical 1817 1826	oestrogen
+T23	Disease 1876 1882	stroke
+T24	Disease 1887 1906	gallbladder disease
+T25	Disease 1997 2006	fractures
+T26	Disease 2011 2023	colon cancer
+T27	Disease 2187 2195	dementia
+T28	Disease 2214 2236	cardiovascular disease
+T29	Disease 2314 2336	venous thromboembolism
+T30	Chemical 2523 2532	oestrogen
+T31	Disease 2634 2656	venous thromboembolism
+T32	Disease 2808 2823	chronic disease

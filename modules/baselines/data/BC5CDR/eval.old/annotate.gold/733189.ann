@@ -1,0 +1,14 @@
+T1	Disease 10 55	retinal artery and choriocapillaris occlusion
+T2	Chemical 95 109	corticosteroid
+T3	Disease 214 260	retinal artery and choriocapillaris occlusions
+T4	Disease 266 275	blindness
+T5	Chemical 327 353	methylprednisolone acetate
+T6	Chemical 374 383	lidocaine
+T7	Chemical 385 396	epinephrine
+T8	Chemical 401 411	penicillin
+T9	Disease 530 535	palsy
+T10	Disease 537 560	pupillary abnormalities
+T11	Disease 579 590	hemorrhages
+T12	Disease 596 601	edema
+T13	Disease 635 646	visual loss
+T14	Disease 721 742	chorioretinal atrophy

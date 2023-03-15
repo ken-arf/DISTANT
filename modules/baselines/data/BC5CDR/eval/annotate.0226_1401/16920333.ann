@@ -1,0 +1,17 @@
+T3	Chemical 50 53	BIA
+T5	Chemical 102 112	picrotoxin
+T7	Chemical 154 169	Eslicarbazepine
+T8	Chemical 154 177	Eslicarbazepine acetate
+T9	Chemical 234 257	f/azepine-5-carboxamide
+T10	Chemical 270 288	antiepileptic drug
+T12	Chemical 429 442	carbamazepine
+T13	Chemical 444 447	CBZ
+T14	Chemical 453 466	oxcarbazepine
+T17	Chemical 525 548	eslicarbazepine acetate
+T22	Chemical 741 751	picrotoxin
+T26	Chemical 893 903	picrotoxin
+T28	Chemical 962 973	Lower doses
+T29	Chemical 974 976	(3
+T33	Disease 1164 1179	adverse effects
+T34	Chemical 1183 1206	eslicarbazepine acetate
+T35	Disease 1271 1294	sleep/wakefulness cycle

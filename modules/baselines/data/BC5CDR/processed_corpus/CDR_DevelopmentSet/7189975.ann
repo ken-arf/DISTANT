@@ -1,0 +1,15 @@
+T1	Disease 244 255	convulsions
+T2	Chemical 319 330	bupivacaine
+T3	Chemical 358 367	lidocaine
+T4	Chemical 399 413	chloroprocaine
+T5	Chemical 445 456	bupivacaine
+T6	Chemical 495 504	lidocaine
+T7	Chemical 532 546	chloroprocaine
+T8	Disease 548 559	Convulsions
+T9	Disease 608 630	cardiopulmonary arrest
+T10	Disease 692 703	convulsions
+T11	Chemical 740 751	bupivacaine
+T12	Disease 760 768	seizures
+T13	Chemical 784 798	chloroprocaine
+T14	Chemical 823 832	lidocaine
+T15	Disease 937 948	convulsions

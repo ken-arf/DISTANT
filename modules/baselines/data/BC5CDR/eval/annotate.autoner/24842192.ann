@@ -1,0 +1,16 @@
+T1	Chemical 44 53	toll-like
+T2	Disease 95 118	ventricular dysfunction
+T3	Disease 129 150	myocardial infarction
+T4	Disease 209 230	myocardial infarction
+T5	Chemical 315 321	kinase
+T6	Disease 406 425	cardiac dysfunction
+T7	Disease 479 500	myocardial infarction
+T8	Chemical 651 664	isoproterenol
+T9	Chemical 759 772	Isoproterenol
+T10	Disease 848 875	acute myocardial infarction
+T11	Chemical 877 890	Isoproterenol
+T12	Disease 971 978	indexed
+T13	Disease 1018 1041	ventricular dysfunction
+T14	Disease 1253 1267	tumor necrosis
+T15	Chemical 1281 1282	(
+T16	Disease 1672 1718	post-myocardial infarction cardiac dysfunction

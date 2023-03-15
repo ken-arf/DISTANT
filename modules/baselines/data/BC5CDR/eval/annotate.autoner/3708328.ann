@@ -1,0 +1,32 @@
+T1	Disease 18 26	seizures
+T2	Chemical 39 50	pilocarpine
+T3	Chemical 83 92	isoniazid
+T4	Chemical 139 150	Pilocarpine
+T5	Disease 244 252	epilepsy
+T6	Disease 328 338	convulsive
+T7	Disease 412 420	seizures
+T8	Chemical 513 536	gamma-aminobutyric acid
+T9	Chemical 553 561	synaptic
+T10	Disease 604 612	seizures
+T11	Chemical 625 636	pilocarpine
+T12	Chemical 711 720	isoniazid
+T13	Chemical 796 825	L-glutamic acid decarboxylase
+T14	Chemical 913 924	pilocarpine
+T15	Disease 977 985	seizures
+T16	Disease 997 1008	epilepticus
+T17	Disease 1131 1142	convulsions
+T18	Chemical 1178 1187	forebrain
+T19	Disease 1228 1243	seizure-related
+T20	Chemical 1384 1395	pilocarpine
+T21	Chemical 1464 1473	isoniazid
+T22	Disease 1490 1498	seizures
+T23	Chemical 1511 1522	pilocarpine
+T24	Chemical 1584 1596	transaminase
+T25	Chemical 1598 1614	gamma-vinyl-GABA
+T26	Chemical 1640 1644	acid
+T27	Disease 1717 1731	electrographic
+T28	Disease 1747 1755	seizures
+T29	Chemical 1768 1779	pilocarpine
+T30	Disease 2010 2021	convulsions
+T31	Chemical 2034 2045	pilocarpine
+T32	Disease 2125 2133	seizures

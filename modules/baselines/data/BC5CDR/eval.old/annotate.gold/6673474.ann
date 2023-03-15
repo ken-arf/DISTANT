@@ -1,0 +1,14 @@
+T1	Chemical 175 195	sodium nitroprusside
+T2	Chemical 197 200	SNP
+T3	Chemical 206 217	trimetaphan
+T4	Chemical 219 222	TMP
+T5	Disease 235 246	hypotension
+T6	Disease 337 348	hypotension
+T7	Chemical 452 465	nitroprusside
+T8	Disease 466 477	hypotension
+T9	Chemical 549 560	trimetaphan
+T10	Disease 561 572	hypotension
+T11	Chemical 656 659	SNP
+T12	Disease 660 671	hypotension
+T13	Chemical 684 686	O2
+T14	Chemical 703 705	O2

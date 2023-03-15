@@ -1,0 +1,17 @@
+T1	Chemical 87 97	azelastine
+T2	Chemical 99 115	chlorpheniramine
+T3	Disease 149 173	spring allergic rhinitis
+T4	Chemical 174 184	Azelastine
+T5	Chemical 237 261	chlorpheniramine maleate
+T6	Disease 318 342	spring allergic rhinitis
+T7	Disease 546 570	spring allergic rhinitis
+T8	Chemical 674 684	azelastine
+T9	Chemical 798 814	chlorpheniramine
+T10	Chemical 1500 1510	azelastine
+T11	Chemical 1630 1640	azelastine
+T12	Chemical 1770 1786	chlorpheniramine
+T13	Disease 2009 2019	Drowsiness
+T14	Disease 2024 2048	altered taste perception
+T15	Chemical 2113 2123	azelastine
+T16	Chemical 2131 2141	Azelastine
+T17	Disease 2191 2217	seasonal allergic rhinitis

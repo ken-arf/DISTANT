@@ -1,0 +1,17 @@
+T1	Chemical 21 27	L-dopa
+T2	Disease 41 53	parkinsonian
+T3	Disease 130 142	parkinsonian
+T4	Chemical 170 176	L-dopa
+T5	Disease 190 199	excretion
+T6	Chemical 203 212	potassium
+T7	Chemical 378 387	potassium
+T8	Chemical 392 398	sodium
+T9	Chemical 431 440	potassium
+T10	Chemical 442 448	sodium
+T11	Chemical 453 464	aldosterone
+T12	Disease 512 521	excretion
+T13	Chemical 525 534	potassium
+T14	Chemical 558 564	sodium
+T15	Chemical 715 719	dopa
+T16	Chemical 872 883	aldosterone
+T17	Chemical 920 926	L-dopa

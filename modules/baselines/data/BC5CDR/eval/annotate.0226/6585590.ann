@@ -1,0 +1,20 @@
+T1	Chemical 0 16	Antitumor effect
+T2	Disease 18 32	cardiotoxicity
+T3	Disease 38 52	nephrotoxicity
+T5	Chemical 120 138	Antitumor activity
+T6	Disease 140 154	cardiotoxicity
+T7	Disease 160 174	nephrotoxicity
+T9	Disease 266 288	solid IgM immunocytoma
+T12	Chemical 328 330	/-
+T15	Disease 486 488	wt
+T16	Disease 491 507	Tumor regression
+T19	Disease 648 662	cardiotoxicity
+T20	Disease 673 682	grade III
+T22	Disease 767 779	renal damage
+T25	Chemical 871 884	serum albumin
+T27	Chemical 988 990	/-
+T28	Chemical 1003 1005	/-
+T30	Disease 1218 1232	cardiotoxicity
+T31	Disease 1238 1252	nephrotoxicity
+T32	Disease 1327 1339	renal damage
+T33	Chemical 1361 1374	serum albumin

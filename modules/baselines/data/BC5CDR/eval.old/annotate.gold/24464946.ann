@@ -1,0 +1,14 @@
+T1	Disease 135 149	cardiotoxicity
+T2	Chemical 157 168	epirubicine
+T3	Disease 232 249	myocardial strain
+T4	Disease 316 335	cardiac dysfunction
+T5	Chemical 354 364	epirubicin
+T6	Disease 411 431	non-Hodgkin lymphoma
+T7	Chemical 445 455	epirubicin
+T8	Disease 885 899	Cardiotoxicity
+T9	Disease 971 984	heart failure
+T10	Disease 1089 1103	cardiotoxicity
+T11	Disease 1685 1699	cardiotoxicity
+T12	Disease 1764 1778	cardiotoxicity
+T13	Disease 1886 1905	cardiac dysfunction
+T14	Chemical 1928 1941	anthracycline

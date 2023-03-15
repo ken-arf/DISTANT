@@ -1,0 +1,24 @@
+T1	Disease 10 24	retinal artery
+T2	Disease 29 45	choriocapillaris
+T3	Disease 29 55	choriocapillaris occlusion
+T4	Disease 214 232	retinal artery and
+T5	Disease 233 249	choriocapillaris
+T6	Disease 233 260	choriocapillaris occlusions
+T7	Disease 266 275	blindness
+T8	Chemical 327 345	methylprednisolone
+T9	Chemical 327 353	methylprednisolone acetate
+T10	Chemical 374 383	lidocaine
+T11	Chemical 385 396	epinephrine
+T12	Chemical 401 411	penicillin
+T13	Disease 500 504	hazy
+T14	Disease 505 514	sensorium
+T15	Disease 516 535	superior gaze palsy
+T16	Disease 537 546	pupillary
+T17	Disease 537 560	pupillary abnormalities
+T18	Disease 566 578	conjunctival
+T19	Disease 566 590	conjunctival hemorrhages
+T20	Disease 596 601	edema
+T21	Disease 635 646	visual loss
+T22	Disease 675 693	optic nerve pallor
+T23	Disease 721 734	chorioretinal
+T24	Disease 721 742	chorioretinal atrophy

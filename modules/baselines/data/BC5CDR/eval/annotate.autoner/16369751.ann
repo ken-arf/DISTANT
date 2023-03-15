@@ -1,0 +1,16 @@
+T1	Chemical 41 66	alpha-fluoro-beta-alanine
+T2	Disease 67 81	Cardiotoxicity
+T3	Chemical 122 136	5-fluorouracil
+T4	Chemical 138 142	5-FU
+T5	Disease 158 170	malignancies
+T6	Disease 224 251	5-FU-induced cardiotoxicity
+T7	Chemical 283 308	alpha-fluoro-beta-alanine
+T8	Chemical 578 582	5-FU
+T9	Chemical 693 698	serum
+T10	Disease 753 757	pain
+T11	Disease 863 878	precordial pain
+T12	Disease 943 957	cardiotoxicity
+T13	Chemical 1169 1182	dehydrogenase
+T14	Chemical 1219 1223	5-FU
+T15	Disease 1628 1642	cardiotoxicity
+T16	Disease 1705 1719	cardiotoxicity

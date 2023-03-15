@@ -1,0 +1,19 @@
+T1	Disease 25 30	spasm
+T2	Disease 49 71	dilated cardiomyopathy
+T3	Disease 98 121	ventricular tachycardia
+T4	Disease 152 180	left ventricular dysfunction
+T5	Disease 188 210	dilated cardiomyopathy
+T6	Disease 276 299	ventricular tachycardia
+T7	Disease 301 303	VT
+T8	Chemical 334 344	nifekalant
+T9	Chemical 334 358	nifekalant hydrochloride
+T10	Disease 370 372	VT
+T11	Chemical 419 426	sotalol
+T12	Disease 469 471	VT
+T13	Chemical 513 523	nifekalant
+T14	Chemical 527 534	sotalol
+T15	Disease 672 688	chest discomfort
+T16	Chemical 735 744	diltiazem
+T17	Disease 746 754	Coronary
+T18	Disease 755 764	vasospasm
+T19	Chemical 829 836	sotalol

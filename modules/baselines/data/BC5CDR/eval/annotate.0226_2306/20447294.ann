@@ -1,0 +1,18 @@
+T2	Chemical 48 70	sodium channel blocker
+T3	Chemical 72 79	CNSB002
+T5	Disease 115 131	neuropathic pain
+T6	Chemical 196 203	CNSB002
+T7	Chemical 207 229	sodium channel blocker
+T13	Disease 338 354	neuropathic pain
+T15	Chemical 423 430	CNSB002
+T17	Disease 561 573	noxious heat
+T18	Chemical 639 653	streptozotocin
+T19	Disease 668 687	diabetic neuropathy
+T23	Disease 879 891	hyperalgesia
+T24	Chemical 893 897	ED50
+T26	Chemical 1151 1155	ED50
+T28	Chemical 1207 1214	CNSB002
+T29	Chemical 1371 1386	antinociception
+T31	Disease 1513 1525	hyperalgesia
+T33	Disease 1550 1561	neuropathic
+T36	Chemical 1844 1851	CNSB002

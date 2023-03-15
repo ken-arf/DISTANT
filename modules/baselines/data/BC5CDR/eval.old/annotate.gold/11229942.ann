@@ -1,0 +1,34 @@
+T1	Chemical 0 7	Cocaine
+T2	Chemical 9 16	ethanol
+T3	Chemical 22 34	cocaethylene
+T4	Disease 35 47	cardiotoxity
+T5	Disease 70 95	cocaine and ethanol abuse
+T6	Disease offset[0] offset[1];offset[0] offset[1]	cocaine abuse
+T7	Disease 82 95	ethanol abuse
+T8	Disease 121 149	abuse of cocaine and ethanol
+T9	Disease 121 137	abuse of cocaine
+T10	Disease offset[0] offset[1];offset[0] offset[1]	abuse of ethanol
+T11	Disease 290 306	cardiac toxicity
+T12	Chemical 388 400	cocaethylene
+T13	Chemical 402 404	CE
+T14	Chemical 409 416	cocaine
+T15	Chemical 459 466	ethanol
+T16	Chemical 523 525	CE
+T17	Disease 542 556	cardiotoxicity
+T18	Chemical 560 567	cocaine
+T19	Chemical 572 579	ethanol
+T20	Chemical 713 720	cocaine
+T21	Chemical 736 743	ethanol
+T22	Chemical 794 801	cocaine
+T23	Chemical 830 837	ethanol
+T24	Disease 1134 1157	cardiovascular collapse
+T25	Chemical 1217 1224	cocaine
+T26	Chemical 1333 1335	CE
+T27	Disease 1404 1430	decrease in cardiac output
+T28	Disease 1592 1615	Ventricular arrhythmias
+T29	Disease 1698 1721	ventricular tachycardia
+T30	Chemical 1736 1743	Cocaine
+T31	Chemical 1748 1755	ethanol
+T32	Disease 1856 1872	cardiac toxicity
+T33	Chemical 1909 1921	cocaethylene
+T34	Disease 1968 1989	myocardial depression

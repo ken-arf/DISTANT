@@ -1,0 +1,15 @@
+T1	Disease 11 37	inferior colliculus lesion
+T2	Chemical 41 54	metronidazole
+T3	Disease 63 77	encephalopathy
+T4	Disease 218 245	inferior colliculus lesions
+T5	Chemical 249 262	metronidazole
+T6	Disease 271 285	encephalopathy
+T7	Chemical 510 523	metronidazole
+T8	Disease 532 546	encephalopathy
+T9	Chemical 594 607	metronidazole
+T10	Disease 677 686	infection
+T11	Chemical 998 1011	metronidazole
+T12	Disease 1868 1883	callosal lesion
+T13	Disease 1919 1946	inferior colliculus lesions
+T14	Chemical 1993 2006	metronidazole
+T15	Disease 2015 2029	encephalopathy

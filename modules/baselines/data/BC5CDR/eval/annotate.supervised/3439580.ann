@@ -1,0 +1,19 @@
+T1	Disease 0 12	Hypertension
+T2	Disease 16 29	neuroblastoma
+T3	Chemical 41 51	imipramine
+T4	Disease 52 64	Hypertension
+T5	Disease 111 124	neuroblastoma
+T6	Chemical 203 213	Imipramine
+T7	Disease 250 262	hypertension
+T8	Disease 314 327	neuroblastoma
+T9	Chemical 342 352	Imipramine
+T10	Disease 366 383	behavior disorder
+T11	Disease 429 434	tumor
+T12	Disease 468 480	hypertensive
+T13	Chemical 595 605	Imipramine
+T14	Disease 718 730	hypertension
+T15	Chemical 813 827	catecholamines
+T16	Chemical 885 895	Imipramine
+T17	Chemical 957 966	tricyclic
+T18	Chemical 967 982	antidepressants
+T19	Disease 1007 1020	neuroblastoma

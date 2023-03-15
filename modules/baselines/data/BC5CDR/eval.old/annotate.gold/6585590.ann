@@ -1,0 +1,30 @@
+T1	Disease 18 32	cardiotoxicity
+T2	Disease 38 52	nephrotoxicity
+T3	Chemical 56 67	doxorubicin
+T4	Disease 85 97	immunocytoma
+T5	Disease 140 154	cardiotoxicity
+T6	Disease 160 174	nephrotoxicity
+T7	Chemical 186 197	doxorubicin
+T8	Disease 276 288	immunocytoma
+T9	Disease 305 310	tumor
+T10	Chemical 374 385	doxorubicin
+T11	Disease 491 496	Tumor
+T12	Chemical 533 544	doxorubicin
+T13	Disease 579 584	tumor
+T14	Chemical 609 620	doxorubicin
+T15	Disease 648 662	cardiotoxicity
+T16	Chemical 721 732	doxorubicin
+T17	Disease 767 779	renal damage
+T18	Chemical 812 823	doxorubicin
+T19	Disease 846 857	albuminuria
+T20	Chemical 927 938	doxorubicin
+T21	Disease 1019 1026	Ascites
+T22	Disease 1031 1042	hydrothorax
+T23	Disease 1118 1123	tumor
+T24	Disease 1218 1232	cardiotoxicity
+T25	Disease 1238 1252	nephrotoxicity
+T26	Disease 1308 1319	Albuminuria
+T27	Disease 1327 1339	renal damage
+T28	Disease 1386 1393	ascites
+T29	Disease 1398 1409	hydrothorax
+T30	Disease 1461 1475	cardiomyopathy

@@ -1,0 +1,18 @@
+T1	Chemical 0 10	Amiodarone
+T2	Disease 19 37	torsade de pointes
+T3	Disease 171 189	torsade de pointes
+T4	Disease 191 194	TdP
+T5	Chemical 217 227	amiodarone
+T6	Disease 280 283	TdP
+T7	Disease 351 362	hypokalemia
+T8	Chemical 367 374	digoxin
+T9	Disease 466 469	TdP
+T10	Disease 493 504	bradycardia
+T11	Disease 526 529	TdP
+T12	Chemical 646 656	amiodarone
+T13	Chemical 677 687	amiodarone
+T14	Disease 696 709	proarrhythmia
+T15	Chemical 729 739	amiodarone
+T16	Disease 792 795	TdP
+T17	Disease 804 815	hypokalemia
+T18	Disease 820 834	hypomagnesemia

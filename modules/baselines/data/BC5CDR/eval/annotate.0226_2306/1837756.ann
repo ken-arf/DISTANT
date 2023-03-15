@@ -1,0 +1,20 @@
+T1	Chemical 0 29	Serotonin reuptake inhibitors
+T2	Disease 57 70	basal ganglia
+T4	Disease 182 203	paranoid exacerbation
+T5	Chemical 213 253	serotonin reuptake inhibitors fluoxetine
+T7	Disease 344 367	paranoid symptomatology
+T11	Disease 417 435	psychotic symptoms
+T12	Disease 449 469	depressive disorders
+T15	Disease 507 521	symptomatology
+T16	Disease 523 533	chronicity
+T18	Disease 546 556	bipolarity
+T19	Disease 562 577	secondary onset
+T21	Disease 597 614	primary psychosis
+T22	Chemical 827 831	5HT3
+T23	Chemical 868 895	beta-noradrenergic receptor
+T24	Chemical 915 929	GABAB receptor
+T25	Disease 981 994	basal ganglia
+T26	Disease 1008 1029	lateral orbitofrontal
+T27	Disease 1033 1051	anterior cingulate
+T28	Disease 1134 1156	paranoid exacerbations
+T29	Chemical 1162 1180	serotonin reuptake

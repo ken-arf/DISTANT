@@ -1,0 +1,15 @@
+T2	Disease 27 42	bradyarrhythmia
+T5	Disease 98 117	atrial fibrillation
+T6	Disease 128 149	myocardial infarction
+T8	Disease 248 267	atrial fibrillation
+T9	Disease 295 310	bradyarrhythmia
+T13	Disease 374 389	bradyarrhythmia
+T14	Disease 517 540	ventricular arrhythmias
+T15	Disease 701 722	myocardial infarction
+T16	Disease 800 815	bradyarrhythmia
+T21	Chemical 1070 1077	sotalol
+T22	Chemical 1079 1108	Class I antiarrhythmic agents
+T23	Chemical 1110 1123	beta-blockers
+T24	Chemical 1125 1149	calcium channel blockers
+T32	Disease 1664 1666	AF
+T34	Disease 1707 1722	bradyarrhythmia

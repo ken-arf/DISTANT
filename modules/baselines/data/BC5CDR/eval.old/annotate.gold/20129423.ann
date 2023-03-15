@@ -1,0 +1,17 @@
+T1	Chemical 6 19	carbamazepine
+T2	Disease 28 50	fulminant eosinophilic
+T3	Disease 52 68	hypersensitivity
+T4	Disease 70 81	myocarditis
+T5	Disease 167 188	drug hypersensitivity
+T6	Chemical 253 266	carbamazepine
+T7	Chemical 418 431	carbamazepine
+T8	Disease 461 477	hypersensitivity
+T9	Disease 479 490	myocarditis
+T10	Disease 512 528	hypersensitivity
+T11	Disease 529 540	myocarditis
+T12	Chemical 572 585	carbamazepine
+T13	Disease 593 609	hypersensitivity
+T14	Disease 610 621	myocarditis
+T15	Disease 831 848	cardiogenic shock
+T16	Chemical 908 921	carbamazepine
+T17	Disease 930 941	myocarditis

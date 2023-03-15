@@ -1,0 +1,22 @@
+T1	Disease 23 38	adverse effects
+T2	Chemical 46 54	bepridil
+T3	Disease 74 93	atrial fibrillation
+T5	Chemical 118 140	Bepridil hydrochloride
+T6	Disease 142 145	Bpd
+T9	Disease 196 215	atrial fibrillation
+T10	Disease 217 219	AF
+T11	Disease 225 239	atrial flutter
+T12	Disease 264 279	adverse effects
+T13	Disease 291 309	torsade de pointes
+T14	Disease 358 373	Adverse effects
+T15	Disease 377 380	Bpd
+T17	Chemical 436 439	Bpd
+T18	Disease 545 561	left ventricular
+T19	Disease 584 600	atrial dimension
+T21	Disease 650 665	Adverse effects
+T22	Disease 759 761	QT
+T26	Disease 875 890	general fatigue
+T27	Disease 935 950	QT prolongation
+T28	Chemical 998 1001	Tdp
+T32	Disease 1042 1052	heart rate
+T34	Chemical 1218 1221	Tdp

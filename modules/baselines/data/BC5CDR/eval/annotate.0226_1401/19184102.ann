@@ -1,0 +1,17 @@
+T1	Disease 13 32	fatty liver disease
+T2	Chemical 40 49	valproate
+T3	Chemical 58 71	Valproic acid
+T4	Chemical 73 76	VPA
+T6	Disease 186 197	body weight
+T7	Disease 219 251	nonalcoholic fatty liver disease
+T8	Disease 253 258	NAFLD
+T11	Chemical 308 311	VPA
+T12	Disease 348 364	hyperinsulinemia
+T15	Disease 460 471	weight loss
+T16	Disease 487 502	body mass index
+T20	Disease 668 684	hyperinsulinemia
+T21	Disease 686 704	insulin resistance
+T23	Chemical 735 738	VPA
+T25	Disease 785 790	NAFLD
+T26	Disease 797 808	side effect
+T27	Chemical 829 832	VPA

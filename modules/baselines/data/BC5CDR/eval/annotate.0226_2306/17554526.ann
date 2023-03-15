@@ -1,0 +1,11 @@
+T3	Disease 98 116	facial expressions
+T5	Disease 238 255	facial expression
+T6	Chemical 283 303	recreational cocaine
+T7	Chemical 392 394	CN
+T8	Chemical 463 465	RC
+T9	Disease 492 519	emotional facial expression
+T17	Disease 902 918	emotional states
+T20	Disease 1116 1137	illicit substance use
+T26	Chemical 1396 1398	CN
+T32	Disease 1744 1769	impaired fear recognition
+T33	Disease 1771 1791	amygdala dysfunction

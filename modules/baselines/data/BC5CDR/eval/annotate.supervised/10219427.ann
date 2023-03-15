@@ -1,0 +1,9 @@
+T1	Chemical 54 68	contrast media
+T2	Chemical 183 186	PRC
+T3	Disease 517 524	dyspnea
+T4	Disease 526 547	loss of consciousness
+T5	Disease 575 579	rash
+T6	Disease 653 657	heat
+T7	Disease 670 674	pain
+T8	Chemical 881 884	PRC
+T9	Disease 1019 1026	allergy
