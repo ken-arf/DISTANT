@@ -56,6 +56,8 @@ class EntityExtraction:
 
     def __init__(self, config_yaml):
         
+        #pdb.set_trace()
+        
         # logging
         self.logger = logging.getLogger("logger")
         self.logger.setLevel(logging.ERROR)
@@ -72,7 +74,42 @@ class EntityExtraction:
             params = utils._ordered_load(stream)
             self.params = params
 
+        self.load_embedding()
         self.load_model()
+
+    def load_embedding(self):                                                                                                                     
+                                                                                                                                                  
+        glove_embedding_path = self.params["glove_embedding_path"]                                                                                
+                                                                                                                                                  
+        vocab,embeddings = [],[]                                                                                                                  
+        with open(glove_embedding_path,'rt') as fi:                                                                                               
+            full_content = fi.read().strip().split('\n')                                                                                          
+        for i in range(len(full_content)):                                                                                                        
+            i_word = full_content[i].split(' ')[0]                                                                                                
+            i_embeddings = [float(val) for val in full_content[i].split(' ')[1:]]                                                                 
+            vocab.append(i_word)                                                                                                                  
+            embeddings.append(i_embeddings)                                                                                                       
+                                                                                                                                                  
+        #vocab_npa = np.array(vocab)                                                                                                              
+        embs_npa = np.array(embeddings)                                                                                                           
+                                                                                                                                                  
+        #insert '<pad>' and '<unk>' tokens at start of vocab_npa.                                                                                 
+        vocab.insert(0, '<pad>')                                                                                                                  
+        vocab.insert(1, '<unk>')                                                                                                                  
+        print(vocab[:10])                                                                                                                         
+                                                                                                                                                  
+        pad_emb_npa = np.zeros((1,embs_npa.shape[1]))   #embedding for '<pad>' token.                                                             
+        unk_emb_npa = np.mean(embs_npa,axis=0,keepdims=True)    #embedding for '<unk>' token.                                                     
+                                                                                                                                                  
+        #insert embeddings for pad and unk tokens at top of embs_npa.                                                                             
+        embs_npa = np.vstack((pad_emb_npa,unk_emb_npa,embs_npa))                                                                                  
+                                                                                                                                                  
+        self.embs_npa = embs_npa                                                                                                                  
+                                                                                                                                                  
+        self.idx2word = {i:v for i, v in enumerate(vocab)}                                                                                        
+        self.word2idx = {v:i for i, v in enumerate(vocab)}                                                                                        
+                                                                                                                                                  
+        return              
 
     def load_model(self):
 
@@ -83,10 +120,10 @@ class EntityExtraction:
         else:
             self.device = "cpu"
 
-        word2vec_model = self.params["word2vec"]
-        self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
+        #word2vec_model = self.params["word2vec"]
+        #self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
 
-        self.model = AutoNER(self.params, self.logger)
+        self.model = AutoNER(self, self.params, self.logger)
 
         model_path = self.params["restore_model_path"]
         self.model.load_state_dict(torch.load(model_path, map_location=torch.device(self.device)))
@@ -133,8 +170,8 @@ class EntityExtraction:
 
         tokenized_input = {}
 
-        UNK_id = self.w2v_model.get_index('unk')
-        input_ids = [self.w2v_model.get_index(word.lower()) if word.lower() in self.w2v_model else UNK_id for word in tokenized_text]
+        UNK_id = self.word2idx['<unk>']
+        input_ids = [self.word2idx[word.lower()] if word.lower() in self.word2idx else UNK_id for word in tokenized_text]
 
         tokenized_input["input_ids"] = [input_ids]
         tokenized_input["slength"] = [len(input_ids)]

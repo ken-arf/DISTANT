@@ -6,6 +6,7 @@ import time
 import torch
 import logging
 import glob
+import numpy as np
 from tqdm import tqdm
 from collections import defaultdict
 
@@ -24,6 +25,34 @@ from measure import performance
 from model import AutoNER
 
 import pdb
+
+def embedding(parameters):
+
+    glove_embedding_path = parameters["glove_embeddig_path"]
+
+    vocab,embeddings = [],[]
+    with open(glove_embedding_path,'rt') as fi:
+        full_content = fi.read().strip().split('\n')
+    for i in range(len(full_content)):
+        i_word = full_content[i].split(' ')[0]
+        i_embeddings = [float(val) for val in full_content[i].split(' ')[1:]]
+        vocab.append(i_word)
+        embeddings.append(i_embeddings)
+
+    vocab_npa = np.array(vocab)
+    embs_npa = np.array(embeddings)
+
+    #insert '<pad>' and '<unk>' tokens at start of vocab_npa.
+    vocab_npa = np.insert(vocab_npa, 0, '<pad>')
+    vocab_npa = np.insert(vocab_npa, 1, '<unk>')
+    print(vocab_npa[:10])
+
+    pad_emb_npa = np.zeros((1,embs_npa.shape[1]))   #embedding for '<pad>' token.
+    unk_emb_npa = np.mean(embs_npa,axis=0,keepdims=True)    #embedding for '<unk>' token.
+
+    #insert embeddings for pad and unk tokens at top of embs_npa.
+    embs_npa = np.vstack((pad_emb_npa,unk_emb_npa,embs_npa))
+    print(embs_npa.shape)
 
 
 def load_file(file,  n_type):
@@ -113,14 +142,12 @@ def train(parameters, name_suffix):
     print("Valid data loader size: ", len(valid_dataloader))
 
 
-    metric = evaluate.load("seqeval")
-
     if torch.cuda.is_available() and parameters['gpu'] >= 0:
         device = "cuda"
     else:
         device = "cpu"
 
-    model = AutoNER(parameters, logger)
+    model = AutoNER(dataloader, parameters, logger)
 
     if parameters['restore_model'] == True:
         model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
@@ -189,7 +216,6 @@ def train(parameters, name_suffix):
 
             #predictions = accelerator.gather(predictions)
             #labels = accelerator.gather(labels)
-
 
             logger.debug("Span")
             logger.debug("pred")

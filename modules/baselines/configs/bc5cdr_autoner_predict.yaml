@@ -17,7 +17,8 @@ ent2int:
     others: 2
 
 #word2vec: modules/autoner/PubMed-w2v.bin
-word2vec: modules/autoner/BioWordVec_PubMed_MIMICIII_d200.vec.bin
+#word2vec: modules/autoner/BioWordVec_PubMed_MIMICIII_d200.vec.bin
+glove_embedding_path: data/glove.6B/glove.6B.200d.txt
 
 corpus_dir: data/BC5CDR/conll
 

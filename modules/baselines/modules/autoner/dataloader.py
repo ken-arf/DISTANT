@@ -63,12 +63,46 @@ class Dataloader:
             self.label2int[key.upper()] = v
         self.label2int['O'] = -100
 
-
         # Load word2vec pre-train model
-        word2vec_model = self.params["word2vec"]
-        self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
+        #word2vec_model = self.params["word2vec"]
+        #self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
         #model = gensim.models.Word2Vec.load('./word2vec_pretrain_v300.model')
 
+        self.load_embedding()
+
+    def load_embedding(self):
+
+        glove_embedding_path = self.params["glove_embedding_path"]
+
+        vocab,embeddings = [],[]
+        with open(glove_embedding_path,'rt') as fi:
+            full_content = fi.read().strip().split('\n')
+        for i in range(len(full_content)):
+            i_word = full_content[i].split(' ')[0]
+            i_embeddings = [float(val) for val in full_content[i].split(' ')[1:]]
+            vocab.append(i_word)
+            embeddings.append(i_embeddings)
+
+        #vocab_npa = np.array(vocab)
+        embs_npa = np.array(embeddings)
+
+        #insert '<pad>' and '<unk>' tokens at start of vocab_npa.
+        vocab.insert(0, '<pad>')
+        vocab.insert(1, '<unk>')
+        print(vocab[:10])
+
+        pad_emb_npa = np.zeros((1,embs_npa.shape[1]))   #embedding for '<pad>' token.
+        unk_emb_npa = np.mean(embs_npa,axis=0,keepdims=True)    #embedding for '<unk>' token.
+
+        #insert embeddings for pad and unk tokens at top of embs_npa.
+        embs_npa = np.vstack((pad_emb_npa,unk_emb_npa,embs_npa))
+
+        self.embs_npa = embs_npa
+
+        self.idx2word = {i:v for i, v in enumerate(vocab)}
+        self.word2idx = {v:i for i, v in enumerate(vocab)}
+
+        return
 
     def load_data(self):
 
@@ -226,9 +260,9 @@ class Dataloader:
         tokenized_input = {}
 
         input_ids = []
-        UNK_id = self.w2v_model.get_index('unk')
+        UNK_id = self.word2idx['<unk>']
         for text in examples["text"]:
-            ids = [self.w2v_model.get_index(word.lower()) if word.lower() in self.w2v_model else UNK_id for word in text]
+            ids = [self.word2idx[word.lower()] if word.lower() in self.word2idx else UNK_id for word in text]
             input_ids.append(ids)
 
         # debug

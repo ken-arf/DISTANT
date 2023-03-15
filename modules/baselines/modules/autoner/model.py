@@ -36,9 +36,10 @@ import pdb
 
 class AutoNER(nn.Module):
 
-    def __init__(self, params, logger):
+    def __init__(self, dataloader, params, logger):
         super(AutoNER, self).__init__()
 
+        self.dataloader = dataloader
         self.params = params
         self.logger = logger
         self.myseed = self.params["seed"] 
@@ -49,13 +50,14 @@ class AutoNER(nn.Module):
             self.device = "cpu"
 
         # Load word2vec pre-train model
-        word2vec_model = self.params["word2vec"]
-        self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
+        #word2vec_model = self.params["word2vec"]
+        #self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
         #model = gensim.models.Word2Vec.load('./word2vec_pretrain_v300.model')
 
+        embs_npa = self.dataloader.embs_npa
         # embedding 
         self.word_embed_size = 200
-        weights = torch.FloatTensor(self.w2v_model.vectors)
+        weights = torch.FloatTensor(embs_npa)
         #self.word_embedding = nn.Embedding.from_pretrained(weights, freeze=True, padding_idx=-100)
         #self.word_embedding.requires_grad = False
         self.word_embedding = nn.Embedding.from_pretrained(weights, freeze=False, padding_idx=-100)
