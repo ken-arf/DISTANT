@@ -21,6 +21,7 @@ PubMed
 Evaluation
 data/BC5CDR/
 old/
+glove.6B/
 *xml
 *.dict
 *.coll
