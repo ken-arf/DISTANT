@@ -1,0 +1,10 @@
+T1	Disease 0 6	Cancer
+T2	Chemical 81 91	UNASSIGNED
+T3	Chemical 120 129	herbicide
+T4	Disease 532 538	cancer
+T5	Disease 786 792	cancer
+T6	Disease 871 878	cancers
+T7	Disease 953 965	liver cancer
+T8	Chemical 1245 1254	reference
+T9	Disease 1548 1560	liver cancer
+T10	Disease 1721 1727	cancer

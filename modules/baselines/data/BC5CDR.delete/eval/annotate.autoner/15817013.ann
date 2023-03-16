@@ -1,0 +1,22 @@
+T1	Disease 23 42	atrial fibrillation
+T2	Chemical 46 54	warfarin
+T3	Disease 68 84	major hemorrhage
+T4	Disease 89 95	stroke
+T5	Disease 182 198	major hemorrhage
+T6	Disease 203 209	stroke
+T7	Disease 243 262	atrial fibrillation
+T8	Chemical 280 288	warfarin
+T9	Chemical 362 375	observational
+T10	Disease 611 630	atrial fibrillation
+T11	Chemical 634 642	warfarin
+T12	Disease 700 708	bleeding
+T13	Disease 719 726	strokes
+T14	Chemical 732 740	warfarin
+T15	Chemical 966 974	warfarin
+T16	Disease 1090 1106	life-threatening
+T17	Disease 1148 1154	stroke
+T18	Chemical 1180 1188	warfarin
+T19	Disease 1223 1239	major hemorrhage
+T20	Disease 1344 1350	stroke
+T21	Chemical 1359 1367	warfarin
+T22	Chemical 1405 1413	warfarin

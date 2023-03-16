@@ -1,0 +1,11 @@
+T1	Chemical 125 130	P9605
+T2	Disease 171 199	acute lymphoblastic leukemia
+T3	Chemical 224 236	methotrexate
+T4	Chemical 319 331	methotrexate
+T5	Chemical 333 336	MTX
+T6	Disease 338 351	neurotoxicity
+T7	Chemical 460 463	MTX
+T8	Disease 502 515	lymphoblastic
+T9	Disease 597 616	leukoencephalopathy
+T10	Disease 1243 1262	leukoencephalopathy
+T11	Chemical 1766 1769	MTX

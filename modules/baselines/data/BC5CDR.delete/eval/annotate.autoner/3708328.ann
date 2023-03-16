@@ -1,0 +1,27 @@
+T1	Disease 18 26	seizures
+T2	Chemical 39 50	pilocarpine
+T3	Chemical 83 92	isoniazid
+T4	Chemical 139 150	Pilocarpine
+T5	Disease 239 252	lobe epilepsy
+T6	Disease 328 338	convulsive
+T7	Disease 412 420	seizures
+T8	Disease 604 612	seizures
+T9	Chemical 625 636	pilocarpine
+T10	Chemical 711 720	isoniazid
+T11	Chemical 913 924	pilocarpine
+T12	Disease 977 985	seizures
+T13	Disease 990 1008	status epilepticus
+T14	Disease 1131 1142	convulsions
+T15	Chemical 1178 1187	forebrain
+T16	Chemical 1384 1395	pilocarpine
+T17	Chemical 1464 1473	isoniazid
+T18	Disease 1490 1498	seizures
+T19	Chemical 1511 1522	pilocarpine
+T20	Chemical 1579 1583	GABA
+T21	Chemical 1616 1617	D
+T22	Chemical 1640 1644	acid
+T23	Disease 1747 1755	seizures
+T24	Chemical 1768 1779	pilocarpine
+T25	Disease 2010 2021	convulsions
+T26	Chemical 2034 2045	pilocarpine
+T27	Disease 2125 2133	seizures

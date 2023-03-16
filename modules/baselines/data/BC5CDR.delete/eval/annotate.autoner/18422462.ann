@@ -1,0 +1,19 @@
+T1	Chemical 185 192	generic
+T2	Chemical 539 549	nevirapine
+T3	Chemical 565 575	zidovudine
+T4	Chemical 577 580	AZT
+T5	Chemical 615 624	efavirenz
+T6	Chemical 644 647	AZT
+T7	Disease 736 740	rash
+T8	Disease 776 797	peripheral neuropathy
+T9	Disease 850 856	anemia
+T10	Disease 939 948	hepatitis
+T11	Disease 959 967	jaundice
+T12	Chemical 973 980	alanine
+T13	Disease 1207 1221	reconstitution
+T14	Disease 1345 1349	rash
+T15	Disease 1382 1403	peripheral neuropathy
+T16	Disease 1416 1422	Anemia
+T17	Disease 1427 1436	hepatitis
+T18	Chemical 1479 1492	generic HAART
+T19	Disease 1534 1544	toxicities

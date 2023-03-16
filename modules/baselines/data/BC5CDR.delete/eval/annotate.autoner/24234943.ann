@@ -1,0 +1,12 @@
+T1	Disease 0 8	Syndrome
+T2	Disease 317 341	symptoms included nausea
+T3	Disease 343 350	anxiety
+T4	Disease 355 364	confusion
+T5	Chemical 376 382	sodium
+T6	Chemical 623 629	sodium
+T7	Chemical 746 752	sodium
+T8	Chemical 805 816	mirtazapine
+T9	Chemical 877 892	antidepressants
+T10	Disease 975 987	hyponatremia
+T11	Chemical 1050 1065	antidepressants
+T12	Disease 1075 1087	hyponatremia

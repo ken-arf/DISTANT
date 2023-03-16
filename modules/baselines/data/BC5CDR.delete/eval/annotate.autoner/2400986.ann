@@ -1,0 +1,14 @@
+T1	Disease 15 28	neurotoxicity
+T2	Chemical 42 50	busulfan
+T3	Disease 125 135	neurotoxic
+T4	Disease 173 186	neurotoxicity
+T5	Disease 415 421	tumors
+T6	Disease 429 435	tumors
+T7	Disease 716 726	Ninety-six
+T8	Disease 798 806	seizures
+T9	Chemical 861 862	h
+T10	Disease 986 999	neurotoxicity
+T11	Chemical 1268 1276	Busulfan
+T12	Disease 1430 1437	disease
+T13	Disease 1950 1963	neurotoxicity
+T14	Disease 1974 1987	neurotoxicity

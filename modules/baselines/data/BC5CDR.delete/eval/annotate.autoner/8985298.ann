@@ -1,0 +1,16 @@
+T1	Chemical 0 10	Lamivudine
+T2	Disease 39 50	hepatitis B
+T3	Disease 72 83	hepatitis B
+T4	Chemical 137 147	Lamivudine
+T5	Disease 229 240	hepatitis B
+T6	Disease 385 396	hepatitis B
+T7	Chemical 515 525	lamivudine
+T8	Chemical 784 794	lamivudine
+T9	Disease 813 824	hepatitis B
+T10	Chemical 908 918	lamivudine
+T11	Disease 1014 1025	suppression
+T12	Disease 1185 1194	hepatitis
+T13	Chemical 1320 1330	lamivudine
+T14	Disease 1411 1422	suppression
+T15	Chemical 1471 1481	lamivudine
+T16	Disease 1543 1554	suppression

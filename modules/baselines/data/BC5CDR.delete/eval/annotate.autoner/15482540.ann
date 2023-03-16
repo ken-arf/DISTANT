@@ -1,0 +1,16 @@
+T1	Chemical 0 7	Factors
+T2	Disease 42 48	anemia
+T3	Chemical 84 93	ribavirin
+T4	Disease 126 137	hepatitis C
+T5	Disease 147 163	hemolytic anemia
+T6	Disease 248 254	anemia
+T7	Disease 300 311	hepatitis C
+T8	Chemical 425 447	ribavirin administered
+T9	Disease 584 590	anemia
+T10	Disease 619 625	anemia
+T11	Disease 740 746	anemia
+T12	Disease 1115 1121	anemia
+T13	Chemical 1198 1207	ribavirin
+T14	Disease 1216 1227	body weight
+T15	Chemical 1267 1277	univariate
+T16	Chemical 1417 1426	ribavirin

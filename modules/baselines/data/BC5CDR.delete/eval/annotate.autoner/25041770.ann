@@ -1,0 +1,11 @@
+T1	Disease 0 14	Rhabdomyolysis
+T2	Chemical 35 46	simvastatin
+T3	Chemical 200 211	simvastatin
+T4	Disease 252 266	rhabdomyolysis
+T5	Disease 451 465	rhabdomyolysis
+T6	Disease 524 538	rhabdomyolysis
+T7	Disease 572 579	cardiac
+T8	Disease 681 689	myopathy
+T9	Chemical 743 751	troponin
+T10	Chemical 787 793	statin
+T11	Disease 802 816	rhabdomyolysis

@@ -1,0 +1,13 @@
+T1	Disease 112 128	thrombocytopenia
+T2	Disease 134 144	thrombosis
+T3	Disease 216 232	thrombocytopenia
+T4	Disease 238 248	thrombosis
+T5	Disease 250 254	HITT
+T6	Disease 558 575	venous thrombosis
+T7	Disease 634 650	thrombocytopenia
+T8	Disease 907 915	syndrome
+T9	Disease 1032 1041	epistaxis
+T10	Chemical 1566 1574	warfarin
+T11	Disease 1674 1686	hearing loss
+T12	Disease 1765 1776	amyloidosis
+T13	Disease 1807 1811	HITT

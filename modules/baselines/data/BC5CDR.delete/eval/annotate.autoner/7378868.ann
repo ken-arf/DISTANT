@@ -1,0 +1,11 @@
+T1	Disease 40 47	myalgia
+T2	Chemical 130 139	halothane
+T3	Chemical 141 154	nitrous oxide
+T4	Chemical 159 165	oxygen
+T5	Chemical 190 203	suxamethonium
+T6	Disease 373 379	apnoea
+T7	Chemical 403 414	generalized
+T8	Disease 422 429	myalgia
+T9	Disease 632 644	jaw rigidity
+T10	Disease 649 656	myalgia
+T11	Chemical 673 686	suxamethonium

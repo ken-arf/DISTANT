@@ -1,0 +1,31 @@
+T1	Chemical 10 17	hormone
+T2	Disease 145 153	symptoms
+T3	Disease 214 236	cardiovascular disease
+T4	Disease 238 250	osteoporosis
+T5	Disease 255 263	dementia
+T6	Disease 426 439	heart disease
+T7	Disease 441 463	venous thromboembolism
+T8	Disease 465 471	stroke
+T9	Chemical 483 492	ischaemic
+T10	Disease 502 515	breast cancer
+T11	Disease 517 534	colorectal cancer
+T12	Disease 536 550	ovarian cancer
+T13	Disease 552 570	endometrial cancer
+T14	Disease 572 591	gallbladder disease
+T15	Disease 613 621	dementia
+T16	Disease 623 632	fractures
+T17	Disease 751 760	Disorders
+T18	Chemical 801 809	Cochrane
+T19	Chemical 887 896	Abstracts
+T20	Disease 1689 1697	coronary
+T21	Disease 1728 1734	stroke
+T22	Disease 1752 1765	breast cancer
+T23	Disease 1786 1805	gallbladder disease
+T24	Disease 1876 1882	stroke
+T25	Disease 1887 1906	gallbladder disease
+T26	Disease 1997 2006	fractures
+T27	Disease 2017 2023	cancer
+T28	Disease 2187 2195	dementia
+T29	Disease 2214 2236	cardiovascular disease
+T30	Disease 2314 2336	venous thromboembolism
+T31	Disease 2816 2823	disease

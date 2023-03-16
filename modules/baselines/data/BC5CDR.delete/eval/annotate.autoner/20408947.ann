@@ -1,0 +1,18 @@
+T1	Disease 85 104	acute liver failure
+T2	Disease 161 175	hepatotoxicity
+T3	Disease 225 228	ALF
+T4	Disease 409 420	psychiatric
+T5	Disease 585 588	ALF
+T6	Disease 684 687	ALF
+T7	Disease 723 736	liver disease
+T8	Disease 781 784	ALF
+T9	Chemical 996 1002	Twenty
+T10	Disease 1031 1034	ALF
+T11	Disease 1306 1319	graft failure
+T12	Disease 1374 1377	ALF
+T13	Disease 1429 1432	ALF
+T14	Disease 1500 1503	ALF
+T15	Disease 1611 1622	psychiatric
+T16	Disease 1708 1711	ALF
+T17	Disease 1780 1783	ALF
+T18	Disease 1948 1953	graft

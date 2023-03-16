@@ -1,0 +1,12 @@
+T1	Disease 6 20	encephalopathy
+T2	Disease 25 43	cerebral vasospasm
+T3	Chemical 117 127	cytarabine
+T4	Disease 345 369	encephalopathy evidenced
+T5	Disease 393 414	aphasia, incontinence
+T6	Disease 416 437	visual hallucinations
+T7	Disease 455 463	weakness
+T8	Disease 486 495	vasospasm
+T9	Chemical 570 580	cytarabine
+T10	Chemical 582 593	Vincristine
+T11	Chemical 595 608	dexamethasone
+T12	Chemical 614 626	polyethylene

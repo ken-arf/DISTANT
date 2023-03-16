@@ -1,0 +1,23 @@
+T1	Chemical 27 40	doxorubicin (
+T2	Disease 113 120	cancers
+T3	Disease 133 142	carcinoma
+T4	Chemical 207 230	liposomal doxorubicin (
+T5	Disease 296 310	ovarian cancer
+T6	Disease 331 339	toxicity
+T7	Chemical 371 372	(
+T8	Disease 428 446	hand-foot syndrome
+T9	Chemical 513 524	doxorubicin
+T10	Disease 651 658	disease
+T11	Disease 723 730	cancers
+T12	Disease 753 762	carcinoma
+T13	Disease 799 806	disease
+T14	Disease 830 837	disease
+T15	Chemical 958 969	doxorubicin
+T16	Disease 1305 1313	diarrhea
+T17	Chemical 1435 1469	liposomal doxorubicin administered
+T18	Chemical 1666 1687	liposomal doxorubicin
+T19	Disease 1712 1720	toxicity
+T20	Disease 1734 1752	hand-foot syndrome
+T21	Chemical 1828 1842	antineoplastic
+T22	Disease 1881 1893	well-defined
+T23	Disease 1930 1944	ovarian cancer

@@ -1,0 +1,11 @@
+T1	Disease 318 336	torsade de pointes
+T2	Disease 338 341	TdP
+T3	Chemical 375 385	dl-sotalol
+T4	Disease 523 526	TdP
+T5	Chemical 744 750	rabbit
+T6	Disease 756 767	ventricular
+T7	Chemical 782 792	dl-Sotalol
+T8	Disease 1198 1201	TDR
+T9	Disease 1504 1507	TdP
+T10	Chemical 1518 1524	rabbit
+T11	Disease 1930 1933	TdP

@@ -1,0 +1,15 @@
+T1	Chemical 21 28	lindane
+T2	Chemical 65 69	GABA
+T3	Chemical 74 82	dopamine
+T4	Chemical 83 90	Lindane
+T5	Disease 159 175	known neurotoxic
+T6	Chemical 267 274	lindane
+T7	Chemical 387 394	lindane
+T8	Chemical 483 487	GABA
+T9	Chemical 489 497	dopamine
+T10	Disease 551 559	seizures
+T11	Disease 588 599	convulsions
+T12	Chemical 626 633	lindane
+T13	Chemical 671 675	GABA
+T14	Chemical 802 810	dopamine
+T15	Chemical 862 872	metabolite

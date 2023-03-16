@@ -1,0 +1,12 @@
+T1	Chemical 63 76	acetaminophen
+T2	Chemical 78 89	paracetamol
+T3	Chemical 186 199	Acetaminophen
+T4	Chemical 201 212	paracetamol
+T5	Disease 319 345	hypersensitivity reactions
+T6	Chemical 428 433	drugs
+T7	Disease 778 794	hypersensitivity
+T8	Chemical 955 962	blindly
+T9	Disease 1271 1280	reactions
+T10	Disease 1362 1370	erythema
+T11	Disease 1528 1538	angioedema
+T12	Disease 1573 1598	hypersensitivity reaction

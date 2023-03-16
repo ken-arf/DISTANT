@@ -1,0 +1,17 @@
+T1	Disease 10 17	seizure
+T2	Chemical 83 103	monosodium glutamate
+T3	Disease 162 169	seizure
+T4	Chemical 178 198	Monosodium glutamate
+T5	Disease 249 260	convulsions
+T6	Chemical 301 311	behavioral
+T7	Disease 433 440	seizure
+T8	Disease 524 531	seizure
+T9	Disease 573 580	seizure
+T10	Disease 761 768	seizure
+T11	Chemical 782 790	naloxone
+T12	Disease 848 855	seizure
+T13	Disease 931 942	hypothermia
+T14	Disease 1034 1045	hypothermia
+T15	Disease 1049 1056	seizure
+T16	Disease 1090 1097	seizure
+T17	Disease 1173 1180	seizure

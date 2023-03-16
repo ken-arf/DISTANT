@@ -1,0 +1,15 @@
+T1	Chemical 0 11	Thalidomide
+T2	Disease 24 37	neurotoxicity
+T3	Chemical 193 204	thalidomide
+T4	Chemical 383 394	thalidomide
+T5	Disease 434 444	neurotoxic
+T6	Chemical 458 469	thalidomide
+T7	Chemical 664 675	thalidomide
+T8	Chemical 909 912	SAP
+T9	Chemical 1105 1116	thalidomide
+T10	Chemical 1214 1217	SAP
+T11	Chemical 1240 1251	thalidomide
+T12	Disease 1294 1304	neurotoxic
+T13	Chemical 1372 1375	SAP
+T14	Disease 1554 1564	neurotoxic
+T15	Chemical 1578 1589	thalidomide

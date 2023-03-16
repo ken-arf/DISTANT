@@ -1,0 +1,15 @@
+T1	Chemical 76 84	propofol
+T2	Chemical 160 168	propofol
+T3	Chemical 506 514	propofol
+T4	Disease 711 728	neurointensivists
+T5	Chemical 966 974	propofol
+T6	Chemical 1060 1068	propofol
+T7	Disease 1140 1150	propensity
+T8	Disease 1218 1229	hypotension
+T9	Disease 1270 1281	bradycardia
+T10	Disease 1570 1581	hypotension
+T11	Disease 1585 1596	bradycardia
+T12	Disease 1661 1688	hypotension and bradycardia
+T13	Chemical 1779 1787	propofol
+T14	Disease 1843 1854	hypotension
+T15	Disease 1858 1869	bradycardia

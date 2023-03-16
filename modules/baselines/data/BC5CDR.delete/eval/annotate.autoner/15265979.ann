@@ -1,0 +1,22 @@
+T1	Chemical 54 64	amiodarone
+T2	Chemical 94 104	peroxisome
+T3	Chemical 166 176	Amiodarone
+T4	Disease 258 272	hepatotoxicity
+T5	Disease 294 298	gain
+T6	Chemical 391 401	amiodarone
+T7	Chemical 469 479	Amiodarone
+T8	Disease 488 500	hepatomegaly
+T9	Chemical 602 609	glucose
+T10	Chemical 736 746	fatty acid
+T11	Chemical 842 852	peroxisome
+T12	Disease 1021 1033	hepatomegaly
+T13	Chemical 1037 1046	PPARalpha
+T14	Chemical 1106 1116	amiodarone
+T15	Chemical 1246 1256	amiodarone
+T16	Disease 1307 1318	body weight
+T17	Chemical 1342 1352	amiodarone
+T18	Chemical 1488 1498	amiodarone
+T19	Chemical 1590 1600	amiodarone
+T20	Disease 1805 1816	hepatotoxic
+T21	Chemical 1828 1838	amiodarone
+T22	Disease 1903 1917	hepatotoxicity

@@ -1,0 +1,12 @@
+T1	Disease 20 34	cardiotoxicity
+T2	Disease 200 214	cardiotoxicity
+T3	Chemical 442 453	doxorubicin
+T4	Disease 634 636	ms
+T5	Chemical 675 686	doxorubicin
+T6	Disease 934 942	toxicity
+T7	Disease 1072 1080	toxicity
+T8	Chemical 1108 1119	doxorubicin
+T9	Chemical 1267 1268	h
+T10	Chemical 1276 1287	doxorubicin
+T11	Disease 1466 1480	cardiotoxicity
+T12	Disease 1591 1605	cardiotoxicity

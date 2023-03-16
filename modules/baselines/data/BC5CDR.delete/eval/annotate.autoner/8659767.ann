@@ -1,0 +1,26 @@
+T1	Chemical 59 70	bupivacaine
+T2	Chemical 85 96	bupivacaine
+T3	Chemical 101 112	epinephrine
+T4	Chemical 160 171	bupivacaine
+T5	Chemical 243 254	epinephrine
+T6	Chemical 286 297	bupivacaine
+T7	Chemical 360 371	epinephrine
+T8	Disease 429 450	myocardial infarction
+T9	Chemical 511 522	epinephrine
+T10	Disease 557 580	ventricular tachycardia
+T11	Chemical 608 609	h
+T12	Chemical 659 670	bupivacaine
+T13	Chemical 730 741	epinephrine
+T14	Chemical 770 781	epinephrine
+T15	Chemical 831 842	bupivacaine
+T16	Disease 911 921	sinoatrial
+T17	Chemical 983 994	bupivacaine
+T18	Disease 1047 1068	myocardial infarction
+T19	Chemical 1146 1157	epinephrine
+T20	Chemical 1199 1210	bupivacaine
+T21	Chemical 1278 1289	epinephrine
+T22	Chemical 1337 1348	epinephrine
+T23	Chemical 1381 1392	bupivacaine
+T24	Chemical 1418 1429	epinephrine
+T25	Chemical 1597 1608	bupivacaine
+T26	Chemical 1670 1681	epinephrine

@@ -1,0 +1,14 @@
+T1	Disease 84 95	nephropathy
+T2	Chemical 210 220	gentamicin
+T3	Disease 235 246	nephropathy
+T4	Chemical 266 268	GM
+T5	Disease 623 634	nephropathy
+T6	Chemical 636 656	Superoxide dismutase
+T7	Chemical 845 848	RBF
+T8	Chemical 873 877	cGMP
+T9	Disease 1039 1045	damage
+T10	Chemical 1126 1136	substances
+T11	Chemical 1187 1189	GM
+T12	Disease 1305 1316	nephropathy
+T13	Chemical 1395 1405	superoxide
+T14	Disease 1448 1453	renal

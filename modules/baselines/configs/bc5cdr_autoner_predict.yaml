@@ -18,11 +18,13 @@ ent2int:
 
 #word2vec: modules/autoner/PubMed-w2v.bin
 #word2vec: modules/autoner/BioWordVec_PubMed_MIMICIII_d200.vec.bin
+#
+load_embedding: False
 glove_embedding_path: data/glove.6B/glove.6B.200d.txt
 
 corpus_dir: data/BC5CDR/conll
 
-test_dir: data/BC5CDR/eval/test
+test_dir: /home/aae14935wb/Work/Immunology/Work/Immunology/data/BC5CDR/eval/test
 output_dir: data/BC5CDR/eval/annotate.autoner
 
 

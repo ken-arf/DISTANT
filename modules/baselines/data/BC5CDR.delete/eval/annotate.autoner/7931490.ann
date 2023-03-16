@@ -1,0 +1,15 @@
+T1	Disease 112 118	nausea
+T2	Disease 123 131	vomiting
+T3	Chemical 153 162	cisplatin
+T4	Disease 415 421	nausea
+T5	Disease 426 434	vomiting
+T6	Chemical 530 539	cisplatin
+T7	Disease 757 770	signs, nausea
+T8	Disease 772 780	vomiting
+T9	Disease 1010 1018	vomiting
+T10	Disease 1161 1169	vomiting
+T11	Disease 1320 1326	nausea
+T12	Disease 1343 1351	vomiting
+T13	Disease 1584 1592	Headache
+T14	Chemical 1795 1804	cisplatin
+T15	Disease 1858 1866	vomiting

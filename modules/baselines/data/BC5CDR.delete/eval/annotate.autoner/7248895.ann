@@ -1,0 +1,23 @@
+T1	Disease 9 18	carcinoma
+T2	Disease 26 31	renal
+T3	Chemical 49 65	cyclophosphamide
+T4	Disease 205 214	hematuria
+T5	Chemical 255 271	cyclophosphamide
+T6	Disease 285 295	vasculitis
+T7	Disease 352 360	bleeding
+T8	Disease 422 431	carcinoma
+T9	Disease 439 451	renal pelvis
+T10	Chemical 477 493	cyclophosphamide
+T11	Disease 503 523	hemorrhagic cystitis
+T12	Disease 592 601	carcinoma
+T13	Disease 679 688	carcinoma
+T14	Disease 760 769	carcinoma
+T15	Disease 864 873	carcinoma
+T16	Disease 881 893	renal pelvis
+T17	Chemical 923 939	cyclophosphamide
+T18	Disease 975 987	tract cancer
+T19	Chemical 1017 1033	cyclophosphamide
+T20	Disease 1061 1068	disease
+T21	Disease 1093 1098	tumor
+T22	Chemical 1231 1247	cyclophosphamide
+T23	Chemical 1291 1307	cyclophosphamide

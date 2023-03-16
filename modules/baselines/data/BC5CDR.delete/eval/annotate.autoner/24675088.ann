@@ -1,0 +1,14 @@
+T1	Disease 106 120	cardiotoxicity
+T2	Disease 138 144	cancer
+T3	Chemical 366 377	doxorubicin
+T4	Disease 392 406	cardiomyopathy
+T5	Disease 635 643	toxicity
+T6	Chemical 693 696	DOX
+T7	Disease 1058 1066	fibrosis
+T8	Disease 1378 1389	dysfunction
+T9	Chemical 1489 1499	troponin I
+T10	Chemical 1582 1590	Troponin
+T11	Chemical 1743 1754	subcellular
+T12	Disease 1769 1781	degeneration
+T13	Disease 1799 1805	marker
+T14	Disease 1872 1886	manifestations

@@ -1,0 +1,18 @@
+T1	Disease 100 118	status epilepticus
+T2	Disease 162 170	seizures
+T3	Disease 437 459	status epilepticus (SE
+T4	Chemical 472 493	pilocarpine injection
+T5	Disease 504 506	SE
+T6	Chemical 522 543	pilocarpine injection
+T7	Chemical 595 606	pilocarpine
+T8	Disease 624 626	SE
+T9	Chemical 810 814	CCL2
+T10	Disease 940 942	SE
+T11	Disease 944 952	Seizures
+T12	Disease 1089 1091	SE
+T13	Disease 1165 1167	SE
+T14	Disease 1209 1211	SE
+T15	Disease 1464 1466	SE
+T16	Disease 1575 1577	SE
+T17	Disease 1579 1587	Seizures
+T18	Disease 1780 1788	seizures

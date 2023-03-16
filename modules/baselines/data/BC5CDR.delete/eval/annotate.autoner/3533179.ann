@@ -1,0 +1,18 @@
+T1	Chemical 167 183	cyclophosphamide
+T2	Disease 285 299	cardiotoxicity
+T3	Disease 367 381	cardiotoxicity
+T4	Disease 436 444	toxicity
+T5	Disease 631 645	cardiotoxicity
+T6	Disease 834 849	aplastic anemia
+T7	Disease 867 875	syndrome
+T8	Disease 896 912	immunodeficiency
+T9	Disease 996 1010	cardiotoxicity
+T10	Disease 1094 1118	congestive heart failure
+T11	Disease 1348 1362	Cardiotoxicity
+T12	Disease 1506 1530	Congestive heart failure
+T13	Disease 1556 1561	death
+T14	Chemical 1590 1591	v
+T15	Disease 1784 1798	cardiotoxicity
+T16	Disease 1885 1900	aplastic anemia
+T17	Disease 2046 2060	cardiotoxicity
+T18	Disease 2168 2176	toxicity

@@ -1,0 +1,14 @@
+T1	Chemical 19 28	lidocaine
+T2	Disease 65 86	myocardial infarction
+T3	Chemical 130 139	lidocaine
+T4	Disease 174 195	myocardial infarction
+T5	Disease 279 300	university-affiliated
+T6	Chemical 453 462	lidocaine
+T7	Chemical 529 538	lidocaine
+T8	Disease 626 649	ventricular tachycardia
+T9	Disease 654 678	ventricular fibrillation
+T10	Disease 695 703	seizures
+T11	Chemical 728 737	lidocaine
+T12	Chemical 822 831	lidocaine
+T13	Chemical 873 882	lidocaine
+T14	Disease 999 1007	toxicity

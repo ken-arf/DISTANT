@@ -1,0 +1,28 @@
+T1	Chemical 44 68	calcium channel blockers
+T2	Chemical 139 146	calcium
+T3	Disease 185 192	disease
+T4	Chemical 233 240	calcium
+T5	Disease 310 318	diseases
+T6	Chemical 455 479	calcium channel blockers
+T7	Chemical 530 539	verapamil
+T8	Chemical 544 553	diltiazem
+T9	Chemical 662 686	calcium channel blockers
+T10	Chemical 720 731	vasodilator
+T11	Chemical 893 903	nifedipine
+T12	Disease 924 936	hypertension
+T13	Disease 950 960	depression
+T14	Chemical 1018 1042	calcium channel blockers
+T15	Chemical 1206 1217	nisoldipine
+T16	Disease 1323 1335	hypertension
+T17	Disease 1341 1349	coronary
+T18	Chemical 1377 1388	nisoldipine
+T19	Disease 1548 1571	subarachnoid hemorrhage
+T20	Disease 1573 1590	migraine headache
+T21	Disease 1592 1600	dementia
+T22	Disease 1606 1612	stroke
+T23	Chemical 1646 1670	calcium channel blockers
+T24	Disease 1704 1712	headache
+T25	Disease 1731 1743	palpitations
+T26	Disease 1745 1750	edema
+T27	Disease 1752 1758	nausea
+T28	Disease 1774 1783	dizziness

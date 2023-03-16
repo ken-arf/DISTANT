@@ -1,0 +1,27 @@
+T1	Disease 8 22	cardiotoxicity
+T2	Chemical 26 37	doxorubicin
+T3	Chemical 59 92	N-(2-hydroxypropyl)methacrylamide
+T4	Disease 190 198	toxicity
+T5	Disease 212 226	cardiotoxicity
+T6	Chemical 238 249	doxorubicin
+T7	Chemical 251 254	DOX
+T8	Chemical 306 339	N-(2-hydroxypropyl)methacrylamide
+T9	Chemical 395 398	DOX
+T10	Chemical 575 584	conjugate
+T11	Chemical 725 742	polymer-bound DOX
+T12	Disease 788 799	body weight
+T13	Disease 835 846	body weight
+T14	Chemical 877 894	polymer-bound DOX
+T15	Chemical 976 979	DOX
+T16	Chemical 1052 1055	DOX
+T17	Disease 1118 1124	deaths
+T18	Disease 1136 1150	cardiotoxicity
+T19	Chemical 1207 1210	DOX
+T20	Chemical 1234 1243	copolymer
+T21	Chemical 1248 1256	free DOX
+T22	Disease 1377 1391	cardiotoxicity
+T23	Disease 1393 1403	Sequential
+T24	Chemical 1482 1485	DOX
+T25	Chemical 1523 1531	free DOX
+T26	Chemical 1818 1832	containing DOX
+T27	Chemical 2023 2026	DOX

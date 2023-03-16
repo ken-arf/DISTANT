@@ -1,0 +1,14 @@
+T1	Disease 23 31	overload
+T2	Disease 39 49	arrhythmia
+T3	Chemical 215 221	plants
+T4	Disease 315 329	cardiotoxicity
+T5	Disease 403 422	aconitine poisoning
+T6	Disease 512 521	poisoning
+T7	Disease 565 573	overload
+T8	Disease 654 664	arrhythmia
+T9	Chemical 854 861	lactate
+T10	Disease 1008 1018	myocardial
+T11	Disease 1459 1467	overload
+T12	Disease 1910 1918	overload
+T13	Disease 1930 1940	arrhythmia
+T14	Chemical 1945 1952	finally

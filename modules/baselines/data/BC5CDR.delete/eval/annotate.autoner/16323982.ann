@@ -1,0 +1,13 @@
+T1	Disease 51 58	disease
+T2	Disease 145 160	prostate cancer
+T3	Disease 278 280	TG
+T4	Disease 283 295	lipoproteins
+T5	Disease 410 425	prostate cancer
+T6	Chemical 485 504	cyproterone acetate
+T7	Chemical 506 509	CPA
+T8	Chemical 686 689	CPA
+T9	Chemical 722 725	CPA
+T10	Disease 799 821	coronary heart disease
+T11	Chemical 927 930	CPA
+T12	Chemical 974 985	cholesterol
+T13	Chemical 1081 1089	estrogen

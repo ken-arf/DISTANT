@@ -1,0 +1,20 @@
+T1	Disease 0 8	Delirium
+T2	Chemical 119 129	paroxetine
+T3	Disease 182 190	delirium
+T4	Chemical 247 257	paroxetine
+T5	Disease 356 365	confusion
+T6	Chemical 473 481	warfarin
+T7	Chemical 492 502	folic acid
+T8	Chemical 567 577	paroxetine
+T9	Disease 670 689	atrial fibrillation
+T10	Chemical 882 892	paroxetine
+T11	Chemical 967 977	Paroxetine
+T12	Chemical 1171 1186	sodium channels
+T13	Disease 1197 1205	delirium
+T14	Chemical 1374 1384	paroxetine
+T15	Disease 1454 1462	delirium
+T16	Disease 1559 1567	delirium
+T17	Chemical 1690 1700	paroxetine
+T18	Disease 1775 1783	delirium
+T19	Disease 1793 1801	toxicity
+T20	Chemical 1847 1857	paroxetine

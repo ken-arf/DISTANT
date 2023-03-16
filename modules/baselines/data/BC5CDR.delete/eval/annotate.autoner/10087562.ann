@@ -1,0 +1,11 @@
+T1	Disease 8 42	de pointes ventricular tachycardia
+T2	Disease 111 133	dilated cardiomyopathy
+T3	Disease 138 162	congestive heart failure
+T4	Disease 237 250	heart failure
+T5	Disease 264 286	dilated cardiomyopathy
+T6	Disease 314 337	ventricular arrhythmias
+T7	Disease 380 414	de pointes ventricular tachycardia
+T8	Disease 435 447	intermittent
+T9	Disease 513 547	de pointes ventricular tachycardia
+T10	Chemical 608 621	unpredictable
+T11	Disease 628 639	arrhythmias

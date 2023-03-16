@@ -1,0 +1,16 @@
+T1	Chemical 58 68	amiodarone
+T2	Disease 94 115	myocardial infarction
+T3	Chemical 223 233	amiodarone
+T4	Chemical 263 273	amiodarone
+T5	Disease 391 412	myocardial infarction
+T6	Chemical 487 497	amiodarone
+T7	Disease 688 699	ventricular
+T8	Disease 757 768	ventricular
+T9	Chemical 863 876	isoproterenol
+T10	Chemical 1024 1027	MBP
+T11	Chemical 1202 1212	amiodarone
+T12	Chemical 1235 1245	amiodarone
+T13	Disease 1289 1300	tachycardia
+T14	Disease 1363 1374	tachycardia
+T15	Chemical 1398 1408	amiodarone
+T16	Disease 1628 1639	arrhythmias

@@ -1,0 +1,22 @@
+T1	Chemical 55 66	doxorubicin
+T2	Disease 128 142	cardiotoxicity
+T3	Disease 183 197	cardiotoxicity
+T4	Chemical 203 227	anthracyclin doxorubicin
+T5	Chemical 229 232	DOX
+T6	Chemical 388 391	DOX
+T7	Chemical 393 416	Reactive oxygen species
+T8	Disease 644 658	cardiotoxicity
+T9	Chemical 699 708	chelating
+T10	Chemical 854 857	DOX
+T11	Chemical 1067 1070	DOX
+T12	Chemical 1080 1083	DOX
+T13	Disease 1411 1417	Cancer
+T14	Chemical 1428 1437	62(6):865
+T15	Chemical 1502 1505	DOX
+T16	Disease 1532 1539	cardiac
+T17	Chemical 1705 1708	DOX
+T18	Disease 1780 1794	cardiomyocytes
+T19	Chemical 1816 1819	DOX
+T20	Chemical 1990 1993	DOX
+T21	Chemical 2167 2170	DOX
+T22	Chemical 2312 2315	DOX

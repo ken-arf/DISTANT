@@ -1,0 +1,38 @@
+T1	Chemical 0 7	Aspirin
+T2	Disease 143 165	Coronary heart disease
+T3	Disease 186 193	disease
+T4	Disease 216 221	death
+T5	Chemical 347 354	aspirin
+T6	Disease 397 419	coronary heart disease
+T7	Chemical 469 483	taking aspirin
+T8	Disease 514 536	myocardial infarctions
+T9	Disease 538 545	strokes
+T10	Disease 551 556	death
+T11	Chemical 882 889	aspirin
+T12	Disease 935 957	cardiovascular disease
+T13	Chemical 1018 1025	aspirin
+T14	Disease 1035 1043	coronary
+T15	Disease 1058 1065	strokes
+T16	Disease 1067 1072	death
+T17	Disease 1078 1086	coronary
+T18	Disease 1103 1109	stroke
+T19	Chemical 1168 1175	aspirin
+T20	Disease 1202 1210	bleeding
+T21	Disease 1214 1233	hemorrhagic strokes
+T22	Chemical 1491 1498	aspirin
+T23	Disease 1606 1628	myocardial infarctions
+T24	Disease 1666 1673	strokes
+T25	Chemical 1675 1682	Aspirin
+T26	Chemical 1779 1786	aspirin
+T27	Disease 1839 1847	bleeding
+T28	Disease 1883 1891	bleeding
+T29	Disease 1954 1973	hemorrhagic strokes
+T30	Chemical 1979 1986	aspirin
+T31	Disease 2046 2065	hemorrhagic strokes
+T32	Chemical 2150 2157	aspirin
+T33	Chemical 2216 2223	aspirin
+T34	Chemical 2467 2474	Aspirin
+T35	Disease 2496 2517	myocardial infarction
+T36	Disease 2529 2536	strokes
+T37	Chemical 2547 2554	Aspirin
+T38	Disease 2590 2598	bleeding

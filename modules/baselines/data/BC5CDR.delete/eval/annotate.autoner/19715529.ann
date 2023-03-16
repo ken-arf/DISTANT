@@ -1,0 +1,14 @@
+T1	Disease 36 59	encephalopathy syndrome
+T2	Disease 105 124	leukoencephalopathy
+T3	Disease 162 175	neurotoxicity
+T4	Chemical 261 267	agents
+T5	Disease 521 530	cirrhosis
+T6	Chemical 538 542	whom
+T7	Disease 582 601	leukoencephalopathy
+T8	Disease 626 649	encephalopathy syndrome
+T9	Disease 781 785	coma
+T10	Chemical 933 943	tacrolimus
+T11	Chemical 947 959	cyclosporine
+T12	Chemical 1038 1049	calcineurin
+T13	Disease 1150 1173	encephalopathy syndrome
+T14	Chemical 1247 1258	calcineurin

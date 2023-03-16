@@ -1,0 +1,9 @@
+T1	Disease 320 327	disease
+T2	Disease 445 452	disease
+T3	Disease 474 482	leukemic
+T4	Disease 747 767	tumor lysis syndrome
+T5	Chemical 769 772	TLS
+T6	Disease 1082 1091	autonomic
+T7	Disease 1093 1114	peripheral neuropathy
+T8	Disease 1426 1436	neuropathy
+T9	Disease 1748 1761	neurotoxicity

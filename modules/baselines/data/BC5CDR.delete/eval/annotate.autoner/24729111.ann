@@ -1,0 +1,12 @@
+T1	Disease 29 33	coma
+T2	Disease 70 81	bradycardia
+T3	Disease 83 94	hypothermia
+T4	Disease 99 118	respiratory failure
+T5	Chemical 147 157	amiodarone
+T6	Disease 170 189	atrial fibrillation
+T7	Chemical 274 283	thyroxine
+T8	Chemical 394 402	steroids
+T9	Chemical 496 509	levothyroxine
+T10	Chemical 526 527	h
+T11	Chemical 771 784	levothyroxine
+T12	Disease 1010 1015	death

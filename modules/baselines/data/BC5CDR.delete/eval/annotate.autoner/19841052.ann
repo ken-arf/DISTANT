@@ -1,0 +1,14 @@
+T1	Chemical 0 7	Smoking
+T2	Chemical 17 24	cocaine
+T3	Disease 50 59	infection
+T4	Chemical 154 175	smoking crack cocaine
+T5	Disease 204 213	infection
+T6	Chemical 249 256	cocaine
+T7	Disease 345 354	infection
+T8	Chemical 731 738	cocaine
+T9	Chemical 1151 1158	smoking
+T10	Chemical 1168 1175	cocaine
+T11	Chemical 1370 1377	cocaine
+T12	Chemical 1568 1575	Smoking
+T13	Chemical 1585 1592	cocaine
+T14	Chemical 1822 1829	cocaine

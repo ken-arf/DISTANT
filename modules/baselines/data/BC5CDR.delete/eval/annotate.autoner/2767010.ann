@@ -1,0 +1,24 @@
+T1	Chemical 16 24	ACC-9653
+T2	Chemical 26 35	phenytoin
+T3	Chemical 142 151	phenytoin
+T4	Chemical 264 272	ACC-9653
+T5	Chemical 277 293	phenytoin sodium
+T6	Disease 342 350	seizures
+T7	Chemical 511 527	phenytoin sodium
+T8	Chemical 529 537	ACC-9653
+T9	Chemical 542 558	phenytoin sodium
+T10	Chemical 685 693	ACC-9653
+T11	Chemical 697 713	phenytoin sodium
+T12	Disease 739 749	arrhythmia
+T13	Chemical 828 844	phenytoin sodium
+T14	Disease 919 930	arrhythmias
+T15	Chemical 995 1003	ACC-9653
+T16	Chemical 1107 1116	phenytoin
+T17	Chemical 1140 1148	ACC-9653
+T18	Chemical 1153 1169	phenytoin sodium
+T19	Chemical 1347 1363	phenytoin sodium
+T20	Disease 1378 1386	toxicity
+T21	Chemical 1398 1406	ACC-9653
+T22	Chemical 1411 1427	phenytoin sodium
+T23	Chemical 1666 1674	ACC-9653
+T24	Chemical 1698 1714	phenytoin sodium

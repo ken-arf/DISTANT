@@ -1,0 +1,14 @@
+T1	Chemical 26 36	ifosfamide
+T2	Chemical 38 43	mesna
+T3	Chemical 81 87	rabbit
+T4	Chemical 139 149	Ifosfamide
+T5	Chemical 162 181	alkylating nitrogen
+T6	Disease 296 316	hemorrhagic cystitis
+T7	Chemical 396 402	sodium
+T8	Chemical 430 435	Mesna
+T9	Chemical 486 491	Mesna
+T10	Chemical 525 531	rabbit
+T11	Chemical 715 720	Mesna
+T12	Chemical 915 920	Mesna
+T13	Chemical 1058 1063	Mesna
+T14	Disease 1092 1104	genotoxicity

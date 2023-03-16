@@ -1,0 +1,22 @@
+T1	Chemical 0 16	Neuropsychiatric
+T2	Chemical 34 38	MPTP
+T3	Disease 57 76	Parkinson's disease
+T4	Disease 185 204	Parkinson's disease
+T5	Disease 206 208	PD
+T6	Chemical 275 283	levodopa
+T7	Chemical 316 324	dopamine
+T8	Disease 332 339	disease
+T9	Disease 443 445	PD
+T10	Disease 780 792	parkinsonism
+T11	Chemical 794 802	Levodopa
+T12	Disease 911 923	parkinsonian
+T13	Disease 936 946	dyskinesia
+T14	Chemical 1035 1043	levodopa
+T15	Chemical 1131 1136	rater
+T16	Chemical 1366 1367	a
+T17	Disease 1429 1439	dyskinesia
+T18	Chemical 1494 1502	levodopa
+T19	Chemical 1599 1607	levodopa
+T20	Disease 1748 1750	PD
+T21	Chemical 1790 1798	levodopa
+T22	Disease 1807 1814	disease

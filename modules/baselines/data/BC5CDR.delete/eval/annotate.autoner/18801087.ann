@@ -1,0 +1,14 @@
+T1	Disease 102 115	heart disease
+T2	Chemical 153 163	Amiodarone
+T3	Disease 195 223	life-threatening tachycardia
+T4	Disease 320 333	heart disease
+T5	Disease 379 381	cm
+T6	Disease 399 410	proteinuria
+T7	Chemical 445 455	amiodarone
+T8	Chemical 477 481	lung
+T9	Disease 519 525	cancer
+T10	Chemical 749 755	bodies
+T11	Chemical 843 851	unevenly
+T12	Chemical 975 979	lung
+T13	Disease 1156 1175	Autoimmune diseases
+T14	Chemical 1569 1579	amiodarone

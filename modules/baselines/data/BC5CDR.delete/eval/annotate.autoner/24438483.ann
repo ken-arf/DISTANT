@@ -1,0 +1,22 @@
+T1	Disease 52 62	depression
+T2	Chemical 101 109	propofol
+T3	Chemical 200 211	bupivacaine
+T4	Chemical 238 246	propofol
+T5	Disease 281 295	cardiotoxicity
+T6	Chemical 352 360	propofol
+T7	Chemical 364 374	intralipid
+T8	Disease 422 436	cardiotoxicity
+T9	Chemical 476 484	ketamine
+T10	Chemical 504 522	mg/kg/min propofol
+T11	Chemical 526 536	intralipid
+T12	Chemical 548 556	propofol
+T13	Chemical 639 650	bupivacaine
+T14	Disease 928 936	asystole
+T15	Chemical 1109 1120	bupivacaine
+T16	Chemical 1183 1194	bupivacaine
+T17	Chemical 1410 1418	propofol
+T18	Chemical 1448 1456	propofol
+T19	Disease 1523 1534	cardiotoxic
+T20	Chemical 1569 1580	bupivacaine
+T21	Chemical 1634 1645	bupivacaine
+T22	Chemical 1656 1664	propofol

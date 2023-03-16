@@ -1,0 +1,13 @@
+T1	Chemical 40 50	nifedipine
+T2	Disease 103 115	hypertension
+T3	Disease 133 142	psoriasis
+T4	Disease 176 188	hypertension
+T5	Chemical 266 273	calcium
+T6	Chemical 309 319	nifedipine
+T7	Disease 474 486	hypertensive
+T8	Chemical 634 644	nifedipine
+T9	Chemical 804 814	nifedipine
+T10	Chemical 845 858	urea nitrogen
+T11	Chemical 1000 1010	nifedipine
+T12	Disease 1025 1047	hypertensive psoriatic
+T13	Chemical 1088 1099	cyclosporin

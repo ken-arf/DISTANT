@@ -1,0 +1,18 @@
+T1	Disease 14 26	hypertension
+T2	Chemical 38 50	nitric oxide
+T3	Disease 77 83	venous
+T4	Chemical 126 138	nitric oxide
+T5	Disease 147 159	hypertension
+T6	Disease 186 197	dysfunction
+T7	Disease 212 224	hypertension
+T8	Disease 594 606	hypertension
+T9	Chemical 699 707	drinking
+T10	Chemical 952 966	norepinephrine
+T11	Chemical 1154 1168	norepinephrine
+T12	Disease 1346 1358	hypertension
+T13	Chemical 1381 1385	LNNA
+T14	Chemical 1391 1401	superoxide
+T15	Chemical 1640 1653	hexamethonium
+T16	Disease 1698 1710	hypertensive
+T17	Chemical 1874 1884	superoxide
+T18	Disease 2128 2140	hypertension

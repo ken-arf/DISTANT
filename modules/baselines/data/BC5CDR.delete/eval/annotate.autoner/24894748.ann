@@ -1,0 +1,14 @@
+T1	Disease 45 56	bradycardia
+T2	Disease 75 86	bradycardia
+T3	Chemical 98 108	metoprolol
+T4	Chemical 198 208	metoprolol
+T5	Disease 231 254	coronary artery disease
+T6	Chemical 294 305	terbinafine
+T7	Disease 457 466	confusion
+T8	Disease 524 541	sinus bradycardia
+T9	Disease 584 592	reaction
+T10	Disease 673 684	bradycardia
+T11	Chemical 718 728	metoprolol
+T12	Chemical 810 820	metoprolol
+T13	Chemical 965 975	metoprolol
+T14	Disease 1069 1086	sinus bradycardia

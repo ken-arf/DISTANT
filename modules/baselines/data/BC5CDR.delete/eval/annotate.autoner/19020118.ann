@@ -1,0 +1,14 @@
+T1	Chemical 27 42	tranexamic acid
+T2	Chemical 251 255	acid
+T3	Disease 435 456	university-affiliated
+T4	Chemical 602 606	acid
+T5	Disease 806 821	Postoperatively
+T6	Disease 859 867	seizures
+T7	Disease 1095 1114	atrial fibrillation
+T8	Disease 1145 1158	renal failure
+T9	Disease 1289 1304	coronary artery
+T10	Disease 1352 1374	myocardial infarctions
+T11	Disease 1379 1396	renal dysfunction
+T12	Disease 1769 1784	coronary artery
+T13	Disease 1792 1797	graft
+T14	Chemical 1859 1863	acid

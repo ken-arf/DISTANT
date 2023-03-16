@@ -1,0 +1,16 @@
+T1	Chemical 6 19	carbamazepine
+T2	Disease 52 68	hypersensitivity
+T3	Disease 70 81	myocarditis
+T4	Disease 172 188	hypersensitivity
+T5	Chemical 253 266	carbamazepine
+T6	Disease 293 305	haemopoietic
+T7	Chemical 418 431	carbamazepine
+T8	Disease 461 477	hypersensitivity
+T9	Disease 479 490	myocarditis
+T10	Disease 512 540	hypersensitivity myocarditis
+T11	Chemical 572 585	carbamazepine
+T12	Disease 593 621	hypersensitivity myocarditis
+T13	Disease 814 819	death
+T14	Disease 843 848	shock
+T15	Chemical 908 921	carbamazepine
+T16	Disease 930 941	myocarditis

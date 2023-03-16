@@ -1,9 +1,0 @@
-T1	Disease 13 27	ovarian cancer
-T2	Chemical 64 74	adriamycin
-T3	Chemical 76 92	cyclophosphamide
-T4	Chemical 97 115	hexamethylmelamine
-T5	Disease 162 176	ovarian cancer
-T6	Chemical 242 252	adriamycin
-T7	Chemical 264 280	cyclophosphamide
-T8	Chemical 307 325	hexamethylmelamine
-T12	Disease 1032 1046	nephrotoxicity

@@ -1,0 +1,13 @@
+T1	Disease 113 129	thrombocytopenia
+T2	Disease 234 244	thrombosis
+T3	Disease 282 285	HIT
+T4	Disease 323 326	HIT
+T5	Disease 351 359	coronary
+T6	Disease 475 478	HIT
+T7	Chemical 503 513	argatroban
+T8	Disease 522 525	HIT
+T9	Disease 868 881	heart failure
+T10	Disease 913 924	dysfunction
+T11	Disease 1590 1604	Major bleeding
+T12	Disease 1897 1900	HIT
+T13	Disease 2000 2003	HIT

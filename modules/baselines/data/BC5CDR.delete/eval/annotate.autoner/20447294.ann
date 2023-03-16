@@ -1,0 +1,21 @@
+T1	Chemical 27 35	morphine
+T2	Chemical 48 54	sodium
+T3	Disease 115 131	neuropathic pain
+T4	Chemical 207 213	sodium
+T5	Chemical 295 303	morphine
+T6	Disease 338 354	neuropathic pain
+T7	Chemical 410 418	morphine
+T8	Disease 585 589	pain
+T9	Disease 618 634	paw inflammation
+T10	Disease 668 687	diabetic neuropathy
+T11	Chemical 734 742	morphine
+T12	Chemical 798 806	morphine
+T13	Disease 879 891	hyperalgesia
+T14	Disease 1009 1019	neuropathy
+T15	Chemical 1042 1050	morphine
+T16	Chemical 1167 1175	morphine
+T17	Chemical 1207 1214	CNSB002
+T18	Disease 1330 1340	neuropathy
+T19	Chemical 1393 1401	morphine
+T20	Disease 1513 1525	hyperalgesia
+T21	Chemical 1762 1770	morphine

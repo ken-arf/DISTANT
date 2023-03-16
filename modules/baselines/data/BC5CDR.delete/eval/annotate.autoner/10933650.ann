@@ -1,0 +1,15 @@
+T1	Disease 15 29	nephrotoxicity
+T2	Chemical 81 102	amphotericin B.NS-718
+T3	Chemical 137 149	amphotericin
+T4	Chemical 185 190	fungi
+T5	Disease 203 211	toxicity
+T6	Disease 229 237	toxicity
+T7	Chemical 272 306	amphotericin B-sodium deoxycholate
+T8	Chemical 454 466	amphotericin
+T9	Chemical 680 684	urea
+T10	Chemical 689 699	creatinine
+T11	Disease 892 900	necrosis
+T12	Chemical 961 973	Amphotericin
+T13	Chemical 1137 1149	amphotericin
+T14	Disease 1200 1214	nephrotoxicity
+T15	Chemical 1218 1230	amphotericin

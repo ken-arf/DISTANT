@@ -1,0 +1,20 @@
+T1	Chemical 28 39	bupivacaine
+T2	Chemical 44 53	lidocaine
+T3	Chemical 83 102	cyclooxygenase gene
+T4	Disease 118 122	pain
+T5	Disease 137 141	pain
+T6	Disease 277 289	inflammation
+T7	Chemical 356 367	bupivacaine
+T8	Chemical 416 430	cyclooxygenase
+T9	Disease 482 486	pain
+T10	Chemical 600 609	lidocaine
+T11	Chemical 618 629	bupivacaine
+T12	Chemical 795 796	h
+T13	Disease 1002 1006	pain
+T14	Disease 1180 1184	pain
+T15	Chemical 1191 1192	h
+T16	Chemical 1228 1229	h
+T17	Chemical 1305 1316	bupivacaine
+T18	Chemical 1369 1370	h
+T19	Chemical 1624 1635	bupivacaine
+T20	Disease 1742 1746	pain

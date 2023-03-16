@@ -74,7 +74,9 @@ class EntityExtraction:
             params = utils._ordered_load(stream)
             self.params = params
 
+        print("start: load_embedding")
         self.load_embedding()
+        print("start: load_model")
         self.load_model()
 
     def load_embedding(self):                                                                                                                     
@@ -232,7 +234,6 @@ def output_annotation_file(doc_file, output_dir, extracted_entities):
                 end_char = entity.end_char
                 start_char += offset
                 end_char += offset
-
 
                 # To prevent an error by brat
                 # The last character is "\n", which should not be included in the span definition.

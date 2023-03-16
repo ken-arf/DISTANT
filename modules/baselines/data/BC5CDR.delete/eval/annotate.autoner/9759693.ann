@@ -1,0 +1,10 @@
+T1	Chemical 21 32	sumatriptan
+T2	Chemical 37 48	Sumatriptan
+T3	Chemical 192 204	intracranial
+T4	Disease 358 366	coronary
+T5	Disease 410 428	coronary vasospasm
+T6	Disease 430 449	myocardial ischemia
+T7	Disease 455 476	myocardial infarction
+T8	Chemical 493 504	sumatriptan
+T9	Disease 595 603	migraine
+T10	Chemical 617 628	sumatriptan

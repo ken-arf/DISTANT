@@ -1,0 +1,12 @@
+T1	Disease 55 77	interstitial nephritis
+T2	Disease 153 162	nephritis
+T3	Disease 195 214	acute renal failure
+T4	Disease 572 591	acute renal failure
+T5	Chemical 642 649	aspirin
+T6	Chemical 677 686	ibuprofen
+T7	Disease 691 696	fever
+T8	Chemical 826 845	blood urea nitrogen
+T9	Chemical 883 893	creatinine
+T10	Chemical 918 927	potassium
+T11	Chemical 1229 1237	steroids
+T12	Disease 1292 1303	proteinuria

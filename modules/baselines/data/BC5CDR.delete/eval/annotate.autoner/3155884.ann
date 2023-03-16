@@ -1,0 +1,15 @@
+T1	Disease 111 119	diabetic
+T2	Chemical 362 365	ISO
+T3	Chemical 455 458	ISO
+T4	Chemical 493 496	ISO
+T5	Disease 505 513	fibrosis
+T6	Chemical 667 674	glucose
+T7	Chemical 735 749	catecholamines
+T8	Disease 779 787	diabetic
+T9	Chemical 798 812	norepinephrine
+T10	Chemical 855 866	epinephrine
+T11	Chemical 1044 1057	catecholamine
+T12	Chemical 1180 1183	ISO
+T13	Chemical 1252 1265	catecholamine
+T14	Disease 1281 1289	diabetic
+T15	Disease 1477 1485	diabetic

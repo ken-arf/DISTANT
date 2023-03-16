@@ -1,0 +1,17 @@
+T1	Chemical 11 19	troponin
+T2	Disease 58 68	chest pain
+T3	Disease 199 220	myocardial infarction
+T4	Disease 272 282	chest pain
+T5	Chemical 284 292	Troponin
+T6	Chemical 397 405	troponin
+T7	Disease 442 452	chest pain
+T8	Chemical 558 565	cocaine
+T9	Chemical 652 667	creatine kinase
+T10	Chemical 693 701	troponin
+T11	Disease 831 844	cardiac death
+T12	Disease 862 878	coronary disease
+T13	Disease 1162 1169	disease
+T14	Disease 1368 1373	death
+T15	Chemical 1616 1624	Troponin
+T16	Disease 1710 1718	necrosis
+T17	Disease 1755 1765	chest pain

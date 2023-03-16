@@ -1,0 +1,8 @@
+T1	Disease 0 15	Pulmonary edema
+T2	Disease 20 25	shock
+T3	Disease 300 305	fever
+T4	Disease 307 315	diarrhea
+T5	Disease 317 322	shock
+T6	Disease 324 339	pulmonary edema
+T7	Disease 382 393	weight gain
+T8	Disease 825 837	septic shock

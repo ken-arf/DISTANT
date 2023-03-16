@@ -1,0 +1,24 @@
+T1	Disease 29 45	thrombocytopenia
+T2	Disease 102 113	liver graft
+T3	Disease 170 186	Thrombocytopenia
+T4	Disease 273 285	hypertension
+T5	Disease 379 395	thrombocytopenia
+T6	Disease 405 408	HIT
+T7	Disease 432 448	thrombocytopenia
+T8	Disease 631 647	thrombocytopenia
+T9	Disease 717 720	HIT
+T10	Chemical 726 728	II
+T11	Disease 936 949	liver disease
+T12	Disease 1028 1040	signs of HIT
+T13	Disease 1116 1132	thrombocytopenia
+T14	Disease 1204 1217	Liver Disease
+T15	Disease 1228 1243	liver cirrhosis
+T16	Disease 1348 1351	HIT
+T17	Disease 1410 1413	HIT
+T18	Chemical 1419 1421	II
+T19	Disease 1453 1456	HIT
+T20	Disease 1484 1499	hepatic failure
+T21	Disease 1553 1556	HIT
+T22	Chemical 1589 1596	heparin
+T23	Chemical 1623 1635	prophylactic
+T24	Chemical 1698 1705	heparin

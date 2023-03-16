@@ -1,0 +1,14 @@
+T1	Chemical 36 45	acetonide
+T2	Chemical 502 511	acetonide
+T3	Disease 771 789	retinal vasculitis
+T4	Chemical 848 857	automated
+T5	Disease 1003 1011	cataract
+T6	Disease 1093 1105	inflammation
+T7	Disease 1407 1414	retinal
+T8	Disease 1464 1477	macular edema
+T9	Chemical 1586 1592	agents
+T10	Disease 1773 1781	cataract
+T11	Chemical 1847 1856	acetonide
+T12	Disease 1892 1904	inflammation
+T13	Disease 2028 2036	cataract
+T14	Disease 2048 2060	hypertension

@@ -1,0 +1,17 @@
+T1	Disease 63 73	infections
+T2	Disease 77 83	cancer
+T3	Disease 110 120	infections
+T4	Disease 124 130	cancer
+T5	Disease 165 176	neutropenia
+T6	Disease 236 247	neutropenia
+T7	Disease 346 357	neutropenia
+T8	Chemical 359 369	tobramycin
+T9	Chemical 548 550	gm
+T10	Disease 611 617	cancer
+T11	Disease 854 864	infections
+T12	Disease 1046 1056	infections
+T13	Disease 1179 1190	neutropenia
+T14	Disease 1201 1208	failure
+T15	Chemical 1394 1404	creatinine
+T16	Chemical 1536 1546	tobramycin
+T17	Disease 1640 1648	toxicity

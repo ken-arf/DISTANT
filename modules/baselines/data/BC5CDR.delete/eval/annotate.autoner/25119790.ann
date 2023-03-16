@@ -1,0 +1,18 @@
+T1	Chemical 0 8	Curcumin
+T2	Disease 34 48	nephrotoxicity
+T3	Chemical 119 125	oxygen
+T4	Chemical 235 243	curcumin
+T5	Disease 289 295	injury
+T6	Chemical 307 314	maleate
+T7	Disease 338 349	proteinuria
+T8	Disease 454 466	renal injury
+T9	Chemical 570 576	sodium
+T10	Chemical 611 620	lipocalin
+T11	Chemical 668 680	upregulation
+T12	Disease 781 789	necrosis
+T13	Chemical 1117 1140	reactive oxygen species
+T14	Chemical 1226 1232	oxygen
+T15	Chemical 1482 1490	curcumin
+T16	Chemical 1513 1521	curcumin
+T17	Disease 1567 1578	nephropathy
+T18	Chemical 1715 1721	oxygen

@@ -1,0 +1,22 @@
+T1	Disease 23 31	toxicity
+T2	Chemical 64 79	levobupivacaine
+T3	Disease 189 197	toxicity
+T4	Chemical 346 357	bupivacaine
+T5	Disease 388 395	cardiac
+T6	Chemical 414 425	bupivacaine
+T7	Chemical 450 455	grand
+T8	Disease 460 468	seizures
+T9	Chemical 808 813	grand
+T10	Disease 818 826	seizures
+T11	Chemical 903 914	epinephrine
+T12	Disease 935 943	seizures
+T13	Chemical 1008 1023	succinylcholine
+T14	Disease 1088 1096	toxicity
+T15	Disease 1226 1231	signs
+T16	Chemical 1306 1317	epinephrine
+T17	Disease 1374 1390	cardiac toxicity
+T18	Chemical 1412 1423	bupivacaine
+T19	Disease 1505 1516	convulsions
+T20	Disease 1587 1595	toxicity
+T21	Disease 1612 1626	manifestations
+T22	Disease 1638 1646	toxicity

@@ -1,0 +1,16 @@
+T1	Chemical 45 54	etoposide
+T2	Chemical 84 93	Etoposide
+T3	Chemical 95 100	VP-16
+T4	Disease 151 157	tumors
+T5	Disease 174 186	malignancies
+T6	Disease 336 343	cancers
+T7	Chemical 566 575	etoposide
+T8	Disease 606 620	manifestations
+T9	Disease 635 644	confusion
+T10	Disease 659 669	somnolence
+T11	Disease 725 732	seizure
+T12	Chemical 822 835	dexamethasone
+T13	Disease 930 935	tumor
+T14	Disease 945 960	peritumor edema
+T15	Disease 1058 1066	toxicity
+T16	Chemical 1080 1089	etoposide

@@ -1,0 +1,22 @@
+T1	Disease 51 58	seizure
+T2	Disease 189 196	seizure
+T3	Chemical 233 244	pilocarpine
+T4	Chemical 246 249	400
+T5	Disease 282 289	seizure
+T6	Chemical 291 302	Scopolamine
+T7	Chemical 318 331	pentobarbital
+T8	Disease 398 405	seizure
+T9	Chemical 536 547	Scopolamine
+T10	Chemical 552 565	pentobarbital
+T11	Disease 613 620	seizure
+T12	Disease 668 675	seizure
+T13	Chemical 687 698	pilocarpine
+T14	Chemical 775 786	Pilocarpine
+T15	Disease 805 810	death
+T16	Chemical 862 875	Pentobarbital
+T17	Chemical 877 888	scopolamine
+T18	Disease 914 926	brain damage
+T19	Chemical 930 941	pilocarpine
+T20	Disease 1147 1165	status epilepticus
+T21	Chemical 1177 1188	pilocarpine
+T22	Chemical 1347 1351	NMDA

@@ -1,0 +1,17 @@
+T1	Chemical 0 6	p75NTR
+T2	Disease 61 67	spinal
+T3	Chemical 123 142	nerve growth factor
+T4	Chemical 144 147	NGF
+T5	Chemical 327 335	tyrosine
+T6	Disease 405 417	inflammation
+T7	Chemical 506 514	bind NGF
+T8	Disease 561 573	inflammation
+T9	Chemical 585 601	cyclophosphamide
+T10	Disease 621 629	cystitis
+T11	Disease 906 914	cystitis
+T12	Disease 1123 1131	cystitis
+T13	Chemical 1172 1180	Fastblue
+T14	Disease 1348 1356	cystitis
+T15	Chemical 1609 1614	glial
+T16	Chemical 1623 1639	glial fibrillary
+T17	Disease 1788 1800	inflammation

@@ -1,0 +1,30 @@
+T1	Chemical 0 16	Population-based
+T2	Disease 34 56	venous thromboembolism
+T3	Chemical 86 100	contraceptives
+T4	Disease 189 211	venous thromboembolism
+T5	Disease 213 216	VTE
+T6	Chemical 252 266	contraceptives
+T7	Chemical 305 327	progestagens gestodene
+T8	Disease 571 574	VTE
+T9	Chemical 579 581	OC
+T10	Disease 925 935	thrombosis
+T11	Disease 937 954	venous thrombosis
+T12	Disease 1111 1114	VTE
+T13	Disease 1178 1181	VTE
+T14	Chemical 1203 1205	OC
+T15	Disease 1284 1287	VTE
+T16	Chemical 1330 1332	OC
+T17	Chemical 1612 1614	OC
+T18	Disease 1691 1698	disease
+T19	Disease 1750 1753	VTE
+T20	Disease 1822 1825	VTE
+T21	Disease 1893 1903	thrombosis
+T22	Disease 1921 1931	thrombosis
+T23	Disease 1945 1962	venous thrombosis
+T24	Disease 2006 2009	VTE
+T25	Chemical 2066 2068	OC
+T26	Disease 2206 2209	VTE
+T27	Disease 2370 2373	VTE
+T28	Disease 2493 2496	VTE
+T29	Disease 2700 2703	VTE
+T30	Chemical 2823 2835	progestagens

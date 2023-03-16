@@ -1,0 +1,25 @@
+T1	Chemical 34 40	sodium
+T2	Chemical 55 64	diltiazem
+T3	Disease 99 110	nephropathy
+T4	Disease 156 167	nephropathy
+T5	Chemical 326 332	sodium
+T6	Chemical 347 353	sodium
+T7	Chemical 388 394	sodium
+T8	Chemical 418 427	diltiazem
+T9	Chemical 431 438	calcium
+T10	Chemical 640 650	creatinine
+T11	Chemical 811 817	sodium
+T12	Chemical 881 882	5
+T13	Chemical 897 915	sodium bicarbonate
+T14	Chemical 965 971	sodium
+T15	Chemical 1074 1083	diltiazem
+T16	Chemical 1174 1193	blood urea nitrogen
+T17	Chemical 1204 1214	creatinine
+T18	Chemical 1315 1323	material
+T19	Chemical 1344 1354	creatinine
+T20	Disease 1482 1501	acute renal failure
+T21	Chemical 1541 1549	material
+T22	Chemical 1823 1847	isotonic sodium chloride
+T23	Chemical 1849 1855	sodium
+T24	Chemical 1881 1887	sodium
+T25	Chemical 1902 1911	diltiazem

@@ -1,0 +1,19 @@
+T1	Disease 10 21	hypothermia
+T2	Disease 50 64	cerebral edema
+T3	Disease 82 94	hypertension
+T4	Disease 111 136	fulminant hepatic failure
+T5	Disease 209 223	cerebral edema
+T6	Disease 237 262	fulminant hepatic failure
+T7	Disease 311 322	hypothermia
+T8	Chemical 464 477	acetaminophen
+T9	Disease 482 506	resultant cerebral edema
+T10	Disease 572 584	unresponsive
+T11	Disease 599 607	toxicity
+T12	Chemical 613 626	acetaminophen
+T13	Chemical 730 731	h
+T14	Chemical 790 803	acetaminophen
+T15	Disease 808 822	cerebral edema
+T16	Disease 916 925	paralysis
+T17	Disease 1123 1137	cerebral edema
+T18	Disease 1285 1299	cerebral edema
+T19	Disease 1485 1496	hypothermia

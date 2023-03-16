@@ -1,0 +1,22 @@
+T1	Disease 146 152	mitral
+T2	Disease 202 224	dilated cardiomyopathy
+T3	Disease 240 260	mitral regurgitation
+T4	Disease 262 264	MR
+T5	Disease 299 301	MR
+T6	Disease 332 339	dilated
+T7	Disease 345 356	ventricular
+T8	Disease 468 470	MR
+T9	Disease 575 588	heart failure
+T10	Chemical 640 644	band
+T11	Disease 662 668	mitral
+T12	Disease 867 873	mitral
+T13	Disease 950 963	heart failure
+T14	Chemical 979 990	propranolol
+T15	Disease 1067 1069	MR
+T16	Disease 1212 1225	heart failure
+T17	Disease 1272 1290	annular dimensions
+T18	Disease 1704 1706	ms
+T19	Chemical 1735 1745	shortening
+T20	Disease 2093 2106	heart failure
+T21	Disease 2131 2133	MR
+T22	Disease 2195 2216	chronic heart failure
