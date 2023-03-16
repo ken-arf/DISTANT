@@ -1,9 +1,0 @@
-T1	Disease 0 13	Heart failure
-T2	Disease 163 175	fibrillation
-T3	Disease 261 274	heart failure
-T4	Disease 518 529	arrhythmias
-T5	Chemical 925 930	drugs
-T6	Disease 1026 1047	myocardial infarction
-T7	Chemical 1085 1088	ACE
-T8	Disease 1202 1209	disease
-T9	Chemical 1440 1450	third-line

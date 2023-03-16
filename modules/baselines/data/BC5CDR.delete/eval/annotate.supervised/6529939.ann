@@ -1,9 +1,0 @@
-T1	Disease 42 52	sinoatrial
-T2	Disease 42 58	sinoatrial block
-T3	Chemical 70 81	propranolol
-T4	Disease 204 210	angina
-T5	Chemical 222 233	propranolol
-T6	Chemical 1394 1402	Atropine
-T7	Disease 1505 1513	abnormal
-T8	Chemical 1556 1567	propranolol
-T9	Chemical 1660 1671	propranolol
