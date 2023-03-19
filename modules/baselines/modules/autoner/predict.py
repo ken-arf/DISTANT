@@ -31,7 +31,8 @@ from tqdm.auto import tqdm
 
 from utils import utils
 
-from model import AutoNER 
+#from model import AutoNER 
+from model_word import AutoNER
 
 from make_dataset import tokenize
 from make_dataset import sentence_split

@@ -9,6 +9,7 @@ corpus_dir: data/BC5CDR/conll.autoner
 
 #word2vec: modules/autoner/PubMed-w2v.bin
 #word2vec: modules/autoner/BioWordVec_PubMed_MIMICIII_d200.vec.bin
+load_embedding: False
 glove_embedding_path: data/glove.6B/glove.6B.200d.txt
 
 # model save dir
@@ -35,7 +36,7 @@ class_num: 3
 gpu: 0 
 
 # training
-train_epochs: 50
+train_epochs: 100 
 train_batch_size: 8 
 valid_batch_size: 8 
 

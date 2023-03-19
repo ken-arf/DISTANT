@@ -72,7 +72,7 @@ class AutoNER(nn.Module):
         # lstm
         self.char_lstm_input_size = self.char_embed_size
         self.char_lstm_hidden_size = 50 
-        self.char_lstm_num_layers = 4
+        self.char_lstm_num_layers = 2
         self.char_bilstm = nn.LSTM(self.char_lstm_input_size, 
                                     self.char_lstm_hidden_size,
                                     self.char_lstm_num_layers,
@@ -295,7 +295,6 @@ class AutoNER(nn.Module):
                 _, (pred_y, true_y) = self._comp_entity_loss(features, span, ent_labels)
                 pred_ys += pred_y
                 true_ys += true_y
-
 
         return (pred_span[None,:], true_span[None,:]), (torch.LongTensor([pred_ys]), torch.LongTensor([true_ys]))
 

@@ -22,7 +22,8 @@ import evaluate
 
 from dataloader import Dataloader
 from measure import performance
-from model import AutoNER
+#from model_char_word import AutoNER
+from model_word import AutoNER
 
 import pdb
 
