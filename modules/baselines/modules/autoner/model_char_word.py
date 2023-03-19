@@ -176,12 +176,10 @@ class AutoNER(nn.Module):
         if ent_labels == None:
             return predict.tolist()
 
-        if 2 in ent_labels and len(ent_labels) == 1:
-            pass
-        else:
-            # if others(2) is included in true labels with other positve labels (chemicals:0, disease:1)
-            # others(2) should be remove to prevent injecting noisy single.
-            ent_labels.remove(2)
+        #if 2 in ent_labels and len(ent_labels) == 1:
+        #    pass
+        #else:
+        #    ent_labels.remove(2)
 
         true_y = torch.zeros(3)
         true_y.index_fill_(0, torch.tensor(ent_labels), 1)
@@ -304,14 +302,15 @@ class AutoNER(nn.Module):
 
             for span in spans:
                 ent_labels = []
-                for k in range(3):
+                for k in range(2):
                     bio = bio_label[k][i]
                     match = torch.all(torch.tensor([k]*(span[1]-span[0])).to(self.device)==bio[span[0]:span[1]])
                     if match.item():
                         ent_labels.append(k)
 
                 if len(ent_labels) == 0:
-                    continue
+                    ent_labels.append(2)
+
                 _, (pred_y, true_y) = self._comp_entity_loss(features, span, ent_labels)
                 pred_ys += pred_y
                 true_ys += true_y
