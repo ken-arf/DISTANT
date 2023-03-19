@@ -161,7 +161,6 @@ class AutoNER(nn.Module):
             runs.append([spans[i], spans[i+1]])
 
         return runs
-
         
     def _comp_entity_loss(self, features, span, ent_labels):
 
@@ -218,9 +217,9 @@ class AutoNER(nn.Module):
 
         
         # take only break tag
-        mask = span_label != 0
-        span_loss = self.span_loss(span_output[mask], span_label[mask])
-        #span_loss = self.span_loss(torch.transpose(span_output,1,2), span_label)
+        #mask = span_label != 0
+        #span_loss = self.span_loss(span_output[mask], span_label[mask])
+        span_loss = self.span_loss(torch.transpose(span_output,1,2), span_label)
 
         ent_loss = None
         bs, slen = span_label.shape
