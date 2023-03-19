@@ -220,10 +220,9 @@ class AutoNER(nn.Module):
 
         
         # take only break tag
-        mask = span_label!=0
+        mask = span_label != 0
         span_loss = self.span_loss(span_output[mask], span_label[mask])
         #span_loss = self.span_loss(torch.transpose(span_output,1,2), span_label)
-
 
         ent_loss = None
         bs, slen = span_label.shape
@@ -238,14 +237,15 @@ class AutoNER(nn.Module):
 
             for span in spans:
                 ent_labels = []
-                for k in range(3):
+                #for k in range(3):
+                for k in range(2):
                     bio = bio_label[k][i]
                     match = torch.all(torch.tensor([k]*(span[1]-span[0])).to(self.device)==bio[span[0]:span[1]])
                     if match.item():
                         ent_labels.append(k)
 
                 if len(ent_labels) == 0:
-                    continue
+                    ent_labels.append(2)
 
                 if ent_loss == None:
                     loss, _ = self._comp_entity_loss(features, span, ent_labels)
