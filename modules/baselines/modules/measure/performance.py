@@ -15,6 +15,9 @@ def performance_acc(predictions, labels, logger):
     logger.debug(f"event y_true: {y_true}")
     logger.debug(f"event y_pred: {y_pred}")
 
+    if len(y_pred) == 0 and len(y_true) == 0:
+        return 1.0
+
     if type(y_pred[0]) == list and type(y_true[0]) == list:
         acc = accuracy_score(sum(y_true,[]), sum(y_pred,[]))
     else:

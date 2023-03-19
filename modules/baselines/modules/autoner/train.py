@@ -22,8 +22,8 @@ import evaluate
 
 from dataloader import Dataloader
 from measure import performance
-#from model_char_word import AutoNER
-from model_word import AutoNER
+from model_char_word import AutoNER
+#from model_word import AutoNER
 
 import pdb
 
@@ -212,11 +212,6 @@ def train(parameters, name_suffix):
             with torch.no_grad():
                 span_result, entity_result = model.decode(**batch)
 
-            #predictions = accelerator.pad_across_processes(predictions, dim=2, pad_index=-100)
-            #labels = accelerator.pad_across_processes(labels, dim=2, pad_index=-100)
-
-            #predictions = accelerator.gather(predictions)
-            #labels = accelerator.gather(labels)
 
             logger.debug("Span")
             logger.debug("pred")
@@ -230,7 +225,7 @@ def train(parameters, name_suffix):
             logger.debug("true")
             logger.debug(entity_result[1])
 
-            label_map = {0:'O', 1:'I'}
+            label_map = {0:'T', 1:'B'}
             pred_span, true_span = utils.postprocess(span_result[0], span_result[1], label_map)
 
             label_map = {0:'Chemical', 1:'Disease', 2:'Other'}

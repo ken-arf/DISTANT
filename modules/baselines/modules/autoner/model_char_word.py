@@ -16,6 +16,7 @@ from sklearn.metrics import accuracy_score
 
 import torch
 from torch import nn, Tensor
+from torch.autograd import Variable
 import torch.nn.functional as F
 from torch.nn.utils.rnn import pack_padded_sequence
 from torch.nn.utils.rnn import pad_packed_sequence
@@ -139,7 +140,8 @@ class AutoNER(nn.Module):
         result = torch.stack(result, dim=0)
         return result
 
-    def _extract_span(self, spans):
+    # extract_span for span (within-span(1), outside-span(0)) method
+    def _extract_span_old(self, spans):
 
         runs = []
         run_start = spans[0]
@@ -151,6 +153,15 @@ class AutoNER(nn.Module):
         runs.append([run_start, spans[-1]+1])
 
         return runs
+
+    def _extract_span(self, spans):
+
+        runs = []
+        for i in range(len(spans)-1):
+            runs.append([spans[i], spans[i+1]])
+
+        return runs
+
         
     def _comp_entity_loss(self, features, span, ent_labels):
 
@@ -206,8 +217,13 @@ class AutoNER(nn.Module):
         padded_output, length = pad_packed_sequence(packed_output, batch_first=True)
 
         span_output = self.span_linear(padded_output)
-    
-        span_loss = self.span_loss(torch.transpose(span_output,1,2), span_label)
+
+        
+        # take only break tag
+        mask = span_label!=0
+        span_loss = self.span_loss(span_output[mask], span_label[mask])
+        #span_loss = self.span_loss(torch.transpose(span_output,1,2), span_label)
+
 
         ent_loss = None
         bs, slen = span_label.shape
@@ -217,6 +233,7 @@ class AutoNER(nn.Module):
             span_index = torch.where(span_label[i] == 1)
             if torch.numel(span_index[0]) == 0:
                 continue
+
             spans = self._extract_span(span_index[0])
 
             for span in spans:
@@ -237,11 +254,14 @@ class AutoNER(nn.Module):
                     loss, _ = self._comp_entity_loss(features, span, ent_labels)
                     ent_loss += loss
                     
+        if ent_loss == None:
+            ent_loss = Variable(torch.tensor(0,dtype = torch.float)).to(self.device)
+    
         return span_loss, ent_loss 
-
 
     def decode(self, **kargs):
 
+        #pdb.set_trace()
         input_ids = kargs["input_ids"]
         input_char_ids = kargs["input_char_ids"]
         input_char_lengths = kargs["input_char_lengths"]

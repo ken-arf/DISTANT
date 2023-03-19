@@ -56,7 +56,8 @@ class Dataloader:
         self.logger = logger
         self.myseed = self.params["seed"] 
 
-        self.span2int= {'O': 0, 'I': 1}
+        #self.span2int= {'O': 0, 'I': 1}
+        self.span2int= {'B': 1, 'T': 0, 'U': 0}
         self.label2int = {}
 
         for key, v in self.params['ent2int'].items():
