@@ -119,8 +119,11 @@ class EntityExtraction:
         #prediction, prob = self.model.predict(**tokenized_input)
         prediction = self.model.predict(**tokenized_input)
 
+
         # extract location of start_bio 
-        indexes = np.argwhere(prediction[0]==start_bio).squeeze(-1).tolist()
+        #indexes = np.argwhere(prediction[0]==start_bio).squeeze(-1).tolist()
+
+        indexes = np.argwhere((prediction[0]==start_bio).tolist()).squeeze(-1).tolist()
         entity_indexes = []
 
         N = len(prediction[0])

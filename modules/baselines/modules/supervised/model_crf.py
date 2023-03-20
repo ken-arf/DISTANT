@@ -105,7 +105,6 @@ class Model(nn.Module):
 
         return torch.neg(crf_loss) 
 
-
     def decode(self, **kargs):
 
         input_ids = kargs["input_ids"]
