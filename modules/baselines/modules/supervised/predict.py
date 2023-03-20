@@ -30,7 +30,8 @@ from tqdm.auto import tqdm
 
 from utils import utils
 
-from model import Model 
+#from model import Model 
+from model_crf import Model 
 
 from make_dataset import tokenize
 from make_dataset import sentence_split
@@ -115,7 +116,8 @@ class EntityExtraction:
 
         #pdb.set_trace()
         tokenized_input, aux_data = self.tokenize_text(text)
-        prediction, prob = self.model.predict(**tokenized_input)
+        #prediction, prob = self.model.predict(**tokenized_input)
+        prediction = self.model.predict(**tokenized_input)
 
         # extract location of start_bio 
         indexes = np.argwhere(prediction[0]==start_bio).squeeze(-1).tolist()
@@ -140,7 +142,6 @@ class EntityExtraction:
         for span_index in word_indexes:
 
             try:
-
                 # start word index
                 start = span_index[0]
                 # end word index

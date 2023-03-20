@@ -38,8 +38,6 @@ from datasets import Dataset
 from datasets.features.features import Sequence
 from datasets.features.features import ClassLabel
 
-from torchcrf import CRF
-
 import pdb
 
 
@@ -71,8 +69,6 @@ class Model(nn.Module):
           nn.Linear(hidden_size, self.params['class_num'])
         ).to(self.device)
 
-        self.crf = CRF(num_tags=self.params["class_num"], batch_first=True).to(self.device)
-
         # cross entropy loss
         self.loss = nn.CrossEntropyLoss(ignore_index=-100)
 
@@ -90,20 +86,11 @@ class Model(nn.Module):
         last_hidden_output = bert_outputs['last_hidden_state']
         bert_sequence_output = self.dropout(last_hidden_output) #outputs[0]=last hidden state
 
-        crf_input = self.linear(bert_sequence_output)
-        crf_input = crf_input[:,1:-1,:]
-        labels = labels[:,1:-1]
+        # logit
+        logit = self.linear(bert_sequence_output)
+        loss = self.loss(torch.transpose(logit,1,2), labels)
 
-        mask = labels != -100
-        mask = torch.ByteTensor(mask.detach().cpu().clone().numpy())
-        mask = mask.to(self.device)
-
-        neg_mask = labels == -100
-        labels.masked_fill_(neg_mask, 0)
-        labels = labels.type(torch.long)
-        crf_loss = self.crf(emissions=crf_input, tags=labels, mask=mask)
-
-        return torch.neg(crf_loss) 
+        return loss
 
 
     def decode(self, **kargs):
@@ -121,27 +108,17 @@ class Model(nn.Module):
         bert_sequence_output = self.dropout(last_hidden_output) #outputs[0]=last hidden state
 
 
-        crf_input = self.linear(bert_sequence_output)
-        crf_input = crf_input[:,1:-1,:]
+        # logit
+        logit = self.linear(bert_sequence_output)
+        loss = self.loss(torch.transpose(logit,1,2), labels)
 
-        # mask for valid data
-        mask = input_ids[:,1:-1] != 0
-        mask = torch.ByteTensor(mask.detach().cpu().clone().numpy())
-        mask = mask.to(self.device)
+        # probability
+        probs = F.softmax(logit, dim=2)
+    
+        # prediction
+        predicts = torch.argmax(logit, dim=2)
 
-        predictions_tensor = torch.zeros(input_ids.shape, dtype=torch.long)
-        predictions_tensor.fill_(-100)
-
-        predictions = self.crf.decode(emissions=crf_input, mask=mask)
-
-        for batch_idx, prediction in enumerate(predictions):
-            predictions_tensor[batch_idx, 1:1+len(prediction)] = torch.tensor(prediction,dtype=torch.long)
-
-
-        pdb.set_trace()
-
-        return predictions_tensor
-        #return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
+        return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
 
     def predict(self, **kargs):
 
@@ -157,21 +134,14 @@ class Model(nn.Module):
         bert_sequence_output = self.dropout(last_hidden_output) #outputs[0]=last hidden state
 
 
-        crf_input = self.linear(bert_sequence_output)
-        crf_input = crf_input[:,1:-1,:]
+        # logit
+        logit = self.linear(bert_sequence_output)
 
-        # mask for valid data
-        mask = input_ids[:,1:-1] != 0
-        mask = torch.ByteTensor(mask.detach().cpu().clone().numpy())
-        mask = mask.to(self.device)
+        # probability
+        probs = F.softmax(logit, dim=2)
+    
+        # prediction
+        predicts = torch.argmax(logit, dim=2)
 
-        predictions_tensor = torch.zeros(input_ids.shape, dtype=torch.long)
-        predictions_tensor.fill_(-100)
-
-        predictions = self.crf.decode(emissions=crf_input, mask=mask)
-
-        for batch_idx, prediction in enumerate(predictions):
-            predictions_tensor[batch_idx, 1:1+len(prediction)] = torch.tensor(prediction,dtype=torch.long)
-
-        return predictions_tensor
+        return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
 

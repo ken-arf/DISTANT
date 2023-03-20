@@ -21,7 +21,9 @@ import evaluate
 
 from dataloader import Dataloader
 from measure import performance
-from model import Model
+#from model import Model
+from model_crf import Model
+
 
 import pdb
 
@@ -54,7 +56,7 @@ def load_file(file):
 
 def convert_bio(ent2id, label):
 
-    label = label.replace("S_", "B_")
+    label = label.replace("S-", "B-")
     return ent2id[label]
 
 def load_dataset(data_kind, parameters):
@@ -77,7 +79,7 @@ def load_dataset(data_kind, parameters):
         for sn in range(seq_num):
 
             text_data.append(input_data['tokens'][sn])
-            b_bio = [parameters['ent2id'][bio.replace('S_', 'B_')] for bio in input_data['bio'][sn]]
+            b_bio = [parameters['ent2id'][bio.replace('S-', 'B-')] for bio in input_data['bio'][sn]]
             label_data.append(b_bio)
 
     data = {'text': text_data, 'label': label_data}
@@ -102,8 +104,8 @@ def train(parameters, name_suffix):
     ent2id = {}
     ent2id['O'] = 0
     for entity in parameters["entity_names"]:
-        ent2id[f'B_{entity}'] = len(ent2id)
-        ent2id[f'I_{entity}'] = len(ent2id)
+        ent2id[f'B-{entity}'] = len(ent2id)
+        ent2id[f'I-{entity}'] = len(ent2id)
     id2ent = {d:k for k, d in ent2id.items()}
 
     parameters["ent2id"] = ent2id
@@ -180,7 +182,7 @@ def train(parameters, name_suffix):
             steps += 1
 
             ## debug
-            #break
+            break
 
         # Evaluation
         progress_bar_valid = tqdm(range(len(valid_dataloader)))
@@ -188,7 +190,7 @@ def train(parameters, name_suffix):
         model.eval()
         for batch_index, batch in tqdm(enumerate(valid_dataloader)):
             with torch.no_grad():
-                predictions, probs = model.decode(**batch)
+                predictions = model.decode(**batch)
             labels = batch["labels"].detach().cpu().numpy()
 
 
@@ -263,8 +265,8 @@ def test(logger, parameters, test_dataloader, name_suffix):
     ent2id = {}
     ent2id['O'] = 0
     for entity in parameters["entity_names"]:
-        ent2id[f'B_{entity}'] = len(ent2id)
-        ent2id[f'I_{entity}'] = len(ent2id)
+        ent2id[f'B-{entity}'] = len(ent2id)
+        ent2id[f'I-{entity}'] = len(ent2id)
     id2ent = {d:k for k, d in ent2id.items()}
 
     parameters["ent2id"] = ent2id
