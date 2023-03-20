@@ -160,6 +160,10 @@ def train(parameters, name_suffix):
     )
 
 
+    clipping_value = 5 # arbitrary value of your choosing
+    torch.nn.utils.clip_grad_norm(model.parameters(), clipping_value)
+
+
     num_train_epochs = parameters['train_epochs']
     num_update_steps_per_epoch = len(train_dataloader)
     num_training_steps = num_train_epochs * num_update_steps_per_epoch

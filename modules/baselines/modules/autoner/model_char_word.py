@@ -82,7 +82,7 @@ class AutoNER(nn.Module):
 
         self.word_lstm_input_size = self.word_embed_size + self.char_lstm_hidden_size * 4
         self.word_lstm_hidden_size =  100 
-        self.word_lstm_num_layers = 6
+        self.word_lstm_num_layers = 4
         self.word_bilstm = nn.LSTM(self.word_lstm_input_size, 
                                     self.word_lstm_hidden_size,
                                     self.word_lstm_num_layers,
