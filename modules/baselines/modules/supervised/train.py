@@ -182,7 +182,7 @@ def train(parameters, name_suffix):
             steps += 1
 
             ## debug
-            break
+            #break
 
         # Evaluation
         progress_bar_valid = tqdm(range(len(valid_dataloader)))

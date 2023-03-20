@@ -138,8 +138,6 @@ class Model(nn.Module):
             predictions_tensor[batch_idx, 1:1+len(prediction)] = torch.tensor(prediction,dtype=torch.long)
 
 
-        pdb.set_trace()
-
         return predictions_tensor
         #return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
 
