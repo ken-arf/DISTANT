@@ -65,13 +65,14 @@ class Dataloader:
             self.label2int[key.upper()] = v
         self.label2int['O'] = -100
 
-        self.vocab.insert(0, '<pad>')
-        self.vocab.insert(1, '<unk>')
 
         self.load_embedding()
 
 
-    def load_embedding(self):
+    def load_embedding_new(self):
+
+        self.vocab.insert(0, '<pad>')
+        self.vocab.insert(1, '<unk>')
 
         # Load word2vec pre-train model
         word2vec_model = self.params["word2vec"]
@@ -100,7 +101,7 @@ class Dataloader:
         with open(self.params["vocab_path"], 'wb') as fp:
             pickle.dump(self.vocab, fp)
 
-    def load_embedding_old(self):
+    def load_embedding(self):
 
         glove_embedding_path = self.params["glove_embedding_path"]
 
@@ -127,12 +128,13 @@ class Dataloader:
         #insert embeddings for pad and unk tokens at top of embs_npa.
         embs_npa = np.vstack((pad_emb_npa,unk_emb_npa,embs_npa))
 
-        self.embs_npa = embs_npa
+        self.emb_weights = embs_npa
 
         self.idx2word = {i:v for i, v in enumerate(vocab)}
         self.word2idx = {v:i for i, v in enumerate(vocab)}
 
-        return
+        with open(self.params["vocab_path"], 'wb') as fp:
+            pickle.dump(self.vocab, fp)
 
     def load_data(self):
 
