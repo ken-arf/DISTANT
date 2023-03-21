@@ -47,10 +47,11 @@ import pdb
 
 class Dataloader:
 
-    def __init__(self, data, params, logger):
+    def __init__(self, data, vocab, params, logger):
 
 
         self.data = data
+        self.vocab = vocab
 
         self.params = params
         self.logger = logger
@@ -64,14 +65,42 @@ class Dataloader:
             self.label2int[key.upper()] = v
         self.label2int['O'] = -100
 
-        # Load word2vec pre-train model
-        #word2vec_model = self.params["word2vec"]
-        #self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
-        #model = gensim.models.Word2Vec.load('./word2vec_pretrain_v300.model')
+        self.vocab.insert(0, '<pad>')
+        self.vocab.insert(1, '<unk>')
 
         self.load_embedding()
 
+
     def load_embedding(self):
+
+        # Load word2vec pre-train model
+        word2vec_model = self.params["word2vec"]
+        self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
+
+        vocab_size = len(self.vocab)
+        _, emb_dim = self.w2v_model.vectors.shape
+
+        weights_matrix = np.zeros((vocab_size, emb_dim))
+        words_found = 0                                                                                                      
+        for i, word in enumerate(self.vocab):
+            try:
+                weights_matrix[i] = self.w2v_model[word]
+                words_found += 1
+            except KeyError:
+                weights_matrix[i] = np.random.normal(scale=0.6, size=(emb_dim, ))                                            
+
+        print("load_embedding")
+        print("vocab_size", vocab_size)
+        print("words_found", words_found)
+
+        self.emb_weights = weights_matrix
+        self.idx2word = {i:v for i, v in enumerate(self.vocab)}
+        self.word2idx = {v:i for i, v in enumerate(self.vocab)}
+
+        with open(self.params["vocab_path"], 'wb') as fp:
+            pickle.dump(self.vocab, fp)
+
+    def load_embedding_old(self):
 
         glove_embedding_path = self.params["glove_embedding_path"]
 

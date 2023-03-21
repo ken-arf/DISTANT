@@ -50,21 +50,15 @@ class AutoNER(nn.Module):
         else:
             self.device = "cpu"
 
-        # Load word2vec pre-train model
-        #word2vec_model = self.params["word2vec"]
-        #self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
-        #model = gensim.models.Word2Vec.load('./word2vec_pretrain_v300.model')
-
         if params["load_embedding"]:
-            embs_npa = self.dataloader.embs_npa
+            weights = self.dataloader.emb_weights
             self.word_embed_size = 200
-            weights = torch.FloatTensor(embs_npa)
+            weights = torch.FloatTensor(weights)
             self.word_embedding = nn.Embedding.from_pretrained(weights, freeze=False, padding_idx=-100)
         else:
-            embs_npa = self.dataloader.embs_npa
+            self.vocab = self.dataloader.vocab
+            vocab_size = len(self.vocab)
             self.word_embed_size = 200
-            weights = torch.FloatTensor(embs_npa)
-            vocab_size = weights.shape[0]
             self.word_embedding = nn.Embedding(vocab_size, self.word_embed_size, padding_idx=-100)
 
         self.char_embed_size = 20 
