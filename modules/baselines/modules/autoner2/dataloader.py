@@ -134,7 +134,7 @@ class Dataloader:
         self.word2idx = {v:i for i, v in enumerate(vocab)}
 
         with open(self.params["vocab_path"], 'wb') as fp:
-            pickle.dump(self.vocab, fp)
+            pickle.dump(vocab, fp)
 
     def load_data(self):
 
