@@ -50,15 +50,21 @@ class AutoNER(nn.Module):
         else:
             self.device = "cpu"
 
+        # Load word2vec pre-train model
+        #word2vec_model = self.params["word2vec"]
+        #self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
+        #model = gensim.models.Word2Vec.load('./word2vec_pretrain_v300.model')
+
         if params["load_embedding"]:
-            weights = self.dataloader.emb_weights
+            embs_npa = self.dataloader.embs_npa
             self.word_embed_size = 200
-            weights = torch.FloatTensor(weights)
+            weights = torch.FloatTensor(embs_npa)
             self.word_embedding = nn.Embedding.from_pretrained(weights, freeze=False, padding_idx=-100)
         else:
-            self.vocab = self.dataloader.vocab
-            vocab_size = len(self.vocab)
+            embs_npa = self.dataloader.embs_npa
             self.word_embed_size = 200
+            weights = torch.FloatTensor(embs_npa)
+            vocab_size = weights.shape[0]
             self.word_embedding = nn.Embedding(vocab_size, self.word_embed_size, padding_idx=-100)
 
         self.char_embed_size = 20 
@@ -67,7 +73,7 @@ class AutoNER(nn.Module):
         # lstm
         self.char_lstm_input_size = self.char_embed_size
         self.char_lstm_hidden_size = 50 
-        self.char_lstm_num_layers = 2
+        self.char_lstm_num_layers = 4
         self.char_bilstm = nn.LSTM(self.char_lstm_input_size, 
                                     self.char_lstm_hidden_size,
                                     self.char_lstm_num_layers,

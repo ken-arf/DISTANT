@@ -110,13 +110,16 @@ def load_dataset(parameters):
         bio_labels_2 += input_data['bio_2']
         spans += input_data['spans']
 
+
     data = {'text': text_data, 
             'bio_labels_0': bio_labels_0,
             'bio_labels_1': bio_labels_1,
             'bio_labels_2': bio_labels_2,
             'spans': spans}
 
-    return data
+    vocab = list(set([word.lower() for sent in text_data for word in sent]))
+
+    return data, vocab
 
 def train(parameters, name_suffix):
 
@@ -134,9 +137,9 @@ def train(parameters, name_suffix):
     #logger.addHandler(handler2)
 
     # step 0) load dataset
-    data = load_dataset(parameters)
+    data, vocab = load_dataset(parameters)
 
-    dataloader = Dataloader(data, parameters, logger)
+    dataloader = Dataloader(data, vocab, parameters, logger)
     train_dataloader, valid_dataloader = dataloader.load_data()
 
     print("Train data loader size: ", len(train_dataloader))
