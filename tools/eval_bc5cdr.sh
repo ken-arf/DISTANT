@@ -8,8 +8,8 @@ ROOT_DIR=../modules/baselines/data/BC5CDR/eval
 predict_coll_dir=$ROOT_DIR/annotate.latest
 predict_coll_dir=$ROOT_DIR/annotate.supervised
 predict_coll_dir=$ROOT_DIR/annotate
-predict_coll_dir=$ROOT_DIR/annotate.match_dict
 predict_coll_dir=$ROOT_DIR/annotate.autoner
+predict_coll_dir=$ROOT_DIR/annotate.match_dict
 
 true_coll_dir=$ROOT_DIR/annotate.gold
 
