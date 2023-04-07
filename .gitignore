@@ -10,6 +10,7 @@ nltk_data
 test
 KB
 GS
+Fewshot_NER
 DS_NER
 Corpora
 TCRE
