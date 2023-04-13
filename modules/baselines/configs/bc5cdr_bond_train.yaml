@@ -49,5 +49,5 @@ max_patient_count: 5
 
 # restore model
 restore_model: False
-restore_model_path: experiments/bc5cdr/bond/models/model_best_autoner.pth
+restore_model_path: experiments/bc5cdr/bond/models/model_best_bond.pth
 
