@@ -50,21 +50,15 @@ class AutoNER(nn.Module):
         else:
             self.device = "cpu"
 
-        # Load word2vec pre-train model
-        #word2vec_model = self.params["word2vec"]
-        #self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
-        #model = gensim.models.Word2Vec.load('./word2vec_pretrain_v300.model')
-
         if params["load_embedding"]:
-            embs_npa = self.dataloader.embs_npa
+            weights = self.dataloader.emb_weights
             self.word_embed_size = 200
-            weights = torch.FloatTensor(embs_npa)
+            weights = torch.FloatTensor(weights)
             self.word_embedding = nn.Embedding.from_pretrained(weights, freeze=False, padding_idx=-100)
         else:
-            embs_npa = self.dataloader.embs_npa
+            self.vocab = self.dataloader.vocab
+            vocab_size = len(self.vocab)
             self.word_embed_size = 200
-            weights = torch.FloatTensor(embs_npa)
-            vocab_size = weights.shape[0]
             self.word_embedding = nn.Embedding(vocab_size, self.word_embed_size, padding_idx=-100)
 
         self.char_embed_size = 20 
@@ -73,7 +67,7 @@ class AutoNER(nn.Module):
         # lstm
         self.char_lstm_input_size = self.char_embed_size
         self.char_lstm_hidden_size = 50 
-        self.char_lstm_num_layers = 4
+        self.char_lstm_num_layers = 2
         self.char_bilstm = nn.LSTM(self.char_lstm_input_size, 
                                     self.char_lstm_hidden_size,
                                     self.char_lstm_num_layers,
@@ -234,15 +228,21 @@ class AutoNER(nn.Module):
 
             for span in spans:
                 ent_labels = []
-                #for k in range(3):
-                for k in range(2):
+                for k in range(3):
+                #for k in range(2):
                     bio = bio_label[k][i]
                     match = torch.all(torch.tensor([k]*(span[1]-span[0])).to(self.device)==bio[span[0]:span[1]])
                     if match.item():
                         ent_labels.append(k)
 
-                if len(ent_labels) == 0:
-                    ent_labels.append(2)
+                if 2 in ent_labels:
+                    if len(ent_labels) == 1:
+                        continue
+                    else:
+                        ent_labels.remove(2)
+                else:
+                    if len(ent_labels) == 0:
+                        ent_labels.append(2)
 
                 if ent_loss == None:
                     loss, _ = self._comp_entity_loss(features, span, ent_labels)
@@ -280,7 +280,6 @@ class AutoNER(nn.Module):
         packed_output, _  = self.word_bilstm(packed_input)
         padded_output, length = pad_packed_sequence(packed_output, batch_first=True)
 
-
         span_output = self.span_linear(padded_output)
         predict = torch.argmax(span_output, dim=-1)
         mask = span_label != -100
@@ -301,14 +300,20 @@ class AutoNER(nn.Module):
 
             for span in spans:
                 ent_labels = []
-                for k in range(2):
+                for k in range(3):
                     bio = bio_label[k][i]
                     match = torch.all(torch.tensor([k]*(span[1]-span[0])).to(self.device)==bio[span[0]:span[1]])
                     if match.item():
                         ent_labels.append(k)
 
-                if len(ent_labels) == 0:
-                    ent_labels.append(2)
+                if 2 in ent_labels:
+                    if len(ent_labels) == 1:
+                        continue
+                    else:
+                        ent_labels.remove(2)
+                else:
+                    if len(ent_labels) == 0:
+                        ent_labels.append(2)
 
                 _, (pred_y, true_y) = self._comp_entity_loss(features, span, ent_labels)
                 pred_ys += pred_y

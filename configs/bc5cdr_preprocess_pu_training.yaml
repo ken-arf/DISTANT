@@ -27,6 +27,8 @@ class_num: 2
 # PU threshold true negative percentile threshold
 pu_thres_pert: 2.5 
 
+spy_ratio: 0.1
+
 # gpu
 gpu: 0 
 

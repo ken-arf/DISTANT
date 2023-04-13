@@ -20,8 +20,7 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
-#python modules/autoner/train.py --yaml $YAML_PATH 
-python modules/autoner2/train.py --yaml $YAML_PATH 
+python modules/autoner/train.py --yaml $YAML_PATH 
 
 #sleep 5
 #tail -f $LOG_PATH

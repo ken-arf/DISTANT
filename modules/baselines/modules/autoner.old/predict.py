@@ -76,41 +76,43 @@ class EntityExtraction:
             self.params = params
 
         print("start: load_embedding")
-        self.load_vocab()
+        self.load_embedding()
         print("start: load_model")
         self.load_model()
 
-    def load_vocab(self):
-
-        with open(self.params["vocab_path"], 'rb') as fp:
-            self.vocab = pickle.load(fp)
-
-        self.idx2word = {i:v for i, v in enumerate(self.vocab)}
-        self.word2idx = {v:i for i, v in enumerate(self.vocab)}
-
-#    def load_embedding(self):
-#
-#        # Load word2vec pre-train model
-#        word2vec_model = self.params["word2vec"]
-#        self.w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
-#
-#        len, emb_dim = self.w2v_model.vectors.shape
-#
-#        matrix_len = len(self.vocab)
-#        weights_matrix = np.zeros((matrix_len, emb_dim))
-#        words_found = 0                                                                                                      
-#        for i, word in enumerate(self.vocab):
-#            try:
-#                weights_matrix[i] = self.w2v_model[word]
-#                words_found += 1
-#            except KeyError:
-#                weights_matrix[i] = np.random.normal(scale=0.6, size=(emb_dim, ))                                            
-#        self.emb_weights = weights_matrix
-#        self.idx2word = {i:v for i, v in enumerate(self.vocab)}
-#        self.word2idx = {v:i for i, v in enumerate(self.vocab)}
-##
-#        return
-
+    def load_embedding(self):                                                                                                                     
+                                                                                                                                                  
+        glove_embedding_path = self.params["glove_embedding_path"]                                                                                
+                                                                                                                                                  
+        vocab,embeddings = [],[]                                                                                                                  
+        with open(glove_embedding_path,'rt') as fi:                                                                                               
+            full_content = fi.read().strip().split('\n')                                                                                          
+        for i in range(len(full_content)):                                                                                                        
+            i_word = full_content[i].split(' ')[0]                                                                                                
+            i_embeddings = [float(val) for val in full_content[i].split(' ')[1:]]                                                                 
+            vocab.append(i_word)                                                                                                                  
+            embeddings.append(i_embeddings)                                                                                                       
+                                                                                                                                                  
+        #vocab_npa = np.array(vocab)                                                                                                              
+        embs_npa = np.array(embeddings)                                                                                                           
+                                                                                                                                                  
+        #insert '<pad>' and '<unk>' tokens at start of vocab_npa.                                                                                 
+        vocab.insert(0, '<pad>')                                                                                                                  
+        vocab.insert(1, '<unk>')                                                                                                                  
+        print(vocab[:10])                                                                                                                         
+                                                                                                                                                  
+        pad_emb_npa = np.zeros((1,embs_npa.shape[1]))   #embedding for '<pad>' token.                                                             
+        unk_emb_npa = np.mean(embs_npa,axis=0,keepdims=True)    #embedding for '<unk>' token.                                                     
+                                                                                                                                                  
+        #insert embeddings for pad and unk tokens at top of embs_npa.                                                                             
+        embs_npa = np.vstack((pad_emb_npa,unk_emb_npa,embs_npa))                                                                                  
+                                                                                                                                                  
+        self.embs_npa = embs_npa                                                                                                                  
+                                                                                                                                                  
+        self.idx2word = {i:v for i, v in enumerate(vocab)}                                                                                        
+        self.word2idx = {v:i for i, v in enumerate(vocab)}                                                                                        
+                                                                                                                                                  
+        return              
 
     def load_model(self):
 
@@ -256,7 +258,6 @@ def main():
     utils._print_config(parameters, config_path)
 
     entityExtraction  = EntityExtraction(config_path)
-
 
     text_dir=parameters["test_dir"]
     files = sorted(glob(f"{text_dir}/*.txt"))
