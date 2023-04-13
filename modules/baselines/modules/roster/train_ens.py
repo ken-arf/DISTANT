@@ -118,10 +118,10 @@ def train(parameters, name_suffix):
             model.load_state_dict(torch.load(weight, map_location=torch.device(device)))
 
     optimizer = AdamW(model_ens.parameters(), lr=float(parameters['train_lr']))
-    #accelerator = Accelerator()
-    #model_stu, model_tea, optimizer, train_dataloader, valid_dataloader = accelerator.prepare(
-    #    model_stu, model_tea, optimizer, train_dataloader, valid_dataloader
-    #)
+    accelerator = Accelerator()
+    model_ens, optimizer, train_dataloader, valid_dataloader = accelerator.prepare(
+        model_ens, optimizer, train_dataloader, valid_dataloader
+    )
 
     #clipping_value = 5 # arbitrary value of your choosing
     #torch.nn.utils.clip_grad_norm(model.parameters(), clipping_value)
@@ -167,8 +167,8 @@ def train(parameters, name_suffix):
 
             batch.update({"softlabels":probs})
             probs, loss = model_ens(**batch)
-            #accelerator.backward(loss)
-            loss.backward()
+            accelerator.backward(loss)
+            #loss.backward()
 
             optimizer.step()
             lr_scheduler.step()
@@ -176,6 +176,7 @@ def train(parameters, name_suffix):
             progress_bar.update(1)
             progress_bar.set_description("loss:{:7.2f} epoch:{}".format(loss.item(),epoch))
             steps += 1
+            break
 
 
         # Evaluation
@@ -183,7 +184,7 @@ def train(parameters, name_suffix):
 
         running_acc = 0
 
-        model_stu.eval()
+        model_ens.eval()
         for batch_index, batch in tqdm(enumerate(valid_dataloader)):
             with torch.no_grad():
                 predictions, probs = model_ens.decode(**batch)
@@ -224,15 +225,15 @@ def train(parameters, name_suffix):
             break
 
         # prepare saving model
-        #accelerator.wait_for_everyone()
-        #unwrapped_model = accelerator.unwrap_model(model_stu)
+        accelerator.wait_for_everyone()
+        unwrapped_model = accelerator.unwrap_model(model_ens)
 
         OUTPUT_PATH = parameters['model_dir']
 
         if not os.path.exists(OUTPUT_PATH):
             os.makedirs(OUTPUT_PATH)
 
-        torch.save(model_ens.state_dict(), os.path.join(OUTPUT_PATH, f"model_last_{name_suffix}.pth"))
+        torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_last_{name_suffix}.pth"))
 
         if best_update:
             torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_best_{name_suffix}.pth"))
