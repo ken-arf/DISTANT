@@ -186,7 +186,8 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
 def setup_pu_dataset(step, parameters):
 
     #frac_spy = 0.05
-    frac_spy = 0.1
+    #frac_spy = 0.1
+    frac_spy = parameters["spy_ratio"]
 
 
     corpus_dir = parameters["corpus_dir"]

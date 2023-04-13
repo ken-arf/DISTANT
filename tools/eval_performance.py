@@ -36,5 +36,5 @@ y_pred = extract_labels('predict.coll')
 
 
 print(f1_score(y_true, y_pred))
-print(classification_report(y_true, y_pred))
+print(classification_report(y_true, y_pred, digits=3))
 
