@@ -10,11 +10,14 @@ nltk_data
 test
 KB
 GS
+DS_NER
+Corpora
 TCRE
 JNLPBA
 AutoNER
 LexiconNER
 NCBI-Disease
+NYT10
 CDR_Data
 Brat*
 pubmed
