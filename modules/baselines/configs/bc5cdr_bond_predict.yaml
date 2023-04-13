@@ -15,8 +15,8 @@ corpus_dir: data/BC5CDR/conll
 
 test_dir: data/BC5CDR/eval/test
 #output_dir: data/BC5CDR/eval/annotate.bond
-#output_dir: data/BC5CDR/eval/annotate.bond2nd
-output_dir: data/BC5CDR/eval/annotate.bond3rd
+output_dir: data/BC5CDR/eval/annotate.bond2nd
+#output_dir: data/BC5CDR/eval/annotate.bond3rd
 
 
 # bert model
@@ -36,6 +36,6 @@ gpu: 0
 
 # restore model
 restore_model: True
-#model_dir: experiments/bc5cdr/bond/models/2nd
-model_dir: experiments/bc5cdr/bond/models/3rd
+model_dir: experiments/bc5cdr/bond/models/2nd
+#model_dir: experiments/bc5cdr/bond/models/3rd
 model_name: model_best_bond.pth 
