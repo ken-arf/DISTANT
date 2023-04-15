@@ -231,9 +231,10 @@ class RoSTER_self(RoSTER):
 
     def forward(self, **kargs):
 
-        #pdb.set_trace()
+        pdb.set_trace()
 
         input_ids = kargs["input_ids"]
+        aux_input_ids = kargs["aux_input_ids"]
         token_type_ids = kargs["token_type_ids"]
         attention_mask = kargs["attention_mask"]
         labels = kargs["labels"]
@@ -243,7 +244,10 @@ class RoSTER_self(RoSTER):
         softlabels = torch.tensor(softlabels).to(self.device)
 
         #Extract outputs from the body
-        bert_outputs = self.bert_model(input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
+        if kargs["use_aux_input"]:
+            bert_outputs = self.bert_model(input_ids=aux_input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
+        else:
+            bert_outputs = self.bert_model(input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
 
         #Add custom layers
         last_hidden_output = bert_outputs['last_hidden_state']

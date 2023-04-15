@@ -7,6 +7,8 @@ num_bio_labels:  2
 
 corpus_dir: data/BC5CDR/conll.roster
 
+aux_corpus_dir: data/BC5CDR/conll.roster_mlm
+
 # model save dir
 model_dir: experiments/bc5cdr/roster/models
 
@@ -49,5 +51,4 @@ max_patient_count: 5
 # restore model
 restore_model: True
 restore_model_path: experiments/bc5cdr/roster/models/model_best_roster_ens.pth
-
 

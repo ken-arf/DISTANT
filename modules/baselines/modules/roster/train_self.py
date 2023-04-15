@@ -7,6 +7,7 @@ import torch
 import logging
 import glob
 import numpy as np
+import numpy.ma as ma
 from tqdm import tqdm
 from collections import defaultdict
 
@@ -20,11 +21,41 @@ from transformers import get_scheduler
 from accelerate import Accelerator
 import evaluate
 
-from dataloader import Dataloader
+from dataloader_self import Dataloader
 from measure import performance
-from model import RoSTER, RoSTER_ENS
+#from model import RoSTER, RoSTER_ENS
+from model import RoSTER_self
 
 import pdb
+
+
+def make_softlabel(probs, labels):
+
+    labels = labels.detach().cpu().numpy()
+
+    bs = probs.shape[0]
+    class_num = probs.shape[-1]
+    
+    probs = probs.reshape(-1, class_num)
+    labels = labels.reshape(-1,) 
+
+    mask = labels > 0
+    mask = np.expand_dims(mask, axis=1)
+    mask = np.tile(mask, [1,class_num])
+
+    g = np.sum(probs, axis=0)
+
+    t = np.divide(np.power(probs, 2.0), g)
+    deno = np.sum(t, axis=1)
+
+    new_probs = np.divide(t, np.expand_dims(deno,axis=1))
+
+    probs_masked = ma.masked_where(mask, probs)
+    probs_masked = probs_masked.filled(new_probs)
+
+    new_probs = probs_masked.reshape(bs,-1,class_num)
+
+    return new_probs
 
 
 def load_file(file,  n_type):
@@ -56,10 +87,12 @@ def load_dataset(parameters):
 
     ent_num = parameters["num_bio_labels"]
     corpus_dir = parameters["corpus_dir"]
+    aux_corpus_dir = parameters["aux_corpus_dir"]
 
     files = sorted(glob.glob(f"{corpus_dir}/*.txt"))
 
     text_data = []
+    aux_text_data = []
     bio_labels = []
 
     for file in tqdm(files):
@@ -67,8 +100,13 @@ def load_dataset(parameters):
         text_data += input_data['tokens']
         bio_labels += input_data['bio']
 
+        path, fname = os.path.split(file)
+        aux_file = os.path.join(aux_corpus_dir, fname)
+        aux_input_data = load_file(aux_file, ent_num)
+        aux_text_data += aux_input_data['tokens']
 
     data = {'text': text_data, 
+            'aux_text': aux_text_data,
             'bio_labels': bio_labels}
 
     return data
@@ -108,7 +146,6 @@ def train(parameters, name_suffix):
     # RoSTER_self model
     model_self = RoSTER_self(parameters, logger)
 
-
     if parameters['restore_model'] == True:
         model_self.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
 
@@ -146,24 +183,22 @@ def train(parameters, name_suffix):
     for epoch in range(num_train_epochs):
 
         # Training
-        model_self.train()
-        for model in models:
-            model.eval()
-
         for batch in train_dataloader:
 
+            model_self.eval()
             with torch.no_grad():
-                all_probs = []
-                for model in models:
-                    predictions, probs = model.decode(**batch)
-                    all_probs.append(np.expand_dims(probs, axis=0))
-                probs_mean = np.mean(np.concatenate(all_probs, axis=0), axis=0)
+                predictions, probs = model_self.decode(**batch)
 
-
-            batch.update({"softlabels":probs})
+            model_self.train()
+            softlabel = make_softlabel(probs, batch["labels"])
+            batch['softlabel'] = softlabel
+            batch['use_aux_input'] = False 
             probs, loss = model_self(**batch)
             accelerator.backward(loss)
-            #loss.backward()
+
+            batch['use_aux_input'] = True 
+            probs, loss = model_self(**batch)
+            accelerator.backward(loss)
 
             optimizer.step()
             lr_scheduler.step()
@@ -171,7 +206,6 @@ def train(parameters, name_suffix):
             progress_bar.update(1)
             progress_bar.set_description("loss:{:7.2f} epoch:{}".format(loss.item(),epoch))
             steps += 1
-            break
 
 
         # Evaluation

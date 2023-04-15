@@ -176,7 +176,6 @@ def train(parameters, name_suffix):
             progress_bar.update(1)
             progress_bar.set_description("loss:{:7.2f} epoch:{}".format(loss.item(),epoch))
             steps += 1
-            break
 
 
         # Evaluation
