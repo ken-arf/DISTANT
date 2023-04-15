@@ -1,0 +1,37 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+num_bio_labels:  2
+
+corpus_dir: data/BC5CDR/conll.roster
+output_dir: data/BC5CDR/conll.roster_mlm
+
+
+# bert model
+seed: 22
+
+label2int:
+    'O': 0
+    'B-CHEMICAL': 1
+    'I-CHEMICAL': 2
+    'B-DISEASE': 3
+    'I-DISEASE': 4
+
+# bert model
+model_checkpoint: allenai/scibert_scivocab_uncased
+
+
+# label num
+class_num: 5
+
+# gpu
+gpu: 0 
+
+
+# restore model
+restore_model: False
+restore_model_path: experiments/bc5cdr/roster/models/model_best_autoner.pth
+
+

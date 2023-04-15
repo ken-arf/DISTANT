@@ -220,3 +220,41 @@ class RoSTER_ENS(RoSTER):
         loss = self.kl_loss(probs, softlabels)
 
         return probs.cpu().detach().numpy(), loss
+
+class RoSTER_self(RoSTER):
+
+    def __init__(self, params, logger):
+        super(RoSTER_self, self).__init__(params, logger)
+        # cross entropy loss
+        self.kl_loss = nn.KLDivLoss(reduction="batchmean")
+
+
+    def forward(self, **kargs):
+
+        #pdb.set_trace()
+
+        input_ids = kargs["input_ids"]
+        token_type_ids = kargs["token_type_ids"]
+        attention_mask = kargs["attention_mask"]
+        labels = kargs["labels"]
+        softlabels = kargs["softlabels"]
+
+        # conver numpy array to tensor
+        softlabels = torch.tensor(softlabels).to(self.device)
+
+        #Extract outputs from the body
+        bert_outputs = self.bert_model(input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
+
+        #Add custom layers
+        last_hidden_output = bert_outputs['last_hidden_state']
+        bert_sequence_output = self.dropout(last_hidden_output) #outputs[0]=last hidden state
+
+        # logit
+        logit = self.linear(bert_sequence_output)
+        # probability
+        probs = F.log_softmax(logit, dim=2)
+
+        #loss = self.loss(torch.transpose(logit,1,2), labels)
+        loss = self.kl_loss(probs, softlabels)
+
+        return probs.cpu().detach().numpy(), loss

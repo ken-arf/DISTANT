@@ -108,16 +108,14 @@ def train(parameters, name_suffix):
     # RoSTER_self model
     model_self = RoSTER_self(parameters, logger)
 
-    # RoSTER_ENS model
-    model_ens = RoSTER_ENS(parameters, logger)
 
     if parameters['restore_model'] == True:
-        model_ens.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
+        model_self.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
 
-    optimizer = AdamW(model_ens.parameters(), lr=float(parameters['train_lr']))
+    optimizer = AdamW(model_self.parameters(), lr=float(parameters['train_lr']))
     accelerator = Accelerator()
-    model_ens, optimizer, train_dataloader, valid_dataloader = accelerator.prepare(
-        model_ens, optimizer, train_dataloader, valid_dataloader
+    model_self, optimizer, train_dataloader, valid_dataloader = accelerator.prepare(
+        model_self, optimizer, train_dataloader, valid_dataloader
     )
 
     #clipping_value = 5 # arbitrary value of your choosing
@@ -148,7 +146,7 @@ def train(parameters, name_suffix):
     for epoch in range(num_train_epochs):
 
         # Training
-        model_ens.train()
+        model_self.train()
         for model in models:
             model.eval()
 
@@ -163,7 +161,7 @@ def train(parameters, name_suffix):
 
 
             batch.update({"softlabels":probs})
-            probs, loss = model_ens(**batch)
+            probs, loss = model_self(**batch)
             accelerator.backward(loss)
             #loss.backward()
 
@@ -181,10 +179,10 @@ def train(parameters, name_suffix):
 
         running_acc = 0
 
-        model_ens.eval()
+        model_self.eval()
         for batch_index, batch in tqdm(enumerate(valid_dataloader)):
             with torch.no_grad():
-                predictions, probs = model_ens.decode(**batch)
+                predictions, probs = model_self.decode(**batch)
             labels = batch["labels"].detach().cpu().numpy()
 
 
@@ -223,7 +221,7 @@ def train(parameters, name_suffix):
 
         # prepare saving model
         accelerator.wait_for_everyone()
-        unwrapped_model = accelerator.unwrap_model(model_ens)
+        unwrapped_model = accelerator.unwrap_model(model_self)
 
         OUTPUT_PATH = parameters['model_dir']
 
