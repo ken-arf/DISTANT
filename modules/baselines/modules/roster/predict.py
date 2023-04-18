@@ -32,7 +32,7 @@ from utils import utils
 
 #from model import Model 
 #from model_crf import Model 
-from model import BondNER 
+from model import RoSTER 
 
 from make_dataset import tokenize
 from make_dataset import sentence_split
@@ -84,7 +84,7 @@ class EntityExtraction:
         else:
             self.device = "cpu"
 
-        self.model = BondNER(self.params, self.logger)
+        self.model = RoSTER(self.params, self.logger)
 
         model_dir = self.params["model_dir"]
         model_name = self.params["model_name"]

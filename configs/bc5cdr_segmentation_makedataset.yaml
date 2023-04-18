@@ -14,8 +14,8 @@ dict_files:
     - disease.dict
 
 other_dict_files:
-    #- others.dict
-    - dummy.dict
+    - others.dict
+    #- dummy.dict
 
 use_pu_train: False
 pu_train_csv: experiments/bc5cdr/models/train.csv

@@ -191,7 +191,7 @@ def train(parameters, name_suffix):
 
             model_self.train()
             softlabel = make_softlabel(probs, batch["labels"])
-            batch['softlabel'] = softlabel
+            batch['softlabels'] = softlabel
             batch['use_aux_input'] = False 
             probs, loss = model_self(**batch)
             accelerator.backward(loss)

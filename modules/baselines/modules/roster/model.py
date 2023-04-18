@@ -231,7 +231,6 @@ class RoSTER_self(RoSTER):
 
     def forward(self, **kargs):
 
-        pdb.set_trace()
 
         input_ids = kargs["input_ids"]
         aux_input_ids = kargs["aux_input_ids"]
