@@ -76,7 +76,7 @@ class RoSTER(nn.Module):
 
     def calc_loss(self, probs, labels, epoch):
 
-        pdb.set_trace()
+        #pdb.set_trace()
 
         mask = labels != -100
         probs = probs[mask]
@@ -90,7 +90,7 @@ class RoSTER(nn.Module):
         for i in range(n):
             p = probs[i,labels[i]]
             #if epoch == 0:
-            if epoch <= 10:
+            if epoch <= 2:
                 w = 1.0
             else:
                 w = 1.0 if p > tau else 0.0
@@ -102,7 +102,7 @@ class RoSTER(nn.Module):
             else:
                 loss += l
 
-        loss = torch.div(loss, n)
+        #loss = torch.div(loss, n)
 
         return loss 
 
