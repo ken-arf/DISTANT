@@ -76,6 +76,8 @@ class RoSTER(nn.Module):
 
     def calc_loss(self, probs, labels, epoch):
 
+        pdb.set_trace()
+
         mask = labels != -100
         probs = probs[mask]
         labels = labels[mask]

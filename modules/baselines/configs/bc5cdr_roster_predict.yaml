@@ -37,4 +37,6 @@ gpu: 0
 # restore model
 restore_model: True
 model_dir: experiments/bc5cdr/roster/models
-model_name: model_best_roster_ens.pth 
+#model_name: model_best_roster_ens.pth 
+model_name: model_best_roster_0.pth 
+

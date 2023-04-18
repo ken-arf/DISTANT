@@ -270,6 +270,7 @@ def main():
         parameters["count"] = i
         parameters["seed"] = parameters["seed"] + 1
         train(parameters, "roster")
+        break
 
     print('Done!')
     t_end = time.time()                                                                                                  
