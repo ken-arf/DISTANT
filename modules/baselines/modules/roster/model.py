@@ -87,7 +87,8 @@ class RoSTER(nn.Module):
         loss = None
         for i in range(n):
             p = probs[i,labels[i]]
-            if epoch == 0:
+            #if epoch == 0:
+            if epoch <= 10:
                 w = 1.0
             else:
                 w = 1.0 if p > tau else 0.0
