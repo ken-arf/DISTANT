@@ -1,0 +1,34 @@
+
+# extract pubmed abstract relatd with bc5cdr corpus
+sh ./scripts/bc5cdr_preprocess_extract_abstract.sh 
+
+
+# TODO
+# The following script is used when generating a dictionay from scratch either bia UMLS or Mesh.
+# Note that, we use a existing dictionary provided by the authors of AutoNER for the experiments
+# of BioNLP 2023 paper. So the following scripts are not used for the experiments
+
+# prepare initial dictionary
+#sh ./scripts/bc5cdr_preprocess_make_dictionary_umls.sh
+#sh ./scripts/bc5cdr_preprocess_expand_dictionary_umls.sh
+#sh ./scripts/bc5cdr_preprocess_expand_dictionary_mesh.sh
+
+
+# train entity span detector 
+
+# generate training dataset to train span detection
+sh ./scripts/bc5cdr_segmentation_makedataset.sh
+
+# train the span detection
+sh ./scripts/bc5cdr_segmentation_train.sh
+
+# Label span detected by using labeling function by using snorkel
+sh ./scripts/bc5cdr_preprocess_ds_annotation.sh
+
+# Train the entity classifier by using a spy-based PU learning
+sh ./scripts/bc5cdr_preprocess_pu_training.sh
+
+# Inference of testing data by using the trained the span detector and entity classifier
+sh ./scripts/bc5cdr_predict_entity.sh
+
+

@@ -32,6 +32,9 @@ glove.6B/
 *.coll
 *.bin
 
+# corpus
+BC5CDR
+
 # C extensions
 *.so
 

@@ -19,7 +19,6 @@ uri= "https://uts-ws.nlm.nih.gov/rest/content/current"
 apiKey="3ebafc45-4529-4619-92a3-e3c9432b9e03"
 
 
-
 def get_root_concept_atoms(cui):
 
     content_endpoint =  f"/CUI/{cui}/atoms"
