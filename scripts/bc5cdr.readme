@@ -28,7 +28,20 @@ sh ./scripts/bc5cdr_preprocess_ds_annotation.sh
 # Train the entity classifier by using a spy-based PU learning
 sh ./scripts/bc5cdr_preprocess_pu_training.sh
 
-# Inference of testing data by using the trained the span detector and entity classifier
+# Inference of validation data by using the trained the span detector and entity classifier
 sh ./scripts/bc5cdr_predict_entity.sh
+
+
+# Inference of testing data by using the trained the span detector and entity classifier
+sh ./scripts/bc5cdr_evaluate_test.sh
+
+# Inference of testing data with debug by using the trained the span detector and entity classifier
+# This will output the entitity classification results for all span candidates including the negative label.
+sh ./scripts/bc5cdr_evaluate_test_debug.sh
+
+# Convert results in brat format into conll format in order to evaluate the result as a sequence tagging inference.
+sh ./scripts/bc5cdr_misc_convert_brat2conll.sh
+
+
 
 
