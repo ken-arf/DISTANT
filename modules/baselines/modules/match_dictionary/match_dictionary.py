@@ -123,7 +123,8 @@ def annotate(files, parameters):
 
     # sort dictionary items in ascending order
     for key in entity_dict.keys():
-        entity_dict[key] = sorted(entity_dict[key], key =lambda x: len(x))
+        #entity_dict[key] = sorted(entity_dict[key], key =lambda x: len(x))
+        entity_dict[key] = sorted(entity_dict[key], key =lambda x: -len(x))
 
 
     match_count = defaultdict(int)
@@ -142,7 +143,6 @@ def annotate(files, parameters):
                 tokens = tokenize(sent)
                 tokens_low = [token.lower() for token in tokens]
                 
-
                 bio_tag = {}
                 for entity_type, tag_name in zip(entity_dict.keys(), bio_tag_names):
                     bio_tag[entity_type], cnt = match_entity(tokens_low, entity_dict, entity_type, tag_name)
