@@ -30,6 +30,7 @@ def load_file(file,  n_type):
     
     input_data = defaultdict(list)
     
+    print(file)
     with open(file) as fp:
         tokens = []
         bio_labels = defaultdict(list)
@@ -45,7 +46,7 @@ def load_file(file,  n_type):
                 bio_labels = defaultdict(list)
                 continue
             fields = line.split('\t')
-            #print(fields)
+            print(fields)
             assert(len(fields) == n_type + 2)
             tokens.append(fields[0])
             for i in range(n_type):

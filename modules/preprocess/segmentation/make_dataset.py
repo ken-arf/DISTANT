@@ -30,6 +30,10 @@ def sentence_split(doc, offset = False, moses = False):
         sents = mymoses.split_sentence(doc.strip())
         sents = [sent.text for sent in sents]
     else:
+        # changed for NCBI #######
+        doc = ''.join(doc.split('\n'))
+        ##########################
+
         doc = nlp(doc)
         sents =  [sent.text for sent in doc.sents]
         

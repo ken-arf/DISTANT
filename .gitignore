@@ -25,6 +25,7 @@ pubmed
 PubMed
 Evaluation
 data/BC5CDR/
+data/NCBI/
 old/
 glove.6B/
 *xml

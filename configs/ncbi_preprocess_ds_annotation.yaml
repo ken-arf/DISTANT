@@ -1,0 +1,32 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+#dict_dir: data/Mesh/dict
+#processed_dict_dir: data/Mesh/processed_dict
+#dict_dir: data/UMLS/dict
+#processed_dict_dir: data/UMLS/processed_dict
+
+spark: True
+
+
+processed_dict_dirs:
+#        - data/Mesh/processed_dict
+#       - data/UMLS/processed_dict
+        - data/BC5CDR/processed_dict
+
+dict_files: 
+        - chemicals.dict
+        - disease.dict
+
+entity_names:
+        - Chemical 
+        - Disease
+
+document_root_dir: data/BC5CDR/corpus
+#document_root_dir: data/Mesh/PubMed/BC5CDR/extract
+corpus_dir: data/Corpus/BC5CDR
+
+
+segmentation_predict_config: configs/bc5cdr_segmentation_predict.yaml

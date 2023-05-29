@@ -1,0 +1,23 @@
+# Configuration file for training model.
+
+# data path
+task_name: ncbi 
+
+use_dictionary: True
+dict_dir: 
+    - data/NCBI/dict
+
+dict_files:
+    - disease.dict
+
+
+entity2integer:
+    disease: 0
+
+use_pu_train: False
+
+corpus_dir: data/NCBI/corpus
+output_dir: data/NCBI/conll
+#corpus_dir: data/Mesh/PubMed/BC5CDR/extract
+#output_dir: data/Mesh/PubMed/BC5CDR/conll
+

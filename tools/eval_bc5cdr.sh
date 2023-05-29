@@ -42,3 +42,5 @@ ls $true_coll_dir/*.coll | sort | xargs -n1 cat > true.coll
 
 
 python eval_performance.py
+
+rm *.coll

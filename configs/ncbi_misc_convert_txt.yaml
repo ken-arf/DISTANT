@@ -1,0 +1,9 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+NCBI_corpus_dir: NCBI_Disease
+corpus_dir: data/NCBI/processed_corpus
+dict_dir: data/NCBI/dict
+

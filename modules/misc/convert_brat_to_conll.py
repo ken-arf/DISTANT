@@ -96,6 +96,10 @@ def convert(file, ann, output_path):
 
     with open(output_path, 'w') as fp:
 
+        # change for NCBI ##############
+        text = ''.join(text.split('\n'))
+        ################################
+
         doc = nlp(text)
         for snt in doc.sents:
             #print(snt)
