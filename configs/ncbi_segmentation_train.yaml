@@ -13,7 +13,7 @@ corpus_dir: data/NCBI/conll
 
 
 # model save dir
-model_dir: experiments/nbci/segmentation/models
+model_dir: experiments/ncbi/segmentation/models
 
 # bert model
 seed: 22
@@ -25,7 +25,7 @@ embedding_dim: 768
 hidden_size: 100
 
 # label num
-class_num: 1
+class_num: 2
 
 # gpu
 gpu: 0 

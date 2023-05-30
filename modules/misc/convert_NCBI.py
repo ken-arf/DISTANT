@@ -54,8 +54,10 @@ def convert_text(file, output_dir):
             fp.write("{}\n{}".format(cont1, cont2))
         ann_file = os.path.join(output_dir, f"{fid1}.ann")
         with open(ann_file, 'w') as fp:
-            for ann in annotations:
-                fp.write(f'{ann[0]}\t{ann[1]}\t{ann[2]}\tDisease\t{ann[3]}\t{ann[4]}\n')
+            for k, ann in enumerate(annotations):
+                #fp.write(f'{ann[0]}\t{ann[1]}\t{ann[2]}\tDisease\t{ann[3]}\t{ann[4]}\n')
+                fp.write(f'T{k+1}\tDisease\t{ann[1]}\t{ann[2]}\t{ann[0]}\n')
+                
                 
 
 

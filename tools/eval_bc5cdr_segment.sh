@@ -4,14 +4,22 @@ ROOT_DIR=../data/BC5CDR/eval
 ROOT_DIR=../modules/baselines/data/BC5CDR/eval
 
 
-predict_coll_dir=$ROOT_DIR/annotate.debug
+predict_dir=("annotate.debug.1" "annotate.debug.2")
+
+for i in ${!predict_dir[@]}; do
+    echo "$i: ${predict_dir[$i]}"
+done
+
+echo "select>"
+read input
+
+hypo=${predict_dir[$input]}
+predict_coll_dir=$ROOT_DIR/${hypo}
 echo "hyp dir: ${predict_coll_dir}"
 
-#predict_coll_di=$ROOT_DIR/annotate.latest
-#predict_coll_dir=$ROOT_DIR/annotate.match_dict
-#predict_coll_dir=$ROOT_DIR/annotate
-#predict_coll_dir=$ROOT_DIR/annotate.autoner
-#predict_coll_dir=$ROOT_DIR/annotate.supervised
+#predict_coll_dir=$ROOT_DIR/annotate.debug
+#echo "hyp dir: ${predict_coll_dir}"
+
 
 true_coll_dir=$ROOT_DIR/annotate.gold
 echo "ref dir: ${true_coll_dir}"
@@ -34,5 +42,4 @@ done
 
 python eval_performance.py
 
-rm tmp
 rm *.coll

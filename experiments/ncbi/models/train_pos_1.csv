@@ -1,0 +1,1082 @@
+,entities,start_tokens,end_tokens,start_chars,end_chars,text,pmid,label,orig_index,olabel
+2,carcinoma,2,3,9,18,"In colon carcinoma cells, loss of APC leads to the accumulation of betacatenin in the nucleus, where it binds to and activates the Tcf-4 transcription factor (reviewed in [1] [2]).",10021369_3,0,2,0
+3,carcinoma,23,24,159,168,"Like APC, APC2 regulates the formation of active betacatenin-Tcf complexes, as demonstrated using transient transcriptional activation assays in APC -/- colon carcinoma cells.",10021369_6,0,3,0
+4,cancer,11,12,72,78,APC and APC2 may therefore have comparable functions in development and cancer.,10021369_9,0,4,0
+5,cancer,23,24,143,149,"A common MSH2 mutation in English and North American HNPCC families: origin, phenotypic expression, and sex specific differences in colorectal cancer.",10051005_0,0,5,0
+7,cancer,11,12,71,77,"Although this mutation was initially detected in four of 33 colorectal cancer families analysed from eastern England, more extensive analysis has reduced the frequency to four of 52 (8%) English HNPCC kindreds analysed.",10051005_3,0,7,0
+8,cancer,9,10,57,63,"To investigate the origin of this mutation in colorectal cancer families from England (n = 4), Newfoundland (n = 10), and the United States (n = 3), haplotype analysis using microsatellite markers linked to MSH2 was performed.",10051005_5,0,8,0
+9,cancers,14,15,77,84,"We calculated age related risks of all, colorectal, endometrial, and ovarian cancers in nt943 + 3 A-- > T MSH2 mutation carriers (n = 76) for all patients and for men and women separately.",10051005_9,0,9,0
+11,cancer,18,19,93,99,"For both sexes combined, the penetrances at age 60 years for all cancers  and for colorectal cancer were 0.",10051005_10,0,11,0
+12,cancer,4,5,23,29,The risk of colorectal cancer was significantly higher (p < 0. 01) in males than females (0. 63 v 0. 30 and 0.,10051005_12,0,12,0
+13,endometrial cancer,8,10,37,55,For females there was a high risk of endometrial cancer (0. 5 at age 60 years) and premenopausal ovarian cancer (0. 2 at 50 years).,10051005_15,0,13,0
+14,ovarian cancer,21,23,97,111,For females there was a high risk of endometrial cancer (0. 5 at age 60 years) and premenopausal ovarian cancer (0. 2 at 50 years).,10051005_15,0,14,0
+15,cancer,5,6,41,47,These intersex differences in colorectal cancer risks have implications for screening programmes and for attempts to identify colorectal cancer susceptibility modifiers.,10051005_16,0,15,0
+16,cancer,18,19,137,143,These intersex differences in colorectal cancer risks have implications for screening programmes and for attempts to identify colorectal cancer susceptibility modifiers.,10051005_16,0,16,0
+21,infections,12,13,96,106,Familial deficiency of the seventh component of complement associated with recurrent bacteremic infections due to Neisseria.,100562_0,0,21,0
+23,meningitis,21,22,124,134,"
+The serum of a 29-year old woman with a recent episode of disseminated gonococcal infection and a history of meningococcal meningitis and arthritis as a child was found to lack serum hemolytic complement activity.",100562_1,0,23,0
+24,arthritis,23,24,139,148,"
+The serum of a 29-year old woman with a recent episode of disseminated gonococcal infection and a history of meningococcal meningitis and arthritis as a child was found to lack serum hemolytic complement activity.",100562_1,0,24,0
+26,meningitis,17,18,100,110,Complete absence of C7 was also found in one sibling who had the clinical syndrome of meningococcal meningitis and arthritis  as a child and in this siblings clinically well eight-year-old son.,100562_6,0,26,0
+27,arthritis,19,20,115,124,Complete absence of C7 was also found in one sibling who had the clinical syndrome of meningococcal meningitis and arthritis  as a child and in this siblings clinically well eight-year-old son.,100562_6,0,27,0
+29,cancer,3,4,23,29,Increased incidence of cancer in patients with cartilage-hair hypoplasia.,10064668_0,0,29,0
+31,cancer,11,12,65,71,"
+OBJECTIVE  Previous reports have suggested an increased risk of cancer among patients with cartilage-hair hypoplasia (CHH).",10064668_1,0,31,0
+33,cancer,5,6,36,42,This cohort underwent follow-up for cancer incidence through the Finnish Cancer Registry to the end of 1995.,10064668_5,0,33,0
+34,Cancer,10,11,73,79,This cohort underwent follow-up for cancer incidence through the Finnish Cancer Registry to the end of 1995.,10064668_5,0,34,0
+35,cancer,8,9,52,58,"RESULTS  A statistically significant excess risk of cancer was seen among the patients with CHH (standardized incidence ratio 6. 9, 95% confidence interval 2. 3 to 16), which was mainly attributable to non-Hodgkins lymphoma  (standardized incidence ratio 90, 95% confidence interval 18 to 264).",10064668_6,0,35,0
+37,carcinoma,10,11,53,62,"In addition, a significant excess risk of basal cell carcinoma was seen (standardized incidence ratio 35, 95% confidence interval 7. 2 to 102).",10064668_7,0,37,0
+38,cancer,1,2,4,10,The cancer incidence among the siblings or the parents did not differ from the average cancer incidence in the Finnish population.,10064668_8,0,38,0
+39,cancer,15,16,87,93,The cancer incidence among the siblings or the parents did not differ from the average cancer incidence in the Finnish population.,10064668_8,0,39,0
+40,cancer,9,10,54,60,"CONCLUSIONS  This study confirms an increased risk of cancer, especially non-Hodgkins lymphoma, probably attributable to defective immunity, among patients with CHH.",10064668_9,0,40,0
+44,convulsive,9,10,55,65,"A large phenotypic variability has been observed, with convulsive disorders, motor retardation and mental retardation being the most abundant manifestations.",10071185_5,0,44,0
+48,cancer,11,12,73,79,Germline E-cadherin gene (CDH1) mutations predispose to familial gastric cancer and colorectal cancer.,10072428_0,0,48,0
+49,cancer,14,15,95,101,Germline E-cadherin gene (CDH1) mutations predispose to familial gastric cancer and colorectal cancer.,10072428_0,0,49,0
+50,cancer,20,21,121,127,"
+Inherited mutations in the E-cadherin gene (CDH1) were described recently in three Maori kindreds with familial gastric cancer.",10072428_1,0,50,0
+51,cancer,2,3,17,23,Familial gastric cancer is genetically heterogeneous and it is not clear what proportion of gastric cancer susceptibility in non-Maori populations is due to germline CDH1 mutations.,10072428_2,0,51,0
+52,cancer,15,16,100,106,Familial gastric cancer is genetically heterogeneous and it is not clear what proportion of gastric cancer susceptibility in non-Maori populations is due to germline CDH1 mutations.,10072428_2,0,52,0
+53,cancer,7,8,46,52,"Therefore, we screened eight familial gastric cancer kindreds of British and Irish origin for germline CDH1 mutations, by SSCP analysis of all 16 exons and flanking sequences.",10072428_3,0,53,0
+55,cancer,34,35,159,165,Each family contained  (i) two cases of gastric cancer in first degree relatives with one affected before age 50 years; or (ii) three or more cases of gastric cancer.,10072428_4,0,55,0
+56,cancer,15,16,101,107,"In one family there was evidence of non-penetrance and susceptibility to both gastric and colorectal cancer; thus, in addition to six cases of gastric cancer, a CDH1 mutation carrier developed colorectal cancer at age 30 years.",10072428_7,0,56,0
+57,cancer,26,27,151,157,"In one family there was evidence of non-penetrance and susceptibility to both gastric and colorectal cancer; thus, in addition to six cases of gastric cancer, a CDH1 mutation carrier developed colorectal cancer at age 30 years.",10072428_7,0,57,0
+58,cancer,34,35,204,210,"In one family there was evidence of non-penetrance and susceptibility to both gastric and colorectal cancer; thus, in addition to six cases of gastric cancer, a CDH1 mutation carrier developed colorectal cancer at age 30 years.",10072428_7,0,58,0
+59,cancer,13,14,82,88,We have confirmed that germline mutations in the CDH1 gene cause familial gastric cancer in non-Maori populations.,10072428_8,0,59,0
+60,cancers,8,9,45,52,"However, only a minority of familial gastric cancers can be accounted for by CDH1 mutations.",10072428_9,0,60,0
+61,cancers,15,16,101,108,"Loss of E-cadherin function has been implicated in the pathogenesis of sporadic colorectal and other cancers, and our findings provide evidence that germline CDH1 mutations predispose to early onset colorectal cancer.",10072428_10,0,61,0
+62,cancer,31,32,210,216,"Loss of E-cadherin function has been implicated in the pathogenesis of sporadic colorectal and other cancers, and our findings provide evidence that germline CDH1 mutations predispose to early onset colorectal cancer.",10072428_10,0,62,0
+63,cancers,17,18,104,111,"Thus, CDH1 should be investigated as a cause of inherited susceptibility to both gastric and colorectal cancers.",10072428_11,0,63,0
+65,tumor,27,28,144,149,"
+The Wilms tumor -suppressor gene, WT1, plays a key role in urogenital development, and WT1 dysfunction is implicated in both neoplastic (Wilms tumor, mesothelioma, leukemias, and breast cancer) and nonneoplastic (glomerulosclerosis) disease.",10077614_1,0,65,0
+67,breast cancer,34,36,180,193,"
+The Wilms tumor -suppressor gene, WT1, plays a key role in urogenital development, and WT1 dysfunction is implicated in both neoplastic (Wilms tumor, mesothelioma, leukemias, and breast cancer) and nonneoplastic (glomerulosclerosis) disease.",10077614_1,0,67,0
+68,glomerulosclerosis,40,41,214,232,"
+The Wilms tumor -suppressor gene, WT1, plays a key role in urogenital development, and WT1 dysfunction is implicated in both neoplastic (Wilms tumor, mesothelioma, leukemias, and breast cancer) and nonneoplastic (glomerulosclerosis) disease.",10077614_1,0,68,0
+74,nephropathy,9,10,51,62,"DDS is a rare childhood disease characterized by a nephropathy involving mesangial sclerosis, XY pseudohermaphroditism, and/or Wilms tumor (WT).",10077614_3,0,74,0
+77,tumor,14,15,76,81,"Male genital defects also were evident and there was a single case of Wilms tumor in which the transcript of the nontargeted allele showed an exon 9 skipping event, implying a causal link between Wt1 dysfunction and Wilms tumorigenesis in mice.",10077614_6,0,77,0
+84,dystonia,8,9,58,66,GCH1 mutation in a patient with adult-onset oromandibular dystonia.,10078749_0,0,84,0
+85,dystonia,17,18,93,101,"
+The authors report a mutation in exon 5 of GCH1 in a patient with adult-onset oromandibular dystonia and no obvious family history of dystonia.",10078749_1,0,85,0
+86,dystonia,24,25,135,143,"
+The authors report a mutation in exon 5 of GCH1 in a patient with adult-onset oromandibular dystonia and no obvious family history of dystonia.",10078749_1,0,86,0
+87,dystonia,19,20,137,145,These findings demonstrate that GCH1 mutations must be considered even in patients with dystonic symptoms not typical of dopa-responsive dystonia.,10078749_3,0,87,0
+98,fever,15,16,89,94,"
+Familial Mediterranean fever (FMF) is a recessive disorder characterized by episodes of fever with serositis or synovitis.",10090880_1,0,98,0
+103,death,7,8,54,59,Mutations causing disruption of the intracellular Fas death domain also showed a higher penetrance of ALPS phenotype features in mutation-bearing relatives.,10090885_10,0,103,0
+109,anemia,20,21,125,131,"These selection pressures could be due to infectious diseases, environmental conditions,  or other genetic disorders such as anemia.",10090890_11,0,109,0
+114,sensorineural hearing loss,4,7,28,54,"The locus for non-syndromic sensorineural hearing loss with EVA has been mapped to the same chromosomal region, 7q31, as the Pendred syndrome locus.",10190331_2,0,114,0
+117,sensorineural hearing loss,29,32,149,175,"In the present study, seven mutations in the PDS gene (PDS), the gene responsible for Pendred syndrome, have been found in families of non-syndromic sensorineural hearing loss with EVA.",10190331_3,0,117,0
+124,cancer,21,22,130,136,"One of the target genes for beta-catenin/TCF encodes c-MYC, explaining why constitutive activation of the WNT pathway can lead to cancer, particularly in the colon.",10192393_3,0,124,0
+125,cancers,2,3,11,18,"Most colon cancers arise from mutations in the gene encoding adenomatous polyposis coli (APC), a protein required for ubiquitin-mediated degradation of beta-catenin, but a small percentage of colon and some other cancers harbour beta-catenin-stabilizing mutations.",10192393_4,0,125,0
+127,cancers,35,36,213,220,"Most colon cancers arise from mutations in the gene encoding adenomatous polyposis coli (APC), a protein required for ubiquitin-mediated degradation of beta-catenin, but a small percentage of colon and some other cancers harbour beta-catenin-stabilizing mutations.",10192393_4,0,127,0
+131,sensorineural hearing loss,15,18,96,122,"
+Pendred syndrome is the most common form of syndromic deafness and characterized by congenital sensorineural hearing loss and goitre.",10192399_1,0,131,0
+143,ovarian cancer,8,10,59,73,Germline BRCA1 alterations in a population-based series of ovarian cancer cases.,10196379_0,0,143,0
+146,ovarian cancer,17,19,111,125,"To achieve this, we determined the prevalence of BRCA1 alterations in a population-based series of consecutive ovarian cancer cases.",10196379_2,0,146,0
+147,ovarian cancer,5,7,35,49,This is the first population-based ovarian cancer study reporting BRCA1 alterations derived from a comprehensive screen of the entire coding region.,10196379_3,0,147,0
+149,ovarian cancer,9,11,48,62,Both patients had a family history of breast or ovarian cancer.,10196379_6,0,149,0
+150,cancer,23,24,147,153,"Several novel as well as previously reported uncharacterized variants were also identified, some of which were associated with a family history of cancer.",10196379_7,0,150,0
+151,cancer,12,13,86,92,The frequency distribution of common polymorphisms was determined in the 91 Caucasian cancer cases in this series and 24 sister controls using allele-specific amplification.,10196379_8,0,151,0
+152,ovarian cancer,22,24,106,120,"The rare form of the Q356R polymorphism was significantly (P = 0. 03) associated with a family history of ovarian cancer, suggesting that this polymorphism may influence ovarian cancer risk.",10196379_9,0,152,0
+153,ovarian cancer,31,33,170,184,"The rare form of the Q356R polymorphism was significantly (P = 0. 03) associated with a family history of ovarian cancer, suggesting that this polymorphism may influence ovarian cancer risk.",10196379_9,0,153,0
+154,ovarian cancer,19,21,117,131,"In summary, our data suggest a role for some uncharacterized variants and rare forms of polymorphisms in determining ovarian cancer risk, and highlight the necessity to screen for missense alterations as well as truncating mutations in this population.",10196379_10,0,154,0
+159,tumor,6,7,33,38,"
+Germline mutations of the Brca1 tumor suppressor gene predispose women to breast and ovarian cancers.",10198641_1,0,159,0
+160,cancers,15,16,94,101,"
+Germline mutations of the Brca1 tumor suppressor gene predispose women to breast and ovarian cancers.",10198641_1,0,160,0
+164,death,13,14,77,82,We show that local or global alterations in the structure of the cytoplasmic death domain from nine independent ALPS CD95 death-domain mutations result in a failure to bind the FADD/MORT1 signaling protein.,10200300_1,0,164,0
+177,tumor,19,20,138,143,"These results suggest a molecular explanation for the genotype-phenotype correlation in FAP patients and support the idea that colorectal tumor growth might be, in part, driven by selection for a mutation in the mutation cluster region..",10213492_9,0,177,0
+178,ovarian cancer,17,19,118,132,"
+Germ-line mutations in the BRCA1 tumor-suppressor gene are associated with an increased susceptibility to breast and ovarian cancer.",10220405_1,0,178,0
+181,weakness,31,32,203,211,"
+Emery-Dreifuss muscular dystrophy (EDMD) is an X-linked recessive muscular dystrophy characterized by early contractures of the elbows, Achilles tendons and spine, slowly progressive muscle wasting and weakness, and cardiomyopathy associated with cardiac conduction defects.",10323252_1,0,181,0
+182,cardiomyopathy,34,35,217,231,"
+Emery-Dreifuss muscular dystrophy (EDMD) is an X-linked recessive muscular dystrophy characterized by early contractures of the elbows, Achilles tendons and spine, slowly progressive muscle wasting and weakness, and cardiomyopathy associated with cardiac conduction defects.",10323252_1,0,182,0
+183,weakness,31,32,179,187,"In comparison with the usual EDMD phenotype, patients with P183 missense mutations have a later age at onset of first symptoms, elbow contractures, ankle contractures, upper limb weakness and lower limb weakness, but there is no difference for the age at onset of cardiac involvement.",10323252_7,0,183,0
+194,cardiomyopathy,10,11,69,83,Alpha-cardiac actin is a novel disease gene in familial hypertrophic cardiomyopathy.,10330430_0,0,194,0
+196,cardiomyopathy,22,23,126,140,"
+We identified the alpha-cardiac actin gene (ACTC) as a novel disease gene in a pedigree suffering from familial hypertrophic cardiomyopathy (FHC).",10330430_1,0,196,0
+199,dilated cardiomyopathy,25,27,158,180,Mutation analysis of ACTC revealed an Ala295Ser mutation in exon 5 close to 2 missense mutations recently described to cause the inherited form of idiopathic dilated cardiomyopathy (IDC).,10330430_6,0,199,0
+211,inflammation,28,29,155,167,"To date, its diagnosis, which can be made only retrospectively, is one of exclusion, based entirely on nonspecific clinical signs that result from serosal inflammation and that may lead to unnecessary surgery.",10364520_2,0,211,0
+215,arthritis,17,18,107,116,"The M694V homozygous genotype was found to be associated with a higher prevalence of renal amyloidosis and arthritis, compared with other genotypes (P =.",10364520_7,0,215,0
+220,prostate cancer,5,7,36,51,"In Swedish families with hereditary prostate cancer, linkage to the HPC1 locus on chromosome 1q24-25 is restricted to families with early-onset prostate cancer.",10364525_0,0,220,0
+221,prostate cancer,24,26,144,159,"In Swedish families with hereditary prostate cancer, linkage to the HPC1 locus on chromosome 1q24-25 is restricted to families with early-onset prostate cancer.",10364525_0,0,221,0
+222,Prostate cancer,1,3,1,16,"
+Prostate cancer clusters in some families, and an estimated 5% -10% of all cases are estimated to result from inheritance of prostate cancer-susceptibility genes.",10364525_1,0,222,0
+223,prostate cancer,27,29,142,157,We previously reported evidence of linkage to the 1q24-25 region (HPC1) in 91 North American and Swedish families each with multiple cases of prostate cancer (Smith et al. 1996).,10364525_2,0,223,0
+224,prostate cancer,19,21,107,122,"In the present report we analyze 40 (12 original and 28 newly identified) Swedish families with hereditary prostate cancer (HPC) that, on the basis of 40 markers spanning a 25-cM interval within 1q24-25, have evidence of linkage.",10364525_3,0,224,0
+225,prostate cancer,17,19,97,112,"These results are consistent with the hypothesis of linkage to HPC1 in a subset of families with prostate cancer, particularly those with an early age at diagnosis.",10364525_12,0,225,0
+226,tumors,18,19,130,136,"
+The chromosome 22q11 region is susceptible to rearrangements that are associated with congenital anomaly disorders and malignant tumors.",10369860_1,0,226,0
+235,neuropathy,24,25,190,200,"Mutations in the human EGR2 gene have recently been associated with the inherited peripheral neuropathies Charcot-Marie-Tooth type 1, Dejerine-Sottas syndrome and congenital hypomyelinating neuropathy.",10369870_3,0,235,0
+252,prostate cancer,11,13,63,78,Common mutations in BRCA1 and BRCA2 do not contribute to early prostate cancer in Jewish men.,10398279_0,0,252,0
+254,prostate cancer,32,34,182,197,"
+BACKGROUND  Families with a high incidence of hereditary breast cancer, and subsequently shown to have terminating mutations in BRCA1 or BRCA2, appear to have a higher incidence of prostate cancer among male relatives.",10398279_1,0,254,0
+255,prostate cancer,20,22,122,137,We aimed to determine whether the common germline mutations of BRCA1 or BRCA2 in Ashkenazi Jewish men predisposed them to prostate cancer.,10398279_2,0,255,0
+256,prostate cancer,22,24,106,121,"METHODS  We examined genomic DNA from 83 (for BRCA1 185delAG) or 82 (for BRCA2 6174delT) Ashkenazi Jewish prostate cancer patients, most of whom were treated at a relatively young age, for the most common germline mutation in each gene seen in the Ashkenazi population.",10398279_3,0,256,0
+257,prostate cancer,19,21,86,101,RESULTS  Our study should have been able to detect a 4-5-fold increase in the risk of prostate cancer due to mutation of BRCA1 or BRCA2.,10398279_4,0,257,0
+258,prostate cancer,12,14,70,85,CONCLUSIONS  The incidence of each of the germline mutations in these prostate cancer patients closely matched their incidence (about 1%) in the general Ashkenazi Jewish population.,10398279_7,0,258,0
+259,cancers,9,10,54,61,"This suggests that unlike cases of breast and ovarian cancers, mutations in BRCA1 or BRCA2 do not significantly predispose men to prostate cancer",10398279_8,0,259,0
+261,tumor,6,7,36,41,"
+Hepatoblastoma is a rare malignant tumor of the liver that occurs in children at an average age of 2 to 3 years.",10398436_1,0,261,0
+262,tumor,9,10,64,69,Epidemiologic studies have shown an increased frequency of this tumor type in families affected by adenomatous polyposis coli.,10398436_2,0,262,0
+264,tumor,16,17,102,107,"In addition to the epidemiologic data, molecular genetic studies suggest that inactivation of the APC tumor suppressor may be involved in hepatoblastoma tumorigenesis.",10398436_3,0,264,0
+266,tumor,12,13,88,93,"In an ongoing immunohistochemical study of beta-catenin expression in sporadic cases of tumor types that are associated with adenomatous polyposis coli, we observed increased beta-catenin levels in the cytoplasm and in the nuclei of three investigated hepatoblastomas.",10398436_5,0,266,0
+268,tumor,19,20,101,106,Sequencing of exon 3 of the beta-catenin gene (CTNNB1) revealed an activating mutation in one of the tumor samples.,10398436_6,0,268,0
+270,tumor,34,35,226,231,Our data indicate for the first time that beta-catenin accumulation may play a role in the development of hepatoblastoma and that activating mutations of the beta-catenin gene may substitute biallelic APC inactivation in this tumor type.,10398436_7,0,270,0
+271,Cancer,2,3,18,24,"Genes Chromosomes Cancer 25  399-402, 1999..",10398436_8,0,271,0
+272,dystonia,16,17,112,120,Decrease in GTP cyclohydrolase I gene expression caused by inactivation of one allele in hereditary progressive dystonia with marked diurnal fluctuation.,10403837_0,0,272,0
+273,dystonia,3,4,24,32,"
+Hereditary progressive dystonia with marked diurnal fluctuation (HPD; dopa-responsive dystonia, DRD) have been recently found to be caused by a genetic defect in the GTP cyclohydrolase I (GCH1) gene.",10403837_1,0,273,0
+274,dystonia,12,13,87,95,"
+Hereditary progressive dystonia with marked diurnal fluctuation (HPD; dopa-responsive dystonia, DRD) have been recently found to be caused by a genetic defect in the GTP cyclohydrolase I (GCH1) gene.",10403837_1,0,274,0
+293,carcinoma,9,10,49,58,Mutations of the VHL gene in sporadic renal cell carcinoma: definition of a risk factor for VHL patients to develop an RCC.,10408776_0,0,293,0
+294,tumor,28,29,159,164,"
+To investigate the nature of somatic von Hippel-Lindau (VHL) mutations, we analyzed 173 primary sporadic human renal cell carcinomas for mutations of the VHL tumor suppressor gene, using polymerase chain reaction (PCR) and single-strand conformational polymorphism analysis (SSCP) of DNA.",10408776_1,0,294,0
+295,carcinoma,10,11,61,70,"VHL mutations were found only in the nonpapillary renal cell carcinoma (RCC) subtype, as previously reported.",10408776_5,0,295,0
+317,tumor,4,5,17,22,"
+BRCA1 encodes a tumor suppressor that is mutated in familial breast and ovarian cancers.",10426999_1,0,317,0
+318,cancers,14,15,81,88,"
+BRCA1 encodes a tumor suppressor that is mutated in familial breast and ovarian cancers.",10426999_1,0,318,0
+319,breast cancer,19,21,118,131,"Formation of irradiation-induced foci positive for BRCA1, hRad50, hMre11, or p95 was dramatically reduced in HCC/1937 breast cancer cells carrying a homozygous mutation in BRCA1 but was restored by transfection of wild-type BRCA1.",10426999_4,0,319,0
+336,toxicity,12,13,61,69,"Mutations in the ATP7B gene lead to Wilson disease, a copper toxicity disorder characterized by dramatic build-up of intracellular hepatic copper with subsequent hepatic and neuro-logical abnormalities.",10441329_2,0,336,0
+338,cirrhosis,3,4,39,48,Morphological abnormalities resembling cirrhosis developed in the majority of the livers from homozygous mutants older than 7 months of age.,10441329_6,0,338,0
+339,liver disease,14,16,79,92,"In summary, inactivation of the murine ATP7B gene produces a form of cirrhotic liver disease that resembles Wilson disease in humans and the toxic milk phenotype in the mouse..",10441329_9,0,339,0
+348,cataract,33,34,194,202,"
+The PAX6 gene is involved in ocular morphogenesis, and PAX6 mutations have been detected in various types of ocular anomalies, including aniridia, Peters anomaly, corneal dystrophy, congenital cataract, and foveal hypoplasia.",10441571_1,0,348,0
+350,cataract,14,15,91,99,"We ascertained a novel missense mutation in four pedigrees with Peters anomaly, congenital cataract, Axenfeldt anomaly, and/or foveal hypoplasia, which, to our knowledge, is the first mutation identified in the splice-variant region.",10441571_7,0,350,0
+351,breast cancer,9,11,59,72,Penetrances of BRCA1 1675delA and 1135insA with respect to breast cancer and ovarian cancer.,10441573_0,0,351,0
+352,ovarian cancer,12,14,77,91,Penetrances of BRCA1 1675delA and 1135insA with respect to breast cancer and ovarian cancer.,10441573_0,0,352,0
+353,cancer,12,13,89,95,"
+For genetic counseling and predictive testing in families with inherited breast-ovarian cancer, penetrances and expressions of the underlying mutations should be known.",10441573_1,0,353,0
+354,cancers,18,19,105,112,Index cases for the present study were found two different ways  through a series of consecutive ovarian cancers (n = 16) and through our family cancer clinic (n = 14).,10441573_3,0,354,0
+355,cancer,28,29,145,151,Index cases for the present study were found two different ways  through a series of consecutive ovarian cancers (n = 16) and through our family cancer clinic (n = 14).,10441573_3,0,355,0
+356,ovarian cancer,25,27,153,167,"Altogether, 20 of the patients had BRCA1 1675delA, and 10 had 1135insA. Their relatives were described with respect to absence/presence of breast and/or ovarian cancer.",10441573_4,0,356,0
+358,ovarian cancer,29,31,162,176,The overall findings were that disease started to occur at age 30 years and that by age 50 years 48% of the mutation-carrying women had experienced breast and/or ovarian cancer.,10441573_7,0,358,0
+359,cancers,2,3,13,20,More ovarian cancers than breast cancers were recorded.,10441573_8,0,359,0
+361,breast cancer,5,7,32,45,Both penetrance and expression (breast cancer vs. ovarian cancer) were different from those in reports of the Ashkenazi founder mutations.,10441573_9,0,361,0
+362,ovarian cancer,8,10,50,64,Both penetrance and expression (breast cancer vs. ovarian cancer) were different from those in reports of the Ashkenazi founder mutations.,10441573_9,0,362,0
+365,tumors,5,6,49,55,"Finally, COLIA1/PDGFB-expressing cells generated tumors after s. c c. injection into nude mice, and tumor growth was reduced by treatment with CGP57148B.",10446987_7,0,365,0
+367,tumor,11,12,77,82,We conclude that the COLIA1/PDGFB fusion associated with DFSP contributes to tumor development through ectopic production of PDGF-BB and the formation of an autocrine loop.,10446987_8,0,367,0
+384,infections,19,20,131,141,"
+Wiskott-Aldrich syndrome (WAS) is an X-linked recessive immunodeficiency characterized by thrombocytopenia, eczema, and recurrent infections, and caused by mutations in the WAS protein (WASP) gene.",10447259_1,0,384,0
+386,cancer,19,20,128,134,"
+Ataxia-telangiectasia (A-T) is characterized by a markedly increased sensitivity to ionizing radiation, increased incidence of cancer, and neurodegeneration, especially of the cerebellar Purkinje cells.",10449794_1,0,386,0
+394,tumor,11,12,44,49,"
+APC is often cited as a prime example of a tumor suppressor gene.",10470088_1,0,394,0
+395,tumors,15,16,84,90,"Truncating germline and somatic mutations (or, infrequently, allelic loss) occur in tumors in FAP (familial adenomatous polyposis).",10470088_2,0,395,0
+396,cancers,3,4,25,32,Most sporadic colorectal cancers also have two APC mutations.,10470088_3,0,396,0
+398,tumor,8,9,35,40,"APC is not, therefore, a classical tumor suppressor.",10470088_9,0,398,0
+400,tumors,20,21,115,121,"Our findings also indicate a new mechanism for disease severity  if a broader spectrum of mutations is selected in tumors, the somatic mutation rate is effectively higher and more tumors grow..",10470088_10,0,400,0
+401,tumors,31,32,180,186,"Our findings also indicate a new mechanism for disease severity  if a broader spectrum of mutations is selected in tumors, the somatic mutation rate is effectively higher and more tumors grow..",10470088_10,0,401,0
+402,tumor,15,16,86,91,"
+Mxi1 is thought to negatively regulate Myc function and may therefore be a potential tumor suppressor gene.",10470286_1,0,402,0
+403,tumors,15,16,87,93,Little effort has yet been made to find alterations involving this gene in human solid tumors.,10470286_2,0,403,0
+404,cancers,5,6,29,36,"We screened 31 human gastric cancers, 7 esophageal cancers, 85 bone and soft tissue tumors of various types, including 4 neurofibrosarcomas.",10470286_3,0,404,0
+405,cancers,9,10,51,58,"We screened 31 human gastric cancers, 7 esophageal cancers, 85 bone and soft tissue tumors of various types, including 4 neurofibrosarcomas.",10470286_3,0,405,0
+406,tumors,16,17,84,90,"We screened 31 human gastric cancers, 7 esophageal cancers, 85 bone and soft tissue tumors of various types, including 4 neurofibrosarcomas.",10470286_3,0,406,0
+407,tumor,5,6,26,31,"We also examined 29 human tumor cell lines consisting of 12 esophageal cancers, 7 glioma/glioblastomas and 10 others for Mxi1 mutations in exons 1, 2, 4 (HLH domain), 5 and 6.",10470286_4,0,407,0
+417,fibrosis,13,14,75,83,"Eleven of the 16 homozygous subjects underwent liver biopsy; 3 had hepatic fibrosis, and 1, who had a history of excessive alcohol consumption, had cirrhosis and mild microvesicular steatosis.",10471457_12,0,417,0
+418,cirrhosis,28,29,148,157,"Eleven of the 16 homozygous subjects underwent liver biopsy; 3 had hepatic fibrosis, and 1, who had a history of excessive alcohol consumption, had cirrhosis and mild microvesicular steatosis.",10471457_12,0,418,0
+419,hepatomegaly,21,22,136,148,"Eight of the 16 homozygous subjects had clinical findings that were consistent with the presence of hereditary hemochromatosis, such as hepatomegaly, skin pigmentation, and arthritis.",10471457_13,0,419,0
+420,arthritis,27,28,173,182,"Eight of the 16 homozygous subjects had clinical findings that were consistent with the presence of hereditary hemochromatosis, such as hepatomegaly, skin pigmentation, and arthritis.",10471457_13,0,420,0
+425,death,44,45,288,293,"These results confirmed the diagnosis of X-linked Emery-Dreifuss muscular dystrophy (EDMD), and reinforce the necessity of molecular genetic diagnosis of the membrane protein emerin in younger patients with possible EDMD before appearance of the typical symptoms, to avoid sudden cardiac death..",10480214_4,0,425,0
+448,cancer,15,16,98,104,"
+Li-Fraumeni syndrome is an autosomal dominant disorder that is characterized by various types of cancer in childhood and adult cases.",10484981_1,0,448,0
+449,cancers,10,11,66,73,"Although hereditary TP53 mutation is very rare in different human cancers, it has been frequently reported in Li-Fraumeni syndrome.",10484981_2,0,449,0
+451,cancer,30,31,153,159,"On the other hand, hereditary mutations of TP57KIP2, P15INK4B, and P16INK4A, which affect the cell cycle similar to TP53, were observed in some types of cancer.",10484981_3,0,451,0
+453,tumor,45,46,262,267,"In a Turkish family with the diagnosis of Li-Fraumeni syndrome, we analyzed the mutation pattern of TP53, P57KIP2, P15INK4B, and P16INK4A in the peripheral blood, and loss of heterozygosity (homo/hemizygous deletion) pattern of TP53 and P15INK4B/P16INK4A in two tumor tissues.",10484981_4,0,453,0
+456,Tumor,0,1,0,5,Tumor tissue obtained from the propositus with the seminoma revealed loss of heterozygosity in the TP53 gene.,10484981_6,0,456,0
+458,tumor,4,5,19,24,"In the analyses of tumor tissues from the propositus and his daughter, a P16INK4A codon 94 missense point mutation (GCG-- > GAG; Ala-- > Glu) was observed with the hereditary TP53 mutation.",10484981_7,0,458,0
+460,tumor,12,13,63,68,The gene alterations in TP53 and P16INK4A genes may be used as tumor markers in our family..,10484981_11,0,460,0
+470,ataxia,36,37,202,208,"
+Friedreich ataxia (FRDA), the most common of the inherited ataxias, is an autosomal recessive degenerative disorder, characterized clinically by onset before the age of 25 of progressive gait and limb ataxia, absence of deep tendon reflexes, extensor plantar responses, and loss of position and vibration sense in the lower limbs.",10500204_1,0,470,0
+487,arthritis,15,16,87,96,"None had chronic or prolonged manifestations of FMF, for example, amyloidosis, chronic arthritis, or protracted myalgia, P < 0. 001.",10528243_9,0,487,0
+488,myalgia,19,20,112,119,"None had chronic or prolonged manifestations of FMF, for example, amyloidosis, chronic arthritis, or protracted myalgia, P < 0. 001.",10528243_9,0,488,0
+497,infections,3,4,21,31,"Recurrent middle ear infections, a high pain threshold, and a great skill with jigsaw puzzles were reported.",10528860_9,0,497,0
+498,pain,7,8,40,44,"Recurrent middle ear infections, a high pain threshold, and a great skill with jigsaw puzzles were reported.",10528860_9,0,498,0
+503,cardiomyopathy,13,14,80,94,"There was no significant correlation between the size of the smaller allele and cardiomyopathy, diabetes mellitus, loss of proprioception, or bladder symptoms.",10533031_6,0,503,0
+506,diabetes,13,14,78,86,"The duration of disease is correlated with wheelchair use and the presence of diabetes, scoliosis, bladder symptoms and impaired proprioception, and vibration sense but no other complications studied..",10533031_8,0,506,0
+515,ataxia,11,12,55,61,"
+Friedreich ataxia (FRDA) is the most common inherited ataxia.",10543403_1,0,515,0
+521,tumors,40,41,260,266,"
+von Hippel-Lindau (VHL) disease is an autosomal dominantly inherited cancer syndrome predisposing to a variety of tumor types that include retinal hemangioblastomas, hemangioblastomas of the central nervous system, renal cell carcinomas, pancreatic cysts and tumors, pheochromocytomas, endolymphatic sac tumors, and epididymal cystadenomas [W. M. Linehan et al., J. Am.",10554035_1,0,521,0
+522,tumors,46,47,305,311,"
+von Hippel-Lindau (VHL) disease is an autosomal dominantly inherited cancer syndrome predisposing to a variety of tumor types that include retinal hemangioblastomas, hemangioblastomas of the central nervous system, renal cell carcinomas, pancreatic cysts and tumors, pheochromocytomas, endolymphatic sac tumors, and epididymal cystadenomas [W. M. Linehan et al., J. Am.",10554035_1,0,522,0
+523,Cancer,59,60,206,212,"Assoc., 273  564-570, 1995; E. A. Maher and W. G. Kaelin, Jr., Medicine (Baltimore), 76  381-391, 1997; W. M. Linehan and R. D. Klausner, In  B. Vogelstein and K. Kinzler (eds.), The Genetic Basis of Human Cancer, pp. 455-473, McGraw-Hill, 1998].",10554035_3,0,523,0
+524,Cancer,14,15,36,42,"Genet., 33  328-332, 1996; B. Zbar, Cancer Surv., 25  219-232, 1995).",10554035_10,0,524,0
+525,cancer,7,8,50,56,Spectrum of hSNF5/INI1 somatic mutations in human cancer and genotype-phenotype correlations.,10556283_0,0,525,0
+526,tumor,19,20,112,117,"
+The hSNF5/INI1 gene which encodes a member of the SWI/SNF chromatin ATP-dependent remodeling complex, is a new tumor suppressor gene localized on chromosome 22q11.",10556283_1,0,526,0
+527,tumors,10,11,57,63,2 and recently shown to be mutated in malignant rhabdoid tumors.,10556283_2,0,527,0
+528,tumors,8,9,49,55,We have searched for hSNF5/INI1 mutations in 229 tumors of various origins using a screening method based on denaturing high-performance liquid chromatography.,10556283_3,0,528,0
+529,tumors,6,7,42,48,"Mutations were retrieved in most rhabdoid tumors, whatever their sites of occurrence, indicating the common pathogenetic origin of these tumors.",10556283_6,0,529,0
+530,tumors,21,22,137,143,"Mutations were retrieved in most rhabdoid tumors, whatever their sites of occurrence, indicating the common pathogenetic origin of these tumors.",10556283_6,0,530,0
+532,cancers,11,12,68,75,"In contrast, hSNF5/INI1 point mutations were not detected in breast cancers, Wilms tumors, gliomas, ependymomas, sarcomas and other tumor types, even though most analyzed cases harbored loss of heterozygosity at 22q11.",10556283_8,0,532,0
+533,tumors,14,15,83,89,"In contrast, hSNF5/INI1 point mutations were not detected in breast cancers, Wilms tumors, gliomas, ependymomas, sarcomas and other tumor types, even though most analyzed cases harbored loss of heterozygosity at 22q11.",10556283_8,0,533,0
+536,cancers,38,39,275,282,"These results suggest that rhabdoid tumors, choroid plexus carcinomas and a subset of medulloblastomas and cPNETs share common pathways of oncogenesis related to hSNF5/INI1 alteration and that hSNF5/INI1 mutations define a genetically homogeneous family of highly aggressive cancers mainly occurring in young children and frequently, but not always, exhibiting a rhabdoid phenotype",10556283_10,0,536,0
+537,ataxia,2,3,17,23,"
+Spinocerebellar ataxia type-3 or Machado-Joseph disease (SCA3/MJD) is a member of the CAG/polyglutamine repeat disease family.",10556285_1,0,537,0
+546,cancer,7,8,54,60,"
+Alveolar rhabdomyosarcoma is an aggressive pediatric cancer of striated muscle characterized in 60% of cases by a t (2; 13) (q35; q14).",10557309_1,0,546,0
+555,malignancies,27,28,167,179,We hypothesize that structural rearrangement of 14q is directly related to abnormal growth of lymphocytes and that it may be a step toward the development of lymphoid malignancies.,1056013_9,0,555,0
+566,sensorineural hearing loss,17,20,113,139,"
+Pendred syndrome is a recessive inherited disorder that consists of developmental abnormalities of the cochlea, sensorineural hearing loss, and diffuse thyroid enlargement (goiter).",10571950_1,0,566,0
+593,thrombocytopenia,21,22,109,125,"
+A new platelet-specific alloantigen, termed Sit (a), was identified in a severe case of neonatal alloimmune thrombocytopenia.",10590055_1,0,593,0
+594,Platelet aggregation,0,2,0,20,"Platelet aggregation responses of Sit (a) (+) individuals were diminished in response to collagen, indicating that the Thr (799) Met mutation affects the function of the GPIa/IIa complex",10590055_11,0,594,0
+604,cancer,21,22,130,136,"
+Inherited mutations of the APC gene predispose carriers to multiple adenomatous polyps of the colon and rectum and to colorectal cancer.",10598803_1,0,604,0
+608,cancer,17,18,110,116,Many individuals with AAPC develop relatively few colorectal polyps but are still at high risk for colorectal cancer.,10598803_3,0,608,0
+612,sensorineural hearing loss,14,17,96,122,"
+Alstrom syndrome is a rare autosomal recessive disorder characterized by retinal degeneration, sensorineural hearing loss, early-onset obesity, and non-insulin-dependent diabetes mellitus.",10598815_1,0,612,0
+619,sensorineural hearing loss,5,8,39,65,"
+Pendred syndrome comprises congenital sensorineural hearing loss, thyroid goiter, and positive perchlorate discharge test.",10602116_1,0,619,0
+632,hypersensitivity,21,22,120,136,"The cellular features resulting from these hMRE11 mutations are similar to those seen in A-T as well as NBS and include hypersensitivity to ionizing radiation, radioresistant DNA synthesis, and abrogation of ATM-dependent events, such as the activation of Jun kinase following exposure to gamma irradiation.",10612394_2,0,632,0
+650,death,33,34,204,209,"There is mounting evidence to suggest that Friedreich ataxia is the result of accumulation of iron in mitochondria leading to excess production of free radicals, which then results in cellular damage and death.",10633128_5,0,650,0
+654,visual loss,16,18,100,111,"
+BACKGROUND  X-linked retinoschisis (XLRS) is a relatively rare vitreoretinal dystrophy that causes visual loss in young men.",10636421_1,0,654,0
+659,hypersensitivity,30,31,197,213,"
+Ataxia-telangiectasia is a hereditary multisystemic disease resulting from mutations of ataxia telangiectasia, mutated (ATM) and is characterized by neurodegeneration, cancer, immune defects, and hypersensitivity to ionizing radiation.",10639175_1,0,659,0
+660,death,6,7,25,30,"Here, we report that the death effector Bax is required for a large proportion of Atm-dependent apoptosis in the developing CNS after ionizing radiation (IR).",10639175_4,0,660,0
+661,death,7,8,42,47,These data implicate Bax and caspase-3 as death effectors in neurodegenerative pathways..,10639175_8,0,661,0
+670,breast cancer,22,24,124,137,"In view of this discrepancy, we examined the frequency of ATM germline mutations in a selected group of Dutch patients with breast cancer.",10677309_4,0,670,0
+671,breast cancer,13,15,90,103,A high percentage of ATM germline mutations was demonstrated among patients with sporadic breast cancer.,10677309_6,0,671,0
+672,breast cancer,9,11,53,66,"The 82 patients included in this study had developed breast cancer at age < 45 and had survived >/= 5 years (mean 15 years), and in 33 (40%) of the patients a contralateral breast tumor had been diagnosed.",10677309_7,0,672,0
+673,tumor,41,42,180,185,"The 82 patients included in this study had developed breast cancer at age < 45 and had survived >/= 5 years (mean 15 years), and in 33 (40%) of the patients a contralateral breast tumor had been diagnosed.",10677309_7,0,673,0
+674,breast cancer,7,9,56,69,Four heterozygous carriers were patients with bilateral breast cancer.,10677309_10,0,674,0
+675,breast cancer,25,27,154,167,"Our results indicate that the mutations identified in this study are "" A-T disease-causing "" mutations that might be associated with an increased risk of breast cancer in heterozygotes.",10677309_11,0,675,0
+676,breast cancer,15,17,105,118,"We conclude that ATM heterozygotes have an approximately ninefold-increased risk of developing a type of breast cancer characterized by frequent bilateral occurrence, early age at onset, and long-term survival.",10677309_12,0,676,0
+677,hemolytic anemia,8,10,61,77,Inherited G6PD deficiency is associated with either episodic hemolytic anemia (triggered by fava beans or other agents) or life-long hemolytic anemia.,10698963_2,0,677,0
+678,hemolytic anemia,21,23,133,149,Inherited G6PD deficiency is associated with either episodic hemolytic anemia (triggered by fava beans or other agents) or life-long hemolytic anemia.,10698963_2,0,678,0
+689,thrombosis,15,16,79,89,"First-degree relatives with a PROS1 gene defect had a 5. 0-fold higher risk of thrombosis (95% confidence interval, 1. 5-16.",10706858_7,0,689,0
+690,thrombosis,9,10,93,103,"Although pregnancy/puerperium and immobility/trauma were important precipitating factors for thrombosis, almost half of the events were spontaneous.",10706858_9,0,690,0
+700,prostate cancer,4,6,32,47,"Combined analysis of hereditary prostate cancer linkage to 1q24-25: results from 772 hereditary prostate cancer families from the International Consortium for Prostate Cancer Genetics.
+A previous linkage study provided evidence for a prostate cancer-susceptibility locus at 1q24-25.",10712209_0,0,700,0
+701,prostate cancer,16,18,96,111,"Combined analysis of hereditary prostate cancer linkage to 1q24-25: results from 772 hereditary prostate cancer families from the International Consortium for Prostate Cancer Genetics.
+A previous linkage study provided evidence for a prostate cancer-susceptibility locus at 1q24-25.",10712209_0,0,701,0
+702,Prostate Cancer,24,26,159,174,"Combined analysis of hereditary prostate cancer linkage to 1q24-25: results from 772 hereditary prostate cancer families from the International Consortium for Prostate Cancer Genetics.
+A previous linkage study provided evidence for a prostate cancer-susceptibility locus at 1q24-25.",10712209_0,0,702,0
+703,prostate cancer,17,19,115,130,"In addition, evidence for locus heterogeneity has been provided by the identification of other putative hereditary prostate cancer loci on Xq27-28, 1q42-43, and 1p36.",10712209_2,0,703,0
+708,prostate cancer,22,24,124,139,"These results support the finding of a prostate cancer-susceptibility gene linked to 1q24-25, albeit in a defined subset of prostate cancer families.",10712209_25,0,708,0
+709,prostate cancer,14,16,90,105,"Although HPC1 accounts for only a small proportion of all families affected by hereditary prostate cancer, it appears to play a more prominent role in the subset of families with several members affected at an early age and with male-to-male disease transmission.",10712209_26,0,709,0
+720,cancers,26,27,130,137,"
+Mutations in the BRCA1 (ref. 1) tumour suppressor gene are found in almost all of the families with inherited breast and ovarian cancers and about half of the families with only breast cancer.",10724175_1,0,720,0
+721,breast cancer,35,37,179,192,"
+Mutations in the BRCA1 (ref. 1) tumour suppressor gene are found in almost all of the families with inherited breast and ovarian cancers and about half of the families with only breast cancer.",10724175_1,0,721,0
+722,ataxia,5,6,44,50,Characterization of the rat spinocerebellar ataxia type 3 gene.,10732811_0,0,722,0
+726,ataxia,22,23,147,153,"In Caucasians, repeat expansions in the MJD1 gene have also been found in patients with the clinically distinct autosomal dominant spinocerebellar ataxia type 3 (SCA3).",10732811_3,0,726,0
+728,death,48,49,313,318,"
+X-linked recessive Emery-Dreifuss muscular dystrophy (EDMD) is an inherited muscle disorder characterized by the clinical triad of progressive wasting of humero-peroneal muscles, early contractures of the elbows, Achilles tendons and postcervical muscles, and cardiac conduction block with a high risk of sudden death.",10732816_1,0,728,0
+740,dystonia,7,8,47,55,"
+Primary dystonias are movement disorders with dystonia as a major symptom.",10737119_1,0,740,0
+741,dystonia,35,36,180,188,"To date gene loci have been identified in at least six autosomal dominant forms, i. e., in idiopathic torsion dystonia (9q34), focal dystonia (18p), adult-onset idiopathic torsion dystonia of mixed type (8p21-q22), dopa-responsive dystonia (14q22.",10737119_6,0,741,0
+744,dystonia,15,16,97,105,"1 in the X-linked dystonia parkinsonism syndrome and to Xq22 in X-linked sensorineural deafness, dystonia, and mental retardation.",10737119_9,0,744,0
+746,dystonia,14,15,90,98,"Mutations in a gene coding for an ATP-binding protein were detected in idiopathic torsion dystonia (DYT1), and the GTP cyclohydrolase 1 gene is mutated in dopa-responsive dystonia (DYT5).",10737119_11,0,746,0
+747,dystonia,29,30,171,179,"Mutations in a gene coding for an ATP-binding protein were detected in idiopathic torsion dystonia (DYT1), and the GTP cyclohydrolase 1 gene is mutated in dopa-responsive dystonia (DYT5).",10737119_11,0,747,0
+749,dystonia,4,5,27,35,"In sensorineural deafness, dystonia, and mental retardation , mutations were found in the gene DDP coding for a polypeptide of unknown function.",10737119_12,0,749,0
+754,cardiomyopathy,77,78,417,431,"Interestingly, all patients with cardiac involvement were homozygous for one of these mutations  R59H, Y591C, Y591N, or IVS14-2A > G. In contrast, all other patients were compound heterozygous for one of the following mutations  R201H, R482H, G579D, IVS8 + 2T > C. Although we could not directly correlate the presence of cardiac abnormalities with specific genetic lesions, the mutations identified in patients with cardiomyopathy fell in the GLB1 cDNA region common to the lysosomal enzyme and the Hbeta-Gal-related protein, also known as the elastin binding protein (EBP).",10737981_5,0,754,0
+762,tumors,32,33,191,197,We provide data supporting the central utility of this animal model as a tool to understand the molecular mechanisms underlying the development of one of the most common kind of human benign tumors..,10747931_5,0,762,0
+772,glaucoma,15,16,89,97,"Clinically observed dysgenesis does not correlate with IOP, however, and the etiology of glaucoma development is not understood.",10767326_2,0,772,0
+773,glaucoma,16,17,92,100,"Mutations in the human homolog of Foxc1, FKHL7, cause dominant anterior segment defects and glaucoma in various families.",10767326_4,0,773,0
+774,glaucoma,50,51,252,260,"Foxc1 (+/-) and Foxc2 (+/-) mice are useful models for studying anterior segment development and its anomalies, and may allow identification of genes that interact with Foxc1 and Foxc2 (or FKHL7 and FKHL14) to produce a phenotype with elevated IOP and glaucoma..",10767326_12,0,774,0
+789,ataxia,12,13,63,69,"
+Friedreich ataxia (FRDA), the most common autosomal recessive ataxia, is caused in almost all cases by homozygous intronic expansions resulting in the loss of frataxin, a mitochondrial protein conserved through evolution, and involved in mitochondrial iron homeostasis.",10767347_1,0,789,0
+792,death,20,21,130,135,"Surprisingly, in the frataxin knockout mouse, no iron accumulation was observed during embryonic resorption, suggesting that cell death could be due to a mechanism independent of iron accumulation..",10767347_7,0,792,0
+798,arthritis,8,9,57,66,Five patients had evidence of a sero-negative peripheral arthritis resembling peripheral psoriatic arthritis and 3 of these were B27 negative.,107868_2,0,798,0
+799,arthritis,12,13,99,108,Five patients had evidence of a sero-negative peripheral arthritis resembling peripheral psoriatic arthritis and 3 of these were B27 negative.,107868_2,0,799,0
+814,cancer,11,12,75,81,Founder mutations in the BRCA1 gene in Polish families with breast-ovarian cancer.,10788334_0,0,814,0
+815,cancer,9,10,53,59,"The study group consisted of 66 Polish families with cancer who have at least three related females affected with breast or ovarian cancer and who had cancer diagnosed, in at least one of the three affected females, at age < 50 years.",10788334_2,0,815,0
+816,ovarian cancer,21,23,124,138,"The study group consisted of 66 Polish families with cancer who have at least three related females affected with breast or ovarian cancer and who had cancer diagnosed, in at least one of the three affected females, at age < 50 years.",10788334_2,0,816,0
+817,cancer,26,27,151,157,"The study group consisted of 66 Polish families with cancer who have at least three related females affected with breast or ovarian cancer and who had cancer diagnosed, in at least one of the three affected females, at age < 50 years.",10788334_2,0,817,0
+818,cancers,10,11,51,58,"A total of 26 families had both breast and ovarian cancers, 4 families had ovarian cancers only, and 36 families had breast cancers only.",10788334_3,0,818,0
+819,cancers,16,17,83,90,"A total of 26 families had both breast and ovarian cancers, 4 families had ovarian cancers only, and 36 families had breast cancers only.",10788334_3,0,819,0
+820,cancers,24,25,124,131,"A total of 26 families had both breast and ovarian cancers, 4 families had ovarian cancers only, and 36 families had breast cancers only.",10788334_3,0,820,0
+821,ovarian cancer,9,11,62,76,"BRCA1 abnormalities were identified in all four families with ovarian cancer only, in 67% of 27 families with both breast and ovarian cancer, and in 34% of 35 families with breast cancer only.",10788334_8,0,821,0
+823,breast cancer,34,36,173,186,"BRCA1 abnormalities were identified in all four families with ovarian cancer only, in 67% of 27 families with both breast and ovarian cancer, and in 34% of 35 families with breast cancer only.",10788334_8,0,823,0
+832,cataracts,5,6,31,40,Mice deficient in Six5 develop cataracts: implications for myotonic dystrophy.,10802667_0,0,832,0
+837,cataracts,38,39,220,229,"
+Expansion of a CTG trinucleotide repeat in the 3 UTR of the gene DMPK at the DM1 locus on chromosome 19 causes myotonic dystrophy, a dominantly inherited disease characterized by skeletal muscle dystrophy and myotonia, cataracts and cardiac conduction defects.",10802667_1,0,837,0
+838,myopathy,17,18,89,97,"Targeted deletion of Dm15, the mouse orthologue of human DMPK, produced mice with a mild myopathy and cardiac conduction abnormalities, but without other features of myotonic dystrophy, such as myotonia and cataracts.",10802667_2,0,838,0
+841,cataracts,35,36,207,216,"Targeted deletion of Dm15, the mouse orthologue of human DMPK, produced mice with a mild myopathy and cardiac conduction abnormalities, but without other features of myotonic dystrophy, such as myotonia and cataracts.",10802667_2,0,841,0
+843,cataract,9,10,60,68,"Our results suggest that SIX5 deficiency contributes to the cataract phenotype in myotonic dystrophy, and that myotonic dystrophy represents a multigenic disorder..",10802667_7,0,843,0
+846,cataracts,11,12,64,73,Heterozygous loss of Six5 in mice is sufficient to cause ocular cataracts.,10802668_0,0,846,0
+850,arrhythmia,20,21,119,129,"
+Myotonic dystrophy (DM) is an autosomal dominant disorder characterized by skeletal muscle wasting, myotonia, cardiac arrhythmia, hyperinsulinaemia, mental retardation and ocular cataracts.",10802668_1,0,850,0
+851,cataracts,28,29,180,189,"
+Myotonic dystrophy (DM) is an autosomal dominant disorder characterized by skeletal muscle wasting, myotonia, cardiac arrhythmia, hyperinsulinaemia, mental retardation and ocular cataracts.",10802668_1,0,851,0
+855,cataract,9,10,54,62,Our results demonstrate that the rate and severity of cataract formation is inversely related to Six5 dosage and is temporally progressive.,10802668_9,0,855,0
+856,cataract,11,12,64,72,"Thus, altered ion homeostasis within the lens may contribute to cataract formation.",10802668_11,0,856,0
+857,cataracts,2,3,10,19,"As ocular cataracts are a characteristic feature of DM, these results demonstrate that decreased SIX5 transcription is important in the aetiology of DM.",10802668_12,0,857,0
+863,cancer,29,30,193,199,"
+Mutations in the gene ATM are responsible for the genetic disorder ataxia-telangiectasia (A-T), which is characterized by cerebellar dysfunction, radiosensitivity, chromosomal instability and cancer predisposition.",10802669_1,0,863,0
+865,cancer,13,14,96,102,"There are strong parallels between the pattern of radiosensitivity, chromosomal instability and cancer predisposition in A-T patients and that in patients with Nijmegen breakage syndrome (NBS).",10802669_3,0,865,0
+867,ovarian cancer,6,8,55,69,Clinicopathologic features of BRCA-linked and sporadic ovarian cancer.,10807385_0,0,867,0
+868,cancers,6,7,34,41,"
+CONTEXT  Most hereditary ovarian cancers are associated with germline mutations in BRCA1 or BRCA2.",10807385_1,0,868,0
+870,cancers,7,8,51,58,OBJECTIVE  To determine whether hereditary ovarian cancers have distinct clinical and pathological features compared with sporadic (nonhereditary) ovarian cancers.,10807385_3,0,870,0
+871,cancers,21,22,155,162,OBJECTIVE  To determine whether hereditary ovarian cancers have distinct clinical and pathological features compared with sporadic (nonhereditary) ovarian cancers.,10807385_3,0,871,0
+872,cancers,14,15,86,93,"DESIGN AND SETTING  Retrospective cohort study of a consecutive series of 933 ovarian cancers diagnosed and treated at our institution, which is a comprehensive cancer center as designated by the National Cancer Institute, over a 12-year period (December 1986 to August 1998).",10807385_4,0,872,0
+873,cancer,26,27,161,167,"DESIGN AND SETTING  Retrospective cohort study of a consecutive series of 933 ovarian cancers diagnosed and treated at our institution, which is a comprehensive cancer center as designated by the National Cancer Institute, over a 12-year period (December 1986 to August 1998).",10807385_4,0,873,0
+874,Cancer,33,34,205,211,"DESIGN AND SETTING  Retrospective cohort study of a consecutive series of 933 ovarian cancers diagnosed and treated at our institution, which is a comprehensive cancer center as designated by the National Cancer Institute, over a 12-year period (December 1986 to August 1998).",10807385_4,0,874,0
+875,ovarian cancer,28,30,160,174,The remaining 101 cases from the same series not associated with a BRCA mutation and 2 additional groups (Gynecologic Oncology Group protocols 52 and 111) with ovarian cancer from clinical trials (for the survival analysis) were included for comparison.,10807385_7,0,875,0
+878,cancers,3,4,22,29,Those with hereditary cancers had improved survival compared with the nonhereditary group (P =. 004).,10807385_13,0,878,0
+880,cancers,6,7,57,64,"CONCLUSIONS  Although BRCA-associated hereditary ovarian cancers in this population have surgical and pathological characteristics similar to those of sporadic cancers, advanced-stage hereditary cancer patients survive longer than nonhereditary cancer patients.",10807385_15,0,880,0
+881,cancers,20,21,160,167,"CONCLUSIONS  Although BRCA-associated hereditary ovarian cancers in this population have surgical and pathological characteristics similar to those of sporadic cancers, advanced-stage hereditary cancer patients survive longer than nonhereditary cancer patients.",10807385_15,0,881,0
+882,cancer,24,25,195,201,"CONCLUSIONS  Although BRCA-associated hereditary ovarian cancers in this population have surgical and pathological characteristics similar to those of sporadic cancers, advanced-stage hereditary cancer patients survive longer than nonhereditary cancer patients.",10807385_15,0,882,0
+883,cancer,30,31,245,251,"CONCLUSIONS  Although BRCA-associated hereditary ovarian cancers in this population have surgical and pathological characteristics similar to those of sporadic cancers, advanced-stage hereditary cancer patients survive longer than nonhereditary cancer patients.",10807385_15,0,883,0
+884,cancers,9,10,65,72,Age penetrance is greater for BRCA1-linked than for BRCA2-linked cancers in this population.,10807385_16,0,884,0
+887,fever,15,16,89,94,"
+Familial Mediterranean fever (FMF) is a recessive disorder characterized by episodes of fever and neutrophil-mediated serosal inflammation.",10807793_1,0,887,0
+888,inflammation,19,20,127,139,"
+Familial Mediterranean fever (FMF) is a recessive disorder characterized by episodes of fever and neutrophil-mediated serosal inflammation.",10807793_1,0,888,0
+891,cancer,25,26,173,179,"
+Mutations at the ataxia-telangiectasia (A-T) locus on chromosome band 11q22 cause a distinctive autosomal recessive syndrome in homozygotes and predispose heterozygotes to cancer, ischemic heart disease, and early mortality.",10817650_1,0,891,0
+895,fever,15,16,89,94,"
+Familial Mediterranean fever (FMF) is a recessive disorder characterized by episodes of fever with serositis or synovitis.",10818206_1,0,895,0
+898,inflammation,20,21,104,116,"Recently the FMF gene (MEFV) was cloned; the protein product, pyrin/marenostrin, is thought to regulate inflammation in myeloid cells.",10818206_2,0,898,0
+902,ovarian cancer,37,39,216,230,"To do this, a collaborative screening study was set up that involved 39 institutions from 19 countries and included 3, 580 unrelated individuals with a family history of the disease and 934 early-onset breast and/or ovarian cancer cases.",10827109_4,0,902,0
+914,ataxia,11,12,57,63,"
+Friedreich ataxia (FRDA), the most frequently inherited ataxia, is due in the vast majority of cases to a large expansion of an intronic GAA repeat.",10830915_1,0,914,0
+917,cancer,19,20,121,127,"
+Ataxia-telangiectasia (A-T) and Nijmegen breakage syndrome (NBS) are recessive genetic disorders with susceptibility to cancer and similar cellular phenotypes.",10839544_1,0,917,0
+919,hypersensitivity,16,17,115,131,"This response includes S-phase checkpoint activation, formation of the NBS1/Mrel1/Rad50 nuclear foci and rescue of hypersensitivity to ionizing radiation.",10839544_7,0,919,0
+949,death,8,9,55,60,"
+Heterozygous mutations encoding abnormal forms of the death receptor Fas dominantly interfere with Fas-induced lymphocyte apoptosis in human autoimmune lymphoproliferative syndrome.",10875918_1,0,949,0
+979,seizures,1,2,4,12,"The seizures usually spontaneously cease after one year without treatment, leaving no neurological abnormalities.",10923035_4,0,979,0
+980,epilepsy,27,28,154,162,"The sodium channel beta1 subunit gene (SCN1B) maps to this candidate region and has been shown to be involved in one Australian pedigree with generalized epilepsy and febrile seizures "" plus "" (GEFS +).",10923035_6,0,980,0
+981,seizures,30,31,175,183,"The sodium channel beta1 subunit gene (SCN1B) maps to this candidate region and has been shown to be involved in one Australian pedigree with generalized epilepsy and febrile seizures "" plus "" (GEFS +).",10923035_6,0,981,0
+984,cancer,15,16,113,119,Patients with FAP typically develop hundreds to thousands of benign colorectal tumors and early-onset colorectal cancer.,10924409_2,0,984,0
+985,tumors,21,22,114,120,"A subset of germline APC mutations results in an attenuated FAP (AFAP) phenotype, in which patients develop fewer tumors and develop them at an older age.",10924409_3,0,985,0
+987,tumors,17,18,90,96,"Functional analysis showed that 4666insA, a common somatic mutation in APC (AS9) in these tumors, did not inactivate the wild-type APC.",10924409_8,0,987,0
+988,tumors,13,14,73,79,Our results indicate that carriers of APC (AS9) develop fewer colorectal tumors than do typical patients with FAP because somatic inactivation of both APC alleles is necessary for colorectal tumorigenesis.,10924409_9,0,988,0
+989,tumors,6,7,43,49,"However, these patients develop colorectal tumors more frequently than does the general population because APC (AS9) is inactivated by mutations that do not inactivate the wild-type APC..",10924409_10,0,989,0
+993,hypersensitivity,16,17,108,124,Genetic inactivation of the yeast frataxin homologue (Yfh1p) results in mitochondrial iron accumulation and hypersensitivity to oxidative stress.,10930361_3,0,993,0
+999,toxicity,13,14,107,115,Amino-terminal fragments of mutant huntingtin show selective accumulation in striatal neurons and synaptic toxicity.,10932179_0,0,999,0
+1001,breast cancer,13,15,90,103,BRCA1 is associated with a human SWI/SNF-related complex: linking chromatin remodeling to breast cancer.,10943845_0,0,1001,0
+1002,tumor,5,6,27,32,"
+Germline mutations in the tumor suppressor gene, BRCA1, predispose individuals to breast and ovarian cancers.",10943845_1,0,1002,0
+1003,cancers,17,18,102,109,"
+Germline mutations in the tumor suppressor gene, BRCA1, predispose individuals to breast and ovarian cancers.",10943845_1,0,1003,0
+1006,tumors,19,20,115,121,"
+The adenomatous polyposis coli gene (APC) is mutated in familial adenomatous polyposis and in sporadic colorectal tumors.",10947987_1,0,1006,0
+1007,Cancer,18,19,123,129,"
+The axonal chemoattractant netrin-1 guides spinal commissural axons by activating its receptor DCC (Deleted in Colorectal Cancer ).",10958786_1,0,1007,0
+1012,myopathy,9,10,64,72,"Mice that expressed expanded CUG repeats developed myotonia and myopathy, whereas mice expressing a nonexpanded repeat did not.",10976074_4,0,1012,0
+1019,ataxia,16,17,86,92,"episodic ataxia type 2 (EA-2), familial hemiplegic migraine (FHM) and spinocerebellar ataxia 6 (SCA6).",10987655_2,0,1019,0
+1020,migraine,17,18,104,112,"Furthermore, this mutation has been detected in a family member with mild clinical signs including only migraine.",10987655_10,0,1020,0
+1021,edema,13,14,91,96,"Patients lacking this serum protein are essentially asymptomatic, apart from minimal ankle edema and ease of fatigue.",1127526_2,0,1021,0
+1022,fatigue,17,18,109,116,"Patients lacking this serum protein are essentially asymptomatic, apart from minimal ankle edema and ease of fatigue.",1127526_2,0,1022,0
+1023,hypotension,33,34,214,225,"Apparent compensatory mechanisms which come into play when serum albumin is low include prolonged half-life of albumin and transferrin, an increase in serum globulins, beta lipoprotein, and glycoproteins, arterial hypotension with reduced capillary hydrostatic pressure, and the ability to respond with rapid sodium and chloride diuresis in response to small volume changes.",1127526_3,0,1023,0
+1028,jaundice,10,11,97,105,Glucose-6-phosphate dehydrogenase variants from Italian subjects associated with severe neonatal jaundice.,1201235_0,0,1028,0
+1029,jaundice,12,13,65,73,"In the present work these three cases, each with severe neonatal jaundice, are reported.",1201235_6,0,1029,0
+1038,cancers,35,36,197,204,"Heterozygotes for the gene for A-T are thought to comprise about 1% of the general population and, therefore, it is important to know whether this gene also predisposes the heterozygous carrier to cancers.",1248000_2,0,1038,0
+1039,death,9,10,46,51,"For this reason, we compared the incidence of death from malignant neoplasms in 2 families of patients with A-T to that expected in a random sample of the general population.",1248000_4,0,1039,0
+1041,deaths,3,4,14,20,"There were 59 deaths from malignant neoplasms in relatives dying before age 75, compared to 42.",1248000_5,0,1041,0
+1043,cancer,14,15,72,78,A-T heterozygotes may comprise more than 5% of all persons dying from a cancer before age 45.,1248000_8,0,1043,0
+1051,dermatitis,14,15,104,114,"
+Analbuminemia was fortuitously detected in a nonedematous 12-year-old American Indian girl with atopic dermatitis, mild bronchial asthma, a mild seizure disorder, and hyperlipoproteinemia with a corneal arcus.",1269174_1,0,1051,0
+1108,tumors,27,28,158,164,"
+High level expression of the nm23-H1 gene, which encodes for a nucleoside diphosphate kinase, has been found to correlate with diminished metastasis in some tumors but not in others.",1311721_1,0,1108,0
+1110,tumor,19,20,114,119,"In neuroblastoma, higher levels of p19/nm23, which are associated with amplification of the N-myc oncogene, large tumor mass, and metastasis, were observed in advanced stage tumors compared with limited stage disease.",1311721_3,0,1110,0
+1111,tumors,30,31,174,180,"In neuroblastoma, higher levels of p19/nm23, which are associated with amplification of the N-myc oncogene, large tumor mass, and metastasis, were observed in advanced stage tumors compared with limited stage disease.",1311721_3,0,1111,0
+1121,hypertrophy,20,21,112,123,"
+We report familial adenomatous polyposis coli (FAPC) with epidermoid cysts, osteomata, and areas of congenital hypertrophy of the retinal pigment epithelium (CHRPEs) in a male patient and his maternal aunt, both of whom suffered a mild to moderate degree of mental handicap.",1313112_1,0,1121,0
+1130,infections,14,15,61,71,"
+A 24 year old male with a history of eczema, recurrent mild infections, and thrombocytopenia consistent with the Wiskott-Aldrich syndrome (WAS) presented with a mediastinal mass, generalized lymphadenopathy, splenomegaly, and severe thrombocytopenia.",1316718_1,0,1130,0
+1131,thrombocytopenia,17,18,77,93,"
+A 24 year old male with a history of eczema, recurrent mild infections, and thrombocytopenia consistent with the Wiskott-Aldrich syndrome (WAS) presented with a mediastinal mass, generalized lymphadenopathy, splenomegaly, and severe thrombocytopenia.",1316718_1,0,1131,0
+1133,lymphadenopathy,33,34,192,207,"
+A 24 year old male with a history of eczema, recurrent mild infections, and thrombocytopenia consistent with the Wiskott-Aldrich syndrome (WAS) presented with a mediastinal mass, generalized lymphadenopathy, splenomegaly, and severe thrombocytopenia.",1316718_1,0,1133,0
+1135,thrombocytopenia,39,40,234,250,"
+A 24 year old male with a history of eczema, recurrent mild infections, and thrombocytopenia consistent with the Wiskott-Aldrich syndrome (WAS) presented with a mediastinal mass, generalized lymphadenopathy, splenomegaly, and severe thrombocytopenia.",1316718_1,0,1135,0
+1142,cancer,15,16,90,96,"The APC gene, responsible for familial adenomatous polyposis, is mutated in human gastric cancer.",1317264_0,0,1142,0
+1143,cancer,3,4,18,24,"
+Although gastric cancer is the most common cancer in the world, genetic changes during its carcinogenesis are not well understood.",1317264_1,0,1143,0
+1145,carcinogenesis,17,18,92,106,"
+Although gastric cancer is the most common cancer in the world, genetic changes during its carcinogenesis are not well understood.",1317264_1,0,1145,0
+1146,cancers,3,4,19,26,"Since some gastric cancers are considered to originate from the intestinal metaplasia, it is likely that the adenomatous polyposis coli (APC) gene, the mutation of which causes adenomatous polyps in the colon, is associated with carcinogenesis of gastric cancer.",1317264_2,0,1146,0
+1150,carcinogenesis,40,41,229,243,"Since some gastric cancers are considered to originate from the intestinal metaplasia, it is likely that the adenomatous polyposis coli (APC) gene, the mutation of which causes adenomatous polyps in the colon, is associated with carcinogenesis of gastric cancer.",1317264_2,0,1150,0
+1151,cancer,43,44,255,261,"Since some gastric cancers are considered to originate from the intestinal metaplasia, it is likely that the adenomatous polyposis coli (APC) gene, the mutation of which causes adenomatous polyps in the colon, is associated with carcinogenesis of gastric cancer.",1317264_2,0,1151,0
+1152,cancers,9,10,47,54,"Based on this idea, DNAs isolated from gastric cancers were examined by means of a RNase protection analysis coupled with polymerase chain reaction followed by sequencing of the polymerase chain reaction products.",1317264_3,0,1152,0
+1153,tumors,14,15,72,78,"By screening nearly one-half of the coding region of the APC gene in 44 tumors, somatic mutations were detected in three tumors  a missense mutation, a nonsense mutation, and a 5-base pair deletion resulting in a frame shift which causes truncation of the gene product.",1317264_4,0,1153,0
+1154,tumors,22,23,121,127,"By screening nearly one-half of the coding region of the APC gene in 44 tumors, somatic mutations were detected in three tumors  a missense mutation, a nonsense mutation, and a 5-base pair deletion resulting in a frame shift which causes truncation of the gene product.",1317264_4,0,1154,0
+1155,carcinogenesis,17,18,96,110,These results suggest that the mutation of the APC gene also plays an important role during the carcinogenesis of at least some gastric cancers..,1317264_5,0,1155,0
+1156,cancers,23,24,136,143,These results suggest that the mutation of the APC gene also plays an important role during the carcinogenesis of at least some gastric cancers..,1317264_5,0,1156,0
+1165,cancer,15,16,101,107,"
+Familial adenomatous polyposis (FAP) is a dominantly inherited condition predisposing to colorectal cancer.",1324223_1,0,1165,0
+1167,carcinoma,13,14,66,75,1 megabase pairs of DNA around the MCC (for mutated in colorectal carcinoma) and APC (for adenomatous polyposis coli) genes at 5q21 have been isolated and characterized.,1325652_2,0,1167,0
+1172,nephropathy,14,15,77,88,"
+Patients with the Denys-Drash syndrome (Wilms tumor, genital anomalies, and nephropathy) have been demonstrated to carry de novo constitutional mutations in WT1, the Wilms tumor gene at chromosome 11p13.",1327525_1,0,1172,0
+1173,tumor,30,31,173,178,"
+Patients with the Denys-Drash syndrome (Wilms tumor, genital anomalies, and nephropathy) have been demonstrated to carry de novo constitutional mutations in WT1, the Wilms tumor gene at chromosome 11p13.",1327525_1,0,1173,0
+1182,tumor,26,27,128,133,"The mother, who has aniridia, was also found to carry a deletion including both the aniridia candidate gene (AN2) and the Wilms tumor predisposition gene (WT1).",1334370_3,0,1182,0
+1189,tumors,8,9,48,54,Somatic mutations of the APC gene in colorectal tumors: mutation cluster region in the APC gene.,1338904_0,0,1189,0
+1191,tumors,17,18,93,99,"
+We examined somatic mutations of the adenomatous polyposis coli (APC) gene in 63 colorectal tumors (16 adenomas and 47 carcinomas) developed in familial adenomatous polyposis (FAP) and non-FAP patients.",1338904_1,0,1191,0
+1192,tumors,15,16,67,73,"In addition to loss of heterozygosity (LOH) at the APC locus in 30 tumors, 43 other somatic mutations were detected.",1338904_2,0,1192,0
+1193,tumors,1,2,11,17,Twenty-two tumors had frameshift mutations due to deletion or insertion; nineteen of them were deletions of one to 31 bp and three were a 1-bp insertion.,1338904_4,0,1193,0
+1194,tumor,1,2,4,9,One tumor had a 1-bp deletion in an intron near the splicing site.,1338904_5,0,1194,0
+1195,tumors,14,15,62,68,"Combining these data and the results of LOH, more than 80% of tumors (14 adenomas and 39 carcinomas) had at least one mutation in the APC gene, of which more than 60% (9 adenomas and 23 carcinomas) had two mutations.",1338904_8,0,1195,0
+1196,tumors,21,22,136,142,These results strongly suggest that somatic mutations of the APC gene are associated with development of a great majority of colorectal tumors..,1338904_9,0,1196,0
+1199,nephropathy,9,10,56,67,"
+The Denys-Drash syndrome is characterised by a typical nephropathy, genital abnormalities and also predisposes to the development of Wilms tumor.",1338906_1,0,1199,0
+1202,tumor,3,4,18,23,"A candidate Wilms tumor gene, WT1, from the 11p13 chromosome region has recently been cloned.",1338906_3,0,1202,0
+1221,carcinoma,11,12,59,68,Loss of normal allele of the APC gene in an adrenocortical carcinoma from a patient with familial adenomatous polyposis.,1351034_0,0,1221,0
+1223,carcinoma,2,3,19,28,An adrenocorotical carcinoma was studied in a patient with a family history of FAP.,1351034_2,0,1223,0
+1225,carcinoma,23,24,115,124,"Loss of heterozygosity (LOH) in the region close to the adenomatous polyposis coli (APC) gene was detected in this carcinoma, and evidence was obtained that there was a loss of the normal allele of the APC gene.",1351034_3,0,1225,0
+1226,tumors,13,14,74,80,This is the first demonstration of LOH at the APC locus in adrenocortical tumors.,1351034_4,0,1226,0
+1227,tumor,13,14,72,77,"The present results and our previous data on LOH in a recurring desmoid tumor suggest that the heterozygous mutant/wild-type condition of the APC gene may give rise to benign tumors, and that functional loss of this gene leads to development of tumors not only in the colon but also in other various parts of the body in FAP patients..",1351034_5,0,1227,0
+1228,tumors,29,30,175,181,"The present results and our previous data on LOH in a recurring desmoid tumor suggest that the heterozygous mutant/wild-type condition of the APC gene may give rise to benign tumors, and that functional loss of this gene leads to development of tumors not only in the colon but also in other various parts of the body in FAP patients..",1351034_5,0,1228,0
+1229,tumors,42,43,245,251,"The present results and our previous data on LOH in a recurring desmoid tumor suggest that the heterozygous mutant/wild-type condition of the APC gene may give rise to benign tumors, and that functional loss of this gene leads to development of tumors not only in the colon but also in other various parts of the body in FAP patients..",1351034_5,0,1229,0
+1231,tumors,25,26,175,181,"Certain families, however, show an unusual low-penetrance phenotype with many individuals being unaffected, unilaterally affected, or with evidence of spontaneously regressed tumors.",1352883_2,0,1231,0
+1249,vasculitis,25,26,154,164,A family with inherited deficiency of complement factor 2 (C2) is described in which two family members with homozygous C2 deficiency developed cutaneous vasculitis and sicca syndrome.,1361318_2,0,1249,0
+1251,rheumatoid arthritis,4,6,28,48,The mother had seropositive rheumatoid arthritis.,1361318_4,0,1251,0
+1256,death,6,7,45,50,Uncoupling of hypomyelination and glial cell death by a mutation in the proteolipid protein gene.,1380672_0,0,1256,0
+1258,death,11,12,86,91,The unexplained phenotype of these mutations includes degeneration and premature cell death of oligodendrocytes with associated hypomyelination.,1380672_4,0,1258,0
+1302,tumor,6,7,33,38,Germline mutations in the Wilms' tumor suppressor gene are associated with abnormal urogenital development in Denys-Drash syndrome.,1655284_0,0,1302,0
+1307,tumor,15,16,81,86,"To investigate its possible role, we have analyzed the coding exons of the Wilms tumor suppressor gene (WT1) for germline mutations.",1655284_2,0,1307,0
+1309,tumors,1,2,6,12,Wilms tumors from three individuals and one juvenile granulosa cell tumor demonstrate reduction to homozygosity for the mutated WT1 allele.,1655284_7,0,1309,0
+1310,tumor,10,11,68,73,Wilms tumors from three individuals and one juvenile granulosa cell tumor demonstrate reduction to homozygosity for the mutated WT1 allele.,1655284_7,0,1310,0
+1335,thrombocytopenia,11,12,61,77,"While this is the first complete report on the occurrence of thrombocytopenia in a carrier female of WAS as the result of atypical lyonization, it also suggests that expression of the WAS gene occurs at (or extends up to) a later stage than the multipotent stem cell along the hematopoietic differentiation pathway..",1684569_5,0,1335,0
+1361,arthritis,13,14,72,81,A partial deficiency in the activity of this enzyme can result in gouty arthritis.,1937471_2,0,1361,0
+1402,myopathy,18,19,97,105,"These data indicate that the affected twin is a manifesting carrier of an abnormal DMD gene, her myopathy being a direct result of underexpression of dystrophin.",2180286_9,0,1402,0
+1413,atherosclerosis,6,7,35,50,There was no evidence of premature atherosclerosis in the families with CETP deficiency.,2215607_14,0,1413,0
+1415,meningitis,1,2,10,20,Recurrent meningitis in a patient with congenital deficiency of the C9 component of complement.,2241452_0,0,1415,0
+1418,meningitis,45,46,244,254,"
+We describe the first cases, to our knowledge, of C9 deficiency in Europe that were detected in a Swiss family, of which two members--one with a complete deficiency and the other with approximately half-normal C9 levels--experienced bacterial meningitis.",2241452_2,0,1418,0
+1419,meningitis,13,14,70,80,"The index patient, a 56-year-old white man with a history of purulent meningitis at the age of 23 years, presented with an acute meningococcal meningitis.",2241452_3,0,1419,0
+1420,meningitis,26,27,143,153,"The index patient, a 56-year-old white man with a history of purulent meningitis at the age of 23 years, presented with an acute meningococcal meningitis.",2241452_3,0,1420,0
+1422,meningitis,31,32,186,196,"A family study revealed complete C9 deficiency in the patients healthy brother and half-normal C9 concentrations in his sister, his son (who also had experienced an episode of bacterial meningitis), and his niece, consistent with an inherited C9 deficiency.",2241452_6,0,1422,0
+1424,meningitis,5,6,29,39,"This first case of recurrent meningitis in a white patient with complete C9 deficiency suggests that this complement defect may also be a risk factor for bacterial, especially neisserial, infections..",2241452_7,0,1424,0
+1426,infections,31,32,188,198,"This first case of recurrent meningitis in a white patient with complete C9 deficiency suggests that this complement defect may also be a risk factor for bacterial, especially neisserial, infections..",2241452_7,0,1426,0
+1435,jaundice,13,14,86,94,Glucose 6-phosphate dehydrogenase variants: Gd (+) Alexandra associated with neonatal jaundice and Gd (-) Camperdown in a young man with lamellar cataracts.,23402_0,0,1435,0
+1437,jaundice,11,12,64,72,"The first, of Italian extraction, suffered from severe neonatal jaundice following maternal ingestion of fresh broad beans (Vicia fava) both prenatally and postnatally  the expression of the enzymatic defect was much more severe in the neonatal period than on retesting in adolescence, when biochemical characterization showed unique features which justify designation as a new variant Gd (+) Alexandra.",23402_2,0,1437,0
+1438,cataracts,16,17,89,98,"The second patient, a boy of Maltese extraction who was found to have bilateral lamellar cataracts at the age of 4 years, was identified as G6PD deficient only as a result of a survey of children of Mediterranean origin with unexplained cataract formation; he has approximately 15% of normal enzyme activity, with another unique combination of biochemical characteristics which has led to its designation as Gd (-) Camperdown.",23402_3,0,1438,0
+1440,cataract,22,23,154,162,"Although this association may be coincidental, it prompts further attention to the possibility that under certain circumstances G6PD deficiency may favor cataract formation.",23402_4,0,1440,0
+1442,carcinoma,21,22,143,152,"Statistical analysis of the two stage mutation model in von Hippel-Lindau disease, and in sporadic cerebellar haemangioblastoma and renal cell carcinoma.",2352258_0,0,1442,0
+1444,carcinoma,9,10,56,65,It has been suggested recently that sporadic renal cell carcinoma may arise from a two stage mutation process.,2352258_2,0,1444,0
+1447,carcinoma,45,46,238,247,"We analysed the age incidence curves for symptomatic renal cell carcinoma (n = 26) and cerebellar haemangioblastoma (n = 68) in 109 patients with von Hippel-Lindau (VHL) disease, and compared them to 104 patients with sporadic renal cell carcinoma and 43 patients with sporadic cerebellar haemangioblastoma.",2352258_3,0,1447,0
+1448,carcinoma,7,8,40,49,"The age incidence curves for renal cell carcinoma and cerebellar haemangioblastoma in VHL disease were compatible with a single mutation model, whereas the age incidence curves for sporadic renal cell carcinoma and cerebellar haemangioblastoma suggested a two stage mutation process.",2352258_4,0,1448,0
+1450,carcinoma,31,32,201,210,"The age incidence curves for renal cell carcinoma and cerebellar haemangioblastoma in VHL disease were compatible with a single mutation model, whereas the age incidence curves for sporadic renal cell carcinoma and cerebellar haemangioblastoma suggested a two stage mutation process.",2352258_4,0,1450,0
+1451,carcinoma,7,8,58,67,Sporadic cerebellar haemangioblastoma and some renal cell carcinoma may arise from somatic mutations inactivating both alleles at the VHL locus..,2352258_6,0,1451,0
+1497,tumor,22,23,129,134,"
+Inactivation of both alleles of the RB1 gene during normal retinal development initiates the formation of a retinoblastoma (RB) tumor.",2601691_1,0,1497,0
+1498,tumors,10,11,54,60,"To identify the mutations which inactivate RB1, 21 RB tumors isolated from 19 patients were analyzed with the polymerase chain reaction or an RNase protection assay or both.",2601691_2,0,1498,0
+1499,tumors,8,9,41,47,"Mutations were identified in 13 of 21 RB tumors; in 8 tumors, the precise errors in nucleotide sequence were characterized.",2601691_3,0,1499,0
+1500,tumors,12,13,54,60,"Mutations were identified in 13 of 21 RB tumors; in 8 tumors, the precise errors in nucleotide sequence were characterized.",2601691_3,0,1500,0
+1501,tumors,37,38,230,236,"We were unable to detect expression of the mutant allele in lymphoblasts of three bilaterally affected patients, although the mutation was present in the genomic DNA and transcripts containing the mutations were obvious in the RB tumors in the absence of a normal RB1 allele.",2601691_5,0,1501,0
+1521,bleeding,12,13,57,65,"
+von Willebrand disease (vWD), the most common inherited bleeding disorder in humans, can result from either a quantitative or a qualitative defect in the adhesive glycoprotein, von Willebrand factor (vWF).",2786201_1,0,1521,0
+1523,meningitis,9,10,58,68,"
+We describe an 11-year-old girl suffering from recurrent meningitis with a complete absence of the seventh component of complement (C7).",2792129_1,0,1523,0
+1541,carcinoma,14,15,88,97,Von Hippel-Lindau disease maps to the region of chromosome 3 associated with renal cell carcinoma.,2894613_0,0,1541,0
+1543,cancer,19,20,117,123,"
+Von Hippel-Lindau disease (VHL) is an autosomal dominant disorder with inherited susceptibility to various forms of cancer, including hemangioblastomas of the central nervous system, phaeochromocytomas, pancreatic malignancies, and renal cell carcinomas.",2894613_1,0,1543,0
+1544,malignancies,32,33,215,227,"
+Von Hippel-Lindau disease (VHL) is an autosomal dominant disorder with inherited susceptibility to various forms of cancer, including hemangioblastomas of the central nervous system, phaeochromocytomas, pancreatic malignancies, and renal cell carcinomas.",2894613_1,0,1544,0
+1545,death,9,10,66,71,"Renal cell carcinomas constitute a particularly frequent cause of death in this disorder, occurring as bilateral and multifocal tumours, and presenting at an earlier age than in sporadic, non-familial cases of this tumour type.",2894613_2,0,1545,0
+1547,carcinoma,9,10,62,71,"Consequently, sporadic and VHL-associated forms of renal cell carcinoma might both result from alterations causing loss of function of the same tumour suppressor gene on this chromosome..",2894613_8,0,1547,0
+1555,hemolytic anemia,2,4,23,39,Chronic nonspherocytic hemolytic anemia (CNSHA) and glucose 6 phosphate dehydrogenase (G6PD) deficiency in a patient with familial amyloidotic polyneuropathy (FAP).,2912886_0,0,1555,0
+1557,hemolytic anemia,28,30,181,197,"
+A new glucose-6-phosphate dehydrogenase (G6PD) variant with severe erythrocytic G6PD deficiency and a unique pH optimum is described in a young patient with chronic nonspherocytic hemolytic anemia (CNSHA) and familial amyloidotic polyneuropathy (FAP).",2912886_2,0,1557,0
+1558,polyneuropathy,36,37,231,245,"
+A new glucose-6-phosphate dehydrogenase (G6PD) variant with severe erythrocytic G6PD deficiency and a unique pH optimum is described in a young patient with chronic nonspherocytic hemolytic anemia (CNSHA) and familial amyloidotic polyneuropathy (FAP).",2912886_2,0,1558,0
+1559,hemolysis,1,2,8,17,"Chronic hemolysis was present in the absence of infections, oxidant drugs or ingestion of faba beans.",2912886_3,0,1559,0
+1560,infections,8,9,48,58,"Chronic hemolysis was present in the absence of infections, oxidant drugs or ingestion of faba beans.",2912886_3,0,1560,0
+1565,infections,5,6,39,49,Inherited C3 deficiency with recurrent infections and glomerulonephritis.,2963536_0,0,1565,0
+1566,glomerulonephritis,7,8,54,72,Inherited C3 deficiency with recurrent infections and glomerulonephritis.,2963536_0,0,1566,0
+1569,glomerulonephritis,6,7,48,66,"A renal biopsy specimen revealed mesangiopathic glomerulonephritis, although significant levels of circulating IgG immune complexes were not detected.",2963536_5,0,1569,0
+1571,infections,30,31,202,212,These findings further support the association of C3 deficiency with immune-complex disease and suggest that plasma infusion may be an adjunct to antibiotic therapy in the management of severe pyogenic infections in patients with C3 deficiency..,2963536_6,0,1571,0
+1573,liver disease,38,40,188,201,"A deficiency of AAT in individuals homozygous for the PI Z allele occurs in about 1 in 2, 000-8, 000 caucasians and is associated with an increased risk of early adult onset emphysema and liver disease in childhood.",2989709_2,0,1573,0
+1584,fever,12,13,75,80,"Hereditary deficiency of the third component of complement in a child with fever, skin rash, and arthralgias: response to transfusion of whole blood.",318684_0,0,1584,0
+1585,rash,15,16,87,91,"Hereditary deficiency of the third component of complement in a child with fever, skin rash, and arthralgias: response to transfusion of whole blood.",318684_0,0,1585,0
+1586,fever,8,9,53,58,"
+A previously well 34-month-old male presenting with fever, skin rash, and arthralgias was found to lack C3 by immunochemical (undetectable) and hemolytic (1% normal) assays.",318684_1,0,1586,0
+1587,rash,11,12,65,69,"
+A previously well 34-month-old male presenting with fever, skin rash, and arthralgias was found to lack C3 by immunochemical (undetectable) and hemolytic (1% normal) assays.",318684_1,0,1587,0
+1589,infections,17,18,105,115,"Thus, this child is a unique individual with inherited C3 deficiency presenting with absence of repeated infections, whose symptoms of fever, skin rash, and arthralgia were abated by whole blood transfusion..",318684_9,0,1589,0
+1590,fever,22,23,135,140,"Thus, this child is a unique individual with inherited C3 deficiency presenting with absence of repeated infections, whose symptoms of fever, skin rash, and arthralgia were abated by whole blood transfusion..",318684_9,0,1590,0
+1591,rash,25,26,147,151,"Thus, this child is a unique individual with inherited C3 deficiency presenting with absence of repeated infections, whose symptoms of fever, skin rash, and arthralgia were abated by whole blood transfusion..",318684_9,0,1591,0
+1599,malignancy,8,9,74,84,Glucose 6-phosphate dehydrogenase deficiency and incidence of hematologic malignancy.,3348216_0,0,1599,0
+1600,cancer,19,20,124,130,"
+We have evaluated the hypothesis of a negative association between glucose 6-phosphate dehydrogenase (G6PD) deficiency and cancer in a cohort of 481 Sardinian males with hematological malignancies.",3348216_1,0,1600,0
+1601,malignancies,29,30,185,197,"
+We have evaluated the hypothesis of a negative association between glucose 6-phosphate dehydrogenase (G6PD) deficiency and cancer in a cohort of 481 Sardinian males with hematological malignancies.",3348216_1,0,1601,0
+1616,hemolytic anemia,16,18,119,135,Diverse point mutations in the human glucose-6-phosphate dehydrogenase gene cause enzyme deficiency and mild or severe hemolytic anemia.,3393536_0,0,1616,0
+1618,jaundice,39,40,199,207,"Single point mutations were also found in G6PD Metaponto (Southern Italy) and in G6PD Ilesha (Nigeria), which are asymptomatic, and in G6PD Chatham, which was observed in an Indian boy with neonatal jaundice.",3393536_8,0,1618,0
+1619,hemolytic anemia,51,53,239,255,"In G6PD "" Matera, "" which is now known to be the same as G6PD A-, two separate point mutations were found, one of which is the same as in G6PD A. In G6PD Santiago, a de novo mutation (glycine----arginine) is associated with severe chronic hemolytic anemia.",3393536_9,0,1619,0
+1629,infection,30,31,165,174,"Recombinant virus was detected in the culture medium of the transfected psi 2 cells, which is capable of transmitting the human PAH gene into mouse NIH 3T3 cells by infection leading to stable incorporation of the recombinant provirus.",3455778_4,0,1629,0
+1630,tumors,9,10,63,69,Deletions of a DNA sequence in retinoblastomas and mesenchymal tumors: organization of the sequence and its encoded protein.,3480530_0,0,1630,0
+1632,tumor,5,6,31,36,"
+Retinoblastoma is a childhood tumor that can arise because of mutant alleles acquired as somatic or germinal mutations.",3480530_1,0,1632,0
+1634,tumors,15,16,95,101,We now report that this segment is additionally the target of somatic mutations in mesenchymal tumors among patients having no apparent predisposition to retinoblastoma and no previous evidence of retinoblastoma.,3480530_5,0,1634,0
+1637,tumors,1,2,6,12,These tumors provide additional evidence that the cloned sequences are representative of a gene that is a frequent target of inactivation during tumorigenesis.,3480530_6,0,1637,0
+1641,hemolytic anemia,10,12,97,113,Two new variants of glucose-6-phosphate dehydrogenase associated with hereditary non-spherocytic hemolytic anemia: G6PD Wayne and G6PD Huron.,3565372_0,0,1641,0
+1642,hemolytic anemia,14,16,106,122,"
+Two new deficient variants of glucose-6-phosphate dehydrogenase (G6PD) causing hereditary nonspherocytic hemolytic anemia (HNSHA) are described.",3565372_1,0,1642,0
+1666,angioedema,5,6,43,53,"Heterozygous C2 deficiency associated with angioedema, myasthenia gravis, and systemic lupus erythematosus.",3718019_0,0,1666,0
+1669,angioedema,14,15,81,91,"
+We describe a patient with myasthenia gravis, systemic lupus erythematosus, and angioedema associated with heterozygous complement factor 2 (C2) deficiency.",3718019_1,0,1669,0
+1674,bleeding,32,33,171,179,"Platelet vWF  Ag and RiCof were normal in four kindreds (called "" platelet normal "" subgroup); following 1-deamino-8-D-arginine vasopressin; plasma vWF  Ag, RiCof and the bleeding time (BT) became normal.",3876122_3,0,1674,0
+1681,meningitis,2,3,24,34,Recurrent meningococcal meningitis with absence of the sixth component of complement: an evaluation of underlying immunologic mechanisms.,492812_0,0,1681,0
+1682,meningitis,8,9,57,67,"
+A 51/2-year-old black girl with recurrent meningococcal meningitis and absence of the sixth component of complement (C6) is reported.",492812_1,0,1682,0
+1683,infections,7,8,52,62,"To explore the pathogenesis of recurrent neisserial infections in C6 deficiency, a detailed analysis of her immune competence was conducted.",492812_2,0,1683,0
+1684,infections,11,12,93,103,Absent bacteriolysis remains the only consistent defect associated with recurrent neisserial infections and absence of one of the late-acting complement components..,492812_5,0,1684,0
+1685,infection,11,12,66,75,"The proband, who has had nine episodes of disseminated gonococcal infection, has a hemolytic C5 level of approximately 0.",495634_3,0,1685,0
+1691,arthritis,7,8,52,61,"Partial HPRT deficiencies are associated with gouty arthritis, while absence of activity results in Lesch-Nyhan syndrome (L-N).",6087154_3,0,1691,0
+1698,glomerulonephritis,11,12,82,100,One child with heterozygous C3 deficiency was found to have membranoproliferative glomerulonephritis; proteinuria and/or microscopical haematuria was present in all three homozygous C3-deficient children.,6103091_3,0,1698,0
+1699,proteinuria,13,14,102,113,One child with heterozygous C3 deficiency was found to have membranoproliferative glomerulonephritis; proteinuria and/or microscopical haematuria was present in all three homozygous C3-deficient children.,6103091_3,0,1699,0
+1700,infection,17,18,101,110,"All children with homozygous or heterozygous C3 deficiency were, to a varying degree, susceptible to infection.",6103091_4,0,1700,0
+1701,infection,14,15,77,86,The only child of the family with normal complement had no increased risk of infection and no renal disease.,6103091_5,0,1701,0
+1706,hemolysis,42,43,249,258,"The data support the hypothesis that G6PD deficiency may confer a selective advantage in a malarious area; the female heterozygote may be at a particular advantage because resistance to malaria equals that of male hemizygotes, but the risk of fatal hemolysis may be less.",6337374_4,0,1706,0
+1709,infection,6,7,34,43,The patient died of an adenovirus infection 141 days after BMT.,6387532_3,0,1709,0
+1721,psoriasis,20,21,135,144,"Radiographical sacro-iliitis was restricted to HLA B27 positive relatives, and was more frequently found in relatives to probands with psoriasis than in relatives to probands without psoriasis.",6604602_5,0,1721,0
+1722,psoriasis,27,28,183,192,"Radiographical sacro-iliitis was restricted to HLA B27 positive relatives, and was more frequently found in relatives to probands with psoriasis than in relatives to probands without psoriasis.",6604602_5,0,1722,0
+1726,psoriasis,13,14,101,110,"The phenotypic expressions of the different genetic predispositions involved, include sacro-iliitis, psoriasis, acute anterior uveitis, peripheral arthropathy and inflammatory bowel disease.",6604602_8,0,1726,0
+1729,INFLAMMATION,8,9,64,76,We suggest the descriptive name HEREDITARY MULTIFOCAL RELAPSING INFLAMMATION (HEMRI) for this syndrome.,6604602_9,0,1729,0
+1737,meningitis,13,14,86,96,Human deficiency of the sixth component of complement in a patient with meningococcal meningitis and no haemostasis abnormality.,6783144_0,0,1737,0
+1738,meningitis,21,22,104,114,"The patient, a 31 year old white male, was seen on the occasion of an isolated episode of meningococcal meningitis.",6783144_2,0,1738,0
+1739,vasculitis,15,16,103,113,Absence of the seventh component of complement in a patient with chronic meningococcemia presenting as vasculitis.,6859721_0,0,1739,0
+1740,fever,8,9,54,59,"
+A previously healthy 40-year-old man presenting with fever, arthritis, and cutaneous vasculitis was found to have chronic meningococcemia.",6859721_1,0,1740,0
+1741,arthritis,10,11,61,70,"
+A previously healthy 40-year-old man presenting with fever, arthritis, and cutaneous vasculitis was found to have chronic meningococcemia.",6859721_1,0,1741,0
+1742,vasculitis,14,15,86,96,"
+A previously healthy 40-year-old man presenting with fever, arthritis, and cutaneous vasculitis was found to have chronic meningococcemia.",6859721_1,0,1742,0
+1743,infection,2,3,19,28,Chronic neisserial infection can be associated with C7 deficiency and must be distinguished from other causes of cutaneous vasculitis..,6859721_4,0,1743,0
+1744,vasculitis,18,19,123,133,Chronic neisserial infection can be associated with C7 deficiency and must be distinguished from other causes of cutaneous vasculitis..,6859721_4,0,1744,0
+1745,hemolytic anemia,9,11,83,99,"Severe-glucose-6-phosphate dehydrogenase (G6PD) deficiency associated with chronic hemolytic anemia, granulocyte dysfunction, and increased susceptibility to infections: description of a new molecular variant (G6PD Barcelona).",7055648_0,0,1745,0
+1746,infections,19,20,158,168,"Severe-glucose-6-phosphate dehydrogenase (G6PD) deficiency associated with chronic hemolytic anemia, granulocyte dysfunction, and increased susceptibility to infections: description of a new molecular variant (G6PD Barcelona).",7055648_0,0,1746,0
+1747,hemolytic anemia,25,27,158,174,"
+Molecular, kinetic, and functional studies were carried out on erythrocytes and leukocytes in a Spanish male with G6PD deficiency, congenital nonspherocytic hemolytic anemia (CNSHA), and increased susceptibility to infections.",7055648_1,0,1747,0
+1748,infections,35,36,216,226,"
+Molecular, kinetic, and functional studies were carried out on erythrocytes and leukocytes in a Spanish male with G6PD deficiency, congenital nonspherocytic hemolytic anemia (CNSHA), and increased susceptibility to infections.",7055648_1,0,1748,0
+1750,hemolytic anemia,13,15,83,99,"Subjects were from multiple geographic regions within Spain, and all suffered from hemolytic anemia, either acute (34 cases) or chronic nonspherocytic (2 cases).",7106752_3,0,1750,0
+1753,hemolytic anemia,12,14,89,105,A new glucose-6-phosphate dehydrogenase variant (G6PD Nagano) associated with congenital hemolytic anemia.,7166314_0,0,1753,0
+1754,hemolytic anemia,13,15,95,111,"
+A new glucose-6-phosphate dehydrogenase (G6PD) variant associated with chronic nonspherocytic hemolytic anemia was reported.",7166314_1,0,1754,0
+1755,hemolytic anemia,12,14,61,77,"The patient, a 6-year-old Japanese male, was noticed to have hemolytic anemia soon after birth, and a diagnosis of G6PD deficiency was made at the age of 2.",7166314_2,0,1755,0
+1756,infection,11,12,74,83,He had episodes of hemolytic crisis several times after upper respiratory infection.,7166314_3,0,1756,0
+1757,hemolysis,1,2,18,27,Infection-induced hemolysis and chronic hemolytic anemia seem to be due to markedly impaired enzyme activity and thermal instability.,7166314_8,0,1757,0
+1758,hemolytic anemia,4,6,40,56,Infection-induced hemolysis and chronic hemolytic anemia seem to be due to markedly impaired enzyme activity and thermal instability.,7166314_8,0,1758,0
+1770,cataract,18,19,114,122,"Since there are differences in expression in this disease, we recommend cholestanol study in cases of undiagnosed cataract or tendinous xanthomas in childhood or early adolescence.",7315872_4,0,1770,0
+1771,Nephropathy,0,1,0,11,Nephropathy in the Wiskott-Aldrich syndrome.,7422429_0,0,1771,0
+1773,Nephropathy,1,2,1,12,"
+Nephropathy was detected in five of 32 patients with the Wiskott-Aldrich syndrome who were participating in a study of transfer factor (TF) therapy.",7422429_1,0,1773,0
+1786,leukoencephalopathy,13,14,59,78,Type II ALD does not appear to have been seen in any other leukoencephalopathy and is probably specific for a phenotypic variant or an evolving stage of ALD..,7444053_4,0,1786,0
+1787,cataracts,3,4,23,32,Increased incidence of cataracts in male subjects deficient in glucose-6-phosphate dehydrogenase.,7458742_0,0,1787,0
+1788,cataracts,10,11,69,78,The frequency of the deficiency was increasingly higher in presenile cataracts.,7458742_2,0,1788,0
+1789,cataracts,11,12,65,74,"In the G6PD-deficient group, the incidence of cortical and total cataracts was also increased.",7458742_3,0,1789,0
+1791,cataracts,21,22,128,137,"Moreover, G6PD deficiency should be added to other conditions, such as the galactosemic states and riboflavin deficiency, where cataracts represent a sensitive indicator of metabolic abnormalities of the RBC..",7458742_5,0,1791,0
+1792,cardiomyopathy,10,11,97,111,Molecular basis of human mitochondrial very-long-chain acyl-CoA dehydrogenase deficiency causing cardiomyopathy and sudden death in childhood.,7479827_0,0,1792,0
+1793,death,13,14,123,128,Molecular basis of human mitochondrial very-long-chain acyl-CoA dehydrogenase deficiency causing cardiomyopathy and sudden death in childhood.,7479827_0,0,1793,0
+1794,death,11,12,75,80,"Defects in enzymes of the beta-oxidation pathway cause sudden, unexplained death in childhood, acute hepatic encephalopathy or liver failure, skeletal myopathy, and cardiomyopathy.",7479827_2,0,1794,0
+1798,cardiomyopathy,26,27,165,179,"Defects in enzymes of the beta-oxidation pathway cause sudden, unexplained death in childhood, acute hepatic encephalopathy or liver failure, skeletal myopathy, and cardiomyopathy.",7479827_2,0,1798,0
+1800,cardiac arrest,24,26,171,185,Polymerase chain reaction amplification of VLCAD mRNA and genomic exons defined the molecular defects in two patients with VLCAD deficiency who presented with unexplained cardiac arrest and cardiomyopathy.,7479827_5,0,1800,0
+1801,cardiomyopathy,27,28,190,204,Polymerase chain reaction amplification of VLCAD mRNA and genomic exons defined the molecular defects in two patients with VLCAD deficiency who presented with unexplained cardiac arrest and cardiomyopathy.,7479827_5,0,1801,0
+1803,cardiomyopathy,24,25,174,188,This initial delineation of human mutations in VLCAD suggests that VLCAD deficiency reduces myocardial fatty acid beta-oxidation and energy production and is associated with cardiomyopathy and sudden death in childhood.,7479827_8,0,1803,0
+1804,death,27,28,200,205,This initial delineation of human mutations in VLCAD suggests that VLCAD deficiency reduces myocardial fatty acid beta-oxidation and energy production and is associated with cardiomyopathy and sudden death in childhood.,7479827_8,0,1804,0
+1805,breast cancer,6,8,46,59,Aberrant subcellular localization of BRCA1 in breast cancer.,7481765_0,0,1805,0
+1806,tumor,27,28,157,162,"
+The BRCA1 gene product was identified as a 220-kilodalton nuclear phosphoprotein in normal cells, including breast ductal epithelial cells, and in 18 of 20 tumor cell lines derived from tissues other than breast and ovary.",7481765_1,0,1806,0
+1807,ovarian cancer,6,8,23,37,"In 16 of 17 breast and ovarian cancer lines and 17 of 17 samples of cells obtained from malignant effusions, however, BRCA1 localized mainly in cytoplasm.",7481765_2,0,1807,0
+1808,breast cancer,19,21,122,135,Absence of BRCA1 or aberrant subcellular location was also observed to a variable extent in histological sections of many breast cancer biopsies.,7481765_3,0,1808,0
+1809,cancers,15,16,99,106,"These findings suggest that BRCA1 abnormalities may be involved in the pathogenesis of many breast cancers, sporadic as well as familial..",7481765_4,0,1809,0
+1812,ovarian cancer,9,11,51,65,Germline mutations of the BRCA1 gene in breast and ovarian cancer families provide evidence for a genotype-phenotype correlation.,7493024_0,0,1812,0
+1813,breast cancer,22,24,97,110,"
+Mutations in the BRCA1 gene, discovered in 1994, are associated with an 80-90% lifetime risk of breast cancer.",7493024_1,0,1813,0
+1814,ovarian cancer,11,13,61,75,We have analysed 60 families with a history of breast and/or ovarian cancer for germline mutations in BRCA1.,7493024_2,0,1814,0
+1816,ovarian cancer,24,26,127,141,Our data suggest a transition in risk such that mutations in the 3 third of the gene are associated with a lower proportion of ovarian cancer.,7493024_5,0,1816,0
+1817,infection,11,12,89,98,Hereditary deficiency of the seventh component of complement and recurrent meningococcal infection: investigations of an Irish family using a novel haemolytic screening assay for complement activity and C7 M/N allotyping.,7523157_0,0,1817,0
+1818,infection,8,9,71,80,"
+Terminal complement component deficiency predisposes to meningococcal infection and is inherited in an autosomal co-dominant manner.",7523157_1,0,1818,0
+1819,infection,15,16,83,92,"An Irish family is described, in which 2 of 3 brothers had recurrent meningococcal infection.",7523157_2,0,1819,0
+1820,infection,12,13,95,104,Complement screening should be carried out in any individual suffering recurrent meningococcal infection or infection with an uncommon meningococcal serogroup.,7523157_6,0,1820,0
+1821,infection,14,15,108,117,Complement screening should be carried out in any individual suffering recurrent meningococcal infection or infection with an uncommon meningococcal serogroup.,7523157_6,0,1821,0
+1822,infection,13,14,109,118,Identification of complement deficient patients allows the implementation of strategies to prevent recurrent infection..,7523157_7,0,1822,0
+1836,ovarian cancer,16,18,97,111,"
+A strong candidate for the 17q-linked BRCA1 gene, which influences susceptibility to breast and ovarian cancer, has been identified by positional cloning methods.",7545954_1,0,1836,0
+1837,ovarian cancer,10,12,72,86,Identification of BRCA1 should facilitate early diagnosis of breast and ovarian cancer susceptibility in some individuals as well as a better understanding of breast cancer biology..,7545954_6,0,1837,0
+1838,breast cancer,23,25,159,172,Identification of BRCA1 should facilitate early diagnosis of breast and ovarian cancer susceptibility in some individuals as well as a better understanding of breast cancer biology..,7545954_6,0,1838,0
+1843,cataracts,11,12,62,71,One PAX6 mutation found in the PST region was associated with cataracts in an aniridia family.,7550230_5,0,1843,0
+1849,breast cancer,11,13,61,74,"
+Since BRCA1, the first major gene responsible for inherited breast cancer, was cloned, more than 50 unique mutations have been detected in the germline of individuals with breast and ovarian cancer.",7550349_1,0,1849,0
+1850,ovarian cancer,33,35,184,198,"
+Since BRCA1, the first major gene responsible for inherited breast cancer, was cloned, more than 50 unique mutations have been detected in the germline of individuals with breast and ovarian cancer.",7550349_1,0,1850,0
+1852,ovarian cancer,29,31,127,141,"In high-risk pedigrees, female carriers of BRCA1 mutations have an 80-90% lifetime risk of breast cancer, and a 40-50% risk of ovarian cancer.",7550349_2,0,1852,0
+1853,ovarian cancer,11,13,68,82,"However, the mutation stats of individuals unselected for breast or ovarian cancer has not been determined, and it is not known whether mutations in such individuals confer the same risk of cancer as in individuals from the high-risk families studied so far.",7550349_3,0,1853,0
+1854,cancer,33,34,190,196,"However, the mutation stats of individuals unselected for breast or ovarian cancer has not been determined, and it is not known whether mutations in such individuals confer the same risk of cancer as in individuals from the high-risk families studied so far.",7550349_3,0,1854,0
+1855,cancer,33,34,229,235,"Following the finding of a 185delAG frameshift mutation in several Ashkenazi Jewish breast/ovarian families, we have determined the frequency of this mutation in 858 Ashkenazim seeking genetic testing for conditions unrelated to cancer, and in 815 reference individuals not selected for ethnic origin.",7550349_4,0,1855,0
+1856,ovarian cancer,22,24,128,142,Our results suggest that one in a hundred women of Ashkenazi descent may be at especially high risk of developing breast and/or ovarian cancer.,7550349_7,0,1856,0
+1858,ataxia,14,15,106,112,Marked phenotypic heterogeneity associated with expansion of a CAG repeat sequence at the spinocerebellar ataxia 3/Machado-Joseph disease locus.,7573040_0,0,1858,0
+1860,ataxia,3,4,21,27,"
+The spinocerebellar ataxia 3 locus (SCA3) for type I autosomal dominant cerebellar ataxia (ADCA type I), a clinically and genetically heterogeneous group of neurodegenerative disorders, has been mapped to chromosome 14q32.",7573040_1,0,1860,0
+1865,atrophy,31,32,210,217,We show here that the disease gene segregating in each of three French ADCA type I kindreds and in a French family with neuropathological findings suggesting the ataxochoreic form of dentatorubropallidoluysian atrophy carries an expanded CAG repeat sequence located at the same locus as that for MJD.,7573040_3,0,1865,0
+1875,thrombocytopenia,6,7,53,69,The Wiskott-Aldrich syndrome and X-linked congenital thrombocytopenia are caused by mutations of the same gene.,7579347_0,0,1875,0
+1877,thrombocytopenia,14,15,87,103,"
+The Wiskott-Aldrich syndrome (WAS) is an X-linked recessive disorder characterized by thrombocytopenia, small platelets, eczema, recurrent infections, and immunodeficiency.",7579347_1,0,1877,0
+1879,infections,22,23,140,150,"
+The Wiskott-Aldrich syndrome (WAS) is an X-linked recessive disorder characterized by thrombocytopenia, small platelets, eczema, recurrent infections, and immunodeficiency.",7579347_1,0,1879,0
+1880,thrombocytopenia,15,16,89,105,"Besides the classic WAS phenotype, there is a group of patients with congenital X-linked thrombocytopenia (XLT) who have small platelets but only transient eczema, if any, and minimal immune deficiency.",7579347_2,0,1880,0
+1888,hypertrophy,31,32,186,197,"No linkage or molecular genetic data are as yet available on myotonia levior characterized by milder symptoms and later onset of myotonia than in Thomsens disease, and absence of muscle hypertrophy.",7581380_4,0,1888,0
+1901,atherosclerotic,14,15,93,108,This was the first reported subject homozygous for the CETP deficiency who also demonstrated atherosclerotic symptoms.,7605382_10,0,1901,0
+1902,cancer,8,9,56,62,"Detection of eight BRCA1 mutations in 10 breast/ovarian cancer families, including 1 family with male breast cancer.",7611277_0,0,1902,0
+1903,breast cancer,16,18,102,115,"Detection of eight BRCA1 mutations in 10 breast/ovarian cancer families, including 1 family with male breast cancer.",7611277_0,0,1903,0
+1904,breast cancer,20,22,137,150,"
+Genetic epidemiological evidence suggests that mutations in BRCA1 may be responsible for approximately one half of early onset familial breast cancer and the majority of familial breast/ovarian cancer.",7611277_1,0,1904,0
+1905,cancer,28,29,195,201,"
+Genetic epidemiological evidence suggests that mutations in BRCA1 may be responsible for approximately one half of early onset familial breast cancer and the majority of familial breast/ovarian cancer.",7611277_1,0,1905,0
+1906,cancer,20,21,126,132,"The recent cloning of BRCA1 allows for the direct detection of mutations, but the feasibility of presymptomatic screening for cancer susceptibility is unknown.",7611277_2,0,1906,0
+1910,ovarian cancer,9,11,65,79,These results provide further evidence that inherited breast and ovarian cancer can occur as a consequence of a wide array of BRCA1 mutations.,7611277_10,0,1910,0
+1911,breast cancer,10,12,48,61,"The finding of a mutation in a family with male breast cancer, not previously thought to be related to BRCA1, also illustrates the potential difficulties of genetic counseling for individuals known to carry mutations..",7611277_12,0,1911,0
+1919,tumors,27,28,185,191,"
+Chimeric transcription factors, created by gene fusions as the result of chromosomal translocations, have been implicated in the pathogenesis of several pathologically disparate solid tumors.",7630639_1,0,1919,0
+1921,tumor,9,10,53,58,We show that the native PAX3/FKHR protein present in tumor cells with this translocation has transcriptional characteristics similar to the in vitro expressed protein.,7630639_5,0,1921,0
+1927,tumor,21,22,137,142,These results suggest that mutation of CDK4 can create a tumor-specific antigen and can disrupt the cell-cycle regulation exerted by the tumor suppressor p16INK4a..,7652577_6,0,1927,0
+1928,ovarian cancer,14,16,70,84,"
+More than 75% of the reported mutations in the hereditary breast and ovarian cancer gene, BRCA1, result in truncated proteins.",7663517_1,0,1928,0
+1929,ovarian cancer,6,8,34,48,"In 45 patients from breast and/or ovarian cancer families we found six novel mutations  two single nucleotide insertions, three small deletions (1-5 bp) and a nonsense mutation identified two unrelated families.",7663517_3,0,1929,0
+1939,atrophy,13,14,79,86,"Fourteen patients had subcortical white matter lesions on MRI, 14 had cerebral atrophy.",7696601_5,0,1939,0
+1943,atrophy,29,30,184,191,Quantification of CTG repeat size may allow an early estimate on the probability of brain involvement in DM; cognitive dysfunction is associated with white matter lesions and cerebral atrophy later on in the course..,7696601_9,0,1943,0
+1951,breast cancer,14,16,82,95,Age at diagnosis as an indicator of eligibility for BRCA1 DNA testing in familial breast cancer.,7759075_0,0,1951,0
+1952,breast cancer,8,10,46,59,"
+We searched for criteria that could indicate breast cancer families with a high prior probability of being caused by the breast/ovarian cancer susceptibility locus BRCA1 on chromosome 17.",7759075_1,0,1952,0
+1953,cancer,22,23,137,143,"
+We searched for criteria that could indicate breast cancer families with a high prior probability of being caused by the breast/ovarian cancer susceptibility locus BRCA1 on chromosome 17.",7759075_1,0,1953,0
+1954,breast cancer,14,16,80,93,"To this end, we performed a linkage study with 59 consecutively collected Dutch breast cancer families, including 16 with at least one case of ovarian cancer.",7759075_2,0,1954,0
+1955,ovarian cancer,26,28,143,157,"To this end, we performed a linkage study with 59 consecutively collected Dutch breast cancer families, including 16 with at least one case of ovarian cancer.",7759075_2,0,1955,0
+1956,ovarian cancer,14,16,86,100,We used an intake cut-off of at least three first-degree relatives with breast and/or ovarian cancer at any age.,7759075_3,0,1956,0
+1957,breast cancer,10,12,61,74,Significant evidence for linkage was found only among the 13 breast cancer families with a mean age at diagnosis of less than 45 years.,7759075_4,0,1957,0
+1958,cancer,7,8,53,59,"An unexpectedly low proportion of the breast-ovarian cancer families were estimated to be linked to BRCA1, which could be due to a founder effect in the Dutch population.",7759075_5,0,1958,0
+1959,ovarian cancer,35,37,218,232,"Given the expected logistical problems in clinical management now that BRCA1 has been identified, we propose an interim period in which only families with a strong positive family history for early onset breast and/or ovarian cancer will be offered BRCA1 mutation testing..",7759075_6,0,1959,0
+1960,cancer,8,9,58,64,Linkage analysis of 26 Canadian breast and breast-ovarian cancer families.,7759076_0,0,1960,0
+1961,ovarian cancer,11,13,65,79,"
+We have examined 26 Canadian families with hereditary breast or ovarian cancer for linkage to markers flanking the BRCA1 gene on chromosome 17q12-q21.",7759076_1,0,1961,0
+1962,ovarian cancer,8,10,41,55,"Of the 15 families that contain cases of ovarian cancer, 94% were estimated to be linked to BRCA1.",7759076_2,0,1962,0
+1963,breast cancer,17,19,87,100,"In contrast, there was no overall evidence of linkage in the group of 10 families with breast cancer without ovarian cancer.",7759076_3,0,1963,0
+1965,cancer,6,7,42,48,"A genetic recombinant in a breast-ovarian cancer family indicates a placement of BRCA1 telomeric to D17S776, and helps to define the region of assignment of the cancer susceptibility gene.",7759076_4,0,1965,0
+1966,cancer,27,28,161,167,"A genetic recombinant in a breast-ovarian cancer family indicates a placement of BRCA1 telomeric to D17S776, and helps to define the region of assignment of the cancer susceptibility gene.",7759076_4,0,1966,0
+1967,cancers,1,2,6,13,"Other cancers of interest that appeared in the BRCA1-linked families included primary peritoneal cancer, cancer of the fallopian tube, and malignant melanoma..",7759076_5,0,1967,0
+1968,cancer,13,14,97,103,"Other cancers of interest that appeared in the BRCA1-linked families included primary peritoneal cancer, cancer of the fallopian tube, and malignant melanoma..",7759076_5,0,1968,0
+1969,cancer,15,16,105,111,"Other cancers of interest that appeared in the BRCA1-linked families included primary peritoneal cancer, cancer of the fallopian tube, and malignant melanoma..",7759076_5,0,1969,0
+1993,cardiomyopathy,8,9,50,64,At least four of them presented with hypertrophic cardiomyopathy.,7769092_8,0,1993,0
+2007,ovarian cancer,20,22,128,142,"
+The BRCA1 gene on chromosome 17q21 is responsible for an autosomal dominant syndrome of increased susceptibility to breast and ovarian cancer but no somatic mutations in tumours have yet been described.",7795652_1,0,2007,0
+2008,carcinogenesis,9,10,49,63,"To study the potential role of BRCA1 in sporadic carcinogenesis, we analysed the genomic DNA of tumour and normal fractions of 47 ovarian cancers for mutations in BRCA1 using the single-strand conformation polymorphism technique.",7795652_2,0,2008,0
+2009,cancers,24,25,138,145,"To study the potential role of BRCA1 in sporadic carcinogenesis, we analysed the genomic DNA of tumour and normal fractions of 47 ovarian cancers for mutations in BRCA1 using the single-strand conformation polymorphism technique.",7795652_2,0,2009,0
+2010,cancers,28,29,158,165,Our data support a tumour suppressor mechanism for BRCA1; somatic mutations and LOH may result in inactivation of BRCA1 in at least a small number of ovarian cancers..,7795652_4,0,2010,0
+2011,breast cancer,12,14,86,99,Decreased expression of BRCA1 accelerates growth and is often present during sporadic breast cancer progression.,7795653_0,0,2011,0
+2012,ovarian cancer,10,12,61,75,"
+We have characterized expression of the familial breast and ovarian cancer gene, BRCA1, in cases of non-hereditary (sporadic) breast cancer and analyzed the effect of antisense inhibition of BRCA1 on the proliferative rate of mammary epithelial cells.",7795653_1,0,2012,0
+2013,breast cancer,23,25,127,140,"
+We have characterized expression of the familial breast and ovarian cancer gene, BRCA1, in cases of non-hereditary (sporadic) breast cancer and analyzed the effect of antisense inhibition of BRCA1 on the proliferative rate of mammary epithelial cells.",7795653_1,0,2013,0
+2015,cancer,15,16,98,104,BRCA1 mRNA levels are markedly decreased during the transition from carcinoma in situ to invasive cancer.,7795653_2,0,2015,0
+2016,breast cancer,22,24,143,156,These studies suggest that BRCA1 may normally serve as a negative regulator of mammary epithelial cell growth whose function is compromised in breast cancer either by direct mutation or alterations in gene expression..,7795653_4,0,2016,0
+2042,cancer,8,9,61,67,An evaluation of genetic heterogeneity in 145 breast-ovarian cancer families.,7825586_0,0,2042,0
+2043,Breast Cancer,0,2,0,13,Breast Cancer Linkage Consortium.,7825586_1,0,2043,0
+2045,cancer,10,11,73,79,"
+The breast-ovary cancer-family syndrome is a dominant predisposition to cancer of the breast and ovaries which has been mapped to chromosome region 17q12-q21.",7825586_2,0,2045,0
+2046,cancer,9,10,43,49,"The majority, but not all, of breast-ovary cancer families show linkage to this susceptibility locus, designated BRCA1.",7825586_3,0,2046,0
+2047,ovarian cancer,16,18,86,100,We report here the results of a linkage analysis of 145 families with both breast and ovarian cancer.,7825586_4,0,2047,0
+2048,breast cancer,19,21,98,111,These families contain either a total of three or more cases of early-onset (before age 60 years) breast cancer or ovarian cancer.,7825586_5,0,2048,0
+2049,ovarian cancer,22,24,115,129,These families contain either a total of three or more cases of early-onset (before age 60 years) breast cancer or ovarian cancer.,7825586_5,0,2049,0
+2050,ovarian cancer,8,10,44,58,All families contained at least one case of ovarian cancer.,7825586_6,0,2050,0
+2051,breast cancer,9,11,43,56,"None of the 13 families with cases of male breast cancer appear to be linked, but it is estimated that 92% (95% confidence interval 76% -100%) of families with no male breast cancer and with two or more ovarian cancers are linked to BRCA1.",7825586_8,0,2051,0
+2052,breast cancer,38,40,168,181,"None of the 13 families with cases of male breast cancer appear to be linked, but it is estimated that 92% (95% confidence interval 76% -100%) of families with no male breast cancer and with two or more ovarian cancers are linked to BRCA1.",7825586_8,0,2052,0
+2053,cancers,46,47,211,218,"None of the 13 families with cases of male breast cancer appear to be linked, but it is estimated that 92% (95% confidence interval 76% -100%) of families with no male breast cancer and with two or more ovarian cancers are linked to BRCA1.",7825586_8,0,2053,0
+2055,breast cancer,9,11,57,70,"However, the large majority of families with early-onset breast cancer and with two or more cases of ovarian cancer are likely to be due to BRCA1 mutations..",7825586_10,0,2055,0
+2056,ovarian cancer,18,20,101,115,"However, the large majority of families with early-onset breast cancer and with two or more cases of ovarian cancer are likely to be due to BRCA1 mutations..",7825586_10,0,2056,0
+2084,ovarian cancer,11,13,68,82,Mutations in the BRCA1 gene in families with early-onset breast and ovarian cancer.,7894491_0,0,2084,0
+2085,ovarian cancer,12,14,64,78,"
+We analysed 50 probands with a family history of breast and/or ovarian cancer for germline mutations in the coding region of the BRCA1 candidate gene, using single-strand conformation polymorphism (SSCP) analysis on PCR-amplified genomic DNA.",7894491_1,0,2085,0
+2086,ovarian cancer,12,14,77,91,Confirmation of BRCA1 by analysis of germline mutations linked to breast and ovarian cancer in ten families.,7894493_0,0,2086,0
+2087,breast cancer,22,24,142,155,"
+We provide genetic evidence supporting the identity of the candidate gene for BRCA1 through the characterization of germline mutations in 63 breast cancer patients and 10 ovarian cancer patients in ten families with cancer linked to chromosome 17q21.",7894493_1,0,2087,0
+2088,ovarian cancer,27,29,172,186,"
+We provide genetic evidence supporting the identity of the candidate gene for BRCA1 through the characterization of germline mutations in 63 breast cancer patients and 10 ovarian cancer patients in ten families with cancer linked to chromosome 17q21.",7894493_1,0,2088,0
+2089,cancer,34,35,217,223,"
+We provide genetic evidence supporting the identity of the candidate gene for BRCA1 through the characterization of germline mutations in 63 breast cancer patients and 10 ovarian cancer patients in ten families with cancer linked to chromosome 17q21.",7894493_1,0,2089,0
+2090,ovarian cancer,7,9,39,53,The four families with both breast and ovarian cancer had chain termination mutations in the N-terminal half of the protein..,7894493_6,0,2090,0
+2105,ovarian cancer,4,6,29,43,Genetic instability in human ovarian cancer cell lines.,7937795_0,0,2105,0
+2106,cancers,15,16,92,99,"
+We have analyzed the stability of microsatellites in cell lines derived from human ovarian cancers and found that 5 out of 10 of the ovarian tumor cell lines are genetically unstable at the majority of the loci analyzed.",7937795_1,0,2106,0
+2107,tumor,26,27,142,147,"
+We have analyzed the stability of microsatellites in cell lines derived from human ovarian cancers and found that 5 out of 10 of the ovarian tumor cell lines are genetically unstable at the majority of the loci analyzed.",7937795_1,0,2107,0
+2109,tumors,7,8,48,54,We conclude that genomic instability in ovarian tumors is a dynamic and ongoing process whose high frequency may have been previously underestimated by PCR-based allelotyping of bulk tumor tissue.,7937795_3,0,2109,0
+2110,tumor,27,28,183,188,We conclude that genomic instability in ovarian tumors is a dynamic and ongoing process whose high frequency may have been previously underestimated by PCR-based allelotyping of bulk tumor tissue.,7937795_3,0,2110,0
+2111,tumor,12,13,72,77,"We have identified the source of the genetic instability in one ovarian tumor as a point mutation (R524P) in the human mismatch-repair gene MSH2 (Salmonella MutS homologue), which has recently been shown to be involved in hereditary nonpolyposis colorectal cancer.",7937795_4,0,2111,0
+2112,cancer,44,45,257,263,"We have identified the source of the genetic instability in one ovarian tumor as a point mutation (R524P) in the human mismatch-repair gene MSH2 (Salmonella MutS homologue), which has recently been shown to be involved in hereditary nonpolyposis colorectal cancer.",7937795_4,0,2112,0
+2113,tumor,21,22,133,138,However the wild-type allele was lost at some point early during tumorigenesis so that DNA isolated either from the patients ovarian tumor or from the 2774 cell line carries only the mutant allele of the human MSH2 gene.,7937795_6,0,2113,0
+2115,ovarian cancer,38,40,215,229,"The genetic instability observed in the tumor and cell line DNA, together with the germ-line mutation in a mismatch-repair gene, suggest that the MSH2 gene is involved in the onset and/or progression in a subset of ovarian cancer..",7937795_7,0,2115,0
+2116,tumors,7,8,43,49,"
+Loss of heterozygosity data from familial tumors suggest that BRCA1, a gene that confers susceptibility to ovarian and early-onset breast cancer, encodes a tumor suppressor.",7939630_1,0,2116,0
+2117,breast cancer,21,23,132,145,"
+Loss of heterozygosity data from familial tumors suggest that BRCA1, a gene that confers susceptibility to ovarian and early-onset breast cancer, encodes a tumor suppressor.",7939630_1,0,2117,0
+2118,tumor,26,27,157,162,"
+Loss of heterozygosity data from familial tumors suggest that BRCA1, a gene that confers susceptibility to ovarian and early-onset breast cancer, encodes a tumor suppressor.",7939630_1,0,2118,0
+2119,cancers,14,15,80,87,"The BRCA1 region is also subject to allelic loss in sporadic breast and ovarian cancers, an indication that BRCA1 mutations may occur somatically in these tumors.",7939630_2,0,2119,0
+2121,tumors,13,14,81,87,The BRCA1 coding region was examined for mutations in primary breast and ovarian tumors that show allele loss at the BRCA1 locus.,7939630_3,0,2121,0
+2122,cancers,25,26,147,154,Mutations were detected in 3 of 32 breast and 1 of 12 ovarian carcinomas; all four mutations were germline alterations and occurred in early-onset cancers.,7939630_4,0,2122,0
+2123,cancers,21,22,122,129,These results suggest that mutation of BRCA1 may not be critical in the development of the majority of breast and ovarian cancers that arise in the absence of a mutant germline allele..,7939630_5,0,2123,0
+2124,cataracts,9,10,52,61,"PAX6 gene dosage effect in a family with congenital cataracts, aniridia, anophthalmia and central nervous system defects.",7951315_0,0,2124,0
+2129,cataracts,23,24,145,154,"To study this dosage effect, we characterized two PAX6 mutations in a family segregating aniridia and a milder syndrome consisting of congenital cataracts and late onset corneal dystrophy.",7951315_2,0,2129,0
+2131,ovarian cancer,23,25,116,130,"
+We have constructed a physical map of a 4 cM region on chromosome 17q12-21 that contains the hereditary breast and ovarian cancer gene BRCA1.",7951316_1,0,2131,0
+2132,breast cancer,19,21,114,127,Two genes that lie within a narrow region defined by meiotic breakpoints in BRCA1 patients have been sequenced in breast cancer patients without revealing any deleterious mutations.,7951316_4,0,2132,0
+2180,cancer,5,6,26,32,"A high risk of colorectal cancer was predicted when an interstitial deletion of the long arm of chromosome 5, del (5) (q15q22. 3), was detected in her lymphocytes and deletion of the MCC and APC genes confirmed by molecular analysis.",8071957_2,0,2180,0
+2182,carcinoma,4,5,31,40,Adenomatous polyposis coli and carcinoma of the rectum were subsequently diagnosed in the patient.,8071957_3,0,2182,0
+2184,Breast cancer,1,3,1,14,"
+Breast cancer in men is about a hundredfold less common than in women and this has hindered research into its genetic basis.",8075631_1,0,2184,0
+2185,breast cancer,12,14,60,73,"We have examined 22 families with at least one case of male breast cancer for linkage to the hereditary breast and ovarian cancer locus, BRCA1, on chromosome 17q.",8075631_2,0,2185,0
+2186,ovarian cancer,21,23,115,129,"We have examined 22 families with at least one case of male breast cancer for linkage to the hereditary breast and ovarian cancer locus, BRCA1, on chromosome 17q.",8075631_2,0,2186,0
+2187,breast cancer,18,20,96,109,Our results indicate that there is a gene (s) other than BRCA1 which predisposes to early-onset breast cancer in women and which confers a higher risk of male breast cancer.,8075631_4,0,2187,0
+2188,breast cancer,30,32,159,172,Our results indicate that there is a gene (s) other than BRCA1 which predisposes to early-onset breast cancer in women and which confers a higher risk of male breast cancer.,8075631_4,0,2188,0
+2189,breast cancer,9,11,66,79,Identification of additional pedigrees that include cases of male breast cancer may therefore facilitate the mapping and isolation of this gene.,8075631_5,0,2189,0
+2193,tumors,24,25,107,113,"
+The EWS gene, which maps to band q12 of human chromosome 22, is involved in a wide variety of human solid tumors including Ewing sarcoma, related primitive neuroectodermal tumors, malignant melanoma of soft parts and desmoplastic small round cell tumors.",8084618_1,0,2193,0
+2197,tumors,44,45,248,254,"
+The EWS gene, which maps to band q12 of human chromosome 22, is involved in a wide variety of human solid tumors including Ewing sarcoma, related primitive neuroectodermal tumors, malignant melanoma of soft parts and desmoplastic small round cell tumors.",8084618_1,0,2197,0
+2198,tumors,2,3,9,15,"In these tumors, the EWS is fused to genes encoding transcriptional activators/repressors, like Fli-1 or erg or ATF 1 or wt1.",8084618_2,0,2198,0
+2240,cancer,29,30,155,161,"Eighteen patients had no family history of the disease; of these 11 were classified as having a severe phenotype, based on an early age at presentation or cancer development.",8162051_5,0,2240,0
+2249,cancers,14,15,92,99,Frequent detection of codon 877 mutation in the androgen receptor gene in advanced prostate cancers.,8187068_0,0,2249,0
+2250,prostate cancer,12,14,94,109,"
+Prostatic tissue specimens derived from transurethral resections of patients with metastatic prostate cancer were analyzed for genetic alterations in the hormone-binding domain of the androgen receptor (AR) gene.",8187068_1,0,2250,0
+2251,prostate cancer,11,13,67,82,"This same AR mutation has been reported previously in a metastatic prostate cancer cell line, LNCaP, where this mutation confers upon the AR an altered ligand-binding specificity which is stimulated by estrogens, progestagens, and antiandrogens.",8187068_3,0,2251,0
+2252,prostate cancer,35,37,215,230,"It is possible that analogous to an activated/altered growth factor receptor oncogene, codon 877 mutant AR with altered ligand binding may provide a selective growth advantage in the genesis of a subset of advanced prostate cancer.",8187068_4,0,2252,0
+2253,prostate cancer,17,19,125,140,"Although estrogens are used infrequently, antiandrogens are used increasingly in hormonal therapy for patients with advanced prostate cancer.",8187068_5,0,2253,0
+2261,diarrhea,13,14,116,124,"An SGLT1 missense mutation underlies hereditary glucose/galactose malabsorption, characterized by potentially fatal diarrhea; conversely, oral rehydration therapy exploits normal transport to alleviate life-threatening diarrhea of infectious origin.",8195156_2,0,2261,0
+2262,diarrhea,26,27,219,227,"An SGLT1 missense mutation underlies hereditary glucose/galactose malabsorption, characterized by potentially fatal diarrhea; conversely, oral rehydration therapy exploits normal transport to alleviate life-threatening diarrhea of infectious origin.",8195156_2,0,2262,0
+2265,infections,31,32,194,204,"
+Mutations at the PEPD locus cause prolidase deficiency (McKusick 170100), a rare autosomal recessive disorder characterized by iminodipeptiduria, skin ulcers, mental retardation, and recurrent infections.",8198124_1,0,2265,0
+2283,tumor,7,8,30,35,"
+In humans, alteration of the tumor suppressor gene, APC, causes adenomatous polyposis coli, a condition causing predisposition to colorectal cancer.",8252631_1,0,2283,0
+2285,cancer,24,25,142,148,"
+In humans, alteration of the tumor suppressor gene, APC, causes adenomatous polyposis coli, a condition causing predisposition to colorectal cancer.",8252631_1,0,2285,0
+2287,hypertrophy,8,9,76,87,The syndrome inconsistently associates characteristic patches of congenital hypertrophy of the retinal pigment epithelium (CHRPE).,8252631_2,0,2287,0
+2288,tumor,4,5,23,28,Association of the APC tumor suppressor protein with catenins.,8259519_0,0,2288,0
+2289,cancer,14,15,86,92,"
+Mutations of APC appear to initiate sporadic and inherited forms of human colorectal cancer.",8259519_1,0,2289,0
+2290,tumor,7,8,48,53,These results suggest an important link between tumor initiation and cell adhesion..,8259519_5,0,2290,0
+2299,cancer,8,9,57,63,"
+We have analyzed a single multi-affected breast/ovarian cancer pedigree (BOV3) and have shown consistent inheritance of markers on chromosome 17q with the disease confirming that this family is due to the BRCA1 gene.",8281142_1,0,2299,0
+2301,breast cancer,11,13,70,83,Analysis of 17q haplotypes shows a recombination event in a bilateral breast cancer case which suggests that the BRCA1 gene lies distal to D17S857; D17S857 is thus the new proximal boundary for the region containing BRCA1.,8281142_2,0,2301,0
+2313,atherosclerosis,14,15,79,94,"Because LpA-I has been proposed to be more protective than LpA-I  A-II against atherosclerosis, this selective effect on the metabolism of LpA-I  A-II may provide a potential explanation why patients with classic LCAT deficiency and Fish-eye disease are not at increased risk for premature atherosclerosis despite markedly decreased levels of HDL cholesterol and apoA-I",8282802_10,0,2313,0
+2315,atherosclerosis,47,48,290,305,"Because LpA-I has been proposed to be more protective than LpA-I  A-II against atherosclerosis, this selective effect on the metabolism of LpA-I  A-II may provide a potential explanation why patients with classic LCAT deficiency and Fish-eye disease are not at increased risk for premature atherosclerosis despite markedly decreased levels of HDL cholesterol and apoA-I",8282802_10,0,2315,0
+2316,thrombocytopenia,3,4,19,35,X linked recessive thrombocytopenia.,8301658_0,0,2316,0
+2317,thrombocytopenia,10,11,52,68,"
+A Saudi Arab boy presented in early childhood with thrombocytopenia, morphologically large and normal sized platelets, increased mean platelet volume, and a hypermegakaryocytic bone marrow.",8301658_1,0,2317,0
+2319,thrombocytopenia,35,36,212,228,"Because of various features which include the presence of large and normal sized platelets (rather than small platelets) and freedom from significant immune deficiencies, it is likely that the X linked recessive thrombocytopenia in this family is an isolated entity quite distinct from the classical WAS phenotype.",8301658_5,0,2319,0
+2323,visual loss,13,15,73,84,"RESULTS  In all but one affected member, symptoms of progressive central visual loss developed in the third or fourth decade of life accompanied by central scotoma and well-demarcated atrophy of the retinal pigment epithelium and choriocapillaris of the macula.",8302543_5,0,2323,0
+2324,atrophy,30,31,184,191,"RESULTS  In all but one affected member, symptoms of progressive central visual loss developed in the third or fourth decade of life accompanied by central scotoma and well-demarcated atrophy of the retinal pigment epithelium and choriocapillaris of the macula.",8302543_5,0,2324,0
+2337,tumors,11,12,72,78,Positions of the chromosome 22 breakpoints were determined for 19 Ewing tumors.,8307570_8,0,2337,0
+2344,tumors,6,7,47,53,Molecular mechanisms of oncogenic mutations in tumors from patients with bilateral and unilateral retinoblastoma.,8346255_0,0,2344,0
+2347,tumors,5,6,28,34,"Mutations were found in all tumors, and one-third of the tumors had independent mutations in both alleles neither of which were found in the germ line, confirming their true sporadic nature.",8346255_2,0,2347,0
+2348,tumors,11,12,57,63,"Mutations were found in all tumors, and one-third of the tumors had independent mutations in both alleles neither of which were found in the germ line, confirming their true sporadic nature.",8346255_2,0,2348,0
+2349,tumors,6,7,35,41,"In the remaining two-thirds of the tumors only one mutation was found, consistent with the loss-of-heterozygosity theory of tumorigenesis.",8346255_3,0,2349,0
+2363,cancer,7,8,53,59,"
+A susceptibility gene for hereditary breast-ovarian cancer, BRCA1, has been assigned by linkage analysis to chromosome 17q21.",8401501_1,0,2363,0
+2364,cancer,7,8,43,49,"We have typed 22 breast and breast-ovarian cancer families with eight polymorphisms from the chromosome 17q12-21 region, including two in the EDH17B2 gene.",8401501_3,0,2364,0
+2365,breast cancer,4,6,31,44,Genetic recombination with the breast cancer trait excludes RARA from further consideration as a candidate gene for BRCA1.,8401501_4,0,2365,0
+2368,atherosclerosis,9,10,43,58,"
+Plasma HDL are a negative risk factor for atherosclerosis.",8408659_1,0,2368,0
+2402,bleeding,7,8,43,51,"
+The differential diagnosis of the genetic bleeding disorders, hemophilia A and von Willebrand disease, is occasionally confounded by the close molecular relationship of coagulation factor VIII and von Willebrand factor (vWF).",8500791_1,0,2402,0
+2405,bleeding,15,16,104,112,"The family we describe demonstrates the recessive inheritance of a recently recognized class of genetic bleeding disorders, we call "" autosomal hemophilia. "" We conclude that vWF mutation may be an under recognized cause of hemophilia, especially in cases where the inheritance pattern is not consistent with X-linked transmission.",8500791_10,0,2405,0
+2410,carcinoma,24,25,151,160,"The authors describe two cases of clear cell papillary cystadenoma of the epididymis, both of which were initially confused with metastatic renal cell carcinoma.",8522307_3,0,2410,0
+2412,carcinoma,10,11,66,75,"Because clear cell papillary cystadenoma is similar to renal cell carcinoma histologically, and because both occur as components of the von Hippel-Lindau disease complex, the authors analyzed both cases for the presence of mutations in the VHL gene.",8522307_6,0,2412,0
+2415,tumors,12,13,59,65,A somatic VHL gene mutation was detected in one of the two tumors by polymerase chain reaction followed by single-strand conformation polymorphism analysis.,8522307_7,0,2415,0
+2416,tumor,10,11,45,50,"As the VHL gene is believed to function as a tumor suppressor gene, VHL gene mutations may play a role in the initiation of tumorigenesis in sporadic cystadenomas of the epididymis.",8522307_9,0,2416,0
+2418,thrombocytopenia,11,12,88,104,Identification of WASP mutations in patients with Wiskott-Aldrich syndrome and isolated thrombocytopenia reveals allelic heterogeneity at the WAS locus.,8528198_0,0,2418,0
+2422,thrombocytopenia,32,33,174,190,"However, a missense mutation which results in substitution of the arginine at WAS codon 86 was identified in three boys with severe WAS as well as in one boy presenting with thrombocytopenia alone.",8528198_4,0,2422,0
+2425,thrombocytopenia,8,9,53,69,"While the WASP gene defects responsible for isolated thrombocytopenia and other mild presentations of WAS do not appear distinct from those resulting in severe WAS, these data indicate that analysis of WASP gene mutation provides a valuable tool for distinguishing the spectrum of WAS patients and the subset of males with isolated thrombocytopenia who represent mild cases of WAS..",8528198_7,0,2425,0
+2426,thrombocytopenia,53,54,332,348,"While the WASP gene defects responsible for isolated thrombocytopenia and other mild presentations of WAS do not appear distinct from those resulting in severe WAS, these data indicate that analysis of WASP gene mutation provides a valuable tool for distinguishing the spectrum of WAS patients and the subset of males with isolated thrombocytopenia who represent mild cases of WAS..",8528198_7,0,2426,0
+2428,thrombocytopenia,8,9,61,77,WASP gene mutations in Wiskott-Aldrich syndrome and X-linked thrombocytopenia.,8528199_0,0,2428,0
+2430,thrombocytopenia,19,20,114,130,"Four amino acid substitutions, Leu27Phe, Thr48Ile, Val75Met and Arg477Lys, were found in patients with congenital thrombocytopenia and no clinically evident immune defect indicating that the WASP gene is the site for mutations in X-linked thrombocytopenia as well as in WAS.",8528199_6,0,2430,0
+2431,thrombocytopenia,38,39,239,255,"Four amino acid substitutions, Leu27Phe, Thr48Ile, Val75Met and Arg477Lys, were found in patients with congenital thrombocytopenia and no clinically evident immune defect indicating that the WASP gene is the site for mutations in X-linked thrombocytopenia as well as in WAS.",8528199_6,0,2431,0
+2445,ovarian cancer,15,17,84,98,Inherited mutations in the BRCA1 gene are associated with a high risk of breast and ovarian cancer in some families.,8531967_2,0,2445,0
+2446,breast cancer,12,14,70,83,"However, little is known about the contribution of BRCA1 mutations to breast cancer in the general population.",8531967_3,0,2446,0
+2447,breast cancer,13,15,87,100,We analyzed DNA samples from women enrolled in a population-based study of early-onset breast cancer to assess the spectrum and frequency of germ-line BRCA1 mutations in young women with breast cancer.,8531967_4,0,2447,0
+2448,breast cancer,29,31,187,200,We analyzed DNA samples from women enrolled in a population-based study of early-onset breast cancer to assess the spectrum and frequency of germ-line BRCA1 mutations in young women with breast cancer.,8531967_4,0,2448,0
+2449,breast cancer,6,8,28,41,"We studied 80 women in whom breast cancer was diagnosed before the age of 35, and who were not selected on the basis of family history.",8531967_6,0,2449,0
+2450,ovarian cancer,25,27,135,149,Two of the mutations and three of the rare sequence variants were found among the 39 women who reported no family history of breast or ovarian cancer.,8531967_12,0,2450,0
+2453,breast cancer,9,11,50,63,"
+Thirty-seven families with four or more cases of breast cancer or breast and ovarian cancer were analyzed for mutations in BRCA1.",8533757_1,0,2453,0
+2454,ovarian cancer,14,16,78,92,"
+Thirty-seven families with four or more cases of breast cancer or breast and ovarian cancer were analyzed for mutations in BRCA1.",8533757_1,0,2454,0
+2455,breast cancer,10,12,68,81,"Expressivity of 185delAG in these families varied, from early-onset breast cancer without ovarian cancer.",8533757_4,0,2455,0
+2456,ovarian cancer,13,15,90,104,"Expressivity of 185delAG in these families varied, from early-onset breast cancer without ovarian cancer.",8533757_4,0,2456,0
+2460,breast cancer,37,39,223,236,"In one family, penetrance was complete, with females developing early-onset breast cancer or ovarian cancer and the male carrier developing prostatic cancer, whereas, in the other family, penetrance was incomplete and only breast cancer occurred, diagnosed at ages 38-81 years.",8533757_6,0,2460,0
+2461,breast cancer,21,23,119,132,Two novel nonsense mutations led to the loss of mutant BRCA1 transcript in families with 10 and 6 cases of early-onset breast cancer and ovarian cancer.,8533757_7,0,2461,0
+2462,ovarian cancer,24,26,137,151,Two novel nonsense mutations led to the loss of mutant BRCA1 transcript in families with 10 and 6 cases of early-onset breast cancer and ovarian cancer.,8533757_7,0,2462,0
+2463,cancers,31,32,173,180,"Overall in our series, BRCA1 mutations have been detected in 26 families  16 with positive BRCA1 lod scores, 7 with negative lod scores (reflecting multiple sporadic breast cancers), and 3 not tested for linkage.",8533757_9,0,2463,0
+2467,cancer,9,10,57,63,A high incidence of BRCA1 mutations in 20 breast-ovarian cancer families.,8554067_0,0,2467,0
+2468,cancer,6,7,36,42,"
+We have analyzed 20 breast-ovarian cancer families, the majority of which show positive evidence of linkage to chromosome 17q12 for germ-line mutations in the BRCA1 gene.",8554067_1,0,2468,0
+2469,ovarian cancer,6,8,46,60,"BRCA1 mutations cosegregating with breast and ovarian cancer susceptibility were identified in 16 families, including 1 family with a case of male breast cancer.",8554067_2,0,2469,0
+2470,breast cancer,23,25,147,160,"BRCA1 mutations cosegregating with breast and ovarian cancer susceptibility were identified in 16 families, including 1 family with a case of male breast cancer.",8554067_2,0,2470,0
+2472,ovarian cancer,4,6,16,30,"
+The breast and ovarian cancer susceptibility gene, BRCA1, has been cloned and shown to encode a zinc-finger protein of unknown function.",8563759_1,0,2472,0
+2473,ovarian cancer,15,17,77,91,"Mutations in BRCA1 account for at least 80% of families with both breast and ovarian cancer, as well as some non-familial sporadic ovarian cancers.",8563759_2,0,2473,0
+2474,cancers,25,26,139,146,"Mutations in BRCA1 account for at least 80% of families with both breast and ovarian cancer, as well as some non-familial sporadic ovarian cancers.",8563759_2,0,2474,0
+2475,cancer,21,22,116,122,"To examine the role of BRCA1 in normal tissue growth and differentiation, and to generate a potential model for the cancer susceptibility associated with loss of BRCA1 function, we have created a mouse line carrying a mutation in one Brca1 allele.",8563759_4,0,2475,0
+2476,anencephaly,26,27,155,166,"Abnormalities in Brca1-deficient embryos were most evident in the neural tube, with 40% of the embryos presenting with varying degrees of spina bifida and anencephaly.",8563759_6,0,2476,0
+2477,death,20,21,141,146,"In addition, the neuroepithelium in Brca1-deficient embryos appeared disorganized, with signs of both rapid proliferation and excessive cell death..",8563759_7,0,2477,0
+2480,ovarian cancer,8,10,43,57,The murine homolog of the human breast and ovarian cancer susceptibility gene Brca1 maps to mouse chromosome 11D.,8566965_0,0,2480,0
+2481,ovarian cancer,7,9,38,52,"
+The recently cloned human breast and ovarian cancer susceptibility gene, BRCA1, is located on human chromosome 17q21.",8566965_1,0,2481,0
+2486,ovarian cancer,15,17,91,105,"
+Several BRCA1 mutations have now been found to occur in geographically diverse breast and ovarian cancer families.",8571953_1,0,2486,0
+2487,cancer,32,33,210,216,"To investigate mutation origin and mutation-specific phenotypes due to BRCA1, we constructed a haplotype of nine polymorphic markers within or immediately flanking the BRCA1 locus in a set of 61 breast/ovarian cancer families selected for having one of six recurrent BRCA1 mutations.",8571953_2,0,2487,0
+2488,ovarian cancer,15,17,85,99,"A comparison of the six mutations in the relative proportions of cases of breast and ovarian cancer was suggestive of an effect (P =. 069), with 57% of women presumed affected because of the 1294 del 40 BRCA1 mutation having ovarian cancer, compared with 14% of affected women with the splice-site mutation in intron 5 of BRCA1.",8571953_4,0,2488,0
+2489,ovarian cancer,45,47,225,239,"A comparison of the six mutations in the relative proportions of cases of breast and ovarian cancer was suggestive of an effect (P =. 069), with 57% of women presumed affected because of the 1294 del 40 BRCA1 mutation having ovarian cancer, compared with 14% of affected women with the splice-site mutation in intron 5 of BRCA1.",8571953_4,0,2489,0
+2490,ovarian cancer,14,16,77,91,"
+The BRCA1 gene is in large part responsible for hereditary human breast and ovarian cancer.",8575748_1,0,2490,0
+2493,ovarian cancer,9,11,55,69,"
+Inherited mutations in BRCA1 predispose to breast and ovarian cancer, but the role of BRCA1 in sporadic breast and ovarian cancer has previously been elusive.",8589721_1,0,2493,0
+2494,ovarian cancer,21,23,116,130,"
+Inherited mutations in BRCA1 predispose to breast and ovarian cancer, but the role of BRCA1 in sporadic breast and ovarian cancer has previously been elusive.",8589721_1,0,2494,0
+2495,ovarian cancer,20,22,110,124,"Here, we show that retroviral transfer of the wild-type BRCA1 gene inhibits growth in vitro of all breast and ovarian cancer cell lines tested, but not colon or lung cancer cells or fibroblasts.",8589721_2,0,2495,0
+2496,cancer,31,32,166,172,"Here, we show that retroviral transfer of the wild-type BRCA1 gene inhibits growth in vitro of all breast and ovarian cancer cell lines tested, but not colon or lung cancer cells or fibroblasts.",8589721_2,0,2496,0
+2497,breast cancer,8,10,40,53,"Mutant BRCA1 has no effect on growth of breast cancer cells; ovarian cancer cell growth is not affected by BRCA1 mutations in the 5 portion of the gene, but is inhibited by 3 BRCA1 mutations.",8589721_3,0,2497,0
+2498,ovarian cancer,12,14,61,75,"Mutant BRCA1 has no effect on growth of breast cancer cells; ovarian cancer cell growth is not affected by BRCA1 mutations in the 5 portion of the gene, but is inhibited by 3 BRCA1 mutations.",8589721_3,0,2498,0
+2499,ovarian cancer,14,16,84,98,"
+Germline mutations in BRCA1 are responsible for most cases of inherited breast and ovarian cancer .",8589722_1,0,2499,0
+2501,breast cancer,22,24,89,102,"
+Women who carry a mutation in the BRCA1 gene (on chromosome 17q21), have an 80% risk of breast cancer and a 40% risk of ovarian cancer by the age of 70 (ref.",8589723_1,0,2501,0
+2502,ovarian cancer,30,32,121,135,"
+Women who carry a mutation in the BRCA1 gene (on chromosome 17q21), have an 80% risk of breast cancer and a 40% risk of ovarian cancer by the age of 70 (ref.",8589723_1,0,2502,0
+2503,cancer,8,9,39,45,5) is one possible genetic modifier of cancer penetrance.,8589723_5,0,2503,0
+2504,cancers,16,17,89,96,"Individuals who have rare alleles of the VNTR have an increased risk of certain types of cancers, including breast cancer (2-4).",8589723_6,0,2504,0
+2505,breast cancer,19,21,108,121,"Individuals who have rare alleles of the VNTR have an increased risk of certain types of cancers, including breast cancer (2-4).",8589723_6,0,2505,0
+2506,ovarian cancer,15,17,108,122,"To investigate whether the presence of rare HRAS1 alleles increases susceptibility to hereditary breast and ovarian cancer, we have typed a panel of 307 female BRCA1 carriers at this locus using a PCR-based technique.",8589723_7,0,2506,0
+2507,ovarian cancer,3,5,13,27,"The risk for ovarian cancer was 2. 11 times greater for BRCA1 carriers harbouring one or two rare HRAS1 alleles, compared to carriers with only common alleles (P = 0. 015).",8589723_8,0,2507,0
+2509,breast cancer,2,4,18,31,Susceptibility to breast cancer did not appear to be affected by the presence of rare HRAS1 alleles.,8589723_10,0,2509,0
+2510,cancer,19,20,97,103,This study is the first to show the effect of a modifying gene on the penetrance of an inherited cancer syndrome,8589723_11,0,2510,0
+2534,carcinoma,7,8,50,59,Tumor suppression and apoptosis of human prostate carcinoma mediated by a genetic locus within human chromosome 10pter-q11.,8637912_0,0,2534,0
+2535,Prostate cancer,1,3,1,16,"
+Prostate cancer is the second leading cause of male cancer deaths in the United States. Yet, despite a large international effort, little is known about the molecular mechanisms that underlie this devastating disease.",8637912_1,0,2535,0
+2539,tumor,19,20,123,128,We report the functional definition of a novel genetic locus within human chromosome 10pter-q11 that mediates both in vivo tumor suppression and in vitro apoptosis of prostatic adenocarcinoma cells.,8637912_4,0,2539,0
+2542,death,8,9,62,67,"Furthermore, the complemented hybrids undergo programmed cell death in vitro via a mechanism that does not require nuclear localization of p53.",8637912_7,0,2542,0
+2544,tumor,19,20,114,119,"These data functionally define a novel genetic locus, designated PAC1, for prostate adenocarcinoma 1, involved in tumor suppression of human prostate carcinoma and furthermore strongly suggest that the cell death pathway can be functionally restored in prostatic adenocarcinoma..",8637912_8,0,2544,0
+2545,carcinoma,24,25,150,159,"These data functionally define a novel genetic locus, designated PAC1, for prostate adenocarcinoma 1, involved in tumor suppression of human prostate carcinoma and furthermore strongly suggest that the cell death pathway can be functionally restored in prostatic adenocarcinoma..",8637912_8,0,2545,0
+2548,breast carcinoma,6,8,36,52,Low incidence of BRCA2 mutations in breast carcinoma and other cancers.,8640236_0,0,2548,0
+2549,cancers,10,11,63,70,Low incidence of BRCA2 mutations in breast carcinoma and other cancers.,8640236_0,0,2549,0
+2550,cancer,15,16,108,114,"
+Inherited mutant alleles of familial tumour suppressor genes predispose individuals to particular types of cancer.",8640236_1,0,2550,0
+2551,cancer,9,10,61,67,"In addition to an involvement in inherited susceptibility to cancer, these tumour suppressor genes are targets for somatic mutations in sporadic cancers of the same type found in the familial forms.",8640236_2,0,2551,0
+2552,cancers,22,23,145,152,"In addition to an involvement in inherited susceptibility to cancer, these tumour suppressor genes are targets for somatic mutations in sporadic cancers of the same type found in the familial forms.",8640236_2,0,2552,0
+2553,ovarian cancer,15,17,90,104,"An exception is BRCA1, which contributes to a significant fraction of familial breast and ovarian cancer, but undergoes mutation at very low rates in sporadic breast and ovarian cancers.",8640236_3,0,2553,0
+2554,cancers,30,31,178,185,"An exception is BRCA1, which contributes to a significant fraction of familial breast and ovarian cancer, but undergoes mutation at very low rates in sporadic breast and ovarian cancers.",8640236_3,0,2554,0
+2555,breast carcinoma,15,17,92,108,This finding suggests that other genes may be the principal targets for somatic mutation in breast carcinoma.,8640236_4,0,2555,0
+2556,breast cancer,6,8,39,52,"A second, recently identified familial breast cancer gene, BRCA2 (refs 5-8), accounts for a proportion of breast cancer roughly equal to BRCA1.",8640236_5,0,2556,0
+2557,breast cancer,22,24,106,119,"A second, recently identified familial breast cancer gene, BRCA2 (refs 5-8), accounts for a proportion of breast cancer roughly equal to BRCA1.",8640236_5,0,2557,0
+2558,breast cancer,11,13,68,81,"Individuals who inherit one mutant allele are at increased risk for breast cancer, and the tumours they develop lose the wild-type allele by heterozygous deletion.",8640236_7,0,2558,0
+2559,cancers,11,12,66,73,Here we investigate the rate of BRCA2 mutation in sporadic breast cancers and in a set of cell lines that represent twelve other tumour types.,8640236_9,0,2559,0
+2560,cancers,8,9,51,58,"Surprisingly, mutations in BRCA2 are infrequent in cancers including breast carcinoma.",8640236_10,0,2560,0
+2561,breast carcinoma,10,12,69,85,"Surprisingly, mutations in BRCA2 are infrequent in cancers including breast carcinoma.",8640236_10,0,2561,0
+2562,cancer,21,22,129,135,"However, a probable germline mutation in a pancreatic tumour cell line suggests a role for BRCA2 in susceptibility to pancreatic cancer..",8640236_11,0,2562,0
+2563,ovarian cancer,7,9,50,64,Founding BRCA1 mutations in hereditary breast and ovarian cancer in southern Sweden.,8644702_0,0,2563,0
+2564,ovarian cancer,10,12,60,74,"
+Nine different germ-line mutations in the BRCA1 breast and ovarian cancer susceptibility gene were identified in 15 of 47 kindreds from southern Sweden, by use of SSCP and heteroduplex analysis of all exons and flanking intron region and by a protein-truncation test for exon 11, followed by direct sequencing.",8644702_1,0,2564,0
+2565,cancer,10,11,74,80,"Eleven of the 15 kindreds manifesting BRCA1 mutations were breast-ovarian cancer families, several of them with a predominant ovarian cancer phenotype.",8644702_6,0,2565,0
+2566,ovarian cancer,19,21,126,140,"Eleven of the 15 kindreds manifesting BRCA1 mutations were breast-ovarian cancer families, several of them with a predominant ovarian cancer phenotype.",8644702_6,0,2566,0
+2567,cancer,15,16,93,99,The set of 32 families in which no BRCA1 alterations were detected included 1 breast-ovarian cancer kindred manifesting clear linkage to the BRCA1 region and loss of the wild-type chromosome in associated tumors.,8644702_7,0,2567,0
+2568,tumors,32,33,205,211,The set of 32 families in which no BRCA1 alterations were detected included 1 breast-ovarian cancer kindred manifesting clear linkage to the BRCA1 region and loss of the wild-type chromosome in associated tumors.,8644702_7,0,2568,0
+2569,tumor,1,2,6,11,"Other tumor types found in BRCA1 mutation/haplotype carriers included prostatic, pancreas, skin, and lung cancer, a malignant melanoma, an oligodendroglioma, and a carcinosarcoma.",8644702_8,0,2569,0
+2570,cancer,17,18,106,112,"Other tumor types found in BRCA1 mutation/haplotype carriers included prostatic, pancreas, skin, and lung cancer, a malignant melanoma, an oligodendroglioma, and a carcinosarcoma.",8644702_8,0,2570,0
+2574,ovarian cancer,13,15,74,88,"In all, 12 of 16 kindreds manifesting BRCA1 mutation or linkage contained ovarian cancer, as compared with only 6 of the remaining 31 families (P <.",8644702_9,0,2574,0
+2577,cancers,23,24,159,166,The present study confirms the involvement of BRCA1 in disease predisposition for a subset of hereditary breast cancer families often characterized by ovarian cancers.,8644702_11,0,2577,0
+2578,Ovarian Cancer,2,4,16,30,UKCCCR Familial Ovarian Cancer Study Group.,8644703_1,0,2578,0
+2579,ovarian cancer,22,24,145,159,"
+Germ-line mutations of the BRCA1 gene are responsible for a substantial proportion of families with multiple cases of early-onset breast and/or ovarian cancer.",8644703_2,0,2579,0
+2580,cancer,38,39,248,254,We have developed a multiplex heteroduplex analysis that is designed to analyze one-quarter of the coding sequence in a single-step screening procedure and that will detect approximately 50% of all BRCA1 mutations so far reported in breast/ovarian cancer families.,8644703_4,0,2580,0
+2581,ovarian cancer,17,19,93,107,We have used this technique to analyze BRCA1 in 162 families with a history of breast and/or ovarian cancer and identified 12 distinct mutations in 35 families..,8644703_5,0,2581,0
+2587,tumor,22,23,139,144,"No correlation between the location of frameshift or nonsense mutations and phenotypic features, including age at diagnosis, the number of tumor foci, and manifestation of nonocular tumors was observed..",8651278_12,0,2587,0
+2588,tumors,29,30,182,188,"No correlation between the location of frameshift or nonsense mutations and phenotypic features, including age at diagnosis, the number of tumor foci, and manifestation of nonocular tumors was observed..",8651278_12,0,2588,0
+2607,myopathy,9,10,68,76,Abnormal myotonic dystrophy protein kinase levels produce only mild myopathy in mice.,8673131_0,0,2607,0
+2610,cardiomyopathy,31,32,187,201,"Nullizygous (-/-) mice showed only inconsistent and minor size changes in head and neck muscle fibres at older age, animals with the highest DMPK transgene expression showed hypertrophic cardiomyopathy and enhanced neonatal mortality.",8673131_3,0,2610,0
+2612,atrophy,13,14,88,95,"However, both models lack other frequent DM symptoms including the fibre-type dependent atrophy, myotonia, cataract and male-infertility.",8673131_4,0,2612,0
+2614,cataract,17,18,107,115,"However, both models lack other frequent DM symptoms including the fibre-type dependent atrophy, myotonia, cataract and male-infertility.",8673131_4,0,2614,0
+2617,myopathy,12,13,84,92,Mice lacking the myotonic dystrophy protein kinase develop a late onset progressive myopathy.,8673132_0,0,2617,0
+2620,myopathy,7,8,55,63,"Dmpk-/-mice develop a late-onset, progressive skeletal myopathy that shares some pathological features with DM.",8673132_3,0,2620,0
+2622,fibrosis,14,15,88,96,"Muscles from mature mice show variation in fibre size, increased fibre degeneration and fibrosis.",8673132_4,0,2622,0
+2624,tumor,1,2,4,9,The tumor suppressor gene Brca1 is required for embryonic cellular proliferation in the mouse.,8674108_0,0,2624,0
+2625,cancers,16,17,96,103,"
+Mutations of the BRCA1 gone in humans are associated with predisposition to breast and ovarian cancers.",8674108_1,0,2625,0
+2626,tumors,14,15,65,71,We show here that Brca1 +/- mice are normal and fertile and lack tumors by age eleven months.,8674108_2,0,2626,0
+2627,death,3,4,10,15,"Thus, the death of Brca1 (5-6) mutant embryos prior to gastrulation may be due to a failure of the proliferative burst required for the development of the different germ layers.",8674108_10,0,2627,0
+2633,thrombocytopenia,24,25,139,155,"
+The Wiskott-Aldrich syndrome protein (WASP) gene was found to be mutated in patients presenting with WAS and in patients showing X-linked thrombocytopenia.",8682510_1,0,2633,0
+2637,death,11,12,58,63,"
+Apoptosis has recently been recognized as a mode of cell death in Huntington disease (HD).",8696339_1,0,2637,0
+2639,cancer,13,14,83,89,"
+To begin to address the hypothesis that abnormal regulation of the breast/ovarian cancer susceptibility gene BRCA1 is a critical step in sporadic breast/ovarian tumorigenesis, we have determined the detailed structure of the BRCA1 genomic region.",8700509_1,0,2639,0
+2644,carcinoma,18,19,123,132,"Germline VHL gene mutations predispose to the development of retinal, cerebellar and spinal haemangioblastomas, renal cell carcinoma and phaeochromocytoma.",8733131_2,0,2644,0
+2645,carcinoma,15,16,85,94,"In addition, somatic Inactivation of the VHL gene is frequent in sporadic renal cell carcinoma and haemangioblastoma.",8733131_3,0,2645,0
+2646,breast cancer,4,6,36,49,Genetic heterogeneity in hereditary breast cancer: role of BRCA1 and BRCA2.,8751855_0,0,2646,0
+2647,breast cancer,6,8,32,45,"
+The common hereditary forms of breast cancer have been largely attributed to the inheritance of mutations in the BRCA1 or BRCA2 genes.",8751855_1,0,2647,0
+2648,breast cancer,11,13,59,72,"However, it is not yet clear what proportion of hereditary breast cancer is explained by BRCA1 and BRCA2 or by some other unidentified susceptibility gene (s).",8751855_2,0,2648,0
+2649,breast cancer,6,8,41,54,We describe the proportion of hereditary breast cancer explained by BRCA1 or BRCA2 in a sample of North American hereditary breast cancers and assess the evidence for additional susceptibility genes that may confer hereditary breast or ovarian cancer risk.,8751855_3,0,2649,0
+2650,cancers,21,22,131,138,We describe the proportion of hereditary breast cancer explained by BRCA1 or BRCA2 in a sample of North American hereditary breast cancers and assess the evidence for additional susceptibility genes that may confer hereditary breast or ovarian cancer risk.,8751855_3,0,2650,0
+2651,ovarian cancer,36,38,236,250,We describe the proportion of hereditary breast cancer explained by BRCA1 or BRCA2 in a sample of North American hereditary breast cancers and assess the evidence for additional susceptibility genes that may confer hereditary breast or ovarian cancer risk.,8751855_3,0,2651,0
+2653,ovarian cancer,11,13,75,89,Genetic analysis was undertaken to establish linkage between the breast or ovarian cancer cases and markers on chromosomes 17q (BRCA1) and 13q (BRCA2).,8751855_5,0,2653,0
+2654,cancer,4,5,26,32,The pattern of hereditary cancer in 14 (61%) of the 23 families studied was attributed to BRCA1 by a combination of linkage and mutation analyses.,8751855_7,0,2654,0
+2655,breast cancer,9,11,60,73,BRCA1 and BRCA2 probably explain the majority of hereditary breast cancer that exists in the North American population.,8751855_12,0,2655,0
+2656,breast cancer,17,19,98,111,"However, one or more additional genes may yet be found that explain some proportion of hereditary breast cancer..",8751855_13,0,2656,0
+2666,carcinoma,17,18,98,107,"Although we found no FEN1 mutations, a frameshift mutation in MSH3 was observed in an endometrial carcinoma and in an endometrial carcinoma cell line.",8782829_6,0,2666,0
+2667,carcinoma,22,23,130,139,"Although we found no FEN1 mutations, a frameshift mutation in MSH3 was observed in an endometrial carcinoma and in an endometrial carcinoma cell line.",8782829_6,0,2667,0
+2674,hemolytic anemia,14,16,86,102,"However, in a small subset of hemizygous males who suffer from chronic nonspherocytic hemolytic anemia, the underlying mutations (designated class I) cause more-severe G6PD deficiency, and this might provide an opportunity for selection in heterozygous females during development.",8808605_3,0,2674,0
+2697,convulsions,28,29,175,186,"
+The human neuronal nicotinic acetylcholine receptor alpha 4 subunit gene (CHRNA4) is located in the candidate region for three different phenotypes  benign familial neonatal convulsions, autosomal dominant nocturnal frontal lobe epilepsy, and low-voltage EEG.",8833159_1,0,2697,0
+2700,breast cancer,12,14,66,79,"
+BRCA1 and BRCA2 are the two major identified causes of inherited breast cancer, with mutations in either gene conferring up to 80-90% lifetime risk of breast cancer in carrier females.",8841191_1,0,2700,0
+2702,breast cancer,10,12,61,74,"Mutations in BRCA1 account for approximately 45% of familial breast cancer and 90% of inherited breast/ovarian cancer, whereas mutations in BRCA2 account for a comparable percentage of inherited breast cancer cases.",8841191_2,0,2702,0
+2703,cancer,18,19,111,117,"Mutations in BRCA1 account for approximately 45% of familial breast cancer and 90% of inherited breast/ovarian cancer, whereas mutations in BRCA2 account for a comparable percentage of inherited breast cancer cases.",8841191_2,0,2703,0
+2704,breast cancer,31,33,195,208,"Mutations in BRCA1 account for approximately 45% of familial breast cancer and 90% of inherited breast/ovarian cancer, whereas mutations in BRCA2 account for a comparable percentage of inherited breast cancer cases.",8841191_2,0,2704,0
+2705,breast cancer,22,24,132,145,The 6174delT mutation in BRCA2 was recently identified as a frequent mutation in 8 out of 107 Ashkenazi Jewish women diagnosed with breast cancer by age 50 (ref.,8841191_6,0,2705,0
+2706,breast cancer,9,11,39,52,"8), as well as in three Ashkenazi male breast cancer patients.",8841191_7,0,2706,0
+2707,breast cancer,25,27,173,186,We have conducted a large-scale population study to investigate the prevalence of specific BRCA1 and BRCA2 mutations in Ashkenazi Jewish individuals who were unselected for breast cancer.,8841191_8,0,2707,0
+2708,breast cancer,25,27,188,201,"This expanded population-based study confirms that the BRCA1 185delAG mutation and the BRCA2 6174delT mutation constitute the two most frequent mutation alleles predisposing to hereditary breast cancer among the Ashkenazim, and suggests a relatively lower penetrance for the 6174delT mutation in BRCA2",8841191_13,0,2708,0
+2709,cancer,21,22,144,150,"ATM +/- fibroblasts and thymocytes showed intermediately defective responses to irradiation but no growth defect, suggesting that the increased cancer risk of AT heterozygotes could be attributable to poor checkpoint function..",8843193_8,0,2709,0
+2713,tumor,34,35,197,202,"These findings indicate that the ATM gene product plays an essential role in a diverse group of cellular processes, including meiosis, the normal growth of somatic tissues, immune development, and tumor suppression..",8843194_10,0,2713,0
+2716,infections,13,14,82,92,"
+Complement C7 deficiency (C7D) is associated frequently with recurrent bacterial infections, especially meningitis caused by Neisseria meningitidis.",8892662_1,0,2716,0
+2717,meningitis,16,17,105,115,"
+Complement C7 deficiency (C7D) is associated frequently with recurrent bacterial infections, especially meningitis caused by Neisseria meningitidis.",8892662_1,0,2717,0
+2722,cancers,9,10,57,64,Somatic alterations of the DPC4 gene in human colorectal cancers in vivo.,8898652_0,0,2722,0
+2723,cancers,18,19,102,109,"
+BACKGROUND & AIMS  The chromosome region 18q21 has been shown to be frequently deleted in colorectal cancers, and such frequent allelic loss is a hallmark of the presence of a tumor-suppressor gene.",8898652_1,0,2723,0
+2725,cancers,17,18,88,95,The aim of the present study was to determine if it might also be altered in colorectal cancers.,8898652_3,0,2725,0
+2726,cancer,18,19,115,121,"METHODS  Mutation analyses of the DPC4 gene were performed on complementary DNA samples from 31 primary colorectal cancer specimens using a combination of polymerase chain reaction, single-strand conformation polymorphism, and DNA sequencing.",8898652_4,0,2726,0
+2727,cancers,28,29,166,173,RESULTS  Four missense mutations producing amino acid substitutions and a somatic 12-base pair deletion in the coding region of the DPC4 gene were detected in the 31 cancers (16%; 5 of 31).,8898652_5,0,2727,0
+2728,cancers,18,19,98,105,"CONCLUSIONS  The DPC4 gene may play a role as a tumor-suppressor gene in a fraction of colorectal cancers; however, while allelic loss at 18q21 is very often seen in colorectal cancers, only a minority show DPC4 mutations, suggesting that there might be another tumor-suppressor gene in this chromosome region..",8898652_6,0,2728,0
+2729,cancers,33,34,177,184,"CONCLUSIONS  The DPC4 gene may play a role as a tumor-suppressor gene in a fraction of colorectal cancers; however, while allelic loss at 18q21 is very often seen in colorectal cancers, only a minority show DPC4 mutations, suggesting that there might be another tumor-suppressor gene in this chromosome region..",8898652_6,0,2729,0
+2731,cancer,7,8,44,50,The DCC protein and prognosis in colorectal cancer.,8929264_0,0,2731,0
+2732,cancer,18,19,105,111,"
+BACKGROUND  Allelic loss of chromosome 18q predicts a poor outcome in patients with stage II colorectal cancer.",8929264_1,0,2732,0
+2733,cancer,20,21,116,122,"Although the specific gene inactivated by this allelic loss has not been elucidated, the DCC (deleted in colorectal cancer) gene is a candidate.",8929264_2,0,2733,0
+2734,tumor,10,11,61,66,We investigated whether the expression of the DCC protein in tumor cells is a prognostic marker in colorectal carcinoma.,8929264_3,0,2734,0
+2735,carcinoma,18,19,110,119,We investigated whether the expression of the DCC protein in tumor cells is a prognostic marker in colorectal carcinoma.,8929264_3,0,2735,0
+2736,tumor,15,16,89,94,"The Cox proportional-hazards model was used to adjust for covariates including age, sex, tumor site, degree of tumor differentiation, and use of adjuvant therapy.",8929264_5,0,2736,0
+2737,tumor,20,21,111,116,"The Cox proportional-hazards model was used to adjust for covariates including age, sex, tumor site, degree of tumor differentiation, and use of adjuvant therapy.",8929264_5,0,2737,0
+2739,tumors,7,8,40,46,"In patients with stage II disease whose tumors expressed DCC, the five-year survival rate was 94. 3 percent, whereas in patients with DCC-negative tumors, the survival rate was 61. 6 percent (P < 0. 001).",8929264_7,0,2739,0
+2740,tumors,26,27,147,153,"In patients with stage II disease whose tumors expressed DCC, the five-year survival rate was 94. 3 percent, whereas in patients with DCC-negative tumors, the survival rate was 61. 6 percent (P < 0. 001).",8929264_7,0,2740,0
+2742,cancer,16,17,90,96,CONCLUSIONS  DCC is a prognostic marker in patients with stage II or stage III colorectal cancer.,8929264_9,0,2742,0
+2743,cancers,22,23,128,135,"In stage II colorectal carcinomas, the absence of DCC identifies a subgroup of patients with lesions that behave like stage III cancers.",8929264_10,0,2743,0
+2761,cancer,13,14,83,89,"
+Familial adenomatous polyposis (FAP) is an inherited predisposition to colorectal cancer characterized by the development of numerous adenomatous polyps predominantly in the colorectal region.",8931709_1,0,2761,0
+2766,cancer,12,13,91,97,"
+Over 100 distinct disease-associated mutations have been identified in the breast-ovarian cancer susceptibility gene BRCA1.",8938427_1,0,2766,0
+2767,tumors,10,11,41,47,Loss of the wild-type allele in > 90% of tumors from patients with inherited BRCA1 mutations indicates tumor suppressive function.,8938427_2,0,2767,0
+2768,tumor,18,19,103,108,Loss of the wild-type allele in > 90% of tumors from patients with inherited BRCA1 mutations indicates tumor suppressive function.,8938427_2,0,2768,0
+2769,tumors,12,13,84,90,"The low incidence of somatic mutations suggests that BRCA1 inactivation in sporadic tumors occurs by alternative mechanisms, such as interstitial chromosomal deletion or reduced transcription.",8938427_3,0,2769,0
+2770,ovarian cancer,5,7,27,41,"
+The hereditary breast and ovarian cancer gene, BRCA1, encodes a large polypeptide that contains the cysteine-rich RING motif, a zinc-binding domain found in a variety of regulatory proteins.",8944023_1,0,2770,0
+2771,breast cancer,12,14,89,102,"The BARD1/BRCA1 interaction is disrupted by BRCA1 missense mutations that segregate with breast cancer susceptibility, indicating that BARD1 may be involved in mediating tumour suppression by BRCA1..",8944023_4,0,2771,0
+2772,ovarian cancer,11,13,55,69,45-kilobases (kb) exon 11 of the hereditary breast and ovarian cancer gene BRCA1.,8944024_3,0,2772,0
+2785,tumor,24,25,132,137,"Loss of heterozygosity was studied in seven renal hamartomas from two affected individuals in the first family, as well as in a jaw tumor and a parathyroid tumor from the second family.",8954016_11,0,2785,0
+2786,tumor,28,29,156,161,"Loss of heterozygosity was studied in seven renal hamartomas from two affected individuals in the first family, as well as in a jaw tumor and a parathyroid tumor from the second family.",8954016_11,0,2786,0
+2787,tumor,19,20,121,126,"The losses invariably involved the wild type allele derived from the unaffected parent, suggesting the inactivation of a tumor suppressor gene in this region",8954016_13,0,2787,0
+2789,ovarian cancer,9,11,53,67,"
+BRCA1 mutations cause increased risk for breast and ovarian cancer, frequently of early onset.",8968716_1,0,2789,0
+2790,cancer,26,27,167,173,"Many different mutations occur in BRCA1, including several examples of recurrent mutations, each of which accounts for a significant number of families with heritable cancer predisposition.",8968716_2,0,2790,0
+2791,ovarian cancer,11,13,67,81,These common mutations have an etiological role in many breast and ovarian cancer cases and provide the opportunity to examine genotype-phenotype correlations and genotype-environment interactions in individuals with the identical BRCA1 lesion.,8968716_3,0,2791,0
+2792,ovarian cancer,30,32,125,139,"We report a novel missense change in BRCA1, 2640 C-- > T (R841W), found in 3 cases from a subject group of 305 breast and 79 ovarian cancer cases from Orange County, CA.",8968716_4,0,2792,0
+2793,cancers,18,19,82,89,"In all three cases, there is a strong family history of breast, ovarian, or other cancers possibly related to a BRCA1 defect and family members showed a high concordance of cancer incidence with the presence of R841W.",8968716_6,0,2793,0
+2794,cancer,33,34,173,179,"In all three cases, there is a strong family history of breast, ovarian, or other cancers possibly related to a BRCA1 defect and family members showed a high concordance of cancer incidence with the presence of R841W.",8968716_6,0,2794,0
+2795,cancer,3,4,11,17,The age of cancer onset was not always distinct from typical sporadic cases.,8968716_7,0,2795,0
+2796,breast cancer,27,29,164,177,"Testing of a sample of 413 unrelated individuals to examine the hypothesis that R841W might be a rare polymorphism detected one additional instance in a woman with breast cancer diagnosed at age 77 years, and cancer in one parent.",8968716_8,0,2796,0
+2798,cancers,8,9,30,37,7%) of all breast and ovarian cancers in this population.,8968716_10,0,2798,0
+2799,cancer,23,24,158,164,"
+The ATM gene is responsible for the autosomal recessive disorder ataxia-telangiectasia (A-T), characterized by cerebellar degeneration, immunodeficiency and cancer predisposition.",8968760_1,0,2799,0
+2800,breast cancer,9,11,47,60,Mutation analysis of BRCA1 and BRCA2 in a male breast cancer population.,9012404_0,0,2800,0
+2801,breast cancer,7,9,38,51,"
+A population-based series of 54 male breast cancer cases from Southern California were analyzed for germ-line mutations in the inherited breast/ovarian cancer genes, BRCA1 and BRCA2.",9012404_1,0,2801,0
+2802,cancer,22,23,153,159,"
+A population-based series of 54 male breast cancer cases from Southern California were analyzed for germ-line mutations in the inherited breast/ovarian cancer genes, BRCA1 and BRCA2.",9012404_1,0,2802,0
+2803,ovarian cancer,15,17,65,79,Nine (17%) of the patients had a family history of breast and/or ovarian cancer in at least one first-degree relative.,9012404_2,0,2803,0
+2804,cancer,12,13,62,68,A further seven (13%) of the patients reported breast/ovarian cancer in at least one second-degree relative and in no first-degree relatives.,9012404_3,0,2804,0
+2805,breast cancer,2,4,9,22,Two male breast cancer patients (4% of the total) were found to carry novel truncating mutations in the BRCA2 gene.,9012404_5,0,2805,0
+2806,breast cancer,6,8,25,38,"Only one of the two male breast cancer patients carrying a BRCA2 mutation had a family history of cancer, with one case of ovarian cancer in a first-degree relative.",9012404_6,0,2806,0
+2807,cancer,18,19,98,104,"Only one of the two male breast cancer patients carrying a BRCA2 mutation had a family history of cancer, with one case of ovarian cancer in a first-degree relative.",9012404_6,0,2807,0
+2808,ovarian cancer,24,26,123,137,"Only one of the two male breast cancer patients carrying a BRCA2 mutation had a family history of cancer, with one case of ovarian cancer in a first-degree relative.",9012404_6,0,2808,0
+2810,cancer,18,19,94,100,The remaining eight cases (89%) of male breast cancer with a family history of breast/ovarian cancer in first-degree relatives remain unaccounted for by mutations in either the BRCA1 gene or the BRCA2 gene..,9012404_7,0,2810,0
+2811,tumor,2,3,11,16,The TSG101 tumor susceptibility gene is located in chromosome 11 band p15 and is mutated in human breast cancer.,9019400_0,0,2811,0
+2812,breast cancer,17,19,98,111,The TSG101 tumor susceptibility gene is located in chromosome 11 band p15 and is mutated in human breast cancer.,9019400_0,0,2812,0
+2813,tumors,25,26,157,163,"
+Recent work has identified a mouse gene (tsg101) whose inactivation in fibroblasts results in cellular transformation and the ability to produce metastatic tumors in nude mice.",9019400_1,0,2813,0
+2814,tumor,37,38,148,153,"Here, we report that the human homolog, TSG101, which we isolated and mapped to chromosome 11, bands 15. 1-15 1-15. 2, a region proposed to contain tumor suppressor gene (s), is mutated at high frequency in human breast cancer.",9019400_2,0,2814,0
+2815,breast cancer,51,53,213,226,"Here, we report that the human homolog, TSG101, which we isolated and mapped to chromosome 11, bands 15. 1-15 1-15. 2, a region proposed to contain tumor suppressor gene (s), is mutated at high frequency in human breast cancer.",9019400_2,0,2815,0
+2816,cancers,38,39,231,238,"In 7 of 15 uncultured primary human breast carcinomas, intragenic deletions were shown in TSG101 genomic DNA and transcripts by gel and sequence analysis, and mutations affecting two TSG101 alleles were identified in four of these cancers.",9019400_3,0,2816,0
+2817,breast cancer,12,14,70,83,No TSG101 defects were found in matched normal breast tissue from the breast cancer patients.,9019400_4,0,2817,0
+2823,death,3,4,17,22,"
+Programmed cell death (or apoptosis) is a physiological process essential to the normal development and homeostatic maintenance of the immune system.",9028321_1,0,2823,0
+2826,lymphadenopathy,9,10,71,86,"The children share common clinical features including splenomegaly and lymphadenopathy, but only one developed severe autoimmune manifestations.",9028321_4,0,2826,0
+2831,death,4,5,19,24,"The major cause of death of mutant mice was rupture of the major blood vessels, similar to patients with type IV Ehlers-Danlos syndrome.",9050868_7,0,2831,0
+2837,tremors,34,35,167,174,"It differs from this and both the classical and connatal forms of PMD in that it is relatively mild in form, onset is delayed beyond age 2 years, nystagmus is absent, tremors are prominent, mental retardation is not severe, some patients show dementia or personality disorders, the disease is progressive rather than static in some, and several females show signs of disease.",9056547_4,0,2837,0
+2838,dementia,47,48,243,251,"It differs from this and both the classical and connatal forms of PMD in that it is relatively mild in form, onset is delayed beyond age 2 years, nystagmus is absent, tremors are prominent, mental retardation is not severe, some patients show dementia or personality disorders, the disease is progressive rather than static in some, and several females show signs of disease.",9056547_4,0,2838,0
+2843,ovarian cancer,8,10,55,69,Common BRCA1 variants and susceptibility to breast and ovarian cancer in the general population.,9063749_0,0,2843,0
+2844,breast cancer,8,10,44,57,"
+Most multiple case families of young onset breast cancer and ovarian cancer are thought to be due to highly penetrant mutations in the predisposing genes BRCA1 and BRCA2.",9063749_1,0,2844,0
+2845,ovarian cancer,11,13,62,76,"
+Most multiple case families of young onset breast cancer and ovarian cancer are thought to be due to highly penetrant mutations in the predisposing genes BRCA1 and BRCA2.",9063749_1,0,2845,0
+2846,breast cancer,20,22,112,125,"However, these mutations are uncommon in the population and they probably account for only a few percent of all breast cancer incidence.",9063749_2,0,2846,0
+2847,breast cancer,5,7,26,39,"A much larger fraction of breast cancer might, in principle, be due to common variants which confer more modest individual risks.",9063749_3,0,2847,0
+2848,ovarian cancer,24,26,141,155,"We have examined the frequency of four of these polymorphisms  Gln356Arg, Pro871Leu, Glu1038Gly and Ser1613Gly in large series of breast and ovarian cancer cases and matched controls.",9063749_5,0,2848,0
+2849,ovarian cancer,18,20,105,119,Thus the most common polymorphisms of the BRCA1 gene do not make a significant contribution to breast or ovarian cancer risk.,9063749_9,0,2849,0
+2850,breast cancer,16,18,95,108,"However, our data suggest that the Arg356 allele may have a different genotype distribution in breast cancer patients from that in controls (Arg356 homozygotes are more frequent in the control groups, P = 0. 01), indicating that it may be protective against breast cancer.",9063749_10,0,2850,0
+2851,breast cancer,48,50,258,271,"However, our data suggest that the Arg356 allele may have a different genotype distribution in breast cancer patients from that in controls (Arg356 homozygotes are more frequent in the control groups, P = 0. 01), indicating that it may be protective against breast cancer.",9063749_10,0,2851,0
+2859,prostate cancer,16,18,87,102,"PTEN, a putative protein tyrosine phosphatase gene mutated in human brain, breast, and prostate cancer.",9072974_0,0,2859,0
+2860,tumor,17,18,99,104,"
+Mapping of homozygous deletions on human chromosome 10q23 has led to the isolation of a candidate tumor suppressor gene, PTEN, that appears to be mutated at considerable frequency in human cancers.",9072974_1,0,2860,0
+2862,glioblastoma,16,17,74,86,"In preliminary screens, mutations of PTEN were detected in 31% (13/42) of glioblastoma cell lines and xenografts, 100% (4/4) of prostate cancer cell lines, 6% (4/65) of breast cancer cell lines and xenografts, and 17% (3/18) of primary glioblastomas.",9072974_2,0,2862,0
+2863,prostate cancer,28,30,128,143,"In preliminary screens, mutations of PTEN were detected in 31% (13/42) of glioblastoma cell lines and xenografts, 100% (4/4) of prostate cancer cell lines, 6% (4/65) of breast cancer cell lines and xenografts, and 17% (3/18) of primary glioblastomas.",9072974_2,0,2863,0
+2864,breast cancer,39,41,169,182,"In preliminary screens, mutations of PTEN were detected in 31% (13/42) of glioblastoma cell lines and xenografts, 100% (4/4) of prostate cancer cell lines, 6% (4/65) of breast cancer cell lines and xenografts, and 17% (3/18) of primary glioblastomas.",9072974_2,0,2864,0
+2865,tumor,7,8,48,53,These homologies suggest that PTEN may suppress tumor cell growth by antagonizing protein tyrosine kinases and may regulate tumor cell invasion and metastasis through interactions at focal adhesions..,9072974_4,0,2865,0
+2866,tumor,18,19,124,129,These homologies suggest that PTEN may suppress tumor cell growth by antagonizing protein tyrosine kinases and may regulate tumor cell invasion and metastasis through interactions at focal adhesions..,9072974_4,0,2866,0
+2875,cancer,17,18,97,103,"
+Mutations in the WT1 gene were anticipated to explain the genetic basis of the childhood kidney cancer, Wilms tumour (WT).",9090524_1,0,2875,0
+2877,nephropathy,24,25,126,137,"While only 5% of sporadic Wilms tumours have intragenic WT1 mutations, > 90% of patients with the Denys-Drash syndrome (renal nephropathy, gonadal anomaly, predisposition to WT) carry constitutional intragenic WT1 mutations.",9090524_3,0,2877,0
+2887,infections,11,12,94,104,Deficiency of terminal complement components is generally associated with recurrent neisseria infections.,9144525_3,0,2887,0
+2892,breast cancer,11,13,69,82,BRCA1 mutations in women attending clinics that evaluate the risk of breast cancer.,9145677_0,0,2892,0
+2893,breast cancer,20,22,113,126,"
+BACKGROUND  To define the incidence of BRCA1 mutations among patients seen in clinics that evaluate the risk of breast cancer, we analyzed DNA samples from women seen in this setting and constructed probability tables to provide estimates of the likelihood of finding a BRCA1 mutation in individual families.",9145677_1,0,2893,0
+2894,breast cancer,19,21,110,123,"METHODS  Clinical information, family histories, and blood for DNA analysis were obtained from 263 women with breast cancer.",9145677_2,0,2894,0
+2895,breast cancer,16,18,89,102,RESULTS  BRCA1 mutations were identified in 16 percent of women with a family history of breast cancer.,9145677_4,0,2895,0
+2896,breast cancer,11,13,56,69,Only 7 percent of women from families with a history of breast cancer but not ovarian cancer had BRCA1 mutations.,9145677_5,0,2896,0
+2897,ovarian cancer,15,17,78,92,Only 7 percent of women from families with a history of breast cancer but not ovarian cancer had BRCA1 mutations.,9145677_5,0,2897,0
+2898,ovarian cancer,15,17,82,96,The rates were higher among women from families with a history of both breast and ovarian cancer.,9145677_6,0,2898,0
+2899,breast cancer,16,18,79,92,"Among family members, an average age of less than 55 years at the diagnosis of breast cancer, the presence of ovarian cancer, the presence of breast and ovarian cancer in the same woman, and Ashkenazi Jewish ancestry were all associated with an increased risk of detecting a BRCA1 mutation.",9145677_7,0,2899,0
+2901,ovarian cancer,30,32,153,167,"Among family members, an average age of less than 55 years at the diagnosis of breast cancer, the presence of ovarian cancer, the presence of breast and ovarian cancer in the same woman, and Ashkenazi Jewish ancestry were all associated with an increased risk of detecting a BRCA1 mutation.",9145677_7,0,2901,0
+2902,breast cancer,9,11,59,72,"No association was found between the presence of bilateral breast cancer or the number of breast cancers in a family and the detection of a BRCA1 mutation, or between the position of the mutation in the BRCA1 gene and the presence of ovarian cancer in a family.",9145677_8,0,2902,0
+2903,cancers,16,17,97,104,"No association was found between the presence of bilateral breast cancer or the number of breast cancers in a family and the detection of a BRCA1 mutation, or between the position of the mutation in the BRCA1 gene and the presence of ovarian cancer in a family.",9145677_8,0,2903,0
+2904,ovarian cancer,43,45,234,248,"No association was found between the presence of bilateral breast cancer or the number of breast cancers in a family and the detection of a BRCA1 mutation, or between the position of the mutation in the BRCA1 gene and the presence of ovarian cancer in a family.",9145677_8,0,2904,0
+2905,breast cancer,5,7,30,43,"CONCLUSIONS  Among women with breast cancer and a family history of the disease, the percentage with BRCA1 coding-region mutations is less than the 45 percent predicted by genetic-linkage analysis.",9145677_9,0,2905,0
+2907,cancer,11,12,64,70,Mutations in the arginine-rich protein gene (ARP) in pancreatic cancer.,9174057_0,0,2907,0
+2909,cancer,21,22,126,132,"At the cytogenetic level this region is frequently deleted in a variety of different solid tumors, although not in pancreatic cancer.",9174057_3,0,2909,0
+2910,tumor,27,28,122,127,"We have reported the presence of a specific mutation (ATG50-- > AGG) or deletion of codon 50 of the ARP gene in different tumor types (Shridhar et al., 1996, 1996a).",9174057_4,0,2910,0
+2911,tumors,17,18,91,97,"In the present study, we have observed mutations involving codon 50 in 11 of 37 pancreatic tumors.",9174057_5,0,2911,0
+2912,tumors,12,13,69,75,The frequency of codon 50 mutation is roughly the same in pancreatic tumors as in the other types of tumors previously examined.,9174057_6,0,2912,0
+2913,tumors,19,20,101,107,The frequency of codon 50 mutation is roughly the same in pancreatic tumors as in the other types of tumors previously examined.,9174057_6,0,2913,0
+2915,cancer,11,12,67,73,"Mutations in the ARP gene are thus commonly observed in pancreatic cancer, as well as many other cancers.",9174057_8,0,2915,0
+2916,cancers,18,19,97,104,"Mutations in the ARP gene are thus commonly observed in pancreatic cancer, as well as many other cancers.",9174057_8,0,2916,0
+2920,ovarian cancer,7,9,42,56,Screening for ESR mutations in breast and ovarian cancer patients.,9195227_0,0,2920,0
+2921,ovarian cancer,17,19,97,111,"
+In the present study, leukocyte DNA from 143 patients with familial clustering of breast and/or ovarian cancer and tumour DNA from 96 breast carcinomas were screened for base mutations in the estrogen receptor gene (ESR).",9195227_1,0,2921,0
+2922,cancer,7,8,40,46,Three patients with a family history of cancer were carrying a Gly160Cys germline substitution.,9195227_2,0,2922,0
+2923,cancer,12,13,62,68,"However, in the 229 female controls in whom family history of cancer was known, one of two who had a sister with breast cancer was carrying the variant allele.",9195227_4,0,2923,0
+2924,breast cancer,24,26,113,126,"However, in the 229 female controls in whom family history of cancer was known, one of two who had a sister with breast cancer was carrying the variant allele.",9195227_4,0,2924,0
+2926,tumors,8,9,66,72,"
+Chromosomal translocations identified in hematopoietic and solid tumors result in deregulated expression of protooncogenes or creation of chimeric proteins with tumorigenic potential.",9223312_1,0,2926,0
+2927,tumor,4,5,23,28,"In the pediatric solid tumor alveolar rhabdomyosarcoma, a consistent t (2; 13) (q35; q14) or variant t (1; 13) (p36; q14) translocation generates PAX3-FKHR or PAX7-FKHR fusion proteins, respectively.",9223312_2,0,2927,0
+2930,toxicity,18,19,110,118,"atm and p53 cooperate in apoptosis and suppression of tumorigenesis, but not in resistance to acute radiation toxicity.",9241281_0,0,2930,0
+2933,toxicity,16,17,102,110,"Finally-and in contrast to prior predictions-atm and p53 do not appear to interact in acute radiation toxicity, suggesting a separate atm effector pathway for this DNA damage response and having implications for the prognosis and treatment of human tumours..",9241281_8,0,2933,0
+2944,tumor,3,4,22,27,The von Hippel-Lindau tumor suppressor gene product interacts with Sp1 to repress vascular endothelial growth factor promoter activity.,9271438_0,0,2944,0
+2945,tumor,4,5,23,28,"
+The von Hippel-Lindau tumor suppressor gene (VHL) has a critical role in the pathogenesis of clear-cell renal cell carcinoma (RCC), as VHL mutations have been found in both von Hippel-Lindau disease-associated and sporadic RCCs.",9271438_1,0,2945,0
+2946,carcinoma,21,22,116,125,"
+The von Hippel-Lindau tumor suppressor gene (VHL) has a critical role in the pathogenesis of clear-cell renal cell carcinoma (RCC), as VHL mutations have been found in both von Hippel-Lindau disease-associated and sporadic RCCs.",9271438_1,0,2946,0
+2947,tumors,20,21,139,145,Recent studies suggest that vascular endothelial growth factor (VEGF) mRNA is upregulated in RCC- and von Hippel-Lindau disease-associated tumors.,9271438_2,0,2947,0

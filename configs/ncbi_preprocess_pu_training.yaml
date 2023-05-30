@@ -1,17 +1,17 @@
 # Configuration file for training model.
 
 # data path
-task_name: bc5cdr 
+task_name: ncbi 
 
 #processed_dict_dir: data/BC5CDR/processed_dict
 
-document_root_dir: data/BC5CDR/corpus
+document_root_dir: data/NCBI/corpus
 #document_root_dir: data/Mesh/PubMed/BC5CDR/extract
 
 # model save dir
-model_dir: experiments/bc5cdr/models
+model_dir: experiments/ncbi/models
 
-corpus_dir: data/Corpus/BC5CDR
+corpus_dir: data/Corpus/NCBI
 
 # bert model
 seed: 22
@@ -22,7 +22,7 @@ dropout_rate: 0.3
 embedding_dim: 768
 
 # positive label num
-class_num: 2
+class_num: 1
 
 # PU threshold true negative percentile threshold
 pu_thres_pert: 2.5 
@@ -48,5 +48,5 @@ max_patient_count: 3
 
 # restore model
 restore_model: False
-restore_model_path: experiments/bc5cdr/models/model_best_%suffix%.pth
+restore_model_path: experiments/ncbi/models/model_best_%suffix%.pth
 

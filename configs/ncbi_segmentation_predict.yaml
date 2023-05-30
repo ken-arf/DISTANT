@@ -1,17 +1,16 @@
 # Configuration file for training model.
 
 # data path
-task_name: bc5cdr 
+task_name: ncbi 
 
 entities:
-    - chemicals.dict
     - disease.dict
 
-corpus_dir: data/BC5CDR/conll
+corpus_dir: data/NCBI/conll
 # model save dir
-model_dir: experiments/bc5cdr/segmentation/models
+model_dir: experiments/ncbi/segmentation/models
 
-test_dir: data/BC5CDR/corpus_test
+test_dir: data/NCBI/corpus_test
 
 
 # bert model
@@ -43,6 +42,6 @@ gpu: 0
 
 # restore model
 restore_model: True
-model_dir: experiments/bc5cdr/segmentation/models
+model_dir: experiments/ncbi/segmentation/models
 model_name: model_best_seg.pth 
 

@@ -475,6 +475,7 @@ def main():
         df_train[lfs[i].name] = L_train[:, i]
 
 
+
     #label_model = MajorityLabelVoter(cardinality=int(len(lfs) / 2))
     label_model = MajorityLabelVoter(cardinality=len(lfs))
     df_train["label"] = label_model.predict(L=L_train)

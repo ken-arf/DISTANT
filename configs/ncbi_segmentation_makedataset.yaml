@@ -4,12 +4,15 @@
 task_name: ncbi 
 
 use_dictionary: True
+
 dict_dir: 
     - data/NCBI/dict
 
 dict_files:
     - disease.dict
 
+other_dict_files:
+    - others.dict
 
 entity2integer:
     disease: 0
