@@ -38,6 +38,7 @@ BC5CDR
 NCBI
 CTD_dict
 NCBI_Disease
+Mesh
 
 # C extensions
 *.so
