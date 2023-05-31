@@ -1,11 +1,10 @@
 #!/bin/bash
 
-ROOT_DIR=../data/NCBI/eval
-#ROOT_DIR=../modules/baselines/data/BC5CDR/eval
+ROOT_DIR=../data/BC5CDR/eval
+ROOT_DIR=../modules/baselines/data/NCBI/eval
 
 
-predict_dir=("annotate" "annotate.match_dict" "annotate.autoner")
-#predict_dir+=("annotate.bond2nd" "annotate.roster")
+predict_dir=("annotate.debug")
 
 for i in ${!predict_dir[@]}; do
     echo "$i: ${predict_dir[$i]}"
@@ -18,11 +17,9 @@ hypo=${predict_dir[$input]}
 predict_coll_dir=$ROOT_DIR/${hypo}
 echo "hyp dir: ${predict_coll_dir}"
 
-#predict_coll_di=$ROOT_DIR/annotate.latest
-#predict_coll_dir=$ROOT_DIR/annotate.match_dict
-#predict_coll_dir=$ROOT_DIR/annotate
-#predict_coll_dir=$ROOT_DIR/annotate.autoner
-#predict_coll_dir=$ROOT_DIR/annotate.supervised
+#predict_coll_dir=$ROOT_DIR/annotate.debug
+#echo "hyp dir: ${predict_coll_dir}"
+
 
 true_coll_dir=$ROOT_DIR/annotate.gold
 echo "ref dir: ${true_coll_dir}"
@@ -32,6 +29,17 @@ ls $predict_coll_dir/*.coll | sort | xargs -n1 cat > predict.coll
 ls $true_coll_dir/*.coll | sort | xargs -n1 cat > true.coll
 
 
+for f in predict.coll true.coll; do
+    cp $f tmp
+    for tag in Disease Chemical NONE; do
+        echo $tag
+        sed -i -e "s/B\-${tag}/I\-B/g" tmp
+        sed -i -e "s/I\-${tag}/I\-B/g" tmp
+    done
+    mv tmp $f
+done
+
+
 python eval_performance.py
 
-#rm *.coll
+rm *.coll

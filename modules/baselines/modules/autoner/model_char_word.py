@@ -239,9 +239,7 @@ class AutoNER(nn.Module):
 
             for span in spans:
                 ent_labels = []
-                #for k in range(3):
                 for k in range(self.params['class_num']):
-                #for k in range(2):
                     bio = bio_label[k][i]
                     match = torch.all(torch.tensor([k]*(span[1]-span[0])).to(self.device)==bio[span[0]:span[1]])
                     if match.item():
@@ -311,23 +309,25 @@ class AutoNER(nn.Module):
                 continue
             spans = self._extract_span(span_index[0])
 
+            other_class_index = self.params['class_num'] - 1
+
             for span in spans:
                 ent_labels = []
-                #for k in range(3):
+
                 for k in range(self.params['class_num']):
                     bio = bio_label[k][i]
                     match = torch.all(torch.tensor([k]*(span[1]-span[0])).to(self.device)==bio[span[0]:span[1]])
                     if match.item():
                         ent_labels.append(k)
 
-                if 2 in ent_labels:
+                if other_class_index  in ent_labels:
                     if len(ent_labels) == 1:
                         continue
                     else:
-                        ent_labels.remove(2)
+                        ent_labels.remove(other_class_index)
                 else:
                     if len(ent_labels) == 0:
-                        ent_labels.append(2)
+                        ent_labels.append(other_class_index)
 
                 _, (pred_y, true_y) = self._comp_entity_loss(features, span, ent_labels)
                 pred_ys += pred_y
@@ -361,6 +361,7 @@ class AutoNER(nn.Module):
         span_output = self.span_linear(padded_output)
         span_pred = torch.argmax(span_output, dim=-1)
 
+        other_class_index = self.params['class_num'] - 1
         pred_spans = []
         pred_ys = []
         bs, slen = span_pred.shape
@@ -374,7 +375,7 @@ class AutoNER(nn.Module):
 
             for span in spans:
                 pred_y = self._comp_entity_loss(features, span, None)
-                if pred_y[0] != 2:
+                if pred_y[0] != other_class_index:
                     pred_spans.append((span[0].item(), span[1].item()))
                     pred_ys.append(pred_y[0])
             
