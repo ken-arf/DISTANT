@@ -1,0 +1,20 @@
+# Configuration file for training model.
+
+# data path
+task_name: ncbi 
+
+use_dictionary: True
+dict_dir: 
+    - data/NCBI/dict
+
+dict_files:
+    - disease.dict
+
+#other_dict_files:
+#    - others.dict
+#
+entity_names:
+        - Disease
+
+corpus_dir: data/NCBI/eval/test
+output_dir: data/NCBI/eval/annotate.match_dict

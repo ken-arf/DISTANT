@@ -138,6 +138,7 @@ class Dataloader:
 
     def load_data(self):
 
+
         # shuffle dataset
         random.seed(self.myseed)
 
@@ -238,7 +239,7 @@ class Dataloader:
         input_char_ids = [features[i]['input_char_ids'] for i in sindex]
         spans = [features[i]['span'] for i in sindex]
         bio_labels = {}
-        for k in range(3):
+        for k in range(self.params['class_num']):
             bio_labels[k] = [features[i][f'bio_{k}'] for i in sindex]
         
         # take maximum sequence
@@ -252,7 +253,7 @@ class Dataloader:
         batch['span'] = [
             list(span) + [-100] * (sequence_length - len(span)) for span in spans
         ]
-        for k in range(3):
+        for k in range(self.params['class_num']):
             batch[f'bio_{k}'] = [
                 list(bio) + [-100] * (sequence_length - len(bio)) for bio in bio_labels[k]
             ]
@@ -318,7 +319,7 @@ class Dataloader:
         tokenized_input["input_ids"] = input_ids
         tokenized_input["input_char_ids"] = input_char_ids
         tokenized_input["span"] = examples["span"].copy()
-        for i in range(3):
+        for i in range(self.params['class_num']):
             tokenized_input[f"bio_{i}"] = examples[f"bio_{i}"].copy()
             
         return tokenized_input

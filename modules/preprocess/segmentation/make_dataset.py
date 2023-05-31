@@ -30,9 +30,6 @@ def sentence_split(doc, offset = False, moses = False):
         sents = mymoses.split_sentence(doc.strip())
         sents = [sent.text for sent in sents]
     else:
-        # changed for NCBI #######
-        doc = ''.join(doc.split('\n'))
-        ##########################
 
         doc = nlp(doc)
         sents =  [sent.text for sent in doc.sents]
@@ -48,13 +45,13 @@ def tokenize(text, offset = False, moses = False, ):
     else:
         doc = nlp(text)
 
-
         if offset == False:
-            tokens = [token.text for token in doc]
+            #tokens = [token.text for token in doc]
+            tokens = [token.text for token in doc if token.text != '\n']
         else:
-            tokens = [(token.text, token.idx) for token in doc]
+            #tokens = [(token.text, token.idx) for token in doc]
+            tokens = [(token.text, token.idx) for token in doc if token.text != '\n']
             
-
     return tokens 
     
 

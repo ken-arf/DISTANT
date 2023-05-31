@@ -12,6 +12,7 @@ import pandas as pd
 import time
 from utils import utils
 
+import pdb
 
 
 #nlp = spacy.load("en_core_sci_lg")
@@ -68,9 +69,10 @@ def annotate(tokens, offsets, ann_data_list):
     return bio_labels
                 
 
-    
 
 def convert(file, ann, output_path):
+
+
     with open(file) as fp:
         text = fp.read()
     with open(ann) as fp:
@@ -96,15 +98,13 @@ def convert(file, ann, output_path):
 
     with open(output_path, 'w') as fp:
 
-        # change for NCBI ##############
-        text = ''.join(text.split('\n'))
-        ################################
-
         doc = nlp(text)
         for snt in doc.sents:
-            #print(snt)
-            tokens = [token for token in snt]
-            offsets = [(token.idx, token.idx + len(token.text)) for token in snt]
+            #tokens = [token for token in snt if token.text != '\n']
+            #offsets = [(token.idx, token.idx + len(token.text)) for token in snt]
+            tokens = [token for token in snt if token.text != '\n']
+            offsets = [(token.idx, token.idx + len(token.text)) for token in snt if token.text != '\n']
+
             labels = annotate(tokens, offsets, ann_data_list)
             for token, label in zip(tokens, labels):
                 fp.write(f"{token}\t{label}\n")

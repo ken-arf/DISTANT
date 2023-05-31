@@ -4,7 +4,7 @@ ROOT_DIR=../data/BC5CDR/eval
 ROOT_DIR=../modules/baselines/data/BC5CDR/eval
 
 
-predict_dir=("annotate.debug.1" "annotate.debug.2")
+predict_dir=("annotate.debug.1" "annotate.debug.2" "annotate.debug.3")
 
 for i in ${!predict_dir[@]}; do
     echo "$i: ${predict_dir[$i]}"

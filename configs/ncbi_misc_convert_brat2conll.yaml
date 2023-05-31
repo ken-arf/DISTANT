@@ -1,0 +1,14 @@
+# Configuration file for training model.
+
+# data path
+task_name: ncbi 
+
+#corpus_root_dir: data/BC5CDR/processed_corpus
+
+corpus_dir: 
+    - data/NCBI/eval/annotate.gold
+    - data/NCBI/eval/annotate
+    - data/NCBI/eval/annotate.debug
+#    - data/BC5CDR/processed_corpus/CDR_DevelopmentSet  
+#    - data/BC5CDR/processed_corpus/CDR_TestSet  
+#    - data/BC5CDR/processed_corpus/CDR_TrainingSet  

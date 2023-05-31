@@ -1,0 +1,46 @@
+# Configuration file for training model.
+
+# data path
+task_name: ncbi 
+
+entities:
+    - disease.dict
+
+entity_names:
+        - Disease
+
+ent2int:
+    disease: 0
+    others: 1
+
+#word2vec: modules/autoner/PubMed-w2v.bin
+#word2vec: modules/autoner/BioWordVec_PubMed_MIMICIII_d200.vec.bin
+
+load_embedding: False
+glove_embedding_path: data/glove.6B/glove.6B.200d.txt
+
+vocab_path: experiments/ncbi/autoner/vocab.pth
+
+corpus_dir: data/NCBI/conll
+
+test_dir: data/NCBI/eval/test
+output_dir: data/NCBI/eval/annotate.autoner
+
+
+# bert model
+seed: 22
+model_checkpoint: allenai/scibert_scivocab_uncased
+# nn model
+dropout_rate: 0.3
+embedding_dim: 768
+hidden_size: 100
+
+# label num
+class_num: 2
+
+# gpu
+gpu: 0 
+
+# restore model
+restore_model: True
+restore_model_path: experiments/ncbi/autoner/models/model_best_autoner.pth

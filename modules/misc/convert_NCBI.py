@@ -56,7 +56,7 @@ def convert_text(file, output_dir):
         with open(ann_file, 'w') as fp:
             for k, ann in enumerate(annotations):
                 #fp.write(f'{ann[0]}\t{ann[1]}\t{ann[2]}\tDisease\t{ann[3]}\t{ann[4]}\n')
-                fp.write(f'T{k+1}\tDisease\t{ann[1]}\t{ann[2]}\t{ann[0]}\n')
+                fp.write(f'T{k+1}\tDisease {ann[1]} {ann[2]}\t{ann[0]}\n')
                 
                 
 

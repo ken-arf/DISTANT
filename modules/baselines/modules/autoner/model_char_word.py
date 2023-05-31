@@ -193,7 +193,8 @@ class AutoNER(nn.Module):
         span_label = kargs["span"]
 
         bio_label = {}
-        for k in range(3):
+        #for k in range(3):
+        for k in range(self.params['class_num']):
             bio_label[k] = kargs[f"bio_{k}"]
 
         char_embed = self._process_char_lstm(input_char_ids, input_char_lengths)
@@ -228,7 +229,8 @@ class AutoNER(nn.Module):
 
             for span in spans:
                 ent_labels = []
-                for k in range(3):
+                #for k in range(3):
+                for k in range(self.params['class_num']):
                 #for k in range(2):
                     bio = bio_label[k][i]
                     match = torch.all(torch.tensor([k]*(span[1]-span[0])).to(self.device)==bio[span[0]:span[1]])
@@ -266,7 +268,8 @@ class AutoNER(nn.Module):
         span_label = kargs["span"]
 
         bio_label = {}
-        for k in range(3):
+        #for k in range(3):
+        for k in range(self.params['class_num']):
             bio_label[k] = kargs[f"bio_{k}"]
 
         char_embed = self._process_char_lstm(input_char_ids, input_char_lengths)
@@ -300,7 +303,8 @@ class AutoNER(nn.Module):
 
             for span in spans:
                 ent_labels = []
-                for k in range(3):
+                #for k in range(3):
+                for k in range(self.params['class_num']):
                     bio = bio_label[k][i]
                     match = torch.all(torch.tensor([k]*(span[1]-span[0])).to(self.device)==bio[span[0]:span[1]])
                     if match.item():
