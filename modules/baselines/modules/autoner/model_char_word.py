@@ -47,6 +47,8 @@ class AutoNER(nn.Module):
 
         if torch.cuda.is_available() and self.params['gpu'] >= 0:
             self.device = "cuda"
+        elif torch.backends.mps.is_available():
+            self.device = "mps"
         else:
             self.device = "cpu"
 
@@ -107,7 +109,6 @@ class AutoNER(nn.Module):
 
     def _process_char_lstm(self, input_char_ids, input_char_lengths):
 
-        #pdb.set_trace()
 
         result = []
         # batch_len, word seuqnce_len, char sequence_len
@@ -121,6 +122,7 @@ class AutoNER(nn.Module):
                 input_char = input_char_id[j]
                 input_len = input_char_len[j]
 
+
                 if input_len != -100:
                     input_char = input_char[:input_len]
                     input_embed = self.char_embedding(input_char)
@@ -129,6 +131,7 @@ class AutoNER(nn.Module):
                     word_vec.append(out)
                 else:
                     word_vec.append(torch.zeros(self.char_lstm_hidden_size * 4).to(self.device))
+
             result.append(torch.stack(word_vec, dim=0))
                     
         result = torch.stack(result, dim=0)
@@ -174,11 +177,14 @@ class AutoNER(nn.Module):
         #else:
         #    ent_labels.remove(2)
 
-        true_y = torch.zeros(3)
+        class_num = self.params['class_num']
+        #true_y = torch.zeros(3)
+        true_y = torch.zeros(class_num)
         true_y.index_fill_(0, torch.tensor(ent_labels), 1)
         true_y = F.normalize(true_y, dim=0).to(self.device)
         pred_y = predict[:len(ent_labels)].tolist()
         pred_y = sorted(pred_y)
+
 
         loss = self.entity_loss(logit, true_y)
 
@@ -227,6 +233,10 @@ class AutoNER(nn.Module):
 
             spans = self._extract_span(span_index[0])
 
+
+            other_class_index = self.params['class_num'] - 1
+
+
             for span in spans:
                 ent_labels = []
                 #for k in range(3):
@@ -237,14 +247,14 @@ class AutoNER(nn.Module):
                     if match.item():
                         ent_labels.append(k)
 
-                if 2 in ent_labels:
+                if other_class_index in ent_labels:
                     if len(ent_labels) == 1:
                         continue
                     else:
-                        ent_labels.remove(2)
+                        ent_labels.remove(other_class_index)
                 else:
                     if len(ent_labels) == 0:
-                        ent_labels.append(2)
+                        ent_labels.append(other_class_index)
 
                 if ent_loss == None:
                     loss, _ = self._comp_entity_loss(features, span, ent_labels)

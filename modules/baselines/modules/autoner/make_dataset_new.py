@@ -128,12 +128,14 @@ def annotate(files, parameters):
             entity_dict[name] += load_dict(dict_path)
 
 
-        if parameters["task_name"] == "bc5cdr":
+        if parameters["task_name"] == "bc5cdr" or parameters["task_name"] == "ncbi":
+            print("loading other dict")
             dict_dirs = parameters["dict_dir"]
             other_dict_files= parameters["other_dict_files"]
             dict_paths = [os.path.join(dict_dir, file) for dict_dir in dict_dirs for file in other_dict_files ]
             for dict_path in dict_paths:
                 if not os.path.exists(dict_path):
+                    print(f"{dict_path} not found, continue")
                     continue
 
                 path, fname = os.path.split(dict_path)
@@ -141,6 +143,8 @@ def annotate(files, parameters):
                 entity_dict[name] += load_dict(dict_path)
 
     
+    #pdb.set_trace()
+
     entity_dict_pair = {}
     for key, items in entity_dict.items():
         pairs = []

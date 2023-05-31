@@ -97,7 +97,8 @@ def load_dataset(parameters):
     files = sorted(glob.glob(f"{corpus_dir}/*.txt"))
 
     text_data = []
-    bio_labels_0 = []
+    bio_labels = defaultdict(list) 
+    #bio_labels_0 = []
     #bio_labels_1 = []
     #bio_labels_2 = []
     spans = []
@@ -106,23 +107,32 @@ def load_dataset(parameters):
     for file in tqdm(files):
         input_data = load_file(file, ent_num)
         text_data += input_data['tokens']
-        bio_labels_0 += input_data['bio_0']
+
+        for k in range(ent_num):
+            bio_labels[k] += input_data[f'bio_{k}']
+
+        #bio_labels_0 += input_data[f'bio_{k}']
         #bio_labels_1 += input_data['bio_1']
         #bio_labels_2 += input_data['bio_2']
         spans += input_data['spans']
 
 
-    data = {'text': text_data, 
-            'bio_labels_0': bio_labels_0,
-            #'bio_labels_1': bio_labels_1,
-            #'bio_labels_2': bio_labels_2,
-            'spans': spans}
+    data = {'text': text_data, 'spans': spans}
+    for k in range(ent_num):
+        data.update({f'bio_labels_{k}': bio_labels[k]})
+
+    #data = {'text': text_data, 
+    #        'bio_labels_0': bio_labels_0,
+    #        #'bio_labels_1': bio_labels_1,
+    #        #'bio_labels_2': bio_labels_2,
+    #        'spans': spans}
 
     vocab = list(set([word.lower() for sent in text_data for word in sent]))
 
     return data, vocab
 
 def train(parameters, name_suffix):
+
 
     # logging
     logger = logging.getLogger("logger")

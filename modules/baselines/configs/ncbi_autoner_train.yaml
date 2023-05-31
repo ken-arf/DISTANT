@@ -3,7 +3,7 @@
 # data path
 task_name: ncbi 
 
-num_bio_labels:  1
+num_bio_labels:  2
 
 corpus_dir: data/NCBI/conll.autoner
 
@@ -30,7 +30,7 @@ embedding_dim: 768
 hidden_size: 100
 
 # label num
-class_num: 1
+class_num: 2
 
 # gpu
 gpu: 0 
