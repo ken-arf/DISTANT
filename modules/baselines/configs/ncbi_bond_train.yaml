@@ -1,24 +1,22 @@
 # Configuration file for training model.
 
 # data path
-task_name: bc5cdr 
+task_name: ncbi 
 
-num_bio_labels:  2
+num_bio_labels:  1
 
-corpus_dir: data/BC5CDR/conll.bond
+corpus_dir: data/NCBI/conll.bond
 
 # model save dir
-model_dir: experiments/bc5cdr/bond/models
+model_dir: experiments/ncbi/bond/models
 
 # bert model
 seed: 22
 
 label2int:
     'O': 0
-    'B-CHEMICAL': 1
-    'I-CHEMICAL': 2
-    'B-DISEASE': 3
-    'I-DISEASE': 4
+    'B-DISEASE': 1
+    'I-DISEASE': 2
 
 # bert model
 seed: 22
@@ -49,5 +47,5 @@ max_patient_count: 5
 
 # restore model
 restore_model: False
-restore_model_path: experiments/bc5cdr/bond/models/model_best_bond.pth
+restore_model_path: experiments/ncbi/bond/models/model_best_bond.pth
 

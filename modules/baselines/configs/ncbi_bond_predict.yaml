@@ -1,21 +1,19 @@
 # Configuration file for training model.
 
 # data path
-task_name: bc5cdr 
+task_name: ncbi 
 
 entities:
-    - chemicals.dict
     - disease.dict
 
 entity_names:
-        - Chemical 
         - Disease
 
-corpus_dir: data/BC5CDR/conll
+corpus_dir: data/NCBI/conll
 
-test_dir: data/BC5CDR/eval/test
+test_dir: data/NCBI/eval/test
 #output_dir: data/BC5CDR/eval/annotate.bond
-output_dir: data/BC5CDR/eval/annotate.bond2nd
+output_dir: data/NCBI/eval/annotate.bond2nd
 #output_dir: data/BC5CDR/eval/annotate.bond3rd
 
 
@@ -36,6 +34,6 @@ gpu: 0
 
 # restore model
 restore_model: True
-model_dir: experiments/bc5cdr/bond/models/2nd
+model_dir: experiments/ncbi/bond/models/2nd
 #model_dir: experiments/bc5cdr/bond/models/3rd
 model_name: model_best_bond.pth 
