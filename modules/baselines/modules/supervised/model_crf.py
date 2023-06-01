@@ -55,6 +55,8 @@ class Model(nn.Module):
 
         if torch.cuda.is_available() and self.params['gpu'] >= 0:
             self.device = "cuda"
+        elif torch.backends.mps.is_available():
+            self.device = "mps"
         else:
             self.device = "cpu"
 

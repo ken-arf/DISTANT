@@ -1,0 +1,11 @@
+# Configuration file for training model.
+
+# data path
+task_name: ncbi 
+
+
+corpus_dir: 
+    - data/NCBI/processed_corpus/NCBItrainset_corpus
+    - data/NCBI/processed_corpus/NCBIdevelopset_corpus
+    - data/NCBI/processed_corpus/NCBItestset_corpus
+

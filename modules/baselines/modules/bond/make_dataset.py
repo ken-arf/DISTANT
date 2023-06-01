@@ -46,9 +46,9 @@ def tokenize(text, offset = False, moses = False, ):
         doc = nlp(text)
 
         if offset == False:
-            tokens = [token.text for token in doc]
+            tokens = [token.text for token in doc if token.text != '\n' ]
         else:
-            tokens = [(token.text, token.idx) for token in doc]
+            tokens = [(token.text, token.idx) for token in doc if token.text != '\n' ]
             
 
     return tokens 
