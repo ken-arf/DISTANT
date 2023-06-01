@@ -1,0 +1,24 @@
+# Configuration file for training model.
+
+# data path
+task_name: bond 
+
+use_dictionary: True
+dict_dir: 
+#    - data/Mesh/processed_dict
+#    - data/UMLS/processed_dict
+    - data/NCBI/dict
+
+dict_files:
+    - disease.dict
+
+#other_dict_files:
+#    - others.dict
+
+entity2integer:
+    disease: 0
+
+
+corpus_dir: data/NCBI/corpus
+output_dir: data/NCBI/conll.bond
+

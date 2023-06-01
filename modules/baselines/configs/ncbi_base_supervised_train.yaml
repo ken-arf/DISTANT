@@ -1,0 +1,51 @@
+# Configuration file for training model.
+
+# data path
+task_name: ncbi 
+
+#other_dict_files:
+#    - others.dict
+#
+entity_names:
+        - Disease
+
+corpus_dir:
+        train: ./data/NCBI/processed_corpus/NCBItrainset_corpus
+        dev: ./data/NCBI/processed_corpus/NCBIdevelopset_corpus
+        test: ./data/NCBI/processed_corpus/NCBItestset_corpus
+
+
+#corpus_dir: data/BC5CDR/eval/test
+output_dir: data/NCBI/eval/annotate.supervised
+
+# bert model
+seed: 22
+model_checkpoint: allenai/scibert_scivocab_uncased
+# nn model
+dropout_rate: 0.3
+embedding_dim: 768
+hidden_size: 100
+
+# label num
+class_num: 3 
+
+# gpu
+gpu: 0 
+
+train_batch_size: 8
+valid_batch_size: 8
+test_batch_size: 1
+
+# training lr
+train_epochs: 50
+train_lr: 1e-4
+train_scheduler: linear
+train_num_warmup_steps: 10000 
+max_patient_count: 5 
+
+model_dir: experiments/ncbi/supervised/models/
+
+# restore model
+restore_model: False
+restore_model_path: experiments/ncbi/supervised/models/model_supervised.pth
+

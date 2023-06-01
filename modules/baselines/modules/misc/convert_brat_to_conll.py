@@ -99,8 +99,10 @@ def convert(file, ann, output_path):
         doc = nlp(text)
         for snt in doc.sents:
             #print(snt)
-            tokens = [token for token in snt]
-            offsets = [(token.idx, token.idx + len(token.text)) for token in snt]
+            #tokens = [token for token in snt]
+            #offsets = [(token.idx, token.idx + len(token.text)) for token in snt]
+            tokens = [token for token in snt if token.text != '\n']
+            offsets = [(token.idx, token.idx + len(token.text)) for token in snt if token.text != '\n']
             labels = annotate(tokens, offsets, ann_data_list)
             for token, label in zip(tokens, labels):
                 fp.write(f"{token}\t{label}\n")
