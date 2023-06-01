@@ -6,7 +6,7 @@ ROOT_DIR=../data/NCBI/eval
 
 predict_dir=("annotate.supervised" "annotate.1" "annotate.2" "annotate.3" "annotate.match_dict" "annotate.autoner")
 predict_dir+=("annotate.bond2nd")
-#predict_dir+=("annotate.bond2nd" "annotate.roster")
+predict_dir+=("annotate" "annotate.debug")
 
 for i in ${!predict_dir[@]}; do
     echo "$i: ${predict_dir[$i]}"

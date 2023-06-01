@@ -56,7 +56,7 @@ def tokenize(text, offset = False, moses = False, ):
     
 
 def load_dict(path):
-    print("loading dictionary", path)
+
     items = []
     with open(path) as fp:
         lines = [line.strip().lower() for line in fp.readlines() if len(line.strip()) !=0]
@@ -116,10 +116,12 @@ def annotate(files, parameters):
 
             path, fname = os.path.split(dict_path)
             name, txt = os.path.splitext(fname)
+
+            print(f"loading dictionary {dict_path}")
             entity_dict[name] += load_dict(dict_path)
 
-
-        if parameters["task_name"] == "bc5cdr":
+        # if parameters["task_name"] == "bc5cdr":
+        if parameters["task_name"] == "bc5cdr" or parameters["task_name"] == "ncbi":
             dict_dirs = parameters["dict_dir"]
             other_dict_files= parameters["other_dict_files"]
             dict_paths = [os.path.join(dict_dir, file) for dict_dir in dict_dirs for file in other_dict_files ]
@@ -129,6 +131,7 @@ def annotate(files, parameters):
 
                 path, fname = os.path.split(dict_path)
                 name, txt = os.path.splitext(fname)
+                print(f"loading dictionary {dict_path}")
                 entity_dict[name] += load_dict(dict_path)
 
     

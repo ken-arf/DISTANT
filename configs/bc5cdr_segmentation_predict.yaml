@@ -13,7 +13,6 @@ model_dir: experiments/bc5cdr/segmentation/models
 
 test_dir: data/BC5CDR/eval/test
 
-
 # bert model
 seed: 22
 #model_checkpoint: allenai/scibert_scivocab_cased

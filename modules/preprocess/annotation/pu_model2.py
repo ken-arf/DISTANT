@@ -79,7 +79,10 @@ class PU_Model(nn.Module):
 #        ).to(self.device)
 
         # cross entropy loss
-        self.loss = nn.CrossEntropyLoss()
+        if self.params['class_num'] > 1:
+            self.loss = nn.CrossEntropyLoss()
+        else:
+            self.loss = nn.BCEWithLogitsLoss()
 
     def forward(self, **kargs):
 
@@ -122,8 +125,13 @@ class PU_Model(nn.Module):
 
         features_pt = torch.stack(features)
 
+
         # logit
         logit = self.linear(features_pt)
+    
+        if self.params['class_num'] == 1:
+            labels = labels.reshape(-1,1).float()
+
         loss = self.loss(logit, labels)
 
         return loss
@@ -170,13 +178,18 @@ class PU_Model(nn.Module):
 
         features_pt = torch.stack(features)
 
+
         # logit
         logit = self.linear(features_pt)
-        predicts = torch.argmax(logit, axis=1)
+        if self.params['class_num'] > 1:
+            predicts = torch.argmax(logit, axis=1)
+            # probability
+            probs = F.softmax(logit, dim=1)
+        else:
+            probs = torch.sigmoid(logit)
 
-        # probability
-        probs = F.softmax(logit, dim=1)
+            predicts = torch.zeros(logit.shape[0]).int()
+            predicts[probs.reshape(-1)>0.5] = 1
 
         return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
-
 

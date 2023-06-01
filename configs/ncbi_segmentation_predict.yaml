@@ -23,6 +23,7 @@ embedding_dim: 768
 hidden_size: 100
 
 # label num
+# binary label for span detection
 class_num: 2
 
 # gpu

@@ -3,14 +3,11 @@
 # data path
 task_name: ncbi 
 
-# chemicals + disease
-#num_bio_labels:  2
-# chemicals + disease + others
-num_bio_labels:  1
+# disease + others
+num_bio_labels:  2
 
 corpus_dir: data/NCBI/conll
 #corpus_dir: data/Mesh/PubMed/BC5CDR/conll
-
 
 # model save dir
 model_dir: experiments/ncbi/segmentation/models
@@ -24,7 +21,7 @@ dropout_rate: 0.3
 embedding_dim: 768
 hidden_size: 100
 
-# label num
+# binary label for span [0,1]
 class_num: 2
 
 # gpu

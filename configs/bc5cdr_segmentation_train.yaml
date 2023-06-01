@@ -24,7 +24,7 @@ dropout_rate: 0.3
 embedding_dim: 768
 hidden_size: 100
 
-# label num
+# binary label for span [0,1]
 class_num: 2
 
 # gpu
