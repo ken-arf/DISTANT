@@ -4,7 +4,8 @@ ROOT_DIR=../data/NCBI/eval
 #ROOT_DIR=../modules/baselines/data/BC5CDR/eval
 
 
-predict_dir=("annotate.1" "annotate.2" "annotate.match_dict" "annotate.autoner")
+predict_dir=("annotate.supervised" "annotate.1" "annotate.2" "annotate.3" "annotate.match_dict" "annotate.autoner")
+predict_dir+=("annotate.bond2nd")
 #predict_dir+=("annotate.bond2nd" "annotate.roster")
 
 for i in ${!predict_dir[@]}; do

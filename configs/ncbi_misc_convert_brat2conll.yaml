@@ -7,9 +7,15 @@ task_name: ncbi
 
 corpus_dir: 
     - data/NCBI/eval/annotate.gold
-    - data/NCBI/eval/annotate
-    - data/NCBI/eval/annotate.debug
+    - data/NCBI/eval/annotate.1
+    - data/NCBI/eval/annotate.2
+    - data/NCBI/eval/annotate.3
+    - data/NCBI/eval/annotate.supervised
+    - data/NCBI/eval/annotate.debug.1
+    - data/NCBI/eval/annotate.debug.2
+    - data/NCBI/eval/annotate.debug.3
     - data/NCBI/eval/annotate.autoner
+    - data/NCBI/eval/annotate.bond2nd
 #    - data/BC5CDR/processed_corpus/CDR_DevelopmentSet  
 #    - data/BC5CDR/processed_corpus/CDR_TestSet  
 #    - data/BC5CDR/processed_corpus/CDR_TrainingSet  
