@@ -12,7 +12,8 @@ dict_files:
     - disease.dict
 
 other_dict_files:
-    - others.dict
+    #- others.dict
+    - others_error.dict
 
 entity2integer:
     disease: 0

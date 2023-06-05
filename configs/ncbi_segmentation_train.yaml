@@ -4,7 +4,10 @@
 task_name: ncbi 
 
 # disease + others
-num_bio_labels:  2
+#num_bio_labels:  2
+#
+# didease only (for debug)
+num_bio_labels:  1
 
 corpus_dir: data/NCBI/conll
 #corpus_dir: data/Mesh/PubMed/BC5CDR/conll

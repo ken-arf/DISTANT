@@ -105,7 +105,12 @@ class AutoNER(nn.Module):
 
         # cross entropy loss
         self.span_loss = nn.CrossEntropyLoss(ignore_index=-100)
-        self.entity_loss = nn.CrossEntropyLoss(ignore_index=-100)
+
+        if self.params['class_num'] > 1:
+            self.entity_loss = nn.CrossEntropyLoss(ignore_index=-100)
+        else:
+            self.entity_loss = nn.nn.BCEWithLogitsLoss()
+            
 
     def _process_char_lstm(self, input_char_ids, input_char_lengths):
 
@@ -167,15 +172,11 @@ class AutoNER(nn.Module):
         tail = features[-1]
         cat_features = torch.cat([head, mean, tail])
         logit = self.entity_linear(cat_features)
+
         predict = torch.argsort(logit, descending=True, dim=-1)
 
         if ent_labels == None:
             return predict.tolist()
-
-        #if 2 in ent_labels and len(ent_labels) == 1:
-        #    pass
-        #else:
-        #    ent_labels.remove(2)
 
         class_num = self.params['class_num']
         #true_y = torch.zeros(3)

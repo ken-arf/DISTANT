@@ -285,8 +285,11 @@ def extract_negative_samples(parameters, count):
         df_train_pos, df_train_neg = setup_pu_dataset(step, parameters)
         neg_probs = train(df_train_pos, df_train_neg, parameters, model_name_suffix="pu")
 
-        for k in range(pos_label_num):
-            df_train_neg[f"prob_{k}"] = neg_probs[:, k]
+        if pos_label_num > 1:
+            for k in range(pos_label_num):
+                df_train_neg[f"prob_{k}"] = neg_probs[:, k]
+        else:
+            df_train_neg[f"prob_0"] = 1.0 - neg_probs[:, 0]
 
 
         model_dir = parameters["model_dir"]
