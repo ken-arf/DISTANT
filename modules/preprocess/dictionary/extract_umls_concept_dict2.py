@@ -15,15 +15,56 @@ import logging
 
 from utils import utils
 
+import pdb
 
-def generate_umls_dict(cui, dict_path)
+def prepare_umls_dict(parameters):
 
-    # save the result
+    umls_meta_dir = parameters["umls_meta_files_dir"]
+    mrconso_rrf = os.path.join(umls_meta_dir, "MRCONSO.RRF")
+    mrrel_rrf = os.path.join(umls_meta_dir, "MRREL.RRF")
+
+   
+    cui_dict = defaultdict(list)
+    cui_rel_dict = defaultdict(list)
+
+    with open(mrconso_rrf) as fp:
+        for line in fp:
+            fields = line.strip().split('|')
+            cui = fields[0]
+            lang = fields[1]
+            atom = fields[-5]
+
+            if lang == "ENG":
+                cui_dict[cui].append(atom)
+            
+    cui_dict = {key: list(set(val)) for key, val in cui_dict.items()}
+
+    with open(mrrel_rrf) as fp:
+        for line in fp:
+            fields = line.strip().split('|')
+            cui = fields[0]
+            rel_cui = fields[4]
+            cui_rel_dict[cui].append(rel_cui)
+
+    cui_rel_dict = {key: list(set(val)) for key, val in cui_rel_dict.items()}
+
+    return cui_dict, cui_rel_dict
+
+
+def generate_umls_dict(target_cui, dict_path, cui_dict, cui_rel_dict):
+
     umls_atoms = {}
-    flatten_atom_names = sorted(list(set([name for names in all_names_clean3 for name in names])))
-    umls_atoms["flatten_atom_names"] = flatten_atom_names
-    umls_atoms["atom_synonyms"] = all_names_clean3 
+
+    atoms = cui_dict[target_cui]
+
+    for cui in cui_rel_dict[target_cui]:
+        atoms += cui_dict[cui]
+
+    atoms = sorted(list(set(atoms)))
+
+    umls_atoms["all_synonyms"] = atoms 
     
+    pdb.set_trace()
     with open(dict_path, 'bw') as fp:
         pickle.dump(umls_atoms, fp)
 
@@ -38,6 +79,7 @@ def main():
     UMLS_cui['t_lymphocyte'] = "C0039194"
     #UMLS_cui['disease'] = "C0012634"
     #UMLS_cui['chemicals'] = "C0220806"
+
 
     t_start = time.time()
 
@@ -63,6 +105,8 @@ def main():
     # print config
     utils._print_config(parameters, config_path)
 
+    cui_dict, cui_rel_dict = prepare_umls_dict(parameters)
+
     utils.makedir(parameters['dict_dir'])
     for concept_name, cui in UMLS_cui.items():
         print("-"*20)
@@ -70,7 +114,7 @@ def main():
 
         filename = f"{concept_name}_dict.pkl" 
         dict_path = os.path.join(parameters['dict_dir'], filename)
-        generate_umls_dict(cui, dict_path)
+        generate_umls_dict(cui, dict_path, cui_dict, cui_rel_dict)
 
 
     print('Done!')

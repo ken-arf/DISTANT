@@ -40,6 +40,8 @@ NCBI
 CTD_dict
 NCBI_Disease
 Mesh
+BioPortal
+UniProtKB
 
 # C extensions
 *.so
