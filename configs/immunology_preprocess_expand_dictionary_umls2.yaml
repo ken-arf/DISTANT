@@ -1,0 +1,14 @@
+# Configuration file for training model.
+
+# data path
+task_name: immunology 
+corpus_dir: data/UMLS
+
+dict_dir: data/UMLS/dict
+processed_dict_dir: data/UMLS/processed_dict
+
+entity_types:
+    - cytokine
+    - t_lymphocyte
+    - transcription_factor
+

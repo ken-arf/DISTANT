@@ -115,6 +115,17 @@ def main():
         dict_path = os.path.join(parameters['dict_dir'], filename)
         generate_umls_dict(cui, dict_path, cui_dict, cui_rel_dict)
 
+    # save cui_dict, cui_rel_dict
+    filename = f"cui_dict.pkl" 
+    dict_path = os.path.join(parameters['dict_dir'], filename)
+    with open(dict_path, 'bw') as fp:
+        pickle.dump(cui_dict, fp)
+
+    filename = f"cui_rel_dict.pkl" 
+    dict_path = os.path.join(parameters['dict_dir'], filename)
+    with open(dict_path, 'bw') as fp:
+        pickle.dump(cui_rel_dict, fp)
+
 
     print('Done!')
     t_end = time.time()                                                                                                  
