@@ -64,7 +64,6 @@ def generate_umls_dict(target_cui, dict_path, cui_dict, cui_rel_dict):
 
     umls_atoms["all_synonyms"] = atoms 
     
-    pdb.set_trace()
     with open(dict_path, 'bw') as fp:
         pickle.dump(umls_atoms, fp)
 
