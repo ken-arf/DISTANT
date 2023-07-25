@@ -25,6 +25,7 @@ embedding_dim: 768
 hidden_size: 100
 
 # label num
+# span label
 class_num: 2
 
 # gpu

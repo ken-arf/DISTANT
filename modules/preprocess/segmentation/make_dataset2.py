@@ -55,7 +55,7 @@ def tokenize(text, offset = False, moses = False, ):
     return tokens 
     
 
-def load_dict(path):
+def load_dict_old(path):
 
     items = []
     with open(path) as fp:
@@ -64,6 +64,24 @@ def load_dict(path):
         doc = tokenize(line)
         #print(doc)
         items.append(doc)
+    return items
+    
+def load_dict(path):
+
+    items = []
+    with open(path) as fp:
+        entries = [line.strip().split('|') for line in fp.readlines() if len(line.strip()) !=0]
+
+    for entry in tqdm(entries):
+        atom_str = entry[0]
+        tokens_lc = tokenize(entry[1])
+        tokens_lc_head = tokenize(entry[2])
+        cui = entry[3]
+
+        # (atom string, list of atom tokens, list of head part of atom tokens, cui)
+        items.append((atom_str, tokens_lc, tokens_lc_head, cui))
+
+
     return items
     
 
@@ -94,6 +112,7 @@ def match_entity(tokens, entity_dict, entity_type):
         
 
 def annotate(files, parameters):
+
 
     ent2int = parameters["entity2integer"]
     int2ent = {i:k for k,i in ent2int.items()}
@@ -137,7 +156,9 @@ def annotate(files, parameters):
     
     # append all entities extracted from pu_training
 
-    if parameters["use_pu_train"]:
+
+    #if parameters["use_pu_train"]:
+    if False:
 
         pu_data_csv = parameters["pu_train_csv"]
         df_pu_data = pd.read_csv(pu_data_csv)
@@ -155,11 +176,14 @@ def annotate(files, parameters):
         
     # convert dictionay item to list to tuple
     for key, items in entity_dict.items():
-        entity_dict[key] = list(set([tuple(item) for item in items]))
+        l_token_seq = [tuple(item[1]) for item in items]
+        l_token_seq += [tuple(item[2]) for item in items]
+        
+        entity_dict[key] = list(set(l_token_seq))
 
     # sort dictionary items in ascending order
     for key in entity_dict.keys():
-        entity_dict[key] = sorted(entity_dict[key], key =lambda x: len(x))
+        entity_dict[key] = sorted(entity_dict[key], key =lambda x: -len(x))
 
 
     match_count = defaultdict(int)
@@ -222,6 +246,7 @@ def main():
         os.makedirs(output_dir)
 
     files = sorted(glob.glob(f"{corpus_dir}/*.txt"))
+
 
     if len(files) == 0:
         print("file not found")
