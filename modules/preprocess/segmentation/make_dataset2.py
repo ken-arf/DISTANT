@@ -30,6 +30,7 @@ def sentence_split(doc, offset = False, moses = False):
         sents = mymoses.split_sentence(doc.strip())
         sents = [sent.text for sent in sents]
     else:
+
         doc = nlp(doc)
         sents =  [sent.text for sent in doc.sents]
         
@@ -44,18 +45,18 @@ def tokenize(text, offset = False, moses = False, ):
     else:
         doc = nlp(text)
 
-
         if offset == False:
-            tokens = [token.text for token in doc]
+            #tokens = [token.text for token in doc]
+            tokens = [token.text for token in doc if token.text != '\n']
         else:
-            tokens = [(token.text, token.idx) for token in doc]
+            #tokens = [(token.text, token.idx) for token in doc]
+            tokens = [(token.text, token.idx) for token in doc if token.text != '\n']
             
-
     return tokens 
     
 
 def load_dict(path):
-    print("loading dictionary", path)
+
     items = []
     with open(path) as fp:
         lines = [line.strip().lower() for line in fp.readlines() if len(line.strip()) !=0]
@@ -107,6 +108,7 @@ def annotate(files, parameters):
 
     entity_dict = defaultdict(list)
 
+
     if parameters["use_dictionary"]:
         for dict_path in dict_paths:
             if not os.path.exists(dict_path):
@@ -114,11 +116,27 @@ def annotate(files, parameters):
 
             path, fname = os.path.split(dict_path)
             name, txt = os.path.splitext(fname)
+
+            print(f"loading dictionary {dict_path}")
             entity_dict[name] += load_dict(dict_path)
 
+        # if parameters["task_name"] == "bc5cdr":
+        if parameters["task_name"] == "bc5cdr" or parameters["task_name"] == "ncbi":
+            dict_dirs = parameters["dict_dir"]
+            other_dict_files= parameters["other_dict_files"]
+            dict_paths = [os.path.join(dict_dir, file) for dict_dir in dict_dirs for file in other_dict_files ]
+            for dict_path in dict_paths:
+                if not os.path.exists(dict_path):
+                    continue
+
+                path, fname = os.path.split(dict_path)
+                name, txt = os.path.splitext(fname)
+                print(f"loading dictionary {dict_path}")
+                entity_dict[name] += load_dict(dict_path)
+
+    
     # append all entities extracted from pu_training
 
-    #pdb.set_trace()
     if parameters["use_pu_train"]:
 
         pu_data_csv = parameters["pu_train_csv"]
@@ -158,6 +176,7 @@ def annotate(files, parameters):
                 tokens = tokenize(sent)
                 tokens_low = [token.lower() for token in tokens]
                 
+
                 bio_tag = {}
                 for entity_type in entity_dict.keys():
                     bio_tag[entity_type], cnt = match_entity(tokens_low, entity_dict, entity_type)
