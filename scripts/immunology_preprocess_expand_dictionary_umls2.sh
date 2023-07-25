@@ -22,6 +22,6 @@ fi
 
 python modules/preprocess/dictionary/expand_umls_dictionary2.py --yaml $YAML_PATH 
 
-sleep 5
-tail -f $LOG_PATH
+#sleep 5
+#tail -f $LOG_PATH
 
