@@ -20,6 +20,7 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
+
 python modules/preprocess/segmentation/make_dataset2.py --yaml $YAML_PATH 
 
 #sleep 5
