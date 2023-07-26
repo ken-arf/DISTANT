@@ -14,7 +14,10 @@ corpus_dir: data/Corpus/Immunology
 model_dir: experiments/immunology/models
 
 # PU threshold true negative percentile threshold
-pu_thres_pert: 5
+pu_thres_pert: 2.5
+
+spy_ratio: 0.1
+
 
 # bert model
 seed: 22
