@@ -58,7 +58,13 @@ def gen_jsonData(txt, ann, pmid):
     json_data['text'] = txt
     json_data['entities'] = entity_list
 
-    return json_data 
+    index_data = {}
+    index_data['_index'] = "pubmed"
+    index_data['_type'] = "cancer_immunology"
+    index_data['_id'] = pmid
+
+
+    return json_data, index_data 
 
 def main():
 
@@ -100,12 +106,14 @@ def main():
         ann_basename, _  = os.path.splitext(ann_fname)
         assert(txt_basename == ann_basename)
         print(txt, ann)
-        jsondata = gen_jsonData(txt, ann, ann_basename)
-        json_dataset.append(jsondata)
+        json_data, index_data = gen_jsonData(txt, ann, ann_basename)
+        json_dataset.append((json_data, index_data))
 
     output_dir = parameters["output_dir"]
     with open(os.path.join(output_dir, 'test.jsonl'), 'w')  as fout:
-        for json_data in json_dataset:
+        for json_data, index_data in json_dataset:
+            json.dump({'index': index_data} , fout)
+            fout.write('\n')
             json.dump(json_data, fout)
             fout.write('\n')
 
