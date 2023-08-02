@@ -17,7 +17,7 @@ from utils import utils
 import pdb
 
 
-def gen_jsonData(txt, ann, pmid):
+def gen_AbstractJsonData(txt, ann, pmid):
 
     json_data = {}
 
@@ -49,7 +49,8 @@ def gen_jsonData(txt, ann, pmid):
 
         entity['entityType'] = ent_type
         entity['mention'] = mention
-        entity['span'] = [start_char, end_char]
+        entity['start_char'] = int(start_char)
+        entity['end_char'] = int(end_char)
         entity['cui'] = cui
 
         entity_list.append(entity)
@@ -59,12 +60,57 @@ def gen_jsonData(txt, ann, pmid):
     json_data['entities'] = entity_list
 
     index_data = {}
-    index_data['_index'] = "pubmed"
+    index_data['_index'] = "abstract"
     index_data['_type'] = "cancer_immunology"
     index_data['_id'] = pmid
 
+    return json_data, index_data 
+
+def gen_EntityJsonData(txt, ann, pmid):
+
+    json_data = {}
+
+    with open(txt) as fp:
+        txt = fp.read()
+
+    with open(ann) as fp:
+        lines = fp.readlines()
+    lines = [line.strip() for line in lines]
+
+
+    entity_list = []
+    for i in range(0,len(lines), 2):
+        entity = {}
+
+        ent = lines[i]
+        atr = lines[i+1]
+
+        # process ent
+        fields = ent.split('\t')
+        tname = fields[0]
+        mention = fields[2]
+        ent_type, start_char, end_char = fields[1].split(' ')
+
+        # process atr
+        fields = atr.split('\t')
+        aname = fields[0]
+        _, tname_, cui = fields[1].split(' ')
+
+        entity['entityType'] = ent_type
+        entity['mention'] = mention
+        entity['cui'] = cui
+
+        entity_list.append(entity)
+
+    json_data['entities'] = entity_list
+
+    index_data = {}
+    index_data['_index'] = "entity"
+    index_data['_type'] = "cancer_immunology"
+    index_data['_id'] = pmid
 
     return json_data, index_data 
+
 
 def main():
 
@@ -98,6 +144,9 @@ def main():
     txt_files = sorted(glob(f"{extract_dir}/*txt"))
     ann_files = sorted(glob(f"{annotate_dir}/*ann"))
 
+
+    # abstract index
+
     json_dataset = []
     for txt, ann in zip(txt_files, ann_files):
         path, txt_fname = os.path.split(txt)
@@ -106,11 +155,32 @@ def main():
         ann_basename, _  = os.path.splitext(ann_fname)
         assert(txt_basename == ann_basename)
         print(txt, ann)
-        json_data, index_data = gen_jsonData(txt, ann, ann_basename)
+        json_data, index_data = gen_AbstractJsonData(txt, ann, ann_basename)
         json_dataset.append((json_data, index_data))
 
     output_dir = parameters["output_dir"]
-    with open(os.path.join(output_dir, 'test.jsonl'), 'w')  as fout:
+    with open(os.path.join(output_dir, 'abstract.jsonl'), 'w')  as fout:
+        for json_data, index_data in json_dataset:
+            json.dump({'index': index_data} , fout)
+            fout.write('\n')
+            json.dump(json_data, fout)
+            fout.write('\n')
+
+    # entity index
+
+    json_dataset = []
+    for txt, ann in zip(txt_files, ann_files):
+        path, txt_fname = os.path.split(txt)
+        path, ann_fname = os.path.split(ann)
+        txt_basename, _  = os.path.splitext(txt_fname)
+        ann_basename, _  = os.path.splitext(ann_fname)
+        assert(txt_basename == ann_basename)
+        print(txt, ann)
+        json_data, index_data = gen_EntityJsonData(txt, ann, ann_basename)
+        json_dataset.append((json_data, index_data))
+
+    output_dir = parameters["output_dir"]
+    with open(os.path.join(output_dir, 'entity.jsonl'), 'w')  as fout:
         for json_data, index_data in json_dataset:
             json.dump({'index': index_data} , fout)
             fout.write('\n')
