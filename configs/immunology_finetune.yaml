@@ -1,0 +1,26 @@
+# Configuration file for training model.
+
+# data path
+task_name: immunology 
+
+use_dictionary: True
+dict_dir: 
+    - data/UMLS/processed_dict
+
+dict_files:
+    - cytokine.dict
+    - transcription_factor.dict
+    - t_lymphocyte.dict
+
+use_pu_train: False
+pu_train_csv: experiments/immunology/models/train.csv
+
+entity2integer:
+    cytokine: 0
+    transcription_factor: 1
+    t_lymphocyte: 2
+
+
+es_dump_path: data/Mesh/PubMed/Immunology/database/dump/
+output_dir: data/Mesh/PubMed/Immunology/finetune/conll
+
