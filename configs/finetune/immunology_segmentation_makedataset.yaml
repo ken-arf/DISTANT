@@ -3,6 +3,8 @@
 # data path
 task_name: immunology 
 
+# data generation
+
 use_dictionary: True
 dict_dir: 
     - data/UMLS/processed_dict
@@ -21,6 +23,7 @@ entity2integer:
     t_lymphocyte: 2
 
 
-es_dump_path: data/Mesh/PubMed/Immunology/database/dump/
+es_dump_path: data/Mesh/PubMed/Immunology/database/dump/abstract_dump.json
 output_dir: data/Mesh/PubMed/Immunology/finetune/conll
+
 
