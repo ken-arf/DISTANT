@@ -294,7 +294,6 @@ def finetune_classifier(parameters):
 
     model_dir = parameters["model_dir"]
 
-    df_train.set_index('orig_index')
     df_train.to_csv(os.path.join(model_dir, "train.csv"))
 
 
