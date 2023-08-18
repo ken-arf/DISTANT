@@ -242,13 +242,10 @@ def setup_pu_dataset(step, parameters):
 
 def setup_final_dataset(unknown_sample_result, parameters):
 
+    # unknown_sample_result = {'pos_index': pos_index, 'neg_index': neg_index, 'pos_label': pos_label}
 
     corpus_dir = parameters["corpus_dir"]
     df_train_raw = pd.read_csv(os.path.join(corpus_dir,"df_train_pos_neg.csv"), index_col=0)
-
-    ## for debug ####
-    #df_train_raw = df_train_raw.iloc[:200]
-    #################
 
     #df_train_raw = df_train_raw.dropna()
     df_train_raw.reset_index(drop=True, inplace=True)
@@ -268,6 +265,7 @@ def setup_final_dataset(unknown_sample_result, parameters):
     pos_label = unknown_sample_result['pos_label']
     df_train_raw.loc[pos_index, "label"] = pos_label
 
+    # filter rows which have label of  -1 (unknown samples which are not judged either positive or negative)
     df_train = df_train_raw[df_train_raw.label >=0]
     # shuffle training dataset
     df_train = df_train.sample(frac=1)
@@ -337,6 +335,8 @@ def main():
     count = 3
     extract_negative_samples(parameters, count=count)
     model_dir = parameters["model_dir"]
+
+    # unknown_sample_result = {'pos_index': pos_index, 'neg_index': neg_index, 'pos_label': pos_label}
     unknow_sample_result = classify_unknown_samples(model_dir, parameters["pu_thres_pert"], count=count)
     
     # step-2.
