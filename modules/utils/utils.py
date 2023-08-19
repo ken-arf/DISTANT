@@ -10,10 +10,11 @@ from glob import glob
 
 import torch
 import numpy
+from pathlib import Path
 
 
 def make_dirs(*paths):
-    os.makedirs(path(*paths), exist_ok=True)
+    os.makedirs(Path(*paths), exist_ok=True)
 
 
 def makedir(dir):
