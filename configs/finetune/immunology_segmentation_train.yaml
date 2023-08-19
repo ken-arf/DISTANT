@@ -14,7 +14,7 @@ restore_model: True
 restore_model_path: experiments/immunology/segmentation/models/model_best_seg.pth
 
 # model save dir
-model_dir: experiments/immunology/segmentation/models/fintune
+model_dir: experiments/immunology/segmentation/models/finetune
 
 
 # bert model

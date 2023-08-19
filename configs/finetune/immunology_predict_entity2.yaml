@@ -13,7 +13,7 @@ corpus_file: desc2023.xml
 #protein_dict_file: protein.dict 
 
 document_root_dir: data/Mesh/PubMed/Immunology/extract
-annotation_root_dir: data/Mesh/PubMed/Immunology/annotate
+annotation_root_dir: data/Mesh/PubMed/Immunology/finetune/annotate
 
 corpus_dir: data/Corpus/Immunology
 
@@ -43,6 +43,9 @@ entity_names:
         - Cytokine 
         - Transcription_Factor
         - T_Lymphocyte
+
+positive_class_num: 4
+
 # gpu
 gpu: 0 
 
