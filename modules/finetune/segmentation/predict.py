@@ -30,7 +30,7 @@ from tqdm.auto import tqdm
 
 from utils import utils
 
-from preprocess.segmentation.model import Model 
+from preprocess.segmentation.model import Model
 
 from preprocess.segmentation.make_dataset import tokenize
 from preprocess.segmentation.make_dataset import sentence_split
@@ -46,24 +46,24 @@ class Entity:
     start: int = 0
     end: int = 0
     start_char: int = 0
-    end_char:int=0      
-    
+    end_char: int = 0
 
 
 class EntityExtraction:
 
     def __init__(self, config_yaml):
-        
+
         # logging
         self.logger = logging.getLogger("logger")
         self.logger.setLevel(logging.ERROR)
 
         handler1 = logging.StreamHandler()
-        handler1.setFormatter(logging.Formatter("%(asctime)s %(filename)s %(funcName)s %(lineno)d %(levelname)s %(message)s"))
+        handler1.setFormatter(logging.Formatter(
+            "%(asctime)s %(filename)s %(funcName)s %(lineno)d %(levelname)s %(message)s"))
 
         self.logger.addHandler(handler1)
 
-        #self.nlp = spacy.load("en_core_sci_lg")
+        # self.nlp = spacy.load("en_core_sci_lg")
         self.nlp = spacy.load("en_core_sci_sm")
         self.nlp.add_pipe("sentencizer")
 
@@ -75,7 +75,8 @@ class EntityExtraction:
 
     def load_model(self):
 
-        self.tokenizer = AutoTokenizer.from_pretrained(self.params["model_checkpoint"])
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            self.params["model_checkpoint"])
 
         if torch.cuda.is_available() and self.params['gpu'] >= 0:
             self.device = "cuda"
@@ -88,17 +89,17 @@ class EntityExtraction:
         model_name = self.params["model_name"]
         restore_model_checkpoint = os.path.join(model_dir, model_name)
 
-        self.model.load_state_dict(torch.load(restore_model_checkpoint, map_location=torch.device(self.device)))
-
+        self.model.load_state_dict(torch.load(
+            restore_model_checkpoint, map_location=torch.device(self.device)))
 
     def get_entities(self, text):
 
-        #pdb.set_trace()
+        # pdb.set_trace()
         tokenized_input, aux_data = self.tokenize_text(text)
         prediction, prob = self.model.predict(**tokenized_input)
 
         # extract span of 1's
-        indexes = np.argwhere(prediction[0]==1).squeeze(-1).tolist()
+        indexes = np.argwhere(prediction[0] == 1).squeeze(-1).tolist()
         entity_indexes = []
         span = []
 
@@ -121,7 +122,8 @@ class EntityExtraction:
             entity_indexes.append(span.copy())
 
         # conver index to word_ids
-        word_indexes = [[aux_data["word_ids"][index]for index in span] for span in entity_indexes]
+        word_indexes = [[aux_data["word_ids"][index]
+                         for index in span] for span in entity_indexes]
 
         entities = []
         for span_index in word_indexes:
@@ -140,12 +142,12 @@ class EntityExtraction:
             start_char = offsets[0]
             end_char = offsets[-1] + len(tokens[-1])
             text = aux_data["text"][start_char:end_char]
-            ent = Entity(text=text, start=start, end=end, start_char=start_char, end_char=end_char)
+            ent = Entity(text=text, start=start, end=end,
+                         start_char=start_char, end_char=end_char)
 
             entities.append(ent)
 
         return entities
-            
 
     def tokenize_text(self, text):
 
@@ -159,21 +161,22 @@ class EntityExtraction:
             exit()
 
         tokenized_inputs = self.tokenizer(
-                    [token_text],
-                    truncation = True,
-                    max_length = 512,
-                    is_split_into_words = True,
-                    #return_tensors = "pt",
-                    return_offsets_mapping = True,
-                    return_overflowing_tokens = True,
+            [token_text],
+            truncation=True,
+            max_length=512,
+            is_split_into_words=True,
+            # return_tensors = "pt",
+            return_offsets_mapping=True,
+            return_overflowing_tokens=True,
         )
 
         sample_map = tokenized_inputs.pop("overflow_to_sample_mapping")
         offset_mapping = tokenized_inputs.pop("offset_mapping")
         word_ids = tokenized_inputs.word_ids(0)
 
-        tensor_input = {k: torch.tensor(v, dtype=torch.int64).to(self.device) for k, v in tokenized_inputs.items()}
-         
+        tensor_input = {k: torch.tensor(v, dtype=torch.int64).to(
+            self.device) for k, v in tokenized_inputs.items()}
+
         aux_data = {}
         aux_data["text"] = text
         aux_data["tokens"] = token_text
@@ -181,14 +184,13 @@ class EntityExtraction:
         aux_data["offset_mapping"] = offset_mapping
         aux_data["word_ids"] = word_ids
 
-        return tensor_input, aux_data 
-
+        return tensor_input, aux_data
 
 
 def main():
 
     # set config path by command line
-    inp_args = utils._parsing()                                                                                            
+    inp_args = utils._parsing()
     config_path = getattr(inp_args, 'yaml')
     with open(config_path, 'r') as stream:
         parameters = utils._ordered_load(stream)
@@ -196,12 +198,11 @@ def main():
     # print config
     utils._print_config(parameters, config_path)
 
+    entityExtraction = EntityExtraction(config_path)
 
-    entityExtraction  = EntityExtraction(config_path)
-
-    text_dir=parameters["test_dir"]
+    text_dir = parameters["test_dir"]
     files = sorted(glob(f"{text_dir}/*.txt"))
-    
+
     pdb.set_trace()
 
     for file in files:
@@ -219,7 +220,5 @@ def main():
                 print(k, ent)
 
 
-if __name__ == '__main__':                                                                                                                        
+if __name__ == '__main__':
     main()
-
-

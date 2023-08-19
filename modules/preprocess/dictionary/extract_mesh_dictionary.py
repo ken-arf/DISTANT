@@ -14,6 +14,7 @@ import xmltodict
 
 import pdb
 
+
 def get_term_string(record):
     concept = record['ConceptList']['Concept']
 
@@ -31,8 +32,9 @@ def get_term_string(record):
                 strings += [term['String'] for term in termlist]
             else:
                 strings += [termlist['String']]
-    
+
     return strings
+
 
 def is_decendant(treenumber, root_tree_number):
 
@@ -41,6 +43,7 @@ def is_decendant(treenumber, root_tree_number):
         return True
     else:
         return False
+
 
 def extract_nrw_term(root_tree_number, doc):
 
@@ -64,7 +67,6 @@ def extract_nrw_term(root_tree_number, doc):
                 yield get_term_string(record)
                 yield from extract_nrw_term(treenumber, doc)
 
-    
 
 def extract_term(term, doc, dict_path):
     print(term)
@@ -79,7 +81,7 @@ def extract_term(term, doc, dict_path):
 
         if (record['DescriptorName']['String'] == term):
             concept = record['ConceptList']['Concept']
-      
+
             if type(concept) == list:
                 concept = concept[0]
             treenumberlist = record['TreeNumberList']['TreeNumber']
@@ -103,56 +105,56 @@ def extract_term(term, doc, dict_path):
 
 def main():
 
-    # check running time                                                                                                   
-    t_start = time.time()                                                                                                  
+    # check running time
+    t_start = time.time()
 
-    filenames = ["transcription_factor.dict", 
-                "cytokine.dict", 
-                "t_lymphocyte.dict", 
-                "protein.dict", 
-                "cell.dict", 
-                "cell_line.dict", 
-                "dna.dict", 
-                "rna.dict"]
+    filenames = ["transcription_factor.dict",
+                 "cytokine.dict",
+                 "t_lymphocyte.dict",
+                 "protein.dict",
+                 "cell.dict",
+                 "cell_line.dict",
+                 "dna.dict",
+                 "rna.dict"]
 
-    mesh_terms = ["Transcription Factors", 
-                "Cytokines",
-                "T-Lymphocytes", 
-                "Proteins", 
-                "Cells", 
-                "Cell Line", 
-                "DNA", 
-                "RNA"]  
+    mesh_terms = ["Transcription Factors",
+                  "Cytokines",
+                  "T-Lymphocytes",
+                  "Proteins",
+                  "Cells",
+                  "Cell Line",
+                  "DNA",
+                  "RNA"]
 
-
-    # check running time                                                                                                   
-    t_start = time.time()                                                                                                  
+    # check running time
+    t_start = time.time()
 
     # logging
     logger = logging.getLogger("logger")
     logger.setLevel(logging.INFO)
 
     handler1 = logging.StreamHandler()
-    handler1.setFormatter(logging.Formatter("%(asctime)s %(filename)s %(funcName)s %(lineno)d %(levelname)s %(message)s"))
+    handler1.setFormatter(logging.Formatter(
+        "%(asctime)s %(filename)s %(funcName)s %(lineno)d %(levelname)s %(message)s"))
 
-    #handler2 = logging.FileHandler(filename="test.log")
-    #handler2.setFormatter(logging.Formatter("%(asctime)s %(levelname)8s %(message)s"))
+    # handler2 = logging.FileHandler(filename="test.log")
+    # handler2.setFormatter(logging.Formatter("%(asctime)s %(levelname)8s %(message)s"))
 
     logger.addHandler(handler1)
-    #logger.addHandler(handler2)
-                                                                                                                           
-    # set config path by command line                                                                                      
-    inp_args = utils._parsing()                                                                                            
-    config_path = getattr(inp_args, 'yaml')                                                                                
-                                                                                                                           
-    with open(config_path, 'r') as stream:                                                                                 
+    # logger.addHandler(handler2)
+
+    # set config path by command line
+    inp_args = utils._parsing()
+    config_path = getattr(inp_args, 'yaml')
+
+    with open(config_path, 'r') as stream:
         parameters = utils._ordered_load(stream)
 
-    # print config                                                                                                         
+    # print config
     utils._print_config(parameters, config_path)
 
-
-    xml_path = os.path.join(parameters['corpus_dir'], parameters['corpus_file'])
+    xml_path = os.path.join(
+        parameters['corpus_dir'], parameters['corpus_file'])
     with open(xml_path) as fd:
         mesh_doc = xmltodict.parse(fd.read())
 
@@ -165,10 +167,9 @@ def main():
         print('-' * 20)
 
     print('Done!')
-    t_end = time.time()                                                                                                  
+    t_end = time.time()
     print('Took {0:.2f} seconds'.format(t_end - t_start))
 
-if __name__ == '__main__':                                                                                                                        
+
+if __name__ == '__main__':
     main()
-
-

@@ -13,13 +13,15 @@ from utils import utils
 import pdb
 
 from Bio.Entrez import efetch
-from Bio import Entrez                                                                                                                                                                                          
-Entrez.email = 'yano0828@gmail.com'   
- 
+from Bio import Entrez
+Entrez.email = 'yano0828@gmail.com'
+
+
 def get_abstract(pmid):
 
     try:
-        handle = efetch(db='pubmed', id=pmid, retmode='text', rettype='abstract')
+        handle = efetch(db='pubmed', id=pmid,
+                        retmode='text', rettype='abstract')
         buff = handle.read()
     except:
         print("exception efetch")
@@ -27,20 +29,21 @@ def get_abstract(pmid):
 
     abst_lines = []
 
-    mode = "none" 
+    mode = "none"
     for k, txt in enumerate(buff.split('\n')):
         if txt.startswith("Author information"):
-            mode="author"
+            mode = "author"
         elif len(txt) == 0 and mode == "author":
-            mode="abst"
+            mode = "abst"
         elif mode == "abst" and len(txt) == 0:
-            mode="none"
+            mode = "none"
         elif mode == "abst" and len(txt) > 0:
             abst_lines.append(txt)
-    
+
     abst_text = "".join(abst_lines)
-            
+
     return abst_text
+
 
 def main():
 
@@ -53,18 +56,19 @@ def main():
 
     # print config
     utils._print_config(parameters, config_path)
-    #pmid_path = os.path.join(parameters['pubmed_pmid_dir'], 'pmid.txt')
-    pmid_path = os.path.join(parameters['pubmed_pmid_dir'], parameters["pubmed_pmid_file"])
+    # pmid_path = os.path.join(parameters['pubmed_pmid_dir'], 'pmid.txt')
+    pmid_path = os.path.join(
+        parameters['pubmed_pmid_dir'], parameters["pubmed_pmid_file"])
 
     with open(pmid_path) as fp:
         pmids = fp.read()
 
     pmids = [pmid for pmid in pmids.split('\n')]
 
-
     utils.makedir(parameters['pubmed_extract_dir'])
     for pmid in tqdm(pmids):
-        abst_file = os.path.join(parameters['pubmed_extract_dir'], "{}.txt".format(pmid))
+        abst_file = os.path.join(
+            parameters['pubmed_extract_dir'], "{}.txt".format(pmid))
 
         if os.path.exists(abst_file):
             print(abst_file, " exist, skip")
@@ -78,9 +82,9 @@ def main():
         time.sleep(0.2)
 
     print('Done!')
-    t_end = time.time()                                                                                                  
+    t_end = time.time()
     print('Took {0:.2f} seconds'.format(t_end - t_start))
 
-if __name__ == '__main__':                                                                                                                        
-    main()
 
+if __name__ == '__main__':
+    main()

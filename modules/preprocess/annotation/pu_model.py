@@ -49,7 +49,7 @@ class PU_Model(nn.Module):
         self.dataloader = dataloader
         self.params = params
         self.logger = logger
-        self.myseed = self.params["seed"] 
+        self.myseed = self.params["seed"]
         model_checkpoint = self.params["model_checkpoint"]
 
         if torch.cuda.is_available() and self.params['gpu'] >= 0:
@@ -58,10 +58,12 @@ class PU_Model(nn.Module):
             self.device = "cpu"
 
         # load bare BertModel
-        self.bert_model = BertModel.from_pretrained(model_checkpoint).to(self.device)
-        
+        self.bert_model = BertModel.from_pretrained(
+            model_checkpoint).to(self.device)
+
         self.dropout = nn.Dropout(self.params['dropout_rate'])
-        self.linear = nn.Linear(self.params['embedding_dim'], self.params['class_num']).to(self.device)
+        self.linear = nn.Linear(
+            self.params['embedding_dim'], self.params['class_num']).to(self.device)
 
         # cross entropy loss
         self.loss = nn.CrossEntropyLoss()
@@ -75,13 +77,14 @@ class PU_Model(nn.Module):
         end_pos = kargs["end_positions"]
         labels = kargs["labels"]
 
-        #Extract outputs from the body
-        bert_outputs = self.bert_model(input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
+        # Extract outputs from the body
+        bert_outputs = self.bert_model(
+            input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
 
-        #Add custom layers
+        # Add custom layers
         last_hidden_output = bert_outputs['last_hidden_state']
-        bert_sequence_output = self.dropout(last_hidden_output) #outputs[0]=last hidden state
-
+        bert_sequence_output = self.dropout(
+            last_hidden_output)  # outputs[0]=last hidden state
 
         features = []
         for k, (start, end) in enumerate(zip(start_pos, end_pos)):
@@ -97,7 +100,6 @@ class PU_Model(nn.Module):
 
         return loss
 
-
     def decode(self, **kargs):
 
         input_ids = kargs["input_ids"]
@@ -107,13 +109,14 @@ class PU_Model(nn.Module):
         end_pos = kargs["end_positions"]
         labels = kargs["labels"]
 
-        #Extract outputs from the body
-        bert_outputs = self.bert_model(input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
+        # Extract outputs from the body
+        bert_outputs = self.bert_model(
+            input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
 
-        #Add custom layers
+        # Add custom layers
         last_hidden_output = bert_outputs['last_hidden_state']
-        bert_sequence_output = self.dropout(last_hidden_output) #outputs[0]=last hidden state
-
+        bert_sequence_output = self.dropout(
+            last_hidden_output)  # outputs[0]=last hidden state
 
         features = []
         for k, (start, end) in enumerate(zip(start_pos, end_pos)):
@@ -131,5 +134,3 @@ class PU_Model(nn.Module):
         probs = F.softmax(logit, dim=1)
 
         return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()
-
-

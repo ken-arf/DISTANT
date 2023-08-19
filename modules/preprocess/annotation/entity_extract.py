@@ -15,12 +15,13 @@ from preprocess.segmentation.make_dataset import sentence_split
 
 import pdb
 
+
 class ExtractEntityCandidate:
 
     def __init__(self, config_file):
 
         self.entityExtraction = EntityExtraction(config_file)
-        #self.nlp = spacy.load("en_core_sci_lg")
+        # self.nlp = spacy.load("en_core_sci_lg")
         self.nlp = spacy.load("en_core_sci_sm")
         self.nlp.add_pipe("sentencizer")
 
@@ -31,7 +32,7 @@ class ExtractEntityCandidate:
                 return True
         return False
 
-    def extract_candiate(self, text, custom_model = True, scipy_model = True):
+    def extract_candiate(self, text, custom_model=True, scipy_model=True):
 
         entities = []
 
@@ -43,12 +44,12 @@ class ExtractEntityCandidate:
         if scipy_model:
             for term in self.nlp(text).ents:
                 if not self.check_overlap(entities, term):
-                    ent = Entity(text=term.text, start=term.start, end=term.end, start_char=term.start_char, end_char=term.end_char)
+                    ent = Entity(text=term.text, start=term.start, end=term.end,
+                                 start_char=term.start_char, end_char=term.end_char)
                     entities.append(ent)
-        
+
         entities = sorted(entities, key=lambda x: x.start_char)
         return entities
-
 
 
 if __name__ == "__main__":
@@ -56,14 +57,15 @@ if __name__ == "__main__":
     config_dir = "/Users/kenyano/WORK/AIST/Immunology/configs"
     config_file = "immunology_segmentation_predict.yaml"
 
-    entityExtraction  = ExtractEntityCandidate(os.path.join(config_dir, config_file))
+    entityExtraction = ExtractEntityCandidate(
+        os.path.join(config_dir, config_file))
 
- 
-    text_dir="/Users/kenyano/WORK/AIST/Immunology/data/Mesh/PubMed/Immunology/extract"
+    text_dir = "/Users/kenyano/WORK/AIST/Immunology/data/Mesh/PubMed/Immunology/extract"
     files = sorted(glob(f"{text_dir}/*.txt"))
-     
-    #files = ["/Users/kenyano/WORK/AIST/Immunology/data/Mesh/PubMed/Immunology/extract/10450520.txt"]
-    files = ["/Users/kenyano/WORK/AIST/Immunology/data/Mesh/PubMed/Immunology/extract/34247018.txt"]
+
+    # files = ["/Users/kenyano/WORK/AIST/Immunology/data/Mesh/PubMed/Immunology/extract/10450520.txt"]
+    files = [
+        "/Users/kenyano/WORK/AIST/Immunology/data/Mesh/PubMed/Immunology/extract/34247018.txt"]
 
     for file in files:
         with open(file) as fp:
@@ -78,4 +80,3 @@ if __name__ == "__main__":
             entities = entityExtraction.extract_candiate(sent)
             for k, ent in enumerate(entities):
                 print(k, ent)
-

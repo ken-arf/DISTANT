@@ -27,17 +27,17 @@ import pdb
 
 
 def load_file(file):
-    
+
     input_data = defaultdict(list)
-    
+
     print(file)
     with open(file) as fp:
         tokens = []
         blabels = []
-        
+
         for line in fp:
             line = line.strip('\n')
-            #print(line, len(line))
+            # print(line, len(line))
             if len(line) == 0:
                 input_data['tokens'].append(tokens)
                 input_data[f'bio'].append(blabels)
@@ -46,12 +46,12 @@ def load_file(file):
                 continue
             fields = line.split('\t')
             print(fields)
-            assert(len(fields) == 3)
+            assert (len(fields) == 3)
             tokens.append(fields[0])
             blabels.append(int(fields[-1]))
-            
+
     return input_data
-            
+
 
 def load_dataset(parameters):
 
@@ -63,11 +63,11 @@ def load_dataset(parameters):
     label_data = []
 
     for file in tqdm(files):
-        #print(file)
+        # print(file)
         input_data = load_file(file)
-        #print(input_data.keys())
+        # print(input_data.keys())
         seq_num = len(input_data['tokens'])
-        
+
         for sn in range(seq_num):
 
             text_data.append(input_data['tokens'][sn])
@@ -77,6 +77,7 @@ def load_dataset(parameters):
 
     return data
 
+
 def train(parameters, name_suffix):
 
     # logging
@@ -84,14 +85,14 @@ def train(parameters, name_suffix):
     logger.setLevel(logging.ERROR)
 
     handler1 = logging.StreamHandler()
-    handler1.setFormatter(logging.Formatter("%(asctime)s %(filename)s %(funcName)s %(lineno)d %(levelname)s %(message)s"))
+    handler1.setFormatter(logging.Formatter(
+        "%(asctime)s %(filename)s %(funcName)s %(lineno)d %(levelname)s %(message)s"))
 
-    #handler2 = logging.FileHandler(filename="test.log")
-    #handler2.setFormatter(logging.Formatter("%(asctime)s %(levelname)8s %(message)s"))
+    # handler2 = logging.FileHandler(filename="test.log")
+    # handler2.setFormatter(logging.Formatter("%(asctime)s %(levelname)8s %(message)s"))
 
     logger.addHandler(handler1)
-    #logger.addHandler(handler2)
-
+    # logger.addHandler(handler2)
 
     # step 0) load dataset
     data = load_dataset(parameters)
@@ -111,14 +112,14 @@ def train(parameters, name_suffix):
     model = Model(parameters, logger)
 
     if parameters['restore_model'] == True:
-        model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
+        model.load_state_dict(torch.load(
+            parameters['restore_model_path'], map_location=torch.device(device)))
 
     optimizer = AdamW(model.parameters(), lr=float(parameters['train_lr']))
     accelerator = Accelerator()
     model, optimizer, train_dataloader, valid_dataloader = accelerator.prepare(
         model, optimizer, train_dataloader, valid_dataloader
     )
-
 
     num_train_epochs = parameters['train_epochs']
     num_update_steps_per_epoch = len(train_dataloader)
@@ -155,9 +156,9 @@ def train(parameters, name_suffix):
             lr_scheduler.step()
             optimizer.zero_grad()
             progress_bar.update(1)
-            progress_bar.set_description("loss:{:7.2f} epoch:{}".format(loss.item(),epoch))
+            progress_bar.set_description(
+                "loss:{:7.2f} epoch:{}".format(loss.item(), epoch))
             steps += 1
-
 
         # Evaluation
         progress_bar_valid = tqdm(range(len(valid_dataloader)))
@@ -168,9 +169,8 @@ def train(parameters, name_suffix):
                 predictions, probs = model.decode(**batch)
             labels = batch["labels"].detach().cpu().numpy()
 
-
-            #predictions = accelerator.pad_across_processes(predictions, dim=2, pad_index=-100)
-            #labels = accelerator.pad_across_processes(labels, dim=2, pad_index=-100)
+            # predictions = accelerator.pad_across_processes(predictions, dim=2, pad_index=-100)
+            # labels = accelerator.pad_across_processes(labels, dim=2, pad_index=-100)
 
             predictions = accelerator.gather(predictions)
             labels = accelerator.gather(labels)
@@ -180,13 +180,16 @@ def train(parameters, name_suffix):
             logger.debug("labels")
             logger.debug(labels)
 
-            label_map = {0:0, 1:1}
-            true_predictions, true_labels = utils.postprocess(predictions, labels, label_map)
+            label_map = {0: 0, 1: 1}
+            true_predictions, true_labels = utils.postprocess(
+                predictions, labels, label_map)
 
-            batch_acc = performance.performance_acc(true_predictions, true_labels, logger)
+            batch_acc = performance.performance_acc(
+                true_predictions, true_labels, logger)
             running_acc += (batch_acc - running_acc) / (batch_index + 1)
             progress_bar_valid.update(1)
-            progress_bar_valid.set_description("running_acc:{:.2f} epoch:{}".format(running_acc, epoch))
+            progress_bar_valid.set_description(
+                "running_acc:{:.2f} epoch:{}".format(running_acc, epoch))
 
         print("running_acc: {:.2f}".format(running_acc))
 
@@ -212,10 +215,12 @@ def train(parameters, name_suffix):
         if not os.path.exists(OUTPUT_PATH):
             os.makedirs(OUTPUT_PATH)
 
-        torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_last_{name_suffix}.pth"))
+        torch.save(unwrapped_model.state_dict(), os.path.join(
+            OUTPUT_PATH, f"model_last_{name_suffix}.pth"))
 
         if best_update:
-            torch.save(unwrapped_model.state_dict(), os.path.join(OUTPUT_PATH, f"model_best_{name_suffix}.pth"))
+            torch.save(unwrapped_model.state_dict(), os.path.join(
+                OUTPUT_PATH, f"model_best_{name_suffix}.pth"))
 
     print("best_acc: {:.2f}".format(best_acc))
     return
@@ -224,7 +229,7 @@ def train(parameters, name_suffix):
 def main():
 
     # set config path by command line
-    inp_args = utils._parsing()                                                                                            
+    inp_args = utils._parsing()
     config_path = getattr(inp_args, 'yaml')
     with open(config_path, 'r') as stream:
         parameters = utils._ordered_load(stream)
@@ -233,17 +238,15 @@ def main():
     utils._print_config(parameters, config_path)
 
     # check running time
-    t_start = time.time()                                                                                                  
+    t_start = time.time()
 
     # train model
     train(parameters, "seg")
 
     print('Done!')
-    t_end = time.time()                                                                                                  
+    t_end = time.time()
     print('Took {0:.2f} seconds'.format(t_end - t_start))
-        
 
-if __name__ == '__main__':                                                                                                                        
+
+if __name__ == '__main__':
     main()
-
-

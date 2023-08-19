@@ -31,9 +31,9 @@ def expand_dict(dict_path, parameters, cui_dict, cui_rel_dict):
         for cui, vals in cui_dict.items():
             if term in vals:
                 break
-    
+
         term_dict.append((term, term_lc, cui))
-    
+
     return term_dict
 
 
@@ -54,35 +54,35 @@ def save_dict(dicts, parameters):
                 cui = entry[2]
                 term_head = term_lc.split(',')[0]
                 fp.write(f'{term}|{term_lc}|{term_head}|{cui}\n')
-        
+
 
 def main():
 
     # check running time
-    t_start = time.time()                                                                                                  
+    t_start = time.time()
 
     # logging
     logger = logging.getLogger("logger")
     logger.setLevel(logging.INFO)
 
     handler1 = logging.StreamHandler()
-    handler1.setFormatter(logging.Formatter("%(asctime)s %(filename)s %(funcName)s %(lineno)d %(levelname)s %(message)s"))
+    handler1.setFormatter(logging.Formatter(
+        "%(asctime)s %(filename)s %(funcName)s %(lineno)d %(levelname)s %(message)s"))
 
-    #handler2 = logging.FileHandler(filename="test.log")
-    #handler2.setFormatter(logging.Formatter("%(asctime)s %(levelname)8s %(message)s"))
+    # handler2 = logging.FileHandler(filename="test.log")
+    # handler2.setFormatter(logging.Formatter("%(asctime)s %(levelname)8s %(message)s"))
 
     logger.addHandler(handler1)
-    #logger.addHandler(handler2)
-                                                                                                                           
-    # set config path by command line                                                                                      
-    inp_args = utils._parsing()                                                                                            
-    config_path = getattr(inp_args, 'yaml')                                                                                
-    with open(config_path, 'r') as stream:                                                                                 
+    # logger.addHandler(handler2)
+
+    # set config path by command line
+    inp_args = utils._parsing()
+    config_path = getattr(inp_args, 'yaml')
+    with open(config_path, 'r') as stream:
         parameters = utils._ordered_load(stream)
 
-    # print config 
+    # print config
     utils._print_config(parameters, config_path)
-
 
     with open(os.path.join(parameters['dict_dir'], 'cui_dict.pkl'), 'rb') as fp:
         cui_dict = pickle.load(fp)
@@ -90,10 +90,10 @@ def main():
     with open(os.path.join(parameters['dict_dir'], 'cui_rel_dict.pkl'), 'rb') as fp:
         cui_rel_dict = pickle.load(fp)
 
-
     entity_types = parameters["entity_types"]
 
-    dict_paths = [os.path.join(parameters['dict_dir'],f'{etype}_dict.pkl') for etype in entity_types]
+    dict_paths = [os.path.join(
+        parameters['dict_dir'], f'{etype}_dict.pkl') for etype in entity_types]
 
     new_dict = {}
     for etype, dict_path in zip(entity_types, dict_paths):
@@ -102,12 +102,10 @@ def main():
 
     save_dict(new_dict, parameters)
 
-
     print('Done!')
-    t_end = time.time()                                                                                                  
+    t_end = time.time()
     print('Took {0:.2f} seconds'.format(t_end - t_start))
 
-if __name__ == '__main__':                                                                                                                        
+
+if __name__ == '__main__':
     main()
-
-
