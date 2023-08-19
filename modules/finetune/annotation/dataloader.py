@@ -11,7 +11,6 @@ import numpy as np
 import math
 import time
 import json
-import evaluate
 
 import tempfile
 
@@ -219,9 +218,9 @@ class Dataloader:
                     start_position = idx - 1
                     end_position = context_end + 1
 
-                elif offset[conttext_end][1] >= end_char:
+                elif offset[context_end][1] >= end_char:
 
-                    start_position = contex_start
+                    start_position = context_start
                     idx = context_end
                     while idx >= context_start and offset[idx][1] >= end_char:
                         idx -= 1
