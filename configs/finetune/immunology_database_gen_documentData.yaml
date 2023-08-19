@@ -1,0 +1,12 @@
+# Configuration file for training model.
+
+# data path
+task_name: immunology 
+corpus_dir: data/Mesh
+
+pubmed_pmid_dir: data/Mesh/PubMed/Immunology
+
+pubmed_annotate_dir: data/Mesh/PubMed/Immunology/finetune/annotate
+pubmed_extract_dir: data/Mesh/PubMed/Immunology/extract
+
+output_dir: data/Mesh/PubMed/Immunology/database

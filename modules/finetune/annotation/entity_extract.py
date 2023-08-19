@@ -32,7 +32,7 @@ class ExtractEntityCandidate:
                 return True
         return False
 
-    def extract_candiate(self, text, custom_model=True, scipy_model=True):
+    def extract_candiate(self, text, custom_model=True, scipy_model=False):
 
         entities = []
 

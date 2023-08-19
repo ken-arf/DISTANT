@@ -210,7 +210,6 @@ class Entity_extractor:
 
         candidates = self.entityExtraction.extract_candiate(
             sent, custom_model=True, scipy_model=False)
-        # candidates = self.entityExtraction.extract_candiate(sent, custom_model =True, scipy_model = True)
 
         for ent in candidates:
 
