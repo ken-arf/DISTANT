@@ -37,30 +37,23 @@ nlp = spacy.load("en_core_sci_sm")
 nlp.add_pipe("sentencizer")
 
 
-def sentence_split(doc, offset=False, moses=False):
-    if moses:
-        sents = mymoses.split_sentence(doc.strip())
-        sents = [sent.text for sent in sents]
+def sentence_split(doc, offset=False):
+    doc = nlp(doc)
+    if offset == False:
+        sents = [sent.text for sent in doc.sents]
     else:
-        doc = nlp(doc)
-        if offset == False:
-            sents = [sent.text for sent in doc.sents]
-        else:
-            sents = [(sent.text, sent.start_char) for sent in doc.sents]
+        sents = [(sent.text, sent.start_char) for sent in doc.sents]
+
     return sents
 
 
-def tokenize(text, offset=False, moses=False, ):
-    if moses:
-        tokens = mymoses.tokenize(text.strip())
-        tokens = [token.text for token in tokens]
+def tokenize(text, offset=False):
+    doc = nlp(text)
+    if offset == False:
+        tokens = [token.text for token in doc if token.text != '\n']
     else:
-        doc = nlp(text)
-        if offset == False:
-            tokens = [token.text for token in doc if token.text != '\n']
-        else:
-            tokens = [(token.text, token.idx)
-                      for token in doc if token.text != '\n']
+        tokens = [(token.text, token.idx)
+                  for token in doc if token.text != '\n']
     return tokens
 
 
