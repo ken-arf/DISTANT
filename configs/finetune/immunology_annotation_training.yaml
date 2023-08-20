@@ -36,7 +36,7 @@ gpu: 0
 
 # training
 train_epochs: 50
-train_batch_size: 32 
+train_batch_size:  32 
 valid_batch_size: 32 
 test_batch_size: 8 
 
