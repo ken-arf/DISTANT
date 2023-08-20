@@ -61,17 +61,19 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
 
     # logging
     logger = logging.getLogger("logger")
-    logger.setLevel(logging.ERROR)
+    logger.setLevel(logging.DEBUG)
 
     handler1 = logging.StreamHandler()
     handler1.setFormatter(logging.Formatter(
         "%(asctime)s %(filename)s %(funcName)s %(lineno)d %(levelname)s %(message)s"))
 
-    # handler2 = logging.FileHandler(filename="test.log")
-    # handler2.setFormatter(logging.Formatter("%(asctime)s %(levelname)8s %(message)s"))
+    model_dir = parameters['model_dir']
+
+    handler2 = logging.FileHandler(filename=os.path.join(model_dir, "test.log"))
+    handler2.setFormatter(logging.Formatter("%(asctime)s %(levelname)8s %(message)s"))
 
     logger.addHandler(handler1)
-    # logger.addHandler(handler2)
+    logger.addHandler(handler2)
 
     dataloader = Dataloader(df_train_pos, df_train_neg, parameters)
 
@@ -152,6 +154,7 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
             progress_bar_valid.set_description(
                 "running_acc:{:.2f} epoch:{}".format(running_acc, epoch))
         print("running_acc: {:.2f}".format(running_acc))
+        logger.debug("running_acc: {:.2f}".format(running_acc))
 
         best_update = False
         if best_acc < running_acc:
