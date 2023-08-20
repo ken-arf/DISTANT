@@ -69,8 +69,10 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
 
     model_dir = parameters['model_dir']
 
-    handler2 = logging.FileHandler(filename=os.path.join(model_dir, "test.log"))
-    handler2.setFormatter(logging.Formatter("%(asctime)s %(levelname)8s %(message)s"))
+    handler2 = logging.FileHandler(
+        filename=os.path.join(model_dir, "test.log"))
+    handler2.setFormatter(logging.Formatter(
+        "%(asctime)s %(levelname)8s %(message)s"))
 
     logger.addHandler(handler1)
     logger.addHandler(handler2)
@@ -242,7 +244,7 @@ def setup_finetune_dataset(parameters):
             positive_sample_count = 0
             negative_sample_count = 0
 
-            mentions = [] 
+            mentions = []
             for entity in entities:
                 if entity["end_char"] < offset or entity["start_char"] >= offset + len(sent):
                     continue
@@ -284,7 +286,7 @@ def setup_finetune_dataset(parameters):
                 assert (start_char < end_char)
                 mention = sent[start_char:end_char]
 
-                #print(f"{start_char}:{end_char}:{len(sent)}:{mention}")
+                # print(f"{start_char}:{end_char}:{len(sent)}:{mention}")
 
                 if not mention in mentions:
                     data["mention"].append(mention)
