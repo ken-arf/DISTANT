@@ -217,6 +217,8 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
 
 def setup_finetune_dataset(parameters):
 
+    negative_sample_ratio = 10
+    max_entity_token_len = 5
     json_path = parameters["es_dump_path"]
 
     with open(json_path) as fp:
@@ -226,7 +228,6 @@ def setup_finetune_dataset(parameters):
     etype2label = {name: k for k, name in enumerate(entity_names)}
     label2etype = {k: name for k, name in enumerate(entity_names)}
 
-    index = 0
     ids = json_data["pmid"].keys()
 
     data = defaultdict(list)
@@ -238,6 +239,10 @@ def setup_finetune_dataset(parameters):
         sents = sentence_split(text.strip(), offset=True)
 
         for k, (sent, offset) in enumerate(sents):
+            positive_sample_count = 0
+            negative_sample_count = 0
+
+            mentions = [] 
             for entity in entities:
                 if entity["end_char"] < offset or entity["start_char"] >= offset + len(sent):
                     continue
@@ -250,18 +255,41 @@ def setup_finetune_dataset(parameters):
                 start_char -= offset
                 end_char -= offset
 
+                mentions.append(mention)
                 assert (mention == sent[start_char:end_char])
 
                 data["mention"].append(mention)
                 data["start_char"].append(start_char)
                 data["end_char"].append(end_char)
                 data["text"].append(sent)
-                data["etype"].append(etype)
                 data["label"].append(etype2label[etype])
                 data["cui"].append(cui)
                 data["pmid"].append(f"{pmid}_{k}")
+                positive_sample_count += 1
 
-                index += 1
+            # sample negative tokens
+
+            tokens = tokenize(sent, offset=True)
+            n = len(tokens)
+            for i in range(positive_sample_count * negative_sample_ratio):
+                token_start = np.random.randint(0, n)
+                token_len = np.random.randint(1, max_entity_token_len)
+                token_end = min(token_start + token_len, n)
+
+                start_char = tokens[token_start][1]
+                end_char = tokens[token_end-1][1] + len(tokens[token_end-1][0])
+                assert (0 <= start_char < end_char <= len(sent)-1)
+
+                mention = sent[start_char:end_char]
+                if not mention in mentions:
+                    data["mention"].append(mention)
+                    data["start_char"].append(start_char)
+                    data["end_char"].append(end_char)
+                    data["text"].append(sent)
+                    data["label"].append(len(etype2label)+1)
+                    data["cui"].append("NA")
+                    data["pmid"].append(f"{pmid}_{k}")
+                    negative_sample_count += 1
 
     df_train = pandas.DataFrame(data)
 
