@@ -273,20 +273,25 @@ def setup_finetune_dataset(parameters):
             n = len(tokens)
             for i in range(positive_sample_count * negative_sample_ratio):
                 token_start = np.random.randint(0, n)
-                token_len = np.random.randint(1, max_entity_token_len)
-                token_end = min(token_start + token_len, n)
+                token_len = np.random.randint(0, max_entity_token_len + 1)
+                token_end = min(token_start + token_len, n - 1)
 
                 start_char = tokens[token_start][1]
-                end_char = tokens[token_end-1][1] + len(tokens[token_end-1][0])
-                assert (0 <= start_char < end_char <= len(sent)-1)
+                end_char = tokens[token_end][1] + len(tokens[token_end][0])
 
+                assert (0 <= start_char)
+                assert (end_char <= len(sent))
+                assert (start_char < end_char)
                 mention = sent[start_char:end_char]
+
+                #print(f"{start_char}:{end_char}:{len(sent)}:{mention}")
+
                 if not mention in mentions:
                     data["mention"].append(mention)
                     data["start_char"].append(start_char)
                     data["end_char"].append(end_char)
                     data["text"].append(sent)
-                    data["label"].append(len(etype2label)+1)
+                    data["label"].append(len(etype2label))
                     data["cui"].append("NA")
                     data["pmid"].append(f"{pmid}_{k}")
                     negative_sample_count += 1
