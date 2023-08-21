@@ -4,7 +4,7 @@ import sys
 import requests
 import argparse
 import time
-from datemath import datetime
+from datetime import datetime
 import re
 from collections import defaultdict
 import pickle
