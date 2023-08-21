@@ -4,6 +4,7 @@ import sys
 import requests
 import argparse
 import time
+from datemath import datetime
 import re
 from collections import defaultdict
 import pickle
@@ -53,6 +54,9 @@ def gen_AbstractJsonData(txt, ann, pmid):
         entity['end_char'] = int(end_char)
         entity['cui'] = cui
 
+        now = datetime.now()
+        entity['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%S")
+
         entity_list.append(entity)
 
     json_data['pmid'] = pmid
@@ -100,6 +104,9 @@ def gen_EntityJsonData(txt, ann, pmid):
         entity['mention'] = mention
         entity['cui'] = cui
 
+        now = datetime.now()
+        entity['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%S")
+    
         entity_list.append(entity)
 
     json_data['entities'] = entity_list
