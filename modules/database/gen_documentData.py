@@ -54,14 +54,14 @@ def gen_AbstractJsonData(txt, ann, pmid):
         entity['end_char'] = int(end_char)
         entity['cui'] = cui
 
-        now = datetime.now()
-        entity['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%S")
 
         entity_list.append(entity)
 
     json_data['pmid'] = pmid
     json_data['text'] = txt
     json_data['entities'] = entity_list
+    now = datetime.now()
+    json_data['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%S")
 
     index_data = {}
     index_data['_index'] = "abstract"
@@ -104,12 +104,11 @@ def gen_EntityJsonData(txt, ann, pmid):
         entity['mention'] = mention
         entity['cui'] = cui
 
-        now = datetime.now()
-        entity['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%S")
-    
         entity_list.append(entity)
 
     json_data['entities'] = entity_list
+    now = datetime.now()
+    json_data['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%S")
 
     index_data = {}
     index_data['_index'] = "entity"
