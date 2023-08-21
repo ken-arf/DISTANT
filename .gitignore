@@ -33,6 +33,7 @@ glove.6B/
 *.dict
 *.coll
 *.bin
+experiments/
 
 # corpus
 BC5CDR
