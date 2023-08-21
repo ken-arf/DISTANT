@@ -86,17 +86,17 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
     else:
         device = "cpu"
 
-    pu_model = Model(parameters, logger)
+    model = Model(parameters, logger)
 
     if parameters['restore_model'] == True:
         model_path = parameters['restore_model_path']
-        pu_model.load_state_dict(torch.load(
+        model.load_state_dict(torch.load(
             model_path, map_location=torch.device(device)))
 
-    optimizer = AdamW(pu_model.parameters(), lr=float(parameters['train_lr']))
+    optimizer = AdamW(model.parameters(), lr=float(parameters['train_lr']))
     accelerator = Accelerator()
-    pu_model, optimizer, train_dataloader, valid_dataloader, test_dataloader = accelerator.prepare(
-        pu_model, optimizer, train_dataloader, valid_dataloader, test_dataloader
+    model, optimizer, train_dataloader, valid_dataloader, test_dataloader = accelerator.prepare(
+        model, optimizer, train_dataloader, valid_dataloader, test_dataloader
     )
 
     num_train_epochs = parameters['train_epochs']
@@ -126,10 +126,10 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
     for epoch in range(num_train_epochs):
 
         # Training
-        pu_model.train()
+        model.train()
         for batch in train_dataloader:
 
-            loss = pu_model(**batch)
+            loss = model(**batch)
             accelerator.backward(loss)
 
             optimizer.step()
@@ -144,10 +144,10 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
 
         progress_bar_valid = tqdm(range(len(valid_dataloader)))
         running_acc = 0
-        pu_model.eval()
+        model.eval()
         for batch_index, batch in tqdm(enumerate(valid_dataloader)):
             with torch.no_grad():
-                predictions, probs = pu_model.decode(**batch)
+                predictions, probs = model.decode(**batch)
             labels = batch["labels"].detach().cpu().numpy()
             batch_acc = performance.performance_acc(
                 predictions, labels, logger)
@@ -155,8 +155,7 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
             progress_bar_valid.update(1)
             progress_bar_valid.set_description(
                 "running_acc:{:.2f} epoch:{}".format(running_acc, epoch))
-        print("running_acc: {:.2f}".format(running_acc))
-        logger.debug("running_acc: {:.2f}".format(running_acc))
+        logger.debug("running_acc: {:.2f} epoch:{}".format(running_acc, epoch))
 
         best_update = False
         if best_acc < running_acc:
@@ -173,7 +172,7 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
 
         # prepare saving model
         accelerator.wait_for_everyone()
-        unwrapped_model = accelerator.unwrap_model(pu_model)
+        unwrapped_model = accelerator.unwrap_model(model)
 
         OUTPUT_PATH = parameters['model_dir']
 
@@ -195,17 +194,17 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
     # load best model
     best_model_path = os.path.join(
         OUTPUT_PATH, f"model_best_{model_name_suffix}.pth")
-    pu_model.load_state_dict(torch.load(
+    model.load_state_dict(torch.load(
         best_model_path, map_location=torch.device(device)))
-    # pu_model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
+    # model.load_state_dict(torch.load(parameters['restore_model_path'], map_location=torch.device(device)))
 
     # testing
     progress_bar_test = tqdm(range(len(test_dataloader)))
     probs_list = []
-    pu_model.eval()
+    model.eval()
     for batch_index, batch in tqdm(enumerate(test_dataloader)):
         with torch.no_grad():
-            predictions, probs = pu_model.decode(**batch)
+            predictions, probs = model.decode(**batch)
         labels = batch["labels"].detach().cpu().numpy()
         batch_acc = performance.performance_acc(predictions, labels, logger)
         progress_bar_test.update(1)
@@ -312,13 +311,11 @@ def finetune_classifier(parameters):
     parameters["positive_class_num"] += 1
     df_train = setup_finetune_dataset(parameters)
 
-    print("retrain_classifier with unknown samples")
-    train(df_train, None, parameters, model_name_suffix="final")
-
+    print("fine_classifier")
     model_dir = parameters["model_dir"]
-
     df_train.to_csv(os.path.join(model_dir, "train.csv"))
 
+    train(df_train, None, parameters, model_name_suffix="final")
 
 def main():
 
