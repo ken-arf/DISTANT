@@ -187,17 +187,22 @@ class Entity_extractor:
 
         sample_ids = []
         predicts = []
+        prs = []
         for batch in data_loader:
             with torch.no_grad():
                 predictions, probs = self.pu_model.decode(**batch)
             sample_id = batch["sample_ids"].detach().cpu().item()
             predict = predictions[0]
+            prob = probs[0][predict]
 
+        
             sample_ids.append(sample_id)
             predicts.append(predict)
+            prs.append(prob)
 
         assert (len(sample_ids) == num_samples)
         df_doc["predict"] = predicts
+        df_doc["prob"] = prs
         return df_doc
 
     def _extract_entity_helper(self, sent, offset):
@@ -295,6 +300,7 @@ def output_annotation_file(doc_file, df_result, annotation_root_dir, entity_name
             end_char = int(row["end_chars"])
             sent_offset = int(row["sentence_offset"])
             predict = row["predict"]
+            prob = row["prob"]
             start_char += sent_offset
             end_char += sent_offset
 
@@ -314,6 +320,7 @@ def output_annotation_file(doc_file, df_result, annotation_root_dir, entity_name
             fp.write(
                 f"T{k+1}\t{entity_type} {start_char} {end_char}\t{entity}\n")
             fp.write(f"A{k+1}\tCUI T{k+1} {cui}\n")
+            fp.write(f"A{k+1}\tprob T{k+1} {prob}\n")
 
 
 def dict_load(dict_path):
