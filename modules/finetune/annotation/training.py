@@ -218,7 +218,7 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
 
 def setup_finetune_dataset(parameters):
 
-    negative_sample_ratio = 10
+    negative_sample_ratio = 2 
     max_entity_token_len = 5
     json_path = parameters["es_dump_path"]
 
@@ -303,7 +303,6 @@ def setup_finetune_dataset(parameters):
     df_train = df_train.sample(frac=1)
 
     return df_train
-
 
 def finetune_classifier(parameters):
 

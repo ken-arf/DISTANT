@@ -20,6 +20,7 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
+
 python modules/finetune/annotation/training.py --yaml $YAML_PATH 
 
 
