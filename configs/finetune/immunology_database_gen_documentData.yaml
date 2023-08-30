@@ -9,4 +9,8 @@ pubmed_pmid_dir: data/Mesh/PubMed/Immunology
 pubmed_annotate_dir: data/Mesh/PubMed/Immunology/finetune/annotate
 pubmed_extract_dir: data/Mesh/PubMed/Immunology/extract
 
+entity_attribute_options:
+    - cui
+    - prob
+
 output_dir: data/Mesh/PubMed/Immunology/database

@@ -18,7 +18,7 @@ from utils import utils
 import pdb
 
 
-def gen_AbstractJsonData(txt, ann, pmid):
+def gen_AbstractJsonData(txt, ann, pmid, params):
 
     json_data = {}
 
@@ -29,13 +29,14 @@ def gen_AbstractJsonData(txt, ann, pmid):
         lines = fp.readlines()
     lines = [line.strip() for line in lines]
 
+    attr_options = params.get("entity_attribute_options", [])
 
     entity_list = []
-    for i in range(0,len(lines), 2):
+    #for i in range(0,len(lines), 2):
+    for i in range(0,len(lines), 1 + len(attr_options)):
         entity = {}
 
         ent = lines[i]
-        atr = lines[i+1]
 
         # process ent
         fields = ent.split('\t')
@@ -43,17 +44,26 @@ def gen_AbstractJsonData(txt, ann, pmid):
         mention = fields[2]
         ent_type, start_char, end_char = fields[1].split(' ')
 
-        # process atr
-        fields = atr.split('\t')
-        aname = fields[0]
-        _, tname_, cui = fields[1].split(' ')
+        # process cui atr
+        if "cui" in attr_options:
+            atr = lines[i+1]
+            fields = atr.split('\t')
+            aname = fields[0]
+            _, tname_, cui = fields[1].split(' ')
+            entity['cui'] = cui
+
+        # process prob attr
+        if "prob" in attr_options:
+            atr = lines[i+2]
+            fields = atr.split('\t')
+            aname = fields[0]
+            _, tname_, prob = fields[1].split(' ')
+            entity['prob'] = float(prob)
 
         entity['entityType'] = ent_type
         entity['mention'] = mention
         entity['start_char'] = int(start_char)
         entity['end_char'] = int(end_char)
-        entity['cui'] = cui
-
 
         entity_list.append(entity)
 
@@ -70,7 +80,7 @@ def gen_AbstractJsonData(txt, ann, pmid):
 
     return json_data, index_data 
 
-def gen_EntityJsonData(txt, ann, pmid):
+def gen_EntityJsonData(txt, ann, pmid, params):
 
     json_data = {}
 
@@ -81,9 +91,11 @@ def gen_EntityJsonData(txt, ann, pmid):
         lines = fp.readlines()
     lines = [line.strip() for line in lines]
 
+    attr_options = params.get("entity_attribute_options", [])
 
     entity_list = []
-    for i in range(0,len(lines), 2):
+    #for i in range(0,len(lines), 2):
+    for i in range(0,len(lines), 1 + len(attr_options)):
         entity = {}
 
         ent = lines[i]
@@ -95,14 +107,24 @@ def gen_EntityJsonData(txt, ann, pmid):
         mention = fields[2]
         ent_type, start_char, end_char = fields[1].split(' ')
 
-        # process atr
-        fields = atr.split('\t')
-        aname = fields[0]
-        _, tname_, cui = fields[1].split(' ')
+        # process cui atr
+        if "cui" in attr_options:
+            atr = lines[i+1]
+            fields = atr.split('\t')
+            aname = fields[0]
+            _, tname_, cui = fields[1].split(' ')
+            entity['cui'] = cui
+
+        # process prob attr
+        if "prob" in attr_options:
+            atr = lines[i+2]
+            fields = atr.split('\t')
+            aname = fields[0]
+            _, tname_, prob = fields[1].split(' ')
+            entity['prob'] = float(prob)
 
         entity['entityType'] = ent_type
         entity['mention'] = mention
-        entity['cui'] = cui
 
         entity_list.append(entity)
 
@@ -161,7 +183,7 @@ def main():
         ann_basename, _  = os.path.splitext(ann_fname)
         assert(txt_basename == ann_basename)
         print(txt, ann)
-        json_data, index_data = gen_AbstractJsonData(txt, ann, ann_basename)
+        json_data, index_data = gen_AbstractJsonData(txt, ann, ann_basename, parameters)
         json_dataset.append((json_data, index_data))
 
     output_dir = parameters["output_dir"]
@@ -182,7 +204,7 @@ def main():
         ann_basename, _  = os.path.splitext(ann_fname)
         assert(txt_basename == ann_basename)
         print(txt, ann)
-        json_data, index_data = gen_EntityJsonData(txt, ann, ann_basename)
+        json_data, index_data = gen_EntityJsonData(txt, ann, ann_basename, parameters)
         json_dataset.append((json_data, index_data))
 
     output_dir = parameters["output_dir"]
@@ -192,7 +214,6 @@ def main():
             fout.write('\n')
             json.dump(json_data, fout)
             fout.write('\n')
-
 
     print('Done!')
     t_end = time.time()                                                                                                  
