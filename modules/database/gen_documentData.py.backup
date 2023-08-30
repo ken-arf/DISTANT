@@ -12,10 +12,26 @@ import json
 from glob import glob
 
 import logging
-
 from utils import utils
-
 import pdb
+
+from Bio.Entrez import efetch
+from Bio import Entrez
+Entrez.email = 'yano0828@gmail.com'
+
+
+def get_abstract(pmid):
+
+    try:
+        handle = efetch(db='pubmed', id=pmid,
+                        retmode='xml', rettype='abstract')
+        buff = handle.read()
+    except:
+        print("exception efetch")
+        return ""
+
+    pdb.set_trace()
+
 
 
 def gen_AbstractJsonData(txt, ann, pmid):
@@ -29,9 +45,9 @@ def gen_AbstractJsonData(txt, ann, pmid):
         lines = fp.readlines()
     lines = [line.strip() for line in lines]
 
-
     entity_list = []
-    for i in range(0,len(lines), 2):
+
+    for i in range(0, len(lines), 2):
         entity = {}
 
         ent = lines[i]
@@ -68,7 +84,8 @@ def gen_AbstractJsonData(txt, ann, pmid):
     index_data['_type'] = "cancer_immunology"
     index_data['_id'] = pmid
 
-    return json_data, index_data 
+    return json_data, index_data
+
 
 def gen_EntityJsonData(txt, ann, pmid):
 
@@ -81,9 +98,8 @@ def gen_EntityJsonData(txt, ann, pmid):
         lines = fp.readlines()
     lines = [line.strip() for line in lines]
 
-
     entity_list = []
-    for i in range(0,len(lines), 2):
+    for i in range(0, len(lines), 2):
         entity = {}
 
         ent = lines[i]
@@ -115,29 +131,30 @@ def gen_EntityJsonData(txt, ann, pmid):
     index_data['_type'] = "cancer_immunology"
     index_data['_id'] = pmid
 
-    return json_data, index_data 
+    return json_data, index_data
 
 
 def main():
 
-    # check running time                                                                                                   
-    t_start = time.time()                                                                                                  
+    # check running time
+    t_start = time.time()
 
     # logging
     logger = logging.getLogger("logger")
     logger.setLevel(logging.INFO)
 
     handler1 = logging.StreamHandler()
-    handler1.setFormatter(logging.Formatter("%(asctime)s %(filename)s %(funcName)s %(lineno)d %(levelname)s %(message)s"))
+    handler1.setFormatter(logging.Formatter(
+        "%(asctime)s %(filename)s %(funcName)s %(lineno)d %(levelname)s %(message)s"))
 
-    #handler2 = logging.FileHandler(filename="test.log")
-    #handler2.setFormatter(logging.Formatter("%(asctime)s %(levelname)8s %(message)s"))
+    # handler2 = logging.FileHandler(filename="test.log")
+    # handler2.setFormatter(logging.Formatter("%(asctime)s %(levelname)8s %(message)s"))
 
     logger.addHandler(handler1)
 
     # set config path by command line
-    inp_args = utils._parsing()                                                                                            
-    config_path = getattr(inp_args, 'yaml')                                                                                
+    inp_args = utils._parsing()
+    config_path = getattr(inp_args, 'yaml')
     with open(config_path, 'r') as stream:
         parameters = utils._ordered_load(stream)
 
@@ -150,24 +167,23 @@ def main():
     txt_files = sorted(glob(f"{extract_dir}/*txt"))
     ann_files = sorted(glob(f"{annotate_dir}/*ann"))
 
-
     # abstract index
 
     json_dataset = []
     for txt, ann in zip(txt_files, ann_files):
         path, txt_fname = os.path.split(txt)
         path, ann_fname = os.path.split(ann)
-        txt_basename, _  = os.path.splitext(txt_fname)
-        ann_basename, _  = os.path.splitext(ann_fname)
-        assert(txt_basename == ann_basename)
+        txt_basename, _ = os.path.splitext(txt_fname)
+        ann_basename, _ = os.path.splitext(ann_fname)
+        assert (txt_basename == ann_basename)
         print(txt, ann)
         json_data, index_data = gen_AbstractJsonData(txt, ann, ann_basename)
         json_dataset.append((json_data, index_data))
 
     output_dir = parameters["output_dir"]
-    with open(os.path.join(output_dir, 'abstract.jsonl'), 'w')  as fout:
+    with open(os.path.join(output_dir, 'abstract.jsonl'), 'w') as fout:
         for json_data, index_data in json_dataset:
-            json.dump({'index': index_data} , fout)
+            json.dump({'index': index_data}, fout)
             fout.write('\n')
             json.dump(json_data, fout)
             fout.write('\n')
@@ -178,29 +194,34 @@ def main():
     for txt, ann in zip(txt_files, ann_files):
         path, txt_fname = os.path.split(txt)
         path, ann_fname = os.path.split(ann)
-        txt_basename, _  = os.path.splitext(txt_fname)
-        ann_basename, _  = os.path.splitext(ann_fname)
-        assert(txt_basename == ann_basename)
+        txt_basename, _ = os.path.splitext(txt_fname)
+        ann_basename, _ = os.path.splitext(ann_fname)
+        assert (txt_basename == ann_basename)
         print(txt, ann)
         json_data, index_data = gen_EntityJsonData(txt, ann, ann_basename)
         json_dataset.append((json_data, index_data))
 
     output_dir = parameters["output_dir"]
-    with open(os.path.join(output_dir, 'entity.jsonl'), 'w')  as fout:
+    with open(os.path.join(output_dir, 'entity.jsonl'), 'w') as fout:
         for json_data, index_data in json_dataset:
-            json.dump({'index': index_data} , fout)
+            json.dump({'index': index_data}, fout)
             fout.write('\n')
             json.dump(json_data, fout)
             fout.write('\n')
 
-
     print('Done!')
-    t_end = time.time()                                                                                                  
+    t_end = time.time()
     print('Took {0:.2f} seconds'.format(t_end - t_start))
 
+<<<<<<< HEAD
 if __name__ == '__main__':                                                                                                                        
     main()
 
 
 
 
+=======
+
+if __name__ == '__main__':
+    main()
+>>>>>>> 27fa0e98e4d9cc436f3d9f737336c0cb5b5f00d0
