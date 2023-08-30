@@ -72,9 +72,9 @@ def main():
         abst_file = os.path.join(
             parameters['pubmed_extract_dir'], "{}.txt".format(pmid))
 
-        if os.path.exists(abst_file):
-            print(abst_file, " exist, skip")
-            continue
+        #if os.path.exists(abst_file):
+        #    print(abst_file, " exist, skip")
+        #    continue
         abst = get_abstract(pmid)
         if len(abst) <= 100:
             continue
