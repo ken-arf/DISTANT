@@ -17,6 +17,9 @@ import pdb
 
 from Bio.Entrez import efetch
 from Bio import Entrez
+
+import xml.etree.ElementTree as ET
+
 Entrez.email = 'yano0828@gmail.com'
 
 
@@ -30,11 +33,63 @@ def get_abstract(pmid):
         print("exception efetch")
         return ""
 
-    pdb.set_trace()
+    root = ET.fromstring(buff)    
+    elm = root.find(".//Journal")
+    try:
+        volume = elm.find(".//Volume").text
+    except:
+        volume = ""
+    try:
+        issue = elm.find(".//Issue").text
+    except:
+        issue = ""
+    try:
+        year = elm.find(".//Year").text
+    except:
+        year = ""
+    try:
+        month = elm.find(".//Month").text
+    except:
+        month = ""
+    try:
+        day = elm.find(".//Day").text
+    except:
+        day = ""
+    page = root.find(".//Pagination")
+    try:
+        startpage = page.find(".//StartPage").text
+    except:
+        startpage = ""
+    try:
+        endpage = page.find(".//EndPage").text
+    except:
+        endpage = ""
 
+    journal_title = elm.find(".//Title").text
+    ios = elm.find(".//ISOAbbreviation").text
+    print(f"{year}/{month}/{day}")
+    print(f"{journal_title}/{ios}")
+    print(f"{volume}/{issue}/{startpage}-{endpage}")
+
+    title = root.find(".//ArticleTitle").text
+    print(f"{title}")
+
+    meta = {}
+    
+    meta["publication"]={"year":year, "month":month, "day":day}
+    meta["journal"]={"title":journal_title, "ios":ios, "vol":volume, "issue":issue}
+    meta["pagenation"]={"start":startpage, "end":endpage}
+    meta["title"]=title
+
+    print(meta)
+    return meta
+
+    return meta
 
 
 def gen_AbstractJsonData(txt, ann, pmid):
+
+    meta_info = get_abstract(pmid)
 
     json_data = {}
 
@@ -70,9 +125,9 @@ def gen_AbstractJsonData(txt, ann, pmid):
         entity['end_char'] = int(end_char)
         entity['cui'] = cui
 
-
         entity_list.append(entity)
 
+    json_data['meta'] = meta_info
     json_data['pmid'] = pmid
     json_data['text'] = txt
     json_data['entities'] = entity_list
@@ -213,15 +268,5 @@ def main():
     t_end = time.time()
     print('Took {0:.2f} seconds'.format(t_end - t_start))
 
-<<<<<<< HEAD
 if __name__ == '__main__':                                                                                                                        
     main()
-
-
-
-
-=======
-
-if __name__ == '__main__':
-    main()
->>>>>>> 27fa0e98e4d9cc436f3d9f737336c0cb5b5f00d0
