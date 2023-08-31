@@ -31,9 +31,13 @@ def get_abstract(pmid):
         buff = handle.read()
     except:
         print("exception efetch")
-        return ""
+        return None 
 
-    root = ET.fromstring(buff)    
+    try:
+        root = ET.fromstring(buff)    
+    except:
+        raise ValueError("error")
+
     elm = root.find(".//Journal")
     try:
         volume = elm.find(".//Volume").text
@@ -71,7 +75,8 @@ def get_abstract(pmid):
     print(f"{journal_title}/{ios}")
     print(f"{volume}/{issue}/{startpage}-{endpage}")
 
-    title = root.find(".//ArticleTitle").text
+    elm = root.find(".//ArticleTitle")
+    title = ET.tostring(elm, encoding='utf-8', method='text').decode('utf-8') 
     print(f"{title}")
 
     meta = {}
@@ -81,15 +86,16 @@ def get_abstract(pmid):
     meta["pagenation"]={"start":startpage, "end":endpage}
     meta["title"]=title
 
-    print(meta)
-    return meta
-
     return meta
 
 
 def gen_AbstractJsonData(txt, ann, pmid):
 
-    meta_info = get_abstract(pmid)
+    try:
+        meta_info = get_abstract(pmid)
+    except:
+        raise ValueError("error!")
+        
 
     json_data = {}
 
@@ -127,7 +133,9 @@ def gen_AbstractJsonData(txt, ann, pmid):
 
         entity_list.append(entity)
 
-    json_data['meta'] = meta_info
+    for key, val in meta_info.items():
+        json_data[key] = val 
+
     json_data['pmid'] = pmid
     json_data['text'] = txt
     json_data['entities'] = entity_list
@@ -191,6 +199,8 @@ def gen_EntityJsonData(txt, ann, pmid):
 
 def main():
 
+    #get_abstract(27895423)
+
     # check running time
     t_start = time.time()
 
@@ -232,8 +242,11 @@ def main():
         ann_basename, _ = os.path.splitext(ann_fname)
         assert (txt_basename == ann_basename)
         print(txt, ann)
-        json_data, index_data = gen_AbstractJsonData(txt, ann, ann_basename)
-        json_dataset.append((json_data, index_data))
+        try:
+            json_data, index_data = gen_AbstractJsonData(txt, ann, ann_basename)
+            json_dataset.append((json_data, index_data))
+        except:
+            pass
 
     output_dir = parameters["output_dir"]
     with open(os.path.join(output_dir, 'abstract.jsonl'), 'w') as fout:
