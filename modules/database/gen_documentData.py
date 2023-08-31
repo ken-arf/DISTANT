@@ -81,9 +81,19 @@ def get_abstract(pmid):
 
     meta = {}
     
-    meta["publication"]={"year":year, "month":month, "day":day}
-    meta["journal"]={"title":journal_title, "ios":ios, "vol":volume, "issue":issue}
-    meta["pagenation"]={"start":startpage, "end":endpage}
+    #meta["publication"]={"year":year, "month":month, "day":day}
+    #meta["journal"]={"title":journal_title, "ios":ios, "vol":volume, "issue":issue}
+    #meta["pagenation"]={"start":startpage, "end":endpage}
+
+    meta["pub_year"]=year
+    meta["pub_month"]=month
+    meta["pub_day"]=day
+    meta["journal_title"]=journal_title
+    meta["journal_ios"]=ios
+    meta["journal_vol"]=volume
+    meta["journal_issue"]=issue
+    meta["pagenation_start"]=startpage
+    meta["pagenation_end"]=endpage
     meta["title"]=title
 
     return meta
