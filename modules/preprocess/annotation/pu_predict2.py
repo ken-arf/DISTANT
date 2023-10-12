@@ -366,11 +366,16 @@ def main():
             base, _ = os.path.splitext(dfile)
             domain_dictionary[base].update(dict_load(dict_path))
 
-    for file in files:
-        print(file)
-        df_result = entity_extractor.predict(file)
-        output_annotation_file(
-            file, df_result, annotation_root_dir, entity_names, domain_dictionary)
+    for file_ in files:
+        print(file_)
+        try:
+            df_result = entity_extractor.predict(file_)
+            output_annotation_file(
+                file_, df_result, annotation_root_dir, entity_names, domain_dictionary)
+        except:
+            print("Exception, abort")
+            exit(1)
+
 
     # check running time
     t_start = time.time()

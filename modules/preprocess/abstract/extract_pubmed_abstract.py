@@ -40,7 +40,7 @@ def get_abstract(pmid):
         elif mode == "abst" and len(txt) > 0:
             abst_lines.append(txt)
 
-    abst_text = " ".join(abst_lines)
+    abst_text = "".join(abst_lines)
 
     return abst_text
 
@@ -76,7 +76,7 @@ def main():
         #    print(abst_file, " exist, skip")
         #    continue
         abst = get_abstract(pmid)
-        if len(abst) <= 100:
+        if len(abst) <= 250:
             continue
 
         with open(abst_file, 'w') as fp:
