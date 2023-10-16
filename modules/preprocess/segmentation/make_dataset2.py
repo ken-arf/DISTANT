@@ -4,6 +4,7 @@
 
 import sys
 import os
+import re
 import glob
 import spacy
 import scispacy
@@ -57,7 +58,7 @@ def tokenize(text, offset=False, moses=False, ):
     return tokens
 
 
-def load_dict_old(path):
+def __load_dict_old(path):
 
     items = []
     with open(path) as fp:
@@ -80,7 +81,12 @@ def load_dict(path):
     for entry in tqdm(entries):
         atom_str = entry[0]
         tokens_lc = tokenize(entry[1])
-        tokens_lc_head = tokenize(entry[2])
+
+        if not entry[2].startswith("re:"):
+            tokens_lc_head = tokenize(entry[2])
+        else:
+            tokens_lc_head = (entry[2],)
+        
         cui = entry[3]
 
         # (atom string, list of atom tokens, list of head part of atom tokens, cui)
@@ -94,23 +100,53 @@ def match_entity(tokens, entity_dict, entity_type):
     match_count = 0
     n = len(tokens)
     bio = ['O'] * n
-    for i in range(len(tokens)):
+#    for i in range(len(tokens)):
+
+    i = 0
+    while i < len(tokens):
+        found = False
         for entity in entity_dict[entity_type]:
             if i+len(entity) > n-1:
                 continue
+
             tgt = tokens[i:i+len(entity)]
             if tuple(tgt) == tuple(entity):
                 # print('match at {}: {}'.format(i, '_'.join(entity)))
+                found = True
                 match_count += 1
 
                 if len(entity) == 1:
                     bio[i] = f'S_{entity_type}'
+                    i += 1
                 else:
                     for j in range(i, i+len(entity)):
                         if j == i:
                             bio[j] = f'B_{entity_type}'
                         else:
                             bio[j] = f'I_{entity_type}'
+                    i += len(entity)
+                break
+
+            elif len(tgt) == 1 and len(entity) == 1:
+
+                tgt_ = tgt[0]
+                entity_ = entity[0]
+                if tgt_.startswith(entity_):
+                    try:
+                        pattern = f"{entity_}[\dαβγ\+\-\_\(\)]*"
+                        m = re.match(pattern, tgt_)
+                        if m and m.group(0) == tgt_:
+                            found = True
+                            bio[i] = f'S_{entity_type}'
+                            i += 1
+                            break
+                    except:
+                        pass
+                    
+
+            
+        if not found:
+            i += 1
 
     return bio, match_count
 
@@ -186,6 +222,7 @@ def annotate(files, parameters):
     # sort dictionary items in ascending order
     for key in entity_dict.keys():
         entity_dict[key] = sorted(entity_dict[key], key=lambda x: -len(x))
+
 
     match_count = defaultdict(int)
     for file in tqdm(files):

@@ -48,13 +48,14 @@ def extract_unknown_samples(csv, thres_pert):
     df_neg["max_prob"] = max_prob
     df_neg["max_index"] = max_index
 
-    # thres = [min(probs[index]['per'], prob_thres) for index in max_index]
-    thres = [probs[index]['per'] for index in max_index]
+    #changed 2023/10/14
+    thres_pos = [probs[index]['mean'] for index in max_index]
+    thres_neg = [probs[index]['per'] for index in max_index]
 
-    mask = max_prob < np.array(thres)
+    mask = max_prob < np.array(thres_neg)
     df_neg_unknown = df_neg[mask]
 
-    mask = max_prob >= np.array(thres)
+    mask = max_prob >= np.array(thres_pos)
     df_pos_unknown = df_neg[mask]
     pos_label = max_index[mask]
 
@@ -70,7 +71,7 @@ def extract_unknown_samples(csv, thres_pert):
     return result
 
 
-def extract_true_neg_candidate(csv, thres_pert):
+def ___extract_true_neg_candidate(csv, thres_pert):
 
     prob_thres = 0.90
 
@@ -141,7 +142,7 @@ def classify_unknown_samples(model_dir, thres_pert=5, count=1):
     return result
 
 
-def extract_neg_index(model_dir, thres_pert=15, count=1):
+def __extract_neg_index(model_dir, thres_pert=15, count=1):
 
     df_neg_true = {}
     for i in range(count):

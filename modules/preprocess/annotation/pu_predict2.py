@@ -374,7 +374,6 @@ def main():
                 file_, df_result, annotation_root_dir, entity_names, domain_dictionary)
         except:
             print("Exception, abort")
-            exit(1)
 
 
     # check running time

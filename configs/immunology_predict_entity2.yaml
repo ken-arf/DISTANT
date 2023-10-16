@@ -13,6 +13,7 @@ corpus_file: desc2023.xml
 #protein_dict_file: protein.dict 
 
 document_root_dir: data/Mesh/PubMed/Immunology/extract
+#document_root_dir: data/Mesh/PubMed/Immunology/extract.error
 annotation_root_dir: data/Mesh/PubMed/Immunology/annotate
 
 corpus_dir: data/Corpus/Immunology

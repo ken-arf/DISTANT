@@ -117,7 +117,7 @@ def is_substr(ref, src):
         return False
 
 
-def min_edit_distance_test(ref, src):
+def ___min_edit_distance_test(ref, src):
 
     ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
     src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
@@ -144,7 +144,7 @@ def min_edit_distance_test(ref, src):
     return min_l
 
 
-def min_edit_distance(ref, src):
+def __min_edit_distance(ref, src):
 
     # ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
     # src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
@@ -169,6 +169,31 @@ def min_edit_distance(ref, src):
             min_l = 0
 
     return min_l
+
+
+def min_edit_distance(ref, src):
+
+    min_l = ed.eval(ref, src)
+
+    if min_l > 0:
+        if src.startswith(ref):
+            try:
+                pattern = f"{ref}[\dαβγi\-\_\(\)]*"
+                m = re.match(pattern, src)
+                if m:
+                    if m.group(0) == src:
+                        min_l = 0
+            except:
+                pass
+
+    if min_l > 0:
+        ref = re.sub(r'\W', '', ref)
+        src = re.sub(r'\W', '', src)
+        if src == ref:
+            min_l = 0
+
+    return min_l
+        
 
 
 def entity_extract(entityExtraction, sent, pmid, k):
@@ -429,8 +454,13 @@ def main():
             doc = nlp(text)
             for k, sent in enumerate(doc.sents):
                 # df=entity_extract(nlp(sent.text), pmid,k)
-                df = entity_extract(entityExtraction, sent.text, pmid, k)
-                dfs.append(df)
+
+                try:
+                    df = entity_extract(entityExtraction, sent.text, pmid, k)
+                    dfs.append(df)
+                except:
+                    print("Exception, entity_extract")
+                    
 
     df_train = pd.concat(dfs, ignore_index=True)
 

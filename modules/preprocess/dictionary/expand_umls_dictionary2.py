@@ -55,6 +55,12 @@ def save_dict(dicts, parameters):
                 term_head = term_lc.split(',')[0]
                 fp.write(f'{term}|{term_lc}|{term_head}|{cui}\n')
 
+                # changed 2023/10/14
+                #term_first = term_head.split(' ')[0]
+                #if term_head != term_first:
+                #    fp.write(f'{term}|{term_lc}|{term_first}|{cui}\n')
+
+
 
 def main():
 
