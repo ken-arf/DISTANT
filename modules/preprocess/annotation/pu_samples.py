@@ -76,7 +76,6 @@ def extract_unknown_samples(csv, thres_pert):
 
 def classify_unknown_samples(model_dir, thres_pert=5, count=1):
 
-    pdb.set_trace()
 
     candidate = {}
     for i in range(count):
