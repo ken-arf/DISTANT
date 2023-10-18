@@ -60,13 +60,13 @@ def extract_unknown_samples(csv, thres_pert):
     pos_label = max_index[mask]
 
     cols = ["max_prob", "max_index", "orig_index", "label"]
-    df_pos_unknown = df_pos_unknown[cols]
-    df_neg_unknown = df_neg_unknown[cols]
+    df_pos_unknown_ = df_pos_unknown[cols]
+    df_neg_unknown_ = df_neg_unknown[cols]
 
-    df_pos_unknown.set_index('orig_index', inplace=True)
-    df_neg_unknown.set_index('orig_index', inplace=True)
+    df_pos_unknown_.set_index('orig_index', inplace=True)
+    df_neg_unknown_.set_index('orig_index', inplace=True)
 
-    result = {'df_pos': df_pos_unknown, 'df_neg': df_neg_unknown}
+    result = {'df_pos': df_pos_unknown_, 'df_neg': df_neg_unknown_}
 
     return result
 
@@ -107,6 +107,8 @@ def ___extract_true_neg_candidate(csv, thres_pert):
 
 
 def classify_unknown_samples(model_dir, thres_pert=5, count=1):
+
+    pdb.set_trace()
 
     candidate = {}
     for i in range(count):
@@ -204,3 +206,10 @@ def generate_final_pos_samples(parameters):
     df_pu_train['end_chars'] = df_pu_train['end_chars'].apply(np.int64)
 
     return df_pu_train
+
+
+
+if __name__ == "__main__":
+    
+    model_dir = 
+    classify_unknown_samples(model_dir,  thres_pert=5, count=3):
