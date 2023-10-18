@@ -16,6 +16,7 @@ def percentile(prob, percent):
 
 def extract_unknown_samples(csv, thres_pert):
 
+
     prob_thres = 0.90
 
     thres_percentile = thres_pert
@@ -34,8 +35,9 @@ def extract_unknown_samples(csv, thres_pert):
         p_max = np.max(dfs[k][f"prob_{k}"])
         p_min = np.min(dfs[k][f"prob_{k}"])
         p_mean = np.mean(dfs[k][f"prob_{k}"])
-        p_per = percentile(dfs[k][f"prob_{k}"], thres_percentile)
-        probs[k] = {'max': p_max, 'min': p_min, 'mean': p_mean, 'per': p_per}
+        p_per_low = percentile(dfs[k][f"prob_{k}"], thres_percentile)
+        p_per_high = percentile(dfs[k][f"prob_{k}"], 100 - thres_percentile)
+        probs[k] = {'max': p_max, 'min': p_min, 'mean': p_mean, 'per_low': p_per_low, 'per_high': p_per_high}
 
     print("probs")
     for key in probs.keys():
@@ -49,8 +51,8 @@ def extract_unknown_samples(csv, thres_pert):
     df_neg["max_index"] = max_index
 
     #changed 2023/10/14
-    thres_pos = [probs[index]['mean'] for index in max_index]
-    thres_neg = [probs[index]['per'] for index in max_index]
+    thres_pos = [probs[index]['per_high'] for index in max_index]
+    thres_neg = [probs[index]['per_low'] for index in max_index]
 
     mask = max_prob < np.array(thres_neg)
     df_neg_unknown = df_neg[mask]
@@ -70,40 +72,6 @@ def extract_unknown_samples(csv, thres_pert):
 
     return result
 
-
-def ___extract_true_neg_candidate(csv, thres_pert):
-
-    prob_thres = 0.90
-
-    thres_percentile = thres_pert
-    df_train_neg = pd.read_csv(csv)
-    df_neg = df_train_neg[df_train_neg["olabel"] == -1]
-
-    pos_label_num = len(df_train_neg["olabel"].unique()) - 1
-
-    # spy data
-    dfs = {}
-    for k in range(pos_label_num):
-        dfs[k] = df_train_neg[df_train_neg["olabel"] == k]
-
-    probs = {}
-    for k in dfs.keys():
-        p_max = np.max(dfs[k][f"prob_{k}"])
-        p_min = np.min(dfs[k][f"prob_{k}"])
-        p_mean = np.mean(dfs[k][f"prob_{k}"])
-        p_per = percentile(dfs[k][f"prob_{k}"], thres_percentile)
-        probs[k] = {'max': p_max, 'min': p_min, 'mean': p_mean, 'per': p_per}
-
-    prob_col_names = [f"prob_{k}" for k in dfs.keys()]
-    max_prob = np.max(df_neg[prob_col_names].values, axis=1)
-    max_index = np.argmax(df_neg[prob_col_names].values, axis=1)
-
-    thres = [min(probs[index]['per'], prob_thres) for index in max_index]
-
-    mask = max_prob < np.array(thres)
-    df_neg_true = df_neg[mask]
-
-    return df_neg_true
 
 
 def classify_unknown_samples(model_dir, thres_pert=5, count=1):
@@ -125,9 +93,9 @@ def classify_unknown_samples(model_dir, thres_pert=5, count=1):
     # originally unknown samples which are judged as negative by PU training
     df_merge_neg = candidate[0]['df_neg']
     for i in range(1, count):
-        df = candidate[i]['df_pos']
-        df_merge_neg = pd.merge(
-            df_merge_neg, df, left_index=True, right_index=True)
+        df = candidate[i]['df_neg']
+        df_temp = pd.merge(df_merge_neg, df, left_index=True, right_index=True)
+        df_merge_neg = df_temp
 
     cols_prob = [
         col for col in df_merge_pos.columns if col.startswith('max_prob')]
@@ -143,23 +111,6 @@ def classify_unknown_samples(model_dir, thres_pert=5, count=1):
 
     return result
 
-
-def __extract_neg_index(model_dir, thres_pert=15, count=1):
-
-    df_neg_true = {}
-    for i in range(count):
-        df_neg_true[i] = extract_true_neg_candidate(
-            os.path.join(model_dir, f"train_neg_{i}.csv"), thres_pert)
-
-    neg_index = {}
-    for i in range(count):
-        neg_index[i] = df_neg_true[i]["orig_index"].values.tolist()
-
-    common_neg_index = set(neg_index[0])
-    for i in range(1, count):
-        common_neg_index = common_neg_index.intersection(set(neg_index[i]))
-
-    return sorted(list(common_neg_index))
 
 
 def generate_final_pos_samples(parameters):
@@ -211,5 +162,6 @@ def generate_final_pos_samples(parameters):
 
 if __name__ == "__main__":
     
-    model_dir = 
-    classify_unknown_samples(model_dir,  thres_pert=5, count=3):
+    model_dir = "../../../experiments/immunology/models"
+ 
+    classify_unknown_samples(model_dir,  thres_pert=5, count=3)

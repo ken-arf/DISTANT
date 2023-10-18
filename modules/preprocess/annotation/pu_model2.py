@@ -72,12 +72,6 @@ class PU_Model(nn.Module):
             nn.Linear(hidden_size, self.params['class_num'])
         ).to(self.device)
 
-#        self.linear = nn.Sequential(
-#         nn.Linear(self.params['embedding_dim'] * 3, hidden_size),
-#         #nn.Tanh(),
-#          nn.ReLU(),
-#          nn.Linear(hidden_size, self.params['class_num'])
-#        ).to(self.device)
 
         # cross entropy loss
         if self.params['class_num'] > 1:
@@ -106,18 +100,6 @@ class PU_Model(nn.Module):
         features = []
         for k, (start, end) in enumerate(zip(start_pos, end_pos)):
             feature = bert_sequence_output[k, start:end+1, :]
-#            if feature.shape[0] == 1:
-#                head_feature = feature[0,:]
-#                mean_feature = feature[0,:]
-#                tail_feature = feature[0,:]
-#            elif feature.shape[0] == 2:
-#                head_feature = feature[0,:]
-#                mean_feature = torch.mean(feature, 0)
-#                tail_feature = feature[-1,:]
-#            else:
-#                head_feature = feature[0,:]
-#                mean_feature = torch.mean(feature[1:-1], 0)
-#                tail_feature = feature[-1,:]
 
             head_feature = feature[0, :]
             mean_feature = torch.mean(feature, 0)
@@ -159,18 +141,6 @@ class PU_Model(nn.Module):
         features = []
         for k, (start, end) in enumerate(zip(start_pos, end_pos)):
             feature = bert_sequence_output[k, start:end+1, :]
-#            if feature.shape[0] == 1:
-#                head_feature = feature[0,:]
-#                mean_feature = feature[0,:]
-#                tail_feature = feature[0,:]
-#            elif feature.shape[0] == 2:
-#                head_feature = feature[0,:]
-#                mean_feature = torch.mean(feature, 0)
-#                tail_feature = feature[-1,:]
-#            else:
-#                head_feature = feature[0,:]
-#                mean_feature = torch.mean(feature[1:-1], 0)
-#                tail_feature = feature[-1,:]
 
             head_feature = feature[0, :]
             mean_feature = torch.mean(feature, 0)
