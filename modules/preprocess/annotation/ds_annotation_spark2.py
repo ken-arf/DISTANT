@@ -178,7 +178,7 @@ def min_edit_distance(ref, src):
     if min_l > 0:
         if src.startswith(ref):
             try:
-                pattern = f"{ref}[\dαβγi\-\_\(\)]*"
+                pattern = f"{ref}[αβγA-Za-z1-9\+\-\_\(\)]+"
                 m = re.match(pattern, src)
                 if m:
                     if m.group(0) == src:

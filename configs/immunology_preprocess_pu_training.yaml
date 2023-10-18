@@ -22,8 +22,8 @@ spy_ratio: 0.1
 
 # bert model
 seed: 22
-#model_checkpoint: allenai/scibert_scivocab_cased
-model_checkpoint: allenai/scibert_scivocab_uncased
+model_checkpoint: allenai/scibert_scivocab_cased
+#model_checkpoint: allenai/scibert_scivocab_uncased
 # nn model
 dropout_rate: 0.2
 embedding_dim: 768

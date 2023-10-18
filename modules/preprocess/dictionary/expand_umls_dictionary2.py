@@ -56,10 +56,13 @@ def save_dict(dicts, parameters):
                 fp.write(f'{term}|{term_lc}|{term_head}|{cui}\n')
 
                 # changed 2023/10/14
-                #term_first = term_head.split(' ')[0]
-                #if term_head != term_first:
-                #    fp.write(f'{term}|{term_lc}|{term_first}|{cui}\n')
-
+                term_first = term_head.split(' ')[0]
+                if term_head != term_first:
+                    pattern = r"^[A-Z][A-Z1-9]+"
+                    m = re.match(pattern, term_first)
+                    if m:
+                        fp.write(f'{term}|{term_lc}|{term_first}|{cui}\n')
+                        
 
 
 def main():

@@ -81,12 +81,7 @@ def load_dict(path):
     for entry in tqdm(entries):
         atom_str = entry[0]
         tokens_lc = tokenize(entry[1])
-
-        if not entry[2].startswith("re:"):
-            tokens_lc_head = tokenize(entry[2])
-        else:
-            tokens_lc_head = (entry[2],)
-        
+        tokens_lc_head = tokenize(entry[2])
         cui = entry[3]
 
         # (atom string, list of atom tokens, list of head part of atom tokens, cui)
@@ -133,7 +128,7 @@ def match_entity(tokens, entity_dict, entity_type):
                 entity_ = entity[0]
                 if tgt_.startswith(entity_):
                     try:
-                        pattern = f"{entity_}[\dαβγ\+\-\_\(\)]*"
+                        pattern = f"{entity_}[αβγA-Za-z1-9\+\-\_\(\)]+"
                         m = re.match(pattern, tgt_)
                         if m and m.group(0) == tgt_:
                             found = True
