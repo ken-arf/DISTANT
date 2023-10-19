@@ -119,8 +119,14 @@ def is_substr(ref, src):
 
 
 def min_edit_distance(ref, src):
+    # ref : Sting dictionary entry
+    # src : String entity mention
 
     min_l = ed.eval(ref, src)
+
+    return min_l
+
+
 
     if min_l > 0:
         if src.startswith(ref):
