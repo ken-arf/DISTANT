@@ -87,21 +87,6 @@ nlp.add_pipe("sentencizer")
 
 lemmatizer = WordNetLemmatizer()
 
-greek_name = ['alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta', 'iota', 'kappa', 'lambda', 'mu', 'nu', 'xi', 'omicron',
-              'pi', 'pho', 'sigma', 'tau', 'upsilon', 'phi', 'chi', 'psi', 'omega']
-greek_letter = list('αβγδεζηθικλμνξοπρστυφχψω')
-
-greek_translate = {l: w for l, w in zip(greek_letter, greek_name)}
-
-synonym_table = {
-    'lymphocyte': 'cell',
-    'lymphocyte': 'lymph cell',
-    'cell': 'lymphocyte',
-    '+': 'positive',
-    '-': 'negative',
-}
-
-synonym_table.update(greek_translate)
 
 lemmatizer = WordNetLemmatizer()
 
@@ -123,30 +108,8 @@ def min_edit_distance(ref, src):
     # src : String entity mention
 
     min_l = ed.eval(ref, src)
-
     return min_l
 
-
-
-    if min_l > 0:
-        if src.startswith(ref):
-            try:
-                pattern = f"{ref}[αβγA-Za-z1-9\+\-\_\(\)]+"
-                m = re.match(pattern, src)
-                if m:
-                    if m.group(0) == src:
-                        min_l = 0
-            except:
-                pass
-
-    if min_l > 0:
-        ref = re.sub(r'\W', '', ref)
-        src = re.sub(r'\W', '', src)
-        if src == ref:
-            min_l = 0
-
-    return min_l
-        
 
 
 def entity_extract(entityExtraction, sent, pmid, k):

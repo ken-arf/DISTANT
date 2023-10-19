@@ -58,18 +58,6 @@ def tokenize(text, offset=False, moses=False, ):
     return tokens
 
 
-def __load_dict_old(path):
-
-    items = []
-    with open(path) as fp:
-        lines = [line.strip().lower()
-                 for line in fp.readlines() if len(line.strip()) != 0]
-    for line in tqdm(lines):
-        doc = tokenize(line)
-        # print(doc)
-        items.append(doc)
-    return items
-
 
 def load_dict(path):
 
@@ -95,7 +83,6 @@ def match_entity(tokens, entity_dict, entity_type):
     match_count = 0
     n = len(tokens)
     bio = ['O'] * n
-#    for i in range(len(tokens)):
 
     i = 0
     while i < len(tokens):
@@ -121,23 +108,6 @@ def match_entity(tokens, entity_dict, entity_type):
                             bio[j] = f'I_{entity_type}'
                     i += len(entity)
                 break
-
-            elif len(tgt) == 1 and len(entity) == 1:
-
-                tgt_ = tgt[0]
-                entity_ = entity[0]
-                if tgt_.startswith(entity_):
-                    try:
-                        pattern = f"{entity_}[αβγA-Za-z1-9\+\-\_\(\)]+"
-                        m = re.match(pattern, tgt_)
-                        if m and m.group(0) == tgt_:
-                            found = True
-                            bio[i] = f'S_{entity_type}'
-                            i += 1
-                            break
-                    except:
-                        pass
-                    
 
             
         if not found:
