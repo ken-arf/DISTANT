@@ -346,6 +346,8 @@ def main():
     unknow_sample_result = classify_unknown_samples(
         model_dir, parameters["pu_thres_pert"], count=count)
 
+    pdb.set_trace()
+
     # step-2.
     # classify unknown samples
     # By using the positive and the negative samples extractd in step 1, we train a NN classifier

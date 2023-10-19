@@ -68,6 +68,8 @@ def extract_unknown_samples(csv, thres_pert):
     df_pos_unknown_.set_index('orig_index', inplace=True)
     df_neg_unknown_.set_index('orig_index', inplace=True)
 
+    pdb.set_trace()
+
     result = {'df_pos': df_pos_unknown_, 'df_neg': df_neg_unknown_}
 
     return result
