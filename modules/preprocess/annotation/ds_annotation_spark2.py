@@ -117,59 +117,6 @@ def is_substr(ref, src):
         return False
 
 
-def ___min_edit_distance_test(ref, src):
-
-    ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
-    src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
-
-    min_l = ed.eval(ref, src)
-
-    # synonym word exchange
-    for k, v in synonym_table.items():
-        if not k in src:
-            continue
-
-        src2 = src.replace(k, v)
-        l = ed.eval(ref, src2)
-        if l < min_l:
-            min_l = l
-            src = src2
-
-    if min_l > 0:
-        ref = re.sub(r'\W', '', ref)
-        src = re.sub(r'\W', '', src)
-        if src == ref:
-            min_l = 0
-
-    return min_l
-
-
-def __min_edit_distance(ref, src):
-
-    # ref = ' '.join([lemmatizer.lemmatize(w.lower()) for w in ref.split()])
-    # src = ' '.join([lemmatizer.lemmatize(w.lower()) for w in src.split()])
-
-    min_l = ed.eval(ref, src)
-
-    # synonym word exchange
-    for k, v in synonym_table.items():
-        if not k in src:
-            continue
-
-        src2 = src.replace(k, v)
-        l = ed.eval(ref, src2)
-        if l < min_l:
-            min_l = l
-            src = src2
-
-    if min_l > 0:
-        ref = re.sub(r'\W', '', ref)
-        src = re.sub(r'\W', '', src)
-        if src == ref:
-            min_l = 0
-
-    return min_l
-
 
 def min_edit_distance(ref, src):
 

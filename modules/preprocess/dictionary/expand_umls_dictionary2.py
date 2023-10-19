@@ -70,7 +70,7 @@ def save_dict(dicts, parameters):
 
                 # changed 2023/10/14
                 if term_phrase != term_first_word:
-                    pattern = r"^[A-Z][A-Z1-9]+"
+                    pattern = r"^[A-Za-z][A-Za-z1-9]+"
                     m = re.match(pattern, term_first_word)
                     if m:
                         fp.write(f'{term}|{term_lc}|{term_first_word}|{cui}\n')
