@@ -274,7 +274,6 @@ def setup_final_dataset(unknown_sample_result, parameters):
     # filter rows which have label of  -1 (unknown samples which are not judged either positive or negative)
     df_train = df_train_raw[df_train_raw.label >= 0]
     # shuffle training dataset
-    df_train = df_train.sample(frac=1)
 
     return df_train
 
@@ -309,13 +308,18 @@ def retrain_classifier(unknown_sample_result, parameters):
     parameters["class_num"] += 1
     df_train = setup_final_dataset(unknown_sample_result, parameters)
 
+    # save training dataset for final classifier
+    model_dir = parameters["model_dir"]
+    df_train.set_index('orig_index')
+    df_train.to_csv(os.path.join(model_dir, "train_final_classifier.csv"))
+
+    # shuffle training data
+    df_train = df_train.sample(frac=1)
+
+    # train final classifier
     print("retrain_classifier with unknown samples")
     train(df_train, None, parameters, model_name_suffix="final")
 
-    model_dir = parameters["model_dir"]
-
-    df_train.set_index('orig_index')
-    df_train.to_csv(os.path.join(model_dir, "train.csv"))
 
 
 def main():
@@ -332,6 +336,8 @@ def main():
     # check running time
     t_start = time.time()
 
+
+    step = 0
     # step-1.
     # extract (true) negative samples
     # use PU-algorithm to extract possibly true negative samples from unknown samples
@@ -339,20 +345,25 @@ def main():
     # negative samples by the common sample set from the three sets of negative samples
 
     count = 3
-    extract_negative_samples(parameters, count=count)
     model_dir = parameters["model_dir"]
 
-    # unknown_sample_result = {'pos_index': pos_index, 'neg_index': neg_index, 'pos_label': pos_label}
-    unknow_sample_result = classify_unknown_samples(
-        model_dir, parameters["pu_thres_pert"], count=count)
 
-    pdb.set_trace()
+    if step <= 0:
+        extract_negative_samples(parameters, count=count)
+
+    # unknown_sample_result = {'pos_index': pos_index, 'neg_index': neg_index, 'pos_label': pos_label}
+
+    if step <= 1:
+        unknow_sample_result = classify_unknown_samples(
+            model_dir, parameters["pu_thres_pert"], count=count)
 
     # step-2.
     # classify unknown samples
     # By using the positive and the negative samples extractd in step 1, we train a NN classifier
     # to classify each unknown sample whether it is one of the possitive classes or negative class
-    retrain_classifier(unknow_sample_result, parameters)
+
+    if step <= 2:
+        retrain_classifier(unknow_sample_result, parameters)
 
     print('Done!')
     t_end = time.time()

@@ -10,6 +10,11 @@ import math
 import time
 import pickle
 
+import nltk
+nltk.download('stopwords')
+
+from nltk.corpus import stopwords
+
 from utils import utils
 
 
@@ -19,6 +24,7 @@ import pdb
 def expand_dict(dict_path, parameters, cui_dict, cui_rel_dict):
 
     print(dict_path)
+
 
     with open(dict_path, 'rb') as fp:
         umls_atoms = pickle.load(fp)
@@ -39,6 +45,8 @@ def expand_dict(dict_path, parameters, cui_dict, cui_rel_dict):
 
 def save_dict(dicts, parameters):
 
+    stops = list(set(stopwords.words('english')))
+
     newdir = parameters['processed_dict_dir']
     utils.makedir(newdir)
 
@@ -52,16 +60,20 @@ def save_dict(dicts, parameters):
                 term = entry[0]
                 term_lc = entry[1]
                 cui = entry[2]
-                term_head = term_lc.split(',')[0]
-                fp.write(f'{term}|{term_lc}|{term_head}|{cui}\n')
+                term_phrase = term_lc.split(',')[0]
+                term_first_word = term_phrase.split(' ')[0]
+
+                if term_first_word in stops:
+                    continue
+                
+                fp.write(f'{term}|{term_lc}|{term_phrase}|{cui}\n')
 
                 # changed 2023/10/14
-                term_first = term_head.split(' ')[0]
-                if term_head != term_first:
+                if term_phrase != term_first_word:
                     pattern = r"^[A-Z][A-Z1-9]+"
-                    m = re.match(pattern, term_first)
+                    m = re.match(pattern, term_first_word)
                     if m:
-                        fp.write(f'{term}|{term_lc}|{term_first}|{cui}\n')
+                        fp.write(f'{term}|{term_lc}|{term_first_word}|{cui}\n')
                         
 
 

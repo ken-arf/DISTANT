@@ -140,34 +140,6 @@ def disambiguate_dict(dicts, parameters):
     return
 
 
-def disambiguate_dict_old(dicts, parameters):
-
-    tcell_key = 't-lymphocyte_dict_file'
-
-    entity_types = list(dicts.keys())
-
-    tcell_terms = dicts[tcell_key]
-    entity_types.remove(tcell_key)
-
-    print("Before disambiguation")
-    for key, terms in dicts.items():
-        print(key, len(terms))
-
-    for etype in entity_types:
-
-        # skip the disambiguation process for cell
-        if etype == "cell_dict_file":
-            continue
-
-        terms = dicts[etype]
-        new_terms = set(terms).difference(set(tcell_terms))
-        dicts[etype] = sorted(new_terms)
-
-    print("After disambiguation")
-    for key, terms in dicts.items():
-        print(key, len(terms))
-
-    return
 
 
 def save_dict(dicts, parameters):
