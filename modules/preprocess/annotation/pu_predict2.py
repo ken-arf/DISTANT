@@ -26,7 +26,8 @@ from datasets.features.features import ClassLabel
 from nltk.corpus import wordnet as wn
 from nltk.stem import PorterStemmer, WordNetLemmatizer, LancasterStemmer
 
-from entity_extract import ExtractEntityCandidate
+#from entity_extract import ExtractEntityCandidate
+from entity_extract2 import ExtractEntityCandidate
 
 from tqdm.auto import tqdm
 

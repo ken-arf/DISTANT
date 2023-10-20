@@ -49,7 +49,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 
 from utils import utils
-from entity_extract import ExtractEntityCandidate
+#from entity_extract import ExtractEntityCandidate
+from entity_extract2 import ExtractEntityCandidate
 
 import itertools
 
