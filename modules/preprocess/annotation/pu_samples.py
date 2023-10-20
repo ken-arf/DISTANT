@@ -34,14 +34,18 @@ def extract_unknown_samples(csv, thres_pert):
     for k in dfs.keys():
         p_max = np.max(dfs[k][f"prob_{k}"])
         p_min = np.min(dfs[k][f"prob_{k}"])
+        p_avg = np.average(dfs[k][f"prob_{k}"])
         p_mean = np.mean(dfs[k][f"prob_{k}"])
         p_per_low = percentile(dfs[k][f"prob_{k}"], thres_percentile)
         p_per_high = percentile(dfs[k][f"prob_{k}"], 100 - thres_percentile)
-        probs[k] = {'max': p_max, 'min': p_min, 'mean': p_mean, 'per_low': p_per_low, 'per_high': p_per_high}
+        probs[k] = {'max': p_max, 'min': p_min, 'avg': p_avg, 'mean': p_mean, 'per_low': p_per_low, 'per_high': p_per_high}
 
     print("probs")
     for key in probs.keys():
         print(probs[key])
+
+    #pdb.set_trace()
+    #df_neg = df_neg[0:40]
 
     prob_col_names = [f"prob_{k}" for k in dfs.keys()]
     max_prob = np.max(df_neg[prob_col_names].values, axis=1)
@@ -51,15 +55,24 @@ def extract_unknown_samples(csv, thres_pert):
     df_neg["max_index"] = max_index
 
     #changed 2023/10/14
-    thres_pos = [probs[index]['per_high'] for index in max_index]
-    thres_neg = [probs[index]['per_low'] for index in max_index]
+    #thres_pos = [probs[index]['per_high'] for index in max_index]
+
+    metric = 'per_low'
+    thres_pos = [probs[index][metric] for index in max_index]
+    thres_neg = [probs[index][metric] for index in max_index]
 
     mask = max_prob < np.array(thres_neg)
     df_neg_unknown = df_neg[mask]
-
+    neg_entities = set(df_neg_unknown.entities.str.lower().tolist())
+    
     mask = max_prob >= np.array(thres_pos)
-    df_pos_unknown = df_neg[mask]
-    pos_label = max_index[mask]
+    df_pos_ = df_neg[mask]
+    max_index_= max_index[mask]
+    mask = ~df_pos_.entities.str.lower().isin(neg_entities)
+
+    df_pos_unknown = df_pos_[mask]
+    pos_label = max_index_[mask]
+    df_pos_unknown['label'] = pos_label
 
     cols = ["max_prob", "max_index", "orig_index", "label"]
     df_pos_unknown_ = df_pos_unknown[cols]
@@ -101,6 +114,7 @@ def classify_unknown_samples(model_dir, thres_pert=5, count=1):
         col for col in df_merge_pos.columns if col.startswith('max_prob')]
     cols_index = [
         col for col in df_merge_pos.columns if col.startswith('max_index')]
+
 
     pos_index = df_merge_pos.index.tolist()
     neg_index = df_merge_neg.index.tolist()

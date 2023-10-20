@@ -267,9 +267,9 @@ def setup_final_dataset(unknown_sample_result, parameters):
     df_train_raw.loc[neg_index, "label"] = neg_label
 
     # positive unknown samples
-    #pos_index = unknown_sample_result['pos_index']
-    #pos_label = unknown_sample_result['pos_label']
-    #df_train_raw.loc[pos_index, "label"] = pos_label
+    pos_index = unknown_sample_result['pos_index']
+    pos_label = unknown_sample_result['pos_label']
+    df_train_raw.loc[pos_index, "label"] = pos_label
 
     # filter rows which have label of  -1 (unknown samples which are not judged either positive or negative)
     df_train = df_train_raw[df_train_raw.label >= 0]
@@ -337,7 +337,7 @@ def main():
     t_start = time.time()
 
 
-    step = 0
+    step = 1
     # step-1.
     # extract (true) negative samples
     # use PU-algorithm to extract possibly true negative samples from unknown samples
