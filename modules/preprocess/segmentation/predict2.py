@@ -30,7 +30,7 @@ from tqdm.auto import tqdm
 
 from utils import utils
 
-from preprocess.segmentation.model import Model
+from preprocess.segmentation.model2 import Model
 
 from preprocess.segmentation.make_dataset import tokenize
 from preprocess.segmentation.make_dataset import sentence_split
