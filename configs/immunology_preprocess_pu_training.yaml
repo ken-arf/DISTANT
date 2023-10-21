@@ -15,7 +15,7 @@ model_dir: experiments/immunology/models
 
 # PU threshold true negative percentile threshold
 #pu_thres_pert: 2.5
-pu_thres_pert: 0.5 
+pu_thres_pert: 5 
 
 spy_ratio: 0.1
 
@@ -25,7 +25,7 @@ seed: 22
 model_checkpoint: allenai/scibert_scivocab_cased
 #model_checkpoint: allenai/scibert_scivocab_uncased
 # nn model
-dropout_rate: 0.2
+dropout_rate: 0.3
 embedding_dim: 768
 
 # positive label num

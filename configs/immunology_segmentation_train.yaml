@@ -20,13 +20,13 @@ seed: 22
 model_checkpoint: allenai/scibert_scivocab_cased
 #model_checkpoint: allenai/scibert_scivocab_uncased
 # nn model
-dropout_rate: 0.2
+dropout_rate: 0.3
 embedding_dim: 768
 hidden_size: 100
 
 # label num
 # span label
-class_num: 2
+#class_num: 2
 
 # gpu
 gpu: 0 
