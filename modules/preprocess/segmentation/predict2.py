@@ -94,7 +94,6 @@ class EntityExtraction:
 
     def get_entities(self, text):
 
-        # pdb.set_trace()
         tokenized_input, aux_data = self.tokenize_text(text)
         prediction, prob = self.model.predict(**tokenized_input)
 
@@ -106,28 +105,40 @@ class EntityExtraction:
 
         pred = prediction[0]
 
-        in_span = False
+        in_S = False
+        in_BI = False
         for i, l in enumerate(pred):
-            if l == 3:
-                if in_span:
-                    span_end = i-1
+            if l == 3: # S
+                if in_BI:
+                    span_end = i - 1
                     entity_indexes.append([span_start, span_end])
-                    in_span = False
-                entity_indexes.append([i])
-            elif l == 1:
-                in_span = True
-                span_start = i
-            elif l == 2:
-                if not in_span:
-                    in_span = True
+                    in_BI = False
+                if not in_S:
+                    in_S = True
                     span_start = i
-            elif l == 0:
-                if in_span:
+            elif l == 1: # B
+                if in_S:
+                    span_end = i - 1
+                    entity_indexes.append([span_start, span_end])
+                    in_S = False
+                in_BI = True
+                span_start = i
+            elif l == 2: # I
+                if not in_BI:
+                    in_BI = True
+                    span_start = i
+            elif l == 0: # O
+                if in_BI:
                     span_end = i-1
                     entity_indexes.append([span_start, span_end])
-                    in_span = False
+                    in_BI = False
+                elif in_S:
+                    span_end = i-1
+                    entity_indexes.append([span_start, span_end])
+                    in_S = False
+                    
 
-        if in_span:
+        if in_BI or in_S:
             span_end = i
             entity_indexes.append([span_start, span_end])
 
@@ -214,7 +225,6 @@ def main():
     text_dir = parameters["test_dir"]
     files = sorted(glob(f"{text_dir}/*.txt"))
 
-    pdb.set_trace()
 
     for file in files:
         with open(file) as fp:

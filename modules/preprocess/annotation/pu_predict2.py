@@ -212,6 +212,7 @@ class Entity_extractor:
         start_chars = []
         end_chars = []
 
+
         candidates = self.entityExtraction.extract_candiate(
             sent, custom_model=True, scipy_model=False)
         # candidates = self.entityExtraction.extract_candiate(sent, custom_model =True, scipy_model = True)
