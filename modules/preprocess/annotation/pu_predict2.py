@@ -346,6 +346,10 @@ def main():
     # print config
     utils._print_config(params, config_path)
 
+
+    # check running time
+    t_start = time.time()
+
     entity_extractor = Entity_extractor(params)
 
     document_root_dir = params['document_root_dir']
@@ -377,8 +381,6 @@ def main():
             print("Exception, abort")
 
 
-    # check running time
-    t_start = time.time()
     print('Done!')
     t_end = time.time()
     print('Took {0:.2f} seconds'.format(t_end - t_start))
