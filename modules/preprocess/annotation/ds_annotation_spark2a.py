@@ -12,8 +12,6 @@ import spacy
 
 
 from pyspark import SparkContext
-#from pyspark.sql import SparkSession
-#from pyspark.sql.types import StructType, StructField, StringType, IntegerType
 
 
 from sklearn.model_selection import train_test_split
@@ -27,11 +25,6 @@ from scispacy.abbreviation import AbbreviationDetector
 import scispacy
 from spacy.lang.en import English
 
-#import nltk
-# nltk.download("wordnet", quiet=True)
-#from nltk import word_tokenize
-# nltk.download('punkt')
-#from nltk.corpus import wordnet as wn
 from nltk.stem import PorterStemmer, WordNetLemmatizer, LancasterStemmer
 
 
@@ -57,7 +50,6 @@ from entity_extract2 import ExtractEntityCandidate
 import itertools
 
 import pdb
-
 
 
 ABSTAIN = -1
