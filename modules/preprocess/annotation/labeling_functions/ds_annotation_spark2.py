@@ -54,7 +54,6 @@ from entity_extract2 import ExtractEntityCandidate
 
 import itertools
 
-
 import pdb
 
 
