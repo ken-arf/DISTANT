@@ -158,7 +158,7 @@ def main():
         parameters["segmentation_predict_config"])
 
     dfs = []
-    for document_path in tqdm(sorted(documents)[:50]):
+    for document_path in tqdm(sorted(documents)):
         _, fname = os.path.split(document_path)
         pmid, _ = os.path.splitext(fname)
         with open(document_path) as fp:
