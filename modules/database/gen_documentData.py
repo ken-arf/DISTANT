@@ -150,6 +150,7 @@ def gen_AbstractJsonData(txt, ann, pmid):
     json_data['text'] = txt
     json_data['entities'] = entity_list
     now = datetime.now()
+    json_data['generated_datetime'] = now.strftime("%Y-%m-%dT%H:%M:%S")
     json_data['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%S")
 
     index_data = {}
@@ -197,6 +198,7 @@ def gen_EntityJsonData(txt, ann, pmid):
 
     json_data['entities'] = entity_list
     now = datetime.now()
+    json_data['generated_datetime'] = now.strftime("%Y-%m-%dT%H:%M:%S")
     json_data['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%S")
 
     index_data = {}
