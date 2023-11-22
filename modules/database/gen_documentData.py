@@ -150,8 +150,8 @@ def gen_AbstractJsonData(txt, ann, pmid):
     json_data['text'] = txt
     json_data['entities'] = entity_list
     now = datetime.utcnow()
-    json_data['generated_datetime'] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
-    json_data['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    json_data['generated_datetime'] = now.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    json_data['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
     index_data = {}
     index_data['_index'] = "abstract"
@@ -198,8 +198,8 @@ def gen_EntityJsonData(txt, ann, pmid):
 
     json_data['entities'] = entity_list
     now = datetime.utcnow()
-    json_data['generated_datetime'] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
-    json_data['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    json_data['generated_datetime'] = now.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    json_data['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
     index_data = {}
     index_data['_index'] = "entity"
