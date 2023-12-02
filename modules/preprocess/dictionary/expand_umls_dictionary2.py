@@ -1,4 +1,7 @@
 
+import pdb
+from utils import utils
+from nltk.corpus import stopwords
 import sys
 import os
 import re
@@ -13,13 +16,6 @@ import pickle
 import nltk
 nltk.download('stopwords')
 
-from nltk.corpus import stopwords
-
-from utils import utils
-
-
-import pdb
-
 
 def unique_dict(dict_path, parameters):
 
@@ -33,7 +29,6 @@ def unique_dict(dict_path, parameters):
 
 
 def expand_dict_old(dict_path, parameters, cui_dict, cui_rel_dict):
-
 
     with open(dict_path, 'rb') as fp:
         umls_atoms = pickle.load(fp)
@@ -50,6 +45,7 @@ def expand_dict_old(dict_path, parameters, cui_dict, cui_rel_dict):
         term_dict.append((term, term_lc, cui))
 
     return term_dict
+
 
 def expand_dict(dicts, parameters):
 
@@ -74,7 +70,6 @@ def expand_dict(dicts, parameters):
 
                 if len(term) > max_term_len:
                     continue
-                    
 
                 fp.write(f'{term}|{term_lc}|{ref}\n')
 
@@ -105,7 +100,7 @@ def save_dict(dicts, parameters):
 
                 if term_first_word in stops:
                     continue
-                
+
                 fp.write(f'{term}|{term_lc}|{term_phrase}|{cui}\n')
 
                 # changed 2023/10/14
@@ -114,7 +109,6 @@ def save_dict(dicts, parameters):
                     m = re.match(pattern, term_first_word)
                     if m:
                         fp.write(f'{term}|{term_lc}|{term_first_word}|{cui}\n')
-                        
 
 
 def main():

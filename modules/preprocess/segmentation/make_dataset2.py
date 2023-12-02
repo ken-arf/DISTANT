@@ -58,7 +58,6 @@ def tokenize(text, offset=False, moses=False, ):
     return tokens
 
 
-
 def load_dict(path):
 
     items = []
@@ -117,7 +116,6 @@ def match_entity(tokens, entity_dict, entity_type):
                     i += len(entity)
                 break
 
-            
         if not found:
             i += 1
 
@@ -188,14 +186,13 @@ def annotate(files, parameters):
     # convert dictionay item to list to tuple
     for key, items in entity_dict.items():
         l_token_seq = [tuple(item[1]) for item in items]
-        #l_token_seq += [tuple(item[2]) for item in items]
+        # l_token_seq += [tuple(item[2]) for item in items]
 
         entity_dict[key] = list(set(l_token_seq))
 
     # sort dictionary items in ascending order
     for key in entity_dict.keys():
         entity_dict[key] = sorted(entity_dict[key], key=lambda x: -len(x))
-
 
     match_count = defaultdict(int)
     for file in tqdm(files):

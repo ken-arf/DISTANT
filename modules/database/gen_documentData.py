@@ -31,10 +31,10 @@ def get_abstract(pmid):
         buff = handle.read()
     except:
         print("exception efetch")
-        return None 
+        return None
 
     try:
-        root = ET.fromstring(buff)    
+        root = ET.fromstring(buff)
     except:
         raise ValueError("error")
 
@@ -76,27 +76,28 @@ def get_abstract(pmid):
     print(f"{volume}/{issue}/{startpage}-{endpage}")
 
     elm = root.find(".//ArticleTitle")
-    title = ET.tostring(elm, encoding='utf-8', method='text').decode('utf-8') 
+    title = ET.tostring(elm, encoding='utf-8', method='text').decode('utf-8')
     print(f"{title}")
 
     meta = {}
-    
-    #meta["publication"]={"year":year, "month":month, "day":day}
-    #meta["journal"]={"title":journal_title, "ios":ios, "vol":volume, "issue":issue}
-    #meta["pagenation"]={"start":startpage, "end":endpage}
 
-    meta["pub_year"]=year
-    meta["pub_month"]=month
-    meta["pub_day"]=day
-    meta["journal_title"]=journal_title
-    meta["journal_ios"]=ios
-    meta["journal_vol"]=volume
-    meta["journal_issue"]=issue
-    meta["pagenation_start"]=startpage
-    meta["pagenation_end"]=endpage
-    meta["title"]=title
+    # meta["publication"]={"year":year, "month":month, "day":day}
+    # meta["journal"]={"title":journal_title, "ios":ios, "vol":volume, "issue":issue}
+    # meta["pagenation"]={"start":startpage, "end":endpage}
+
+    meta["pub_year"] = year
+    meta["pub_month"] = month
+    meta["pub_day"] = day
+    meta["journal_title"] = journal_title
+    meta["journal_ios"] = ios
+    meta["journal_vol"] = volume
+    meta["journal_issue"] = issue
+    meta["pagenation_start"] = startpage
+    meta["pagenation_end"] = endpage
+    meta["title"] = title
 
     return meta
+
 
 def gen_AbstractJsonData(txt, ann, pmid):
 
@@ -124,7 +125,8 @@ def gen_AbstractJsonData(txt, ann, pmid):
             mention = fields[2]
             ent_type, start_char, end_char = fields[1].split(' ')
 
-            t_term[tname] = {"type": ent_type, "mention": mention, "start_char": int(start_char), "end_char": int(end_char)}
+            t_term[tname] = {"type": ent_type, "mention": mention, "start_char": int(
+                start_char), "end_char": int(end_char)}
 
         elif line.startswith('N'):
             fields = line.split('\t')
@@ -153,7 +155,7 @@ def gen_AbstractJsonData(txt, ann, pmid):
         entity_list.append(entity)
 
     for key, val in meta_info.items():
-        json_data[key] = val 
+        json_data[key] = val
 
     json_data['pmid'] = pmid
     json_data['text'] = txt
@@ -169,8 +171,8 @@ def gen_AbstractJsonData(txt, ann, pmid):
 
     return json_data, index_data
 
-def gen_EntityJsonData(txt, ann, pmid):
 
+def gen_EntityJsonData(txt, ann, pmid):
 
     json_data = {}
 
@@ -191,7 +193,8 @@ def gen_EntityJsonData(txt, ann, pmid):
             mention = fields[2]
             ent_type, start_char, end_char = fields[1].split(' ')
 
-            t_term[tname] = {"type": ent_type, "mention": mention, "start_char": int(start_char), "end_char": int(end_char)}
+            t_term[tname] = {"type": ent_type, "mention": mention, "start_char": int(
+                start_char), "end_char": int(end_char)}
 
         elif line.startswith('N'):
             fields = line.split('\t')
@@ -217,7 +220,6 @@ def gen_EntityJsonData(txt, ann, pmid):
 
         entity_list.append(entity)
 
-
     json_data['entities'] = entity_list
     now = datetime.utcnow()
     json_data['generated_datetime'] = now.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
@@ -231,10 +233,9 @@ def gen_EntityJsonData(txt, ann, pmid):
     return json_data, index_data
 
 
-
 def main():
 
-    #get_abstract(27895423)
+    # get_abstract(27895423)
 
     # check running time
     t_start = time.time()
@@ -278,7 +279,8 @@ def main():
         assert (txt_basename == ann_basename)
         print(txt, ann)
         try:
-            json_data, index_data = gen_AbstractJsonData(txt, ann, ann_basename)
+            json_data, index_data = gen_AbstractJsonData(
+                txt, ann, ann_basename)
             json_dataset.append((json_data, index_data))
         except:
             print("exception")
@@ -317,5 +319,6 @@ def main():
     t_end = time.time()
     print('Took {0:.2f} seconds'.format(t_end - t_start))
 
-if __name__ == '__main__':                                                                                                                        
+
+if __name__ == '__main__':
     main()

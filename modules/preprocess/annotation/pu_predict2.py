@@ -26,7 +26,7 @@ from datasets.features.features import ClassLabel
 from nltk.corpus import wordnet as wn
 from nltk.stem import PorterStemmer, WordNetLemmatizer, LancasterStemmer
 
-#from entity_extract import ExtractEntityCandidate
+# from entity_extract import ExtractEntityCandidate
 from entity_extract2 import ExtractEntityCandidate
 
 from tqdm.auto import tqdm
@@ -212,7 +212,6 @@ class Entity_extractor:
         start_chars = []
         end_chars = []
 
-
         candidates = self.entityExtraction.extract_candiate(
             sent, custom_model=True, scipy_model=False)
         # candidates = self.entityExtraction.extract_candiate(sent, custom_model =True, scipy_model = True)
@@ -319,7 +318,7 @@ def output_annotation_file(doc_file, df_result, annotation_root_dir, entity_name
 
             fp.write(
                 f"T{k+1}\t{entity_type} {start_char} {end_char}\t{entity}\n")
-            #fp.write(f"A{k+1}\tCUI T{k+1} {cui}\n")
+            # fp.write(f"A{k+1}\tCUI T{k+1} {cui}\n")
             if cui:
                 fp.write(f"N{k+1}\tReference T{k+1} {cui}\t{term}\n")
 
@@ -346,7 +345,6 @@ def main():
 
     # print config
     utils._print_config(params, config_path)
-
 
     # check running time
     t_start = time.time()
@@ -380,7 +378,6 @@ def main():
                 file_, df_result, annotation_root_dir, entity_names, domain_dictionary)
         except:
             print("Exception, abort")
-
 
     print('Done!')
     t_end = time.time()

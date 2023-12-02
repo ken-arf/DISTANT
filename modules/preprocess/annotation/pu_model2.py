@@ -72,7 +72,6 @@ class PU_Model(nn.Module):
             nn.Linear(hidden_size, self.params['class_num'])
         ).to(self.device)
 
-
         # cross entropy loss
         if self.params['class_num'] > 1:
             self.loss = nn.CrossEntropyLoss()

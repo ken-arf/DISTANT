@@ -37,7 +37,8 @@ def prepare_umls_dict(parameters):
             if lang == "ENG":
                 cui_dict[cui].append(atom)
 
-    cui_dict = {key: sorted(list(set(val)), key=lambda x: len(x)) for key, val in cui_dict.items()}
+    cui_dict = {key: sorted(list(set(val)), key=lambda x: len(x))
+                for key, val in cui_dict.items()}
 
     with open(mrrel_rrf) as fp:
         for line in fp:
@@ -49,6 +50,7 @@ def prepare_umls_dict(parameters):
     cui_rel_dict = {key: list(set(val)) for key, val in cui_rel_dict.items()}
 
     return cui_dict, cui_rel_dict
+
 
 def generate_umls_dict(target_cui, dict_path, cui_dict, cui_rel_dict):
 
@@ -66,7 +68,7 @@ def generate_umls_dict(target_cui, dict_path, cui_dict, cui_rel_dict):
     with open(dict_path, 'w') as fp:
         for entry in entries:
             fp.write(f'{entry}\n')
-        
+
 
 def generate_umls_dict_old(target_cui, dict_path, cui_dict, cui_rel_dict):
 

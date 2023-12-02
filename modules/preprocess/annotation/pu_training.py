@@ -321,7 +321,6 @@ def retrain_classifier(unknown_sample_result, parameters):
     train(df_train, None, parameters, model_name_suffix="final")
 
 
-
 def main():
 
     # set config path by command line
@@ -336,7 +335,6 @@ def main():
     # check running time
     t_start = time.time()
 
-
     step = 1
     # step-1.
     # extract (true) negative samples
@@ -346,7 +344,6 @@ def main():
 
     count = 3
     model_dir = parameters["model_dir"]
-
 
     if step <= 0:
         extract_negative_samples(parameters, count=count)

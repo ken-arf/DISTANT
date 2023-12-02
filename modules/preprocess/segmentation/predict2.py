@@ -97,7 +97,6 @@ class EntityExtraction:
         tokenized_input, aux_data = self.tokenize_text(text)
         prediction, prob = self.model.predict(**tokenized_input)
 
-
         entity_indexes = []
         span = []
         # search for 'B': 1
@@ -108,7 +107,7 @@ class EntityExtraction:
         in_S = False
         in_BI = False
         for i, l in enumerate(pred):
-            if l == 3: # S
+            if l == 3:  # S
                 if in_BI:
                     span_end = i - 1
                     entity_indexes.append([span_start, span_end])
@@ -116,18 +115,18 @@ class EntityExtraction:
                 if not in_S:
                     in_S = True
                     span_start = i
-            elif l == 1: # B
+            elif l == 1:  # B
                 if in_S:
                     span_end = i - 1
                     entity_indexes.append([span_start, span_end])
                     in_S = False
                 in_BI = True
                 span_start = i
-            elif l == 2: # I
+            elif l == 2:  # I
                 if not in_BI:
                     in_BI = True
                     span_start = i
-            elif l == 0: # O
+            elif l == 0:  # O
                 if in_BI:
                     span_end = i-1
                     entity_indexes.append([span_start, span_end])
@@ -136,12 +135,10 @@ class EntityExtraction:
                     span_end = i-1
                     entity_indexes.append([span_start, span_end])
                     in_S = False
-                    
 
         if in_BI or in_S:
             span_end = i
             entity_indexes.append([span_start, span_end])
-
 
         # conver index to word_ids
         word_indexes = [[aux_data["word_ids"][index]
@@ -224,7 +221,6 @@ def main():
 
     text_dir = parameters["test_dir"]
     files = sorted(glob(f"{text_dir}/*.txt"))
-
 
     for file in files:
         with open(file) as fp:
