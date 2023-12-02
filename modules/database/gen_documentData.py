@@ -142,7 +142,7 @@ def gen_AbstractJsonData(txt, ann, pmid):
         entity = {}
         entity['entityType'] = t_term[tname]["type"]
         entity['mention'] = t_term[tname]["mention"]
-        entity['start_char'] = t_term[tname]["start_cahr"]
+        entity['start_char'] = t_term[tname]["start_char"]
         entity['end_char'] = t_term[tname]["end_char"]
 
         if tname in n_term:
