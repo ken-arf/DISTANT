@@ -67,13 +67,21 @@ def load_dict(path):
                    for line in fp.readlines() if len(line.strip()) != 0]
 
     for entry in tqdm(entries):
-        atom_str = entry[0]
-        tokens_lc = tokenize(entry[1])
-        tokens_lc_head = tokenize(entry[2])
-        cui = entry[3]
+        term = entry[0]
+        term_lc = tokenize(entry[1])
+        cui = entry[2]
 
         # (atom string, list of atom tokens, list of head part of atom tokens, cui)
-        items.append((atom_str, tokens_lc, tokens_lc_head, cui))
+        items.append((term, term_lc, cui))
+
+#    for entry in tqdm(entries):
+#        atom_str = entry[0]
+#        tokens_lc = tokenize(entry[1])
+#        tokens_lc_head = tokenize(entry[2])
+#        cui = entry[3]
+#
+#        # (atom string, list of atom tokens, list of head part of atom tokens, cui)
+#        items.append((atom_str, tokens_lc, tokens_lc_head, cui))
 
     return items
 
@@ -180,7 +188,7 @@ def annotate(files, parameters):
     # convert dictionay item to list to tuple
     for key, items in entity_dict.items():
         l_token_seq = [tuple(item[1]) for item in items]
-        l_token_seq += [tuple(item[2]) for item in items]
+        #l_token_seq += [tuple(item[2]) for item in items]
 
         entity_dict[key] = list(set(l_token_seq))
 

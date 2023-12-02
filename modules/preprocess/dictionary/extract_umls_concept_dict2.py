@@ -37,7 +37,7 @@ def prepare_umls_dict(parameters):
             if lang == "ENG":
                 cui_dict[cui].append(atom)
 
-    cui_dict = {key: list(set(val)) for key, val in cui_dict.items()}
+    cui_dict = {key: sorted(list(set(val)), key=lambda x: len(x)) for key, val in cui_dict.items()}
 
     with open(mrrel_rrf) as fp:
         for line in fp:
@@ -50,15 +50,32 @@ def prepare_umls_dict(parameters):
 
     return cui_dict, cui_rel_dict
 
-
 def generate_umls_dict(target_cui, dict_path, cui_dict, cui_rel_dict):
+
+    entries = []
+
+    atoms = cui_dict[target_cui][:]
+    for atom in atoms:
+        entries.append(f'{atom}\tUMLS:{target_cui}')
+
+    for cui in cui_rel_dict[target_cui]:
+        atoms = cui_dict[cui][:]
+        for atom in atoms:
+            entries.append(f'{atom}\tUMLS:{cui}')
+
+    with open(dict_path, 'w') as fp:
+        for entry in entries:
+            fp.write(f'{entry}\n')
+        
+
+def generate_umls_dict_old(target_cui, dict_path, cui_dict, cui_rel_dict):
 
     umls_atoms = {}
 
-    atoms = cui_dict[target_cui]
+    atoms = cui_dict[target_cui][:]
 
     for cui in cui_rel_dict[target_cui]:
-        atoms += cui_dict[cui]
+        atoms += cui_dict[cui][:]
 
     atoms = sorted(list(set(atoms)))
 
@@ -111,7 +128,7 @@ def main():
         print("-"*20)
         print("generating UMLS concept dict", concept_name, cui)
 
-        filename = f"{concept_name}_dict.pkl"
+        filename = f"{concept_name}_dict.txt"
         dict_path = os.path.join(parameters['dict_dir'], filename)
         generate_umls_dict(cui, dict_path, cui_dict, cui_rel_dict)
 

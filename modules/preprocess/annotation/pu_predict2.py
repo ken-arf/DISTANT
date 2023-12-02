@@ -313,13 +313,15 @@ def output_annotation_file(doc_file, df_result, annotation_root_dir, entity_name
             domain_dict = domain_dictionary[entity_type.lower()]
 
             if entity.lower() in domain_dict:
-                cui = domain_dict[entity.lower()]
+                term, cui = domain_dict[entity.lower()]
             else:
-                cui = "NA"
+                cui = None
 
             fp.write(
                 f"T{k+1}\t{entity_type} {start_char} {end_char}\t{entity}\n")
-            fp.write(f"A{k+1}\tCUI T{k+1} {cui}\n")
+            #fp.write(f"A{k+1}\tCUI T{k+1} {cui}\n")
+            if cui:
+                fp.write(f"N{k+1}\tReference T{k+1} {cui}\t{term}\n")
 
 
 def dict_load(dict_path):
@@ -327,11 +329,9 @@ def dict_load(dict_path):
     term2cui = {}
     with open(dict_path) as fp:
         for line in fp:
-            atom, term_lc, term_lc_head, cui = line.strip().split('|')
+            term, term_lc, cui = line.strip().split('|')
             if term_lc not in term2cui:
-                term2cui[term_lc] = cui
-            if term_lc_head not in term2cui:
-                term2cui[term_lc_head] = cui
+                term2cui[term_lc] = (term, cui)
 
     return term2cui
 

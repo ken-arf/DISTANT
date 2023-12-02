@@ -191,7 +191,8 @@ def main():
             path = os.path.join(dict_dir, fname)
             with open(path) as fp:
                 lines = [l.strip() for l in fp.readlines()]
-            entries = sum([line.split('|')[1:3] for line in lines], [])
+            #entries = sum([line.split('|')[1:3] for line in lines], [])
+            entries = sum([line.split('|')[1:2] for line in lines], [])
             terms += entries
 
         entity_type = fname.replace('.dict','').upper()

@@ -98,6 +98,24 @@ def get_abstract(pmid):
 
     return meta
 
+def gen_AbstractJsonData(txt, ann, pmid):
+
+    try:
+        meta_info = get_abstract(pmid)
+    except:
+        raise ValueError("error!")
+
+    json_data = {}
+
+    with open(txt) as fp:
+        txt = fp.read()
+
+    with open(ann) as fp:
+        lines = fp.readlines()
+    lines = [line.strip() for line in lines]
+
+    for line in lines:
+
 
 def gen_AbstractJsonData(txt, ann, pmid):
 
