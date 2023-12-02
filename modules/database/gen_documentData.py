@@ -117,7 +117,7 @@ def gen_AbstractJsonData(txt, ann, pmid):
     lines = [line.strip() for line in lines]
 
     t_term = {}
-    n_tern = {}
+    n_term = {}
     for line in lines:
         if line.startswith('T'):
             # process ent
@@ -185,7 +185,7 @@ def gen_EntityJsonData(txt, ann, pmid):
     lines = [line.strip() for line in lines]
 
     t_term = {}
-    n_tern = {}
+    n_term = {}
     for line in lines:
         if line.startswith('T'):
             # process ent
