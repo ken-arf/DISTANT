@@ -138,10 +138,10 @@ def gen_AbstractJsonData(txt, ann, pmid):
     for tname in sorted(t_term.keys()):
 
         entity = {}
-        entity['entityType'] = t_term["tname"]
-        entity['mention'] = t_term["mention"]
-        entity['start_char'] = t_term["start_cahr"]
-        entity['end_char'] = t_term["end_char"]
+        entity['entityType'] = t_term[tname]["type"]
+        entity['mention'] = t_term[tname]["mention"]
+        entity['start_char'] = t_term[tname]["start_cahr"]
+        entity['end_char'] = t_term[tname]["end_char"]
 
         if tname in n_term:
             entity['rid'] = n_term[tname]["rid"]
@@ -205,8 +205,8 @@ def gen_EntityJsonData(txt, ann, pmid):
     for tname in sorted(t_term.keys()):
 
         entity = {}
-        entity['entityType'] = t_term["tname"]
-        entity['mention'] = t_term["mention"]
+        entity['entityType'] = t_term[tname]["type"]
+        entity['mention'] = t_term[tname]["mention"]
 
         if tname in n_term:
             entity['rid'] = n_term[tname]["rid"]
