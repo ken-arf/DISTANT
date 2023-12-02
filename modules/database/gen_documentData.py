@@ -114,10 +114,124 @@ def gen_AbstractJsonData(txt, ann, pmid):
         lines = fp.readlines()
     lines = [line.strip() for line in lines]
 
+    t_term = {}
+    n_tern = {}
     for line in lines:
+        if line.startswith('T'):
+            # process ent
+            fields = ent.split('\t')
+            tname = fields[0]
+            mention = fields[2]
+            ent_type, start_char, end_char = fields[1].split(' ')
+
+            t_term[tname] = {"type": ent_type, "mention": mention, "start_char": int(start_char), "end_char": int(end_char)}
+
+        elif line.startswith('N'):
+            fields = atr.split('\t')
+            nname = fields[0]
+            _, ref_tname, rid = fields[1].split(' ')
+            rname = fields[-1]
+
+            n_term[ref_tname] = {"nname": nname, "rid": rid, "rname": rname}
+
+    entity_list = []
+    for tname in sorted(t_term.keys()):
+
+        entity = {}
+        entity['entityType'] = t_term["tname"]
+        entity['mention'] = t_term["mention"]
+        entity['start_char'] = t_term["start_cahr"]
+        entity['end_char'] = t_term["end_char"]
+
+        if tname in n_term:
+            entity['rid'] = n_term[tname]["rid"]
+            entity['rname'] = n_term[tname]["rname"]
+        else:
+            entity['rid'] = ""
+            entity['rname'] = ""
+
+        entity_list.append(entity)
+
+    for key, val in meta_info.items():
+        json_data[key] = val 
+
+    json_data['pmid'] = pmid
+    json_data['text'] = txt
+    json_data['entities'] = entity_list
+    now = datetime.utcnow()
+    json_data['generated_datetime'] = now.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    json_data['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+
+    index_data = {}
+    index_data['_index'] = "abstract"
+    index_data['_type'] = "cancer_immunology"
+    index_data['_id'] = pmid
+
+    return json_data, index_data
+
+def gen_EntityJsonData(txt, ann, pmid):
+
+    json_data = {}
+
+    with open(txt) as fp:
+        txt = fp.read()
+
+    with open(ann) as fp:
+        lines = fp.readlines()
+    lines = [line.strip() for line in lines]
+
+    t_term = {}
+    n_tern = {}
+    for line in lines:
+        if line.startswith('T'):
+            # process ent
+            fields = ent.split('\t')
+            tname = fields[0]
+            mention = fields[2]
+            ent_type, start_char, end_char = fields[1].split(' ')
+
+            t_term[tname] = {"type": ent_type, "mention": mention, "start_char": int(start_char), "end_char": int(end_char)}
+
+        elif line.startswith('N'):
+            fields = atr.split('\t')
+            nname = fields[0]
+            _, ref_tname, rid = fields[1].split(' ')
+            rname = fields[-1]
+
+            n_term[ref_tname] = {"nname": nname, "rid": rid, "rname": rname}
+
+    entity_list = []
+    for tname in sorted(t_term.keys()):
+
+        entity = {}
+        entity['entityType'] = t_term["tname"]
+        entity['mention'] = t_term["mention"]
+
+        if tname in n_term:
+            entity['rid'] = n_term[tname]["rid"]
+            entity['rname'] = n_term[tname]["rname"]
+        else:
+            entity['rid'] = ""
+            entity['rname'] = ""
+
+        entity_list.append(entity)
 
 
-def gen_AbstractJsonData(txt, ann, pmid):
+    json_data['entities'] = entity_list
+    now = datetime.utcnow()
+    json_data['generated_datetime'] = now.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    json_data['last_modified'] = now.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+
+    index_data = {}
+    index_data['_index'] = "entity"
+    index_data['_type'] = "cancer_immunology"
+    index_data['_id'] = pmid
+
+    return json_data, index_data
+
+
+
+def deprecated_gen_AbstractJsonData(txt, ann, pmid):
 
     try:
         meta_info = get_abstract(pmid)
@@ -179,7 +293,7 @@ def gen_AbstractJsonData(txt, ann, pmid):
     return json_data, index_data
 
 
-def gen_EntityJsonData(txt, ann, pmid):
+def depracated_gen_EntityJsonData(txt, ann, pmid):
 
     json_data = {}
 
