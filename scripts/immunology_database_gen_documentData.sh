@@ -22,6 +22,3 @@ fi
 
 python modules/database/gen_documentData.py --yaml $YAML_PATH 
 
-#sleep 5
-#tail -f $LOG_PATH
-
