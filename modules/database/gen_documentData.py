@@ -100,8 +100,6 @@ def get_abstract(pmid):
 
 def gen_AbstractJsonData(txt, ann, pmid):
 
-    pdb.set_trace()
-
     try:
         meta_info = get_abstract(pmid)
     except:
@@ -173,7 +171,6 @@ def gen_AbstractJsonData(txt, ann, pmid):
 
 def gen_EntityJsonData(txt, ann, pmid):
 
-    pdb.set_trace()
 
     json_data = {}
 
@@ -284,7 +281,7 @@ def main():
             json_data, index_data = gen_AbstractJsonData(txt, ann, ann_basename)
             json_dataset.append((json_data, index_data))
         except KeyboardInterrupt:
-            raise
+            exit(1)
         except:
             pass
 
