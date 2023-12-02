@@ -280,10 +280,9 @@ def main():
         try:
             json_data, index_data = gen_AbstractJsonData(txt, ann, ann_basename)
             json_dataset.append((json_data, index_data))
-        except KeyboardInterrupt:
-            exit(1)
         except:
-            pass
+            print("exception")
+            exit(1)
 
     output_dir = parameters["output_dir"]
     with open(os.path.join(output_dir, 'abstract.jsonl'), 'w') as fout:
