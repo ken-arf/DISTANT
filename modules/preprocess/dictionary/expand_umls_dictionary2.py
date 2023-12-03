@@ -28,24 +28,6 @@ def unique_dict(dict_path, parameters):
     return entries
 
 
-def expand_dict_old(dict_path, parameters, cui_dict, cui_rel_dict):
-
-    with open(dict_path, 'rb') as fp:
-        umls_atoms = pickle.load(fp)
-
-    synonyms = umls_atoms['all_synonyms']
-
-    term_dict = []
-    for term in synonyms:
-        term_lc = term.lower()
-        for cui, vals in cui_dict.items():
-            if term in vals:
-                break
-
-        term_dict.append((term, term_lc, cui))
-
-    return term_dict
-
 
 def expand_dict(dicts, parameters):
 
@@ -74,41 +56,10 @@ def expand_dict(dicts, parameters):
                 fp.write(f'{term}|{term_lc}|{ref}\n')
 
                 if ',' in term:
-                    first_phrase = term_lc.split(',')[0]
-                    fp.write(f'{first_phrase}|{first_phrase.lower()}|{ref}\n')
+                    words = [term.strip() for term in term.split(',')]
+                    term_reversed = ' '.join(words[::-1])
+                    fp.write(f'{term_reversed}|{term_reversed.lower()}|{ref}\n')
 
-
-def save_dict(dicts, parameters):
-
-    stops = list(set(stopwords.words('english')))
-
-    newdir = parameters['processed_dict_dir']
-    utils.makedir(newdir)
-
-    for etype, dict_ in dicts.items():
-
-        fname = f'{etype}.dict'
-        new_dict_path = os.path.join(newdir, fname)
-
-        with open(new_dict_path, 'w') as fp:
-            for entry in dict_:
-                term = entry[0]
-                term_lc = entry[1]
-                cui = entry[2]
-                term_phrase = term_lc.split(',')[0]
-                term_first_word = term_phrase.split(' ')[0]
-
-                if term_first_word in stops:
-                    continue
-
-                fp.write(f'{term}|{term_lc}|{term_phrase}|{cui}\n')
-
-                # changed 2023/10/14
-                if term_phrase != term_first_word:
-                    pattern = r"^[A-Za-z][A-Za-z1-9]+"
-                    m = re.match(pattern, term_first_word)
-                    if m:
-                        fp.write(f'{term}|{term_lc}|{term_first_word}|{cui}\n')
 
 
 def main():
