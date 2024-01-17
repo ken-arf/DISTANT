@@ -44,6 +44,11 @@ Mesh
 BioPortal
 UniProtKB
 
+# temporary files
+data/*.csv
+data/*.txt
+experiments/*.csv
+
 # C extensions
 *.so
 

@@ -1,300 +1,122 @@
-Cytokine	UMLS:C0079189
 cytokine	UMLS:C0079189
+Cytokine	UMLS:C0079189
 cytokines	UMLS:C0079189
 Cytokines	UMLS:C0079189
-Mcr protein, Drosophila	UMLS:C1700156
-TEP6 protein, Drosophila	UMLS:C1700156
-LD23292p protein, Drosophila	UMLS:C1700156
-thioester-containing protein 6, Drosophila	UMLS:C1700156
-Macroglobulin complement-related protein, Drosophila	UMLS:C1700156
-macroglobulin complement related protein, Drosophila	UMLS:C1700156
-SOFAT protein, mouse	UMLS:C5544095
-Thnsl2 protein, mouse	UMLS:C5544095
-threonine synthase-like 2 (bacterial) protein, mouse	UMLS:C5544095
-secreted osteoclastogenic factor of activated T cells protein, mouse	UMLS:C5544095
-G1p2 protein, mouse	UMLS:C1455443
-Isg15 protein, mouse	UMLS:C1455443
-Interferon-induced 15-KDa protein, mouse	UMLS:C1455443
-interferon, alpha-inducible protein, mouse	UMLS:C1455443
-Drm protein, rat	UMLS:C1430880
-Grem1 protein, rat	UMLS:C1430880
-gremlin protein, rat	UMLS:C1430880
-Cktsf1b1 protein, rat	UMLS:C1430880
-cysteine knot superfamily 1, BMP antagonist 1 protein, rat	UMLS:C1430880
-history	UMLS:C0019665
-historical aspects	UMLS:C0019665
-Historical aspects qualifier	UMLS:C0019665
-anabolism	UMLS:C0005572
-bioformation	UMLS:C0005572
-biosynthesis	UMLS:C0005572
-IL-1ra	UMLS:C1704264
-il-1ra	UMLS:C1704264
-IL-1Ra	UMLS:C1704264
-Urine IL-1 Inhibitor	UMLS:C1704264
-IL1 Febrile Inhibitor	UMLS:C1704264
-IL 1 Inhibitor, Urine	UMLS:C1704264
-IL-1 Inhibitor, Urine	UMLS:C1704264
-Febrile Inhibitor, IL1	UMLS:C1704264
-Urine Derived IL1 Inhibitor	UMLS:C1704264
-Urine-Derived IL1 Inhibitor	UMLS:C1704264
-IL1 Inhibitor, Urine-Derived	UMLS:C1704264
-Interleukin 1 Inhibitor, Urine	UMLS:C1704264
-interleukin-1 receptor antagonist	UMLS:C1704264
-Interleukin 1 Receptor Antagonist Protein	UMLS:C1704264
-MCP1	UMLS:C0128897
-mcp-1	UMLS:C0128897
-Chemokine CCL2	UMLS:C0128897
-CCL2 Chemokine	UMLS:C0128897
-Chemokine, CCL2	UMLS:C0128897
-CCL2, Chemokine	UMLS:C0128897
-Chemokines CCL2	UMLS:C0128897
-CCL2, Chemokines	UMLS:C0128897
-Chemokine (C-C motif) ligand 2	UMLS:C0128897
-Chemokine (C-C Motif) Ligand 2	UMLS:C0128897
-monocyte chemotactic protein-1	UMLS:C0128897
-Monocyte Chemotactic Protein 1	UMLS:C0128897
-Monocyte Chemotactic Protein-1	UMLS:C0128897
-Chemotactic Protein-1, Monocyte	UMLS:C0128897
-Monocyte Chemoattractant Protein 1	UMLS:C0128897
-Monocyte Chemoattractant Protein-1	UMLS:C0128897
-monocyte chemoattractant protein 1	UMLS:C0128897
-Chemoattractant Protein-1, Monocyte	UMLS:C0128897
-Monocyte Chemotactic and Activating Factor	UMLS:C0128897
-Cytokines &#x7C; Serum or Plasma &#x7C; Chemistry - non-challenge	UMLS:C5161706
-IL9	UMLS:C0085424
-IL-9	UMLS:C0085424
-il-9	UMLS:C0085424
-Interleukin 9	UMLS:C0085424
-interleukin-9	UMLS:C0085424
-Interleukin-9	UMLS:C0085424
-interleukin 9	UMLS:C0085424
-T Cell Growth Factor P40	UMLS:C0085424
-P40 T Cell Growth Factor	UMLS:C0085424
-T-Cell Growth Factor P40	UMLS:C0085424
-P40 T-Cell Growth Factor	UMLS:C0085424
-JHERP protein, Apanteles kariyai	UMLS:C0378850
-growth blocking peptide, Apanteles kariyai	UMLS:C0378850
-growth blocking peptide (GBP), Apanteles kariyai	UMLS:C0378850
-juvenile hormone esterase repressive peptide, Apanteles kariyai	UMLS:C0378850
-Injurin	UMLS:C0167564
-injurin	UMLS:C0167564
-CTRP4 protein, human	UMLS:C3178595
-C1QTNF4 protein, human	UMLS:C3178595
-C1qTNF-related protein 4, human	UMLS:C3178595
-hsf	UMLS:C0021760
-IL6	UMLS:C0021760
-il6	UMLS:C0021760
-hgf	UMLS:C0021760
-il 6	UMLS:C0021760
-BCDF	UMLS:C0021760
-BSF2	UMLS:C0021760
-IL-6	UMLS:C0021760
-il-6	UMLS:C0021760
-MGI-2	UMLS:C0021760
-BSF-2	UMLS:C0021760
-IFN-beta 2	UMLS:C0021760
-Interleukin-6	UMLS:C0021760
-Interleukin 6	UMLS:C0021760
-interleukin 6	UMLS:C0021760
-interleukin-6	UMLS:C0021760
-6 interleukins	UMLS:C0021760
-interleukins 6	UMLS:C0021760
-interferon beta 2	UMLS:C0021760
-Interferon beta-2	UMLS:C0021760
-Interferon beta 2	UMLS:C0021760
-beta-2, Interferon	UMLS:C0021760
-Hybridoma Growth Factor	UMLS:C0021760
-Growth Factor, Hybridoma	UMLS:C0021760
-Plasmacytoma Growth Factor	UMLS:C0021760
-B-Cell Stimulatory Factor 2	UMLS:C0021760
-B cell stimulating factor 2	UMLS:C0021760
-Growth Factor, Plasmacytoma	UMLS:C0021760
-B-Cell Stimulatory Factor-2	UMLS:C0021760
-B Cell Stimulatory Factor-2	UMLS:C0021760
-B Cell Stimulatory Factor 2	UMLS:C0021760
-B cell differentiation factor	UMLS:C0021760
-Hepatocyte Stimulating Factor	UMLS:C0021760
-B Cell Differentiation Factor	UMLS:C0021760
-Hepatocyte-Stimulating Factor	UMLS:C0021760
-B-Cell Differentiation Factor	UMLS:C0021760
-Differentiation Factor, B-Cell	UMLS:C0021760
-Differentiation Factor, B Cell	UMLS:C0021760
-B Cell Differentiation Factor 2	UMLS:C0021760
-B-Cell Differentiation Factor-2	UMLS:C0021760
-Differentiation Factor 2, B Cell	UMLS:C0021760
-Differentiation Factor-2, B-Cell	UMLS:C0021760
-BSF2 (B cell stimulating factor 2)	UMLS:C0021760
-BCDF (B cell differentiation factor)	UMLS:C0021760
-Myeloid Differentiation Inducing Protein	UMLS:C0021760
-Myeloid Differentiation-Inducing Protein	UMLS:C0021760
-Differentiation-Inducing Protein, Myeloid	UMLS:C0021760
-PBSF	UMLS:C0218504
-hIRH	UMLS:C0218504
-SDF-1	UMLS:C0218504
-CXCL12	UMLS:C0218504
-CXCL12 Chemokine	UMLS:C0218504
-Chemokine CXCL12	UMLS:C0218504
-Chemokine, CXCL12	UMLS:C0218504
-CXCL12, Chemokine	UMLS:C0218504
-stromal cell-derived factor 1	UMLS:C0218504
-Stromal Cell Derived Factor 1	UMLS:C0218504
-Stromal Cell-Derived Factor 1	UMLS:C0218504
-Chemokine (C-X-C Motif) Ligand 12	UMLS:C0218504
-Pre-B Cell Growth Stimulating Factor	UMLS:C0218504
-Pre B Cell Growth Stimulating Factor	UMLS:C0218504
-Pre-B-Cell Growth-Stimulating Factor	UMLS:C0218504
-Growth-Stimulating Factor, Pre-B-Cell	UMLS:C0218504
+Protein FAM3C	UMLS:C1743459
+ILEI protein, human	UMLS:C1743459
+FAM3C protein, human	UMLS:C1743459
+Predicted Osteoblast Protein	UMLS:C1743459
+Interleukin-Like EMT Inducer	UMLS:C1743459
+interleukin-like EMT inducer, human	UMLS:C1743459
+family with sequence similarity 3, member C protein, human	UMLS:C1743459
+Interleukin-Like Epithelial-Mesenchymal Transition Inducer	UMLS:C1743459
+BRM	UMLS:C0005525
+Biomodulator	UMLS:C0005525
+Biomodulators	UMLS:C0005525
+Immune Mediators	UMLS:C0005525
+Immunomodulators	UMLS:C0005525
+Immune Modulators	UMLS:C0005525
+Immune Regulators	UMLS:C0005525
+Immunopotentiators	UMLS:C0005525
+Immunotherapy Agent	UMLS:C0005525
+Immunomodulating Agent	UMLS:C0005525
+Immunomodulatory Agent	UMLS:C0005525
+Immunotherapeutic Agent	UMLS:C0005525
+biological response modifier	UMLS:C0005525
+Biological Response Modifier	UMLS:C0005525
+Response Modifier, Biological	UMLS:C0005525
+Biological Response Modifiers	UMLS:C0005525
+Modifier, Biological Response	UMLS:C0005525
+Biological response modifiers	UMLS:C0005525
+biological response modifiers	UMLS:C0005525
+Modifiers, Biological Response	UMLS:C0005525
+Response Modifiers, Biological	UMLS:C0005525
+UCRP protein, human	UMLS:C0385884
+G1P2 protein, human	UMLS:C0385884
+ISG15 protein, human	UMLS:C0385884
+IFN-stimulated gene 15 protein, human	UMLS:C0385884
+ubiquitin cross-reactive protein, human	UMLS:C0385884
+Interferon-stimulated 15-KDa protein, human	UMLS:C0385884
+interferon-induced 17-kDa-15-kDa protein, human	UMLS:C0385884
+interferon, alpha-inducible protein (clone IFI-15K), human	UMLS:C0385884
+Economic	UMLS:C0013557
+economics	UMLS:C0013557
+IL-2RIF	UMLS:C0050892
+3B6-IL-1	UMLS:C0050892
+ATL-derived factor	UMLS:C0050892
+Tac p55-inducing factor	UMLS:C0050892
+ATL-derived factor (ADF)	UMLS:C0050892
+adult T-cell derived factor	UMLS:C0050892
+ADF autocrine growth factor	UMLS:C0050892
+IL-2 receptor inducing factor	UMLS:C0050892
+adult T cell leukemia-derived factor	UMLS:C0050892
+EMAP-2	UMLS:C0173372
+EMAP II	UMLS:C0173372
+22-kDa meth A factor	UMLS:C0173372
+22-kDa methylcholanthrene A factor	UMLS:C0173372
+p43 protein, multi-synthetase complex	UMLS:C0173372
+endothelial monocyte-activating polypeptide II	UMLS:C0173372
+small inducible cytokine subfamily E, member 1	UMLS:C0173372
+multisynthetase complex auxiliary component p43	UMLS:C0173372
+omentin protein, rat	UMLS:C3886270
 cardiotrophin 1	UMLS:C0294361
-MIP 1beta	UMLS:C0209338
-MIP-1beta	UMLS:C0209338
-CCL4 Chemokine	UMLS:C0209338
-Chemokine CCL4	UMLS:C0209338
-Chemokine, CCL4	UMLS:C0209338
-CCL4, Chemokine	UMLS:C0209338
-Chemokine (C-C Motif) Ligand 4	UMLS:C0209338
-Chemokine (C-C motif) ligand 4	UMLS:C0209338
-Macrophage Inflammatory Protein 1-beta	UMLS:C0209338
-Macrophage Inflammatory Protein 1 beta	UMLS:C0209338
-itln3 protein, zebrafish	UMLS:C5433613
-intelectin 3 protein, zebrafish	UMLS:C5433613
-TGF-B	UMLS:C0040690
-tgf b	UMLS:C0040690
-tgfbeta	UMLS:C0040690
-TGFbeta	UMLS:C0040690
-TGF-beta	UMLS:C0040690
-TGF beta	UMLS:C0040690
-TGF Beta	UMLS:C0040690
-tgf beta	UMLS:C0040690
-tgf-beta	UMLS:C0040690
-TGF-Beta	UMLS:C0040690
-Milk Growth Factor	UMLS:C0040690
-Growth Factor, Milk	UMLS:C0040690
-Factor, Milk Growth	UMLS:C0040690
-factors growth milk	UMLS:C0040690
-Tumor Growth Factor B	UMLS:C0040690
-Tumor Growth Factor Beta	UMLS:C0040690
-transforming growth factor-beta	UMLS:C0040690
-Transforming Growth Factor beta	UMLS:C0040690
-Transforming growth factor beta	UMLS:C0040690
-Transforming Growth Factor-Beta	UMLS:C0040690
-transforming growth factor beta	UMLS:C0040690
-Transforming growth factors-beta	UMLS:C0040690
-Platelet Transforming Growth Factor	UMLS:C0040690
-Bone-Derived Transforming Growth Factor	UMLS:C0040690
-Bone Derived Transforming Growth Factor	UMLS:C0040690
-Transforming Growth Factor-Beta Superfamily	UMLS:C0040690
-Tafa5 protein, mouse	UMLS:C5197392
-Fam19a5 protein, mouse	UMLS:C5197392
-TAFA chemokine like family member 5 protein, mouse	UMLS:C5197392
-Miple1 protein, Drosophila	UMLS:C1741773
-FAM3B protein, human	UMLS:C3658114
-PANDER protein, human	UMLS:C3658114
-family with sequence similarity 3, member B protein, human	UMLS:C3658114
-CTRP Terminology	UMLS:C3899741
-Clinical Trials Reporting Program Terminology	UMLS:C3899741
-deficiency	UMLS:C1623416
-deficiency aspects	UMLS:C1623416
-Angiokine	UMLS:C0618497
-Angiokines	UMLS:C0618497
-angiokines	UMLS:C0618497
-Angiogenic Lymphokine	UMLS:C0618497
-Angiogenic Lymphokines	UMLS:C0618497
-isolation & purification	UMLS:C0022189
-isolation and purification	UMLS:C0022189
-isolation & purification analysis	UMLS:C0022189
-AT744	UMLS:C0654098
-AT 744	UMLS:C0654098
-AT-744	UMLS:C0654098
-IHG-2	UMLS:C1438932
-GREM1	UMLS:C1438932
-Gremlin 1	UMLS:C1438932
-Gremlin-1	UMLS:C1438932
-DRM protein, human	UMLS:C1438932
-IHG-2 protein, human	UMLS:C1438932
-GREM1 protein, human	UMLS:C1438932
-GREMLIN protein, human	UMLS:C1438932
-CKTSF1B1 protein, human	UMLS:C1438932
-gremlin 1 protein, human	UMLS:C1438932
-DAN Domain Family Member 2	UMLS:C1438932
-Increased In High Glucose-2	UMLS:C1438932
-Increased In High Glucose Protein 2	UMLS:C1438932
-Cell Proliferation-Inducing Gene 2 Protein	UMLS:C1438932
-Cysteine Knot Superfamily 1, BMP Antagonist 1	UMLS:C1438932
-Down-Regulated in Mos-Transformed Cells Protein	UMLS:C1438932
-cysteine knot superfamily 1, BMP antagonist 1 protein, human	UMLS:C1438932
-CER1	UMLS:C2987744
-Cerberus	UMLS:C2987744
-Cerberus-Related Protein	UMLS:C2987744
-DAN Domain Family Member 4	UMLS:C2987744
-IL11	UMLS:C0083031
-il-11	UMLS:C0083031
-il 11	UMLS:C0083031
-IL-11	UMLS:C0083031
-Interleukin 11	UMLS:C0083031
-Interleukin-11	UMLS:C0083031
-interleukin-11	UMLS:C0083031
-interleukin 11	UMLS:C0083031
-INTERLEUKIN-11	UMLS:C0083031
-Adipogenesis Inhibitory Factor	UMLS:C0083031
-Inhibitory Factor, Adipogenesis	UMLS:C0083031
-Factor, Adipogenesis Inhibitory	UMLS:C0083031
-intelectin-3, Xenopus	UMLS:C4308419
-Intl-3 protein, Xenopus	UMLS:C4308419
-XIntl-3 protein, Xenopus	UMLS:C4308419
-Cytokine Signaling	UMLS:C1511617
-Cytokine Signal Transduction	UMLS:C1511617
-cell communication molecule	UMLS:C0596284
-Cytokines panel	UMLS:C4285587
-Cytokines Pnl SerPl	UMLS:C4285587
-Cytokines panel:-:Pt:Ser/Plas:-	UMLS:C4285587
-Cytokines panel - Serum or Plasma	UMLS:C4285587
-Cytokines panel:-:To identify measures at a point in time:Serum/Plasma:-	UMLS:C4285587
-Chemokine (C-C motif) ligand 7	UMLS:C5445751
-FAM3A protein, human	UMLS:C3656982
-family with sequence similarity 3, member A protein, human	UMLS:C3656982
-IL10	UMLS:C0085295
-il10	UMLS:C0085295
-IL-10	UMLS:C0085295
-il-10	UMLS:C0085295
-il 10	UMLS:C0085295
-CSIF-10	UMLS:C0085295
-Interleukin-10	UMLS:C0085295
-Interleukin 10	UMLS:C0085295
-INTERLEUKIN-10	UMLS:C0085295
-interleukin-10	UMLS:C0085295
-interleukin 10	UMLS:C0085295
-IL-10 (nonglycosylated)	UMLS:C0085295
-Cytokine Synthesis Inhibitory Factor	UMLS:C0085295
-Cytokine formation-inhibiting factor (mouse clone F115 protein moiety reduced)	UMLS:C0085295
-CLCF1 protein, human	UMLS:C4279290
-CLCF-1 protein, human	UMLS:C4279290
-cardiotrophin-like cytokine factor 1, human	UMLS:C4279290
-cardiotrophin-like cytokine factor 1 protein, human	UMLS:C4279290
-cardiotrophin like cytokine factor 1 protein, human	UMLS:C4279290
-Hematopoietins	UMLS:C0079490
-Hematopoietic CGF	UMLS:C0079490
-Hematopoietic-CGF	UMLS:C0079490
-Hematopoietic Cytokine	UMLS:C0079490
-Hematopoietic Growth Factor	UMLS:C0079490
-hematopoietic growth factor	UMLS:C0079490
-hematopoietic growth factors	UMLS:C0079490
-Hematopoietic growth factors	UMLS:C0079490
-Hematopoietic Cell Growth Factor	UMLS:C0079490
-Hematopoietic Cell Growth Factors	UMLS:C0079490
+toxicity	UMLS:C0040539
+Toxicity aspects	UMLS:C0040539
+ILEI protein, mouse	UMLS:C1455570
+Fam3c protein, mouse	UMLS:C1455570
+interleukin-like EMT inducer, mouse	UMLS:C1455570
+monokine	UMLS:C0026484
+Monokines	UMLS:C0026484
+Scavenger Receptor	UMLS:C0074129
+scavenger receptor	UMLS:C0074129
+Scavenger Receptors	UMLS:C0074129
+Receptor, Scavenger	UMLS:C0074129
+Acetyl-LDL Receptor	UMLS:C0074129
+scavenger receptors	UMLS:C0074129
+Acetyl LDL Receptor	UMLS:C0074129
+Acetyl-LDL Receptors	UMLS:C0074129
+Receptor, Acetyl LDL	UMLS:C0074129
+Receptor, Acetyl-LDL	UMLS:C0074129
+Receptors, Scavenger	UMLS:C0074129
+Acetyl LDL Receptors	UMLS:C0074129
+Receptors, Acetyl-LDL	UMLS:C0074129
+Acetylated LDL Receptor	UMLS:C0074129
+Receptor, Acetylated LDL	UMLS:C0074129
+LDL Receptor, Acetylated	UMLS:C0074129
+TSLP	UMLS:C3853698
+Thymic Stromal Lymphopoietin	UMLS:C3853698
+Thymic Stromal Lymphopoietin, human	UMLS:C3853698
+Thymic Stromal Lymphopoietin Protein TSLP	UMLS:C3853698
+Prdc protein, mouse	UMLS:C1504728
+Grem2 protein, mouse	UMLS:C1504728
+Gremlin2 protein, mouse	UMLS:C1504728
+protein related to DAN and cerberus, mouse	UMLS:C1504728
+gremlin 2 homolog, cysteine knot superfamily (Xenopus laevis) protein, mouse	UMLS:C1504728
+FTAF	UMLS:C0076602
+thymocyte-activating factor, fibroblasts	UMLS:C0076602
+bone resorption factor	UMLS:C0053933
 pharmacology	UMLS:C1524059
 mode of action	UMLS:C1524059
 mechanism of action	UMLS:C1524059
 mechanism of action qualifier	UMLS:C1524059
-intelectin-4, Xenopus	UMLS:C4308418
-Intl-4 protein, Xenopus	UMLS:C4308418
-XIntl-4 protein, Xenopus	UMLS:C4308418
-Drm protein, mouse	UMLS:C1431383
-GREMLIN protein, mouse	UMLS:C1431383
-Cktsf1b1 protein, mouse	UMLS:C1431383
-cysteine knot superfamily 1, BMP antagonist 1 protein, mouse	UMLS:C1431383
-TNF Superfamily, Member 10	UMLS:C5700137
-Tumor necrosis factor ligand superfamily member 10	UMLS:C5700137
-Tumor Necrosis Factor Ligand Superfamily Member 10	UMLS:C5700137
+haptotaxin	UMLS:C0755459
+function protein	UMLS:C0815043
+protein function	UMLS:C0815043
+function proteins	UMLS:C0815043
+functions proteins	UMLS:C0815043
+proteins by function	UMLS:C0815043
+Proteins [By Function]	UMLS:C0815043
+Protein, Organized by Function	UMLS:C0815043
+IL-29	UMLS:C3541295
+IFNL1	UMLS:C3541295
+IFN-Lambda-1	UMLS:C3541295
+Interleukin-29	UMLS:C3541295
+Cytokine Zcyto21	UMLS:C3541295
+Interferon-Lambda 1	UMLS:C3541295
+Interferon-Lambda-1	UMLS:C3541295
+Interferon Lambda 1	UMLS:C3541295
+Interferon Lambda-1	UMLS:C3541295
+Diedel protein, Drosophila	UMLS:C4278422
 IRAP	UMLS:C1504688
 IL1RN	UMLS:C1504688
 IL-1ra	UMLS:C1504688
@@ -311,219 +133,690 @@ Interleukin-1 Receptor Antagonist Protein	UMLS:C1504688
 Intracellular IL-1 Receptor Antagonist Type II	UMLS:C1504688
 Intracellular Interleukin-1 Receptor Antagonist	UMLS:C1504688
 interleukin 1 receptor antagonist protein, human	UMLS:C1504688
-macrophage-derived cytokine	UMLS:C0682757
-function	UMLS:C0031843
-physiology	UMLS:C0031843
-physiological aspects	UMLS:C0031843
-PLP-E protein, mouse	UMLS:C1447922
-Prlpe protein, mouse	UMLS:C1447922
-prolactin-like protein E, mouse	UMLS:C1447922
-C49a protein, rat	UMLS:C1439169
-IL24 protein, rat	UMLS:C1439169
-Mob-5 protein, rat	UMLS:C1439169
-interleukin 24 protein, rat	UMLS:C1439169
+INFL4	UMLS:C3657783
+IFN-Lambda-4	UMLS:C3657783
+Interferon Lambda-4	UMLS:C3657783
+IFNL4 protein, human	UMLS:C3657783
+IFN-lambda4 protein, human	UMLS:C3657783
+interferon-lambda 4 protein, human	UMLS:C3657783
+FAM150 protein, mouse	UMLS:C5773198
+ALKAL1 protein, mouse	UMLS:C5773198
+augbeta protein, mouse	UMLS:C5773198
+augmentor beta protein, mouse	UMLS:C5773198
+ALK and LTK ligand 1 protein, mouse	UMLS:C5773198
+Chemokine (C-C motif) ligand 5	UMLS:C5445750
+cytokine	UMLS:C0079189
+Cytokine	UMLS:C0079189
+cytokines	UMLS:C0079189
+Cytokines	UMLS:C0079189
+polypeptide 48	UMLS:C0385825
+p48 differentiation-activation factor	UMLS:C0385825
+standards	UMLS:C0038137
+standards characteristics	UMLS:C0038137
+hgf	UMLS:C0062534
+HGF	UMLS:C0062534
+Hepatopoietin	UMLS:C0062534
+hepatopoietin	UMLS:C0062534
+scatter factor	UMLS:C0062534
+Scatter Factor	UMLS:C0062534
+Hepatopoietin A	UMLS:C0062534
+Factor, Scatter	UMLS:C0062534
+hepatocyte growth factor	UMLS:C0062534
+Hepatocyte Growth Factor	UMLS:C0062534
+Hepatocyte growth factor	UMLS:C0062534
+Factor, Hepatocyte Growth	UMLS:C0062534
+Growth Factor, Hepatocyte	UMLS:C0062534
+hepatocyte growth factor (HGF)	UMLS:C0062534
+Lymphokines and Cytokines, scatter factor	UMLS:C0062534
+TAFA4 protein, human	UMLS:C4276905
+FAM19A4 protein, human	UMLS:C4276905
+il7	UMLS:C0021761
+IL7	UMLS:C0021761
+IL-7	UMLS:C0021761
+il-7	UMLS:C0021761
+Interleukin-7	UMLS:C0021761
+Interleukin 7	UMLS:C0021761
+interleukin-7	UMLS:C0021761
+interleukin 7	UMLS:C0021761
+Lymphopoietin 1	UMLS:C0021761
+Lymphopoietin-1	UMLS:C0021761
+SH-polypeptide-42	UMLS:C0021761
+intercellular space	UMLS:C0015352
+Intercellular Space	UMLS:C0015352
+Intercellular space	UMLS:C0015352
+Extracellular space	UMLS:C0015352
+Extracellular Space	UMLS:C0015352
+extracellular space	UMLS:C0015352
+Extracellular Spaces	UMLS:C0015352
+Intercellular Spaces	UMLS:C0015352
+Space, Extracellular	UMLS:C0015352
+Space, Intercellular	UMLS:C0015352
+Spaces, Intercellular	UMLS:C0015352
+Spaces, Extracellular	UMLS:C0015352
+IL-TIF	UMLS:C0912462
+IL-TIFbeta	UMLS:C0912462
+IL-TIFalpha	UMLS:C0912462
+IL10-TIF factor	UMLS:C0912462
+IL-10-related T cell-derived inducible factor, IL-TIF	UMLS:C0912462
+intelectin-4, Xenopus	UMLS:C4308418
+Intl-4 protein, Xenopus	UMLS:C4308418
+XIntl-4 protein, Xenopus	UMLS:C4308418
+mcf	UMLS:C0008015
+Macrophage Chemotactic Factor	UMLS:C0008015
+Macrophage chemotactic factor	UMLS:C0008015
+Factor, Macrophage Chemotactic	UMLS:C0008015
+Chemotactic Factor, Macrophage	UMLS:C0008015
+Macrophage Chemotactic Factors	UMLS:C0008015
+Chemotactic Factors, Macrophage	UMLS:C0008015
+macrophage chemotactic factor (MCF)	UMLS:C0008015
+intelectin-3, Xenopus	UMLS:C4308419
+Intl-3 protein, Xenopus	UMLS:C4308419
+XIntl-3 protein, Xenopus	UMLS:C4308419
 Platelet-derived growth factor B+BB	UMLS:C5548702
-toxicity	UMLS:C0040539
-Toxicity aspects	UMLS:C0040539
-IRX 2	UMLS:C0758290
-IRX-2	UMLS:C0758290
-Cytokine-based biologic agent IRX-2	UMLS:C0758290
-Cytokine-based Biologic Agent IRX-2	UMLS:C0758290
+urine	UMLS:C0042037
+In Urine	UMLS:C0042037
+IL10	UMLS:C0085295
+il10	UMLS:C0085295
+IL-10	UMLS:C0085295
+il 10	UMLS:C0085295
+il-10	UMLS:C0085295
+CSIF-10	UMLS:C0085295
+interleukin 10	UMLS:C0085295
+Interleukin 10	UMLS:C0085295
+INTERLEUKIN-10	UMLS:C0085295
+interleukin-10	UMLS:C0085295
+Interleukin-10	UMLS:C0085295
+IL-10 (nonglycosylated)	UMLS:C0085295
+Cytokine Synthesis Inhibitory Factor	UMLS:C0085295
+Cytokine formation-inhibiting factor (mouse clone F115 protein moiety reduced)	UMLS:C0085295
+CCL8 Chemokine	UMLS:C0379886
+Chemokine CCL8	UMLS:C0379886
+Chemokine, CCL8	UMLS:C0379886
+CCL8, Chemokine	UMLS:C0379886
+Chemokine (C-C Motif) Ligand 8	UMLS:C0379886
+Chemokine (C-C motif) ligand 8	UMLS:C0379886
+Monocyte Chemotactic Protein 2	UMLS:C0379886
+Monocyte Chemotactic Protein-2	UMLS:C0379886
+Protein-2, Monocyte Chemotactic	UMLS:C0379886
+Chemotactic Protein-2, Monocyte	UMLS:C0379886
+Monocyte Chemoattractant Protein-2	UMLS:C0379886
+monocyte chemoattractant protein-2	UMLS:C0379886
+Monocyte Chemoattractant Protein 2	UMLS:C0379886
+Protein-2, Monocyte Chemoattractant	UMLS:C0379886
+Chemoattractant Protein-2, Monocyte	UMLS:C0379886
+Monocyte Chemotactic Activating Factor-2	UMLS:C0379886
+Monocyte Chemotactic Activating Factor 2	UMLS:C0379886
+IK protein, human	UMLS:C0290867
+RED protein, human	UMLS:C0290867
+IK cytokine, human	UMLS:C0290867
+IK cytokine, down-regulator of HLA II, human	UMLS:C0290867
+IK cytokine, down-regulator of HLA II protein, human	UMLS:C0290867
 Pgrp protein, rat	UMLS:C1452516
 Pglyrp protein, rat	UMLS:C1452516
 Pglyrp1 protein, rat	UMLS:C1452516
 peptidoglycan recognition protein, rat	UMLS:C1452516
-TAFA4 protein, human	UMLS:C4276905
-FAM19A4 protein, human	UMLS:C4276905
+Injurin	UMLS:C0167564
+injurin	UMLS:C0167564
+Hematopoietins	UMLS:C0079490
+Hematopoietic-CGF	UMLS:C0079490
+Hematopoietic CGF	UMLS:C0079490
+Hematopoietic Cytokine	UMLS:C0079490
+Hematopoietic Growth Factor	UMLS:C0079490
+hematopoietic growth factor	UMLS:C0079490
+hematopoietic growth factors	UMLS:C0079490
+Hematopoietic growth factors	UMLS:C0079490
+Hematopoietic Cell Growth Factor	UMLS:C0079490
+Hematopoietic Cell Growth Factors	UMLS:C0079490
+immunologic substance development/preparation	UMLS:C0920678
+MIP	UMLS:C0376579
+mip	UMLS:C0376579
+Macrophage Inflammatory Protein	UMLS:C0376579
+macrophage inflammatory protein	UMLS:C0376579
+Macrophage Inflammatory Proteins	UMLS:C0376579
+Inflammatory Protein, Macrophage	UMLS:C0376579
+Protein, Macrophage Inflammatory	UMLS:C0376579
+Inflammatory Proteins, Macrophage	UMLS:C0376579
+ISG15 protein, rat	UMLS:C4276937
+IFN-stimulated gene 15 protein, rat	UMLS:C4276937
+neuroleukin, mouse	UMLS:C2975870
+Gpi1 protein, mouse	UMLS:C2975870
+autocrine motility factor, mouse	UMLS:C2975870
+glucose phosphate isomerase 1, mouse	UMLS:C2975870
+Protein	UMLS:C0033684
+PROTEIN	UMLS:C0033684
+protein	UMLS:C0033684
+Proteins	UMLS:C0033684
+proteins	UMLS:C0033684
+gene product	UMLS:C0033684
+GBP protein, Drosophila	UMLS:C4077722
+growth-blocking peptide, Drosophila	UMLS:C4077722
+SOFAT protein, human	UMLS:C2745442
+THNSL2 protein, human	UMLS:C2745442
+threonine synthase like 2 protein, human	UMLS:C2745442
+dengue-2 virus-induced cytotoxic factor	UMLS:C0254980
+cytotoxic factor, dengue-2 virus-induced	UMLS:C0254980
+leukocyte mediator	UMLS:C1328923
+MIS	UMLS:C0687670
+mis	UMLS:C0687670
+AMH	UMLS:C0687670
+Anti-Müllerian Hormone	UMLS:C0687670
+Anti-Muellerian Hormone	UMLS:C0687670
+Mullerian Inhibiting Factor	UMLS:C0687670
+Mullerian-Inhibiting Factor	UMLS:C0687670
+Müllerian Inhibiting Factor	UMLS:C0687670
+Muellerian-Inhibiting Factor	UMLS:C0687670
+Mullerian Inhibiting Substance	UMLS:C0687670
+Müllerian Inhibiting Substance	UMLS:C0687670
+Mullerian-Inhibiting Substance	UMLS:C0687670
+Muellerian-Inhibiting Substance	UMLS:C0687670
+Mullerian duct inhibiting substance	UMLS:C0687670
+mullerian duct inhibiting substance (MIS)	UMLS:C0687670
+Cytokine Receptor Activation	UMLS:C1707601
+Myokine	UMLS:C4763719
+TNF Superfamily, Member 10	UMLS:C5700137
+Tumor Necrosis Factor Ligand Superfamily Member 10	UMLS:C5700137
+Tumor necrosis factor ligand superfamily member 10	UMLS:C5700137
+LIF	UMLS:C1453955
+hilda	UMLS:C1453955
+MLPLI	UMLS:C1453955
+D Factor	UMLS:C1453955
+D-Factor	UMLS:C1453955
+human IL-DA	UMLS:C1453955
+LIF protein, human	UMLS:C1453955
+human interleukin DA	UMLS:C1453955
+Leukemia Inhibitory Factor	UMLS:C1453955
+Leukemia-Inhibitory Factor	UMLS:C1453955
+Human Interleukin in DA Cells	UMLS:C1453955
+Melanoma-Derived LPL Inhibitor	UMLS:C1453955
+leukemia inhibitory factor, human	UMLS:C1453955
+Hepatocyte-Stimulating Factor III	UMLS:C1453955
+Differentiation-Stimulating Factor	UMLS:C1453955
+Cholinergic Differentiation Factor	UMLS:C1453955
+Differentiation Stimulating Factor	UMLS:C1453955
+Differentiation Inhibitory Activity	UMLS:C1453955
+cholinergic differentiation factor, human	UMLS:C1453955
+IFN	UMLS:C0733470
+Interferon	UMLS:C0733470
+human leukocyte interferon	UMLS:C0733470
+Human Leukocyte Interferon	UMLS:C0733470
+Human Fibroblast Interferon	UMLS:C0733470
+Human Lymphoblastoid Interferon	UMLS:C0733470
+PRDC protein, human	UMLS:C1531052
+GREM2 protein, human	UMLS:C1531052
+CKTSF1B2 protein, human	UMLS:C1531052
+gremlin 2, cysteine knot superfamily, homolog (Xenopus laevis) protein, human	UMLS:C1531052
+Immune Factor	UMLS:C0021054
+Factor, Immune	UMLS:C0021054
+Immune Factors	UMLS:C0021054
+Factors, Immune	UMLS:C0021054
+immunologic factors	UMLS:C0021054
+Immunologic Factors	UMLS:C0021054
+Immunological Factor	UMLS:C0021054
+Factors, Immunologic	UMLS:C0021054
+Factor, Immunological	UMLS:C0021054
+immunologic substance	UMLS:C0021054
+Immunological Factors	UMLS:C0021054
+Factors, Immunological	UMLS:C0021054
+immunological substance	UMLS:C0021054
+PLP-E protein, mouse	UMLS:C1447922
+Prlpe protein, mouse	UMLS:C1447922
+prolactin-like protein E, mouse	UMLS:C1447922
+Chemokine (C-C motif) ligand 14	UMLS:C5774170
+C17 protein, human	UMLS:C1309607
+CYTL1 protein, human	UMLS:C1309607
+C4orf4 protein, human	UMLS:C1309607
+cytokine-like 1 protein, human	UMLS:C1309607
+cytokine-like protein C17, human	UMLS:C1309607
+TRANK1	UMLS:C1308585
+TRANK protein, human	UMLS:C1308585
+TRANK1 protein, human	UMLS:C1308585
+Lupus Brain Antigen 1 Homolog	UMLS:C1308585
+TPR and Ankyrin Repeat-Containing Protein 1	UMLS:C1308585
+Tetratricopeptide Repeat- and Ankyrin Repeat-Containing Protein 1	UMLS:C1308585
+tetratricopeptide repeat and ankyrin repeat containing 1 protein, human	UMLS:C1308585
+Oit1 protein, mouse	UMLS:C3657601
+FAM3D protein, mouse	UMLS:C3657601
+Family with sequence similarity 3 member D protein, mouse	UMLS:C3657601
+analysis	UMLS:C1524024
+analysis aspect	UMLS:C1524024
+tnf	UMLS:C1456820
+tnfa	UMLS:C1456820
+TNFalpha	UMLS:C1456820
+tnf-alpha	UMLS:C1456820
+Cachectin	UMLS:C1456820
+cachectin	UMLS:C1456820
+alpha tnf	UMLS:C1456820
+tnf alpha	UMLS:C1456820
+TNF-alpha	UMLS:C1456820
+TNF alpha	UMLS:C1456820
+Tumor Necrosis Factor	UMLS:C1456820
+tumor necrosis factor	UMLS:C1456820
+Tumor necrosis factor	UMLS:C1456820
+tumour necrosis factor	UMLS:C1456820
+TNF Superfamily, Member 2	UMLS:C1456820
+Tumor Necrosis Factor alpha	UMLS:C1456820
+Tumor Necrosis Factor-alpha	UMLS:C1456820
+tumor necrosis factor alpha	UMLS:C1456820
+tumor necrosis factor-alpha	UMLS:C1456820
+Tumor necrosis factor.alpha	UMLS:C1456820
+tumor necrosis factor (TNF)	UMLS:C1456820
+tumour necrosis factor alpha	UMLS:C1456820
+Cachectin Tumor Necrosis Factor	UMLS:C1456820
+Cachectin-Tumor Necrosis Factor	UMLS:C1456820
+Tumor Necrosis Factor Ligand Superfamily Member 2	UMLS:C1456820
+Chemokine (C-C motif) ligand 20	UMLS:C5445748
+CLC	UMLS:C0908711
+CLCF1	UMLS:C0908711
+NNT-1	UMLS:C0908711
+CLC cytokine	UMLS:C0908711
+Novel Neurotrophin-1	UMLS:C0908711
+Cardiotrophin-Like Cytokine	UMLS:C0908711
+B-Cell Stimulating Factor 3	UMLS:C0908711
+cardiotrophin-like cytokine	UMLS:C0908711
+genetics	UMLS:C0017399
+genetic aspects	UMLS:C0017399
+Alkal2 protein, mouse	UMLS:C5771816
+Fam150b protein, mouse	UMLS:C5771816
+Augalpha protein, mouse	UMLS:C5771816
+6230419C23Rik protein, mouse	UMLS:C5771816
+Augmentor alpha protein, mouse	UMLS:C5771816
+ALK and LTK ligand 2 protein, mouse	UMLS:C5771816
+SCF	UMLS:C0143630
+scf	UMLS:C0143630
+Kit ligand	UMLS:C0143630
+kit Ligand	UMLS:C0143630
+c kit Ligand	UMLS:C0143630
+Steel Factor	UMLS:C0143630
+c-kit Ligand	UMLS:C0143630
+stem cell factor	UMLS:C0143630
+Stem Cell Factor	UMLS:C0143630
+stem cell factor (SCF)	UMLS:C0143630
+Mast Cell Growth Factor	UMLS:C0143630
+mast cell growth factor	UMLS:C0143630
+PBEF	UMLS:C1571622
+Nampt	UMLS:C1571622
+Visfatin	UMLS:C1571622
+NAmPRTase	UMLS:C1571622
+EC 2.4.2.12	UMLS:C1571622
+PBEF, human	UMLS:C1571622
+visfatin, human	UMLS:C1571622
+NAmPRTase, human	UMLS:C1571622
+NAMPT protein, human	UMLS:C1571622
+PBEF1 protein, human	UMLS:C1571622
+Pre-B Cell-Enhancing Factor	UMLS:C1571622
+Pre-B Cell Enhancing Factor	UMLS:C1571622
+Pre-B-Cell Colony-Enhancing Factor	UMLS:C1571622
+Pre-B-Cell Colony-Enhancing Factor 1	UMLS:C1571622
+Pre-B-Cell Colony Enhancing Factor 1	UMLS:C1571622
+Nicotinamide Phosphoribosyltransferase	UMLS:C1571622
+pre-B-cell colony-enhancing factor, human	UMLS:C1571622
+nicotinamide phosphoribosyltransferase, human	UMLS:C1571622
+Erfe protein, mouse	UMLS:C3492516
+CTRP15 protein, mouse	UMLS:C3492516
+myonectin protein, mouse	UMLS:C3492516
+erythroferrone protein, mouse	UMLS:C3492516
+Drm protein, rat	UMLS:C1430880
+Grem1 protein, rat	UMLS:C1430880
+gremlin protein, rat	UMLS:C1430880
+Cktsf1b1 protein, rat	UMLS:C1430880
+cysteine knot superfamily 1, BMP antagonist 1 protein, rat	UMLS:C1430880
+FAM3B protein, rat	UMLS:C5196511
+family with sequence similarity 3, member B protein, rat	UMLS:C5196511
+MIP 1alpha	UMLS:C0128546
+MIP-1alpha	UMLS:C0128546
+Chemokine CCL3	UMLS:C0128546
+CCL3 Chemokine	UMLS:C0128546
+Chemokine, CCL3	UMLS:C0128546
+CCL3, Chemokine	UMLS:C0128546
+LD78alpha Chemokine	UMLS:C0128546
+Chemokine, LD78alpha	UMLS:C0128546
+Small Inducible Cytokine A3	UMLS:C0128546
+Chemokine (C-C Motif) Ligand 3	UMLS:C0128546
+Macrophage Inflammatory Protein 1 alpha	UMLS:C0128546
+Macrophage inflammatory protein 1.alpha	UMLS:C0128546
+Macrophage Inflammatory Protein 1-alpha	UMLS:C0128546
+Macrophage inflammatory protein 1 alpha	UMLS:C0128546
+BB10010	UMLS:C0286385
+BB 10010	UMLS:C0286385
+BB-10010	UMLS:C0286385
+C17 protein, mouse	UMLS:C4508383
+Cytl1 protein, mouse	UMLS:C4508383
+C4orf4 protein, mouse	UMLS:C4508383
+cytokine-like 1 protein, mouse	UMLS:C4508383
+FAM3B protein, human	UMLS:C3658114
+PANDER protein, human	UMLS:C3658114
+family with sequence similarity 3, member B protein, human	UMLS:C3658114
+IRX 2	UMLS:C0758290
+IRX-2	UMLS:C0758290
+Cytokine-based biologic agent IRX-2	UMLS:C0758290
+Cytokine-based Biologic Agent IRX-2	UMLS:C0758290
+GREM1 protein, Xenopus	UMLS:C1451982
+gremlin protein, Xenopus	UMLS:C1451982
+Cktsf1b1 protein, Xenopus	UMLS:C1451982
+B94 protein, human	UMLS:C0251858
+TNFAIP2 protein, human	UMLS:C0251858
+TNF Alpha-Induced Protein 2	UMLS:C0251858
+Primary Response Gene B94 Protein	UMLS:C0251858
+Exocyst Complex Component 3-Like 3	UMLS:C0251858
+Tumor Necrosis Factor Alpha-Induced Protein 2	UMLS:C0251858
+Tumor Necrosis Factor-Alpha-Induced Protein 2	UMLS:C0251858
+tumor necrosis factor, alpha-induced protein 2, human	UMLS:C0251858
+osteoclastpoietic factor	UMLS:C0658190
+MIF protein, tick	UMLS:C1098344
+MIF protein, Amblyomma americanum	UMLS:C1098344
+macrophage migration inhibitory factor, tick	UMLS:C1098344
+macrophage migration inhibitory factor protein, Amblyomma americanum	UMLS:C1098344
+lif	UMLS:C0125606
+LIF	UMLS:C0125606
+D factor	UMLS:C0125606
+Leukemia Inhibitory Factor	UMLS:C0125606
+Leukemia inhibitory factor	UMLS:C0125606
+leukemia inhibitory factor	UMLS:C0125606
+Inhibitory Factor, Leukemia	UMLS:C0125606
+leukemia inhibitory factor (LIF)	UMLS:C0125606
+Differentiation-Stimulating Factor	UMLS:C0125606
+Differentiation Stimulating Factor	UMLS:C0125606
+Cholinergic Differentiation Factor	UMLS:C0125606
+Differentiation Factor, Cholinergic	UMLS:C0125606
+D Factor (Leukemia Inhibitory Factor)	UMLS:C0125606
+Myeloid Differentiation Stimulating Factor	UMLS:C0125606
+Myeloid Differentiation-Stimulating Factor	UMLS:C0125606
+Differentiation-Stimulating Factor, Myeloid	UMLS:C0125606
+C49a protein, rat	UMLS:C1439169
+IL24 protein, rat	UMLS:C1439169
+Mob-5 protein, rat	UMLS:C1439169
+interleukin 24 protein, rat	UMLS:C1439169
+Oncostatin M	UMLS:C0069535
+oncostatin M	UMLS:C0069535
 ALKAL1 protein, human	UMLS:C4308119
 FAM150A protein, human	UMLS:C4308119
 augmentor-beta protein, human	UMLS:C4308119
 ALK and LTK ligand 1 protein, human	UMLS:C4308119
 family with sequence similarity 150 member A, human	UMLS:C4308119
-vgr cytokine	UMLS:C0656033
-vegetal related cytokine	UMLS:C0656033
-vegetal-related cytokine	UMLS:C0656033
+IL9	UMLS:C0085424
+il-9	UMLS:C0085424
+IL-9	UMLS:C0085424
+Interleukin-9	UMLS:C0085424
+Interleukin 9	UMLS:C0085424
+interleukin 9	UMLS:C0085424
+interleukin-9	UMLS:C0085424
+P40 T-Cell Growth Factor	UMLS:C0085424
+P40 T Cell Growth Factor	UMLS:C0085424
+T-Cell Growth Factor P40	UMLS:C0085424
+T Cell Growth Factor P40	UMLS:C0085424
+Cytokines Spec Ql	UMLS:C1716333
+Cytokines Ql (Specimen)	UMLS:C1716333
+Cytokines:PrThr:Pt:XXX:Ord	UMLS:C1716333
+Cytokines [Presence] in Specimen	UMLS:C1716333
+Cytokines:Presence or Threshold:To identify measures at a point in time:Not specified:Ordinal	UMLS:C1716333
+C17	UMLS:C1539216
+CYTL1	UMLS:C1539216
+C4orf4	UMLS:C1539216
+CYTL1 gene	UMLS:C1539216
+cytokine-like 1	UMLS:C1539216
+cytokine like 1	UMLS:C1539216
+CYTOKINE-LIKE PROTEIN 1	UMLS:C1539216
+IFNL2	UMLS:C3539861
+IL-28A	UMLS:C3539861
+IFN-Lambda-2	UMLS:C3539861
+Interleukin-28A	UMLS:C3539861
+Cytokine Zcyto20	UMLS:C3539861
+Interferon-Lambda-2	UMLS:C3539861
+Interferon-Lambda 2	UMLS:C3539861
+Interferon Lambda 2	UMLS:C3539861
+Interferon Lambda-2	UMLS:C3539861
+TAFA5 peptide, rat	UMLS:C2355253
+Tafa5 protein, rat	UMLS:C2355253
+FAM19A5 protein, rat	UMLS:C2355253
+TAFA chemokine like family member 5 protein, rat	UMLS:C2355253
+TNFR1	UMLS:C0255808
+TNFR-I	UMLS:C0255808
+CD120a	UMLS:C0255808
+TNFR p60	UMLS:C0255808
+CD120a Antigen	UMLS:C0255808
+CD120a Antigens	UMLS:C0255808
+CD 120a Antigen	UMLS:C0255808
+Antigen, CD120a	UMLS:C0255808
+Antigen, CD 120a	UMLS:C0255808
+Antigens, CD120a	UMLS:C0255808
+120a Antigen, CD	UMLS:C0255808
+TNFRSF1A Receptor	UMLS:C0255808
+Receptor, TNFRSF1A	UMLS:C0255808
+tumor necrosis factor receptor 1A	UMLS:C0255808
+Tumor Necrosis Factor Receptor 1A	UMLS:C0255808
+Tumor Necrosis Factor Receptor Type I	UMLS:C0255808
+Tumor Necrosis Factor Receptor Type 1	UMLS:C0255808
+Receptors, Tumor Necrosis Factor, Type I	UMLS:C0255808
+Receptors, Tumor Necrosis Factor, Member 1A	UMLS:C0255808
+Tumor necrosis factor receptor superfamily member 1A	UMLS:C0255808
+Tumor Necrosis Factor Receptor Superfamily, Member 1A	UMLS:C0255808
+TNFRSF1A (Tumor Necrosis Factor Receptor Superfamily, Member 1A)	UMLS:C0255808
+SOFAT protein, mouse	UMLS:C5544095
+Thnsl2 protein, mouse	UMLS:C5544095
+threonine synthase-like 2 (bacterial) protein, mouse	UMLS:C5544095
+secreted osteoclastogenic factor of activated T cells protein, mouse	UMLS:C5544095
+Native Immunity	UMLS:C0020969
+Innate Immunity	UMLS:C0020969
+native immunity	UMLS:C0020969
+innate immunity	UMLS:C0020969
+Immunity, Native	UMLS:C0020969
+Natural Immunity	UMLS:C0020969
+Immunity, Innate	UMLS:C0020969
+natural immunity	UMLS:C0020969
+Natural immunity	UMLS:C0020969
+Immunity, Natural	UMLS:C0020969
+non-specific immunity	UMLS:C0020969
+Non-Specific Immunity	UMLS:C0020969
+Innate Immune Response	UMLS:C0020969
+innate immune response	UMLS:C0020969
+Immunity, Non Specific	UMLS:C0020969
+Immunity, Non-Specific	UMLS:C0020969
+Innate Immune Responses	UMLS:C0020969
+Immune Response, Innate	UMLS:C0020969
+Immune Responses, Innate	UMLS:C0020969
+nonspecific immune response	UMLS:C0020969
+Miple1 protein, Drosophila	UMLS:C1741773
+IL-1ra	UMLS:C1704264
+IL-1Ra	UMLS:C1704264
+il-1ra	UMLS:C1704264
+Urine IL-1 Inhibitor	UMLS:C1704264
+IL1 Febrile Inhibitor	UMLS:C1704264
+IL-1 Inhibitor, Urine	UMLS:C1704264
+IL 1 Inhibitor, Urine	UMLS:C1704264
+Febrile Inhibitor, IL1	UMLS:C1704264
+Urine Derived IL1 Inhibitor	UMLS:C1704264
+Urine-Derived IL1 Inhibitor	UMLS:C1704264
+IL1 Inhibitor, Urine-Derived	UMLS:C1704264
+Interleukin 1 Inhibitor, Urine	UMLS:C1704264
+interleukin-1 receptor antagonist	UMLS:C1704264
+Interleukin 1 Receptor Antagonist Protein	UMLS:C1704264
+LDNCF-2	UMLS:C0065491
+MIP2alpha	UMLS:C0065491
+MIP-2alpha	UMLS:C0065491
+MIP 2alpha	UMLS:C0065491
+MIP-2 Chemokine	UMLS:C0065491
+MIP 2 Chemokine	UMLS:C0065491
+CXCL2 Chemokine	UMLS:C0065491
+Chemokine CXCL2	UMLS:C0065491
+Chemokine, MIP-2	UMLS:C0065491
+Chemokine, CXCL2	UMLS:C0065491
+CXCL2, Chemokine	UMLS:C0065491
+Chemokine (C-X-C Motif) Ligand 2	UMLS:C0065491
+macrophage inflammatory protein 2	UMLS:C0065491
+Macrophage Inflammatory Protein 2	UMLS:C0065491
+Macrophage Inflammatory Protein-2alpha	UMLS:C0065491
+Macrophage Inflammatory Protein 2alpha	UMLS:C0065491
+Inflammatory Protein-2alpha, Macrophage	UMLS:C0065491
+GDF-15	UMLS:C0668195
+Prostate Differentiation Factor	UMLS:C0668195
+Growth Differentiation Factor 15	UMLS:C0668195
+Differentiation Factor, Prostate	UMLS:C0668195
+Macrophage Inhibitory Cytokine 1	UMLS:C0668195
+Growth and differentiation factor 15	UMLS:C0668195
+agonists	UMLS:C0243192
+Cytokines panel	UMLS:C4285587
+Cytokines Pnl SerPl	UMLS:C4285587
+Cytokines panel:-:Pt:Ser/Plas:-	UMLS:C4285587
+Cytokines panel - Serum or Plasma	UMLS:C4285587
+Cytokines panel:-:To identify measures at a point in time:Serum/Plasma:-	UMLS:C4285587
+Anticytokine Therapy	UMLS:C0281178
+Anti-Cytokine Therapy	UMLS:C0281178
+anti cytokine therapy	UMLS:C0281178
+anti-cytokine therapy	UMLS:C0281178
+therapy, anti-cytokine	UMLS:C0281178
+cytokine activity	UMLS:C1149384
+MEDA-7 protein, mouse	UMLS:C3490576
+mesenteric oestrogen-dependent adipose gene-7 protein, mouse	UMLS:C3490576
+IFN	UMLS:C0021747
+interferon	UMLS:C0021747
+Interferon	UMLS:C0021747
+INTERFERON	UMLS:C0021747
+interferons	UMLS:C0021747
+Interferons	UMLS:C0021747
+FAM3A protein, mouse	UMLS:C3849870
+family with sequence similarity 3, member A protein, mouse	UMLS:C3849870
+Cytokines	UMLS:C1524094
+Recombinant Cytokine	UMLS:C1524094
+Recombinant Cytokines	UMLS:C1524094
+osteopontin	UMLS:C0069676
+Osteopontin	UMLS:C0069676
+Sialoprotein 1	UMLS:C0069676
+Bone Sialoprotein 1	UMLS:C0069676
+Bone Sialoprotein I	UMLS:C0069676
+Sialoprotein 1, Bone	UMLS:C0069676
+Sialoprotein I, Bone	UMLS:C0069676
+Secreted Phosphoprotein 1	UMLS:C0069676
+GIP protein, human (granulocyte)	UMLS:C0250432
+granulocyte inhibitory protein, human	UMLS:C0250432
+IC7Fc antibody	UMLS:C5434034
+IC7Fc cytokine	UMLS:C5434034
+IFNL3	UMLS:C1174094
+IL-28B	UMLS:C1174094
+IL-28C	UMLS:C1174094
+IFN-Lambda-4	UMLS:C1174094
+IFN-Lambda-3	UMLS:C1174094
+Interleukin-28B	UMLS:C1174094
+Interleukin-28C	UMLS:C1174094
+Cytokine Zcyto22	UMLS:C1174094
+Interferon-Lambda-3	UMLS:C1174094
+Interferon-Lambda 3	UMLS:C1174094
+Interferon Lambda-4	UMLS:C1174094
+Interferon Lambda 3	UMLS:C1174094
+Interferon Lambda-3	UMLS:C1174094
+IFNL3 protein, human	UMLS:C1174094
+IL28B protein, human	UMLS:C1174094
+IL-28B protein, human	UMLS:C1174094
+interleukin 28B, human	UMLS:C1174094
+IFN-lambda-3 protein, human	UMLS:C1174094
+interleukin 28B protein, human	UMLS:C1174094
+Interferon lambda-3 protein, human	UMLS:C1174094
+interleukin 28B (interferon, lambda 3) protein, human	UMLS:C1174094
+HARP	UMLS:C0084084
+HBNF	UMLS:C0084084
+OSF-1	UMLS:C0084084
+HBGF-8	UMLS:C0084084
+HB-GAM	UMLS:C0084084
+HB-GAM-PTN	UMLS:C0084084
+pleiotropin	UMLS:C0084084
+pleiotrophin	UMLS:C0084084
+heparin binding growth factor 8	UMLS:C0084084
+heparin binding growth factor-8	UMLS:C0084084
+heparin affin regulatory peptide	UMLS:C0084084
+heparin-binding neurotrophic factor	UMLS:C0084084
+heparin affin regulatory peptide (HARP)	UMLS:C0084084
+heparin-binding growth-associated molecule	UMLS:C0084084
+GIFT12 protein	UMLS:C2934229
+IL-28 protein, mouse	UMLS:C1723154
+interleukin 28, mouse	UMLS:C1723154
+IFN-lambda protein, mouse	UMLS:C1723154
+interferon-lambda protein, mouse	UMLS:C1723154
+CTRP Terminology	UMLS:C3899741
+Clinical Trials Reporting Program Terminology	UMLS:C3899741
+metabolism	UMLS:C0025520
+metabolic aspects	UMLS:C0025520
+MF-1 cytokine	UMLS:C2354674
+metron factor-1	UMLS:C2354674
+GCSF	UMLS:C0079459
+gcsf	UMLS:C0079459
+G-CSF	UMLS:C0079459
+g csf	UMLS:C0079459
+g-csf	UMLS:C0079459
+csf g	UMLS:C0079459
+G CSF	UMLS:C0079459
+Granulocyte Colony-Stimulating Factor	UMLS:C0079459
+Granulocyte colony stimulating factor	UMLS:C0079459
+Granulocyte Colony Stimulating Factor	UMLS:C0079459
+granulocyte colony-stimulating factor	UMLS:C0079459
+granulocyte colony stimulating factor	UMLS:C0079459
+Colony-stimulating factor, granulocyte	UMLS:C0079459
+GCSF (granulocyte colony stimulating factor)	UMLS:C0079459
+FAM3B protein, mouse	UMLS:C1613326
+PANDER protein, mouse	UMLS:C1613326
+pancreatic derived factor, mouse	UMLS:C1613326
+INGAP peptide	UMLS:C1569021
+Oit1 protein, human	UMLS:C2976684
+FAM3D protein, human	UMLS:C2976684
+Family with sequence similarity 3 member D protein, human	UMLS:C2976684
+IL18	UMLS:C0383327
+il18	UMLS:C0383327
+il-18	UMLS:C0383327
+IL-18	UMLS:C0383327
+Interleukin 18	UMLS:C0383327
+interleukin-18	UMLS:C0383327
+interleukin 18	UMLS:C0383327
+18 interleukin	UMLS:C0383327
+Interleukin-18	UMLS:C0383327
+IFN-gamma Inducing Factor	UMLS:C0383327
+IFN-gamma-Inducing Factor	UMLS:C0383327
+IFN gamma Inducing Factor	UMLS:C0383327
+Inducing Factor, IFN-gamma	UMLS:C0383327
+Interferon-gamma-Inducing Factor	UMLS:C0383327
+Interferon-gamma Inducing Factor	UMLS:C0383327
+interferon gamma inducing factor	UMLS:C0383327
+Interferon gamma Inducing Factor	UMLS:C0383327
+Inducing Factor, Interferon-gamma	UMLS:C0383327
+CER1	UMLS:C2987744
+Cerberus	UMLS:C2987744
+Cerberus-Related Protein	UMLS:C2987744
+DAN Domain Family Member 4	UMLS:C2987744
+Cytokine Receptor Binding	UMLS:C1511616
+cytokine receptor binding	UMLS:C1511616
+hematopoietin/interferon-class (D200-domain) cytokine receptor binding	UMLS:C1511616
+GIFT15 protein	UMLS:C2930767
+ultrastructure	UMLS:C0041623
+Ultrastructure	UMLS:C0041623
+subcellular structure	UMLS:C0041623
+submicroscopic anatomy	UMLS:C0041623
+CTRP Biomarker Terminology	UMLS:C4684827
+Clinical Trials Reporting Program Biomarker Terminology	UMLS:C4684827
+Ik protein, mouse	UMLS:C1435365
+IK cytokine, mouse	UMLS:C1435365
+muRED protein, mouse	UMLS:C1435365
+administration & dosage	UMLS:C0001555
+administration and dosage	UMLS:C0001555
+blood	UMLS:C0005768
+In Blood	UMLS:C0005768
 Omentin	UMLS:C0968453
 Intelectin	UMLS:C0968453
 Intelectin-1	UMLS:C0968453
 Intelectin 1	UMLS:C0968453
 intelectin, human	UMLS:C0968453
 intelectin 1, human	UMLS:C0968453
+Lactoferrin Receptor	UMLS:C0968453
 hIntL protein, human	UMLS:C0968453
 ITLN1 protein, human	UMLS:C0968453
-Lactoferrin Receptor	UMLS:C0968453
 omentin protein, human	UMLS:C0968453
 Endothelial Lectin HL-1	UMLS:C0968453
 Galactofuranose-Binding Lectin	UMLS:C0968453
 Intestinal Lactoferrin Receptor	UMLS:C0968453
 intestinal lactoferrin receptor, human	UMLS:C0968453
 intelectin 1 (galactofuranose binding) protein, human	UMLS:C0968453
-scf	UMLS:C0143630
-SCF	UMLS:C0143630
-Kit ligand	UMLS:C0143630
-kit Ligand	UMLS:C0143630
-Steel Factor	UMLS:C0143630
-c kit Ligand	UMLS:C0143630
-c-kit Ligand	UMLS:C0143630
-stem cell factor	UMLS:C0143630
-Stem Cell Factor	UMLS:C0143630
-stem cell factor (SCF)	UMLS:C0143630
-mast cell growth factor	UMLS:C0143630
-Mast Cell Growth Factor	UMLS:C0143630
-leukoregulin	UMLS:C0064839
-Leukoregulin	UMLS:C0064839
-MIF protein, tick	UMLS:C1098344
-MIF protein, Amblyomma americanum	UMLS:C1098344
-macrophage migration inhibitory factor, tick	UMLS:C1098344
-macrophage migration inhibitory factor protein, Amblyomma americanum	UMLS:C1098344
-chemical synthesis	UMLS:C4759732
-chemical synthesis aspects	UMLS:C4759732
-Fractalkine	UMLS:C0535298
-Neurotactin	UMLS:C0535298
-CX3CL1 Chemokine	UMLS:C0535298
-Chemokine CX3CL1	UMLS:C0535298
-Chemokine, CX3CL1	UMLS:C0535298
-CX3CL1, Chemokine	UMLS:C0535298
-Chemokine (C-X3-C motif) ligand 1	UMLS:C0535298
-Chemokine (C-X3-C Motif) Ligand 1	UMLS:C0535298
-agonists	UMLS:C0243192
-dengue-2 virus-induced cytotoxic factor	UMLS:C0254980
-cytotoxic factor, dengue-2 virus-induced	UMLS:C0254980
-IL-TIF	UMLS:C0912462
-IL-TIFbeta	UMLS:C0912462
-IL-TIFalpha	UMLS:C0912462
-IL10-TIF factor	UMLS:C0912462
-IL-10-related T cell-derived inducible factor, IL-TIF	UMLS:C0912462
-GREM1 protein, Xenopus	UMLS:C1451982
-gremlin protein, Xenopus	UMLS:C1451982
-Cktsf1b1 protein, Xenopus	UMLS:C1451982
-neuroleukin, rat	UMLS:C2975869
-Gpi protein, rat	UMLS:C2975869
-autocrine motility factor, rat	UMLS:C2975869
-glucose phosphate isomerase, rat	UMLS:C2975869
-glucose-6-phosphate isomerase, rat	UMLS:C2975869
-CCL18	UMLS:C0541270
-MIP-4	UMLS:C0541270
-DC-CK1	UMLS:C0541270
-AMAC-1	UMLS:C0541270
-CC Chemokine PARC	UMLS:C0541270
-MIP-4 protein, human	UMLS:C0541270
-DCCK1 protein, human	UMLS:C0541270
-CCL18 protein, human	UMLS:C0541270
-AMAC-1 protein, human	UMLS:C0541270
-DC-CK1 protein, human	UMLS:C0541270
-SCYA18 protein, human	UMLS:C0541270
-PARC chemokine, human	UMLS:C0541270
-C-C Motif Chemokine 18	UMLS:C0541270
-CC Chemokine Ligand 18	UMLS:C0541270
-CC chemokine PARC, human	UMLS:C0541270
-Dendritic Cell Chemokine 1	UMLS:C0541270
-Small Inducible Cytokine A18	UMLS:C0541270
-T Cell-Directed CC Chemokine	UMLS:C0541270
-Small-Inducible Cytokine A18	UMLS:C0541270
-Chemokine, CC Motif, Ligand 18	UMLS:C0541270
-Chemokine (C-C motif) ligand 18	UMLS:C0541270
-Chemokine (C-C Motif) Ligand 18	UMLS:C0541270
-Macrophage Inflammatory Protein 4	UMLS:C0541270
-Thymus and Activation-Regulated Chemokine	UMLS:C0541270
-Pulmonary and Activation-Regulated Chemokine	UMLS:C0541270
-Small Inducible Cytokine Subfamily A, Member 18	UMLS:C0541270
-pulmonary and activation-regulated chemokine, human	UMLS:C0541270
-Small Inducible Cytokine Subfamily A (Cys-Cys), Member 18	UMLS:C0541270
-Alternative Macrophage Activation-Associated CC Chemokine 1	UMLS:C0541270
-small inducible cytokine subfamily A, member 18 protein, human	UMLS:C0541270
-alternative macrophage activation-associated CC-chemokine 1, human	UMLS:C0541270
-Chemokine (C-C Motif) Ligand 18 (Pulmonary and Activation-Regulated)	UMLS:C0541270
-chemokine (C-C motif) ligand 18 (pulmonary and activation-regulated) protein, human	UMLS:C0541270
-Small Inducible Cytokine Subfamily A (Cys-Cys), Member 18, Pulmonary and Activation-Regulated	UMLS:C0541270
-neuroleukin, mouse	UMLS:C2975870
-Gpi1 protein, mouse	UMLS:C2975870
-autocrine motility factor, mouse	UMLS:C2975870
-glucose phosphate isomerase 1, mouse	UMLS:C2975870
-MCSF	UMLS:C0079784
-CSF-M	UMLS:C0079784
-m-csf	UMLS:C0079784
-M-CSF	UMLS:C0079784
-CSF-1	UMLS:C0079784
-Colony-stimulating factor 1	UMLS:C0079784
-Colony Stimulating Factor 1	UMLS:C0079784
-Colony-Stimulating Factor 1	UMLS:C0079784
-Macrophage Colony-Stimulating Factor	UMLS:C0079784
-Macrophage colony-stimulating factor	UMLS:C0079784
-Colony-Stimulating Factor, Macrophage	UMLS:C0079784
-Colony Stimulating Factor, Macrophage	UMLS:C0079784
-macrophage colony-stimulating factor (M-CSF)	UMLS:C0079784
-Immune Factor	UMLS:C0021054
-Factor, Immune	UMLS:C0021054
-Immune Factors	UMLS:C0021054
-Factors, Immune	UMLS:C0021054
-Immunologic Factors	UMLS:C0021054
-immunologic factors	UMLS:C0021054
-Immunological Factor	UMLS:C0021054
-Factors, Immunologic	UMLS:C0021054
-Immunological Factors	UMLS:C0021054
-immunologic substance	UMLS:C0021054
-Factor, Immunological	UMLS:C0021054
-Factors, Immunological	UMLS:C0021054
-immunological substance	UMLS:C0021054
-Adipokine	UMLS:C1955907
-Adipokines	UMLS:C1955907
-Adipocytokine	UMLS:C1955907
-Adipocytokines	UMLS:C1955907
-metabolism	UMLS:C0025520
-metabolic aspects	UMLS:C0025520
-ILEI protein, mouse	UMLS:C1455570
-Fam3c protein, mouse	UMLS:C1455570
-interleukin-like EMT inducer, mouse	UMLS:C1455570
-CER1 protein, human	UMLS:C1742950
-cerberus 1 protein, human	UMLS:C1742950
-LIF	UMLS:C1453955
-MLPLI	UMLS:C1453955
-hilda	UMLS:C1453955
-D Factor	UMLS:C1453955
-D-Factor	UMLS:C1453955
-human IL-DA	UMLS:C1453955
-LIF protein, human	UMLS:C1453955
-human interleukin DA	UMLS:C1453955
-Leukemia-Inhibitory Factor	UMLS:C1453955
-Leukemia Inhibitory Factor	UMLS:C1453955
-Human Interleukin in DA Cells	UMLS:C1453955
-Melanoma-Derived LPL Inhibitor	UMLS:C1453955
-Hepatocyte-Stimulating Factor III	UMLS:C1453955
-leukemia inhibitory factor, human	UMLS:C1453955
-Cholinergic Differentiation Factor	UMLS:C1453955
-Differentiation-Stimulating Factor	UMLS:C1453955
-Differentiation Stimulating Factor	UMLS:C1453955
-Differentiation Inhibitory Activity	UMLS:C1453955
-cholinergic differentiation factor, human	UMLS:C1453955
-CLC	UMLS:C0908711
-NNT-1	UMLS:C0908711
-CLCF1	UMLS:C0908711
-CLC cytokine	UMLS:C0908711
-Novel Neurotrophin-1	UMLS:C0908711
-cardiotrophin-like cytokine	UMLS:C0908711
-B-Cell Stimulating Factor 3	UMLS:C0908711
-Cardiotrophin-Like Cytokine	UMLS:C0908711
-lymphocyte-derived cytokine	UMLS:C0682758
-Erfe protein, mouse	UMLS:C3492516
-CTRP15 protein, mouse	UMLS:C3492516
-myonectin protein, mouse	UMLS:C3492516
-erythroferrone protein, mouse	UMLS:C3492516
-FAM3A protein, mouse	UMLS:C3849870
-family with sequence similarity 3, member A protein, mouse	UMLS:C3849870
-SG3A1 protein, human	UMLS:C1096936
-HIN-1 protein, human	UMLS:C1096936
-UGRP2 protein, human	UMLS:C1096936
-SCGB3A1 protein, human	UMLS:C1096936
-uteroglobin-related protein 2, human	UMLS:C1096936
-secretoglobin, family 3A, member 1 protein, human	UMLS:C1096936
-cerebrospinal fluid	UMLS:C0007807
-In Cerebrospinal Fluid	UMLS:C0007807
-FAM150 protein, mouse	UMLS:C5773198
-ALKAL1 protein, mouse	UMLS:C5773198
-augbeta protein, mouse	UMLS:C5773198
-augmentor beta protein, mouse	UMLS:C5773198
-ALK and LTK ligand 1 protein, mouse	UMLS:C5773198
+BSF-3 protein, mouse	UMLS:C1435002
+NNT-1 protein, mouse	UMLS:C1435002
+novel neurotrophin-1, mouse	UMLS:C1435002
+B cell stimulating factor-3, mouse	UMLS:C1435002
+CTRP Molecular Genetic Biomarker Terminology	UMLS:C4684828
+Clinical Trials Reporting Program Molecular Genetic Biomarker Terminology	UMLS:C4684828
 p43	UMLS:C1419881
 SCYE1	UMLS:C1419881
 EMAP2	UMLS:C1419881
@@ -541,712 +834,259 @@ SMALL INDUCIBLE CYTOKINE SUBFAMILY E, MEMBER 1, FORMERLY	UMLS:C1419881
 aminoacyl tRNA synthetase complex interacting multifunctional protein 1	UMLS:C1419881
 AMINOACYL-tRNA SYNTHETASE COMPLEX-INTERACTING MULTIFUNCTIONAL PROTEIN 1	UMLS:C1419881
 small inducible cytokine subfamily E, member 1 (endothelial monocyte-activating)	UMLS:C1419881
-GCSF	UMLS:C0079459
-gcsf	UMLS:C0079459
-g-csf	UMLS:C0079459
-csf g	UMLS:C0079459
-g csf	UMLS:C0079459
-G-CSF	UMLS:C0079459
-G CSF	UMLS:C0079459
-granulocyte colony-stimulating factor	UMLS:C0079459
-Granulocyte colony stimulating factor	UMLS:C0079459
-Granulocyte Colony-Stimulating Factor	UMLS:C0079459
-Granulocyte Colony Stimulating Factor	UMLS:C0079459
-granulocyte colony stimulating factor	UMLS:C0079459
-Colony-stimulating factor, granulocyte	UMLS:C0079459
-GCSF (granulocyte colony stimulating factor)	UMLS:C0079459
-Economic	UMLS:C0013557
-economics	UMLS:C0013557
-Oit1 protein, mouse	UMLS:C3657601
-FAM3D protein, mouse	UMLS:C3657601
-Family with sequence similarity 3 member D protein, mouse	UMLS:C3657601
-Cytokine Receptor Binding	UMLS:C1511616
-cytokine receptor binding	UMLS:C1511616
-hematopoietin/interferon-class (D200-domain) cytokine receptor binding	UMLS:C1511616
-scavenger receptor	UMLS:C0074129
-Scavenger Receptor	UMLS:C0074129
-Receptor, Scavenger	UMLS:C0074129
-scavenger receptors	UMLS:C0074129
-Acetyl LDL Receptor	UMLS:C0074129
-Scavenger Receptors	UMLS:C0074129
-Acetyl-LDL Receptor	UMLS:C0074129
-Receptor, Acetyl LDL	UMLS:C0074129
-Receptors, Scavenger	UMLS:C0074129
-Receptor, Acetyl-LDL	UMLS:C0074129
-Acetyl LDL Receptors	UMLS:C0074129
-Acetyl-LDL Receptors	UMLS:C0074129
-Receptors, Acetyl-LDL	UMLS:C0074129
-Acetylated LDL Receptor	UMLS:C0074129
-Receptor, Acetylated LDL	UMLS:C0074129
-LDL Receptor, Acetylated	UMLS:C0074129
-bone resorption factor	UMLS:C0053933
-radiation effects	UMLS:C0034526
-aspects of radiation effects	UMLS:C0034526
-immunology	UMLS:C1522005
-immunology aspects	UMLS:C1522005
-IC7Fc antibody	UMLS:C5434034
-IC7Fc cytokine	UMLS:C5434034
-limitin	UMLS:C0915737
-CCL11	UMLS:C0250604
-Eotaxin	UMLS:C0250604
-eotaxin	UMLS:C0250604
-Eotaxin 1	UMLS:C0250604
-Eotaxin-1	UMLS:C0250604
-Chemokine CCL11	UMLS:C0250604
-CCL11 Chemokine	UMLS:C0250604
-Chemokine, CCL11	UMLS:C0250604
-CCL11, Chemokine	UMLS:C0250604
-Chemokine (C-C Motif) Ligand 11	UMLS:C0250604
-Chemokine (C-C motif) ligand 11	UMLS:C0250604
-Small Chemokine (C-C Motif) Ligand 11	UMLS:C0250604
-B94 protein, human	UMLS:C0251858
-TNFAIP2 protein, human	UMLS:C0251858
-TNF Alpha-Induced Protein 2	UMLS:C0251858
-Primary Response Gene B94 Protein	UMLS:C0251858
-Exocyst Complex Component 3-Like 3	UMLS:C0251858
-Tumor Necrosis Factor-Alpha-Induced Protein 2	UMLS:C0251858
-Tumor Necrosis Factor Alpha-Induced Protein 2	UMLS:C0251858
-tumor necrosis factor, alpha-induced protein 2, human	UMLS:C0251858
-IL7	UMLS:C0021761
-il7	UMLS:C0021761
-il-7	UMLS:C0021761
-IL-7	UMLS:C0021761
-Interleukin 7	UMLS:C0021761
-interleukin 7	UMLS:C0021761
-interleukin-7	UMLS:C0021761
-Interleukin-7	UMLS:C0021761
-Lymphopoietin 1	UMLS:C0021761
-Lymphopoietin-1	UMLS:C0021761
-SH-polypeptide-42	UMLS:C0021761
-LIF	UMLS:C0125606
-lif	UMLS:C0125606
-D factor	UMLS:C0125606
-Leukemia inhibitory factor	UMLS:C0125606
-Leukemia Inhibitory Factor	UMLS:C0125606
-leukemia inhibitory factor	UMLS:C0125606
-Inhibitory Factor, Leukemia	UMLS:C0125606
-leukemia inhibitory factor (LIF)	UMLS:C0125606
-Differentiation-Stimulating Factor	UMLS:C0125606
-Differentiation Stimulating Factor	UMLS:C0125606
-Cholinergic Differentiation Factor	UMLS:C0125606
-Differentiation Factor, Cholinergic	UMLS:C0125606
-D Factor (Leukemia Inhibitory Factor)	UMLS:C0125606
-Myeloid Differentiation-Stimulating Factor	UMLS:C0125606
-Myeloid Differentiation Stimulating Factor	UMLS:C0125606
-Differentiation-Stimulating Factor, Myeloid	UMLS:C0125606
-standards	UMLS:C0038137
-standards characteristics	UMLS:C0038137
-Cell-Cell Signaling	UMLS:C1154413
-cell-cell signaling	UMLS:C1154413
-cell-cell signalling	UMLS:C1154413
-intercellular communication	UMLS:C1154413
-Intercellular Communication	UMLS:C1154413
-Intercellular Communication Process	UMLS:C1154413
-Short-Range Multicellular Communication	UMLS:C1154413
-Cell to Cell Communication and Signaling	UMLS:C1154413
-Prdc protein, mouse	UMLS:C1504728
-Grem2 protein, mouse	UMLS:C1504728
-Gremlin2 protein, mouse	UMLS:C1504728
-protein related to DAN and cerberus, mouse	UMLS:C1504728
-gremlin 2 homolog, cysteine knot superfamily (Xenopus laevis) protein, mouse	UMLS:C1504728
-Chemokine (C-X-C motif) ligand 9	UMLS:C5445752
-INGAP peptide	UMLS:C1569021
-MGF protein, chicken	UMLS:C0055304
-cMGF protein, chicken	UMLS:C0055304
-MGF protein, Gallus gallus	UMLS:C0055304
-chicken myelomonocytic growth factor	UMLS:C0055304
-AT464	UMLS:C0654095
-AT 464	UMLS:C0654095
-AT-464	UMLS:C0654095
-IL-2RIF	UMLS:C0050892
-3B6-IL-1	UMLS:C0050892
-ATL-derived factor	UMLS:C0050892
-Tac p55-inducing factor	UMLS:C0050892
-ATL-derived factor (ADF)	UMLS:C0050892
-ADF autocrine growth factor	UMLS:C0050892
-adult T-cell derived factor	UMLS:C0050892
-IL-2 receptor inducing factor	UMLS:C0050892
-adult T cell leukemia-derived factor	UMLS:C0050892
-Protein	UMLS:C0033684
-PROTEIN	UMLS:C0033684
-protein	UMLS:C0033684
-proteins	UMLS:C0033684
-Proteins	UMLS:C0033684
-gene product	UMLS:C0033684
-GIFT12 protein	UMLS:C2934229
-mis	UMLS:C0687670
-AMH	UMLS:C0687670
-MIS	UMLS:C0687670
-Anti-Müllerian Hormone	UMLS:C0687670
-Anti-Muellerian Hormone	UMLS:C0687670
-Mullerian-Inhibiting Factor	UMLS:C0687670
-Mullerian Inhibiting Factor	UMLS:C0687670
-Müllerian Inhibiting Factor	UMLS:C0687670
-Muellerian-Inhibiting Factor	UMLS:C0687670
-Müllerian Inhibiting Substance	UMLS:C0687670
-Mullerian-Inhibiting Substance	UMLS:C0687670
-Mullerian Inhibiting Substance	UMLS:C0687670
-Muellerian-Inhibiting Substance	UMLS:C0687670
-Mullerian duct inhibiting substance	UMLS:C0687670
-mullerian duct inhibiting substance (MIS)	UMLS:C0687670
-Alkal2 protein, mouse	UMLS:C5771816
-Fam150b protein, mouse	UMLS:C5771816
-Augalpha protein, mouse	UMLS:C5771816
-6230419C23Rik protein, mouse	UMLS:C5771816
-Augmentor alpha protein, mouse	UMLS:C5771816
-ALK and LTK ligand 2 protein, mouse	UMLS:C5771816
-cytokine activity	UMLS:C1149384
-Oncostatin M	UMLS:C0069535
-oncostatin M	UMLS:C0069535
-Itln1 protein, mouse	UMLS:C3886269
-omentin protein, mouse	UMLS:C3886269
-omentin-1 protein, mouse	UMLS:C3886269
-intelectin 1 (galactofuranose binding) protein, mouse	UMLS:C3886269
-hgf	UMLS:C0062534
-HGF	UMLS:C0062534
-Hepatopoietin	UMLS:C0062534
-hepatopoietin	UMLS:C0062534
-Scatter Factor	UMLS:C0062534
-scatter factor	UMLS:C0062534
-Factor, Scatter	UMLS:C0062534
-Hepatopoietin A	UMLS:C0062534
-Hepatocyte growth factor	UMLS:C0062534
-Hepatocyte Growth Factor	UMLS:C0062534
-hepatocyte growth factor	UMLS:C0062534
-Growth Factor, Hepatocyte	UMLS:C0062534
-Factor, Hepatocyte Growth	UMLS:C0062534
-hepatocyte growth factor (HGF)	UMLS:C0062534
-Lymphokines and Cytokines, scatter factor	UMLS:C0062534
-tnf	UMLS:C1456820
-tnfa	UMLS:C1456820
-TNFalpha	UMLS:C1456820
-tnf alpha	UMLS:C1456820
-alpha tnf	UMLS:C1456820
-cachectin	UMLS:C1456820
-Cachectin	UMLS:C1456820
-TNF alpha	UMLS:C1456820
-TNF-alpha	UMLS:C1456820
-tnf-alpha	UMLS:C1456820
-Tumor necrosis factor	UMLS:C1456820
-tumor necrosis factor	UMLS:C1456820
-Tumor Necrosis Factor	UMLS:C1456820
-tumour necrosis factor	UMLS:C1456820
-TNF Superfamily, Member 2	UMLS:C1456820
-Tumor necrosis factor.alpha	UMLS:C1456820
-tumor necrosis factor (TNF)	UMLS:C1456820
-tumor necrosis factor-alpha	UMLS:C1456820
-Tumor Necrosis Factor-alpha	UMLS:C1456820
-Tumor Necrosis Factor alpha	UMLS:C1456820
-tumor necrosis factor alpha	UMLS:C1456820
-tumour necrosis factor alpha	UMLS:C1456820
-Cachectin Tumor Necrosis Factor	UMLS:C1456820
-Cachectin-Tumor Necrosis Factor	UMLS:C1456820
-Tumor Necrosis Factor Ligand Superfamily Member 2	UMLS:C1456820
-GIFT15 protein	UMLS:C2930767
-administration & dosage	UMLS:C0001555
-administration and dosage	UMLS:C0001555
-CXCL1 Chemokine	UMLS:C3887572
-Chemokine CXCL1	UMLS:C3887572
-GROalpha Protein	UMLS:C3887572
-CXCL1, Chemokine	UMLS:C3887572
-Chemokine, CXCL1	UMLS:C3887572
-Gro alpha Protein	UMLS:C3887572
-Gro-alpha Protein	UMLS:C3887572
-MGSA-alpha Chemokine	UMLS:C3887572
-MGSA alpha Chemokine	UMLS:C3887572
-Chemokine, MGSA-alpha	UMLS:C3887572
-recombinant GRO1 Protein	UMLS:C3887572
-Neutrophil Activating Protein 3	UMLS:C3887572
-Neutrophil-Activating Protein 3	UMLS:C3887572
-Chemokine (C-X-C motif) ligand 1	UMLS:C3887572
-Chemokine (C-X-C Motif) Ligand 1	UMLS:C3887572
-Growth Related Oncogene alpha Protein	UMLS:C3887572
-Growth-Related Oncogene alpha Protein	UMLS:C3887572
-Melanoma Growth Stimulatory Activity, alpha Protein	UMLS:C3887572
-SOFAT protein, human	UMLS:C2745442
-THNSL2 protein, human	UMLS:C2745442
-threonine synthase like 2 protein, human	UMLS:C2745442
-side effects	UMLS:C0001688
-adverse effects	UMLS:C0001688
-aspects of adverse effects	UMLS:C0001688
-urine	UMLS:C0042037
-In Urine	UMLS:C0042037
-Ins-33 protein, C elegans	UMLS:C1664699
-TRANK1	UMLS:C1308585
-TRANK protein, human	UMLS:C1308585
-TRANK1 protein, human	UMLS:C1308585
-Lupus Brain Antigen 1 Homolog	UMLS:C1308585
-TPR and Ankyrin Repeat-Containing Protein 1	UMLS:C1308585
-Tetratricopeptide Repeat- and Ankyrin Repeat-Containing Protein 1	UMLS:C1308585
-tetratricopeptide repeat and ankyrin repeat containing 1 protein, human	UMLS:C1308585
-GIP II	UMLS:C0259029
-granulocyte inhibitory protein II	UMLS:C0259029
-Chemokine (C-C motif) ligand 14	UMLS:C5774170
-Intercellular Signaling Peptides and Proteins	UMLS:C1136108
-taxonomy	UMLS:C0008903
-Taxonomic	UMLS:C0008903
-classification	UMLS:C0008903
-FISP protein, mouse	UMLS:C1310046
-Il24 protein, mouse	UMLS:C1310046
-IL-24 protein, mouse	UMLS:C1310046
-interleukin 24, mouse	UMLS:C1310046
-IL-4-induced secreted protein, mouse	UMLS:C1310046
-Protein FAM3C	UMLS:C1743459
-ILEI protein, human	UMLS:C1743459
-FAM3C protein, human	UMLS:C1743459
-Interleukin-Like EMT Inducer	UMLS:C1743459
-Predicted Osteoblast Protein	UMLS:C1743459
-interleukin-like EMT inducer, human	UMLS:C1743459
-family with sequence similarity 3, member C protein, human	UMLS:C1743459
-Interleukin-Like Epithelial-Mesenchymal Transition Inducer	UMLS:C1743459
-ALKAL2	UMLS:C4308120
-AUG-Alpha	UMLS:C4308120
-Augmentor-Alpha	UMLS:C4308120
-Augmentor Alpha	UMLS:C4308120
-Protein FAM150B	UMLS:C4308120
-ALK and LTK Ligand 2	UMLS:C4308120
-ALKAL2 protein, human	UMLS:C4308120
-FAM150B protein, human	UMLS:C4308120
-augmentor-alpha protein, human	UMLS:C4308120
-ALK and LTK ligand 2 protein, human	UMLS:C4308120
-family with sequence similarity 150 member B, human	UMLS:C4308120
-C17 protein, mouse	UMLS:C4508383
-Cytl1 protein, mouse	UMLS:C4508383
-C4orf4 protein, mouse	UMLS:C4508383
-cytokine-like 1 protein, mouse	UMLS:C4508383
 CHEM	UMLS:C0201682
 Chemistry	UMLS:C0201682
 test chemical	UMLS:C0201682
 chemical test	UMLS:C0201682
 chemistry test	UMLS:C0201682
-chemical tests	UMLS:C0201682
 Chemistry Test	UMLS:C0201682
+chemical tests	UMLS:C0201682
 chemical testing	UMLS:C0201682
 chemicals testing	UMLS:C0201682
 Chemical procedure	UMLS:C0201682
-Chemistry Procedure	UMLS:C0201682
 Chemistry Technique	UMLS:C0201682
+Chemistry Procedure	UMLS:C0201682
 Chemistry Measurement	UMLS:C0201682
 Chemistry - non-challenge	UMLS:C0201682
-Anticytokine Therapy	UMLS:C0281178
-anti-cytokine therapy	UMLS:C0281178
-anti cytokine therapy	UMLS:C0281178
-Anti-Cytokine Therapy	UMLS:C0281178
-therapy, anti-cytokine	UMLS:C0281178
-Ultrastructure	UMLS:C0041623
-ultrastructure	UMLS:C0041623
-subcellular structure	UMLS:C0041623
-submicroscopic anatomy	UMLS:C0041623
-C17 protein, human	UMLS:C1309607
-CYTL1 protein, human	UMLS:C1309607
-C4orf4 protein, human	UMLS:C1309607
-cytokine-like 1 protein, human	UMLS:C1309607
-cytokine-like protein C17, human	UMLS:C1309607
+il13	UMLS:C0214743
+IL13	UMLS:C0214743
+il-13	UMLS:C0214743
+IL 13	UMLS:C0214743
+IL-13	UMLS:C0214743
+interleukin 13	UMLS:C0214743
+interleukin-13	UMLS:C0214743
+Interleukin 13	UMLS:C0214743
+Interleukin-13	UMLS:C0214743
 paf	UMLS:C0032172
 PAF	UMLS:C0032172
 AGEPC	UMLS:C0032172
 PAF Acether	UMLS:C0032172
 PAF-Acether	UMLS:C0032172
-platelet activating factor	UMLS:C0032172
 platelet-activating factor	UMLS:C0032172
-Platelet Activating Factor	UMLS:C0032172
 Platelet activating factor	UMLS:C0032172
-Factor, Platelet Activating	UMLS:C0032172
+platelet activating factor	UMLS:C0032172
+Platelet Activating Factor	UMLS:C0032172
 Platelet Aggregating Factor	UMLS:C0032172
+Factor, Platelet Activating	UMLS:C0032172
 Aggregating Factor, Platelet	UMLS:C0032172
 Platelet-Activating Substance	UMLS:C0032172
 Platelet Activating Substance	UMLS:C0032172
-Thrombocyte Aggregating Activity	UMLS:C0032172
 platelet activating factor (PAF)	UMLS:C0032172
+Thrombocyte Aggregating Activity	UMLS:C0032172
 Platelet Aggregation Enhancing Factor	UMLS:C0032172
 Acetyl Glyceryl Ether Phosphorylcholine	UMLS:C0032172
 Phosphorylcholine, Acetyl Glyceryl Ether	UMLS:C0032172
 1-Alkyl-2-acetyl-sn-glycerophosphocholine	UMLS:C0032172
 1 Alkyl 2 acetyl sn glycerophosphocholine	UMLS:C0032172
 1-O-alkyl-2-acetyl-sn-glycero-3-phosphocholine	UMLS:C0032172
-IFN	UMLS:C0021747
-Interferon	UMLS:C0021747
-interferon	UMLS:C0021747
-INTERFERON	UMLS:C0021747
-interferons	UMLS:C0021747
-Interferons	UMLS:C0021747
-IFNL2	UMLS:C3539861
-IL-28A	UMLS:C3539861
-IFN-Lambda-2	UMLS:C3539861
-Interleukin-28A	UMLS:C3539861
-Cytokine Zcyto20	UMLS:C3539861
-Interferon Lambda 2	UMLS:C3539861
-Interferon-Lambda-2	UMLS:C3539861
-Interferon-Lambda 2	UMLS:C3539861
-Interferon Lambda-2	UMLS:C3539861
+FAM3A protein, rat	UMLS:C4705209
+family with sequence similarity 3, member A protein, rat	UMLS:C4705209
+TARC Chemokine	UMLS:C1959608
+Chemokine, TARC	UMLS:C1959608
+CCL17 Chemokine	UMLS:C1959608
+Chemokine CCL17	UMLS:C1959608
+Chemokine, CCL17	UMLS:C1959608
+CCL17, Chemokine	UMLS:C1959608
+Chemokine (C-C motif) ligand 17	UMLS:C1959608
+Thymus and Activation-Regulated Chemokine	UMLS:C1959608
+Thymus and Activation Regulated Chemokine	UMLS:C1959608
+Cytokines &#x7C; XXX &#x7C; Chemistry - non-challenge	UMLS:C5161707
+il1	UMLS:C0021755
+IL1	UMLS:C0021755
+IL-1	UMLS:C0021755
+IL1B	UMLS:C0021755
+il 1	UMLS:C0021755
+il-1	UMLS:C0021755
+Interleukin 1	UMLS:C0021755
+interleukin-1	UMLS:C0021755
+interleukin 1	UMLS:C0021755
+Interleukin-1	UMLS:C0021755
+Interleukin I	UMLS:C0021755
+T Helper Factor	UMLS:C0021755
+interleukin-1 (IL-1)	UMLS:C0021755
+Macrophage Cell Factor	UMLS:C0021755
+Lymphocyte Activating Factor	UMLS:C0021755
+Lymphocyte-Activating Factor	UMLS:C0021755
+lymphocyte activating factor	UMLS:C0021755
+Lymphocyte-Stimulating Hormone	UMLS:C0021755
+LAF (lymphocyte activating factor)	UMLS:C0021755
+Epidermal Cell Derived Thymocyte Activating Factor	UMLS:C0021755
+Epidermal Cell Derived Thymocyte-Activating Factor	UMLS:C0021755
+inhibitor/antagonist	UMLS:C0003139
+antagonists & inhibitors	UMLS:C0003139
+antagonists and inhibitors	UMLS:C0003139
+interleukin	UMLS:C0021764
+Interleukin	UMLS:C0021764
+Interleukins	UMLS:C0021764
+interleukins	UMLS:C0021764
+unspecified interleukin	UMLS:C0021764
+interleukin (unspecified)	UMLS:C0021764
+Miple2 protein, Drosophila	UMLS:C1743535
+Chemokine (C-C motif) ligand 27	UMLS:C5445749
+Neurotactin	UMLS:C0535298
+Fractalkine	UMLS:C0535298
+Chemokine CX3CL1	UMLS:C0535298
+CX3CL1 Chemokine	UMLS:C0535298
+CX3CL1, Chemokine	UMLS:C0535298
+Chemokine, CX3CL1	UMLS:C0535298
+Chemokine (C-X3-C motif) ligand 1	UMLS:C0535298
+Chemokine (C-X3-C Motif) Ligand 1	UMLS:C0535298
+CMTM7	UMLS:C2973526
+CMTM7 protein, human	UMLS:C2973526
+Chemokine-Like Factor Superfamily Member 7	UMLS:C2973526
+CKLF-like MARVEL transmembrane domain containing 7, human	UMLS:C2973526
+CKLF-Like MARVEL Transmembrane Domain-Containing Protein 7	UMLS:C2973526
+Rpf protein, bacteria	UMLS:C1447658
+resuscitation-promoting factor, bacteria	UMLS:C1447658
+Cytokine Signaling	UMLS:C1511617
+Cytokine Signal Transduction	UMLS:C1511617
+function	UMLS:C0031843
+physiology	UMLS:C0031843
+physiological aspects	UMLS:C0031843
+cell-cell signaling	UMLS:C1154413
+Cell-Cell Signaling	UMLS:C1154413
+cell-cell signalling	UMLS:C1154413
+intercellular communication	UMLS:C1154413
+Intercellular Communication	UMLS:C1154413
+Intercellular Communication Process	UMLS:C1154413
+Short-Range Multicellular Communication	UMLS:C1154413
+Cell to Cell Communication and Signaling	UMLS:C1154413
+IL6	UMLS:C0021760
+hgf	UMLS:C0021760
+il6	UMLS:C0021760
+hsf	UMLS:C0021760
+BSF2	UMLS:C0021760
+BCDF	UMLS:C0021760
+il-6	UMLS:C0021760
+il 6	UMLS:C0021760
+IL-6	UMLS:C0021760
+MGI-2	UMLS:C0021760
+BSF-2	UMLS:C0021760
+IFN-beta 2	UMLS:C0021760
+Interleukin 6	UMLS:C0021760
+Interleukin-6	UMLS:C0021760
+interleukin-6	UMLS:C0021760
+interleukin 6	UMLS:C0021760
+6 interleukins	UMLS:C0021760
+interleukins 6	UMLS:C0021760
+Interferon beta-2	UMLS:C0021760
+interferon beta 2	UMLS:C0021760
+Interferon beta 2	UMLS:C0021760
+beta-2, Interferon	UMLS:C0021760
+Hybridoma Growth Factor	UMLS:C0021760
+Growth Factor, Hybridoma	UMLS:C0021760
+Plasmacytoma Growth Factor	UMLS:C0021760
+Growth Factor, Plasmacytoma	UMLS:C0021760
+B Cell Stimulatory Factor 2	UMLS:C0021760
+B-Cell Stimulatory Factor-2	UMLS:C0021760
+B cell stimulating factor 2	UMLS:C0021760
+B Cell Stimulatory Factor-2	UMLS:C0021760
+B-Cell Stimulatory Factor 2	UMLS:C0021760
+B Cell Differentiation Factor	UMLS:C0021760
+B-Cell Differentiation Factor	UMLS:C0021760
+Hepatocyte-Stimulating Factor	UMLS:C0021760
+Hepatocyte Stimulating Factor	UMLS:C0021760
+B cell differentiation factor	UMLS:C0021760
+Differentiation Factor, B-Cell	UMLS:C0021760
+Differentiation Factor, B Cell	UMLS:C0021760
+B Cell Differentiation Factor 2	UMLS:C0021760
+B-Cell Differentiation Factor-2	UMLS:C0021760
+Differentiation Factor 2, B Cell	UMLS:C0021760
+Differentiation Factor-2, B-Cell	UMLS:C0021760
+BSF2 (B cell stimulating factor 2)	UMLS:C0021760
+BCDF (B cell differentiation factor)	UMLS:C0021760
+Myeloid Differentiation Inducing Protein	UMLS:C0021760
+Myeloid Differentiation-Inducing Protein	UMLS:C0021760
+Differentiation-Inducing Protein, Myeloid	UMLS:C0021760
+daromun	UMLS:C4733627
+Daromun	UMLS:C4733627
+L19IL2/L19TNF	UMLS:C4733627
+darleukin/fibromun	UMLS:C4733627
+Darleukin/Fibromun	UMLS:C4733627
+L19-IL2/L19-TNF-alpha	UMLS:C4733627
+darleukin and fibromun	UMLS:C4733627
+Darleukin and Fibromun	UMLS:C4733627
+L19-IL2 and L19-TNF-alpha	UMLS:C4733627
+AT744	UMLS:C0654098
+AT-744	UMLS:C0654098
+AT 744	UMLS:C0654098
+IP10	UMLS:C0056978
+IP 10 protein	UMLS:C0056978
+CXCL10 Chemokine	UMLS:C0056978
+Chemokine CXCL10	UMLS:C0056978
+Chemokine, CXCL10	UMLS:C0056978
+CXCL10, Chemokine	UMLS:C0056978
+gammaIP-10 Protein	UMLS:C0056978
+gammaIP 10 Protein	UMLS:C0056978
+CXC Chemokine IP-10	UMLS:C0056978
+CXC Chemokine IP 10	UMLS:C0056978
+Chemokine IP-10, CXC	UMLS:C0056978
+Cytokine IP 10 Protein	UMLS:C0056978
+Cytokine IP-10 Protein	UMLS:C0056978
+IP-10 Protein, Cytokine	UMLS:C0056978
+Small Inducible Cytokine B10	UMLS:C0056978
+Interferon-Inducible Protein 10	UMLS:C0056978
+Interferon Inducible Protein 10	UMLS:C0056978
+Chemokine (C-X-C Motif) Ligand 10	UMLS:C0056978
+Chemokine (C-X-C motif) ligand 10	UMLS:C0056978
+IFN-gamma-Inducible Protein, 10 kDa	UMLS:C0056978
+IFN gamma Inducible Protein, 10 kDa	UMLS:C0056978
+Interferon-gamma-Inducible Protein of 10 kDa	UMLS:C0056978
+Interferon gamma Inducible Protein of 10 kDa	UMLS:C0056978
+MGF protein, chicken	UMLS:C0055304
+cMGF protein, chicken	UMLS:C0055304
+MGF protein, Gallus gallus	UMLS:C0055304
+chicken myelomonocytic growth factor	UMLS:C0055304
+MIP-1beta	UMLS:C0209338
+MIP 1beta	UMLS:C0209338
+Chemokine CCL4	UMLS:C0209338
+CCL4 Chemokine	UMLS:C0209338
+CCL4, Chemokine	UMLS:C0209338
+Chemokine, CCL4	UMLS:C0209338
+Chemokine (C-C motif) ligand 4	UMLS:C0209338
+Chemokine (C-C Motif) Ligand 4	UMLS:C0209338
+Macrophage Inflammatory Protein 1-beta	UMLS:C0209338
+Macrophage Inflammatory Protein 1 beta	UMLS:C0209338
+Cytokines &#x7C; Serum or Plasma &#x7C; Chemistry - non-challenge	UMLS:C5161706
+CEF-4 protein, chicken	UMLS:C1447133
+CEF-4 cytokine, chicken	UMLS:C1447133
+EMF-1 protein, Gallus gallus	UMLS:C1447133
+cCAF angiogenic factor, chicken	UMLS:C1447133
+9E3-CEF4 protein, Gallus gallus	UMLS:C1447133
+CEF-4-9E3 cytokine protein, chicken	UMLS:C1447133
+cytokine 9E3-CEF4 protein, Gallus gallus	UMLS:C1447133
+embryo fibroblast protein 1, Gallus gallus	UMLS:C1447133
+CLMF	UMLS:C0123759
+IL12	UMLS:C0123759
+NKSF	UMLS:C0123759
+il-12	UMLS:C0123759
+IL 12	UMLS:C0123759
+IL-12	UMLS:C0123759
+il 12	UMLS:C0123759
+IL-12p70	UMLS:C0123759
+IL-12 p70	UMLS:C0123759
+Interleukin 12	UMLS:C0123759
+interleukin 12	UMLS:C0123759
+interleukin-12	UMLS:C0123759
+Interleukin-12	UMLS:C0123759
+Interleukin 12 p70	UMLS:C0123759
+Interleukin-12 p70	UMLS:C0123759
+Cytotoxic Lymphocyte Maturation Factor	UMLS:C0123759
+Natural Killer Cell Stimulatory Factor	UMLS:C0123759
+Tafa5 protein, mouse	UMLS:C5197392
+Fam19a5 protein, mouse	UMLS:C5197392
+TAFA chemokine like family member 5 protein, mouse	UMLS:C5197392
+Adipokine	UMLS:C1955907
+Adipokines	UMLS:C1955907
+Adipocytokine	UMLS:C1955907
+Adipocytokines	UMLS:C1955907
+poisoning	UMLS:C0032344
+Poisoning aspects	UMLS:C0032344
 Cer1 protein, mouse	UMLS:C0675595
 cer-1 protein, mouse	UMLS:C0675595
 Cerr1 protein, mouse	UMLS:C0675595
 cerberus homolog 1, mouse	UMLS:C0675595
 cerberus-like protein, mouse	UMLS:C0675595
-genetics	UMLS:C0017399
-genetic aspects	UMLS:C0017399
-C17	UMLS:C1539216
-CYTL1	UMLS:C1539216
-C4orf4	UMLS:C1539216
-CYTL1 gene	UMLS:C1539216
-cytokine like 1	UMLS:C1539216
-cytokine-like 1	UMLS:C1539216
-CYTOKINE-LIKE PROTEIN 1	UMLS:C1539216
-Oit1 protein, human	UMLS:C2976684
-FAM3D protein, human	UMLS:C2976684
-Family with sequence similarity 3 member D protein, human	UMLS:C2976684
-OSM	UMLS:C1702221
-Oncostatin M	UMLS:C1702221
-Oncostatin-M	UMLS:C1702221
-OSM protein, human	UMLS:C1702221
-oncostatin M, human	UMLS:C1702221
-Tag7 protein, mouse	UMLS:C1447655
-Pglyrp1 protein, mouse	UMLS:C1447655
-peptidoglycan recognition protein 1, mouse	UMLS:C1447655
-function protein	UMLS:C0815043
-protein function	UMLS:C0815043
-function proteins	UMLS:C0815043
-functions proteins	UMLS:C0815043
-proteins by function	UMLS:C0815043
-Proteins [By Function]	UMLS:C0815043
-Protein, Organized by Function	UMLS:C0815043
-Cytokine Gene	UMLS:C1333196
-inhibitor/antagonist	UMLS:C0003139
-antagonists & inhibitors	UMLS:C0003139
-antagonists and inhibitors	UMLS:C0003139
-TNFSF Protein	UMLS:C0041368
-TNF (unspecified)	UMLS:C0041368
-TNF Receptor Ligands	UMLS:C0041368
-Receptor Ligands, TNF	UMLS:C0041368
-tumor necrosis factor	UMLS:C0041368
-Tumor necrosis factor	UMLS:C0041368
-Tumor Necrosis Factors	UMLS:C0041368
-Necrosis Factors, Tumor	UMLS:C0041368
-tumor necrosis factor (unspecified)	UMLS:C0041368
-Tumor Necrosis Factor Family Protein	UMLS:C0041368
-Tumor Necrosis Factor Superfamily Protein	UMLS:C0041368
-PBEF	UMLS:C1571622
-Nampt	UMLS:C1571622
-Visfatin	UMLS:C1571622
-NAmPRTase	UMLS:C1571622
-PBEF, human	UMLS:C1571622
-EC 2.4.2.12	UMLS:C1571622
-visfatin, human	UMLS:C1571622
-NAmPRTase, human	UMLS:C1571622
-PBEF1 protein, human	UMLS:C1571622
-NAMPT protein, human	UMLS:C1571622
-Pre-B Cell Enhancing Factor	UMLS:C1571622
-Pre-B Cell-Enhancing Factor	UMLS:C1571622
-Pre-B-Cell Colony-Enhancing Factor	UMLS:C1571622
-Pre-B-Cell Colony-Enhancing Factor 1	UMLS:C1571622
-Pre-B-Cell Colony Enhancing Factor 1	UMLS:C1571622
-Nicotinamide Phosphoribosyltransferase	UMLS:C1571622
-pre-B-cell colony-enhancing factor, human	UMLS:C1571622
-nicotinamide phosphoribosyltransferase, human	UMLS:C1571622
-Chemokine (C-C motif) ligand 5	UMLS:C5445750
-osteopontin	UMLS:C0069676
-Osteopontin	UMLS:C0069676
-Sialoprotein 1	UMLS:C0069676
-Bone Sialoprotein 1	UMLS:C0069676
-Bone Sialoprotein I	UMLS:C0069676
-Sialoprotein 1, Bone	UMLS:C0069676
-Sialoprotein I, Bone	UMLS:C0069676
-Secreted Phosphoprotein 1	UMLS:C0069676
-Cytokines Spec Ql	UMLS:C1716333
-Cytokines Ql (Specimen)	UMLS:C1716333
-Cytokines:PrThr:Pt:XXX:Ord	UMLS:C1716333
-Cytokines [Presence] in Specimen	UMLS:C1716333
-Cytokines:Presence or Threshold:To identify measures at a point in time:Not specified:Ordinal	UMLS:C1716333
-supply & distribution	UMLS:C0038849
-supply and distribution	UMLS:C0038849
-ISG15 protein, rat	UMLS:C4276937
-IFN-stimulated gene 15 protein, rat	UMLS:C4276937
-CTRP Biomarker Terminology	UMLS:C4684827
-Clinical Trials Reporting Program Biomarker Terminology	UMLS:C4684827
-GDF-15	UMLS:C0668195
-Prostate Differentiation Factor	UMLS:C0668195
-Growth Differentiation Factor 15	UMLS:C0668195
-Differentiation Factor, Prostate	UMLS:C0668195
-Macrophage Inhibitory Cytokine 1	UMLS:C0668195
-Growth and differentiation factor 15	UMLS:C0668195
-MEDA-7 protein, mouse	UMLS:C3490576
-mesenteric oestrogen-dependent adipose gene-7 protein, mouse	UMLS:C3490576
-NODAL	UMLS:C3272515
-Nodal Homolog	UMLS:C3272515
-Nodal Growth Differentiation Factor	UMLS:C3272515
-blood	UMLS:C0005768
-In Blood	UMLS:C0005768
-G1P2 protein, human	UMLS:C0385884
-UCRP protein, human	UMLS:C0385884
-ISG15 protein, human	UMLS:C0385884
-IFN-stimulated gene 15 protein, human	UMLS:C0385884
-ubiquitin cross-reactive protein, human	UMLS:C0385884
-Interferon-stimulated 15-KDa protein, human	UMLS:C0385884
-interferon-induced 17-kDa-15-kDa protein, human	UMLS:C0385884
-interferon, alpha-inducible protein (clone IFI-15K), human	UMLS:C0385884
-IFNL3	UMLS:C1174094
-IL-28B	UMLS:C1174094
-IL-28C	UMLS:C1174094
-IFN-Lambda-3	UMLS:C1174094
-IFN-Lambda-4	UMLS:C1174094
-Interleukin-28B	UMLS:C1174094
-Interleukin-28C	UMLS:C1174094
-Cytokine Zcyto22	UMLS:C1174094
-Interferon-Lambda 3	UMLS:C1174094
-Interferon Lambda-3	UMLS:C1174094
-Interferon Lambda 3	UMLS:C1174094
-Interferon Lambda-4	UMLS:C1174094
-Interferon-Lambda-3	UMLS:C1174094
-IL28B protein, human	UMLS:C1174094
-IFNL3 protein, human	UMLS:C1174094
-IL-28B protein, human	UMLS:C1174094
-interleukin 28B, human	UMLS:C1174094
-IFN-lambda-3 protein, human	UMLS:C1174094
-interleukin 28B protein, human	UMLS:C1174094
-Interferon lambda-3 protein, human	UMLS:C1174094
-interleukin 28B (interferon, lambda 3) protein, human	UMLS:C1174094
-CTRP Molecular Genetic Biomarker Terminology	UMLS:C4684828
-Clinical Trials Reporting Program Molecular Genetic Biomarker Terminology	UMLS:C4684828
-Lymphokine	UMLS:C0024297
-lymphokine	UMLS:C0024297
-lymphokines	UMLS:C0024297
-Lymphokines	UMLS:C0024297
-Lymphocyte Mediators	UMLS:C0024297
-Mediators, Lymphocyte	UMLS:C0024297
-Diedel protein, Drosophila	UMLS:C4278422
-analysis	UMLS:C1524024
-analysis aspect	UMLS:C1524024
-Interleukin	UMLS:C0021764
-interleukin	UMLS:C0021764
-Interleukins	UMLS:C0021764
-interleukins	UMLS:C0021764
-unspecified interleukin	UMLS:C0021764
-interleukin (unspecified)	UMLS:C0021764
-Ik protein, mouse	UMLS:C1435365
-IK cytokine, mouse	UMLS:C1435365
-muRED protein, mouse	UMLS:C1435365
-acquired immunity	UMLS:C0678209
-Acquired Immunity	UMLS:C0678209
-Adaptive Immunity	UMLS:C0678209
-Adoptive Immunity	UMLS:C0678209
-Immunity, Acquired	UMLS:C0678209
-Immunity, Adoptive	UMLS:C0678209
-Immunity, Adaptive	UMLS:C0678209
-BB10010	UMLS:C0286385
-BB 10010	UMLS:C0286385
-BB-10010	UMLS:C0286385
-BRM	UMLS:C0005525
-Biomodulator	UMLS:C0005525
-Biomodulators	UMLS:C0005525
-Immunomodulators	UMLS:C0005525
-Immune Mediators	UMLS:C0005525
-Immune Modulators	UMLS:C0005525
-Immune Regulators	UMLS:C0005525
-Immunopotentiators	UMLS:C0005525
-Immunotherapy Agent	UMLS:C0005525
-Immunomodulating Agent	UMLS:C0005525
-Immunomodulatory Agent	UMLS:C0005525
-Immunotherapeutic Agent	UMLS:C0005525
-Biological Response Modifier	UMLS:C0005525
-biological response modifier	UMLS:C0005525
-biological response modifiers	UMLS:C0005525
-Modifier, Biological Response	UMLS:C0005525
-Biological Response Modifiers	UMLS:C0005525
-Response Modifier, Biological	UMLS:C0005525
-Biological response modifiers	UMLS:C0005525
-Response Modifiers, Biological	UMLS:C0005525
-Modifiers, Biological Response	UMLS:C0005525
-MIP-1alpha	UMLS:C0128546
-MIP 1alpha	UMLS:C0128546
-CCL3 Chemokine	UMLS:C0128546
-Chemokine CCL3	UMLS:C0128546
-CCL3, Chemokine	UMLS:C0128546
-Chemokine, CCL3	UMLS:C0128546
-LD78alpha Chemokine	UMLS:C0128546
-Chemokine, LD78alpha	UMLS:C0128546
-Small Inducible Cytokine A3	UMLS:C0128546
-Chemokine (C-C Motif) Ligand 3	UMLS:C0128546
-Macrophage inflammatory protein 1.alpha	UMLS:C0128546
-Macrophage inflammatory protein 1 alpha	UMLS:C0128546
-Macrophage Inflammatory Protein 1 alpha	UMLS:C0128546
-Macrophage Inflammatory Protein 1-alpha	UMLS:C0128546
-FAM3B protein, rat	UMLS:C5196511
-family with sequence similarity 3, member B protein, rat	UMLS:C5196511
-haptotaxin	UMLS:C0755459
-FTAF	UMLS:C0076602
-thymocyte-activating factor, fibroblasts	UMLS:C0076602
-FAM3B protein, mouse	UMLS:C1613326
-PANDER protein, mouse	UMLS:C1613326
-pancreatic derived factor, mouse	UMLS:C1613326
-chemistry	UMLS:C0079107
-chemical aspects	UMLS:C0079107
-Miple2 protein, Drosophila	UMLS:C1743535
-TNFR1	UMLS:C0255808
-TNFR-I	UMLS:C0255808
-CD120a	UMLS:C0255808
-TNFR p60	UMLS:C0255808
-CD120a Antigen	UMLS:C0255808
-Antigen, CD120a	UMLS:C0255808
-CD 120a Antigen	UMLS:C0255808
-CD120a Antigens	UMLS:C0255808
-120a Antigen, CD	UMLS:C0255808
-Antigen, CD 120a	UMLS:C0255808
-Antigens, CD120a	UMLS:C0255808
-TNFRSF1A Receptor	UMLS:C0255808
-Receptor, TNFRSF1A	UMLS:C0255808
-Tumor Necrosis Factor Receptor 1A	UMLS:C0255808
-tumor necrosis factor receptor 1A	UMLS:C0255808
-Tumor Necrosis Factor Receptor Type I	UMLS:C0255808
-Tumor Necrosis Factor Receptor Type 1	UMLS:C0255808
-Receptors, Tumor Necrosis Factor, Type I	UMLS:C0255808
-Receptors, Tumor Necrosis Factor, Member 1A	UMLS:C0255808
-Tumor necrosis factor receptor superfamily member 1A	UMLS:C0255808
-Tumor Necrosis Factor Receptor Superfamily, Member 1A	UMLS:C0255808
-TNFRSF1A (Tumor Necrosis Factor Receptor Superfamily, Member 1A)	UMLS:C0255808
-FAM3A protein, rat	UMLS:C4705209
-family with sequence similarity 3, member A protein, rat	UMLS:C4705209
-mcf	UMLS:C0008015
-Macrophage chemotactic factor	UMLS:C0008015
-Macrophage Chemotactic Factor	UMLS:C0008015
-Factor, Macrophage Chemotactic	UMLS:C0008015
-Macrophage Chemotactic Factors	UMLS:C0008015
-Chemotactic Factor, Macrophage	UMLS:C0008015
-Chemotactic Factors, Macrophage	UMLS:C0008015
-macrophage chemotactic factor (MCF)	UMLS:C0008015
-leukocyte mediator	UMLS:C1328923
-mip	UMLS:C0376579
-MIP	UMLS:C0376579
-macrophage inflammatory protein	UMLS:C0376579
-Macrophage Inflammatory Protein	UMLS:C0376579
-Macrophage Inflammatory Proteins	UMLS:C0376579
-Protein, Macrophage Inflammatory	UMLS:C0376579
-Inflammatory Protein, Macrophage	UMLS:C0376579
-Inflammatory Proteins, Macrophage	UMLS:C0376579
-TARC Chemokine	UMLS:C1959608
-CCL17 Chemokine	UMLS:C1959608
-Chemokine, TARC	UMLS:C1959608
-Chemokine CCL17	UMLS:C1959608
-Chemokine, CCL17	UMLS:C1959608
-CCL17, Chemokine	UMLS:C1959608
-Chemokine (C-C motif) ligand 17	UMLS:C1959608
-Thymus and Activation Regulated Chemokine	UMLS:C1959608
-Thymus and Activation-Regulated Chemokine	UMLS:C1959608
-Chemokine (C-C motif) ligand 20	UMLS:C5445748
-IK protein, human	UMLS:C0290867
-RED protein, human	UMLS:C0290867
-IK cytokine, human	UMLS:C0290867
-IK cytokine, down-regulator of HLA II, human	UMLS:C0290867
-IK cytokine, down-regulator of HLA II protein, human	UMLS:C0290867
-IL13	UMLS:C0214743
-il13	UMLS:C0214743
-il-13	UMLS:C0214743
-IL-13	UMLS:C0214743
-IL 13	UMLS:C0214743
-Interleukin 13	UMLS:C0214743
-interleukin-13	UMLS:C0214743
-interleukin 13	UMLS:C0214743
-Interleukin-13	UMLS:C0214743
-Tafa5 protein, rat	UMLS:C2355253
-TAFA5 peptide, rat	UMLS:C2355253
-FAM19A5 protein, rat	UMLS:C2355253
-TAFA chemokine like family member 5 protein, rat	UMLS:C2355253
-Innate Immunity	UMLS:C0020969
-Native Immunity	UMLS:C0020969
-native immunity	UMLS:C0020969
-innate immunity	UMLS:C0020969
-natural immunity	UMLS:C0020969
-Immunity, Native	UMLS:C0020969
-Natural Immunity	UMLS:C0020969
-Natural immunity	UMLS:C0020969
-Immunity, Innate	UMLS:C0020969
-Immunity, Natural	UMLS:C0020969
-non-specific immunity	UMLS:C0020969
-Non-Specific Immunity	UMLS:C0020969
-Innate Immune Response	UMLS:C0020969
-Immunity, Non-Specific	UMLS:C0020969
-Immunity, Non Specific	UMLS:C0020969
-innate immune response	UMLS:C0020969
-Innate Immune Responses	UMLS:C0020969
-Immune Response, Innate	UMLS:C0020969
-Immune Responses, Innate	UMLS:C0020969
-nonspecific immune response	UMLS:C0020969
-cytoferon	UMLS:C0251841
-IL-28 protein, mouse	UMLS:C1723154
-interleukin 28, mouse	UMLS:C1723154
-IFN-lambda protein, mouse	UMLS:C1723154
-interferon-lambda protein, mouse	UMLS:C1723154
-monokine	UMLS:C0026484
-Monokines	UMLS:C0026484
-Cytokines Ql	UMLS:C1544815
-Cytokines SerPl Ql	UMLS:C1544815
-Cytokines:PrThr:Pt:Ser/Plas:Ord	UMLS:C1544815
-Cytokines [Presence] in Serum or Plasma	UMLS:C1544815
-Cytokines:Presence or Threshold:To identify measures at a point in time:Serum/Plasma:Ordinal	UMLS:C1544815
-CLMF	UMLS:C0123759
-IL12	UMLS:C0123759
-NKSF	UMLS:C0123759
-IL-12	UMLS:C0123759
-IL 12	UMLS:C0123759
-il 12	UMLS:C0123759
-il-12	UMLS:C0123759
-IL-12p70	UMLS:C0123759
-IL-12 p70	UMLS:C0123759
-Interleukin-12	UMLS:C0123759
-Interleukin 12	UMLS:C0123759
-interleukin 12	UMLS:C0123759
-interleukin-12	UMLS:C0123759
-Interleukin 12 p70	UMLS:C0123759
-Interleukin-12 p70	UMLS:C0123759
-Cytotoxic Lymphocyte Maturation Factor	UMLS:C0123759
-Natural Killer Cell Stimulatory Factor	UMLS:C0123759
-daromun	UMLS:C4733627
-Daromun	UMLS:C4733627
-L19IL2/L19TNF	UMLS:C4733627
-Darleukin/Fibromun	UMLS:C4733627
-darleukin/fibromun	UMLS:C4733627
-L19-IL2/L19-TNF-alpha	UMLS:C4733627
-Darleukin and Fibromun	UMLS:C4733627
-darleukin and fibromun	UMLS:C4733627
-L19-IL2 and L19-TNF-alpha	UMLS:C4733627
-TAFA4 protein, mouse	UMLS:C3884635
-Intercellular Space	UMLS:C0015352
-extracellular space	UMLS:C0015352
-Intercellular space	UMLS:C0015352
-Extracellular Space	UMLS:C0015352
-Extracellular space	UMLS:C0015352
-intercellular space	UMLS:C0015352
-Space, Intercellular	UMLS:C0015352
-Extracellular Spaces	UMLS:C0015352
-Intercellular Spaces	UMLS:C0015352
-Space, Extracellular	UMLS:C0015352
-Spaces, Extracellular	UMLS:C0015352
-Spaces, Intercellular	UMLS:C0015352
-Myokine	UMLS:C4763719
-EMAP-2	UMLS:C0173372
-EMAP II	UMLS:C0173372
-22-kDa meth A factor	UMLS:C0173372
-22-kDa methylcholanthrene A factor	UMLS:C0173372
-p43 protein, multi-synthetase complex	UMLS:C0173372
-endothelial monocyte-activating polypeptide II	UMLS:C0173372
-small inducible cytokine subfamily E, member 1	UMLS:C0173372
-multisynthetase complex auxiliary component p43	UMLS:C0173372
-immunologic substance development/preparation	UMLS:C0920678
-HARP	UMLS:C0084084
-HBNF	UMLS:C0084084
-OSF-1	UMLS:C0084084
-HBGF-8	UMLS:C0084084
-HB-GAM	UMLS:C0084084
-HB-GAM-PTN	UMLS:C0084084
-pleiotropin	UMLS:C0084084
-pleiotrophin	UMLS:C0084084
-heparin binding growth factor-8	UMLS:C0084084
-heparin binding growth factor 8	UMLS:C0084084
-heparin affin regulatory peptide	UMLS:C0084084
-heparin-binding neurotrophic factor	UMLS:C0084084
-heparin affin regulatory peptide (HARP)	UMLS:C0084084
-heparin-binding growth-associated molecule	UMLS:C0084084
-Cytokines &#x7C; XXX &#x7C; Chemistry - non-challenge	UMLS:C5161707
 MIF	UMLS:C1870471
 EC 5.3.2.1	UMLS:C1870471
 EC 5.3.3.12	UMLS:C1870471
@@ -1258,12 +1098,286 @@ Glycosylation-Inhibiting Factor	UMLS:C1870471
 MIF Phenylpyruvate tautomerase, human	UMLS:C1870471
 Macrophage Migration Inhibitory Factor	UMLS:C1870471
 macrophage migration inhibitory factor (glycosylation-inhibiting factor), human	UMLS:C1870471
-Cytokines	UMLS:C1524094
-Recombinant Cytokine	UMLS:C1524094
-Recombinant Cytokines	UMLS:C1524094
-PGI	UMLS:C2975867
-PHI	UMLS:C2975867
+taxonomy	UMLS:C0008903
+Taxonomic	UMLS:C0008903
+classification	UMLS:C0008903
+cytoferon	UMLS:C0251841
+Drug effect	UMLS:C0728866
+drug effects	UMLS:C0728866
+effect of drugs	UMLS:C0728866
+pharmacologic effects	UMLS:C0728866
+TAFA5 protein, human	UMLS:C5226499
+FAM19A5 protein, human	UMLS:C5226499
+TAFA chemokine like family member 5 protein, human	UMLS:C5226499
+radiation effects	UMLS:C0034526
+aspects of radiation effects	UMLS:C0034526
+Chemokine (C-C motif) ligand 7	UMLS:C5445751
+HIN-1 protein, human	UMLS:C1096936
+UGRP2 protein, human	UMLS:C1096936
+SG3A1 protein, human	UMLS:C1096936
+SCGB3A1 protein, human	UMLS:C1096936
+uteroglobin-related protein 2, human	UMLS:C1096936
+secretoglobin, family 3A, member 1 protein, human	UMLS:C1096936
+JHERP protein, Apanteles kariyai	UMLS:C0378850
+growth blocking peptide, Apanteles kariyai	UMLS:C0378850
+growth blocking peptide (GBP), Apanteles kariyai	UMLS:C0378850
+juvenile hormone esterase repressive peptide, Apanteles kariyai	UMLS:C0378850
+CLCF1 protein, human	UMLS:C4279290
+CLCF-1 protein, human	UMLS:C4279290
+cardiotrophin-like cytokine factor 1, human	UMLS:C4279290
+cardiotrophin like cytokine factor 1 protein, human	UMLS:C4279290
+cardiotrophin-like cytokine factor 1 protein, human	UMLS:C4279290
+OSM	UMLS:C1702221
+Oncostatin M	UMLS:C1702221
+Oncostatin-M	UMLS:C1702221
+OSM protein, human	UMLS:C1702221
+oncostatin M, human	UMLS:C1702221
+Tag7 protein, mouse	UMLS:C1447655
+Pglyrp1 protein, mouse	UMLS:C1447655
+peptidoglycan recognition protein 1, mouse	UMLS:C1447655
+cell communication molecule	UMLS:C0596284
+acquired immunity	UMLS:C0678209
+Acquired Immunity	UMLS:C0678209
+Adaptive Immunity	UMLS:C0678209
+Adoptive Immunity	UMLS:C0678209
+Immunity, Adaptive	UMLS:C0678209
+Immunity, Adoptive	UMLS:C0678209
+Immunity, Acquired	UMLS:C0678209
+TAG7 protein, human	UMLS:C1452514
+PGLYRP1 protein, human	UMLS:C1452514
+peptidoglycan recognition protein 1, human	UMLS:C1452514
+CTF1	UMLS:C5226077
+Cardiophin 1	UMLS:C5226077
+Cardiotrophin 1	UMLS:C5226077
+Cardiotrophin-1	UMLS:C5226077
+CTF1 protein, human	UMLS:C5226077
+cardiotrophin 1 protein, human	UMLS:C5226077
+chemistry	UMLS:C0079107
+chemical aspects	UMLS:C0079107
+side effects	UMLS:C0001688
+adverse effects	UMLS:C0001688
+aspects of adverse effects	UMLS:C0001688
+vgr cytokine	UMLS:C0656033
+vegetal-related cytokine	UMLS:C0656033
+vegetal related cytokine	UMLS:C0656033
+G1p2 protein, mouse	UMLS:C1455443
+Isg15 protein, mouse	UMLS:C1455443
+Interferon-induced 15-KDa protein, mouse	UMLS:C1455443
+interferon, alpha-inducible protein, mouse	UMLS:C1455443
+IL11	UMLS:C0083031
+IL-11	UMLS:C0083031
+il 11	UMLS:C0083031
+il-11	UMLS:C0083031
+Interleukin 11	UMLS:C0083031
+INTERLEUKIN-11	UMLS:C0083031
+interleukin 11	UMLS:C0083031
+Interleukin-11	UMLS:C0083031
+interleukin-11	UMLS:C0083031
+Adipogenesis Inhibitory Factor	UMLS:C0083031
+Factor, Adipogenesis Inhibitory	UMLS:C0083031
+Inhibitory Factor, Adipogenesis	UMLS:C0083031
+Chemokine CXCL1	UMLS:C3887572
+CXCL1 Chemokine	UMLS:C3887572
+CXCL1, Chemokine	UMLS:C3887572
+GROalpha Protein	UMLS:C3887572
+Chemokine, CXCL1	UMLS:C3887572
+Gro-alpha Protein	UMLS:C3887572
+Gro alpha Protein	UMLS:C3887572
+MGSA-alpha Chemokine	UMLS:C3887572
+MGSA alpha Chemokine	UMLS:C3887572
+Chemokine, MGSA-alpha	UMLS:C3887572
+recombinant GRO1 Protein	UMLS:C3887572
+Neutrophil-Activating Protein 3	UMLS:C3887572
+Neutrophil Activating Protein 3	UMLS:C3887572
+Chemokine (C-X-C motif) ligand 1	UMLS:C3887572
+Chemokine (C-X-C Motif) Ligand 1	UMLS:C3887572
+Growth Related Oncogene alpha Protein	UMLS:C3887572
+Growth-Related Oncogene alpha Protein	UMLS:C3887572
+Melanoma Growth Stimulatory Activity, alpha Protein	UMLS:C3887572
+Drm protein, mouse	UMLS:C1431383
+GREMLIN protein, mouse	UMLS:C1431383
+Cktsf1b1 protein, mouse	UMLS:C1431383
+cysteine knot superfamily 1, BMP antagonist 1 protein, mouse	UMLS:C1431383
+anabolism	UMLS:C0005572
+bioformation	UMLS:C0005572
+biosynthesis	UMLS:C0005572
+NAmPRTase, rat	UMLS:C1612255
+PDEF protein, rat	UMLS:C1612255
+NAMPT protein, rat	UMLS:C1612255
+visfatin protein, rat	UMLS:C1612255
+pre-B-cell colony-enhancing factor, rat	UMLS:C1612255
+nicotinamide phosphoribosyltransferase, rat	UMLS:C1612255
+MIP-4	UMLS:C0541270
+CCL18	UMLS:C0541270
+DC-CK1	UMLS:C0541270
+AMAC-1	UMLS:C0541270
+CC Chemokine PARC	UMLS:C0541270
+MIP-4 protein, human	UMLS:C0541270
+CCL18 protein, human	UMLS:C0541270
+DCCK1 protein, human	UMLS:C0541270
+AMAC-1 protein, human	UMLS:C0541270
+SCYA18 protein, human	UMLS:C0541270
+PARC chemokine, human	UMLS:C0541270
+DC-CK1 protein, human	UMLS:C0541270
+CC Chemokine Ligand 18	UMLS:C0541270
+C-C Motif Chemokine 18	UMLS:C0541270
+CC chemokine PARC, human	UMLS:C0541270
+Dendritic Cell Chemokine 1	UMLS:C0541270
+T Cell-Directed CC Chemokine	UMLS:C0541270
+Small-Inducible Cytokine A18	UMLS:C0541270
+Small Inducible Cytokine A18	UMLS:C0541270
+Chemokine, CC Motif, Ligand 18	UMLS:C0541270
+Chemokine (C-C motif) ligand 18	UMLS:C0541270
+Chemokine (C-C Motif) Ligand 18	UMLS:C0541270
+Macrophage Inflammatory Protein 4	UMLS:C0541270
+Thymus and Activation-Regulated Chemokine	UMLS:C0541270
+Pulmonary and Activation-Regulated Chemokine	UMLS:C0541270
+Small Inducible Cytokine Subfamily A, Member 18	UMLS:C0541270
+pulmonary and activation-regulated chemokine, human	UMLS:C0541270
+Small Inducible Cytokine Subfamily A (Cys-Cys), Member 18	UMLS:C0541270
+Alternative Macrophage Activation-Associated CC Chemokine 1	UMLS:C0541270
+small inducible cytokine subfamily A, member 18 protein, human	UMLS:C0541270
+alternative macrophage activation-associated CC-chemokine 1, human	UMLS:C0541270
+Chemokine (C-C Motif) Ligand 18 (Pulmonary and Activation-Regulated)	UMLS:C0541270
+chemokine (C-C motif) ligand 18 (pulmonary and activation-regulated) protein, human	UMLS:C0541270
+Small Inducible Cytokine Subfamily A (Cys-Cys), Member 18, Pulmonary and Activation-Regulated	UMLS:C0541270
+Cytokines Ql	UMLS:C1544815
+Cytokines SerPl Ql	UMLS:C1544815
+Cytokines:PrThr:Pt:Ser/Plas:Ord	UMLS:C1544815
+Cytokines [Presence] in Serum or Plasma	UMLS:C1544815
+Cytokines:Presence or Threshold:To identify measures at a point in time:Serum/Plasma:Ordinal	UMLS:C1544815
+hIRH	UMLS:C0218504
+PBSF	UMLS:C0218504
+SDF-1	UMLS:C0218504
+CXCL12	UMLS:C0218504
+CXCL12 Chemokine	UMLS:C0218504
+Chemokine CXCL12	UMLS:C0218504
+Chemokine, CXCL12	UMLS:C0218504
+CXCL12, Chemokine	UMLS:C0218504
+Stromal Cell-Derived Factor 1	UMLS:C0218504
+Stromal Cell Derived Factor 1	UMLS:C0218504
+stromal cell-derived factor 1	UMLS:C0218504
+Chemokine (C-X-C Motif) Ligand 12	UMLS:C0218504
+Pre-B Cell Growth Stimulating Factor	UMLS:C0218504
+Pre B Cell Growth Stimulating Factor	UMLS:C0218504
+Pre-B-Cell Growth-Stimulating Factor	UMLS:C0218504
+Growth-Stimulating Factor, Pre-B-Cell	UMLS:C0218504
+TAFA4 protein, mouse	UMLS:C3884635
+pharmacokinetics	UMLS:C0031328
+Pharmacokinetic aspects	UMLS:C0031328
+Il24 protein, mouse	UMLS:C1310046
+FISP protein, mouse	UMLS:C1310046
+IL-24 protein, mouse	UMLS:C1310046
+interleukin 24, mouse	UMLS:C1310046
+IL-4-induced secreted protein, mouse	UMLS:C1310046
+neuroleukin, rat	UMLS:C2975869
+Gpi protein, rat	UMLS:C2975869
+autocrine motility factor, rat	UMLS:C2975869
+glucose phosphate isomerase, rat	UMLS:C2975869
+glucose-6-phosphate isomerase, rat	UMLS:C2975869
+CSF-2	UMLS:C0079460
+gmcsf	UMLS:C0079460
+GMCSF	UMLS:C0079460
+CSF-GM	UMLS:C0079460
+GM-CSF	UMLS:C0079460
+gm csf	UMLS:C0079460
+gm-cfs	UMLS:C0079460
+gm-csf	UMLS:C0079460
+TC-GM-CSF	UMLS:C0079460
+Colony-stimulating factor 2	UMLS:C0079460
+Histamine Producing Cell Stimulating Factor	UMLS:C0079460
+Histamine-Producing Cell-Stimulating Factor	UMLS:C0079460
+histamine producing cell stimulating factor	UMLS:C0079460
+Cell-Stimulating Factor, Histamine-Producing	UMLS:C0079460
+Tumor-Cell Human GM Colony-Stimulating Factor	UMLS:C0079460
+Tumor Cell Human GM Colony Stimulating Factor	UMLS:C0079460
+Granulocyte-Macrophage Colony-Stimulating Factor	UMLS:C0079460
+Granulocyte macrophage colony stimulating factor	UMLS:C0079460
+granulocyte macrophage colony-stimulating factor	UMLS:C0079460
+granulocyte-macrophage colony-stimulating factor	UMLS:C0079460
+Granulocyte-macrophage colony-stimulating factor	UMLS:C0079460
+granulocyte-macrophage colony stimulating factor	UMLS:C0079460
+granulocyte macrophage colony stimulating factor	UMLS:C0079460
+Granulocyte Macrophage Colony Stimulating Factor	UMLS:C0079460
+Colony Stimulating Factor, Granulocyte Macrophage	UMLS:C0079460
+Colony-Stimulating Factor, Granulocyte-Macrophage	UMLS:C0079460
+GMCSF (granulocyte macrophage colony stimulating factor)	UMLS:C0079460
+TSLP Cytokine	UMLS:C0762640
+Cytokine, TSLP	UMLS:C0762640
+Thymic Stromal Lymphopoietin	UMLS:C0762640
+Thymic stromal lymphopoietin	UMLS:C0762640
+thymic stromal lymphopoietin	UMLS:C0762640
+Stromal Lymphopoietin, Thymic	UMLS:C0762640
+Lymphopoietin, Thymic Stromal	UMLS:C0762640
+Chemokine	UMLS:C0282554
+chemokine	UMLS:C0282554
+Intercrine	UMLS:C0282554
+chemokines	UMLS:C0282554
+Chemokines	UMLS:C0282554
+Intercrines	UMLS:C0282554
+SIS cytokines	UMLS:C0282554
+Chemotactic Cytokine	UMLS:C0282554
+chemotactic cytokine	UMLS:C0282554
+Chemotactic Cytokines	UMLS:C0282554
+Cytokine, Chemotactic	UMLS:C0282554
+Cytokines, Chemotactic	UMLS:C0282554
+chemoattractant cytokine	UMLS:C0282554
+Homologous Chemotactic Cytokines	UMLS:C0282554
+TGF-B	UMLS:C0040690
+tgf b	UMLS:C0040690
+TGFbeta	UMLS:C0040690
+tgfbeta	UMLS:C0040690
+TGF-beta	UMLS:C0040690
+TGF-Beta	UMLS:C0040690
+TGF beta	UMLS:C0040690
+TGF Beta	UMLS:C0040690
+tgf beta	UMLS:C0040690
+tgf-beta	UMLS:C0040690
+Milk Growth Factor	UMLS:C0040690
+Growth Factor, Milk	UMLS:C0040690
+Factor, Milk Growth	UMLS:C0040690
+factors growth milk	UMLS:C0040690
+Tumor Growth Factor B	UMLS:C0040690
+Tumor Growth Factor Beta	UMLS:C0040690
+transforming growth factor-beta	UMLS:C0040690
+transforming growth factor beta	UMLS:C0040690
+Transforming growth factor beta	UMLS:C0040690
+Transforming Growth Factor beta	UMLS:C0040690
+Transforming Growth Factor-Beta	UMLS:C0040690
+Transforming growth factors-beta	UMLS:C0040690
+Platelet Transforming Growth Factor	UMLS:C0040690
+Bone-Derived Transforming Growth Factor	UMLS:C0040690
+Bone Derived Transforming Growth Factor	UMLS:C0040690
+Transforming Growth Factor-Beta Superfamily	UMLS:C0040690
+IHG-2	UMLS:C1438932
+GREM1	UMLS:C1438932
+Gremlin 1	UMLS:C1438932
+Gremlin-1	UMLS:C1438932
+DRM protein, human	UMLS:C1438932
+GREM1 protein, human	UMLS:C1438932
+IHG-2 protein, human	UMLS:C1438932
+GREMLIN protein, human	UMLS:C1438932
+CKTSF1B1 protein, human	UMLS:C1438932
+gremlin 1 protein, human	UMLS:C1438932
+DAN Domain Family Member 2	UMLS:C1438932
+Increased In High Glucose-2	UMLS:C1438932
+Increased In High Glucose Protein 2	UMLS:C1438932
+Cell Proliferation-Inducing Gene 2 Protein	UMLS:C1438932
+Cysteine Knot Superfamily 1, BMP Antagonist 1	UMLS:C1438932
+Down-Regulated in Mos-Transformed Cells Protein	UMLS:C1438932
+cysteine knot superfamily 1, BMP antagonist 1 protein, human	UMLS:C1438932
+Angiokine	UMLS:C0618497
+Angiokines	UMLS:C0618497
+angiokines	UMLS:C0618497
+Angiogenic Lymphokine	UMLS:C0618497
+Angiogenic Lymphokines	UMLS:C0618497
+therapeutic use	UMLS:C0039795
+therapeutic use - qualifier	UMLS:C0039795
+FAM3A protein, human	UMLS:C3656982
+family with sequence similarity 3, member A protein, human	UMLS:C3656982
 NLK	UMLS:C2975867
+PHI	UMLS:C2975867
+PGI	UMLS:C2975867
 Neuroleukin	UMLS:C2975867
 GPI protein, human	UMLS:C2975867
 neuroleukin, human	UMLS:C2975867
@@ -1273,288 +1387,174 @@ Glucose-6-Phosphate Isomerase	UMLS:C2975867
 autocrine motility factor, human	UMLS:C2975867
 glucose phosphate isomerase, human	UMLS:C2975867
 glucose-6-phosphate isomerase, human	UMLS:C2975867
-Cytokine	UMLS:C0079189
-cytokine	UMLS:C0079189
-cytokines	UMLS:C0079189
-Cytokines	UMLS:C0079189
-INFL4	UMLS:C3657783
-IFN-Lambda-4	UMLS:C3657783
-Interferon Lambda-4	UMLS:C3657783
-IFNL4 protein, human	UMLS:C3657783
-IFN-lambda4 protein, human	UMLS:C3657783
-interferon-lambda 4 protein, human	UMLS:C3657783
-TSLP Cytokine	UMLS:C0762640
-Cytokine, TSLP	UMLS:C0762640
-thymic stromal lymphopoietin	UMLS:C0762640
-Thymic Stromal Lymphopoietin	UMLS:C0762640
-Thymic stromal lymphopoietin	UMLS:C0762640
-Lymphopoietin, Thymic Stromal	UMLS:C0762640
-Stromal Lymphopoietin, Thymic	UMLS:C0762640
-IL1	UMLS:C0021755
-il1	UMLS:C0021755
-il-1	UMLS:C0021755
-il 1	UMLS:C0021755
-IL1B	UMLS:C0021755
-IL-1	UMLS:C0021755
-Interleukin I	UMLS:C0021755
-Interleukin-1	UMLS:C0021755
-interleukin-1	UMLS:C0021755
-Interleukin 1	UMLS:C0021755
-interleukin 1	UMLS:C0021755
-T Helper Factor	UMLS:C0021755
-interleukin-1 (IL-1)	UMLS:C0021755
-Macrophage Cell Factor	UMLS:C0021755
-lymphocyte activating factor	UMLS:C0021755
-Lymphocyte Activating Factor	UMLS:C0021755
-Lymphocyte-Activating Factor	UMLS:C0021755
-Lymphocyte-Stimulating Hormone	UMLS:C0021755
-LAF (lymphocyte activating factor)	UMLS:C0021755
-Epidermal Cell Derived Thymocyte Activating Factor	UMLS:C0021755
-Epidermal Cell Derived Thymocyte-Activating Factor	UMLS:C0021755
-CMTM7	UMLS:C2973526
-CMTM7 protein, human	UMLS:C2973526
-Chemokine-Like Factor Superfamily Member 7	UMLS:C2973526
-CKLF-like MARVEL transmembrane domain containing 7, human	UMLS:C2973526
-CKLF-Like MARVEL Transmembrane Domain-Containing Protein 7	UMLS:C2973526
-NNT-1 protein, mouse	UMLS:C1435002
-BSF-3 protein, mouse	UMLS:C1435002
-novel neurotrophin-1, mouse	UMLS:C1435002
-B cell stimulating factor-3, mouse	UMLS:C1435002
-chemokine	UMLS:C0282554
-Chemokine	UMLS:C0282554
-chemokines	UMLS:C0282554
-Intercrine	UMLS:C0282554
-Chemokines	UMLS:C0282554
-Intercrines	UMLS:C0282554
-SIS cytokines	UMLS:C0282554
-chemotactic cytokine	UMLS:C0282554
-Chemotactic Cytokine	UMLS:C0282554
-Chemotactic Cytokines	UMLS:C0282554
-Cytokine, Chemotactic	UMLS:C0282554
-Cytokines, Chemotactic	UMLS:C0282554
-chemoattractant cytokine	UMLS:C0282554
-Homologous Chemotactic Cytokines	UMLS:C0282554
-poisoning	UMLS:C0032344
-Poisoning aspects	UMLS:C0032344
+CCL11	UMLS:C0250604
+eotaxin	UMLS:C0250604
+Eotaxin	UMLS:C0250604
+Eotaxin-1	UMLS:C0250604
+Eotaxin 1	UMLS:C0250604
+CCL11 Chemokine	UMLS:C0250604
+Chemokine CCL11	UMLS:C0250604
+CCL11, Chemokine	UMLS:C0250604
+Chemokine, CCL11	UMLS:C0250604
+Chemokine (C-C Motif) Ligand 11	UMLS:C0250604
+Chemokine (C-C motif) ligand 11	UMLS:C0250604
+Small Chemokine (C-C Motif) Ligand 11	UMLS:C0250604
+Mcr protein, Drosophila	UMLS:C1700156
+TEP6 protein, Drosophila	UMLS:C1700156
+LD23292p protein, Drosophila	UMLS:C1700156
+thioester-containing protein 6, Drosophila	UMLS:C1700156
+macroglobulin complement related protein, Drosophila	UMLS:C1700156
+Macroglobulin complement-related protein, Drosophila	UMLS:C1700156
+history	UMLS:C0019665
+historical aspects	UMLS:C0019665
+Historical aspects qualifier	UMLS:C0019665
+MCSF	UMLS:C0079784
+CSF-1	UMLS:C0079784
+CSF-M	UMLS:C0079784
+m-csf	UMLS:C0079784
+M-CSF	UMLS:C0079784
+Colony-stimulating factor 1	UMLS:C0079784
+Colony Stimulating Factor 1	UMLS:C0079784
+Colony-Stimulating Factor 1	UMLS:C0079784
+Macrophage Colony-Stimulating Factor	UMLS:C0079784
+Macrophage colony-stimulating factor	UMLS:C0079784
+Colony-Stimulating Factor, Macrophage	UMLS:C0079784
+Colony Stimulating Factor, Macrophage	UMLS:C0079784
+macrophage colony-stimulating factor (M-CSF)	UMLS:C0079784
+IL8	UMLS:C0079633
+il8	UMLS:C0079633
+il-8	UMLS:C0079633
+IL-8	UMLS:C0079633
+AMCF-I	UMLS:C0079633
+interleukin 8	UMLS:C0079633
+Interleukin 8	UMLS:C0079633
+interleukin-8	UMLS:C0079633
+Interleukin-8	UMLS:C0079633
+INTERLEUKIN-8	UMLS:C0079633
+Chemokine CXCL8	UMLS:C0079633
+CXCL8 Chemokine	UMLS:C0079633
+CXCL8 Chemokines	UMLS:C0079633
+Chemokine, CXCL8	UMLS:C0079633
+CXCL8, Chemokine	UMLS:C0079633
+Chemokines, CXCL8	UMLS:C0079633
+Interleukin-8 (IL-8)	UMLS:C0079633
+Neutrophil Activation Factor	UMLS:C0079633
+Neutrophil Chemotactic Factor	UMLS:C0079633
+Chemotactic Factor, Neutrophil	UMLS:C0079633
+Macrophage-Derived Chemotactic Factor	UMLS:C0079633
+Anionic Neutrophil Activating Peptide	UMLS:C0079633
+Anionic Neutrophil-Activating Peptide	UMLS:C0079633
+Chemotactic Factor, Macrophage-Derived	UMLS:C0079633
+Peptide, Anionic Neutrophil-Activating	UMLS:C0079633
+Neutrophil-Activating Peptide, Anionic	UMLS:C0079633
+Chemotactic Factor, Macrophage Derived	UMLS:C0079633
+Alveolar Macrophage Chemotactic Factor I	UMLS:C0079633
+Alveolar Macrophage Chemotactic Factor-I	UMLS:C0079633
+Granulocyte Chemotactic Peptide Interleukin 8	UMLS:C0079633
+Granulocyte Chemotactic Peptide-Interleukin-8	UMLS:C0079633
+Monocyte-Derived Neutrophil-Activating Peptide	UMLS:C0079633
+Chemotactic Peptide-Interleukin-8, Granulocyte	UMLS:C0079633
+Monocyte-Derived Neutrophil Chemotactic Factor	UMLS:C0079633
+Neutrophil Activating Peptide, Monocyte Derived	UMLS:C0079633
+Neutrophil-Activating Peptide, Monocyte-Derived	UMLS:C0079633
+Chemotactic Factor, Neutrophil, Monocyte-Derived	UMLS:C0079633
+Lymphocyte-Derived Neutrophil-Activating Peptide	UMLS:C0079633
+Neutrophil-Activating Peptide, Lymphocyte-Derived	UMLS:C0079633
+Neutrophil Activating Peptide, Lymphocyte Derived	UMLS:C0079633
+Lymphokine	UMLS:C0024297
+lymphokine	UMLS:C0024297
+Lymphokines	UMLS:C0024297
+lymphokines	UMLS:C0024297
+Lymphocyte Mediators	UMLS:C0024297
+Mediators, Lymphocyte	UMLS:C0024297
+itln3 protein, zebrafish	UMLS:C5433613
+intelectin 3 protein, zebrafish	UMLS:C5433613
+limitin	UMLS:C0915737
+Itln1 protein, mouse	UMLS:C3886269
+omentin protein, mouse	UMLS:C3886269
+omentin-1 protein, mouse	UMLS:C3886269
+intelectin 1 (galactofuranose binding) protein, mouse	UMLS:C3886269
+lymphocyte-derived cytokine	UMLS:C0682758
+MCP1	UMLS:C0128897
+mcp-1	UMLS:C0128897
+Chemokine CCL2	UMLS:C0128897
+CCL2 Chemokine	UMLS:C0128897
+Chemokines CCL2	UMLS:C0128897
+CCL2, Chemokine	UMLS:C0128897
+Chemokine, CCL2	UMLS:C0128897
+CCL2, Chemokines	UMLS:C0128897
+Chemokine (C-C motif) ligand 2	UMLS:C0128897
+Chemokine (C-C Motif) Ligand 2	UMLS:C0128897
+monocyte chemotactic protein-1	UMLS:C0128897
+Monocyte Chemotactic Protein 1	UMLS:C0128897
+Monocyte Chemotactic Protein-1	UMLS:C0128897
+Chemotactic Protein-1, Monocyte	UMLS:C0128897
+monocyte chemoattractant protein 1	UMLS:C0128897
+Monocyte Chemoattractant Protein 1	UMLS:C0128897
+Monocyte Chemoattractant Protein-1	UMLS:C0128897
+Chemoattractant Protein-1, Monocyte	UMLS:C0128897
+Monocyte Chemotactic and Activating Factor	UMLS:C0128897
+Ins-33 protein, C elegans	UMLS:C1664699
+Chemokine (C-X-C motif) ligand 9	UMLS:C5445752
+cerebrospinal fluid	UMLS:C0007807
+In Cerebrospinal Fluid	UMLS:C0007807
+GIP II	UMLS:C0259029
+granulocyte inhibitory protein II	UMLS:C0259029
+CER1 protein, human	UMLS:C1742950
+cerberus 1 protein, human	UMLS:C1742950
+TNFSF Protein	UMLS:C0041368
+TNF (unspecified)	UMLS:C0041368
+TNF Receptor Ligands	UMLS:C0041368
+Receptor Ligands, TNF	UMLS:C0041368
+tumor necrosis factor	UMLS:C0041368
+Tumor necrosis factor	UMLS:C0041368
+Tumor Necrosis Factors	UMLS:C0041368
+Necrosis Factors, Tumor	UMLS:C0041368
+tumor necrosis factor (unspecified)	UMLS:C0041368
+Tumor Necrosis Factor Family Protein	UMLS:C0041368
+Tumor Necrosis Factor Superfamily Protein	UMLS:C0041368
+ALKAL2	UMLS:C4308120
+AUG-Alpha	UMLS:C4308120
+Augmentor Alpha	UMLS:C4308120
+Protein FAM150B	UMLS:C4308120
+Augmentor-Alpha	UMLS:C4308120
+ALK and LTK Ligand 2	UMLS:C4308120
+ALKAL2 protein, human	UMLS:C4308120
+FAM150B protein, human	UMLS:C4308120
+augmentor-alpha protein, human	UMLS:C4308120
+ALK and LTK ligand 2 protein, human	UMLS:C4308120
+family with sequence similarity 150 member B, human	UMLS:C4308120
 PBEF, mouse	UMLS:C1565278
 visfatin, mouse	UMLS:C1565278
 NAmPRTase, mouse	UMLS:C1565278
 Nampt protein, mouse	UMLS:C1565278
 pre-B-cell colony-enhancing factor, mouse	UMLS:C1565278
 nicotinamide phosphoribosyltransferase, mouse	UMLS:C1565278
-GIP protein, human (granulocyte)	UMLS:C0250432
-granulocyte inhibitory protein, human	UMLS:C0250432
-IL8	UMLS:C0079633
-il8	UMLS:C0079633
-IL-8	UMLS:C0079633
-il-8	UMLS:C0079633
-AMCF-I	UMLS:C0079633
-interleukin 8	UMLS:C0079633
-INTERLEUKIN-8	UMLS:C0079633
-Interleukin 8	UMLS:C0079633
-Interleukin-8	UMLS:C0079633
-interleukin-8	UMLS:C0079633
-CXCL8 Chemokine	UMLS:C0079633
-Chemokine CXCL8	UMLS:C0079633
-CXCL8, Chemokine	UMLS:C0079633
-Chemokine, CXCL8	UMLS:C0079633
-CXCL8 Chemokines	UMLS:C0079633
-Chemokines, CXCL8	UMLS:C0079633
-Interleukin-8 (IL-8)	UMLS:C0079633
-Neutrophil Activation Factor	UMLS:C0079633
-Neutrophil Chemotactic Factor	UMLS:C0079633
-Chemotactic Factor, Neutrophil	UMLS:C0079633
-Anionic Neutrophil-Activating Peptide	UMLS:C0079633
-Macrophage-Derived Chemotactic Factor	UMLS:C0079633
-Anionic Neutrophil Activating Peptide	UMLS:C0079633
-Neutrophil-Activating Peptide, Anionic	UMLS:C0079633
-Chemotactic Factor, Macrophage Derived	UMLS:C0079633
-Chemotactic Factor, Macrophage-Derived	UMLS:C0079633
-Peptide, Anionic Neutrophil-Activating	UMLS:C0079633
-Alveolar Macrophage Chemotactic Factor-I	UMLS:C0079633
-Alveolar Macrophage Chemotactic Factor I	UMLS:C0079633
-Granulocyte Chemotactic Peptide-Interleukin-8	UMLS:C0079633
-Granulocyte Chemotactic Peptide Interleukin 8	UMLS:C0079633
-Monocyte-Derived Neutrophil-Activating Peptide	UMLS:C0079633
-Monocyte-Derived Neutrophil Chemotactic Factor	UMLS:C0079633
-Chemotactic Peptide-Interleukin-8, Granulocyte	UMLS:C0079633
-Neutrophil Activating Peptide, Monocyte Derived	UMLS:C0079633
-Neutrophil-Activating Peptide, Monocyte-Derived	UMLS:C0079633
-Chemotactic Factor, Neutrophil, Monocyte-Derived	UMLS:C0079633
-Lymphocyte-Derived Neutrophil-Activating Peptide	UMLS:C0079633
-Neutrophil Activating Peptide, Lymphocyte Derived	UMLS:C0079633
-Neutrophil-Activating Peptide, Lymphocyte-Derived	UMLS:C0079633
-CEF-4 protein, chicken	UMLS:C1447133
-CEF-4 cytokine, chicken	UMLS:C1447133
-EMF-1 protein, Gallus gallus	UMLS:C1447133
-cCAF angiogenic factor, chicken	UMLS:C1447133
-9E3-CEF4 protein, Gallus gallus	UMLS:C1447133
-CEF-4-9E3 cytokine protein, chicken	UMLS:C1447133
-cytokine 9E3-CEF4 protein, Gallus gallus	UMLS:C1447133
-embryo fibroblast protein 1, Gallus gallus	UMLS:C1447133
-pharmacokinetics	UMLS:C0031328
-Pharmacokinetic aspects	UMLS:C0031328
-Drug effect	UMLS:C0728866
-drug effects	UMLS:C0728866
-effect of drugs	UMLS:C0728866
-pharmacologic effects	UMLS:C0728866
-NAmPRTase, rat	UMLS:C1612255
-PDEF protein, rat	UMLS:C1612255
-NAMPT protein, rat	UMLS:C1612255
-visfatin protein, rat	UMLS:C1612255
-pre-B-cell colony-enhancing factor, rat	UMLS:C1612255
-nicotinamide phosphoribosyltransferase, rat	UMLS:C1612255
-MF-1 cytokine	UMLS:C2354674
-metron factor-1	UMLS:C2354674
-TAFA5 protein, human	UMLS:C5226499
-FAM19A5 protein, human	UMLS:C5226499
-TAFA chemokine like family member 5 protein, human	UMLS:C5226499
-CCL8 Chemokine	UMLS:C0379886
-Chemokine CCL8	UMLS:C0379886
-CCL8, Chemokine	UMLS:C0379886
-Chemokine, CCL8	UMLS:C0379886
-Chemokine (C-C motif) ligand 8	UMLS:C0379886
-Chemokine (C-C Motif) Ligand 8	UMLS:C0379886
-Monocyte Chemotactic Protein 2	UMLS:C0379886
-Monocyte Chemotactic Protein-2	UMLS:C0379886
-Protein-2, Monocyte Chemotactic	UMLS:C0379886
-Chemotactic Protein-2, Monocyte	UMLS:C0379886
-Monocyte Chemoattractant Protein 2	UMLS:C0379886
-monocyte chemoattractant protein-2	UMLS:C0379886
-Monocyte Chemoattractant Protein-2	UMLS:C0379886
-Protein-2, Monocyte Chemoattractant	UMLS:C0379886
-Chemoattractant Protein-2, Monocyte	UMLS:C0379886
-Monocyte Chemotactic Activating Factor-2	UMLS:C0379886
-Monocyte Chemotactic Activating Factor 2	UMLS:C0379886
+chemical synthesis	UMLS:C4759732
+chemical synthesis aspects	UMLS:C4759732
+immunology	UMLS:C1522005
+immunology aspects	UMLS:C1522005
+deficiency	UMLS:C1623416
+deficiency aspects	UMLS:C1623416
 p43 cytokine, mouse	UMLS:C1741864
 Aimp1 protein, mouse	UMLS:C1741864
 aminoacyl tRNA synthetase complex-interacting multifunctional protein 1, mouse	UMLS:C1741864
-CTF1	UMLS:C5226077
-Cardiophin 1	UMLS:C5226077
-Cardiotrophin-1	UMLS:C5226077
-Cardiotrophin 1	UMLS:C5226077
-CTF1 protein, human	UMLS:C5226077
-cardiotrophin 1 protein, human	UMLS:C5226077
-therapeutic use	UMLS:C0039795
-therapeutic use - qualifier	UMLS:C0039795
-PRDC protein, human	UMLS:C1531052
-GREM2 protein, human	UMLS:C1531052
-CKTSF1B2 protein, human	UMLS:C1531052
-gremlin 2, cysteine knot superfamily, homolog (Xenopus laevis) protein, human	UMLS:C1531052
-IP10	UMLS:C0056978
-IP 10 protein	UMLS:C0056978
-CXCL10 Chemokine	UMLS:C0056978
-Chemokine CXCL10	UMLS:C0056978
-CXCL10, Chemokine	UMLS:C0056978
-Chemokine, CXCL10	UMLS:C0056978
-gammaIP-10 Protein	UMLS:C0056978
-gammaIP 10 Protein	UMLS:C0056978
-CXC Chemokine IP 10	UMLS:C0056978
-CXC Chemokine IP-10	UMLS:C0056978
-Chemokine IP-10, CXC	UMLS:C0056978
-Cytokine IP-10 Protein	UMLS:C0056978
-Cytokine IP 10 Protein	UMLS:C0056978
-IP-10 Protein, Cytokine	UMLS:C0056978
-Small Inducible Cytokine B10	UMLS:C0056978
-Interferon Inducible Protein 10	UMLS:C0056978
-Interferon-Inducible Protein 10	UMLS:C0056978
-Chemokine (C-X-C Motif) Ligand 10	UMLS:C0056978
-Chemokine (C-X-C motif) ligand 10	UMLS:C0056978
-IFN gamma Inducible Protein, 10 kDa	UMLS:C0056978
-IFN-gamma-Inducible Protein, 10 kDa	UMLS:C0056978
-Interferon-gamma-Inducible Protein of 10 kDa	UMLS:C0056978
-Interferon gamma Inducible Protein of 10 kDa	UMLS:C0056978
-IFN	UMLS:C0733470
-Interferon	UMLS:C0733470
-human leukocyte interferon	UMLS:C0733470
-Human Leukocyte Interferon	UMLS:C0733470
-Human Fibroblast Interferon	UMLS:C0733470
-Human Lymphoblastoid Interferon	UMLS:C0733470
-Chemokine (C-C motif) ligand 27	UMLS:C5445749
-Rpf protein, bacteria	UMLS:C1447658
-resuscitation-promoting factor, bacteria	UMLS:C1447658
-polypeptide 48	UMLS:C0385825
-p48 differentiation-activation factor	UMLS:C0385825
-IL18	UMLS:C0383327
-il18	UMLS:C0383327
-il-18	UMLS:C0383327
-IL-18	UMLS:C0383327
-interleukin 18	UMLS:C0383327
-18 interleukin	UMLS:C0383327
-Interleukin 18	UMLS:C0383327
-Interleukin-18	UMLS:C0383327
-interleukin-18	UMLS:C0383327
-IFN-gamma Inducing Factor	UMLS:C0383327
-IFN gamma Inducing Factor	UMLS:C0383327
-IFN-gamma-Inducing Factor	UMLS:C0383327
-Inducing Factor, IFN-gamma	UMLS:C0383327
-interferon gamma inducing factor	UMLS:C0383327
-Interferon gamma Inducing Factor	UMLS:C0383327
-Interferon-gamma Inducing Factor	UMLS:C0383327
-Interferon-gamma-Inducing Factor	UMLS:C0383327
-Inducing Factor, Interferon-gamma	UMLS:C0383327
-CSF-2	UMLS:C0079460
-gmcsf	UMLS:C0079460
-GMCSF	UMLS:C0079460
-GM-CSF	UMLS:C0079460
-gm csf	UMLS:C0079460
-gm-csf	UMLS:C0079460
-gm-cfs	UMLS:C0079460
-CSF-GM	UMLS:C0079460
-TC-GM-CSF	UMLS:C0079460
-Colony-stimulating factor 2	UMLS:C0079460
-Histamine Producing Cell Stimulating Factor	UMLS:C0079460
-histamine producing cell stimulating factor	UMLS:C0079460
-Histamine-Producing Cell-Stimulating Factor	UMLS:C0079460
-Cell-Stimulating Factor, Histamine-Producing	UMLS:C0079460
-Tumor-Cell Human GM Colony-Stimulating Factor	UMLS:C0079460
-Tumor Cell Human GM Colony Stimulating Factor	UMLS:C0079460
-granulocyte-macrophage colony stimulating factor	UMLS:C0079460
-Granulocyte macrophage colony stimulating factor	UMLS:C0079460
-Granulocyte Macrophage Colony Stimulating Factor	UMLS:C0079460
-granulocyte macrophage colony-stimulating factor	UMLS:C0079460
-granulocyte-macrophage colony-stimulating factor	UMLS:C0079460
-Granulocyte-macrophage colony-stimulating factor	UMLS:C0079460
-granulocyte macrophage colony stimulating factor	UMLS:C0079460
-Granulocyte-Macrophage Colony-Stimulating Factor	UMLS:C0079460
-Colony Stimulating Factor, Granulocyte Macrophage	UMLS:C0079460
-Colony-Stimulating Factor, Granulocyte-Macrophage	UMLS:C0079460
-GMCSF (granulocyte macrophage colony stimulating factor)	UMLS:C0079460
-osteoclastpoietic factor	UMLS:C0658190
-omentin protein, rat	UMLS:C3886270
-GBP protein, Drosophila	UMLS:C4077722
-growth-blocking peptide, Drosophila	UMLS:C4077722
-TSLP	UMLS:C3853698
-Thymic Stromal Lymphopoietin	UMLS:C3853698
-Thymic Stromal Lymphopoietin, human	UMLS:C3853698
-Thymic Stromal Lymphopoietin Protein TSLP	UMLS:C3853698
-IFNL1	UMLS:C3541295
-IL-29	UMLS:C3541295
-IFN-Lambda-1	UMLS:C3541295
-Interleukin-29	UMLS:C3541295
-Cytokine Zcyto21	UMLS:C3541295
-Interferon-Lambda-1	UMLS:C3541295
-Interferon Lambda-1	UMLS:C3541295
-Interferon-Lambda 1	UMLS:C3541295
-Interferon Lambda 1	UMLS:C3541295
-TAG7 protein, human	UMLS:C1452514
-PGLYRP1 protein, human	UMLS:C1452514
-peptidoglycan recognition protein 1, human	UMLS:C1452514
-Cytokine Receptor Activation	UMLS:C1707601
-LDNCF-2	UMLS:C0065491
-MIP2alpha	UMLS:C0065491
-MIP-2alpha	UMLS:C0065491
-MIP 2alpha	UMLS:C0065491
-MIP-2 Chemokine	UMLS:C0065491
-Chemokine CXCL2	UMLS:C0065491
-CXCL2 Chemokine	UMLS:C0065491
-MIP 2 Chemokine	UMLS:C0065491
-Chemokine, CXCL2	UMLS:C0065491
-Chemokine, MIP-2	UMLS:C0065491
-CXCL2, Chemokine	UMLS:C0065491
-Chemokine (C-X-C Motif) Ligand 2	UMLS:C0065491
-Macrophage Inflammatory Protein 2	UMLS:C0065491
-macrophage inflammatory protein 2	UMLS:C0065491
-Macrophage Inflammatory Protein 2alpha	UMLS:C0065491
-Macrophage Inflammatory Protein-2alpha	UMLS:C0065491
-Inflammatory Protein-2alpha, Macrophage	UMLS:C0065491
+leukoregulin	UMLS:C0064839
+Leukoregulin	UMLS:C0064839
+NODAL	UMLS:C3272515
+Nodal Homolog	UMLS:C3272515
+Nodal Growth Differentiation Factor	UMLS:C3272515
+isolation & purification	UMLS:C0022189
+isolation and purification	UMLS:C0022189
+isolation & purification analysis	UMLS:C0022189
+Intercellular Signaling Peptides and Proteins	UMLS:C1136108
+CTRP4 protein, human	UMLS:C3178595
+C1QTNF4 protein, human	UMLS:C3178595
+C1qTNF-related protein 4, human	UMLS:C3178595
+supply & distribution	UMLS:C0038849
+supply and distribution	UMLS:C0038849
+Cytokine Gene	UMLS:C1333196
+AT464	UMLS:C0654095
+AT-464	UMLS:C0654095
+AT 464	UMLS:C0654095
+macrophage-derived cytokine	UMLS:C0682757
