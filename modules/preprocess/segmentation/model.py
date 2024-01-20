@@ -67,7 +67,7 @@ class Model(nn.Module):
         self.linear = nn.Sequential(
             nn.Linear(self.params['embedding_dim'], hidden_size),
             nn.Tanh(),
-            nn.Linear(hidden_size, self.params['class_num'])
+            nn.Linear(hidden_size, 4)
         ).to(self.device)
 
         # cross entropy loss

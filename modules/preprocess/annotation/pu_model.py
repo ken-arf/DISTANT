@@ -43,10 +43,9 @@ import pdb
 
 class PU_Model(nn.Module):
 
-    def __init__(self, dataloader, params, logger):
+    def __init__(self, params, logger):
         super(PU_Model, self).__init__()
 
-        self.dataloader = dataloader
         self.params = params
         self.logger = logger
         self.myseed = self.params["seed"]
@@ -62,11 +61,22 @@ class PU_Model(nn.Module):
             model_checkpoint).to(self.device)
 
         self.dropout = nn.Dropout(self.params['dropout_rate'])
-        self.linear = nn.Linear(
-            self.params['embedding_dim'], self.params['class_num']).to(self.device)
+
+        # change hidden_zie = > 100->200
+        # hidden_size = 100
+        hidden_size = 100
+
+        self.linear = nn.Sequential(
+            nn.Linear(self.params['embedding_dim'] * 3, hidden_size),
+            nn.ReLU(),
+            nn.Linear(hidden_size, self.params['class_num'])
+        ).to(self.device)
 
         # cross entropy loss
-        self.loss = nn.CrossEntropyLoss()
+        if self.params['class_num'] > 1:
+            self.loss = nn.CrossEntropyLoss()
+        else:
+            self.loss = nn.BCEWithLogitsLoss()
 
     def forward(self, **kargs):
 
@@ -89,13 +99,22 @@ class PU_Model(nn.Module):
         features = []
         for k, (start, end) in enumerate(zip(start_pos, end_pos)):
             feature = bert_sequence_output[k, start:end+1, :]
+
+            head_feature = feature[0, :]
             mean_feature = torch.mean(feature, 0)
-            features.append(mean_feature)
+            tail_feature = feature[-1, :]
+
+            features.append(
+                torch.cat((head_feature, mean_feature, tail_feature)))
 
         features_pt = torch.stack(features)
 
         # logit
         logit = self.linear(features_pt)
+
+        if self.params['class_num'] == 1:
+            labels = labels.reshape(-1, 1).float()
+
         loss = self.loss(logit, labels)
 
         return loss
@@ -107,7 +126,7 @@ class PU_Model(nn.Module):
         attention_mask = kargs["attention_mask"]
         start_pos = kargs["start_positions"]
         end_pos = kargs["end_positions"]
-        labels = kargs["labels"]
+        # labels = kargs["labels"]
 
         # Extract outputs from the body
         bert_outputs = self.bert_model(
@@ -121,16 +140,26 @@ class PU_Model(nn.Module):
         features = []
         for k, (start, end) in enumerate(zip(start_pos, end_pos)):
             feature = bert_sequence_output[k, start:end+1, :]
+
+            head_feature = feature[0, :]
             mean_feature = torch.mean(feature, 0)
-            features.append(mean_feature)
+            tail_feature = feature[-1, :]
+
+            features.append(
+                torch.cat((head_feature, mean_feature, tail_feature)))
 
         features_pt = torch.stack(features)
 
         # logit
         logit = self.linear(features_pt)
-        predicts = torch.argmax(logit, axis=1)
+        if self.params['class_num'] > 1:
+            predicts = torch.argmax(logit, axis=1)
+            # probability
+            probs = F.softmax(logit, dim=1)
+        else:
+            probs = torch.sigmoid(logit)
 
-        # probability
-        probs = F.softmax(logit, dim=1)
+            predicts = torch.zeros(logit.shape[0]).int()
+            predicts[probs.reshape(-1) > 0.5] = 1
 
         return predicts.cpu().detach().numpy(), probs.cpu().detach().numpy()

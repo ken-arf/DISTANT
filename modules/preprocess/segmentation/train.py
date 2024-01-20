@@ -55,9 +55,34 @@ def load_file(file,  n_type):
 
 def convert_bio(label):
     if label == 'O':
-        return 0
-    else:
-        return 1
+        return 'O'
+    elif label.startswith('B_'):
+        return 'B'
+    elif label.startswith('I_'):
+        return 'I'
+    elif label.startswith('S_'):
+        return 'S'
+
+
+def encode(lseq):
+
+    label2int = {'O': 0, 'B': 1, 'I': 2, 'S': 3}
+
+    n = len(lseq[0])
+    label = [0] * n
+
+    for seq in lseq:
+        for i, l in enumerate(seq):
+            if l == 'B' or l == 'I':
+                label[i] = label2int[l]
+
+    for seq in lseq:
+        for i, l in enumerate(seq):
+            if l == 'S':
+                if label[i] == 0:
+                    label[i] = label2int[l]
+
+    return label
 
 
 def load_dataset(parameters):
@@ -70,6 +95,8 @@ def load_dataset(parameters):
     text_data = []
     label_data = []
 
+    # pdb.set_trace()
+
     for file in tqdm(files):
         # print(file)
         input_data = load_file(file, ent_num)
@@ -81,7 +108,8 @@ def load_dataset(parameters):
             for i in range(ent_num):
                 lseq.append(list(map(convert_bio, input_data[f'bio_{i}'][sn])))
 
-            bl = [1 if sum(s) > 0 else 0 for s in zip(*lseq)]
+            bl = encode(lseq)
+            # bl = [1 if sum(s) > 0 else 0 for s in zip(*lseq)]
     #        print(bl, len(bl))
     #        print(input_data['tokens'][sn], len(input_data['tokens'][sn]))
             text_data.append(input_data['tokens'][sn])
@@ -194,7 +222,7 @@ def train(parameters, name_suffix):
             logger.debug("labels")
             logger.debug(labels)
 
-            label_map = {0: 0, 1: 1}
+            label_map = {0: 0, 1: 1, 2: 2, 3: 3}
             true_predictions, true_labels = utils.postprocess(
                 predictions, labels, label_map)
 

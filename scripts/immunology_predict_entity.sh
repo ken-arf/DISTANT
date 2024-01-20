@@ -20,7 +20,7 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
-#nohup python modules/preprocess/annotation/ds_annotation.py --yaml $YAML_PATH > $LOG_PATH &
+#python modules/preprocess/annotation/pu_predict2.py --yaml $YAML_PATH 
 python modules/preprocess/annotation/pu_predict.py --yaml $YAML_PATH 
 
 #sleep 5

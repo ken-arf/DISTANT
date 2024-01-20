@@ -20,7 +20,6 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
-#nohup python modules/preprocess/dictionary/extract_umls_concept_dict.py --yaml $YAML_PATH > LOG_PATH &
 python modules/preprocess/dictionary/extract_umls_concept_dict.py --yaml $YAML_PATH 
 
 #sleep 5

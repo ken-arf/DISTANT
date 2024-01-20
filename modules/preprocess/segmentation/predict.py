@@ -94,32 +94,51 @@ class EntityExtraction:
 
     def get_entities(self, text):
 
-        # pdb.set_trace()
         tokenized_input, aux_data = self.tokenize_text(text)
         prediction, prob = self.model.predict(**tokenized_input)
 
-        # extract span of 1's
-        indexes = np.argwhere(prediction[0] == 1).squeeze(-1).tolist()
         entity_indexes = []
         span = []
+        # search for 'B': 1
+        n = len(prediction[0])
 
-        prev_index = None
-        for index in indexes:
-            if prev_index == None:
-                span.append(index)
-                prev_index = index
-            elif prev_index + 1 == index:
-                span.append(index)
-                prev_index = index
-            else:
-                if len(span) != 0:
-                    entity_indexes.append(span.copy())
-                    span = []
-                span.append(index)
-                prev_index = index
+        pred = prediction[0]
 
-        if len(span) != 0:
-            entity_indexes.append(span.copy())
+        in_S = False
+        in_BI = False
+        for i, l in enumerate(pred):
+            if l == 3:  # S
+                if in_BI:
+                    span_end = i - 1
+                    entity_indexes.append([span_start, span_end])
+                    in_BI = False
+                if not in_S:
+                    in_S = True
+                    span_start = i
+            elif l == 1:  # B
+                if in_S:
+                    span_end = i - 1
+                    entity_indexes.append([span_start, span_end])
+                    in_S = False
+                in_BI = True
+                span_start = i
+            elif l == 2:  # I
+                if not in_BI:
+                    in_BI = True
+                    span_start = i
+            elif l == 0:  # O
+                if in_BI:
+                    span_end = i-1
+                    entity_indexes.append([span_start, span_end])
+                    in_BI = False
+                elif in_S:
+                    span_end = i-1
+                    entity_indexes.append([span_start, span_end])
+                    in_S = False
+
+        if in_BI or in_S:
+            span_end = i
+            entity_indexes.append([span_start, span_end])
 
         # conver index to word_ids
         word_indexes = [[aux_data["word_ids"][index]
@@ -202,8 +221,6 @@ def main():
 
     text_dir = parameters["test_dir"]
     files = sorted(glob(f"{text_dir}/*.txt"))
-
-    pdb.set_trace()
 
     for file in files:
         with open(file) as fp:

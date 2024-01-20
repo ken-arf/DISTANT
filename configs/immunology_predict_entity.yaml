@@ -13,7 +13,8 @@ corpus_file: desc2023.xml
 #protein_dict_file: protein.dict 
 
 document_root_dir: data/Mesh/PubMed/Immunology/extract
-annotation_root_dir: data/Mesh/PubMed/Immunology/annotate.test
+#document_root_dir: data/Mesh/PubMed/Immunology/extract.error
+annotation_root_dir: data/Mesh/PubMed/Immunology/annotate
 
 corpus_dir: data/Corpus/Immunology
 
@@ -30,10 +31,19 @@ embedding_dim: 768
 
 # positive entities + unknown
 #class_num: 4
+
+processed_dict_dirs:
+        - data/UMLS/processed_dict
+
+dict_files: 
+        - cytokine.dict
+        - transcription_factor.dict
+        - t_lymphocyte.dict 
+
 entity_names:
         - Cytokine 
         - Transcription_Factor
-        - T_Cell
+        - T_Lymphocyte
 # gpu
 gpu: 0 
 

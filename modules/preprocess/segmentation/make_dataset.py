@@ -4,6 +4,7 @@
 
 import sys
 import os
+import re
 import glob
 import spacy
 import scispacy
@@ -61,12 +62,26 @@ def load_dict(path):
 
     items = []
     with open(path) as fp:
-        lines = [line.strip().lower()
-                 for line in fp.readlines() if len(line.strip()) != 0]
-    for line in tqdm(lines):
-        doc = tokenize(line)
-        # print(doc)
-        items.append(doc)
+        entries = [line.strip().split('|')
+                   for line in fp.readlines() if len(line.strip()) != 0]
+
+    for entry in tqdm(entries):
+        term = entry[0]
+        term_lc = tokenize(entry[1])
+        cui = entry[2]
+
+        # (atom string, list of atom tokens, list of head part of atom tokens, cui)
+        items.append((term, term_lc, cui))
+
+#    for entry in tqdm(entries):
+#        atom_str = entry[0]
+#        tokens_lc = tokenize(entry[1])
+#        tokens_lc_head = tokenize(entry[2])
+#        cui = entry[3]
+#
+#        # (atom string, list of atom tokens, list of head part of atom tokens, cui)
+#        items.append((atom_str, tokens_lc, tokens_lc_head, cui))
+
     return items
 
 
@@ -75,23 +90,34 @@ def match_entity(tokens, entity_dict, entity_type):
     match_count = 0
     n = len(tokens)
     bio = ['O'] * n
-    for i in range(len(tokens)):
+
+    i = 0
+    while i < len(tokens):
+        found = False
         for entity in entity_dict[entity_type]:
             if i+len(entity) > n-1:
                 continue
+
             tgt = tokens[i:i+len(entity)]
             if tuple(tgt) == tuple(entity):
                 # print('match at {}: {}'.format(i, '_'.join(entity)))
+                found = True
                 match_count += 1
 
                 if len(entity) == 1:
                     bio[i] = f'S_{entity_type}'
+                    i += 1
                 else:
                     for j in range(i, i+len(entity)):
                         if j == i:
                             bio[j] = f'B_{entity_type}'
                         else:
                             bio[j] = f'I_{entity_type}'
+                    i += len(entity)
+                break
+
+        if not found:
+            i += 1
 
     return bio, match_count
 
@@ -139,7 +165,8 @@ def annotate(files, parameters):
 
     # append all entities extracted from pu_training
 
-    if parameters["use_pu_train"]:
+    # if parameters["use_pu_train"]:
+    if False:
 
         pu_data_csv = parameters["pu_train_csv"]
         df_pu_data = pd.read_csv(pu_data_csv)
@@ -158,11 +185,14 @@ def annotate(files, parameters):
 
     # convert dictionay item to list to tuple
     for key, items in entity_dict.items():
-        entity_dict[key] = list(set([tuple(item) for item in items]))
+        l_token_seq = [tuple(item[1]) for item in items]
+        # l_token_seq += [tuple(item[2]) for item in items]
+
+        entity_dict[key] = list(set(l_token_seq))
 
     # sort dictionary items in ascending order
     for key in entity_dict.keys():
-        entity_dict[key] = sorted(entity_dict[key], key=lambda x: len(x))
+        entity_dict[key] = sorted(entity_dict[key], key=lambda x: -len(x))
 
     match_count = defaultdict(int)
     for file in tqdm(files):

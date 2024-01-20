@@ -5,7 +5,6 @@ task_name: immunology
 
 use_dictionary: True
 dict_dir: 
-    - data/Mesh/processed_dict
     - data/UMLS/processed_dict
 
 dict_files:

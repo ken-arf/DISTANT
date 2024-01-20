@@ -5,6 +5,7 @@ import os
 import time
 import pickle
 import numpy as np
+from collections import defaultdict
 from glob import glob
 import logging
 
@@ -26,15 +27,17 @@ from nltk.corpus import wordnet as wn
 from nltk.stem import PorterStemmer, WordNetLemmatizer, LancasterStemmer
 
 from entity_extract import ExtractEntityCandidate
+#from entity_extract2 import ExtractEntityCandidate
 
 from tqdm.auto import tqdm
 
 from utils import utils
 
 from pu_dataloader import PU_Dataloader
-# from pu_model import PU_Model
-from pu_model2 import PU_Model
-# from pu_model3 import PU_Model
+#from pu_model2 import PU_Model
+#from pu_model3 import PU_Model
+from pu_model import PU_Model
+
 
 import pdb
 
@@ -267,7 +270,7 @@ class Entity_extractor:
         return df_doc, test_dataloader
 
 
-def output_annotation_file(doc_file, df_result, annotation_root_dir, entity_names):
+def output_annotation_file(doc_file, df_result, annotation_root_dir, entity_names, domain_dictionary):
 
     entity_types = {k: name for k, name in enumerate(entity_names)}
 
@@ -307,8 +310,30 @@ def output_annotation_file(doc_file, df_result, annotation_root_dir, entity_name
                 end_char -= 1
 
             entity_type = entity_types[predict]
+            domain_dict = domain_dictionary[entity_type.lower()]
+
+            if entity.lower() in domain_dict:
+                term, cui = domain_dict[entity.lower()]
+            else:
+                cui = None
+
             fp.write(
                 f"T{k+1}\t{entity_type} {start_char} {end_char}\t{entity}\n")
+            # fp.write(f"A{k+1}\tCUI T{k+1} {cui}\n")
+            if cui:
+                fp.write(f"N{k+1}\tReference T{k+1} {cui}\t{term}\n")
+
+
+def dict_load(dict_path):
+
+    term2cui = {}
+    with open(dict_path) as fp:
+        for line in fp:
+            term, term_lc, cui = line.strip().split('|')
+            if term_lc not in term2cui:
+                term2cui[term_lc] = (term, cui)
+
+    return term2cui
 
 
 def main():
@@ -322,6 +347,9 @@ def main():
     # print config
     utils._print_config(params, config_path)
 
+    # check running time
+    t_start = time.time()
+
     entity_extractor = Entity_extractor(params)
 
     document_root_dir = params['document_root_dir']
@@ -333,14 +361,25 @@ def main():
 
     files = sorted(glob(f"{document_root_dir}/*.txt"))
 
-    for file in files:
-        print(file)
-        df_result = entity_extractor.predict(file)
-        output_annotation_file(
-            file, df_result, annotation_root_dir, entity_names)
+    # load domain_dict
+    domain_dictionary = defaultdict(dict)
+    dict_dirs = params["processed_dict_dirs"]
+    dict_files = params["dict_files"]
+    for dict_dir in dict_dirs:
+        for dfile in dict_files:
+            dict_path = os.path.join(dict_dir, dfile)
+            base, _ = os.path.splitext(dfile)
+            domain_dictionary[base].update(dict_load(dict_path))
 
-    # check running time
-    t_start = time.time()
+    for file_ in files:
+        print(file_)
+        try:
+            df_result = entity_extractor.predict(file_)
+            output_annotation_file(
+                file_, df_result, annotation_root_dir, entity_names, domain_dictionary)
+        except:
+            print("Exception, abort")
+
     print('Done!')
     t_end = time.time()
     print('Took {0:.2f} seconds'.format(t_end - t_start))

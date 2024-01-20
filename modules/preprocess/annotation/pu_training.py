@@ -21,9 +21,9 @@ from tqdm.auto import tqdm
 from utils import utils
 
 from pu_dataloader import PU_Dataloader
-# from pu_model import PU_Model
-from pu_model2 import PU_Model
+# from pu_model2 import PU_Model
 # from pu_model3 import PU_Model
+from pu_model import PU_Model
 # from pu_samples import extract_neg_index
 from pu_samples import classify_unknown_samples
 
@@ -335,7 +335,7 @@ def main():
     # check running time
     t_start = time.time()
 
-    step = 1
+    step = 0
     # step-1.
     # extract (true) negative samples
     # use PU-algorithm to extract possibly true negative samples from unknown samples

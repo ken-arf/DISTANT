@@ -1,71 +1,1164 @@
-T-Cell	UMLS:C0039194
 t cell	UMLS:C0039194
-T-cell	UMLS:C0039194
-T cell	UMLS:C0039194
-t-cell	UMLS:C0039194
 T Cell	UMLS:C0039194
+T-Cell	UMLS:C0039194
+t-cell	UMLS:C0039194
+T cell	UMLS:C0039194
+T-cell	UMLS:C0039194
 t cells	UMLS:C0039194
-t-cells	UMLS:C0039194
 Cell, T	UMLS:C0039194
-T Cells	UMLS:C0039194
 T-Cells	UMLS:C0039194
+t-cells	UMLS:C0039194
+T Cells	UMLS:C0039194
 T cells	UMLS:C0039194
 Cells, T	UMLS:C0039194
-T-lymphocyte	UMLS:C0039194
 t-lymphocyte	UMLS:C0039194
-T-Lymphocyte	UMLS:C0039194
 t lymphocyte	UMLS:C0039194
-T lymphocyte	UMLS:C0039194
 T Lymphocyte	UMLS:C0039194
+T-lymphocyte	UMLS:C0039194
+T-Lymphocyte	UMLS:C0039194
+T lymphocyte	UMLS:C0039194
 t-lymphocytes	UMLS:C0039194
-T-Lymphocytes	UMLS:C0039194
-t lymphocytes	UMLS:C0039194
 Lymphocyte, T	UMLS:C0039194
+T-Lymphocytes	UMLS:C0039194
 T Lymphocytes	UMLS:C0039194
+t lymphocytes	UMLS:C0039194
 Lymphocytes, T	UMLS:C0039194
-thymus derived lymphocyte	UMLS:C0039194
 Thymus Derived Lymphocyte	UMLS:C0039194
+thymus derived lymphocyte	UMLS:C0039194
 Thymus-Dependent Lymphocyte	UMLS:C0039194
 thymus-dependent lymphocyte	UMLS:C0039194
 Thymus Dependent Lymphocytes	UMLS:C0039194
-Lymphocyte, Thymus-Dependent	UMLS:C0039194
 Thymus-Dependent Lymphocytes	UMLS:C0039194
+Lymphocyte, Thymus-Dependent	UMLS:C0039194
 Lymphocytes, Thymus-Dependent	UMLS:C0039194
-CD43+ T lymphocyte	UMLS:C4322812
+Lymphocytic	UMLS:C2939172
+Lymphocytic (qualifier value)	UMLS:C2939172
+Leukoregulin	UMLS:C0064839
+leukoregulin	UMLS:C0064839
+TBX21	UMLS:C1447831
+T-Box Protein 21	UMLS:C1447831
+TBX21 protein, human	UMLS:C1447831
+T-box 21 protein, human	UMLS:C1447831
+T-Box Expressed In T Cells	UMLS:C1447831
+Transcription Factor TBLYM	UMLS:C1447831
+T-Box Transcription Factor TBX21	UMLS:C1447831
+T-Cell-Specific T-Box Transcription Factor T-Bet	UMLS:C1447831
+Peripheral (Post-Thymic) T-Lymphocyte	UMLS:C1519004
+CCL1	UMLS:C1447090
+I-309	UMLS:C1447090
+I-309 Protein	UMLS:C1447090
+TCA3 protein, human	UMLS:C1447090
+CCL1 protein, human	UMLS:C1447090
+I-309 protein, human	UMLS:C1447090
+SCYA1 protein, human	UMLS:C1447090
+C-C Motif Chemokine 1	UMLS:C1447090
+CCL1 chemokine, human	UMLS:C1447090
+chemokine I-309, human	UMLS:C1447090
+Small-Inducible Cytokine A1	UMLS:C1447090
+Small Inducible Cytokine A1	UMLS:C1447090
+Inflammatory Cytokine I-309	UMLS:C1447090
+T Lymphocyte-Secreted Protein I-309	UMLS:C1447090
+chemokine (C-C motif) ligand 1 protein, human	UMLS:C1447090
+TREC # DBS NAA+probe	UMLS:C2973228
+T-cell receptor excision circle NAA+probe (DBS) [#/Vol]	UMLS:C2973228
+T-cell receptor excision circle:NCnc:Pt:Bld.dot:Qn:Probe.amp.tar	UMLS:C2973228
+T-cell receptor excision circle [#/volume] in DBS by NAA with probe detection	UMLS:C2973228
+T-cell receptor excision circle:Number Concentration (count/vol):To identify measures at a point in time:Dried blood spot:Quantitative:Probe.amp.tar	UMLS:C2973228
+CMV T-cell panel Bld FC	UMLS:C5381685
+Cytomegalovirus T-cell immunodeficiency panel FC (Bld)	UMLS:C5381685
+Cytomegalovirus T-cell immunodeficiency panel:-:Pt:Bld:Qn:Flow cytometry	UMLS:C5381685
+Cytomegalovirus T-cell immunodeficiency panel - Blood by Flow cytometry (FC)	UMLS:C5381685
+Cytomegalovirus T-cell immunodeficiency panel:-:To identify measures at a point in time:Whole blood:Quantitative:Flow cytometry	UMLS:C5381685
+CD158k	UMLS:C5400888
+NKAT-4	UMLS:C5400888
+KIR3DL2	UMLS:C5400888
+CD158k Antigen	UMLS:C5400888
+KIR Antigen 3DL2	UMLS:C5400888
+p70 NK Receptor CL-5	UMLS:C5400888
+MHC Class I NK Cell Receptor	UMLS:C5400888
+CD158 Antigen-Like Family Member K	UMLS:C5400888
+p70 Killer Cell Inhibitory Receptor	UMLS:C5400888
+Natural Killer-Associated Transcript 4	UMLS:C5400888
+p70 Natural Killer Cell Receptor Clone CL-5	UMLS:C5400888
+Killer Cell Immunoglobulin-Like Receptor 3DL2	UMLS:C5400888
+Killer Cell Immunoglobulin-Like Receptor 3DL2, Human	UMLS:C5400888
+T4 Cell	UMLS:C0039215
+t4 cell	UMLS:C0039215
+T4 Cells	UMLS:C0039215
+cd4 cell	UMLS:C0039215
+t4 cells	UMLS:C0039215
+cd4 cells	UMLS:C0039215
+CD4+ T Cell	UMLS:C0039215
+t4 lymphocyte	UMLS:C0039215
+T4 lymphocyte	UMLS:C0039215
+T4 Lymphocyte	UMLS:C0039215
+cd4 lymphocyte	UMLS:C0039215
+CD4 lymphocyte	UMLS:C0039215
+lymphocytes t4	UMLS:C0039215
+T4 Lymphocytes	UMLS:C0039215
+CD4 Lymphocyte	UMLS:C0039215
+lymphocytes cd4	UMLS:C0039215
+cd4 lymphocytes	UMLS:C0039215
+CD4 Lymphocytes	UMLS:C0039215
+CD4+ T Lymphocyte	UMLS:C0039215
+CD4+ T-Lymphocyte	UMLS:C0039215
+CD4+ T Lymphocytes	UMLS:C0039215
+CD4-Positive Lymphocyte	UMLS:C0039215
+Lymphocyte, CD4-Positive	UMLS:C0039215
+CD4-Positive Lymphocytes	UMLS:C0039215
+Lymphocytes, CD4-Positive	UMLS:C0039215
+CD4-Positive T-Lymphocyte	UMLS:C0039215
+CD4 Positive T Lymphocytes	UMLS:C0039215
+CD4-Positive T-Lymphocytes	UMLS:C0039215
+T-Lymphocyte, CD4-Positive	UMLS:C0039215
+T-Lymphocytes, CD4-Positive	UMLS:C0039215
+T-cell Ag	UMLS:C0487637
+T-cell Antigen	UMLS:C0487637
+Lymphoma - T-cell markers Spec-Imp	UMLS:C2706787
+Lymphoma - T-cell markers:Imp:Pt:XXX:Nar	UMLS:C2706787
+Lymphoma - T-cell markers Nar (Specimen) [Interp]	UMLS:C2706787
+Lymphoma - T-cell markers [Interpretation] in Specimen Narrative	UMLS:C2706787
+Lymphoma - T-cell markers:Impression/interpretation of study:To identify measures at a point in time:Not specified:Narrative	UMLS:C2706787
+CD154 cells T cells Ql	UMLS:C5548876
+CD154 cells Ql (T cells)	UMLS:C5548876
+Cells.CD154:PrThr:Pt:T cells:Ord	UMLS:C5548876
+CD154 cells [Presence] in T cells	UMLS:C5548876
+Cells.CD154:Presence or Threshold:To identify measures at a point in time:T cells:Ordinal	UMLS:C5548876
+CTRP Terminology	UMLS:C3899741
+Clinical Trials Reporting Program Terminology	UMLS:C3899741
+T-cell naive + mem + eff subsets Imp	UMLS:C4266005
+T-cell naive & memory & effector (CD27 and CD45RA) subsets:Imp:Pt:Bld:Nar	UMLS:C4266005
+T-cell naive and memory and effector (CD27 and CD45RA) subsets Nar (Bld) [Interp]	UMLS:C4266005
+T-cell naive and memory and effector (CD27 and CD45RA) subsets [Interpretation] in Blood Narrative	UMLS:C4266005
+T-cell naive & memory & effector (CD27 and CD45RA) subsets:Impression/interpretation of study:To identify measures at a point in time:Whole blood:Narrative	UMLS:C4266005
+TREC ThreshNum DBS Qn	UMLS:C5144053
+T-cell receptor excision circle (DBS) [ThreshNum]	UMLS:C5144053
+T-cell receptor excision circle:ThreshNum:Pt:Bld.dot:Qn	UMLS:C5144053
+T-cell receptor excision circle [Cycle Threshold #] in DBS	UMLS:C5144053
+T-cell receptor excision circle:Threshold Number:To identify measures at a point in time:Dried blood spot:Quantitative	UMLS:C5144053
+CAMLG	UMLS:C1448833
+CAML protein, human	UMLS:C1448833
+CAMLG protein, human	UMLS:C1448833
+Calcium Modulating Ligand	UMLS:C1448833
+Cyclophilin B-Binding Protein	UMLS:C1448833
+calcium modulating ligand, human	UMLS:C1448833
+Calcium-Modulating Cyclophilin Ligand	UMLS:C1448833
+Calcium Signal-Modulating Cyclophilin Ligand	UMLS:C1448833
+Calcium-Signal Modulating Cyclophilin Ligand	UMLS:C1448833
+Guided Entry of Tail-Anchored Proteins Factor CAMLG	UMLS:C1448833
+pathology	UMLS:C0205469
+Pathological aspects	UMLS:C0205469
+CD2R	UMLS:C5441935
+LFA-2	UMLS:C5441935
+CD2 Antigen	UMLS:C5441935
+LFA-3 Receptor	UMLS:C5441935
+Rosette Receptor	UMLS:C5441935
+E-Rosette Receptor	UMLS:C5441935
+CD2 protein, human	UMLS:C5441935
+Erythrocyte Receptor	UMLS:C5441935
+T-Cell Surface Antigen CD2	UMLS:C5441935
+Sheep Erythrocyte Receptor	UMLS:C5441935
+Sheep Red Blood Cell Receptor	UMLS:C5441935
+Lymphocyte-Function Antigen-2	UMLS:C5441935
+T-Lymphocyte Surface CD2 Antigen	UMLS:C5441935
+T-Cell Surface Antigen T11/Leu-5	UMLS:C5441935
+transplantation	UMLS:C0040733
+transplantation aspects	UMLS:C0040733
+chemistry	UMLS:C0079107
+chemical aspects	UMLS:C0079107
+Visilizumab	UMLS:C3887822
+visilizumab	UMLS:C3887822
+Monoclonal Antibody 3A1	UMLS:C1513417
+T cell MCS Pt ser+Don bld FC	UMLS:C5425360
+T cell median channel shift FC (S) [Units]	UMLS:C5425360
+T cell median channel shift:Arb:Pt:Ser^Patient+Bld^Donor:Qn:Flow cytometry	UMLS:C5425360
+T cell median channel shift in Patient serum and Donor blood by Flow cytometry (FC)	UMLS:C5425360
+T cell median channel shift:Arbitrary:To identify measures at a point in time:Serum^Patient+Bld^Donor:Quantitative:Flow cytometry	UMLS:C5425360
+Drug effect	UMLS:C0728866
+drug effects	UMLS:C0728866
+effect of drugs	UMLS:C0728866
+pharmacologic effects	UMLS:C0728866
+function	UMLS:C0031843
+physiology	UMLS:C0031843
+physiological aspects	UMLS:C0031843
+microbiology	UMLS:C0025953
+Microbiological	UMLS:C0025953
+CD8+CD57+ T Lymphocyte	UMLS:C4322825
+Grade Cancer	UMLS:C0804646
+Grade:Prid:Pt:Cancer.XXX:Nom	UMLS:C0804646
+Grade:Presence or Identity:To identify measures at a point in time:Cancer.Not specified:Nominal	UMLS:C0804646
+T-cell activated subsets Pnl Bld	UMLS:C4266008
+Activated T-cell (CD38+HLA-DR+) subsets panel (Bld)	UMLS:C4266008
+T-cell activated (CD38+HLA-DR+) subsets panel - Blood	UMLS:C4266008
+T-cell activated (CD38+HLA-DR+) subsets panel:-:Pt:Bld:-	UMLS:C4266008
+T-cell activated (CD38+Human leukocyte antigen-DR+) subsets panel:-:To identify measures at a point in time:Whole blood:-	UMLS:C4266008
+IMD3	UMLS:C3887583
+TRAP	UMLS:C3887583
+gp39	UMLS:C3887583
+CD40L	UMLS:C3887583
+HIGM1	UMLS:C3887583
+CD154	UMLS:C3887583
+T-BAM	UMLS:C3887583
+TNFSF5	UMLS:C3887583
+CD40-L	UMLS:C3887583
+CD40 Ligand	UMLS:C3887583
+CD154 Antigen	UMLS:C3887583
+CD40 Ligand, human	UMLS:C3887583
+T-Cell Antigen Gp39	UMLS:C3887583
+CD40 Antigen Ligand	UMLS:C3887583
+T Cell Antigen gp39	UMLS:C3887583
+T-B Cell-Activating Molecule	UMLS:C3887583
+TNF-Related Activation Protein	UMLS:C3887583
+Tumor Necrosis Factor Ligand Superfamily Member 5	UMLS:C3887583
+IL32	UMLS:C1566219
+IL-32	UMLS:C1566219
+IL-32, human	UMLS:C1566219
+Interleukin-32	UMLS:C1566219
+Interleukin 32	UMLS:C1566219
+NK4 protein, human	UMLS:C1566219
+IL32 protein, human	UMLS:C1566219
+Interleukin-32, human	UMLS:C1566219
+interleukin 32 protein, human	UMLS:C1566219
+Natural Killer Cells Protein 4	UMLS:C1566219
+natural killer cells protein 4, human	UMLS:C1566219
+Tumor Necrosis Factor Alpha-Inducing Factor	UMLS:C1566219
+natural killer cell transcript 4 protein, human	UMLS:C1566219
+CD16+CD56+ T lymphocyte	UMLS:C4322826
+HLA-DPB1 Ept Match Don+Pt High Res	UMLS:C5425678
+HLA-DPB1 T-cell epitope match [Type] in Donor+Patient by High resolution	UMLS:C5425678
+HLA-DPB1 T-cell epitope match High resolution Nom (Bld/Tiss Donor+Patient)	UMLS:C5425678
+HLA-DPB1 T-cell epitope match:Type:Pt:Bld/Tiss^Donor+Patient:Nom:High resolution	UMLS:C5425678
+Human leukocyte antigen-DPB1 T-cell epitope match:Type:To identify measures at a point in time:Whole blood/Tissue, unspecified^Donor+Patient:Nominal:High resolution	UMLS:C5425678
+Jurkat cell	UMLS:C0376448
+Jurkat Cell	UMLS:C0376448
+Jurkat Cells	UMLS:C0376448
+jurkat cells	UMLS:C0376448
+Cell, Jurkat	UMLS:C0376448
+Cells, Jurkat	UMLS:C0376448
+Th2 cell	UMLS:C0242633
+Th2 Cell	UMLS:C0242633
+Th2 Cells	UMLS:C0242633
+Th-2 Cell	UMLS:C0242633
+TH-2 Cell	UMLS:C0242633
+Cell, Th2	UMLS:C0242633
+TH 2 Cell	UMLS:C0242633
+TH-2 Cells	UMLS:C0242633
+Cell, TH-2	UMLS:C0242633
+TH 2 Cells	UMLS:C0242633
+Cells, Th2	UMLS:C0242633
+Cells, TH-2	UMLS:C0242633
+T Helper2 Cell	UMLS:C0242633
+T Helper 2 Cell	UMLS:C0242633
+Cell, T Helper2	UMLS:C0242633
+T Helper2 Cells	UMLS:C0242633
+T Helper 2 Cells	UMLS:C0242633
+Cells, T Helper2	UMLS:C0242633
+Type 2 Helper Cell	UMLS:C0242633
+Type 2 helper cell	UMLS:C0242633
+Type 2 Helper T Cell	UMLS:C0242633
+T-helper cell type 2	UMLS:C0242633
+Type 2 T-helper cell	UMLS:C0242633
+Type-2 Helper T Cell	UMLS:C0242633
+Type-2 Helper T Cells	UMLS:C0242633
+Type 2 Helper T Cells	UMLS:C0242633
+T cell activation	UMLS:C1155065
+T Cell Activation	UMLS:C1155065
+T-cell activation	UMLS:C1155065
+T-Cell Activation	UMLS:C1155065
+T lymphocyte activation	UMLS:C1155065
+T-Lymphocyte Activation	UMLS:C1155065
+T Lymphocyte Activation	UMLS:C1155065
+T-lymphocyte activation	UMLS:C1155065
+CTL	UMLS:C0039195
+Killer T cell	UMLS:C0039195
+killer T cell	UMLS:C0039195
+killer t cell	UMLS:C0039195
+cells killer t	UMLS:C0039195
+killer t cells	UMLS:C0039195
+Cytolytic T-Cell	UMLS:C0039195
+cytotoxic T cell	UMLS:C0039195
+T-cytotoxic cell	UMLS:C0039195
+Cytotoxic T cell	UMLS:C0039195
+Cytotoxic T Cell	UMLS:C0039195
+cytotoxic t cell	UMLS:C0039195
+Cytotoxic T Cells	UMLS:C0039195
+T Cell, Cytotoxic	UMLS:C0039195
+cytotoxic t cells	UMLS:C0039195
+Killer T lymphocyte	UMLS:C0039195
+CD3+CD8+ Lymphocyte	UMLS:C0039195
+Cytotoxic T lymphocyte	UMLS:C0039195
+Cytotoxic T-lymphocyte	UMLS:C0039195
+cytotoxic t lymphocyte	UMLS:C0039195
+cytotoxic T lymphocyte	UMLS:C0039195
+Cytotoxic T Lymphocyte	UMLS:C0039195
+Cytotoxic T-Lymphocyte	UMLS:C0039195
+T Lymphocyte, Cytotoxic	UMLS:C0039195
+Lymphocyte, Cytotoxic T	UMLS:C0039195
+Cytotoxic T Lymphocytes	UMLS:C0039195
+Cytotoxic T-Lymphocytes	UMLS:C0039195
+T-Lymphocyte, Cytotoxic	UMLS:C0039195
+T-Lymphocytes, Cytotoxic	UMLS:C0039195
+T Lymphocytes, Cytotoxic	UMLS:C0039195
+Cell-Mediated Lympholytic Cell	UMLS:C0039195
+Cell, Cell-Mediated Lympholytic	UMLS:C0039195
+Lympholytic Cell, Cell-Mediated	UMLS:C0039195
+Cell-Mediated Lympholytic Cells	UMLS:C0039195
+Cell Mediated Lympholytic Cells	UMLS:C0039195
+Lympholytic Cells, Cell-Mediated	UMLS:C0039195
 T-cell subsets CD4+CD8 pnl Bld	UMLS:C3176244
 T-cell subsets CD4 and CD8 panel (Bld)	UMLS:C3176244
 T-cell subsets CD4 and CD8 panel - Blood	UMLS:C3176244
 T-cell subsets CD4 & CD8 panel:-:Pt:Bld:-	UMLS:C3176244
 T-cell subsets CD4 & CD8 panel:-:To identify measures at a point in time:Whole blood:-	UMLS:C3176244
-Suppressor-Inducer T-Cell	UMLS:C0162556
-Suppressor-Inducer T-Cells	UMLS:C0162556
-Suppressor-Inducer T-Lymphocyte	UMLS:C0162556
-Suppressor inducer T lymphocyte	UMLS:C0162556
-Suppressor-Inducer T-Lymphocytes	UMLS:C0162556
-Immature T-Lymphocyte	UMLS:C1512642
-Monoclonal Antibody 3A1	UMLS:C1513417
+T-Cell Subset	UMLS:C0080202
+T Cell Subset	UMLS:C0080202
+t cell subset	UMLS:C0080202
+subsets t-cell	UMLS:C0080202
+t-cell subsets	UMLS:C0080202
+t cell subsets	UMLS:C0080202
+Subset, T-Cell	UMLS:C0080202
+T-Cell Subsets	UMLS:C0080202
+T Cell Subsets	UMLS:C0080202
+Subsets, T-Cell	UMLS:C0080202
+T Lymphocyte Subset	UMLS:C0080202
+T-Lymphocyte Subset	UMLS:C0080202
+T-Lymphocyte Subsets	UMLS:C0080202
+T Lymphocyte Subsets	UMLS:C0080202
+Subset, T-Lymphocyte	UMLS:C0080202
+Subsets, T-Lymphocyte	UMLS:C0080202
+virology	UMLS:C0205466
+virologic	UMLS:C0205466
+TREC MoM DBS	UMLS:C5144055
+T-cell receptor excision circle (DBS) [MoM]	UMLS:C5144055
+T-cell receptor excision circle:MoM:Pt:Bld.dot:Qn	UMLS:C5144055
+T-cell receptor excision circle [Multiple of the median] in DBS	UMLS:C5144055
+T-cell receptor excision circle:Multiple of the Median:To identify measures at a point in time:Dried blood spot:Quantitative	UMLS:C5144055
+CD45RO+ T lymphocyte	UMLS:C4322815
+Treg Cell	UMLS:C0039198
+Cell, Treg	UMLS:C0039198
+Treg Cells	UMLS:C0039198
+Cells, Treg	UMLS:C0039198
+Regulatory T Cell	UMLS:C0039198
+Regulatory T cell	UMLS:C0039198
+Regulatory T-Cell	UMLS:C0039198
+Regulatory T-Cells	UMLS:C0039198
+Regulatory T Cells	UMLS:C0039198
+Cell, Regulatory T	UMLS:C0039198
+T Cell, Regulatory	UMLS:C0039198
+Cells, Regulatory T	UMLS:C0039198
+T Cells, Regulatory	UMLS:C0039198
+T-Cells, Regulatory	UMLS:C0039198
+Regulatory T Lymphocyte	UMLS:C0039198
+Regulatory T-Lymphocyte	UMLS:C0039198
+T-Lymphocyte, Regulatory	UMLS:C0039198
+Regulatory T Lymphocytes	UMLS:C0039198
+Regulatory T-Lymphocytes	UMLS:C0039198
+T Lymphocytes, Regulatory	UMLS:C0039198
+T-Lymphocytes, Regulatory	UMLS:C0039198
+ZAP70	UMLS:C1527940
+ZAP-70	UMLS:C1527940
+EC 2.7.10.2	UMLS:C1527940
+E.C. 2.7.1.112	UMLS:C1527940
+STD protein, human	UMLS:C1527940
+TZK protein, human	UMLS:C1527940
+ZAP70 protein, human	UMLS:C1527940
+Syk-Related Tyrosine Kinase	UMLS:C1527940
+Protein Tyrosine Kinase Zap70	UMLS:C1527940
+Tyrosine-Protein Kinase ZAP-70	UMLS:C1527940
+syk-related tyrosine kinase, human	UMLS:C1527940
+70 kDa Zeta-Chain Associated Protein	UMLS:C1527940
+Zeta-Chain Associated Protein Kinase	UMLS:C1527940
+Zeta-Chain Associated Protein Kinase, 70kd	UMLS:C1527940
+Zeta-Chain (TCR) Associated Protein Kinase	UMLS:C1527940
+zeta-chain (TCR) associated protein kinase 70kDa protein, human	UMLS:C1527940
+T Cell XM Bld Ql	UMLS:C1830795
+T cell crossmatch Ql (Bld)	UMLS:C1830795
+T cell crossmatch:PrThr:Pt:Bld:Ord	UMLS:C1830795
+T cell crossmatch [Presence] in Blood	UMLS:C1830795
+T cell crossmatch:Presence or Threshold:To identify measures at a point in time:Whole blood:Ordinal	UMLS:C1830795
+CD103+ T lymphocyte	UMLS:C4322820
+Delayed type hypersensitivity-related T cell	UMLS:C2324943
+Delayed type hypersensitivity-related T lymphocyte	UMLS:C2324943
+T-cell CD4 subset pnl Bld	UMLS:C3174665
+T-cell helper (CD4) subset panel (Bld)	UMLS:C3174665
+T-cell helper (CD4) subset panel - Blood	UMLS:C3174665
+T-cell helper (CD4) subset panel:-:Pt:Bld:-	UMLS:C3174665
+T-cell helper (CD4) subset panel:-:To identify measures at a point in time:Whole blood:-	UMLS:C3174665
+B+T cell XM Ser+Bld-Imp	UMLS:C5452595
+B cell+T cell crossmatch:Imp:Pt:Ser+Bld:Nar	UMLS:C5452595
+B cell+T cell crossmatch Nar (S+Bld) [Interp]	UMLS:C5452595
+B cell+T cell crossmatch [Interpretation] Narrative	UMLS:C5452595
+B cell+T cell crossmatch:Impression/interpretation of study:To identify measures at a point in time:Serum+Whole blood:Narrative	UMLS:C5452595
+GM-CSF cDNA/gold	UMLS:C1517366
+GM-CSF cDNA/Gold Complex	UMLS:C1517366
+T cell product panel BPU FC	UMLS:C5425297
+T cell product characterization panel FC (BPU)	UMLS:C5425297
+T cell product characterization panel:-:Pt:^BPU:-:Flow cytometry	UMLS:C5425297
+T cell product characterization panel - Blood product unit by Flow cytometry (FC)	UMLS:C5425297
+T cell product characterization panel:-:To identify measures at a point in time:^BPU:-:Flow cytometry	UMLS:C5425297
+CD16+ T lymphocyte	UMLS:C4322822
+T cell Ag Tiss Ql ImStn	UMLS:C0484570
+T-cell Ag Immune stain Ql (Tiss)	UMLS:C0484570
+T-cell Ag:PrThr:Pt:Tiss:Ord:Immune stain	UMLS:C0484570
+T-cell Ag [Presence] in Tissue by Immune stain	UMLS:C0484570
+T-cell Antigen:Presence or Threshold:To identify measures at a point in time:Tissue, unspecified:Ordinal:Immune stain	UMLS:C0484570
+lymph cell	UMLS:C0024264
+Lymph Cell	UMLS:C0024264
+lymphocyte	UMLS:C0024264
+Lymphocyte	UMLS:C0024264
+lymphocytes	UMLS:C0024264
+Lymphocytes	UMLS:C0024264
+CD43 Ag Tiss Ql ImStn	UMLS:C0484516
+CD43 T-cell monocyte+myeloid cell Ag Immune stain Ql (Tiss)	UMLS:C0484516
+CD43.T-Cell monocyte+Myeloid cell Ag:PrThr:Pt:Tiss:Ord:Immune stain	UMLS:C0484516
+CD43 T-cell monocyte+myeloid cell Ag [Presence] in Tissue by Immune stain	UMLS:C0484516
+CD43.T-Cell monocyte+Myeloid cell Antigen:Presence or Threshold:To identify measures at a point in time:Tissue, unspecified:Ordinal:Immune stain	UMLS:C0484516
+IFA	UMLS:C0281643
+Freund's Incomplete Adjuvant	UMLS:C0281643
+Incomplete Freund's adjuvant	UMLS:C0281643
+Freund's incomplete adjuvant	UMLS:C0281643
+Incomplete Freund's Adjuvant	UMLS:C0281643
+incomplete Freund's adjuvant	UMLS:C0281643
+LYT3	UMLS:C1332717
+CD8B	UMLS:C1332717
+CD8B1	UMLS:C1332717
+CD8b Antigen	UMLS:C1332717
+T-Cell Glycoprotein CD8b	UMLS:C1332717
+CD8 Antigen, Beta Polypeptide 1	UMLS:C1332717
+T-Cell Surface Glycoprotein CD8 Beta Chain	UMLS:C1332717
+LIF	UMLS:C1453955
+hilda	UMLS:C1453955
+MLPLI	UMLS:C1453955
+D Factor	UMLS:C1453955
+D-Factor	UMLS:C1453955
+human IL-DA	UMLS:C1453955
+LIF protein, human	UMLS:C1453955
+human interleukin DA	UMLS:C1453955
+Leukemia-Inhibitory Factor	UMLS:C1453955
+Leukemia Inhibitory Factor	UMLS:C1453955
+Human Interleukin in DA Cells	UMLS:C1453955
+Melanoma-Derived LPL Inhibitor	UMLS:C1453955
+Hepatocyte-Stimulating Factor III	UMLS:C1453955
+leukemia inhibitory factor, human	UMLS:C1453955
+Differentiation-Stimulating Factor	UMLS:C1453955
+Differentiation Stimulating Factor	UMLS:C1453955
+Cholinergic Differentiation Factor	UMLS:C1453955
+Differentiation Inhibitory Activity	UMLS:C1453955
+cholinergic differentiation factor, human	UMLS:C1453955
+B7	UMLS:C4048302
+BB1	UMLS:C4048302
+LAB7	UMLS:C4048302
+CD80	UMLS:C4048302
+B7-1	UMLS:C4048302
+CD28LG	UMLS:C4048302
+CD28LG1	UMLS:C4048302
+B71 Antigen	UMLS:C4048302
+CD80 Antigen	UMLS:C4048302
+CD28 Antigen Ligand 1	UMLS:C4048302
+Activation B7-1 Antigen	UMLS:C4048302
+CTLA-4 Counter-Receptor B7.1	UMLS:C4048302
+T-Lymphocyte Activation Antigen CD80	UMLS:C4048302
+B-lymphocyte Activation Antigen B7-1	UMLS:C4048302
+T-Lymphocyte Activation Antigen CD80, human	UMLS:C4048302
+CD3+CD56+ lymphocyte	UMLS:C1267831
+Lymphoma - T-cell screen Pnl Spec FC	UMLS:C2706792
+Lymphoma - T-cell screen panel FC (Specimen)	UMLS:C2706792
+Lymphoma - T-cell screen panel:-:Pt:XXX:-:Flow cytometry	UMLS:C2706792
+Lymphoma - T-cell screen panel - Specimen by Flow cytometry (FC)	UMLS:C2706792
+Lymphoma - T-cell screen panel:-:To identify measures at a point in time:Not specified:-:Flow cytometry	UMLS:C2706792
+Behavior ICD-O-2 Cancer	UMLS:C0804645
+Behavior ICD-O-2:Prid:Pt:Cancer.XXX:Nom	UMLS:C0804645
+Behavior International classification of diseases-O-2:Presence or Identity:To identify measures at a point in time:Cancer.Not specified:Nominal	UMLS:C0804645
+NK + NK T-cell subsets Pnl Bld	UMLS:C5548786
+Natural killer and natural killer T cell subsets panel (Bld)	UMLS:C5548786
+Natural killer and natural killer T cell subsets panel - Blood	UMLS:C5548786
+Natural killer & natural killer T cell subsets panel:-:Pt:Bld:-	UMLS:C5548786
+Natural killer & natural killer T cell subsets panel:-:To identify measures at a point in time:Whole blood:-	UMLS:C5548786
+Thymocyte Selection	UMLS:C1515433
+thymic T cell selection	UMLS:C1515433
+Thymic T-Cell Selection	UMLS:C1515433
+thymic T-cell selection	UMLS:C1515433
+thymic T lymphocyte selection	UMLS:C1515433
+thymic T-lymphocyte selection	UMLS:C1515433
+T-cell regulatory subsets Pnl Bld	UMLS:C4739915
+T-cell regulatory subsets panel:-:Pt:Bld:-	UMLS:C4739915
+T-cell regulatory (Treg) subsets panel (Bld)	UMLS:C4739915
+T-cell regulatory (Treg) subsets panel - Blood	UMLS:C4739915
+T-cell regulatory subsets panel:-:To identify measures at a point in time:Whole blood:-	UMLS:C4739915
+Cellular immunity	UMLS:C0020966
+Cellular Immunity	UMLS:C0020966
+cellular immunity	UMLS:C0020966
+Immunity, Cellular	UMLS:C0020966
+Cellular Immunities	UMLS:C0020966
+Immunities, Cellular	UMLS:C0020966
+cell immunity mediate	UMLS:C0020966
+Cell-Mediated Immunity	UMLS:C0020966
+Cell Mediated Immunity	UMLS:C0020966
+cell-mediated immunity	UMLS:C0020966
+cell mediated immunity	UMLS:C0020966
+Immunity, Cell-Mediated	UMLS:C0020966
+Cell Mediated Immunology	UMLS:C0020966
+Cell-Mediated Immunities	UMLS:C0020966
+Immunities, Cell-Mediated	UMLS:C0020966
+T-Lymphocyte and NK-Cell	UMLS:C1515139
+T-Lymphocyte and Natural Killer Cell	UMLS:C1515139
+Protoplasm of T lymphocyte	UMLS:C2338232
+Lymph Tcell+Bcell+NK subsets Pnl CSF	UMLS:C5775856
+Lymphocyte T-cell & B-cell & Natural killer subsets panel:-:Pt:CSF:-	UMLS:C5775856
+Lymphocyte T-cell and B-cell and Natural killer subsets panel - Cerebral spinal fluid	UMLS:C5775856
+Lymphocyte T-cell & B-cell & Natural killer subsets panel:-:To identify measures at a point in time:Cerebral spinal fluid:-	UMLS:C5775856
+CD154 Function T cells Ql	UMLS:C5548877
+CD154 function (binding to CD40) Ql (T cells)	UMLS:C5548877
+CD154 function (binding to CD40):PrThr:Pt:T cells:Ord	UMLS:C5548877
+CD154 function (binding to CD40) [Presence] in T cells	UMLS:C5548877
+CD154 function (binding to CD40):Presence or Threshold:To identify measures at a point in time:T cells:Ordinal	UMLS:C5548877
+gp39	UMLS:C1527003
+T-BAM	UMLS:C1527003
+TRAP Ligand	UMLS:C1527003
+CD154 antigen	UMLS:C1527003
+T-Cell Antigen gp39	UMLS:C1527003
+recombinant CD40-ligand	UMLS:C1527003
+Recombinant CD40-Ligand	UMLS:C1527003
+Recombinant CD40-ligand	UMLS:C1527003
+TNF-Related Activation Protein	UMLS:C1527003
+CD28	UMLS:C4281805
+Tp44	UMLS:C4281805
+T90/44	UMLS:C4281805
+CD28 Antigen	UMLS:C4281805
+Antigen CD28	UMLS:C4281805
+T-Cell Antigen CD28	UMLS:C4281805
+T-Cell-Specific Surface Glycoprotein	UMLS:C4281805
+T-Cell-Specific Surface Glycoprotein CD28	UMLS:C4281805
+T-Cell Specific Surface Glycoprotein CD28	UMLS:C4281805
+T-Cell-Specific Surface Glycoprotein CD28, human	UMLS:C4281805
+B+T cell XM.auto Ser+Bld CDC-Imp	UMLS:C3654221
+B cell+T cell crossmatch.autologous:Imp:Pt:Ser+Bld:Ord:Complement dependent cytotoxicity	UMLS:C3654221
+B cell+T cell crossmatch.autologous Complement dependent cytotoxicity Ql (S+Bld) [Interp]	UMLS:C3654221
+B cell+T cell crossmatch.autologous [Interpretation] Qualitative by Complement dependent cytotoxicity	UMLS:C3654221
+B cell+T cell crossmatch.autologous:Impression/interpretation of study:To identify measures at a point in time:Serum+Whole blood:Ordinal:Complement dependent cytotoxicity	UMLS:C3654221
+CD99+ T lymphocyte	UMLS:C4322818
+Plasma membrane of T lymphocyte	UMLS:C2323669
+LCP2	UMLS:C1743669
+SLP76	UMLS:C1743669
+SLP-76	UMLS:C1743669
+LCP2 Protein	UMLS:C1743669
+LCP2 protein, human	UMLS:C1743669
+SLP-76 protein, human	UMLS:C1743669
+76 kD Tyrosine Phosphoprotein	UMLS:C1743669
+SLP-76 Tyrosine Phosphoprotein	UMLS:C1743669
+Lymphocyte Cytosolic Protein 2	UMLS:C1743669
+SH2 Domain-Containing Leukocyte Protein, 76kD	UMLS:C1743669
+SH2 domain-containing leukocyte protein of 76kD	UMLS:C1743669
+lymphocyte cytosolic protein 2 (SH2 domain containing leukocyte protein of 76kDa), human	UMLS:C1743669
+B+T cell XM Ser+Bld CDC-Imp	UMLS:C3654219
+B cell+T cell crossmatch:Imp:Pt:Ser+Bld:Ord:Complement dependent cytotoxicity	UMLS:C3654219
+B cell+T cell crossmatch Complement dependent cytotoxicity Ql (S+Bld) [Interp]	UMLS:C3654219
+B cell+T cell crossmatch [Interpretation] Qualitative by Complement dependent cytotoxicity	UMLS:C3654219
+B cell+T cell crossmatch:Impression/interpretation of study:To identify measures at a point in time:Serum+Whole blood:Ordinal:Complement dependent cytotoxicity	UMLS:C3654219
+cytology	UMLS:C0010820
+cellular aspects	UMLS:C0010820
+Cellular aspects of	UMLS:C0010820
+lymphoid tissue	UMLS:C0024296
+tissue lymphoid	UMLS:C0024296
+Lymphoid tissue	UMLS:C0024296
+Lymphoid Tissue	UMLS:C0024296
+Lymphoid Tissues	UMLS:C0024296
+lymphoid tissues	UMLS:C0024296
+Tissue, Lymphoid	UMLS:C0024296
+Lymphatic tissue	UMLS:C0024296
+lymphatic tissue	UMLS:C0024296
+Lymphatic Tissue	UMLS:C0024296
+lymphatic organs	UMLS:C0024296
+Tissues, Lymphoid	UMLS:C0024296
+lymphatic tissues	UMLS:C0024296
+Lymphatic Tissues	UMLS:C0024296
+Tissue, Lymphatic	UMLS:C0024296
+Tissues, Lymphatic	UMLS:C0024296
+Lymphocytic tissue	UMLS:C0024296
+T-cell naive + mem + eff subsets Pnl	UMLS:C4266004
+T-cell naive and memory and effector (CD27 and CD45RA) subsets panel (Bld)	UMLS:C4266004
+T-cell naive & memory & effector (CD27 and CD45RA) subsets panel:-:Pt:Bld:-	UMLS:C4266004
+T-cell naive and memory and effector (CD27 and CD45RA) subsets panel - Blood	UMLS:C4266004
+T-cell naive & memory & effector (CD27 and CD45RA) subsets panel:-:To identify measures at a point in time:Whole blood:-	UMLS:C4266004
+NF-AT	UMLS:C0288011
+NFAT-1	UMLS:C0288011
+Nuclear Factor of Activated T-cells	UMLS:C0288011
+CD97	UMLS:C4721818
+ADGRE5	UMLS:C4721818
+CD97 Antigen	UMLS:C4721818
+CD97 Antigen, human	UMLS:C4721818
+Leukocyte Antigen CD97	UMLS:C4721818
+Adhesion G-Protein Coupled Receptor E5	UMLS:C4721818
+Adhesion G Protein-Coupled Receptor E5	UMLS:C4721818
+CD154 Expr+Func Pnl T cells FC	UMLS:C5548875
+CD154 expression and function panel FC (T cells)	UMLS:C5548875
+CD154 expression & function panel:-:Pt:T cells:-:Flow cytometry	UMLS:C5548875
+CD154 expression and function panel - T cells by Flow cytometry (FC)	UMLS:C5548875
+CD154 expression & function panel:-:To identify measures at a point in time:T cells:-:Flow cytometry	UMLS:C5548875
+T-Cell Ontogeny	UMLS:C1515126
+T cell development	UMLS:C1515126
+T-Cell Development	UMLS:C1515126
+T-Cell Differentiation	UMLS:C1515126
+T-Lymphocyte Development	UMLS:C1515126
+Other markers	UMLS:C1955343
+CCR6	UMLS:C1308121
+DCR2	UMLS:C1308121
+BN-1	UMLS:C1308121
+DRY6	UMLS:C1308121
+CKR6	UMLS:C1308121
+CKRL3	UMLS:C1308121
+GPR29	UMLS:C1308121
+DRY-6	UMLS:C1308121
+CCR-6	UMLS:C1308121
+CMKBR6	UMLS:C1308121
+GPRCY4	UMLS:C1308121
+STRL22	UMLS:C1308121
+CKR-L3	UMLS:C1308121
+GPR-CY4	UMLS:C1308121
+CC-CKR-6	UMLS:C1308121
+C-C CKR-6	UMLS:C1308121
+CCR6 Protein	UMLS:C1308121
+LARC Receptor	UMLS:C1308121
+CD196 Antigen	UMLS:C1308121
+CCR6 protein, human	UMLS:C1308121
+CKR-L3 protein, human	UMLS:C1308121
+STRL22 protein, human	UMLS:C1308121
+GCY-4 receptor, human	UMLS:C1308121
+Chemokine Receptor-Like 3	UMLS:C1308121
+Chemokine (C-C) Receptor 6	UMLS:C1308121
+chemokine receptor 6, human	UMLS:C1308121
+G Protein-Coupled Receptor 29	UMLS:C1308121
+C-C Chemokine Receptor Type 6	UMLS:C1308121
+CC chemokine receptor 6, human	UMLS:C1308121
+Chemokine (C-C Motif) Receptor 6	UMLS:C1308121
+CC chemokine receptor CCR6, human	UMLS:C1308121
+chemokine (C-C motif) receptor 6, human	UMLS:C1308121
+Seven-Transmembrane Receptor, Lymphocyte, 22	UMLS:C1308121
+Hematopoietic and Lymphoid Tissue	UMLS:C1512398
 CD96	UMLS:C4761611
 CD96 Antigen	UMLS:C4761611
 Cell Surface Antigen CD96	UMLS:C4761611
 T-Cell Surface Protein Tactile	UMLS:C4761611
 T Cell-Activated Increased Late Expression Protein	UMLS:C4761611
+t4 t8 ratio	UMLS:C0085115
+T4-T8 Ratio	UMLS:C0085115
+T4 T8 Ratio	UMLS:C0085115
+T4-T8 Ratios	UMLS:C0085115
+CD4-CD8 Ratio	UMLS:C0085115
+cd4 cd8 ratio	UMLS:C0085115
+cd4-cd8 ratio	UMLS:C0085115
+CD4 CD8 Ratio	UMLS:C0085115
+ratio cd4 cd8	UMLS:C0085115
+CD4-CD8 Ratios	UMLS:C0085115
+cd4 cd8 ratios	UMLS:C0085115
+CD4/CD8 ratio (procedure)	UMLS:C0085115
+VPSA	UMLS:C0393081
+rV-PSA	UMLS:C0393081
+rV-PSA Vaccine	UMLS:C0393081
+rV-PSA vaccine	UMLS:C0393081
+Vaccinia PSA Vaccine	UMLS:C0393081
+Vaccinia-PSA Vaccine	UMLS:C0393081
+Recombinant Vaccinia PSA Vaccine	UMLS:C0393081
+RV-PSA (RECOMB VACCINIA/PSA-CV-1)	UMLS:C0393081
+vaccinia-prostate-specific antigen vaccine	UMLS:C0393081
+Vaccinia-Prostate-Specific Antigen Vaccine	UMLS:C0393081
+vaccinia prostate-specific antigen vaccine	UMLS:C0393081
+Vaccinia Prostate Specific Antigen Vaccine	UMLS:C0393081
+recombinant vaccinia prostate-specific antigen vaccine	UMLS:C0393081
+Prostate Specific Antigen Expressing Vaccinia Virus Vaccine	UMLS:C0393081
+B and T cell crossmatch panel FC (S)	UMLS:C5425359
+B + T crossmatch Pnl Pt ser+Don bld FC	UMLS:C5425359
+B & T cell crossmatch panel:-:Pt:Ser^Patient+Bld^Donor:-:Flow cytometry	UMLS:C5425359
+B and T cell crossmatch panel - Patient serum and Donor blood by Flow cytometry (FC)	UMLS:C5425359
+B & T cell crossmatch panel:-:To identify measures at a point in time:Serum^Patient+Bld^Donor:-:Flow cytometry	UMLS:C5425359
+T-cell + B-cell + NK subsets Bld-Imp Nar	UMLS:C4266002
+Lymphocyte T-cell & B-cell & Natural killer subsets:Imp:Pt:Bld:Nar	UMLS:C4266002
+Lymphocyte T-cell and B-cell and Natural killer subsets Nar (Bld) [Interp]	UMLS:C4266002
+Lymphocyte T-cell and B-cell and Natural killer subsets [Interpretation] in Blood Narrative	UMLS:C4266002
+Lymphocyte T-cell & B-cell & Natural killer subsets:Impression/interpretation of study:To identify measures at a point in time:Whole blood:Narrative	UMLS:C4266002
+B+T cell XM Ser+Bld FC-Imp	UMLS:C3654220
+B cell+T cell crossmatch FC Ql (S+Bld) [Interp]	UMLS:C3654220
+B cell+T cell crossmatch:Imp:Pt:Ser+Bld:Ord:Flow cytometry	UMLS:C3654220
+B cell+T cell crossmatch [Interpretation] Qualitative by Flow cytometry (FC)	UMLS:C3654220
+B cell+T cell crossmatch:Impression/interpretation of study:To identify measures at a point in time:Serum+Whole blood:Ordinal:Flow cytometry	UMLS:C3654220
+Ultrastructure	UMLS:C0041623
+ultrastructure	UMLS:C0041623
+subcellular structure	UMLS:C0041623
+submicroscopic anatomy	UMLS:C0041623
+metabolism	UMLS:C0025520
+metabolic aspects	UMLS:C0025520
+thymocyte	UMLS:C0814999
+Thymocyte	UMLS:C0814999
+Thymocytes	UMLS:C0814999
+thymocytes	UMLS:C0814999
+Thymic lymphocyte	UMLS:C0814999
+T Cell XM SerPl-Imp	UMLS:C1507593
+T cell crossmatch [Interp]	UMLS:C1507593
+T cell crossmatch [Interpretation]	UMLS:C1507593
+T cell crossmatch:Imp:Pt:Ser/Plas:Nom	UMLS:C1507593
+T cell crossmatch:Impression/interpretation of study:To identify measures at a point in time:Serum/Plasma:Nominal	UMLS:C1507593
+T-Lymphocytes to Lymphocytes Ratio Measurement	UMLS:C5556981
+Thymus	UMLS:C0040113
+thymus	UMLS:C0040113
+Thymus gland	UMLS:C0040113
+Thymus Gland	UMLS:C0040113
+thymus gland	UMLS:C0040113
+Thymus Glands	UMLS:C0040113
+Gland, Thymus	UMLS:C0040113
+thymus glands	UMLS:C0040113
+Glands, Thymus	UMLS:C0040113
+Chest>Thymus gland	UMLS:C0040113
+Reticuloendothelial System, Thymus	UMLS:C0040113
+NKT Cell	UMLS:C2350466
+NK T-Cell	UMLS:C2350466
+NKT Cells	UMLS:C2350466
+Natural Killer T Cell	UMLS:C2350466
+Natural Killer T-Cell	UMLS:C2350466
+Natural Killer T Cells	UMLS:C2350466
+T-Cell, Natural Killer	UMLS:C2350466
+Natural Killer T-Cells	UMLS:C2350466
+Killer T-Cell, Natural	UMLS:C2350466
+Killer T-Cells, Natural	UMLS:C2350466
+T-Cells, Natural Killer	UMLS:C2350466
+Mouse T Cell	UMLS:C1522131
+Mouse T-Lymphocyte	UMLS:C1522131
+Leukocyte - Lymphocyte - T-Lymphocyte (MMHCC)	UMLS:C1522131
+MAIT Cell	UMLS:C3891065
+Cell, MAIT	UMLS:C3891065
+MAIT Cells	UMLS:C3891065
+Cells, MAIT	UMLS:C3891065
+Mucosal Associated Invariant T Cell	UMLS:C3891065
+Mucosal-Associated Invariant T Cell	UMLS:C3891065
+Mucosal-Associated Invariant T-Cell	UMLS:C3891065
+Mucosal-Associated Invariant T Cells	UMLS:C3891065
+Mucosal Associated Invariant T Cells	UMLS:C3891065
+TREC Z-score DBS	UMLS:C5144054
+T-cell receptor excision circle (DBS) [Z-score]	UMLS:C5144054
+T-cell receptor excision circle [Z-score] in DBS	UMLS:C5144054
+T-cell receptor excision circle:Zscore:Pt:Bld.dot:Qn	UMLS:C5144054
+T-cell receptor excision circle:Z Score:To identify measures at a point in time:Dried blood spot:Quantitative	UMLS:C5144054
+CD3+ T lymphocyte	UMLS:C4322670
+RASGRP1	UMLS:C3273290
+CalDAG-GEFII	UMLS:C3273290
+RASGRP protein, human	UMLS:C3273290
+RASGRP1 protein, human	UMLS:C3273290
+Ras Guanyl-Releasing Protein	UMLS:C3273290
+RAS Guanyl-Releasing Protein 1	UMLS:C3273290
+RAS guanyl releasing protein 1, human	UMLS:C3273290
+Calcium and DAG-Regulated Guanine Nucleotide Exchange Factor II	UMLS:C3273290
+CTRP Biomarker Terminology	UMLS:C4684827
+Clinical Trials Reporting Program Biomarker Terminology	UMLS:C4684827
+enzymes	UMLS:C0014445
+enzymology	UMLS:C0014445
+CD1+ T lymphocyte	UMLS:C4322737
+T Cell XM Bld Donr Ql	UMLS:C1953911
+T cell crossmatch Ql (Bld donor)	UMLS:C1953911
+T cell crossmatch:PrThr:Pt:Bld^Donor:Ord	UMLS:C1953911
+T cell crossmatch [Presence] in Blood from Donor	UMLS:C1953911
+T cell crossmatch:Presence or Threshold:To identify measures at a point in time:Whole blood^Donor:Ordinal	UMLS:C1953911
+OX40L	UMLS:C0257572
+CD252	UMLS:C0257572
+TNFSF4	UMLS:C0257572
+OX40 Ligand	UMLS:C0257572
+CD134 Ligand	UMLS:C0257572
+Antigen CD252	UMLS:C0257572
+CD252 Antigen	UMLS:C0257572
+Glycoprotein 34	UMLS:C0257572
+Glycoprotein Gp34	UMLS:C0257572
+OX40 ligand, human	UMLS:C0257572
+OX40 Antigen Ligand	UMLS:C0257572
+gp34 antigen, human	UMLS:C0257572
+OX40L protein, human	UMLS:C0257572
+CD252 protein, human	UMLS:C0257572
+CD134L protein, human	UMLS:C0257572
+TNFSF4 protein, human	UMLS:C0257572
+TAX Transcriptionally-Activated Glycoprotein 1	UMLS:C0257572
+Tumor Necrosis Factor Ligand Superfamily Member 4	UMLS:C0257572
+tumor necrosis factor (ligand) superfamily, member 4 protein, human	UMLS:C0257572
+T cell crossmatch FC Ql (S)	UMLS:C5425770
+T Cell XM Pt ser+Don bld Ql FC	UMLS:C5425770
+T cell crossmatch:PrThr:Pt:Ser^Patient+Bld^Donor:Ord:Flow cytometry	UMLS:C5425770
+T cell crossmatch [Presence] in Patient serum and Donor blood by Flow cytometry (FC)	UMLS:C5425770
+T cell crossmatch:Presence or Threshold:To identify measures at a point in time:Serum^Patient+Bld^Donor:Ordinal:Flow cytometry	UMLS:C5425770
+Immature T-Lymphocyte	UMLS:C1512642
+TCF7	UMLS:C0286910
+TCF-1	UMLS:C0286910
+TCF-7	UMLS:C0286910
+T-Cell Factor 1	UMLS:C0286910
+TCF7 protein, human	UMLS:C0286910
+TCF- 1 protein, human	UMLS:C0286910
+Transcription Factor 7	UMLS:C0286910
+T-cell factor 1 protein, human	UMLS:C0286910
+T-Cell-Specific Transcription Factor 1	UMLS:C0286910
+T-cell-specific transcription factor 1 protein, human	UMLS:C0286910
+transcription factor 7 (T-cell specific, HMG-box) protein, human	UMLS:C0286910
+CD44+ T lymphocyte	UMLS:C4322813
+CD198+ T lymphocyte	UMLS:C4322819
+PEP	UMLS:C1335057
+LyP	UMLS:C1335057
+PTPN22	UMLS:C1335057
+EC 3.1.3.48	UMLS:C1335057
+Lyp1 protein, human	UMLS:C1335057
+Lyp2 protein, human	UMLS:C1335057
+PTPN8 protein, human	UMLS:C1335057
+Lymphoid Phosphatase	UMLS:C1335057
+PTPN22 protein, human	UMLS:C1335057
+PEST-Domain Phosphatase	UMLS:C1335057
+protein tyrosine phosphatase-22, human	UMLS:C1335057
+protein tyrosine phosphatase Lyp, human	UMLS:C1335057
+Tyrosine-Protein Phosphatase Non-Receptor Type 22	UMLS:C1335057
+Protein Tyrosine Phosphatase, Non-Receptor Type 22	UMLS:C1335057
+Hematopoietic Cell Protein-Tyrosine Phosphatase 70Z-PEP	UMLS:C1335057
+protein tyrosine phosphatase, non-receptor type 8, human	UMLS:C1335057
+protein tyrosine phosphatase, non-receptor type 22 (lymphoid), human	UMLS:C1335057
+CD45RB+ T lymphocyte	UMLS:C4322814
+CCR5	UMLS:C3711103
+CKR5	UMLS:C3711103
+CCR-5	UMLS:C3711103
+CKR-5	UMLS:C3711103
+CMKBR5	UMLS:C3711103
+CCCKR5	UMLS:C3711103
+CHEMR13	UMLS:C3711103
+CC-CKR-5	UMLS:C3711103
+C-C CKR-5	UMLS:C3711103
+CCR5 Protein	UMLS:C3711103
+CD195 Antigen	UMLS:C3711103
+CCR5 protein, human	UMLS:C3711103
+CD195 protein, human	UMLS:C3711103
+CKR-5 protein, human	UMLS:C3711103
+IDDM22 protein, human	UMLS:C3711103
+CC Chemokine Receptor 5	UMLS:C3711103
+CC-CKR-5 protein, human	UMLS:C3711103
+HIV-1 Fusion Coreceptor	UMLS:C3711103
+Chemokine Receptor CCR5	UMLS:C3711103
+HIV-1 Fusion Co-Receptor	UMLS:C3711103
+Chemokine (C-C) Receptor 5	UMLS:C3711103
+C-C Chemokine Receptor Type 5	UMLS:C3711103
+C-C Motif Chemokine Receptor 5	UMLS:C3711103
+Chemokine (C-C Motif) Receptor 5	UMLS:C3711103
+C-C chemokine receptor type 5, human	UMLS:C3711103
+chemokine (C-C motif) receptor 5 (gene-pseudogene) protein, human	UMLS:C3711103
 Thymocyte Development	UMLS:C1515432
 thymocyte differentiation	UMLS:C1515432
 thymic T cell differentiation	UMLS:C1515432
 thymocyte cell differentiation	UMLS:C1515432
 T cell differentiation in thymus	UMLS:C1515432
 T-Cell Differentiation in the Thymus	UMLS:C1515432
-T-cell regulatory subsets Pnl Bld	UMLS:C4739915
-T-cell regulatory subsets panel:-:Pt:Bld:-	UMLS:C4739915
-T-cell regulatory (Treg) subsets panel (Bld)	UMLS:C4739915
-T-cell regulatory (Treg) subsets panel - Blood	UMLS:C4739915
-T-cell regulatory subsets panel:-:To identify measures at a point in time:Whole blood:-	UMLS:C4739915
-T cell Ag Tiss Ql ImStn	UMLS:C0484570
-T-cell Ag Immune stain Ql (Tiss)	UMLS:C0484570
-T-cell Ag:PrThr:Pt:Tiss:Ord:Immune stain	UMLS:C0484570
-T-cell Ag [Presence] in Tissue by Immune stain	UMLS:C0484570
-T-cell Antigen:Presence or Threshold:To identify measures at a point in time:Tissue, unspecified:Ordinal:Immune stain	UMLS:C0484570
-Hematopoietic and Lymphoid Tissue	UMLS:C1512398
+Alpha-Beta TCR	UMLS:C0085247
+TCR Alpha/Beta	UMLS:C0085247
+TcR alpha-beta	UMLS:C0085247
+TcR alpha beta	UMLS:C0085247
+Alpha/Beta TCR	UMLS:C0085247
+TCR Alpha-Beta	UMLS:C0085247
+Alpha-Beta-TCR	UMLS:C0085247
+TCR alpha beta	UMLS:C0085247
+alpha-beta, TcR	UMLS:C0085247
+T-Cell Receptor Alpha/Beta	UMLS:C0085247
+T-Cell Receptor Alpha Beta	UMLS:C0085247
+T-Cell Receptor Alpha-Beta	UMLS:C0085247
+alpha-beta T-Cell Receptor	UMLS:C0085247
+alpha-beta T-Cell Receptors	UMLS:C0085247
+T-Cell Receptor, alpha-beta	UMLS:C0085247
+T-Cell Receptor, Alpha-Beta	UMLS:C0085247
+T Cell Receptor, alpha beta	UMLS:C0085247
+T-Cell Receptors, alpha-beta	UMLS:C0085247
+T Cell Receptors, alpha beta	UMLS:C0085247
+Antigen Receptors, T-Cell, alpha-beta	UMLS:C0085247
+Receptors, Antigen, T Cell, alpha beta	UMLS:C0085247
+Receptors, Antigen, T-Cell, alpha-beta	UMLS:C0085247
+suppressor cell	UMLS:C0038856
+suppressor cells	UMLS:C0038856
+Suppressor cells	UMLS:C0038856
+t cell suppressor	UMLS:C0038856
+cells suppressor t	UMLS:C0038856
+Suppressor T Lymphocyte	UMLS:C0038856
+suppressor T lymphocyte	UMLS:C0038856
+parasitology	UMLS:C2239174
+DTX1	UMLS:C3712409
+hDx-1	UMLS:C3712409
+hDTX1	UMLS:C3712409
+Deltex1	UMLS:C3712409
+Deltex-1	UMLS:C3712409
+DTX1 Protein	UMLS:C3712409
+Deltex Protein 1	UMLS:C3712409
+Protein Deltex-1	UMLS:C3712409
+Deltex Homolog 1	UMLS:C3712409
+DTX1 protein, human	UMLS:C3712409
+hDx-1 protein, human	UMLS:C3712409
+EC 6.3.2.-, Formerly	UMLS:C3712409
+E3 Ubiquitin-Protein Ligase DTX1	UMLS:C3712409
+deltex E3 ubiquitin ligase 1, human	UMLS:C3712409
+deltex homolog 1 (Drosophila) protein, human	UMLS:C3712409
+deltex 1, E3 ubiquitin ligase protein, human	UMLS:C3712409
+taxonomy	UMLS:C0008903
+Taxonomic	UMLS:C0008903
+classification	UMLS:C0008903
+Lymph T-cell + B-cell + NK subsets Pnl	UMLS:C4266003
+Lymphocyte T-cell and B-cell and Natural killer subsets panel (Bld)	UMLS:C4266003
+Lymphocyte T-cell & B-cell & Natural killer subsets panel:-:Pt:Bld:Qn	UMLS:C4266003
+Lymphocyte T-cell and B-cell and Natural killer subsets panel - Blood	UMLS:C4266003
+Lymphocyte T-cell & B-cell & Natural killer subsets panel:-:To identify measures at a point in time:Whole blood:Quantitative	UMLS:C4266003
+T cell proliferation	UMLS:C1155046
+T-cell proliferation	UMLS:C1155046
+T-Cell Proliferation	UMLS:C1155046
+T-lymphocyte proliferation	UMLS:C1155046
+T lymphocyte proliferation	UMLS:C1155046
+tcr	UMLS:C0034790
+TCR	UMLS:C0034790
+MHC Receptor	UMLS:C0034790
+t-cell receptor	UMLS:C0034790
+T-Cell Receptor	UMLS:C0034790
+T Cell Receptor	UMLS:C0034790
+T cell receptor	UMLS:C0034790
+t cell receptor	UMLS:C0034790
+T-Cell Receptors	UMLS:C0034790
+t cell receptors	UMLS:C0034790
+Receptor, T-Cell	UMLS:C0034790
+T Cell Receptors	UMLS:C0034790
+Receptors, T-Cell	UMLS:C0034790
+T cells--Receptors	UMLS:C0034790
+t-cell receptor (TCR)	UMLS:C0034790
+T Cell Antigen Receptor	UMLS:C0034790
+T-Cell Antigen Receptor	UMLS:C0034790
+Antigen Receptor, T-Cell	UMLS:C0034790
+Receptor, T-Cell Antigen	UMLS:C0034790
+T-Cell Antigen Receptors	UMLS:C0034790
+Receptors, T-Cell Antigen	UMLS:C0034790
+Antigen Receptors, T Cell	UMLS:C0034790
+Antigen Receptors, T-Cell	UMLS:C0034790
+Receptors, T Cell Antigen	UMLS:C0034790
+Receptors, Antigen, T-Cell	UMLS:C0034790
+Major Histocompatibility Complex Receptor	UMLS:C0034790
+T8 Cell	UMLS:C0242629
+Cell, T8	UMLS:C0242629
+T8 Cells	UMLS:C0242629
+CD8 Cell	UMLS:C0242629
+cd8 cell	UMLS:C0242629
+Cells, T8	UMLS:C0242629
+cd8 cells	UMLS:C0242629
+CD8+ T Cell	UMLS:C0242629
+T8 Lymphocyte	UMLS:C0242629
+T8 lymphocyte	UMLS:C0242629
+Lymphocyte, T8	UMLS:C0242629
+T8 Lymphocytes	UMLS:C0242629
+CD8 lymphocyte	UMLS:C0242629
+CD8 Lymphocyte	UMLS:C0242629
+CD8+ Lymphocyte	UMLS:C0242629
+CD8 Lymphocytes	UMLS:C0242629
+Lymphocytes, T8	UMLS:C0242629
+CD8+ T-Lymphocyte	UMLS:C0242629
+CD8+ T Lymphocyte	UMLS:C0242629
+CD8+ T Lymphocytes	UMLS:C0242629
+CD8-Positive Lymphocyte	UMLS:C0242629
+CD8 Positive Lymphocytes	UMLS:C0242629
+CD8-Positive Lymphocytes	UMLS:C0242629
+Lymphocyte, CD8-Positive	UMLS:C0242629
+CD8-Positive T-Lymphocyte	UMLS:C0242629
+Lymphocytes, CD8-Positive	UMLS:C0242629
+CD8-Positive T-Lymphocytes	UMLS:C0242629
+T-Lymphocyte, CD8-Positive	UMLS:C0242629
+CD8 Positive T Lymphocytes	UMLS:C0242629
+T-Lymphocytes, CD8-Positive	UMLS:C0242629
+CD8+HLA-DR+ T lymphocyte	UMLS:C4322673
+p32	UMLS:C1721291
+wt CD8	UMLS:C1721291
+CD8a Molecule	UMLS:C1721291
+T-Cell Antigen Leu2	UMLS:C1721291
+OKT8 T-Cell Antigen	UMLS:C1721291
+CD8A protein, human	UMLS:C1721291
+Leu2 T-Lymphocyte Antigen	UMLS:C1721291
+CD8a molecule protein, human	UMLS:C1721291
+CD8 antigen, alpha polypeptide p32, human	UMLS:C1721291
+T-Cell Surface Glycoprotein CD8 Alpha Chain	UMLS:C1721291
+T-Lymphocyte Differentiation Antigen T8/Leu-2	UMLS:C1721291
+CD43+ T lymphocyte	UMLS:C4322812
+Th1 cell	UMLS:C0242632
+Th1 Cell	UMLS:C0242632
+th1 cell	UMLS:C0242632
+TH-1 Cell	UMLS:C0242632
+Th-1 Cell	UMLS:C0242632
+Th1 Cells	UMLS:C0242632
+Cell, Th1	UMLS:C0242632
+th1 cells	UMLS:C0242632
+Cell, TH-1	UMLS:C0242632
+Cells, Th1	UMLS:C0242632
+TH-1 Cells	UMLS:C0242632
+TH 1 Cells	UMLS:C0242632
+Cells, TH-1	UMLS:C0242632
+T Helper 1 Cells	UMLS:C0242632
+Type 1 helper cell	UMLS:C0242632
+Type 1 Helper Cell	UMLS:C0242632
+Type 1 T-helper cell	UMLS:C0242632
+T-helper cell type 1	UMLS:C0242632
+Type 1 Helper T Cells	UMLS:C0242632
+LMB-2	UMLS:C0655013
+B3(Fv)-PE38KDEL	UMLS:C0655013
+Anti-Tac(Fv)-PE38	UMLS:C0655013
+immunotoxin LMB-2	UMLS:C0655013
+Immunotoxin LMB-2	UMLS:C0655013
+anti-Tac(Fv)-PE38	UMLS:C0655013
+LMB-2 immunotoxin	UMLS:C0655013
+LMB-2 Immunotoxin	UMLS:C0655013
+Humanized AntiTac Toxin	UMLS:C0655013
+humanized antiTac toxin	UMLS:C0655013
+LMB-2 (anti-TAC(FV)-PE-38)	UMLS:C0655013
+LMB-2 (Anti-TAC(FV)-PE-38)	UMLS:C0655013
+B3(Fv)-PE38KDEL recombinant immunotoxin	UMLS:C0655013
+T3E	UMLS:C0759310
+TCRE	UMLS:C0759310
+CD3E	UMLS:C0759310
+CD3-Epsilon	UMLS:C0759310
+CD3E Protein	UMLS:C0759310
+CD3E protein, human	UMLS:C0759310
+CD3epsilon protein, human	UMLS:C0759310
+CD3E Antigen Epsilon Polypeptide	UMLS:C0759310
+T-Cell Surface Antigen T3/LEU-4 Epsilon Chain	UMLS:C0759310
+T-Cell Surface Antigen T3/Leu-4 Epsilon Chain	UMLS:C0759310
+T-Cell Surface Glycoprotein CD3 Epsilon Chain	UMLS:C0759310
+CD3E Antigen, Epsilon Polypeptide (Tit3 Complex)	UMLS:C0759310
+T-Cell Antigen Receptor Complex, Epsilon Subunit of T3	UMLS:C0759310
+CD3E antigen, epsilon polypeptide (TiT3 complex) protein, human	UMLS:C0759310
+Cells.CD7	UMLS:C0882920
+CD7 cells	UMLS:C0882920
+CD7+ cell	UMLS:C0882920
+CD7+ T lymphocyte	UMLS:C0882920
+CD38+ T lymphocyte	UMLS:C4324113
+CD28+ T lymphocyte	UMLS:C4324118
+T-cell naive + mem + act subsets Pnl Bld	UMLS:C5425568
+T-cell naive and memory and activated subsets panel (Bld)	UMLS:C5425568
+T-cell naive & memory & activated subsets panel:-:Pt:Bld:Qn	UMLS:C5425568
+T-cell naive and memory and activated subsets panel - Blood	UMLS:C5425568
+T-cell naive & memory & activated subsets panel:-:To identify measures at a point in time:Whole blood:Quantitative	UMLS:C5425568
+CD13+ T lymphocyte	UMLS:C4322821
+T-Cell Precursor	UMLS:C1955941
+T-Cell Precursors	UMLS:C1955941
+Precursor, T-Cell	UMLS:C1955941
+T Cell Precursors	UMLS:C1955941
+Precursors, T-Cell	UMLS:C1955941
+T-Lymphoid Precursor Cell	UMLS:C1955941
+Cell, T-Lymphoid Precursor	UMLS:C1955941
+T-Lymphoid Precursor Cells	UMLS:C1955941
+Precursor Cell, T-Lymphoid	UMLS:C1955941
+Precursor Cells, T-Lymphoid	UMLS:C1955941
+Precursor Cells, T Lymphoid	UMLS:C1955941
+Cells, T-Lymphoid Precursor	UMLS:C1955941
+helper cell	UMLS:C0018894
+Helper Cell	UMLS:C0018894
+helper cells	UMLS:C0018894
+Helper Cells	UMLS:C0018894
+Inducer Cell	UMLS:C0018894
+Inducer Cells	UMLS:C0018894
+helper t-cell	UMLS:C0018894
+Helper T cell	UMLS:C0018894
+t helper cell	UMLS:C0018894
+cell t helper	UMLS:C0018894
+Helper T-Cell	UMLS:C0018894
+Helper T Cell	UMLS:C0018894
+cell helper t	UMLS:C0018894
+t-cell helper	UMLS:C0018894
+helper t cell	UMLS:C0018894
+T-helper cell	UMLS:C0018894
+Cell, Helper T	UMLS:C0018894
+helper t-cells	UMLS:C0018894
+cells t-helper	UMLS:C0018894
+t helper cells	UMLS:C0018894
+T-Cell, Helper	UMLS:C0018894
+helper t cells	UMLS:C0018894
+T Cell, Helper	UMLS:C0018894
+Helper T Cells	UMLS:C0018894
+t-helper cells	UMLS:C0018894
+cell helpers t	UMLS:C0018894
+Helper T-Cells	UMLS:C0018894
+T Cells, Helper	UMLS:C0018894
+T-Cells, Helper	UMLS:C0018894
+Cells, Helper T	UMLS:C0018894
+CD4+ T lymphocyte	UMLS:C0018894
+Helper T-Lymphocyte	UMLS:C0018894
+T-helper lymphocyte	UMLS:C0018894
+Helper T-lymphocyte	UMLS:C0018894
+helper T lymphocyte	UMLS:C0018894
+Helper T lymphocyte	UMLS:C0018894
+T-Lymphocyte, Helper	UMLS:C0018894
+t lymphocytes helper	UMLS:C0018894
+Inducer T-Lymphocyte	UMLS:C0018894
+Helper T-Lymphocytes	UMLS:C0018894
+T Lymphocytes, Helper	UMLS:C0018894
+T-Lymphocyte, Inducer	UMLS:C0018894
+Helper-Inducer T-Cell	UMLS:C0018894
+T-Lymphocytes, Helper	UMLS:C0018894
+Inducer T-Lymphocytes	UMLS:C0018894
+T Lymphocytes, Inducer	UMLS:C0018894
+T-Lymphocytes, Inducer	UMLS:C0018894
+Helper-Inducer T-Cells	UMLS:C0018894
+T-Cell, Helper-Inducer	UMLS:C0018894
+T-Cells, Helper-Inducer	UMLS:C0018894
+T Cells, Helper Inducer	UMLS:C0018894
+Helper-Inducer T-Lymphocyte	UMLS:C0018894
+Helper Inducer T Lymphocytes	UMLS:C0018894
+T-Lymphocyte, Helper-Inducer	UMLS:C0018894
+Helper-Inducer T-Lymphocytes	UMLS:C0018894
+T Lymphocytes, Helper Inducer	UMLS:C0018894
+T-Lymphocytes, Helper-Inducer	UMLS:C0018894
+CD57+ T lymphocyte	UMLS:C4322738
+Suppressor-Inducer T-Cell	UMLS:C0162556
+Suppressor-Inducer T-Cells	UMLS:C0162556
+Suppressor-Inducer T-Lymphocyte	UMLS:C0162556
+Suppressor inducer T lymphocyte	UMLS:C0162556
+Suppressor-Inducer T-Lymphocytes	UMLS:C0162556
+T-CELL SUBGROUPS, NON-HLA-LINKED	UMLS:C1861277
+Lymphocyte Cooperation	UMLS:C0024255
+Cooperation, Lymphocyte	UMLS:C0024255
+Lymphocyte Cooperations	UMLS:C0024255
+Cooperations, Lymphocyte	UMLS:C0024255
+Cellular component of blood	UMLS:C1626414
+LCP1	UMLS:C1429361
+LC64P	UMLS:C1429361
+LCP-1	UMLS:C1429361
+Plastin-2	UMLS:C1429361
+Plastin 2	UMLS:C1429361
+L-Plastin	UMLS:C1429361
+PLS2 protein, human	UMLS:C1429361
+LCP1 protein, human	UMLS:C1429361
+L-plastin protein, human	UMLS:C1429361
+Lymphocyte Cytosolic Protein 1	UMLS:C1429361
+Lymphocyte Cytosolic Protein-1	UMLS:C1429361
+lymphocyte cytosol protein, human	UMLS:C1429361
+Epididymis Secretory Protein Li 37	UMLS:C1429361
+Lymphocyte Cytosol Polypeptide 64-KD	UMLS:C1429361
+lymphocyte cytosol polypeptide, human	UMLS:C1429361
+lymphocyte cytosolic protein 1, human	UMLS:C1429361
+TCR Gamma-Delta	UMLS:C0085246
+TCR gamma delta	UMLS:C0085246
+TcR gamma-delta	UMLS:C0085246
+TcR gamma delta	UMLS:C0085246
+TCR Gamma/Delta	UMLS:C0085246
+gamma-delta, TcR	UMLS:C0085246
+T-Cell Receptor Gamma-Delta	UMLS:C0085246
+gamma-delta T-Cell Receptor	UMLS:C0085246
+T-Cell Receptor Gamma/Delta	UMLS:C0085246
+T-Cell Receptor Gamma Delta	UMLS:C0085246
+gamma-delta T-Cell Receptors	UMLS:C0085246
+T Cell Receptor, gamma delta	UMLS:C0085246
+T-Cell Receptor, Gamma-Delta	UMLS:C0085246
+T-Cell Receptor, gamma-delta	UMLS:C0085246
+T Cell Receptors, gamma delta	UMLS:C0085246
+T-Cell Receptors, gamma-delta	UMLS:C0085246
+Antigen Receptors, T-Cell, gamma-delta	UMLS:C0085246
+Receptors, Antigen, T Cell, gamma delta	UMLS:C0085246
+Receptors, Antigen, T-Cell, gamma-delta	UMLS:C0085246
+radiation effects	UMLS:C0034526
+aspects of radiation effects	UMLS:C0034526
+CD54	UMLS:C3493229
+ICAM1	UMLS:C3493229
+ICAM-1	UMLS:C3493229
+CD54 Antigen	UMLS:C3493229
+ICAM1 protein, human	UMLS:C3493229
+ICAM-1 protein, human	UMLS:C3493229
+Human Rhinovirus Receptor	UMLS:C3493229
+Major Group Rhinovirus Receptor	UMLS:C3493229
+Intercellular Adhesion Molecule 1	UMLS:C3493229
+Intercellular Adhesion Molecule-1	UMLS:C3493229
+intercellular adhesion molecule 1p, human	UMLS:C3493229
 NKR	UMLS:C1689853
 KLRB1	UMLS:C1689853
 CD161	UMLS:C1689853
@@ -85,1147 +1178,54 @@ Killer Cell Lectin-Like Receptor Subfamily B Member 1	UMLS:C1689853
 Killer Cell Lectin-Like Receptor Subfamily B, Member 1	UMLS:C1689853
 Killer Cell Lectin-Like Receptor Subfamily B, Member 1 Protein	UMLS:C1689853
 killer cell lectin-like receptor subfamily B, member 1 protein, human	UMLS:C1689853
-CD16+ T lymphocyte	UMLS:C4322822
-MAIT Cell	UMLS:C3891065
-MAIT Cells	UMLS:C3891065
-Cell, MAIT	UMLS:C3891065
-Cells, MAIT	UMLS:C3891065
-Mucosal-Associated Invariant T Cell	UMLS:C3891065
-Mucosal-Associated Invariant T-Cell	UMLS:C3891065
-Mucosal Associated Invariant T Cell	UMLS:C3891065
-Mucosal Associated Invariant T Cells	UMLS:C3891065
-Mucosal-Associated Invariant T Cells	UMLS:C3891065
-T-cell proliferation	UMLS:C1155046
-T-Cell Proliferation	UMLS:C1155046
-T cell proliferation	UMLS:C1155046
-T lymphocyte proliferation	UMLS:C1155046
-T-lymphocyte proliferation	UMLS:C1155046
-T-cell CD4 subset pnl Bld	UMLS:C3174665
-T-cell helper (CD4) subset panel (Bld)	UMLS:C3174665
-T-cell helper (CD4) subset panel - Blood	UMLS:C3174665
-T-cell helper (CD4) subset panel:-:Pt:Bld:-	UMLS:C3174665
-T-cell helper (CD4) subset panel:-:To identify measures at a point in time:Whole blood:-	UMLS:C3174665
-TREC Z-score DBS	UMLS:C5144054
-T-cell receptor excision circle (DBS) [Z-score]	UMLS:C5144054
-T-cell receptor excision circle [Z-score] in DBS	UMLS:C5144054
-T-cell receptor excision circle:Zscore:Pt:Bld.dot:Qn	UMLS:C5144054
-T-cell receptor excision circle:Z Score:To identify measures at a point in time:Dried blood spot:Quantitative	UMLS:C5144054
-CD54	UMLS:C3493229
-ICAM1	UMLS:C3493229
-ICAM-1	UMLS:C3493229
-CD54 Antigen	UMLS:C3493229
-ICAM1 protein, human	UMLS:C3493229
-ICAM-1 protein, human	UMLS:C3493229
-Human Rhinovirus Receptor	UMLS:C3493229
-Major Group Rhinovirus Receptor	UMLS:C3493229
-Intercellular Adhesion Molecule-1	UMLS:C3493229
-Intercellular Adhesion Molecule 1	UMLS:C3493229
-intercellular adhesion molecule 1p, human	UMLS:C3493229
-Treg Cell	UMLS:C0039198
-Treg Cells	UMLS:C0039198
-Cell, Treg	UMLS:C0039198
-Cells, Treg	UMLS:C0039198
-Regulatory T cell	UMLS:C0039198
-Regulatory T Cell	UMLS:C0039198
-Regulatory T-Cell	UMLS:C0039198
-Regulatory T-Cells	UMLS:C0039198
-T Cell, Regulatory	UMLS:C0039198
-Cell, Regulatory T	UMLS:C0039198
-Regulatory T Cells	UMLS:C0039198
-T Cells, Regulatory	UMLS:C0039198
-Cells, Regulatory T	UMLS:C0039198
-T-Cells, Regulatory	UMLS:C0039198
-Regulatory T-Lymphocyte	UMLS:C0039198
-Regulatory T Lymphocyte	UMLS:C0039198
-Regulatory T Lymphocytes	UMLS:C0039198
-T-Lymphocyte, Regulatory	UMLS:C0039198
-Regulatory T-Lymphocytes	UMLS:C0039198
-T Lymphocytes, Regulatory	UMLS:C0039198
-T-Lymphocytes, Regulatory	UMLS:C0039198
-B and T cell crossmatch panel FC (S)	UMLS:C5425359
-B + T crossmatch Pnl Pt ser+Don bld FC	UMLS:C5425359
-B & T cell crossmatch panel:-:Pt:Ser^Patient+Bld^Donor:-:Flow cytometry	UMLS:C5425359
-B and T cell crossmatch panel - Patient serum and Donor blood by Flow cytometry (FC)	UMLS:C5425359
-B & T cell crossmatch panel:-:To identify measures at a point in time:Serum^Patient+Bld^Donor:-:Flow cytometry	UMLS:C5425359
-B7	UMLS:C4048302
-BB1	UMLS:C4048302
-LAB7	UMLS:C4048302
-B7-1	UMLS:C4048302
-CD80	UMLS:C4048302
-CD28LG	UMLS:C4048302
-CD28LG1	UMLS:C4048302
-B71 Antigen	UMLS:C4048302
-CD80 Antigen	UMLS:C4048302
-CD28 Antigen Ligand 1	UMLS:C4048302
-Activation B7-1 Antigen	UMLS:C4048302
-CTLA-4 Counter-Receptor B7.1	UMLS:C4048302
-T-Lymphocyte Activation Antigen CD80	UMLS:C4048302
-B-lymphocyte Activation Antigen B7-1	UMLS:C4048302
-T-Lymphocyte Activation Antigen CD80, human	UMLS:C4048302
-CCR5	UMLS:C3711103
-CKR5	UMLS:C3711103
-CKR-5	UMLS:C3711103
-CCR-5	UMLS:C3711103
-CMKBR5	UMLS:C3711103
-CCCKR5	UMLS:C3711103
-CHEMR13	UMLS:C3711103
-CC-CKR-5	UMLS:C3711103
-C-C CKR-5	UMLS:C3711103
-CCR5 Protein	UMLS:C3711103
-CD195 Antigen	UMLS:C3711103
-CCR5 protein, human	UMLS:C3711103
-CD195 protein, human	UMLS:C3711103
-CKR-5 protein, human	UMLS:C3711103
-IDDM22 protein, human	UMLS:C3711103
-HIV-1 Fusion Coreceptor	UMLS:C3711103
-CC Chemokine Receptor 5	UMLS:C3711103
-CC-CKR-5 protein, human	UMLS:C3711103
-Chemokine Receptor CCR5	UMLS:C3711103
-HIV-1 Fusion Co-Receptor	UMLS:C3711103
-Chemokine (C-C) Receptor 5	UMLS:C3711103
-C-C Chemokine Receptor Type 5	UMLS:C3711103
-C-C Motif Chemokine Receptor 5	UMLS:C3711103
-Chemokine (C-C Motif) Receptor 5	UMLS:C3711103
-C-C chemokine receptor type 5, human	UMLS:C3711103
-chemokine (C-C motif) receptor 5 (gene-pseudogene) protein, human	UMLS:C3711103
-T4 Cell	UMLS:C0039215
-t4 cell	UMLS:C0039215
-cd4 cell	UMLS:C0039215
-T4 Cells	UMLS:C0039215
-t4 cells	UMLS:C0039215
-cd4 cells	UMLS:C0039215
-CD4+ T Cell	UMLS:C0039215
-T4 lymphocyte	UMLS:C0039215
-T4 Lymphocyte	UMLS:C0039215
-t4 lymphocyte	UMLS:C0039215
-CD4 Lymphocyte	UMLS:C0039215
-T4 Lymphocytes	UMLS:C0039215
-lymphocytes t4	UMLS:C0039215
-cd4 lymphocyte	UMLS:C0039215
-CD4 lymphocyte	UMLS:C0039215
-cd4 lymphocytes	UMLS:C0039215
-lymphocytes cd4	UMLS:C0039215
-CD4 Lymphocytes	UMLS:C0039215
-CD4+ T-Lymphocyte	UMLS:C0039215
-CD4+ T Lymphocyte	UMLS:C0039215
-CD4+ T Lymphocytes	UMLS:C0039215
-CD4-Positive Lymphocyte	UMLS:C0039215
-CD4-Positive Lymphocytes	UMLS:C0039215
-Lymphocyte, CD4-Positive	UMLS:C0039215
-Lymphocytes, CD4-Positive	UMLS:C0039215
-CD4-Positive T-Lymphocyte	UMLS:C0039215
-T-Lymphocyte, CD4-Positive	UMLS:C0039215
-CD4-Positive T-Lymphocytes	UMLS:C0039215
-CD4 Positive T Lymphocytes	UMLS:C0039215
-T-Lymphocytes, CD4-Positive	UMLS:C0039215
-CD28	UMLS:C4281805
-Tp44	UMLS:C4281805
-T90/44	UMLS:C4281805
-CD28 Antigen	UMLS:C4281805
-Antigen CD28	UMLS:C4281805
-T-Cell Antigen CD28	UMLS:C4281805
-T-Cell-Specific Surface Glycoprotein	UMLS:C4281805
-T-Cell Specific Surface Glycoprotein CD28	UMLS:C4281805
-T-Cell-Specific Surface Glycoprotein CD28	UMLS:C4281805
-T-Cell-Specific Surface Glycoprotein CD28, human	UMLS:C4281805
-CD8+HLA-DR+ T lymphocyte	UMLS:C4322673
-enzymes	UMLS:C0014445
-enzymology	UMLS:C0014445
-CD97	UMLS:C4721818
-ADGRE5	UMLS:C4721818
-CD97 Antigen	UMLS:C4721818
-CD97 Antigen, human	UMLS:C4721818
-Leukocyte Antigen CD97	UMLS:C4721818
-Adhesion G Protein-Coupled Receptor E5	UMLS:C4721818
-Adhesion G-Protein Coupled Receptor E5	UMLS:C4721818
-CD198+ T lymphocyte	UMLS:C4322819
-Protoplasm of T lymphocyte	UMLS:C2338232
-T-cell + B-cell + NK subsets Bld-Imp Nar	UMLS:C4266002
-Lymphocyte T-cell & B-cell & Natural killer subsets:Imp:Pt:Bld:Nar	UMLS:C4266002
-Lymphocyte T-cell and B-cell and Natural killer subsets Nar (Bld) [Interp]	UMLS:C4266002
-Lymphocyte T-cell and B-cell and Natural killer subsets [Interpretation] in Blood Narrative	UMLS:C4266002
-Lymphocyte T-cell & B-cell & Natural killer subsets:Impression/interpretation of study:To identify measures at a point in time:Whole blood:Narrative	UMLS:C4266002
-Other markers	UMLS:C1955343
-TREC # DBS NAA+probe	UMLS:C2973228
-T-cell receptor excision circle NAA+probe (DBS) [#/Vol]	UMLS:C2973228
-T-cell receptor excision circle:NCnc:Pt:Bld.dot:Qn:Probe.amp.tar	UMLS:C2973228
-T-cell receptor excision circle [#/volume] in DBS by NAA with probe detection	UMLS:C2973228
-T-cell receptor excision circle:Number Concentration (count/vol):To identify measures at a point in time:Dried blood spot:Quantitative:Probe.amp.tar	UMLS:C2973228
-IFA	UMLS:C0281643
-incomplete Freund's adjuvant	UMLS:C0281643
-Incomplete Freund's Adjuvant	UMLS:C0281643
-Freund's incomplete adjuvant	UMLS:C0281643
-Freund's Incomplete Adjuvant	UMLS:C0281643
-Incomplete Freund's adjuvant	UMLS:C0281643
-TCR Alpha/Beta	UMLS:C0085247
-TCR alpha beta	UMLS:C0085247
-Alpha-Beta TCR	UMLS:C0085247
-TcR alpha-beta	UMLS:C0085247
-Alpha-Beta-TCR	UMLS:C0085247
-Alpha/Beta TCR	UMLS:C0085247
-TCR Alpha-Beta	UMLS:C0085247
-TcR alpha beta	UMLS:C0085247
-alpha-beta, TcR	UMLS:C0085247
-alpha-beta T-Cell Receptor	UMLS:C0085247
-T-Cell Receptor Alpha/Beta	UMLS:C0085247
-T-Cell Receptor Alpha Beta	UMLS:C0085247
-T-Cell Receptor Alpha-Beta	UMLS:C0085247
-T-Cell Receptor, Alpha-Beta	UMLS:C0085247
-T Cell Receptor, alpha beta	UMLS:C0085247
-alpha-beta T-Cell Receptors	UMLS:C0085247
-T-Cell Receptor, alpha-beta	UMLS:C0085247
-T-Cell Receptors, alpha-beta	UMLS:C0085247
-T Cell Receptors, alpha beta	UMLS:C0085247
-Antigen Receptors, T-Cell, alpha-beta	UMLS:C0085247
-Receptors, Antigen, T-Cell, alpha-beta	UMLS:C0085247
-Receptors, Antigen, T Cell, alpha beta	UMLS:C0085247
-GM-CSF cDNA/gold	UMLS:C1517366
-GM-CSF cDNA/Gold Complex	UMLS:C1517366
-CD158k	UMLS:C5400888
-NKAT-4	UMLS:C5400888
-KIR3DL2	UMLS:C5400888
-CD158k Antigen	UMLS:C5400888
-KIR Antigen 3DL2	UMLS:C5400888
-p70 NK Receptor CL-5	UMLS:C5400888
-MHC Class I NK Cell Receptor	UMLS:C5400888
-CD158 Antigen-Like Family Member K	UMLS:C5400888
-p70 Killer Cell Inhibitory Receptor	UMLS:C5400888
-Natural Killer-Associated Transcript 4	UMLS:C5400888
-p70 Natural Killer Cell Receptor Clone CL-5	UMLS:C5400888
-Killer Cell Immunoglobulin-Like Receptor 3DL2	UMLS:C5400888
-Killer Cell Immunoglobulin-Like Receptor 3DL2, Human	UMLS:C5400888
-pathology	UMLS:C0205469
-Pathological aspects	UMLS:C0205469
-CKR6	UMLS:C1308121
-DCR2	UMLS:C1308121
-DRY6	UMLS:C1308121
-BN-1	UMLS:C1308121
-CCR6	UMLS:C1308121
-DRY-6	UMLS:C1308121
-GPR29	UMLS:C1308121
-CKRL3	UMLS:C1308121
-CCR-6	UMLS:C1308121
-CMKBR6	UMLS:C1308121
-GPRCY4	UMLS:C1308121
-CKR-L3	UMLS:C1308121
-STRL22	UMLS:C1308121
-GPR-CY4	UMLS:C1308121
-CC-CKR-6	UMLS:C1308121
-C-C CKR-6	UMLS:C1308121
-CCR6 Protein	UMLS:C1308121
-CD196 Antigen	UMLS:C1308121
-LARC Receptor	UMLS:C1308121
-CCR6 protein, human	UMLS:C1308121
-STRL22 protein, human	UMLS:C1308121
-CKR-L3 protein, human	UMLS:C1308121
-GCY-4 receptor, human	UMLS:C1308121
-Chemokine Receptor-Like 3	UMLS:C1308121
-Chemokine (C-C) Receptor 6	UMLS:C1308121
-chemokine receptor 6, human	UMLS:C1308121
-G Protein-Coupled Receptor 29	UMLS:C1308121
-C-C Chemokine Receptor Type 6	UMLS:C1308121
-CC chemokine receptor 6, human	UMLS:C1308121
-Chemokine (C-C Motif) Receptor 6	UMLS:C1308121
-CC chemokine receptor CCR6, human	UMLS:C1308121
-chemokine (C-C motif) receptor 6, human	UMLS:C1308121
-Seven-Transmembrane Receptor, Lymphocyte, 22	UMLS:C1308121
-LIF	UMLS:C1453955
-hilda	UMLS:C1453955
-MLPLI	UMLS:C1453955
-D Factor	UMLS:C1453955
-D-Factor	UMLS:C1453955
-human IL-DA	UMLS:C1453955
-LIF protein, human	UMLS:C1453955
-human interleukin DA	UMLS:C1453955
-Leukemia Inhibitory Factor	UMLS:C1453955
-Leukemia-Inhibitory Factor	UMLS:C1453955
-Human Interleukin in DA Cells	UMLS:C1453955
-Melanoma-Derived LPL Inhibitor	UMLS:C1453955
-leukemia inhibitory factor, human	UMLS:C1453955
-Hepatocyte-Stimulating Factor III	UMLS:C1453955
-Differentiation-Stimulating Factor	UMLS:C1453955
-Cholinergic Differentiation Factor	UMLS:C1453955
-Differentiation Stimulating Factor	UMLS:C1453955
-Differentiation Inhibitory Activity	UMLS:C1453955
-cholinergic differentiation factor, human	UMLS:C1453955
+Mogamulizumab	UMLS:C2987603
+mogamulizumab	UMLS:C2987603
+MOGAMULIZUMAB	UMLS:C2987603
+t cell	UMLS:C0039194
+T Cell	UMLS:C0039194
+T-Cell	UMLS:C0039194
+t-cell	UMLS:C0039194
+T cell	UMLS:C0039194
+T-cell	UMLS:C0039194
+t cells	UMLS:C0039194
+Cell, T	UMLS:C0039194
+T-Cells	UMLS:C0039194
+t-cells	UMLS:C0039194
+T Cells	UMLS:C0039194
+T cells	UMLS:C0039194
+Cells, T	UMLS:C0039194
+t-lymphocyte	UMLS:C0039194
+t lymphocyte	UMLS:C0039194
+T Lymphocyte	UMLS:C0039194
+T-lymphocyte	UMLS:C0039194
+T-Lymphocyte	UMLS:C0039194
+T lymphocyte	UMLS:C0039194
+t-lymphocytes	UMLS:C0039194
+Lymphocyte, T	UMLS:C0039194
+T-Lymphocytes	UMLS:C0039194
+T Lymphocytes	UMLS:C0039194
+t lymphocytes	UMLS:C0039194
+Lymphocytes, T	UMLS:C0039194
+Thymus Derived Lymphocyte	UMLS:C0039194
+thymus derived lymphocyte	UMLS:C0039194
+Thymus-Dependent Lymphocyte	UMLS:C0039194
+thymus-dependent lymphocyte	UMLS:C0039194
+Thymus Dependent Lymphocytes	UMLS:C0039194
+Thymus-Dependent Lymphocytes	UMLS:C0039194
+Lymphocyte, Thymus-Dependent	UMLS:C0039194
+Lymphocytes, Thymus-Dependent	UMLS:C0039194
+HeFi-1	UMLS:C0796480
+MOAB HeFi-1	UMLS:C0796480
+Monoclonal Antibody HeFi-1	UMLS:C0796480
+monoclonal antibody HeFi-1	UMLS:C0796480
+T-Cell Count	UMLS:C1167909
+T lymphocyte count	UMLS:C1167909
+T-Lymphocyte Count	UMLS:C1167909
+CD3+CD25+ lymphocyte	UMLS:C1267818
+immunology	UMLS:C1522005
+immunology aspects	UMLS:C1522005
 Lymph T + B-cell + NK subsets Pnl L Resp	UMLS:C5452389
 Lymphocyte T-cell and B-cell and Natural killer subsets panel FC (Lower resp)	UMLS:C5452389
 Lymphocyte T-cell & B-cell & Natural killer subsets panel:-:Pt:Respiratory.lower:Qn:Flow cytometry	UMLS:C5452389
 Lymphocyte T-cell and B-cell and Natural killer subsets panel - Lower respiratory specimen by Flow cytometry (FC)	UMLS:C5452389
 Lymphocyte T-cell & B-cell & Natural killer subsets panel:-:To identify measures at a point in time:Respiratory.lower:Quantitative:Flow cytometry	UMLS:C5452389
-B+T cell XM.auto Ser+Bld CDC-Imp	UMLS:C3654221
-B cell+T cell crossmatch.autologous:Imp:Pt:Ser+Bld:Ord:Complement dependent cytotoxicity	UMLS:C3654221
-B cell+T cell crossmatch.autologous Complement dependent cytotoxicity Ql (S+Bld) [Interp]	UMLS:C3654221
-B cell+T cell crossmatch.autologous [Interpretation] Qualitative by Complement dependent cytotoxicity	UMLS:C3654221
-B cell+T cell crossmatch.autologous:Impression/interpretation of study:To identify measures at a point in time:Serum+Whole blood:Ordinal:Complement dependent cytotoxicity	UMLS:C3654221
-T-Lymphocyte and NK-Cell	UMLS:C1515139
-T-Lymphocyte and Natural Killer Cell	UMLS:C1515139
-IMD3	UMLS:C3887583
-gp39	UMLS:C3887583
-TRAP	UMLS:C3887583
-CD40L	UMLS:C3887583
-T-BAM	UMLS:C3887583
-HIGM1	UMLS:C3887583
-CD154	UMLS:C3887583
-TNFSF5	UMLS:C3887583
-CD40-L	UMLS:C3887583
-CD40 Ligand	UMLS:C3887583
-CD154 Antigen	UMLS:C3887583
-CD40 Ligand, human	UMLS:C3887583
-T Cell Antigen gp39	UMLS:C3887583
-CD40 Antigen Ligand	UMLS:C3887583
-T-Cell Antigen Gp39	UMLS:C3887583
-T-B Cell-Activating Molecule	UMLS:C3887583
-TNF-Related Activation Protein	UMLS:C3887583
-Tumor Necrosis Factor Ligand Superfamily Member 5	UMLS:C3887583
-B+T cell XM Ser+Bld CDC-Imp	UMLS:C3654219
-B cell+T cell crossmatch:Imp:Pt:Ser+Bld:Ord:Complement dependent cytotoxicity	UMLS:C3654219
-B cell+T cell crossmatch Complement dependent cytotoxicity Ql (S+Bld) [Interp]	UMLS:C3654219
-B cell+T cell crossmatch [Interpretation] Qualitative by Complement dependent cytotoxicity	UMLS:C3654219
-B cell+T cell crossmatch:Impression/interpretation of study:To identify measures at a point in time:Serum+Whole blood:Ordinal:Complement dependent cytotoxicity	UMLS:C3654219
-T Cell XM Bld Ql	UMLS:C1830795
-T cell crossmatch Ql (Bld)	UMLS:C1830795
-T cell crossmatch:PrThr:Pt:Bld:Ord	UMLS:C1830795
-T cell crossmatch [Presence] in Blood	UMLS:C1830795
-T cell crossmatch:Presence or Threshold:To identify measures at a point in time:Whole blood:Ordinal	UMLS:C1830795
-gp39	UMLS:C1527003
-T-BAM	UMLS:C1527003
-TRAP Ligand	UMLS:C1527003
-CD154 antigen	UMLS:C1527003
-T-Cell Antigen gp39	UMLS:C1527003
-Recombinant CD40-Ligand	UMLS:C1527003
-Recombinant CD40-ligand	UMLS:C1527003
-recombinant CD40-ligand	UMLS:C1527003
-TNF-Related Activation Protein	UMLS:C1527003
-T-cell naive + mem + act subsets Pnl Bld	UMLS:C5425568
-T-cell naive and memory and activated subsets panel (Bld)	UMLS:C5425568
-T-cell naive & memory & activated subsets panel:-:Pt:Bld:Qn	UMLS:C5425568
-T-cell naive and memory and activated subsets panel - Blood	UMLS:C5425568
-T-cell naive & memory & activated subsets panel:-:To identify measures at a point in time:Whole blood:Quantitative	UMLS:C5425568
-TREC ThreshNum DBS Qn	UMLS:C5144053
-T-cell receptor excision circle (DBS) [ThreshNum]	UMLS:C5144053
-T-cell receptor excision circle:ThreshNum:Pt:Bld.dot:Qn	UMLS:C5144053
-T-cell receptor excision circle [Cycle Threshold #] in DBS	UMLS:C5144053
-T-cell receptor excision circle:Threshold Number:To identify measures at a point in time:Dried blood spot:Quantitative	UMLS:C5144053
-CD1+ T lymphocyte	UMLS:C4322737
-T-cell activated subsets Pnl Bld	UMLS:C4266008
-Activated T-cell (CD38+HLA-DR+) subsets panel (Bld)	UMLS:C4266008
-T-cell activated (CD38+HLA-DR+) subsets panel - Blood	UMLS:C4266008
-T-cell activated (CD38+HLA-DR+) subsets panel:-:Pt:Bld:-	UMLS:C4266008
-T-cell activated (CD38+Human leukocyte antigen-DR+) subsets panel:-:To identify measures at a point in time:Whole blood:-	UMLS:C4266008
-Lymphoma - T-cell screen Pnl Spec FC	UMLS:C2706792
-Lymphoma - T-cell screen panel FC (Specimen)	UMLS:C2706792
-Lymphoma - T-cell screen panel:-:Pt:XXX:-:Flow cytometry	UMLS:C2706792
-Lymphoma - T-cell screen panel - Specimen by Flow cytometry (FC)	UMLS:C2706792
-Lymphoma - T-cell screen panel:-:To identify measures at a point in time:Not specified:-:Flow cytometry	UMLS:C2706792
-Lymphocyte Cooperation	UMLS:C0024255
-Cooperation, Lymphocyte	UMLS:C0024255
-Lymphocyte Cooperations	UMLS:C0024255
-Cooperations, Lymphocyte	UMLS:C0024255
-thymus	UMLS:C0040113
-Thymus	UMLS:C0040113
-thymus gland	UMLS:C0040113
-Thymus Gland	UMLS:C0040113
-Thymus gland	UMLS:C0040113
-Gland, Thymus	UMLS:C0040113
-Thymus Glands	UMLS:C0040113
-thymus glands	UMLS:C0040113
-Glands, Thymus	UMLS:C0040113
-Chest>Thymus gland	UMLS:C0040113
-Reticuloendothelial System, Thymus	UMLS:C0040113
-CD28+ T lymphocyte	UMLS:C4324118
-TBX21	UMLS:C1447831
-T-Box Protein 21	UMLS:C1447831
-TBX21 protein, human	UMLS:C1447831
-T-box 21 protein, human	UMLS:C1447831
-T-Box Expressed In T Cells	UMLS:C1447831
-Transcription Factor TBLYM	UMLS:C1447831
-T-Box Transcription Factor TBX21	UMLS:C1447831
-T-Cell-Specific T-Box Transcription Factor T-Bet	UMLS:C1447831
-DTX1	UMLS:C3712409
-hDTX1	UMLS:C3712409
-hDx-1	UMLS:C3712409
-Deltex1	UMLS:C3712409
-Deltex-1	UMLS:C3712409
-DTX1 Protein	UMLS:C3712409
-Deltex Protein 1	UMLS:C3712409
-Protein Deltex-1	UMLS:C3712409
-Deltex Homolog 1	UMLS:C3712409
-DTX1 protein, human	UMLS:C3712409
-EC 6.3.2.-, Formerly	UMLS:C3712409
-hDx-1 protein, human	UMLS:C3712409
-E3 Ubiquitin-Protein Ligase DTX1	UMLS:C3712409
-deltex E3 ubiquitin ligase 1, human	UMLS:C3712409
-deltex 1, E3 ubiquitin ligase protein, human	UMLS:C3712409
-deltex homolog 1 (Drosophila) protein, human	UMLS:C3712409
-T-CELL SUBGROUPS, NON-HLA-LINKED	UMLS:C1861277
-T Cell XM SerPl-Imp	UMLS:C1507593
-T cell crossmatch [Interp]	UMLS:C1507593
-T cell crossmatch [Interpretation]	UMLS:C1507593
-T cell crossmatch:Imp:Pt:Ser/Plas:Nom	UMLS:C1507593
-T cell crossmatch:Impression/interpretation of study:To identify measures at a point in time:Serum/Plasma:Nominal	UMLS:C1507593
-Jurkat cell	UMLS:C0376448
-Jurkat Cell	UMLS:C0376448
-Cell, Jurkat	UMLS:C0376448
-jurkat cells	UMLS:C0376448
-Jurkat Cells	UMLS:C0376448
-Cells, Jurkat	UMLS:C0376448
-CD45RO+ T lymphocyte	UMLS:C4322815
-Lymphoma - T-cell markers Spec-Imp	UMLS:C2706787
-Lymphoma - T-cell markers:Imp:Pt:XXX:Nar	UMLS:C2706787
-Lymphoma - T-cell markers Nar (Specimen) [Interp]	UMLS:C2706787
-Lymphoma - T-cell markers [Interpretation] in Specimen Narrative	UMLS:C2706787
-Lymphoma - T-cell markers:Impression/interpretation of study:To identify measures at a point in time:Not specified:Narrative	UMLS:C2706787
-CMV T-cell panel Bld FC	UMLS:C5381685
-Cytomegalovirus T-cell immunodeficiency panel FC (Bld)	UMLS:C5381685
-Cytomegalovirus T-cell immunodeficiency panel:-:Pt:Bld:Qn:Flow cytometry	UMLS:C5381685
-Cytomegalovirus T-cell immunodeficiency panel - Blood by Flow cytometry (FC)	UMLS:C5381685
-Cytomegalovirus T-cell immunodeficiency panel:-:To identify measures at a point in time:Whole blood:Quantitative:Flow cytometry	UMLS:C5381685
-HeFi-1	UMLS:C0796480
-MOAB HeFi-1	UMLS:C0796480
-Monoclonal Antibody HeFi-1	UMLS:C0796480
-monoclonal antibody HeFi-1	UMLS:C0796480
-mogamulizumab	UMLS:C2987603
-MOGAMULIZUMAB	UMLS:C2987603
-Mogamulizumab	UMLS:C2987603
-IL32	UMLS:C1566219
-IL-32	UMLS:C1566219
-IL-32, human	UMLS:C1566219
-Interleukin 32	UMLS:C1566219
-Interleukin-32	UMLS:C1566219
-NK4 protein, human	UMLS:C1566219
-IL32 protein, human	UMLS:C1566219
-Interleukin-32, human	UMLS:C1566219
-interleukin 32 protein, human	UMLS:C1566219
-Natural Killer Cells Protein 4	UMLS:C1566219
-natural killer cells protein 4, human	UMLS:C1566219
-Tumor Necrosis Factor Alpha-Inducing Factor	UMLS:C1566219
-natural killer cell transcript 4 protein, human	UMLS:C1566219
-T-cell activation	UMLS:C1155065
-T-Cell Activation	UMLS:C1155065
-T Cell Activation	UMLS:C1155065
-T cell activation	UMLS:C1155065
-T-lymphocyte activation	UMLS:C1155065
-T-Lymphocyte Activation	UMLS:C1155065
-T lymphocyte activation	UMLS:C1155065
-T Lymphocyte Activation	UMLS:C1155065
-Delayed type hypersensitivity-related T cell	UMLS:C2324943
-Delayed type hypersensitivity-related T lymphocyte	UMLS:C2324943
-T-cell naive + mem + eff subsets Pnl	UMLS:C4266004
-T-cell naive and memory and effector (CD27 and CD45RA) subsets panel (Bld)	UMLS:C4266004
-T-cell naive & memory & effector (CD27 and CD45RA) subsets panel:-:Pt:Bld:-	UMLS:C4266004
-T-cell naive and memory and effector (CD27 and CD45RA) subsets panel - Blood	UMLS:C4266004
-T-cell naive & memory & effector (CD27 and CD45RA) subsets panel:-:To identify measures at a point in time:Whole blood:-	UMLS:C4266004
-T-Cell Precursor	UMLS:C1955941
-Precursor, T-Cell	UMLS:C1955941
-T Cell Precursors	UMLS:C1955941
-T-Cell Precursors	UMLS:C1955941
-Precursors, T-Cell	UMLS:C1955941
-T-Lymphoid Precursor Cell	UMLS:C1955941
-Cell, T-Lymphoid Precursor	UMLS:C1955941
-Precursor Cell, T-Lymphoid	UMLS:C1955941
-T-Lymphoid Precursor Cells	UMLS:C1955941
-Precursor Cells, T-Lymphoid	UMLS:C1955941
-Cells, T-Lymphoid Precursor	UMLS:C1955941
-Precursor Cells, T Lymphoid	UMLS:C1955941
-Behavior ICD-O-2 Cancer	UMLS:C0804645
-Behavior ICD-O-2:Prid:Pt:Cancer.XXX:Nom	UMLS:C0804645
-Behavior International classification of diseases-O-2:Presence or Identity:To identify measures at a point in time:Cancer.Not specified:Nominal	UMLS:C0804645
-LCP1	UMLS:C1429361
-LCP-1	UMLS:C1429361
-LC64P	UMLS:C1429361
-Plastin-2	UMLS:C1429361
-Plastin 2	UMLS:C1429361
-L-Plastin	UMLS:C1429361
-LCP1 protein, human	UMLS:C1429361
-PLS2 protein, human	UMLS:C1429361
-L-plastin protein, human	UMLS:C1429361
-Lymphocyte Cytosolic Protein 1	UMLS:C1429361
-Lymphocyte Cytosolic Protein-1	UMLS:C1429361
-lymphocyte cytosol protein, human	UMLS:C1429361
-Epididymis Secretory Protein Li 37	UMLS:C1429361
-Lymphocyte Cytosol Polypeptide 64-KD	UMLS:C1429361
-lymphocyte cytosol polypeptide, human	UMLS:C1429361
-lymphocyte cytosolic protein 1, human	UMLS:C1429361
-p32	UMLS:C1721291
-wt CD8	UMLS:C1721291
-CD8a Molecule	UMLS:C1721291
-T-Cell Antigen Leu2	UMLS:C1721291
-OKT8 T-Cell Antigen	UMLS:C1721291
-CD8A protein, human	UMLS:C1721291
-Leu2 T-Lymphocyte Antigen	UMLS:C1721291
-CD8a molecule protein, human	UMLS:C1721291
-CD8 antigen, alpha polypeptide p32, human	UMLS:C1721291
-T-Cell Surface Glycoprotein CD8 Alpha Chain	UMLS:C1721291
-T-Lymphocyte Differentiation Antigen T8/Leu-2	UMLS:C1721291
-CD154 Function T cells Ql	UMLS:C5548877
-CD154 function (binding to CD40) Ql (T cells)	UMLS:C5548877
-CD154 function (binding to CD40):PrThr:Pt:T cells:Ord	UMLS:C5548877
-CD154 function (binding to CD40) [Presence] in T cells	UMLS:C5548877
-CD154 function (binding to CD40):Presence or Threshold:To identify measures at a point in time:T cells:Ordinal	UMLS:C5548877
-T8 Cell	UMLS:C0242629
-cd8 cell	UMLS:C0242629
-CD8 Cell	UMLS:C0242629
-T8 Cells	UMLS:C0242629
-Cell, T8	UMLS:C0242629
-Cells, T8	UMLS:C0242629
-cd8 cells	UMLS:C0242629
-CD8+ T Cell	UMLS:C0242629
-T8 lymphocyte	UMLS:C0242629
-T8 Lymphocyte	UMLS:C0242629
-CD8 lymphocyte	UMLS:C0242629
-Lymphocyte, T8	UMLS:C0242629
-T8 Lymphocytes	UMLS:C0242629
-CD8 Lymphocyte	UMLS:C0242629
-CD8 Lymphocytes	UMLS:C0242629
-Lymphocytes, T8	UMLS:C0242629
-CD8+ Lymphocyte	UMLS:C0242629
-CD8+ T Lymphocyte	UMLS:C0242629
-CD8+ T-Lymphocyte	UMLS:C0242629
-CD8+ T Lymphocytes	UMLS:C0242629
-CD8-Positive Lymphocyte	UMLS:C0242629
-CD8-Positive Lymphocytes	UMLS:C0242629
-Lymphocyte, CD8-Positive	UMLS:C0242629
-CD8 Positive Lymphocytes	UMLS:C0242629
-CD8-Positive T-Lymphocyte	UMLS:C0242629
-Lymphocytes, CD8-Positive	UMLS:C0242629
-CD8 Positive T Lymphocytes	UMLS:C0242629
-T-Lymphocyte, CD8-Positive	UMLS:C0242629
-CD8-Positive T-Lymphocytes	UMLS:C0242629
-T-Lymphocytes, CD8-Positive	UMLS:C0242629
-CD16+CD56+ T lymphocyte	UMLS:C4322826
-helper cell	UMLS:C0018894
-Helper Cell	UMLS:C0018894
-Helper Cells	UMLS:C0018894
-helper cells	UMLS:C0018894
-Inducer Cell	UMLS:C0018894
-Helper T-Cell	UMLS:C0018894
-Inducer Cells	UMLS:C0018894
-t-cell helper	UMLS:C0018894
-Helper T Cell	UMLS:C0018894
-T-helper cell	UMLS:C0018894
-helper t-cell	UMLS:C0018894
-helper t cell	UMLS:C0018894
-Helper T cell	UMLS:C0018894
-cell helper t	UMLS:C0018894
-cell t helper	UMLS:C0018894
-t helper cell	UMLS:C0018894
-Helper T-Cells	UMLS:C0018894
-helper t-cells	UMLS:C0018894
-T-Cell, Helper	UMLS:C0018894
-Cell, Helper T	UMLS:C0018894
-cell helpers t	UMLS:C0018894
-cells t-helper	UMLS:C0018894
-t helper cells	UMLS:C0018894
-T Cell, Helper	UMLS:C0018894
-t-helper cells	UMLS:C0018894
-helper t cells	UMLS:C0018894
-Helper T Cells	UMLS:C0018894
-T-Cells, Helper	UMLS:C0018894
-Cells, Helper T	UMLS:C0018894
-T Cells, Helper	UMLS:C0018894
-CD4+ T lymphocyte	UMLS:C0018894
-Helper T-lymphocyte	UMLS:C0018894
-Helper T-Lymphocyte	UMLS:C0018894
-T-helper lymphocyte	UMLS:C0018894
-helper T lymphocyte	UMLS:C0018894
-Helper T lymphocyte	UMLS:C0018894
-Inducer T-Lymphocyte	UMLS:C0018894
-t lymphocytes helper	UMLS:C0018894
-T-Lymphocyte, Helper	UMLS:C0018894
-Helper T-Lymphocytes	UMLS:C0018894
-Inducer T-Lymphocytes	UMLS:C0018894
-T-Lymphocyte, Inducer	UMLS:C0018894
-T-Lymphocytes, Helper	UMLS:C0018894
-Helper-Inducer T-Cell	UMLS:C0018894
-T Lymphocytes, Helper	UMLS:C0018894
-Helper-Inducer T-Cells	UMLS:C0018894
-T-Cell, Helper-Inducer	UMLS:C0018894
-T-Lymphocytes, Inducer	UMLS:C0018894
-T Lymphocytes, Inducer	UMLS:C0018894
-T Cells, Helper Inducer	UMLS:C0018894
-T-Cells, Helper-Inducer	UMLS:C0018894
-Helper-Inducer T-Lymphocyte	UMLS:C0018894
-T-Lymphocyte, Helper-Inducer	UMLS:C0018894
-Helper Inducer T Lymphocytes	UMLS:C0018894
-Helper-Inducer T-Lymphocytes	UMLS:C0018894
-T-Lymphocytes, Helper-Inducer	UMLS:C0018894
-T Lymphocytes, Helper Inducer	UMLS:C0018894
-cytology	UMLS:C0010820
-cellular aspects	UMLS:C0010820
-Cellular aspects of	UMLS:C0010820
-CD3+ T lymphocyte	UMLS:C4322670
-TcR gamma-delta	UMLS:C0085246
-TcR gamma delta	UMLS:C0085246
-TCR gamma delta	UMLS:C0085246
-TCR Gamma/Delta	UMLS:C0085246
-TCR Gamma-Delta	UMLS:C0085246
-gamma-delta, TcR	UMLS:C0085246
-T-Cell Receptor Gamma/Delta	UMLS:C0085246
-T-Cell Receptor Gamma-Delta	UMLS:C0085246
-gamma-delta T-Cell Receptor	UMLS:C0085246
-T-Cell Receptor Gamma Delta	UMLS:C0085246
-T Cell Receptor, gamma delta	UMLS:C0085246
-T-Cell Receptor, gamma-delta	UMLS:C0085246
-gamma-delta T-Cell Receptors	UMLS:C0085246
-T-Cell Receptor, Gamma-Delta	UMLS:C0085246
-T Cell Receptors, gamma delta	UMLS:C0085246
-T-Cell Receptors, gamma-delta	UMLS:C0085246
-Antigen Receptors, T-Cell, gamma-delta	UMLS:C0085246
-Receptors, Antigen, T-Cell, gamma-delta	UMLS:C0085246
-Receptors, Antigen, T Cell, gamma delta	UMLS:C0085246
-CTRP Terminology	UMLS:C3899741
-Clinical Trials Reporting Program Terminology	UMLS:C3899741
-T-Cell Ontogeny	UMLS:C1515126
-T cell development	UMLS:C1515126
-T-Cell Development	UMLS:C1515126
-T-Cell Differentiation	UMLS:C1515126
-T-Lymphocyte Development	UMLS:C1515126
-metabolism	UMLS:C0025520
-metabolic aspects	UMLS:C0025520
-CD57+ T lymphocyte	UMLS:C4322738
-NF-AT	UMLS:C0288011
-NFAT-1	UMLS:C0288011
-Nuclear Factor of Activated T-cells	UMLS:C0288011
-T-Lymphocytes to Lymphocytes Ratio Measurement	UMLS:C5556981
-parasitology	UMLS:C2239174
-VPSA	UMLS:C0393081
-rV-PSA	UMLS:C0393081
-rV-PSA vaccine	UMLS:C0393081
-rV-PSA Vaccine	UMLS:C0393081
-Vaccinia-PSA Vaccine	UMLS:C0393081
-Vaccinia PSA Vaccine	UMLS:C0393081
-Recombinant Vaccinia PSA Vaccine	UMLS:C0393081
-RV-PSA (RECOMB VACCINIA/PSA-CV-1)	UMLS:C0393081
-Vaccinia-Prostate-Specific Antigen Vaccine	UMLS:C0393081
-vaccinia prostate-specific antigen vaccine	UMLS:C0393081
-vaccinia-prostate-specific antigen vaccine	UMLS:C0393081
-Vaccinia Prostate Specific Antigen Vaccine	UMLS:C0393081
-recombinant vaccinia prostate-specific antigen vaccine	UMLS:C0393081
-Prostate Specific Antigen Expressing Vaccinia Virus Vaccine	UMLS:C0393081
-TCF7	UMLS:C0286910
-TCF-1	UMLS:C0286910
-TCF-7	UMLS:C0286910
-T-Cell Factor 1	UMLS:C0286910
-TCF7 protein, human	UMLS:C0286910
-TCF- 1 protein, human	UMLS:C0286910
-Transcription Factor 7	UMLS:C0286910
-T-cell factor 1 protein, human	UMLS:C0286910
-T-Cell-Specific Transcription Factor 1	UMLS:C0286910
-T-cell-specific transcription factor 1 protein, human	UMLS:C0286910
-transcription factor 7 (T-cell specific, HMG-box) protein, human	UMLS:C0286910
-ultrastructure	UMLS:C0041623
-Ultrastructure	UMLS:C0041623
-subcellular structure	UMLS:C0041623
-submicroscopic anatomy	UMLS:C0041623
-CD154 Expr+Func Pnl T cells FC	UMLS:C5548875
-CD154 expression and function panel FC (T cells)	UMLS:C5548875
-CD154 expression & function panel:-:Pt:T cells:-:Flow cytometry	UMLS:C5548875
-CD154 expression and function panel - T cells by Flow cytometry (FC)	UMLS:C5548875
-CD154 expression & function panel:-:To identify measures at a point in time:T cells:-:Flow cytometry	UMLS:C5548875
-CTRP Biomarker Terminology	UMLS:C4684827
-Clinical Trials Reporting Program Biomarker Terminology	UMLS:C4684827
-TCR	UMLS:C0034790
-tcr	UMLS:C0034790
-MHC Receptor	UMLS:C0034790
-t cell receptor	UMLS:C0034790
-t-cell receptor	UMLS:C0034790
-T Cell Receptor	UMLS:C0034790
-T-Cell Receptor	UMLS:C0034790
-T cell receptor	UMLS:C0034790
-Receptor, T-Cell	UMLS:C0034790
-T Cell Receptors	UMLS:C0034790
-t cell receptors	UMLS:C0034790
-T-Cell Receptors	UMLS:C0034790
-Receptors, T-Cell	UMLS:C0034790
-T cells--Receptors	UMLS:C0034790
-t-cell receptor (TCR)	UMLS:C0034790
-T-Cell Antigen Receptor	UMLS:C0034790
-T Cell Antigen Receptor	UMLS:C0034790
-T-Cell Antigen Receptors	UMLS:C0034790
-Receptor, T-Cell Antigen	UMLS:C0034790
-Antigen Receptor, T-Cell	UMLS:C0034790
-Antigen Receptors, T-Cell	UMLS:C0034790
-Antigen Receptors, T Cell	UMLS:C0034790
-Receptors, T Cell Antigen	UMLS:C0034790
-Receptors, T-Cell Antigen	UMLS:C0034790
-Receptors, Antigen, T-Cell	UMLS:C0034790
-Major Histocompatibility Complex Receptor	UMLS:C0034790
-Lymph Cell	UMLS:C0024264
-Lymphocyte	UMLS:C0024264
-lymph cell	UMLS:C0024264
-lymphocyte	UMLS:C0024264
-lymphocytes	UMLS:C0024264
-Lymphocytes	UMLS:C0024264
-T cell MCS Pt ser+Don bld FC	UMLS:C5425360
-T cell median channel shift FC (S) [Units]	UMLS:C5425360
-T cell median channel shift:Arb:Pt:Ser^Patient+Bld^Donor:Qn:Flow cytometry	UMLS:C5425360
-T cell median channel shift in Patient serum and Donor blood by Flow cytometry (FC)	UMLS:C5425360
-T cell median channel shift:Arbitrary:To identify measures at a point in time:Serum^Patient+Bld^Donor:Quantitative:Flow cytometry	UMLS:C5425360
-T-cell Ag	UMLS:C0487637
-T-cell Antigen	UMLS:C0487637
-CD154 cells T cells Ql	UMLS:C5548876
-CD154 cells Ql (T cells)	UMLS:C5548876
-Cells.CD154:PrThr:Pt:T cells:Ord	UMLS:C5548876
-CD154 cells [Presence] in T cells	UMLS:C5548876
-Cells.CD154:Presence or Threshold:To identify measures at a point in time:T cells:Ordinal	UMLS:C5548876
-T-Cell	UMLS:C0039194
-t cell	UMLS:C0039194
-T-cell	UMLS:C0039194
-T cell	UMLS:C0039194
-t-cell	UMLS:C0039194
-T Cell	UMLS:C0039194
-t cells	UMLS:C0039194
-t-cells	UMLS:C0039194
-Cell, T	UMLS:C0039194
-T Cells	UMLS:C0039194
-T-Cells	UMLS:C0039194
-T cells	UMLS:C0039194
-Cells, T	UMLS:C0039194
-T-lymphocyte	UMLS:C0039194
-t-lymphocyte	UMLS:C0039194
-T-Lymphocyte	UMLS:C0039194
-t lymphocyte	UMLS:C0039194
-T lymphocyte	UMLS:C0039194
-T Lymphocyte	UMLS:C0039194
-t-lymphocytes	UMLS:C0039194
-T-Lymphocytes	UMLS:C0039194
-t lymphocytes	UMLS:C0039194
-Lymphocyte, T	UMLS:C0039194
-T Lymphocytes	UMLS:C0039194
-Lymphocytes, T	UMLS:C0039194
-thymus derived lymphocyte	UMLS:C0039194
-Thymus Derived Lymphocyte	UMLS:C0039194
-Thymus-Dependent Lymphocyte	UMLS:C0039194
-thymus-dependent lymphocyte	UMLS:C0039194
-Thymus Dependent Lymphocytes	UMLS:C0039194
-Lymphocyte, Thymus-Dependent	UMLS:C0039194
-Thymus-Dependent Lymphocytes	UMLS:C0039194
-Lymphocytes, Thymus-Dependent	UMLS:C0039194
-CCL1	UMLS:C1447090
-I-309	UMLS:C1447090
-I-309 Protein	UMLS:C1447090
-TCA3 protein, human	UMLS:C1447090
-CCL1 protein, human	UMLS:C1447090
-SCYA1 protein, human	UMLS:C1447090
-I-309 protein, human	UMLS:C1447090
-CCL1 chemokine, human	UMLS:C1447090
-C-C Motif Chemokine 1	UMLS:C1447090
-chemokine I-309, human	UMLS:C1447090
-Small-Inducible Cytokine A1	UMLS:C1447090
-Inflammatory Cytokine I-309	UMLS:C1447090
-Small Inducible Cytokine A1	UMLS:C1447090
-T Lymphocyte-Secreted Protein I-309	UMLS:C1447090
-chemokine (C-C motif) ligand 1 protein, human	UMLS:C1447090
-CD99+ T lymphocyte	UMLS:C4322818
-TREC MoM DBS	UMLS:C5144055
-T-cell receptor excision circle (DBS) [MoM]	UMLS:C5144055
-T-cell receptor excision circle:MoM:Pt:Bld.dot:Qn	UMLS:C5144055
-T-cell receptor excision circle [Multiple of the median] in DBS	UMLS:C5144055
-T-cell receptor excision circle:Multiple of the Median:To identify measures at a point in time:Dried blood spot:Quantitative	UMLS:C5144055
-CAMLG	UMLS:C1448833
-CAML protein, human	UMLS:C1448833
-CAMLG protein, human	UMLS:C1448833
-Calcium Modulating Ligand	UMLS:C1448833
-Cyclophilin B-Binding Protein	UMLS:C1448833
-calcium modulating ligand, human	UMLS:C1448833
-Calcium-Modulating Cyclophilin Ligand	UMLS:C1448833
-Calcium-Signal Modulating Cyclophilin Ligand	UMLS:C1448833
-Calcium Signal-Modulating Cyclophilin Ligand	UMLS:C1448833
-Guided Entry of Tail-Anchored Proteins Factor CAMLG	UMLS:C1448833
-T3E	UMLS:C0759310
-CD3E	UMLS:C0759310
-TCRE	UMLS:C0759310
-CD3-Epsilon	UMLS:C0759310
-CD3E Protein	UMLS:C0759310
-CD3E protein, human	UMLS:C0759310
-CD3epsilon protein, human	UMLS:C0759310
-CD3E Antigen Epsilon Polypeptide	UMLS:C0759310
-T-Cell Surface Antigen T3/LEU-4 Epsilon Chain	UMLS:C0759310
-T-Cell Surface Glycoprotein CD3 Epsilon Chain	UMLS:C0759310
-T-Cell Surface Antigen T3/Leu-4 Epsilon Chain	UMLS:C0759310
-CD3E Antigen, Epsilon Polypeptide (Tit3 Complex)	UMLS:C0759310
-T-Cell Antigen Receptor Complex, Epsilon Subunit of T3	UMLS:C0759310
-CD3E antigen, epsilon polypeptide (TiT3 complex) protein, human	UMLS:C0759310
-function	UMLS:C0031843
-physiology	UMLS:C0031843
-physiological aspects	UMLS:C0031843
-T Cell XM Bld Donr Ql	UMLS:C1953911
-T cell crossmatch Ql (Bld donor)	UMLS:C1953911
-T cell crossmatch:PrThr:Pt:Bld^Donor:Ord	UMLS:C1953911
-T cell crossmatch [Presence] in Blood from Donor	UMLS:C1953911
-T cell crossmatch:Presence or Threshold:To identify measures at a point in time:Whole blood^Donor:Ordinal	UMLS:C1953911
-visilizumab	UMLS:C3887822
-Visilizumab	UMLS:C3887822
-T cell product panel BPU FC	UMLS:C5425297
-T cell product characterization panel FC (BPU)	UMLS:C5425297
-T cell product characterization panel:-:Pt:^BPU:-:Flow cytometry	UMLS:C5425297
-T cell product characterization panel - Blood product unit by Flow cytometry (FC)	UMLS:C5425297
-T cell product characterization panel:-:To identify measures at a point in time:^BPU:-:Flow cytometry	UMLS:C5425297
-CD43 Ag Tiss Ql ImStn	UMLS:C0484516
-CD43 T-cell monocyte+myeloid cell Ag Immune stain Ql (Tiss)	UMLS:C0484516
-CD43.T-Cell monocyte+Myeloid cell Ag:PrThr:Pt:Tiss:Ord:Immune stain	UMLS:C0484516
-CD43 T-cell monocyte+myeloid cell Ag [Presence] in Tissue by Immune stain	UMLS:C0484516
-CD43.T-Cell monocyte+Myeloid cell Antigen:Presence or Threshold:To identify measures at a point in time:Tissue, unspecified:Ordinal:Immune stain	UMLS:C0484516
-CD38+ T lymphocyte	UMLS:C4324113
-Thymocyte Selection	UMLS:C1515433
-thymic T cell selection	UMLS:C1515433
-Thymic T-Cell Selection	UMLS:C1515433
-thymic T-cell selection	UMLS:C1515433
-thymic T lymphocyte selection	UMLS:C1515433
-thymic T-lymphocyte selection	UMLS:C1515433
-microbiology	UMLS:C0025953
-Microbiological	UMLS:C0025953
-taxonomy	UMLS:C0008903
-Taxonomic	UMLS:C0008903
-classification	UMLS:C0008903
-Drug effect	UMLS:C0728866
-drug effects	UMLS:C0728866
-effect of drugs	UMLS:C0728866
-pharmacologic effects	UMLS:C0728866
-lymphoid tissue	UMLS:C0024296
-tissue lymphoid	UMLS:C0024296
-Lymphoid tissue	UMLS:C0024296
-Lymphoid Tissue	UMLS:C0024296
-lymphatic organs	UMLS:C0024296
-Lymphoid Tissues	UMLS:C0024296
-lymphoid tissues	UMLS:C0024296
-lymphatic tissue	UMLS:C0024296
-Lymphatic Tissue	UMLS:C0024296
-Lymphatic tissue	UMLS:C0024296
-Tissue, Lymphoid	UMLS:C0024296
-Lymphatic Tissues	UMLS:C0024296
-Tissues, Lymphoid	UMLS:C0024296
-lymphatic tissues	UMLS:C0024296
-Tissue, Lymphatic	UMLS:C0024296
-Lymphocytic tissue	UMLS:C0024296
-Tissues, Lymphatic	UMLS:C0024296
-radiation effects	UMLS:C0034526
-aspects of radiation effects	UMLS:C0034526
-LMB-2	UMLS:C0655013
-B3(Fv)-PE38KDEL	UMLS:C0655013
-LMB-2 Immunotoxin	UMLS:C0655013
-Immunotoxin LMB-2	UMLS:C0655013
-LMB-2 immunotoxin	UMLS:C0655013
-Anti-Tac(Fv)-PE38	UMLS:C0655013
-immunotoxin LMB-2	UMLS:C0655013
-anti-Tac(Fv)-PE38	UMLS:C0655013
-humanized antiTac toxin	UMLS:C0655013
-Humanized AntiTac Toxin	UMLS:C0655013
-LMB-2 (anti-TAC(FV)-PE-38)	UMLS:C0655013
-LMB-2 (Anti-TAC(FV)-PE-38)	UMLS:C0655013
-B3(Fv)-PE38KDEL recombinant immunotoxin	UMLS:C0655013
-Cells.CD7	UMLS:C0882920
-CD7+ cell	UMLS:C0882920
-CD7 cells	UMLS:C0882920
-CD7+ T lymphocyte	UMLS:C0882920
-virology	UMLS:C0205466
-virologic	UMLS:C0205466
-CD3+CD56+ lymphocyte	UMLS:C1267831
-Grade Cancer	UMLS:C0804646
-Grade:Prid:Pt:Cancer.XXX:Nom	UMLS:C0804646
-Grade:Presence or Identity:To identify measures at a point in time:Cancer.Not specified:Nominal	UMLS:C0804646
-RASGRP1	UMLS:C3273290
-CalDAG-GEFII	UMLS:C3273290
-RASGRP protein, human	UMLS:C3273290
-RASGRP1 protein, human	UMLS:C3273290
-Ras Guanyl-Releasing Protein	UMLS:C3273290
-RAS Guanyl-Releasing Protein 1	UMLS:C3273290
-RAS guanyl releasing protein 1, human	UMLS:C3273290
-Calcium and DAG-Regulated Guanine Nucleotide Exchange Factor II	UMLS:C3273290
-cellular immunity	UMLS:C0020966
-Cellular Immunity	UMLS:C0020966
-Cellular immunity	UMLS:C0020966
-Immunity, Cellular	UMLS:C0020966
-Cellular Immunities	UMLS:C0020966
-Immunities, Cellular	UMLS:C0020966
-cell immunity mediate	UMLS:C0020966
-cell mediated immunity	UMLS:C0020966
-Cell Mediated Immunity	UMLS:C0020966
-Cell-Mediated Immunity	UMLS:C0020966
-cell-mediated immunity	UMLS:C0020966
-Immunity, Cell-Mediated	UMLS:C0020966
-Cell-Mediated Immunities	UMLS:C0020966
-Cell Mediated Immunology	UMLS:C0020966
-Immunities, Cell-Mediated	UMLS:C0020966
-chemistry	UMLS:C0079107
-chemical aspects	UMLS:C0079107
-T-cell naive + mem + eff subsets Imp	UMLS:C4266005
-T-cell naive & memory & effector (CD27 and CD45RA) subsets:Imp:Pt:Bld:Nar	UMLS:C4266005
-T-cell naive and memory and effector (CD27 and CD45RA) subsets Nar (Bld) [Interp]	UMLS:C4266005
-T-cell naive and memory and effector (CD27 and CD45RA) subsets [Interpretation] in Blood Narrative	UMLS:C4266005
-T-cell naive & memory & effector (CD27 and CD45RA) subsets:Impression/interpretation of study:To identify measures at a point in time:Whole blood:Narrative	UMLS:C4266005
-CD103+ T lymphocyte	UMLS:C4322820
-Lymph T-cell + B-cell + NK subsets Pnl	UMLS:C4266003
-Lymphocyte T-cell and B-cell and Natural killer subsets panel (Bld)	UMLS:C4266003
-Lymphocyte T-cell & B-cell & Natural killer subsets panel:-:Pt:Bld:Qn	UMLS:C4266003
-Lymphocyte T-cell and B-cell and Natural killer subsets panel - Blood	UMLS:C4266003
-Lymphocyte T-cell & B-cell & Natural killer subsets panel:-:To identify measures at a point in time:Whole blood:Quantitative	UMLS:C4266003
-Lymph Tcell+Bcell+NK subsets Pnl CSF	UMLS:C5775856
-Lymphocyte T-cell & B-cell & Natural killer subsets panel:-:Pt:CSF:-	UMLS:C5775856
-Lymphocyte T-cell and B-cell and Natural killer subsets panel - Cerebral spinal fluid	UMLS:C5775856
-Lymphocyte T-cell & B-cell & Natural killer subsets panel:-:To identify measures at a point in time:Cerebral spinal fluid:-	UMLS:C5775856
-CD2R	UMLS:C5441935
-LFA-2	UMLS:C5441935
-CD2 Antigen	UMLS:C5441935
-LFA-3 Receptor	UMLS:C5441935
-Rosette Receptor	UMLS:C5441935
-E-Rosette Receptor	UMLS:C5441935
-CD2 protein, human	UMLS:C5441935
-Erythrocyte Receptor	UMLS:C5441935
-Sheep Erythrocyte Receptor	UMLS:C5441935
-T-Cell Surface Antigen CD2	UMLS:C5441935
-Lymphocyte-Function Antigen-2	UMLS:C5441935
-Sheep Red Blood Cell Receptor	UMLS:C5441935
-T-Lymphocyte Surface CD2 Antigen	UMLS:C5441935
-T-Cell Surface Antigen T11/Leu-5	UMLS:C5441935
-HLA-DPB1 Ept Match Don+Pt High Res	UMLS:C5425678
-HLA-DPB1 T-cell epitope match [Type] in Donor+Patient by High resolution	UMLS:C5425678
-HLA-DPB1 T-cell epitope match High resolution Nom (Bld/Tiss Donor+Patient)	UMLS:C5425678
-HLA-DPB1 T-cell epitope match:Type:Pt:Bld/Tiss^Donor+Patient:Nom:High resolution	UMLS:C5425678
-Human leukocyte antigen-DPB1 T-cell epitope match:Type:To identify measures at a point in time:Whole blood/Tissue, unspecified^Donor+Patient:Nominal:High resolution	UMLS:C5425678
-NK + NK T-cell subsets Pnl Bld	UMLS:C5548786
-Natural killer and natural killer T cell subsets panel (Bld)	UMLS:C5548786
-Natural killer and natural killer T cell subsets panel - Blood	UMLS:C5548786
-Natural killer & natural killer T cell subsets panel:-:Pt:Bld:-	UMLS:C5548786
-Natural killer & natural killer T cell subsets panel:-:To identify measures at a point in time:Whole blood:-	UMLS:C5548786
-Lymphocytic	UMLS:C2939172
-Lymphocytic (qualifier value)	UMLS:C2939172
-Mouse T Cell	UMLS:C1522131
-Mouse T-Lymphocyte	UMLS:C1522131
-Leukocyte - Lymphocyte - T-Lymphocyte (MMHCC)	UMLS:C1522131
-B+T cell XM Ser+Bld FC-Imp	UMLS:C3654220
-B cell+T cell crossmatch FC Ql (S+Bld) [Interp]	UMLS:C3654220
-B cell+T cell crossmatch:Imp:Pt:Ser+Bld:Ord:Flow cytometry	UMLS:C3654220
-B cell+T cell crossmatch [Interpretation] Qualitative by Flow cytometry (FC)	UMLS:C3654220
-B cell+T cell crossmatch:Impression/interpretation of study:To identify measures at a point in time:Serum+Whole blood:Ordinal:Flow cytometry	UMLS:C3654220
-suppressor cell	UMLS:C0038856
-suppressor cells	UMLS:C0038856
-Suppressor cells	UMLS:C0038856
-t cell suppressor	UMLS:C0038856
-cells suppressor t	UMLS:C0038856
-Suppressor T Lymphocyte	UMLS:C0038856
-suppressor T lymphocyte	UMLS:C0038856
-CD8+CD57+ T Lymphocyte	UMLS:C4322825
-transplantation	UMLS:C0040733
-transplantation aspects	UMLS:C0040733
-CD44+ T lymphocyte	UMLS:C4322813
-CD45RB+ T lymphocyte	UMLS:C4322814
-CD13+ T lymphocyte	UMLS:C4322821
-CD8B	UMLS:C1332717
-LYT3	UMLS:C1332717
-CD8B1	UMLS:C1332717
-CD8b Antigen	UMLS:C1332717
-T-Cell Glycoprotein CD8b	UMLS:C1332717
-CD8 Antigen, Beta Polypeptide 1	UMLS:C1332717
-T-Cell Surface Glycoprotein CD8 Beta Chain	UMLS:C1332717
-CD3+CD25+ lymphocyte	UMLS:C1267818
-Peripheral (Post-Thymic) T-Lymphocyte	UMLS:C1519004
-Plasma membrane of T lymphocyte	UMLS:C2323669
-t4 t8 ratio	UMLS:C0085115
-T4-T8 Ratio	UMLS:C0085115
-T4 T8 Ratio	UMLS:C0085115
-T4-T8 Ratios	UMLS:C0085115
-CD4-CD8 Ratio	UMLS:C0085115
-CD4 CD8 Ratio	UMLS:C0085115
-cd4 cd8 ratio	UMLS:C0085115
-cd4-cd8 ratio	UMLS:C0085115
-ratio cd4 cd8	UMLS:C0085115
-cd4 cd8 ratios	UMLS:C0085115
-CD4-CD8 Ratios	UMLS:C0085115
-CD4/CD8 ratio (procedure)	UMLS:C0085115
-CD252	UMLS:C0257572
-OX40L	UMLS:C0257572
-TNFSF4	UMLS:C0257572
-OX40 Ligand	UMLS:C0257572
-CD134 Ligand	UMLS:C0257572
-CD252 Antigen	UMLS:C0257572
-Antigen CD252	UMLS:C0257572
-Glycoprotein 34	UMLS:C0257572
-Glycoprotein Gp34	UMLS:C0257572
-OX40 ligand, human	UMLS:C0257572
-OX40 Antigen Ligand	UMLS:C0257572
-gp34 antigen, human	UMLS:C0257572
-CD252 protein, human	UMLS:C0257572
-OX40L protein, human	UMLS:C0257572
-TNFSF4 protein, human	UMLS:C0257572
-CD134L protein, human	UMLS:C0257572
-TAX Transcriptionally-Activated Glycoprotein 1	UMLS:C0257572
-Tumor Necrosis Factor Ligand Superfamily Member 4	UMLS:C0257572
-tumor necrosis factor (ligand) superfamily, member 4 protein, human	UMLS:C0257572
-PEP	UMLS:C1335057
-LyP	UMLS:C1335057
-PTPN22	UMLS:C1335057
-EC 3.1.3.48	UMLS:C1335057
-Lyp1 protein, human	UMLS:C1335057
-Lyp2 protein, human	UMLS:C1335057
-Lymphoid Phosphatase	UMLS:C1335057
-PTPN8 protein, human	UMLS:C1335057
-PTPN22 protein, human	UMLS:C1335057
-PEST-Domain Phosphatase	UMLS:C1335057
-protein tyrosine phosphatase-22, human	UMLS:C1335057
-protein tyrosine phosphatase Lyp, human	UMLS:C1335057
-Tyrosine-Protein Phosphatase Non-Receptor Type 22	UMLS:C1335057
-Protein Tyrosine Phosphatase, Non-Receptor Type 22	UMLS:C1335057
-Hematopoietic Cell Protein-Tyrosine Phosphatase 70Z-PEP	UMLS:C1335057
-protein tyrosine phosphatase, non-receptor type 8, human	UMLS:C1335057
-protein tyrosine phosphatase, non-receptor type 22 (lymphoid), human	UMLS:C1335057
-ZAP70	UMLS:C1527940
-ZAP-70	UMLS:C1527940
-EC 2.7.10.2	UMLS:C1527940
-E.C. 2.7.1.112	UMLS:C1527940
-TZK protein, human	UMLS:C1527940
-STD protein, human	UMLS:C1527940
-ZAP70 protein, human	UMLS:C1527940
-Syk-Related Tyrosine Kinase	UMLS:C1527940
-Protein Tyrosine Kinase Zap70	UMLS:C1527940
-Tyrosine-Protein Kinase ZAP-70	UMLS:C1527940
-syk-related tyrosine kinase, human	UMLS:C1527940
-Zeta-Chain Associated Protein Kinase	UMLS:C1527940
-70 kDa Zeta-Chain Associated Protein	UMLS:C1527940
-Zeta-Chain (TCR) Associated Protein Kinase	UMLS:C1527940
-Zeta-Chain Associated Protein Kinase, 70kd	UMLS:C1527940
-zeta-chain (TCR) associated protein kinase 70kDa protein, human	UMLS:C1527940
-CTL	UMLS:C0039195
-killer T cell	UMLS:C0039195
-killer t cell	UMLS:C0039195
-Killer T cell	UMLS:C0039195
-cells killer t	UMLS:C0039195
-killer t cells	UMLS:C0039195
-cytotoxic t cell	UMLS:C0039195
-T-cytotoxic cell	UMLS:C0039195
-Cytolytic T-Cell	UMLS:C0039195
-cytotoxic T cell	UMLS:C0039195
-Cytotoxic T Cell	UMLS:C0039195
-Cytotoxic T cell	UMLS:C0039195
-Cytotoxic T Cells	UMLS:C0039195
-cytotoxic t cells	UMLS:C0039195
-T Cell, Cytotoxic	UMLS:C0039195
-CD3+CD8+ Lymphocyte	UMLS:C0039195
-Killer T lymphocyte	UMLS:C0039195
-cytotoxic t lymphocyte	UMLS:C0039195
-cytotoxic T lymphocyte	UMLS:C0039195
-Cytotoxic T-Lymphocyte	UMLS:C0039195
-Cytotoxic T Lymphocyte	UMLS:C0039195
-Cytotoxic T lymphocyte	UMLS:C0039195
-Cytotoxic T-lymphocyte	UMLS:C0039195
-T-Lymphocyte, Cytotoxic	UMLS:C0039195
-Lymphocyte, Cytotoxic T	UMLS:C0039195
-Cytotoxic T Lymphocytes	UMLS:C0039195
-T Lymphocyte, Cytotoxic	UMLS:C0039195
-Cytotoxic T-Lymphocytes	UMLS:C0039195
-T-Lymphocytes, Cytotoxic	UMLS:C0039195
-T Lymphocytes, Cytotoxic	UMLS:C0039195
-Cell-Mediated Lympholytic Cell	UMLS:C0039195
-Cell-Mediated Lympholytic Cells	UMLS:C0039195
-Lympholytic Cell, Cell-Mediated	UMLS:C0039195
-Cell Mediated Lympholytic Cells	UMLS:C0039195
-Cell, Cell-Mediated Lympholytic	UMLS:C0039195
-Lympholytic Cells, Cell-Mediated	UMLS:C0039195
-Cellular component of blood	UMLS:C1626414
-NKT Cell	UMLS:C2350466
-NKT Cells	UMLS:C2350466
-NK T-Cell	UMLS:C2350466
-Natural Killer T Cell	UMLS:C2350466
-Natural Killer T-Cell	UMLS:C2350466
-Natural Killer T Cells	UMLS:C2350466
-Natural Killer T-Cells	UMLS:C2350466
-T-Cell, Natural Killer	UMLS:C2350466
-Killer T-Cell, Natural	UMLS:C2350466
-Killer T-Cells, Natural	UMLS:C2350466
-T-Cells, Natural Killer	UMLS:C2350466
-B+T cell XM Ser+Bld-Imp	UMLS:C5452595
-B cell+T cell crossmatch:Imp:Pt:Ser+Bld:Nar	UMLS:C5452595
-B cell+T cell crossmatch Nar (S+Bld) [Interp]	UMLS:C5452595
-B cell+T cell crossmatch [Interpretation] Narrative	UMLS:C5452595
-B cell+T cell crossmatch:Impression/interpretation of study:To identify measures at a point in time:Serum+Whole blood:Narrative	UMLS:C5452595
-immunology	UMLS:C1522005
-immunology aspects	UMLS:C1522005
-leukoregulin	UMLS:C0064839
-Leukoregulin	UMLS:C0064839
-thymocyte	UMLS:C0814999
-Thymocyte	UMLS:C0814999
-Thymocytes	UMLS:C0814999
-thymocytes	UMLS:C0814999
-Thymic lymphocyte	UMLS:C0814999
-T-Cell Count	UMLS:C1167909
-T-Lymphocyte Count	UMLS:C1167909
-T lymphocyte count	UMLS:C1167909
-Th2 Cell	UMLS:C0242633
-Th2 cell	UMLS:C0242633
-TH-2 Cell	UMLS:C0242633
-Cell, Th2	UMLS:C0242633
-TH 2 Cell	UMLS:C0242633
-Th2 Cells	UMLS:C0242633
-Th-2 Cell	UMLS:C0242633
-TH 2 Cells	UMLS:C0242633
-TH-2 Cells	UMLS:C0242633
-Cells, Th2	UMLS:C0242633
-Cell, TH-2	UMLS:C0242633
-Cells, TH-2	UMLS:C0242633
-T Helper2 Cell	UMLS:C0242633
-Cell, T Helper2	UMLS:C0242633
-T Helper 2 Cell	UMLS:C0242633
-T Helper2 Cells	UMLS:C0242633
-Cells, T Helper2	UMLS:C0242633
-T Helper 2 Cells	UMLS:C0242633
-Type 2 helper cell	UMLS:C0242633
-Type 2 Helper Cell	UMLS:C0242633
-Type-2 Helper T Cell	UMLS:C0242633
-Type 2 Helper T Cell	UMLS:C0242633
-Type 2 T-helper cell	UMLS:C0242633
-T-helper cell type 2	UMLS:C0242633
-Type-2 Helper T Cells	UMLS:C0242633
-Type 2 Helper T Cells	UMLS:C0242633
-Th1 Cell	UMLS:C0242632
-Th1 cell	UMLS:C0242632
-th1 cell	UMLS:C0242632
-Th1 Cells	UMLS:C0242632
-TH-1 Cell	UMLS:C0242632
-th1 cells	UMLS:C0242632
-Th-1 Cell	UMLS:C0242632
-Cell, Th1	UMLS:C0242632
-Cell, TH-1	UMLS:C0242632
-Cells, Th1	UMLS:C0242632
-TH 1 Cells	UMLS:C0242632
-TH-1 Cells	UMLS:C0242632
-Cells, TH-1	UMLS:C0242632
-T Helper 1 Cells	UMLS:C0242632
-Type 1 helper cell	UMLS:C0242632
-Type 1 Helper Cell	UMLS:C0242632
-Type 1 T-helper cell	UMLS:C0242632
-T-helper cell type 1	UMLS:C0242632
-Type 1 Helper T Cells	UMLS:C0242632
-LCP2	UMLS:C1743669
-SLP76	UMLS:C1743669
-SLP-76	UMLS:C1743669
-LCP2 Protein	UMLS:C1743669
-LCP2 protein, human	UMLS:C1743669
-SLP-76 protein, human	UMLS:C1743669
-76 kD Tyrosine Phosphoprotein	UMLS:C1743669
-SLP-76 Tyrosine Phosphoprotein	UMLS:C1743669
-Lymphocyte Cytosolic Protein 2	UMLS:C1743669
-SH2 Domain-Containing Leukocyte Protein, 76kD	UMLS:C1743669
-SH2 domain-containing leukocyte protein of 76kD	UMLS:C1743669
-lymphocyte cytosolic protein 2 (SH2 domain containing leukocyte protein of 76kDa), human	UMLS:C1743669
-T cell crossmatch FC Ql (S)	UMLS:C5425770
-T Cell XM Pt ser+Don bld Ql FC	UMLS:C5425770
-T cell crossmatch:PrThr:Pt:Ser^Patient+Bld^Donor:Ord:Flow cytometry	UMLS:C5425770
-T cell crossmatch [Presence] in Patient serum and Donor blood by Flow cytometry (FC)	UMLS:C5425770
-T cell crossmatch:Presence or Threshold:To identify measures at a point in time:Serum^Patient+Bld^Donor:Ordinal:Flow cytometry	UMLS:C5425770
-T Cell Subset	UMLS:C0080202
-T-Cell Subset	UMLS:C0080202
-t cell subset	UMLS:C0080202
-t-cell subsets	UMLS:C0080202
-T Cell Subsets	UMLS:C0080202
-T-Cell Subsets	UMLS:C0080202
-subsets t-cell	UMLS:C0080202
-Subset, T-Cell	UMLS:C0080202
-t cell subsets	UMLS:C0080202
-Subsets, T-Cell	UMLS:C0080202
-T Lymphocyte Subset	UMLS:C0080202
-T-Lymphocyte Subset	UMLS:C0080202
-Subset, T-Lymphocyte	UMLS:C0080202
-T Lymphocyte Subsets	UMLS:C0080202
-T-Lymphocyte Subsets	UMLS:C0080202
-Subsets, T-Lymphocyte	UMLS:C0080202

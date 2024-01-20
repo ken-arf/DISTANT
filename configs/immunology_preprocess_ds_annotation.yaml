@@ -14,7 +14,6 @@ spark: True
 
 processed_dict_dirs:
         - data/UMLS/processed_dict
-        - data/Mesh/processed_dict
 
 dict_files: 
         - cytokine.dict

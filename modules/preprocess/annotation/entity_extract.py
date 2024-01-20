@@ -8,6 +8,8 @@ import scispacy
 from spacy.lang.en import English
 
 
+#from preprocess.segmentation.predict2 import EntityExtraction
+#from preprocess.segmentation.predict2 import Entity
 from preprocess.segmentation.predict import EntityExtraction
 from preprocess.segmentation.predict import Entity
 from preprocess.segmentation.make_dataset import tokenize
