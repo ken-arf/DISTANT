@@ -149,19 +149,19 @@ def annotate(files, parameters):
             entity_dict[name] += load_dict(dict_path)
 
         # if parameters["task_name"] == "bc5cdr":
-        if parameters["task_name"] == "bc5cdr" or parameters["task_name"] == "ncbi":
-            dict_dirs = parameters["dict_dir"]
-            other_dict_files = parameters["other_dict_files"]
-            dict_paths = [os.path.join(
-                dict_dir, file) for dict_dir in dict_dirs for file in other_dict_files]
-            for dict_path in dict_paths:
-                if not os.path.exists(dict_path):
-                    continue
-
-                path, fname = os.path.split(dict_path)
-                name, txt = os.path.splitext(fname)
-                print(f"loading dictionary {dict_path}")
-                entity_dict[name] += load_dict(dict_path)
+#        if parameters["task_name"] == "bc5cdr" or parameters["task_name"] == "ncbi":
+#            dict_dirs = parameters["dict_dir"]
+#            other_dict_files = parameters["other_dict_files"]
+#            dict_paths = [os.path.join(
+#                dict_dir, file) for dict_dir in dict_dirs for file in other_dict_files]
+#            for dict_path in dict_paths:
+#                if not os.path.exists(dict_path):
+#                    continue
+#
+#                path, fname = os.path.split(dict_path)
+#                name, txt = os.path.splitext(fname)
+#                print(f"loading dictionary {dict_path}")
+#                entity_dict[name] += load_dict(dict_path)
 
     # append all entities extracted from pu_training
 

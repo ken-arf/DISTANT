@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ROOT_DIR=../data/BC5CDR/eval
-ROOT_DIR=../modules/baselines/data/BC5CDR/eval
+#ROOT_DIR=../modules/baselines/data/BC5CDR/eval
 
 #predict_coll_dir=$ROOT_DIR/annotate.prev
 #predict_coll_dir=$ROOT_DIR/annotate.latest
@@ -14,7 +14,7 @@ ROOT_DIR=../modules/baselines/data/BC5CDR/eval
 #predict_coll_dir=$ROOT_DIR/annotate.supervised
 #predict_coll_dir=$ROOT_DIR/annotate.bond3rd
 
-predict_dir=("annotate.1" "annotate.2" "annotate.3" "annotate.autoner" "annotate.match_dict" "annotate.supervised")
+predict_dir=("annotate" "annotate.1" "annotate.2" "annotate.3" "annotate.autoner" "annotate.match_dict" "annotate.supervised")
 predict_dir+=("annotate.bond2nd" "annotate.roster")
 
 for i in ${!predict_dir[@]}; do

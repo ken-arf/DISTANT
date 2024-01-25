@@ -1,0 +1,243 @@
+chemical	UMLS:C0220806
+Chemical	UMLS:C0220806
+chemicals	UMLS:C0220806
+Chemicals	UMLS:C0220806
+Chemically	UMLS:C0220806
+Chemical agent	UMLS:C0220806
+chemical compound	UMLS:C0220806
+chemical substance	UMLS:C0220806
+chemical compounds	UMLS:C0220806
+Other Chemical Spec-mCnc	UMLS:C4696129
+Chemical XXX:MCnc:Pt:XXX:Qn	UMLS:C4696129
+Other Chemical (Specimen) [Mass/Vol]	UMLS:C4696129
+Other Chemical [Mass/volume] in Specimen	UMLS:C4696129
+Chemical XXX:Mass Concentration:To identify measures at a point in time:Not specified:Quantitative	UMLS:C4696129
+Endocrine Disruptor	UMLS:C1568245
+endocrine disruptor	UMLS:C1568245
+Disruptor, Endocrine	UMLS:C1568245
+Endocrine Disruptors	UMLS:C1568245
+Disruptors, Endocrine	UMLS:C1568245
+endocrine disrupting compound	UMLS:C1568245
+Endocrine Disrupting Chemical	UMLS:C1568245
+Chemical, Endocrine Disrupting	UMLS:C1568245
+Disrupting Chemical, Endocrine	UMLS:C1568245
+Endocrine Disrupting Chemicals	UMLS:C1568245
+Endocrine disrupting chemicals	UMLS:C1568245
+Chemicals, Endocrine Disrupting	UMLS:C1568245
+Suspected disaster NEMSIS	UMLS:C3263302
+Suspected intentional or unintentional disaster NEMSIS	UMLS:C3263302
+Suspected intentional or unintentional disaster:Type:Pt:^Patient:Ord:NEMSIS	UMLS:C3263302
+Suspected intentional or unintentional disaster:Type:To identify measures at a point in time:^Patient:Ordinal:NEMSIS	UMLS:C3263302
+compound organic	UMLS:C0029224
+Organic Chemical	UMLS:C0029224
+organic chemical	UMLS:C0029224
+organic compound	UMLS:C0029224
+chemical organic	UMLS:C0029224
+organic chemicals	UMLS:C0029224
+Organic Chemicals	UMLS:C0029224
+Chemical, Organic	UMLS:C0029224
+organic compounds	UMLS:C0029224
+Organic compounds	UMLS:C0029224
+Chemicals, Organic	UMLS:C0029224
+free radical	UMLS:C0016693
+Free Radical	UMLS:C0016693
+free radicals	UMLS:C0016693
+Free Radicals	UMLS:C0016693
+Radical, Free	UMLS:C0016693
+Radicals, Free	UMLS:C0016693
+Free radicals (Chemistry)	UMLS:C0016693
+free radical -Highly reactive chemicals	UMLS:C0016693
+salt	UMLS:C0036140
+Salt	UMLS:C0036140
+salts	UMLS:C0036140
+Salts	UMLS:C0036140
+Chemistry	UMLS:C0007996
+chemistry	UMLS:C0007996
+chemistry (field)	UMLS:C0007996
+Science of Chemistry	UMLS:C0007996
+science of chemistry	UMLS:C0007996
+Other Chemical Spec-mCnt	UMLS:C4696128
+Chemical XXX:MCnt:Pt:XXX:Qn	UMLS:C4696128
+Other Chemical (Specimen) [Mass/Mass]	UMLS:C4696128
+Other Chemical [Mass/mass] in Specimen	UMLS:C4696128
+Chemical XXX:Mass Content:To identify measures at a point in time:Not specified:Quantitative	UMLS:C4696128
+csp	UMLS:C1140093
+CSP	UMLS:C1140093
+CRISP Thesaurus	UMLS:C1140093
+Computer Retrieval of Information on Scientific Projects Thesaurus	UMLS:C1140093
+silicon compound	UMLS:C0684301
+Silicon Compounds, Unspecified	UMLS:C0684301
+reagent/indicator	UMLS:C0021213
+Indicators and Reagents	UMLS:C0021213
+Reagents and Indicators	UMLS:C0021213
+Mineral	UMLS:C0026162
+mineral	UMLS:C0026162
+MINERALS	UMLS:C0026162
+minerals	UMLS:C0026162
+Minerals	UMLS:C0026162
+No injury related to a chemical source	UMLS:C5551899
+No injury related to a chemical source:Find:Pt:^Patient:Ord	UMLS:C5551899
+No injury related to a chemical source:Finding:To identify measures at a point in time:^Patient:Ordinal	UMLS:C5551899
+cofactor	UMLS:C0178555
+Cofactor	UMLS:C0178555
+cofactors	UMLS:C0178555
+chemical cofactor	UMLS:C0178555
+oxygen compound	UMLS:C0684299
+Oxygen Compounds, Unspecified	UMLS:C0684299
+PQ/CMC Source Type Terminology	UMLS:C4524945
+Pharmaceutical Quality/CMC Source Type Terminology	UMLS:C4524945
+Pharmaceutical Quality/Chemistry, Manufacturing, and Controls Source Type Terminology	UMLS:C4524945
+chemical substances by structure	UMLS:C0682899
+Behentrimonium chloride	UMLS:C1952438
+behentrimonium chloride	UMLS:C1952438
+BEHENTRIMONIUM CHLORIDE	UMLS:C1952438
+Behentrimonium Chloride	UMLS:C1952438
+Gas chem fumes tot Ys PhenX	UMLS:C3173713
+Total years worked in job or industry with gas or chemical fume [PhenX]	UMLS:C3173713
+Total Y worked in job or industry with gas or chemical fume:Time:Pt:^Patient:Qn:PhenX	UMLS:C3173713
+Total Y worked in job or industry with gas or chemical fume:Time:To identify measures at a point in time:^Patient:Quantitative:PhenX	UMLS:C3173713
+EM incident type	UMLS:C4069387
+Emergency management incident type	UMLS:C4069387
+Emergency management incident type:Type:Pt:^Event:Nom	UMLS:C4069387
+Emergency management incident type:Type:Point in time:^Event:Nominal	UMLS:C4069387
+Emergency management incident type:Type:To identify measures at a point in time:^Event:Nominal	UMLS:C4069387
+Chem fumes exp degree PhenX	UMLS:C3173714
+Was gas or chemical fumes exposure [PhenX]	UMLS:C3173714
+Was gas or chemical fumes exposure:Find:Pt:^Patient:Ord:PhenX	UMLS:C3173714
+Was gas or chemical fumes exposure:Finding:To identify measures at a point in time:^Patient:Ordinal:PhenX	UMLS:C3173714
+coordination compounds	UMLS:C0683003
+Gas chem fumes ever PhenX	UMLS:C3173709
+Have you ever been exposed to gas or chemical fumes in your work [PhenX]	UMLS:C3173709
+Have you ever been exposed to gas or chemical fumes in your work:Find:Pt:^Patient:Ord:PhenX	UMLS:C3173709
+Have you ever been exposed to gas or chemical fumes in your work:Finding:To identify measures at a point in time:^Patient:Ordinal:PhenX	UMLS:C3173709
+Job/industry with fumes PhenX	UMLS:C3173711
+Job or industry with gas or chemical fumes [PhenX]	UMLS:C3173711
+Job or industry with gas or chemical fumes:Find:Pt:^Patient:Nom:PhenX	UMLS:C3173711
+Job or industry with gas or chemical fumes:Finding:To identify measures at a point in time:^Patient:Nominal:PhenX	UMLS:C3173711
+Polymer	UMLS:C0032521
+polymer	UMLS:C0032521
+polymers	UMLS:C0032521
+Polymers	UMLS:C0032521
+Polymeric	UMLS:C0032521
+Polymeric Macromolecules	UMLS:C0032521
+substance	UMLS:C0439861
+Substance	UMLS:C0439861
+substances	UMLS:C0439861
+Compound	UMLS:C1706082
+Compound (substance)	UMLS:C1706082
+nitrogen compound	UMLS:C0684298
+Nitrogen Compound	UMLS:C0684298
+Nitrogen Compounds, Unspecified	UMLS:C0684298
+Ion	UMLS:C0022023
+ion	UMLS:C0022023
+Ions	UMLS:C0022023
+ions	UMLS:C0022023
+charged particles	UMLS:C0022023
+Substrate	UMLS:C3891814
+Inorganic Chemical	UMLS:C0021521
+Inorganic compounds	UMLS:C0021521
+inorganic compounds	UMLS:C0021521
+inorganic chemicals	UMLS:C0021521
+Inorganic Chemicals	UMLS:C0021521
+Chemicals, Inorganic	UMLS:C0021521
+phosphorus compound	UMLS:C0684300
+Phosphorus compounds	UMLS:C0684300
+Phosphorus Compounds, Unspecified	UMLS:C0684300
+Metalloorganic Compound	UMLS:C0029252
+organometallic compound	UMLS:C0029252
+Organometallic Compound	UMLS:C0029252
+Organometallic Compounds	UMLS:C0029252
+Compound, Metalloorganic	UMLS:C0029252
+Metallo-Organic Compound	UMLS:C0029252
+Metalloorganic Compounds	UMLS:C0029252
+Metallo Organic Compound	UMLS:C0029252
+organometallic compounds	UMLS:C0029252
+Compound, Organometallic	UMLS:C0029252
+Organometallic compounds	UMLS:C0029252
+Metallo-Organic Compounds	UMLS:C0029252
+Compounds, Metalloorganic	UMLS:C0029252
+Compounds, Organometallic	UMLS:C0029252
+Compound, Metallo-Organic	UMLS:C0029252
+Metallo Organic Compounds	UMLS:C0029252
+Compounds, Metallo-Organic	UMLS:C0029252
+chemical group	UMLS:C0596316
+Chemicals and Drugs (MeSH Category)	UMLS:C0007995
+drug	UMLS:C0013227
+Drug	UMLS:C0013227
+Drugs	UMLS:C0013227
+drugs	UMLS:C0013227
+Medicine	UMLS:C0013227
+Medicines	UMLS:C0013227
+Drug/agent	UMLS:C0013227
+medication	UMLS:C0013227
+Medication	UMLS:C0013227
+drug/agent	UMLS:C0013227
+Medications	UMLS:C0013227
+medications	UMLS:C0013227
+Drug Product	UMLS:C0013227
+Pharmaceutical	UMLS:C0013227
+Pharmaceuticals	UMLS:C0013227
+medicinal product	UMLS:C0013227
+medicinal products	UMLS:C0013227
+Pharmaceutical Product	UMLS:C0013227
+Product, Pharmaceutical	UMLS:C0013227
+Pharmaceutical Products	UMLS:C0013227
+Products, Pharmaceutical	UMLS:C0013227
+Pharmaceutic Preparations	UMLS:C0013227
+Pharmaceutical Preparation	UMLS:C0013227
+Preparations, Pharmaceutic	UMLS:C0013227
+pharmaceutical preparation	UMLS:C0013227
+Pharmaceutical Preparations	UMLS:C0013227
+pharmaceutical preparations	UMLS:C0013227
+Preparation, Pharmaceutical	UMLS:C0013227
+Preparations, Pharmaceutical	UMLS:C0013227
+Other Chemical Spec	UMLS:C4696126
+Chemical XXX:Prid:Pt:XXX:Nom	UMLS:C4696126
+Other Chemical Nom (Specimen)	UMLS:C4696126
+Other Chemical [Identifier] in Specimen	UMLS:C4696126
+Chemical XXX:Presence or Identity:To identify measures at a point in time:Not specified:Nominal	UMLS:C4696126
+chemical aggregate	UMLS:C0596305
+analog	UMLS:C0243071
+Analog	UMLS:C0243071
+analogs	UMLS:C0243071
+Analogue	UMLS:C0243071
+Element	UMLS:C0013879
+element	UMLS:C0013879
+elements	UMLS:C0013879
+Elements	UMLS:C0013879
+chemical elements	UMLS:C0013879
+Chemical elements	UMLS:C0013879
+PQ/CMC Terminology	UMLS:C4524899
+FDA Pharmaceutical Quality/CMC Terminology	UMLS:C4524899
+FDA Pharmaceutical Quality/Chemistry, Manufacturing, and Controls Terminology	UMLS:C4524899
+hazardous material	UMLS:C0018626
+Hazardous Material	UMLS:C0018626
+Hazardous Substance	UMLS:C0018626
+Hazardous Materials	UMLS:C0018626
+hazardous substance	UMLS:C0018626
+Material, Hazardous	UMLS:C0018626
+hazardous materials	UMLS:C0018626
+hazardous substances	UMLS:C0018626
+Materials, Hazardous	UMLS:C0018626
+Hazardous Substances	UMLS:C0018626
+Hazardous substances	UMLS:C0018626
+Substance, Hazardous	UMLS:C0018626
+Substances, Hazardous	UMLS:C0018626
+Sulfur Compound	UMLS:C0038776
+sulfur compound	UMLS:C0038776
+sulphur compound	UMLS:C0038776
+Sulfur compounds	UMLS:C0038776
+compound sulphur	UMLS:C0038776
+Compound, Sulfur	UMLS:C0038776
+Sulfur Compounds	UMLS:C0038776
+sulfur compounds	UMLS:C0038776
+Compounds, Sulfur	UMLS:C0038776
+Inducer	UMLS:C3898767
+material	UMLS:C0520510
+Material	UMLS:C0520510
+Materials	UMLS:C0520510
+materials	UMLS:C0520510
+compounds by chemical function	UMLS:C0682913
+BEHENTRIMONIUM METHOSULFATE	UMLS:C1533314
+behentrimonium methosulfate	UMLS:C1533314
+Behentrimonium Methosulfate	UMLS:C1533314

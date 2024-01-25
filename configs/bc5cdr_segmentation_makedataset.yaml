@@ -5,16 +5,15 @@ task_name: bc5cdr
 
 use_dictionary: True
 dict_dir: 
-#    - data/Mesh/processed_dict
-#    - data/UMLS/processed_dict
-    - data/BC5CDR/processed_dict
+    - data/UMLS/processed_dict
+#    - data/BC5CDR/processed_dict
 
 dict_files:
     - chemicals.dict
     - disease.dict
 
 other_dict_files:
-    - others.dict
+    #- others.dict
     #- dummy.dict
 
 use_pu_train: False

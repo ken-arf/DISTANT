@@ -81,6 +81,10 @@ def convert(file, ann, output_path):
     ann_data_list = []
     for line in lines:
         #print(line)
+
+        if not line.startswith('T'):
+            continue
+
         ann_data = {}
         ann_txt = line.split('\t')[-1]
         entity = line.split('\t')[1].split(' ')[0]

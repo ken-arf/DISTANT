@@ -4,8 +4,8 @@
 task_name: bc5cdr 
 
 entities:
-    - chemicals.dict
-    - disease.dict
+    - chemicals
+    - disease
 
 corpus_dir: data/BC5CDR/conll
 # model save dir
@@ -15,8 +15,8 @@ test_dir: data/BC5CDR/eval/test
 
 # bert model
 seed: 22
-#model_checkpoint: allenai/scibert_scivocab_cased
-model_checkpoint: allenai/scibert_scivocab_uncased
+model_checkpoint: allenai/scibert_scivocab_cased
+#model_checkpoint: allenai/scibert_scivocab_uncased
 # nn model
 dropout_rate: 0.3
 embedding_dim: 768
@@ -39,6 +39,8 @@ gpu: 0
 #train_num_warmup_steps: 100 
 #max_patient_count: 3 
 
+
+spacy_model: en_core_sci_lg
 
 # restore model
 restore_model: True

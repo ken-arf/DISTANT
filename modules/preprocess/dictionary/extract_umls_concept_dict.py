@@ -91,14 +91,6 @@ def main():
 
     # check running time
     t_start = time.time()
-    UMLS_cui = {}
-    UMLS_cui['cytokine'] = "C0079189"
-    UMLS_cui['transcription_factor'] = "C0040648"
-    UMLS_cui['t_lymphocyte'] = "C0039194"
-    # UMLS_cui['disease'] = "C0012634"
-    # UMLS_cui['chemicals'] = "C0220806"
-
-    t_start = time.time()
 
     # logging
     logger = logging.getLogger("logger")
@@ -122,6 +114,22 @@ def main():
 
     # print config
     utils._print_config(parameters, config_path)
+
+
+
+    UMLS_cui = {}
+    #UMLS_cui['cytokine'] = "C0079189"
+    #UMLS_cui['transcription_factor'] = "C0040648"
+    #UMLS_cui['t_lymphocyte'] = "C0039194"
+    #UMLS_cui['disease'] = "C0012634"
+    #UMLS_cui['chemicals'] = "C0220806"
+
+    for entity in parameters['entities'].keys():
+        ri = parameters['entities'][entity]['RI']
+        UMLS_cui[entity] = ri
+
+    print(UMLS_cui)
+
 
     cui_dict, cui_rel_dict = prepare_umls_dict(parameters)
 

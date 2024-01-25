@@ -6,7 +6,7 @@ task_name: bc5cdr
 # chemicals + disease
 #num_bio_labels:  2
 # chemicals + disease + others
-num_bio_labels:  3
+num_bio_labels:  2
 
 corpus_dir: data/BC5CDR/conll
 #corpus_dir: data/Mesh/PubMed/BC5CDR/conll
@@ -17,15 +17,15 @@ model_dir: experiments/bc5cdr/segmentation/models
 
 # bert model
 seed: 22
-#model_checkpoint: allenai/scibert_scivocab_cased
-model_checkpoint: allenai/scibert_scivocab_uncased
+model_checkpoint: allenai/scibert_scivocab_cased
+#model_checkpoint: allenai/scibert_scivocab_uncased
 # nn model
 dropout_rate: 0.3
 embedding_dim: 768
 hidden_size: 100
 
 # binary label for span [0,1]
-class_num: 2
+#class_num: 2
 
 # gpu
 gpu: 0 
