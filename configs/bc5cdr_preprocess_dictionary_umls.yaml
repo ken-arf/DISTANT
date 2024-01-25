@@ -11,9 +11,11 @@ entities:
 #    - t_lymphocyte : C0039194
     disease:
         RI: C0012634
+        UMLS_hops: 1
+
     chemicals:
         RI: C0220806
-
+        UMLS_hops: 2
 
 dict_dir: data/UMLS/dict
 

@@ -51,8 +51,52 @@ def prepare_umls_dict(parameters):
 
     return cui_dict, cui_rel_dict
 
+def generate_umls_dict_(target_cui, cui_dict, cui_rel_dict, entries):
 
-def generate_umls_dict(target_cui, dict_path, cui_dict, cui_rel_dict):
+    atoms = cui_dict[target_cui][:]
+    for atom in atoms:
+        entries.append(f'{atom}\tUMLS:{target_cui}')
+
+    next_cuis = []
+
+    if target_cui in cui_rel_dict:
+        for cui in cui_rel_dict[target_cui]:
+            if not cui in cui_dict:
+                continue
+
+            atoms = cui_dict[cui][:]
+            for atom in atoms:
+                entries.append(f'{atom}\tUMLS:{cui}')
+            next_cuis.append(cui)
+
+    return list(set(next_cuis))
+
+
+def generate_dict(root_cui, dict_path, cui_dict, cui_rel_dict, max_hop = 1):
+
+
+    entries = []
+    next_cuis = [root_cui]
+
+    for hop in range(max_hop):
+
+        narrower_cuis = []
+        for target_cui in next_cuis:
+            cuis = generate_umls_dict_(target_cui, cui_dict, cui_rel_dict, entries)
+            narrower_cuis.extend(cuis)
+
+        next_cuis = list(set(narrower_cuis))
+
+    entries = list(set(entries))
+
+    print(f'CUI {root_cui}: num of entries: {len(entries)}')
+
+    with open(dict_path, 'w') as fp:
+        for entry in entries:
+            fp.write(f'{entry}\n')
+
+
+def generate_umls_dict_old(target_cui, dict_path, cui_dict, cui_rel_dict):
 
     entries = []
 
@@ -69,22 +113,6 @@ def generate_umls_dict(target_cui, dict_path, cui_dict, cui_rel_dict):
         for entry in entries:
             fp.write(f'{entry}\n')
 
-
-def generate_umls_dict_old(target_cui, dict_path, cui_dict, cui_rel_dict):
-
-    umls_atoms = {}
-
-    atoms = cui_dict[target_cui][:]
-
-    for cui in cui_rel_dict[target_cui]:
-        atoms += cui_dict[cui][:]
-
-    atoms = sorted(list(set(atoms)))
-
-    umls_atoms["all_synonyms"] = atoms
-
-    with open(dict_path, 'bw') as fp:
-        pickle.dump(umls_atoms, fp)
 
 
 def main():
@@ -126,21 +154,26 @@ def main():
 
     for entity in parameters['entities'].keys():
         ri = parameters['entities'][entity]['RI']
-        UMLS_cui[entity] = ri
+        hops = parameters['entities'][entity]['UMLS_hops']
+        UMLS_cui[entity] = {'RI':ri, 'UMLS_hops': hops}
 
     print(UMLS_cui)
-
 
     cui_dict, cui_rel_dict = prepare_umls_dict(parameters)
 
     utils.makedir(parameters['dict_dir'])
-    for concept_name, cui in UMLS_cui.items():
+    for concept_name, mydict in UMLS_cui.items():
         print("-"*20)
+
+        cui = mydict['RI']
+        max_hops = mydict['UMLS_hops']
+
         print("generating UMLS concept dict", concept_name, cui)
 
         filename = f"{concept_name}_dict.txt"
         dict_path = os.path.join(parameters['dict_dir'], filename)
-        generate_umls_dict(cui, dict_path, cui_dict, cui_rel_dict)
+
+        generate_dict(cui, dict_path, cui_dict, cui_rel_dict, max_hop = max_hops)
 
     # save cui_dict, cui_rel_dict
     filename = f"cui_dict.pkl"

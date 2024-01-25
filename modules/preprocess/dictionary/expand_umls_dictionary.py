@@ -16,6 +16,8 @@ import pickle
 import nltk
 nltk.download('stopwords')
 
+import pdb
+
 
 def unique_dict(dict_path, parameters):
 
@@ -44,6 +46,10 @@ def expand_dict(dicts, parameters):
         new_dict_path = os.path.join(newdir, fname)
 
         with open(new_dict_path, 'w') as fp:
+
+            entries = list(set(entries))
+            entries.sort()
+
             for entry in entries:
                 fields = entry.strip().split('\t')
                 term = fields[0]
