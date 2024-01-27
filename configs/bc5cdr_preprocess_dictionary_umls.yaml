@@ -11,10 +11,18 @@ entities:
 #    - t_lymphocyte : C0039194
     disease:
         RI: C0012634
-        UMLS_hops: 1
+        Semantic: 
+            - "Disease or Syndrome"
+        UMLS_hops: 2
 
     chemicals:
         RI: C0220806
+        Semantic:
+            - "Chemical"
+            - "Chemical Viewed Functionally"
+            - "Chemical Viewed Structurally"
+            - "Inorganic Chemical"
+            - "Organic Chemical"
         UMLS_hops: 2
 
 dict_dir: data/UMLS/dict

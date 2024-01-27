@@ -8,14 +8,20 @@ umls_meta_files_dir: /home/aae14935wb/Share/UMLS/2023AA/META
 entities:
     cytokine:
         RI: C0079189
+        Semantic: 
+            - "Amino Acid, Peptide, or Protein"
         UMLS_hops: 1
 
     transcription_factor:
         RI: C0040648
+        Semantic: 
+            - "Amino Acid, Peptide, or Protein"
         UMLS_hops: 1
 
     t_lymphocyte:
         RI: C0039194
+        Semantic: 
+            - "Cell"
         UMLS_hops: 1
 
 

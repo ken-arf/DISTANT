@@ -23,11 +23,9 @@ def prepare_umls_dict(parameters):
     umls_meta_dir = parameters["umls_meta_files_dir"]
     mrconso_rrf = os.path.join(umls_meta_dir, "MRCONSO.RRF")
     mrrel_rrf = os.path.join(umls_meta_dir, "MRREL.RRF")
-    mrsty_rrf = os.path.join(umls_meta_dir, "MRSTY.RRF")
 
     cui_dict = defaultdict(list)
     cui_rel_dict = defaultdict(list)
-    cui_sty_dict = {}
 
     with open(mrconso_rrf) as fp:
         for line in fp:
@@ -49,19 +47,11 @@ def prepare_umls_dict(parameters):
             rel_cui = fields[4]
             cui_rel_dict[cui].append(rel_cui)
 
-    with open(mrsty_rrf) as fp:
-        for line in fp:
-            fields = line.strip().split('|')
-            cui = fields[0]
-            semantic = fields[3]
-            cui_sty_dict[cui] = semantic
-            
-
     cui_rel_dict = {key: list(set(val)) for key, val in cui_rel_dict.items()}
 
-    return cui_dict, cui_rel_dict, cui_sty_dict
+    return cui_dict, cui_rel_dict
 
-def generate_umls_dict_(target_cui, cui_dict, cui_rel_dict, cui_sty_dict, semantic, entries):
+def generate_umls_dict_(target_cui, cui_dict, cui_rel_dict, entries):
 
     atoms = cui_dict[target_cui][:]
     for atom in atoms:
@@ -74,10 +64,6 @@ def generate_umls_dict_(target_cui, cui_dict, cui_rel_dict, cui_sty_dict, semant
             if not cui in cui_dict:
                 continue
 
-            sem = cui_sty_dict[cui]
-            if not sem in semantic:
-                continue
-
             atoms = cui_dict[cui][:]
             for atom in atoms:
                 entries.append(f'{atom}\tUMLS:{cui}')
@@ -86,7 +72,7 @@ def generate_umls_dict_(target_cui, cui_dict, cui_rel_dict, cui_sty_dict, semant
     return list(set(next_cuis))
 
 
-def generate_dict(root_cui, dict_path, cui_dict, cui_rel_dict, cui_sty_dict, semantic, max_hop = 1):
+def generate_dict(root_cui, dict_path, cui_dict, cui_rel_dict, max_hop = 1):
 
 
     entries = []
@@ -96,7 +82,7 @@ def generate_dict(root_cui, dict_path, cui_dict, cui_rel_dict, cui_sty_dict, sem
 
         narrower_cuis = []
         for target_cui in next_cuis:
-            cuis = generate_umls_dict_(target_cui, cui_dict, cui_rel_dict, cui_sty_dict, semantic, entries)
+            cuis = generate_umls_dict_(target_cui, cui_dict, cui_rel_dict, entries)
             narrower_cuis.extend(cuis)
 
         next_cuis = list(set(narrower_cuis))
@@ -169,12 +155,11 @@ def main():
     for entity in parameters['entities'].keys():
         ri = parameters['entities'][entity]['RI']
         hops = parameters['entities'][entity]['UMLS_hops']
-        semantic = parameters['entities'][entity]['Semantic']
-        UMLS_cui[entity] = {'RI':ri, 'UMLS_hops': hops, 'Semantic': semantic}
+        UMLS_cui[entity] = {'RI':ri, 'UMLS_hops': hops}
 
     print(UMLS_cui)
 
-    cui_dict, cui_rel_dict, cui_sty_dict = prepare_umls_dict(parameters)
+    cui_dict, cui_rel_dict = prepare_umls_dict(parameters)
 
     utils.makedir(parameters['dict_dir'])
     for concept_name, mydict in UMLS_cui.items():
@@ -182,14 +167,13 @@ def main():
 
         cui = mydict['RI']
         max_hops = mydict['UMLS_hops']
-        semantic = mydict['Semantic']
 
         print("generating UMLS concept dict", concept_name, cui)
 
         filename = f"{concept_name}_dict.txt"
         dict_path = os.path.join(parameters['dict_dir'], filename)
 
-        generate_dict(cui, dict_path, cui_dict, cui_rel_dict, cui_sty_dict, semantic, max_hop = max_hops)
+        generate_dict(cui, dict_path, cui_dict, cui_rel_dict, max_hop = max_hops)
 
     # save cui_dict, cui_rel_dict
     filename = f"cui_dict.pkl"
