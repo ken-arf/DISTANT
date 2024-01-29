@@ -1,0 +1,30 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+use_dictionary: True
+dict_dir: 
+    - data/UMLS/processed_dict
+
+dict_files:
+    - chemicals.dict
+    - disease.dict
+
+other_dict_files:
+    #- others.dict
+    #- dummy.dict
+
+use_pu_train: False
+pu_train_csv: experiments/bc5cdr/models/train.csv
+
+entity2integer:
+    chemicals: 0
+    disease: 1
+
+
+corpus_dir: data/BC5CDR/corpus
+output_dir: data/BC5CDR/conll_mp
+#corpus_dir: data/Mesh/PubMed/BC5CDR/extract
+#output_dir: data/Mesh/PubMed/BC5CDR/conll
+

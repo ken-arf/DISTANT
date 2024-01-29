@@ -30,7 +30,6 @@ def unique_dict(dict_path, parameters):
     return entries
 
 
-
 def expand_dict(dicts, parameters):
 
     max_term_len = 50
@@ -61,10 +60,10 @@ def expand_dict(dicts, parameters):
 
                 fp.write(f'{term}|{term_lc}|{ref}\n')
 
-                if ',' in term:
-                    words = [term.strip() for term in term.split(',')]
-                    term_reversed = ' '.join(words[::-1])
-                    fp.write(f'{term_reversed}|{term_reversed.lower()}|{ref}\n')
+#                if ',' in term:
+#                    words = [term.strip() for term in term.split(',')]
+#                    term_reversed = ' '.join(words[::-1])
+#                    fp.write(f'{term_reversed}|{term_reversed.lower()}|{ref}\n')
 
 
 

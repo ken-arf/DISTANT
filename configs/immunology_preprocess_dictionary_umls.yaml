@@ -10,19 +10,19 @@ entities:
         RI: C0079189
         Semantic: 
             - "Amino Acid, Peptide, or Protein"
-        UMLS_hops: 1
+        UMLS_hops: 3
 
     transcription_factor:
         RI: C0040648
         Semantic: 
             - "Amino Acid, Peptide, or Protein"
-        UMLS_hops: 1
+        UMLS_hops: 3
 
     t_lymphocyte:
         RI: C0039194
         Semantic: 
             - "Cell"
-        UMLS_hops: 1
+        UMLS_hops: 3
 
 
 dict_dir: data/UMLS/dict

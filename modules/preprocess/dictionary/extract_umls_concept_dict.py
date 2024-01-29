@@ -27,7 +27,7 @@ def prepare_umls_dict(parameters):
 
     cui_dict = defaultdict(list)
     cui_rel_dict = defaultdict(list)
-    cui_sty_dict = {}
+    cui_sty_dict = defaultdict(list)
 
     with open(mrconso_rrf) as fp:
         for line in fp:
@@ -54,14 +54,14 @@ def prepare_umls_dict(parameters):
             fields = line.strip().split('|')
             cui = fields[0]
             semantic = fields[3]
-            cui_sty_dict[cui] = semantic
+            cui_sty_dict[cui].append(semantic)
             
 
     cui_rel_dict = {key: list(set(val)) for key, val in cui_rel_dict.items()}
 
     return cui_dict, cui_rel_dict, cui_sty_dict
 
-def generate_umls_dict_(target_cui, cui_dict, cui_rel_dict, cui_sty_dict, semantic, entries):
+def generate_umls_dict_(target_cui, cui_dict, cui_rel_dict, cui_sty_dict, target_semantic, entries):
 
     atoms = cui_dict[target_cui][:]
     for atom in atoms:
@@ -74,8 +74,10 @@ def generate_umls_dict_(target_cui, cui_dict, cui_rel_dict, cui_sty_dict, semant
             if not cui in cui_dict:
                 continue
 
-            sem = cui_sty_dict[cui]
-            if not sem in semantic:
+            semantics = cui_sty_dict[cui]
+            sem_check = [True if semantic in target_semantic else False for semantic in semantics]
+        
+            if not any(sem_check):
                 continue
 
             atoms = cui_dict[cui][:]

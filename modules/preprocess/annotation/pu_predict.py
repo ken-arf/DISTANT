@@ -350,12 +350,13 @@ def main():
     # check running time
     t_start = time.time()
 
-    entity_extractor = Entity_extractor(params)
 
     document_root_dir = params['document_root_dir']
     annotation_root_dir = params['annotation_root_dir']
+    utils.make_dirs(annotation_root_dir)
 
-    utils.makedir(annotation_root_dir)
+
+    entity_extractor = Entity_extractor(params)
 
     entity_names = params['entity_names']
 
@@ -374,6 +375,7 @@ def main():
     for file_ in files:
         print(file_)
         try:
+
             df_result = entity_extractor.predict(file_)
             output_annotation_file(
                 file_, df_result, annotation_root_dir, entity_names, domain_dictionary)

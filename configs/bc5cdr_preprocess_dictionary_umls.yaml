@@ -13,7 +13,7 @@ entities:
         RI: C0012634
         Semantic: 
             - "Disease or Syndrome"
-        UMLS_hops: 2
+        UMLS_hops: 4
 
     chemicals:
         RI: C0220806
@@ -23,7 +23,7 @@ entities:
             - "Chemical Viewed Structurally"
             - "Inorganic Chemical"
             - "Organic Chemical"
-        UMLS_hops: 2
+        UMLS_hops: 4
 
 dict_dir: data/UMLS/dict
 

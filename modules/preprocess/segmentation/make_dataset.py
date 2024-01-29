@@ -55,7 +55,28 @@ def tokenize(text, offset=False, moses=False, ):
             tokens = [(token.text, token.idx)
                       for token in doc if token.text != '\n']
 
+
     return tokens
+
+def tokenize_pos(text, offset=False, moses=False, ):
+
+    if moses:
+        tokens = mymoses.tokenize(text.strip())
+        tokens = [token.text for token in tokens]
+    else:
+        doc = nlp(text)
+
+        if offset == False:
+            # tokens = [token.text for token in doc]
+            tokens = [token.text for token in doc if token.text != '\n']
+        else:
+            # tokens = [(token.text, token.idx) for token in doc]
+            tokens = [(token.text, token.idx)
+                      for token in doc if token.text != '\n']
+
+        pos = [token.pos_ for token in doc if token.text != '\n']
+
+    return tokens, pos
 
 
 def load_dict(path):
@@ -85,8 +106,11 @@ def load_dict(path):
     return items
 
 
-def match_entity(tokens, entity_dict, entity_type):
+def match_entity(tokens, pos, entity_dict, entity_type):
     # print(tokens)
+
+    POS = ['ADJ', 'NOUN', 'PROPN', 'PART', 'NUM', 'PRON', 'SYM', 'X', 'PUNCT']
+
     match_count = 0
     n = len(tokens)
     bio = ['O'] * n
@@ -99,8 +123,16 @@ def match_entity(tokens, entity_dict, entity_type):
                 continue
 
             tgt = tokens[i:i+len(entity)]
+            pos_ = pos[i:i+len(entity)]
+
+
             if tuple(tgt) == tuple(entity):
-                # print('match at {}: {}'.format(i, '_'.join(entity)))
+
+                pos_check = [True if p in POS else False for p in pos_]
+
+                if not all(pos_check):
+                    continue
+                
                 found = True
                 match_count += 1
 
@@ -148,40 +180,6 @@ def annotate(files, parameters):
             print(f"loading dictionary {dict_path}")
             entity_dict[name] += load_dict(dict_path)
 
-        # if parameters["task_name"] == "bc5cdr":
-#        if parameters["task_name"] == "bc5cdr" or parameters["task_name"] == "ncbi":
-#            dict_dirs = parameters["dict_dir"]
-#            other_dict_files = parameters["other_dict_files"]
-#            dict_paths = [os.path.join(
-#                dict_dir, file) for dict_dir in dict_dirs for file in other_dict_files]
-#            for dict_path in dict_paths:
-#                if not os.path.exists(dict_path):
-#                    continue
-#
-#                path, fname = os.path.split(dict_path)
-#                name, txt = os.path.splitext(fname)
-#                print(f"loading dictionary {dict_path}")
-#                entity_dict[name] += load_dict(dict_path)
-
-    # append all entities extracted from pu_training
-
-    # if parameters["use_pu_train"]:
-    if False:
-
-        pu_data_csv = parameters["pu_train_csv"]
-        df_pu_data = pd.read_csv(pu_data_csv)
-
-        # for name in entity_dict.keys():
-        for name in parameters['entity2integer'].keys():
-            entid = ent2int[name]
-            df_entities = list(
-                set(df_pu_data[df_pu_data.label == entid].entities.unique()))
-
-            items = []
-            for ent in df_entities:
-                ent_tokens = tokenize(ent.lower())
-                items.append(ent_tokens)
-            entity_dict[name] += items
 
     # convert dictionay item to list to tuple
     for key, items in entity_dict.items():
@@ -205,13 +203,13 @@ def annotate(files, parameters):
 
         with open(os.path.join(outdir, fname), 'w') as fp:
             for k, sent in enumerate(doc):
-                tokens = tokenize(sent)
+                tokens, pos = tokenize_pos(sent)
                 tokens_low = [token.lower() for token in tokens]
 
                 bio_tag = {}
                 for entity_type in entity_dict.keys():
                     bio_tag[entity_type], cnt = match_entity(
-                        tokens_low, entity_dict, entity_type)
+                        tokens_low, pos, entity_dict, entity_type)
                     match_count[entity_type] += cnt
 
                 # print(bio_tag)
