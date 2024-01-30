@@ -4,6 +4,9 @@
 task_name: bc5cdr 
 
 
+gold_sample_ratio: 0.01 
+random_seed: 1
+
 updated_documents: data/BC5CDR/finetune/updated_doc.json
 unchanged_documents: data/BC5CDR/finetune/unchanged_doc.json
 
@@ -15,3 +18,7 @@ extract_dir: data/BC5CDR/finetune/extract
 conll_dir: data/BC5CDR/finetune/conll
 span_dir: data/BC5CDR/finetune/span
 
+entity_names:
+        - Chemical 
+        - Disease
+    

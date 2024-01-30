@@ -14,7 +14,7 @@ fi
 HOME=$PWD
 export PYTHONPATH="$HOME:$HOME/modules"
 
-TASK="immunology"
+TASK="bc5cdr"
 SUBTASK="segmentation"
 MODULE="train_finetune"
 
@@ -29,5 +29,5 @@ if [ ! -d $LOG_DIR ]; then
 fi
 
 echo $YAML_PATH
-python3 modules/preprocess/segmentation/train_finetune.py --yaml $YAML_PATH --timestamp $timestamp
+python3 modules_aux/preprocess/segmentation/train_finetune.py --yaml $YAML_PATH --timestamp $timestamp
 

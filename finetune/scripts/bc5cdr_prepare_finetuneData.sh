@@ -6,7 +6,7 @@ set -u
 HOME=$PWD
 export PYTHONPATH="$HOME:$HOME/modules:$HOME/module_aux"
 
-TASK="immunology"
+TASK="bc5cdr"
 SUBTASK="prepare"
 MODULE="finetuneData"
 

@@ -50,62 +50,296 @@ def tokenize(text, offset=False):
 
     return tokens
 
-def process_documents(params, target, count):
 
-    if target == 'updated':
-        file = params['pubmed_updated_documents']
-    else:
-        file = params['pubmed_unchanged_documents']
+def load_brad_annotation(file, term_only = True):
+    
+    #print(file)
 
-    extract_dir = params['pubmed_extract_dir']
-    conll_dir = params['pubmed_conll_dir']
+    fnames = []
+    tnames = []
+    etypes = []
+    charStarts = []
+    charEnds = []
+    mentions = []
 
+    _, fname = os.path.split(file)
     with open(file) as fp:
-        data = json.load(fp)
-
-    pmids = []
-    try:
-        hits = data['hits']['hits']
-
-        random.shuffle(hits)
-
-        if count != -1:
-            hits = hits[:count]
-
-        if len(hits) == 0:
-            return False
-
-        for index, hit in enumerate(hits):
-            pmid = hit['_source']['pmid']
-            text = hit['_source']['text']
-            entities = hit['_source']['entities']
+        for line in fp:
+            if line.startswith('T'):
+                fields = line.strip().split()
             
-            fname = os.path.join(extract_dir, f"{pmid}.txt")
-            with open(fname, 'w') as fp:
-                fp.write(f'{text}')
+                try:
+                    tname = fields[0]
+                    etype = fields[1]
+                    charStart = int(fields[2])
+                    charEnd = int(fields[3])
+                    mention = fields[4]
+        
+                    fnames.append(fname)
+                    tnames.append(tname)
+                    etypes.append(etype)
+                    charStarts.append(charStart)
+                    charEnds.append(charEnd)
+                    mentions.append(mention)
+                except:
+                    print("Exception")
+                    print(fields)
+                    print("Do no support flagmented NE")
 
-            annotate_conll(pmid, text, entities, params)
-            annotate_span(pmid, text, entities, params)
-            pmids.append(pmid)
 
-    except:
-        print("exception")
-        raise
-
-    path, fname = os.path.split(file)
-    basename, _ = os.path.splitext(fname)
-
-    with open(os.path.join(path, f"{basename}.pmid"), "w") as fp:
-        fp.write('\n'.join(pmids))
+    df = pd.DataFrame({'fname': fnames,
+                        'tname': tnames,
+                        'etype': etypes,
+                        'charStart': charStarts,
+                        'charEnd': charEnds,
+                        'mention': mentions})
 
 
-    return pmids
+    return df
+            
+
+
+def simulate_user_update(params):
+
+    gold_annotation_dir = params["gold_annotation_dir"]
+    annotation_dir = params["annotation_dir"]
+
+    anns = sorted(glob(f"{gold_annotation_dir}/*.ann"))
+
+    dfs = []
+    for ann in anns:
+        df = load_brad_annotation(ann)
+        dfs.append(df)
+
+    df_gold = pd.concat(dfs, axis=0)
+
+
+    anns = sorted(glob(f"{annotation_dir}/*.ann"))
+
+    dfs = []
+    for ann in anns:
+        df = load_brad_annotation(ann)
+        dfs.append(df)
+
+    df_ds = pd.concat(dfs, axis=0)
+
+    df_ds_update = user_update(df_ds, df_gold, params)
+
+    return df_ds_update
+
+def user_update(df_ds, df_gold, params):
+
+    gold_sample_ratio = params['gold_sample_ratio']
+    random_seed = params['random_seed']
+
+    n = int(gold_sample_ratio * df_gold.shape[0])
+
+    df_gold_shuffle = df_gold.sample(frac=1, random_state=random_seed)
+
+    df_gold_samples = df_gold_shuffle[:n]
+    
+    df_ds['updated'] = [False] *  len(df_ds)
+    df_ds_update, del_count  = _update(df_ds, df_gold_samples)
+
+    print(f'n={n}')
+
+    df_ds_update = _delete(df_ds_update, df_gold, del_count, random_seed)
+
+    mask = df_ds_update['updated'] == True
+
+    print(df_ds_update[mask])
+    updated_anns = sorted(list(set(df_ds_update[mask]['fname'].tolist())))
+
+    print(len(updated_anns))
+    print(updated_anns)
+
+    mask = df_ds_update['fname'].isin(updated_anns)
+
+    df_ds_update_only = df_ds_update[mask]
+    df_ds_update_only['updated'] = True
+
+    print(df_ds_update_only)
+
+    return df_ds_update_only
+
+
+    
+    
+
+def _delete(df_ds_update, df_gold, del_count, random_seed):
+
+    
+    df_ds_update_copy = df_ds_update.copy()
+    
+    df_ds_update_ = df_ds_update[df_ds_update['updated'] == False]
+
+
+    df_ds_update_shuffle_ = df_ds_update_.sample(frac=1, random_state=random_seed)
+
+    index_for_del = []
+    for i, row in df_ds_update_shuffle_.iterrows():
+        
+        fname = row.fname
+        tname = row.tname
+        charStart = int(row.charStart)
+        charEnd = int(row.charEnd)
+        etype = row.etype
+        mention = row.mention
+
+        df_gold_ = df_gold[df_gold['fname'] == fname]
+        
+        ne_spans = [t for t in zip(df_gold_['charStart'].tolist(), df_gold_['charEnd'].tolist())]
+    
+        (op, offset) = _deside_operation((charStart, charEnd), ne_spans)
+
+        if op == 'NEW':
+            index_for_del.append(i)
+            mask = df_ds_update_copy['fname'] == fname
+            df_ds_update_copy.loc[mask, 'updated'] = True
+            if len(index_for_del) >= del_count:
+                break
+
+
+    assert len(index_for_del) >= del_count, f"abort: {len(index_for_del)}"
+
+    df_ds_update_copy.drop(index_for_del, inplace = True)
+
+    return df_ds_update_copy
+
+    
+def _update(df_ds, df_gold_samples):
+
+    df_ds.reset_index(inplace=True)
+
+    df_ds_copy = df_ds.copy()
+
+    del_count = 0
+    for i, row in df_gold_samples.iterrows():
+        print(row)
+
+        fname = row.fname
+        tname = row.tname
+        charStart = row.charStart
+        charEnd = row.charEnd
+        etype = row.etype
+        mention = row.mention
+
+
+        df_ds_ = df_ds[df_ds['fname'] == fname]
+
+        ne_spans = [t for t in zip(df_ds_['charStart'].tolist(), df_ds_['charEnd'].tolist())]
+
+        (op, offset) = _deside_operation((charStart, charEnd), ne_spans)
+
+
+        new_frame = pd.DataFrame({  'fname': [fname],
+                                    'tname': [tname],
+                                    'charStart': [charStart],
+                                    'charEnd': [charEnd],
+                                    'etype': [etype],
+                                    'mention': [mention],
+                                    'updated': [True]})
+
+        
+        if op == 'NEW':
+            df_ds_copy = pd.concat([df_ds_copy, new_frame], axis=0)
+        elif op == 'EXACT':
+            row_orig = df_ds_.iloc[offset]
+            print(f'{row_orig}')
+            print(f'{row}')
+            assert(row_orig.mention == row.mention)
+            index = df_ds_.index[offset]
+            if row_orig.etype != etype:
+                df_ds_copy.loc[index, 'etype' ] = etype 
+                df_ds_copy.loc[index, 'updated' ] = True 
+            else:
+                del_count += 1
+        elif op == 'OVERLAP':
+            index = df_ds_.index[offset]
+            df_ds_copy.loc[index, 'charStart'] = charStart
+            df_ds_copy.loc[index, 'charEnd'] = charEnd
+            df_ds_copy.loc[index, 'etype'] = etype
+            df_ds_copy.loc[index, 'mention'] = mention
+            df_ds_copy.loc[index, 'updated'] = True
+            
+        print(df_ds)
+
+    
+    df_ds_copy.reset_index(inplace=True, drop = True)
+    
+    return df_ds_copy, del_count
+
+
+def _deside_operation(gold_span, ne_spans):
+
+
+    gspan_start_index = -1
+    gspan_end_index = -1
+
+    for k, span in enumerate(ne_spans):
+        if gold_span[0] >= span[0] and gold_span[0] <= span[1]:
+            gspan_start_index = k
+        if gold_span[1] >= span[0] and gold_span[1] <= span[1]:
+            gspan_end_index = k
+
+    target_k = -1
+    if gspan_start_index == -1 and gspan_end_index == -1:
+        op = 'NEW'
+    elif gspan_start_index != -1 or gspan_end_index != -1:
+        op = 'OVERLAP'
+        target_k = gspan_start_index if gspan_start_index != -1 else gspan_end_index
+        if gspan_start_index == gspan_end_index:
+            if int(ne_spans[target_k][0]) == int(gold_span[0]) and int(ne_spans[target_k][1]) == int(gold_span[1]):
+                op = 'EXACT'
+            
+    print(f"{gspan_start_index}")
+    print(f"{gspan_end_index}")
+
+    return (op, target_k)
+
+def generate_finetune_annotation(df_update, params):
+
+    print("generate_finetune_annotation")
+
+    ann_files = pd.unique(df_update["fname"])
+    n = len(ann_files)
+
+    text_dir = params['text_dir']
+
+    for k, ann_file in enumerate(ann_files):
+
+        pmid, _ = os.path.splitext(ann_file)
+        
+        with open(os.path.join(text_dir, f'{pmid}.txt')) as fp:
+            text = fp.read()
+
+        print(text)
+        df = df_update[df_update['fname'] == ann_file]
+        df_sorted = df.sort_values(by = ['charStart'])
+        print(f"{k+1}/{n}: {ann_file}")
+        print(df_sorted)
+        
+        entities = []
+        for i, row in df_sorted.iterrows():
+            entity = {}
+            entity['start_char'] = int(row.charStart)
+            entity['end_char'] = int(row.charEnd)
+            entity['entityType'] = row.etype
+            entity['mention'] = row.mention
+            entities.append(entity)
+
+
+
+        annotate_conll(pmid, text, entities, params)
+        annotate_span(pmid, text, entities, params)
+
 
 def annotate_conll(pmid, text, entities, params):
 
     label2int = {'O': 0, 'B': 1, 'I': 2, 'S':3}
 
-    conll_dir = params['pubmed_conll_dir']
+    conll_dir = params['conll_dir']
+    utils.make_dirs(conll_dir)
 
     doc = sentence_split(text, offset = True)
 
@@ -147,9 +381,9 @@ def annotate_conll(pmid, text, entities, params):
 def annotate_span(pmid, text, entities, params):
 
 
-    span_dir = params['pubmed_span_dir']
-    #entity_classes = params['entity_names']
-    entity_classes = get_entity_types(params)
+
+    span_dir = params['span_dir']
+    entity_classes = params['entity_names']
 
     class2id = {c:i for i, c in enumerate(entity_classes)}
     id2class = {i:c for i, c in enumerate(entity_classes)}
@@ -166,6 +400,8 @@ def annotate_span(pmid, text, entities, params):
         'label': []
     }
 
+
+    negatives = []
     
     for k, sent in enumerate(doc):
 
@@ -176,7 +412,7 @@ def annotate_span(pmid, text, entities, params):
         subwords = [token[0]  for token in tokens]
         offsets = [token[1] + offset for token in tokens]
 
-        negatives = sample_negative_span(sentence, tokens)
+        #negatives = sample_negative_span(sentence, tokens)
 
         for entity in entities:
 
@@ -201,7 +437,7 @@ def annotate_span(pmid, text, entities, params):
                     dataset['entity'].append(mention)
                     dataset['label'].append(label)
 
-                    filter(lambda x: x['s_char'] != s_char and x['e_char'] != e_char, negatives)
+                    #filter(lambda x: x['s_char'] != s_char and x['e_char'] != e_char, negatives)
                 except:
                     pass
 
@@ -222,10 +458,13 @@ def annotate_span(pmid, text, entities, params):
             dataset['entity'].append(mention)
             dataset['label'].append(label)
 
+
     utils.make_dirs(span_dir)
     fname = os.path.join(span_dir, f'{pmid}.csv')
     df = pd.DataFrame.from_dict(dataset)
     df.to_csv(fname)
+
+
 
 def sample_negative_span(sentence, tokens):
 
@@ -262,25 +501,6 @@ def sample_negative_span(sentence, tokens):
     return neg_samples
 
 
-def get_entity_types(params):
-
-    es_addr = params["elastic_search"]
-    es_index = params["index_name"]
-
-    es = Elasticsearch(es_addr)
-    index=es_index
-
-    resp = es.get(index=index, id="1")
-    
-    try:
-        entity_types = resp['_source']['entity_types']
-    except:
-        print("database error")
-        exit()
-
-    return entity_types
-
-
 
 def main():
 
@@ -311,9 +531,13 @@ def main():
     # print config
     utils._print_config(parameters, config_path)
 
-    pmids_train = process_documents(parameters, 'updated', -1)
-    pmids_val = process_documents(parameters, 'upchanged', 100 * len(pmids_train))
 
+    gold_sample_ratio = parameters["gold_sample_ratio"]
+
+    df_update = simulate_user_update(parameters)
+
+    generate_finetune_annotation(df_update, parameters)
+    
     print('Done!')
     t_end = time.time()
     print('Took {0:.2f} seconds'.format(t_end - t_start))

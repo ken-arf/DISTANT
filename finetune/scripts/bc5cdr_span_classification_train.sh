@@ -13,7 +13,7 @@ fi
 HOME=$PWD
 export PYTHONPATH="$HOME:$HOME/modules"
 
-TASK="immunology"
+TASK="bc5cdr"
 SUBTASK="span_classification"
 MODULE="train"
 
@@ -27,6 +27,6 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
-python3 modules/preprocess/annotation/span_classification_train.py --yaml $YAML_PATH  --timestamp $timestamp
+python3 modules_aux/preprocess/annotation/span_classification_train.py --yaml $YAML_PATH  --timestamp $timestamp
 
 
