@@ -15,11 +15,8 @@ check_status () {
 }
 
 
-
-
 sh ./scripts/bc5cdr_prepare_finetuneData.sh
 check_status $?
-
 
 timestamp=`date '+%Y%m%d_%H%M%S'` 
 

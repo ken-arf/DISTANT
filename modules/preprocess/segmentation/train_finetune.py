@@ -22,7 +22,7 @@ import evaluate
 
 from dataloader import Dataloader
 from measure import performance
-from model2 import Model
+from model import Model
 
 import pdb
 
@@ -60,11 +60,11 @@ def load_dataset(parameters):
 
     files = sorted(glob.glob(f"{conll_dir}/*.txt"))
 
-    with open(os.path.join(finetune_dir, 'updated_doc.pmid')) as fp:
-        train_pmids = [pmid.strip() for pmid in fp.readlines()]
-
-    with open(os.path.join(finetune_dir, 'unchanged_doc.pmid')) as fp:
-        val_pmids = [pmid.strip() for pmid in fp.readlines()]
+    #with open(os.path.join(finetune_dir, 'updated_doc.pmid')) as fp:
+    #    train_pmids = [pmid.strip() for pmid in fp.readlines()]
+#
+#    with open(os.path.join(finetune_dir, 'unchanged_doc.pmid')) as fp:
+#        val_pmids = [pmid.strip() for pmid in fp.readlines()]
     
 
     text_data = []
@@ -211,7 +211,7 @@ def train_finetune(parameters, name_suffix):
     #    OUTPUT_PATH, f"model_finetune_{name_suffix}.pth"))
 
     torch.save(model.state_dict(), os.path.join(
-        OUTPUT_PATH, f"model_spanDetection.pth"))
+        OUTPUT_PATH, f"model_segmentation.pth"))
 
 def train(parameters, name_suffix):
 
@@ -358,14 +358,13 @@ def train(parameters, name_suffix):
 
         if best_update:
             torch.save(unwrapped_model.state_dict(), os.path.join(
-                OUTPUT_PATH, f"model_spanDetection.pth"))
+                OUTPUT_PATH, f"model_segmentation.pth"))
 
     print("best_acc: {:.2f}".format(best_acc))
     return
 
 
 def main():
-
 
     # set config path by command line
     inp_args = utils._parsing_timestamp()

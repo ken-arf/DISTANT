@@ -6,7 +6,7 @@ task_name: immunology
 
 finetune_dir: data/Mesh/PubMed/Immunology/finetune
 
-document_root_dir: data/Mesh/PubMed/Immunology/span
+corpus_dir: data/Mesh/PubMed/Immunology/span
 
 # model save dir
 model_dir: models/immunology/{timestamp}

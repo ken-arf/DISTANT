@@ -4,11 +4,11 @@ set -e
 set -u
 
 HOME=$PWD
-export PYTHONPATH="$HOME:$HOME/modules:$HOME/module_aux"
+export PYTHONPATH="$HOME:$HOME/modules"
 
 TASK="bc5cdr"
-SUBTASK="prepare"
-MODULE="finetuneData"
+SUBTASK="evaluate"
+MODULE="test"
 
 CONFIG_DIR="configs"
 YAML_FILE="${TASK}_${SUBTASK}_${MODULE}.yaml"
@@ -20,5 +20,9 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
-python3 modules/database/prepare_finetuneData_forSimulation.py --yaml $YAML_PATH 
+#nohup python modules/preprocess/annotation/ds_annotation.py --yaml $YAML_PATH > $LOG_PATH &
+python modules/preprocess/annotation/pu_predict.py --yaml $YAML_PATH 
+
+#sleep 5
+#tail -f $LOG_PATH
 

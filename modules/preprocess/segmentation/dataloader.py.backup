@@ -53,91 +53,7 @@ class Dataloader:
         model_checkpoint = self.params["model_checkpoint"]
         self.tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
 
-        if torch.cuda.is_available() and params['gpu'] >= 0:
-            self.device = "cuda"
-        else:
-            self.device = "cpu"
-       
-        # Check that MPS is available
-        if not torch.backends.mps.is_available():
-            if not torch.backends.mps.is_built():
-                print("MPS not available because the current PyTorch install was not "
-                      "built with MPS enabled.")
-            else:
-                print("MPS not available because the current MacOS version is not 12.3+ "
-                      "and/or you do not have an MPS-enabled device on this machine.")
-        else:
-            self.device = torch.device("mps")
-
-
-        self.device = torch.device("cpu")
-
-
-    def load_data_train_only(self):
-
-
-        texts = self.data['text']
-        labels = self.data['label']
-
-        train_dataset = {'text': texts, 'label': labels}
-
-        train_dataset = Dataset.from_dict(train_dataset)
-
-        self.datasets = DatasetDict({
-            "train": train_dataset,
-        })
-
-        tokenized_datasets = self.datasets.map(
-            self.tokenized_and_align_labels,
-            batched=True,
-            remove_columns=self.datasets["train"].column_names
-        )
-
-        train_dataloader = DataLoader(
-            tokenized_datasets["train"],
-            shuffle=True,
-            collate_fn=self.data_collator,
-            batch_size=self.params["train_batch_size"],
-        )
-
-        return train_dataloader
-
-    def load_data_preset(self):
-
-        train_dataset = Dataset.from_dict(self.data['train'])
-        valid_dataset = Dataset.from_dict(self.data['val'])
-
-        self.datasets = DatasetDict({
-            "train": train_dataset,
-            "valid": valid_dataset,
-        })
-
-        tokenized_datasets = self.datasets.map(
-            self.tokenized_and_align_labels,
-            batched=True,
-            remove_columns=self.datasets["train"].column_names
-        )
-
-        train_dataloader = DataLoader(
-            tokenized_datasets["train"],
-            shuffle=True,
-            collate_fn=self.data_collator,
-            batch_size=self.params["train_batch_size"],
-        )
-
-        valid_dataloader = DataLoader(
-            tokenized_datasets["valid"],
-            shuffle=True,
-            collate_fn=self.data_collator,
-            batch_size=self.params["valid_batch_size"],
-        )
-
-        return train_dataloader, valid_dataloader
-
-
     def load_data(self):
-
-        val_size_ratio = 0.1
 
         # shuffle dataset
         random.seed(self.myseed)
@@ -151,7 +67,7 @@ class Dataloader:
         slabels = [labels[i] for i in index]
 
         n = len(texts)
-        val_size = int(n * val_size_ratio)
+        val_size = int(n * 0.1)
         train_size = n - val_size
 
         train_stexts = stexts[:train_size]
@@ -223,7 +139,7 @@ class Dataloader:
                 [label_pad_token_id] * (sequence_length - len(label)) + list(label) for label in labels
             ]
 
-        batch = {k: torch.tensor(v, dtype=torch.int64).to(self.device)
+        batch = {k: torch.tensor(v, dtype=torch.int64)
                  for k, v in batch.items()}
         return batch
 

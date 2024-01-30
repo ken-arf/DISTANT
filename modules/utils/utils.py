@@ -3,6 +3,7 @@ import sys
 import re
 import shutil
 import argparse
+import time
 import yaml
 from collections import OrderedDict
 from datetime import datetime
@@ -28,6 +29,12 @@ def _parsing():
     args = parser.parse_args()
     return args
 
+def _parsing_timestamp():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--yaml', type=str, required=True, help='yaml file')
+    parser.add_argument('--timestamp', type=str, required=True, help='timestamp')
+    args = parser.parse_args()
+    return args
 
 def _parsing_opt():
     parser = argparse.ArgumentParser()
@@ -85,3 +92,20 @@ def postprocess(predictions, labels, label_names):
         for prediction, label in zip(predictions, labels)
     ]
     return true_labels, true_predictions
+
+
+def get_latest_dir(root_dir):
+
+    files = os.listdir(root_dir)
+    paths = [f for f in files is os.path.isdir(f)]
+    mtimes = [time.ctime(os.path.getmtime(path)) for path in paths]
+
+    # argmax
+    i_max = max(range(len(mtimes)), key=mtimes.__getitem__)
+    
+    return dirs[i_max]
+
+    
+
+
+

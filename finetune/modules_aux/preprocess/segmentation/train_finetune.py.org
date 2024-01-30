@@ -67,13 +67,24 @@ def load_dataset(parameters):
         val_pmids = [pmid.strip() for pmid in fp.readlines()]
     
 
-    text_data = []
-    label_data = []
+    train_text_data = []
+    train_label_data = []
+
+    val_text_data = []
+    val_label_data = []
 
 
     for file in tqdm(files):
         _, fname = os.path.split(file)
         base, _  = os.path.splitext(fname)
+
+        if base in train_pmids:
+            text_data = train_text_data
+            label_data = train_label_data
+        else:
+            text_data = val_text_data
+            label_data = val_label_data
+
 
         # print(file)
         input_data = load_file(file)
@@ -89,11 +100,18 @@ def load_dataset(parameters):
 
     
     # split val data in halves
-    n = int(len(text_data) * 0.9)
+    n = int(len(val_text_data) * 0.8)
 
 
-    data = {'train': {'text': text_data[:n], 'label': label_data[:n]},
-            'val': {'text': text_data[n:], 'label': label_data[n:]}}
+    train_text_data.extend(val_text_data[:n])
+    train_label_data.extend(val_label_data[:n])
+
+    val_text_data = val_text_data[n:]
+    val_label_data = val_label_data[n:]
+
+    
+    data = {'train': {'text': train_text_data, 'label': train_label_data},
+            'val': {'text': val_text_data, 'label': val_label_data}}
 
     return data
 

@@ -6,11 +6,15 @@ task_name: bc5cdr
 
 finetune_dir: data/Mesh/PubMed/Immunology/finetune
 
-document_root_dir: data/Mesh/PubMed/Immunology/span
+corpus_dir: data/BC5CDR/finetune/span
 
 # model save dir
-model_dir: models/immunology/{timestamp}
+model_root_dir: experiments/bc5cdr/models
+model_dir: experiments/bc5cdr/models/{timestamp}
 
+entity_names:
+        - Chemical 
+        - Disease
 
 # bert model
 seed: 22
@@ -23,12 +27,8 @@ embedding_dim: 768
 # positive label num (postive labels (3) + negative label (1))
 #class_num: 4
 
-#elastic_search: "localhost:9200"
-elastic_search: "http://database:9200"
-index_name: cancer_immunology_conf
-
 # gpu
-gpu: -1 
+gpu: 0 
 
 
 # training
@@ -47,5 +47,5 @@ max_patient_count: 3
 
 # restore model
 restore_model: True
-restore_model_path: models/immunology/base_models/model_spanClassification.pth
+restore_model_path: experiments/bc5cdr/models/{latest_path}/model_classification.pth
 

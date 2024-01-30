@@ -44,11 +44,6 @@ class PU_Dataloader:
 
     def __init__(self, df_train_pos, df_train_neg, params):
 
-        if torch.cuda.is_available() and params['gpu'] >= 0:
-            self.device = "cuda"
-        else:
-            self.device = "cpu"
-
         self.df_train_pos = df_train_pos
         self.df_train_neg = df_train_neg
 
@@ -58,71 +53,6 @@ class PU_Dataloader:
         model_checkpoint = self.params["model_checkpoint"]
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
-
-    def load_train_only(self):
-        # shuffle dataset
-
-        df_train = self.df_train_pos
-        df_train = df_train.sample(
-            frac=1, replace=False, random_state=self.myseed)
-
-        train_dataset = Dataset.from_pandas(df_train)
-
-        self.datasets = DatasetDict({
-            "train": train_dataset,
-        })
-
-        tokenized_datasets = self.datasets.map(
-            self.tokenized_and_align_labels,
-            batched=True,
-            remove_columns=self.datasets["train"].column_names
-        )
-
-        train_dataloader = DataLoader(
-            tokenized_datasets["train"],
-            shuffle=True,
-            collate_fn=self.data_collator,
-            batch_size=self.params["train_batch_size"],
-        )
-
-        return train_dataloader
-
-    def load_data_preset(self):
-
-        df_train = self.df_train_pos[self.df_train_pos['split'] == 'train']
-        df_val = self.df_train_pos[self.df_train_pos['split'] == 'val']
-
-        train_dataset = Dataset.from_pandas(df_train)
-        valid_dataset = Dataset.from_pandas(df_val)
-
-        self.datasets = DatasetDict({
-            "train": train_dataset,
-            "valid": valid_dataset,
-        })
-
-        tokenized_datasets = self.datasets.map(
-            self.tokenized_and_align_labels,
-            batched=True,
-            remove_columns=self.datasets["train"].column_names
-        )
-
-        train_dataloader = DataLoader(
-            tokenized_datasets["train"],
-            shuffle=True,
-            collate_fn=self.data_collator,
-            batch_size=self.params["train_batch_size"],
-        )
-
-        valid_dataloader = DataLoader(
-            tokenized_datasets["valid"],
-            shuffle=True,
-            collate_fn=self.data_collator,
-            batch_size=self.params["valid_batch_size"],
-        )
-
-        test_dataloader = None
-
-        return train_dataloader, valid_dataloader, test_dataloader
 
     def load_data(self):
 
@@ -223,7 +153,7 @@ class PU_Dataloader:
             return_tensors=None,
         )
 
-        batch = {k: torch.tensor(v, dtype=torch.int64).to(self.device)
+        batch = {k: torch.tensor(v, dtype=torch.int64)
                  for k, v in batch.items()}
         return batch
 
@@ -256,7 +186,7 @@ class PU_Dataloader:
             start_char = int(examples["start_chars"][sample_id])
             end_char = int(examples["end_chars"][sample_id])
             label = examples["label"][sample_id]
-            #olabel = examples["olabel"][sample_id]
+            olabel = examples["olabel"][sample_id]
 
             sequence_ids = tokenized_inputs.sequence_ids(index)
 
@@ -303,11 +233,11 @@ class PU_Dataloader:
             start_positions.append(start_position)
             end_positions.append(end_position)
             labels.append(label)
-            #olabels.append(olabel)
+            olabels.append(olabel)
 
         tokenized_inputs["start_positions"] = start_positions
         tokenized_inputs["end_positions"] = end_positions
         tokenized_inputs["labels"] = labels
-        #tokenized_inputs["olabels"] = olabels
+        tokenized_inputs["olabels"] = olabels
 
         return tokenized_inputs
