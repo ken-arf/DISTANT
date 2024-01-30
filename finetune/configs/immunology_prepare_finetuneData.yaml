@@ -1,0 +1,22 @@
+# Configuration file for training model.
+
+# data path
+task_name: immunology 
+#corpus_dir: data/Mesh
+
+#entity_names:
+#        - Cytokine 
+#        - Transcription_Factor
+#        - T_Lymphocyte
+
+#elastic_search: "http://localhost:9200"
+elastic_search: "http://database:9200"
+index_name: cancer_immunology_conf
+
+pubmed_updated_documents: data/Mesh/PubMed/Immunology/finetune/updated_doc.json
+pubmed_unchanged_documents: data/Mesh/PubMed/Immunology/finetune/unchanged_doc.json
+
+pubmed_extract_dir: data/Mesh/PubMed/Immunology/extract
+pubmed_conll_dir: data/Mesh/PubMed/Immunology/conll
+pubmed_span_dir: data/Mesh/PubMed/Immunology/span
+

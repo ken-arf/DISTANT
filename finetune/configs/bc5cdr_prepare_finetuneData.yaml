@@ -1,0 +1,17 @@
+# Configuration file for training model.
+
+# data path
+task_name: bc5cdr 
+
+
+updated_documents: data/BC5CDR/finetune/updated_doc.json
+unchanged_documents: data/BC5CDR/finetune/unchanged_doc.json
+
+gold_annotation_dir: data/BC5CDR/gold
+annotation_dir: data/BC5CDR/annotate
+text_dir: data/BC5CDR/corpus
+
+extract_dir: data/BC5CDR/finetune/extract
+conll_dir: data/BC5CDR/finetune/conll
+span_dir: data/BC5CDR/finetune/span
+
