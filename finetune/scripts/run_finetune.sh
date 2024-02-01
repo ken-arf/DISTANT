@@ -1,8 +1,12 @@
 #!/bin/bash
 
-CONFIG_TRIAL_DIR=./configs/trial
+set -e
+set -u
 
-#rm -f ./data/bc5cdr/finetune/annotate/*
+sample_ratio=$1
+random_seed=$2
+
+
 #rm -f ./data/bc5cdr/finetune/conll/*
 #rm -f ./data/bc5cdr/finetune/span/*
 
@@ -14,20 +18,19 @@ check_status () {
     fi
 }
 
+path_name="S${sample_ratio}_R${random_seed}"
 
-sh ./scripts/bc5cdr_prepare_finetuneData.sh
+sh ./scripts/bc5cdr_prepare_finetuneData_forSimulation.sh $sample_ratio $random_seed $path_name
 check_status $?
 
-timestamp=`date '+%Y%m%d_%H%M%S'` 
-
-sh ./scripts/bc5cdr_segmentation_train_finetune.sh $timestamp
+sh ./scripts/bc5cdr_segmentation_train_finetune.sh $path_name
 check_status $?
 
-sh ./scripts/bc5cdr_span_classification_train.sh $timestamp
+sh ./scripts/bc5cdr_span_classification_train.sh $path_name
 check_status $?
 
-# output config file for annotation for trial
-#cat $CONFIG_TRIAL_DIR/bc5cdr_predict_entity2_template.yaml | sed -e "s/{timestamp}/$timestamp/" > $CONFIG_TRIAL_DIR/bc5cdr_predict_entity2.yaml
+sh ./scripts/bc5cdr_evaluate_test.sh $path_name
+check_status $?
 
-#cat $CONFIG_TRIAL_DIR/bc5cdr_segmentation_predict_template.yaml | sed -e "s/{timestamp}/$timestamp/" > $CONFIG_TRIAL_DIR/bc5cdr_segmentation_predict.yaml
-
+sh ./scripts/bc5cdr_misc_convert_brat2conll.sh $path_name
+check_status $?

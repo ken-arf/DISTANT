@@ -5,12 +5,12 @@ task_name: bc5cdr
 
 num_bio_labels:  2
 
-finetune_dir: data/BC5CDR/finetune/S0.5_R1
-conll_dir: data/BC5CDR/finetune/S0.5_R1/conll
+finetune_dir: data/BC5CDR/finetune/{path_name}
+conll_dir: data/BC5CDR/finetune/{path_name}/conll
 
 # model save dir
 model_root_dir: experiments/bc5cdr/models
-model_dir: experiments/bc5cdr/models/S0.5_R1
+model_dir: experiments/bc5cdr/models/{path_name}
 
 
 # bert model

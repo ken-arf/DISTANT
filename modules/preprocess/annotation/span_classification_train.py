@@ -368,16 +368,17 @@ def finetune_classifier(parameters):
 def main():
 
     # set config path by command line
-    inp_args = utils._parsing_timestamp()
+    #inp_args = utils._parsing_timestamp()
+    inp_args = utils._parsing()
+
     config_path = getattr(inp_args, 'yaml')
     with open(config_path, 'r') as stream:
         parameters = utils._ordered_load(stream)
 
-    timestamp = getattr(inp_args, 'timestamp')
-    model_dir = parameters['model_dir']
-    model_dir = model_dir.replace('{timestamp}', timestamp)
-    parameters['model_dir'] = model_dir
-
+    #timestamp = getattr(inp_args, 'timestamp')
+    #model_dir = parameters['model_dir']
+    #model_dir = model_dir.replace('{timestamp}', timestamp)
+    #parameters['model_dir'] = model_dir
 
     # print config
     utils._print_config(parameters, config_path)

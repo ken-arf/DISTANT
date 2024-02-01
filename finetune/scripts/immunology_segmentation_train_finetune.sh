@@ -3,7 +3,7 @@
 set -e
 set -u
 
-timestamp=$1
+path_name=$1
 
 if [ $timestamp = "" ]; then
     echo "$0 timestamp, timestamp not given"
@@ -28,6 +28,8 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
+sed -i -e "s/{path_name}/$path_name/g" $YAML_PATH
+
 echo $YAML_PATH
-python3 modules/preprocess/segmentation/train_finetune.py --yaml $YAML_PATH --timestamp $timestamp
+python3 modules/preprocess/segmentation/train_finetune.py --yaml $YAML_PATH 
 

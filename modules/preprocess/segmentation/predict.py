@@ -85,9 +85,7 @@ class EntityExtraction:
 
         self.model = Model(self.params, self.logger)
 
-        model_dir = self.params["model_dir"]
-        model_name = self.params["model_name"]
-        restore_model_checkpoint = os.path.join(model_dir, model_name)
+        restore_model_checkpoint = self.params["restore_model_path"]
 
         self.model.load_state_dict(torch.load(
             restore_model_checkpoint, map_location=torch.device(self.device)))

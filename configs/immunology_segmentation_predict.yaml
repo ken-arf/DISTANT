@@ -45,6 +45,7 @@ spacy_model: en_core_sci_lg
 
 # restore model
 restore_model: True
-model_dir: experiments/immunology/segmentation/models
-model_name: model_best_seg.pth 
+restore_model_path: experiments/immunology/segmentation/models/model_best_seg.pth
+#model_dir: experiments/immunology/segmentation/models
+#model_name: model_best_seg.pth 
 

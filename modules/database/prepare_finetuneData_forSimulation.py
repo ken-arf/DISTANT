@@ -141,31 +141,21 @@ def user_update(df_ds, df_gold, params):
     df_ds['updated'] = [False] *  len(df_ds)
     df_ds_update, del_count  = _update(df_ds, df_gold_samples)
 
-    print(f'n={n}')
 
     df_ds_update = _delete(df_ds_update, df_gold, del_count, random_seed)
 
     mask = df_ds_update['updated'] == True
 
-    print(df_ds_update[mask])
     updated_anns = sorted(list(set(df_ds_update[mask]['fname'].tolist())))
 
-    print(len(updated_anns))
-    print(updated_anns)
-
     mask = df_ds_update['fname'].isin(updated_anns)
+    
+    df_ds_update.loc[mask, 'updated'] = True
 
-    df_ds_update_only = df_ds_update[mask]
-    df_ds_update_only['updated'] = True
-
-    print(df_ds_update_only)
-
-    return df_ds_update_only
+    return df_ds_update
 
 
     
-    
-
 def _delete(df_ds_update, df_gold, del_count, random_seed):
 
     
@@ -200,7 +190,9 @@ def _delete(df_ds_update, df_gold, del_count, random_seed):
                 break
 
 
-    assert len(index_for_del) >= del_count, f"abort: {len(index_for_del)}"
+    if len(index_for_del) < del_count:
+        print(f"** Warning, not enough data to delete **")
+        print(f"del_count: {del_count}, deleted_count: {len(index_for_del)}")
 
     df_ds_update_copy.drop(index_for_del, inplace = True)
 
@@ -215,7 +207,7 @@ def _update(df_ds, df_gold_samples):
 
     del_count = 0
     for i, row in df_gold_samples.iterrows():
-        print(row)
+        #print(row)
 
         fname = row.fname
         tname = row.tname
@@ -245,8 +237,8 @@ def _update(df_ds, df_gold_samples):
             df_ds_copy = pd.concat([df_ds_copy, new_frame], axis=0)
         elif op == 'EXACT':
             row_orig = df_ds_.iloc[offset]
-            print(f'{row_orig}')
-            print(f'{row}')
+            #print(f'{row_orig}')
+            #print(f'{row}')
             assert(row_orig.mention == row.mention)
             index = df_ds_.index[offset]
             if row_orig.etype != etype:
@@ -262,7 +254,7 @@ def _update(df_ds, df_gold_samples):
             df_ds_copy.loc[index, 'mention'] = mention
             df_ds_copy.loc[index, 'updated'] = True
             
-        print(df_ds)
+        #print(df_ds)
 
     
     df_ds_copy.reset_index(inplace=True, drop = True)
@@ -292,14 +284,14 @@ def _deside_operation(gold_span, ne_spans):
             if int(ne_spans[target_k][0]) == int(gold_span[0]) and int(ne_spans[target_k][1]) == int(gold_span[1]):
                 op = 'EXACT'
             
-    print(f"{gspan_start_index}")
-    print(f"{gspan_end_index}")
+    #print(f"{gspan_start_index}")
+    #print(f"{gspan_end_index}")
 
     return (op, target_k)
 
 def generate_finetune_annotation(df_update, params):
 
-    print("generate_finetune_annotation")
+    #print("generate_finetune_annotation")
 
     ann_files = pd.unique(df_update["fname"])
     n = len(ann_files)
@@ -313,11 +305,11 @@ def generate_finetune_annotation(df_update, params):
         with open(os.path.join(text_dir, f'{pmid}.txt')) as fp:
             text = fp.read()
 
-        print(text)
+        #print(text)
         df = df_update[df_update['fname'] == ann_file]
         df_sorted = df.sort_values(by = ['charStart'])
-        print(f"{k+1}/{n}: {ann_file}")
-        print(df_sorted)
+        #print(f"{k+1}/{n}: {ann_file}")
+        #print(df_sorted)
         
         entities = []
         for i, row in df_sorted.iterrows():
@@ -327,7 +319,6 @@ def generate_finetune_annotation(df_update, params):
             entity['entityType'] = row.etype
             entity['mention'] = row.mention
             entities.append(entity)
-
 
 
         annotate_conll(pmid, text, entities, params)
@@ -358,7 +349,7 @@ def annotate_conll(pmid, text, entities, params):
                 s_char = entity['start_char']
                 e_char = entity['end_char']
                 if s_char in tokens_offset:
-                    print(entity)
+                    #print(entity)
                     s_index = tokens_offset.index(s_char)
                     for i in range(s_index, len(tokens_offset)):
                         if tokens_offset[i] >= e_char:
@@ -373,9 +364,9 @@ def annotate_conll(pmid, text, entities, params):
                             bio_labels[i] = 'I'
 
             for t, token, off, l in zip(tokens_, tokens_low, tokens_offset, bio_labels):
-                print(f'{t}\t{token}\t{off}\t{l}')
+                #print(f'{t}\t{token}\t{off}\t{l}')
                 fp.write(f'{t}\t{token}\t{off}\t{l}\n')
-            print('')
+            #print('')
             fp.write('\n')
 
 def annotate_span(pmid, text, entities, params):
@@ -444,7 +435,7 @@ def annotate_span(pmid, text, entities, params):
         # append negative samples
 
         for negative in negatives:
-            print(negative)
+            #print(negative)
 
             s_char = negative['s_char']
             e_char = negative['e_char']
@@ -535,6 +526,10 @@ def main():
     gold_sample_ratio = parameters["gold_sample_ratio"]
 
     df_update = simulate_user_update(parameters)
+
+    sim_dir = parameters['simulation_dir']
+    utils.make_dirs(sim_dir)
+    df_update.to_csv(os.path.join(sim_dir, "simulation_data.csv"))
 
     generate_finetune_annotation(df_update, parameters)
     

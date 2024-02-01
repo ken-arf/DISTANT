@@ -1,21 +1,20 @@
 #!/bin/bash
 
 ROOT_DIR=../data/BC5CDR/eval
-#ROOT_DIR=../modules/baselines/data/BC5CDR/eval
 
-#predict_coll_dir=$ROOT_DIR/annotate.prev
-#predict_coll_dir=$ROOT_DIR/annotate.latest
-#predict_coll_dir=$ROOT_DIR/annotate.autoner
-#predict_coll_dir=$ROOT_DIR/annotate.1
-#predict_coll_dir=$ROOT_DIR/annotate.2
-#predict_coll_dir=$ROOT_DIR/annotate.match_dict
-#predict_coll_dir=$ROOT_DIR/annotate.bond
-#predict_coll_dir=$ROOT_DIR/annotate.bond2nd
-#predict_coll_dir=$ROOT_DIR/annotate.supervised
-#predict_coll_dir=$ROOT_DIR/annotate.bond3rd
 
-predict_dir=("annotate" "annotate.prev" "annotate.240128" "annotate.240128_2" "annotate.1" "annotate.2" "annotate.3" "annotate.autoner" "annotate.match_dict" "annotate.supervised")
-predict_dir+=("annotate.bond2nd" "annotate.roster")
+annotate_paths=$(ls ../data/BC5CDR/eval | grep annotate | grep -v gold)
+
+predict_dir=()
+
+for path in $annotate_paths; do
+    predict_dir+=(""$path"")
+done
+
+echo ${predict_dir[*]}
+
+#predict_dir=("annotate" "annotate.20240130_215056" "annotate.240128" "annotate.240128_2" "annotate.1" "annotate.2" "annotate.3" "annotate.autoner" "annotate.match_dict" "annotate.supervised")
+#predict_dir+=("annotate.bond2nd" "annotate.roster")
 
 for i in ${!predict_dir[@]}; do
     echo "$i: ${predict_dir[$i]}"
