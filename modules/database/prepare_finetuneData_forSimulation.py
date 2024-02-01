@@ -129,6 +129,8 @@ def simulate_user_update(params):
 
 def user_update(df_ds, df_gold, params):
 
+    pdb.set_trace()
+
     gold_sample_ratio = params['gold_sample_ratio']
     random_seed = params['random_seed']
 
