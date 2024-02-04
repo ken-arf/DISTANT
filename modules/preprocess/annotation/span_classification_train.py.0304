@@ -21,8 +21,8 @@ from tqdm.auto import tqdm
 from utils import utils
 # from utils import database
 
-from pu_dataloader_weight import PU_Dataloader
-from pu_model_weight import PU_Model
+from pu_dataloader import PU_Dataloader
+from pu_model import PU_Model
 
 from measure import performance
 
@@ -156,7 +156,6 @@ def train(df_train_pos, df_train_neg, parameters, model_name_suffix):
 
     #train_dataloader, valid_dataloader, test_dataloader = pu_dataloader.load_data()
     train_dataloader, valid_dataloader, test_dataloader = pu_dataloader.load_data_preset()
-
 
     if torch.cuda.is_available() and parameters['gpu'] >= 0:
         device = "cuda"

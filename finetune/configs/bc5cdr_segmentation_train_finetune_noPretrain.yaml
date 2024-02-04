@@ -5,12 +5,12 @@ task_name: bc5cdr
 
 num_bio_labels:  2
 
-finetune_dir: data/BC5CDR/finetune/{path_name}
-conll_dir: data/BC5CDR/finetune/{path_name}/conll
+finetune_dir: data/BC5CDR/finetune/WDoc_noPretrain_S0.5_R1
+conll_dir: data/BC5CDR/finetune/WDoc_noPretrain_S0.5_R1/conll
 
 # model save dir
 model_root_dir: experiments/bc5cdr/models
-model_dir: experiments/bc5cdr/models/{path_name}
+model_dir: experiments/bc5cdr/models/WDoc_noPretrain_S0.5_R1
 
 
 # bert model
@@ -25,7 +25,7 @@ hidden_size: 100
 # gpu
 gpu: 0 
 
-max_patient_count: 5
+max_patient_count: 3
 
 # training
 train_epochs: 20 
@@ -38,7 +38,7 @@ train_scheduler: linear
 train_num_warmup_steps: 10 
 
 # restore model
-restore_model: True
+restore_model: False
 restore_model_path: experiments/bc5cdr/models/base/model_segmentation.pth
 #restore_model_path: experiments/bc5cdr/models/{latest_path}/model_segmentation.pth
 

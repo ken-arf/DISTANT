@@ -18,20 +18,19 @@ check_status () {
     fi
 }
 
-path_name="weight_S${sample_ratio}_R${random_seed}"
+path_name="WDoc_S${sample_ratio}_R${random_seed}"
 
 rm -rf ./data/BC5CDR/finetune/$path_name
 
-sh ./scripts/bc5cdr_prepare_finetuneData_forSimulation.sh $sample_ratio $random_seed $path_name
+
+sh ./scripts/bc5cdr_prepare_finetuneData_forSimulation_wholeDocument.sh $sample_ratio $random_seed $path_name
 check_status $?
 
 sh ./scripts/bc5cdr_segmentation_train_finetune.sh $path_name
 check_status $?
 
-
 sh ./scripts/bc5cdr_span_classification_train.sh $path_name
 check_status $?
-
 
 sh ./scripts/bc5cdr_evaluate_test.sh $path_name
 check_status $?

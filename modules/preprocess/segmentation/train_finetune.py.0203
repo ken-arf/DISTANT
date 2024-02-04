@@ -20,9 +20,9 @@ from transformers import get_scheduler
 from accelerate import Accelerator
 import evaluate
 
-from dataloader_weight import Dataloader
+from dataloader import Dataloader
 from measure import performance
-from model_weight import Model
+from model import Model
 
 import pdb
 
@@ -32,7 +32,6 @@ def load_file(file):
 
     with open(file) as fp:
         tokens = []
-        label_weights = []
         bio_labels = []
 
         for line in fp:
@@ -40,15 +39,12 @@ def load_file(file):
             # print(line, len(line))
             if len(line) == 0:
                 input_data['tokens'].append(tokens)
-                input_data['weight'].append(label_weights)
                 input_data[f'bio'].append(bio_labels)
                 tokens = []
-                label_weights = []
                 bio_labels = []
                 continue
             fields = line.split('\t')
             tokens.append(fields[0])
-            label_weights.append(int(fields[-2]))
             bio_labels.append(fields[-1])
 
     return input_data
@@ -63,10 +59,15 @@ def load_dataset(parameters):
     finetune_dir = parameters["finetune_dir"]
 
     files = sorted(glob.glob(f"{conll_dir}/*.txt"))
+
+    #with open(os.path.join(finetune_dir, 'updated_doc.pmid')) as fp:
+    #    train_pmids = [pmid.strip() for pmid in fp.readlines()]
+#
+#    with open(os.path.join(finetune_dir, 'unchanged_doc.pmid')) as fp:
+#        val_pmids = [pmid.strip() for pmid in fp.readlines()]
     
 
     text_data = []
-    weight_data = []
     label_data = []
 
 
@@ -86,15 +87,13 @@ def load_dataset(parameters):
             label_seq = list(map(lambda x: label2int[x], input_data['bio'][sn]))
             label_data.append(label_seq)
 
-            weight_data.append(input_data['weight'][sn])
     
     # split val data in halves
     n = int(len(text_data) * 0.9)
 
-    data = {
-            'train': {'text': text_data[:n], 'label': label_data[:n], 'weight': weight_data[:n]},
-            'val': {'text': text_data[n:], 'label': label_data[n:], 'weight': weight_data[n:]}
-            }
+
+    data = {'train': {'text': text_data[:n], 'label': label_data[:n]},
+            'val': {'text': text_data[n:], 'label': label_data[n:]}}
 
     return data
 

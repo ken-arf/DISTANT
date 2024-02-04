@@ -42,11 +42,11 @@ valid_batch_size:  4
 train_lr: 1e-5
 train_scheduler: linear
 train_num_warmup_steps: 10 
-max_patient_count: 5 
+max_patient_count: 3 
 
 
 # restore model
-restore_model: True
+restore_model: False
 restore_model_path: experiments/bc5cdr/models/base/model_classification.pth
 #restore_model_path: experiments/bc5cdr/models/{latest_path}/model_classification.pth
 

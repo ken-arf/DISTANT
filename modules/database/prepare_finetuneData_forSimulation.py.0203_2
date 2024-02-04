@@ -124,9 +124,9 @@ def simulate_user_update(params):
 
     df_ds = pd.concat(dfs, axis=0)
 
-    df_ds_update = user_update(df_ds, df_gold, params)
+    df_ds_update_conll, df_ds_update_span = user_update(df_ds, df_gold, params)
 
-    return df_ds_update
+    return df_ds_update_conll, df_ds_update_span
 
 def user_update(df_ds, df_gold, params):
 
@@ -137,24 +137,34 @@ def user_update(df_ds, df_gold, params):
 
     df_gold_shuffle = df_gold.sample(frac=1, random_state=random_seed)
 
-    df_gold_samples = df_gold_shuffle[:n]
+    # df_gold_samples = df_gold_shuffle[:n]
 
     #return df_gold_samples.copy()
     
     df_ds['updated'] = [False] *  len(df_ds)
 
-    df_ds_update, del_count  = _update(df_ds, df_gold_samples)
-    df_ds_update = _delete(df_ds_update, df_gold, del_count, random_seed)
+    #df_ds_update_class, del_count  = _update(df_ds, df_gold_samples)
+    #df_ds_update_span = _delete(df_ds_update_class, df_gold, del_count, random_seed)
 
 
-    mask = df_ds_update['updated'].isin([True, 'Delete'])
-    updated_anns = sorted(list(set(df_ds_update[mask]['fname'].tolist())))
-
-    mask = df_ds_update['fname'].isin(updated_anns)
-    df_ds_update = df_ds_update[mask]
+    df_ds_update_class, del_count  = _update(df_ds, df_gold_shuffle, n)
+    df_ds_update_span = df_ds_update_class
 
 
-    return df_ds_update
+    # make annotation for span classification
+    mask = df_ds_update_class['updated'] == True
+    df_ds_update_class = df_ds_update_class[mask]
+
+    # make annotation for span detection
+    mask = df_ds_update_span['updated'].isin([True, 'Delete'])
+    updated_anns = sorted(list(set(df_ds_update_span[mask]['fname'].tolist())))
+
+    mask = df_ds_update_span['fname'].isin(updated_anns)
+    df_ds_update_span = df_ds_update_span[mask]
+
+    
+    return df_ds_update_span, df_ds_update_class
+
 
     
 def _delete(df_ds_update, df_gold, del_count, random_seed):
@@ -201,13 +211,14 @@ def _delete(df_ds_update, df_gold, del_count, random_seed):
     return df_ds_update_copy
 
     
-def _update(df_ds, df_gold_samples):
+def _update(df_ds, df_gold_samples, n):
 
     df_ds.reset_index(inplace=True)
 
     df_ds_copy = df_ds.copy()
 
 
+    updated_num = 0
     del_count = 0
     for i, row in df_gold_samples.iterrows():
         #print(row)
@@ -247,7 +258,7 @@ def _update(df_ds, df_gold_samples):
                 df_ds_copy.loc[index, 'etype' ] = etype 
                 df_ds_copy.loc[index, 'updated' ] = True 
             else:
-                del_count += 1
+                #del_count += 1
                 continue
 
         elif op == 'OVERLAP':
@@ -258,6 +269,11 @@ def _update(df_ds, df_gold_samples):
             df_ds_copy.loc[index, 'mention'] = mention
             df_ds_copy.loc[index, 'updated'] = True
             
+
+        updated_num += 1
+        if updated_num >= n:
+            break
+        #print(df_ds)
 
     df_ds_copy.reset_index(inplace=True, drop = True)
     
@@ -291,8 +307,13 @@ def _deside_operation(gold_span, ne_spans):
 
     return (op, target_k)
 
+def generate_finetune_annotation(df_update_conll, df_update_span, params):
 
-def generate_finetune_annotation(df_update, params):
+    generate_finetune_annotation_conll(df_update_conll, params)
+    generate_finetune_annotation_span(df_update_span, params)
+
+
+def generate_finetune_annotation_conll(df_update, params):
 
 
     ann_files = pd.unique(df_update["fname"])
@@ -325,13 +346,46 @@ def generate_finetune_annotation(df_update, params):
             entities.append(entity)
 
         annotate_conll(pmid, text, entities, params)
+
+
+def generate_finetune_annotation_span(df_update, params):
+
+
+    #print("generate_finetune_annotation")
+
+    ann_files = pd.unique(df_update["fname"])
+    n = len(ann_files)
+
+    text_dir = params['text_dir']
+
+    for k, ann_file in enumerate(ann_files):
+        print(f"{k}/{n} generate span annotaton for {ann_file}")
+
+        pmid, _ = os.path.splitext(ann_file)
+        
+        with open(os.path.join(text_dir, f'{pmid}.txt')) as fp:
+            text = fp.read()
+
+        #print(text)
+        df = df_update[df_update['fname'] == ann_file]
+        df_sorted = df.sort_values(by = ['charStart'])
+        #print(f"{k+1}/{n}: {ann_file}")
+        #print(df_sorted)
+        
+        entities = []
+        for i, row in df_sorted.iterrows():
+            entity = {}
+            entity['start_char'] = int(row.charStart)
+            entity['end_char'] = int(row.charEnd)
+            entity['entityType'] = row.etype
+            entity['mention'] = row.mention
+            entities.append(entity)
+
         annotate_span(pmid, text, entities, params)
 
 
 def annotate_conll(pmid, text, entities, params):
 
-
-    label_weight_update = params['label_weight_update']
 
     label2int = {'O': 0, 'B': 1, 'I': 2, 'S':3}
 
@@ -352,7 +406,6 @@ def annotate_conll(pmid, text, entities, params):
             tokens_low = [token[0].lower()  for token in tokens]
             tokens_offset = [token[1] + offset for token in tokens]
             bio_labels = ['O'] * len(tokens_low)
-            label_weights = [1] * len(tokens_low)
 
             for entity in entities:
 
@@ -364,11 +417,8 @@ def annotate_conll(pmid, text, entities, params):
                     updated_flags.append(entity['updated'] == True or entity['updated'] == 'Delete')
 
                     # if updated flag is 'Delete', cancel BIO tags
-                    if entity['updated'] == 'Delete' or entity['updated'] == True:
-                        weight = label_weight_update 
-                    else:
-                        weight = 1 
-
+                    if entity['updated'] == 'Delete':
+                        continue
 
                     s_index = tokens_offset.index(s_char)
                     for i in range(s_index, len(tokens_offset)):
@@ -376,27 +426,28 @@ def annotate_conll(pmid, text, entities, params):
                             break
                     e_index = i - 1
     
-                    
                     if s_index == e_index:
-                        bio_labels[s_index] = 'S' if entity['updated'] else 'O'
+                        bio_labels[s_index] = 'S'
                     else:
-                        bio_labels[s_index] = 'B' if entity['updated'] else 'O'
+                        bio_labels[s_index] = 'B'
                         for i in range(s_index + 1, e_index + 1):
-                            bio_labels[i] = 'I' if entity['updated'] else 'O'
+                            bio_labels[i] = 'I'
 
-                    label_weights[s_index: e_index+1] = [weight] * (e_index - s_index + 1)
+            if any(updated_flags):
+                for t, token, off, l in zip(tokens_, tokens_low, tokens_offset, bio_labels):
+                    #print(f'{t}\t{token}\t{off}\t{l}')
+                    fp.write(f'{t}\t{token}\t{off}\t{l}\n')
+                #print('')
+                fp.write('\n')
+                insert_annotation = True
 
-
-            for t, token, off, w, l in zip(tokens_, tokens_low, tokens_offset, label_weights, bio_labels):
-                fp.write(f'{t}\t{token}\t{off}\t{w}\t{l}\n')
-            fp.write('\n')
-
+        
+    if not insert_annotation:
+        os.remove(os.path.join(conll_dir, f'{pmid}.txt'))
     
 
 def annotate_span(pmid, text, entities, params):
 
-
-    label_weight_update = params['label_weight_update']
 
     span_dir = params['span_dir']
     entity_classes = params['entity_names']
@@ -413,8 +464,7 @@ def annotate_span(pmid, text, entities, params):
         'end_chars': [],
         'text': [],
         'entity': [],
-        'weight': [],
-        'label': [],
+        'label': []
     }
 
 
@@ -433,11 +483,6 @@ def annotate_span(pmid, text, entities, params):
 
         for entity in entities:
 
-            if entity['updated'] == True or entity['updated'] == 'Delete':
-                weight = label_weight_update
-            else:
-                weight = 1
-
             s_char = entity['start_char']
             e_char = entity['end_char']
             if s_char >= offset and e_char <= offset + len(sent[0]):
@@ -448,7 +493,7 @@ def annotate_span(pmid, text, entities, params):
 
                 ### TODO new entity type
                 try:
-                    label = class2id[class_name] if entity['updated'] != 'Delete' else len(class2id)
+                    label = class2id[class_name]
 
                     assert sentence[s_char:e_char] == mention, f"{sentence[s_char:e_char]} not match with {mention}"
 
@@ -458,7 +503,6 @@ def annotate_span(pmid, text, entities, params):
                     dataset['text'].append(sentence)
                     dataset['entity'].append(mention)
                     dataset['label'].append(label)
-                    dataset['weight'].append(weight)
 
                     #filter(lambda x: x['s_char'] != s_char and x['e_char'] != e_char, negatives)
                 except:
@@ -556,13 +600,14 @@ def main():
 
     gold_sample_ratio = parameters["gold_sample_ratio"]
 
-    df_update = simulate_user_update(parameters)
+    df_update_conll, df_update_span = simulate_user_update(parameters)
 
     sim_dir = parameters['simulation_dir']
     utils.make_dirs(sim_dir)
-    df_update.to_csv(os.path.join(sim_dir, "simulation_data.csv"))
+    df_update_conll.to_csv(os.path.join(sim_dir, "simulation_data_conll.csv"))
+    df_update_span.to_csv(os.path.join(sim_dir, "simulation_data_span.csv"))
 
-    generate_finetune_annotation(df_update, parameters)
+    generate_finetune_annotation(df_update_conll, df_update_span, parameters)
     
     print('Done!')
     t_end = time.time()

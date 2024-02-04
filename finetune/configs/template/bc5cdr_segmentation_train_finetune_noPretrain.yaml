@@ -3,18 +3,15 @@
 # data path
 task_name: bc5cdr 
 
+num_bio_labels:  2
 
 finetune_dir: data/BC5CDR/finetune/{path_name}
-corpus_dir: data/BC5CDR/finetune/{path_name}/span
-
+conll_dir: data/BC5CDR/finetune/{path_name}/conll
 
 # model save dir
 model_root_dir: experiments/bc5cdr/models
 model_dir: experiments/bc5cdr/models/{path_name}
 
-entity_names:
-        - Chemical 
-        - Disease
 
 # bert model
 seed: 22
@@ -23,30 +20,25 @@ model_checkpoint: allenai/scibert_scivocab_cased
 # nn model
 dropout_rate: 0.3
 embedding_dim: 768
-
-# positive label num (postive labels (3) + negative label (1))
-#class_num: 4
+hidden_size: 100
 
 # gpu
 gpu: 0 
 
+max_patient_count: 3
 
 # training
-train_epochs: 25 
-train_batch_size:  4 
-valid_batch_size:  4 
-#test_batch_size: 4 
-
+train_epochs: 20 
+train_batch_size: 5 
+valid_batch_size: 5 
 
 # training lr
 train_lr: 1e-5
 train_scheduler: linear
 train_num_warmup_steps: 10 
-max_patient_count: 5 
-
 
 # restore model
-restore_model: True
-restore_model_path: experiments/bc5cdr/models/base/model_classification.pth
-#restore_model_path: experiments/bc5cdr/models/{latest_path}/model_classification.pth
+restore_model: False
+restore_model_path: experiments/bc5cdr/models/base/model_segmentation.pth
+#restore_model_path: experiments/bc5cdr/models/{latest_path}/model_segmentation.pth
 

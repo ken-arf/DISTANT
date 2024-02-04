@@ -7,8 +7,8 @@ task_name: bc5cdr
 #gold_sample_ratio: 0.01
 #random_seed: 1
 
-gold_sample_ratio: {sample_ratio} 
-random_seed: {random_seed} 
+gold_sample_ratio: 0.5 
+random_seed: 1 
 
 updated_documents: data/BC5CDR/finetune/updated_doc.json
 unchanged_documents: data/BC5CDR/finetune/unchanged_doc.json
@@ -19,12 +19,11 @@ text_dir: data/BC5CDR/corpus
 
 #conll_dir: data/BC5CDR/finetune/conll
 #span_dir: data/BC5CDR/finetune/span
-simulation_dir: data/BC5CDR/finetune/{path_name}
-conll_dir: data/BC5CDR/finetune/{path_name}/conll
-span_dir: data/BC5CDR/finetune/{path_name}/span
+simulation_dir: data/BC5CDR/finetune/WDoc_noPretrain_S0.5_R1
+conll_dir: data/BC5CDR/finetune/WDoc_noPretrain_S0.5_R1/conll
+span_dir: data/BC5CDR/finetune/WDoc_noPretrain_S0.5_R1/span
 
 entity_names:
         - Chemical 
         - Disease
     
-label_weight_update: 1
