@@ -71,8 +71,8 @@ class Model(nn.Module):
         ).to(self.device)
 
         # cross entropy loss
-        #self.loss = nn.CrossEntropyLoss(ignore_index=-100, reduction='none')
-        self.loss = nn.CrossEntropyLoss(ignore_index=-100)
+        self.loss = nn.CrossEntropyLoss(ignore_index=-100, reduction='none')
+        #self.loss = nn.CrossEntropyLoss(ignore_index=-100)
 
     def forward(self, **kargs):
 
@@ -96,10 +96,10 @@ class Model(nn.Module):
         loss = self.loss(torch.transpose(logit, 1, 2), labels)
 
         # weighted loss
-        #loss = loss * weights.double()
-        #return loss.mean()
+        loss = loss * weights.double()
+        return loss.mean()
 
-        return loss
+        #return loss
 
     def decode(self, **kargs):
 

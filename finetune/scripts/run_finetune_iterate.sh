@@ -6,6 +6,8 @@ set -u
 sample_ratio=$1
 random_seed=$2
 label_weight=$3
+iteration=$4
+cnt=$5
 
 
 #rm -f ./data/bc5cdr/finetune/conll/*
@@ -23,14 +25,13 @@ path_name="W${label_weight}_S${sample_ratio}_R${random_seed}"
 
 rm -rf ./data/BC5CDR/finetune/$path_name
 
-sh ./scripts/bc5cdr_prepare_finetuneData_forSimulation.sh $sample_ratio $random_seed $path_name $label_weight
+sh ./scripts/bc5cdr_prepare_finetuneData_forSimulation_iterate.sh $sample_ratio $random_seed $path_name $label_weight $iteration $cnt
 check_status $?
 
-sh ./scripts/bc5cdr_segmentation_train_finetune.sh $path_name  
+sh ./scripts/bc5cdr_segmentation_train_finetune_iterate.sh $path_name $iteration $cnt 
 check_status $?
 
-
-sh ./scripts/bc5cdr_span_classification_train.sh $path_name
+sh ./scripts/bc5cdr_span_classification_train_iterate.sh $path_name $iteration $cnt
 check_status $?
 
 

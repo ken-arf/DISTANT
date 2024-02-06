@@ -74,11 +74,11 @@ class PU_Model(nn.Module):
 
         # cross entropy loss
         if self.params['class_num'] > 1:
-            #self.loss = nn.CrossEntropyLoss(reduction = 'none')
-            self.loss = nn.CrossEntropyLoss()
+            self.loss = nn.CrossEntropyLoss(reduction = 'none')
+            #self.loss = nn.CrossEntropyLoss()
         else:
-            #self.loss = nn.BCEWithLogitsLoss(reduction = 'none')
-            self.loss = nn.BCEWithLogitsLoss()
+            self.loss = nn.BCEWithLogitsLoss(reduction = 'none')
+            #self.loss = nn.BCEWithLogitsLoss()
 
     def forward(self, **kargs):
 
@@ -120,10 +120,10 @@ class PU_Model(nn.Module):
 
         loss = self.loss(logit, labels)
 
-        #loss = loss * weights.double()
-        #return loss.mean()
+        loss = loss * weights.double()
+        return loss.mean()
 
-        return loss
+        #return loss
 
     def decode(self, **kargs):
 
