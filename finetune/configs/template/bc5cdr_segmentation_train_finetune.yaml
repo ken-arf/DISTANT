@@ -38,7 +38,7 @@ train_scheduler: linear
 train_num_warmup_steps: 10 
 
 # restore model
-restore_model: True
+restore_model: False
 restore_model_path: experiments/bc5cdr/models/base/model_segmentation.pth
 #restore_model_path: experiments/bc5cdr/models/{latest_path}/model_segmentation.pth
 

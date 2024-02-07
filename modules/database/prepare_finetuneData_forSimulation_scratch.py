@@ -102,18 +102,9 @@ def load_brad_annotation(file, term_only = True):
 def simulate_user_update(params):
 
 
-    iteration = params["iteration"]
-    cnt = params["cnt"]
-
     gold_annotation_dir = params["gold_annotation_dir"]
+    annotation_dir = params["annotation_dir"]
 
-    if cnt == 1:
-        annotation_dir = params["base_annotation_dir"]
-    else:
-        annotation_dir = params["prev_annotation_dir"]
-
-    assert os.path.exists(annotation_dir)
-    
     anns = sorted(glob(f"{gold_annotation_dir}/*.ann"))
 
     dfs = []
@@ -133,45 +124,24 @@ def simulate_user_update(params):
 
     df_ds = pd.concat(dfs, axis=0)
 
+    # delete all rows #####################
+    df_ds.drop(df_ds.index,inplace=True) 
+    ########################################
+
     df_ds_update = user_update(df_ds, df_gold, params)
 
     return df_ds_update
 
 def user_update(df_ds, df_gold, params):
 
-    iteration = params["iteration"]
-    cnt = params["cnt"]
-
-
-
     gold_sample_ratio = params['gold_sample_ratio']
     random_seed = params['random_seed']
 
-    print("*" * 20)
-    print("user_update")
-    print(f"# of gold_sample {len(df_gold)}")
-    print(f"gold_sample_ratio {gold_sample_ratio}")
-    print(f"random_seed {random_seed}")
-
     n = int(gold_sample_ratio * df_gold.shape[0])
-
-
-    print(f"gold_sample_num {n}")
-    print(f"iteration {iteration}")
-    print(f"cnt {cnt}")
 
     df_gold_shuffle = df_gold.sample(frac=1, random_state=random_seed)
 
     df_gold_samples = df_gold_shuffle[:n]
-
-    # simulate user update {cnt}-th of {iterataion}
-    r = n // iteration
-
-    print(f"gold_sample for 1 iteration {r}")
-    print(f"gold_sample from {(1-cnt)*r} to {cnt*r}")
-    print("*" * 20)
-    
-    df_gold_samples = df_gold_samples[(cnt-1)*r: cnt*r]
 
     #return df_gold_samples.copy()
     

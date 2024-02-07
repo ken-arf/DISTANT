@@ -25,6 +25,7 @@ from torch.optim import AdamW
 
 from tqdm.auto import tqdm
 
+import transformers
 from transformers import AutoTokenizer
 from transformers import DataCollatorForTokenClassification
 from transformers import get_scheduler
@@ -50,6 +51,8 @@ class PU_Model(nn.Module):
         self.logger = logger
         self.myseed = self.params["seed"]
         model_checkpoint = self.params["model_checkpoint"]
+
+        transformers.set_seed(self.myseed)
 
         if torch.cuda.is_available() and self.params['gpu'] >= 0:
             self.device = "cuda"

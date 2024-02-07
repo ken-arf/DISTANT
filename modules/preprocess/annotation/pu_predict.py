@@ -310,10 +310,15 @@ def output_annotation_file(doc_file, df_result, annotation_root_dir, entity_name
                 end_char -= 1
 
             entity_type = entity_types[predict]
-            domain_dict = domain_dictionary[entity_type.lower()]
 
-            if entity.lower() in domain_dict:
-                term, cui = domain_dict[entity.lower()]
+            if domain_dictionary:
+
+                domain_dict = domain_dictionary[entity_type.lower()]
+
+                if entity.lower() in domain_dict:
+                    term, cui = domain_dict[entity.lower()]
+                else:
+                    cui = None
             else:
                 cui = None
 
@@ -363,14 +368,19 @@ def main():
     files = sorted(glob(f"{document_root_dir}/*.txt"))
 
     # load domain_dict
-    domain_dictionary = defaultdict(dict)
-    dict_dirs = params["processed_dict_dirs"]
-    dict_files = params["dict_files"]
-    for dict_dir in dict_dirs:
-        for dfile in dict_files:
-            dict_path = os.path.join(dict_dir, dfile)
-            base, _ = os.path.splitext(dfile)
-            domain_dictionary[base].update(dict_load(dict_path))
+
+    domain_dictionary = None
+
+    if params["normalize_entity"]:
+        domain_dictionary = defaultdict(dict)
+        dict_dirs = params["processed_dict_dirs"]
+        dict_files = params["dict_files"]
+        for dict_dir in dict_dirs:
+            for dfile in dict_files:
+                dict_path = os.path.join(dict_dir, dfile)
+                base, _ = os.path.splitext(dfile)
+                domain_dictionary[base].update(dict_load(dict_path))
+
 
     for file_ in files:
         print(file_)

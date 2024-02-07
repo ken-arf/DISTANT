@@ -3,14 +3,16 @@
 # data path
 task_name: bc5cdr 
 
+cnt: {cnt}
+iteration: {iteration}
 
-finetune_dir: data/BC5CDR/finetune/{path_name}
-corpus_dir: data/BC5CDR/finetune/{path_name}/span
+finetune_dir: data/BC5CDR/finetune/{path_name}/{iteration}/{cnt}
+corpus_dir: data/BC5CDR/finetune/{path_name}/{iteration}/{cnt}/span
 
 
 # model save dir
 model_root_dir: experiments/bc5cdr/models
-model_dir: experiments/bc5cdr/models/{path_name}
+model_dir: experiments/bc5cdr/models/{path_name}/{iteration}/{cnt}
 
 entity_names:
         - Chemical 
@@ -47,6 +49,7 @@ max_patient_count: 5
 
 # restore model
 restore_model: True
-restore_model_path: experiments/bc5cdr/models/base/model_classification.pth
+restore_model_base_path: experiments/bc5cdr/models/base/model_classification.pth
+restore_model_prev_path: experiments/bc5cdr/models/{path_name}/{iteration}/{pre_cnt}/model_classification.pth
 #restore_model_path: experiments/bc5cdr/models/{latest_path}/model_classification.pth
 

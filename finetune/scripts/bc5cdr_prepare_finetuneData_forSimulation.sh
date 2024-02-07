@@ -34,5 +34,5 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
-python3 modules/database/prepare_finetuneData_forSimulation.py --yaml $YAML_PATH 
+python3 modules/database/prepare_finetuneData_forSimulation_scratch.py --yaml $YAML_PATH 
 

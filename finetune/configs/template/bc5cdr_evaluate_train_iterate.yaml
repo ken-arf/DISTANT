@@ -3,6 +3,9 @@
 # data path
 task_name: bc5cdr 
 
+cnt: {cnt}
+iteration: {iteration}
+
 #dict_dir: data/Mesh/dict
 #processed_dict_dir: data/Mesh/processed_dict
 #cytokine_dict_file: cytokine.dict
@@ -10,8 +13,12 @@ task_name: bc5cdr
 #t-lymphocyte_dict_file: t-lymphocyte.dict 
 #protein_dict_file: protein.dict 
                 
-document_root_dir: data/BC5CDR/eval/text
-annotation_root_dir: data/BC5CDR/eval/annotate.{path_name}
+#document_root_dir: data/BC5CDR/eval/text
+document_root_dir: data/BC5CDR/corpus
+
+#annotation_root_dir: data/BC5CDR/eval/annotate.{path_name}
+annotation_root_dir: data/BC5CDR/annotate.{path_name}_{iteration}_{cnt}
+
 
 corpus_dir: data/Corpus/BC5CDR
 
@@ -43,7 +50,8 @@ entity_names:
 gpu: 0 
 
 # restore model
-restore_model_path: experiments/bc5cdr/models/{path_name}/model_classification.pth
-segmentation_predict_config: configs/bc5cdr_segmentation_predict.yaml
+#restore_model_path: experiments/bc5cdr/models/{path_name}/model_classification.pth
+restore_model_path: experiments/bc5cdr/models/{path_name}/{iteration}/{cnt}/model_classification.pth
+segmentation_predict_config: configs/bc5cdr_segmentation_predict_iterate.yaml
 
 normalize_entity: False

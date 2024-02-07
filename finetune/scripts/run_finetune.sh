@@ -19,7 +19,7 @@ check_status () {
     fi
 }
 
-path_name="W${label_weight}_S${sample_ratio}_R${random_seed}"
+path_name="Scratch_W${label_weight}_S${sample_ratio}_R${random_seed}"
 
 rm -rf ./data/BC5CDR/finetune/$path_name
 
