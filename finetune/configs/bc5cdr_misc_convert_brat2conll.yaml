@@ -6,7 +6,7 @@ task_name: bc5cdr
 text_dir: data/BC5CDR/eval/text
 
 ann_dir: 
-    - data/BC5CDR/eval/annotate.It_W6_S0.1_R1
+    - data/BC5CDR/eval/annotate.Scratch_W6_S1.0_R1
 #    - data/BC5CDR/eval/annotate.autoner
 #    - data/BC5CDR/eval/annotate.supervised
 #    - data/BC5CDR/eval/annotate.debug

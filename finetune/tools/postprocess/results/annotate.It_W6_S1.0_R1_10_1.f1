@@ -1,0 +1,12 @@
+hyp dir: ../../data/BC5CDR/eval/annotate.It_W6_S1.0_R1_10_1
+ref dir: ../../data/BC5CDR/eval/annotate.gold
+0.6694692590646347
+              precision    recall  f1-score   support
+
+    Chemical      0.853     0.741     0.793      4466
+     Disease      0.704     0.412     0.520      4340
+
+   micro avg      0.794     0.579     0.669      8806
+   macro avg      0.778     0.576     0.656      8806
+weighted avg      0.780     0.579     0.658      8806
+

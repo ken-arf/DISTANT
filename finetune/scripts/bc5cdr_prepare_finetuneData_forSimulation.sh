@@ -35,4 +35,5 @@ if [ ! -d $LOG_DIR ]; then
 fi
 
 python3 modules/database/prepare_finetuneData_forSimulation_scratch.py --yaml $YAML_PATH 
+#python3 modules/database/prepare_finetuneData_forSimulation.py --yaml $YAML_PATH 
 

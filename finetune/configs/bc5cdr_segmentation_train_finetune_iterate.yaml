@@ -3,17 +3,17 @@
 # data path
 task_name: bc5cdr 
 
-cnt: 5
-iteration: 5
+cnt: 10
+iteration: 10
 
 num_bio_labels:  2
 
-finetune_dir: data/BC5CDR/finetune/It_W6_S0.5_R1/5/5
-conll_dir: data/BC5CDR/finetune/It_W6_S0.5_R1/5/5/conll
+finetune_dir: data/BC5CDR/finetune/It_W6_S1.0_R1/10/10
+conll_dir: data/BC5CDR/finetune/It_W6_S1.0_R1/10/10/conll
 
 # model save dir
 model_root_dir: experiments/bc5cdr/models
-model_dir: experiments/bc5cdr/models/It_W6_S0.5_R1/5/5
+model_dir: experiments/bc5cdr/models/It_W6_S1.0_R1/10/10
 
 
 # bert model
@@ -44,6 +44,6 @@ train_num_warmup_steps: 10
 restore_model: True
 #restore_model_path: experiments/bc5cdr/models/base/model_segmentation.pth
 restore_model_base_path: experiments/bc5cdr/models/base/model_segmentation.pth
-restore_model_prev_path: experiments/bc5cdr/models/It_W6_S0.5_R1/5/4/model_segmentation.pth
+restore_model_prev_path: experiments/bc5cdr/models/It_W6_S1.0_R1/10/9/model_segmentation.pth
 #restore_model_path: experiments/bc5cdr/models/{latest_path}/model_segmentation.pth
 
