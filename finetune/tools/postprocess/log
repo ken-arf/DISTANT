@@ -1,0 +1,185 @@
+./results/annotate.It_W6_S1.0_R1_10_1.f1
+raw data:
+   micro avg      0.794     0.579     0.669      8806
+extractd data: 0.794,0.579,0.669
+0.1
+--
+./results/annotate.It_W6_S1.0_R1_10_10.f1
+raw data:
+   micro avg      0.772     0.832     0.801      8806
+extractd data: 0.772,0.832,0.801
+0.1
+--
+./results/annotate.It_W6_S1.0_R1_10_2.f1
+raw data:
+   micro avg      0.833     0.615     0.708      8806
+extractd data: 0.833,0.615,0.708
+0.2
+--
+./results/annotate.It_W6_S1.0_R1_10_3.f1
+raw data:
+   micro avg      0.818     0.655     0.727      8806
+extractd data: 0.818,0.655,0.727
+0.3
+--
+./results/annotate.It_W6_S1.0_R1_10_4.f1
+raw data:
+   micro avg      0.790     0.743     0.766      8806
+extractd data: 0.790,0.743,0.766
+0.4
+--
+./results/annotate.It_W6_S1.0_R1_10_5.f1
+raw data:
+   micro avg      0.786     0.768     0.777      8806
+extractd data: 0.786,0.768,0.777
+0.5
+--
+./results/annotate.It_W6_S1.0_R1_10_6.f1
+raw data:
+   micro avg      0.789     0.780     0.784      8806
+extractd data: 0.789,0.780,0.784
+0.6
+--
+./results/annotate.It_W6_S1.0_R1_10_7.f1
+raw data:
+   micro avg      0.788     0.803     0.795      8806
+extractd data: 0.788,0.803,0.795
+0.7
+--
+./results/annotate.It_W6_S1.0_R1_10_8.f1
+raw data:
+   micro avg      0.764     0.823     0.792      8806
+extractd data: 0.764,0.823,0.792
+0.8
+--
+./results/annotate.It_W6_S1.0_R1_10_9.f1
+raw data:
+   micro avg      0.770     0.826     0.797      8806
+extractd data: 0.770,0.826,0.797
+0.9
+--
+./results/annotate.Scratch_W6_S0.1_R1.f1
+raw data:
+   micro avg      0.361     0.058     0.100      8806
+extractd data: 0.361,0.058,0.100
+0.1
+--
+./results/annotate.Scratch_W6_S0.2_R1.f1
+raw data:
+   micro avg      0.804     0.261     0.395      8806
+extractd data: 0.804,0.261,0.395
+0.2
+--
+./results/annotate.Scratch_W6_S0.3_R1.f1
+raw data:
+   micro avg      0.801     0.386     0.521      8806
+extractd data: 0.801,0.386,0.521
+0.3
+--
+./results/annotate.Scratch_W6_S0.4_R1.f1
+raw data:
+   micro avg      0.815     0.541     0.650      8806
+extractd data: 0.815,0.541,0.650
+0.4
+--
+./results/annotate.Scratch_W6_S0.5_R1.f1
+raw data:
+   micro avg      0.801     0.676     0.733      8806
+extractd data: 0.801,0.676,0.733
+0.5
+--
+./results/annotate.Scratch_W6_S0.6_R1.f1
+raw data:
+   micro avg      0.782     0.791     0.787      8806
+extractd data: 0.782,0.791,0.787
+0.6
+--
+./results/annotate.Scratch_W6_S0.7_R1.f1
+raw data:
+   micro avg      0.778     0.810     0.794      8806
+extractd data: 0.778,0.810,0.794
+0.7
+--
+./results/annotate.Scratch_W6_S0.8_R1.f1
+raw data:
+   micro avg      0.772     0.833     0.801      8806
+extractd data: 0.772,0.833,0.801
+0.8
+--
+./results/annotate.Scratch_W6_S0.9_R1.f1
+raw data:
+   micro avg      0.783     0.831     0.806      8806
+extractd data: 0.783,0.831,0.806
+0.9
+--
+./results/annotate.Scratch_W6_S1.0_R1.f1
+raw data:
+   micro avg      0.765     0.845     0.803      8806
+extractd data: 0.765,0.845,0.803
+1.0
+--
+./results/annotate.W6_S0.1_R1.f1
+raw data:
+   micro avg      0.791     0.572     0.664      8806
+extractd data: 0.791,0.572,0.664
+0.1
+--
+./results/annotate.W6_S0.2_R1.f1
+raw data:
+   micro avg      0.834     0.618     0.710      8806
+extractd data: 0.834,0.618,0.710
+0.2
+--
+./results/annotate.W6_S0.3_R1.f1
+raw data:
+   micro avg      0.839     0.661     0.740      8806
+extractd data: 0.839,0.661,0.740
+0.3
+--
+./results/annotate.W6_S0.4_R1.f1
+raw data:
+   micro avg      0.826     0.748     0.785      8806
+extractd data: 0.826,0.748,0.785
+0.4
+--
+./results/annotate.W6_S0.5_R1.f1
+raw data:
+   micro avg      0.822     0.751     0.785      8806
+extractd data: 0.822,0.751,0.785
+0.5
+--
+./results/annotate.W6_S0.6_R1.f1
+raw data:
+   micro avg      0.803     0.794     0.799      8806
+extractd data: 0.803,0.794,0.799
+0.6
+--
+./results/annotate.W6_S0.7_R1.f1
+raw data:
+   micro avg      0.800     0.808     0.804      8806
+extractd data: 0.800,0.808,0.804
+0.7
+--
+./results/annotate.W6_S0.8_R1.f1
+raw data:
+   micro avg      0.790     0.815     0.803      8806
+extractd data: 0.790,0.815,0.803
+0.8
+--
+./results/annotate.W6_S0.9_R1.f1
+raw data:
+   micro avg      0.787     0.833     0.809      8806
+extractd data: 0.787,0.833,0.809
+0.9
+--
+./results/annotate.W6_S1.0_R1.f1
+raw data:
+   micro avg      0.779     0.838     0.807      8806
+extractd data: 0.779,0.838,0.807
+1.0
+--
+./results/annotate.f1
+raw data:
+   micro avg      0.708     0.520     0.599      8806
+extractd data: 0.708,0.520,0.599
+--

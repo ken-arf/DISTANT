@@ -1,7 +1,6 @@
 precision,recall,f1-score,ratio,fname
-0.708,0.520,0.599,0.0,annotate.f1
-0.772,0.832,0.801,1.0,annotate.It_W6_S1.0_R1_10_10.f1
 0.794,0.579,0.669,0.1,annotate.It_W6_S1.0_R1_10_1.f1
+0.772,0.832,0.801,0.1,annotate.It_W6_S1.0_R1_10_10.f1
 0.833,0.615,0.708,0.2,annotate.It_W6_S1.0_R1_10_2.f1
 0.818,0.655,0.727,0.3,annotate.It_W6_S1.0_R1_10_3.f1
 0.790,0.743,0.766,0.4,annotate.It_W6_S1.0_R1_10_4.f1
@@ -30,3 +29,4 @@ precision,recall,f1-score,ratio,fname
 0.790,0.815,0.803,0.8,annotate.W6_S0.8_R1.f1
 0.787,0.833,0.809,0.9,annotate.W6_S0.9_R1.f1
 0.779,0.838,0.807,1.0,annotate.W6_S1.0_R1.f1
+0.708,0.520,0.599,1.0,annotate.f1
