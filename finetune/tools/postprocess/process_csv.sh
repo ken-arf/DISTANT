@@ -10,7 +10,13 @@ echo "precision,recall,f1-score,ratio,fname" > $output
 for file in $files; do
     echo $file
     cat $file | grep micro > tmp
+
+    echo "raw data:"
+    cat tmp
+
     buf=`cat tmp | cut -c19-43 | sed 's/     /,/g'`
+
+    echo "extractd data: $buf"
     
     fname=`basename $file`
 
@@ -33,6 +39,8 @@ for file in $files; do
 
     
     echo "$buf,$p,$fname" >> $output
+    echo "--"
+
 done
 
 rm tmp
