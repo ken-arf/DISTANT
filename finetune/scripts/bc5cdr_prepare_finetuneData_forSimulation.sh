@@ -7,6 +7,7 @@ sample_ratio=$1
 random_seed=$2
 path_name=$3
 label_weight=$4
+sim_method=$5
 
 HOME=$PWD
 export PYTHONPATH="$HOME:$HOME/modules"
@@ -34,6 +35,12 @@ if [ ! -d $LOG_DIR ]; then
     mkdir -p $LOG_DIR
 fi
 
-python3 modules/database/prepare_finetuneData_forSimulation_scratch.py --yaml $YAML_PATH 
-#python3 modules/database/prepare_finetuneData_forSimulation.py --yaml $YAML_PATH 
+
+if [ $sim_method = "scratch" ]; then
+    # scratch
+    python3 modules/database/prepare_finetuneData_forSimulation_scratch.py --yaml $YAML_PATH 
+else
+    # chunkUpdate
+    python3 modules/database/prepare_finetuneData_forSimulation.py --yaml $YAML_PATH 
+fi
 
