@@ -142,6 +142,7 @@ def user_update(df_ds, df_gold, params):
     #return df_gold_samples.copy()
     
     df_ds['updated'] = ['False'] *  len(df_ds)
+    df_ds['op'] = ['NA'] *  len(df_ds)
 
     df_ds_update, del_count  = _update(df_ds, df_gold_samples)
     df_ds_update = _delete(df_ds_update, df_gold, del_count, random_seed)
@@ -190,6 +191,7 @@ def _delete(df_ds_update, df_gold, del_count, random_seed):
             if len(index_for_del) >= del_count:
                 break
 
+    print(f"** match count {del_count} **")
     if len(index_for_del) < del_count:
         print(f"** Warning, not enough data to delete **")
         print(f"del_count: {del_count}, deleted_count: {len(index_for_del)}")
@@ -197,6 +199,7 @@ def _delete(df_ds_update, df_gold, del_count, random_seed):
     #df_ds_update_copy.drop(index_for_del, inplace = True)
 
     df_ds_update_copy.loc[index_for_del, 'updated'] = 'Delete'
+    df_ds_update_copy.loc[index_for_del, 'op'] = 'delete'
 
     return df_ds_update_copy
 
@@ -233,6 +236,7 @@ def _update(df_ds, df_gold_samples):
                                     'charEnd': [charEnd],
                                     'etype': [etype],
                                     'mention': [mention],
+                                    'op': ['new'],
                                     'updated': ['True']})
 
         if op == 'NEW':
@@ -246,6 +250,7 @@ def _update(df_ds, df_gold_samples):
             if row_orig.etype != etype:
                 df_ds_copy.loc[index, 'etype' ] = etype 
                 df_ds_copy.loc[index, 'updated' ] = 'True'
+                df_ds_copy.loc[index, 'op' ] = 'update'
             else:
                 del_count += 1
 
@@ -256,6 +261,7 @@ def _update(df_ds, df_gold_samples):
             df_ds_copy.loc[index, 'etype'] = etype
             df_ds_copy.loc[index, 'mention'] = mention
             df_ds_copy.loc[index, 'updated'] = 'True'
+            df_ds_copy.loc[index, 'op' ] = 'update'
             
 
     df_ds_copy.reset_index(inplace=True, drop = True)

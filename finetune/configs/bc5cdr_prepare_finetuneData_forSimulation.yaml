@@ -19,9 +19,9 @@ text_dir: data/BC5CDR/corpus
 
 #conll_dir: data/BC5CDR/finetune/conll
 #span_dir: data/BC5CDR/finetune/span
-simulation_dir: data/BC5CDR/finetune/Scratch_W6_S1.0_R1
-conll_dir: data/BC5CDR/finetune/Scratch_W6_S1.0_R1/conll
-span_dir: data/BC5CDR/finetune/Scratch_W6_S1.0_R1/span
+simulation_dir: data/BC5CDR/finetune/W6_S1.0_R1
+conll_dir: data/BC5CDR/finetune/W6_S1.0_R1/conll
+span_dir: data/BC5CDR/finetune/W6_S1.0_R1/span
 
 entity_names:
         - Chemical 
