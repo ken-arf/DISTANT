@@ -39,18 +39,16 @@ csv = "./data/IterUp_op_count.csv"
 df2 = get_df(csv)
 
 
-#with sns.set_style("darkgrid", {'grid.linestyle': '--'}):
-with sns.axes_style("whitegrid", {'grid.linestyle': '--'}):
-    #pal = sns.color_palette("Set2")
-    pal = sns.color_palette("tab10")
-    sns.set_palette(pal)
-    fig, (ax1, ax2) = plt.subplots(1,2)
+fig, (ax1, ax2) = plt.subplots(1,2)
 
 #sns.color_palette()
-#sns.set_style("darkgrid", {'grid.linestyle': '--'})
+sns.color_palette("Set2")
+sns.set_style("darkgrid", {'grid.linestyle': '--'})
 
+sns.set_theme(ax=ax1)
 
-#print(sns.axes_style())
+#with sns.axes_style("darkgrid"):
+print(sns.axes_style())
 
 g1 = sns.barplot(x="Iter", y="count", hue="op",\
                 data=df1, ax=ax1)

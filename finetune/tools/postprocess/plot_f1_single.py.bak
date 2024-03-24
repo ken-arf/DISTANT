@@ -10,9 +10,7 @@ metric = sys.argv[1]
 
 df = pd.read_csv('f1_result_plot.csv')
 
-sim_cnt = [int(v*10) for v in df['ratio'].tolist()]
-
-df["sim_cnt"] = sim_cnt
+print(df['ratio'].tolist())
 
 
 print(df)
@@ -57,25 +55,18 @@ palette = ['black', 'red', 'blue', 'grey']
 #                hue="name", ax=axes[2], hue_order=hue_order, palette=palette)
 
 
-#sns.set_style("darkgrid", {'grid.linestyle': '--'})
-x_tick = [0,1,2,3,4,5,6,7,8,9,10]
-y_tick = [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8]
+sns.set_style("darkgrid", {'grid.linestyle': '--'})
+with sns.axes_style("darkgrid"):
 
-with sns.axes_style("whitegrid", {'grid.linestyle': '--'}):
+    sns.lineplot(data=df, x="ratio", y=f"{metric}", hue="name", hue_order=hue_order, palette=palette)
+    ax = sns.scatterplot(data=df, x="ratio", y=f"{metric}", hue="name", hue_order=hue_order, palette=palette, legend=False)
 
-    #sns.lineplot(data=df, x="ratio", y=f"{metric}", hue="name", hue_order=hue_order, palette=palette)
-    #ax = sns.scatterplot(data=df, x="ratio", y=f"{metric}", hue="name", hue_order=hue_order, palette=palette, legend=False)
-
-
-    sns.lineplot(data=df, x="sim_cnt", y=f"{metric}", hue="name", hue_order=hue_order, palette=palette)
-    ax = sns.scatterplot(data=df, x="sim_cnt", y=f"{metric}", hue="name", hue_order=hue_order, palette=palette, legend=False)
-    ax.set_xticks(x_tick) 
-    ax.set_yticks(y_tick) 
     
 #sns.legend(title='Sim. method', fontsize='13')
-ax.set_xlabel('Sim. round', fontsize='12')
-ax.set_ylabel(f'{metric.capitalize()}', fontsize='12')
-plt.legend( loc='lower right', fontsize='12')
+ax.set_xlabel('gold sampling ratio', fontsize='13')
+ax.set_ylabel(f'{metric}', fontsize='13')
+#plt.legend(title="Sim. method", loc='lower right', fontsize='13')
+plt.legend( loc='lower right', fontsize='13')
 
 
 plt.tight_layout()
