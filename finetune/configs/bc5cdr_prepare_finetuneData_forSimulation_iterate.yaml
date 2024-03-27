@@ -18,17 +18,17 @@ unchanged_documents: data/BC5CDR/finetune/unchanged_doc.json
 
 gold_annotation_dir: data/BC5CDR/gold
 base_annotation_dir: data/BC5CDR/annotate
-prev_annotation_dir: data/BC5CDR/annotate.It_W6_S1.0_R1_10_9
+prev_annotation_dir: data/BC5CDR/annotate.It_W1_S1.0_R1_10_9
 text_dir: data/BC5CDR/corpus
 
 #conll_dir: data/BC5CDR/finetune/conll
 #span_dir: data/BC5CDR/finetune/span
-simulation_dir: data/BC5CDR/finetune/It_W6_S1.0_R1/10/10
-conll_dir: data/BC5CDR/finetune/It_W6_S1.0_R1/10/10/conll
-span_dir: data/BC5CDR/finetune/It_W6_S1.0_R1/10/10/span
+simulation_dir: data/BC5CDR/finetune/It_W1_S1.0_R1/10/10
+conll_dir: data/BC5CDR/finetune/It_W1_S1.0_R1/10/10/conll
+span_dir: data/BC5CDR/finetune/It_W1_S1.0_R1/10/10/span
 
 entity_names:
         - Chemical 
         - Disease
     
-label_weight_update: 6 
+label_weight_update: 1 

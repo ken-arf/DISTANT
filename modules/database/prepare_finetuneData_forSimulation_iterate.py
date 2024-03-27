@@ -168,7 +168,7 @@ def user_update(df_ds, df_gold, params):
     r = n // iteration
 
     print(f"gold_sample for 1 iteration {r}")
-    print(f"gold_sample from {(1-cnt)*r} to {cnt*r}")
+    print(f"gold_sample from {(cnt-1)*r} to {cnt*r}")
     print("*" * 20)
     
     df_gold_samples = df_gold_samples[(cnt-1)*r: cnt*r]
@@ -180,6 +180,7 @@ def user_update(df_ds, df_gold, params):
 
     df_ds_update, del_count  = _update(df_ds, df_gold_samples)
     df_ds_update = _delete(df_ds_update, df_gold, del_count, random_seed)
+
 
 
     mask = df_ds_update['updated'].isin(['True', 'Delete'])
@@ -225,6 +226,7 @@ def _delete(df_ds_update, df_gold, del_count, random_seed):
             if len(index_for_del) >= del_count:
                 break
 
+    print(f"** match count {del_count} **")
     if len(index_for_del) < del_count:
         print(f"** Warning, not enough data to delete **")
         print(f"del_count: {del_count}, deleted_count: {len(index_for_del)}")

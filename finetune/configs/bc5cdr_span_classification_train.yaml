@@ -4,13 +4,13 @@
 task_name: bc5cdr 
 
 
-finetune_dir: data/BC5CDR/finetune/Scratch_W6_S1.0_R1
-corpus_dir: data/BC5CDR/finetune/Scratch_W6_S1.0_R1/span
+finetune_dir: data/BC5CDR/finetune/Scratch_W1_S1.0_R1
+corpus_dir: data/BC5CDR/finetune/Scratch_W1_S1.0_R1/span
 
 
 # model save dir
 model_root_dir: experiments/bc5cdr/models
-model_dir: experiments/bc5cdr/models/Scratch_W6_S1.0_R1
+model_dir: experiments/bc5cdr/models/Scratch_W1_S1.0_R1
 
 entity_names:
         - Chemical 
