@@ -21,18 +21,18 @@ for file in $files; do
     fname=`basename $file`
 
 
-    if [[ $fname =~ "annotate.It_W1" ]]; then
+    if [[ $fname =~ "annotate.It_W6" ]]; then
         p=`echo $fname | cut -c27`
         p="0.$p"
         echo $p
     fi
 
-    if [[ $fname =~ "annotate.Scratch_W1" ]]; then
+    if [[ $fname =~ "annotate.Scratch_W6" ]]; then
         p=`echo $fname | cut -c22-24`
         echo $p
     fi
 
-    if [[ $fname =~ "annotate.W1" ]]; then
+    if [[ $fname =~ "annotate.W6" ]]; then
         p=`echo $fname | cut -c14-16`
         echo $p
     fi

@@ -29,16 +29,15 @@ echo $path_name
 sh ./scripts/bc5cdr_prepare_finetuneData_forSimulation.sh $sample_ratio $random_seed $path_name $label_weight chunkUp
 check_status $?
 
-#sh ./scripts/bc5cdr_segmentation_train_finetune.sh $path_name  
-#check_status $?
+sh ./scripts/bc5cdr_segmentation_train_finetune.sh $path_name  
+check_status $?
 
 
-#sh ./scripts/bc5cdr_span_classification_train.sh $path_name
-#check_status $?
+sh ./scripts/bc5cdr_span_classification_train.sh $path_name
+check_status $?
 
+sh ./scripts/bc5cdr_evaluate_test.sh $path_name
+check_status $?
 
-#sh ./scripts/bc5cdr_evaluate_test.sh $path_name
-#check_status $?
-
-#sh ./scripts/bc5cdr_misc_convert_brat2conll.sh $path_name
-#check_status $?
+sh ./scripts/bc5cdr_misc_convert_brat2conll.sh $path_name
+check_status $?

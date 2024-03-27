@@ -1,0 +1,39 @@
+# initial
+annotate
+#
+# simulate iterative update
+annotate.It_W6_S1.0_R1_10_1
+annotate.It_W6_S1.0_R1_10_2
+annotate.It_W6_S1.0_R1_10_3
+annotate.It_W6_S1.0_R1_10_4
+annotate.It_W6_S1.0_R1_10_5
+annotate.It_W6_S1.0_R1_10_6
+annotate.It_W6_S1.0_R1_10_7
+annotate.It_W6_S1.0_R1_10_8
+annotate.It_W6_S1.0_R1_10_9
+annotate.It_W6_S1.0_R1_10_10
+#
+# simulate update from scratch
+annotate.Scratch_W6_S0.1_R1
+annotate.Scratch_W6_S0.2_R1
+annotate.Scratch_W6_S0.3_R1
+annotate.Scratch_W6_S0.4_R1
+annotate.Scratch_W6_S0.5_R1
+annotate.Scratch_W6_S0.6_R1
+annotate.Scratch_W6_S0.7_R1
+annotate.Scratch_W6_S0.8_R1
+annotate.Scratch_W6_S0.9_R1
+annotate.Scratch_W6_S1.0_R1
+#
+# simulate non-iterative update
+annotate.W6_S0.1_R1
+annotate.W6_S0.2_R1
+annotate.W6_S0.3_R1
+annotate.W6_S0.4_R1
+annotate.W6_S0.5_R1
+annotate.W6_S0.6_R1
+annotate.W6_S0.7_R1
+annotate.W6_S0.8_R1
+annotate.W6_S0.9_R1
+annotate.W6_S1.0_R1
+

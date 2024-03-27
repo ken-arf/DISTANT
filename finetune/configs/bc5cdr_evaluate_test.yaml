@@ -11,7 +11,7 @@ task_name: bc5cdr
 #protein_dict_file: protein.dict 
                 
 document_root_dir: data/BC5CDR/eval/text
-annotation_root_dir: data/BC5CDR/eval/annotate.Scratch_W6_S1.0_R1
+annotation_root_dir: data/BC5CDR/eval/annotate.Scratch_W1_S1.0_R1
 
 corpus_dir: data/Corpus/BC5CDR
 
@@ -43,7 +43,7 @@ entity_names:
 gpu: 0 
 
 # restore model
-restore_model_path: experiments/bc5cdr/models/Scratch_W6_S1.0_R1/model_classification.pth
+restore_model_path: experiments/bc5cdr/models/Scratch_W1_S1.0_R1/model_classification.pth
 segmentation_predict_config: configs/bc5cdr_segmentation_predict.yaml
 
 normalize_entity: False

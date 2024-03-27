@@ -11,8 +11,8 @@ task_name: bc5cdr
 #protein_dict_file: protein.dict 
                 
 document_root_dir: data/BC5CDR/eval/text
-#annotation_root_dir: data/BC5CDR/eval/annotate.It_W6_S1.0_R1
-annotation_root_dir: data/BC5CDR/eval/annotate.It_W6_S1.0_R1_10_10
+#annotation_root_dir: data/BC5CDR/eval/annotate.It_W1_S1.0_R1
+annotation_root_dir: data/BC5CDR/eval/annotate.It_W1_S1.0_R1_10_10
 
 corpus_dir: data/Corpus/BC5CDR
 
@@ -44,12 +44,12 @@ entity_names:
 gpu: 0 
 
 # restore model
-#restore_model_path: experiments/bc5cdr/models/It_W6_S1.0_R1/model_classification.pth
+#restore_model_path: experiments/bc5cdr/models/It_W1_S1.0_R1/model_classification.pth
 #segmentation_predict_config: configs/bc5cdr_segmentation_predict.yaml
 
 #normalize_entity: False
 
-restore_model_path: experiments/bc5cdr/models/It_W6_S1.0_R1/10/10/model_classification.pth
+restore_model_path: experiments/bc5cdr/models/It_W1_S1.0_R1/10/10/model_classification.pth
 segmentation_predict_config: configs/bc5cdr_segmentation_predict_iterate.yaml
 
 normalize_entity: False
