@@ -3,7 +3,7 @@
 
 
 
-# Site
+# Citation
 If you use this software, please cite the following paper.
 
 @inproceedings{yano-etal-2023-distant,
