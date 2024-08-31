@@ -22,7 +22,7 @@ check_status () {
 #path_name="Scratch_W${label_weight}_S${sample_ratio}_R${random_seed}"
 path_name="W${label_weight}_S${sample_ratio}_R${random_seed}"
 
-#rm -rf ./data/BC5CDR/finetune/$path_name
+rm -rf ./data/BC5CDR/finetune/$path_name
 
 echo $path_name
 
@@ -31,7 +31,6 @@ check_status $?
 
 sh ./scripts/bc5cdr_segmentation_train_finetune.sh $path_name  
 check_status $?
-
 
 sh ./scripts/bc5cdr_span_classification_train.sh $path_name
 check_status $?

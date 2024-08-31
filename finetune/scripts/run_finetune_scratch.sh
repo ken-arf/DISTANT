@@ -29,10 +29,8 @@ check_status $?
 sh ./scripts/bc5cdr_segmentation_train_finetune.sh $path_name  
 check_status $?
 
-
 sh ./scripts/bc5cdr_span_classification_train.sh $path_name
 check_status $?
-
 
 sh ./scripts/bc5cdr_evaluate_test.sh $path_name
 check_status $?

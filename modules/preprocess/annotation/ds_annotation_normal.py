@@ -32,8 +32,6 @@ import pandas as pd
 import editdistance as ed
 
 import spacy
-from scispacy.abbreviation import AbbreviationDetector
-import scispacy
 from spacy.lang.en import English
 
 import nltk

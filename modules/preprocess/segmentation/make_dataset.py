@@ -7,7 +7,6 @@ import os
 import re
 import glob
 import spacy
-import scispacy
 import time
 import pandas as pd
 from collections import defaultdict

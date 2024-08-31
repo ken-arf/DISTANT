@@ -1,6 +1,5 @@
 import pandas as pd
 import spacy
-import scispacy
 import os
 import time
 import pickle

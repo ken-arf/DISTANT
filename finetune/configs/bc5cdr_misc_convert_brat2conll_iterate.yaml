@@ -2,14 +2,14 @@
 
 # data path
 task_name: bc5cdr 
-cnt: 10
-iteration: 10
+cnt: 2
+iteration: 3
 
 text_dir: data/BC5CDR/eval/text
 
 ann_dir: 
-    - data/BC5CDR/eval/annotate.It_W1_S1.0_R1_10_10
-#   - data/BC5CDR/eval/annotate.It_W1_S1.0_R1
+    - data/BC5CDR/eval/annotate.It_W6_S0.3_R1_3_2
+#   - data/BC5CDR/eval/annotate.It_W6_S0.3_R1
 #    - data/BC5CDR/eval/annotate.autoner
 #    - data/BC5CDR/eval/annotate.supervised
 #    - data/BC5CDR/eval/annotate.debug

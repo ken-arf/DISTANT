@@ -5,13 +5,13 @@ seed=("1")
 declare -a ratio_iteration=("0.1 1" "0.2 2" "0.3 3" "0.4 4" "0.5 5")
 declare -a ratio_iteration=("0.1 1" "0.2 2")
 declare -a ratio_iteration=("0.3 3" "0.4 4" "0.5 5")
-
-#declare -a ratio_iteration=("0.5 5")
-declare -a ratio_iteration=("1.0 10")
+declare -a ratio_iteration=("0.1 1" "0.2 2" "0.3 3" "0.4 4" "0.5 5" "0.6 6" "0.7 7" "0.8 8" "0.9 9" "1.0 10")
+declare -a ratio_iteration=("0.1 1")
+declare -a ratio_iteration=("0.2 2" "0.3 3" "0.4 4" "0.5 5" "0.6 6" "0.7 7" "0.8 8" "0.9 9" "1.0 10")
 
 #ratio=("0.1")
 #label_weights=("2" "3" "4" "5" "6" "7" "8" "9" "10")
-label_weight=1
+label_weight=6
 
 for random_seed in "${seed[@]}"; do
     for sample_ratio in "${ratio_iteration[@]}"; do
@@ -23,7 +23,7 @@ for random_seed in "${seed[@]}"; do
         echo "iteration $iteration"
 
         #loop=`seq 1 $iteration`
-        loop=`seq 6 $iteration`
+        loop=`seq 1 $iteration`
         for cnt in $loop; do
             echo "sh ./scripts/run_finetune_iterate.sh $ratio $random_seed $label_weight $iteration $cnt"
             sh ./scripts/run_finetune_iterate.sh $ratio $random_seed $label_weight $iteration $cnt

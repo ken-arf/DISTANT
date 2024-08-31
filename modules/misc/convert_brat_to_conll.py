@@ -7,7 +7,6 @@ import os
 import re
 import glob
 import spacy
-import scispacy
 import pandas as pd
 import time
 from utils import utils

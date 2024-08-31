@@ -6,7 +6,6 @@ import sys
 import os
 import glob
 import spacy
-import scispacy
 from mosestokenizer import *
 import dataclasses
 
